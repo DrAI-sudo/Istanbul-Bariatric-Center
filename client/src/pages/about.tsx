@@ -26,16 +26,9 @@ const doctors = [
     specialties: ["Cosmetic Surgery", "Body Contouring", "Breast Surgery"]
   },
   {
-    name: "Prof. Dr. Erdem Akbal",
-    role: "Interventional Gastroenterologist",
-    image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/01/Untitled-design-3.jpeg",
-    desc: "Skilled gastroenterologist trained at John Hopkins Hospital and Amsterdam Academic Medical Center. Expert in advanced endoscopic procedures.",
-    specialties: ["Endoscopic Sleeve", "Gastric Balloon", "ERCP"]
-  },
-  {
     name: "Dr. Levent Bakisgan",
     role: "General Surgeon-Bariatric Endoscopist",
-    image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/01/B38DCB6B-384F-4670-8E67-A38E040904AE.jpeg",
+    image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/01/Untitled-design-3.jpeg",
     desc: "Well-renowned Surgeon with strong background and expertise in bariatric surgeries. Expert in gastric bypass, sleeve gastrectomy and adjustable gastric banding.",
     specialties: ["General Surgery", "Bariatric Endoscopy"]
   }
