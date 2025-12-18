@@ -1,0 +1,205 @@
+{
+  "common": {
+    "readMore": "Devamını Oku",
+    "backToBlog": "Bloga Dön",
+    "shareArticle": "Bu makaleyi paylaş",
+    "relatedPosts": "İlgili Yazılar",
+    "categories": "Kategoriler",
+    "recentPosts": "Son Yazılar",
+    "searchPosts": "Yazı ara...",
+    "noResults": "Yazı bulunamadı",
+    "allCategories": "Tüm Kategoriler"
+  },
+  "categories": {
+    "newTechnology": "Yeni Teknoloji",
+    "science": "Bilim",
+    "nutrition": "Beslenme",
+    "comparison": "Karşılaştırma",
+    "healthTips": "Sağlık İpuçları",
+    "patientStories": "Hasta Hikayeleri",
+    "medicalNews": "Tıbbi Haberler",
+    "lifestyle": "Yaşam Tarzı"
+  },
+  "posts": {
+    "gastric-fundus-mucosal-ablation-gfma-latest-news": {
+      "title": "Gastrik Fundus Mukosal Ablasyon (GFMA) Son Gelişmeler",
+      "excerpt": "GFMA: Cerrahi Olmayan Kilo Vermede Yeni Bir Dönem. Son çalışmalar, endoskopik bir prosedürün açlığı azaltabileceğini ve hiçbir kesi olmadan cerrahi düzeyinde kilo kaybı sağlayabileceğini gösteriyor."
+    },
+    "scientific-blind-alleys-dietary-fat-sugar-freud-and-adler": {
+      "title": "Bilimsel Çıkmazlar: Diyet Yağı, Şeker, Freud ve Adler",
+      "excerpt": "İki Tarihi Sağlık Efsanesinin Günümüz Obezite Krizini Nasıl Şekillendirdiği — ve Nasıl Düzeltebiliriz."
+    },
+    "minimizer-ring": {
+      "title": "Minimizer Ring: Nedir ve Ne İçin Kullanılır?",
+      "excerpt": "Bariatrik Cerrahide MiniMIZER® Ring: Birincil ve Revizyon Prosedürlerinde Sonuçları İyileştirme."
+    },
+    "five-high-cholesterol-foods-you-should-eat-and-which-ones-to-avoid": {
+      "title": "Yemeniz Gereken Beş Yüksek Kolesterollü Gıda – ve Kaçınmanız Gerekenler",
+      "excerpt": "Yeni araştırmalar, kolesterol açısından zengin tüm gıdaların sizin için kötü olmadığını ortaya koyuyor. Bir kardiyolog neyi yiyip neyi atlayacağınızı açıklıyor."
+    },
+    "weight-loss-treatments-a-holistic-comparison": {
+      "title": "Kilo Verme Tedavileri: Bütünsel Bir Karşılaştırma",
+      "excerpt": "Kilo verme tedavileri her gün yeni ilaçlar, devrimci endoskopik yöntemler ve farklı cerrahi seçeneklerle genişliyor."
+    },
+    "gastric-fundus-ablation-explained": {
+      "title": "Gastrik Fundus Ablasyonu Açıklandı",
+      "excerpt": "Endoskopik Kilo Verme Yönteminde Devrim. Sürdürülebilir kilo kaybı için yeni umut sunan çığır açan, minimal invaziv bir prosedür."
+    },
+    "could-weight-loss-injections-replace-obesity-surgery": {
+      "title": "Kilo Verme Enjeksiyonları Obezite Cerrahisinin Yerini Alabilir mi?",
+      "excerpt": "Obezite tedavisinin geleceğini keşfetmek: Ozempic ve Wegovy gibi GLP-1 ilaçları geleneksel bariatrik cerrahinin yerini alacak mı?"
+    },
+    "body-roundness-index-bri": {
+      "title": "Vücut Yuvarlaklık İndeksi (BRI): Sağlığı Ölçmenin Yeni Bir Yolu",
+      "excerpt": "Vücut Yuvarlaklık İndeksini ve sağlık risklerini değerlendirmede BMI'dan neden daha doğru olabileceğini anlama."
+    },
+    "ultra-processed-foods-and-their-impact-on-your-health": {
+      "title": "Aşırı İşlenmiş Gıdalar ve Sağlığınız Üzerindeki Etkileri",
+      "excerpt": "Aşırı işlenmiş gıdaların kilonuzu, metabolizmanızı ve genel sağlığınızı nasıl etkilediği. Bilmeniz gerekenler."
+    },
+    "comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty": {
+      "title": "Bariatrik Cerrahi ve Endoskopik Sleeve Gastroplasti Karşılaştırması",
+      "excerpt": "Bilinçli bir karar vermenize yardımcı olacak cerrahi ve endoskopik kilo verme seçeneklerinin ayrıntılı karşılaştırması."
+    },
+    "5-things-you-didnt-know-about-bariatric-surgery": {
+      "title": "Bariatrik Cerrahi Hakkında Bilmediğiniz 5 Şey",
+      "excerpt": "Kilo verme prosedürlerine bakış açınızı değiştirebilecek bariatrik cerrahi hakkında şaşırtıcı gerçekler."
+    },
+    "bariatric-surgery-guidelines-updated": {
+      "title": "Bariatrik Cerrahi Kılavuzları Güncellendi",
+      "excerpt": "Bariatrik cerrahi uygunluğu ve prosedürleri için yeni kılavuzlar. Ne değişti ve hastalar için ne anlama geliyor."
+    },
+    "barretts-esophagus-and-increased-risk-after-sleeve-gastrectomy": {
+      "title": "Sleeve Gastrektomi Sonrası Barrett Özofagusu ve Artan Risk",
+      "excerpt": "Sleeve gastrektomi ve Barrett özofagusu riski arasındaki ilişkiyi anlama."
+    },
+    "comprehensive-guide-to-preoperative-medication-management": {
+      "title": "Ameliyat Öncesi İlaç Yönetimi Kapsamlı Rehberi",
+      "excerpt": "Optimal sonuçlar için bariatrik cerrahi öncesi ilaç yönetimi hakkında temel bilgiler."
+    },
+    "leaks-in-bariatric-surgery": {
+      "title": "Bariatrik Cerrahide Kaçaklar: Önleme ve Yönetim",
+      "excerpt": "Bariatrik cerrahi sonrası mide kaçaklarını anlama: nedenler, önleme ve tedavi seçenekleri."
+    },
+    "obesity-and-cancer-risk": {
+      "title": "Obezite ve Kanser Riski: Araştırmalar Ne Gösteriyor",
+      "excerpt": "Obezite ile çeşitli kanser türleri arasındaki bağlantı ve kilo kaybının riskinizi nasıl azaltabileceği."
+    },
+    "15-most-nutrient-dense-foods": {
+      "title": "Bariatrik Hastalar İçin En Besin Değeri Yüksek 15 Gıda",
+      "excerpt": "Optimal sağlık için bariatrik cerrahi sonrası diyetinize dahil etmeniz gereken en besleyici gıdalar."
+    },
+    "bariatric-surgery-nutrition": {
+      "title": "Bariatrik Cerrahi Beslenmesi: Kapsamlı Rehber",
+      "excerpt": "Bariatrik cerrahi öncesi ve sonrası beslenme hakkında bilmeniz gereken her şey."
+    },
+    "leptin-hormone-in-obesity-treatment": {
+      "title": "Obezite Tedavisinde Leptin Hormonu",
+      "excerpt": "Kilo düzenlemesi ve obezite tedavisinde leptinin rolünü anlama."
+    },
+    "bariatric-surgery-pros-and-cons": {
+      "title": "Bariatrik Cerrahi: Artıları ve Eksileri",
+      "excerpt": "Karar vermenize yardımcı olacak bariatrik cerrahinin avantajları ve dezavantajlarına dengeli bir bakış."
+    },
+    "endoscopic-sleeve-gastroplasty-vs-gastric-sleeve": {
+      "title": "Endoskopik Sleeve Gastroplasti vs Gastrik Sleeve",
+      "excerpt": "ESG ve cerrahi sleeve gastrektomi karşılaştırması: Hangi seçenek sizin için doğru?"
+    },
+    "endoscopic-sleeve-gastroplasty-long-term-results": {
+      "title": "Endoskopik Sleeve Gastroplasti: Uzun Vadeli Sonuçlar",
+      "excerpt": "ESG prosedürlerinin uzun vadeli etkinliği hakkında en son araştırmaların gösterdiği."
+    },
+    "endo-band-novel-endoscopic-approach": {
+      "title": "Endo-Band: Yenilikçi Bir Endoskopik Yaklaşım",
+      "excerpt": "Geleneksel cerrahi olmadan kilo kaybı için yenilikçi Endo-Band prosedürünü keşfetme."
+    },
+    "vitamin-mineral-deficiencies-after-gastric-bypass": {
+      "title": "Gastrik Bypass Sonrası Vitamin ve Mineral Eksiklikleri",
+      "excerpt": "Gastrik bypass sonrası yaygın beslenme eksiklikleri ve bunların nasıl önleneceği."
+    },
+    "bariatric-surgery-as-safe-as-other-common-operations": {
+      "title": "Bariatrik Cerrahi Diğer Yaygın Ameliyatlar Kadar Güvenli",
+      "excerpt": "Araştırmalar bariatrik cerrahinin diğer rutin ameliyatlarla karşılaştırılabilir güvenlik profillerine sahip olduğunu gösteriyor."
+    },
+    "grazing-after-bariatric-surgery": {
+      "title": "Bariatrik Cerrahi Sonrası Atıştırma: Alışkanlığı Kırma",
+      "excerpt": "Kilo verme cerrahisi sonrası atıştırma davranışlarını anlama ve aşma."
+    },
+    "bariatric-friendly-christmas-dinner-ideas": {
+      "title": "Bariatrik Dostu Yılbaşı Yemeği Fikirleri",
+      "excerpt": "Bariatrik hastalar için güvenli ve besleyici lezzetli tatil yemeği fikirleri."
+    },
+    "endoscopic-sleeve-gastroplasty-in-class-iii-obesity": {
+      "title": "Sınıf III Obezitede Endoskopik Sleeve Gastroplasti",
+      "excerpt": "ESG'nin şiddetli obezitesi olan hastalara önemli kilo kaybı elde etmede nasıl yardımcı olabileceği."
+    },
+    "pose-endoscopic-sleeve-gastroplasty": {
+      "title": "POSE: Birincil Obezite Cerrahisi Endoskopik",
+      "excerpt": "POSE prosedürünü ve endoskopik kilo vermedeki rolünü anlama."
+    },
+    "endoscopic-sleeve-gastroplasty-game-changer": {
+      "title": "Endoskopik Sleeve Gastroplasti: Oyun Değiştirici",
+      "excerpt": "ESG'nin cerrahi olmayan kilo verme yaklaşımını neden devrimleştirdiği."
+    },
+    "fatty-liver-increases-in-adolescents": {
+      "title": "Ergenlerde Yağlı Karaciğer Artışı",
+      "excerpt": "Gençlerde yağlı karaciğer hastalığının artan yaygınlığı ve obeziteyle bağlantısı."
+    },
+    "bariatric-surgery-18-frequently-asked-questions": {
+      "title": "Bariatrik Cerrahi: 18 Sık Sorulan Soru",
+      "excerpt": "Bariatrik cerrahi prosedürleri ve iyileşme hakkında en yaygın sorulara yanıtlar."
+    },
+    "melatonin-sleep-glucose-metabolism": {
+      "title": "Melatonin, Uyku ve Glukoz Metabolizması",
+      "excerpt": "Uyku kalitesi, melatonin ve kilo yönetimi arasındaki bağlantı."
+    },
+    "argon-plasma-coagulation-weight-regain": {
+      "title": "Kilo Geri Alımı İçin Argon Plazma Koagülasyonu",
+      "excerpt": "APC'nin bariatrik cerrahi sonrası kilo geri alan hastalara nasıl yardımcı olabileceği."
+    },
+    "revisional-bariatric-surgery-in-turkey": {
+      "title": "Türkiye'de Revizyon Bariatrik Cerrahisi",
+      "excerpt": "Önceki bir bariatrik prosedür sonrası revizyon cerrahisine ihtiyaç duyan hastalar için seçenekler."
+    },
+    "marmite-rich-resource-of-vitamin-b": {
+      "title": "Marmite: Zengin B Vitamini Kaynağı",
+      "excerpt": "Marmite'ın bariatrik sonrası diyete neden değerli bir katkı olabileceği."
+    },
+    "ozempic-medical-treatment-of-obesity": {
+      "title": "Ozempic: Obezitenin Tıbbi Tedavisi",
+      "excerpt": "Ozempic'in nasıl çalıştığını ve obezite tedavisindeki rolünü anlama."
+    },
+    "bariclip": {
+      "title": "BariClip: Kilo Vermeye Yeni Bir Yaklaşım",
+      "excerpt": "Gastrik kısıtlama için yenilikçi BariClip cihazını keşfetme."
+    },
+    "elipse-swallowable-intragastric-balloon": {
+      "title": "Elipse: Yutulabilir İntragastrik Balon",
+      "excerpt": "Elipse balonunun endoskopi veya cerrahi olmadan nasıl kilo kaybı sağladığı."
+    },
+    "transit-bipartition-revision-alternative": {
+      "title": "Revizyon Alternatifi Olarak Transit Bipartisyon",
+      "excerpt": "Transit bipartisyonun revizyon cerrahisi için ne zaman doğru seçim olabileceği."
+    },
+    "bariatric-preoperative-diet": {
+      "title": "Bariatrik Ameliyat Öncesi Diyet: Ne Beklemeli",
+      "excerpt": "Vücudunuzu diyet yoluyla bariatrik cerrahiye hazırlamak için kapsamlı bir rehber."
+    },
+    "obese-adults-covid-vaccine-priority": {
+      "title": "Obez Yetişkinler ve COVID Aşısı Önceliği",
+      "excerpt": "Obezitesi olan bireylerin neden COVID-19 aşılaması için önceliklendirildiği."
+    },
+    "why-istanbul-is-an-important-location-for-obesity-surgery": {
+      "title": "İstanbul'un Obezite Cerrahisi İçin Neden Önemli Bir Lokasyon Olduğu",
+      "excerpt": "Bariatrik cerrahi yolculuğunuz için İstanbul'u seçmenin avantajları."
+    },
+    "bariatric-surgery-during-covid-19-pandemic": {
+      "title": "COVID-19 Pandemisi Sırasında Bariatrik Cerrahi",
+      "excerpt": "Bariatrik cerrahinin COVID-19 pandemisi sırasında ve sonrasında nasıl uyum sağladığı."
+    },
+    "nutrition-tips-during-self-quarantine-covid-19": {
+      "title": "Karantina Sırasında Beslenme İpuçları",
+      "excerpt": "Karantina dönemlerinde kiloyu korumak için sağlıklı beslenme stratejileri."
+    }
+  }
+}

@@ -11,7 +11,7 @@ import { useTranslation } from "react-i18next";
 const POSTS_PER_PAGE = 6;
 
 export default function Blog() {
-  const { t } = useTranslation('pages');
+  const { t } = useTranslation(['pages', 'blog']);
   const [currentPage, setCurrentPage] = useState(1);
   
   const totalPages = Math.ceil(blogPosts.length / POSTS_PER_PAGE);
@@ -56,15 +56,25 @@ export default function Blog() {
     return pages;
   };
 
+  const getPostTitle = (slug: string, fallback: string) => {
+    const translated = t(`blog:posts.${slug}.title`, { defaultValue: '' });
+    return translated || fallback;
+  };
+
+  const getPostExcerpt = (slug: string, fallback: string) => {
+    const translated = t(`blog:posts.${slug}.excerpt`, { defaultValue: '' });
+    return translated || fallback;
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
       
       <section className="bg-slate-900 text-white pt-40 pb-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('blog.title')}</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('pages:blog.title')}</h1>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-            {t('blog.subtitle')}
+            {t('pages:blog.subtitle')}
           </p>
         </div>
       </section>
@@ -73,7 +83,7 @@ export default function Blog() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
             <p className="text-slate-500">
-              {t('blog.showing')} {startIndex + 1}-{Math.min(endIndex, blogPosts.length)} {t('blog.of')} {blogPosts.length} {t('blog.articles')}
+              {t('pages:blog.showing')} {startIndex + 1}-{Math.min(endIndex, blogPosts.length)} {t('pages:blog.of')} {blogPosts.length} {t('pages:blog.articles')}
             </p>
           </div>
 
@@ -83,7 +93,7 @@ export default function Blog() {
                 <div className="aspect-video bg-slate-200 relative overflow-hidden">
                    <img 
                      src={post.image} 
-                     alt={post.title}
+                     alt={getPostTitle(post.slug, post.title)}
                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                      onError={(e) => {
                        e.currentTarget.src = "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/gastric-sleeve.png";
@@ -99,16 +109,16 @@ export default function Blog() {
                     {post.date}
                   </div>
                   <CardTitle className="text-xl font-bold text-slate-900 leading-tight group-hover:text-primary transition-colors">
-                    {post.title}
+                    {getPostTitle(post.slug, post.title)}
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="mt-auto">
                   <p className="text-slate-600 text-sm leading-relaxed mb-6">
-                    {post.excerpt}
+                    {getPostExcerpt(post.slug, post.excerpt)}
                   </p>
                   <Link href={`/blog/${post.slug}`}>
                     <Button variant="link" className="p-0 h-auto text-primary font-bold hover:no-underline hover:text-primary/80" data-testid={`button-read-more-${post.slug}`}>
-                      {t('blog.readMore')} &rarr;
+                      {t('blog:common.readMore')} &rarr;
                     </Button>
                   </Link>
                 </CardContent>
@@ -126,7 +136,7 @@ export default function Blog() {
               data-testid="button-previous"
             >
               <ChevronLeft className="w-4 h-4" />
-              {t('blog.previous')}
+              {t('pages:blog.previous')}
             </Button>
 
             <div className="flex items-center gap-1 mx-4">
@@ -156,7 +166,7 @@ export default function Blog() {
               className="flex items-center gap-1"
               data-testid="button-next"
             >
-              {t('blog.next')}
+              {t('pages:blog.next')}
               <ChevronRight className="w-4 h-4" />
             </Button>
           </div>

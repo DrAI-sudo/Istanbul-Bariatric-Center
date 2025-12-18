@@ -4,10 +4,17 @@ import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { Calendar, ArrowLeft, User, Clock } from "lucide-react";
 import { getBlogPostBySlug, blogPosts } from "@/data/blog-posts";
+import { useTranslation } from "react-i18next";
 
 export default function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
+  const { t } = useTranslation('blog');
   const post = getBlogPostBySlug(slug || "");
+
+  const getPostTitle = (postSlug: string, fallback: string) => {
+    const translated = t(`posts.${postSlug}.title`, { defaultValue: '' });
+    return translated || fallback;
+  };
 
   if (!post) {
     return (
@@ -15,12 +22,12 @@ export default function BlogPost() {
         <Navbar />
         <section className="py-40 text-center">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl font-bold mb-4">Post Not Found</h1>
+            <h1 className="text-4xl font-bold mb-4">{t('common.noResults')}</h1>
             <p className="text-slate-600 mb-8">The blog post you're looking for doesn't exist.</p>
             <Link href="/blog">
               <Button data-testid="button-back-to-blog">
                 <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
+                {t('common.backToBlog')}
               </Button>
             </Link>
           </div>
@@ -44,7 +51,7 @@ export default function BlogPost() {
             <Link href="/blog">
               <Button variant="ghost" className="mb-8 text-primary hover:text-primary/80" data-testid="button-back-to-blog">
                 <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
+                {t('common.backToBlog')}
               </Button>
             </Link>
 
@@ -53,7 +60,7 @@ export default function BlogPost() {
                 {post.category}
               </span>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary leading-tight mb-6" data-testid="text-post-title">
-                {post.title}
+                {getPostTitle(post.slug, post.title)}
               </h1>
               <div className="flex flex-wrap items-center gap-6 text-slate-500 border-b border-slate-200 pb-6">
                 <div className="flex items-center gap-2">
@@ -80,7 +87,7 @@ export default function BlogPost() {
             <div className="aspect-video bg-slate-200 rounded-2xl overflow-hidden mb-12 shadow-2xl ring-1 ring-slate-200">
               <img 
                 src={post.image} 
-                alt={post.title}
+                alt={getPostTitle(post.slug, post.title)}
                 className="w-full h-full object-cover"
                 onError={(e) => {
                   e.currentTarget.src = "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/gastric-sleeve.png";
@@ -100,7 +107,7 @@ export default function BlogPost() {
                     <div className="p-4 border border-slate-200 rounded-lg hover:border-primary transition-colors group">
                       <span className="text-sm text-slate-400 mb-1 block">Previous Article</span>
                       <span className="font-semibold text-slate-900 group-hover:text-primary transition-colors line-clamp-2">
-                        {prevPost.title}
+                        {getPostTitle(prevPost.slug, prevPost.title)}
                       </span>
                     </div>
                   </Link>
@@ -111,7 +118,7 @@ export default function BlogPost() {
                     <div className="p-4 border border-slate-200 rounded-lg hover:border-primary transition-colors group text-right">
                       <span className="text-sm text-slate-400 mb-1 block">Next Article</span>
                       <span className="font-semibold text-slate-900 group-hover:text-primary transition-colors line-clamp-2">
-                        {nextPost.title}
+                        {getPostTitle(nextPost.slug, nextPost.title)}
                       </span>
                     </div>
                   </Link>

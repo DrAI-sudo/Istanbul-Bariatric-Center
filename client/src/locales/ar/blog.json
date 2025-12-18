@@ -1,0 +1,205 @@
+{
+  "common": {
+    "readMore": "اقرأ المزيد",
+    "backToBlog": "العودة إلى المدونة",
+    "shareArticle": "شارك هذا المقال",
+    "relatedPosts": "مقالات ذات صلة",
+    "categories": "الفئات",
+    "recentPosts": "أحدث المقالات",
+    "searchPosts": "ابحث عن مقالات...",
+    "noResults": "لم يتم العثور على مقالات",
+    "allCategories": "جميع الفئات"
+  },
+  "categories": {
+    "newTechnology": "تكنولوجيا جديدة",
+    "science": "علوم",
+    "nutrition": "تغذية",
+    "comparison": "مقارنة",
+    "healthTips": "نصائح صحية",
+    "patientStories": "قصص المرضى",
+    "medicalNews": "أخبار طبية",
+    "lifestyle": "نمط الحياة"
+  },
+  "posts": {
+    "gastric-fundus-mucosal-ablation-gfma-latest-news": {
+      "title": "استئصال الغشاء المخاطي لقاع المعدة (GFMA): آخر الأخبار",
+      "excerpt": "GFMA: عصر جديد في فقدان الوزن غير الجراحي. تشير الدراسات الحديثة إلى أن إجراء بالمنظار يمكن أن يكبح الجوع ويحقق فقدان وزن بمستوى جراحي دون أي شقوق."
+    },
+    "scientific-blind-alleys-dietary-fat-sugar-freud-and-adler": {
+      "title": "طرق علمية مسدودة: الدهون الغذائية، السكر، فرويد وأدلر",
+      "excerpt": "كيف شكّل أسطورتان صحيتان تاريخيتان أزمة السمنة الحالية — وكيف يمكننا إصلاحها."
+    },
+    "minimizer-ring": {
+      "title": "حلقة Minimizer: ما هي وما استخداماتها؟",
+      "excerpt": "حلقة MiniMIZER® في جراحة السمنة: تحسين النتائج في الإجراءات الأولية والمراجعة."
+    },
+    "five-high-cholesterol-foods-you-should-eat-and-which-ones-to-avoid": {
+      "title": "خمسة أطعمة عالية الكوليسترول يجب أن تتناولها – وأيها تتجنب",
+      "excerpt": "تكشف الأبحاث الجديدة أن ليس كل الأطعمة الغنية بالكوليسترول سيئة لك. طبيب قلب يشرح ما يجب تناوله وما يجب تجنبه."
+    },
+    "weight-loss-treatments-a-holistic-comparison": {
+      "title": "علاجات فقدان الوزن: مقارنة شاملة",
+      "excerpt": "تتوسع علاجات فقدان الوزن كل يوم مع أدوية جديدة وطرق تنظيرية ثورية وخيارات جراحية مختلفة."
+    },
+    "gastric-fundus-ablation-explained": {
+      "title": "شرح استئصال قاع المعدة",
+      "excerpt": "ثورة في طريقة فقدان الوزن بالمنظار. إجراء مبتكر وطفيف التوغل يوفر أملاً جديداً لفقدان الوزن المستدام."
+    },
+    "could-weight-loss-injections-replace-obesity-surgery": {
+      "title": "هل يمكن أن تحل حقن فقدان الوزن محل جراحة السمنة؟",
+      "excerpt": "استكشاف مستقبل علاج السمنة: هل ستحل أدوية GLP-1 مثل Ozempic و Wegovy محل جراحة السمنة التقليدية؟"
+    },
+    "body-roundness-index-bri": {
+      "title": "مؤشر استدارة الجسم (BRI): طريقة جديدة لقياس الصحة",
+      "excerpt": "فهم مؤشر استدارة الجسم ولماذا قد يكون أكثر دقة من مؤشر كتلة الجسم لتقييم المخاطر الصحية."
+    },
+    "ultra-processed-foods-and-their-impact-on-your-health": {
+      "title": "الأطعمة فائقة المعالجة وتأثيرها على صحتك",
+      "excerpt": "كيف تؤثر الأطعمة فائقة المعالجة على وزنك والتمثيل الغذائي والصحة العامة. ما تحتاج معرفته."
+    },
+    "comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty": {
+      "title": "مقارنة جراحة السمنة وتكميم المعدة بالمنظار",
+      "excerpt": "مقارنة تفصيلية بين الخيارات الجراحية والتنظيرية لفقدان الوزن لمساعدتك على اتخاذ قرار مستنير."
+    },
+    "5-things-you-didnt-know-about-bariatric-surgery": {
+      "title": "5 أشياء لم تكن تعرفها عن جراحة السمنة",
+      "excerpt": "حقائق مفاجئة عن جراحة السمنة قد تغير نظرتك لإجراءات فقدان الوزن."
+    },
+    "bariatric-surgery-guidelines-updated": {
+      "title": "تحديث إرشادات جراحة السمنة",
+      "excerpt": "إرشادات جديدة لأهلية وإجراءات جراحة السمنة. ما الذي تغير وماذا يعني للمرضى."
+    },
+    "barretts-esophagus-and-increased-risk-after-sleeve-gastrectomy": {
+      "title": "مريء باريت وزيادة الخطر بعد تكميم المعدة",
+      "excerpt": "فهم العلاقة بين تكميم المعدة وخطر مريء باريت."
+    },
+    "comprehensive-guide-to-preoperative-medication-management": {
+      "title": "دليل شامل لإدارة الأدوية قبل الجراحة",
+      "excerpt": "معلومات أساسية حول إدارة الأدوية قبل جراحة السمنة للحصول على نتائج مثالية."
+    },
+    "leaks-in-bariatric-surgery": {
+      "title": "التسريبات في جراحة السمنة: الوقاية والإدارة",
+      "excerpt": "فهم تسريبات المعدة بعد جراحة السمنة: الأسباب والوقاية وخيارات العلاج."
+    },
+    "obesity-and-cancer-risk": {
+      "title": "السمنة وخطر السرطان: ما تظهره الأبحاث",
+      "excerpt": "الرابط بين السمنة وأنواع مختلفة من السرطان، وكيف يمكن لفقدان الوزن أن يقلل من خطرك."
+    },
+    "15-most-nutrient-dense-foods": {
+      "title": "أكثر 15 طعاماً غنياً بالعناصر الغذائية لمرضى ما بعد السمنة",
+      "excerpt": "أكثر الأطعمة المغذية لإدراجها في نظامك الغذائي بعد جراحة السمنة للحصول على صحة مثالية."
+    },
+    "bariatric-surgery-nutrition": {
+      "title": "تغذية جراحة السمنة: دليل كامل",
+      "excerpt": "كل ما تحتاج معرفته عن التغذية قبل وبعد جراحة السمنة."
+    },
+    "leptin-hormone-in-obesity-treatment": {
+      "title": "هرمون اللبتين في علاج السمنة",
+      "excerpt": "فهم دور اللبتين في تنظيم الوزن وعلاج السمنة."
+    },
+    "bariatric-surgery-pros-and-cons": {
+      "title": "جراحة السمنة: الإيجابيات والسلبيات",
+      "excerpt": "نظرة متوازنة على مزايا وعيوب جراحة السمنة لمساعدتك على اتخاذ القرار."
+    },
+    "endoscopic-sleeve-gastroplasty-vs-gastric-sleeve": {
+      "title": "تكميم المعدة بالمنظار مقابل تكميم المعدة الجراحي",
+      "excerpt": "مقارنة ESG وتكميم المعدة الجراحي: أي خيار مناسب لك؟"
+    },
+    "endoscopic-sleeve-gastroplasty-long-term-results": {
+      "title": "تكميم المعدة بالمنظار: النتائج طويلة المدى",
+      "excerpt": "ما تظهره أحدث الأبحاث حول الفعالية طويلة المدى لإجراءات ESG."
+    },
+    "endo-band-novel-endoscopic-approach": {
+      "title": "Endo-Band: نهج تنظيري مبتكر",
+      "excerpt": "استكشاف إجراء Endo-Band المبتكر لفقدان الوزن بدون جراحة تقليدية."
+    },
+    "vitamin-mineral-deficiencies-after-gastric-bypass": {
+      "title": "نقص الفيتامينات والمعادن بعد تحويل مسار المعدة",
+      "excerpt": "نقص التغذية الشائع بعد تحويل مسار المعدة وكيفية الوقاية منه."
+    },
+    "bariatric-surgery-as-safe-as-other-common-operations": {
+      "title": "جراحة السمنة آمنة مثل العمليات الشائعة الأخرى",
+      "excerpt": "تظهر الأبحاث أن جراحة السمنة لها مستويات أمان مماثلة للعمليات الجراحية الروتينية الأخرى."
+    },
+    "grazing-after-bariatric-surgery": {
+      "title": "الأكل المتكرر بعد جراحة السمنة: كسر العادة",
+      "excerpt": "فهم وتجاوز سلوكيات الأكل المتكرر بعد جراحة فقدان الوزن."
+    },
+    "bariatric-friendly-christmas-dinner-ideas": {
+      "title": "أفكار عشاء عيد الميلاد المناسبة لمرضى السمنة",
+      "excerpt": "أفكار وجبات عطلات لذيذة آمنة ومغذية لمرضى السمنة."
+    },
+    "endoscopic-sleeve-gastroplasty-in-class-iii-obesity": {
+      "title": "تكميم المعدة بالمنظار في السمنة من الدرجة الثالثة",
+      "excerpt": "كيف يمكن أن يساعد ESG المرضى الذين يعانون من السمنة الشديدة على تحقيق فقدان وزن كبير."
+    },
+    "pose-endoscopic-sleeve-gastroplasty": {
+      "title": "POSE: جراحة السمنة الأولية بالمنظار",
+      "excerpt": "فهم إجراء POSE ودوره في فقدان الوزن بالمنظار."
+    },
+    "endoscopic-sleeve-gastroplasty-game-changer": {
+      "title": "تكميم المعدة بالمنظار: تغيير قواعد اللعبة",
+      "excerpt": "لماذا يحدث ESG ثورة في نهج فقدان الوزن غير الجراحي."
+    },
+    "fatty-liver-increases-in-adolescents": {
+      "title": "زيادة الكبد الدهني لدى المراهقين",
+      "excerpt": "تزايد انتشار مرض الكبد الدهني لدى الشباب وارتباطه بالسمنة."
+    },
+    "bariatric-surgery-18-frequently-asked-questions": {
+      "title": "جراحة السمنة: 18 سؤالاً شائعاً",
+      "excerpt": "إجابات على الأسئلة الأكثر شيوعاً حول إجراءات جراحة السمنة والتعافي."
+    },
+    "melatonin-sleep-glucose-metabolism": {
+      "title": "الميلاتونين والنوم واستقلاب الجلوكوز",
+      "excerpt": "العلاقة بين جودة النوم والميلاتونين وإدارة الوزن."
+    },
+    "argon-plasma-coagulation-weight-regain": {
+      "title": "التخثر بالبلازما الأرجون لاستعادة الوزن",
+      "excerpt": "كيف يمكن أن يساعد APC المرضى الذين استعادوا الوزن بعد جراحة السمنة."
+    },
+    "revisional-bariatric-surgery-in-turkey": {
+      "title": "جراحة السمنة التنقيحية في تركيا",
+      "excerpt": "خيارات للمرضى الذين يحتاجون إلى جراحة مراجعة بعد إجراء سمنة سابق."
+    },
+    "marmite-rich-resource-of-vitamin-b": {
+      "title": "المارميت: مصدر غني بفيتامين ب",
+      "excerpt": "لماذا يمكن أن يكون المارميت إضافة قيمة للنظام الغذائي بعد جراحة السمنة."
+    },
+    "ozempic-medical-treatment-of-obesity": {
+      "title": "أوزمبيك: العلاج الطبي للسمنة",
+      "excerpt": "فهم كيفية عمل أوزمبيك ودوره في علاج السمنة."
+    },
+    "bariclip": {
+      "title": "BariClip: نهج جديد لفقدان الوزن",
+      "excerpt": "استكشاف جهاز BariClip المبتكر لتقييد المعدة."
+    },
+    "elipse-swallowable-intragastric-balloon": {
+      "title": "Elipse: بالون المعدة القابل للبلع",
+      "excerpt": "كيف يوفر بالون Elipse فقدان الوزن بدون تنظير أو جراحة."
+    },
+    "transit-bipartition-revision-alternative": {
+      "title": "التقسيم العابر كبديل للمراجعة",
+      "excerpt": "متى يمكن أن يكون التقسيم العابر هو الخيار الصحيح لجراحة المراجعة."
+    },
+    "bariatric-preoperative-diet": {
+      "title": "النظام الغذائي قبل جراحة السمنة: ماذا تتوقع",
+      "excerpt": "دليل شامل لتحضير جسمك لجراحة السمنة من خلال النظام الغذائي."
+    },
+    "obese-adults-covid-vaccine-priority": {
+      "title": "البالغون المصابون بالسمنة وأولوية لقاح كوفيد",
+      "excerpt": "لماذا تم إعطاء الأولوية للأشخاص المصابين بالسمنة للتطعيم ضد كوفيد-19."
+    },
+    "why-istanbul-is-an-important-location-for-obesity-surgery": {
+      "title": "لماذا إسطنبول موقع مهم لجراحة السمنة",
+      "excerpt": "مزايا اختيار إسطنبول لرحلة جراحة السمنة الخاصة بك."
+    },
+    "bariatric-surgery-during-covid-19-pandemic": {
+      "title": "جراحة السمنة خلال جائحة كوفيد-19",
+      "excerpt": "كيف تكيفت جراحة السمنة خلال وبعد جائحة كوفيد-19."
+    },
+    "nutrition-tips-during-self-quarantine-covid-19": {
+      "title": "نصائح التغذية أثناء الحجر الصحي",
+      "excerpt": "استراتيجيات الأكل الصحي للحفاظ على الوزن خلال فترات الحجر."
+    }
+  }
+}

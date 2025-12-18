@@ -1,0 +1,205 @@
+{
+  "common": {
+    "readMore": "Read More",
+    "backToBlog": "Back to Blog",
+    "shareArticle": "Share this article",
+    "relatedPosts": "Related Posts",
+    "categories": "Categories",
+    "recentPosts": "Recent Posts",
+    "searchPosts": "Search posts...",
+    "noResults": "No posts found",
+    "allCategories": "All Categories"
+  },
+  "categories": {
+    "newTechnology": "New Technology",
+    "science": "Science",
+    "nutrition": "Nutrition",
+    "comparison": "Comparison",
+    "healthTips": "Health Tips",
+    "patientStories": "Patient Stories",
+    "medicalNews": "Medical News",
+    "lifestyle": "Lifestyle"
+  },
+  "posts": {
+    "gastric-fundus-mucosal-ablation-gfma-latest-news": {
+      "title": "Gastric Fundus Mucosal Ablation (GFMA) Latest News",
+      "excerpt": "GFMA: A New Era in Non-Surgical Weight Loss. Recent studies suggest an endoscopic procedure could curb hunger and achieve surgical-level weight loss without any incisions."
+    },
+    "scientific-blind-alleys-dietary-fat-sugar-freud-and-adler": {
+      "title": "Scientific Blind Alleys: Dietary Fat, Sugar, Freud, and Adler",
+      "excerpt": "How Two Historic Health Myths Shaped Today's Obesity Crisis — and How We Can Fix It."
+    },
+    "minimizer-ring": {
+      "title": "Minimizer Ring: What is it and what is it used for?",
+      "excerpt": "The MiniMIZER® Ring in Bariatric Surgery: Enhancing Outcomes in Primary and Revisional Procedures."
+    },
+    "five-high-cholesterol-foods-you-should-eat-and-which-ones-to-avoid": {
+      "title": "Five High-Cholesterol Foods You Should Eat – and Which Ones to Avoid",
+      "excerpt": "New research reveals that not all cholesterol-rich foods are bad for you. A cardiologist helps explain what to eat and what to skip."
+    },
+    "weight-loss-treatments-a-holistic-comparison": {
+      "title": "Weight Loss Treatments: A Holistic Comparison",
+      "excerpt": "Weight loss treatments broadening every day with new medications, revolutionary endoscopic methods and different variations of surgical options."
+    },
+    "gastric-fundus-ablation-explained": {
+      "title": "Gastric Fundus Ablation Explained",
+      "excerpt": "Revolutionizing Endoscopic Weight Loss Method. A groundbreaking, minimally invasive procedure offering new hope for sustainable weight loss."
+    },
+    "could-weight-loss-injections-replace-obesity-surgery": {
+      "title": "Could Weight Loss Injections Replace Obesity Surgery?",
+      "excerpt": "Exploring the future of obesity treatment: Will GLP-1 medications like Ozempic and Wegovy replace traditional bariatric surgery?"
+    },
+    "body-roundness-index-bri": {
+      "title": "Body Roundness Index (BRI): A New Way to Measure Health",
+      "excerpt": "Understanding the Body Roundness Index and why it may be more accurate than BMI for assessing health risks."
+    },
+    "ultra-processed-foods-and-their-impact-on-your-health": {
+      "title": "Ultra-Processed Foods and Their Impact on Your Health",
+      "excerpt": "How ultra-processed foods affect your weight, metabolism, and overall health. What you need to know."
+    },
+    "comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty": {
+      "title": "Comparing Bariatric Surgery and Endoscopic Sleeve Gastroplasty",
+      "excerpt": "A detailed comparison of surgical and endoscopic weight loss options to help you make an informed decision."
+    },
+    "5-things-you-didnt-know-about-bariatric-surgery": {
+      "title": "5 Things You Didn't Know About Bariatric Surgery",
+      "excerpt": "Surprising facts about bariatric surgery that could change your perspective on weight loss procedures."
+    },
+    "bariatric-surgery-guidelines-updated": {
+      "title": "Bariatric Surgery Guidelines Updated",
+      "excerpt": "New guidelines for bariatric surgery eligibility and procedures. What has changed and what it means for patients."
+    },
+    "barretts-esophagus-and-increased-risk-after-sleeve-gastrectomy": {
+      "title": "Barrett's Esophagus and Increased Risk After Sleeve Gastrectomy",
+      "excerpt": "Understanding the relationship between sleeve gastrectomy and Barrett's esophagus risk."
+    },
+    "comprehensive-guide-to-preoperative-medication-management": {
+      "title": "Comprehensive Guide to Preoperative Medication Management",
+      "excerpt": "Essential information about managing medications before bariatric surgery for optimal outcomes."
+    },
+    "leaks-in-bariatric-surgery": {
+      "title": "Leaks in Bariatric Surgery: Prevention and Management",
+      "excerpt": "Understanding gastric leaks after bariatric surgery: causes, prevention, and treatment options."
+    },
+    "obesity-and-cancer-risk": {
+      "title": "Obesity and Cancer Risk: What the Research Shows",
+      "excerpt": "The link between obesity and various types of cancer, and how weight loss can reduce your risk."
+    },
+    "15-most-nutrient-dense-foods": {
+      "title": "15 Most Nutrient-Dense Foods for Post-Bariatric Patients",
+      "excerpt": "The most nutritious foods to include in your diet after bariatric surgery for optimal health."
+    },
+    "bariatric-surgery-nutrition": {
+      "title": "Bariatric Surgery Nutrition: A Complete Guide",
+      "excerpt": "Everything you need to know about nutrition before and after bariatric surgery."
+    },
+    "leptin-hormone-in-obesity-treatment": {
+      "title": "Leptin Hormone in Obesity Treatment",
+      "excerpt": "Understanding the role of leptin in weight regulation and obesity treatment."
+    },
+    "bariatric-surgery-pros-and-cons": {
+      "title": "Bariatric Surgery: Pros and Cons",
+      "excerpt": "A balanced look at the advantages and disadvantages of bariatric surgery to help you decide."
+    },
+    "endoscopic-sleeve-gastroplasty-vs-gastric-sleeve": {
+      "title": "Endoscopic Sleeve Gastroplasty vs Gastric Sleeve",
+      "excerpt": "Comparing ESG and surgical sleeve gastrectomy: Which option is right for you?"
+    },
+    "endoscopic-sleeve-gastroplasty-long-term-results": {
+      "title": "Endoscopic Sleeve Gastroplasty: Long-Term Results",
+      "excerpt": "What the latest research shows about the long-term effectiveness of ESG procedures."
+    },
+    "endo-band-novel-endoscopic-approach": {
+      "title": "Endo-Band: A Novel Endoscopic Approach",
+      "excerpt": "Exploring the innovative Endo-Band procedure for weight loss without traditional surgery."
+    },
+    "vitamin-mineral-deficiencies-after-gastric-bypass": {
+      "title": "Vitamin and Mineral Deficiencies After Gastric Bypass",
+      "excerpt": "Common nutritional deficiencies after gastric bypass and how to prevent them."
+    },
+    "bariatric-surgery-as-safe-as-other-common-operations": {
+      "title": "Bariatric Surgery as Safe as Other Common Operations",
+      "excerpt": "Research shows bariatric surgery has comparable safety profiles to other routine surgeries."
+    },
+    "grazing-after-bariatric-surgery": {
+      "title": "Grazing After Bariatric Surgery: Breaking the Habit",
+      "excerpt": "Understanding and overcoming grazing behaviors after weight loss surgery."
+    },
+    "bariatric-friendly-christmas-dinner-ideas": {
+      "title": "Bariatric-Friendly Christmas Dinner Ideas",
+      "excerpt": "Delicious holiday meal ideas that are safe and nutritious for bariatric patients."
+    },
+    "endoscopic-sleeve-gastroplasty-in-class-iii-obesity": {
+      "title": "Endoscopic Sleeve Gastroplasty in Class III Obesity",
+      "excerpt": "How ESG can help patients with severe obesity achieve significant weight loss."
+    },
+    "pose-endoscopic-sleeve-gastroplasty": {
+      "title": "POSE: Primary Obesity Surgery Endoscopic",
+      "excerpt": "Understanding the POSE procedure and its role in endoscopic weight loss."
+    },
+    "endoscopic-sleeve-gastroplasty-game-changer": {
+      "title": "Endoscopic Sleeve Gastroplasty: A Game Changer",
+      "excerpt": "Why ESG is revolutionizing the approach to non-surgical weight loss."
+    },
+    "fatty-liver-increases-in-adolescents": {
+      "title": "Fatty Liver Increases in Adolescents",
+      "excerpt": "The rising prevalence of fatty liver disease in young people and its connection to obesity."
+    },
+    "bariatric-surgery-18-frequently-asked-questions": {
+      "title": "Bariatric Surgery: 18 Frequently Asked Questions",
+      "excerpt": "Answers to the most common questions about bariatric surgery procedures and recovery."
+    },
+    "melatonin-sleep-glucose-metabolism": {
+      "title": "Melatonin, Sleep, and Glucose Metabolism",
+      "excerpt": "The connection between sleep quality, melatonin, and weight management."
+    },
+    "argon-plasma-coagulation-weight-regain": {
+      "title": "Argon Plasma Coagulation for Weight Regain",
+      "excerpt": "How APC can help patients who have regained weight after bariatric surgery."
+    },
+    "revisional-bariatric-surgery-in-turkey": {
+      "title": "Revisional Bariatric Surgery in Turkey",
+      "excerpt": "Options for patients who need revision surgery after a previous bariatric procedure."
+    },
+    "marmite-rich-resource-of-vitamin-b": {
+      "title": "Marmite: A Rich Resource of Vitamin B",
+      "excerpt": "Why Marmite can be a valuable addition to the post-bariatric diet."
+    },
+    "ozempic-medical-treatment-of-obesity": {
+      "title": "Ozempic: Medical Treatment of Obesity",
+      "excerpt": "Understanding how Ozempic works and its role in obesity treatment."
+    },
+    "bariclip": {
+      "title": "BariClip: A New Approach to Weight Loss",
+      "excerpt": "Exploring the innovative BariClip device for gastric restriction."
+    },
+    "elipse-swallowable-intragastric-balloon": {
+      "title": "Elipse: The Swallowable Intragastric Balloon",
+      "excerpt": "How the Elipse balloon offers weight loss without endoscopy or surgery."
+    },
+    "transit-bipartition-revision-alternative": {
+      "title": "Transit Bipartition as a Revision Alternative",
+      "excerpt": "When transit bipartition can be the right choice for revision surgery."
+    },
+    "bariatric-preoperative-diet": {
+      "title": "Bariatric Preoperative Diet: What to Expect",
+      "excerpt": "A complete guide to preparing your body for bariatric surgery through diet."
+    },
+    "obese-adults-covid-vaccine-priority": {
+      "title": "Obese Adults and COVID Vaccine Priority",
+      "excerpt": "Why individuals with obesity were prioritized for COVID-19 vaccination."
+    },
+    "why-istanbul-is-an-important-location-for-obesity-surgery": {
+      "title": "Why Istanbul is an Important Location for Obesity Surgery",
+      "excerpt": "The advantages of choosing Istanbul for your bariatric surgery journey."
+    },
+    "bariatric-surgery-during-covid-19-pandemic": {
+      "title": "Bariatric Surgery During COVID-19 Pandemic",
+      "excerpt": "How bariatric surgery has adapted during and after the COVID-19 pandemic."
+    },
+    "nutrition-tips-during-self-quarantine-covid-19": {
+      "title": "Nutrition Tips During Self-Quarantine",
+      "excerpt": "Healthy eating strategies for maintaining weight during quarantine periods."
+    }
+  }
+}

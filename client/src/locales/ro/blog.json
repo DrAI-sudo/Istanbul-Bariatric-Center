@@ -1,0 +1,205 @@
+{
+  "common": {
+    "readMore": "Citește Mai Mult",
+    "backToBlog": "Înapoi la Blog",
+    "shareArticle": "Distribuie acest articol",
+    "relatedPosts": "Articole Conexe",
+    "categories": "Categorii",
+    "recentPosts": "Articole Recente",
+    "searchPosts": "Caută articole...",
+    "noResults": "Niciun articol găsit",
+    "allCategories": "Toate Categoriile"
+  },
+  "categories": {
+    "newTechnology": "Tehnologie Nouă",
+    "science": "Știință",
+    "nutrition": "Nutriție",
+    "comparison": "Comparație",
+    "healthTips": "Sfaturi pentru Sănătate",
+    "patientStories": "Povești ale Pacienților",
+    "medicalNews": "Știri Medicale",
+    "lifestyle": "Stil de Viață"
+  },
+  "posts": {
+    "gastric-fundus-mucosal-ablation-gfma-latest-news": {
+      "title": "Ablația Mucoasei Fundusului Gastric (GFMA): Ultimele Știri",
+      "excerpt": "GFMA: O Nouă Eră în Pierderea în Greutate Non-Chirurgicală. Studii recente sugerează că o procedură endoscopică ar putea reduce foamea și atinge pierderea în greutate la nivel chirurgical fără incizii."
+    },
+    "scientific-blind-alleys-dietary-fat-sugar-freud-and-adler": {
+      "title": "Fundături Științifice: Grăsimi Alimentare, Zahăr, Freud și Adler",
+      "excerpt": "Cum Două Mituri Istorice de Sănătate Au Modelat Criza Actuală a Obezității — și Cum O Putem Rezolva."
+    },
+    "minimizer-ring": {
+      "title": "Inelul Minimizer: Ce este și pentru ce se folosește?",
+      "excerpt": "Inelul MiniMIZER® în Chirurgia Bariatrică: Îmbunătățirea Rezultatelor în Procedurile Primare și de Revizie."
+    },
+    "five-high-cholesterol-foods-you-should-eat-and-which-ones-to-avoid": {
+      "title": "Cinci Alimente cu Colesterol Ridicat pe Care ar Trebui să le Mănânci – și Ce să Eviți",
+      "excerpt": "Cercetări noi dezvăluie că nu toate alimentele bogate în colesterol sunt rele pentru tine. Un cardiolog explică ce să mănânci și ce să eviți."
+    },
+    "weight-loss-treatments-a-holistic-comparison": {
+      "title": "Tratamente pentru Pierderea în Greutate: O Comparație Holistică",
+      "excerpt": "Tratamentele pentru pierderea în greutate se extind în fiecare zi cu noi medicamente, metode endoscopice revoluționare și diferite opțiuni chirurgicale."
+    },
+    "gastric-fundus-ablation-explained": {
+      "title": "Ablația Fundusului Gastric Explicată",
+      "excerpt": "Revoluționarea Metodei Endoscopice de Pierdere în Greutate. O procedură inovatoare, minim invazivă, care oferă o nouă speranță pentru pierderea în greutate durabilă."
+    },
+    "could-weight-loss-injections-replace-obesity-surgery": {
+      "title": "Ar Putea Injecțiile pentru Pierderea în Greutate să Înlocuiască Chirurgia Obezității?",
+      "excerpt": "Explorând viitorul tratamentului obezității: Vor înlocui medicamentele GLP-1 precum Ozempic și Wegovy chirurgia bariatrică tradițională?"
+    },
+    "body-roundness-index-bri": {
+      "title": "Indicele de Rotunjime Corporală (BRI): O Nouă Modalitate de a Măsura Sănătatea",
+      "excerpt": "Înțelegerea Indicelui de Rotunjime Corporală și de ce ar putea fi mai precis decât IMC pentru evaluarea riscurilor de sănătate."
+    },
+    "ultra-processed-foods-and-their-impact-on-your-health": {
+      "title": "Alimente Ultra-Procesate și Impactul Lor asupra Sănătății Tale",
+      "excerpt": "Cum alimentele ultra-procesate îți afectează greutatea, metabolismul și sănătatea generală. Ce trebuie să știi."
+    },
+    "comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty": {
+      "title": "Comparație între Chirurgia Bariatrică și Gastroplastia Endoscopică Sleeve",
+      "excerpt": "O comparație detaliată a opțiunilor chirurgicale și endoscopice pentru pierderea în greutate pentru a te ajuta să iei o decizie informată."
+    },
+    "5-things-you-didnt-know-about-bariatric-surgery": {
+      "title": "5 Lucruri pe Care Nu le Știai despre Chirurgia Bariatrică",
+      "excerpt": "Fapte surprinzătoare despre chirurgia bariatrică care ar putea schimba perspectiva ta asupra procedurilor de pierdere în greutate."
+    },
+    "bariatric-surgery-guidelines-updated": {
+      "title": "Ghidurile pentru Chirurgia Bariatrică Actualizate",
+      "excerpt": "Noi ghiduri pentru eligibilitatea și procedurile chirurgiei bariatrice. Ce s-a schimbat și ce înseamnă pentru pacienți."
+    },
+    "barretts-esophagus-and-increased-risk-after-sleeve-gastrectomy": {
+      "title": "Esofagul Barrett și Riscul Crescut După Gastrectomia Sleeve",
+      "excerpt": "Înțelegerea relației dintre gastrectomia sleeve și riscul de esofag Barrett."
+    },
+    "comprehensive-guide-to-preoperative-medication-management": {
+      "title": "Ghid Complet pentru Gestionarea Medicamentelor Preoperatorii",
+      "excerpt": "Informații esențiale despre gestionarea medicamentelor înainte de chirurgia bariatrică pentru rezultate optime."
+    },
+    "leaks-in-bariatric-surgery": {
+      "title": "Scurgeri în Chirurgia Bariatrică: Prevenție și Management",
+      "excerpt": "Înțelegerea scurgerilor gastrice după chirurgia bariatrică: cauze, prevenție și opțiuni de tratament."
+    },
+    "obesity-and-cancer-risk": {
+      "title": "Obezitatea și Riscul de Cancer: Ce Arată Cercetările",
+      "excerpt": "Legătura dintre obezitate și diferite tipuri de cancer și cum pierderea în greutate poate reduce riscul tău."
+    },
+    "15-most-nutrient-dense-foods": {
+      "title": "Cele 15 Alimente Cele Mai Bogate în Nutrienți pentru Pacienții Post-Bariatrici",
+      "excerpt": "Cele mai nutritive alimente de inclus în dieta ta după chirurgia bariatrică pentru o sănătate optimă."
+    },
+    "bariatric-surgery-nutrition": {
+      "title": "Nutriția în Chirurgia Bariatrică: Un Ghid Complet",
+      "excerpt": "Tot ce trebuie să știi despre nutriție înainte și după chirurgia bariatrică."
+    },
+    "leptin-hormone-in-obesity-treatment": {
+      "title": "Hormonul Leptină în Tratamentul Obezității",
+      "excerpt": "Înțelegerea rolului leptinei în reglarea greutății și tratamentul obezității."
+    },
+    "bariatric-surgery-pros-and-cons": {
+      "title": "Chirurgia Bariatrică: Avantaje și Dezavantaje",
+      "excerpt": "O privire echilibrată asupra avantajelor și dezavantajelor chirurgiei bariatrice pentru a te ajuta să decizi."
+    },
+    "endoscopic-sleeve-gastroplasty-vs-gastric-sleeve": {
+      "title": "Gastroplastia Endoscopică Sleeve vs Sleeve Gastric",
+      "excerpt": "Comparație între ESG și gastrectomia sleeve chirurgicală: Care opțiune este potrivită pentru tine?"
+    },
+    "endoscopic-sleeve-gastroplasty-long-term-results": {
+      "title": "Gastroplastia Endoscopică Sleeve: Rezultate pe Termen Lung",
+      "excerpt": "Ce arată cele mai recente cercetări despre eficacitatea pe termen lung a procedurilor ESG."
+    },
+    "endo-band-novel-endoscopic-approach": {
+      "title": "Endo-Band: O Abordare Endoscopică Inovatoare",
+      "excerpt": "Explorarea procedurii inovatoare Endo-Band pentru pierderea în greutate fără chirurgie tradițională."
+    },
+    "vitamin-mineral-deficiencies-after-gastric-bypass": {
+      "title": "Deficiențe de Vitamine și Minerale După Bypass Gastric",
+      "excerpt": "Deficiențe nutriționale comune după bypass gastric și cum să le previi."
+    },
+    "bariatric-surgery-as-safe-as-other-common-operations": {
+      "title": "Chirurgia Bariatrică la Fel de Sigură ca Alte Operații Comune",
+      "excerpt": "Cercetările arată că chirurgia bariatrică are profiluri de siguranță comparabile cu alte intervenții chirurgicale de rutină."
+    },
+    "grazing-after-bariatric-surgery": {
+      "title": "Ciugulitul După Chirurgia Bariatrică: Ruperea Obiceiului",
+      "excerpt": "Înțelegerea și depășirea comportamentelor de ciugulit după operația de pierdere în greutate."
+    },
+    "bariatric-friendly-christmas-dinner-ideas": {
+      "title": "Idei de Cină de Crăciun Prietenoase cu Bariatrica",
+      "excerpt": "Idei delicioase de mese festive care sunt sigure și nutritive pentru pacienții bariatrici."
+    },
+    "endoscopic-sleeve-gastroplasty-in-class-iii-obesity": {
+      "title": "Gastroplastia Endoscopică Sleeve în Obezitatea de Clasa III",
+      "excerpt": "Cum ESG poate ajuta pacienții cu obezitate severă să obțină o pierdere în greutate semnificativă."
+    },
+    "pose-endoscopic-sleeve-gastroplasty": {
+      "title": "POSE: Chirurgia Endoscopică Primară a Obezității",
+      "excerpt": "Înțelegerea procedurii POSE și rolul său în pierderea în greutate endoscopică."
+    },
+    "endoscopic-sleeve-gastroplasty-game-changer": {
+      "title": "Gastroplastia Endoscopică Sleeve: Un Schimbător de Joc",
+      "excerpt": "De ce ESG revoluționează abordarea pierderii în greutate non-chirurgicale."
+    },
+    "fatty-liver-increases-in-adolescents": {
+      "title": "Creșterea Ficatului Gras la Adolescenți",
+      "excerpt": "Prevalența în creștere a bolii ficatului gras la tineri și conexiunea sa cu obezitatea."
+    },
+    "bariatric-surgery-18-frequently-asked-questions": {
+      "title": "Chirurgia Bariatrică: 18 Întrebări Frecvente",
+      "excerpt": "Răspunsuri la cele mai comune întrebări despre procedurile de chirurgie bariatrică și recuperare."
+    },
+    "melatonin-sleep-glucose-metabolism": {
+      "title": "Melatonina, Somnul și Metabolismul Glucozei",
+      "excerpt": "Conexiunea dintre calitatea somnului, melatonină și gestionarea greutății."
+    },
+    "argon-plasma-coagulation-weight-regain": {
+      "title": "Coagularea cu Plasmă de Argon pentru Recâștigarea Greutății",
+      "excerpt": "Cum APC poate ajuta pacienții care au recâștigat greutate după chirurgia bariatrică."
+    },
+    "revisional-bariatric-surgery-in-turkey": {
+      "title": "Chirurgia Bariatrică de Revizie în Turcia",
+      "excerpt": "Opțiuni pentru pacienții care au nevoie de chirurgie de revizie după o procedură bariatrică anterioară."
+    },
+    "marmite-rich-resource-of-vitamin-b": {
+      "title": "Marmite: O Sursă Bogată de Vitamina B",
+      "excerpt": "De ce Marmite poate fi o adăugare valoroasă la dieta post-bariatrică."
+    },
+    "ozempic-medical-treatment-of-obesity": {
+      "title": "Ozempic: Tratamentul Medical al Obezității",
+      "excerpt": "Înțelegerea modului în care funcționează Ozempic și rolul său în tratamentul obezității."
+    },
+    "bariclip": {
+      "title": "BariClip: O Nouă Abordare a Pierderii în Greutate",
+      "excerpt": "Explorarea dispozitivului inovator BariClip pentru restricția gastrică."
+    },
+    "elipse-swallowable-intragastric-balloon": {
+      "title": "Elipse: Balonul Intragastric Înghițibil",
+      "excerpt": "Cum balonul Elipse oferă pierdere în greutate fără endoscopie sau chirurgie."
+    },
+    "transit-bipartition-revision-alternative": {
+      "title": "Bipartiția de Tranzit ca Alternativă de Revizie",
+      "excerpt": "Când bipartiția de tranzit poate fi alegerea potrivită pentru chirurgia de revizie."
+    },
+    "bariatric-preoperative-diet": {
+      "title": "Dieta Preoperatorie Bariatrică: La Ce să te Aștepți",
+      "excerpt": "Un ghid complet pentru pregătirea corpului tău pentru chirurgia bariatrică prin dietă."
+    },
+    "obese-adults-covid-vaccine-priority": {
+      "title": "Adulții Obezi și Prioritatea Vaccinului COVID",
+      "excerpt": "De ce persoanele cu obezitate au fost prioritare pentru vaccinarea COVID-19."
+    },
+    "why-istanbul-is-an-important-location-for-obesity-surgery": {
+      "title": "De Ce Istanbul Este o Locație Importantă pentru Chirurgia Obezității",
+      "excerpt": "Avantajele alegerii Istanbulului pentru călătoria ta de chirurgie bariatrică."
+    },
+    "bariatric-surgery-during-covid-19-pandemic": {
+      "title": "Chirurgia Bariatrică în Timpul Pandemiei COVID-19",
+      "excerpt": "Cum s-a adaptat chirurgia bariatrică în timpul și după pandemia COVID-19."
+    },
+    "nutrition-tips-during-self-quarantine-covid-19": {
+      "title": "Sfaturi de Nutriție în Timpul Carantinei",
+      "excerpt": "Strategii de alimentație sănătoasă pentru menținerea greutății în perioade de carantină."
+    }
+  }
+}

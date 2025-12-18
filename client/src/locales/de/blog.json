@@ -1,0 +1,205 @@
+{
+  "common": {
+    "readMore": "Weiterlesen",
+    "backToBlog": "Zurück zum Blog",
+    "shareArticle": "Artikel teilen",
+    "relatedPosts": "Verwandte Beiträge",
+    "categories": "Kategorien",
+    "recentPosts": "Neueste Beiträge",
+    "searchPosts": "Beiträge suchen...",
+    "noResults": "Keine Beiträge gefunden",
+    "allCategories": "Alle Kategorien"
+  },
+  "categories": {
+    "newTechnology": "Neue Technologie",
+    "science": "Wissenschaft",
+    "nutrition": "Ernährung",
+    "comparison": "Vergleich",
+    "healthTips": "Gesundheitstipps",
+    "patientStories": "Patientengeschichten",
+    "medicalNews": "Medizinische Nachrichten",
+    "lifestyle": "Lebensstil"
+  },
+  "posts": {
+    "gastric-fundus-mucosal-ablation-gfma-latest-news": {
+      "title": "Gastrische Fundus-Mukosa-Ablation (GFMA): Neueste Nachrichten",
+      "excerpt": "GFMA: Eine Neue Ära der Nicht-Chirurgischen Gewichtsabnahme. Aktuelle Studien deuten darauf hin, dass ein endoskopisches Verfahren Hunger zügeln und chirurgische Gewichtsabnahme ohne Einschnitte erreichen könnte."
+    },
+    "scientific-blind-alleys-dietary-fat-sugar-freud-and-adler": {
+      "title": "Wissenschaftliche Sackgassen: Nahrungsfett, Zucker, Freud und Adler",
+      "excerpt": "Wie Zwei Historische Gesundheitsmythen die Heutige Adipositas-Krise Prägten — und Wie Wir Sie Beheben Können."
+    },
+    "minimizer-ring": {
+      "title": "Minimizer Ring: Was ist es und wofür wird es verwendet?",
+      "excerpt": "Der MiniMIZER® Ring in der Bariatrischen Chirurgie: Verbesserung der Ergebnisse bei Primär- und Revisionsoperationen."
+    },
+    "five-high-cholesterol-foods-you-should-eat-and-which-ones-to-avoid": {
+      "title": "Fünf Cholesterinreiche Lebensmittel, die Sie Essen Sollten – und Welche Sie Meiden Sollten",
+      "excerpt": "Neue Forschungen zeigen, dass nicht alle cholesterinreichen Lebensmittel schlecht für Sie sind. Ein Kardiologe erklärt, was man essen und was man meiden sollte."
+    },
+    "weight-loss-treatments-a-holistic-comparison": {
+      "title": "Behandlungen zur Gewichtsabnahme: Ein Ganzheitlicher Vergleich",
+      "excerpt": "Behandlungen zur Gewichtsabnahme erweitern sich täglich mit neuen Medikamenten, revolutionären endoskopischen Methoden und verschiedenen chirurgischen Optionen."
+    },
+    "gastric-fundus-ablation-explained": {
+      "title": "Gastrische Fundus-Ablation Erklärt",
+      "excerpt": "Revolution der Endoskopischen Gewichtsabnahme-Methode. Ein bahnbrechendes, minimal-invasives Verfahren, das neue Hoffnung auf nachhaltige Gewichtsabnahme bietet."
+    },
+    "could-weight-loss-injections-replace-obesity-surgery": {
+      "title": "Könnten Gewichtsabnahme-Injektionen die Adipositas-Chirurgie Ersetzen?",
+      "excerpt": "Die Zukunft der Adipositas-Behandlung erkunden: Werden GLP-1-Medikamente wie Ozempic und Wegovy die traditionelle bariatrische Chirurgie ersetzen?"
+    },
+    "body-roundness-index-bri": {
+      "title": "Body Roundness Index (BRI): Eine Neue Art, Gesundheit zu Messen",
+      "excerpt": "Verständnis des Body Roundness Index und warum er für die Bewertung von Gesundheitsrisiken genauer sein könnte als der BMI."
+    },
+    "ultra-processed-foods-and-their-impact-on-your-health": {
+      "title": "Hochverarbeitete Lebensmittel und Ihre Auswirkungen auf Ihre Gesundheit",
+      "excerpt": "Wie hochverarbeitete Lebensmittel Ihr Gewicht, Ihren Stoffwechsel und Ihre allgemeine Gesundheit beeinflussen. Was Sie wissen müssen."
+    },
+    "comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty": {
+      "title": "Vergleich von Bariatrischer Chirurgie und Endoskopischer Sleeve-Gastroplastik",
+      "excerpt": "Ein detaillierter Vergleich von chirurgischen und endoskopischen Gewichtsabnahme-Optionen, um Ihnen bei einer fundierten Entscheidung zu helfen."
+    },
+    "5-things-you-didnt-know-about-bariatric-surgery": {
+      "title": "5 Dinge, die Sie Nicht Über Bariatrische Chirurgie Wussten",
+      "excerpt": "Überraschende Fakten über bariatrische Chirurgie, die Ihre Perspektive auf Gewichtsabnahme-Verfahren ändern könnten."
+    },
+    "bariatric-surgery-guidelines-updated": {
+      "title": "Richtlinien für Bariatrische Chirurgie Aktualisiert",
+      "excerpt": "Neue Richtlinien für die Eignung und Verfahren der bariatrischen Chirurgie. Was sich geändert hat und was es für Patienten bedeutet."
+    },
+    "barretts-esophagus-and-increased-risk-after-sleeve-gastrectomy": {
+      "title": "Barrett-Ösophagus und Erhöhtes Risiko Nach Sleeve-Gastrektomie",
+      "excerpt": "Verständnis der Beziehung zwischen Sleeve-Gastrektomie und Barrett-Ösophagus-Risiko."
+    },
+    "comprehensive-guide-to-preoperative-medication-management": {
+      "title": "Umfassender Leitfaden zum Präoperativen Medikamentenmanagement",
+      "excerpt": "Wesentliche Informationen zur Medikamentenverwaltung vor bariatrischer Chirurgie für optimale Ergebnisse."
+    },
+    "leaks-in-bariatric-surgery": {
+      "title": "Leckagen in der Bariatrischen Chirurgie: Prävention und Management",
+      "excerpt": "Verständnis von Magenleckagen nach bariatrischer Chirurgie: Ursachen, Prävention und Behandlungsmöglichkeiten."
+    },
+    "obesity-and-cancer-risk": {
+      "title": "Adipositas und Krebsrisiko: Was die Forschung Zeigt",
+      "excerpt": "Die Verbindung zwischen Adipositas und verschiedenen Krebsarten und wie Gewichtsverlust Ihr Risiko reduzieren kann."
+    },
+    "15-most-nutrient-dense-foods": {
+      "title": "15 Nährstoffreichste Lebensmittel für Post-Bariatrische Patienten",
+      "excerpt": "Die nährstoffreichsten Lebensmittel für Ihre Ernährung nach bariatrischer Chirurgie für optimale Gesundheit."
+    },
+    "bariatric-surgery-nutrition": {
+      "title": "Ernährung bei Bariatrischer Chirurgie: Ein Vollständiger Leitfaden",
+      "excerpt": "Alles, was Sie über Ernährung vor und nach bariatrischer Chirurgie wissen müssen."
+    },
+    "leptin-hormone-in-obesity-treatment": {
+      "title": "Leptin-Hormon in der Adipositas-Behandlung",
+      "excerpt": "Verständnis der Rolle von Leptin bei der Gewichtsregulierung und Adipositas-Behandlung."
+    },
+    "bariatric-surgery-pros-and-cons": {
+      "title": "Bariatrische Chirurgie: Vor- und Nachteile",
+      "excerpt": "Ein ausgewogener Blick auf die Vor- und Nachteile der bariatrischen Chirurgie, um Ihnen bei der Entscheidung zu helfen."
+    },
+    "endoscopic-sleeve-gastroplasty-vs-gastric-sleeve": {
+      "title": "Endoskopische Sleeve-Gastroplastik vs Magenschlauch",
+      "excerpt": "Vergleich von ESG und chirurgischer Sleeve-Gastrektomie: Welche Option ist die richtige für Sie?"
+    },
+    "endoscopic-sleeve-gastroplasty-long-term-results": {
+      "title": "Endoskopische Sleeve-Gastroplastik: Langzeitergebnisse",
+      "excerpt": "Was die neuesten Forschungen über die langfristige Wirksamkeit von ESG-Verfahren zeigen."
+    },
+    "endo-band-novel-endoscopic-approach": {
+      "title": "Endo-Band: Ein Neuartiger Endoskopischer Ansatz",
+      "excerpt": "Erkundung des innovativen Endo-Band-Verfahrens zur Gewichtsabnahme ohne traditionelle Chirurgie."
+    },
+    "vitamin-mineral-deficiencies-after-gastric-bypass": {
+      "title": "Vitamin- und Mineralstoffmangel Nach Magenbypass",
+      "excerpt": "Häufige Nährstoffmängel nach Magenbypass und wie man sie verhindert."
+    },
+    "bariatric-surgery-as-safe-as-other-common-operations": {
+      "title": "Bariatrische Chirurgie So Sicher Wie Andere Gängige Operationen",
+      "excerpt": "Forschung zeigt, dass bariatrische Chirurgie vergleichbare Sicherheitsprofile wie andere Routineoperationen hat."
+    },
+    "grazing-after-bariatric-surgery": {
+      "title": "Snacken Nach Bariatrischer Chirurgie: Die Gewohnheit Brechen",
+      "excerpt": "Verständnis und Überwindung von Snack-Verhaltensweisen nach Gewichtsabnahme-Operationen."
+    },
+    "bariatric-friendly-christmas-dinner-ideas": {
+      "title": "Bariatrik-Freundliche Weihnachtsessen-Ideen",
+      "excerpt": "Köstliche Festtagsmahlzeiten, die für bariatrische Patienten sicher und nahrhaft sind."
+    },
+    "endoscopic-sleeve-gastroplasty-in-class-iii-obesity": {
+      "title": "Endoskopische Sleeve-Gastroplastik bei Adipositas Klasse III",
+      "excerpt": "Wie ESG Patienten mit schwerer Adipositas helfen kann, erheblichen Gewichtsverlust zu erreichen."
+    },
+    "pose-endoscopic-sleeve-gastroplasty": {
+      "title": "POSE: Primäre Adipositas-Chirurgie Endoskopisch",
+      "excerpt": "Verständnis des POSE-Verfahrens und seiner Rolle bei der endoskopischen Gewichtsabnahme."
+    },
+    "endoscopic-sleeve-gastroplasty-game-changer": {
+      "title": "Endoskopische Sleeve-Gastroplastik: Ein Wendepunkt",
+      "excerpt": "Warum ESG den Ansatz zur nicht-chirurgischen Gewichtsabnahme revolutioniert."
+    },
+    "fatty-liver-increases-in-adolescents": {
+      "title": "Fettleber Nimmt bei Jugendlichen Zu",
+      "excerpt": "Die steigende Prävalenz von Fettlebererkrankungen bei jungen Menschen und ihre Verbindung zu Adipositas."
+    },
+    "bariatric-surgery-18-frequently-asked-questions": {
+      "title": "Bariatrische Chirurgie: 18 Häufig Gestellte Fragen",
+      "excerpt": "Antworten auf die häufigsten Fragen zu bariatrischen Operationsverfahren und Genesung."
+    },
+    "melatonin-sleep-glucose-metabolism": {
+      "title": "Melatonin, Schlaf und Glukosestoffwechsel",
+      "excerpt": "Die Verbindung zwischen Schlafqualität, Melatonin und Gewichtsmanagement."
+    },
+    "argon-plasma-coagulation-weight-regain": {
+      "title": "Argon-Plasma-Koagulation bei Gewichtszunahme",
+      "excerpt": "Wie APC Patienten helfen kann, die nach bariatrischer Chirurgie wieder zugenommen haben."
+    },
+    "revisional-bariatric-surgery-in-turkey": {
+      "title": "Revisions-Bariatrische Chirurgie in der Türkei",
+      "excerpt": "Optionen für Patienten, die nach einem früheren bariatrischen Eingriff eine Revisionsoperation benötigen."
+    },
+    "marmite-rich-resource-of-vitamin-b": {
+      "title": "Marmite: Eine Reiche Quelle für Vitamin B",
+      "excerpt": "Warum Marmite eine wertvolle Ergänzung zur post-bariatrischen Ernährung sein kann."
+    },
+    "ozempic-medical-treatment-of-obesity": {
+      "title": "Ozempic: Medizinische Behandlung von Adipositas",
+      "excerpt": "Verständnis, wie Ozempic funktioniert und seine Rolle bei der Adipositas-Behandlung."
+    },
+    "bariclip": {
+      "title": "BariClip: Ein Neuer Ansatz zur Gewichtsabnahme",
+      "excerpt": "Erkundung des innovativen BariClip-Geräts zur Magenrestriktion."
+    },
+    "elipse-swallowable-intragastric-balloon": {
+      "title": "Elipse: Der Schluckbare Intragastrische Ballon",
+      "excerpt": "Wie der Elipse-Ballon Gewichtsverlust ohne Endoskopie oder Chirurgie ermöglicht."
+    },
+    "transit-bipartition-revision-alternative": {
+      "title": "Transit-Bipartition als Revisionsalternative",
+      "excerpt": "Wann Transit-Bipartition die richtige Wahl für eine Revisionsoperation sein kann."
+    },
+    "bariatric-preoperative-diet": {
+      "title": "Bariatrische Präoperative Diät: Was zu Erwarten Ist",
+      "excerpt": "Ein vollständiger Leitfaden zur Vorbereitung Ihres Körpers auf die bariatrische Chirurgie durch Ernährung."
+    },
+    "obese-adults-covid-vaccine-priority": {
+      "title": "Adipöse Erwachsene und COVID-Impfpriorität",
+      "excerpt": "Warum Personen mit Adipositas für die COVID-19-Impfung priorisiert wurden."
+    },
+    "why-istanbul-is-an-important-location-for-obesity-surgery": {
+      "title": "Warum Istanbul ein Wichtiger Standort für Adipositas-Chirurgie Ist",
+      "excerpt": "Die Vorteile der Wahl von Istanbul für Ihre bariatrische Chirurgie-Reise."
+    },
+    "bariatric-surgery-during-covid-19-pandemic": {
+      "title": "Bariatrische Chirurgie Während der COVID-19-Pandemie",
+      "excerpt": "Wie sich die bariatrische Chirurgie während und nach der COVID-19-Pandemie angepasst hat."
+    },
+    "nutrition-tips-during-self-quarantine-covid-19": {
+      "title": "Ernährungstipps Während der Quarantäne",
+      "excerpt": "Gesunde Ernährungsstrategien zur Gewichtserhaltung während Quarantänezeiten."
+    }
+  }
+}
