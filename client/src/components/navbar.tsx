@@ -43,14 +43,13 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <Link href="/" className="flex items-center">
-           <img 
-             src="/logo.jpeg" 
-             alt="Istanbul Bariatric Center - Op. Dr Murat Üstün" 
-             className={cn(
-               "h-16 md:h-20 w-auto transition-all duration-300",
-               showSolidNav ? "" : "brightness-0 invert"
-             )}
-           />
+           {showSolidNav && (
+             <img 
+               src="/logo.jpeg" 
+               alt="Istanbul Bariatric Center - Op. Dr Murat Üstün" 
+               className="h-16 md:h-20 w-auto transition-all duration-300"
+             />
+           )}
         </Link>
 
         {/* Desktop Nav */}
