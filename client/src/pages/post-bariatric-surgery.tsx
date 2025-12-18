@@ -13,7 +13,7 @@ const procedures = [
   {
     title: "Arm Lift (Brachioplasty)",
     desc: "Removes loose, sagging skin from the upper arms to create a more contoured and toned appearance.",
-    image: null
+    image: "/arm-lift.png"
   },
   {
     title: "Thigh Lift",
