@@ -1,6 +1,6 @@
-import awardBadge from "@assets/generated_images/gold_medical_excellence_award_badge.png";
-
 export function Awards() {
+  const years = [2019, 2020, 2021, 2023, 2024];
+  
   return (
     <section className="py-16 bg-slate-900 text-white relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
@@ -10,23 +10,25 @@ export function Awards() {
           Award Winning Excellence
         </h2>
         <p className="text-slate-300 max-w-2xl mx-auto mb-12 text-lg">
-          We are proud to be recognized for our high-quality service and patient care. Winners of the WhatClinic Patient Service Award for three consecutive years.
+          We are proud to be recognized for our high-quality service and patient care. Winners of the WhatClinic Patient Service Award for multiple consecutive years.
         </p>
         
-        <div className="flex flex-wrap justify-center gap-8 md:gap-16 items-center">
-          {[2019, 2020, 2021, 2023].map((year) => (
-            <div key={year} className="flex flex-col items-center gap-4 group">
-              <div className="w-32 h-32 relative transition-transform duration-300 group-hover:scale-110">
-                <img 
-                  src={awardBadge} 
-                  alt={`Award ${year}`} 
-                  className="w-full h-full object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)]"
-                />
-                <div className="absolute inset-0 flex items-center justify-center pt-8 font-bold text-amber-900 text-sm">
-                  {/* Text overlay if needed, but image might have text */}
+        <div className="flex flex-wrap justify-center gap-6 md:gap-10 items-center">
+          {years.map((year) => (
+            <div key={year} className="flex flex-col items-center group">
+              <div className="w-24 h-28 md:w-28 md:h-32 relative transition-transform duration-300 group-hover:scale-110">
+                <div className="w-full h-full bg-white rounded-t-lg relative overflow-hidden shadow-lg" style={{
+                  clipPath: 'polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%)'
+                }}>
+                  <div className="absolute inset-0 flex flex-col items-center justify-center p-2 border-4 border-amber-500" style={{
+                    clipPath: 'polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%)'
+                  }}>
+                    <span className="text-amber-600 text-[10px] md:text-xs font-bold tracking-widest">SERVICE</span>
+                    <span className="text-amber-600 text-lg md:text-xl font-extrabold">AWARD</span>
+                    <span className="text-amber-600 text-xl md:text-2xl font-extrabold">{year}</span>
+                  </div>
                 </div>
               </div>
-              <span className="font-bold text-amber-400 text-xl">{year} Winner</span>
             </div>
           ))}
         </div>
