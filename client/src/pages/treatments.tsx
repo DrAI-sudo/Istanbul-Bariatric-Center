@@ -51,7 +51,8 @@ const treatments = [
     disadvantages: [
       "Irreversible procedure",
       "Potential for vitamin deficiency"
-    ]
+    ],
+    ifsoImage: "https://www.ifso.com/images/sleeve-gastrectomy-pop-up.png"
   },
   {
     title: "Gastric Bypass Surgery",
@@ -65,7 +66,8 @@ const treatments = [
       "Complex surgery",
       "Requires longer hospital stay",
       "Risk of vitamin deficiency"
-    ]
+    ],
+    ifsoImage: "https://www.ifso.com/images/oagb-mini-gastric-bypass-img.jpg"
   },
   {
     title: "Intragastric Balloon",
@@ -78,7 +80,8 @@ const treatments = [
     disadvantages: [
       "Temporary solution (6 months)",
       "Less weight loss than surgery"
-    ]
+    ],
+    ifsoImage: "https://www.ifso.com/images/endoscopic-sleeve-gastroplasty-pop-up.png"
   },
   {
     title: "Adjustable Gastric Band",
@@ -93,7 +96,8 @@ const treatments = [
       "Slower weight loss",
       "Foreign body in the body",
       "Mechanical problems possible"
-    ]
+    ],
+    ifsoImage: "https://www.ifso.com/images/how-lagb-works-img.jpg"
   },
   {
     title: "Duodenal Switch",
@@ -106,7 +110,8 @@ const treatments = [
       "Most complicated surgery",
       "High risk of vitamin deficiencies",
       "Requires strict follow-up"
-    ]
+    ],
+    ifsoImage: "https://www.ifso.com/images/duodenal-switch-pop-up.png"
   }
 ];
 
@@ -175,15 +180,27 @@ export default function Treatments() {
                     </div>
                   </div>
                   
-                  <div className="bg-slate-50 rounded-2xl p-8 border border-slate-100 h-full min-h-[400px] flex items-center justify-center relative overflow-hidden group">
-                    <div className="absolute inset-0 bg-blue-500/5 transition-colors group-hover:bg-blue-500/10" />
-                    {/* Placeholder for medical illustration */}
-                    <div className="text-center">
-                      <div className="w-32 h-32 bg-white rounded-full mx-auto mb-6 flex items-center justify-center shadow-sm">
-                        <span className="text-4xl">🩺</span>
+                  <div className="bg-slate-50 rounded-2xl p-8 border border-slate-100 h-full min-h-[400px] flex flex-col items-center justify-center relative overflow-hidden">
+                    {treatment.ifsoImage ? (
+                      <div className="text-center">
+                        <img 
+                          src={treatment.ifsoImage} 
+                          alt={`IFSO Atlas illustration of ${treatment.title}`}
+                          className="max-w-full max-h-[350px] object-contain rounded-lg shadow-md mb-4"
+                          data-testid={`img-ifso-${treatment.title.toLowerCase().replace(/\s+/g, '-')}`}
+                        />
+                        <p className="text-xs text-slate-500 mt-4 italic">
+                          © Dr Levent Efe, courtesy of IFSO
+                        </p>
                       </div>
-                      <p className="text-slate-400 font-medium">Medical Illustration of {treatment.title}</p>
-                    </div>
+                    ) : (
+                      <div className="text-center">
+                        <div className="w-32 h-32 bg-white rounded-full mx-auto mb-6 flex items-center justify-center shadow-sm">
+                          <span className="text-4xl">🩺</span>
+                        </div>
+                        <p className="text-slate-400 font-medium">Medical Illustration of {treatment.title}</p>
+                      </div>
+                    )}
                   </div>
                 </div>
 
