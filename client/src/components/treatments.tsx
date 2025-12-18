@@ -22,7 +22,7 @@ const treatments = [
   {
     title: "Surgery for Diabetes",
     desc: "Metabolic surgeries are made for reversion of the diabetes diseases.",
-    link: "#"
+    link: "/duodenal-switch"
   },
   {
     title: "Post-Bariatric Surgery",

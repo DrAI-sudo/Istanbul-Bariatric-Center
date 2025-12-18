@@ -13,6 +13,7 @@ import Contact from "@/pages/contact";
 import SleeveGastrectomy from "@/pages/sleeve-gastrectomy";
 import MiniGastricBypass from "@/pages/mini-gastric-bypass";
 import GastricBalloon from "@/pages/gastric-balloon";
+import DuodenalSwitch from "@/pages/duodenal-switch";
 import { useEffect } from "react";
 import { useLocation } from "wouter";
 
@@ -41,6 +42,7 @@ function Router() {
         <Route path="/sleeve-gastrectomy" component={SleeveGastrectomy} />
         <Route path="/mini-gastric-bypass" component={MiniGastricBypass} />
         <Route path="/gastric-balloon" component={GastricBalloon} />
+        <Route path="/duodenal-switch" component={DuodenalSwitch} />
         <Route component={NotFound} />
       </Switch>
     </>
