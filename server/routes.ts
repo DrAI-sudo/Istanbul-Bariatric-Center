@@ -15,10 +15,11 @@ export async function registerRoutes(
       const validatedData = insertContactSubmissionSchema.parse(req.body);
       const submission = await storage.createContactSubmission(validatedData);
       
-      // Send email notification asynchronously (don't await to prevent blocking)
-      sendContactEmail(validatedData).catch(emailError => {
-        console.error('Failed to send email notification:', emailError);
-      });
+      // Email sending temporarily disabled for debugging
+      // sendContactEmail(validatedData).catch(emailError => {
+      //   console.error('Failed to send email notification:', emailError);
+      // });
+      console.log('Contact form submitted:', validatedData.email);
       
       res.status(201).json({ success: true, data: submission });
     } catch (error: any) {
