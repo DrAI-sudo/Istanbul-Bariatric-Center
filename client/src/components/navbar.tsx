@@ -42,15 +42,15 @@ export function Navbar() {
       )}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3">
-           <div className="flex flex-col">
-             <span className={cn("text-2xl font-extrabold tracking-tight uppercase", showSolidNav ? "text-[#2d3e50]" : "text-white")}>
-               Istanbul
-             </span>
-             <span className={cn("text-sm font-bold tracking-widest uppercase", showSolidNav ? "text-primary" : "text-white/90")}>
-               Bariatric Center
-             </span>
-           </div>
+        <Link href="/" className="flex items-center">
+           <img 
+             src="/logo.jpeg" 
+             alt="Istanbul Bariatric Center - Op. Dr Murat Üstün" 
+             className={cn(
+               "h-12 md:h-14 w-auto transition-all duration-300",
+               showSolidNav ? "" : "brightness-0 invert"
+             )}
+           />
         </Link>
 
         {/* Desktop Nav */}
