@@ -23,7 +23,7 @@ const procedures = [
   {
     title: "Body Lift (Belt Lipectomy)",
     desc: "A comprehensive procedure that addresses the abdomen, buttocks, and thighs in one surgery for dramatic body contouring.",
-    image: null
+    image: "/body-lift.png"
   },
   {
     title: "Breast Lift/Reduction",
