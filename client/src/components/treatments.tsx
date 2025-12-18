@@ -32,7 +32,7 @@ const treatments = [
   {
     title: "Transit Bipartition",
     desc: "A very reliable alternative of revisional bariatric surgeries in some cases.",
-    link: "#"
+    link: "/transit-bipartition"
   }
 ];
 
