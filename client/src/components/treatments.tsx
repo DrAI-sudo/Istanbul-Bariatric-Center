@@ -53,7 +53,7 @@ export function Treatments() {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <h2 className="text-4xl font-heading font-bold text-slate-900">
-            Our Medical <span className="text-primary">Treatments</span>
+            Endoscopic and Laparoscopic <span className="text-primary">Treatments</span>
           </h2>
           <p className="text-lg text-slate-600">
             Discover our comprehensive range of bariatric surgery treatments performed by expert surgeons.
