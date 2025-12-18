@@ -47,7 +47,7 @@ export function Navbar() {
              src="/logo.jpeg" 
              alt="Istanbul Bariatric Center - Op. Dr Murat Üstün" 
              className={cn(
-               "h-12 md:h-14 w-auto transition-all duration-300",
+               "h-16 md:h-20 w-auto transition-all duration-300",
                showSolidNav ? "" : "brightness-0 invert"
              )}
            />
