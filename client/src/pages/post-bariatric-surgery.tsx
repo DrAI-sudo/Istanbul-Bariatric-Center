@@ -28,7 +28,7 @@ const procedures = [
   {
     title: "Breast Lift/Reduction",
     desc: "Restores breast shape and position after significant weight loss, with options for reduction or augmentation.",
-    image: null
+    image: "/breast-lift.png"
   },
   {
     title: "Face and Neck Lift",
