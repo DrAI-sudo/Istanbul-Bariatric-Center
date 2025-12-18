@@ -73,7 +73,7 @@ export function Navbar() {
               "font-bold uppercase tracking-wider rounded-full px-6",
               showSolidNav ? "bg-primary text-white" : "bg-white text-primary hover:bg-white/90"
             )}
-            onClick={() => window.open('https://wa.me/447491068686', '_blank')}
+            onClick={() => window.open('https://wa.me/905324131143', '_blank')}
           >
             Free Quote
           </Button>
@@ -106,7 +106,7 @@ export function Navbar() {
           ))}
           <Button 
             className="w-full bg-primary text-white font-bold uppercase py-6"
-            onClick={() => window.open('https://wa.me/447491068686', '_blank')}
+            onClick={() => window.open('https://wa.me/905324131143', '_blank')}
           >
             Get Free Quote
           </Button>

@@ -18,6 +18,7 @@ import DuodenalSwitch from "@/pages/duodenal-switch";
 import TransitBipartition from "@/pages/transit-bipartition";
 import ESG from "@/pages/esg";
 import PostBariatricSurgery from "@/pages/post-bariatric-surgery";
+import { WhatsAppBubble } from "@/components/whatsapp-bubble";
 import { useEffect } from "react";
 import { useLocation } from "wouter";
 
@@ -62,6 +63,7 @@ function App() {
       <TooltipProvider>
         <Toaster />
         <Router />
+        <WhatsAppBubble />
       </TooltipProvider>
     </QueryClientProvider>
   );
