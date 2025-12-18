@@ -1,5 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Card, CardContent } from "@/components/ui/card";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import {
   Carousel,
   CarouselContent,
@@ -8,6 +7,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Quote } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const testimonials = [
   {
@@ -33,15 +33,17 @@ const testimonials = [
 ];
 
 export function Testimonials() {
+  const { t } = useTranslation('home');
+  
   return (
     <section className="py-24 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-heading font-bold text-slate-900 mb-4">
-            Patient <span className="text-primary">Success Stories</span>
+            {t('testimonials.title')}
           </h2>
           <p className="text-lg text-slate-600">
-            Don't just take our word for it. Hear from our happy patients.
+            {t('testimonials.subtitle')}
           </p>
         </div>
 

@@ -3,11 +3,14 @@ import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { useTranslation } from "react-i18next";
+import { LanguageSwitcher } from "./language-switcher";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [location] = useLocation();
+  const { t } = useTranslation('nav');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,19 +20,16 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Check if we are on the home page for transparency effect
   const isHome = location === "/";
-  
-  // If not on home page, always show solid background
   const showSolidNav = !isHome || isScrolled;
 
   const navLinks = [
-    { name: "Home", href: "/" },
-    { name: "About Us", href: "/about" },
-    { name: "Treatments", href: "/treatments" },
-    { name: "Results", href: "/results" },
-    { name: "Blog", href: "/blog" },
-    { name: "Contact", href: "/contact" },
+    { name: t('home'), href: "/" },
+    { name: t('about'), href: "/about" },
+    { name: t('treatments'), href: "/treatments" },
+    { name: t('results'), href: "/results" },
+    { name: t('blog'), href: "/blog" },
+    { name: t('contact'), href: "/contact" },
   ];
 
   return (
@@ -52,11 +52,10 @@ export function Navbar() {
            )}
         </Link>
 
-        {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center gap-8">
+        <nav className="hidden lg:flex items-center gap-6">
           {navLinks.map((link) => (
             <Link 
-              key={link.name} 
+              key={link.href} 
               href={link.href}
               className={cn(
                 "text-sm font-bold uppercase tracking-wide hover:text-primary transition-colors",
@@ -67,6 +66,9 @@ export function Navbar() {
               {link.name}
             </Link>
           ))}
+          
+          <LanguageSwitcher variant={showSolidNav ? 'dark' : 'light'} />
+          
           <Button 
             className={cn(
               "font-bold uppercase tracking-wider rounded-full px-6",
@@ -74,25 +76,26 @@ export function Navbar() {
             )}
             onClick={() => window.open('https://wa.me/905324131143', '_blank')}
           >
-            Free Quote
+            {t('bookNow')}
           </Button>
         </nav>
 
-        {/* Mobile Toggle */}
-        <button
-          className={cn("lg:hidden", showSolidNav ? "text-slate-800" : "text-white")}
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-        >
-          {isMobileMenuOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
-        </button>
+        <div className="lg:hidden flex items-center gap-2">
+          <LanguageSwitcher variant={showSolidNav ? 'dark' : 'light'} />
+          <button
+            className={cn("", showSolidNav ? "text-slate-800" : "text-white")}
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            {isMobileMenuOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
+          </button>
+        </div>
       </div>
 
-      {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="lg:hidden absolute top-full left-0 right-0 bg-white shadow-xl border-t border-slate-100 p-6 flex flex-col gap-4 animate-in slide-in-from-top-2">
           {navLinks.map((link) => (
             <Link 
-              key={link.name} 
+              key={link.href} 
               href={link.href}
               className={cn(
                 "text-lg font-bold text-slate-700 py-3 border-b border-slate-50 uppercase",
@@ -107,7 +110,7 @@ export function Navbar() {
             className="w-full bg-primary text-white font-bold uppercase py-6"
             onClick={() => window.open('https://wa.me/905324131143', '_blank')}
           >
-            Get Free Quote
+            {t('bookNow')}
           </Button>
         </div>
       )}

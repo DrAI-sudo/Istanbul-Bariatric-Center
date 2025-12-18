@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "title": "Verwandeln Sie Ihr Leben mit Experter Adipositas-Chirurgie in der Türkei",
+    "subtitle": "Weltklasse-Gewichtsverlust-Chirurgie mit persönlicher Betreuung, VIP-Behandlung und lebensverändernden Ergebnissen",
+    "cta": "Starten Sie Ihre Reise"
+  },
+  "vipPackage": {
+    "title": "All-Inclusive Platinum VIP und Wirtschaftliche Pakete",
+    "description": "Das neue Angebot des Istanbul Bariatric Center lässt Sie nicht nur abnehmen, sondern stellt Ihnen auch Istanbul vor! VIP-Flughafentransfers, alle umfassenden präoperativen Tests, 3 Tage Krankenhausaufenthalt, 3 Tage Unterkunft, Ernährungsberater-Nachsorge inklusive!",
+    "lovelyExperience": "Wunderbare Erfahrung",
+    "fromStartToEnd": "Von Anfang bis Ende",
+    "fullyFormedHospital": "Voll Ausgestattetes Krankenhaus",
+    "jciAccredited": "JCI-akkreditiertes Krankenhaus",
+    "accommodation": "5 Tage Unterkunft",
+    "luxuryHotels": "In Luxushotels von Istanbul",
+    "freeAirportPickup": "Kostenloser Flughafentransfer",
+    "forYourConvenience": "Für Ihren Komfort",
+    "startsFrom": "Ab £1.850",
+    "bestPrices": "Beste Preise für Ihre Behandlung",
+    "helpfulStaff": "24/7 Hilfsbereites Personal",
+    "noCost": "Ohne zusätzliche Kosten",
+    "letsTryIt": "Probieren wir es aus",
+    "getStarted": "Loslegen"
+  },
+  "awards": {
+    "title": "Preisgekrönte Exzellenz",
+    "subtitle": "Weltweit anerkannt für herausragende Patientenversorgung und chirurgische Expertise"
+  },
+  "bmi": {
+    "title": "Berechnen Sie Ihren Body-Mass-Index",
+    "subtitle": "Berechnen Sie Ihren BMI, um Ihre Gewichtskategorie zu verstehen und herauszufinden, ob eine bariatrische Operation Ihnen helfen könnte, ein gesünderes Leben zu erreichen.",
+    "metric": "Metrisch (kg/cm)",
+    "imperial": "Imperial (lb/ft)",
+    "weight": "Gewicht",
+    "height": "Größe",
+    "calculate": "BMI berechnen",
+    "reset": "Zurücksetzen",
+    "yourBmi": "Ihr BMI",
+    "enterDetails": "Geben Sie Ihre Daten ein",
+    "inputMessage": "Geben Sie Ihr Gewicht und Ihre Größe ein, um Ihren BMI zu berechnen und personalisierte Empfehlungen zu erhalten.",
+    "categories": "BMI-Kategorien",
+    "underweight": "Untergewicht",
+    "normal": "Normal",
+    "overweight": "Übergewicht",
+    "obeseI": "Adipositas I",
+    "obeseII": "Adipositas II",
+    "obeseIII": "Adipositas III",
+    "whyBmiMatters": "Warum BMI wichtig ist",
+    "bmiExplanation": "Der BMI ist ein wichtiger Indikator für die allgemeine Gesundheit. Ein BMI von 30 oder höher zeigt Adipositas an, was das Risiko für verschiedene Gesundheitszustände erhöht. Bariatrische Chirurgie wird typischerweise für Personen mit einem BMI von 35+ oder 30+ mit adipositasbedingten Gesundheitsproblemen empfohlen."
+  },
+  "treatments": {
+    "title": "Endoskopische und Laparoskopische Behandlungen",
+    "subtitle": "Wir bieten eine umfassende Palette bewährter Gewichtsverlustverfahren, die auf Ihre Bedürfnisse zugeschnitten sind",
+    "viewAll": "Alle Behandlungen anzeigen"
+  },
+  "testimonials": {
+    "title": "Erfolgsgeschichten",
+    "subtitle": "Echte Patienten, echte Transformationen, echte Ergebnisse"
+  }
+}

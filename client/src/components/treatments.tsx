@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "wouter";
+import { useTranslation } from "react-i18next";
 
 const treatments = [
   {
@@ -48,15 +48,17 @@ const treatments = [
 ];
 
 export function Treatments() {
+  const { t } = useTranslation('home');
+  
   return (
     <section id="treatments" className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <h2 className="text-4xl font-heading font-bold text-slate-900">
-            Endoscopic and Laparoscopic <span className="text-primary">Treatments</span>
+            {t('treatments.title')}
           </h2>
           <p className="text-lg text-slate-600">
-            Discover our comprehensive range of bariatric surgery treatments performed by expert surgeons.
+            {t('treatments.subtitle')}
           </p>
         </div>
 

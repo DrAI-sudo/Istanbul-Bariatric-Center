@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Calculator } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 type UnitSystem = "metric" | "imperial";
 
@@ -11,31 +12,32 @@ interface BMIResult {
   color: string;
 }
 
-const bmiCategories = [
-  { range: "<18.5", label: "Underweight", color: "bg-blue-400" },
-  { range: "18.5-24.9", label: "Normal", color: "bg-green-500" },
-  { range: "25-29.9", label: "Overweight", color: "bg-yellow-500" },
-  { range: "30-34.9", label: "Obese I", color: "bg-orange-500" },
-  { range: "35-39.9", label: "Obese II", color: "bg-red-500" },
-  { range: "40+", label: "Obese III", color: "bg-red-700" },
-];
-
-function getBMICategory(bmi: number): { category: string; color: string } {
-  if (bmi < 18.5) return { category: "Underweight", color: "text-blue-500" };
-  if (bmi < 25) return { category: "Normal", color: "text-green-500" };
-  if (bmi < 30) return { category: "Overweight", color: "text-yellow-500" };
-  if (bmi < 35) return { category: "Obese I", color: "text-orange-500" };
-  if (bmi < 40) return { category: "Obese II", color: "text-red-500" };
-  return { category: "Obese III", color: "text-red-700" };
-}
-
 export function BMICalculator() {
+  const { t } = useTranslation(['home', 'common']);
   const [unitSystem, setUnitSystem] = useState<UnitSystem>("metric");
   const [weight, setWeight] = useState("");
   const [height, setHeight] = useState("");
   const [heightFt, setHeightFt] = useState("");
   const [heightIn, setHeightIn] = useState("");
   const [result, setResult] = useState<BMIResult | null>(null);
+
+  const bmiCategories = [
+    { range: "<18.5", labelKey: "underweight", color: "bg-blue-400" },
+    { range: "18.5-24.9", labelKey: "normal", color: "bg-green-500" },
+    { range: "25-29.9", labelKey: "overweight", color: "bg-yellow-500" },
+    { range: "30-34.9", labelKey: "obeseI", color: "bg-orange-500" },
+    { range: "35-39.9", labelKey: "obeseII", color: "bg-red-500" },
+    { range: "40+", labelKey: "obeseIII", color: "bg-red-700" },
+  ];
+
+  function getBMICategory(bmi: number): { category: string; color: string } {
+    if (bmi < 18.5) return { category: t('home:bmi.underweight'), color: "text-blue-500" };
+    if (bmi < 25) return { category: t('home:bmi.normal'), color: "text-green-500" };
+    if (bmi < 30) return { category: t('home:bmi.overweight'), color: "text-yellow-500" };
+    if (bmi < 35) return { category: t('home:bmi.obeseI'), color: "text-orange-500" };
+    if (bmi < 40) return { category: t('home:bmi.obeseII'), color: "text-red-500" };
+    return { category: t('home:bmi.obeseIII'), color: "text-red-700" };
+  }
 
   const calculateBMI = () => {
     let weightKg: number;
@@ -78,10 +80,10 @@ export function BMICalculator() {
         </div>
         
         <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
-          Check Your Body Mass Index
+          {t('home:bmi.title')}
         </h2>
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-          Calculate your BMI to understand your weight category and discover if bariatric surgery could help you achieve a healthier life.
+          {t('home:bmi.subtitle')}
         </p>
 
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
@@ -96,7 +98,7 @@ export function BMICalculator() {
                 }`}
                 data-testid="button-metric"
               >
-                Metric (kg/cm)
+                {t('home:bmi.metric')}
               </button>
               <button
                 onClick={() => setUnitSystem("imperial")}
@@ -107,14 +109,14 @@ export function BMICalculator() {
                 }`}
                 data-testid="button-imperial"
               >
-                Imperial (lb/ft)
+                {t('home:bmi.imperial')}
               </button>
             </div>
 
             <div className="space-y-4">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Weight ({unitSystem === "metric" ? "kg" : "lb"})
+                  {t('home:bmi.weight')} ({unitSystem === "metric" ? "kg" : "lb"})
                 </label>
                 <Input
                   type="number"
@@ -129,7 +131,7 @@ export function BMICalculator() {
               {unitSystem === "metric" ? (
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Height (cm)
+                    {t('home:bmi.height')} (cm)
                   </label>
                   <Input
                     type="number"
@@ -144,7 +146,7 @@ export function BMICalculator() {
                 <div className="grid grid-cols-2 gap-3">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Height (ft)
+                      {t('home:bmi.height')} (ft)
                     </label>
                     <Input
                       type="number"
@@ -157,7 +159,7 @@ export function BMICalculator() {
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Height (in)
+                      {t('home:bmi.height')} (in)
                     </label>
                     <Input
                       type="number"
@@ -178,7 +180,7 @@ export function BMICalculator() {
                 className="flex-1 bg-primary hover:bg-primary/90"
                 data-testid="button-calculate-bmi"
               >
-                Calculate BMI
+                {t('home:bmi.calculate')}
               </Button>
               <Button
                 onClick={reset}
@@ -186,13 +188,13 @@ export function BMICalculator() {
                 className="flex-1"
                 data-testid="button-reset-bmi"
               >
-                Reset
+                {t('home:bmi.reset')}
               </Button>
             </div>
 
             {result && (
               <div className="mt-6 p-6 bg-gray-50 rounded-xl text-center">
-                <p className="text-sm text-gray-600 mb-2">Your BMI</p>
+                <p className="text-sm text-gray-600 mb-2">{t('home:bmi.yourBmi')}</p>
                 <p className="text-5xl font-bold text-gray-900 mb-2">
                   {result.bmi.toFixed(1)}
                 </p>
@@ -209,23 +211,23 @@ export function BMICalculator() {
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                   </svg>
-                  Ask Dr Ustun about your options
+                  {t('common:askDrUstun')}
                 </a>
               </div>
             )}
 
             {!result && (
               <div className="mt-6 p-6 bg-gray-50 rounded-xl">
-                <h4 className="font-semibold text-gray-900 mb-2">Enter Your Details</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">{t('home:bmi.enterDetails')}</h4>
                 <p className="text-sm text-gray-600">
-                  Input your weight and height to calculate your BMI and get personalized recommendations.
+                  {t('home:bmi.inputMessage')}
                 </p>
               </div>
             )}
           </div>
 
           <div className="bg-white rounded-2xl shadow-lg p-8">
-            <h4 className="font-semibold text-gray-900 mb-6">BMI Categories</h4>
+            <h4 className="font-semibold text-gray-900 mb-6">{t('home:bmi.categories')}</h4>
             <div className="space-y-3">
               {bmiCategories.map((cat, index) => (
                 <div
@@ -236,18 +238,15 @@ export function BMICalculator() {
                   <span className="text-sm font-medium text-gray-700 w-20">
                     {cat.range}
                   </span>
-                  <span className="text-sm text-gray-600">{cat.label}</span>
+                  <span className="text-sm text-gray-600">{t(`home:bmi.${cat.labelKey}`)}</span>
                 </div>
               ))}
             </div>
 
             <div className="mt-8 p-4 bg-blue-50 rounded-xl">
-              <h5 className="font-medium text-gray-900 mb-2">Why BMI Matters</h5>
+              <h5 className="font-medium text-gray-900 mb-2">{t('home:bmi.whyBmiMatters')}</h5>
               <p className="text-sm text-gray-600">
-                BMI is an important indicator of overall health. A BMI of 30 or higher 
-                indicates obesity, which increases the risk of various health conditions. 
-                Bariatric surgery is typically recommended for individuals with a BMI of 
-                35+ or 30+ with obesity-related health issues.
+                {t('home:bmi.bmiExplanation')}
               </p>
             </div>
           </div>

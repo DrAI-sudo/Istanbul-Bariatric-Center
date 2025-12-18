@@ -1,7 +1,10 @@
-import { MapPin, Phone, Mail, Facebook, Instagram, Youtube, Twitter } from "lucide-react";
+import { MapPin, Phone, Mail, Facebook, Instagram, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
 
 export function Footer() {
+  const { t } = useTranslation('common');
+  
   return (
     <footer className="bg-slate-900 text-white pt-20 pb-10">
       <div className="container mx-auto px-4">
@@ -69,7 +72,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-slate-800 pt-8 text-center text-slate-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} Istanbul Bariatric Center. All rights reserved.</p>
+          <p>{t('copyright')}</p>
         </div>
       </div>
     </footer>

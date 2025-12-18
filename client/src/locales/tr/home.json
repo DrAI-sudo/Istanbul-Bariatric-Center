@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "title": "Türkiye'de Uzman Bariatrik Cerrahi ile Hayatınızı Dönüştürün",
+    "subtitle": "Kişiselleştirilmiş bakım, VIP tedavi ve hayat değiştiren sonuçlarla dünya standartlarında kilo verme cerrahisi",
+    "cta": "Yolculuğunuza Başlayın"
+  },
+  "vipPackage": {
+    "title": "Her Şey Dahil Platinum VIP ve Ekonomik Paketler",
+    "description": "İstanbul Bariatrik Merkezi'nin yeni teklifi sadece kilo vermenizi sağlamakla kalmayacak, aynı zamanda size İstanbul'u tanıtacak! VIP Havalimanı Transferleri, tüm kapsamlı ameliyat öncesi testler, 3 gün hastanede yatış, 3 gün konaklama, diyetisyen takipleri dahil!",
+    "lovelyExperience": "Harika Deneyim",
+    "fromStartToEnd": "Baştan sona",
+    "fullyFormedHospital": "Tam Donanımlı Hastane",
+    "jciAccredited": "JCI akrediteli hastane",
+    "accommodation": "5 Gün Konaklama",
+    "luxuryHotels": "İstanbul'un lüks otellerinde",
+    "freeAirportPickup": "Ücretsiz Havalimanı Transferi",
+    "forYourConvenience": "Konforunuz için",
+    "startsFrom": "£1,850'den Başlayan",
+    "bestPrices": "Tedaviniz için en iyi fiyatlar",
+    "helpfulStaff": "7/24 Yardımsever Personel",
+    "noCost": "Hiçbir ek ücret olmadan",
+    "letsTryIt": "Hadi Deneyelim",
+    "getStarted": "Başlayın"
+  },
+  "awards": {
+    "title": "Ödüllü Mükemmellik",
+    "subtitle": "Olağanüstü hasta bakımı ve cerrahi uzmanlık için dünya çapında tanınmış"
+  },
+  "bmi": {
+    "title": "Vücut Kitle İndeksinizi Hesaplayın",
+    "subtitle": "Kilo kategorinizi anlamak ve bariatrik cerrahinin daha sağlıklı bir yaşam elde etmenize yardımcı olup olamayacağını keşfetmek için VKİ'nizi hesaplayın.",
+    "metric": "Metrik (kg/cm)",
+    "imperial": "İmparatorluk (lb/ft)",
+    "weight": "Ağırlık",
+    "height": "Boy",
+    "calculate": "VKİ Hesapla",
+    "reset": "Sıfırla",
+    "yourBmi": "VKİ'niz",
+    "enterDetails": "Bilgilerinizi Girin",
+    "inputMessage": "VKİ'nizi hesaplamak ve kişiselleştirilmiş öneriler almak için kilonuzu ve boyunuzu girin.",
+    "categories": "VKİ Kategorileri",
+    "underweight": "Zayıf",
+    "normal": "Normal",
+    "overweight": "Kilolu",
+    "obeseI": "Obez I",
+    "obeseII": "Obez II",
+    "obeseIII": "Obez III",
+    "whyBmiMatters": "VKİ Neden Önemli",
+    "bmiExplanation": "VKİ, genel sağlığın önemli bir göstergesidir. 30 veya üzeri VKİ obeziteyi gösterir ve çeşitli sağlık sorunları riskini artırır. Bariatrik cerrahi genellikle 35+ veya obezite ile ilgili sağlık sorunları olan 30+ VKİ'ye sahip bireyler için önerilir."
+  },
+  "treatments": {
+    "title": "Endoskopik ve Laparoskopik Tedaviler",
+    "subtitle": "İhtiyaçlarınıza göre uyarlanmış kapsamlı bir dizi kanıtlanmış kilo verme prosedürü sunuyoruz",
+    "viewAll": "Tüm Tedavileri Gör"
+  },
+  "testimonials": {
+    "title": "Başarı Hikayeleri",
+    "subtitle": "Gerçek hastalar, gerçek dönüşümler, gerçek sonuçlar"
+  }
+}

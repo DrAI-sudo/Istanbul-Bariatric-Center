@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "title": "Transformez Votre Vie avec la Chirurgie Bariatrique Experte en Turquie",
+    "subtitle": "Chirurgie de perte de poids de classe mondiale avec soins personnalisés, traitement VIP et résultats qui changent la vie",
+    "cta": "Commencez Votre Voyage"
+  },
+  "vipPackage": {
+    "title": "Forfaits VIP Platinum et Économiques Tout Compris",
+    "description": "La nouvelle offre d'Istanbul Bariatric Center ne vous fera pas seulement perdre du poids, elle vous fera également découvrir Istanbul! Transferts VIP à l'aéroport, tous les tests préopératoires complets, 3 jours d'hospitalisation, 3 jours d'hébergement, suivis diététiques inclus!",
+    "lovelyExperience": "Expérience Merveilleuse",
+    "fromStartToEnd": "Du début à la fin",
+    "fullyFormedHospital": "Hôpital Complet",
+    "jciAccredited": "Hôpital accrédité JCI",
+    "accommodation": "5 Jours d'Hébergement",
+    "luxuryHotels": "Dans les hôtels de luxe d'Istanbul",
+    "freeAirportPickup": "Transfert Aéroport Gratuit",
+    "forYourConvenience": "Pour votre confort",
+    "startsFrom": "À partir de £1,850",
+    "bestPrices": "Meilleurs prix pour votre traitement",
+    "helpfulStaff": "Personnel 24/7",
+    "noCost": "Sans frais supplémentaires",
+    "letsTryIt": "Essayons",
+    "getStarted": "Commencer"
+  },
+  "awards": {
+    "title": "Excellence Primée",
+    "subtitle": "Reconnu mondialement pour les soins exceptionnels aux patients et l'expertise chirurgicale"
+  },
+  "bmi": {
+    "title": "Calculez Votre Indice de Masse Corporelle",
+    "subtitle": "Calculez votre IMC pour comprendre votre catégorie de poids et découvrir si la chirurgie bariatrique pourrait vous aider à atteindre une vie plus saine.",
+    "metric": "Métrique (kg/cm)",
+    "imperial": "Impérial (lb/ft)",
+    "weight": "Poids",
+    "height": "Taille",
+    "calculate": "Calculer l'IMC",
+    "reset": "Réinitialiser",
+    "yourBmi": "Votre IMC",
+    "enterDetails": "Entrez Vos Données",
+    "inputMessage": "Entrez votre poids et votre taille pour calculer votre IMC et obtenir des recommandations personnalisées.",
+    "categories": "Catégories d'IMC",
+    "underweight": "Insuffisance Pondérale",
+    "normal": "Normal",
+    "overweight": "Surpoids",
+    "obeseI": "Obèse I",
+    "obeseII": "Obèse II",
+    "obeseIII": "Obèse III",
+    "whyBmiMatters": "Pourquoi l'IMC est Important",
+    "bmiExplanation": "L'IMC est un indicateur important de la santé générale. Un IMC de 30 ou plus indique l'obésité, ce qui augmente le risque de diverses conditions de santé. La chirurgie bariatrique est généralement recommandée pour les personnes ayant un IMC de 35+ ou 30+ avec des problèmes de santé liés à l'obésité."
+  },
+  "treatments": {
+    "title": "Traitements Endoscopiques et Laparoscopiques",
+    "subtitle": "Nous offrons une gamme complète de procédures de perte de poids éprouvées adaptées à vos besoins",
+    "viewAll": "Voir Tous les Traitements"
+  },
+  "testimonials": {
+    "title": "Histoires de Réussite",
+    "subtitle": "De vrais patients, de vraies transformations, de vrais résultats"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "title": "Transform Your Life with Expert Bariatric Surgery in Turkey",
+    "subtitle": "World-class weight loss surgery with personalized care, VIP treatment, and life-changing results",
+    "cta": "Start Your Journey"
+  },
+  "vipPackage": {
+    "title": "All Inclusive Platinum VIP and Economic Packages",
+    "description": "Istanbul Bariatric Center's new offer will not only make you lose weight, it will also introduce Istanbul to you! VIP Airport Transfers, all comprehensive preop tests, 3 days of hospitalisation, 3 days accommodation, dietitian followups included!",
+    "lovelyExperience": "Lovely Experience",
+    "fromStartToEnd": "From start to end",
+    "fullyFormedHospital": "Fully Formed Hospital",
+    "jciAccredited": "JCI accredited hospital",
+    "accommodation": "5 Days Accommodation",
+    "luxuryHotels": "At luxury hotels of Istanbul",
+    "freeAirportPickup": "Free Airport Pick Up",
+    "forYourConvenience": "For your convenience",
+    "startsFrom": "Starts From £1,850",
+    "bestPrices": "Best prices for your treatment",
+    "helpfulStaff": "7/24 Helpful Staff",
+    "noCost": "With no cost at all",
+    "letsTryIt": "Let's Try It",
+    "getStarted": "Get Started"
+  },
+  "awards": {
+    "title": "Award-Winning Excellence",
+    "subtitle": "Recognized globally for outstanding patient care and surgical expertise",
+    "strength1": "strength",
+    "strength2": "strength"
+  },
+  "bmi": {
+    "title": "Check Your Body Mass Index",
+    "subtitle": "Calculate your BMI to understand your weight category and discover if bariatric surgery could help you achieve a healthier life.",
+    "metric": "Metric (kg/cm)",
+    "imperial": "Imperial (lb/ft)",
+    "weight": "Weight",
+    "height": "Height",
+    "calculate": "Calculate BMI",
+    "reset": "Reset",
+    "yourBmi": "Your BMI",
+    "enterDetails": "Enter Your Details",
+    "inputMessage": "Input your weight and height to calculate your BMI and get personalized recommendations.",
+    "categories": "BMI Categories",
+    "underweight": "Underweight",
+    "normal": "Normal",
+    "overweight": "Overweight",
+    "obeseI": "Obese I",
+    "obeseII": "Obese II",
+    "obeseIII": "Obese III",
+    "whyBmiMatters": "Why BMI Matters",
+    "bmiExplanation": "BMI is an important indicator of overall health. A BMI of 30 or higher indicates obesity, which increases the risk of various health conditions. Bariatric surgery is typically recommended for individuals with a BMI of 35+ or 30+ with obesity-related health issues."
+  },
+  "treatments": {
+    "title": "Endoscopic and Laparoscopic Treatments",
+    "subtitle": "We offer a comprehensive range of proven weight loss procedures tailored to your needs",
+    "viewAll": "View All Treatments"
+  },
+  "testimonials": {
+    "title": "Success Stories",
+    "subtitle": "Real patients, real transformations, real results"
+  }
+}

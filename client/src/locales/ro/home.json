@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "title": "Transformă-ți Viața cu Chirurgie Bariatrică Expert în Turcia",
+    "subtitle": "Chirurgie pentru pierderea în greutate de clasă mondială cu îngrijire personalizată, tratament VIP și rezultate care schimbă viața",
+    "cta": "Începe Călătoria"
+  },
+  "vipPackage": {
+    "title": "Pachete VIP Platinum și Economice Totul Inclus",
+    "description": "Noua ofertă a Istanbul Bariatric Center nu doar că vă va face să pierdeți în greutate, ci vă va prezenta și Istanbulul! Transferuri VIP de la aeroport, toate testele preoperatorii complete, 3 zile de spitalizare, 3 zile de cazare, urmăriri cu dieteticianul incluse!",
+    "lovelyExperience": "Experiență Minunată",
+    "fromStartToEnd": "De la început până la sfârșit",
+    "fullyFormedHospital": "Spital Complet",
+    "jciAccredited": "Spital acreditat JCI",
+    "accommodation": "5 Zile de Cazare",
+    "luxuryHotels": "În hoteluri de lux din Istanbul",
+    "freeAirportPickup": "Transfer Aeroport Gratuit",
+    "forYourConvenience": "Pentru confortul dumneavoastră",
+    "startsFrom": "De la £1,850",
+    "bestPrices": "Cele mai bune prețuri pentru tratamentul dumneavoastră",
+    "helpfulStaff": "Personal 24/7",
+    "noCost": "Fără costuri suplimentare",
+    "letsTryIt": "Hai să încercăm",
+    "getStarted": "Începe"
+  },
+  "awards": {
+    "title": "Excelență Premiată",
+    "subtitle": "Recunoscut la nivel mondial pentru îngrijirea excepțională a pacienților și expertiza chirurgicală"
+  },
+  "bmi": {
+    "title": "Calculează Indicele de Masă Corporală",
+    "subtitle": "Calculați-vă IMC-ul pentru a înțelege categoria de greutate și a descoperi dacă chirurgia bariatrică v-ar putea ajuta să obțineți o viață mai sănătoasă.",
+    "metric": "Metric (kg/cm)",
+    "imperial": "Imperial (lb/ft)",
+    "weight": "Greutate",
+    "height": "Înălțime",
+    "calculate": "Calculează IMC",
+    "reset": "Resetare",
+    "yourBmi": "IMC-ul Tău",
+    "enterDetails": "Introduceți Datele",
+    "inputMessage": "Introduceți greutatea și înălțimea pentru a calcula IMC-ul și a primi recomandări personalizate.",
+    "categories": "Categorii IMC",
+    "underweight": "Subponderal",
+    "normal": "Normal",
+    "overweight": "Supraponderal",
+    "obeseI": "Obez I",
+    "obeseII": "Obez II",
+    "obeseIII": "Obez III",
+    "whyBmiMatters": "De Ce Contează IMC",
+    "bmiExplanation": "IMC-ul este un indicator important al sănătății generale. Un IMC de 30 sau mai mare indică obezitate, care crește riscul diverselor afecțiuni de sănătate. Chirurgia bariatrică este de obicei recomandată pentru persoanele cu un IMC de 35+ sau 30+ cu probleme de sănătate legate de obezitate."
+  },
+  "treatments": {
+    "title": "Tratamente Endoscopice și Laparoscopice",
+    "subtitle": "Oferim o gamă completă de proceduri dovedite pentru pierderea în greutate adaptate nevoilor dumneavoastră",
+    "viewAll": "Vezi Toate Tratamentele"
+  },
+  "testimonials": {
+    "title": "Povești de Succes",
+    "subtitle": "Pacienți reali, transformări reale, rezultate reale"
+  }
+}
