@@ -42,32 +42,30 @@ export function Navbar() {
       )}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <Link href="/">
-          <a className="flex items-center gap-3">
-             <div className="flex flex-col">
-               <span className={cn("text-2xl font-extrabold tracking-tight uppercase", showSolidNav ? "text-[#2d3e50]" : "text-white")}>
-                 Istanbul
-               </span>
-               <span className={cn("text-sm font-bold tracking-widest uppercase", showSolidNav ? "text-primary" : "text-white/90")}>
-                 Bariatric Center
-               </span>
-             </div>
-          </a>
+        <Link href="/" className="flex items-center gap-3">
+           <div className="flex flex-col">
+             <span className={cn("text-2xl font-extrabold tracking-tight uppercase", showSolidNav ? "text-[#2d3e50]" : "text-white")}>
+               Istanbul
+             </span>
+             <span className={cn("text-sm font-bold tracking-widest uppercase", showSolidNav ? "text-primary" : "text-white/90")}>
+               Bariatric Center
+             </span>
+           </div>
         </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden lg:flex items-center gap-8">
           {navLinks.map((link) => (
-            <Link key={link.name} href={link.href}>
-              <a
-                className={cn(
-                  "text-sm font-bold uppercase tracking-wide hover:text-primary transition-colors",
-                  location === link.href ? "text-primary border-b-2 border-primary" : "",
-                  showSolidNav ? "text-slate-600" : "text-white"
-                )}
-              >
-                {link.name}
-              </a>
+            <Link 
+              key={link.name} 
+              href={link.href}
+              className={cn(
+                "text-sm font-bold uppercase tracking-wide hover:text-primary transition-colors",
+                location === link.href ? "text-primary border-b-2 border-primary" : "",
+                showSolidNav ? "text-slate-600" : "text-white"
+              )}
+            >
+              {link.name}
             </Link>
           ))}
           <Button 
@@ -94,16 +92,16 @@ export function Navbar() {
       {isMobileMenuOpen && (
         <div className="lg:hidden absolute top-full left-0 right-0 bg-white shadow-xl border-t border-slate-100 p-6 flex flex-col gap-4 animate-in slide-in-from-top-2">
           {navLinks.map((link) => (
-            <Link key={link.name} href={link.href}>
-              <a
-                className={cn(
-                  "text-lg font-bold text-slate-700 py-3 border-b border-slate-50 uppercase",
-                  location === link.href ? "text-primary" : ""
-                )}
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {link.name}
-              </a>
+            <Link 
+              key={link.name} 
+              href={link.href}
+              className={cn(
+                "text-lg font-bold text-slate-700 py-3 border-b border-slate-50 uppercase",
+                location === link.href ? "text-primary" : ""
+              )}
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              {link.name}
             </Link>
           ))}
           <Button 

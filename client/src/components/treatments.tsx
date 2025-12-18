@@ -37,7 +37,7 @@ const treatments = [
     title: "Transit Bipartition",
     desc: "A very reliable alternative of revisional bariatric surgeries in some cases.",
     link: "/transit-bipartition",
-    image: null
+    image: "/transit-bipartition.gif"
   },
   {
     title: "ESG (Endoscopic Sleeve Gastroplasty)",
