@@ -2,7 +2,7 @@ import { useParams, Link } from "wouter";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
-import { Calendar, ArrowLeft, User } from "lucide-react";
+import { Calendar, ArrowLeft, User, Clock } from "lucide-react";
 import { getBlogPostBySlug, blogPosts } from "@/data/blog-posts";
 
 export default function BlogPost() {
@@ -39,85 +39,115 @@ export default function BlogPost() {
       <Navbar />
       
       <article className="pt-32 pb-20">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <Link href="/blog">
-            <Button variant="ghost" className="mb-8 text-primary hover:text-primary/80" data-testid="button-back-to-blog">
-              <ArrowLeft className="w-4 h-4 mr-2" />
-              Back to Blog
-            </Button>
-          </Link>
-
-          <div className="mb-6">
-            <span className="inline-block bg-primary text-white text-sm font-bold px-4 py-1 rounded-full mb-4">
-              {post.category}
-            </span>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight mb-6" data-testid="text-post-title">
-              {post.title}
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-slate-500">
-              <div className="flex items-center gap-2">
-                <Calendar className="w-4 h-4" />
-                <span>{post.date}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <User className="w-4 h-4" />
-                <span>Istanbul Bariatric Center Editorial Team</span>
-              </div>
-            </div>
-          </div>
-
-          <div className="aspect-video bg-slate-200 rounded-xl overflow-hidden mb-10">
-            <img 
-              src={post.image} 
-              alt={post.title}
-              className="w-full h-full object-cover"
-              onError={(e) => {
-                e.currentTarget.src = "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/gastric-sleeve.png";
-              }}
-            />
-          </div>
-
-          <div 
-            className="prose prose-lg max-w-none prose-headings:text-slate-900 prose-p:text-slate-700 prose-a:text-primary prose-strong:text-slate-900 prose-ul:text-slate-700 prose-ol:text-slate-700"
-            dangerouslySetInnerHTML={{ __html: post.content }}
-          />
-
-          <div className="border-t border-slate-200 mt-12 pt-8">
-            <div className="flex flex-col md:flex-row justify-between gap-4">
-              {prevPost ? (
-                <Link href={`/blog/${prevPost.slug}`} className="flex-1">
-                  <div className="p-4 border border-slate-200 rounded-lg hover:border-primary transition-colors group">
-                    <span className="text-sm text-slate-400 mb-1 block">Previous Article</span>
-                    <span className="font-semibold text-slate-900 group-hover:text-primary transition-colors line-clamp-2">
-                      {prevPost.title}
-                    </span>
-                  </div>
-                </Link>
-              ) : <div className="flex-1" />}
-              
-              {nextPost ? (
-                <Link href={`/blog/${nextPost.slug}`} className="flex-1">
-                  <div className="p-4 border border-slate-200 rounded-lg hover:border-primary transition-colors group text-right">
-                    <span className="text-sm text-slate-400 mb-1 block">Next Article</span>
-                    <span className="font-semibold text-slate-900 group-hover:text-primary transition-colors line-clamp-2">
-                      {nextPost.title}
-                    </span>
-                  </div>
-                </Link>
-              ) : <div className="flex-1" />}
-            </div>
-          </div>
-
-          <div className="mt-12 p-6 bg-slate-50 rounded-xl">
-            <h3 className="text-xl font-bold text-slate-900 mb-4">Need More Information?</h3>
-            <p className="text-slate-600 mb-4">
-              If you have questions about bariatric surgery or would like to schedule a consultation, our team is here to help.
-            </p>
-            <Link href="/contact">
-              <Button className="bg-primary hover:bg-primary/90" data-testid="button-contact-us">
-                Contact Us Today
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <Link href="/blog">
+              <Button variant="ghost" className="mb-8 text-primary hover:text-primary/80" data-testid="button-back-to-blog">
+                <ArrowLeft className="w-4 h-4 mr-2" />
+                Back to Blog
               </Button>
             </Link>
+
+            <div className="mb-8">
+              <span className="inline-block bg-gradient-to-r from-primary to-blue-600 text-white text-sm font-bold px-5 py-2 rounded-full mb-6 shadow-lg">
+                {post.category}
+              </span>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary leading-tight mb-6" data-testid="text-post-title">
+                {post.title}
+              </h1>
+              <div className="flex flex-wrap items-center gap-6 text-slate-500 border-b border-slate-200 pb-6">
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+                    <Calendar className="w-4 h-4 text-primary" />
+                  </div>
+                  <span className="font-medium">{post.date}</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+                    <User className="w-4 h-4 text-primary" />
+                  </div>
+                  <span className="font-medium">Dr. Murat Ustun</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+                    <Clock className="w-4 h-4 text-primary" />
+                  </div>
+                  <span className="font-medium">8 min read</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="aspect-video bg-slate-200 rounded-2xl overflow-hidden mb-12 shadow-2xl ring-1 ring-slate-200">
+              <img 
+                src={post.image} 
+                alt={post.title}
+                className="w-full h-full object-cover"
+                onError={(e) => {
+                  e.currentTarget.src = "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/gastric-sleeve.png";
+                }}
+              />
+            </div>
+
+            <div 
+              className="blog-content prose prose-lg max-w-none"
+              dangerouslySetInnerHTML={{ __html: post.content }}
+            />
+
+            <div className="border-t border-slate-200 mt-12 pt-8">
+              <div className="flex flex-col md:flex-row justify-between gap-4">
+                {prevPost ? (
+                  <Link href={`/blog/${prevPost.slug}`} className="flex-1">
+                    <div className="p-4 border border-slate-200 rounded-lg hover:border-primary transition-colors group">
+                      <span className="text-sm text-slate-400 mb-1 block">Previous Article</span>
+                      <span className="font-semibold text-slate-900 group-hover:text-primary transition-colors line-clamp-2">
+                        {prevPost.title}
+                      </span>
+                    </div>
+                  </Link>
+                ) : <div className="flex-1" />}
+                
+                {nextPost ? (
+                  <Link href={`/blog/${nextPost.slug}`} className="flex-1">
+                    <div className="p-4 border border-slate-200 rounded-lg hover:border-primary transition-colors group text-right">
+                      <span className="text-sm text-slate-400 mb-1 block">Next Article</span>
+                      <span className="font-semibold text-slate-900 group-hover:text-primary transition-colors line-clamp-2">
+                        {nextPost.title}
+                      </span>
+                    </div>
+                  </Link>
+                ) : <div className="flex-1" />}
+              </div>
+            </div>
+
+            <div className="mt-16 p-8 bg-gradient-to-br from-primary/10 via-blue-50 to-white rounded-2xl border border-primary/20 shadow-lg">
+              <div className="flex flex-col md:flex-row items-center gap-6">
+                <div className="w-20 h-20 rounded-full bg-primary flex items-center justify-center shrink-0">
+                  <User className="w-10 h-10 text-white" />
+                </div>
+                <div className="text-center md:text-left flex-1">
+                  <h3 className="text-2xl font-bold text-slate-900 mb-2">Ready to Start Your Journey?</h3>
+                  <p className="text-slate-600 mb-4">
+                    Contact Dr. Murat Ustun for a free consultation and learn about your weight loss options.
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
+                    <Link href="/contact">
+                      <Button className="bg-primary hover:bg-primary/90 shadow-lg" data-testid="button-contact-us">
+                        Book Free Consultation
+                      </Button>
+                    </Link>
+                    <a 
+                      href="https://wa.me/905324131143" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="outline" className="border-green-500 text-green-600 hover:bg-green-50">
+                        WhatsApp
+                      </Button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </article>
