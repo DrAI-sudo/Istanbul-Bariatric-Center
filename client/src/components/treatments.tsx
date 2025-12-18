@@ -33,6 +33,11 @@ const treatments = [
     title: "Transit Bipartition",
     desc: "A very reliable alternative of revisional bariatric surgeries in some cases.",
     link: "/transit-bipartition"
+  },
+  {
+    title: "ESG (Endoscopic Sleeve Gastroplasty)",
+    desc: "A non-surgical, incisionless weight loss procedure with quick recovery.",
+    link: "/esg"
   }
 ];
 
