@@ -81,7 +81,7 @@ const treatments = [
       "Temporary solution (6 months)",
       "Less weight loss than surgery"
     ],
-    ifsoImage: "/attached_assets/IMG_1831_1766063597439.jpeg"
+    ifsoImage: "/gastric-balloon.jpeg"
   },
   {
     title: "Adjustable Gastric Band",
@@ -186,7 +186,7 @@ export default function Treatments() {
                         <img 
                           src={treatment.ifsoImage} 
                           alt={`IFSO Atlas illustration of ${treatment.title}`}
-                          className="max-w-full max-h-[350px] object-contain rounded-lg shadow-md mb-4"
+                          className="w-full max-h-[450px] object-contain rounded-lg shadow-md mb-4"
                           data-testid={`img-ifso-${treatment.title.toLowerCase().replace(/\s+/g, '-')}`}
                         />
                         <p className="text-xs text-slate-500 mt-4 italic">

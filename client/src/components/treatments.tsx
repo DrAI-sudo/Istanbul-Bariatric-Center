@@ -1,4 +1,3 @@
-import stomachImage from "@assets/generated_images/medical_illustration_of_stomach_health.png";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "wouter";
@@ -7,37 +6,44 @@ const treatments = [
   {
     title: "Sleeve Gastrectomy",
     desc: "Laparoscopic sleeve gastrectomy is the most popular bariatric surgery worldwide.",
-    link: "/sleeve-gastrectomy"
+    link: "/sleeve-gastrectomy",
+    image: "https://www.ifso.com/images/sleeve-gastrectomy-pop-up.png"
   },
   {
     title: "Mini Gastric Bypass",
     desc: "Discover your weight loss potential with mini-gastric bypass surgeries.",
-    link: "/mini-gastric-bypass"
+    link: "/mini-gastric-bypass",
+    image: "https://www.ifso.com/images/oagb-mini-gastric-bypass-img.jpg"
   },
   {
     title: "Intragastric Balloon",
     desc: "Gastric balloon procedure is a non-surgical method to lose weight.",
-    link: "/gastric-balloon"
+    link: "/gastric-balloon",
+    image: "/gastric-balloon.jpeg"
   },
   {
     title: "Surgery for Diabetes",
     desc: "Metabolic surgeries are made for reversion of the diabetes diseases.",
-    link: "/duodenal-switch"
+    link: "/duodenal-switch",
+    image: "https://www.ifso.com/images/duodenal-switch-pop-up.png"
   },
   {
     title: "Post-Bariatric Surgery",
     desc: "Aesthetic surgeries for body contouring after significant weight loss.",
-    link: "#"
+    link: "#",
+    image: null
   },
   {
     title: "Transit Bipartition",
     desc: "A very reliable alternative of revisional bariatric surgeries in some cases.",
-    link: "/transit-bipartition"
+    link: "/transit-bipartition",
+    image: null
   },
   {
     title: "ESG (Endoscopic Sleeve Gastroplasty)",
     desc: "A non-surgical, incisionless weight loss procedure with quick recovery.",
-    link: "/esg"
+    link: "/esg",
+    image: "https://www.ifso.com/images/endoscopic-sleeve-gastroplasty-pop-up.png"
   }
 ];
 
@@ -56,15 +62,23 @@ export function Treatments() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {treatments.map((item, i) => (
-            <div key={i} className="group bg-white rounded-2xl border border-slate-100 p-8 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden relative">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-blue-50 rounded-bl-full -mr-16 -mt-16 transition-transform group-hover:scale-150 duration-500 opacity-50" />
-              
-              <div className="relative z-10">
-                <div className="w-16 h-16 bg-blue-50 rounded-xl mb-6 flex items-center justify-center group-hover:bg-primary transition-colors duration-300">
-                   {/* Placeholder icon logic or generic icon */}
-                   <img src={stomachImage} alt="Icon" className="w-10 h-10 object-contain opacity-80 group-hover:brightness-0 group-hover:invert transition-all" />
+            <div key={i} className="group bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden relative">
+              {item.image && (
+                <div className="h-48 overflow-hidden bg-slate-50">
+                  <img 
+                    src={item.image} 
+                    alt={item.title}
+                    className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300"
+                  />
                 </div>
-                
+              )}
+              {!item.image && (
+                <div className="h-48 bg-gradient-to-br from-blue-50 to-slate-100 flex items-center justify-center">
+                  <span className="text-6xl opacity-30">🩺</span>
+                </div>
+              )}
+              
+              <div className="p-6 relative z-10">
                 <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
                 <p className="text-slate-500 mb-6 leading-relaxed">
                   {item.desc}
