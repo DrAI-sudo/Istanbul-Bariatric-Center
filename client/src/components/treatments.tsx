@@ -12,7 +12,7 @@ const treatments = [
   {
     title: "Mini Gastric Bypass",
     desc: "Discover your weight loss potential with mini-gastric bypass surgeries.",
-    link: "#"
+    link: "/mini-gastric-bypass"
   },
   {
     title: "Intragastric Balloon",

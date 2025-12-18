@@ -11,6 +11,7 @@ import Results from "@/pages/results";
 import Blog from "@/pages/blog";
 import Contact from "@/pages/contact";
 import SleeveGastrectomy from "@/pages/sleeve-gastrectomy";
+import MiniGastricBypass from "@/pages/mini-gastric-bypass";
 import { useEffect } from "react";
 import { useLocation } from "wouter";
 
@@ -37,6 +38,7 @@ function Router() {
         <Route path="/blog" component={Blog} />
         <Route path="/contact" component={Contact} />
         <Route path="/sleeve-gastrectomy" component={SleeveGastrectomy} />
+        <Route path="/mini-gastric-bypass" component={MiniGastricBypass} />
         <Route component={NotFound} />
       </Switch>
     </>
