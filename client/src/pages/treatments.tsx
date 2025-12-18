@@ -81,7 +81,7 @@ const treatments = [
       "Temporary solution (6 months)",
       "Less weight loss than surgery"
     ],
-    ifsoImage: "https://www.ifso.com/images/endoscopic-sleeve-gastroplasty-pop-up.png"
+    ifsoImage: "/attached_assets/IMG_1831_1766063597439.jpeg"
   },
   {
     title: "Adjustable Gastric Band",
