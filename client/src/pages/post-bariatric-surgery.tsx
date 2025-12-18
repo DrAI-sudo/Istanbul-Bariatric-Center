@@ -18,7 +18,7 @@ const procedures = [
   {
     title: "Thigh Lift",
     desc: "Reshapes the thighs by reducing excess skin and fat, resulting in smoother skin and better-proportioned contours.",
-    image: null
+    image: "/thigh-lift.png"
   },
   {
     title: "Body Lift (Belt Lipectomy)",
