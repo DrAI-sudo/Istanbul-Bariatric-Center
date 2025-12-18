@@ -17,6 +17,7 @@ import GastricBalloon from "@/pages/gastric-balloon";
 import DuodenalSwitch from "@/pages/duodenal-switch";
 import TransitBipartition from "@/pages/transit-bipartition";
 import ESG from "@/pages/esg";
+import PostBariatricSurgery from "@/pages/post-bariatric-surgery";
 import { useEffect } from "react";
 import { useLocation } from "wouter";
 
@@ -48,6 +49,7 @@ function Router() {
         <Route path="/duodenal-switch" component={DuodenalSwitch} />
         <Route path="/transit-bipartition" component={TransitBipartition} />
         <Route path="/esg" component={ESG} />
+        <Route path="/post-bariatric-surgery" component={PostBariatricSurgery} />
         <Route component={NotFound} />
       </Switch>
     </>
