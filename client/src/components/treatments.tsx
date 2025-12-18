@@ -17,7 +17,7 @@ const treatments = [
   {
     title: "Intragastric Balloon",
     desc: "Gastric balloon procedure is a non-surgical method to lose weight.",
-    link: "#"
+    link: "/gastric-balloon"
   },
   {
     title: "Surgery for Diabetes",

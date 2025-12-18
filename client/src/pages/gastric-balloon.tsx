@@ -1,0 +1,221 @@
+import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
+import { Button } from "@/components/ui/button";
+import { CheckCircle2, ArrowRight } from "lucide-react";
+
+const balloonTypes = [
+  {
+    name: "Elipse Gastric Balloon",
+    duration: "4-6 months",
+    anesthesia: "Without anesthesia"
+  },
+  {
+    name: "Allergan Gastric Balloon",
+    duration: "6 months",
+    anesthesia: "Intravenous"
+  },
+  {
+    name: "Spatz Gastric Balloon",
+    duration: "12 months",
+    anesthesia: "General"
+  }
+];
+
+const benefits = [
+  {
+    title: "Minimal Incision",
+    description: "This type of surgery requires less incision which will not affect the appearance of the patient."
+  },
+  {
+    title: "Forces Healthy Habits",
+    description: "This surgery forces patients to do a severe diet and follow a healthy life system as the balloon fills more than 50% of the stomach volume."
+  },
+  {
+    title: "No Side Effects",
+    description: "There are no side effects of inserting the balloon into the stomach because the material is designed to live in the stomach and not cause any annoyances."
+  },
+  {
+    title: "Test Before Surgery",
+    description: "Most patients demand gastric balloon surgery to see whether they will have any pleasant results of surgeries or not."
+  }
+];
+
+export default function GastricBalloon() {
+  return (
+    <div className="min-h-screen bg-white">
+      <Navbar />
+      
+      {/* Hero Header */}
+      <section className="bg-slate-900 text-white pt-40 pb-20">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Gastric Balloon</h1>
+          <p className="text-xl text-slate-300 max-w-3xl mx-auto">
+            A non-surgical weight loss solution that helps you achieve your goals with minimal intervention.
+          </p>
+        </div>
+      </section>
+
+      {/* Introduction */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
+            <div className="space-y-6">
+              <p className="text-lg text-slate-600 leading-relaxed">
+                Many people complain of obesity and its side effects on health statuses, especially that it can be a direct reason for many health problems like strokes and breathing difficulties. Some people try to solve their obesity by following old school traditional ways such as severe diet programs and daily exercises, but not everyone can reach pleasant results. Thus, weight loss surgeries have become the most successful substitute to solve obesity problems.
+              </p>
+              <p className="text-lg text-slate-600 leading-relaxed">
+                One of the most effective and important types is the <strong>Gastric Balloon</strong>. Just like any other weight loss surgery, the reason for gastric balloons is to reduce the weight of a patient but unlike other weight loss surgeries, it is simple and more comfortable therefore it is intelligible for anyone.
+              </p>
+              <p className="text-lg text-slate-600 leading-relaxed font-medium text-slate-900">
+                So how is it done? Are there any risks? How much does it cost? This article will explain everything about gastric balloon surgery.
+              </p>
+            </div>
+            <div className="flex justify-center">
+              <img 
+                src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/Gastric-Balloon-300x278.png" 
+                alt="Gastric Balloon Illustration" 
+                className="max-w-sm w-full"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* How it's performed */}
+      <section className="py-20 bg-slate-50">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl font-bold text-slate-900 mb-8">How Gastric Balloon Operation is Performed?</h2>
+          
+          <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
+            <p>
+              First of all, the gastric balloon surgery requires less incision because the doctor starts it by inserting a silicone balloon into the stomach by using an <strong>endoscope</strong> which is a long, thin, and flexible tube that has a camera on the top of it to help the doctor navigate through the mouth and down the throat to reach the stomach.
+            </p>
+            <p>
+              Once the balloon is placed safely in the stomach, it is filled with <strong>saline (salt water)</strong> and the balloon then will become very big to remove so it floats in the stomach freely.
+            </p>
+            <p>
+              As a result of this operation, the filled balloon will give the patient a feeling of a half-full stomach which makes the patient consume less food and slowly make him lose weight.
+            </p>
+            <p>
+              As you can see, the gastric balloon surgery does not involve any cut of the stomach which means that the stomach will work as normal. However, gastric balloon surgery is only a <strong>short term solution</strong> because the balloon must be removed after <strong>8 to 12 months</strong> maximum, so you can think about it like a boost to weight loss but not a once for all solution.
+            </p>
+            <p>
+              You will still need to get support to learn eating healthy, stay living healthy life, add gym into your life, etc.
+            </p>
+            <div className="p-6 bg-blue-50 rounded-xl border border-blue-100 mt-8">
+              <p className="text-slate-700">
+                <strong>Note:</strong> Gastric balloon is also a good option for those who need to lose weight before sleeve gastrectomy surgery. Considering overweight, sometimes doctors offer to have the gastric balloon as a first step to make the main surgery (gastric bypass or sleeve gastrectomy) easier and safer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Types */}
+      <section className="py-20">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl font-bold text-slate-900 mb-8">Types of Intragastric Balloon</h2>
+          
+          <p className="text-lg text-slate-600 mb-8">
+            There are several types of gastric balloon surgery:
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-6 mb-8">
+            {balloonTypes.map((type, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 shadow-sm border border-slate-100 hover:shadow-lg transition-shadow">
+                <h3 className="font-bold text-slate-900 text-lg mb-4">{type.name}</h3>
+                <div className="space-y-2 text-slate-600">
+                  <p><span className="font-medium">Duration:</span> {type.duration}</p>
+                  <p><span className="font-medium">Anesthesia:</span> {type.anesthesia}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="p-6 bg-slate-50 rounded-xl border border-slate-200">
+            <p className="text-slate-600">
+              Lately, most people demand an <strong>Elipse gastric balloon</strong> because it is comfortable and does not require anesthesia and lasts for only 4 to 6 months which is considered to be a very satisfying option to help patients go through diet and a healthy life system.
+            </p>
+            <p className="text-slate-600 mt-4">
+              Of course, the results of all types are the same. People usually lose <strong>15% of their weight</strong> depending on their starting weight and their overall health status and sometimes they even lose more weight.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Preferred */}
+      <section className="py-20 bg-blue-50">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl font-bold text-slate-900 mb-8">Why is it preferred more than other types of weight loss surgery?</h2>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            {benefits.map((benefit, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 shadow-sm border border-slate-100">
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                    <CheckCircle2 className="w-5 h-5 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-slate-900 mb-2">{benefit.title}</h3>
+                    <p className="text-slate-600">{benefit.description}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Recovery */}
+      <section className="py-20">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl font-bold text-slate-900 mb-8">Recovery from weight loss surgery</h2>
+          
+          <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
+            <p>
+              The first few weeks after the surgery you will only consume liquid and soft food to help your stomach go through transition. After these few weeks, you can start eating more solid food slowly.
+            </p>
+            <p>
+              However, to come up with the most pleasant result you should follow a healthy diet that helps you lose weight because the surgery alone will not accomplish that for you. Thus, it is very important to follow the diet program and the instruction of your doctor and never skip any detail even if it's small.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Costs */}
+      <section className="py-20 bg-slate-50">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl font-bold text-slate-900 mb-8">Costs of weight loss surgery</h2>
+          
+          <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
+            <p>
+              Well, the costs differ from a hospital to another one and from a country to another one but in general the costs of gastric balloon surgery is not very high. In addition, most insurance companies cover the costs if it is proved that you need the surgery. Still, it is better to check this information with the insurance company you work with.
+            </p>
+            <p>
+              In the end, always remember that gastric balloon surgery or any other type of weight loss surgery should be your last option and only done after you attempt to lose weight by following traditional ways like diets and daily exercises. Also, it is very important to share all of your health information with the surgeon including your medical history report before starting the operation to avoid any problems whether during the surgery or the recovery process.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-20 bg-primary text-white">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold mb-6">Interested in Gastric Balloon?</h2>
+          <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+            Contact us today for a free consultation and learn if gastric balloon is the right option for your weight loss journey.
+          </p>
+          <Button 
+            size="lg" 
+            className="bg-white text-primary hover:bg-white/90 font-bold text-lg h-14 px-10"
+            onClick={() => window.open('https://wa.me/447491068686', '_blank')}
+          >
+            Get Free Consultation
+          </Button>
+        </div>
+      </section>
+
+      <Footer />
+    </div>
+  );
+}
