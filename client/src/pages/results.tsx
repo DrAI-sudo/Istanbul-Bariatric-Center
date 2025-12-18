@@ -4,6 +4,21 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
+const beforeAfterImages = [
+  "https://bariatricsurgeryinturkey.com/assets/ba_1-ByMXV9kJ.jpeg",
+  "https://bariatricsurgeryinturkey.com/assets/ba_2-Do-jhvDA.jpeg",
+  "https://bariatricsurgeryinturkey.com/assets/ba_3-3xKc-EEk.jpeg",
+  "https://bariatricsurgeryinturkey.com/assets/ba_4-DdDcnv7A.jpeg",
+  "https://bariatricsurgeryinturkey.com/assets/ba_5-BatUBxC4.jpeg",
+  "https://bariatricsurgeryinturkey.com/assets/ba_6-BOMiSlR5.jpeg",
+  "https://bariatricsurgeryinturkey.com/assets/ba_7-rrNuob_8.png",
+  "https://bariatricsurgeryinturkey.com/assets/ba_8-5GD_zqNU.jpeg",
+  "https://bariatricsurgeryinturkey.com/assets/ba_9-B0Y8qqr_.jpeg",
+  "https://bariatricsurgeryinturkey.com/assets/ba_10-B06X8z-7.jpeg",
+  "https://bariatricsurgeryinturkey.com/assets/ba_11-akQcc2Oe.jpeg",
+  "https://bariatricsurgeryinturkey.com/assets/ba_12-LTS2-bwF.jpeg"
+];
+
 const results = [
   {
     name: "Sahra",
@@ -56,6 +71,36 @@ export default function Results() {
 
       <section className="py-20">
         <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Before & After Results</h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+              These transformations are more than just physical - they represent renewed confidence, improved health, and a fresh start in life. You could be next!
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-20">
+            {beforeAfterImages.map((img, i) => (
+              <div key={i} className="relative group overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+                <img 
+                  src={img} 
+                  alt={`Weight loss surgery before and after transformation - patient ${i + 1}`}
+                  className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300"
+                  data-testid={`before-after-image-${i + 1}`}
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3">
+                  <span className="text-white text-sm font-medium">Before & After</span>
+                </div>
+              </div>
+            ))}
+          </div>
+          
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Patient Testimonials</h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+              Hear directly from our patients about their experience with Istanbul Bariatric Center.
+            </p>
+          </div>
+          
           <div className="grid md:grid-cols-2 gap-8">
             {results.map((result, i) => (
               <Card key={i} className="overflow-hidden hover:shadow-xl transition-all duration-300 border-slate-200 group">
@@ -98,7 +143,7 @@ export default function Results() {
             <p className="text-slate-600 mb-8 max-w-xl mx-auto">
               Join thousands of successful patients who have transformed their lives with Istanbul Bariatric Center.
             </p>
-            <Button className="bg-primary hover:bg-primary/90 h-12 px-8 text-lg" onClick={() => window.open('https://wa.me/447491068686', '_blank')}>
+            <Button className="bg-primary hover:bg-primary/90 h-12 px-8 text-lg" onClick={() => window.open('https://wa.me/905324131143', '_blank')}>
               Start Your Transformation
             </Button>
           </div>
