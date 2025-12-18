@@ -1,12 +1,13 @@
 import stomachImage from "@assets/generated_images/medical_illustration_of_stomach_health.png";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { Link } from "wouter";
 
 const treatments = [
   {
     title: "Sleeve Gastrectomy",
     desc: "Laparoscopic sleeve gastrectomy is the most popular bariatric surgery worldwide.",
-    link: "#"
+    link: "/sleeve-gastrectomy"
   },
   {
     title: "Mini Gastric Bypass",
@@ -64,9 +65,9 @@ export function Treatments() {
                   {item.desc}
                 </p>
                 
-                <a href={item.link} className="inline-flex items-center text-primary font-semibold group-hover:translate-x-2 transition-transform">
+                <Link href={item.link} className="inline-flex items-center text-primary font-semibold group-hover:translate-x-2 transition-transform">
                   Learn More <ArrowRight className="ml-2 w-4 h-4" />
-                </a>
+                </Link>
               </div>
             </div>
           ))}

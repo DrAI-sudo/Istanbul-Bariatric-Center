@@ -10,6 +10,7 @@ import Treatments from "@/pages/treatments";
 import Results from "@/pages/results";
 import Blog from "@/pages/blog";
 import Contact from "@/pages/contact";
+import SleeveGastrectomy from "@/pages/sleeve-gastrectomy";
 import { useEffect } from "react";
 import { useLocation } from "wouter";
 
@@ -35,6 +36,7 @@ function Router() {
         <Route path="/results" component={Results} />
         <Route path="/blog" component={Blog} />
         <Route path="/contact" component={Contact} />
+        <Route path="/sleeve-gastrectomy" component={SleeveGastrectomy} />
         <Route component={NotFound} />
       </Switch>
     </>
