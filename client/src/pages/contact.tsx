@@ -85,7 +85,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-bold text-slate-900">Phone & WhatsApp</p>
-                      <p className="text-slate-600">+44 7491 068686</p>
+                      <p className="text-slate-600">+90 532 413 1143</p>
                       <p className="text-slate-400 text-sm mt-1">Available 24/7</p>
                     </div>
                   </CardContent>
