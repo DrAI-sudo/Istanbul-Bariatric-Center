@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const sideEffects = [
   "Bleeding from inside your stomach or your stomach wound.",
@@ -30,6 +31,8 @@ const tableOfContents = [
 ];
 
 export default function MiniGastricBypass() {
+  const { t } = useTranslation('treatments');
+  
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -37,9 +40,9 @@ export default function MiniGastricBypass() {
       {/* Hero Header */}
       <section className="bg-slate-900 text-white pt-40 pb-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Mini Gastric Bypass Surgery</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('gastricBypass.heroTitle')}</h1>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            Mini Gastric Bypass surgery could be the best answer to obesity and diabetes pandemic.
+            {t('gastricBypass.heroSubtitle')}
           </p>
         </div>
       </section>
@@ -216,7 +219,7 @@ export default function MiniGastricBypass() {
             className="bg-white text-primary hover:bg-white/90 font-bold text-lg h-14 px-10"
             onClick={() => window.open('https://wa.me/447491068686', '_blank')}
           >
-            Get Free Consultation
+            {t('common.bookConsultation')}
           </Button>
         </div>
       </section>

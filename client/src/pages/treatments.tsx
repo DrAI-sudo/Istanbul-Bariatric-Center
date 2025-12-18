@@ -1,131 +1,94 @@
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, CheckCircle2, Star, Hospital, Plane, Hotel, Check } from "lucide-react";
+import { ArrowRight, CheckCircle2, Check } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
-
-const packages = [
-  {
-    name: "Sleeve Gastrectomy Basic",
-    price: "£2250",
-    features: [
-      "Best Doctors",
-      "JCI Accredited Hospital",
-      "Airport Pickup",
-      "3 Days Accomodation"
-    ]
-  },
-  {
-    name: "Sleeve Gastrectomy Relaxation",
-    price: "£3250",
-    features: [
-      "Best Doctors",
-      "JCI Accredited Hospital",
-      "Airport Pickup",
-      "5 Days Accomodation"
-    ],
-    recommended: true
-  },
-  {
-    name: "Sleeve Gastrectomy Luxury",
-    price: "£4000",
-    features: [
-      "Best Doctors",
-      "JCI Accredited Hospital",
-      "Airport Pickup",
-      "7 Days Accomodation"
-    ]
-  }
-];
-
-const treatments = [
-  {
-    title: "Gastric Sleeve Surgery",
-    desc: "Also known as sleeve gastrectomy, this procedure involves removing 70-80% of the stomach, leaving a tubular pouch. It restricts food intake and impacts gut hormones to reduce hunger.",
-    advantages: [
-      "Controls amount of food held in stomach",
-      "Supports fast weight loss",
-      "Shorter hospital stay than bypass",
-      "Reduces hunger and appetite"
-    ],
-    disadvantages: [
-      "Irreversible procedure",
-      "Potential for vitamin deficiency"
-    ],
-    ifsoImage: "https://www.ifso.com/images/sleeve-gastrectomy-pop-up.png"
-  },
-  {
-    title: "Gastric Bypass Surgery",
-    desc: "The stomach is divided into two parts, creating a smaller pouch. The small intestine is rearranged to connect to both. This limits food intake and calorie absorption.",
-    advantages: [
-      "Long term weight loss",
-      "Controls consumed food amount",
-      "Suppresses hunger via gut hormones"
-    ],
-    disadvantages: [
-      "Complex surgery",
-      "Requires longer hospital stay",
-      "Risk of vitamin deficiency"
-    ],
-    ifsoImage: "https://www.ifso.com/images/oagb-mini-gastric-bypass-img.jpg"
-  },
-  {
-    title: "Intragastric Balloon",
-    desc: "A non-invasive endoscopic procedure where a saline-filled balloon is placed in the stomach to create a feeling of fullness and reduce food intake.",
-    advantages: [
-      "Non-surgical / Non-invasive",
-      "Very safe procedure",
-      "No permanent changes to anatomy"
-    ],
-    disadvantages: [
-      "Temporary solution (6 months)",
-      "Less weight loss than surgery"
-    ],
-    ifsoImage: "/gastric-balloon.jpeg"
-  },
-  {
-    title: "Adjustable Gastric Band",
-    desc: "A band is placed around the upper part of the stomach to create a smaller pouch. The band's tightness can be adjusted by injecting saline.",
-    advantages: [
-      "Lowest level of complexity",
-      "Short hospital stay (<24 hours)",
-      "Reversible and adjustable",
-      "No vitamin problems usually"
-    ],
-    disadvantages: [
-      "Slower weight loss",
-      "Foreign body in the body",
-      "Mechanical problems possible"
-    ],
-    ifsoImage: "https://www.ifso.com/images/how-lagb-works-img.jpg"
-  },
-  {
-    title: "Duodenal Switch",
-    desc: "A complex procedure combining sleeve gastrectomy with intestinal bypass. It offers the most significant weight loss but carries higher risks.",
-    advantages: [
-      "Most rapid weight loss",
-      "Lose ~70% of excess weight"
-    ],
-    disadvantages: [
-      "Most complicated surgery",
-      "High risk of vitamin deficiencies",
-      "Requires strict follow-up"
-    ],
-    ifsoImage: "https://www.ifso.com/images/duodenal-switch-pop-up.png"
-  }
-];
+import { useTranslation } from "react-i18next";
 
 export default function Treatments() {
+  const { t } = useTranslation('treatments');
+
+  const packages = [
+    {
+      name: t('gastricSleeve.packages.basic.name'),
+      price: t('gastricSleeve.packages.basic.price'),
+      features: [
+        t('common.bestDoctors'),
+        t('common.jciHospital'),
+        t('common.airportPickup'),
+        `${t('gastricSleeve.packages.basic.days')} ${t('common.daysAccommodation')}`
+      ]
+    },
+    {
+      name: t('gastricSleeve.packages.relaxation.name'),
+      price: t('gastricSleeve.packages.relaxation.price'),
+      features: [
+        t('common.bestDoctors'),
+        t('common.jciHospital'),
+        t('common.airportPickup'),
+        `${t('gastricSleeve.packages.relaxation.days')} ${t('common.daysAccommodation')}`
+      ],
+      recommended: true
+    },
+    {
+      name: t('gastricSleeve.packages.luxury.name'),
+      price: t('gastricSleeve.packages.luxury.price'),
+      features: [
+        t('common.bestDoctors'),
+        t('common.jciHospital'),
+        t('common.airportPickup'),
+        `${t('gastricSleeve.packages.luxury.days')} ${t('common.daysAccommodation')}`
+      ]
+    }
+  ];
+
+  const treatments = [
+    {
+      title: t('gastricSleeve.title'),
+      desc: t('gastricSleeve.desc'),
+      advantages: t('gastricSleeve.advantages', { returnObjects: true }) as string[],
+      disadvantages: t('gastricSleeve.disadvantages', { returnObjects: true }) as string[],
+      ifsoImage: "https://www.ifso.com/images/sleeve-gastrectomy-pop-up.png"
+    },
+    {
+      title: t('gastricBypass.title'),
+      desc: t('gastricBypass.desc'),
+      advantages: t('gastricBypass.advantages', { returnObjects: true }) as string[],
+      disadvantages: t('gastricBypass.disadvantages', { returnObjects: true }) as string[],
+      ifsoImage: "https://www.ifso.com/images/oagb-mini-gastric-bypass-img.jpg"
+    },
+    {
+      title: t('gastricBalloon.title'),
+      desc: t('gastricBalloon.desc'),
+      advantages: t('gastricBalloon.advantages', { returnObjects: true }) as string[],
+      disadvantages: t('gastricBalloon.disadvantages', { returnObjects: true }) as string[],
+      ifsoImage: "/gastric-balloon.jpeg"
+    },
+    {
+      title: t('gastricBand.title'),
+      desc: t('gastricBand.desc'),
+      advantages: t('gastricBand.advantages', { returnObjects: true }) as string[],
+      disadvantages: t('gastricBand.disadvantages', { returnObjects: true }) as string[],
+      ifsoImage: "https://www.ifso.com/images/how-lagb-works-img.jpg"
+    },
+    {
+      title: t('duodenalSwitch.title'),
+      desc: t('duodenalSwitch.desc'),
+      advantages: t('duodenalSwitch.advantages', { returnObjects: true }) as string[],
+      disadvantages: t('duodenalSwitch.disadvantages', { returnObjects: true }) as string[],
+      ifsoImage: "https://www.ifso.com/images/duodenal-switch-pop-up.png"
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
       
-      {/* Hero Header */}
       <section className="bg-slate-900 text-white pt-40 pb-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Bariatric Treatments</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('main.title')}</h1>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-            We offer a comprehensive range of weight loss procedures tailored to your specific needs and health conditions.
+            {t('main.subtitle')}
           </p>
         </div>
       </section>
@@ -145,7 +108,7 @@ export default function Treatments() {
                     <div className="space-y-8 mt-8">
                       <div>
                         <h4 className="text-lg font-bold text-emerald-600 mb-4 flex items-center gap-2">
-                          <CheckCircle2 className="w-5 h-5" /> Advantages
+                          <CheckCircle2 className="w-5 h-5" /> {t('common.advantages')}
                         </h4>
                         <ul className="space-y-3">
                           {treatment.advantages.map((adv, j) => (
@@ -160,7 +123,7 @@ export default function Treatments() {
                       <div>
                         <h4 className="text-lg font-bold text-amber-600 mb-4 flex items-center gap-2">
                           <span className="w-5 h-5 rounded-full border border-amber-600 flex items-center justify-center text-xs font-bold">!</span> 
-                          Things to Consider
+                          {t('common.thingsToConsider')}
                         </h4>
                         <ul className="space-y-3">
                           {treatment.disadvantages.map((dis, j) => (
@@ -175,7 +138,7 @@ export default function Treatments() {
 
                     <div className="pt-6">
                       <Button className="bg-primary hover:bg-primary/90">
-                        Consult for {treatment.title} <ArrowRight className="ml-2 w-4 h-4" />
+                        {t('common.consultFor')} {treatment.title} <ArrowRight className="ml-2 w-4 h-4" />
                       </Button>
                     </div>
                   </div>
@@ -204,12 +167,11 @@ export default function Treatments() {
                   </div>
                 </div>
 
-                {/* Pricing Packages - Only for Gastric Sleeve */}
-                {treatment.title === "Gastric Sleeve Surgery" && (
+                {i === 0 && (
                   <div className="mt-16 bg-slate-50 rounded-3xl p-8 md:p-12">
                     <div className="text-center mb-12">
-                      <h3 className="text-3xl font-bold text-slate-900 mb-4">Sleeve Gastrectomy Package Options</h3>
-                      <p className="text-slate-600">In Istanbul Bariatric Center, you are free to choose any of the treatment packages that fits your budget.</p>
+                      <h3 className="text-3xl font-bold text-slate-900 mb-4">{t('main.sleevePackageTitle')}</h3>
+                      <p className="text-slate-600">{t('main.sleevePackageDesc')}</p>
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-8">
@@ -217,7 +179,7 @@ export default function Treatments() {
                         <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? 'border-primary shadow-lg scale-105 z-10' : 'border-white shadow-sm'}`}>
                           {pkg.recommended && (
                             <div className="absolute top-0 right-0 bg-primary text-white text-xs font-bold px-3 py-1 rounded-bl-lg">
-                              POPULAR
+                              {t('common.popular')}
                             </div>
                           )}
                           <CardHeader className="text-center pb-2">
@@ -238,7 +200,7 @@ export default function Treatments() {
                           </CardContent>
                           <CardFooter className="pt-4 pb-8">
                             <Button className={`w-full ${pkg.recommended ? 'bg-primary hover:bg-primary/90' : 'bg-slate-900 hover:bg-slate-800'}`}>
-                              SELECT PACKAGE
+                              {t('common.selectPackage')}
                             </Button>
                           </CardFooter>
                         </Card>

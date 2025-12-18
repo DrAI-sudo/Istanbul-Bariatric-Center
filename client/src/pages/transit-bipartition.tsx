@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, AlertCircle } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const eligibilityCriteria = [
   "Individuals that have a Body Mass Index of 35 and above",
@@ -36,6 +37,8 @@ const outcomes = [
 ];
 
 export default function TransitBipartition() {
+  const { t } = useTranslation('treatments');
+  
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -43,9 +46,9 @@ export default function TransitBipartition() {
       {/* Hero Header */}
       <section className="bg-slate-900 text-white pt-40 pb-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Transit Bipartition: A Strong Metabolic Operation</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('transitBipartition.heroTitle')}</h1>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            A revolutionary surgical approach for Type 2 diabetes and obesity treatment that preserves the natural digestive pathway.
+            {t('transitBipartition.heroSubtitle')}
           </p>
         </div>
       </section>
@@ -179,7 +182,7 @@ export default function TransitBipartition() {
       {/* Advantages */}
       <section className="py-20 bg-green-50">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">What Are The Transit Bipartition Advantages?</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-8">{t('common.advantages')}</h2>
           
           <div className="space-y-4">
             {advantages.map((advantage, i) => (
@@ -197,7 +200,7 @@ export default function TransitBipartition() {
       {/* Disadvantages */}
       <section className="py-20">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">What are the Disadvantages of Transit Bipartition?</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-8">{t('common.thingsToConsider')}</h2>
           
           <div className="space-y-4">
             {disadvantages.map((disadvantage, i) => (
@@ -279,7 +282,7 @@ export default function TransitBipartition() {
             className="bg-white text-slate-900 hover:bg-white/90 font-bold text-lg h-14 px-10"
             onClick={() => window.open('https://wa.me/447491068686', '_blank')}
           >
-            Get Free Consultation
+            {t('common.bookConsultation')}
           </Button>
         </div>
       </section>

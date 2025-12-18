@@ -1,0 +1,139 @@
+{
+  "common": {
+    "advantages": "Vorteile",
+    "thingsToConsider": "Zu beachten",
+    "consultFor": "Beratung für",
+    "selectPackage": "PAKET WÄHLEN",
+    "popular": "BELIEBT",
+    "bestDoctors": "Beste Ärzte",
+    "jciHospital": "JCI-akkreditiertes Krankenhaus",
+    "airportPickup": "Flughafentransfer",
+    "daysAccommodation": "Tage Unterkunft",
+    "risks": "Risiken",
+    "faqs": "Häufig gestellte Fragen",
+    "getQuote": "Kostenloses Angebot",
+    "bookConsultation": "Kostenlose Beratung buchen",
+    "learnMore": "Mehr erfahren",
+    "readMore": "Weiterlesen",
+    "whyTurkey": "Warum Türkei?",
+    "packageOptions": "Paketoptionen"
+  },
+  "main": {
+    "title": "Bariatrische Behandlungen",
+    "subtitle": "Wir bieten eine umfassende Palette von Gewichtsverlustverfahren an, die auf Ihre spezifischen Bedürfnisse und Gesundheitszustände zugeschnitten sind.",
+    "sleevePackageTitle": "Schlauchmagen-Paketoptionen",
+    "sleevePackageDesc": "Im Istanbul Bariatric Center können Sie frei eines der Behandlungspakete wählen, das zu Ihrem Budget passt."
+  },
+  "gastricSleeve": {
+    "title": "Schlauchmagen-Operation",
+    "heroTitle": "Schlauchmagen Istanbul, Türkei",
+    "heroSubtitle": "Die Schlauchmagen-Operation ist eine der am häufigsten durchgeführten bariatrischen Operationen weltweit und in der Türkei. Entdecken Sie, warum sie so effektiv ist.",
+    "desc": "Auch als Sleeve-Gastrektomie bekannt, beinhaltet dieses Verfahren die Entfernung von 70-80% des Magens, wobei ein röhrenförmiger Beutel zurückbleibt. Es schränkt die Nahrungsaufnahme ein und beeinflusst Darmhormone, um den Hunger zu reduzieren.",
+    "overviewTitle": "Schlauchmagen Türkei: Überblick",
+    "overviewP1": "Der Schlauchmagen oder die Sleeve-Gastrektomie ist eine bariatrische Operation, die durchgeführt wird, indem ein Teil Ihres Magens abgeschnitten wird, um eine kleinere Kammer zu schaffen. Es ist eine der am häufigsten durchgeführten bariatrischen Operationen weltweit und in der Türkei.",
+    "overviewP2": "Fettleibigkeit ist eines der lästigsten Probleme für viele Menschen auf der ganzen Welt, nicht nur wegen der Veränderung von Form, Gesicht oder Körper, die danach kommt, sondern auch wegen der gesundheitlichen Probleme, die sie verursachen kann.",
+    "overviewP3": "Es gibt mehrere Krankheiten, die direkt mit Fettleibigkeit zusammenhängen, wie: Diabetes Typ II, Bluthochdruck, Herzprobleme, hoher Cholesterinspiegel und mehr.",
+    "advantages": [
+      "Kontrolliert die Menge an Nahrung im Magen",
+      "Unterstützt schnellen Gewichtsverlust",
+      "Kürzerer Krankenhausaufenthalt als Bypass",
+      "Reduziert Hunger und Appetit"
+    ],
+    "disadvantages": [
+      "Irreversibles Verfahren",
+      "Potenzial für Vitaminmangel"
+    ],
+    "risks": [
+      "Blutungen aus dem Inneren des Magens oder der Operationswunde.",
+      "Tiefe Venenthrombose: oder TVT, ein Blutgerinnsel, das sich während des Eingriffs oder während des Erholungsprozesses in Ihrer Vene bildet.",
+      "Unregelmäßiger Herzschlag: Einige Operationen können während der Operation zu einem unregelmäßigen Herzschlag führen.",
+      "Magenlecks: Die Magenflüssigkeiten können aus der Nahtlinie in Ihrem Magen austreten.",
+      "Stenose: bedeutet, dass ein Teil Ihres Magens sich schließen könnte und eine Verstopfung verursacht.",
+      "Vitaminmangel: Der entfernte Teil Ihres Magens ist teilweise für die Vitaminaufnahme verantwortlich."
+    ],
+    "packages": {
+      "basic": { "name": "Schlauchmagen Basis", "price": "£2250", "days": "3" },
+      "relaxation": { "name": "Schlauchmagen Entspannung", "price": "£3250", "days": "5" },
+      "luxury": { "name": "Schlauchmagen Luxus", "price": "£4000", "days": "7" }
+    }
+  },
+  "gastricBypass": {
+    "title": "Magenbypass-Operation",
+    "heroTitle": "Mini-Magenbypass Istanbul, Türkei",
+    "heroSubtitle": "Der Mini-Magenbypass ist eine vereinfachte Version des traditionellen Magenbypasses und bietet ausgezeichnete Gewichtsverlustergebnisse mit weniger Komplikationen.",
+    "desc": "Der Magen wird in zwei Teile geteilt und ein kleinerer Beutel geschaffen. Der Dünndarm wird neu angeordnet, um mit beiden verbunden zu werden. Dies begrenzt die Nahrungsaufnahme und Kalorienaufnahme.",
+    "advantages": [
+      "Langfristiger Gewichtsverlust",
+      "Kontrolliert die konsumierte Nahrungsmenge",
+      "Unterdrückt Hunger durch Darmhormone"
+    ],
+    "disadvantages": [
+      "Komplexe Operation",
+      "Erfordert längeren Krankenhausaufenthalt",
+      "Risiko von Vitaminmangel"
+    ]
+  },
+  "gastricBalloon": {
+    "title": "Intragastrischer Ballon",
+    "heroTitle": "Magenballon Istanbul, Türkei",
+    "heroSubtitle": "Eine nicht-chirurgische Gewichtsverlustlösung, die Ihnen hilft, Gewicht zu verlieren, ohne dauerhafte Veränderungen an Ihrem Körper.",
+    "desc": "Ein nicht-invasives endoskopisches Verfahren, bei dem ein mit Kochsalzlösung gefüllter Ballon im Magen platziert wird, um ein Sättigungsgefühl zu erzeugen und die Nahrungsaufnahme zu reduzieren.",
+    "advantages": [
+      "Nicht-chirurgisch / Nicht-invasiv",
+      "Sehr sicheres Verfahren",
+      "Keine dauerhaften Veränderungen der Anatomie"
+    ],
+    "disadvantages": [
+      "Vorübergehende Lösung (6 Monate)",
+      "Weniger Gewichtsverlust als bei Operation"
+    ]
+  },
+  "gastricBand": {
+    "title": "Verstellbares Magenband",
+    "desc": "Ein Band wird um den oberen Teil des Magens gelegt, um einen kleineren Beutel zu schaffen. Die Straffheit des Bandes kann durch Injektion von Kochsalzlösung angepasst werden.",
+    "advantages": [
+      "Niedrigstes Komplexitätsniveau",
+      "Kurzer Krankenhausaufenthalt (<24 Stunden)",
+      "Reversibel und einstellbar",
+      "Normalerweise keine Vitaminprobleme"
+    ],
+    "disadvantages": [
+      "Langsamerer Gewichtsverlust",
+      "Fremdkörper im Körper",
+      "Mechanische Probleme möglich"
+    ]
+  },
+  "duodenalSwitch": {
+    "title": "Duodenal Switch",
+    "heroTitle": "Duodenal Switch Istanbul, Türkei",
+    "heroSubtitle": "Eine der effektivsten Gewichtsverlustoperationen für Patienten mit schwerer Fettleibigkeit, die signifikante und dauerhafte Ergebnisse bietet.",
+    "desc": "Ein komplexes Verfahren, das Schlauchmagen mit Darmbypass kombiniert. Es bietet den signifikantesten Gewichtsverlust, birgt aber höhere Risiken.",
+    "advantages": [
+      "Schnellster Gewichtsverlust",
+      "Verlieren Sie ~70% des Übergewichts"
+    ],
+    "disadvantages": [
+      "Komplizierteste Operation",
+      "Hohes Risiko von Vitaminmangel",
+      "Erfordert strenge Nachsorge"
+    ]
+  },
+  "esg": {
+    "title": "Endoskopische Sleeve-Gastroplastik",
+    "heroTitle": "ESG (Endoskopische Sleeve-Gastroplastik) Istanbul, Türkei",
+    "heroSubtitle": "Ein minimal-invasives, schnittfreies Verfahren, das die Magengröße ohne Operation reduziert.",
+    "desc": "ESG ist ein Gewichtsverlustverfahren, das durch ein Endoskop durchgeführt wird und die Magenkapazität um 70-80% ohne externe Schnitte reduziert."
+  },
+  "transitBipartition": {
+    "title": "Transit-Bipartition",
+    "heroTitle": "Transit-Bipartition Istanbul, Türkei",
+    "heroSubtitle": "Eine innovative metabolische Operation, die die Vorteile des Schlauchmagens mit dem Darmbypass kombiniert.",
+    "desc": "Die Transit-Bipartition ist eine metabolische Operation, die Schlauchmagen mit einem partiellen Darmbypass kombiniert, um die Diabeteskontrolle und den Gewichtsverlust zu verbessern."
+  },
+  "postBariatric": {
+    "title": "Post-Bariatrische Chirurgie",
+    "heroTitle": "Post-Bariatrische Körperkonturierung Istanbul, Türkei",
+    "heroSubtitle": "Vervollständigen Sie Ihre Gewichtsverlust-Reise mit Körperkonturierungsverfahren, die entwickelt wurden, um überschüssige Haut nach erheblichem Gewichtsverlust zu entfernen.",
+    "desc": "Nach erheblichem Gewichtsverlust bleiben viele Patienten mit überschüssiger Haut zurück. Die post-bariatrische Chirurgie hilft, den Körper neu zu formen und zu konturieren."
+  }
+}

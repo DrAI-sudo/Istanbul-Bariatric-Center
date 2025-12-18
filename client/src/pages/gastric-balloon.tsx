@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ArrowRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const balloonTypes = [
   {
@@ -41,6 +42,8 @@ const benefits = [
 ];
 
 export default function GastricBalloon() {
+  const { t } = useTranslation('treatments');
+  
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -48,9 +51,9 @@ export default function GastricBalloon() {
       {/* Hero Header */}
       <section className="bg-slate-900 text-white pt-40 pb-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Gastric Balloon</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('gastricBalloon.heroTitle')}</h1>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            A non-surgical weight loss solution that helps you achieve your goals with minimal intervention.
+            {t('gastricBalloon.heroSubtitle')}
           </p>
         </div>
       </section>
@@ -210,7 +213,7 @@ export default function GastricBalloon() {
             className="bg-white text-primary hover:bg-white/90 font-bold text-lg h-14 px-10"
             onClick={() => window.open('https://wa.me/447491068686', '_blank')}
           >
-            Get Free Consultation
+            {t('common.bookConsultation')}
           </Button>
         </div>
       </section>

@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { ArrowRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const faqs = [
   {
@@ -56,6 +57,8 @@ const faqs = [
 ];
 
 export default function DuodenalSwitch() {
+  const { t } = useTranslation('treatments');
+  
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -63,9 +66,9 @@ export default function DuodenalSwitch() {
       {/* Hero Header */}
       <section className="bg-slate-900 text-white pt-40 pb-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Duodenal Switch (SADI-S)</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('duodenalSwitch.heroTitle')}</h1>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            A highly effective weight loss surgery for patients with severe obesity and diabetes.
+            {t('duodenalSwitch.heroSubtitle')}
           </p>
         </div>
       </section>
@@ -130,7 +133,7 @@ export default function DuodenalSwitch() {
       {/* FAQs */}
       <section className="py-20">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">Duodenal Switch FAQ</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">{t('common.faqs')}</h2>
           
           <Accordion type="single" collapsible className="space-y-4">
             {faqs.map((faq, i) => (
@@ -180,7 +183,7 @@ export default function DuodenalSwitch() {
             className="bg-white text-primary hover:bg-white/90 font-bold text-lg h-14 px-10"
             onClick={() => window.open('https://wa.me/447491068686', '_blank')}
           >
-            Get Free Consultation
+            {t('common.bookConsultation')}
           </Button>
         </div>
       </section>

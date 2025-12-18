@@ -1,0 +1,139 @@
+{
+  "common": {
+    "advantages": "Avantaje",
+    "thingsToConsider": "De luat în considerare",
+    "consultFor": "Consultație pentru",
+    "selectPackage": "SELECTEAZĂ PACHETUL",
+    "popular": "POPULAR",
+    "bestDoctors": "Cei mai buni Medici",
+    "jciHospital": "Spital Acreditat JCI",
+    "airportPickup": "Transfer Aeroport",
+    "daysAccommodation": "Zile Cazare",
+    "risks": "Riscuri",
+    "faqs": "Întrebări Frecvente",
+    "getQuote": "Ofertă Gratuită",
+    "bookConsultation": "Programează Consultație Gratuită",
+    "learnMore": "Află Mai Multe",
+    "readMore": "Citește Mai Mult",
+    "whyTurkey": "De ce Turcia?",
+    "packageOptions": "Opțiuni Pachet"
+  },
+  "main": {
+    "title": "Tratamente Bariatrice",
+    "subtitle": "Oferim o gamă completă de proceduri de pierdere în greutate adaptate nevoilor și condițiilor dumneavoastră specifice de sănătate.",
+    "sleevePackageTitle": "Opțiuni Pachet Sleeve Gastric",
+    "sleevePackageDesc": "La Istanbul Bariatric Center, sunteți liber să alegeți oricare dintre pachetele de tratament care se potrivește bugetului dumneavoastră."
+  },
+  "gastricSleeve": {
+    "title": "Chirurgie Sleeve Gastric",
+    "heroTitle": "Sleeve Gastrectomie Istanbul, Turcia",
+    "heroSubtitle": "Chirurgia sleeve gastric este una dintre cele mai aplicate intervenții bariatrice atât la nivel mondial, cât și în Turcia. Descoperiți de ce este atât de eficientă.",
+    "desc": "Cunoscută și sub numele de sleeve gastrectomie, această procedură implică îndepărtarea a 70-80% din stomac, lăsând o pungă tubulară. Restricționează aportul de alimente și afectează hormonii intestinali pentru a reduce foamea.",
+    "overviewTitle": "Sleeve Gastrectomie Turcia: Prezentare Generală",
+    "overviewP1": "Sleeve-ul gastric sau sleeve gastrectomia este o chirurgie bariatrică care se realizează prin tăierea unei părți a stomacului pentru a crea o cameră mai mică. Este una dintre cele mai aplicate intervenții bariatrice atât la nivel mondial, cât și în Turcia.",
+    "overviewP2": "Obezitatea este una dintre cele mai supărătoare probleme pentru mulți oameni din întreaga lume, nu doar din cauza schimbării formei, feței sau corpului care vine după, ci și din cauza problemelor de sănătate pe care le poate provoca.",
+    "overviewP3": "Există mai multe boli care sunt direct legate de obezitate, cum ar fi: Diabetul de tip II, Tensiunea arterială ridicată, Probleme cardiace, Colesterol ridicat și altele.",
+    "advantages": [
+      "Controlează cantitatea de alimente din stomac",
+      "Susține pierderea rapidă în greutate",
+      "Ședere în spital mai scurtă decât bypass-ul",
+      "Reduce foamea și apetitul"
+    ],
+    "disadvantages": [
+      "Procedură ireversibilă",
+      "Potențial de deficit de vitamine"
+    ],
+    "risks": [
+      "Sângerare din interiorul stomacului sau din rana chirurgicală.",
+      "Tromboză Venoasă Profundă: sau TVP, care este un cheag de sânge care se formează în vena dumneavoastră în timpul procedurii sau în timpul procesului de recuperare.",
+      "Bătăi neregulate ale inimii: unele intervenții chirurgicale pot duce la bătăi neregulate ale inimii în timpul operației.",
+      "Scurgeri Gastrice: fluidele stomacului pot scurge de la linia de sutură din stomac.",
+      "Stenoză: ceea ce înseamnă că o parte a stomacului s-ar putea închide provocând o obstrucție.",
+      "Deficit de vitamine: partea îndepărtată a stomacului este parțial responsabilă de absorbția vitaminelor."
+    ],
+    "packages": {
+      "basic": { "name": "Sleeve Gastric Basic", "price": "£2250", "days": "3" },
+      "relaxation": { "name": "Sleeve Gastric Relaxare", "price": "£3250", "days": "5" },
+      "luxury": { "name": "Sleeve Gastric Lux", "price": "£4000", "days": "7" }
+    }
+  },
+  "gastricBypass": {
+    "title": "Chirurgie Bypass Gastric",
+    "heroTitle": "Mini Bypass Gastric Istanbul, Turcia",
+    "heroSubtitle": "Mini bypass-ul gastric este o versiune simplificată a bypass-ului gastric tradițional, oferind rezultate excelente de pierdere în greutate cu mai puține complicații.",
+    "desc": "Stomacul este împărțit în două părți, creând o pungă mai mică. Intestinul subțire este rearanjat pentru a se conecta la ambele. Aceasta limitează aportul de alimente și absorbția caloriilor.",
+    "advantages": [
+      "Pierdere în greutate pe termen lung",
+      "Controlează cantitatea de alimente consumată",
+      "Suprimă foamea prin hormoni intestinali"
+    ],
+    "disadvantages": [
+      "Chirurgie complexă",
+      "Necesită ședere mai lungă în spital",
+      "Risc de deficit de vitamine"
+    ]
+  },
+  "gastricBalloon": {
+    "title": "Balon Intragastric",
+    "heroTitle": "Balon Gastric Istanbul, Turcia",
+    "heroSubtitle": "O soluție non-chirurgicală de pierdere în greutate care vă ajută să slăbiți fără modificări permanente ale corpului.",
+    "desc": "O procedură endoscopică non-invazivă în care un balon umplut cu soluție salină este plasat în stomac pentru a crea o senzație de sațietate și a reduce aportul de alimente.",
+    "advantages": [
+      "Non-chirurgical / Non-invaziv",
+      "Procedură foarte sigură",
+      "Fără modificări permanente ale anatomiei"
+    ],
+    "disadvantages": [
+      "Soluție temporară (6 luni)",
+      "Mai puțină pierdere în greutate decât chirurgia"
+    ]
+  },
+  "gastricBand": {
+    "title": "Bandă Gastrică Reglabilă",
+    "desc": "O bandă este plasată în jurul părții superioare a stomacului pentru a crea o pungă mai mică. Tensiunea benzii poate fi ajustată prin injectarea de soluție salină.",
+    "advantages": [
+      "Cel mai scăzut nivel de complexitate",
+      "Ședere scurtă în spital (<24 ore)",
+      "Reversibilă și reglabilă",
+      "De obicei fără probleme cu vitaminele"
+    ],
+    "disadvantages": [
+      "Pierdere în greutate mai lentă",
+      "Corp străin în corp",
+      "Posibile probleme mecanice"
+    ]
+  },
+  "duodenalSwitch": {
+    "title": "Switch Duodenal",
+    "heroTitle": "Switch Duodenal Istanbul, Turcia",
+    "heroSubtitle": "Una dintre cele mai eficiente operații de pierdere în greutate pentru pacienții cu obezitate severă, oferind rezultate semnificative și durabile.",
+    "desc": "O procedură complexă care combină sleeve gastrectomia cu bypass-ul intestinal. Oferă cea mai semnificativă pierdere în greutate, dar implică riscuri mai mari.",
+    "advantages": [
+      "Cea mai rapidă pierdere în greutate",
+      "Pierdere de ~70% din greutatea în exces"
+    ],
+    "disadvantages": [
+      "Cea mai complicată chirurgie",
+      "Risc ridicat de deficiențe vitaminice",
+      "Necesită urmărire strictă"
+    ]
+  },
+  "esg": {
+    "title": "Gastroplastie Endoscopică Sleeve",
+    "heroTitle": "ESG (Gastroplastie Endoscopică Sleeve) Istanbul, Turcia",
+    "heroSubtitle": "O procedură minim invazivă, fără incizie, care reduce dimensiunea stomacului fără chirurgie.",
+    "desc": "ESG este o procedură de pierdere în greutate efectuată printr-un endoscop, reducând capacitatea stomacului cu 70-80% fără incizii externe."
+  },
+  "transitBipartition": {
+    "title": "Bipartiție de Tranzit",
+    "heroTitle": "Bipartiție de Tranzit Istanbul, Turcia",
+    "heroSubtitle": "O chirurgie metabolică inovatoare care combină beneficiile sleeve gastrectomiei cu bypass-ul intestinal.",
+    "desc": "Bipartiția de tranzit este o chirurgie metabolică care combină sleeve gastrectomia cu un bypass intestinal parțial pentru a îmbunătăți controlul diabetului și pierderea în greutate."
+  },
+  "postBariatric": {
+    "title": "Chirurgie Post-Bariatrică",
+    "heroTitle": "Conturarea Corpului Post-Bariatric Istanbul, Turcia",
+    "heroSubtitle": "Finalizați-vă călătoria de pierdere în greutate cu proceduri de conturare a corpului concepute pentru a elimina pielea în exces după o pierdere semnificativă în greutate.",
+    "desc": "După o pierdere majoră în greutate, mulți pacienți rămân cu piele în exces. Chirurgia post-bariatrică ajută la remodelarea și conturarea corpului."
+  }
+}

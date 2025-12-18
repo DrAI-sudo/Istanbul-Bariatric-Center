@@ -1,0 +1,139 @@
+{
+  "common": {
+    "advantages": "Advantages",
+    "thingsToConsider": "Things to Consider",
+    "consultFor": "Consult for",
+    "selectPackage": "SELECT PACKAGE",
+    "popular": "POPULAR",
+    "bestDoctors": "Best Doctors",
+    "jciHospital": "JCI Accredited Hospital",
+    "airportPickup": "Airport Pickup",
+    "daysAccommodation": "Days Accommodation",
+    "risks": "Risks",
+    "faqs": "Frequently Asked Questions",
+    "getQuote": "Get a Free Quote",
+    "bookConsultation": "Book Free Consultation",
+    "learnMore": "Learn More",
+    "readMore": "Read More",
+    "whyTurkey": "Why Turkey?",
+    "packageOptions": "Package Options"
+  },
+  "main": {
+    "title": "Bariatric Treatments",
+    "subtitle": "We offer a comprehensive range of weight loss procedures tailored to your specific needs and health conditions.",
+    "sleevePackageTitle": "Sleeve Gastrectomy Package Options",
+    "sleevePackageDesc": "In Istanbul Bariatric Center, you are free to choose any of the treatment packages that fits your budget."
+  },
+  "gastricSleeve": {
+    "title": "Gastric Sleeve Surgery",
+    "heroTitle": "Sleeve Gastrectomy Istanbul, Turkey",
+    "heroSubtitle": "Gastric sleeve surgery is one of the most applied bariatric surgeries both worldwide and in Turkey. Discover why it's so effective.",
+    "desc": "Also known as sleeve gastrectomy, this procedure involves removing 70-80% of the stomach, leaving a tubular pouch. It restricts food intake and impacts gut hormones to reduce hunger.",
+    "overviewTitle": "Sleeve Gastrectomy Turkey: Overview",
+    "overviewP1": "Gastric sleeve or sleeve gastrectomy is a bariatric surgery that is performed by cutting a part of your stomach to create a smaller chamber. It is one of the most applied bariatric surgeries both worldwide and Turkey.",
+    "overviewP2": "Obesity is one of the most annoying problems for many people around the world, not just because of the changing in shape, face, or body that comes after it, but also because of the health problems that can be caused by it.",
+    "overviewP3": "There are several diseases that are directly related to obesity such as: Diabetes type II, High blood pressure, Heart problems, High Cholesterol and More.",
+    "advantages": [
+      "Controls amount of food held in stomach",
+      "Supports fast weight loss",
+      "Shorter hospital stay than bypass",
+      "Reduces hunger and appetite"
+    ],
+    "disadvantages": [
+      "Irreversible procedure",
+      "Potential for vitamin deficiency"
+    ],
+    "risks": [
+      "Bleeding from the inside of the stomach or the surgical wound.",
+      "Deep Vein Thrombosis: or DVT which is blood clot forming in your vein during the procedure or during the recovery process.",
+      "Irregular heartbeat: some surgeries can lead to an irregular heartbeat during the surgery.",
+      "Gastric Leaks: the stomach fluids can leak from the suture line in your stomach.",
+      "Stenosis: which means that a part of your stomach might close causing an obstruction in your stomach.",
+      "Vitamin deficiency: the removed part of your stomach is partially responsible for vitamin absorption."
+    ],
+    "packages": {
+      "basic": { "name": "Sleeve Gastrectomy Basic", "price": "£2250", "days": "3" },
+      "relaxation": { "name": "Sleeve Gastrectomy Relaxation", "price": "£3250", "days": "5" },
+      "luxury": { "name": "Sleeve Gastrectomy Luxury", "price": "£4000", "days": "7" }
+    }
+  },
+  "gastricBypass": {
+    "title": "Gastric Bypass Surgery",
+    "heroTitle": "Mini Gastric Bypass Istanbul, Turkey",
+    "heroSubtitle": "Mini gastric bypass is a simplified version of the traditional gastric bypass, offering excellent weight loss results with fewer complications.",
+    "desc": "The stomach is divided into two parts, creating a smaller pouch. The small intestine is rearranged to connect to both. This limits food intake and calorie absorption.",
+    "advantages": [
+      "Long term weight loss",
+      "Controls consumed food amount",
+      "Suppresses hunger via gut hormones"
+    ],
+    "disadvantages": [
+      "Complex surgery",
+      "Requires longer hospital stay",
+      "Risk of vitamin deficiency"
+    ]
+  },
+  "gastricBalloon": {
+    "title": "Intragastric Balloon",
+    "heroTitle": "Gastric Balloon Istanbul, Turkey",
+    "heroSubtitle": "A non-surgical weight loss solution that helps you lose weight without permanent changes to your body.",
+    "desc": "A non-invasive endoscopic procedure where a saline-filled balloon is placed in the stomach to create a feeling of fullness and reduce food intake.",
+    "advantages": [
+      "Non-surgical / Non-invasive",
+      "Very safe procedure",
+      "No permanent changes to anatomy"
+    ],
+    "disadvantages": [
+      "Temporary solution (6 months)",
+      "Less weight loss than surgery"
+    ]
+  },
+  "gastricBand": {
+    "title": "Adjustable Gastric Band",
+    "desc": "A band is placed around the upper part of the stomach to create a smaller pouch. The band's tightness can be adjusted by injecting saline.",
+    "advantages": [
+      "Lowest level of complexity",
+      "Short hospital stay (<24 hours)",
+      "Reversible and adjustable",
+      "No vitamin problems usually"
+    ],
+    "disadvantages": [
+      "Slower weight loss",
+      "Foreign body in the body",
+      "Mechanical problems possible"
+    ]
+  },
+  "duodenalSwitch": {
+    "title": "Duodenal Switch",
+    "heroTitle": "Duodenal Switch Istanbul, Turkey",
+    "heroSubtitle": "One of the most effective weight loss surgeries for patients with severe obesity, offering significant and lasting results.",
+    "desc": "A complex procedure combining sleeve gastrectomy with intestinal bypass. It offers the most significant weight loss but carries higher risks.",
+    "advantages": [
+      "Most rapid weight loss",
+      "Lose ~70% of excess weight"
+    ],
+    "disadvantages": [
+      "Most complicated surgery",
+      "High risk of vitamin deficiencies",
+      "Requires strict follow-up"
+    ]
+  },
+  "esg": {
+    "title": "Endoscopic Sleeve Gastroplasty",
+    "heroTitle": "ESG (Endoscopic Sleeve Gastroplasty) Istanbul, Turkey",
+    "heroSubtitle": "A minimally invasive, incision-free procedure that reduces stomach size without surgery.",
+    "desc": "ESG is a weight loss procedure performed through an endoscope, reducing stomach capacity by 70-80% without external incisions."
+  },
+  "transitBipartition": {
+    "title": "Transit Bipartition",
+    "heroTitle": "Transit Bipartition Istanbul, Turkey",
+    "heroSubtitle": "An innovative metabolic surgery that combines the benefits of sleeve gastrectomy with intestinal bypass.",
+    "desc": "Transit bipartition is a metabolic surgery that combines sleeve gastrectomy with a partial intestinal bypass to improve diabetes control and weight loss."
+  },
+  "postBariatric": {
+    "title": "Post Bariatric Surgery",
+    "heroTitle": "Post Bariatric Body Contouring Istanbul, Turkey",
+    "heroSubtitle": "Complete your weight loss journey with body contouring procedures designed to remove excess skin after significant weight loss.",
+    "desc": "After major weight loss, many patients are left with excess skin. Post-bariatric surgery helps reshape and contour the body."
+  }
+}

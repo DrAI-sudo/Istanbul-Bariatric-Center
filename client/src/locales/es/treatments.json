@@ -1,0 +1,139 @@
+{
+  "common": {
+    "advantages": "Ventajas",
+    "thingsToConsider": "Consideraciones",
+    "consultFor": "Consultar para",
+    "selectPackage": "SELECCIONAR PAQUETE",
+    "popular": "POPULAR",
+    "bestDoctors": "Mejores Médicos",
+    "jciHospital": "Hospital Acreditado JCI",
+    "airportPickup": "Recogida en Aeropuerto",
+    "daysAccommodation": "Días de Alojamiento",
+    "risks": "Riesgos",
+    "faqs": "Preguntas Frecuentes",
+    "getQuote": "Obtener Cotización Gratis",
+    "bookConsultation": "Reservar Consulta Gratis",
+    "learnMore": "Más Información",
+    "readMore": "Leer Más",
+    "whyTurkey": "¿Por qué Turquía?",
+    "packageOptions": "Opciones de Paquete"
+  },
+  "main": {
+    "title": "Tratamientos Bariátricos",
+    "subtitle": "Ofrecemos una gama completa de procedimientos de pérdida de peso adaptados a sus necesidades específicas y condiciones de salud.",
+    "sleevePackageTitle": "Opciones de Paquete de Manga Gástrica",
+    "sleevePackageDesc": "En Istanbul Bariatric Center, es libre de elegir cualquiera de los paquetes de tratamiento que se ajuste a su presupuesto."
+  },
+  "gastricSleeve": {
+    "title": "Cirugía de Manga Gástrica",
+    "heroTitle": "Gastrectomía en Manga Estambul, Turquía",
+    "heroSubtitle": "La cirugía de manga gástrica es una de las cirugías bariátricas más aplicadas tanto a nivel mundial como en Turquía. Descubra por qué es tan efectiva.",
+    "desc": "También conocida como gastrectomía en manga, este procedimiento implica extirpar el 70-80% del estómago, dejando una bolsa tubular. Restringe la ingesta de alimentos e impacta las hormonas intestinales para reducir el hambre.",
+    "overviewTitle": "Gastrectomía en Manga Turquía: Visión General",
+    "overviewP1": "La manga gástrica o gastrectomía en manga es una cirugía bariátrica que se realiza cortando una parte de su estómago para crear una cámara más pequeña. Es una de las cirugías bariátricas más aplicadas tanto a nivel mundial como en Turquía.",
+    "overviewP2": "La obesidad es uno de los problemas más molestos para muchas personas en todo el mundo, no solo por el cambio de forma, cara o cuerpo que viene después, sino también por los problemas de salud que puede causar.",
+    "overviewP3": "Hay varias enfermedades que están directamente relacionadas con la obesidad como: Diabetes tipo II, Presión arterial alta, Problemas cardíacos, Colesterol alto y más.",
+    "advantages": [
+      "Controla la cantidad de comida en el estómago",
+      "Apoya la pérdida de peso rápida",
+      "Estancia hospitalaria más corta que el bypass",
+      "Reduce el hambre y el apetito"
+    ],
+    "disadvantages": [
+      "Procedimiento irreversible",
+      "Potencial de deficiencia de vitaminas"
+    ],
+    "risks": [
+      "Sangrado del interior del estómago o de la herida quirúrgica.",
+      "Trombosis Venosa Profunda: o TVP, que es un coágulo de sangre que se forma en la vena durante el procedimiento o durante el proceso de recuperación.",
+      "Latido cardíaco irregular: algunas cirugías pueden provocar un latido cardíaco irregular durante la cirugía.",
+      "Fugas Gástricas: los fluidos del estómago pueden filtrarse de la línea de sutura en el estómago.",
+      "Estenosis: que significa que una parte del estómago podría cerrarse causando una obstrucción.",
+      "Deficiencia de vitaminas: la parte extraída del estómago es parcialmente responsable de la absorción de vitaminas."
+    ],
+    "packages": {
+      "basic": { "name": "Manga Gástrica Básico", "price": "£2250", "days": "3" },
+      "relaxation": { "name": "Manga Gástrica Relajación", "price": "£3250", "days": "5" },
+      "luxury": { "name": "Manga Gástrica Lujo", "price": "£4000", "days": "7" }
+    }
+  },
+  "gastricBypass": {
+    "title": "Cirugía de Bypass Gástrico",
+    "heroTitle": "Mini Bypass Gástrico Estambul, Turquía",
+    "heroSubtitle": "El mini bypass gástrico es una versión simplificada del bypass gástrico tradicional, ofreciendo excelentes resultados de pérdida de peso con menos complicaciones.",
+    "desc": "El estómago se divide en dos partes, creando una bolsa más pequeña. El intestino delgado se reorganiza para conectarse a ambos. Esto limita la ingesta de alimentos y la absorción de calorías.",
+    "advantages": [
+      "Pérdida de peso a largo plazo",
+      "Controla la cantidad de comida consumida",
+      "Suprime el hambre a través de hormonas intestinales"
+    ],
+    "disadvantages": [
+      "Cirugía compleja",
+      "Requiere estancia hospitalaria más larga",
+      "Riesgo de deficiencia de vitaminas"
+    ]
+  },
+  "gastricBalloon": {
+    "title": "Balón Intragástrico",
+    "heroTitle": "Balón Gástrico Estambul, Turquía",
+    "heroSubtitle": "Una solución de pérdida de peso no quirúrgica que le ayuda a perder peso sin cambios permanentes en su cuerpo.",
+    "desc": "Un procedimiento endoscópico no invasivo donde se coloca un balón lleno de solución salina en el estómago para crear una sensación de saciedad y reducir la ingesta de alimentos.",
+    "advantages": [
+      "No quirúrgico / No invasivo",
+      "Procedimiento muy seguro",
+      "Sin cambios permanentes en la anatomía"
+    ],
+    "disadvantages": [
+      "Solución temporal (6 meses)",
+      "Menos pérdida de peso que la cirugía"
+    ]
+  },
+  "gastricBand": {
+    "title": "Banda Gástrica Ajustable",
+    "desc": "Se coloca una banda alrededor de la parte superior del estómago para crear una bolsa más pequeña. La tensión de la banda se puede ajustar inyectando solución salina.",
+    "advantages": [
+      "Nivel más bajo de complejidad",
+      "Estancia hospitalaria corta (<24 horas)",
+      "Reversible y ajustable",
+      "Generalmente sin problemas de vitaminas"
+    ],
+    "disadvantages": [
+      "Pérdida de peso más lenta",
+      "Cuerpo extraño en el cuerpo",
+      "Posibles problemas mecánicos"
+    ]
+  },
+  "duodenalSwitch": {
+    "title": "Switch Duodenal",
+    "heroTitle": "Switch Duodenal Estambul, Turquía",
+    "heroSubtitle": "Una de las cirugías de pérdida de peso más efectivas para pacientes con obesidad severa, ofreciendo resultados significativos y duraderos.",
+    "desc": "Un procedimiento complejo que combina la gastrectomía en manga con el bypass intestinal. Ofrece la pérdida de peso más significativa pero conlleva mayores riesgos.",
+    "advantages": [
+      "Pérdida de peso más rápida",
+      "Perder ~70% del exceso de peso"
+    ],
+    "disadvantages": [
+      "Cirugía más complicada",
+      "Alto riesgo de deficiencias vitamínicas",
+      "Requiere seguimiento estricto"
+    ]
+  },
+  "esg": {
+    "title": "Gastroplastia Endoscópica en Manga",
+    "heroTitle": "ESG (Gastroplastia Endoscópica en Manga) Estambul, Turquía",
+    "heroSubtitle": "Un procedimiento mínimamente invasivo, sin incisiones, que reduce el tamaño del estómago sin cirugía.",
+    "desc": "ESG es un procedimiento de pérdida de peso realizado a través de un endoscopio, reduciendo la capacidad del estómago en un 70-80% sin incisiones externas."
+  },
+  "transitBipartition": {
+    "title": "Bipartición de Tránsito",
+    "heroTitle": "Bipartición de Tránsito Estambul, Turquía",
+    "heroSubtitle": "Una cirugía metabólica innovadora que combina los beneficios de la gastrectomía en manga con el bypass intestinal.",
+    "desc": "La bipartición de tránsito es una cirugía metabólica que combina la gastrectomía en manga con un bypass intestinal parcial para mejorar el control de la diabetes y la pérdida de peso."
+  },
+  "postBariatric": {
+    "title": "Cirugía Post Bariátrica",
+    "heroTitle": "Contorno Corporal Post Bariátrico Estambul, Turquía",
+    "heroSubtitle": "Complete su viaje de pérdida de peso con procedimientos de contorno corporal diseñados para eliminar el exceso de piel después de una pérdida de peso significativa.",
+    "desc": "Después de una pérdida de peso importante, muchos pacientes quedan con exceso de piel. La cirugía post-bariátrica ayuda a remodelar y contornear el cuerpo."
+  }
+}

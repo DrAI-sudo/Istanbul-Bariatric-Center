@@ -1,0 +1,139 @@
+{
+  "common": {
+    "advantages": "Avantages",
+    "thingsToConsider": "Points à considérer",
+    "consultFor": "Consulter pour",
+    "selectPackage": "SÉLECTIONNER LE FORFAIT",
+    "popular": "POPULAIRE",
+    "bestDoctors": "Meilleurs Médecins",
+    "jciHospital": "Hôpital Accrédité JCI",
+    "airportPickup": "Transfert Aéroport",
+    "daysAccommodation": "Jours d'Hébergement",
+    "risks": "Risques",
+    "faqs": "Questions Fréquentes",
+    "getQuote": "Devis Gratuit",
+    "bookConsultation": "Réserver une Consultation Gratuite",
+    "learnMore": "En Savoir Plus",
+    "readMore": "Lire Plus",
+    "whyTurkey": "Pourquoi la Turquie?",
+    "packageOptions": "Options de Forfait"
+  },
+  "main": {
+    "title": "Traitements Bariatriques",
+    "subtitle": "Nous offrons une gamme complète de procédures de perte de poids adaptées à vos besoins spécifiques et conditions de santé.",
+    "sleevePackageTitle": "Options de Forfait Sleeve Gastrique",
+    "sleevePackageDesc": "Au Istanbul Bariatric Center, vous êtes libre de choisir l'un des forfaits de traitement qui correspond à votre budget."
+  },
+  "gastricSleeve": {
+    "title": "Chirurgie Sleeve Gastrique",
+    "heroTitle": "Sleeve Gastrectomie Istanbul, Turquie",
+    "heroSubtitle": "La chirurgie sleeve gastrique est l'une des chirurgies bariatriques les plus pratiquées dans le monde et en Turquie. Découvrez pourquoi elle est si efficace.",
+    "desc": "Également connue sous le nom de sleeve gastrectomie, cette procédure implique l'ablation de 70-80% de l'estomac, laissant une poche tubulaire. Elle restreint l'apport alimentaire et impacte les hormones intestinales pour réduire la faim.",
+    "overviewTitle": "Sleeve Gastrectomie Turquie: Aperçu",
+    "overviewP1": "Le sleeve gastrique ou sleeve gastrectomie est une chirurgie bariatrique réalisée en coupant une partie de votre estomac pour créer une chambre plus petite. C'est l'une des chirurgies bariatriques les plus pratiquées dans le monde et en Turquie.",
+    "overviewP2": "L'obésité est l'un des problèmes les plus ennuyeux pour de nombreuses personnes dans le monde, non seulement à cause du changement de forme, de visage ou de corps qui en résulte, mais aussi à cause des problèmes de santé qu'elle peut causer.",
+    "overviewP3": "Il existe plusieurs maladies directement liées à l'obésité comme: le Diabète de type II, l'Hypertension artérielle, les Problèmes cardiaques, le Cholestérol élevé et plus.",
+    "advantages": [
+      "Contrôle la quantité de nourriture dans l'estomac",
+      "Favorise une perte de poids rapide",
+      "Séjour hospitalier plus court que le bypass",
+      "Réduit la faim et l'appétit"
+    ],
+    "disadvantages": [
+      "Procédure irréversible",
+      "Potentiel de carence en vitamines"
+    ],
+    "risks": [
+      "Saignement de l'intérieur de l'estomac ou de la plaie chirurgicale.",
+      "Thrombose Veineuse Profonde: ou TVP, un caillot sanguin qui se forme dans votre veine pendant la procédure ou pendant le processus de récupération.",
+      "Battement cardiaque irrégulier: certaines chirurgies peuvent entraîner un battement cardiaque irrégulier pendant l'opération.",
+      "Fuites gastriques: les fluides de l'estomac peuvent fuir de la ligne de suture dans votre estomac.",
+      "Sténose: ce qui signifie qu'une partie de votre estomac pourrait se fermer causant une obstruction.",
+      "Carence en vitamines: la partie enlevée de votre estomac est partiellement responsable de l'absorption des vitamines."
+    ],
+    "packages": {
+      "basic": { "name": "Sleeve Gastrique Basique", "price": "£2250", "days": "3" },
+      "relaxation": { "name": "Sleeve Gastrique Relaxation", "price": "£3250", "days": "5" },
+      "luxury": { "name": "Sleeve Gastrique Luxe", "price": "£4000", "days": "7" }
+    }
+  },
+  "gastricBypass": {
+    "title": "Chirurgie de Bypass Gastrique",
+    "heroTitle": "Mini Bypass Gastrique Istanbul, Turquie",
+    "heroSubtitle": "Le mini bypass gastrique est une version simplifiée du bypass gastrique traditionnel, offrant d'excellents résultats de perte de poids avec moins de complications.",
+    "desc": "L'estomac est divisé en deux parties, créant une poche plus petite. L'intestin grêle est réarrangé pour se connecter aux deux. Cela limite l'apport alimentaire et l'absorption des calories.",
+    "advantages": [
+      "Perte de poids à long terme",
+      "Contrôle la quantité de nourriture consommée",
+      "Supprime la faim via les hormones intestinales"
+    ],
+    "disadvantages": [
+      "Chirurgie complexe",
+      "Nécessite un séjour hospitalier plus long",
+      "Risque de carence en vitamines"
+    ]
+  },
+  "gastricBalloon": {
+    "title": "Ballon Intragastrique",
+    "heroTitle": "Ballon Gastrique Istanbul, Turquie",
+    "heroSubtitle": "Une solution de perte de poids non chirurgicale qui vous aide à perdre du poids sans changements permanents à votre corps.",
+    "desc": "Une procédure endoscopique non invasive où un ballon rempli de solution saline est placé dans l'estomac pour créer une sensation de satiété et réduire l'apport alimentaire.",
+    "advantages": [
+      "Non chirurgical / Non invasif",
+      "Procédure très sûre",
+      "Aucun changement permanent de l'anatomie"
+    ],
+    "disadvantages": [
+      "Solution temporaire (6 mois)",
+      "Moins de perte de poids que la chirurgie"
+    ]
+  },
+  "gastricBand": {
+    "title": "Anneau Gastrique Ajustable",
+    "desc": "Un anneau est placé autour de la partie supérieure de l'estomac pour créer une poche plus petite. La tension de l'anneau peut être ajustée en injectant une solution saline.",
+    "advantages": [
+      "Niveau de complexité le plus bas",
+      "Court séjour hospitalier (<24 heures)",
+      "Réversible et ajustable",
+      "Généralement pas de problèmes de vitamines"
+    ],
+    "disadvantages": [
+      "Perte de poids plus lente",
+      "Corps étranger dans le corps",
+      "Problèmes mécaniques possibles"
+    ]
+  },
+  "duodenalSwitch": {
+    "title": "Switch Duodénal",
+    "heroTitle": "Switch Duodénal Istanbul, Turquie",
+    "heroSubtitle": "L'une des chirurgies de perte de poids les plus efficaces pour les patients souffrant d'obésité sévère, offrant des résultats significatifs et durables.",
+    "desc": "Une procédure complexe combinant sleeve gastrectomie avec bypass intestinal. Elle offre la perte de poids la plus significative mais comporte des risques plus élevés.",
+    "advantages": [
+      "Perte de poids la plus rapide",
+      "Perdre ~70% de l'excès de poids"
+    ],
+    "disadvantages": [
+      "Chirurgie la plus compliquée",
+      "Risque élevé de carences en vitamines",
+      "Nécessite un suivi strict"
+    ]
+  },
+  "esg": {
+    "title": "Gastroplastie Endoscopique en Sleeve",
+    "heroTitle": "ESG (Gastroplastie Endoscopique en Sleeve) Istanbul, Turquie",
+    "heroSubtitle": "Une procédure minimalement invasive, sans incision, qui réduit la taille de l'estomac sans chirurgie.",
+    "desc": "L'ESG est une procédure de perte de poids réalisée par endoscopie, réduisant la capacité de l'estomac de 70-80% sans incisions externes."
+  },
+  "transitBipartition": {
+    "title": "Bipartition de Transit",
+    "heroTitle": "Bipartition de Transit Istanbul, Turquie",
+    "heroSubtitle": "Une chirurgie métabolique innovante qui combine les avantages de la sleeve gastrectomie avec le bypass intestinal.",
+    "desc": "La bipartition de transit est une chirurgie métabolique qui combine la sleeve gastrectomie avec un bypass intestinal partiel pour améliorer le contrôle du diabète et la perte de poids."
+  },
+  "postBariatric": {
+    "title": "Chirurgie Post-Bariatrique",
+    "heroTitle": "Remodelage Corporel Post-Bariatrique Istanbul, Turquie",
+    "heroSubtitle": "Complétez votre parcours de perte de poids avec des procédures de remodelage corporel conçues pour éliminer l'excès de peau après une perte de poids importante.",
+    "desc": "Après une perte de poids importante, de nombreux patients se retrouvent avec un excès de peau. La chirurgie post-bariatrique aide à remodeler et à sculpter le corps."
+  }
+}

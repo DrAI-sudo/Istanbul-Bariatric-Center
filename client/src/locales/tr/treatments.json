@@ -1,0 +1,139 @@
+{
+  "common": {
+    "advantages": "Avantajlar",
+    "thingsToConsider": "Dikkat Edilmesi Gerekenler",
+    "consultFor": "Danışmanlık Al",
+    "selectPackage": "PAKETİ SEÇ",
+    "popular": "POPÜLER",
+    "bestDoctors": "En İyi Doktorlar",
+    "jciHospital": "JCI Akrediteli Hastane",
+    "airportPickup": "Havalimanı Transferi",
+    "daysAccommodation": "Gün Konaklama",
+    "risks": "Riskler",
+    "faqs": "Sıkça Sorulan Sorular",
+    "getQuote": "Ücretsiz Teklif Al",
+    "bookConsultation": "Ücretsiz Danışmanlık",
+    "learnMore": "Daha Fazla Bilgi",
+    "readMore": "Devamını Oku",
+    "whyTurkey": "Neden Türkiye?",
+    "packageOptions": "Paket Seçenekleri"
+  },
+  "main": {
+    "title": "Bariatrik Tedaviler",
+    "subtitle": "Özel ihtiyaçlarınıza ve sağlık durumunuza göre uyarlanmış kapsamlı kilo verme prosedürleri sunuyoruz.",
+    "sleevePackageTitle": "Tüp Mide Ameliyatı Paket Seçenekleri",
+    "sleevePackageDesc": "İstanbul Bariatrik Merkezi'nde bütçenize uygun tedavi paketlerinden birini seçmekte özgürsünüz."
+  },
+  "gastricSleeve": {
+    "title": "Tüp Mide Ameliyatı",
+    "heroTitle": "Tüp Mide Ameliyatı İstanbul, Türkiye",
+    "heroSubtitle": "Tüp mide ameliyatı, dünya genelinde ve Türkiye'de en çok uygulanan bariatrik ameliyatlardan biridir. Neden bu kadar etkili olduğunu keşfedin.",
+    "desc": "Sleeve gastrektomi olarak da bilinen bu prosedür, midenin %70-80'inin çıkarılmasını ve tübüler bir kese bırakılmasını içerir. Yiyecek alımını kısıtlar ve açlığı azaltmak için bağırsak hormonlarını etkiler.",
+    "overviewTitle": "Tüp Mide Ameliyatı Türkiye: Genel Bakış",
+    "overviewP1": "Tüp mide veya sleeve gastrektomi, midenizin bir kısmını keserek daha küçük bir oda oluşturmak için yapılan bir bariatrik cerrahidir. Hem dünya genelinde hem de Türkiye'de en çok uygulanan bariatrik ameliyatlardan biridir.",
+    "overviewP2": "Obezite, dünya çapında birçok insan için en sinir bozucu sorunlardan biridir, sadece sonrasında gelen şekil, yüz veya vücut değişikliği nedeniyle değil, aynı zamanda neden olabileceği sağlık sorunları nedeniyle.",
+    "overviewP3": "Obezite ile doğrudan ilişkili çeşitli hastalıklar vardır: Tip II Diyabet, Yüksek tansiyon, Kalp sorunları, Yüksek Kolesterol ve daha fazlası.",
+    "advantages": [
+      "Midede tutulan yiyecek miktarını kontrol eder",
+      "Hızlı kilo kaybını destekler",
+      "Bypass'a göre daha kısa hastane kalışı",
+      "Açlık ve iştahı azaltır"
+    ],
+    "disadvantages": [
+      "Geri dönüşü olmayan prosedür",
+      "Vitamin eksikliği potansiyeli"
+    ],
+    "risks": [
+      "Mide içinden veya cerrahi yaradan kanama.",
+      "Derin Ven Trombozu: veya DVT, prosedür sırasında veya iyileşme sürecinde damarınızda oluşan kan pıhtısı.",
+      "Düzensiz kalp atışı: bazı ameliyatlar ameliyat sırasında düzensiz kalp atışına yol açabilir.",
+      "Mide Sızıntıları: mide sıvıları midenizdeki dikiş hattından sızabilir.",
+      "Stenoz: midenizin bir kısmının kapanarak midenizde tıkanıklığa neden olması anlamına gelir.",
+      "Vitamin eksikliği: çıkarılan mide kısmı kısmen vitamin emiliminden sorumludur."
+    ],
+    "packages": {
+      "basic": { "name": "Tüp Mide Temel", "price": "£2250", "days": "3" },
+      "relaxation": { "name": "Tüp Mide Rahatlama", "price": "£3250", "days": "5" },
+      "luxury": { "name": "Tüp Mide Lüks", "price": "£4000", "days": "7" }
+    }
+  },
+  "gastricBypass": {
+    "title": "Mide Bypass Ameliyatı",
+    "heroTitle": "Mini Mide Bypass İstanbul, Türkiye",
+    "heroSubtitle": "Mini mide bypass, geleneksel mide bypass'ın basitleştirilmiş bir versiyonudur ve daha az komplikasyonla mükemmel kilo kaybı sonuçları sunar.",
+    "desc": "Mide iki parçaya ayrılır ve daha küçük bir kese oluşturulur. İnce bağırsak her ikisine de bağlanacak şekilde yeniden düzenlenir. Bu, yiyecek alımını ve kalori emilimini sınırlar.",
+    "advantages": [
+      "Uzun vadeli kilo kaybı",
+      "Tüketilen yiyecek miktarını kontrol eder",
+      "Bağırsak hormonları aracılığıyla açlığı bastırır"
+    ],
+    "disadvantages": [
+      "Karmaşık cerrahi",
+      "Daha uzun hastane kalışı gerektirir",
+      "Vitamin eksikliği riski"
+    ]
+  },
+  "gastricBalloon": {
+    "title": "Mide Balonu",
+    "heroTitle": "Mide Balonu İstanbul, Türkiye",
+    "heroSubtitle": "Vücudunuzda kalıcı değişiklikler yapmadan kilo vermenize yardımcı olan cerrahi olmayan bir kilo verme çözümü.",
+    "desc": "Doluluk hissi yaratmak ve yiyecek alımını azaltmak için mideye tuzlu su dolu bir balonun yerleştirildiği invaziv olmayan endoskopik bir prosedür.",
+    "advantages": [
+      "Cerrahi olmayan / İnvaziv olmayan",
+      "Çok güvenli prosedür",
+      "Anatomide kalıcı değişiklik yok"
+    ],
+    "disadvantages": [
+      "Geçici çözüm (6 ay)",
+      "Cerrahiden daha az kilo kaybı"
+    ]
+  },
+  "gastricBand": {
+    "title": "Ayarlanabilir Mide Bandı",
+    "desc": "Daha küçük bir kese oluşturmak için midenin üst kısmına bir bant yerleştirilir. Bandın sıkılığı serum fizyolojik enjekte edilerek ayarlanabilir.",
+    "advantages": [
+      "En düşük karmaşıklık seviyesi",
+      "Kısa hastane kalışı (<24 saat)",
+      "Geri dönüşümlü ve ayarlanabilir",
+      "Genellikle vitamin sorunu yok"
+    ],
+    "disadvantages": [
+      "Daha yavaş kilo kaybı",
+      "Vücutta yabancı cisim",
+      "Mekanik sorunlar olası"
+    ]
+  },
+  "duodenalSwitch": {
+    "title": "Duodenal Switch",
+    "heroTitle": "Duodenal Switch İstanbul, Türkiye",
+    "heroSubtitle": "Şiddetli obezitesi olan hastalar için en etkili kilo verme ameliyatlarından biri, önemli ve kalıcı sonuçlar sunar.",
+    "desc": "Sleeve gastrektomiyi bağırsak bypass'ı ile birleştiren karmaşık bir prosedür. En önemli kilo kaybını sunar ancak daha yüksek riskler taşır.",
+    "advantages": [
+      "En hızlı kilo kaybı",
+      "Fazla kilonun ~%70'ini kaybetme"
+    ],
+    "disadvantages": [
+      "En karmaşık cerrahi",
+      "Yüksek vitamin eksikliği riski",
+      "Sıkı takip gerektirir"
+    ]
+  },
+  "esg": {
+    "title": "Endoskopik Sleeve Gastroplasti",
+    "heroTitle": "ESG (Endoskopik Sleeve Gastroplasti) İstanbul, Türkiye",
+    "heroSubtitle": "Ameliyat olmadan mide boyutunu azaltan minimal invaziv, kesisiz bir prosedür.",
+    "desc": "ESG, harici kesiler olmadan mide kapasitesini %70-80 azaltan, endoskop aracılığıyla gerçekleştirilen bir kilo verme prosedürüdür."
+  },
+  "transitBipartition": {
+    "title": "Transit Bipartisyon",
+    "heroTitle": "Transit Bipartisyon İstanbul, Türkiye",
+    "heroSubtitle": "Sleeve gastrektominin faydalarını bağırsak bypass'ı ile birleştiren yenilikçi bir metabolik cerrahi.",
+    "desc": "Transit bipartisyon, diyabet kontrolünü ve kilo kaybını iyileştirmek için sleeve gastrektomiyi kısmi bağırsak bypass'ı ile birleştiren metabolik bir cerrahidir."
+  },
+  "postBariatric": {
+    "title": "Bariatrik Sonrası Cerrahi",
+    "heroTitle": "Bariatrik Sonrası Vücut Şekillendirme İstanbul, Türkiye",
+    "heroSubtitle": "Önemli kilo kaybından sonra fazla deriyi çıkarmak için tasarlanmış vücut şekillendirme prosedürleri ile kilo verme yolculuğunuzu tamamlayın.",
+    "desc": "Büyük kilo kaybından sonra birçok hasta fazla deri ile kalır. Bariatrik sonrası cerrahi vücudu yeniden şekillendirmeye ve konturlamaya yardımcı olur."
+  }
+}

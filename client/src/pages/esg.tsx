@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const healthBenefits = [
   "Diabetes (Type 2)",
@@ -18,6 +19,8 @@ const weightLossResults = [
 ];
 
 export default function ESG() {
+  const { t } = useTranslation('treatments');
+  
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -25,9 +28,9 @@ export default function ESG() {
       {/* Hero Header */}
       <section className="bg-slate-900 text-white pt-40 pb-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Apollo Endoscopic Sleeve Gastroplasty (ESG) Turkey</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('esg.heroTitle')}</h1>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            A non-surgical, incisionless weight loss procedure with reduced risk and quicker recovery.
+            {t('esg.heroSubtitle')}
           </p>
         </div>
       </section>
@@ -50,7 +53,7 @@ export default function ESG() {
                 className="bg-primary hover:bg-primary/90 h-12 px-8"
                 onClick={() => window.open('https://wa.me/447491068686', '_blank')}
               >
-                Get Free Consultation
+                {t('common.bookConsultation')}
               </Button>
             </div>
             <div className="flex justify-center">
@@ -241,7 +244,7 @@ export default function ESG() {
             className="bg-white text-primary hover:bg-white/90 font-bold text-lg h-14 px-10"
             onClick={() => window.open('https://wa.me/447491068686', '_blank')}
           >
-            Get Free Consultation
+            {t('common.bookConsultation')}
           </Button>
         </div>
       </section>

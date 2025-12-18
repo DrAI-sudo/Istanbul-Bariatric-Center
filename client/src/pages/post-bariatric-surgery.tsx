@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Check, ArrowRight, CheckCircle2 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const procedures = [
   {
@@ -73,15 +74,17 @@ const faqs = [
 ];
 
 export default function PostBariatricSurgery() {
+  const { t } = useTranslation('treatments');
+  
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
       
       <section className="bg-slate-900 text-white pt-40 pb-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Post-Bariatric Body Contouring Surgery</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('postBariatric.heroTitle')}</h1>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            Complete your weight loss transformation with body contouring procedures designed specifically for patients who have lost significant weight through bariatric surgery.
+            {t('postBariatric.heroSubtitle')}
           </p>
         </div>
       </section>
@@ -323,7 +326,7 @@ export default function PostBariatricSurgery() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">Frequently Asked Questions</h2>
+            <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">{t('common.faqs')}</h2>
             
             <Accordion type="single" collapsible className="space-y-4">
               {faqs.map((faq, i) => (
@@ -353,7 +356,7 @@ export default function PostBariatricSurgery() {
               className="bg-white text-primary hover:bg-white/90 font-bold px-8"
               onClick={() => window.open('https://wa.me/447491068686', '_blank')}
             >
-              Get Free Consultation <ArrowRight className="ml-2 w-5 h-5" />
+              {t('common.bookConsultation')} <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
           </div>
         </div>

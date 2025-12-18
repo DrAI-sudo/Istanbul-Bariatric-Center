@@ -1,0 +1,139 @@
+{
+  "common": {
+    "advantages": "Vantaggi",
+    "thingsToConsider": "Considerazioni",
+    "consultFor": "Consulto per",
+    "selectPackage": "SELEZIONA PACCHETTO",
+    "popular": "POPOLARE",
+    "bestDoctors": "Migliori Medici",
+    "jciHospital": "Ospedale Accreditato JCI",
+    "airportPickup": "Transfer Aeroporto",
+    "daysAccommodation": "Giorni di Alloggio",
+    "risks": "Rischi",
+    "faqs": "Domande Frequenti",
+    "getQuote": "Preventivo Gratuito",
+    "bookConsultation": "Prenota Consulto Gratuito",
+    "learnMore": "Scopri di Più",
+    "readMore": "Leggi di Più",
+    "whyTurkey": "Perché la Turchia?",
+    "packageOptions": "Opzioni Pacchetto"
+  },
+  "main": {
+    "title": "Trattamenti Bariatrici",
+    "subtitle": "Offriamo una gamma completa di procedure per la perdita di peso adattate alle vostre esigenze specifiche e condizioni di salute.",
+    "sleevePackageTitle": "Opzioni Pacchetto Sleeve Gastrico",
+    "sleevePackageDesc": "Presso Istanbul Bariatric Center, sei libero di scegliere qualsiasi pacchetto di trattamento che si adatta al tuo budget."
+  },
+  "gastricSleeve": {
+    "title": "Chirurgia Sleeve Gastrico",
+    "heroTitle": "Sleeve Gastrectomia Istanbul, Turchia",
+    "heroSubtitle": "La chirurgia sleeve gastrico è uno degli interventi bariatrici più praticati sia a livello mondiale che in Turchia. Scopri perché è così efficace.",
+    "desc": "Conosciuta anche come sleeve gastrectomia, questa procedura prevede la rimozione del 70-80% dello stomaco, lasciando una tasca tubulare. Limita l'assunzione di cibo e influenza gli ormoni intestinali per ridurre la fame.",
+    "overviewTitle": "Sleeve Gastrectomia Turchia: Panoramica",
+    "overviewP1": "Lo sleeve gastrico o sleeve gastrectomia è un intervento bariatrico eseguito tagliando una parte dello stomaco per creare una camera più piccola. È uno degli interventi bariatrici più praticati sia a livello mondiale che in Turchia.",
+    "overviewP2": "L'obesità è uno dei problemi più fastidiosi per molte persone in tutto il mondo, non solo per il cambiamento di forma, viso o corpo che ne consegue, ma anche per i problemi di salute che può causare.",
+    "overviewP3": "Ci sono diverse malattie direttamente correlate all'obesità come: Diabete di tipo II, Pressione alta, Problemi cardiaci, Colesterolo alto e altro.",
+    "advantages": [
+      "Controlla la quantità di cibo nello stomaco",
+      "Supporta una rapida perdita di peso",
+      "Degenza ospedaliera più breve rispetto al bypass",
+      "Riduce fame e appetito"
+    ],
+    "disadvantages": [
+      "Procedura irreversibile",
+      "Potenziale carenza vitaminica"
+    ],
+    "risks": [
+      "Sanguinamento dall'interno dello stomaco o dalla ferita chirurgica.",
+      "Trombosi Venosa Profonda: o TVP, un coagulo di sangue che si forma nella vena durante la procedura o durante il processo di recupero.",
+      "Battito cardiaco irregolare: alcuni interventi possono causare un battito cardiaco irregolare durante l'operazione.",
+      "Perdite Gastriche: i fluidi dello stomaco possono fuoriuscire dalla linea di sutura nello stomaco.",
+      "Stenosi: significa che una parte dello stomaco potrebbe chiudersi causando un'ostruzione.",
+      "Carenza di vitamine: la parte rimossa dello stomaco è parzialmente responsabile dell'assorbimento delle vitamine."
+    ],
+    "packages": {
+      "basic": { "name": "Sleeve Gastrico Base", "price": "£2250", "days": "3" },
+      "relaxation": { "name": "Sleeve Gastrico Relax", "price": "£3250", "days": "5" },
+      "luxury": { "name": "Sleeve Gastrico Lusso", "price": "£4000", "days": "7" }
+    }
+  },
+  "gastricBypass": {
+    "title": "Chirurgia Bypass Gastrico",
+    "heroTitle": "Mini Bypass Gastrico Istanbul, Turchia",
+    "heroSubtitle": "Il mini bypass gastrico è una versione semplificata del bypass gastrico tradizionale, che offre eccellenti risultati di perdita di peso con meno complicazioni.",
+    "desc": "Lo stomaco viene diviso in due parti, creando una tasca più piccola. L'intestino tenue viene riorganizzato per connettersi a entrambi. Questo limita l'assunzione di cibo e l'assorbimento delle calorie.",
+    "advantages": [
+      "Perdita di peso a lungo termine",
+      "Controlla la quantità di cibo consumato",
+      "Sopprime la fame tramite ormoni intestinali"
+    ],
+    "disadvantages": [
+      "Chirurgia complessa",
+      "Richiede degenza ospedaliera più lunga",
+      "Rischio di carenza vitaminica"
+    ]
+  },
+  "gastricBalloon": {
+    "title": "Palloncino Intragastrico",
+    "heroTitle": "Palloncino Gastrico Istanbul, Turchia",
+    "heroSubtitle": "Una soluzione non chirurgica per la perdita di peso che ti aiuta a perdere peso senza cambiamenti permanenti al tuo corpo.",
+    "desc": "Una procedura endoscopica non invasiva in cui un palloncino riempito con soluzione salina viene posizionato nello stomaco per creare una sensazione di sazietà e ridurre l'assunzione di cibo.",
+    "advantages": [
+      "Non chirurgico / Non invasivo",
+      "Procedura molto sicura",
+      "Nessun cambiamento permanente all'anatomia"
+    ],
+    "disadvantages": [
+      "Soluzione temporanea (6 mesi)",
+      "Meno perdita di peso rispetto alla chirurgia"
+    ]
+  },
+  "gastricBand": {
+    "title": "Bendaggio Gastrico Regolabile",
+    "desc": "Una banda viene posizionata attorno alla parte superiore dello stomaco per creare una tasca più piccola. La tensione della banda può essere regolata iniettando soluzione salina.",
+    "advantages": [
+      "Livello di complessità più basso",
+      "Breve degenza ospedaliera (<24 ore)",
+      "Reversibile e regolabile",
+      "Di solito nessun problema vitaminico"
+    ],
+    "disadvantages": [
+      "Perdita di peso più lenta",
+      "Corpo estraneo nel corpo",
+      "Possibili problemi meccanici"
+    ]
+  },
+  "duodenalSwitch": {
+    "title": "Switch Duodenale",
+    "heroTitle": "Switch Duodenale Istanbul, Turchia",
+    "heroSubtitle": "Uno degli interventi di perdita di peso più efficaci per pazienti con obesità grave, che offre risultati significativi e duraturi.",
+    "desc": "Una procedura complessa che combina sleeve gastrectomia con bypass intestinale. Offre la perdita di peso più significativa ma comporta rischi maggiori.",
+    "advantages": [
+      "Perdita di peso più rapida",
+      "Perdita di ~70% del peso in eccesso"
+    ],
+    "disadvantages": [
+      "Chirurgia più complicata",
+      "Alto rischio di carenze vitaminiche",
+      "Richiede follow-up rigoroso"
+    ]
+  },
+  "esg": {
+    "title": "Gastroplastica Endoscopica a Sleeve",
+    "heroTitle": "ESG (Gastroplastica Endoscopica a Sleeve) Istanbul, Turchia",
+    "heroSubtitle": "Una procedura minimamente invasiva, senza incisioni, che riduce le dimensioni dello stomaco senza chirurgia.",
+    "desc": "L'ESG è una procedura per la perdita di peso eseguita attraverso un endoscopio, che riduce la capacità dello stomaco del 70-80% senza incisioni esterne."
+  },
+  "transitBipartition": {
+    "title": "Bipartizione di Transito",
+    "heroTitle": "Bipartizione di Transito Istanbul, Turchia",
+    "heroSubtitle": "Una chirurgia metabolica innovativa che combina i benefici della sleeve gastrectomia con il bypass intestinale.",
+    "desc": "La bipartizione di transito è una chirurgia metabolica che combina la sleeve gastrectomia con un bypass intestinale parziale per migliorare il controllo del diabete e la perdita di peso."
+  },
+  "postBariatric": {
+    "title": "Chirurgia Post-Bariatrica",
+    "heroTitle": "Rimodellamento Corporeo Post-Bariatrico Istanbul, Turchia",
+    "heroSubtitle": "Completa il tuo percorso di perdita di peso con procedure di rimodellamento corporeo progettate per rimuovere la pelle in eccesso dopo una significativa perdita di peso.",
+    "desc": "Dopo una significativa perdita di peso, molti pazienti rimangono con pelle in eccesso. La chirurgia post-bariatrica aiuta a rimodellare e scolpire il corpo."
+  }
+}
