@@ -8,7 +8,7 @@ export function VIPPackage() {
         {/* Header */}
         <div className="text-center mb-16 space-y-6">
           <h2 className="text-4xl md:text-5xl font-bold text-[#2d3e50]">
-            Gastric Sleeve VIP Package £4.250
+            All Inclusive Platinum VIP and Economic Packages
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto"></div>
           <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
