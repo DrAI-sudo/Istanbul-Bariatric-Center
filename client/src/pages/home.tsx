@@ -5,6 +5,7 @@ import { Treatments } from "@/components/treatments";
 import { Awards } from "@/components/awards";
 import { Testimonials } from "@/components/testimonials";
 import { Footer } from "@/components/footer";
+import { BMICalculator } from "@/components/bmi-calculator";
 
 // Simplified Home to match the layout request
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <VIPPackage />
       {/* We keep these as they are likely relevant content blocks, but structured simply */}
       <Awards />
+      <BMICalculator />
       <Treatments />
       <Testimonials />
       <Footer />
