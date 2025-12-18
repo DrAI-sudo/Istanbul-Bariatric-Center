@@ -5,9 +5,51 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent } from "@/components/ui/card";
-import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { useMutation } from "@tanstack/react-query";
+import { insertContactSubmissionSchema, type InsertContactSubmission } from "@shared/schema";
+import { toast } from "sonner";
 
 export default function Contact() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm<InsertContactSubmission>({
+    resolver: zodResolver(insertContactSubmissionSchema),
+  });
+
+  const mutation = useMutation({
+    mutationFn: async (data: InsertContactSubmission) => {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      
+      if (!response.ok) {
+        const error = await response.json();
+        throw new Error(error.error || "Failed to submit form");
+      }
+      
+      return response.json();
+    },
+    onSuccess: () => {
+      toast.success("Message sent successfully! We'll get back to you soon.");
+      reset();
+    },
+    onError: (error: Error) => {
+      toast.error(error.message || "Failed to send message. Please try again.");
+    },
+  });
+
+  const onSubmit = (data: InsertContactSubmission) => {
+    mutation.mutate(data);
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -84,26 +126,59 @@ export default function Contact() {
                 <CardContent className="p-8 md:p-10">
                   <h3 className="text-2xl font-bold text-slate-900 mb-6">Send us a Message</h3>
                   
-                  <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+                  <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="space-y-2">
                         <Label htmlFor="name">Full Name</Label>
-                        <Input id="name" placeholder="John Doe" />
+                        <Input 
+                          id="name" 
+                          placeholder="John Doe"
+                          {...register("name")}
+                          className={errors.name ? "border-red-500" : ""}
+                        />
+                        {errors.name && (
+                          <p className="text-sm text-red-500">{errors.name.message}</p>
+                        )}
                       </div>
                       <div className="space-y-2">
                         <Label htmlFor="email">Email Address</Label>
-                        <Input id="email" type="email" placeholder="john@example.com" />
+                        <Input 
+                          id="email" 
+                          type="email" 
+                          placeholder="john@example.com"
+                          {...register("email")}
+                          className={errors.email ? "border-red-500" : ""}
+                        />
+                        {errors.email && (
+                          <p className="text-sm text-red-500">{errors.email.message}</p>
+                        )}
                       </div>
                     </div>
 
                     <div className="space-y-2">
                       <Label htmlFor="phone">Phone Number</Label>
-                      <Input id="phone" placeholder="+1 234 567 890" />
+                      <Input 
+                        id="phone" 
+                        placeholder="+1 234 567 890"
+                        {...register("phone")}
+                        className={errors.phone ? "border-red-500" : ""}
+                      />
+                      {errors.phone && (
+                        <p className="text-sm text-red-500">{errors.phone.message}</p>
+                      )}
                     </div>
 
                     <div className="space-y-2">
                       <Label htmlFor="subject">Subject</Label>
-                      <Input id="subject" placeholder="Inquiry about Gastric Sleeve" />
+                      <Input 
+                        id="subject" 
+                        placeholder="Inquiry about Gastric Sleeve"
+                        {...register("subject")}
+                        className={errors.subject ? "border-red-500" : ""}
+                      />
+                      {errors.subject && (
+                        <p className="text-sm text-red-500">{errors.subject.message}</p>
+                      )}
                     </div>
 
                     <div className="space-y-2">
@@ -111,12 +186,20 @@ export default function Contact() {
                       <Textarea 
                         id="message" 
                         placeholder="Please tell us more about your needs..." 
-                        className="min-h-[150px]"
+                        className={`min-h-[150px] ${errors.message ? "border-red-500" : ""}`}
+                        {...register("message")}
                       />
+                      {errors.message && (
+                        <p className="text-sm text-red-500">{errors.message.message}</p>
+                      )}
                     </div>
 
-                    <Button type="submit" className="w-full bg-primary h-12 text-lg">
-                      Send Message
+                    <Button 
+                      type="submit" 
+                      className="w-full bg-primary h-12 text-lg"
+                      disabled={mutation.isPending}
+                    >
+                      {mutation.isPending ? "Sending..." : "Send Message"}
                     </Button>
                   </form>
                 </CardContent>
