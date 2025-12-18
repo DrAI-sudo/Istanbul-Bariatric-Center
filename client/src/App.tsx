@@ -9,6 +9,7 @@ import About from "@/pages/about";
 import Treatments from "@/pages/treatments";
 import Results from "@/pages/results";
 import Blog from "@/pages/blog";
+import BlogPost from "@/pages/blog-post";
 import Contact from "@/pages/contact";
 import SleeveGastrectomy from "@/pages/sleeve-gastrectomy";
 import MiniGastricBypass from "@/pages/mini-gastric-bypass";
@@ -19,7 +20,6 @@ import ESG from "@/pages/esg";
 import { useEffect } from "react";
 import { useLocation } from "wouter";
 
-// Scroll to top on route change
 function ScrollToTop() {
   const [pathname] = useLocation();
 
@@ -40,6 +40,7 @@ function Router() {
         <Route path="/treatments" component={Treatments} />
         <Route path="/results" component={Results} />
         <Route path="/blog" component={Blog} />
+        <Route path="/blog/:slug" component={BlogPost} />
         <Route path="/contact" component={Contact} />
         <Route path="/sleeve-gastrectomy" component={SleeveGastrectomy} />
         <Route path="/mini-gastric-bypass" component={MiniGastricBypass} />
