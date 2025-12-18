@@ -1,0 +1,61 @@
+{
+  "about": {
+    "title": "Chi Siamo",
+    "subtitle": "Istanbul Bariatric Center è una delle cliniche di chirurgia dell'obesità più esperte in Turchia, dedicata a cambiare vite attraverso la chirurgia per la perdita di peso.",
+    "mission": "La Nostra Missione",
+    "missionText": "L'obesità è una delle ragioni più note che portano a numerose malattie e condizioni mediche. Come team di Istanbul Bariatric Center, siamo qui per eliminare i problemi legati all'obesità nella vita dei pazienti. Crediamo che la salute e la sicurezza del paziente siano l'obiettivo principale, e questo fa parte dell'equazione dell'eccellenza.",
+    "meetTeam": "Incontra il Nostro Team",
+    "stats": {
+      "surgeries": "Interventi Totali",
+      "experience": "Anni di Esperienza",
+      "countries": "Paesi Serviti",
+      "team": "Membri del Team"
+    }
+  },
+  "results": {
+    "title": "Storie di Successo",
+    "subtitle": "Persone reali, risultati reali. Scopri come la chirurgia bariatrica presso Istanbul Bariatric Center ha trasformato vite.",
+    "beforeAfter": "Risultati Prima e Dopo",
+    "beforeAfterDesc": "Queste trasformazioni sono più che fisiche - rappresentano fiducia rinnovata, salute migliorata e un nuovo inizio nella vita. Potresti essere il prossimo!",
+    "beforeAfterLabel": "Prima e Dopo",
+    "testimonials": "Testimonianze dei Pazienti",
+    "testimonialsDesc": "Ascolta direttamente dai nostri pazienti la loro esperienza con Istanbul Bariatric Center.",
+    "readyStart": "Pronto a iniziare il tuo viaggio?",
+    "joinThousands": "Unisciti a migliaia di pazienti di successo che hanno trasformato la loro vita con Istanbul Bariatric Center.",
+    "startTransformation": "Inizia la Tua Trasformazione",
+    "lostIn": "Perso in",
+    "from": "Da",
+    "verifiedPatient": "Paziente Verificato"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Siamo qui per rispondere alle tue domande. Contattaci 24/7.",
+    "getInTouch": "Mettiti in Contatto",
+    "getInTouchDesc": "Puoi contattarci 24/7 tramite chiamata, email o i nostri account social media.",
+    "phoneWhatsapp": "Telefono e WhatsApp",
+    "available247": "Disponibile 24/7",
+    "email": "Email",
+    "londonOffice": "Ufficio di Londra",
+    "sendMessage": "Inviaci un Messaggio",
+    "fullName": "Nome Completo",
+    "emailAddress": "Indirizzo Email",
+    "phoneNumber": "Numero di Telefono",
+    "subject": "Oggetto",
+    "message": "Messaggio",
+    "messagePlaceholder": "Per favore dicci di più sulle tue esigenze...",
+    "sending": "Invio in corso...",
+    "send": "Invia Messaggio",
+    "successMessage": "Messaggio inviato con successo! Ti risponderemo presto.",
+    "errorMessage": "Impossibile inviare il messaggio. Per favore riprova."
+  },
+  "blog": {
+    "title": "Notizie e Blog sull'Obesità",
+    "subtitle": "Rimani aggiornato con le ultime notizie, progressi medici e consigli sulla salute dai nostri esperti.",
+    "showing": "Visualizzando",
+    "of": "di",
+    "articles": "articoli",
+    "previous": "Precedente",
+    "next": "Successivo",
+    "readMore": "Leggi di Più"
+  }
+}

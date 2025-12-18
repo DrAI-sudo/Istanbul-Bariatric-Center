@@ -1,0 +1,61 @@
+{
+  "about": {
+    "title": "Über Uns",
+    "subtitle": "Das Istanbul Bariatric Center ist eine der erfahrensten Adipositas-Chirurgie-Kliniken in der Türkei und widmet sich der Veränderung von Leben durch Gewichtsverlustchirurgie.",
+    "mission": "Unsere Mission",
+    "missionText": "Adipositas ist einer der bekanntesten Gründe, die zu zahlreichen Krankheiten und medizinischen Zuständen führen. Als Team des Istanbul Bariatric Center sind wir hier, um die adipositasbedingten Probleme im Leben der Patienten zu beseitigen. Wir glauben, dass die Gesundheit und Sicherheit des Patienten das Hauptziel ist, und dies ist Teil der Exzellenzgleichung.",
+    "meetTeam": "Lernen Sie Unser Team Kennen",
+    "stats": {
+      "surgeries": "Gesamte Operationen",
+      "experience": "Jahre Erfahrung",
+      "countries": "Betreute Länder",
+      "team": "Teammitglieder"
+    }
+  },
+  "results": {
+    "title": "Erfolgsgeschichten",
+    "subtitle": "Echte Menschen, echte Ergebnisse. Sehen Sie, wie bariatrische Chirurgie im Istanbul Bariatric Center Leben verändert hat.",
+    "beforeAfter": "Vorher & Nachher Ergebnisse",
+    "beforeAfterDesc": "Diese Transformationen sind mehr als nur körperlich - sie repräsentieren erneuertes Selbstvertrauen, verbesserte Gesundheit und einen Neuanfang im Leben. Sie könnten der Nächste sein!",
+    "beforeAfterLabel": "Vorher & Nachher",
+    "testimonials": "Patientenbewertungen",
+    "testimonialsDesc": "Hören Sie direkt von unseren Patienten über ihre Erfahrung mit dem Istanbul Bariatric Center.",
+    "readyStart": "Bereit, Ihre eigene Reise zu beginnen?",
+    "joinThousands": "Schließen Sie sich Tausenden erfolgreicher Patienten an, die ihr Leben mit dem Istanbul Bariatric Center verändert haben.",
+    "startTransformation": "Starten Sie Ihre Transformation",
+    "lostIn": "Verloren in",
+    "from": "Aus",
+    "verifiedPatient": "Verifizierter Patient"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Wir sind hier, um Ihre Fragen zu beantworten. Erreichen Sie uns 24/7.",
+    "getInTouch": "Kontaktieren Sie Uns",
+    "getInTouchDesc": "Sie können uns 24/7 per Anruf, E-Mail oder über unsere Social-Media-Konten erreichen.",
+    "phoneWhatsapp": "Telefon & WhatsApp",
+    "available247": "Rund um die Uhr verfügbar",
+    "email": "E-Mail",
+    "londonOffice": "Londoner Büro",
+    "sendMessage": "Senden Sie uns eine Nachricht",
+    "fullName": "Vollständiger Name",
+    "emailAddress": "E-Mail-Adresse",
+    "phoneNumber": "Telefonnummer",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "messagePlaceholder": "Bitte erzählen Sie uns mehr über Ihre Bedürfnisse...",
+    "sending": "Wird gesendet...",
+    "send": "Nachricht Senden",
+    "successMessage": "Nachricht erfolgreich gesendet! Wir melden uns bald bei Ihnen.",
+    "errorMessage": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+  },
+  "blog": {
+    "title": "Adipositas Nachrichten & Blog",
+    "subtitle": "Bleiben Sie auf dem Laufenden mit den neuesten Nachrichten, medizinischen Fortschritten und Gesundheitstipps unserer Experten.",
+    "showing": "Anzeigen",
+    "of": "von",
+    "articles": "Artikeln",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "readMore": "Mehr Lesen"
+  }
+}

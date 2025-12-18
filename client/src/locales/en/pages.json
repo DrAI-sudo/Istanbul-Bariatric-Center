@@ -1,0 +1,61 @@
+{
+  "about": {
+    "title": "About Us",
+    "subtitle": "Istanbul Bariatric Center is one of the most experienced obesity surgery clinics in Turkey, dedicated to changing lives through weight loss surgery.",
+    "mission": "Our Mission",
+    "missionText": "Obesity is one of the most renowned reasons that lead to numerous sicknesses and medical conditions. As Istanbul Bariatric Center team, we are here to remove the obesity related problems in the patients' lives. We believe that health and safety of the patient is the main goal, and this is a part of the excellence equation.",
+    "meetTeam": "Meet Our Team",
+    "stats": {
+      "surgeries": "Total Surgeries",
+      "experience": "Years Experience",
+      "countries": "Countries Served",
+      "team": "Team Members"
+    }
+  },
+  "results": {
+    "title": "Success Stories",
+    "subtitle": "Real people, real results. See how bariatric surgery at Istanbul Bariatric Center has transformed lives.",
+    "beforeAfter": "Before & After Results",
+    "beforeAfterDesc": "These transformations are more than just physical - they represent renewed confidence, improved health, and a fresh start in life. You could be next!",
+    "beforeAfterLabel": "Before & After",
+    "testimonials": "Patient Testimonials",
+    "testimonialsDesc": "Hear directly from our patients about their experience with Istanbul Bariatric Center.",
+    "readyStart": "Ready to start your own journey?",
+    "joinThousands": "Join thousands of successful patients who have transformed their lives with Istanbul Bariatric Center.",
+    "startTransformation": "Start Your Transformation",
+    "lostIn": "Lost in",
+    "from": "From",
+    "verifiedPatient": "Verified Patient"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to answer your questions. Reach out to us 24/7.",
+    "getInTouch": "Get in Touch",
+    "getInTouchDesc": "You can get in touch with us 24/7 via call, email or our social media accounts.",
+    "phoneWhatsapp": "Phone & WhatsApp",
+    "available247": "Available 24/7",
+    "email": "Email",
+    "londonOffice": "London Office",
+    "sendMessage": "Send us a Message",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "phoneNumber": "Phone Number",
+    "subject": "Subject",
+    "message": "Message",
+    "messagePlaceholder": "Please tell us more about your needs...",
+    "sending": "Sending...",
+    "send": "Send Message",
+    "successMessage": "Message sent successfully! We'll get back to you soon.",
+    "errorMessage": "Failed to send message. Please try again."
+  },
+  "blog": {
+    "title": "Obesity News & Blog",
+    "subtitle": "Stay updated with the latest news, medical advancements, and health tips from our experts.",
+    "showing": "Showing",
+    "of": "of",
+    "articles": "articles",
+    "previous": "Previous",
+    "next": "Next",
+    "readMore": "Read More"
+  }
+}

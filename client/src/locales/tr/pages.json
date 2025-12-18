@@ -1,0 +1,61 @@
+{
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "İstanbul Bariatrik Merkezi, Türkiye'nin en deneyimli obezite cerrahisi kliniklerinden biridir ve kilo verme cerrahisi yoluyla hayatları değiştirmeye adanmıştır.",
+    "mission": "Misyonumuz",
+    "missionText": "Obezite, sayısız hastalığa ve tıbbi duruma yol açan en bilinen nedenlerden biridir. İstanbul Bariatrik Merkezi ekibi olarak, hastaların hayatlarındaki obezite ile ilgili sorunları ortadan kaldırmak için buradayız. Hastanın sağlığı ve güvenliğinin ana hedef olduğuna ve bunun mükemmellik denkleminin bir parçası olduğuna inanıyoruz.",
+    "meetTeam": "Ekibimizle Tanışın",
+    "stats": {
+      "surgeries": "Toplam Ameliyat",
+      "experience": "Yıllık Deneyim",
+      "countries": "Hizmet Verilen Ülke",
+      "team": "Ekip Üyesi"
+    }
+  },
+  "results": {
+    "title": "Başarı Hikayeleri",
+    "subtitle": "Gerçek insanlar, gerçek sonuçlar. İstanbul Bariatrik Merkezi'nde bariatrik cerrahinin hayatları nasıl dönüştürdüğünü görün.",
+    "beforeAfter": "Öncesi ve Sonrası Sonuçları",
+    "beforeAfterDesc": "Bu dönüşümler fiziksel olmanın ötesinde - yenilenmiş özgüven, gelişmiş sağlık ve hayata yeni bir başlangıcı temsil ediyor. Sıradaki siz olabilirsiniz!",
+    "beforeAfterLabel": "Öncesi ve Sonrası",
+    "testimonials": "Hasta Yorumları",
+    "testimonialsDesc": "İstanbul Bariatrik Merkezi deneyimleri hakkında doğrudan hastalarımızdan dinleyin.",
+    "readyStart": "Kendi yolculuğunuza başlamaya hazır mısınız?",
+    "joinThousands": "İstanbul Bariatrik Merkezi ile hayatlarını dönüştüren binlerce başarılı hastaya katılın.",
+    "startTransformation": "Dönüşümünüzü Başlatın",
+    "lostIn": "Verilen süre",
+    "from": "Ülke",
+    "verifiedPatient": "Doğrulanmış Hasta"
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Sorularınızı yanıtlamak için buradayız. 7/24 bize ulaşın.",
+    "getInTouch": "Bize Ulaşın",
+    "getInTouchDesc": "Arama, e-posta veya sosyal medya hesaplarımız aracılığıyla 7/24 bize ulaşabilirsiniz.",
+    "phoneWhatsapp": "Telefon ve WhatsApp",
+    "available247": "7/24 Ulaşılabilir",
+    "email": "E-posta",
+    "londonOffice": "Londra Ofisi",
+    "sendMessage": "Bize Mesaj Gönderin",
+    "fullName": "Ad Soyad",
+    "emailAddress": "E-posta Adresi",
+    "phoneNumber": "Telefon Numarası",
+    "subject": "Konu",
+    "message": "Mesaj",
+    "messagePlaceholder": "Lütfen ihtiyaçlarınız hakkında daha fazla bilgi verin...",
+    "sending": "Gönderiliyor...",
+    "send": "Mesaj Gönder",
+    "successMessage": "Mesaj başarıyla gönderildi! En kısa sürede size dönüş yapacağız.",
+    "errorMessage": "Mesaj gönderilemedi. Lütfen tekrar deneyin."
+  },
+  "blog": {
+    "title": "Obezite Haberleri ve Blog",
+    "subtitle": "Uzmanlarımızdan en son haberler, tıbbi gelişmeler ve sağlık ipuçları ile güncel kalın.",
+    "showing": "Gösterilen",
+    "of": "/",
+    "articles": "makale",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "readMore": "Devamını Oku"
+  }
+}

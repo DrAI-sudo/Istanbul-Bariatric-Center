@@ -1,0 +1,61 @@
+{
+  "about": {
+    "title": "Despre Noi",
+    "subtitle": "Istanbul Bariatric Center este una dintre cele mai experimentate clinici de chirurgie a obezității din Turcia, dedicată schimbării vieților prin chirurgia pentru pierderea în greutate.",
+    "mission": "Misiunea Noastră",
+    "missionText": "Obezitatea este unul dintre cele mai cunoscute motive care duc la numeroase boli și afecțiuni medicale. Ca echipă a Istanbul Bariatric Center, suntem aici pentru a elimina problemele legate de obezitate din viața pacienților. Credem că sănătatea și siguranța pacientului sunt obiectivul principal, și aceasta face parte din ecuația excelenței.",
+    "meetTeam": "Cunoaște Echipa Noastră",
+    "stats": {
+      "surgeries": "Total Operații",
+      "experience": "Ani de Experiență",
+      "countries": "Țări Deservite",
+      "team": "Membri ai Echipei"
+    }
+  },
+  "results": {
+    "title": "Povești de Succes",
+    "subtitle": "Oameni reali, rezultate reale. Vedeți cum chirurgia bariatrică la Istanbul Bariatric Center a transformat vieți.",
+    "beforeAfter": "Rezultate Înainte și După",
+    "beforeAfterDesc": "Aceste transformări sunt mai mult decât fizice - reprezintă încredere reînnoită, sănătate îmbunătățită și un nou început în viață. Ați putea fi următorul!",
+    "beforeAfterLabel": "Înainte și După",
+    "testimonials": "Mărturii ale Pacienților",
+    "testimonialsDesc": "Ascultați direct de la pacienții noștri despre experiența lor cu Istanbul Bariatric Center.",
+    "readyStart": "Sunteți gata să începeți propria călătorie?",
+    "joinThousands": "Alăturați-vă miilor de pacienți de succes care și-au transformat viața cu Istanbul Bariatric Center.",
+    "startTransformation": "Începeți Transformarea",
+    "lostIn": "Pierdut în",
+    "from": "Din",
+    "verifiedPatient": "Pacient Verificat"
+  },
+  "contact": {
+    "title": "Contactați-ne",
+    "subtitle": "Suntem aici pentru a răspunde întrebărilor dumneavoastră. Contactați-ne 24/7.",
+    "getInTouch": "Intrați în Contact",
+    "getInTouchDesc": "Ne puteți contacta 24/7 prin apel, email sau conturile noastre de social media.",
+    "phoneWhatsapp": "Telefon și WhatsApp",
+    "available247": "Disponibil 24/7",
+    "email": "Email",
+    "londonOffice": "Biroul din Londra",
+    "sendMessage": "Trimiteți-ne un Mesaj",
+    "fullName": "Nume Complet",
+    "emailAddress": "Adresă de Email",
+    "phoneNumber": "Număr de Telefon",
+    "subject": "Subiect",
+    "message": "Mesaj",
+    "messagePlaceholder": "Vă rugăm să ne spuneți mai multe despre nevoile dumneavoastră...",
+    "sending": "Se trimite...",
+    "send": "Trimite Mesaj",
+    "successMessage": "Mesaj trimis cu succes! Vă vom răspunde în curând.",
+    "errorMessage": "Nu s-a putut trimite mesajul. Vă rugăm să încercați din nou."
+  },
+  "blog": {
+    "title": "Știri și Blog despre Obezitate",
+    "subtitle": "Rămâneți la curent cu cele mai recente știri, progrese medicale și sfaturi de sănătate de la experții noștri.",
+    "showing": "Afișare",
+    "of": "din",
+    "articles": "articole",
+    "previous": "Anterior",
+    "next": "Următor",
+    "readMore": "Citește Mai Mult"
+  }
+}

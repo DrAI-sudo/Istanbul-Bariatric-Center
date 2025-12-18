@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { useTranslation } from "react-i18next";
 
 const doctors = [
   {
@@ -34,29 +35,29 @@ const doctors = [
   }
 ];
 
-const stats = [
-  { value: "8,000+", label: "Total Surgeries" },
-  { value: "22+", label: "Years Experience" },
-  { value: "20+", label: "Countries Served" },
-  { value: "10+", label: "Team Members" },
-];
-
 export default function About() {
+  const { t } = useTranslation('pages');
+  
+  const stats = [
+    { value: "8,000+", label: t('about.stats.surgeries') },
+    { value: "22+", label: t('about.stats.experience') },
+    { value: "20+", label: t('about.stats.countries') },
+    { value: "10+", label: t('about.stats.team') },
+  ];
+
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
       
-      {/* Hero Header */}
       <section className="bg-slate-900 text-white pt-40 pb-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">About Us</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('about.title')}</h1>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-            Istanbul Bariatric Center is one of the most experienced obesity surgery clinics in Turkey, dedicated to changing lives through weight loss surgery.
+            {t('about.subtitle')}
           </p>
         </div>
       </section>
 
-      {/* Stats Section */}
       <section className="py-16 bg-blue-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -70,24 +71,20 @@ export default function About() {
         </div>
       </section>
 
-      {/* Mission Section */}
       <section className="py-20">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="text-center space-y-6">
-            <h2 className="text-3xl font-bold text-slate-900">Our Mission</h2>
+            <h2 className="text-3xl font-bold text-slate-900">{t('about.mission')}</h2>
             <p className="text-lg text-slate-600 leading-relaxed">
-              Obesity is one of the most renowned reasons that lead to numerous sicknesses and medical conditions. 
-              As Istanbul Bariatric Center team, we are here to remove the obesity related problems in the patients' lives.
-              We believe that health and safety of the patient is the main goal, and this is a part of the excellence equation.
+              {t('about.missionText')}
             </p>
           </div>
         </div>
       </section>
 
-      {/* Team Section */}
       <section className="py-20 bg-slate-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-slate-900 mb-16">Meet Our Team</h2>
+          <h2 className="text-3xl font-bold text-center text-slate-900 mb-16">{t('about.meetTeam')}</h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {doctors.map((doctor, i) => (

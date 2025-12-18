@@ -6,10 +6,12 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, ChevronLeft, ChevronRight } from "lucide-react";
 import { blogPosts } from "@/data/blog-posts";
+import { useTranslation } from "react-i18next";
 
 const POSTS_PER_PAGE = 6;
 
 export default function Blog() {
+  const { t } = useTranslation('pages');
   const [currentPage, setCurrentPage] = useState(1);
   
   const totalPages = Math.ceil(blogPosts.length / POSTS_PER_PAGE);
@@ -60,9 +62,9 @@ export default function Blog() {
       
       <section className="bg-slate-900 text-white pt-40 pb-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Obesity News & Blog</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('blog.title')}</h1>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-            Stay updated with the latest news, medical advancements, and health tips from our experts.
+            {t('blog.subtitle')}
           </p>
         </div>
       </section>
@@ -71,7 +73,7 @@ export default function Blog() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
             <p className="text-slate-500">
-              Showing {startIndex + 1}-{Math.min(endIndex, blogPosts.length)} of {blogPosts.length} articles
+              {t('blog.showing')} {startIndex + 1}-{Math.min(endIndex, blogPosts.length)} {t('blog.of')} {blogPosts.length} {t('blog.articles')}
             </p>
           </div>
 
@@ -106,7 +108,7 @@ export default function Blog() {
                   </p>
                   <Link href={`/blog/${post.slug}`}>
                     <Button variant="link" className="p-0 h-auto text-primary font-bold hover:no-underline hover:text-primary/80" data-testid={`button-read-more-${post.slug}`}>
-                      Read More &rarr;
+                      {t('blog.readMore')} &rarr;
                     </Button>
                   </Link>
                 </CardContent>
@@ -124,7 +126,7 @@ export default function Blog() {
               data-testid="button-previous"
             >
               <ChevronLeft className="w-4 h-4" />
-              Previous
+              {t('blog.previous')}
             </Button>
 
             <div className="flex items-center gap-1 mx-4">
@@ -154,7 +156,7 @@ export default function Blog() {
               className="flex items-center gap-1"
               data-testid="button-next"
             >
-              Next
+              {t('blog.next')}
               <ChevronRight className="w-4 h-4" />
             </Button>
           </div>

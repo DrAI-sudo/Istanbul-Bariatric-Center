@@ -1,0 +1,61 @@
+{
+  "about": {
+    "title": "À Propos de Nous",
+    "subtitle": "Istanbul Bariatric Center est l'une des cliniques de chirurgie de l'obésité les plus expérimentées en Turquie, dédiée à changer des vies grâce à la chirurgie de perte de poids.",
+    "mission": "Notre Mission",
+    "missionText": "L'obésité est l'une des raisons les plus connues qui conduisent à de nombreuses maladies et conditions médicales. En tant qu'équipe d'Istanbul Bariatric Center, nous sommes ici pour éliminer les problèmes liés à l'obésité dans la vie des patients. Nous croyons que la santé et la sécurité du patient sont l'objectif principal, et cela fait partie de l'équation de l'excellence.",
+    "meetTeam": "Rencontrez Notre Équipe",
+    "stats": {
+      "surgeries": "Chirurgies Totales",
+      "experience": "Années d'Expérience",
+      "countries": "Pays Desservis",
+      "team": "Membres de l'Équipe"
+    }
+  },
+  "results": {
+    "title": "Histoires de Réussite",
+    "subtitle": "Des personnes réelles, des résultats réels. Voyez comment la chirurgie bariatrique à Istanbul Bariatric Center a transformé des vies.",
+    "beforeAfter": "Résultats Avant et Après",
+    "beforeAfterDesc": "Ces transformations sont plus que physiques - elles représentent une confiance renouvelée, une santé améliorée et un nouveau départ dans la vie. Vous pourriez être le prochain!",
+    "beforeAfterLabel": "Avant et Après",
+    "testimonials": "Témoignages de Patients",
+    "testimonialsDesc": "Écoutez directement nos patients parler de leur expérience avec Istanbul Bariatric Center.",
+    "readyStart": "Prêt à commencer votre propre voyage?",
+    "joinThousands": "Rejoignez des milliers de patients satisfaits qui ont transformé leur vie avec Istanbul Bariatric Center.",
+    "startTransformation": "Commencez Votre Transformation",
+    "lostIn": "Perdu en",
+    "from": "De",
+    "verifiedPatient": "Patient Vérifié"
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Nous sommes là pour répondre à vos questions. Contactez-nous 24h/24 et 7j/7.",
+    "getInTouch": "Entrer en Contact",
+    "getInTouchDesc": "Vous pouvez nous contacter 24h/24 et 7j/7 par appel, e-mail ou nos comptes de réseaux sociaux.",
+    "phoneWhatsapp": "Téléphone et WhatsApp",
+    "available247": "Disponible 24h/24",
+    "email": "E-mail",
+    "londonOffice": "Bureau de Londres",
+    "sendMessage": "Envoyez-nous un Message",
+    "fullName": "Nom Complet",
+    "emailAddress": "Adresse E-mail",
+    "phoneNumber": "Numéro de Téléphone",
+    "subject": "Sujet",
+    "message": "Message",
+    "messagePlaceholder": "Veuillez nous en dire plus sur vos besoins...",
+    "sending": "Envoi en cours...",
+    "send": "Envoyer le Message",
+    "successMessage": "Message envoyé avec succès! Nous vous répondrons bientôt.",
+    "errorMessage": "Échec de l'envoi du message. Veuillez réessayer."
+  },
+  "blog": {
+    "title": "Actualités et Blog sur l'Obésité",
+    "subtitle": "Restez informé des dernières nouvelles, avancées médicales et conseils de santé de nos experts.",
+    "showing": "Affichage",
+    "of": "sur",
+    "articles": "articles",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "readMore": "Lire Plus"
+  }
+}
