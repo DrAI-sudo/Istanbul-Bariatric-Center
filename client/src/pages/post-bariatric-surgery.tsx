@@ -33,7 +33,7 @@ const procedures = [
   {
     title: "Face and Neck Lift",
     desc: "Addresses sagging facial skin and neck bands that can occur after significant weight loss.",
-    image: null
+    image: "/face-neck-lift.png"
   }
 ];
 
