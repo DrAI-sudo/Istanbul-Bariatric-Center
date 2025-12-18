@@ -40,7 +40,7 @@ async function getCredentials() {
 
   return {
     apiKey: connectionSettings.settings.api_key,
-    fromEmail: connectionSettings.settings.from_email || 'onboarding@resend.dev'
+    fromEmail: 'onboarding@resend.dev'
   };
 }
 
