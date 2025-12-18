@@ -8,7 +8,7 @@ const procedures = [
   {
     title: "Abdominoplasty (Tummy Tuck)",
     desc: "Removes excess skin and fat from the abdomen while tightening abdominal muscles for a flatter, more toned appearance.",
-    image: "/post-bariatric-surgery.png"
+    image: "/tummy-tuck.png"
   },
   {
     title: "Arm Lift (Brachioplasty)",
