@@ -4,29 +4,43 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as SonnerToaster } from "sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import NotFound from "@/pages/not-found";
-import Home from "@/pages/home";
-import About from "@/pages/about";
-import Treatments from "@/pages/treatments";
-import Results from "@/pages/results";
-import Blog from "@/pages/blog";
-import BlogPost from "@/pages/blog-post";
-import Contact from "@/pages/contact";
-import SleeveGastrectomy from "@/pages/sleeve-gastrectomy";
-import MiniGastricBypass from "@/pages/mini-gastric-bypass";
-import GastricBalloon from "@/pages/gastric-balloon";
-import DuodenalSwitch from "@/pages/duodenal-switch";
-import TransitBipartition from "@/pages/transit-bipartition";
-import ESG from "@/pages/esg";
-import PostBariatricSurgery from "@/pages/post-bariatric-surgery";
-import { useEffect } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import { useLocation } from "wouter";
+
+const Home = lazy(() => import("@/pages/home"));
+const About = lazy(() => import("@/pages/about"));
+const Treatments = lazy(() => import("@/pages/treatments"));
+const Results = lazy(() => import("@/pages/results"));
+const Blog = lazy(() => import("@/pages/blog"));
+const BlogPost = lazy(() => import("@/pages/blog-post"));
+const Contact = lazy(() => import("@/pages/contact"));
+const SleeveGastrectomy = lazy(() => import("@/pages/sleeve-gastrectomy"));
+const MiniGastricBypass = lazy(() => import("@/pages/mini-gastric-bypass"));
+const GastricBalloon = lazy(() => import("@/pages/gastric-balloon"));
+const DuodenalSwitch = lazy(() => import("@/pages/duodenal-switch"));
+const TransitBipartition = lazy(() => import("@/pages/transit-bipartition"));
+const ESG = lazy(() => import("@/pages/esg"));
+const PostBariatricSurgery = lazy(() => import("@/pages/post-bariatric-surgery"));
+const NotFound = lazy(() => import("@/pages/not-found"));
+
+function PageLoader() {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-white">
+      <div className="animate-pulse flex flex-col items-center gap-4">
+        <div className="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin" />
+        <p className="text-slate-500 font-medium">Loading...</p>
+      </div>
+    </div>
+  );
+}
 
 function ScrollToTop() {
   const [pathname] = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    });
   }, [pathname]);
 
   return null;
@@ -36,23 +50,25 @@ function Router() {
   return (
     <>
       <ScrollToTop />
-      <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/treatments" component={Treatments} />
-        <Route path="/results" component={Results} />
-        <Route path="/blog" component={Blog} />
-        <Route path="/blog/:slug" component={BlogPost} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/sleeve-gastrectomy" component={SleeveGastrectomy} />
-        <Route path="/mini-gastric-bypass" component={MiniGastricBypass} />
-        <Route path="/gastric-balloon" component={GastricBalloon} />
-        <Route path="/duodenal-switch" component={DuodenalSwitch} />
-        <Route path="/transit-bipartition" component={TransitBipartition} />
-        <Route path="/esg" component={ESG} />
-        <Route path="/post-bariatric-surgery" component={PostBariatricSurgery} />
-        <Route component={NotFound} />
-      </Switch>
+      <Suspense fallback={<PageLoader />}>
+        <Switch>
+          <Route path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/treatments" component={Treatments} />
+          <Route path="/results" component={Results} />
+          <Route path="/blog" component={Blog} />
+          <Route path="/blog/:slug" component={BlogPost} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/sleeve-gastrectomy" component={SleeveGastrectomy} />
+          <Route path="/mini-gastric-bypass" component={MiniGastricBypass} />
+          <Route path="/gastric-balloon" component={GastricBalloon} />
+          <Route path="/duodenal-switch" component={DuodenalSwitch} />
+          <Route path="/transit-bipartition" component={TransitBipartition} />
+          <Route path="/esg" component={ESG} />
+          <Route path="/post-bariatric-surgery" component={PostBariatricSurgery} />
+          <Route component={NotFound} />
+        </Switch>
+      </Suspense>
     </>
   );
 }
