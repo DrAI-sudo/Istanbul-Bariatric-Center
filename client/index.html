@@ -9,6 +9,7 @@
     <meta name="keywords" content="gastric sleeve turkey, weight loss surgery istanbul, bariatric surgery turkey, gastric bypass, obesity surgery, medical tourism turkey" />
     <meta name="author" content="Dr. Murat Ustun" />
     <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0047AB" />
     
     <meta property="og:title" content="Istanbul Bariatric Center - Weight Loss Surgery in Turkey" />
     <meta property="og:description" content="World-class bariatric surgery with 8,000+ successful procedures. VIP packages, JCI accredited hospitals, and award-winning service from £2,250." />
@@ -30,16 +31,35 @@
 
     <link rel="icon" type="image/png" href="/favicon.png" />
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Preconnect to external domains for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://caf0fec0.delivery.rocketcdn.me" crossorigin />
+    
+    <!-- Preload critical hero video for LCP -->
+    <link rel="preload" href="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2021/07/ibc-promo-3-1.mp4" as="video" type="video/mp4" crossorigin />
+    
+    <!-- Google Fonts with font-display: swap for better FCP -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    
+    <!-- Critical inline CSS for above-the-fold content -->
+    <style>
+      /* Prevent FOUT and layout shifts */
+      body { font-family: 'Inter', system-ui, -apple-system, sans-serif; margin: 0; }
+      h1, h2, h3, h4, h5, h6 { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+      #root { min-height: 100vh; }
+      /* Skeleton loader for hero while JS loads */
+      .hero-skeleton { height: 100vh; background: linear-gradient(135deg, #1e293b 0%, #334155 100%); }
+    </style>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <!-- Defer non-critical third-party script -->
     <script
       id="chat-data-embed"
-      src="https://www.chat-data.com/embed.min.js?chatbotId=67ccb5256b01cddd3d5cbaa7">
+      src="https://www.chat-data.com/embed.min.js?chatbotId=67ccb5256b01cddd3d5cbaa7"
+      defer>
     </script>
   </body>
 </html>

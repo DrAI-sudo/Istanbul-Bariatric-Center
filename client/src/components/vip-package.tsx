@@ -6,13 +6,13 @@ export function VIPPackage() {
   const { t } = useTranslation('home');
   
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white" aria-labelledby="vip-package-heading">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 space-y-6">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#2d3e50]">
+          <h2 id="vip-package-heading" className="text-4xl md:text-5xl font-bold text-[#2d3e50]">
             {t('vipPackage.title')}
           </h2>
-          <div className="w-24 h-1 bg-primary mx-auto"></div>
+          <div className="w-24 h-1 bg-primary mx-auto" aria-hidden="true"></div>
           <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
             {t('vipPackage.description')}
           </p>
@@ -55,8 +55,11 @@ export function VIPPackage() {
              <div className="rounded-xl overflow-hidden shadow-2xl border-4 border-white">
                <img 
                  src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/03/IMG_0922.jpeg" 
-                 alt="Istanbul Bariatric Center Team" 
+                 alt="Istanbul Bariatric Center Team - Dr. Murat Ustun and medical staff" 
                  className="w-full h-auto object-cover"
+                 loading="lazy"
+                 width="400"
+                 height="300"
                />
              </div>
           </div>
@@ -99,6 +102,7 @@ export function VIPPackage() {
             size="lg" 
             className="bg-[#25D366] hover:bg-[#128C7E] text-white font-bold text-lg px-12 py-8 rounded-full shadow-xl uppercase tracking-wider"
             onClick={() => window.open('https://wa.me/905324131143', '_blank')}
+            aria-label="Start your VIP package inquiry via WhatsApp"
           >
             {t('vipPackage.letsTryIt')}
           </Button>

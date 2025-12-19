@@ -7,29 +7,29 @@ export function Footer() {
   const { t } = useTranslation('common');
   
   return (
-    <footer className="bg-slate-900 text-white pt-20 pb-10">
+    <footer role="contentinfo" className="bg-slate-900 text-white pt-20 pb-10">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
-            <h3 className="text-2xl font-heading font-bold">Istanbul Bariatric Center</h3>
+            <h2 className="text-2xl font-heading font-bold">Istanbul Bariatric Center</h2>
             <p className="text-slate-400 leading-relaxed">
               Leading the way in bariatric surgery with world-class facilities and expert care. Your health is our priority.
             </p>
-            <div className="flex gap-4">
-              <a href="https://www.facebook.com/istanbulbariatriccenter" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors">
-                <Facebook className="w-5 h-5" />
+            <div className="flex gap-4" role="list" aria-label="Social media links">
+              <a href="https://www.facebook.com/istanbulbariatriccenter" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" aria-label="Follow us on Facebook" role="listitem">
+                <Facebook className="w-5 h-5" aria-hidden="true" />
               </a>
-              <a href="https://www.instagram.com/istanbulbariatriccenter" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors">
-                <Instagram className="w-5 h-5" />
+              <a href="https://www.instagram.com/istanbulbariatriccenter" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" aria-label="Follow us on Instagram" role="listitem">
+                <Instagram className="w-5 h-5" aria-hidden="true" />
               </a>
-              <a href="https://www.youtube.com/@istanbulbariatriccenter" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors">
-                <Youtube className="w-5 h-5" />
+              <a href="https://www.youtube.com/@istanbulbariatriccenter" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" aria-label="Subscribe to our YouTube channel" role="listitem">
+                <Youtube className="w-5 h-5" aria-hidden="true" />
               </a>
             </div>
           </div>
 
-          <div>
-            <h4 className="font-bold text-lg mb-6">Treatments</h4>
+          <nav aria-label="Treatment links">
+            <h3 className="font-bold text-lg mb-6">Treatments</h3>
             <ul className="space-y-4 text-slate-400">
               <li><Link href="/sleeve-gastrectomy" className="hover:text-primary transition-colors">Gastric Sleeve</Link></li>
               <li><Link href="/mini-gastric-bypass" className="hover:text-primary transition-colors">Gastric Bypass</Link></li>
@@ -37,10 +37,10 @@ export function Footer() {
               <li><Link href="/duodenal-switch" className="hover:text-primary transition-colors">Duodenal Switch</Link></li>
               <li><Link href="/esg" className="hover:text-primary transition-colors">Endoscopic Sleeve</Link></li>
             </ul>
-          </div>
+          </nav>
 
-          <div>
-            <h4 className="font-bold text-lg mb-6">Quick Links</h4>
+          <nav aria-label="Quick links">
+            <h3 className="font-bold text-lg mb-6">Quick Links</h3>
             <ul className="space-y-4 text-slate-400">
               <li><Link href="/about" className="hover:text-primary transition-colors">About Us</Link></li>
               <li><Link href="/treatments" className="hover:text-primary transition-colors">Treatments</Link></li>
@@ -48,10 +48,10 @@ export function Footer() {
               <li><Link href="/blog" className="hover:text-primary transition-colors">Blog</Link></li>
               <li><Link href="/contact" className="hover:text-primary transition-colors">Contact</Link></li>
             </ul>
-          </div>
+          </nav>
 
           <div>
-            <h4 className="font-bold text-lg mb-6">Contact Us</h4>
+            <h3 className="font-bold text-lg mb-6">Contact Us</h3>
             <ul className="space-y-4 text-slate-400">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-1" />
@@ -66,8 +66,8 @@ export function Footer() {
                 <a href="mailto:drmuratustun@gmail.com" className="hover:text-primary transition-colors">drmuratustun@gmail.com</a>
               </li>
             </ul>
-            <a href="https://wa.me/905324131143" target="_blank" rel="noopener noreferrer">
-              <Button className="w-full mt-6 bg-green-600 hover:bg-green-700">
+            <a href="https://wa.me/905324131143" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
+              <Button className="w-full mt-6 bg-green-600 hover:bg-green-700" aria-label="WhatsApp Us - Opens in new window">
                 WhatsApp Us
               </Button>
             </a>

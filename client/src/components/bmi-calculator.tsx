@@ -70,16 +70,16 @@ export function BMICalculator() {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-50 to-white">
+    <section className="py-20 bg-gradient-to-br from-blue-50 to-white" aria-labelledby="bmi-heading">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-center gap-3 mb-4">
-          <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+          <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center" aria-hidden="true">
             <Calculator className="w-6 h-6 text-white" />
           </div>
           <span className="text-primary font-semibold text-lg">BMI</span>
         </div>
         
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
+        <h2 id="bmi-heading" className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
           {t('home:bmi.title')}
         </h2>
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
@@ -115,59 +115,67 @@ export function BMICalculator() {
 
             <div className="space-y-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="bmi-weight" className="block text-sm font-medium text-gray-700 mb-2">
                   {t('home:bmi.weight')} ({unitSystem === "metric" ? "kg" : "lb"})
                 </label>
                 <Input
+                  id="bmi-weight"
                   type="number"
                   value={weight}
                   onChange={(e) => setWeight(e.target.value)}
                   placeholder={unitSystem === "metric" ? "e.g., 85" : "e.g., 187"}
                   className="w-full"
                   data-testid="input-weight"
+                  aria-label={`Weight in ${unitSystem === "metric" ? "kilograms" : "pounds"}`}
                 />
               </div>
 
               {unitSystem === "metric" ? (
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="bmi-height" className="block text-sm font-medium text-gray-700 mb-2">
                     {t('home:bmi.height')} (cm)
                   </label>
                   <Input
+                    id="bmi-height"
                     type="number"
                     value={height}
                     onChange={(e) => setHeight(e.target.value)}
                     placeholder="e.g., 175"
                     className="w-full"
                     data-testid="input-height"
+                    aria-label="Height in centimeters"
                   />
                 </div>
               ) : (
                 <div className="grid grid-cols-2 gap-3">
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="bmi-height-ft" className="block text-sm font-medium text-gray-700 mb-2">
                       {t('home:bmi.height')} (ft)
                     </label>
                     <Input
+                      id="bmi-height-ft"
                       type="number"
                       value={heightFt}
                       onChange={(e) => setHeightFt(e.target.value)}
                       placeholder="e.g., 5"
                       className="w-full"
                       data-testid="input-height-ft"
+                      aria-label="Height in feet"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="bmi-height-in" className="block text-sm font-medium text-gray-700 mb-2">
                       {t('home:bmi.height')} (in)
                     </label>
                     <Input
+                      id="bmi-height-in"
                       type="number"
                       value={heightIn}
                       onChange={(e) => setHeightIn(e.target.value)}
                       placeholder="e.g., 9"
                       className="w-full"
                       data-testid="input-height-in"
+                      aria-label="Height in inches"
                     />
                   </div>
                 </div>

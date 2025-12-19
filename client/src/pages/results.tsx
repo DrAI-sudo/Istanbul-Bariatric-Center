@@ -67,8 +67,12 @@ export default function Results() {
         keywords="gastric sleeve before after, weight loss surgery results, bariatric surgery testimonials, patient success stories"
         url="/results"
       />
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-primary focus:text-white focus:px-4 focus:py-2 focus:rounded">
+        Skip to main content
+      </a>
       <Navbar />
       
+      <main id="main-content" role="main">
       <section className="bg-slate-900 text-white pt-40 pb-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('results.title')}</h1>
@@ -153,12 +157,17 @@ export default function Results() {
             <p className="text-slate-600 mb-8 max-w-xl mx-auto">
               {t('results.joinThousands')}
             </p>
-            <Button className="bg-primary hover:bg-primary/90 h-12 px-8 text-lg" onClick={() => window.open('https://wa.me/905324131143', '_blank')}>
+            <Button 
+              className="bg-primary hover:bg-primary/90 h-12 px-8 text-lg" 
+              onClick={() => window.open('https://wa.me/905324131143', '_blank')}
+              aria-label="Start your weight loss transformation - contact us on WhatsApp"
+            >
               {t('results.startTransformation')}
             </Button>
           </div>
         </div>
       </section>
+      </main>
 
       <Footer />
     </div>

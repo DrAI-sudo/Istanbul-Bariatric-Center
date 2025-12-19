@@ -49,18 +49,27 @@ export function LanguageSwitcher({ variant = 'dark' }: LanguageSwitcherProps) {
             : "text-slate-700 hover:bg-slate-100"
         )}
         data-testid="button-language-switcher"
+        aria-expanded={isOpen}
+        aria-haspopup="listbox"
+        aria-label={`Select language. Current: ${currentLang.name}`}
       >
-        <Globe className="w-4 h-4" />
-        <span>{currentLang.flag}</span>
+        <Globe className="w-4 h-4" aria-hidden="true" />
+        <span aria-hidden="true">{currentLang.flag}</span>
         <span className="hidden sm:inline">{currentLang.name}</span>
-        <ChevronDown className={cn("w-4 h-4 transition-transform", isOpen && "rotate-180")} />
+        <ChevronDown className={cn("w-4 h-4 transition-transform", isOpen && "rotate-180")} aria-hidden="true" />
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 top-full mt-2 w-48 bg-white rounded-xl shadow-xl border border-slate-100 py-2 z-50 animate-in fade-in slide-in-from-top-2">
+        <div 
+          role="listbox"
+          aria-label="Language options"
+          className="absolute right-0 top-full mt-2 w-48 bg-white rounded-xl shadow-xl border border-slate-100 py-2 z-50 animate-in fade-in slide-in-from-top-2"
+        >
           {languages.map((lang) => (
             <button
               key={lang.code}
+              role="option"
+              aria-selected={i18n.language === lang.code}
               onClick={() => changeLanguage(lang.code)}
               className={cn(
                 "w-full flex items-center gap-3 px-4 py-2.5 text-sm hover:bg-slate-50 transition-colors",
@@ -68,7 +77,7 @@ export function LanguageSwitcher({ variant = 'dark' }: LanguageSwitcherProps) {
               )}
               data-testid={`button-lang-${lang.code}`}
             >
-              <span className="text-lg">{lang.flag}</span>
+              <span className="text-lg" aria-hidden="true">{lang.flag}</span>
               <span>{lang.name}</span>
             </button>
           ))}

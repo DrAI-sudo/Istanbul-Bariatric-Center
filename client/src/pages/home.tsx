@@ -19,14 +19,18 @@ export default function Home() {
       />
       <JsonLd data={structuredData.medicalBusiness} />
       <JsonLd data={structuredData.physician} />
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-primary focus:text-white focus:px-4 focus:py-2 focus:rounded">
+        Skip to main content
+      </a>
       <Navbar />
-      <Hero />
-      <VIPPackage />
-      {/* We keep these as they are likely relevant content blocks, but structured simply */}
-      <Awards />
-      <BMICalculator />
-      <Treatments />
-      <Testimonials />
+      <main id="main-content" role="main">
+        <Hero />
+        <VIPPackage />
+        <Awards />
+        <BMICalculator />
+        <Treatments />
+        <Testimonials />
+      </main>
       <Footer />
     </div>
   );

@@ -5,18 +5,24 @@ export function Hero() {
   const { t } = useTranslation('home');
   
   return (
-    <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden text-center">
+    <section 
+      className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden text-center"
+      aria-label="Hero section"
+    >
       <div className="absolute inset-0 z-0 bg-black/40">
         <video 
           autoPlay 
           loop 
           muted 
-          playsInline 
+          playsInline
+          preload="auto"
+          aria-hidden="true"
           className="w-full h-full object-cover opacity-60"
+          style={{ width: '100%', height: '100%' }}
         >
           <source src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2021/07/ibc-promo-3-1.mp4" type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 bg-black/30" aria-hidden="true" />
       </div>
 
       <div className="container relative z-10 px-4 max-w-4xl mx-auto space-y-8">
@@ -33,6 +39,7 @@ export function Hero() {
             size="lg" 
             className="bg-[#25D366] hover:bg-[#128C7E] text-white font-bold text-lg px-10 py-8 rounded-full shadow-xl transition-transform hover:scale-105"
             onClick={() => window.open('https://wa.me/905324131143', '_blank')}
+            aria-label="Get a free consultation via WhatsApp"
           >
             {t('hero.cta')}
           </Button>

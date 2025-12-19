@@ -34,6 +34,7 @@ export function Navbar() {
 
   return (
     <header
+      role="banner"
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent",
         showSolidNav
@@ -42,17 +43,19 @@ export function Navbar() {
       )}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="flex items-center" aria-label="Istanbul Bariatric Center - Home">
            {showSolidNav && (
              <img 
                src="/logo.jpeg" 
                alt="Istanbul Bariatric Center - Op. Dr Murat Üstün" 
                className="h-16 md:h-20 w-auto transition-all duration-300"
+               width="80"
+               height="64"
              />
            )}
         </Link>
 
-        <nav className="hidden lg:flex items-center gap-6">
+        <nav className="hidden lg:flex items-center gap-6" role="navigation" aria-label="Main navigation">
           {navLinks.map((link) => (
             <Link 
               key={link.href} 
@@ -83,16 +86,19 @@ export function Navbar() {
         <div className="lg:hidden flex items-center gap-2">
           <LanguageSwitcher variant={showSolidNav ? 'dark' : 'light'} />
           <button
-            className={cn("", showSolidNav ? "text-slate-800" : "text-white")}
+            className={cn("p-2", showSolidNav ? "text-slate-800" : "text-white")}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            aria-expanded={isMobileMenuOpen}
+            aria-controls="mobile-menu"
+            aria-label={isMobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
           >
-            {isMobileMenuOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
+            {isMobileMenuOpen ? <X className="w-8 h-8" aria-hidden="true" /> : <Menu className="w-8 h-8" aria-hidden="true" />}
           </button>
         </div>
       </div>
 
       {isMobileMenuOpen && (
-        <div className="lg:hidden absolute top-full left-0 right-0 bg-white shadow-xl border-t border-slate-100 p-6 flex flex-col gap-4 animate-in slide-in-from-top-2">
+        <nav id="mobile-menu" role="navigation" aria-label="Mobile navigation" className="lg:hidden absolute top-full left-0 right-0 bg-white shadow-xl border-t border-slate-100 p-6 flex flex-col gap-4 animate-in slide-in-from-top-2">
           {navLinks.map((link) => (
             <Link 
               key={link.href} 
@@ -109,10 +115,11 @@ export function Navbar() {
           <Button 
             className="w-full bg-primary text-white font-bold uppercase py-6"
             onClick={() => window.open('https://wa.me/905324131143', '_blank')}
+            aria-label="Book consultation via WhatsApp"
           >
             {t('bookNow')}
           </Button>
-        </div>
+        </nav>
       )}
     </header>
   );
