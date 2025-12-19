@@ -109,12 +109,22 @@ const Carousel = React.forwardRef<
         return
       }
 
-      onSelect(api)
-      api.on("reInit", onSelect)
-      api.on("select", onSelect)
+      // Defer layout-triggering operations to avoid forced reflow
+      const rafId = requestAnimationFrame(() => {
+        onSelect(api)
+      })
+      
+      const deferredOnSelect = () => {
+        requestAnimationFrame(() => onSelect(api))
+      }
+      
+      api.on("reInit", deferredOnSelect)
+      api.on("select", deferredOnSelect)
 
       return () => {
-        api?.off("select", onSelect)
+        cancelAnimationFrame(rafId)
+        api?.off("select", deferredOnSelect)
+        api?.off("reInit", deferredOnSelect)
       }
     }, [api, onSelect])
 

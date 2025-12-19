@@ -130,56 +130,53 @@ export function BMICalculator() {
                 />
               </div>
 
-              {unitSystem === "metric" ? (
+              <div className={unitSystem === "metric" ? "block" : "hidden"}>
+                <label htmlFor="bmi-height" className="block text-sm font-medium text-gray-700 mb-2">
+                  {t('home:bmi.height')} (cm)
+                </label>
+                <Input
+                  id="bmi-height"
+                  type="number"
+                  value={height}
+                  onChange={(e) => setHeight(e.target.value)}
+                  placeholder="e.g., 175"
+                  className="w-full"
+                  data-testid="input-height"
+                  aria-label="Height in centimeters"
+                />
+              </div>
+              <div className={unitSystem === "imperial" ? "grid grid-cols-2 gap-3" : "hidden"}>
                 <div>
-                  <label htmlFor="bmi-height" className="block text-sm font-medium text-gray-700 mb-2">
-                    {t('home:bmi.height')} (cm)
+                  <label htmlFor="bmi-height-ft" className="block text-sm font-medium text-gray-700 mb-2">
+                    {t('home:bmi.height')} (ft)
                   </label>
                   <Input
-                    id="bmi-height"
+                    id="bmi-height-ft"
                     type="number"
-                    value={height}
-                    onChange={(e) => setHeight(e.target.value)}
-                    placeholder="e.g., 175"
+                    value={heightFt}
+                    onChange={(e) => setHeightFt(e.target.value)}
+                    placeholder="e.g., 5"
                     className="w-full"
-                    data-testid="input-height"
-                    aria-label="Height in centimeters"
+                    data-testid="input-height-ft"
+                    aria-label="Height in feet"
                   />
                 </div>
-              ) : (
-                <div className="grid grid-cols-2 gap-3">
-                  <div>
-                    <label htmlFor="bmi-height-ft" className="block text-sm font-medium text-gray-700 mb-2">
-                      {t('home:bmi.height')} (ft)
-                    </label>
-                    <Input
-                      id="bmi-height-ft"
-                      type="number"
-                      value={heightFt}
-                      onChange={(e) => setHeightFt(e.target.value)}
-                      placeholder="e.g., 5"
-                      className="w-full"
-                      data-testid="input-height-ft"
-                      aria-label="Height in feet"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="bmi-height-in" className="block text-sm font-medium text-gray-700 mb-2">
-                      {t('home:bmi.height')} (in)
-                    </label>
-                    <Input
-                      id="bmi-height-in"
-                      type="number"
-                      value={heightIn}
-                      onChange={(e) => setHeightIn(e.target.value)}
-                      placeholder="e.g., 9"
-                      className="w-full"
-                      data-testid="input-height-in"
-                      aria-label="Height in inches"
-                    />
-                  </div>
+                <div>
+                  <label htmlFor="bmi-height-in" className="block text-sm font-medium text-gray-700 mb-2">
+                    {t('home:bmi.height')} (in)
+                  </label>
+                  <Input
+                    id="bmi-height-in"
+                    type="number"
+                    value={heightIn}
+                    onChange={(e) => setHeightIn(e.target.value)}
+                    placeholder="e.g., 9"
+                    className="w-full"
+                    data-testid="input-height-in"
+                    aria-label="Height in inches"
+                  />
                 </div>
-              )}
+              </div>
             </div>
 
             <div className="flex gap-3 mt-6">
