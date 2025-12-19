@@ -75,6 +75,9 @@ export function SEO({
     setMeta("og:title", fullTitle, true);
     setMeta("og:description", description, true);
     setMeta("og:image", image, true);
+    setMeta("og:image:width", "1200", true);
+    setMeta("og:image:height", "630", true);
+    setMeta("og:image:alt", title, true);
     setMeta("og:url", fullUrl, true);
     setMeta("og:type", type, true);
     setMeta("og:site_name", SITE_NAME, true);
@@ -241,4 +244,31 @@ export const structuredData = {
       },
     })),
   }),
+
+  createBreadcrumb: (items: { name: string; url: string }[]) => ({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: `https://istanbulbariatriccenter.com${item.url}`,
+    })),
+  }),
+
+  websiteSearch: {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://istanbulbariatriccenter.com/#website",
+    name: "Istanbul Bariatric Center",
+    url: "https://istanbulbariatriccenter.com",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: "https://istanbulbariatriccenter.com/blog?search={search_term_string}",
+      },
+      "query-input": "required name=search_term_string",
+    },
+  },
 };

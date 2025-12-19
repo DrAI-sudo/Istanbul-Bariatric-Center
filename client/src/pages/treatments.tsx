@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle2, Check } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { useTranslation } from "react-i18next";
-import { SEO } from "@/components/seo";
+import { SEO, JsonLd, structuredData } from "@/components/seo";
 
 export default function Treatments() {
   const { t } = useTranslation('treatments');
@@ -95,6 +95,10 @@ export default function Treatments() {
         keywords="bariatric surgery options, gastric sleeve, gastric bypass, gastric balloon, weight loss procedures"
         url="/treatments"
       />
+      <JsonLd data={structuredData.createBreadcrumb([
+        { name: "Home", url: "/" },
+        { name: "Treatments", url: "/treatments" }
+      ])} />
       <Navbar />
       
       <main id="main-content" role="main">

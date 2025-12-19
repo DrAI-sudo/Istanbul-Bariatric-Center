@@ -1,0 +1,24 @@
+{
+  "name": "Istanbul Bariatric Center",
+  "short_name": "IBC",
+  "description": "World-class bariatric surgery in Istanbul, Turkey. Gastric sleeve, bypass, and weight loss procedures with Dr. Murat Ustun.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0047AB",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.jpeg",
+      "sizes": "64x64",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["health", "medical"],
+  "lang": "en"
+}

@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, ChevronLeft, ChevronRight } from "lucide-react";
 import { blogPosts } from "@/data/blog-posts";
 import { useTranslation } from "react-i18next";
-import { SEO } from "@/components/seo";
+import { SEO, JsonLd, structuredData } from "@/components/seo";
 
 const POSTS_PER_PAGE = 6;
 
@@ -78,6 +78,10 @@ export default function Blog() {
         keywords="bariatric surgery blog, weight loss articles, obesity news, gastric sleeve information"
         url="/blog"
       />
+      <JsonLd data={structuredData.createBreadcrumb([
+        { name: "Home", url: "/" },
+        { name: "Blog", url: "/blog" }
+      ])} />
       <Navbar />
       
       <main id="main-content" role="main">
