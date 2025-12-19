@@ -31,11 +31,11 @@ export function Footer() {
           <div>
             <h4 className="font-bold text-lg mb-6">Treatments</h4>
             <ul className="space-y-4 text-slate-400">
-              <li><Link href="/treatments/sleeve-gastrectomy" className="hover:text-primary transition-colors">Gastric Sleeve</Link></li>
-              <li><Link href="/treatments/mini-gastric-bypass" className="hover:text-primary transition-colors">Gastric Bypass</Link></li>
-              <li><Link href="/treatments/gastric-balloon" className="hover:text-primary transition-colors">Gastric Balloon</Link></li>
-              <li><Link href="/treatments/duodenal-switch" className="hover:text-primary transition-colors">Duodenal Switch</Link></li>
-              <li><Link href="/treatments/esg" className="hover:text-primary transition-colors">Endoscopic Sleeve</Link></li>
+              <li><Link href="/sleeve-gastrectomy" className="hover:text-primary transition-colors">Gastric Sleeve</Link></li>
+              <li><Link href="/mini-gastric-bypass" className="hover:text-primary transition-colors">Gastric Bypass</Link></li>
+              <li><Link href="/gastric-balloon" className="hover:text-primary transition-colors">Gastric Balloon</Link></li>
+              <li><Link href="/duodenal-switch" className="hover:text-primary transition-colors">Duodenal Switch</Link></li>
+              <li><Link href="/esg" className="hover:text-primary transition-colors">Endoscopic Sleeve</Link></li>
             </ul>
           </div>
 
