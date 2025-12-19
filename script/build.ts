@@ -56,6 +56,16 @@ async function optimizeCriticalCSS() {
 
   let html = await readFile(indexPath, "utf-8");
   html = await critters.process(html);
+  
+  // Fix: Critters produces blocking stylesheet, convert to async preload
+  // Match Critters output pattern and replace with proper preload
+  html = html.replace(
+    /<link rel="stylesheet" crossorigin href="(\/assets\/[^"]+\.css)"[^>]*>(?:<noscript>.*?<\/noscript>)?/g,
+    (match, href) => {
+      return `<link rel="preload" href="${href}" as="style" crossorigin onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="${href}"></noscript>`;
+    }
+  );
+  
   await writeFile(indexPath, html);
   
   console.log("Critical CSS inlined and stylesheet deferred successfully");
