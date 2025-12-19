@@ -54,12 +54,12 @@ export function VIPPackage() {
           <div className="relative">
              <div className="rounded-xl overflow-hidden shadow-2xl border-4 border-white">
                <img 
-                 src="/attached_assets/IMG_1860_1766158738183.jpeg" 
-                 alt="Istanbul Bariatric Centre - Op. Dr. Murat Ustun - Weight loss transformation" 
+                 src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/03/IMG_0922.jpeg" 
+                 alt="Istanbul Bariatric Center Team - Dr. Murat Ustun and medical staff" 
                  className="w-full h-auto object-cover"
                  loading="lazy"
                  width="400"
-                 height="500"
+                 height="300"
                />
              </div>
           </div>
