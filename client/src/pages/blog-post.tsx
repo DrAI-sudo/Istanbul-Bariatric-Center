@@ -68,6 +68,11 @@ export default function BlogPost() {
         slug: post.slug,
         image: post.image
       })} />
+      <JsonLd data={structuredData.createBreadcrumb([
+        { name: "Home", url: "/" },
+        { name: "Blog", url: "/blog" },
+        { name: postTitle, url: `/blog/${post.slug}` }
+      ])} />
       <Navbar />
       
       <article className="pt-32 pb-20">

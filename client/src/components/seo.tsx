@@ -87,11 +87,15 @@ export function SEO({
     setMeta("twitter:title", fullTitle, true);
     setMeta("twitter:description", description, true);
     setMeta("twitter:image", image, true);
-    setMeta("twitter:site", "@replit", true);
+    setMeta("twitter:image:alt", title, true);
+    setMeta("twitter:site", "@IstanbulBariatr", true);
+    setMeta("twitter:creator", "@DrMuratUstun", true);
 
     if (type === "article" && publishedTime) {
       setMeta("article:published_time", publishedTime, true);
       setMeta("article:author", author, true);
+      setMeta("article:section", "Health", true);
+      setMeta("article:tag", "bariatric surgery", true);
     }
 
     setLink("canonical", fullUrl);
