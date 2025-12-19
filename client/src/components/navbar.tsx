@@ -51,6 +51,7 @@ export function Navbar() {
                className="h-16 md:h-20 w-auto transition-all duration-300"
                width="80"
                height="64"
+               fetchPriority="high"
              />
            ) : (
              <span className="text-white font-heading font-bold text-xl md:text-2xl tracking-tight drop-shadow-md">
