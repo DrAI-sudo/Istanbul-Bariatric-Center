@@ -54,8 +54,8 @@ export function VIPPackage() {
           <div className="relative">
              <div className="rounded-xl overflow-hidden shadow-2xl border-4 border-white">
                <img 
-                 src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/03/IMG_0922.jpeg" 
-                 alt="Istanbul Bariatric Center Team - Dr. Murat Ustun and medical staff" 
+                 src="/attached_assets/IMG_1801_1766158987529.jpeg" 
+                 alt="Istanbul Bariatric Center - Liv Hospital at night" 
                  className="w-full h-auto object-cover"
                  loading="lazy"
                  width="400"
