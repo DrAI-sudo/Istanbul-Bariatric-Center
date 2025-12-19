@@ -2,7 +2,8 @@ import { useParams, Link } from "wouter";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
-import { Calendar, ArrowLeft, User, Clock } from "lucide-react";
+import { Calendar, ArrowLeft, User, Clock, Share2, Mail, Copy, Check } from "lucide-react";
+import { useState } from "react";
 import { getBlogPostBySlug, blogPosts } from "@/data/blog-posts";
 import { useTranslation } from "react-i18next";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
@@ -11,6 +12,31 @@ export default function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
   const { t } = useTranslation('blog');
   const post = getBlogPostBySlug(slug || "");
+  const [copied, setCopied] = useState(false);
+
+  const shareUrl = `https://istanbulbariatriccenter.com/blog/${slug}`;
+
+  const handleCopyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(shareUrl);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.error('Failed to copy:', err);
+    }
+  };
+
+  const shareOnFacebook = () => {
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`, '_blank', 'width=600,height=400');
+  };
+
+  const shareOnTwitter = (title: string) => {
+    window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(title)}`, '_blank', 'width=600,height=400');
+  };
+
+  const shareViaEmail = (title: string, excerpt: string) => {
+    window.location.href = `mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(`${excerpt}\n\nRead more: ${shareUrl}`)}`;
+  };
 
   const getPostTitle = (postSlug: string, fallback: string) => {
     const translated = t(`posts.${postSlug}.title`, { defaultValue: '' });
