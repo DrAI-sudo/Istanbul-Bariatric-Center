@@ -85,6 +85,8 @@ export default function GastricBalloon() {
                 src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/Gastric-Balloon-300x278.png" 
                 alt="Gastric Balloon Illustration" 
                 className="max-w-sm w-full"
+                width="300"
+                height="278"
                 loading="lazy"
               />
             </div>

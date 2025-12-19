@@ -81,6 +81,8 @@ export default function TransitBipartition() {
                 src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2021/12/insuline.jpg" 
                 alt="Insulin and Obesity" 
                 className="rounded-2xl shadow-xl max-w-md w-full"
+                width="400"
+                height="267"
                 loading="lazy"
               />
             </div>

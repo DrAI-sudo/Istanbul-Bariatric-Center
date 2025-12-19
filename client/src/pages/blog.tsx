@@ -111,6 +111,9 @@ export default function Blog() {
                      alt={getPostTitle(post.slug, post.title)}
                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                      loading="lazy"
+                     width="400"
+                     height="225"
+                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                      onError={(e) => {
                        e.currentTarget.src = "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/gastric-sleeve.png";
                      }}

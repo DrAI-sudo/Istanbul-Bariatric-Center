@@ -148,6 +148,8 @@ export default function SleeveGastrectomy() {
                 src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/gastric-sleeve.png" 
                 alt="Gastric Sleeve Surgery Illustration" 
                 className="max-w-md w-full"
+                width="400"
+                height="400"
                 loading="lazy"
               />
             </div>

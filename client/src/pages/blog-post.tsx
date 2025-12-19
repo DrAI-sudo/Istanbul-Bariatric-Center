@@ -114,6 +114,8 @@ export default function BlogPost() {
                 src={post.image} 
                 alt={getPostTitle(post.slug, post.title)}
                 className="w-full h-full object-cover"
+                width="800"
+                height="450"
                 onError={(e) => {
                   e.currentTarget.src = "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/gastric-sleeve.png";
                 }}

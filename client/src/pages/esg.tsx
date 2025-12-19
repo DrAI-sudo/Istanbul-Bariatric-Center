@@ -68,6 +68,8 @@ export default function ESG() {
                 src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2023/03/IMG_4450-1024x941.jpeg" 
                 alt="Apollo Endoscopic Gastroplasty ESG" 
                 className="rounded-2xl shadow-xl max-w-md w-full"
+                width="400"
+                height="368"
                 loading="lazy"
               />
             </div>

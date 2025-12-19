@@ -238,6 +238,8 @@ export default function Contact() {
                 src={hospitalImage} 
                 alt="Liv Vadi Hospital - Istanbul Bariatric Center" 
                 className="w-full h-full object-cover"
+                width="600"
+                height="400"
                 loading="lazy"
               />
             </div>
