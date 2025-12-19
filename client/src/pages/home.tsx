@@ -6,7 +6,6 @@ import { Awards } from "@/components/awards";
 import { Testimonials } from "@/components/testimonials";
 import { Footer } from "@/components/footer";
 import { BMICalculator } from "@/components/bmi-calculator";
-import { Financing } from "@/components/financing";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
 
 export default function Home() {
@@ -29,7 +28,6 @@ export default function Home() {
         <VIPPackage />
         <Awards />
         <BMICalculator />
-        <Financing />
         <Treatments />
         <Testimonials />
       </main>
