@@ -5,13 +5,14 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent } from "@/components/ui/card";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Building2 } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation } from "@tanstack/react-query";
 import { insertContactSubmissionSchema, type InsertContactSubmission } from "@shared/schema";
 import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
+import hospitalImage from "@assets/IMG_1801_1766124176672.jpeg";
 
 export default function Contact() {
   const { t } = useTranslation('pages');
@@ -86,7 +87,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-bold text-slate-900">{t('contact.phoneWhatsapp')}</p>
-                      <p className="text-slate-600">+90 532 413 1143</p>
+                      <a href="tel:+905324131143" className="text-slate-600 hover:text-primary transition-colors">+90 532 413 1143</a>
                       <p className="text-slate-400 text-sm mt-1">{t('contact.available247')}</p>
                     </div>
                   </CardContent>
@@ -99,7 +100,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-bold text-slate-900">{t('contact.email')}</p>
-                      <p className="text-slate-600">info@istanbulbariatriccenter.com</p>
+                      <a href="mailto:drmuratustun@gmail.com" className="text-slate-600 hover:text-primary transition-colors">drmuratustun@gmail.com</a>
                     </div>
                   </CardContent>
                 </Card>
@@ -107,13 +108,14 @@ export default function Contact() {
                 <Card className="border-slate-100 shadow-sm">
                   <CardContent className="p-6 flex items-start gap-4">
                     <div className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center shrink-0">
-                      <MapPin className="w-5 h-5 text-primary" />
+                      <Building2 className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <p className="font-bold text-slate-900">{t('contact.londonOffice')}</p>
+                      <p className="font-bold text-slate-900">Liv Vadi Hospital</p>
                       <p className="text-slate-600">
-                        284 Chase Road, A Block 2nd Floor Suite 104<br />
-                        London N14 6HF
+                        Ayazağa Mahallesi, Kemerburgaz Caddesi<br />
+                        Vadistanbul Park Etabı, 7F Blok<br />
+                        34396 Sarıyer/İstanbul, Türkiye
                       </p>
                     </div>
                   </CardContent>
@@ -204,6 +206,40 @@ export default function Contact() {
                   </form>
                 </CardContent>
               </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-slate-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Our Hospital</h2>
+            <p className="text-slate-600 max-w-2xl mx-auto">
+              Istanbul Bariatric Center is located at Liv Vadi Hospital, one of Turkey's most modern healthcare facilities.
+            </p>
+          </div>
+          
+          <div className="grid lg:grid-cols-2 gap-8">
+            <div className="rounded-2xl overflow-hidden shadow-xl">
+              <img 
+                src={hospitalImage} 
+                alt="Liv Vadi Hospital - Istanbul Bariatric Center" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            
+            <div className="rounded-2xl overflow-hidden shadow-xl h-[400px] lg:h-auto">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.0654799368597!2d29.01234037605461!3d41.10892231317744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab5d7c9e97e01%3A0x8d8e0e8e8e8e8e8e!2sLiv%20Hospital%20Vadistanbul!5e0!3m2!1sen!2str!4v1702000000000!5m2!1sen!2str"
+                width="100%"
+                height="100%"
+                style={{ border: 0, minHeight: "400px" }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Liv Vadi Hospital Location"
+              />
             </div>
           </div>
         </div>
