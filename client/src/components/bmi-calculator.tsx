@@ -270,6 +270,7 @@ export function BMICalculator() {
             src="https://clinics.euromedfin.com/clinic-iframe/34173cb38f07f89ddbebc2ac9128303f?lang=en" 
             frameBorder="0" 
             allowFullScreen
+            loading="lazy"
             title="EuroMedFin Clinic"
           />
         </div>
