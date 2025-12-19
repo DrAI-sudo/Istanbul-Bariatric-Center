@@ -768,7 +768,7 @@ export const blogPosts: BlogPost[] = [
     date: "May 30, 2024",
     category: "Research",
     excerpt: "Each year, over 684,000 Americans are diagnosed with cancers linked to obesity.",
-    image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/05/40644523-D59D-48FE-9E65-EB790333FF79-1024x585.webp",
+    image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2021/12/insuline.jpg",
     content: `<h2>Obesity and Cancer Risk</h2>
 
 <p>Each year, over 684,000 Americans are diagnosed with cancers linked to obesity, according to the Centers for Disease Control and Prevention (CDC). This troubling trend shows an increase in these cancers, especially among younger people, even as cancers not related to excess weight, like lung and skin cancers, are on the decline.</p>
@@ -966,7 +966,7 @@ export const blogPosts: BlogPost[] = [
     date: "May 28, 2024",
     category: "Research",
     excerpt: "How the Human Body Stores Energy, Hormones' Effect on Metabolism.",
-    image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/05/7ACEF17A-A3BA-4F8A-A56F-54C9809133D9.jpeg",
+    image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2021/12/insuline.jpg",
     content: `<h2>How the Human Body Stores Energy (Calories), Hormones' Effect on Metabolism, and the Role of Leptin in Obesity Treatment</h2>
 
 <h3>Introduction</h3>
@@ -1139,7 +1139,7 @@ export const blogPosts: BlogPost[] = [
     date: "May 1, 2024",
     category: "Research",
     excerpt: "Endoscopic Sleeve Gastroplasty: A Long-Term Solution for Weight Loss?",
-    image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/05/IMG_6830-1024x607.jpeg",
+    image: "https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/IMG_8041-768x1024.jpeg",
     content: `<h2>Endoscopic Sleeve Gastroplasty: A Long-Term Solution for Weight Loss?</h2>
 
 <p>Obesity has become a global epidemic, impacting millions and leading to severe health complications. While lifestyle changes and medication can help, many individuals struggle to achieve significant and lasting weight loss. Bariatric surgery offers a more definitive solution, but traditional methods like gastric sleeve surgery can be invasive and carry risks. In recent years, endoscopic sleeve gastroplasty (ESG) has emerged as a less invasive alternative, offering promising results for long-term weight management.</p>
@@ -1289,7 +1289,7 @@ export const blogPosts: BlogPost[] = [
     date: "January 5, 2024",
     category: "Research",
     excerpt: "A comprehensive analysis comparing the safety of metabolic and bariatric surgery.",
-    image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/09/ibc-clinic-29.jpg",
+    image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/gastric-sleeve.png",
     content: `<h2>Bariatric Surgery is as Safe as Other Common Operations</h2>
 
 <p>The article "Bariatric Surgery is as Safe as Other Common Operations" presents a comprehensive analysis that compares the safety of metabolic and bariatric surgery (MBS) with other frequently performed surgical procedures.</p>
@@ -1417,7 +1417,7 @@ export const blogPosts: BlogPost[] = [
     date: "December 8, 2023",
     category: "Research",
     excerpt: "New Study Revealed ESG's Safety and Efficacy in Class III Obesity.",
-    image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2023/03/IMG_4450-1024x941.jpeg",
+    image: "https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/IMG_8041-768x1024.jpeg",
     content: `<h2>New Study Revealed Endoscopic Sleeve Gastroplasty's Safety and Efficacy in Class III Obesity</h2>
 
 <p>In the ever-evolving landscape of weight loss interventions, a groundbreaking study sheds light on the effectiveness of Endoscopic Sleeve Gastroplasty (ESG) as a safe and durable option for individuals grappling with class III obesity (BMI ≥40kg/m2). The research, conducted by a collaborative team of US and Brazilian researchers, presents compelling evidence of the procedure's efficacy, challenging the conventional reliance on surgical approaches for weight loss in this demographic.</p>
@@ -1450,7 +1450,7 @@ export const blogPosts: BlogPost[] = [
     date: "November 16, 2023",
     category: "Treatments",
     excerpt: "Are you struggling with obesity and looking for a less invasive weight loss solution?",
-    image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2023/11/IMG_6067-1024x815.jpeg",
+    image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2023/03/IMG_4450-1024x941.jpeg",
     content: `<h2>POSE Endoscopic Sleeve Gastroplasty in the Treatment of Obesity</h2>
 
 <p>Are you struggling with obesity and looking for a less invasive weight loss solution? The POSE (Primary Obesity Surgery, Endoluminal) endoscopic sleeve gastroplasty might be the answer you've been searching for.</p>
