@@ -256,19 +256,17 @@ export const structuredData = {
     })),
   }),
 
-  websiteSearch: {
+  website: {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": "https://istanbulbariatriccenter.com/#website",
     name: "Istanbul Bariatric Center",
     url: "https://istanbulbariatriccenter.com",
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: "https://istanbulbariatriccenter.com/blog?search={search_term_string}",
-      },
-      "query-input": "required name=search_term_string",
-    },
+    description: "World-class bariatric surgery in Istanbul, Turkey. Gastric sleeve, bypass, and weight loss procedures with Dr. Murat Ustun.",
+    publisher: {
+      "@type": "Organization",
+      name: "Istanbul Bariatric Center",
+      url: "https://istanbulbariatriccenter.com"
+    }
   },
 };
