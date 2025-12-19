@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import { languages } from '@/i18n/config';
-import { ChevronDown, Globe } from 'lucide-react';
+import { languages, changeLanguage } from '@/i18n/config';
+import { ChevronDown, Globe, Loader2 } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 
@@ -11,6 +11,7 @@ interface LanguageSwitcherProps {
 export function LanguageSwitcher({ variant = 'dark' }: LanguageSwitcherProps) {
   const { i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const currentLang = languages.find(l => l.code === i18n.language) || languages[0];
@@ -33,27 +34,45 @@ export function LanguageSwitcher({ variant = 'dark' }: LanguageSwitcherProps) {
     }
   }, [i18n.language]);
 
-  const changeLanguage = (code: string) => {
-    i18n.changeLanguage(code);
-    setIsOpen(false);
+  const handleLanguageChange = async (code: string) => {
+    if (code === i18n.language) {
+      setIsOpen(false);
+      return;
+    }
+    
+    setIsLoading(true);
+    try {
+      await changeLanguage(code);
+    } catch (error) {
+      console.error('Failed to change language:', error);
+    } finally {
+      setIsLoading(false);
+      setIsOpen(false);
+    }
   };
 
   return (
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
+        disabled={isLoading}
         className={cn(
           "flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors",
           variant === 'light' 
             ? "text-white hover:bg-white/10" 
-            : "text-slate-700 hover:bg-slate-100"
+            : "text-slate-700 hover:bg-slate-100",
+          isLoading && "opacity-50 cursor-wait"
         )}
         data-testid="button-language-switcher"
         aria-expanded={isOpen}
         aria-haspopup="listbox"
         aria-label={`Select language. Current: ${currentLang.name}`}
       >
-        <Globe className="w-4 h-4" aria-hidden="true" />
+        {isLoading ? (
+          <Loader2 className="w-4 h-4 animate-spin" aria-hidden="true" />
+        ) : (
+          <Globe className="w-4 h-4" aria-hidden="true" />
+        )}
         <span aria-hidden="true">{currentLang.flag}</span>
         <span className="hidden sm:inline">{currentLang.name}</span>
         <ChevronDown className={cn("w-4 h-4 transition-transform", isOpen && "rotate-180")} aria-hidden="true" />
@@ -70,10 +89,12 @@ export function LanguageSwitcher({ variant = 'dark' }: LanguageSwitcherProps) {
               key={lang.code}
               role="option"
               aria-selected={i18n.language === lang.code}
-              onClick={() => changeLanguage(lang.code)}
+              onClick={() => handleLanguageChange(lang.code)}
+              disabled={isLoading}
               className={cn(
                 "w-full flex items-center gap-3 px-4 py-2.5 text-sm hover:bg-slate-50 transition-colors",
-                i18n.language === lang.code ? "bg-primary/5 text-primary font-medium" : "text-slate-700"
+                i18n.language === lang.code ? "bg-primary/5 text-primary font-medium" : "text-slate-700",
+                isLoading && "opacity-50 cursor-wait"
               )}
               data-testid={`button-lang-${lang.code}`}
             >
