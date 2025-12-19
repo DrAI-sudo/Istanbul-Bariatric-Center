@@ -37,7 +37,7 @@ const treatments = [
     title: "Transit Bipartition",
     desc: "A very reliable alternative of revisional bariatric surgeries in some cases.",
     link: "/transit-bipartition",
-    image: "/transit-bipartition.gif"
+    video: "/transit-bipartition.mp4"
   },
   {
     title: "ESG (Endoscopic Sleeve Gastroplasty)",
@@ -65,7 +65,20 @@ export function Treatments() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {treatments.map((item, i) => (
             <div key={i} className="group bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden relative">
-              {item.image && (
+              {'video' in item && item.video ? (
+                <div className="h-48 overflow-hidden bg-slate-50">
+                  <video 
+                    src={item.video} 
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300"
+                    width="300"
+                    height="192"
+                  />
+                </div>
+              ) : item.image ? (
                 <div className="h-48 overflow-hidden bg-slate-50">
                   <img 
                     src={item.image} 
@@ -76,8 +89,8 @@ export function Treatments() {
                     loading="lazy"
                   />
                 </div>
-              )}
-              {!item.image && (
+              ) : null}
+              {!item.image && !('video' in item) && (
                 <div className="h-48 bg-gradient-to-br from-blue-50 to-slate-100 flex items-center justify-center">
                   <span className="text-6xl opacity-30">🩺</span>
                 </div>
