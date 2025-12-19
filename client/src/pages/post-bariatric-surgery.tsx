@@ -10,32 +10,32 @@ const procedures = [
   {
     title: "Abdominoplasty (Tummy Tuck)",
     desc: "Removes excess skin and fat from the abdomen while tightening abdominal muscles for a flatter, more toned appearance.",
-    image: "/tummy-tuck.png"
+    image: "/tummy-tuck.webp"
   },
   {
     title: "Arm Lift (Brachioplasty)",
     desc: "Removes loose, sagging skin from the upper arms to create a more contoured and toned appearance.",
-    image: "/arm-lift.png"
+    image: "/arm-lift.webp"
   },
   {
     title: "Thigh Lift",
     desc: "Reshapes the thighs by reducing excess skin and fat, resulting in smoother skin and better-proportioned contours.",
-    image: "/thigh-lift.png"
+    image: "/thigh-lift.webp"
   },
   {
     title: "Body Lift (Belt Lipectomy)",
     desc: "A comprehensive procedure that addresses the abdomen, buttocks, and thighs in one surgery for dramatic body contouring.",
-    image: "/body-lift.png"
+    image: "/body-lift.webp"
   },
   {
     title: "Breast Lift/Reduction",
     desc: "Restores breast shape and position after significant weight loss, with options for reduction or augmentation.",
-    image: "/breast-lift.png"
+    image: "/breast-lift.webp"
   },
   {
     title: "Face and Neck Lift",
     desc: "Addresses sagging facial skin and neck bands that can occur after significant weight loss.",
-    image: "/face-neck-lift.png"
+    image: "/face-neck-lift.webp"
   }
 ];
 
@@ -114,7 +114,7 @@ export default function PostBariatricSurgery() {
             </div>
             <div className="bg-slate-50 rounded-2xl p-8 border border-slate-100">
               <img 
-                src="/post-bariatric-surgery.png" 
+                src="/post-bariatric-surgery.webp" 
                 alt="Post-bariatric body contouring illustration showing abdominoplasty procedure"
                 className="w-full rounded-lg shadow-md"
                 loading="lazy"

@@ -31,7 +31,7 @@ const treatments = [
     title: "Post-Bariatric Surgery",
     desc: "Aesthetic surgeries for body contouring after significant weight loss.",
     link: "/post-bariatric-surgery",
-    image: "/post-bariatric-surgery.png"
+    image: "/post-bariatric-surgery.webp"
   },
   {
     title: "Transit Bipartition",

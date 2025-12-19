@@ -54,7 +54,7 @@ export function VIPPackage() {
           <div className="relative">
              <div className="rounded-xl overflow-hidden shadow-2xl border-4 border-white">
                <img 
-                 src="/IMG_1801_1766158987529.jpeg" 
+                 src="/IMG_1801_1766158987529.webp" 
                  alt="Istanbul Bariatric Center - Liv Hospital at night" 
                  className="w-full h-auto object-cover"
                  loading="lazy"
