@@ -1,6 +1,9 @@
 import { build as esbuild } from "esbuild";
 import { build as viteBuild } from "vite";
-import { rm, readFile } from "fs/promises";
+import { rm, readFile, writeFile } from "fs/promises";
+import { existsSync } from "fs";
+import path from "path";
+import Critters from "critters";
 
 // server deps to bundle to reduce openat(2) syscalls
 // which helps cold start times
@@ -32,11 +35,39 @@ const allowlist = [
   "zod-validation-error",
 ];
 
+async function optimizeCriticalCSS() {
+  const indexPath = path.resolve("dist/public/index.html");
+  
+  if (!existsSync(indexPath)) {
+    console.log("No index.html found, skipping critical CSS optimization");
+    return;
+  }
+
+  console.log("Optimizing critical CSS with Critters...");
+  
+  const critters = new Critters({
+    path: "dist/public",
+    preload: "swap",
+    inlineFonts: false,
+    pruneSource: false,
+    reduceInlineStyles: true,
+    mergeStylesheets: true,
+  });
+
+  let html = await readFile(indexPath, "utf-8");
+  html = await critters.process(html);
+  await writeFile(indexPath, html);
+  
+  console.log("Critical CSS inlined and stylesheet deferred successfully");
+}
+
 async function buildAll() {
   await rm("dist", { recursive: true, force: true });
 
   console.log("building client...");
   await viteBuild();
+  
+  await optimizeCriticalCSS();
 
   console.log("building server...");
   const pkg = JSON.parse(await readFile("package.json", "utf-8"));
