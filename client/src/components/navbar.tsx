@@ -43,8 +43,8 @@ export function Navbar() {
       )}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <Link href="/" className="flex items-center" aria-label="Istanbul Bariatric Center - Home">
-           {showSolidNav && (
+        <Link href="/" className="flex items-center gap-2" aria-label="Istanbul Bariatric Center - Home">
+           {showSolidNav ? (
              <img 
                src="/logo.jpeg" 
                alt="Istanbul Bariatric Center - Op. Dr Murat Üstün" 
@@ -52,6 +52,10 @@ export function Navbar() {
                width="80"
                height="64"
              />
+           ) : (
+             <span className="text-white font-heading font-bold text-xl md:text-2xl tracking-tight drop-shadow-md">
+               Istanbul Bariatric Center
+             </span>
            )}
         </Link>
 
@@ -78,6 +82,7 @@ export function Navbar() {
               showSolidNav ? "bg-primary text-white" : "bg-white text-primary hover:bg-white/90"
             )}
             onClick={() => window.open('https://wa.me/905324131143', '_blank')}
+            aria-label="Book a free consultation via WhatsApp"
           >
             {t('bookNow')}
           </Button>
