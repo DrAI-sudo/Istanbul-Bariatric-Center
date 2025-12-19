@@ -16,6 +16,11 @@ export default function BlogPost() {
     return translated || fallback;
   };
 
+  const getPostContent = (postSlug: string, fallback: string) => {
+    const translated = t(`posts.${postSlug}.content`, { defaultValue: '' });
+    return translated || fallback;
+  };
+
   if (!post) {
     return (
       <div className="min-h-screen bg-white">
@@ -97,7 +102,7 @@ export default function BlogPost() {
 
             <div 
               className="blog-content prose prose-lg max-w-none"
-              dangerouslySetInnerHTML={{ __html: post.content }}
+              dangerouslySetInnerHTML={{ __html: getPostContent(post.slug, post.content) }}
             />
 
             <div className="border-t border-slate-200 mt-12 pt-8">
