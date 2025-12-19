@@ -7,6 +7,7 @@ import { Testimonials } from "@/components/testimonials";
 import { Footer } from "@/components/footer";
 import { BMICalculator } from "@/components/bmi-calculator";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
+import { LazySection } from "@/components/lazy-section";
 
 export default function Home() {
   return (
@@ -27,9 +28,15 @@ export default function Home() {
         <Hero />
         <VIPPackage />
         <Awards />
-        <BMICalculator />
-        <Treatments />
-        <Testimonials />
+        <LazySection>
+          <BMICalculator />
+        </LazySection>
+        <LazySection>
+          <Treatments />
+        </LazySection>
+        <LazySection>
+          <Testimonials />
+        </LazySection>
       </main>
       <Footer />
     </div>
