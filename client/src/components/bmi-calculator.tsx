@@ -259,6 +259,18 @@ export function BMICalculator() {
             </div>
           </div>
         </div>
+
+        <div className="mt-16">
+          <iframe 
+            width="100%" 
+            height="100%" 
+            src="https://clinics.euromedfin.com/clinic-iframe/34173cb38f07f89ddbebc2ac9128303f?lang=en" 
+            frameBorder="0" 
+            allowFullScreen
+            style={{ minHeight: '600px' }}
+            title="EuroMedFin Clinic"
+          />
+        </div>
       </div>
     </section>
   );
