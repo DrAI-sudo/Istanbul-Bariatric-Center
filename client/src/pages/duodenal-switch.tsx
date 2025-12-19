@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { SEO, JsonLd, structuredData } from "@/components/seo";
 
 const faqs = [
   {
@@ -61,6 +62,13 @@ export default function DuodenalSwitch() {
   
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Duodenal Switch Surgery in Turkey"
+        description="Duodenal Switch surgery in Istanbul. Most effective weight loss surgery with 40-60% weight loss. Best for high BMI patients. Expert surgical team."
+        keywords="duodenal switch turkey, sadi-s surgery, biliopancreatic diversion, weight loss surgery istanbul"
+        url="/duodenal-switch"
+      />
+      <JsonLd data={structuredData.createFAQ(faqs)} />
       <Navbar />
       
       {/* Hero Header */}

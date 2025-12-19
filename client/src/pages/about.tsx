@@ -102,6 +102,7 @@ export default function About() {
                     src={doctor.image} 
                     alt={doctor.name} 
                     className="w-full h-full object-cover transition-transform hover:scale-105 duration-500"
+                    loading="lazy"
                   />
                 </div>
                 <CardContent className="p-6">

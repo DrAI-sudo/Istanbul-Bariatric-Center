@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { SEO } from "@/components/seo";
 
 const balloonTypes = [
   {
@@ -46,6 +47,12 @@ export default function GastricBalloon() {
   
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Gastric Balloon in Turkey - Non-Surgical Weight Loss"
+        description="Gastric Balloon procedure in Istanbul. Non-surgical weight loss with Elipse, Allergan, or Spatz balloons. Minimal recovery, effective results."
+        keywords="gastric balloon turkey, elipse balloon istanbul, weight loss balloon, non-surgical weight loss"
+        url="/gastric-balloon"
+      />
       <Navbar />
       
       {/* Hero Header */}
@@ -78,6 +85,7 @@ export default function GastricBalloon() {
                 src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/Gastric-Balloon-300x278.png" 
                 alt="Gastric Balloon Illustration" 
                 className="max-w-sm w-full"
+                loading="lazy"
               />
             </div>
           </div>

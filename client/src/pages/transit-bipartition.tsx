@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, AlertCircle } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { SEO } from "@/components/seo";
 
 const eligibilityCriteria = [
   "Individuals that have a Body Mass Index of 35 and above",
@@ -41,6 +42,12 @@ export default function TransitBipartition() {
   
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Transit Bipartition Surgery in Turkey"
+        description="Transit Bipartition surgery in Istanbul. Revolutionary diabetes and weight loss surgery with 86% diabetes remission rate. Expert metabolic surgeons."
+        keywords="transit bipartition turkey, diabetes surgery istanbul, metabolic surgery, weight loss surgery"
+        url="/transit-bipartition"
+      />
       <Navbar />
       
       {/* Hero Header */}
@@ -74,6 +81,7 @@ export default function TransitBipartition() {
                 src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2021/12/insuline.jpg" 
                 alt="Insulin and Obesity" 
                 className="rounded-2xl shadow-xl max-w-md w-full"
+                loading="lazy"
               />
             </div>
           </div>

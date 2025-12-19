@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://istanbulbariatriccenter.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://istanbulbariatriccenter.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Treatments -->
+  <url>
+    <loc>https://istanbulbariatriccenter.com/treatments</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Gastric Sleeve -->
+  <url>
+    <loc>https://istanbulbariatriccenter.com/sleeve-gastrectomy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Mini Gastric Bypass -->
+  <url>
+    <loc>https://istanbulbariatriccenter.com/mini-gastric-bypass</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Gastric Balloon -->
+  <url>
+    <loc>https://istanbulbariatriccenter.com/gastric-balloon</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Duodenal Switch -->
+  <url>
+    <loc>https://istanbulbariatriccenter.com/duodenal-switch</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ESG -->
+  <url>
+    <loc>https://istanbulbariatriccenter.com/esg</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Transit Bipartition -->
+  <url>
+    <loc>https://istanbulbariatriccenter.com/transit-bipartition</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Post Bariatric Surgery -->
+  <url>
+    <loc>https://istanbulbariatriccenter.com/post-bariatric-surgery</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Results -->
+  <url>
+    <loc>https://istanbulbariatriccenter.com/results</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://istanbulbariatriccenter.com/blog</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://istanbulbariatriccenter.com/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>

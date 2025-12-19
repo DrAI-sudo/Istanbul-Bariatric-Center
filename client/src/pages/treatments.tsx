@@ -160,6 +160,7 @@ export default function Treatments() {
                           src={treatment.ifsoImage} 
                           alt={`IFSO Atlas illustration of ${treatment.title}`}
                           className="w-full max-h-[450px] object-contain rounded-lg shadow-md mb-4"
+                          loading="lazy"
                           data-testid={`img-ifso-${treatment.title.toLowerCase().replace(/\s+/g, '-')}`}
                         />
                         <p className="text-xs text-slate-500 mt-4 italic">

@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/componen
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Check, ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { SEO, JsonLd, structuredData } from "@/components/seo";
 
 const packages = [
   {
@@ -101,6 +102,13 @@ export default function SleeveGastrectomy() {
   
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Gastric Sleeve Surgery in Turkey - From £2,250"
+        description="Gastric Sleeve (VSG) surgery in Istanbul, Turkey. 75-80% stomach reduction, rapid weight loss. All-inclusive packages from £2,250. JCI accredited hospital."
+        keywords="gastric sleeve turkey, sleeve gastrectomy istanbul, vsg surgery turkey, weight loss surgery cost"
+        url="/sleeve-gastrectomy"
+      />
+      <JsonLd data={structuredData.createFAQ(faqs)} />
       <Navbar />
       
       {/* Hero Header */}
@@ -140,6 +148,7 @@ export default function SleeveGastrectomy() {
                 src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/gastric-sleeve.png" 
                 alt="Gastric Sleeve Surgery Illustration" 
                 className="max-w-md w-full"
+                loading="lazy"
               />
             </div>
           </div>

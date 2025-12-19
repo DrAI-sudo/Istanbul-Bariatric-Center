@@ -112,20 +112,24 @@ interface JsonLdProps {
 
 export function JsonLd({ data }: JsonLdProps) {
   useEffect(() => {
+    const dataStr = JSON.stringify(data);
+    const schemaType = (data as { "@type"?: string })["@type"] || "unknown";
+    const scriptId = `jsonld-${schemaType}-${dataStr.length}`;
+    
     const script = document.createElement("script");
     script.type = "application/ld+json";
-    script.text = JSON.stringify(data);
-    script.id = `jsonld-${JSON.stringify(data).slice(0, 20).replace(/\W/g, "")}`;
+    script.textContent = dataStr;
+    script.id = scriptId;
     
-    const existingScript = document.getElementById(script.id);
+    const existingScript = document.getElementById(scriptId) as HTMLScriptElement | null;
     if (existingScript) {
-      existingScript.text = script.text;
+      existingScript.textContent = dataStr;
     } else {
       document.head.appendChild(script);
     }
 
     return () => {
-      const scriptToRemove = document.getElementById(script.id);
+      const scriptToRemove = document.getElementById(scriptId);
       if (scriptToRemove) {
         scriptToRemove.remove();
       }

@@ -24,7 +24,7 @@ export const blogPosts: BlogPost[] = [
 <h3>What is GFMA and How Does It Work?</h3>
 <p>GFMA is an endoscopic procedure that burns the inner lining of the stomach's fundus (the upper pouch of the stomach) in a controlled manner. This might sound intense, but it's done from inside the stomach using a flexible endoscope and specialized tools – no external cuts required. The fundus is a key player in appetite: its mucosa produces about 80–90% of the body's ghrelin, the so-called "hunger hormone," and the fundus also expands to accommodate food and signal fullness. By ablating (destroying) the fundal mucosa, GFMA directly targets hunger at its source.</p>
 
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/05/IMG_8589-1-1024x995.jpeg" alt="GFMA Illustration" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/05/IMG_8589-1-1024x995.jpeg" alt="GFMA Illustration" class="w-full rounded-lg my-6" />
 
 <p>The mechanism here is similar to what happens in a surgical sleeve gastrectomy (VSG), where the fundus is removed entirely. In both cases, ghrelin levels drop and the stomach's capacity is reduced, leading to decreased appetite and earlier satiety. Importantly, GFMA achieves this without removing any organs – it simply remodels the existing stomach lining.</p>
 
@@ -67,28 +67,28 @@ export const blogPosts: BlogPost[] = [
 
 <p>In science and medicine, the most dramatic explanations often grab headlines – but they can sometimes be wrong. Two classic examples are the mid-20th-century diet-heart hypothesis and early psychoanalytic theory. In the 1950s–60s, researchers convinced the world that saturated fat was the villain behind heart disease, leading governments and food makers to push low-fat diets. Meanwhile, Sigmund Freud's psychoanalysis – with its emphasis on childhood trauma and unconscious drives – dominated psychology, sidelining Alfred Adler's more future-oriented ideas.</p>
 
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/IMG_1147.jpeg" alt="Health Myths" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/IMG_1147.jpeg" alt="Health Myths" class="w-full rounded-lg my-6" />
 
 <h3>The Fat Fallacy: Keys, Low-Fat Diets, and the Obesity Surge</h3>
 <p>In the post-war era, heart disease was skyrocketing. A 1951 survey called body fat "America's 'primary public health problem'." In 1952 President Eisenhower's heart attack made heart disease a national crisis. Nutritionists scrambled to explain why. In 1958 Ancel Keys launched his famous Seven Countries Study and emerged as the loudest voice blaming saturated fat.</p>
 
 <p>Keys famously concluded that "fat was to blame" for heart disease and that only a low-fat diet would reverse the trend. By the 1960s–70s, the idea "fat = bad" had won the day: public health guidelines and doctors told everyone to slash butter, eggs and meat fat out of their diets. The food industry rushed to replace fat with cheap carbs; low-fat products were sweetened heavily with sugar to taste good.</p>
 
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/IMG_1149-913x1024.jpeg" alt="Obesity Crisis" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/IMG_1149-913x1024.jpeg" alt="Obesity Crisis" class="w-full rounded-lg my-6" />
 
 <p>Over the same decades, obesity and related diseases exploded. US obesity rates more than tripled since the 1960s. By 2016 some 650 million adults (≈13% of the world's population) were obese. In the US today roughly 42% of adults are obese, up from ~13% in the early 1960s.</p>
 
 <h3>Modern Evidence</h3>
 <p>A 2023 review notes that clinical trials "could never establish a causal link" between saturated fat and heart attacks, and in fact concluded that saturated fats have "no effect on cardiovascular disease" or mortality. In other words, decades of guidelines capping fat intake are being re-evaluated.</p>
 
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/IMG_1146.jpeg" alt="Freud Adler Conflict" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/IMG_1146.jpeg" alt="Freud Adler Conflict" class="w-full rounded-lg my-6" />
 
 <h3>Freud's Empire and the Overlooked Adlerian Way</h3>
 <p>At roughly the same time diet fads were taking hold, psychology was under the sway of another grand narrative. Sigmund Freud founded psychoanalysis and became one of the century's most famous thinkers. His revolutionary idea was that unconscious drives and childhood experiences – especially repressed sexual and aggressive impulses – shape all behavior.</p>
 
 <p>But Freud was not alone. Alfred Adler co-founded the Vienna Psychoanalytic Society with Freud, but in 1911 he broke away to form "Individual Psychology." Adler rejected Freud's emphasis on sexual drives and inner conflict. Instead, he saw people as primarily goal-directed and motivated to achieve significance and social connection.</p>
 
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/IMG_1141.jpeg" alt="Healthy Diet" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/IMG_1141.jpeg" alt="Healthy Diet" class="w-full rounded-lg my-6" />
 
 <h3>Lessons Learned: The Peril of Single-Cause Thinking</h3>
 <p>These two historical episodes share a common pattern. In each case, early scientists gravitated toward a simple, dramatic cause for complex problems, and it caught on in the public imagination. By focusing on one flashy factor, both fields overlooked other critical pieces of the puzzle.</p>
@@ -109,7 +109,7 @@ export const blogPosts: BlogPost[] = [
 <h3>Understanding the MiniMIZER Ring</h3>
 <p>The MiniMIZER® Ring is a non-adjustable, medical-grade silicone device designed to encircle the upper portion of the stomach pouch created during bariatric procedures. Its primary function is to provide a consistent restriction, thereby enhancing satiety and preventing the dilation of the gastric pouch over time.</p>
 
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/IMG_1129-1024x681.jpeg" alt="MiniMIZER Ring" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/IMG_1129-1024x681.jpeg" alt="MiniMIZER Ring" class="w-full rounded-lg my-6" />
 
 <h3>Application in Primary Bariatric Surgery</h3>
 <p>In primary bariatric surgeries, particularly the Roux-en-Y gastric bypass (RYGB) and sleeve gastrectomy, the MiniMIZER® Ring serves to augment the restrictive component of the procedure.</p>
@@ -165,27 +165,27 @@ export const blogPosts: BlogPost[] = [
 <p>Understanding why your cholesterol levels are elevated is key, says Dr Ali Khavandi, an interventional cardiologist based in Bath. "If your high cholesterol is largely genetic, diet won't have much of an impact, and medications like statins are usually necessary. But for the average person who is otherwise healthy, cutting out cholesterol-rich foods may not make a major difference."</p>
 
 <h3>1. Cheese</h3>
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/59C379D9-9DDE-49BD-8556-76C8754C5F50.jpeg" alt="Cheese and Cholesterol" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/59C379D9-9DDE-49BD-8556-76C8754C5F50.jpeg" alt="Cheese and Cholesterol" class="w-full rounded-lg my-6" />
 <p>"Cheese has a bad reputation," says Dr Khavandi. "Patients often say, 'I have high cholesterol, so I've cut out cheese,' but the evidence tells a different story."</p>
 <p>Long-fermented cheeses, like aged cheddar, contain beneficial nutrients and probiotics. While high in cholesterol, they're also rich in vitamins A, K, B12, and minerals such as calcium, magnesium, and phosphorus.</p>
 
 <h3>2. Eggs</h3>
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/4561D9A3-9D7B-4991-83A0-8DBA88AA276B.jpeg" alt="Eggs and Cholesterol" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/4561D9A3-9D7B-4991-83A0-8DBA88AA276B.jpeg" alt="Eggs and Cholesterol" class="w-full rounded-lg my-6" />
 <p>Eggs have long been blamed for raising cholesterol, but new findings show otherwise. A Harvard review concluded there was no increase in heart disease risk among people eating up to one egg a day.</p>
 <p>Eggs also contain heart-healthy nutrients like selenium and omega-3 fatty acids.</p>
 
 <h3>3. Red Meat</h3>
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/23A7705D-4F6F-4BC8-B916-7CFEC0BE851C.jpeg" alt="Red Meat and Cholesterol" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/23A7705D-4F6F-4BC8-B916-7CFEC0BE851C.jpeg" alt="Red Meat and Cholesterol" class="w-full rounded-lg my-6" />
 <p>Red meat is high in saturated fat, which has traditionally been linked to increased LDL ('bad') cholesterol. But Dr Khavandi believes this view is outdated.</p>
 <p>"The idea that LDL cholesterol directly causes heart disease in a linear way is no longer accurate. For metabolically unhealthy individuals, shifting from a high-sugar, high-carb diet to a whole-food diet that includes minimally processed, satiating foods like steak can have a positive effect."</p>
 
 <h3>4. Shellfish</h3>
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/329CF684-4A6F-4E29-8AE9-A0653B9E386C.jpeg" alt="Shellfish and Cholesterol" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/329CF684-4A6F-4E29-8AE9-A0653B9E386C.jpeg" alt="Shellfish and Cholesterol" class="w-full rounded-lg my-6" />
 <p>Shellfish used to be on the "avoid" list due to their cholesterol content. But they are low in total fat and contain heart-friendly omega-3 fatty acids.</p>
 <p>The American Heart Association now includes shellfish in its recommended heart-healthy diet.</p>
 
 <h3>5. Liver</h3>
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/B557A1BB-78F3-4F3A-990C-C96A6F048EBB.jpeg" alt="Liver and Cholesterol" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/B557A1BB-78F3-4F3A-990C-C96A6F048EBB.jpeg" alt="Liver and Cholesterol" class="w-full rounded-lg my-6" />
 <p>Though not a favorite for many, liver is incredibly nutrient-dense. It offers high-quality protein, essential vitamins (like A, B12, D, E, and K), and minerals such as iron and copper.</p>
 
 <h2>Three Foods to Avoid If You Have High Cholesterol</h2>
@@ -194,11 +194,11 @@ export const blogPosts: BlogPost[] = [
 <p>Excess sugar—especially added sugars in processed foods—contributes heavily to metabolic issues such as insulin resistance and abdominal fat. These are closely tied to increased LDL cholesterol and reduced HDL ('good') cholesterol.</p>
 
 <h3>2. Ultra-Processed Foods (UPFs)</h3>
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/C86C2DAA-754D-4971-B100-7C3ADB7500A3.jpeg" alt="Ultra-Processed Foods" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/C86C2DAA-754D-4971-B100-7C3ADB7500A3.jpeg" alt="Ultra-Processed Foods" class="w-full rounded-lg my-6" />
 <p>"Products labeled 'light' or 'low-fat' tend to be loaded with additives, sugars, and emulsifiers," says Dr Khavandi. "Take low-fat mayonnaise: it usually contains barely any egg or oil."</p>
 
 <h3>3. Alcohol</h3>
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/1E03FE84-8D80-449F-9BE0-1C255F8F04BB.jpeg" alt="Alcohol and Cholesterol" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/1E03FE84-8D80-449F-9BE0-1C255F8F04BB.jpeg" alt="Alcohol and Cholesterol" class="w-full rounded-lg my-6" />
 <p>While not technically a food, alcohol can significantly raise blood lipid levels. Even moderate drinking can interfere with fat metabolism, contributing to central obesity, high blood pressure, and elevated cholesterol.</p>
 
 <h2>Other Proven Ways to Lower Your Cholesterol</h2>
@@ -208,7 +208,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Manage stress:</strong> A large study from Spain found that workplace stress correlates with high LDL and low HDL cholesterol.</li>
 </ul>
 
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/IMG_7613.png" alt="Healthy Lifestyle" class="w-full rounded-lg my-6" />`
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/IMG_7613.png" alt="Healthy Lifestyle" class="w-full rounded-lg my-6" />`
   },
   {
     slug: "weight-loss-treatments-a-holistic-comparison",
@@ -224,7 +224,7 @@ export const blogPosts: BlogPost[] = [
 <h3>The Obesity Crisis: Beyond Willpower</h3>
 <p>Understanding obesity requires looking beyond willpower. Genetics, environment, and other factors play crucial roles in shaping our weight. Acknowledging this complexity is vital. Obesity is a chronic condition needing comprehensive management strategies.</p>
 
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/IMG_0728.png" alt="Weight Loss Comparison" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/IMG_0728.png" alt="Weight Loss Comparison" class="w-full rounded-lg my-6" />
 
 <h2>Medication: GLP-1 Agonists and Beyond</h2>
 
@@ -236,12 +236,12 @@ export const blogPosts: BlogPost[] = [
 </ul>
 <p>These medications work by mimicking a hormone that reduces hunger. Side effects can include nausea and digestive issues, with effectiveness often leading to 10% or more weight loss for many users.</p>
 
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/IMG_0731.png" alt="GLP-1 Medications" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/IMG_0731.png" alt="GLP-1 Medications" class="w-full rounded-lg my-6" />
 
 <h3>Cost, Insurance Coverage, and Long-Term Data</h3>
 <p>Insurance coverage for GLP-1 medications is still scarce. Often, they can exceed $1,000 monthly without coverage. This expense can create a barrier to access for many individuals.</p>
 
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/IMG_0729.png" alt="Other Weight Loss Medications" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/IMG_0729.png" alt="Other Weight Loss Medications" class="w-full rounded-lg my-6" />
 
 <h2>Bariatric Surgery: Effective, Yet Invasive</h2>
 
@@ -265,7 +265,7 @@ export const blogPosts: BlogPost[] = [
 <p>A gastric balloon fills space in the stomach, leading to early satiety. It can stay inflated for six to eight months. Weight loss expectations are around 15%, with costs typically between $5,000 and $8,000.</p>
 
 <h3>Endoscopic Sleeve Gastroplasty (ESG)</h3>
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/IMG_8041-768x1024.jpeg" alt="ESG Procedure" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/IMG_8041-768x1024.jpeg" alt="ESG Procedure" class="w-full rounded-lg my-6" />
 <p>This procedure reduces stomach size without surgical intervention:</p>
 <ul>
 <li>Average weight loss is around 20%, with a very low risk of complications.</li>
@@ -273,7 +273,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <h3>Fundus Ablation: Targeting the Hunger Hormone</h3>
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/IMG_6417.jpeg" alt="Fundus Ablation" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/IMG_6417.jpeg" alt="Fundus Ablation" class="w-full rounded-lg my-6" />
 <p>A newer option, fundus ablation, targets hunger directly by modifying the stomach's hormone-producing areas. Weight loss potential remains similar to medications. This procedure is still investigational.</p>
 
 <h3>ESG Max: Combining ESG and Fundus Ablation</h3>
@@ -304,7 +304,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Slower Gastric Emptying:</strong> Food stays in the stomach for a longer period, prolonging the sensation of fullness.</li>
 </ol>
 
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/IMG_0619-1024x1024.jpeg" alt="Gastric Fundus Ablation" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/IMG_0619-1024x1024.jpeg" alt="Gastric Fundus Ablation" class="w-full rounded-lg my-6" />
 
 <h3>Benefits of Gastric Fundus Ablation</h3>
 <ul>
@@ -351,7 +351,7 @@ export const blogPosts: BlogPost[] = [
 <li>Favorable safety profile with minimal adverse effects.</li>
 </ul>
 
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/PHOTO-2023-10-13-09-50-42-576x1024.jpeg" alt="Dr Murat Ustun" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/PHOTO-2023-10-13-09-50-42-576x1024.jpeg" alt="Dr Murat Ustun" class="w-full rounded-lg my-6" />
 
 <h3>About Dr Murat Ustun</h3>
 <p>Dr. Murat Ustun, a world-renowned Turkish/British bariatric surgeon, has long been at the forefront of innovative weight loss solutions. Known for his pioneering work in minimally invasive procedures, Dr. Ustun has made significant contributions to the field of bariatric surgery.</p>
@@ -369,7 +369,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Weight loss injections, particularly <strong>glucagon-like peptide 1 (GLP-1) analogs</strong> such as semaglutide and tirzepatide, are revolutionizing the treatment of obesity. Known as "incretin mimetics," these medications have garnered attention for their remarkable effectiveness in facilitating weight loss. As their popularity grows, a critical question arises: <strong>Could these medications replace obesity surgery altogether?</strong></p>
 
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/11/IMG_0508.png" alt="Weight Loss Injections" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/11/IMG_0508.png" alt="Weight Loss Injections" class="w-full rounded-lg my-6" />
 
 <h3>The Promise of GLP-1 Analogs: A New Era in Obesity Treatment</h3>
 <p>GLP-1 analogs are hormone-based medications that mimic incretins, which play a role in appetite regulation and blood sugar control. Drugs like semaglutide and tirzepatide have shown potential for significant weight loss in clinical trials, with some patients achieving up to a 23% reduction in body weight.</p>
@@ -418,7 +418,7 @@ export const blogPosts: BlogPost[] = [
 <h3>The Rise of the Body Roundness Index</h3>
 <p>The Body Roundness Index, first proposed in 2013, is being touted as a more sophisticated alternative to the traditional BMI. Unlike BMI, which relies solely on height and weight, BRI incorporates additional anthropometric measurements, including waist circumference and sometimes hip circumference. This added complexity allows for a more comprehensive assessment of body shape and fat distribution, factors that are crucial in determining health risks.</p>
 
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/11/IMG_0490.png" alt="Body Roundness Index" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/11/IMG_0490.png" alt="Body Roundness Index" class="w-full rounded-lg my-6" />
 
 <h3>Recent Research Highlights BRI's Potential</h3>
 <p>A groundbreaking study published in JAMA Network Open has brought the Body Roundness Index into the spotlight. This large-scale retrospective study, involving nearly 33,000 US adults, provides compelling evidence for the effectiveness of BRI as a health risk indicator.</p>
@@ -547,7 +547,7 @@ export const blogPosts: BlogPost[] = [
 <h3>Understanding the Invasiveness of Each Procedure</h3>
 <p>Bariatric surgery, such as gastric bypass or sleeve gastrectomy, involves significant surgical intervention. It requires incisions and the physical alteration of the digestive system. On the other hand, ESG is a minimally invasive procedure performed using an endoscope, which is inserted through the mouth to reshape the stomach.</p>
 
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/IMG_8041-768x1024.jpeg" alt="Endoscopic Sleeve Gastroplasty" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/12/IMG_8041-768x1024.jpeg" alt="Endoscopic Sleeve Gastroplasty" class="w-full rounded-lg my-6" />
 
 <h3>Recovery Times and Lifestyle Adjustments</h3>
 <p>Recovery from bariatric surgery can take several weeks, with patients needing to adjust to significant dietary changes. In contrast, ESG typically offers a quicker recovery, often within a few days, with less discomfort and fewer dietary restrictions.</p>
@@ -560,7 +560,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><em>"After my gastric bypass, I lost over 100 pounds and my type 2 diabetes is now under control."</em> - John, 45-year-old patient</p>
 
-<img src="https://images.pexels.com/photos/19260181/pexels-photo-19260181.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Weight Loss Surgery" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://images.pexels.com/photos/19260181/pexels-photo-19260181.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Weight Loss Surgery" class="w-full rounded-lg my-6" />
 
 <h3>Why Consider Endoscopic Sleeve Gastroplasty?</h3>
 <p>ESG is ideal for patients seeking a less invasive option with a focus on moderate weight loss. It's suitable for those who may not qualify for traditional bariatric surgery.</p>
@@ -603,7 +603,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Once you have a body mass index of 40 or higher where you're considered to be about 100 pounds overweight or more, it really doesn't even matter if you have these common conditions because your health is considered to be such at risk that generally the procedure is covered.</p>
 
-<img src="https://images.pexels.com/photos/6539879/pexels-photo-6539879.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Bariatric Surgery" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://images.pexels.com/photos/6539879/pexels-photo-6539879.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Bariatric Surgery" class="w-full rounded-lg my-6" />
 
 <h3>2. Eligibility for Bariatric Surgery Despite Health Conditions</h3>
 <p>A lot of patients feel that they may not be a candidate for bariatric surgery because of several health conditions they may be dealing with such as heart disease, high blood pressure, type 2 diabetes, and sleep apnea, when in fact <strong>these are reasons to seek out bariatric surgery</strong>.</p>
@@ -639,7 +639,7 @@ export const blogPosts: BlogPost[] = [
 <h3>Introduction to New Guidelines in Bariatric Surgery</h3>
 <p>The American Society for Metabolic and Bariatric Surgery (ASMBS) and the International Federation for the Surgery of Obesity (IFSO) updated guidelines for bariatric surgery, marking a shift from the previous National Institute of Health (NIH) criteria set over 30 years ago. These updates aim to align patient eligibility and care standards with advancements in surgical techniques, patient safety, and new research findings on metabolic and bariatric surgery (MBS) outcomes.</p>
 
-<img src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/11/IMG_0461-1024x1024.jpeg" alt="Bariatric Surgery Guidelines" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2024/11/IMG_0461-1024x1024.jpeg" alt="Bariatric Surgery Guidelines" class="w-full rounded-lg my-6" />
 
 <h3>Why Update the Guidelines?</h3>
 <p>Since the original 1991 guidelines, bariatric surgery has evolved significantly:</p>
@@ -777,7 +777,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Despite strong evidence linking excess body fat to cancer, it's unclear exactly when weight gain begins to influence cancer risk. Does gaining weight later in life pose a different risk than being overweight from a young age? Additionally, could losing weight at some point in adulthood reduce the risk? These questions remain unanswered.</p>
 
-<img src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/05/40644523-D59D-48FE-9E65-EB790333FF79-1024x585.webp" alt="Obesity and Cancer" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/05/40644523-D59D-48FE-9E65-EB790333FF79-1024x585.webp" alt="Obesity and Cancer" class="w-full rounded-lg my-6" />
 
 <h3>A Consistent but Complicated Relationship</h3>
 <p>With obesity affecting about 42% of US adults and 20% of children and teenagers, many studies have explored how excess weight might influence cancer rates. Most evidence comes from large studies that can't definitively prove cause and effect but do show consistent associations. Higher body mass index (BMI), especially in the obese range, is linked to a higher risk of several cancers.</p>
@@ -796,7 +796,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>A 2018 study by the American Cancer Society estimated that excess weight accounts for 7.8% of all cancer cases in the US, second only to smoking. The impact of excess weight is more pronounced in certain cancers, accounting for 60% of endometrial cancers and about one-third of esophageal, kidney, and liver cancers. Even at the lower end, such as 11% of breast cancers, the population impact is significant, especially in groups with higher obesity rates.</p>
 
-<img src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/05/7E7D6415-FF2D-47FB-AFD6-C67CAF6F398B-1024x585.webp" alt="Cancer Risk Factors" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/05/7E7D6415-FF2D-47FB-AFD6-C67CAF6F398B-1024x585.webp" alt="Cancer Risk Factors" class="w-full rounded-lg my-6" />
 
 <h3>When Do Extra Pounds Matter?</h3>
 <p>When in life does excess weight begin to affect cancer risk? Evidence suggests that weight gain at any age increases cancer risk. A meta-analysis found that weight gain after age 18 is associated with higher postmenopausal breast cancer risk. A 2023 study linked sustained overweight or obesity from age 20 to middle age with increased risks for colorectal and other gastrointestinal cancers after age 55.</p>
@@ -1000,7 +1000,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Metabolic Rate:</strong> The metabolic rate, or the number of calories the body burns at rest, can decrease in obese individuals. This reduction makes it harder to lose weight since the body requires fewer calories to maintain its current weight.</li>
 </ol>
 
-<img src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/05/7ACEF17A-A3BA-4F8A-A56F-54C9809133D9.jpeg" alt="Leptin and Obesity" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/05/7ACEF17A-A3BA-4F8A-A56F-54C9809133D9.jpeg" alt="Leptin and Obesity" class="w-full rounded-lg my-6" />
 
 <h3>The Role of Leptin in Obesity Treatment</h3>
 <p>Given leptin's role in regulating hunger and energy balance, it has become a focal point in obesity research and treatment.</p>

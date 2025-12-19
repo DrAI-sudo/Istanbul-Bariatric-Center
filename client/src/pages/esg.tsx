@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { SEO } from "@/components/seo";
 
 const healthBenefits = [
   "Diabetes (Type 2)",
@@ -23,6 +24,12 @@ export default function ESG() {
   
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Endoscopic Sleeve Gastroplasty (ESG) in Turkey"
+        description="Apollo Endoscopic Sleeve Gastroplasty in Istanbul. Non-surgical, incisionless weight loss procedure. 15-20% weight loss, quick recovery."
+        keywords="endoscopic sleeve gastroplasty turkey, esg istanbul, apollo esg, non-surgical weight loss"
+        url="/esg"
+      />
       <Navbar />
       
       {/* Hero Header */}
@@ -61,6 +68,7 @@ export default function ESG() {
                 src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2023/03/IMG_4450-1024x941.jpeg" 
                 alt="Apollo Endoscopic Gastroplasty ESG" 
                 className="rounded-2xl shadow-xl max-w-md w-full"
+                loading="lazy"
               />
             </div>
           </div>

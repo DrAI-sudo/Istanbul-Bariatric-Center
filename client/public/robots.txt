@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://istanbulbariatriccenter.com/sitemap.xml
+
+# Disallow admin and API routes
+Disallow: /api/
+
+# Allow all crawlers access to static assets
+Allow: /assets/
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$

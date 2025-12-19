@@ -94,6 +94,7 @@ export default function Results() {
                   src={img} 
                   alt={`Weight loss surgery before and after transformation - patient ${i + 1}`}
                   className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
                   data-testid={`before-after-image-${i + 1}`}
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3">

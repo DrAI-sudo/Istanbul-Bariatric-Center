@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { SEO } from "@/components/seo";
 
 const sideEffects = [
   "Bleeding from inside your stomach or your stomach wound.",
@@ -35,6 +36,12 @@ export default function MiniGastricBypass() {
   
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Mini Gastric Bypass Surgery in Turkey"
+        description="Mini Gastric Bypass surgery in Istanbul. Achieve 70-85% excess weight loss with this effective bariatric procedure. Expert surgeons, JCI accredited hospital."
+        keywords="mini gastric bypass turkey, gastric bypass istanbul, weight loss surgery, bariatric surgery"
+        url="/mini-gastric-bypass"
+      />
       <Navbar />
       
       {/* Hero Header */}

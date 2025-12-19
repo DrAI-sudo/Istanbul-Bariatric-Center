@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Check, ArrowRight, CheckCircle2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { SEO, JsonLd, structuredData } from "@/components/seo";
 
 const procedures = [
   {
@@ -78,6 +79,13 @@ export default function PostBariatricSurgery() {
   
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Post Bariatric Body Contouring Surgery in Turkey"
+        description="Post bariatric body contouring surgery in Istanbul. Tummy tuck, arm lift, thigh lift, body lift after weight loss. Expert plastic surgeons."
+        keywords="post bariatric surgery turkey, body contouring istanbul, tummy tuck after weight loss, plastic surgery after bariatric"
+        url="/post-bariatric-surgery"
+      />
+      <JsonLd data={structuredData.createFAQ(faqs)} />
       <Navbar />
       
       <section className="bg-slate-900 text-white pt-40 pb-20">
@@ -109,6 +117,7 @@ export default function PostBariatricSurgery() {
                 src="/post-bariatric-surgery.png" 
                 alt="Post-bariatric body contouring illustration showing abdominoplasty procedure"
                 className="w-full rounded-lg shadow-md"
+                loading="lazy"
               />
               <p className="text-xs text-slate-500 mt-4 text-center italic">
                 Illustration showing abdominoplasty and arm lift procedures
@@ -270,7 +279,7 @@ export default function PostBariatricSurgery() {
                 </div>
                 <div className={`bg-slate-50 rounded-2xl p-8 border border-slate-100 min-h-[300px] flex items-center justify-center ${i % 2 === 1 ? 'lg:order-1' : ''}`}>
                   {proc.image ? (
-                    <img src={proc.image} alt={proc.title} className="max-w-full max-h-[400px] object-contain rounded-lg" />
+                    <img src={proc.image} alt={proc.title} className="max-w-full max-h-[400px] object-contain rounded-lg" loading="lazy" />
                   ) : (
                     <div className="text-center">
                       <span className="text-6xl opacity-30">🩺</span>
