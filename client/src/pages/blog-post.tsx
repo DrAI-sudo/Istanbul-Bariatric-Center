@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Calendar, ArrowLeft, User, Clock } from "lucide-react";
 import { getBlogPostBySlug, blogPosts } from "@/data/blog-posts";
 import { useTranslation } from "react-i18next";
+import { SEO, JsonLd, structuredData } from "@/components/seo";
 
 export default function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
@@ -46,8 +47,27 @@ export default function BlogPost() {
   const prevPost = currentIndex > 0 ? blogPosts[currentIndex - 1] : null;
   const nextPost = currentIndex < blogPosts.length - 1 ? blogPosts[currentIndex + 1] : null;
 
+  const postTitle = getPostTitle(post.slug, post.title);
+  const postExcerpt = t(`posts.${post.slug}.excerpt`, { defaultValue: post.excerpt });
+
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title={postTitle}
+        description={postExcerpt}
+        keywords={`${post.category.toLowerCase()}, bariatric surgery, weight loss, ${post.title.toLowerCase().split(' ').slice(0, 3).join(', ')}`}
+        image={post.image}
+        url={`/blog/${post.slug}`}
+        type="article"
+        publishedTime={post.date}
+      />
+      <JsonLd data={structuredData.createArticle({
+        title: postTitle,
+        excerpt: postExcerpt,
+        date: post.date,
+        slug: post.slug,
+        image: post.image
+      })} />
       <Navbar />
       
       <article className="pt-32 pb-20">

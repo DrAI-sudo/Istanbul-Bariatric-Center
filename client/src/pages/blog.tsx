@@ -7,6 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, ChevronLeft, ChevronRight } from "lucide-react";
 import { blogPosts } from "@/data/blog-posts";
 import { useTranslation } from "react-i18next";
+import { SEO } from "@/components/seo";
 
 const POSTS_PER_PAGE = 6;
 
@@ -68,6 +69,12 @@ export default function Blog() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Blog - Weight Loss Surgery Articles & News"
+        description="Expert articles on bariatric surgery, weight loss tips, nutrition advice, and the latest medical research from Istanbul Bariatric Center."
+        keywords="bariatric surgery blog, weight loss articles, obesity news, gastric sleeve information"
+        url="/blog"
+      />
       <Navbar />
       
       <section className="bg-slate-900 text-white pt-40 pb-20">

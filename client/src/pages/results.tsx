@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
+import { SEO } from "@/components/seo";
 
 const beforeAfterImages = [
   "https://bariatricsurgeryinturkey.com/assets/ba_1-ByMXV9kJ.jpeg",
@@ -60,6 +61,12 @@ export default function Results() {
   
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Before & After Results - Patient Success Stories"
+        description="See real before and after photos and testimonials from our gastric sleeve and weight loss surgery patients. Verified results from 8,000+ successful procedures."
+        keywords="gastric sleeve before after, weight loss surgery results, bariatric surgery testimonials, patient success stories"
+        url="/results"
+      />
       <Navbar />
       
       <section className="bg-slate-900 text-white pt-40 pb-20">

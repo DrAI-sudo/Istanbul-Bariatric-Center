@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useTranslation } from "react-i18next";
+import { SEO, JsonLd, structuredData } from "@/components/seo";
 
 const doctors = [
   {
@@ -47,6 +48,13 @@ export default function About() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="About Us - Expert Bariatric Surgeons"
+        description="Meet our team of expert bariatric surgeons at Istanbul Bariatric Center. Over 8,000 successful surgeries and 22+ years of experience in weight loss surgery."
+        keywords="bariatric surgeon turkey, dr murat ustun, weight loss doctors istanbul, obesity specialists"
+        url="/about"
+      />
+      <JsonLd data={structuredData.medicalBusiness} />
       <Navbar />
       
       <section className="bg-slate-900 text-white pt-40 pb-20">

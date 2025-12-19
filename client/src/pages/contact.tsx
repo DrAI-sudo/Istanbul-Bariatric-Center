@@ -13,6 +13,7 @@ import { insertContactSubmissionSchema, type InsertContactSubmission } from "@sh
 import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
 import hospitalImage from "@assets/IMG_1801_1766124176672.jpeg";
+import { SEO, JsonLd, structuredData } from "@/components/seo";
 
 export default function Contact() {
   const { t } = useTranslation('pages');
@@ -56,6 +57,13 @@ export default function Contact() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Contact Us - Free Consultation"
+        description="Contact Istanbul Bariatric Center for a free consultation. Reach us via WhatsApp, email, or visit our hospital in Istanbul, Turkey. 24/7 patient support."
+        keywords="contact bariatric surgeon, free consultation weight loss surgery, istanbul bariatric center contact"
+        url="/contact"
+      />
+      <JsonLd data={structuredData.medicalBusiness} />
       <Navbar />
       
       <section className="bg-slate-900 text-white pt-40 pb-20">

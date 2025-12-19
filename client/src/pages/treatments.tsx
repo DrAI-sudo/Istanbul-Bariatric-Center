@@ -4,9 +4,13 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle2, Check } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { useTranslation } from "react-i18next";
+import { SEO } from "@/components/seo";
 
 export default function Treatments() {
   const { t } = useTranslation('treatments');
+
+  const seoTitle = "Weight Loss Surgery Options & Treatments";
+  const seoDescription = "Explore our bariatric surgery options: Gastric Sleeve, Gastric Bypass, Gastric Balloon, Duodenal Switch, and more. Compare procedures and find the right weight loss solution.";
 
   const packages = [
     {
@@ -82,6 +86,12 @@ export default function Treatments() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title={seoTitle}
+        description={seoDescription}
+        keywords="bariatric surgery options, gastric sleeve, gastric bypass, gastric balloon, weight loss procedures"
+        url="/treatments"
+      />
       <Navbar />
       
       <section className="bg-slate-900 text-white pt-40 pb-20">
