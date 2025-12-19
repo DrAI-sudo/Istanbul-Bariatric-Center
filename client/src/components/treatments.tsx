@@ -89,8 +89,12 @@ export function Treatments() {
                   {item.desc}
                 </p>
                 
-                <Link href={item.link} className="inline-flex items-center text-primary font-semibold group-hover:translate-x-2 transition-transform">
-                  Learn More <ArrowRight className="ml-2 w-4 h-4" />
+                <Link 
+                  href={item.link} 
+                  className="inline-flex items-center text-primary font-semibold group-hover:translate-x-2 transition-transform"
+                  aria-label={`Learn more about ${item.title}`}
+                >
+                  Learn about {item.title} <ArrowRight className="ml-2 w-4 h-4" />
                 </Link>
               </div>
             </div>
