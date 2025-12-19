@@ -260,7 +260,10 @@ export function BMICalculator() {
           </div>
         </div>
 
-        <div className="mt-12 mb-8">
+        <div className="mt-12">
+          <h3 className="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-6">
+            Financing Options for EU Patients - Apply Now!
+          </h3>
           <iframe 
             width="100%" 
             height="400px" 

@@ -51,7 +51,7 @@ export function Treatments() {
   const { t } = useTranslation('home');
   
   return (
-    <section id="treatments" className="py-24 bg-white">
+    <section id="treatments" className="pt-8 pb-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <h2 className="text-4xl font-heading font-bold text-slate-900">
