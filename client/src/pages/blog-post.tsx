@@ -158,7 +158,51 @@ export default function BlogPost() {
               dangerouslySetInnerHTML={{ __html: getPostContent(post.slug, post.content) }}
             />
 
+            {/* Share Buttons */}
             <div className="border-t border-slate-200 mt-12 pt-8">
+              <div className="flex flex-wrap items-center gap-4">
+                <span className="flex items-center gap-2 text-slate-600 font-medium">
+                  <Share2 className="w-5 h-5" />
+                  Share this article:
+                </span>
+                <div className="flex gap-2">
+                  <button
+                    onClick={shareOnFacebook}
+                    className="w-10 h-10 rounded-full bg-[#1877F2] hover:bg-[#166FE5] text-white flex items-center justify-center transition-colors"
+                    aria-label="Share on Facebook"
+                    data-testid="button-share-facebook"
+                  >
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                  </button>
+                  <button
+                    onClick={() => shareOnTwitter(postTitle)}
+                    className="w-10 h-10 rounded-full bg-black hover:bg-gray-800 text-white flex items-center justify-center transition-colors"
+                    aria-label="Share on X (Twitter)"
+                    data-testid="button-share-twitter"
+                  >
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                  </button>
+                  <button
+                    onClick={() => shareViaEmail(postTitle, postExcerpt)}
+                    className="w-10 h-10 rounded-full bg-slate-600 hover:bg-slate-700 text-white flex items-center justify-center transition-colors"
+                    aria-label="Share via Email"
+                    data-testid="button-share-email"
+                  >
+                    <Mail className="w-5 h-5" />
+                  </button>
+                  <button
+                    onClick={handleCopyLink}
+                    className={`w-10 h-10 rounded-full ${copied ? 'bg-green-500' : 'bg-slate-400 hover:bg-slate-500'} text-white flex items-center justify-center transition-colors`}
+                    aria-label={copied ? "Link copied!" : "Copy link"}
+                    data-testid="button-copy-link"
+                  >
+                    {copied ? <Check className="w-5 h-5" /> : <Copy className="w-5 h-5" />}
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="border-t border-slate-200 mt-8 pt-8">
               <div className="flex flex-col md:flex-row justify-between gap-4">
                 {prevPost ? (
                   <Link href={`/blog/${prevPost.slug}`} className="flex-1">
