@@ -1,14 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
-import { useState, useEffect } from "react";
+import { useState, useCallback } from "react";
+import { Play } from "lucide-react";
 
 export function Hero() {
   const { t } = useTranslation('home');
-  const [videoLoaded, setVideoLoaded] = useState(false);
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   
-  useEffect(() => {
-    const timer = setTimeout(() => setVideoLoaded(true), 100);
-    return () => clearTimeout(timer);
+  const handlePlayVideo = useCallback(() => {
+    setIsVideoPlaying(true);
   }, []);
   
   return (
@@ -16,8 +16,8 @@ export function Hero() {
       className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden text-center"
       aria-label="Hero section"
     >
-      <div className="absolute inset-0 z-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-        {videoLoaded && (
+      <div className="absolute inset-0 z-0">
+        {isVideoPlaying ? (
           <video 
             autoPlay 
             loop 
@@ -25,11 +25,19 @@ export function Hero() {
             playsInline
             preload="metadata"
             aria-hidden="true"
-            className="w-full h-full object-cover opacity-50"
-            poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'%3E%3Crect fill='%231e293b' width='1920' height='1080'/%3E%3C/svg%3E"
+            className="w-full h-full object-cover"
           >
             <source src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2021/07/ibc-promo-3-1.mp4" type="video/mp4" />
           </video>
+        ) : (
+          <div 
+            className="w-full h-full bg-cover bg-center bg-no-repeat"
+            style={{
+              backgroundImage: `linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(30, 41, 59, 0.75) 50%, rgba(15, 23, 42, 0.85) 100%), url('https://istanbulbariatriccenter.com/wp-content/uploads/2024/11/istanbul-bariatric-center-og.jpg')`,
+            }}
+            role="img"
+            aria-label="Istanbul Bariatric Center - Medical excellence in weight loss surgery"
+          />
         )}
         <div className="absolute inset-0 bg-black/30" aria-hidden="true" />
       </div>
@@ -43,15 +51,30 @@ export function Hero() {
           {t('hero.subtitle')}
         </p>
         
-        <div className="pt-8">
+        <div className="pt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button 
             size="lg" 
             className="bg-[#25D366] hover:bg-[#128C7E] text-white font-bold text-lg px-10 py-8 rounded-full shadow-xl transition-transform hover:scale-105"
             onClick={() => window.open('https://wa.me/905324131143', '_blank')}
             aria-label="Get a free consultation via WhatsApp"
+            data-testid="button-whatsapp-hero"
           >
             {t('hero.cta')}
           </Button>
+          
+          {!isVideoPlaying && (
+            <Button
+              size="lg"
+              variant="outline"
+              className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20 font-semibold text-base px-6 py-6 rounded-full shadow-lg transition-transform hover:scale-105"
+              onClick={handlePlayVideo}
+              aria-label="Play promotional video"
+              data-testid="button-play-video"
+            >
+              <Play className="w-5 h-5 mr-2" aria-hidden="true" />
+              Watch Video
+            </Button>
+          )}
         </div>
       </div>
     </section>

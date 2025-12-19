@@ -94,8 +94,7 @@ export function SEO({
     setLink("canonical", fullUrl);
 
     LANGUAGES.forEach((lang) => {
-      const langUrl = lang === "en" ? fullUrl : `${fullUrl}?lang=${lang}`;
-      setLink("alternate", langUrl, lang);
+      setLink("alternate", fullUrl, lang);
     });
     setLink("alternate", fullUrl, "x-default");
 
