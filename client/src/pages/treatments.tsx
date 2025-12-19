@@ -229,6 +229,41 @@ export default function Treatments() {
         </div>
       </section>
 
+      <section className="py-20 bg-slate-50">
+        <div className="container mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <h2 className="text-3xl font-bold text-slate-900">Post-Bariatric Plastic Surgery</h2>
+              <p className="text-lg text-slate-600 leading-relaxed">
+                After significant weight loss following bariatric surgery, many patients are left with excess, sagging skin. Post-bariatric body contouring surgery removes this excess skin and reshapes the body to help you fully enjoy your transformation.
+              </p>
+              <p className="text-lg text-slate-600 leading-relaxed">
+                Our procedures include abdominoplasty (tummy tuck), arm lift, thigh lift, body lift, breast lift, and face/neck lift. These surgeries can dramatically improve body contour and eliminate skin irritation.
+              </p>
+              <div className="pt-4">
+                <Button 
+                  className="bg-primary hover:bg-primary/90"
+                  onClick={() => window.location.href = '/post-bariatric-surgery'}
+                >
+                  Learn More About Body Contouring <ArrowRight className="ml-2 w-4 h-4" />
+                </Button>
+              </div>
+            </div>
+            <div className="bg-white rounded-2xl p-8 border border-slate-200 shadow-lg">
+              <img 
+                src="/post-bariatric-surgery.webp" 
+                alt="Post-bariatric body contouring procedures"
+                className="w-full rounded-lg"
+                loading="lazy"
+              />
+              <p className="text-sm text-slate-500 mt-4 text-center">
+                Body contouring options after weight loss surgery
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       </main>
 
       <Footer />
