@@ -77,6 +77,16 @@ export default function MiniGastricBypass() {
       {/* Introduction */}
       <section className="py-20">
         <div className="container mx-auto px-4 max-w-4xl">
+          <div className="flex justify-center mb-12">
+            <img 
+              src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/mini-gastric-bypass-300x296.png" 
+              alt="Mini Gastric Bypass Surgery Illustration" 
+              className="max-w-sm w-full"
+              width="300"
+              height="296"
+              loading="lazy"
+            />
+          </div>
           <div className="prose prose-lg max-w-none space-y-6 text-slate-600">
             <p className="text-lg leading-relaxed">
               For many people around the world, excess weight and obesity is a very serious problem not just because of the changing in shape, face, or body that comes after it, but also because of the health problem that can be caused by it.
