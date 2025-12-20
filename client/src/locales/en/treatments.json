@@ -163,7 +163,33 @@
       "Most complicated surgery",
       "High risk of vitamin deficiencies",
       "Requires strict follow-up"
-    ]
+    ],
+    "introP1": "Nowadays there are many people around the world complaining of obesity problems, especially that it is responsible for many serious health problems like heartbreaks, strokes, liver and kidney problems, and many more health issues. Thus, hundreds of thousands of people who complain of obesity started to have obesity surgeries.",
+    "introP2": "There are several types for obesity surgery, each type has its own tools and way to be done but all of the types share the same goal which is helping to cure obesity problems.",
+    "introP3": "Duodenal switch surgery is one of the obesity surgery types and a very efficient one.",
+    "statWeightLoss": "Weight Loss",
+    "statMonths": "Months to Results",
+    "statBest": "Long-term Results",
+    "faqs": [
+      {"question": "What is Duodenal Switch surgery?", "answer": "Or as some doctors call it \"Gastric Reduction Duodenal Switch\" is a weight loss surgery that involves both restrictive and malabsorptive aspects. The restrictive part of the surgery involves cutting up to 70% of the stomach and some of the duodenum."},
+      {"question": "Is it similar to gastric bypass?", "answer": "The duodenal switch is similar to gastric bypass in goals because it reduces the amount of food entering your stomach and reduces the amount of calories absorbed to your body, but because it is more of malabsorptive operation, it causes more side effects than other types of surgeries."},
+      {"question": "Is duodenal switch better than other types of obesity surgery?", "answer": "Some doctors suggest that it is better for the long term because in duodenal switch the stomach will remain big so it will host more food compared to the other types of obesity surgery, this will help you having better body shape in the long term."},
+      {"question": "Can anyone have the duodenal switch surgery? How do I know if I'm a candidate?", "answer": "Not anyone can have duodenal switch surgery, only the doctor or medical team can decide that and the decision will be according to your BMI \"Body Mass Index\" if it is greater than 40 then you can have the duodenal switch surgery. Of course, there are other things to take in consideration so it is very important that your doctor decide whether you can have the duodenal switch surgery or not."},
+      {"question": "How long is the recovery time for duodenal switch surgery?", "answer": "It differs from one patient to another but for most patients it needs between three to four weeks of recovery. Even though that the surgery does not leave many scars from outside but it requires hard work from the inside."},
+      {"question": "Can I get back to work after the recovery time and start exercising?", "answer": "It is better to take another week away from the stress and hard activities just to make sure that your body has adjusted to the new situation after the surgery."},
+      {"question": "How long does it take for me to lose weight after the surgery?", "answer": "Most patients who have had the duodenal switch surgery lose their weight during the first 12 to 18 months. This is why not everyone feels encouraged to have this type of obesity surgery."},
+      {"question": "Is it possible that I gain weight after losing it?", "answer": "Well it can be if you get back to the old unhealthy lifestyle but it is known about duodenal surgery that it has the best long lasting weight loss among the obesity surgery types."},
+      {"question": "Do I have to avoid certain kinds of food after the surgery?", "answer": "It is hard to tell specific types of food because it differs from one patient to another but there are some types of food that you should absolutely stay away from like fatty food because it causes diarrhea. In any case it is important to take the answers of this question from the doctor after he or she examines your body."},
+      {"question": "How much weight will I lose after the surgery?", "answer": "Most patients lose between 40 to 60% of their weight. However, you need to know that none of this will happen if you don't put in an extra effort and change your lifestyle to a healthier one."},
+      {"question": "Does duodenal switch surgery prevent pregnancy? Or have any negative effects on pregnant bodies?", "answer": "The surgery will not prevent pregnancy. However, during the first 18 months we suggest that a woman do not experience pregnancy because during this time she will be losing weight and this might affect negatively on her body. In any case, weight loss surgeries help women in having a healthier pregnancy experience (after the maximum loss of weight)."},
+      {"question": "Does duodenal switch surgery cost more than other obesity surgeries?", "answer": "It costs a little bit more than other types of obesity surgery because it requires more work and effort from the medical team and surgeons."}
+    ],
+    "diabetesTitle": "Duodenal Switch for Diabetes",
+    "diabetesP1": "Duodenal switch surgery is particularly effective for patients with Type 2 diabetes. The procedure not only helps with significant weight loss but also has been shown to improve or even resolve diabetes in many patients.",
+    "diabetesP2": "The malabsorptive component of the surgery changes how the body processes food and can lead to improved insulin sensitivity and blood sugar control. Many patients see improvements in their diabetes even before significant weight loss occurs.",
+    "diabetesHighlight": "Studies have shown that duodenal switch has one of the highest rates of diabetes remission among all bariatric procedures, making it an excellent choice for patients with severe obesity complicated by diabetes.",
+    "ctaTitle": "Is Duodenal Switch Right for You?",
+    "ctaDesc": "Contact us today for a free consultation to determine if duodenal switch surgery is the right option for your weight loss and diabetes management goals."
   },
   "esg": {
     "title": "Endoscopic Sleeve Gastroplasty",

@@ -163,7 +163,33 @@
       "En karmaşık cerrahi",
       "Yüksek vitamin eksikliği riski",
       "Sıkı takip gerektirir"
-    ]
+    ],
+    "introP1": "Günümüzde dünya genelinde birçok insan obezite sorunlarından şikayet etmektedir, özellikle kalp krizleri, felç, karaciğer ve böbrek sorunları gibi birçok ciddi sağlık sorununa neden olduğu için. Bu nedenle, yüz binlerce obezite hastası obezite ameliyatları olmaya başlamıştır.",
+    "introP2": "Obezite ameliyatının birkaç türü vardır, her türün kendi araçları ve yapılma şekli vardır ancak tüm türler aynı amacı paylaşır: obezite sorunlarının tedavisine yardımcı olmak.",
+    "introP3": "Duodenal switch ameliyatı, obezite ameliyatı türlerinden biridir ve çok etkilidir.",
+    "statWeightLoss": "Kilo Kaybı",
+    "statMonths": "Sonuçlara Kadar Ay",
+    "statBest": "Uzun Vadeli Sonuçlar",
+    "faqs": [
+      {"question": "Duodenal Switch ameliyatı nedir?", "answer": "Veya bazı doktorların \"Gastrik Redüksiyon Duodenal Switch\" olarak adlandırdığı bu ameliyat, hem kısıtlayıcı hem de malabsorptif yönleri içeren bir kilo verme ameliyatıdır. Ameliyatın kısıtlayıcı kısmı, midenin %70'ine kadar ve duodenumun bir kısmının kesilmesini içerir."},
+      {"question": "Mide bypass'ına benzer mi?", "answer": "Duodenal switch, mideye giren yiyecek miktarını azalttığı ve vücudunuz tarafından emilen kalori miktarını düşürdüğü için hedefleri açısından mide bypass'ına benzer, ancak daha çok malabsorptif bir operasyon olduğu için diğer ameliyat türlerinden daha fazla yan etkiye neden olur."},
+      {"question": "Duodenal switch diğer obezite ameliyatı türlerinden daha mı iyi?", "answer": "Bazı doktorlar, duodenal switch'te mide daha büyük kaldığı için diğer obezite ameliyatı türlerine kıyasla daha fazla yiyecek barındırabileceğinden uzun vadede daha iyi olduğunu öne sürüyor, bu da uzun vadede daha iyi bir vücut şekline sahip olmanıza yardımcı olacaktır."},
+      {"question": "Herkes duodenal switch ameliyatı olabilir mi? Aday olup olmadığımı nasıl anlarım?", "answer": "Herkes duodenal switch ameliyatı olamaz, buna sadece doktor veya tıbbi ekip karar verebilir ve karar VKİ'nize \"Vücut Kitle İndeksi\" göre verilecektir - 40'ın üzerindeyse ameliyat olabilirsiniz. Elbette dikkate alınması gereken başka şeyler de var, bu nedenle doktorunuzun ameliyat olup olamayacağınıza karar vermesi çok önemlidir."},
+      {"question": "Duodenal switch ameliyatı için iyileşme süresi ne kadardır?", "answer": "Hastadan hastaya farklılık gösterir ancak çoğu hasta için üç ila dört hafta arasında iyileşme gerektirir. Ameliyat dışarıdan çok fazla iz bırakmasa da içeriden ciddi çalışma gerektirir."},
+      {"question": "İyileşme süresinden sonra işe dönebilir ve egzersiz yapmaya başlayabilir miyim?", "answer": "Vücudunuzun ameliyattan sonraki yeni duruma uyum sağladığından emin olmak için stres ve yoğun aktivitelerden bir hafta daha uzak durmak daha iyidir."},
+      {"question": "Ameliyattan sonra kilo vermem ne kadar sürer?", "answer": "Duodenal switch ameliyatı olan hastaların çoğu ilk 12 ila 18 ay içinde kilolarını verir. Bu nedenle herkes bu tür obezite ameliyatı olmak için cesaretlenmiş hissetmez."},
+      {"question": "Kilo verdikten sonra tekrar kilo almam mümkün mü?", "answer": "Eski sağlıksız yaşam tarzına dönerseniz olabilir, ancak duodenal ameliyatın obezite ameliyatı türleri arasında en iyi kalıcı kilo kaybına sahip olduğu bilinmektedir."},
+      {"question": "Ameliyattan sonra belirli yiyeceklerden kaçınmam gerekiyor mu?", "answer": "Hastadan hastaya farklılık gösterdiği için belirli yiyecek türlerini söylemek zordur, ancak ishale neden olduğu için yağlı yiyecekler gibi kesinlikle uzak durmanız gereken bazı yiyecek türleri vardır. Her durumda, bu sorunun cevaplarını doktor vücudunuzu muayene ettikten sonra ondan almanız önemlidir."},
+      {"question": "Ameliyattan sonra ne kadar kilo vereceğim?", "answer": "Hastaların çoğu kilolarının %40 ila %60'ını kaybeder. Ancak, ekstra çaba göstermez ve yaşam tarzınızı daha sağlıklı bir hale dönüştürmezseniz bunların hiçbirinin olmayacağını bilmelisiniz."},
+      {"question": "Duodenal switch ameliyatı hamileliği önler mi? Veya hamile vücutlar üzerinde olumsuz etkileri var mı?", "answer": "Ameliyat hamileliği önlemeyecektir. Ancak, ilk 18 ay boyunca bir kadının hamile kalmamasını öneriyoruz çünkü bu süre zarfında kilo verecek ve bu vücudunu olumsuz etkileyebilir. Her durumda, kilo verme ameliyatları kadınların daha sağlıklı bir hamilelik deneyimi yaşamasına yardımcı olur (maksimum kilo kaybından sonra)."},
+      {"question": "Duodenal switch ameliyatı diğer obezite ameliyatlarından daha mı pahalı?", "answer": "Tıbbi ekip ve cerrahlardan daha fazla çalışma ve çaba gerektirdiği için diğer obezite ameliyatı türlerinden biraz daha pahalıdır."}
+    ],
+    "diabetesTitle": "Diyabet için Duodenal Switch",
+    "diabetesP1": "Duodenal switch ameliyatı, tip 2 diyabeti olan hastalar için özellikle etkilidir. Prosedür yalnızca önemli kilo kaybına yardımcı olmakla kalmaz, aynı zamanda birçok hastada diyabeti iyileştirdiği veya hatta çözdüğü gösterilmiştir.",
+    "diabetesP2": "Ameliyatın malabsorptif bileşeni, vücudun yiyeceği nasıl işlediğini değiştirir ve gelişmiş insülin duyarlılığı ve kan şekeri kontrolüne yol açabilir. Birçok hasta, önemli kilo kaybı gerçekleşmeden önce bile diyabetlerinde iyileşmeler görür.",
+    "diabetesHighlight": "Çalışmalar, duodenal switch'in tüm bariatrik prosedürler arasında en yüksek diyabet remisyon oranlarından birine sahip olduğunu göstermiştir, bu da onu diyabetle komplike olmuş şiddetli obezitesi olan hastalar için mükemmel bir seçim haline getirir.",
+    "ctaTitle": "Duodenal Switch Sizin için Uygun mu?",
+    "ctaDesc": "Duodenal switch ameliyatının kilo verme ve diyabet yönetimi hedefleriniz için doğru seçenek olup olmadığını belirlemek için bugün ücretsiz danışmanlık için bizimle iletişime geçin."
   },
   "esg": {
     "title": "Endoskopik Sleeve Gastroplasti",

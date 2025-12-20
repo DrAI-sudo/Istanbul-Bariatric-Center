@@ -163,7 +163,33 @@
       "Cea mai complicată chirurgie",
       "Risc ridicat de deficiențe vitaminice",
       "Necesită urmărire strictă"
-    ]
+    ],
+    "introP1": "În zilele noastre, multe persoane din întreaga lume se plâng de probleme de obezitate, mai ales că aceasta este responsabilă pentru multe probleme de sănătate grave precum infarcturile, accidentele vasculare cerebrale, problemele hepatice și renale și multe alte probleme de sănătate. Astfel, sute de mii de persoane care suferă de obezitate au început să efectueze operații de obezitate.",
+    "introP2": "Există mai multe tipuri de chirurgie a obezității, fiecare tip are propriile instrumente și mod de realizare, dar toate tipurile împărtășesc același obiectiv care este să ajute la vindecarea problemelor de obezitate.",
+    "introP3": "Chirurgia switch duodenal este unul dintre tipurile de chirurgie a obezității și foarte eficientă.",
+    "statWeightLoss": "Pierdere în Greutate",
+    "statMonths": "Luni până la Rezultate",
+    "statBest": "Rezultate pe Termen Lung",
+    "faqs": [
+      {"question": "Ce este chirurgia Switch Duodenal?", "answer": "Sau cum o numesc unii medici \"Reducere Gastrică cu Switch Duodenal\" este o operație de pierdere în greutate care implică atât aspecte restrictive, cât și malabsorbtive. Partea restrictivă a operației implică tăierea a până la 70% din stomac și o parte din duoden."},
+      {"question": "Este similar cu bypass-ul gastric?", "answer": "Switch-ul duodenal este similar cu bypass-ul gastric în obiective, deoarece reduce cantitatea de mâncare care intră în stomac și reduce cantitatea de calorii absorbite de corp, dar pentru că este mai mult o operație malabsorbtivă, provoacă mai multe efecte secundare decât alte tipuri de operații."},
+      {"question": "Este switch-ul duodenal mai bun decât alte tipuri de chirurgie a obezității?", "answer": "Unii medici sugerează că este mai bun pe termen lung, deoarece în switch-ul duodenal stomacul rămâne mai mare, deci poate găzdui mai multă mâncare în comparație cu alte tipuri de chirurgie a obezității, acest lucru vă va ajuta să aveți o formă corporală mai bună pe termen lung."},
+      {"question": "Poate oricine să aibă operația de switch duodenal? Cum știu dacă sunt candidat?", "answer": "Nu oricine poate avea operația de switch duodenal, doar medicul sau echipa medicală poate decide acest lucru, iar decizia va fi în funcție de IMC-ul dumneavoastră \"Indicele de Masă Corporală\" - dacă este mai mare de 40, puteți avea operația. Desigur, există și alte lucruri de luat în considerare, așa că este foarte important ca medicul dumneavoastră să decidă dacă puteți avea operația sau nu."},
+      {"question": "Cât durează timpul de recuperare pentru chirurgia switch duodenal?", "answer": "Diferă de la un pacient la altul, dar pentru majoritatea pacienților durează între trei și patru săptămâni de recuperare. Chiar dacă operația nu lasă multe cicatrici din exterior, necesită muncă grea din interior."},
+      {"question": "Pot să mă întorc la muncă după timpul de recuperare și să încep să fac exerciții?", "answer": "Este mai bine să luați încă o săptămână departe de stres și activități grele doar pentru a vă asigura că corpul dumneavoastră s-a adaptat la noua situație după operație."},
+      {"question": "Cât timp durează să pierd în greutate după operație?", "answer": "Majoritatea pacienților care au avut operația de switch duodenal își pierd greutatea în primele 12-18 luni. Acesta este motivul pentru care nu toată lumea se simte încurajată să aibă acest tip de chirurgie a obezității."},
+      {"question": "Este posibil să iau în greutate după ce am slăbit?", "answer": "Poate fi dacă vă întoarceți la vechiul stil de viață nesănătos, dar se știe că operația duodenală are cea mai bună pierdere în greutate de lungă durată dintre tipurile de chirurgie a obezității."},
+      {"question": "Trebuie să evit anumite tipuri de alimente după operație?", "answer": "Este greu să menționezi tipuri specifice de alimente pentru că diferă de la un pacient la altul, dar există unele tipuri de alimente de care ar trebui să stați absolut departe, cum ar fi mâncarea grasă, deoarece provoacă diaree. În orice caz, este important să obțineți răspunsurile la această întrebare de la medic după ce vă examinează corpul."},
+      {"question": "Cât de mult voi slăbi după operație?", "answer": "Majoritatea pacienților pierd între 40 și 60% din greutatea lor. Cu toate acestea, trebuie să știți că nimic din toate acestea nu se va întâmpla dacă nu depuneți un efort suplimentar și nu vă schimbați stilul de viață într-unul mai sănătos."},
+      {"question": "Chirurgia switch duodenal previne sarcina? Sau are efecte negative asupra corpurilor însărcinate?", "answer": "Operația nu va preveni sarcina. Cu toate acestea, în primele 18 luni sugerăm ca o femeie să nu experimenteze sarcina, deoarece în această perioadă va pierde în greutate și acest lucru ar putea afecta negativ corpul ei. În orice caz, operațiile de pierdere în greutate ajută femeile să aibă o experiență de sarcină mai sănătoasă (după pierderea maximă în greutate)."},
+      {"question": "Chirurgia switch duodenal costă mai mult decât alte operații de obezitate?", "answer": "Costă puțin mai mult decât alte tipuri de chirurgie a obezității pentru că necesită mai multă muncă și efort din partea echipei medicale și a chirurgilor."}
+    ],
+    "diabetesTitle": "Switch Duodenal pentru Diabet",
+    "diabetesP1": "Chirurgia switch duodenal este deosebit de eficientă pentru pacienții cu diabet de tip 2. Procedura nu doar că ajută la o pierdere semnificativă în greutate, dar s-a demonstrat că îmbunătățește sau chiar rezolvă diabetul la mulți pacienți.",
+    "diabetesP2": "Componenta malabsorbtivă a operației schimbă modul în care corpul procesează mâncarea și poate duce la o sensibilitate îmbunătățită la insulină și la controlul glicemiei. Mulți pacienți văd îmbunătățiri ale diabetului lor chiar înainte de a avea loc o pierdere semnificativă în greutate.",
+    "diabetesHighlight": "Studiile au arătat că switch-ul duodenal are una dintre cele mai mari rate de remisiune a diabetului dintre toate procedurile bariatrice, făcându-l o alegere excelentă pentru pacienții cu obezitate severă complicată de diabet.",
+    "ctaTitle": "Este Switch-ul Duodenal Potrivit pentru Dumneavoastră?",
+    "ctaDesc": "Contactați-ne astăzi pentru o consultație gratuită pentru a determina dacă chirurgia switch duodenal este opțiunea potrivită pentru obiectivele dumneavoastră de pierdere în greutate și gestionare a diabetului."
   },
   "esg": {
     "title": "Gastroplastie Endoscopică Sleeve",

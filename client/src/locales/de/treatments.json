@@ -163,7 +163,33 @@
       "Komplizierteste Operation",
       "Hohes Risiko von Vitaminmangel",
       "Erfordert strenge Nachsorge"
-    ]
+    ],
+    "introP1": "Heutzutage klagen viele Menschen auf der ganzen Welt über Fettleibigkeitsprobleme, insbesondere da sie für viele schwerwiegende Gesundheitsprobleme wie Herzinfarkte, Schlaganfälle, Leber- und Nierenprobleme und viele weitere Gesundheitsprobleme verantwortlich ist. Daher haben Hunderttausende von Menschen, die an Fettleibigkeit leiden, begonnen, sich Adipositas-Operationen zu unterziehen.",
+    "introP2": "Es gibt verschiedene Arten von Adipositas-Operationen, jede Art hat ihre eigenen Werkzeuge und Durchführungsweise, aber alle Arten teilen das gleiche Ziel, nämlich bei der Behandlung von Fettleibigkeitsproblemen zu helfen.",
+    "introP3": "Die Duodenal-Switch-Operation ist eine der Arten von Adipositas-Operationen und eine sehr effiziente.",
+    "statWeightLoss": "Gewichtsverlust",
+    "statMonths": "Monate bis Ergebnisse",
+    "statBest": "Langzeitergebnisse",
+    "faqs": [
+      {"question": "Was ist eine Duodenal-Switch-Operation?", "answer": "Oder wie einige Ärzte es nennen \"Magenreduktion mit Duodenal-Switch\" ist eine Gewichtsverlustoperation, die sowohl restriktive als auch malabsorptive Aspekte beinhaltet. Der restriktive Teil der Operation beinhaltet das Entfernen von bis zu 70% des Magens und eines Teils des Zwölffingerdarms."},
+      {"question": "Ist es ähnlich wie ein Magenbypass?", "answer": "Der Duodenal-Switch ist in seinen Zielen dem Magenbypass ähnlich, da er die Menge an Nahrung, die in Ihren Magen gelangt, reduziert und die Menge an absorbierten Kalorien verringert, aber da es sich mehr um eine malabsorptive Operation handelt, verursacht sie mehr Nebenwirkungen als andere Operationsarten."},
+      {"question": "Ist der Duodenal-Switch besser als andere Arten von Adipositas-Operationen?", "answer": "Einige Ärzte schlagen vor, dass er langfristig besser ist, weil beim Duodenal-Switch der Magen größer bleibt, sodass er im Vergleich zu anderen Adipositas-Operationen mehr Nahrung aufnehmen kann, was Ihnen langfristig zu einer besseren Körperform verhilft."},
+      {"question": "Kann jeder eine Duodenal-Switch-Operation haben? Wie weiß ich, ob ich ein Kandidat bin?", "answer": "Nicht jeder kann eine Duodenal-Switch-Operation haben, nur der Arzt oder das medizinische Team kann das entscheiden und die Entscheidung wird nach Ihrem BMI \"Body Mass Index\" getroffen - wenn er größer als 40 ist, können Sie die Operation haben. Natürlich gibt es andere Dinge zu berücksichtigen, daher ist es sehr wichtig, dass Ihr Arzt entscheidet, ob Sie die Operation haben können oder nicht."},
+      {"question": "Wie lang ist die Erholungszeit nach einer Duodenal-Switch-Operation?", "answer": "Es unterscheidet sich von Patient zu Patient, aber für die meisten Patienten dauert es zwischen drei und vier Wochen Erholung. Auch wenn die Operation von außen nicht viele Narben hinterlässt, erfordert sie viel Arbeit von innen."},
+      {"question": "Kann ich nach der Erholungszeit wieder arbeiten und mit dem Training beginnen?", "answer": "Es ist besser, eine weitere Woche weg von Stress und anstrengenden Aktivitäten zu nehmen, nur um sicherzustellen, dass sich Ihr Körper an die neue Situation nach der Operation angepasst hat."},
+      {"question": "Wie lange dauert es, bis ich nach der Operation Gewicht verliere?", "answer": "Die meisten Patienten, die eine Duodenal-Switch-Operation hatten, verlieren ihr Gewicht in den ersten 12 bis 18 Monaten. Deshalb fühlt sich nicht jeder ermutigt, diese Art von Adipositas-Operation zu haben."},
+      {"question": "Ist es möglich, dass ich nach dem Abnehmen wieder zunehme?", "answer": "Das kann passieren, wenn Sie zum alten ungesunden Lebensstil zurückkehren, aber es ist bekannt, dass die Duodenal-Operation den besten langanhaltenden Gewichtsverlust unter den Adipositas-Operationsarten hat."},
+      {"question": "Muss ich nach der Operation bestimmte Lebensmittel vermeiden?", "answer": "Es ist schwer, bestimmte Lebensmittelarten zu nennen, da es von Patient zu Patient unterschiedlich ist, aber es gibt einige Lebensmittelarten, von denen Sie sich unbedingt fernhalten sollten, wie fettiges Essen, da es Durchfall verursacht. In jedem Fall ist es wichtig, die Antworten auf diese Frage vom Arzt zu bekommen, nachdem er Ihren Körper untersucht hat."},
+      {"question": "Wie viel Gewicht werde ich nach der Operation verlieren?", "answer": "Die meisten Patienten verlieren zwischen 40 und 60% ihres Gewichts. Sie müssen jedoch wissen, dass nichts davon passieren wird, wenn Sie sich nicht extra anstrengen und Ihren Lebensstil zu einem gesünderen ändern."},
+      {"question": "Verhindert die Duodenal-Switch-Operation eine Schwangerschaft? Oder hat sie negative Auswirkungen auf schwangere Körper?", "answer": "Die Operation verhindert keine Schwangerschaft. Wir empfehlen jedoch, dass eine Frau in den ersten 18 Monaten keine Schwangerschaft erlebt, da sie in dieser Zeit Gewicht verliert und dies ihren Körper negativ beeinflussen könnte. In jedem Fall helfen Gewichtsverlustoperationen Frauen, eine gesündere Schwangerschaftserfahrung zu haben (nach dem maximalen Gewichtsverlust)."},
+      {"question": "Kostet die Duodenal-Switch-Operation mehr als andere Adipositas-Operationen?", "answer": "Sie kostet etwas mehr als andere Arten von Adipositas-Operationen, da sie mehr Arbeit und Aufwand vom medizinischen Team und den Chirurgen erfordert."}
+    ],
+    "diabetesTitle": "Duodenal-Switch bei Diabetes",
+    "diabetesP1": "Die Duodenal-Switch-Operation ist besonders wirksam für Patienten mit Typ-2-Diabetes. Das Verfahren hilft nicht nur bei signifikantem Gewichtsverlust, sondern hat auch gezeigt, dass es Diabetes bei vielen Patienten verbessert oder sogar auflöst.",
+    "diabetesP2": "Die malabsorptive Komponente der Operation verändert, wie der Körper Nahrung verarbeitet und kann zu einer verbesserten Insulinsensitivität und Blutzuckerkontrolle führen. Viele Patienten sehen Verbesserungen bei ihrem Diabetes, noch bevor ein signifikanter Gewichtsverlust eintritt.",
+    "diabetesHighlight": "Studien haben gezeigt, dass der Duodenal-Switch eine der höchsten Diabetesremissionsraten unter allen bariatrischen Verfahren hat, was ihn zu einer ausgezeichneten Wahl für Patienten mit schwerer Fettleibigkeit macht, die durch Diabetes kompliziert wird.",
+    "ctaTitle": "Ist der Duodenal-Switch das Richtige für Sie?",
+    "ctaDesc": "Kontaktieren Sie uns heute für eine kostenlose Beratung, um festzustellen, ob die Duodenal-Switch-Operation die richtige Option für Ihre Gewichtsverlust- und Diabetesmanagementziele ist."
   },
   "esg": {
     "title": "Endoskopische Sleeve-Gastroplastik",

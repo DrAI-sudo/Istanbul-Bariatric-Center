@@ -163,7 +163,33 @@
       "Cirugía más complicada",
       "Alto riesgo de deficiencias vitamínicas",
       "Requiere seguimiento estricto"
-    ]
+    ],
+    "introP1": "Hoy en día, muchas personas en todo el mundo se quejan de problemas de obesidad, especialmente porque es responsable de muchos problemas de salud graves como ataques cardíacos, accidentes cerebrovasculares, problemas hepáticos y renales, y muchos más problemas de salud. Por ello, cientos de miles de personas que sufren de obesidad han comenzado a someterse a cirugías de obesidad.",
+    "introP2": "Existen varios tipos de cirugía de obesidad, cada tipo tiene sus propias herramientas y forma de realizarse, pero todos los tipos comparten el mismo objetivo que es ayudar a curar los problemas de obesidad.",
+    "introP3": "La cirugía de switch duodenal es uno de los tipos de cirugía de obesidad y muy eficiente.",
+    "statWeightLoss": "Pérdida de Peso",
+    "statMonths": "Meses para Resultados",
+    "statBest": "Resultados a Largo Plazo",
+    "faqs": [
+      {"question": "¿Qué es la cirugía de Switch Duodenal?", "answer": "O como algunos médicos la llaman \"Reducción Gástrica con Switch Duodenal\" es una cirugía de pérdida de peso que involucra aspectos tanto restrictivos como malabsortivos. La parte restrictiva de la cirugía implica cortar hasta el 70% del estómago y parte del duodeno."},
+      {"question": "¿Es similar al bypass gástrico?", "answer": "El switch duodenal es similar al bypass gástrico en sus objetivos porque reduce la cantidad de comida que entra en su estómago y reduce la cantidad de calorías absorbidas por su cuerpo, pero debido a que es más una operación malabsortiva, causa más efectos secundarios que otros tipos de cirugías."},
+      {"question": "¿Es el switch duodenal mejor que otros tipos de cirugía de obesidad?", "answer": "Algunos médicos sugieren que es mejor a largo plazo porque en el switch duodenal el estómago permanece más grande, por lo que puede albergar más comida en comparación con otros tipos de cirugía de obesidad, esto le ayudará a tener una mejor forma corporal a largo plazo."},
+      {"question": "¿Puede cualquiera tener la cirugía de switch duodenal? ¿Cómo sé si soy candidato?", "answer": "No cualquiera puede tener la cirugía de switch duodenal, solo el médico o el equipo médico puede decidir eso y la decisión será según su IMC \"Índice de Masa Corporal\" si es mayor de 40, entonces puede tener la cirugía. Por supuesto, hay otras cosas a considerar, por lo que es muy importante que su médico decida si puede tener la cirugía o no."},
+      {"question": "¿Cuánto tiempo es la recuperación para la cirugía de switch duodenal?", "answer": "Difiere de un paciente a otro, pero para la mayoría de los pacientes necesita entre tres y cuatro semanas de recuperación. Aunque la cirugía no deja muchas cicatrices por fuera, requiere un trabajo duro desde el interior."},
+      {"question": "¿Puedo volver al trabajo después del tiempo de recuperación y empezar a hacer ejercicio?", "answer": "Es mejor tomar otra semana alejado del estrés y las actividades intensas solo para asegurarse de que su cuerpo se ha adaptado a la nueva situación después de la cirugía."},
+      {"question": "¿Cuánto tiempo tarda en perder peso después de la cirugía?", "answer": "La mayoría de los pacientes que han tenido la cirugía de switch duodenal pierden su peso durante los primeros 12 a 18 meses. Por eso no todos se sienten animados a tener este tipo de cirugía de obesidad."},
+      {"question": "¿Es posible que recupere peso después de perderlo?", "answer": "Puede ser si vuelve al antiguo estilo de vida poco saludable, pero es conocido que la cirugía duodenal tiene la mejor pérdida de peso duradera entre los tipos de cirugía de obesidad."},
+      {"question": "¿Tengo que evitar ciertos tipos de alimentos después de la cirugía?", "answer": "Es difícil mencionar tipos específicos de alimentos porque difiere de un paciente a otro, pero hay algunos tipos de alimentos de los que debe mantenerse absolutamente alejado como la comida grasa porque causa diarrea. En cualquier caso, es importante obtener las respuestas a esta pregunta del médico después de que examine su cuerpo."},
+      {"question": "¿Cuánto peso perderé después de la cirugía?", "answer": "La mayoría de los pacientes pierden entre el 40 y el 60% de su peso. Sin embargo, debe saber que nada de esto sucederá si no hace un esfuerzo extra y cambia su estilo de vida a uno más saludable."},
+      {"question": "¿La cirugía de switch duodenal previene el embarazo? ¿O tiene efectos negativos en los cuerpos embarazados?", "answer": "La cirugía no prevendrá el embarazo. Sin embargo, durante los primeros 18 meses sugerimos que una mujer no experimente un embarazo porque durante este tiempo estará perdiendo peso y esto podría afectar negativamente a su cuerpo. En cualquier caso, las cirugías de pérdida de peso ayudan a las mujeres a tener una experiencia de embarazo más saludable (después de la máxima pérdida de peso)."},
+      {"question": "¿La cirugía de switch duodenal cuesta más que otras cirugías de obesidad?", "answer": "Cuesta un poco más que otros tipos de cirugía de obesidad porque requiere más trabajo y esfuerzo del equipo médico y los cirujanos."}
+    ],
+    "diabetesTitle": "Switch Duodenal para la Diabetes",
+    "diabetesP1": "La cirugía de switch duodenal es particularmente efectiva para pacientes con diabetes tipo 2. El procedimiento no solo ayuda con una pérdida de peso significativa, sino que también ha demostrado mejorar o incluso resolver la diabetes en muchos pacientes.",
+    "diabetesP2": "El componente malabsortivo de la cirugía cambia cómo el cuerpo procesa los alimentos y puede llevar a una mejor sensibilidad a la insulina y control del azúcar en sangre. Muchos pacientes ven mejoras en su diabetes incluso antes de que ocurra una pérdida de peso significativa.",
+    "diabetesHighlight": "Los estudios han demostrado que el switch duodenal tiene una de las tasas más altas de remisión de diabetes entre todos los procedimientos bariátricos, lo que lo convierte en una excelente opción para pacientes con obesidad severa complicada por diabetes.",
+    "ctaTitle": "¿Es el Switch Duodenal Adecuado para Usted?",
+    "ctaDesc": "Contáctenos hoy para una consulta gratuita para determinar si la cirugía de switch duodenal es la opción correcta para sus objetivos de pérdida de peso y manejo de la diabetes."
   },
   "esg": {
     "title": "Gastroplastia Endoscópica en Manga",
