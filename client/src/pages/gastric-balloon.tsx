@@ -23,27 +23,11 @@ const balloonTypes = [
   }
 ];
 
-const benefits = [
-  {
-    title: "Minimal Incision",
-    description: "This type of surgery requires less incision which will not affect the appearance of the patient."
-  },
-  {
-    title: "Forces Healthy Habits",
-    description: "This surgery forces patients to do a severe diet and follow a healthy life system as the balloon fills more than 50% of the stomach volume."
-  },
-  {
-    title: "No Side Effects",
-    description: "There are no side effects of inserting the balloon into the stomach because the material is designed to live in the stomach and not cause any annoyances."
-  },
-  {
-    title: "Test Before Surgery",
-    description: "Most patients demand gastric balloon surgery to see whether they will have any pleasant results of surgeries or not."
-  }
-];
-
 export default function GastricBalloon() {
   const { t } = useTranslation('treatments');
+  
+  const advantages = t('gastricBalloon.advantages', { returnObjects: true }) as string[];
+  const disadvantages = t('gastricBalloon.disadvantages', { returnObjects: true }) as string[];
   
   return (
     <div className="min-h-screen bg-white">
@@ -156,23 +140,28 @@ export default function GastricBalloon() {
         </div>
       </section>
 
-      {/* Why Preferred */}
+      {/* Advantages */}
       <section className="py-20 bg-blue-50">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">Why is it preferred more than other types of weight loss surgery?</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-8">{t('common.advantages')}</h2>
           
-          <div className="grid md:grid-cols-2 gap-6">
-            {benefits.map((benefit, i) => (
-              <div key={i} className="bg-white rounded-xl p-6 shadow-sm border border-slate-100">
-                <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-                    <CheckCircle2 className="w-5 h-5 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-slate-900 mb-2">{benefit.title}</h3>
-                    <p className="text-slate-600">{benefit.description}</p>
-                  </div>
+          <div className="grid md:grid-cols-2 gap-4">
+            {Array.isArray(advantages) && advantages.map((adv, i) => (
+              <div key={i} className="flex items-start gap-3 p-4 bg-white rounded-lg border border-slate-100">
+                <div className="w-6 h-6 rounded-full bg-green-500 text-white flex items-center justify-center shrink-0 mt-0.5">
+                  <CheckCircle2 className="w-4 h-4" />
                 </div>
+                <span className="text-slate-700">{adv}</span>
+              </div>
+            ))}
+          </div>
+          
+          <h3 className="text-2xl font-bold text-slate-900 mt-12 mb-6">{t('common.thingsToConsider')}</h3>
+          <div className="grid md:grid-cols-2 gap-4">
+            {Array.isArray(disadvantages) && disadvantages.map((dis, i) => (
+              <div key={i} className="flex items-start gap-3 p-4 bg-amber-50 rounded-lg border border-amber-100">
+                <div className="w-6 h-6 rounded-full bg-amber-500 text-white flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">!</div>
+                <span className="text-slate-700">{dis}</span>
               </div>
             ))}
           </div>

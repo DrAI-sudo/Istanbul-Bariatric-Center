@@ -7,49 +7,6 @@ import { Check, ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
 
-const packages = [
-  {
-    name: "Sleeve Gastrectomy Basic",
-    price: "£2250",
-    features: [
-      "Best Doctors",
-      "JCI Accredited Hospital",
-      "Airport Pickup",
-      "3 Days Accomodation"
-    ]
-  },
-  {
-    name: "Sleeve Gastrectomy Relaxation",
-    price: "£3250",
-    features: [
-      "Best Doctors",
-      "JCI Accredited Hospital",
-      "Airport Pickup",
-      "5 Days Accomodation"
-    ],
-    recommended: true
-  },
-  {
-    name: "Sleeve Gastrectomy Luxury",
-    price: "£4000",
-    features: [
-      "Best Doctors",
-      "JCI Accredited Hospital",
-      "Airport Pickup",
-      "7 Days Accomodation"
-    ]
-  }
-];
-
-const risks = [
-  "Bleeding from the inside of the stomach or the surgical wound.",
-  "Deep Vein Thrombosis: or DVT which is blood clot forming in your vein during the procedure or during the recovery process.",
-  "Irregular heartbeat: some surgeries can lead to an irregular heartbeat during the surgery.",
-  "Gastric Leaks: the stomach fluids can leak from the suture line in your stomach.",
-  "Stenosis: which means that a part of your stomach might close causing an obstruction in your stomach.",
-  "Vitamin deficiency: the removed part of your stomach is partially responsible for vitamin absorption."
-];
-
 const faqs = [
   {
     question: "What is Gastric Sleeve Surgery?",
@@ -100,6 +57,16 @@ const faqs = [
 export default function SleeveGastrectomy() {
   const { t } = useTranslation('treatments');
   
+  const advantages = t('gastricSleeve.advantages', { returnObjects: true }) as string[];
+  const risks = t('gastricSleeve.risks', { returnObjects: true }) as string[];
+  const packages = t('gastricSleeve.packages', { returnObjects: true }) as { basic: { name: string; price: string; days: string }; relaxation: { name: string; price: string; days: string }; luxury: { name: string; price: string; days: string } };
+  
+  const packageList = [
+    { ...packages.basic, recommended: false },
+    { ...packages.relaxation, recommended: true },
+    { ...packages.luxury, recommended: false }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
       <SEO
@@ -126,15 +93,15 @@ export default function SleeveGastrectomy() {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-6">
-              <h2 className="text-3xl font-bold text-slate-900">Sleeve Gastrectomy Turkey: Overview</h2>
+              <h2 className="text-3xl font-bold text-slate-900">{t('gastricSleeve.overviewTitle')}</h2>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Gastric sleeve or sleeve gastrectomy is a bariatric surgery that is performed by cutting a part of your stomach to create a smaller chamber. It is one of the most applied bariatric surgeries both worldwide and Turkey.
+                {t('gastricSleeve.overviewP1')}
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Obesity is one of the most annoying problems for many people around the world, not just because of the changing in shape, face, or body that comes after it, but also because of the health problems that can be caused by it.
+                {t('gastricSleeve.overviewP2')}
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
-                According to the American Society of Metabolic and Bariatric Surgery, people who do this type of weight loss surgery lose <strong>50 to 60% of their weight</strong> and some of them have lost <strong>70% of their weight</strong>.
+                {t('gastricSleeve.overviewP3')}
               </p>
               <Button 
                 className="bg-primary hover:bg-primary/90 h-12 px-8"
@@ -157,63 +124,19 @@ export default function SleeveGastrectomy() {
         </div>
       </section>
 
-      {/* What is Gastric Sleeve */}
+      {/* Advantages */}
       <section className="py-20 bg-slate-50">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">What is Gastric Sleeve Surgery?</h2>
-          <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
-            <p>
-              It is a type of weight loss surgery that involves cutting a part of your stomach to create a smaller chamber.
-            </p>
-            <p>
-              This surgery is done after using a general anesthesia to make sure you don't feel the pain. The surgeon will divide your stomach into two unequal parts and remove the larger part of the stomach which is almost <strong>75% to 80%</strong> of the stomach volume.
-            </p>
-            <p>
-              The remaining 20 to 25% will be sutured together creating a <strong>banana shaped small stomach</strong>.
-            </p>
-            <p>
-              The steps are few but the surgery is complicated actually so you need to stay at the hospital for the next 24 hours just to make sure that you're not complaining of any side effects or health problems. The small incision in your abdomen will heal fast and you will be able to get back to your normal activities in <strong>three to four days</strong>. In fact, this type of weight loss surgery is considered to be one of the fastest recovery.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Is it effective */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">Is it really effective?</h2>
-          <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
-            <p>
-              To be honest, it is way more effective than diets and daily exercises. After the surgery, your stomach will be definitely smaller which will make you consume less amount of food and make you feel full sooner.
-            </p>
-            <p>
-              In addition, the removed part includes a hormone that is responsible for hunger feelings so when 80% of the stomach is removed this hormone will be reduced and the feeling of hunger will also be reduced.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Who is qualified */}
-      <section className="py-20 bg-blue-50">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">Who is qualified for gastric sleeve surgery?</h2>
-          <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
-            <p>
-              Anyone who complains of obesity can do this surgery but after attempting the old school traditional ways like diets and daily exercises because a surgery is not something easy no matter what it is.
-            </p>
-            <p>
-              In addition, you must meet the criteria for weight loss surgery and measure your obesity using the BMI Index:
-            </p>
-            <ul className="space-y-4 pl-6">
-              <li className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center shrink-0 mt-1 text-sm font-bold">1</div>
-                <span>If your BMI score is <strong>40 and higher</strong> then you definitely need a bariatric surgery.</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center shrink-0 mt-1 text-sm font-bold">2</div>
-                <span>If you score <strong>between 35 to 39</strong>, then you might solve the problem without doing a surgery.</span>
-              </li>
-            </ul>
+          <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">{t('common.advantages')}</h2>
+          <div className="grid md:grid-cols-2 gap-4">
+            {Array.isArray(advantages) && advantages.map((adv, i) => (
+              <div key={i} className="flex items-start gap-3 p-4 bg-green-50 rounded-lg border border-green-100">
+                <div className="w-6 h-6 rounded-full bg-green-500 text-white flex items-center justify-center shrink-0 mt-0.5">
+                  <Check className="w-4 h-4" />
+                </div>
+                <span className="text-slate-700">{adv}</span>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -221,21 +144,15 @@ export default function SleeveGastrectomy() {
       {/* Risks */}
       <section className="py-20">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">Does gastric sleeve surgery have any risks?</h2>
-          <p className="text-lg text-slate-600 mb-8 text-center">
-            Gastric Sleeve Surgery is known to be safe, however, just like any other field surgery there are few risks to mention:
-          </p>
+          <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">{t('common.risks')}</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            {risks.map((risk, i) => (
+            {Array.isArray(risks) && risks.map((risk, i) => (
               <div key={i} className="flex items-start gap-3 p-4 bg-amber-50 rounded-lg border border-amber-100">
                 <div className="w-6 h-6 rounded-full bg-amber-500 text-white flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">!</div>
                 <span className="text-slate-700">{risk}</span>
               </div>
             ))}
           </div>
-          <p className="text-lg text-slate-600 mt-8 text-center">
-            In the end, you should know that in order to have pleasant results you must follow the doctor's recommendations and diet program.
-          </p>
         </div>
       </section>
 
@@ -243,16 +160,16 @@ export default function SleeveGastrectomy() {
       <section className="py-20 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">Sleeve Gastrectomy Package Options</h2>
-            <p className="text-slate-600 text-lg">In Istanbul Bariatric Center, you are free to choose any of the treatment packages that fits your budget.</p>
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">{t('main.sleevePackageTitle')}</h2>
+            <p className="text-slate-600 text-lg">{t('main.sleevePackageDesc')}</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {packages.map((pkg, idx) => (
+            {packageList.map((pkg, idx) => (
               <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? 'border-primary shadow-lg scale-105 z-10' : 'border-white shadow-sm'}`}>
                 {pkg.recommended && (
                   <div className="absolute top-0 right-0 bg-primary text-white text-xs font-bold px-3 py-1 rounded-bl-lg">
-                    POPULAR
+                    {t('common.popular')}
                   </div>
                 )}
                 <CardHeader className="text-center pb-2">
@@ -261,14 +178,30 @@ export default function SleeveGastrectomy() {
                 <CardContent className="text-center space-y-6">
                   <div className="text-4xl font-extrabold text-primary">{pkg.price}</div>
                   <ul className="space-y-4 text-left mx-auto max-w-[200px]">
-                    {pkg.features.map((feature, fIdx) => (
-                      <li key={fIdx} className="flex items-center gap-3 text-slate-700">
-                        <div className="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center shrink-0">
-                          <Check className="w-3 h-3 text-primary" />
-                        </div>
-                        {feature}
-                      </li>
-                    ))}
+                    <li className="flex items-center gap-3 text-slate-700">
+                      <div className="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center shrink-0">
+                        <Check className="w-3 h-3 text-primary" />
+                      </div>
+                      {t('common.bestDoctors')}
+                    </li>
+                    <li className="flex items-center gap-3 text-slate-700">
+                      <div className="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center shrink-0">
+                        <Check className="w-3 h-3 text-primary" />
+                      </div>
+                      {t('common.jciHospital')}
+                    </li>
+                    <li className="flex items-center gap-3 text-slate-700">
+                      <div className="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center shrink-0">
+                        <Check className="w-3 h-3 text-primary" />
+                      </div>
+                      {t('common.airportPickup')}
+                    </li>
+                    <li className="flex items-center gap-3 text-slate-700">
+                      <div className="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center shrink-0">
+                        <Check className="w-3 h-3 text-primary" />
+                      </div>
+                      {pkg.days} {t('common.daysAccommodation')}
+                    </li>
                   </ul>
                 </CardContent>
                 <CardFooter className="pt-4 pb-8">
@@ -276,7 +209,7 @@ export default function SleeveGastrectomy() {
                     className={`w-full ${pkg.recommended ? 'bg-primary hover:bg-primary/90' : 'bg-slate-900 hover:bg-slate-800'}`}
                     onClick={() => window.open('https://wa.me/447491068686', '_blank')}
                   >
-                    SELECT PACKAGE
+                    {t('common.selectPackage')}
                   </Button>
                 </CardFooter>
               </Card>

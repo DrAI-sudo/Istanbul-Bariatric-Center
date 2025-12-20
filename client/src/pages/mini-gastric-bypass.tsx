@@ -34,6 +34,9 @@ const tableOfContents = [
 export default function MiniGastricBypass() {
   const { t } = useTranslation('treatments');
   
+  const advantages = t('gastricBypass.advantages', { returnObjects: true }) as string[];
+  const disadvantages = t('gastricBypass.disadvantages', { returnObjects: true }) as string[];
+  
   return (
     <div className="min-h-screen bg-white">
       <SEO
@@ -109,6 +112,33 @@ export default function MiniGastricBypass() {
             <p className="text-lg leading-relaxed">
               The mini gastric bypass surgery can be used as a primary weight loss surgery or can be used for people who already tried diet and daily exercises but did not have any pleasant results, or for patients who are redoing a weight loss surgery because the first one did not succeed for any reason.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Advantages & Disadvantages */}
+      <section className="py-20 bg-green-50">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl font-bold text-slate-900 mb-8">{t('common.advantages')}</h2>
+          <div className="grid md:grid-cols-2 gap-4 mb-12">
+            {Array.isArray(advantages) && advantages.map((adv, i) => (
+              <div key={i} className="flex items-start gap-3 p-4 bg-white rounded-lg border border-green-100">
+                <div className="w-6 h-6 rounded-full bg-green-500 text-white flex items-center justify-center shrink-0 mt-0.5">
+                  <CheckCircle2 className="w-4 h-4" />
+                </div>
+                <span className="text-slate-700">{adv}</span>
+              </div>
+            ))}
+          </div>
+          
+          <h3 className="text-2xl font-bold text-slate-900 mb-6">{t('common.thingsToConsider')}</h3>
+          <div className="grid md:grid-cols-2 gap-4">
+            {Array.isArray(disadvantages) && disadvantages.map((dis, i) => (
+              <div key={i} className="flex items-start gap-3 p-4 bg-amber-50 rounded-lg border border-amber-100">
+                <div className="w-6 h-6 rounded-full bg-amber-500 text-white flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">!</div>
+                <span className="text-slate-700">{dis}</span>
+              </div>
+            ))}
           </div>
         </div>
       </section>
