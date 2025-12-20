@@ -109,7 +109,7 @@ export const blogPosts: BlogPost[] = [
 <h3>Understanding the MiniMIZER Ring</h3>
 <p>The MiniMIZER® Ring is a non-adjustable, medical-grade silicone device designed to encircle the upper portion of the stomach pouch created during bariatric procedures. Its primary function is to provide a consistent restriction, thereby enhancing satiety and preventing the dilation of the gastric pouch over time.</p>
 
-<img loading="lazy" src="https://istanbulbariatriccenter.com/wp-content/uploads/2025/04/IMG_1129-1024x681.jpeg" alt="MiniMIZER Ring" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/minimizer-ring-product.png" alt="MiniMIZER Ring - Medical Grade Silicone Device for Bariatric Surgery" class="w-full rounded-lg my-6" />
 
 <h3>Application in Primary Bariatric Surgery</h3>
 <p>In primary bariatric surgeries, particularly the Roux-en-Y gastric bypass (RYGB) and sleeve gastrectomy, the MiniMIZER® Ring serves to augment the restrictive component of the procedure.</p>
