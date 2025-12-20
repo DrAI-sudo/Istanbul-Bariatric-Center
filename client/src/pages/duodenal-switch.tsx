@@ -88,7 +88,7 @@ export default function DuodenalSwitch() {
             <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
               <iframe
                 className="w-full h-full"
-                src="https://www.youtube.com/embed/JQjvwpCmTeI"
+                src="https://www.youtube.com/embed/EX68RG6faUo"
                 title="Duodenal Switch Surgery Explained"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
