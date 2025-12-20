@@ -79,11 +79,11 @@ export default function MiniGastricBypass() {
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="flex justify-center mb-12">
             <img 
-              src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/mini-gastric-bypass-300x296.png" 
+              src="https://www.ifso.com/images/oagb-mini-gastric-bypass-img.jpg" 
               alt="Mini Gastric Bypass Surgery Illustration" 
-              className="max-w-sm w-full"
-              width="300"
-              height="296"
+              className="max-w-md w-full rounded-xl shadow-lg"
+              width="400"
+              height="400"
               loading="lazy"
             />
           </div>
