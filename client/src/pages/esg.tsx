@@ -65,12 +65,31 @@ export default function ESG() {
             </div>
             <div className="flex justify-center">
               <img 
-                src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2023/03/IMG_4450-1024x941.jpeg" 
-                alt="Apollo Endoscopic Gastroplasty ESG" 
+                src="https://cdn.durable.co/blocks/30R8bzGmRZ7QXj7gX5yFO3oEJLlwBsNJujHFhMv9qhwcOshDkscOR2rp9Zduoc5V.jpg" 
+                alt="Apollo Endoscopic Gastroplasty ESG Procedure" 
                 className="rounded-2xl shadow-xl max-w-md w-full"
                 width="400"
-                height="368"
+                height="400"
                 loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Animation Video Section */}
+      <section className="py-16 bg-slate-100">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">Apollo Endosleeve (ESG) Animation</h2>
+            <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/z_NcxpUfPG4"
+                title="Apollo ESG Endoscopic Gastroplasty Animation"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
               />
             </div>
           </div>
