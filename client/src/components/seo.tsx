@@ -30,7 +30,8 @@ export function SEO({
 }: SEOProps) {
   const { i18n } = useTranslation();
   const currentLang = i18n.language || "en";
-  const fullUrl = url ? `${BASE_URL}${url}` : BASE_URL;
+  const baseUrl = url ? `${BASE_URL}${url}` : BASE_URL;
+  const fullUrl = currentLang === "en" ? baseUrl : `${baseUrl}?lang=${currentLang}`;
   const fullTitle = `${title} | ${SITE_NAME}`;
 
   useEffect(() => {
@@ -101,14 +102,14 @@ export function SEO({
     setLink("canonical", fullUrl);
 
     LANGUAGES.forEach((lang) => {
-      const langUrl = lang === "en" ? fullUrl : `${fullUrl}?lang=${lang}`;
+      const langUrl = lang === "en" ? baseUrl : `${baseUrl}?lang=${lang}`;
       setLink("alternate", langUrl, lang);
     });
-    setLink("alternate", fullUrl, "x-default");
+    setLink("alternate", baseUrl, "x-default");
 
     return () => {
     };
-  }, [fullTitle, description, keywords, image, fullUrl, type, publishedTime, author, currentLang]);
+  }, [fullTitle, description, keywords, image, fullUrl, baseUrl, type, publishedTime, author, currentLang]);
 
   return null;
 }

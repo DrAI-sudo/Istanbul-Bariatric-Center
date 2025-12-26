@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <!-- ============================================ -->
   <!-- MAIN PAGES -->
@@ -12,16 +11,6 @@
     <lastmod>2025-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://istanbulbariatriccenter.com/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://istanbulbariatriccenter.com/?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://istanbulbariatriccenter.com/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://istanbulbariatriccenter.com/?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://istanbulbariatriccenter.com/?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://istanbulbariatriccenter.com/?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://istanbulbariatriccenter.com/?lang=ro"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://istanbulbariatriccenter.com/?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://istanbulbariatriccenter.com/?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://istanbulbariatriccenter.com/"/>
   </url>
 
   <!-- About -->
@@ -30,16 +19,6 @@
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://istanbulbariatriccenter.com/about"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://istanbulbariatriccenter.com/about?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://istanbulbariatriccenter.com/about?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://istanbulbariatriccenter.com/about?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://istanbulbariatriccenter.com/about?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://istanbulbariatriccenter.com/about?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://istanbulbariatriccenter.com/about?lang=ro"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://istanbulbariatriccenter.com/about?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://istanbulbariatriccenter.com/about?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://istanbulbariatriccenter.com/about"/>
   </url>
 
   <!-- Treatments -->
@@ -48,16 +27,6 @@
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://istanbulbariatriccenter.com/treatments"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://istanbulbariatriccenter.com/treatments?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://istanbulbariatriccenter.com/treatments?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://istanbulbariatriccenter.com/treatments?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://istanbulbariatriccenter.com/treatments?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://istanbulbariatriccenter.com/treatments?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://istanbulbariatriccenter.com/treatments?lang=ro"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://istanbulbariatriccenter.com/treatments?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://istanbulbariatriccenter.com/treatments?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://istanbulbariatriccenter.com/treatments"/>
   </url>
 
   <!-- Gastric Sleeve -->
@@ -66,16 +35,6 @@
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://istanbulbariatriccenter.com/sleeve-gastrectomy"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://istanbulbariatriccenter.com/sleeve-gastrectomy?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://istanbulbariatriccenter.com/sleeve-gastrectomy?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://istanbulbariatriccenter.com/sleeve-gastrectomy?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://istanbulbariatriccenter.com/sleeve-gastrectomy?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://istanbulbariatriccenter.com/sleeve-gastrectomy?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://istanbulbariatriccenter.com/sleeve-gastrectomy?lang=ro"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://istanbulbariatriccenter.com/sleeve-gastrectomy?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://istanbulbariatriccenter.com/sleeve-gastrectomy?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://istanbulbariatriccenter.com/sleeve-gastrectomy"/>
   </url>
 
   <!-- Mini Gastric Bypass -->
@@ -84,16 +43,6 @@
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://istanbulbariatriccenter.com/mini-gastric-bypass"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://istanbulbariatriccenter.com/mini-gastric-bypass?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://istanbulbariatriccenter.com/mini-gastric-bypass?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://istanbulbariatriccenter.com/mini-gastric-bypass?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://istanbulbariatriccenter.com/mini-gastric-bypass?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://istanbulbariatriccenter.com/mini-gastric-bypass?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://istanbulbariatriccenter.com/mini-gastric-bypass?lang=ro"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://istanbulbariatriccenter.com/mini-gastric-bypass?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://istanbulbariatriccenter.com/mini-gastric-bypass?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://istanbulbariatriccenter.com/mini-gastric-bypass"/>
   </url>
 
   <!-- Gastric Balloon -->
@@ -102,16 +51,6 @@
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://istanbulbariatriccenter.com/gastric-balloon"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://istanbulbariatriccenter.com/gastric-balloon?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://istanbulbariatriccenter.com/gastric-balloon?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://istanbulbariatriccenter.com/gastric-balloon?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://istanbulbariatriccenter.com/gastric-balloon?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://istanbulbariatriccenter.com/gastric-balloon?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://istanbulbariatriccenter.com/gastric-balloon?lang=ro"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://istanbulbariatriccenter.com/gastric-balloon?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://istanbulbariatriccenter.com/gastric-balloon?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://istanbulbariatriccenter.com/gastric-balloon"/>
   </url>
 
   <!-- Duodenal Switch -->
@@ -120,16 +59,6 @@
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://istanbulbariatriccenter.com/duodenal-switch"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://istanbulbariatriccenter.com/duodenal-switch?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://istanbulbariatriccenter.com/duodenal-switch?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://istanbulbariatriccenter.com/duodenal-switch?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://istanbulbariatriccenter.com/duodenal-switch?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://istanbulbariatriccenter.com/duodenal-switch?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://istanbulbariatriccenter.com/duodenal-switch?lang=ro"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://istanbulbariatriccenter.com/duodenal-switch?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://istanbulbariatriccenter.com/duodenal-switch?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://istanbulbariatriccenter.com/duodenal-switch"/>
   </url>
 
   <!-- ESG -->
@@ -138,16 +67,6 @@
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://istanbulbariatriccenter.com/esg"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://istanbulbariatriccenter.com/esg?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://istanbulbariatriccenter.com/esg?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://istanbulbariatriccenter.com/esg?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://istanbulbariatriccenter.com/esg?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://istanbulbariatriccenter.com/esg?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://istanbulbariatriccenter.com/esg?lang=ro"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://istanbulbariatriccenter.com/esg?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://istanbulbariatriccenter.com/esg?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://istanbulbariatriccenter.com/esg"/>
   </url>
 
   <!-- Transit Bipartition -->
@@ -156,16 +75,6 @@
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://istanbulbariatriccenter.com/transit-bipartition"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://istanbulbariatriccenter.com/transit-bipartition?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://istanbulbariatriccenter.com/transit-bipartition?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://istanbulbariatriccenter.com/transit-bipartition?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://istanbulbariatriccenter.com/transit-bipartition?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://istanbulbariatriccenter.com/transit-bipartition?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://istanbulbariatriccenter.com/transit-bipartition?lang=ro"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://istanbulbariatriccenter.com/transit-bipartition?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://istanbulbariatriccenter.com/transit-bipartition?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://istanbulbariatriccenter.com/transit-bipartition"/>
   </url>
 
   <!-- Post Bariatric Surgery -->
@@ -174,16 +83,6 @@
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://istanbulbariatriccenter.com/post-bariatric-surgery"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://istanbulbariatriccenter.com/post-bariatric-surgery?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://istanbulbariatriccenter.com/post-bariatric-surgery?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://istanbulbariatriccenter.com/post-bariatric-surgery?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://istanbulbariatriccenter.com/post-bariatric-surgery?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://istanbulbariatriccenter.com/post-bariatric-surgery?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://istanbulbariatriccenter.com/post-bariatric-surgery?lang=ro"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://istanbulbariatriccenter.com/post-bariatric-surgery?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://istanbulbariatriccenter.com/post-bariatric-surgery?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://istanbulbariatriccenter.com/post-bariatric-surgery"/>
   </url>
 
   <!-- Results -->
@@ -192,16 +91,6 @@
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://istanbulbariatriccenter.com/results"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://istanbulbariatriccenter.com/results?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://istanbulbariatriccenter.com/results?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://istanbulbariatriccenter.com/results?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://istanbulbariatriccenter.com/results?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://istanbulbariatriccenter.com/results?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://istanbulbariatriccenter.com/results?lang=ro"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://istanbulbariatriccenter.com/results?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://istanbulbariatriccenter.com/results?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://istanbulbariatriccenter.com/results"/>
   </url>
 
   <!-- Blog Index -->
@@ -210,16 +99,6 @@
     <lastmod>2025-05-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://istanbulbariatriccenter.com/blog"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://istanbulbariatriccenter.com/blog?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://istanbulbariatriccenter.com/blog?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://istanbulbariatriccenter.com/blog?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://istanbulbariatriccenter.com/blog?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://istanbulbariatriccenter.com/blog?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://istanbulbariatriccenter.com/blog?lang=ro"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://istanbulbariatriccenter.com/blog?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://istanbulbariatriccenter.com/blog?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://istanbulbariatriccenter.com/blog"/>
   </url>
 
   <!-- Contact -->
@@ -228,20 +107,10 @@
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://istanbulbariatriccenter.com/contact"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://istanbulbariatriccenter.com/contact?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://istanbulbariatriccenter.com/contact?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://istanbulbariatriccenter.com/contact?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://istanbulbariatriccenter.com/contact?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://istanbulbariatriccenter.com/contact?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="ro" href="https://istanbulbariatriccenter.com/contact?lang=ro"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://istanbulbariatriccenter.com/contact?lang=ru"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://istanbulbariatriccenter.com/contact?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://istanbulbariatriccenter.com/contact"/>
   </url>
 
   <!-- ============================================ -->
-  <!-- BLOG POSTS (47 articles) -->
+  <!-- BLOG POSTS -->
   <!-- ============================================ -->
   
   <url>
@@ -462,101 +331,101 @@
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/bariatric-surgery-18-frequently-asked-questions</loc>
+    <loc>https://istanbulbariatriccenter.com/blog/effects-of-obesity-on-sexual-activity</loc>
     <lastmod>2023-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/melatonin-sleep-glucose-metabolism</loc>
+    <loc>https://istanbulbariatriccenter.com/blog/incisionless-stomach-reduction-endoscopic-sleeve-gastroplasty</loc>
     <lastmod>2023-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/argon-plasma-coagulation-weight-regain</loc>
+    <loc>https://istanbulbariatriccenter.com/blog/gastric-sleeve-surgery-cost</loc>
     <lastmod>2023-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/revisional-bariatric-surgery-in-turkey</loc>
+    <loc>https://istanbulbariatriccenter.com/blog/obesity-and-sleep-apnea</loc>
     <lastmod>2023-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/marmite-rich-resource-of-vitamin-b</loc>
+    <loc>https://istanbulbariatriccenter.com/blog/new-study-asserts-weight-loss-surgery-can-extend-life-by-years</loc>
     <lastmod>2023-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/ozempic-medical-treatment-of-obesity</loc>
+    <loc>https://istanbulbariatriccenter.com/blog/gastric-sleeve-or-bypass</loc>
     <lastmod>2023-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/bariclip</loc>
+    <loc>https://istanbulbariatriccenter.com/blog/is-bariatric-surgery-safe</loc>
     <lastmod>2023-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/elipse-swallowable-intragastric-balloon</loc>
+    <loc>https://istanbulbariatriccenter.com/blog/revision-bariatric-surgery</loc>
     <lastmod>2022-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/transit-bipartition-revision-alternative</loc>
+    <loc>https://istanbulbariatriccenter.com/blog/how-safe-is-weight-loss-surgery</loc>
     <lastmod>2022-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/bariatric-preoperative-diet</loc>
+    <loc>https://istanbulbariatriccenter.com/blog/getting-weight-loss-surgery-in-istanbul</loc>
     <lastmod>2022-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/obese-adults-covid-vaccine-priority</loc>
-    <lastmod>2021-03-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://istanbulbariatriccenter.com/blog/what-is-metabolic-syndrome</loc>
+    <lastmod>2022-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/why-istanbul-is-an-important-location-for-obesity-surgery</loc>
-    <lastmod>2021-02-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://istanbulbariatriccenter.com/blog/transit-bipartition-with-sleeve-gastrectomy</loc>
+    <lastmod>2022-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/bariatric-surgery-during-covid-19-pandemic</loc>
-    <lastmod>2020-12-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://istanbulbariatriccenter.com/blog/how-much-weight-can-you-lose-with-gastric-sleeve</loc>
+    <lastmod>2022-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/nutrition-tips-during-self-quarantine-covid-19</loc>
-    <lastmod>2020-04-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://istanbulbariatriccenter.com/blog/why-choose-istanbul-for-bariatric-surgery</loc>
+    <lastmod>2022-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>
