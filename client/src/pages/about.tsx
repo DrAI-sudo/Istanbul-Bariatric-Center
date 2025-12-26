@@ -16,7 +16,7 @@ const doctors = [
   {
     name: "Neşe Targen",
     role: "Senior UK Registered Bariatric Dietitian",
-    image: "https://bariatricsurgeryinturkey.com/assets/nese_targen-BZzXpnQk.webp",
+    image: "/nese-targen.webp",
     desc: "Senior clinical dietitian specializing in complex obesity and bariatric surgery with extensive NHS and private sector experience. Provides pre and post-operative dietary support, fluent in Turkish and English. Member of HCPC, BDA, BOMSS, and IFSO.",
     specialties: ["Weight Management", "Bariatric Nutrition", "Complex Obesity"]
   },
@@ -26,13 +26,6 @@ const doctors = [
     image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/01/Untitled-design-1.jpeg",
     desc: "Specialized in Plastic and Reconstructive Surgery since 2000. Received Plastic and Reconstructive Surgery training after weight loss (bariatric surgery) in Pittsburg in 2006.",
     specialties: ["Reconstructive Surgery", "Body Contouring", "Facial Surgery"]
-  },
-  {
-    name: "Dr. Hasan Alim",
-    role: "Plastic Surgeon",
-    image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/01/Untitled-design-2.jpeg",
-    desc: "Board-certified plastic reconstructive surgeon specializing in cosmetic surgery, facial rejuvenation, body contouring, and breast surgery.",
-    specialties: ["Cosmetic Surgery", "Body Contouring", "Breast Surgery"]
   },
   {
     name: "Dr. Levent Bakisgan",
