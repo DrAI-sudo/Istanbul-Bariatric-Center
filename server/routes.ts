@@ -20,6 +20,7 @@ const LEGACY_REDIRECTS: Record<string, string> = {
   "/uncategorized": "/blog",
   "/5-things-you-didnt-know-about-bariatric-surgery-with-dr-charles-procter": "/blog/5-things-you-didnt-know-about-bariatric-surgery",
   "/comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty-making-an-informed-choice-for-weight-loss": "/blog/comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty",
+  "/post-bariatric-sugeries": "/post-bariatric-surgery",
 };
 
 const YEAR_ARCHIVE_REGEX = /^\/20\d{2}(\/\d{1,2})?$/;
