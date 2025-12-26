@@ -5,10 +5,53 @@ import { insertContactSubmissionSchema } from "@shared/schema";
 import { fromZodError } from "zod-validation-error";
 import { sendContactEmail } from "./email";
 
+const LEGACY_REDIRECTS: Record<string, string> = {
+  "/treatments/bariatric-surgery/sleeve-gastrectomy": "/sleeve-gastrectomy",
+  "/treatments/bariatric-surgery/gastric-bypass": "/mini-gastric-bypass",
+  "/treatments/bariatric-surgery/gastric-balloon": "/gastric-balloon",
+  "/treatments/bariatric-surgery/duodenal-switch": "/duodenal-switch",
+  "/about-us": "/about",
+  "/bariatric-surgery-": "/treatments",
+  "/bariatric-surgery": "/treatments",
+  "/blog/page/1": "/blog",
+  "/blog/page/2": "/blog",
+  "/blog/page/3": "/blog",
+  "/uncategorized/page/1": "/blog",
+  "/uncategorized": "/blog",
+  "/5-things-you-didnt-know-about-bariatric-surgery-with-dr-charles-procter": "/blog/5-things-you-didnt-know-about-bariatric-surgery",
+  "/comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty-making-an-informed-choice-for-weight-loss": "/blog/comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty",
+};
+
 export async function registerRoutes(
   httpServer: Server,
   app: Express
 ): Promise<Server> {
+  app.use((req, res, next) => {
+    const path = req.path;
+    
+    if (LEGACY_REDIRECTS[path]) {
+      return res.redirect(301, LEGACY_REDIRECTS[path]);
+    }
+    
+    if (req.query.page_id === "24") {
+      return res.redirect(301, "/about");
+    }
+    if (req.query.p === "1843") {
+      return res.redirect(301, "/blog/comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty");
+    }
+    if (req.query.p === "1838") {
+      return res.redirect(301, "/blog/5-things-you-didnt-know-about-bariatric-surgery");
+    }
+    if (req.query.p) {
+      return res.redirect(301, "/blog");
+    }
+    if (req.query.page_id) {
+      return res.redirect(301, "/");
+    }
+    
+    next();
+  });
+
   // Contact form submission endpoint
   app.post("/api/contact", async (req, res) => {
     try {
