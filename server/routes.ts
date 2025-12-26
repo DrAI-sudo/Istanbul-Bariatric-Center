@@ -22,6 +22,10 @@ const LEGACY_REDIRECTS: Record<string, string> = {
   "/comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty-making-an-informed-choice-for-weight-loss": "/blog/comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty",
 };
 
+const YEAR_ARCHIVE_REGEX = /^\/20\d{2}(\/\d{1,2})?$/;
+const TAG_REGEX = /^\/tag\/.+$/;
+const EMBED_REGEX = /^\/[^/]+\/embed$/;
+
 export async function registerRoutes(
   httpServer: Server,
   app: Express
@@ -31,6 +35,16 @@ export async function registerRoutes(
     
     if (LEGACY_REDIRECTS[path]) {
       return res.redirect(301, LEGACY_REDIRECTS[path]);
+    }
+    
+    if (YEAR_ARCHIVE_REGEX.test(path)) {
+      return res.redirect(301, "/blog");
+    }
+    if (TAG_REGEX.test(path)) {
+      return res.redirect(301, "/blog");
+    }
+    if (EMBED_REGEX.test(path)) {
+      return res.redirect(301, "/");
     }
     
     if (req.query.page_id === "24") {
