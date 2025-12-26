@@ -22,6 +22,7 @@ const LEGACY_REDIRECTS: Record<string, string> = {
   "/comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty-making-an-informed-choice-for-weight-loss": "/blog/comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty",
   "/post-bariatric-sugeries": "/post-bariatric-surgery",
   "/apollo-endoscopic-sleeve-gastroplasty-esg-turkey": "/esg",
+  "/obesity-treatment": "/treatments",
 };
 
 const YEAR_ARCHIVE_REGEX = /^\/20\d{2}(\/\d{1,2})?$/;
