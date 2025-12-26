@@ -3,7 +3,34 @@ import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { SEO } from "@/components/seo";
+import { SEO, JsonLd, structuredData } from "@/components/seo";
+
+const esgFaqs = [
+  {
+    question: "What is Endoscopic Sleeve Gastroplasty (ESG)?",
+    answer: "Endoscopic Sleeve Gastroplasty (ESG) is a minimally invasive, non-surgical weight loss procedure that reduces the size of your stomach by up to 70-80% using an endoscopic suturing device inserted through the mouth. No incisions are required."
+  },
+  {
+    question: "How much does ESG cost in Turkey?",
+    answer: "ESG in Turkey costs significantly less than in the UK, US, or Europe, typically ranging from £3,500-£5,500, including hospital stay, medical team, and aftercare. This is about 50-70% less than Western prices."
+  },
+  {
+    question: "What is the recovery time after ESG?",
+    answer: "Most patients can go home the same day or within 24 hours. Recovery is quick with most people returning to normal activities within 3-5 days. Full dietary progression takes about 6 weeks."
+  },
+  {
+    question: "How much weight can I lose with ESG?",
+    answer: "Patients typically lose 15-20% of their total body weight over 12-18 months. Those with BMI 38+ can expect to lose around 20kg in 6 months and 25kg in 12 months."
+  },
+  {
+    question: "Who is a good candidate for ESG in Turkey?",
+    answer: "ESG is ideal for patients with BMI 30-40 who haven't succeeded with diet and exercise alone, those who want to avoid surgery, or those who don't qualify for traditional bariatric surgery."
+  },
+  {
+    question: "Is ESG safer than gastric sleeve surgery?",
+    answer: "Yes, ESG has a lower risk profile than surgical procedures as it requires no incisions, has shorter procedure time (~90 minutes), and is reversible. It has shown a highly strong safety record in clinical studies."
+  }
+];
 
 const healthBenefits = [
   "Diabetes (Type 2)",
@@ -22,14 +49,43 @@ const weightLossResults = [
 export default function ESG() {
   const { t } = useTranslation('treatments');
   
+  const esgProcedureSchema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalProcedure",
+    "name": "Endoscopic Sleeve Gastroplasty (ESG)",
+    "alternateName": ["ESG", "Apollo ESG", "Endoscopic Stomach Reduction", "Non-Surgical Gastric Sleeve"],
+    "description": "Endoscopic Sleeve Gastroplasty is a minimally invasive, non-surgical weight loss procedure that reduces stomach size by 70-80% using an endoscopic suturing device. No incisions required.",
+    "procedureType": "Endoscopic",
+    "bodyLocation": "Stomach",
+    "preparation": "Pre-operative consultation, blood tests, and fasting before procedure",
+    "followup": "Liquid diet for 2 weeks, semi-solid for 4 weeks, then transition to healthy eating with regular checkups",
+    "howPerformed": "An endoscopic suturing device (Apollo Overstitch) is inserted through the mouth to place sutures in the stomach, reducing its size without any incisions",
+    "status": "https://schema.org/ActiveActionStatus",
+    "recognizingAuthority": {
+      "@type": "Organization",
+      "name": "American Society for Metabolic and Bariatric Surgery"
+    },
+    "relevantSpecialty": {
+      "@type": "MedicalSpecialty",
+      "name": "Bariatric Surgery"
+    }
+  };
+  
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Endoscopic Sleeve Gastroplasty (ESG) in Turkey"
-        description="Apollo Endoscopic Sleeve Gastroplasty in Istanbul. Non-surgical, incisionless weight loss procedure. 15-20% weight loss, quick recovery."
-        keywords="endoscopic sleeve gastroplasty turkey, esg istanbul, apollo esg, non-surgical weight loss"
+        title="Endoscopic Sleeve Gastroplasty Turkey | ESG Istanbul | Non-Surgical Weight Loss"
+        description="Get Endoscopic Sleeve Gastroplasty (ESG) in Turkey with Apollo Overstitch technology. Non-surgical, incisionless stomach reduction. 15-20% weight loss, same-day discharge, from £3,500. Expert bariatric team in Istanbul."
+        keywords="endoscopic sleeve gastroplasty turkey, esg turkey, endoscopic sleeve gastroplasty istanbul, apollo esg turkey, non-surgical weight loss turkey, stomach reduction without surgery, endoscopic bariatric procedure turkey, esg cost turkey, incisionless weight loss, apollo overstitch turkey, esg weight loss, endoscopic gastroplasty price"
         url="/esg"
       />
+      <JsonLd data={esgProcedureSchema} />
+      <JsonLd data={structuredData.createFAQ(esgFaqs)} />
+      <JsonLd data={structuredData.createBreadcrumb([
+        { name: "Home", url: "/" },
+        { name: "Treatments", url: "/treatments" },
+        { name: "Endoscopic Sleeve Gastroplasty", url: "/esg" }
+      ])} />
       <Navbar />
       
       {/* Hero Header */}
@@ -261,10 +317,27 @@ export default function ESG() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-20 bg-slate-50">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="text-3xl font-bold text-slate-900 mb-4 text-center">Frequently Asked Questions About ESG in Turkey</h2>
+          <p className="text-lg text-slate-600 text-center mb-12">Everything you need to know about Endoscopic Sleeve Gastroplasty</p>
+          
+          <div className="space-y-4">
+            {esgFaqs.map((faq, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 shadow-sm border border-slate-100">
+                <h3 className="text-lg font-bold text-slate-900 mb-3">{faq.question}</h3>
+                <p className="text-slate-600 leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-20 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">Interested in Apollo ESG?</h2>
+          <h2 className="text-3xl font-bold mb-6">Get Endoscopic Sleeve Gastroplasty in Turkey</h2>
           <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
             Contact us today for a free consultation to learn if Apollo Endoscopic Sleeve Gastroplasty is right for you.
           </p>
