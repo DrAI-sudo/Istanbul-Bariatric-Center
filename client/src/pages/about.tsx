@@ -14,6 +14,13 @@ const doctors = [
     specialties: ["Gastric Sleeve", "Gastric Bypass", "Duodenal Switch"]
   },
   {
+    name: "Neşe Targen",
+    role: "Senior UK Registered Bariatric Dietitian",
+    image: "https://bariatricsurgeryinturkey.com/assets/nese_targen-BZzXpnQk.webp",
+    desc: "Senior clinical dietitian specializing in complex obesity and bariatric surgery with extensive NHS and private sector experience. Provides pre and post-operative dietary support, fluent in Turkish and English. Member of HCPC, BDA, BOMSS, and IFSO.",
+    specialties: ["Weight Management", "Bariatric Nutrition", "Complex Obesity"]
+  },
+  {
     name: "Dr. Erhan Eryılmaz",
     role: "Plastic Surgeon",
     image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/01/Untitled-design-1.jpeg",
