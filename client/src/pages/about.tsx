@@ -28,6 +28,13 @@ const doctors = [
     specialties: ["Reconstructive Surgery", "Body Contouring", "Facial Surgery"]
   },
   {
+    name: "Dr. Esra Bilgen",
+    role: "Plastic Surgeon",
+    image: "/esra-bilgen.webp",
+    desc: "Completed her medical training at 19 Mayıs University and specialty training at Ankara Dışkapı Yıldırım Beyazıt Training and Research Hospital in 2010. Participated in numerous national and international scientific conferences with internationally recognized publications.",
+    specialties: ["Rhinoplasty", "Body Contouring", "Breast Surgery"]
+  },
+  {
     name: "Dr. Levent Bakisgan",
     role: "General Surgeon-Bariatric Endoscopist",
     image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/01/Untitled-design-3.jpeg",
