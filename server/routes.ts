@@ -24,6 +24,7 @@ const LEGACY_REDIRECTS: Record<string, string> = {
   "/apollo-endoscopic-sleeve-gastroplasty-esg-turkey": "/esg",
   "/obesity-treatment": "/treatments",
   "/sleeve-gastrectomy-prices": "/sleeve-gastrectomy",
+  "/surgery-for-diabetes": "/duodenal-switch",
 };
 
 const YEAR_ARCHIVE_REGEX = /^\/20\d{2}(\/\d{1,2})?$/;
