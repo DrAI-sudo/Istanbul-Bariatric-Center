@@ -62,9 +62,39 @@ export default function SleeveGastrectomy() {
   const packages = t('gastricSleeve.packages', { returnObjects: true }) as { basic: { name: string; price: string; days: string }; relaxation: { name: string; price: string; days: string }; luxury: { name: string; price: string; days: string } };
   
   const packageList = [
-    { ...packages.basic, recommended: false },
-    { ...packages.relaxation, recommended: true },
-    { ...packages.luxury, recommended: false }
+    { 
+      ...packages.basic, 
+      recommended: false,
+      features: [
+        t('common.jciHospital'),
+        t('common.airportPickup'),
+        `${packages.basic.days} ${t('common.daysAccommodation')}`
+      ]
+    },
+    { 
+      ...packages.relaxation, 
+      recommended: true,
+      features: [
+        "With Dr Murat Ustun",
+        t('common.jciHospital'),
+        t('common.airportPickup'),
+        `${packages.relaxation.days} ${t('common.daysAccommodation')}`,
+        "Virtual Dietitian Support"
+      ]
+    },
+    { 
+      ...packages.luxury, 
+      recommended: false,
+      features: [
+        "With Dr Murat Ustun",
+        t('common.jciHospital'),
+        t('common.airportPickup'),
+        `${packages.luxury.days} ${t('common.daysAccommodation')}`,
+        "1 Month Supplement Package",
+        "Medications",
+        "UK Reg Dietitian Support"
+      ]
+    }
   ];
 
   return (
@@ -112,7 +142,7 @@ export default function SleeveGastrectomy() {
             </div>
             <div className="flex justify-center">
               <img 
-                src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/gastric-sleeve.png" 
+                src="/gastric-sleeve.png" 
                 alt="Gastric Sleeve Surgery Illustration" 
                 className="max-w-md w-full"
                 width="400"
@@ -177,31 +207,15 @@ export default function SleeveGastrectomy() {
                 </CardHeader>
                 <CardContent className="text-center space-y-6">
                   <div className="text-4xl font-extrabold text-primary">{pkg.price}</div>
-                  <ul className="space-y-4 text-left mx-auto max-w-[200px]">
-                    <li className="flex items-center gap-3 text-slate-700">
-                      <div className="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center shrink-0">
-                        <Check className="w-3 h-3 text-primary" />
-                      </div>
-                      {t('common.bestDoctors')}
-                    </li>
-                    <li className="flex items-center gap-3 text-slate-700">
-                      <div className="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center shrink-0">
-                        <Check className="w-3 h-3 text-primary" />
-                      </div>
-                      {t('common.jciHospital')}
-                    </li>
-                    <li className="flex items-center gap-3 text-slate-700">
-                      <div className="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center shrink-0">
-                        <Check className="w-3 h-3 text-primary" />
-                      </div>
-                      {t('common.airportPickup')}
-                    </li>
-                    <li className="flex items-center gap-3 text-slate-700">
-                      <div className="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center shrink-0">
-                        <Check className="w-3 h-3 text-primary" />
-                      </div>
-                      {pkg.days} {t('common.daysAccommodation')}
-                    </li>
+                  <ul className="space-y-4 text-left mx-auto max-w-[220px]">
+                    {pkg.features.map((feature: string, i: number) => (
+                      <li key={i} className="flex items-center gap-3 text-slate-700">
+                        <div className="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center shrink-0">
+                          <Check className="w-3 h-3 text-primary" />
+                        </div>
+                        {feature}
+                      </li>
+                    ))}
                   </ul>
                 </CardContent>
                 <CardFooter className="pt-4 pb-8">
