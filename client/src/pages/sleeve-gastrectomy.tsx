@@ -68,7 +68,7 @@ export default function SleeveGastrectomy() {
       features: [
         t('common.jciHospital'),
         t('common.airportPickup'),
-        `${packages.basic.days} ${t('common.daysAccommodation')}`
+        `3 ${t('common.daysAccommodation')}`
       ]
     },
     { 
@@ -78,7 +78,7 @@ export default function SleeveGastrectomy() {
         "With Dr Murat Ustun",
         t('common.jciHospital'),
         t('common.airportPickup'),
-        `${packages.relaxation.days} ${t('common.daysAccommodation')}`,
+        `3 ${t('common.daysAccommodation')}`,
         "Virtual Dietitian Support"
       ]
     },
@@ -89,7 +89,7 @@ export default function SleeveGastrectomy() {
         "With Dr Murat Ustun",
         t('common.jciHospital'),
         t('common.airportPickup'),
-        `${packages.luxury.days} ${t('common.daysAccommodation')}`,
+        `3 ${t('common.daysAccommodation')}`,
         "1 Month Supplement Package",
         "Medications",
         "UK Reg Dietitian Support"
