@@ -36,6 +36,7 @@ export function Footer() {
               <li><Link href="/gastric-balloon" className="hover:text-primary transition-colors">Gastric Balloon</Link></li>
               <li><Link href="/duodenal-switch" className="hover:text-primary transition-colors">Duodenal Switch</Link></li>
               <li><Link href="/esg" className="hover:text-primary transition-colors">Endoscopic Sleeve</Link></li>
+              <li><Link href="/transit-bipartition" className="hover:text-primary transition-colors">Transit Bipartition</Link></li>
               <li><Link href="/post-bariatric-surgery" className="hover:text-primary transition-colors">Post-Bariatric Surgery</Link></li>
             </ul>
           </nav>

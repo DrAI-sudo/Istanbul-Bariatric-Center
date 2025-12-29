@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/components/seo";
+import { Link } from "wouter";
 
 export default function MiniGastricBypass() {
   const { t } = useTranslation('treatments');
@@ -207,6 +208,39 @@ export default function MiniGastricBypass() {
 
           <div className="mt-12 p-6 bg-blue-50 rounded-xl border border-blue-100">
             <p className="text-slate-600 text-lg">{t('gastricBypass.thingsToKnowConclusion')}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Related Treatments */}
+      <section className="py-16 bg-slate-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">Explore Other Weight Loss Options</h2>
+          <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            <Link href="/sleeve-gastrectomy">
+              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
+                <h3 className="font-bold text-primary mb-2">Gastric Sleeve</h3>
+                <p className="text-sm text-slate-600">Most popular option</p>
+              </div>
+            </Link>
+            <Link href="/gastric-balloon">
+              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
+                <h3 className="font-bold text-primary mb-2">Gastric Balloon</h3>
+                <p className="text-sm text-slate-600">Non-surgical option</p>
+              </div>
+            </Link>
+            <Link href="/esg">
+              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
+                <h3 className="font-bold text-primary mb-2">Endoscopic Sleeve</h3>
+                <p className="text-sm text-slate-600">Minimally invasive</p>
+              </div>
+            </Link>
+            <Link href="/transit-bipartition">
+              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
+                <h3 className="font-bold text-primary mb-2">Transit Bipartition</h3>
+                <p className="text-sm text-slate-600">For diabetes control</p>
+              </div>
+            </Link>
           </div>
         </div>
       </section>

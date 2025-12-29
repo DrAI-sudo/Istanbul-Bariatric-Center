@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/components/seo";
+import { Link } from "wouter";
 
 const balloonTypes = [
   {
@@ -196,6 +197,39 @@ export default function GastricBalloon() {
             <p>
               In the end, always remember that gastric balloon surgery or any other type of weight loss surgery should be your last option and only done after you attempt to lose weight by following traditional ways like diets and daily exercises. Also, it is very important to share all of your health information with the surgeon including your medical history report before starting the operation to avoid any problems whether during the surgery or the recovery process.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Related Treatments */}
+      <section className="py-16 bg-slate-100">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">Explore Other Weight Loss Options</h2>
+          <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            <Link href="/sleeve-gastrectomy">
+              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
+                <h3 className="font-bold text-primary mb-2">Gastric Sleeve</h3>
+                <p className="text-sm text-slate-600">Most popular option</p>
+              </div>
+            </Link>
+            <Link href="/mini-gastric-bypass">
+              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
+                <h3 className="font-bold text-primary mb-2">Gastric Bypass</h3>
+                <p className="text-sm text-slate-600">70-85% excess weight loss</p>
+              </div>
+            </Link>
+            <Link href="/esg">
+              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
+                <h3 className="font-bold text-primary mb-2">Endoscopic Sleeve</h3>
+                <p className="text-sm text-slate-600">Minimally invasive</p>
+              </div>
+            </Link>
+            <Link href="/duodenal-switch">
+              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
+                <h3 className="font-bold text-primary mb-2">Duodenal Switch</h3>
+                <p className="text-sm text-slate-600">For BMI 50+</p>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
