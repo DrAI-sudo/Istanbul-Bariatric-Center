@@ -6,6 +6,10 @@ import { fromZodError } from "zod-validation-error";
 import { sendContactEmail } from "./email";
 import path from "path";
 import fs from "fs";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const LEGACY_REDIRECTS: Record<string, string> = {
   "/treatments/bariatric-surgery/sleeve-gastrectomy": "/sleeve-gastrectomy",
