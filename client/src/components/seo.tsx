@@ -14,7 +14,7 @@ interface SEOProps {
 
 const SITE_NAME = "Istanbul Bariatric Center";
 const BASE_URL = "https://istanbulbariatriccenter.com";
-const DEFAULT_IMAGE = "https://istanbulbariatriccenter.com/wp-content/uploads/2024/11/istanbul-bariatric-center-og.jpg";
+const DEFAULT_IMAGE = "https://istanbulbariatriccenter.com/opengraph.jpg";
 
 const LANGUAGES = ["en", "tr", "es", "de", "fr", "it", "ro", "ru", "ar"];
 
