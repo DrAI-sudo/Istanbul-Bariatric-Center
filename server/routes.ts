@@ -4,6 +4,8 @@ import { storage } from "./storage";
 import { insertContactSubmissionSchema } from "@shared/schema";
 import { fromZodError } from "zod-validation-error";
 import { sendContactEmail } from "./email";
+import path from "path";
+import fs from "fs";
 
 const LEGACY_REDIRECTS: Record<string, string> = {
   "/treatments/bariatric-surgery/sleeve-gastrectomy": "/sleeve-gastrectomy",
@@ -35,20 +37,39 @@ export async function registerRoutes(
   httpServer: Server,
   app: Express
 ): Promise<Server> {
+  // Serve robots.txt and sitemap.xml directly from client/public
+  app.get("/robots.txt", (req, res) => {
+    const robotsPath = path.resolve(__dirname, "../client/public/robots.txt");
+    if (fs.existsSync(robotsPath)) {
+      res.type("text/plain").sendFile(robotsPath);
+    } else {
+      res.type("text/plain").send("User-agent: *\nAllow: /\n");
+    }
+  });
+
+  app.get("/sitemap.xml", (req, res) => {
+    const sitemapPath = path.resolve(__dirname, "../client/public/sitemap.xml");
+    if (fs.existsSync(sitemapPath)) {
+      res.type("application/xml").sendFile(sitemapPath);
+    } else {
+      res.status(404).send("Sitemap not found");
+    }
+  });
+
   app.use((req, res, next) => {
-    const path = req.path;
+    const reqPath = req.path;
     
-    if (LEGACY_REDIRECTS[path]) {
-      return res.redirect(301, LEGACY_REDIRECTS[path]);
+    if (LEGACY_REDIRECTS[reqPath]) {
+      return res.redirect(301, LEGACY_REDIRECTS[reqPath]);
     }
     
-    if (YEAR_ARCHIVE_REGEX.test(path)) {
+    if (YEAR_ARCHIVE_REGEX.test(reqPath)) {
       return res.redirect(301, "/blog");
     }
-    if (TAG_REGEX.test(path)) {
+    if (TAG_REGEX.test(reqPath)) {
       return res.redirect(301, "/blog");
     }
-    if (EMBED_REGEX.test(path)) {
+    if (EMBED_REGEX.test(reqPath)) {
       return res.redirect(301, "/");
     }
     

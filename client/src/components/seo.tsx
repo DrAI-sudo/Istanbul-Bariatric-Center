@@ -31,7 +31,6 @@ export function SEO({
   const { i18n } = useTranslation();
   const currentLang = i18n.language || "en";
   const baseUrl = url ? `${BASE_URL}${url}` : BASE_URL;
-  const fullUrl = currentLang === "en" ? baseUrl : `${baseUrl}?lang=${currentLang}`;
   const fullTitle = `${title} | ${SITE_NAME}`;
 
   useEffect(() => {
@@ -79,7 +78,7 @@ export function SEO({
     setMeta("og:image:width", "1200", true);
     setMeta("og:image:height", "630", true);
     setMeta("og:image:alt", title, true);
-    setMeta("og:url", fullUrl, true);
+    setMeta("og:url", baseUrl, true);
     setMeta("og:type", type, true);
     setMeta("og:site_name", SITE_NAME, true);
     setMeta("og:locale", currentLang, true);
@@ -99,7 +98,7 @@ export function SEO({
       setMeta("article:tag", "bariatric surgery", true);
     }
 
-    setLink("canonical", fullUrl);
+    setLink("canonical", baseUrl);
 
     LANGUAGES.forEach((lang) => {
       const langUrl = lang === "en" ? baseUrl : `${baseUrl}?lang=${lang}`;
@@ -109,7 +108,7 @@ export function SEO({
 
     return () => {
     };
-  }, [fullTitle, description, keywords, image, fullUrl, baseUrl, type, publishedTime, author, currentLang]);
+  }, [fullTitle, description, keywords, image, baseUrl, type, publishedTime, author, currentLang]);
 
   return null;
 }
