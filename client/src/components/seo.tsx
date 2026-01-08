@@ -16,8 +16,6 @@ const SITE_NAME = "Istanbul Bariatric Center";
 const BASE_URL = "https://istanbulbariatriccenter.com";
 const DEFAULT_IMAGE = "https://istanbulbariatriccenter.com/opengraph.jpg";
 
-const LANGUAGES = ["en", "tr", "es", "de", "fr", "it", "ro", "ru", "ar"];
-
 export function SEO({
   title,
   description,
@@ -99,12 +97,6 @@ export function SEO({
     }
 
     setLink("canonical", baseUrl);
-
-    LANGUAGES.forEach((lang) => {
-      const langUrl = lang === "en" ? baseUrl : `${baseUrl}?lang=${lang}`;
-      setLink("alternate", langUrl, lang);
-    });
-    setLink("alternate", baseUrl, "x-default");
 
     return () => {
     };
