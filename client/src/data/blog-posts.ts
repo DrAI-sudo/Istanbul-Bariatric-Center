@@ -1118,18 +1118,27 @@ export const blogPosts: BlogPost[] = [
     title: "Bariatric Surgery Nutrition",
     date: "May 30, 2024",
     category: "Nutrition",
-    excerpt: "Comprehensive Bariatric Surgery Nutrition and Recovery Guide.",
-    image: "/gastric-balloon.jpeg",
+    excerpt: "Comprehensive Bariatric Surgery Nutrition and Recovery Guide based on 2024 guidelines for optimal outcomes and long-term success.",
+    image: "/blog-bariatric-nutrition-cover.jpeg",
     content: `<h2>Comprehensive Bariatric Surgery Nutrition and Recovery Guide</h2>
 
 <h3>Introduction</h3>
-<p>Embarking on the journey of bariatric surgery is a significant step towards a healthier life. Success largely depends on strict adherence to pre and post-operative nutrition and care guidelines. This comprehensive guide outlines the essential steps to prepare for and recover from bariatric surgery, ensuring optimal outcomes and long-term health.</p>
+<p>Embarking on the journey of bariatric surgery is a significant step towards a healthier life. Success largely depends on strict adherence to pre and post-operative nutrition and care guidelines. This comprehensive guide, based on the latest 2024 guidelines from leading bariatric centers, outlines the essential steps to prepare for and recover from bariatric surgery, ensuring optimal outcomes and long-term health.</p>
+
+<img loading="lazy" src="/blog-bariatric-nutrition-cover.jpeg" alt="Bariatric Surgery Nutrition" class="w-full rounded-lg my-6" />
+
+<h3>Why Nutrition Is Critical for Bariatric Success</h3>
+<p>Proper nutrition before and after bariatric surgery is not just recommended—it's essential. Your body undergoes significant changes after surgery, and following the correct nutritional protocol helps:</p>
+<ul>
+<li>Promote healing and reduce complications</li>
+<li>Maximize weight loss results</li>
+<li>Prevent nutritional deficiencies</li>
+<li>Maintain muscle mass while losing fat</li>
+<li>Support long-term weight maintenance</li>
+</ul>
 
 <h3>Pre-Op Nutrition Guide</h3>
-<p>To prepare for surgery, start adjusting your diet based on your BMI and follow these guidelines closely.</p>
-
-<h4>Seven Days Prior to Surgery:</h4>
-<p>Medications: Consult your surgeon to determine which medications need to be discontinued. Commonly stopped medications include anticoagulants, NSAIDs like ibuprofen and aspirin, and certain supplements.</p>
+<p>To prepare for surgery, start adjusting your diet based on your BMI and follow these guidelines closely. The pre-operative diet serves multiple purposes: shrinking the liver for safer surgery, starting healthy eating habits, and preparing your body for the changes ahead.</p>
 
 <h4>Fourteen Days Prior to Surgery:</h4>
 <ul>
@@ -1139,8 +1148,13 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Alcohol and THC:</strong> Avoid alcohol and THC products to reduce bleeding risks.</li>
 </ul>
 
+<h4>Seven Days Prior to Surgery:</h4>
+<p>Medications: Consult your surgeon to determine which medications need to be discontinued. Commonly stopped medications include anticoagulants, NSAIDs like ibuprofen and aspirin, and certain supplements.</p>
+
+<img loading="lazy" src="/blog-bariatric-nutrition-2.jpeg" alt="Pre-Op Nutrition Planning" class="w-full rounded-lg my-6" />
+
 <h3>Pre-Op Diet Guidelines</h3>
-<p>The goal of the pre-op diet is to shrink your liver by depleting stored glycogen. Your meals should consist of three main macronutrients: protein, healthy fats, and fibrous carbs.</p>
+<p>The goal of the pre-op diet is to shrink your liver by depleting stored glycogen. A smaller liver makes surgery safer and provides better access to the stomach. Your meals should consist of three main macronutrients: protein, healthy fats, and fibrous carbs.</p>
 
 <p><strong>Approved Protein Sources:</strong> Grass-fed meats, wild-caught fish, organic poultry, and protein alternatives like vegan protein powder and Fairlife Milk.</p>
 
@@ -1149,49 +1163,116 @@ export const blogPosts: BlogPost[] = [
 <p><strong>Approved Fibrous Carbs:</strong> Unlimited vegetables such as broccoli, spinach, cauliflower, and bell peppers.</p>
 
 <h4>Two Days Prior to Surgery:</h4>
-<p>Switch to a clear liquid diet including water, caffeine-free herbal tea, broth, and sugar-free beverages. Avoid protein shakes and non-clear liquids.</p>
+<p>Switch to a clear liquid diet including water, caffeine-free herbal tea, broth, and sugar-free beverages. Avoid protein shakes and non-clear liquids. This helps ensure your digestive system is clear for the procedure.</p>
 
-<h3>Post-Op Nutrition Guide</h3>
+<h3>Post-Op Nutrition Guide: The Five Phases</h3>
+<p>Post-operative nutrition follows a structured progression through multiple diet phases to support healing, prevent complications, and optimize weight loss. Each phase is designed to gradually reintroduce foods as your stomach heals.</p>
 
-<h4>Phase 1: Hospital Post-Op (Days 1-7)</h4>
-<p>After surgery, focus on hydration and protein intake to aid recovery. Your goal is to drink up to 64 fluid ounces of liquids daily.</p>
-<p><strong>Approved Liquids:</strong> Clear broths, water, sugar-free drinks, and decaffeinated herbal teas. Avoid carbonated drinks, dairy, protein shakes, and sugary drinks.</p>
+<h4>Phase 1: Clear Liquids (Days 1-2)</h4>
+<p>After surgery, focus on hydration. Start with small sips only—about 1 ounce per hour, gradually increasing.</p>
+<p><strong>Approved Liquids:</strong> Water, sugar-free gelatin, clear broth, sugar-free popsicles, and decaffeinated herbal teas.</p>
+<p><strong>Goal:</strong> 32 ounces daily initially, working toward 48-64 ounces.</p>
 
-<h4>Phase 2: Thick Liquids (Days 8-14)</h4>
-<p>This phase starts seven days post-op. Gradually increase your protein intake to 60-90 grams per day through thick liquids like blended soups and protein shakes.</p>
-<p><strong>Recommended Foods:</strong> Blended soups, protein shakes, fruit and vegetable purees, Greek yogurt, and high-protein oatmeal.</p>
+<h4>Phase 2: Full Liquids (Days 2-14)</h4>
+<p>This phase introduces protein supplementation. Begin meeting protein goals with liquid supplements.</p>
+<p><strong>Recommended Foods:</strong> Protein shakes (20+ grams protein, less than 200 calories per shake), skim milk, sugar-free pudding, and strained cream soups.</p>
+<p><strong>Protein Target:</strong> Begin working toward 60-80 grams daily.</p>
+<p><strong>Meal Pattern:</strong> ¼ to ½ cup portions, 6 times daily.</p>
 
-<h4>Phase 3: Soft Solids (Days 15-21)</h4>
-<p>Transition to soft solids, focusing on protein-rich foods. Ensure each meal includes 4 ounces of food, with 3 ounces being protein.</p>
-<p><strong>Recommended Foods:</strong> Soft dairy products, well-cooked vegetables, eggs, beans, flaky fish, and dark meat chicken.</p>
+<img loading="lazy" src="/blog-bariatric-nutrition-3.jpeg" alt="Post-Op Nutrition Phases" class="w-full rounded-lg my-6" />
 
-<h4>Phase 4: Solids (Day 21 and Beyond)</h4>
-<p>Introduce a variety of solid foods while continuing to prioritize protein, healthy fats, and fibrous carbs. Chew food thoroughly to an applesauce consistency and avoid drinking during meals.</p>
+<h4>Phase 3: Pureed Foods (Weeks 2-4)</h4>
+<p>Transition to baby food consistency. All foods should be pureed or blended smooth. Focus on high-protein foods first.</p>
+<p><strong>Recommended Foods:</strong> Pureed meats, scrambled eggs, cottage cheese, Greek yogurt, and blended vegetables.</p>
+<p><strong>Important:</strong> Eat slowly over 20-30 minutes and avoid tough or fibrous foods.</p>
 
-<h3>Post-Op Vitamin Guide</h3>
-<p>Vitamins and minerals are essential for recovery and long-term health post-surgery. Begin supplementation 14 days after surgery with chewable, crushed, or drinkable vitamins.</p>
+<h4>Phase 4: Soft Foods (Weeks 4-8)</h4>
+<p>Introduce soft, easily digestible foods. Chew each bite 20-30 times before swallowing.</p>
+<p><strong>Recommended Foods:</strong> Soft fish, ground meats, well-cooked vegetables, canned fruit (in juice or water), and scrambled eggs.</p>
+<p><strong>Meal Pattern:</strong> 3 small meals plus 2-3 snacks daily. Allow 30 minutes per meal.</p>
 
-<p><strong>Required Supplements:</strong></p>
+<h4>Phase 5: Regular Bariatric Diet (Week 6+ and Lifelong)</h4>
+<p>Gradually introduce regular consistency foods. Fresh fruits and vegetables can be slowly added.</p>
+<p><strong>Calorie Goal:</strong> 900-1,000 calories daily.</p>
+<p><strong>Portion Size:</strong> Work up to 1-1½ cups per meal by end of first year.</p>
+<p><strong>Priority Order:</strong> Eat protein FIRST at every meal, then vegetables and fruits, then whole grains.</p>
+
+<h3>Core Nutritional Guidelines for Success</h3>
+
+<h4>Protein Requirements</h4>
 <ul>
-<li>Bariatric-specific multivitamin</li>
-<li>Iron (with vitamin C)</li>
-<li>Calcium citrate</li>
-<li>Vitamin D3</li>
-<li>Vitamin B12</li>
-<li>B complex with thiamine</li>
+<li><strong>Daily target:</strong> 60-80 grams minimum</li>
+<li><strong>Priority:</strong> Always eat protein first at every meal</li>
+<li><strong>Best sources:</strong> Lean meats, fish, eggs, Greek yogurt, cottage cheese, protein shakes</li>
 </ul>
-<p>Optional supplements include zinc and biotin to minimize hair thinning.</p>
 
-<h3>Post-Op Recovery Guide</h3>
+<h4>Fluid Requirements</h4>
+<ul>
+<li><strong>Daily goal:</strong> 64 ounces (8 cups) minimum</li>
+<li><strong>Critical rule:</strong> Do NOT drink fluids 30 minutes before OR after eating solid food</li>
+<li><strong>Allowed:</strong> Water, sugar-free beverages (less than 10 calories per serving), caffeine-free, non-carbonated</li>
+<li><strong>Avoid:</strong> Straws (causes gas), sugary drinks, carbonation, alcohol</li>
+</ul>
 
-<h4>Managing Acid Reflux and GERD</h4>
-<p>Eat small, frequent meals, chew thoroughly, and avoid overeating. Incorporate foods that assist with acid reflux and avoid those that trigger it.</p>
+<h4>Eating Behaviors for Success</h4>
+<ul>
+<li>Eat slowly: 20-40 minutes per meal</li>
+<li>Bite size: Dime-sized bites</li>
+<li>Chew thoroughly: 20-30 times before swallowing</li>
+<li>Stop when full: Pay attention to satiety signals</li>
+<li>Scheduled eating: 3 small meals plus 2-3 snacks; avoid grazing</li>
+<li>Use smaller plates and utensils</li>
+<li>Put utensils down between bites</li>
+</ul>
 
-<h4>Wound Care</h4>
-<p>Keep incisions clean and dry, avoid ointments and waterproof bandages, and monitor for signs of infection like pain, fever, or foul-smelling pus.</p>
+<img loading="lazy" src="/blog-bariatric-nutrition-4.jpeg" alt="Healthy Eating Habits" class="w-full rounded-lg my-6" />
+
+<h3>Lifelong Vitamin and Mineral Supplementation</h3>
+<p>Vitamins and minerals are essential for recovery and long-term health post-surgery. Begin supplementation about 1 week after surgery with chewable vitamins initially.</p>
+
+<p><strong>Required Daily Supplements:</strong></p>
+<ul>
+<li><strong>Bariatric-specific multivitamin:</strong> Choose brands like Bariatric Fusion, Celebrate, or Bariatric Advantage</li>
+<li><strong>Calcium citrate with Vitamin D:</strong> 1200-1500mg daily in divided doses</li>
+<li><strong>Vitamin B12:</strong> Sublingual or injection form for better absorption</li>
+<li><strong>Iron:</strong> Take with vitamin C for enhanced absorption (especially important for menstruating women)</li>
+</ul>
+<p>Optional supplements include zinc and biotin to minimize hair thinning, which is common in the first 6-12 months after surgery.</p>
+
+<h3>Foods to Avoid</h3>
+<p>Certain foods can cause discomfort, dumping syndrome, or sabotage your weight loss:</p>
+<ul>
+<li><strong>Sugar:</strong> Avoid added sugars (risk of dumping syndrome, especially with gastric bypass)</li>
+<li><strong>High-fat foods:</strong> Limit to 35 grams daily; choose healthy fats like olive oil, nuts, and avocado</li>
+<li><strong>Problem foods in early months:</strong> Rice, bread, raw vegetables, fresh fruits, tough meats (pork, steak), chicken</li>
+<li><strong>Always avoid:</strong> Carbonated beverages, alcohol, fried foods</li>
+</ul>
+
+<h3>Common Post-Op Issues and Solutions</h3>
+
+<h4>Lactose Intolerance</h4>
+<p>Many patients develop lactose intolerance after surgery. Switch to whey protein isolate shakes (lactose-free) and lactose-free dairy products.</p>
+
+<h4>Constipation</h4>
+<p>Common in the first few weeks. Solutions include stool softeners, adequate fluids, physical activity, and fiber as your diet progresses.</p>
+
+<h4>Dehydration</h4>
+<p>Watch for warning signs: headaches, dizziness, dark urine. Stay on top of your fluid intake throughout the day.</p>
+
+<h4>Food Intolerance</h4>
+<p>Your stomach will be sensitive for 3-6 months. Introduce new foods slowly—tolerance improves over time.</p>
+
+<h3>Long-Term Success Factors</h3>
+<ul>
+<li><strong>Exercise:</strong> Begin walking immediately after surgery. Progress to 60 minutes daily (strength plus aerobics) by the soft food phase.</li>
+<li><strong>Follow-up:</strong> Keep all appointments with your dietitian and surgical team.</li>
+<li><strong>Support groups:</strong> Attend bariatric nutrition support groups for ongoing motivation and tips.</li>
+<li><strong>Monitoring:</strong> Regular bloodwork to check nutrient levels is essential.</li>
+<li><strong>Food tracking:</strong> Use an app or journal to track daily food and fluid intake.</li>
+</ul>
 
 <h3>Conclusion</h3>
-<p>Following these comprehensive pre and post-op guidelines is crucial for a successful bariatric surgery journey. Adhering to the recommended dietary and vitamin protocols will support recovery, prevent complications, and help achieve long-term health and weight management goals.</p>`
+<p>Following these comprehensive pre and post-op guidelines is crucial for a successful bariatric surgery journey. Adhering to the recommended dietary and vitamin protocols will support recovery, prevent complications, and help achieve long-term health and weight management goals. Remember, bariatric surgery is a tool—your commitment to nutrition and lifestyle changes is what creates lasting success.</p>`
   },
   {
     slug: "leptin-hormone-in-obesity-treatment",
