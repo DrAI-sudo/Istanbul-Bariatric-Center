@@ -364,12 +364,12 @@ export const blogPosts: BlogPost[] = [
     date: "November 18, 2024",
     category: "Medical Weight Loss",
     excerpt: "Weight loss injections, particularly GLP-1 analogs such as semaglutide and tirzepatide, are revolutionizing the treatment of obesity.",
-    image: "/blog-ultra-processed.png",
+    image: "/blog-weight-loss-injections.jpeg",
     content: `<h2>Could Weight Loss Injections Replace Obesity Surgery?</h2>
 
 <p>Weight loss injections, particularly <strong>glucagon-like peptide 1 (GLP-1) analogs</strong> such as semaglutide and tirzepatide, are revolutionizing the treatment of obesity. Known as "incretin mimetics," these medications have garnered attention for their remarkable effectiveness in facilitating weight loss. As their popularity grows, a critical question arises: <strong>Could these medications replace obesity surgery altogether?</strong></p>
 
-<img loading="lazy" src="/blog-ultra-processed.png" alt="Weight Loss Injections" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-weight-loss-injections.jpeg" alt="Weight Loss Injections" class="w-full rounded-lg my-6" />
 
 <h3>The Promise of GLP-1 Analogs: A New Era in Obesity Treatment</h3>
 <p>GLP-1 analogs are hormone-based medications that mimic incretins, which play a role in appetite regulation and blood sugar control. Drugs like semaglutide and tirzepatide have shown potential for significant weight loss in clinical trials, with some patients achieving up to a 23% reduction in body weight.</p>
