@@ -1697,8 +1697,10 @@ export const blogPosts: BlogPost[] = [
     date: "January 5, 2024",
     category: "Post-Surgery",
     excerpt: "One of the most common challenges that bariatric patients face is grazing.",
-    image: "/gastric-balloon.jpeg",
+    image: "/blog-grazing.webp",
     content: `<h2>How to Avoid Grazing and Other Eating Mistakes After Bariatric Surgery</h2>
+
+<img loading="lazy" src="/blog-grazing.webp" alt="Avoiding Grazing After Surgery" class="w-full rounded-lg my-6" />
 
 <p>Bariatric surgery is a life-changing procedure that can help you lose weight and improve your health. However, it also requires some adjustments in your eating habits and lifestyle. One of the most common challenges that bariatric patients face is grazing, which is the habit of eating small amounts of food frequently throughout the day. Grazing can hinder your weight loss, cause nutritional deficiencies, and increase the risk of complications after surgery.</p>
 
