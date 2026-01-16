@@ -15,7 +15,7 @@ export const blogPosts: BlogPost[] = [
     date: "May 11, 2025",
     category: "New Technology",
     excerpt: "GFMA: A New Era in Non-Surgical Weight Loss. Recent studies suggest an endoscopic procedure could curb hunger and achieve surgical-level weight loss without any incisions.",
-    image: "https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-gfma.jpeg",
     content: `<h2>GFMA: A New Era in Non‑Surgical Weight Loss</h2>
 <p>Obesity is a chronic, lifelong disease that often resists diet and exercise alone. Bariatric surgery has been the gold standard for substantial weight loss, but many patients are reluctant to undergo an operation. What if an endoscopic procedure could curb hunger and achieve surgical-level weight loss – all without any incisions? Recent studies (the ABLATE I and ABLATE II trials) suggest this may be possible.</p>
 
@@ -24,7 +24,7 @@ export const blogPosts: BlogPost[] = [
 <h3>What is GFMA and How Does It Work?</h3>
 <p>GFMA is an endoscopic procedure that burns the inner lining of the stomach's fundus (the upper pouch of the stomach) in a controlled manner. This might sound intense, but it's done from inside the stomach using a flexible endoscope and specialized tools – no external cuts required. The fundus is a key player in appetite: its mucosa produces about 80–90% of the body's ghrelin, the so-called "hunger hormone," and the fundus also expands to accommodate food and signal fullness. By ablating (destroying) the fundal mucosa, GFMA directly targets hunger at its source.</p>
 
-<img loading="lazy" src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="GFMA Illustration" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-gfma.jpeg" alt="GFMA Illustration" class="w-full rounded-lg my-6" />
 
 <p>The mechanism here is similar to what happens in a surgical sleeve gastrectomy (VSG), where the fundus is removed entirely. In both cases, ghrelin levels drop and the stomach's capacity is reduced, leading to decreased appetite and earlier satiety. Importantly, GFMA achieves this without removing any organs – it simply remodels the existing stomach lining.</p>
 
@@ -62,33 +62,33 @@ export const blogPosts: BlogPost[] = [
     date: "April 26, 2025",
     category: "Science",
     excerpt: "How Two Historic Health Myths Shaped Today's Obesity Crisis — and How We Can Fix It.",
-    image: "https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-scientific-blind-alleys.jpeg",
     content: `<h2>How Two Historic Health Myths Shaped Today's Obesity Crisis — and How We Can Fix It</h2>
 
 <p>In science and medicine, the most dramatic explanations often grab headlines – but they can sometimes be wrong. Two classic examples are the mid-20th-century diet-heart hypothesis and early psychoanalytic theory. In the 1950s–60s, researchers convinced the world that saturated fat was the villain behind heart disease, leading governments and food makers to push low-fat diets. Meanwhile, Sigmund Freud's psychoanalysis – with its emphasis on childhood trauma and unconscious drives – dominated psychology, sidelining Alfred Adler's more future-oriented ideas.</p>
 
-<img loading="lazy" src="https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Health Myths" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-scientific-blind-alleys.jpeg" alt="Health Myths" class="w-full rounded-lg my-6" />
 
 <h3>The Fat Fallacy: Keys, Low-Fat Diets, and the Obesity Surge</h3>
 <p>In the post-war era, heart disease was skyrocketing. A 1951 survey called body fat "America's 'primary public health problem'." In 1952 President Eisenhower's heart attack made heart disease a national crisis. Nutritionists scrambled to explain why. In 1958 Ancel Keys launched his famous Seven Countries Study and emerged as the loudest voice blaming saturated fat.</p>
 
 <p>Keys famously concluded that "fat was to blame" for heart disease and that only a low-fat diet would reverse the trend. By the 1960s–70s, the idea "fat = bad" had won the day: public health guidelines and doctors told everyone to slash butter, eggs and meat fat out of their diets. The food industry rushed to replace fat with cheap carbs; low-fat products were sweetened heavily with sugar to taste good.</p>
 
-<img loading="lazy" src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Obesity Crisis" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-obesity-crisis.jpeg" alt="Obesity Crisis" class="w-full rounded-lg my-6" />
 
 <p>Over the same decades, obesity and related diseases exploded. US obesity rates more than tripled since the 1960s. By 2016 some 650 million adults (≈13% of the world's population) were obese. In the US today roughly 42% of adults are obese, up from ~13% in the early 1960s.</p>
 
 <h3>Modern Evidence</h3>
 <p>A 2023 review notes that clinical trials "could never establish a causal link" between saturated fat and heart attacks, and in fact concluded that saturated fats have "no effect on cardiovascular disease" or mortality. In other words, decades of guidelines capping fat intake are being re-evaluated.</p>
 
-<img loading="lazy" src="https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Freud Adler Conflict" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-freud-adler.jpeg" alt="Freud Adler Conflict" class="w-full rounded-lg my-6" />
 
 <h3>Freud's Empire and the Overlooked Adlerian Way</h3>
 <p>At roughly the same time diet fads were taking hold, psychology was under the sway of another grand narrative. Sigmund Freud founded psychoanalysis and became one of the century's most famous thinkers. His revolutionary idea was that unconscious drives and childhood experiences – especially repressed sexual and aggressive impulses – shape all behavior.</p>
 
 <p>But Freud was not alone. Alfred Adler co-founded the Vienna Psychoanalytic Society with Freud, but in 1911 he broke away to form "Individual Psychology." Adler rejected Freud's emphasis on sexual drives and inner conflict. Instead, he saw people as primarily goal-directed and motivated to achieve significance and social connection.</p>
 
-<img loading="lazy" src="https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Healthy Diet" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-healthy-diet.jpeg" alt="Healthy Diet" class="w-full rounded-lg my-6" />
 
 <h3>Lessons Learned: The Peril of Single-Cause Thinking</h3>
 <p>These two historical episodes share a common pattern. In each case, early scientists gravitated toward a simple, dramatic cause for complex problems, and it caught on in the public imagination. By focusing on one flashy factor, both fields overlooked other critical pieces of the puzzle.</p>
@@ -101,7 +101,7 @@ export const blogPosts: BlogPost[] = [
     date: "April 19, 2025",
     category: "New Technology",
     excerpt: "The MiniMIZER® Ring in Bariatric Surgery: Enhancing Outcomes in Primary and Revisional Procedures.",
-    image: "https://images.pexels.com/photos/3825586/pexels-photo-3825586.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-minimizer-ring.jpeg",
     content: `<h2>The MiniMIZER® Ring in Bariatric Surgery: Enhancing Outcomes in Primary and Revisional Procedures</h2>
 
 <p>Bariatric surgery has revolutionized the management of obesity, offering patients significant weight loss and improvement in obesity-related comorbidities. Among the various surgical adjuncts developed to optimize outcomes, the MiniMIZER® Ring has emerged as a notable tool.</p>
@@ -157,7 +157,7 @@ export const blogPosts: BlogPost[] = [
     date: "April 17, 2025",
     category: "Nutrition",
     excerpt: "New research reveals that not all cholesterol-rich foods are bad for you. A cardiologist helps explain what to eat and what to skip.",
-    image: "https://images.pexels.com/photos/821365/pexels-photo-821365.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-cholesterol-cheese.jpeg",
     content: `<h2>Five Cholesterol-Rich Foods You Should Eat</h2>
 
 <p>If you've been told you have high cholesterol, you might assume you need to avoid all foods that are high in cholesterol. Fortunately, that's not necessarily the case. According to emerging research, certain cholesterol-rich foods—like full-fat dairy products and aged cheeses—could actually improve your blood lipid profile.</p>
@@ -165,27 +165,27 @@ export const blogPosts: BlogPost[] = [
 <p>Understanding why your cholesterol levels are elevated is key, says Dr Ali Khavandi, an interventional cardiologist based in Bath. "If your high cholesterol is largely genetic, diet won't have much of an impact, and medications like statins are usually necessary. But for the average person who is otherwise healthy, cutting out cholesterol-rich foods may not make a major difference."</p>
 
 <h3>1. Cheese</h3>
-<img loading="lazy" src="https://images.pexels.com/photos/821365/pexels-photo-821365.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cheese and Cholesterol" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-cholesterol-cheese.jpeg" alt="Cheese and Cholesterol" class="w-full rounded-lg my-6" />
 <p>"Cheese has a bad reputation," says Dr Khavandi. "Patients often say, 'I have high cholesterol, so I've cut out cheese,' but the evidence tells a different story."</p>
 <p>Long-fermented cheeses, like aged cheddar, contain beneficial nutrients and probiotics. While high in cholesterol, they're also rich in vitamins A, K, B12, and minerals such as calcium, magnesium, and phosphorus.</p>
 
 <h3>2. Eggs</h3>
-<img loading="lazy" src="https://images.pexels.com/photos/824635/pexels-photo-824635.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Eggs and Cholesterol" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-eggs.jpeg" alt="Eggs and Cholesterol" class="w-full rounded-lg my-6" />
 <p>Eggs have long been blamed for raising cholesterol, but new findings show otherwise. A Harvard review concluded there was no increase in heart disease risk among people eating up to one egg a day.</p>
 <p>Eggs also contain heart-healthy nutrients like selenium and omega-3 fatty acids.</p>
 
 <h3>3. Red Meat</h3>
-<img loading="lazy" src="https://images.pexels.com/photos/3872373/pexels-photo-3872373.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Red Meat and Cholesterol" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-liver.jpeg" alt="Red Meat and Cholesterol" class="w-full rounded-lg my-6" />
 <p>Red meat is high in saturated fat, which has traditionally been linked to increased LDL ('bad') cholesterol. But Dr Khavandi believes this view is outdated.</p>
 <p>"The idea that LDL cholesterol directly causes heart disease in a linear way is no longer accurate. For metabolically unhealthy individuals, shifting from a high-sugar, high-carb diet to a whole-food diet that includes minimally processed, satiating foods like steak can have a positive effect."</p>
 
 <h3>4. Shellfish</h3>
-<img loading="lazy" src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Shellfish and Cholesterol" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-shellfish.jpeg" alt="Shellfish and Cholesterol" class="w-full rounded-lg my-6" />
 <p>Shellfish used to be on the "avoid" list due to their cholesterol content. But they are low in total fat and contain heart-friendly omega-3 fatty acids.</p>
 <p>The American Heart Association now includes shellfish in its recommended heart-healthy diet.</p>
 
 <h3>5. Liver</h3>
-<img loading="lazy" src="https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Liver and Cholesterol" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-yogurt.jpeg" alt="Liver and Cholesterol" class="w-full rounded-lg my-6" />
 <p>Though not a favorite for many, liver is incredibly nutrient-dense. It offers high-quality protein, essential vitamins (like A, B12, D, E, and K), and minerals such as iron and copper.</p>
 
 <h2>Three Foods to Avoid If You Have High Cholesterol</h2>
@@ -194,11 +194,11 @@ export const blogPosts: BlogPost[] = [
 <p>Excess sugar—especially added sugars in processed foods—contributes heavily to metabolic issues such as insulin resistance and abdominal fat. These are closely tied to increased LDL cholesterol and reduced HDL ('good') cholesterol.</p>
 
 <h3>2. Ultra-Processed Foods (UPFs)</h3>
-<img loading="lazy" src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Ultra-Processed Foods" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-gfma.jpeg" alt="Ultra-Processed Foods" class="w-full rounded-lg my-6" />
 <p>"Products labeled 'light' or 'low-fat' tend to be loaded with additives, sugars, and emulsifiers," says Dr Khavandi. "Take low-fat mayonnaise: it usually contains barely any egg or oil."</p>
 
 <h3>3. Alcohol</h3>
-<img loading="lazy" src="https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Alcohol and Cholesterol" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-salmon.jpeg" alt="Alcohol and Cholesterol" class="w-full rounded-lg my-6" />
 <p>While not technically a food, alcohol can significantly raise blood lipid levels. Even moderate drinking can interfere with fat metabolism, contributing to central obesity, high blood pressure, and elevated cholesterol.</p>
 
 <h2>Other Proven Ways to Lower Your Cholesterol</h2>
@@ -208,7 +208,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Manage stress:</strong> A large study from Spain found that workplace stress correlates with high LDL and low HDL cholesterol.</li>
 </ul>
 
-<img loading="lazy" src="https://images.pexels.com/photos/4021779/pexels-photo-4021779.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Healthy Lifestyle" class="w-full rounded-lg my-6" />`
+<img loading="lazy" src="/blog-bri.jpeg" alt="Healthy Lifestyle" class="w-full rounded-lg my-6" />`
   },
   {
     slug: "weight-loss-treatments-a-holistic-comparison",
@@ -216,7 +216,7 @@ export const blogPosts: BlogPost[] = [
     date: "December 31, 2024",
     category: "Comparison",
     excerpt: "Weight loss treatments broadening every day with new medications, revolutionary endoscopic methods and different variations of surgical options.",
-    image: "https://images.pexels.com/photos/4047184/pexels-photo-4047184.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-gastric-fundus.png",
     content: `<h2>Weight Loss Treatments: A Holistic Comparison</h2>
 
 <p>Weight loss treatments are broadening every day with new developed medications, revolutionary endoscopic methods and different variations of surgical options. The fight against obesity is not just a personal battle. It's a growing health crisis that affects millions of people.</p>
@@ -224,7 +224,7 @@ export const blogPosts: BlogPost[] = [
 <h3>The Obesity Crisis: Beyond Willpower</h3>
 <p>Understanding obesity requires looking beyond willpower. Genetics, environment, and other factors play crucial roles in shaping our weight. Acknowledging this complexity is vital. Obesity is a chronic condition needing comprehensive management strategies.</p>
 
-<img loading="lazy" src="https://images.pexels.com/photos/4047184/pexels-photo-4047184.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Weight Loss Comparison" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-gastric-fundus.png" alt="Weight Loss Comparison" class="w-full rounded-lg my-6" />
 
 <h2>Medication: GLP-1 Agonists and Beyond</h2>
 
@@ -236,12 +236,12 @@ export const blogPosts: BlogPost[] = [
 </ul>
 <p>These medications work by mimicking a hormone that reduces hunger. Side effects can include nausea and digestive issues, with effectiveness often leading to 10% or more weight loss for many users.</p>
 
-<img loading="lazy" src="https://images.pexels.com/photos/4047186/pexels-photo-4047186.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="GLP-1 Medications" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-apc.jpeg" alt="GLP-1 Medications" class="w-full rounded-lg my-6" />
 
 <h3>Cost, Insurance Coverage, and Long-Term Data</h3>
 <p>Insurance coverage for GLP-1 medications is still scarce. Often, they can exceed $1,000 monthly without coverage. This expense can create a barrier to access for many individuals.</p>
 
-<img loading="lazy" src="https://images.pexels.com/photos/4047185/pexels-photo-4047185.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Other Weight Loss Medications" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-gfma-explained.jpg" alt="Other Weight Loss Medications" class="w-full rounded-lg my-6" />
 
 <h2>Bariatric Surgery: Effective, Yet Invasive</h2>
 
@@ -265,7 +265,7 @@ export const blogPosts: BlogPost[] = [
 <p>A gastric balloon fills space in the stomach, leading to early satiety. It can stay inflated for six to eight months. Weight loss expectations are around 15%, with costs typically between $5,000 and $8,000.</p>
 
 <h3>Endoscopic Sleeve Gastroplasty (ESG)</h3>
-<img loading="lazy" src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="ESG Procedure" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-guidelines.jpeg" alt="ESG Procedure" class="w-full rounded-lg my-6" />
 <p>This procedure reduces stomach size without surgical intervention:</p>
 <ul>
 <li>Average weight loss is around 20%, with a very low risk of complications.</li>
@@ -273,7 +273,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <h3>Fundus Ablation: Targeting the Hunger Hormone</h3>
-<img loading="lazy" src="https://images.pexels.com/photos/5407206/pexels-photo-5407206.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Fundus Ablation" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-fundus-explained.jpeg" alt="Fundus Ablation" class="w-full rounded-lg my-6" />
 <p>A newer option, fundus ablation, targets hunger directly by modifying the stomach's hormone-producing areas. Weight loss potential remains similar to medications. This procedure is still investigational.</p>
 
 <h3>ESG Max: Combining ESG and Fundus Ablation</h3>
@@ -288,7 +288,7 @@ export const blogPosts: BlogPost[] = [
     date: "December 17, 2024",
     category: "New Technology",
     excerpt: "Revolutionizing Endoscopic Weight Loss Method. A groundbreaking, minimally invasive procedure offering new hope for sustainable weight loss.",
-    image: "https://images.pexels.com/photos/5407206/pexels-photo-5407206.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-fundus-explained.jpeg",
     content: `<h2>Revolutionizing Endoscopic Weight Loss Method</h2>
 
 <p>Obesity impacts millions of lives globally, increasing the risks of diabetes, cardiovascular diseases, and even certain cancers. While traditional weight-loss methods such as diets, exercise, and medications often result in limited success, a groundbreaking, minimally invasive procedure known as <strong>gastric fundus ablation</strong> is offering new hope for sustainable weight loss.</p>
@@ -304,7 +304,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Slower Gastric Emptying:</strong> Food stays in the stomach for a longer period, prolonging the sensation of fullness.</li>
 </ol>
 
-<img loading="lazy" src="https://images.pexels.com/photos/3872370/pexels-photo-3872370.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Gastric Fundus Ablation" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-weight-loss-comparison.jpeg" alt="Gastric Fundus Ablation" class="w-full rounded-lg my-6" />
 
 <h3>Benefits of Gastric Fundus Ablation</h3>
 <ul>
@@ -351,7 +351,7 @@ export const blogPosts: BlogPost[] = [
 <li>Favorable safety profile with minimal adverse effects.</li>
 </ul>
 
-<img loading="lazy" src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Dr Murat Ustun" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-gfma.jpeg" alt="Dr Murat Ustun" class="w-full rounded-lg my-6" />
 
 <h3>About Dr Murat Ustun</h3>
 <p>Dr. Murat Ustun, a world-renowned Turkish/British bariatric surgeon, has long been at the forefront of innovative weight loss solutions. Known for his pioneering work in minimally invasive procedures, Dr. Ustun has made significant contributions to the field of bariatric surgery.</p>
@@ -364,12 +364,12 @@ export const blogPosts: BlogPost[] = [
     date: "November 18, 2024",
     category: "Medical Weight Loss",
     excerpt: "Weight loss injections, particularly GLP-1 analogs such as semaglutide and tirzepatide, are revolutionizing the treatment of obesity.",
-    image: "https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-ultra-processed.png",
     content: `<h2>Could Weight Loss Injections Replace Obesity Surgery?</h2>
 
 <p>Weight loss injections, particularly <strong>glucagon-like peptide 1 (GLP-1) analogs</strong> such as semaglutide and tirzepatide, are revolutionizing the treatment of obesity. Known as "incretin mimetics," these medications have garnered attention for their remarkable effectiveness in facilitating weight loss. As their popularity grows, a critical question arises: <strong>Could these medications replace obesity surgery altogether?</strong></p>
 
-<img loading="lazy" src="https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Weight Loss Injections" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-ultra-processed.png" alt="Weight Loss Injections" class="w-full rounded-lg my-6" />
 
 <h3>The Promise of GLP-1 Analogs: A New Era in Obesity Treatment</h3>
 <p>GLP-1 analogs are hormone-based medications that mimic incretins, which play a role in appetite regulation and blood sugar control. Drugs like semaglutide and tirzepatide have shown potential for significant weight loss in clinical trials, with some patients achieving up to a 23% reduction in body weight.</p>
@@ -408,7 +408,7 @@ export const blogPosts: BlogPost[] = [
     date: "November 11, 2024",
     category: "Research",
     excerpt: "Body Roundness Index, is it the New BMI? What it Says About Your Health.",
-    image: "https://images.pexels.com/photos/6941883/pexels-photo-6941883.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-ultra-processed-2.png",
     content: `<h2>Body Roundness Index, is it the New BMI? What it Says About Your Health</h2>
 
 <p>Body Roundness Index (BRI), a new measure of body composition that is gaining traction as an alternative to the Body Mass Index (BMI). BRI incorporates waist circumference and sometimes hip circumference in addition to height and weight, providing a more detailed assessment of body shape and fat distribution. Studies suggest that BRI may be a better predictor of mortality risk, particularly for individuals with a BRI below or above the normal range.</p>
@@ -418,7 +418,7 @@ export const blogPosts: BlogPost[] = [
 <h3>The Rise of the Body Roundness Index</h3>
 <p>The Body Roundness Index, first proposed in 2013, is being touted as a more sophisticated alternative to the traditional BMI. Unlike BMI, which relies solely on height and weight, BRI incorporates additional anthropometric measurements, including waist circumference and sometimes hip circumference. This added complexity allows for a more comprehensive assessment of body shape and fat distribution, factors that are crucial in determining health risks.</p>
 
-<img loading="lazy" src="https://images.pexels.com/photos/6941883/pexels-photo-6941883.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Body Roundness Index" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-ultra-processed-2.png" alt="Body Roundness Index" class="w-full rounded-lg my-6" />
 
 <h3>Recent Research Highlights BRI's Potential</h3>
 <p>A groundbreaking study published in JAMA Network Open has brought the Body Roundness Index into the spotlight. This large-scale retrospective study, involving nearly 33,000 US adults, provides compelling evidence for the effectiveness of BRI as a health risk indicator.</p>
@@ -494,7 +494,7 @@ export const blogPosts: BlogPost[] = [
     date: "November 9, 2024",
     category: "Nutrition",
     excerpt: "Understanding Ultra-Processed Foods: A Deep Dive into Our Daily Diet.",
-    image: "https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-gfma.jpeg",
     content: `<h2>Understanding Ultra-Processed Foods: A Deep Dive into Our Daily Diet</h2>
 
 <p>In today's fast-paced world, convenience often dictates our food choices. From <strong>cakes</strong> and muffins to <strong>frozen meals</strong> and pizzas, ultra-processed foods have become staples in many households. But have we ever stopped to consider what ultra-processed foods really are and the impact they have on our health?</p>
@@ -539,7 +539,7 @@ export const blogPosts: BlogPost[] = [
     date: "November 7, 2024",
     category: "Comparison",
     excerpt: "Making an Informed Choice for Weight Loss. Understanding the differences between bariatric surgery and ESG is crucial.",
-    image: "https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-guidelines.jpeg",
     content: `<h2>Understanding Bariatric Surgery vs. Endoscopic Sleeve Gastroplasty</h2>
 
 <p>For individuals considering weight loss procedures, understanding the differences between bariatric surgery and endoscopic sleeve gastroplasty (ESG) is crucial. Both options offer unique benefits and challenges, and the decision ultimately depends on personal health goals and lifestyle preferences.</p>
@@ -547,7 +547,7 @@ export const blogPosts: BlogPost[] = [
 <h3>Understanding the Invasiveness of Each Procedure</h3>
 <p>Bariatric surgery, such as gastric bypass or sleeve gastrectomy, involves significant surgical intervention. It requires incisions and the physical alteration of the digestive system. On the other hand, ESG is a minimally invasive procedure performed using an endoscope, which is inserted through the mouth to reshape the stomach.</p>
 
-<img loading="lazy" src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Endoscopic Sleeve Gastroplasty" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-guidelines.jpeg" alt="Endoscopic Sleeve Gastroplasty" class="w-full rounded-lg my-6" />
 
 <h3>Recovery Times and Lifestyle Adjustments</h3>
 <p>Recovery from bariatric surgery can take several weeks, with patients needing to adjust to significant dietary changes. In contrast, ESG typically offers a quicker recovery, often within a few days, with less discomfort and fewer dietary restrictions.</p>
@@ -560,7 +560,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><em>"After my gastric bypass, I lost over 100 pounds and my type 2 diabetes is now under control."</em> - John, 45-year-old patient</p>
 
-<img loading="lazy" src="https://images.pexels.com/photos/19260181/pexels-photo-19260181.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Weight Loss Surgery" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-gastric-sleeve.png" alt="Weight Loss Surgery" class="w-full rounded-lg my-6" />
 
 <h3>Why Consider Endoscopic Sleeve Gastroplasty?</h3>
 <p>ESG is ideal for patients seeking a less invasive option with a focus on moderate weight loss. It's suitable for those who may not qualify for traditional bariatric surgery.</p>
@@ -587,7 +587,7 @@ export const blogPosts: BlogPost[] = [
     date: "November 7, 2024",
     category: "Education",
     excerpt: "Five Things You May Not Know About Bariatric Surgery.",
-    image: "https://images.pexels.com/photos/6539879/pexels-photo-6539879.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    image: "/blog-gastric-sleeve.png",
     content: `<h2>Five Things You May Not Know About Bariatric Surgery</h2>
 
 <p>Today we are going to discuss five things that you may not know about bariatric surgery.</p>
@@ -603,7 +603,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Once you have a body mass index of 40 or higher where you're considered to be about 100 pounds overweight or more, it really doesn't even matter if you have these common conditions because your health is considered to be such at risk that generally the procedure is covered.</p>
 
-<img loading="lazy" src="https://images.pexels.com/photos/6539879/pexels-photo-6539879.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Bariatric Surgery" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-gastric-sleeve.png" alt="Bariatric Surgery" class="w-full rounded-lg my-6" />
 
 <h3>2. Eligibility for Bariatric Surgery Despite Health Conditions</h3>
 <p>A lot of patients feel that they may not be a candidate for bariatric surgery because of several health conditions they may be dealing with such as heart disease, high blood pressure, type 2 diabetes, and sleep apnea, when in fact <strong>these are reasons to seek out bariatric surgery</strong>.</p>
@@ -633,13 +633,13 @@ export const blogPosts: BlogPost[] = [
     date: "November 7, 2024",
     category: "Guidelines",
     excerpt: "Updated Guidelines on Bariatric Surgery: A Comprehensive Overview.",
-    image: "https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-nutrient-dense.jpeg",
     content: `<h2>Updated Guidelines on Bariatric Surgery: A Comprehensive Overview</h2>
 
 <h3>Introduction to New Guidelines in Bariatric Surgery</h3>
 <p>The American Society for Metabolic and Bariatric Surgery (ASMBS) and the International Federation for the Surgery of Obesity (IFSO) updated guidelines for bariatric surgery, marking a shift from the previous National Institute of Health (NIH) criteria set over 30 years ago. These updates aim to align patient eligibility and care standards with advancements in surgical techniques, patient safety, and new research findings on metabolic and bariatric surgery (MBS) outcomes.</p>
 
-<img loading="lazy" src="https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Bariatric Surgery Guidelines" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-nutrient-dense.jpeg" alt="Bariatric Surgery Guidelines" class="w-full rounded-lg my-6" />
 
 <h3>Why Update the Guidelines?</h3>
 <p>Since the original 1991 guidelines, bariatric surgery has evolved significantly:</p>
@@ -768,7 +768,7 @@ export const blogPosts: BlogPost[] = [
     date: "May 30, 2024",
     category: "Research",
     excerpt: "Each year, over 684,000 Americans are diagnosed with cancers linked to obesity.",
-    image: "https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-freud-adler.jpeg",
     content: `<h2>Obesity and Cancer Risk</h2>
 
 <p>Each year, over 684,000 Americans are diagnosed with cancers linked to obesity, according to the Centers for Disease Control and Prevention (CDC). This troubling trend shows an increase in these cancers, especially among younger people, even as cancers not related to excess weight, like lung and skin cancers, are on the decline.</p>
@@ -777,7 +777,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Despite strong evidence linking excess body fat to cancer, it's unclear exactly when weight gain begins to influence cancer risk. Does gaining weight later in life pose a different risk than being overweight from a young age? Additionally, could losing weight at some point in adulthood reduce the risk? These questions remain unanswered.</p>
 
-<img loading="lazy" src="https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Obesity and Cancer" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-freud-adler.jpeg" alt="Obesity and Cancer" class="w-full rounded-lg my-6" />
 
 <h3>A Consistent but Complicated Relationship</h3>
 <p>With obesity affecting about 42% of US adults and 20% of children and teenagers, many studies have explored how excess weight might influence cancer rates. Most evidence comes from large studies that can't definitively prove cause and effect but do show consistent associations. Higher body mass index (BMI), especially in the obese range, is linked to a higher risk of several cancers.</p>
@@ -796,7 +796,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>A 2018 study by the American Cancer Society estimated that excess weight accounts for 7.8% of all cancer cases in the US, second only to smoking. The impact of excess weight is more pronounced in certain cancers, accounting for 60% of endometrial cancers and about one-third of esophageal, kidney, and liver cancers. Even at the lower end, such as 11% of breast cancers, the population impact is significant, especially in groups with higher obesity rates.</p>
 
-<img loading="lazy" src="https://images.pexels.com/photos/4021779/pexels-photo-4021779.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Cancer Risk Factors" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-bri.jpeg" alt="Cancer Risk Factors" class="w-full rounded-lg my-6" />
 
 <h3>When Do Extra Pounds Matter?</h3>
 <p>When in life does excess weight begin to affect cancer risk? Evidence suggests that weight gain at any age increases cancer risk. A meta-analysis found that weight gain after age 18 is associated with higher postmenopausal breast cancer risk. A 2023 study linked sustained overweight or obesity from age 20 to middle age with increased risks for colorectal and other gastrointestinal cancers after age 55.</p>
@@ -816,7 +816,7 @@ export const blogPosts: BlogPost[] = [
     date: "May 30, 2024",
     category: "Nutrition",
     excerpt: "Simplify Your Diet, Improve Nutrition, and Reduce Calories.",
-    image: "https://images.pexels.com/photos/821365/pexels-photo-821365.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-cholesterol-cheese.jpeg",
     content: `<h2>Simplify Your Diet, Improve Nutrition, and Reduce Calories</h2>
 
 <p>Managing weight is a challenge many of us face. The process of dieting can often seem overwhelming. Various diets promoted by individuals or organizations often highlight the complexity of counting calories. They emphasize the hassle involved, claiming their method—a magical, revolutionary approach—will help you shed pounds effortlessly and look fantastic.</p>
@@ -966,7 +966,7 @@ export const blogPosts: BlogPost[] = [
     date: "May 28, 2024",
     category: "Research",
     excerpt: "How the Human Body Stores Energy, Hormones' Effect on Metabolism.",
-    image: "https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-gfma.jpeg",
     content: `<h2>How the Human Body Stores Energy (Calories), Hormones' Effect on Metabolism, and the Role of Leptin in Obesity Treatment</h2>
 
 <h3>Introduction</h3>
@@ -1000,7 +1000,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Metabolic Rate:</strong> The metabolic rate, or the number of calories the body burns at rest, can decrease in obese individuals. This reduction makes it harder to lose weight since the body requires fewer calories to maintain its current weight.</li>
 </ol>
 
-<img loading="lazy" src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Leptin and Obesity" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-gfma.jpeg" alt="Leptin and Obesity" class="w-full rounded-lg my-6" />
 
 <h3>The Role of Leptin in Obesity Treatment</h3>
 <p>Given leptin's role in regulating hunger and energy balance, it has become a focal point in obesity research and treatment.</p>
@@ -1089,7 +1089,7 @@ export const blogPosts: BlogPost[] = [
     date: "May 20, 2024",
     category: "Comparison",
     excerpt: "Comparing VSG and ESG: Traditional Gastric Sleeve vs. Endoscopic Sleeve.",
-    image: "https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-guidelines.jpeg",
     content: `<h2>Comparing VSG and ESG: Traditional Gastric Sleeve vs. Endoscopic Sleeve</h2>
 
 <p>Both procedures aim to reduce stomach size and help patients achieve significant weight loss, but they differ considerably in approach, invasiveness, and outcomes. Understanding these differences is crucial for making an informed decision about which procedure is right for you.</p>
@@ -1139,7 +1139,7 @@ export const blogPosts: BlogPost[] = [
     date: "May 1, 2024",
     category: "Research",
     excerpt: "Endoscopic Sleeve Gastroplasty: A Long-Term Solution for Weight Loss?",
-    image: "https://images.pexels.com/photos/4047184/pexels-photo-4047184.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-gastric-fundus.png",
     content: `<h2>Endoscopic Sleeve Gastroplasty: A Long-Term Solution for Weight Loss?</h2>
 
 <p>Obesity has become a global epidemic, impacting millions and leading to severe health complications. While lifestyle changes and medication can help, many individuals struggle to achieve significant and lasting weight loss. Bariatric surgery offers a more definitive solution, but traditional methods like gastric sleeve surgery can be invasive and carry risks. In recent years, endoscopic sleeve gastroplasty (ESG) has emerged as a less invasive alternative, offering promising results for long-term weight management.</p>
@@ -1184,7 +1184,7 @@ export const blogPosts: BlogPost[] = [
     date: "February 24, 2024",
     category: "New Technology",
     excerpt: "The Endo Band offers a less invasive alternative to traditional surgery.",
-    image: "https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-gfma.jpeg",
     content: `<h2>Endo Band: A Novel Endoscopic Approach for Weight Loss</h2>
 
 <p>The Endo Band represents an innovative advancement in endoscopic bariatric procedures, offering a less invasive alternative to traditional gastric banding surgery. This novel approach combines the restrictive benefits of gastric banding with the minimally invasive advantages of endoscopic procedures.</p>
@@ -1289,7 +1289,7 @@ export const blogPosts: BlogPost[] = [
     date: "January 5, 2024",
     category: "Research",
     excerpt: "A comprehensive analysis comparing the safety of metabolic and bariatric surgery.",
-    image: "https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-ibc-clinic.jpg",
     content: `<h2>Bariatric Surgery is as Safe as Other Common Operations</h2>
 
 <p>The article "Bariatric Surgery is as Safe as Other Common Operations" presents a comprehensive analysis that compares the safety of metabolic and bariatric surgery (MBS) with other frequently performed surgical procedures.</p>
@@ -1417,7 +1417,7 @@ export const blogPosts: BlogPost[] = [
     date: "December 8, 2023",
     category: "Research",
     excerpt: "New Study Revealed ESG's Safety and Efficacy in Class III Obesity.",
-    image: "https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-ultra-processed.png",
     content: `<h2>New Study Revealed Endoscopic Sleeve Gastroplasty's Safety and Efficacy in Class III Obesity</h2>
 
 <p>In the ever-evolving landscape of weight loss interventions, a groundbreaking study sheds light on the effectiveness of Endoscopic Sleeve Gastroplasty (ESG) as a safe and durable option for individuals grappling with class III obesity (BMI ≥40kg/m2). The research, conducted by a collaborative team of US and Brazilian researchers, presents compelling evidence of the procedure's efficacy, challenging the conventional reliance on surgical approaches for weight loss in this demographic.</p>
@@ -1450,7 +1450,7 @@ export const blogPosts: BlogPost[] = [
     date: "November 16, 2023",
     category: "Treatments",
     excerpt: "Are you struggling with obesity and looking for a less invasive weight loss solution?",
-    image: "https://images.pexels.com/photos/3872373/pexels-photo-3872373.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-liver.jpeg",
     content: `<h2>POSE Endoscopic Sleeve Gastroplasty in the Treatment of Obesity</h2>
 
 <p>Are you struggling with obesity and looking for a less invasive weight loss solution? The POSE (Primary Obesity Surgery, Endoluminal) endoscopic sleeve gastroplasty might be the answer you've been searching for.</p>
@@ -1498,7 +1498,7 @@ export const blogPosts: BlogPost[] = [
     date: "October 2, 2023",
     category: "New Technology",
     excerpt: "NICE Approves Endoscopic Sleeve Gastroplasty for Primary Obesity Treatment.",
-    image: "https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-guidelines.jpeg",
     content: `<h2>NICE Approves Endoscopic Sleeve Gastroplasty for Primary Obesity Treatment</h2>
 
 <p>In a significant development for obesity treatment, the National Institute for Health and Care Excellence (NICE) has approved Endoscopic Sleeve Gastroplasty (ESG) as a primary treatment option for people living with obesity. This approval marks a major milestone in recognizing ESG as a mainstream, effective weight loss intervention.</p>
@@ -1547,7 +1547,7 @@ export const blogPosts: BlogPost[] = [
     date: "October 2, 2023",
     category: "Research",
     excerpt: "Chronic choline deficiency in diets can lead to fatty liver.",
-    image: "https://images.pexels.com/photos/6823612/pexels-photo-6823612.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-insulin.jpg",
     content: `<h2>Fatty Liver Disease Rising Among Adolescents</h2>
 
 <p>Non-alcoholic fatty liver disease (NAFLD) is becoming increasingly common among adolescents, a concerning trend that mirrors the global rise in childhood obesity. This condition, once primarily seen in adults, is now affecting a growing number of young people with potentially serious long-term health consequences.</p>
@@ -1667,7 +1667,7 @@ export const blogPosts: BlogPost[] = [
     date: "July 29, 2023",
     category: "Research",
     excerpt: "Melatonin has garnered significant attention due to its potential impact on glucose metabolism.",
-    image: "https://images.pexels.com/photos/6823612/pexels-photo-6823612.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-insulin.jpg",
     content: `<h2>Melatonin: Sleep, Glucose Metabolism, and Late-Night Eating Habits</h2>
 
 <p>Melatonin, often called the "sleep hormone," has garnered significant attention in recent years due to its potential impact on glucose metabolism and weight management. Understanding the relationship between melatonin, meal timing, and metabolic health can help you make better decisions about when and what to eat.</p>
@@ -1781,7 +1781,7 @@ export const blogPosts: BlogPost[] = [
     date: "May 19, 2023",
     category: "Treatments",
     excerpt: "Revisional bariatric surgery is performed on individuals who have previously undergone bariatric surgery.",
-    image: "https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-ultra-processed.png",
     content: `<h2>Revisional Bariatric Surgery in Turkey</h2>
 
 <p>Revisional bariatric surgery is performed on individuals who have previously undergone bariatric surgery but need additional intervention. Whether due to weight regain, inadequate initial weight loss, or complications from a prior procedure, revisional surgery offers a second chance at achieving lasting weight loss success.</p>
@@ -1883,7 +1883,7 @@ export const blogPosts: BlogPost[] = [
     date: "August 24, 2022",
     category: "Medical Weight Loss",
     excerpt: "Ozempic is a weekly injection of Semaglutide and advisable for the first line treatment option for weight loss.",
-    image: "https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-ultra-processed.png",
     content: `<h2>Ozempic: The Leading Medical Treatment for Obesity</h2>
 
 <p>Ozempic (semaglutide) has emerged as a groundbreaking medication in the treatment of obesity and type 2 diabetes. This weekly injection has revolutionized medical weight loss treatment, offering significant results for patients who struggle to lose weight through diet and exercise alone.</p>
@@ -1949,7 +1949,7 @@ export const blogPosts: BlogPost[] = [
     date: "February 3, 2022",
     category: "New Technology",
     excerpt: "Obesity is an expanding health issue. One new speculative treatment resembling a clip for weightloss.",
-    image: "https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-gfma.jpeg",
     content: `<h2>BariClip: The Brand-new Bariatric Clip for Weight-loss</h2>
 
 <p>Obesity is an expanding health issue worldwide, and researchers continue to develop innovative treatments to help patients achieve lasting weight loss. One new speculative treatment that has garnered attention is the BariClip—a clip-based device designed for weight loss without the need for permanent stomach alteration.</p>
@@ -2166,7 +2166,7 @@ export const blogPosts: BlogPost[] = [
     date: "January 12, 2021",
     category: "News",
     excerpt: "According to the latest official government guidance, the priority for giving the vaccine will be to obese adults.",
-    image: "https://images.pexels.com/photos/6823612/pexels-photo-6823612.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-insulin.jpg",
     content: `<h2>Obese Adults in 'At-Risk' Priority Group for COVID Vaccine</h2>
 
 <p>According to official government guidance, obese adults have been classified in the 'at-risk' priority group for receiving the COVID-19 vaccine. This decision recognizes obesity as a significant risk factor for severe COVID-19 outcomes and hospitalizations.</p>
@@ -2201,7 +2201,7 @@ export const blogPosts: BlogPost[] = [
     date: "December 11, 2020",
     category: "Medical Tourism",
     excerpt: "Istanbul has what it takes to be famous in this field. Well equipped hospitals, expert doctors.",
-    image: "https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-ultra-processed.png",
     content: `<h2>Why Istanbul is an Important Location for Obesity Surgery</h2>
 
 <p>Istanbul has what it takes to be famous in the field of bariatric surgery. With well-equipped hospitals, expert doctors, and comprehensive care packages, the city has emerged as a premier destination for medical tourism, particularly for weight loss surgery.</p>
@@ -2264,7 +2264,7 @@ export const blogPosts: BlogPost[] = [
     date: "December 7, 2020",
     category: "News",
     excerpt: "A Cleveland Clinic study shows that among obese patients who tested positive for COVID-19.",
-    image: "https://images.pexels.com/photos/6823612/pexels-photo-6823612.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "/blog-insulin.jpg",
     content: `<h2>Should You Consider Having A Bariatric Surgery During the COVID-19 Pandemic?</h2>
 
 <p>A Cleveland Clinic study shows that among obese patients who tested positive for COVID-19, those who had previously undergone bariatric surgery had significantly better outcomes than those who had not. This research has important implications for individuals considering weight loss surgery during the pandemic.</p>
