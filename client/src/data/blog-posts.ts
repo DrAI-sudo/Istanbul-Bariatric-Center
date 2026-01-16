@@ -1039,10 +1039,12 @@ export const blogPosts: BlogPost[] = [
     date: "May 30, 2024",
     category: "Nutrition",
     excerpt: "Simplify Your Diet, Improve Nutrition, and Reduce Calories.",
-    image: "/blog-cholesterol-cheese.jpeg",
+    image: "/blog-nutrient-foods-1.webp",
     content: `<h2>Simplify Your Diet, Improve Nutrition, and Reduce Calories</h2>
 
 <p>Managing weight is a challenge many of us face. The process of dieting can often seem overwhelming. Various diets promoted by individuals or organizations often highlight the complexity of counting calories. They emphasize the hassle involved, claiming their method—a magical, revolutionary approach—will help you shed pounds effortlessly and look fantastic.</p>
+
+<img loading="lazy" src="/blog-nutrient-foods-1.webp" alt="Nutrient Dense Foods" class="w-full rounded-lg my-6" />
 
 <p>The truth is that weight loss occurs with any diet that creates a caloric deficit. This principle is well-supported by extensive research. The key is caloric deficit, regardless of the food type. But wouldn't it be great if there was a simpler way to eat healthier and lose weight?</p>
 
@@ -1073,6 +1075,8 @@ export const blogPosts: BlogPost[] = [
 <h4>6. Sweet Potatoes</h4>
 <p>Sweet potatoes are loaded with vitamins A, C, and B6, and minerals like potassium and magnesium. They are high in fiber and antioxidants like beta-carotene. They promote eye health, immune support, and digestive wellness.</p>
 
+<img loading="lazy" src="/blog-nutrient-foods-2.webp" alt="Healthy Nutrient-Dense Foods" class="w-full rounded-lg my-6" />
+
 <h4>7. Beets</h4>
 <p>Beets are rich in folate, vitamin C, potassium, and manganese. They contain no cholesterol and minimal fat. Beets are also high in antioxidants like betalains. Consuming beets can support heart health, regulate blood pressure, and enhance athletic performance.</p>
 
@@ -1099,6 +1103,8 @@ export const blogPosts: BlogPost[] = [
 
 <h4>15. Spirulina</h4>
 <p>Spirulina is a complete protein source, high in protein (about 60%) and healthy fats like gamma-linolenic acid (GLA). It is rich in vitamins A, K, B vitamins, iron, calcium, magnesium, potassium, and manganese. Spirulina also contains antioxidants like phycocyanin and chlorophyll.</p>
+
+<img loading="lazy" src="/blog-nutrient-foods-3.webp" alt="Balanced Nutrition" class="w-full rounded-lg my-6" />
 
 <h3>Final Thoughts</h3>
 <p>These fifteen nutrient-dense foods are packed with essential vitamins, minerals, antioxidants, and healthy fats. Nutrient-dense foods should form the foundation of a balanced and nutritious diet. Variety is key to a sustainable diet. Including various nutrient-dense foods ensures we consume all essential nutrients, enhancing overall health and well-being.</p>`
