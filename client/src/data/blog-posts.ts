@@ -1752,8 +1752,10 @@ export const blogPosts: BlogPost[] = [
     date: "December 25, 2023",
     category: "Nutrition",
     excerpt: "The holiday season is a time for joy, family, and delicious food.",
-    image: "/gastric-balloon.jpeg",
+    image: "/blog-christmas-dinner.jpg",
     content: `<h2>Bariatric-Friendly Christmas Dinner Ideas</h2>
+
+<img loading="lazy" src="/blog-christmas-dinner.jpg" alt="Healthy Holiday Dinner" class="w-full rounded-lg my-6" />
 
 <p>The holiday season is a time for joy, family, and delicious food. But for patients who have undergone bariatric surgery, navigating the festive feasts can be challenging. Fear not! With a little creativity and some mindful choices, you can enjoy a bariatric-friendly Christmas dinner that's both satisfying and kind to your post-surgery needs.</p>
 
