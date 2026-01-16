@@ -1603,8 +1603,10 @@ export const blogPosts: BlogPost[] = [
     date: "January 16, 2024",
     category: "Nutrition",
     excerpt: "How to Avoid Vitamin and Mineral Deficiencies After Gastric Bypass Surgery.",
-    image: "/gastric-balloon.jpeg",
+    image: "/blog-vitamin-deficiencies.webp",
     content: `<h2>How to Avoid Vitamin and Mineral Deficiencies After Gastric Bypass Surgery</h2>
+
+<img loading="lazy" src="/blog-vitamin-deficiencies.webp" alt="Vitamin and Mineral Supplements" class="w-full rounded-lg my-6" />
 
 <p>Gastric bypass surgery is an effective tool for significant weight loss, but it also changes how your body absorbs nutrients. Because the surgery alters the digestive system, patients are at increased risk for vitamin and mineral deficiencies. Understanding these risks and taking proper precautions is essential for long-term health and success.</p>
 
