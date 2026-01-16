@@ -494,7 +494,7 @@ export const blogPosts: BlogPost[] = [
     date: "November 9, 2024",
     category: "Nutrition",
     excerpt: "Understanding Ultra-Processed Foods: A Deep Dive into Our Daily Diet.",
-    image: "/blog-gfma.jpeg",
+    image: "/blog-ultra-processed-foods.webp",
     content: `<h2>Understanding Ultra-Processed Foods: A Deep Dive into Our Daily Diet</h2>
 
 <p>In today's fast-paced world, convenience often dictates our food choices. From <strong>cakes</strong> and muffins to <strong>frozen meals</strong> and pizzas, ultra-processed foods have become staples in many households. But have we ever stopped to consider what ultra-processed foods really are and the impact they have on our health?</p>
