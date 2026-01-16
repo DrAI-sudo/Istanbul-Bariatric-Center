@@ -771,18 +771,167 @@ export const blogPosts: BlogPost[] = [
     title: "Comprehensive Guide to Preoperative Medication Management",
     date: "July 6, 2024",
     category: "Pre-Surgery",
-    excerpt: "Proper medication management before surgery is crucial for ensuring your safety.",
-    image: "/gastric-sleeve.png",
-    content: `<h2>Preoperative Medication Management</h2>
-<p>Proper medication management before surgery is crucial for ensuring your safety and optimizing your surgical outcome.</p>
-<h3>Medications to Stop</h3>
+    excerpt: "Proper medication management before bariatric surgery is crucial for ensuring your safety and optimizing surgical outcomes. Learn which medications to stop, continue, and adjust.",
+    image: "/blog-preop-medications.jpeg",
+    content: `<h2>Comprehensive Guide to Preoperative Medication Management for Bariatric Surgery</h2>
+
+<p>Proper medication management before bariatric surgery is crucial for ensuring your safety and optimizing your surgical outcome. Based on the latest Enhanced Recovery After Surgery (ERAS) Society guidelines and American Society for Metabolic and Bariatric Surgery (ASMBS) recommendations, this comprehensive guide will help you understand how to manage your medications before your procedure.</p>
+
+<img loading="lazy" src="/blog-preop-medications.jpeg" alt="Preoperative Medication Management" class="w-full rounded-lg my-6" />
+
+<h3>Why Preoperative Medication Management Matters</h3>
+<p>The period before your bariatric surgery is a critical time that can significantly impact your surgical outcomes. Proper medication management helps:</p>
 <ul>
-<li>Blood thinners (as directed by your surgeon)</li>
-<li>NSAIDs like ibuprofen and aspirin</li>
-<li>Certain supplements and vitamins</li>
+<li>Minimize surgical risks and complications</li>
+<li>Optimize your metabolic health before the procedure</li>
+<li>Prevent dangerous drug interactions during anesthesia</li>
+<li>Reduce bleeding risks during surgery</li>
+<li>Prepare your body for the metabolic changes that will occur post-surgery</li>
 </ul>
+
+<h3>Diabetes Medications: Critical Adjustments Required</h3>
+<p>If you have diabetes, medication management is particularly important as bariatric surgery rapidly improves glucose control. Your healthcare team will work with you to adjust your medications, but here are the general guidelines:</p>
+
+<h4>Insulin</h4>
+<ul>
+<li>Doses are typically reduced preoperatively, especially if you're on a low-calorie or very-low-calorie preoperative diet</li>
+<li>There is an increased risk of hypoglycemia during the preoperative weight loss phase</li>
+<li>Expect significant dose reductions immediately after surgery</li>
+</ul>
+
+<h4>Oral Diabetes Medications</h4>
+<ul>
+<li><strong>Discontinue immediately after surgery:</strong> Sulfonylureas (high hypoglycemia risk), SGLT2 inhibitors (dehydration risk)</li>
+<li><strong>May continue with monitoring:</strong> Metformin, DPP-4 inhibitors</li>
+<li><strong>GLP-1 agonists:</strong> Evaluate continuation based on individual factors</li>
+</ul>
+
+<h4>Preoperative Glucose Targets</h4>
+<ul>
+<li>HbA1c: 6.5-7%</li>
+<li>Fasting glucose: less than 110 mg/dL</li>
+<li>2-hour postprandial glucose: less than 140 mg/dL</li>
+</ul>
+
+<img loading="lazy" src="/blog-preop-consultation.jpeg" alt="Preoperative Consultation" class="w-full rounded-lg my-6" />
+
+<h3>Blood Pressure Medications</h3>
+<p>Antihypertensive medications require careful adjustment to avoid postoperative hypotension:</p>
+<ul>
+<li>Monitor blood pressure closely during preoperative weight loss</li>
+<li>Diuretics, ACE inhibitors, and ARBs may need to be reduced or discontinued</li>
+<li>Beta-blockers are generally continued through surgery</li>
+<li>Your surgeon will provide specific instructions based on your individual situation</li>
+</ul>
+
+<h3>Medications to Stop Before Surgery</h3>
+<p>Several medication categories must be stopped before bariatric surgery:</p>
+
+<h4>Blood Thinners and Anticoagulants</h4>
+<ul>
+<li>Warfarin (Coumadin): Typically stopped 5-7 days before surgery</li>
+<li>Novel oral anticoagulants (NOACs): Usually stopped 2-3 days before</li>
+<li>Your surgeon will provide specific bridging instructions if needed</li>
+</ul>
+
+<h4>NSAIDs and Pain Relievers</h4>
+<ul>
+<li>Aspirin: Stop 7-10 days before surgery (unless directed otherwise by cardiologist)</li>
+<li>Ibuprofen (Advil, Motrin): Stop 7 days before</li>
+<li>Naproxen (Aleve): Stop 7 days before</li>
+<li>These medications increase bleeding risk and can interfere with healing</li>
+</ul>
+
+<h4>Weight Loss Medications</h4>
+<ul>
+<li><strong>Bupropion/Naltrexone (Contrave):</strong> May interfere with opioid-based pain management; discuss with your anesthesia team</li>
+<li><strong>Orlistat:</strong> Typically discontinued before surgery</li>
+<li><strong>Phentermine/Topiramate:</strong> Usually stopped preoperatively</li>
+</ul>
+
+<h4>Supplements and Herbal Products</h4>
+<p>Many supplements can affect bleeding, anesthesia, or healing:</p>
+<ul>
+<li>Fish oil and omega-3 fatty acids: Stop 7-14 days before</li>
+<li>Vitamin E (high doses): Stop 7 days before</li>
+<li>Ginkgo biloba, garlic, ginger: Stop 7 days before</li>
+<li>St. John's Wort: Can interact with anesthesia medications</li>
+<li>Always inform your surgical team about ALL supplements you take</li>
+</ul>
+
 <h3>Medications to Continue</h3>
-<p>Always consult with your surgeon about which medications to continue taking before surgery.</p>`
+<p>Some medications should be continued through surgery:</p>
+<ul>
+<li><strong>Thyroid medications:</strong> Continue as prescribed</li>
+<li><strong>Most heart medications:</strong> Beta-blockers, statins (with a small sip of water)</li>
+<li><strong>Anti-anxiety medications:</strong> May help with preoperative stress</li>
+<li><strong>Proton pump inhibitors (PPIs):</strong> Important for gastric protection, especially for restrictive procedures</li>
+</ul>
+
+<h3>Micronutrient Screening and Supplementation</h3>
+<p>Preoperative nutritional assessment is essential. Common deficiencies that should be corrected before surgery include:</p>
+<ul>
+<li><strong>Vitamin D:</strong> Very common deficiency in bariatric patients</li>
+<li><strong>Iron:</strong> Complete blood count and ferritin levels checked</li>
+<li><strong>Vitamin B12 and folate:</strong> Important for healing and energy</li>
+<li><strong>Thiamine:</strong> Especially important if rapid weight loss has occurred</li>
+<li><strong>Calcium, zinc, copper, selenium:</strong> May be evaluated based on individual needs</li>
+</ul>
+
+<h3>Timeline: What to Do and When</h3>
+
+<h4>2-4 Weeks Before Surgery</h4>
+<ul>
+<li>Review ALL current medications with your bariatric team</li>
+<li>Adjust diabetes medications if on a preoperative diet</li>
+<li>Complete micronutrient screening and begin corrections</li>
+<li>Coordinate with anesthesia regarding any concerns</li>
+<li>Begin reducing antihypertensive medications if indicated</li>
+<li>Stop NSAIDs</li>
+</ul>
+
+<h4>1 Week Before Surgery</h4>
+<ul>
+<li>Confirm medication plan with surgical team</li>
+<li>Stop all supplements and herbal products</li>
+<li>Continue blood pressure monitoring</li>
+<li>Follow preoperative diet instructions carefully</li>
+</ul>
+
+<h4>Day of Surgery</h4>
+<ul>
+<li>Hold most oral diabetes medications</li>
+<li>Follow reduced insulin dosing if applicable</li>
+<li>Take approved medications with a small sip of water</li>
+<li>Bring a complete list of all your medications to the hospital</li>
+</ul>
+
+<h3>Multidisciplinary Team Approach</h3>
+<p>Your preoperative evaluation should include coordination with multiple specialists:</p>
+<ul>
+<li>Bariatric surgeon</li>
+<li>Registered dietitian</li>
+<li>Behavioral health professional</li>
+<li>Anesthesiologist</li>
+<li>Endocrinologist (if you have complex diabetes or metabolic disease)</li>
+<li>Cardiologist (if you have heart conditions)</li>
+</ul>
+
+<h3>Special Considerations</h3>
+
+<h4>If You Take Psychiatric Medications</h4>
+<p>Antidepressants, anti-anxiety medications, and other psychiatric drugs require special consideration. Never stop these medications without consulting both your psychiatrist and surgical team.</p>
+
+<h4>If You Have Sleep Apnea</h4>
+<p>Continue using your CPAP machine as directed. Sleep apnea is a risk factor for surgical complications, so proper management is essential.</p>
+
+<h4>If You Are on Chronic Pain Medications</h4>
+<p>Discuss your pain management plan with your surgical team well in advance. Opioid tolerance may affect your postoperative pain management strategy.</p>
+
+<h3>Conclusion</h3>
+<p>Proper preoperative medication management is a team effort between you and your healthcare providers. By following these guidelines and maintaining open communication with your bariatric team, you can help ensure the safest and most successful surgical outcome. Always ask questions if you're unsure about any medication, and never make changes without consulting your healthcare providers.</p>
+
+<p>Remember: Every patient is unique, and your specific medication plan will be tailored to your individual health needs and the type of bariatric procedure you're having.</p>`
   },
   {
     slug: "leaks-in-bariatric-surgery",
