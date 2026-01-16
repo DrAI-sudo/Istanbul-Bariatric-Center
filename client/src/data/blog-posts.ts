@@ -1751,42 +1751,300 @@ export const blogPosts: BlogPost[] = [
     title: "Bariatric-Friendly Christmas Dinner Ideas",
     date: "December 25, 2023",
     category: "Nutrition",
-    excerpt: "The holiday season is a time for joy, family, and delicious food.",
-    image: "/blog-christmas-dinner.jpg",
+    excerpt: "The holiday season is a time for joy, family, and delicious food. Discover 9 delicious bariatric-friendly recipes perfect for your Christmas celebration.",
+    image: "/blog-xmas-1.webp",
     content: `<h2>Bariatric-Friendly Christmas Dinner Ideas</h2>
 
-<img loading="lazy" src="/blog-christmas-dinner.jpg" alt="Healthy Holiday Dinner" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-xmas-1.webp" alt="Bariatric-Friendly Christmas Dinner" class="w-full rounded-lg my-6" />
 
 <p>The holiday season is a time for joy, family, and delicious food. But for patients who have undergone bariatric surgery, navigating the festive feasts can be challenging. Fear not! With a little creativity and some mindful choices, you can enjoy a bariatric-friendly Christmas dinner that's both satisfying and kind to your post-surgery needs.</p>
 
+<p>These recipes are designed with bariatric patients in mind—high in protein, low in sugar, and portion-friendly. Each dish can be enjoyed in small amounts while still feeling part of the celebration.</p>
+
 <h3>1. Creamy Deviled Eggs</h3>
-<p>Deviled eggs are a classic appetizer that can be adapted for Christmas. These protein-packed delights are always a crowd pleaser. Try the classic recipe or get creative with variations like BLT Deviled Eggs or Creamy Jalapeño Deviled Eggs. They're not just for Easter anymore!</p>
+<p>Deviled eggs are a classic appetizer that can be adapted for Christmas. These protein-packed delights are always a crowd pleaser and provide excellent nutrition for bariatric patients.</p>
+
+<p><strong>Ingredients:</strong></p>
+<ul>
+<li>6 large hard-boiled eggs</li>
+<li>3 tablespoons Greek yogurt (instead of mayonnaise for extra protein)</li>
+<li>1 teaspoon Dijon mustard</li>
+<li>1/4 teaspoon paprika</li>
+<li>Salt and pepper to taste</li>
+<li>Fresh chives for garnish</li>
+</ul>
+
+<p><strong>Instructions:</strong></p>
+<ol>
+<li>Cut hard-boiled eggs in half lengthwise and remove yolks</li>
+<li>Mash yolks with Greek yogurt and Dijon mustard until smooth</li>
+<li>Season with salt, pepper, and a pinch of paprika</li>
+<li>Pipe or spoon the mixture back into egg whites</li>
+<li>Garnish with fresh chives and an extra sprinkle of paprika</li>
+</ol>
+
+<p><strong>Nutrition per serving (2 halves):</strong> 70 calories, 6g protein, 5g fat, 0.5g carbs</p>
+
+<img loading="lazy" src="/blog-xmas-2.webp" alt="Creamy Stuffed Mushrooms" class="w-full rounded-lg my-6" />
 
 <h3>2. Creamy Stuffed Mushrooms</h3>
-<p>Stuffed mushrooms are another holiday favorite. Whether you're hosting a pre-Christmas party or bringing an appetizer to a family gathering, these savory bites are sure to please. Plus, they're easy to make and can be customized to your taste.</p>
+<p>Stuffed mushrooms are another holiday favorite that's naturally bariatric-friendly due to their small size and high protein content when filled with the right ingredients.</p>
+
+<p><strong>Ingredients:</strong></p>
+<ul>
+<li>12 large cremini or button mushrooms</li>
+<li>100g low-fat cream cheese, softened</li>
+<li>50g feta cheese, crumbled</li>
+<li>2 cloves garlic, minced</li>
+<li>2 tablespoons fresh parsley, chopped</li>
+<li>1 tablespoon olive oil</li>
+<li>Salt and pepper to taste</li>
+</ul>
+
+<p><strong>Instructions:</strong></p>
+<ol>
+<li>Preheat oven to 190°C (375°F)</li>
+<li>Remove stems from mushrooms and finely chop them</li>
+<li>Sauté chopped stems with garlic in olive oil until soft</li>
+<li>Mix cream cheese, feta, sautéed stems, and parsley</li>
+<li>Fill each mushroom cap with the cheese mixture</li>
+<li>Bake for 20-25 minutes until golden and bubbly</li>
+</ol>
+
+<p><strong>Nutrition per serving (3 mushrooms):</strong> 95 calories, 5g protein, 7g fat, 3g carbs</p>
+
+<img loading="lazy" src="/blog-xmas-3.webp" alt="Rosemary Turkey Tenderloin" class="w-full rounded-lg my-6" />
 
 <h3>3. Rosemary Turkey Tenderloin</h3>
-<p>If you're not cooking for a large crowd, consider making a simple turkey breast instead of the whole bird. Rosemary-infused turkey tenderloin is a flavorful and bariatric-friendly option. Pair it with roasted vegetables or a light salad for a complete Christmas meal.</p>
+<p>If you're not cooking for a large crowd, consider making a simple turkey breast instead of the whole bird. This rosemary-infused turkey tenderloin is flavorful, moist, and perfect for bariatric patients who need to focus on protein intake.</p>
+
+<p><strong>Ingredients:</strong></p>
+<ul>
+<li>500g turkey tenderloin</li>
+<li>2 tablespoons fresh rosemary, finely chopped</li>
+<li>3 cloves garlic, minced</li>
+<li>2 tablespoons olive oil</li>
+<li>1 tablespoon lemon juice</li>
+<li>1/2 teaspoon salt</li>
+<li>1/4 teaspoon black pepper</li>
+</ul>
+
+<p><strong>Instructions:</strong></p>
+<ol>
+<li>Mix olive oil, rosemary, garlic, lemon juice, salt, and pepper to create a marinade</li>
+<li>Coat turkey tenderloin with the marinade and refrigerate for at least 2 hours (or overnight)</li>
+<li>Preheat oven to 200°C (400°F)</li>
+<li>Place turkey in a baking dish and roast for 25-30 minutes until internal temperature reaches 75°C (165°F)</li>
+<li>Let rest for 5-10 minutes before slicing</li>
+<li>Serve with roasted vegetables or a light salad</li>
+</ol>
+
+<p><strong>Nutrition per 100g serving:</strong> 135 calories, 28g protein, 2g fat, 0g carbs</p>
+
+<img loading="lazy" src="/blog-xmas-4.webp" alt="Turkey Sausage Tomato Sauce" class="w-full rounded-lg my-6" />
 
 <h3>4. Fall-Inspired Turkey Sausage Tomato Sauce</h3>
-<p>While this might not seem like a traditional holiday recipe, the bold flavors of this tomato sauce evoke warmth and comfort. Imagine a marriage between thick and hearty chili and a marinara sauce. Serve it over zoodles (zucchini noodles) or spaghetti squash for a low-carb twist.</p>
+<p>While this might not seem like a traditional holiday recipe, the bold flavors of this tomato sauce evoke warmth and comfort—perfect for a cozy Christmas meal.</p>
+
+<p><strong>Ingredients:</strong></p>
+<ul>
+<li>250g lean turkey sausage, casings removed</li>
+<li>1 can (400g) crushed tomatoes</li>
+<li>1 small onion, diced</li>
+<li>3 cloves garlic, minced</li>
+<li>1 teaspoon Italian seasoning</li>
+<li>1/2 teaspoon smoked paprika</li>
+<li>1/4 teaspoon cinnamon</li>
+<li>Salt and pepper to taste</li>
+<li>Fresh basil for garnish</li>
+</ul>
+
+<p><strong>Instructions:</strong></p>
+<ol>
+<li>Brown turkey sausage in a large pan, breaking it into small pieces</li>
+<li>Add onion and cook until translucent</li>
+<li>Add garlic and cook for 1 minute</li>
+<li>Stir in crushed tomatoes, Italian seasoning, paprika, and cinnamon</li>
+<li>Simmer for 20-25 minutes until thickened</li>
+<li>Serve over zoodles (zucchini noodles) or spaghetti squash for a low-carb option</li>
+</ol>
+
+<p><strong>Nutrition per 1/2 cup serving:</strong> 120 calories, 12g protein, 5g fat, 8g carbs</p>
+
+<img loading="lazy" src="/blog-xmas-5.webp" alt="Roasted Red Pepper Soup" class="w-full rounded-lg my-6" />
 
 <h3>5. Roasted Red Pepper and Tomato Soup</h3>
-<p>Roast 4 Kapya peppers in the oven, peel, and remove seeds. Roast 4 tomatoes in the oven and peel. Sauté 2 tablespoons of chickpea flour in 1 tablespoon of plain oil. Add peeled peppers and tomatoes processed in a blender to the roasted chickpea flour. Cook, stirring. Pour bone broth until it reaches the desired consistency. Reduce heat, add salt, and simmer. Once cooked, strain the soup through a fine sieve. Your tomato soup is ready!</p>
+<p>This warming soup is perfect as a starter or light meal. The roasted peppers add natural sweetness without added sugars.</p>
+
+<p><strong>Ingredients:</strong></p>
+<ul>
+<li>4 large red bell peppers (Kapya peppers)</li>
+<li>4 ripe tomatoes</li>
+<li>2 tablespoons chickpea flour</li>
+<li>1 tablespoon olive oil</li>
+<li>500ml bone broth (low-sodium)</li>
+<li>1/2 teaspoon cumin</li>
+<li>Salt and pepper to taste</li>
+<li>Fresh basil for garnish</li>
+</ul>
+
+<p><strong>Instructions:</strong></p>
+<ol>
+<li>Roast whole peppers and tomatoes in the oven at 200°C (400°F) for 25-30 minutes until charred</li>
+<li>Peel peppers and tomatoes, remove seeds from peppers</li>
+<li>In a large pot, toast chickpea flour in olive oil for 2-3 minutes</li>
+<li>Blend roasted vegetables until smooth and add to the pot</li>
+<li>Gradually add bone broth, stirring constantly</li>
+<li>Season with cumin, salt, and pepper</li>
+<li>Simmer for 15 minutes, then strain through a fine sieve for silky texture</li>
+<li>Garnish with fresh basil</li>
+</ol>
+
+<p><strong>Nutrition per cup:</strong> 85 calories, 4g protein, 3g fat, 12g carbs</p>
+
+<img loading="lazy" src="/blog-xmas-6.webp" alt="Sweet Potato Salad" class="w-full rounded-lg my-6" />
 
 <h3>6. Sweet Potato Salad</h3>
-<p>Dice sweet potatoes and boil in salted water with black pepper. Thinly slice leeks, iceberg lettuce, and finely chop fresh mint. Add oregano, red pepper flakes, salt, and a drizzle of extra virgin olive oil. Squeeze lemon over the salad.</p>
+<p>A lighter alternative to traditional potato salad, this dish offers complex carbohydrates and fiber while being gentle on your bariatric stomach.</p>
+
+<p><strong>Ingredients:</strong></p>
+<ul>
+<li>2 medium sweet potatoes, diced</li>
+<li>1 small leek, thinly sliced</li>
+<li>2 cups iceberg lettuce, shredded</li>
+<li>2 tablespoons fresh mint, finely chopped</li>
+<li>1/2 teaspoon dried oregano</li>
+<li>Pinch of red pepper flakes</li>
+<li>2 tablespoons extra virgin olive oil</li>
+<li>Juice of 1 lemon</li>
+<li>Salt and black pepper to taste</li>
+</ul>
+
+<p><strong>Instructions:</strong></p>
+<ol>
+<li>Boil diced sweet potatoes in salted water with black pepper until just tender (about 10-12 minutes)</li>
+<li>Drain and let cool to room temperature</li>
+<li>In a large bowl, combine cooled sweet potatoes, sliced leeks, lettuce, and mint</li>
+<li>Sprinkle with oregano and red pepper flakes</li>
+<li>Drizzle with olive oil and lemon juice</li>
+<li>Season with salt and gently toss to combine</li>
+<li>Serve immediately or chill for 30 minutes</li>
+</ol>
+
+<p><strong>Nutrition per serving:</strong> 110 calories, 2g protein, 5g fat, 16g carbs</p>
+
+<img loading="lazy" src="/blog-xmas-7.webp" alt="Turkey Fillet Rolls" class="w-full rounded-lg my-6" />
 
 <h3>7. Turkey Fillet Rolls</h3>
-<p>Use 200g of thin turkey breast fillet. Stuff with roasted eggplant, roasted bell pepper, 70g dill cheese, 30g strained cheese, minced garlic, and fresh basil. Drizzle with 1 teaspoon of extra virgin olive oil, add salt, and tie with green onions. Cook the rolls.</p>
+<p>These elegant turkey rolls make an impressive holiday main course while being perfectly portioned for bariatric patients.</p>
+
+<p><strong>Ingredients:</strong></p>
+<ul>
+<li>200g thin turkey breast fillets (pounded thin)</li>
+<li>1 small eggplant, roasted and mashed</li>
+<li>1 red bell pepper, roasted and sliced</li>
+<li>70g dill-flavored cheese (or cream cheese with dill)</li>
+<li>30g strained cheese (or ricotta)</li>
+<li>2 cloves garlic, minced</li>
+<li>Fresh basil leaves</li>
+<li>1 teaspoon extra virgin olive oil</li>
+<li>Green onion tops for tying</li>
+<li>Salt and pepper to taste</li>
+</ul>
+
+<p><strong>Instructions:</strong></p>
+<ol>
+<li>Pound turkey fillets to an even 1/4-inch thickness</li>
+<li>Mix roasted eggplant with cheeses, garlic, and basil</li>
+<li>Spread the mixture evenly over each turkey fillet</li>
+<li>Top with roasted bell pepper strips</li>
+<li>Roll up tightly and tie with blanched green onion tops</li>
+<li>Drizzle with olive oil and season with salt</li>
+<li>Bake at 180°C (350°F) for 25-30 minutes or pan-sear for 4-5 minutes per side</li>
+<li>Let rest 5 minutes before slicing to serve</li>
+</ol>
+
+<p><strong>Nutrition per roll:</strong> 185 calories, 24g protein, 8g fat, 5g carbs</p>
 
 <h3>8. Cauliflower Stuffed Pilaf</h3>
-<p>Grate cauliflower until it resembles rice. In a rice cooker, add a bit of extra virgin olive oil and sauté the cauliflower. When cooked, add salt, allspice, cumin, cinnamon, pine nuts, and currants. Sauté the mixture thoroughly. Reduce heat, cover the pot, and let it steep on low heat for 5 minutes. After resting for 10 minutes, your pilaf is ready. Serve with strained yogurt for a delicious and light meal.</p>
+<p>This low-carb alternative to traditional rice pilaf offers all the flavor and satisfaction without the heavy carbohydrates.</p>
+
+<p><strong>Ingredients:</strong></p>
+<ul>
+<li>1 medium cauliflower head</li>
+<li>1 tablespoon extra virgin olive oil</li>
+<li>2 tablespoons pine nuts</li>
+<li>2 tablespoons currants (soaked in warm water)</li>
+<li>1/2 teaspoon allspice</li>
+<li>1/2 teaspoon cumin</li>
+<li>1/4 teaspoon cinnamon</li>
+<li>Salt to taste</li>
+<li>Fresh parsley for garnish</li>
+<li>Strained yogurt for serving</li>
+</ul>
+
+<p><strong>Instructions:</strong></p>
+<ol>
+<li>Grate cauliflower using a box grater or food processor until it resembles rice grains</li>
+<li>Heat olive oil in a large pan or rice cooker</li>
+<li>Add cauliflower rice and sauté for 5-7 minutes until slightly softened</li>
+<li>Add pine nuts and toast for 2 minutes</li>
+<li>Stir in drained currants, allspice, cumin, cinnamon, and salt</li>
+<li>Reduce heat to low, cover, and let steam for 5 minutes</li>
+<li>Remove from heat and let rest covered for 10 minutes</li>
+<li>Fluff with a fork, garnish with parsley</li>
+<li>Serve with a dollop of strained yogurt</li>
+</ol>
+
+<p><strong>Nutrition per serving:</strong> 95 calories, 4g protein, 6g fat, 9g carbs</p>
+
+<img loading="lazy" src="/blog-xmas-8.webp" alt="Sugar-Free Quince Dessert" class="w-full rounded-lg my-6" />
 
 <h3>9. Sugar-Free Quince Dessert</h3>
-<p>A red dessert is perfect for New Year's Eve. Peel and halve 2 large quinces, removing the seeds. Keep the seeds. Prepare 4 Jerusalem artichokes by removing the seeds and blending them. Add 4 tablespoons of red beetroot juice and 4 tablespoons of crushed walnut to the quince halves. Spice with cloves. Fill the hollowed quinces with the blended mixture. Place in an oven bag with cloves and saved quince seeds. Seal the bag and make a few holes. Bake at 160 degrees Celsius for 1 hour. If you like it creamy on top, mix 1 teaspoon of honey and quark. Sprinkle chopped pistachios on top after the quince dessert has cooled.</p>
+<p>A beautiful red dessert perfect for New Year's Eve celebrations. This naturally sweetened treat is a wonderful way to end a holiday meal without compromising your bariatric diet.</p>
 
-<p>Enjoy these bariatric-friendly recipes and have a wonderful holiday season!</p>`
+<p><strong>Ingredients:</strong></p>
+<ul>
+<li>2 large quinces</li>
+<li>4 Jerusalem artichokes, peeled</li>
+<li>4 tablespoons beetroot juice (for natural color)</li>
+<li>4 tablespoons walnuts, crushed</li>
+<li>4-6 whole cloves</li>
+<li>1 teaspoon honey (optional)</li>
+<li>2 tablespoons quark or Greek yogurt</li>
+<li>Chopped pistachios for garnish</li>
+</ul>
+
+<p><strong>Instructions:</strong></p>
+<ol>
+<li>Preheat oven to 160°C (320°F)</li>
+<li>Peel and halve quinces, remove and reserve the seeds</li>
+<li>Hollow out the center of each quince half slightly</li>
+<li>Blend Jerusalem artichokes with beetroot juice until smooth</li>
+<li>Mix in crushed walnuts</li>
+<li>Fill the hollowed quinces with the blended mixture</li>
+<li>Stud with whole cloves</li>
+<li>Place quinces in an oven bag with reserved seeds</li>
+<li>Seal the bag and poke a few small holes</li>
+<li>Bake for 1 hour until quinces are tender</li>
+<li>Let cool completely</li>
+<li>If desired, mix honey with quark and add a small dollop on top</li>
+<li>Garnish with chopped pistachios before serving</li>
+</ol>
+
+<p><strong>Nutrition per half quince:</strong> 125 calories, 2g protein, 5g fat, 20g carbs (naturally occurring sugars)</p>
+
+<h3>Tips for Enjoying Holiday Meals After Bariatric Surgery</h3>
+<ul>
+<li><strong>Eat slowly:</strong> Take at least 20-30 minutes for each meal</li>
+<li><strong>Protein first:</strong> Always eat your protein before other foods</li>
+<li><strong>Small portions:</strong> Use a small plate and take tiny bites</li>
+<li><strong>Stay hydrated:</strong> But don't drink with meals—wait 30 minutes before and after</li>
+<li><strong>Avoid grazing:</strong> Stick to planned meals and snacks</li>
+<li><strong>Listen to your body:</strong> Stop eating when you feel satisfied, not full</li>
+</ul>
+
+<p>Enjoy these bariatric-friendly recipes and have a wonderful, healthy holiday season!</p>`
   },
   {
     slug: "endoscopic-sleeve-gastroplasty-in-class-iii-obesity",
