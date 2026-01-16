@@ -1502,8 +1502,10 @@ export const blogPosts: BlogPost[] = [
     date: "February 24, 2024",
     category: "New Technology",
     excerpt: "The Endo Band offers a less invasive alternative to traditional surgery.",
-    image: "/blog-gfma.jpeg",
+    image: "/blog-endo-band.webp",
     content: `<h2>Endo Band: A Novel Endoscopic Approach for Weight Loss</h2>
+
+<img loading="lazy" src="/blog-endo-band.webp" alt="Endo Band Procedure" class="w-full rounded-lg my-6" />
 
 <p>The Endo Band represents an innovative advancement in endoscopic bariatric procedures, offering a less invasive alternative to traditional gastric banding surgery. This novel approach combines the restrictive benefits of gastric banding with the minimally invasive advantages of endoscopic procedures.</p>
 
