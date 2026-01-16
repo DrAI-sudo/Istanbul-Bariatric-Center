@@ -12,6 +12,7 @@ export const VALID_STATIC_ROUTES = [
   "/transit-bipartition",
   "/esg",
   "/post-bariatric-surgery",
+  "/insurance",
 ];
 
 export const VALID_BLOG_SLUGS = [

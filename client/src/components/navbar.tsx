@@ -29,6 +29,7 @@ export function Navbar() {
     { name: t('treatments'), href: "/treatments" },
     { name: t('results'), href: "/results" },
     { name: t('blog'), href: "/blog" },
+    { name: "Insurance", href: "/insurance" },
     { name: t('contact'), href: "/contact" },
   ];
 
