@@ -228,6 +228,8 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Medication: GLP-1 Agonists and Beyond</h2>
 
+<img loading="lazy" src="/blog-medication-glp1.png" alt="GLP-1 Medications" class="w-full rounded-lg my-6" />
+
 <h3>GLP-1 Medications: Wegovy, Ozempic, and Mounjaro</h3>
 <p>GLP-1 medications are among the most talked-about weight loss drugs today:</p>
 <ul>
@@ -235,8 +237,6 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Mounjaro</strong>, approved more recently, is gaining attention for its effectiveness.</li>
 </ul>
 <p>These medications work by mimicking a hormone that reduces hunger. Side effects can include nausea and digestive issues, with effectiveness often leading to 10% or more weight loss for many users.</p>
-
-<img loading="lazy" src="/blog-apc.jpeg" alt="GLP-1 Medications" class="w-full rounded-lg my-6" />
 
 <h3>Cost, Insurance Coverage, and Long-Term Data</h3>
 <p>Insurance coverage for GLP-1 medications is still scarce. Often, they can exceed $1,000 monthly without coverage. This expense can create a barrier to access for many individuals.</p>
