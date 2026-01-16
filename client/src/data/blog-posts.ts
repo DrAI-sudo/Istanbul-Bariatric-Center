@@ -1280,11 +1280,13 @@ export const blogPosts: BlogPost[] = [
     date: "May 28, 2024",
     category: "Research",
     excerpt: "How the Human Body Stores Energy, Hormones' Effect on Metabolism.",
-    image: "/blog-gfma.jpeg",
+    image: "/blog-leptin-cover.jpg",
     content: `<h2>How the Human Body Stores Energy (Calories), Hormones' Effect on Metabolism, and the Role of Leptin in Obesity Treatment</h2>
 
 <h3>Introduction</h3>
 <p>Understanding how our bodies store and use energy can help us make better choices about our diet and lifestyle. Let's explore how our bodies store energy in the form of calories, how hormones affect our metabolism, the changes that occur in obese individuals, and the role of the hormone leptin in treating obesity.</p>
+
+<img loading="lazy" src="/blog-leptin-cover.jpg" alt="Hormones and Metabolism" class="w-full rounded-lg my-6" />
 
 <h3>How the Human Body Stores Energy</h3>
 <p>The food we eat provides us with energy, measured in calories. When we consume more calories than our body needs for immediate energy, the excess is stored for future use. Our body stores energy in two main ways: as glycogen and as fat.</p>
@@ -1304,6 +1306,8 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Leptin:</strong> Produced by fat cells, leptin plays a crucial role in regulating energy balance by inhibiting hunger. It communicates with the brain to signal when we have enough stored energy, thus reducing appetite.</li>
 </ol>
 
+<img loading="lazy" src="/blog-leptin-metabolism.jpg" alt="Metabolism and Energy Balance" class="w-full rounded-lg my-6" />
+
 <h3>Changes in Obesity</h3>
 <p>In obesity, the body's energy balance is disrupted, leading to excess fat storage. Several changes occur that make it more challenging to lose weight and maintain a healthy weight.</p>
 
@@ -1314,7 +1318,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Metabolic Rate:</strong> The metabolic rate, or the number of calories the body burns at rest, can decrease in obese individuals. This reduction makes it harder to lose weight since the body requires fewer calories to maintain its current weight.</li>
 </ol>
 
-<img loading="lazy" src="/blog-gfma.jpeg" alt="Leptin and Obesity" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-leptin-research.jpg" alt="Obesity Research" class="w-full rounded-lg my-6" />
 
 <h3>The Role of Leptin in Obesity Treatment</h3>
 <p>Given leptin's role in regulating hunger and energy balance, it has become a focal point in obesity research and treatment.</p>
