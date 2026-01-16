@@ -579,7 +579,9 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Make an Informed Choice:</strong> Weigh the pros and cons of each procedure based on your personal health objectives.</li>
 </ol>
 
-<p>By carefully considering these factors, individuals can make a well-informed decision and embark on a successful weight loss journey. Whether opting for bariatric surgery or ESG, the ultimate goal is achieving a healthier, happier life.</p>`
+<p>By carefully considering these factors, individuals can make a well-informed decision and embark on a successful weight loss journey. Whether opting for bariatric surgery or ESG, the ultimate goal is achieving a healthier, happier life.</p>
+
+<img loading="lazy" src="/blog-bariatric-esg-end.webp" alt="Bariatric Surgery Comparison" class="w-full rounded-lg my-6" />`
   },
   {
     slug: "5-things-you-didnt-know-about-bariatric-surgery",
