@@ -194,7 +194,7 @@ export const blogPosts: BlogPost[] = [
 <p>Excess sugar—especially added sugars in processed foods—contributes heavily to metabolic issues such as insulin resistance and abdominal fat. These are closely tied to increased LDL cholesterol and reduced HDL ('good') cholesterol.</p>
 
 <h3>2. Ultra-Processed Foods (UPFs)</h3>
-<img loading="lazy" src="/blog-gfma.jpeg" alt="Ultra-Processed Foods" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-ultra-processed.png" alt="Ultra-Processed Foods" class="w-full rounded-lg my-6" />
 <p>"Products labeled 'light' or 'low-fat' tend to be loaded with additives, sugars, and emulsifiers," says Dr Khavandi. "Take low-fat mayonnaise: it usually contains barely any egg or oil."</p>
 
 <h3>3. Alcohol</h3>
