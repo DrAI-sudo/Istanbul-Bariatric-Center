@@ -1039,12 +1039,12 @@ export const blogPosts: BlogPost[] = [
     date: "May 30, 2024",
     category: "Nutrition",
     excerpt: "Simplify Your Diet, Improve Nutrition, and Reduce Calories.",
-    image: "/blog-nutrient-foods-1.webp",
+    image: "/blog-nutrient-cover.webp",
     content: `<h2>Simplify Your Diet, Improve Nutrition, and Reduce Calories</h2>
 
 <p>Managing weight is a challenge many of us face. The process of dieting can often seem overwhelming. Various diets promoted by individuals or organizations often highlight the complexity of counting calories. They emphasize the hassle involved, claiming their method—a magical, revolutionary approach—will help you shed pounds effortlessly and look fantastic.</p>
 
-<img loading="lazy" src="/blog-nutrient-foods-1.webp" alt="Nutrient Dense Foods" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-nutrient-cover.webp" alt="Nutrient Dense Foods" class="w-full rounded-lg my-6" />
 
 <p>The truth is that weight loss occurs with any diet that creates a caloric deficit. This principle is well-supported by extensive research. The key is caloric deficit, regardless of the food type. But wouldn't it be great if there was a simpler way to eat healthier and lose weight?</p>
 
@@ -1059,6 +1059,8 @@ export const blogPosts: BlogPost[] = [
 
 <h4>1. Kale</h4>
 <p>Kale is often labeled a "superfood" due to its high nutrient content, including vitamins A, C, and K, folate, calcium, manganese, and antioxidants like beta-carotene. Its low-calorie content combined with high concentrations of antioxidants, fiber, and other micronutrients offers numerous health benefits.</p>
+
+<img loading="lazy" src="/blog-nutrient-kale.webp" alt="Kale and Leafy Greens" class="w-full rounded-lg my-6" />
 
 <h4>2. Spinach</h4>
 <p>Spinach is a nutrient-rich vegetable containing iron, magnesium, and vitamins A, C, and K. It is essential for maintaining healthy blood, strong bones, and a robust immune system. Spinach is also low in calories, high in fiber, and contains many antioxidants.</p>
@@ -1088,6 +1090,8 @@ export const blogPosts: BlogPost[] = [
 
 <h4>10. Salmon</h4>
 <p>Salmon is nutrient-dense due to its high protein and fat content, offering complete amino acids, omega-3 fatty acids (EPA and DHA), and essential vitamins and minerals. Consuming salmon promotes heart health, brain function, and muscle repair.</p>
+
+<img loading="lazy" src="/blog-nutrient-middle.webp" alt="Healthy Foods" class="w-full rounded-lg my-6" />
 
 <h4>11. Greek Yogurt</h4>
 <p>Greek yogurt is high in protein compared to regular yogurt. It is a complete protein, providing all essential amino acids for muscle repair and growth. Greek yogurt is rich in calcium, probiotics, and vitamins B12 and B6.</p>
