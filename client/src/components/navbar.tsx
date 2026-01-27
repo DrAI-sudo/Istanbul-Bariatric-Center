@@ -5,10 +5,12 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useTranslation } from "react-i18next";
 import { LanguageSwitcher } from "./language-switcher";
+import { SearchButton, SearchModal } from "./search-modal";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [location] = useLocation();
   const { t } = useTranslation('nav');
 
@@ -76,6 +78,11 @@ export function Navbar() {
             </Link>
           ))}
           
+          <SearchButton 
+            variant={showSolidNav ? 'dark' : 'light'} 
+            onClick={() => setIsSearchOpen(true)} 
+          />
+          
           <LanguageSwitcher variant={showSolidNav ? 'dark' : 'light'} />
           
           <Button 
@@ -89,8 +96,14 @@ export function Navbar() {
             {t('bookNow')}
           </Button>
         </nav>
+        
+        <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
 
         <div className="lg:hidden flex items-center gap-2">
+          <SearchButton 
+            variant={showSolidNav ? 'dark' : 'light'} 
+            onClick={() => setIsSearchOpen(true)} 
+          />
           <LanguageSwitcher variant={showSolidNav ? 'dark' : 'light'} />
           <button
             className={cn("p-2", showSolidNav ? "text-slate-800" : "text-white")}
