@@ -1,4 +1,4 @@
-import { Heart, Building, Calendar, Plane, Tag, Users } from "lucide-react";
+import { Heart, Building, Calendar, Plane, Tag, Users, Video } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 
@@ -52,15 +52,25 @@ export function VIPPackage() {
           </div>
 
           <div className="relative">
-             <div className="rounded-xl overflow-hidden shadow-2xl border-4 border-white">
+             <div className="rounded-xl overflow-hidden shadow-2xl border-4 border-white relative">
                <img 
                  src="/IMG_1801_1766158987529.webp" 
                  alt="Istanbul Bariatric Center - Liv Hospital at night" 
-                 className="w-full h-auto object-cover"
+                 className="w-full h-auto object-cover block"
                  loading="lazy"
                  width="400"
                  height="300"
                />
+               <a
+                 href="https://vr.livhospital.com/videoroom.html#!/Genel-Goruntuler/0a3/?dil=Tr&ath=-57&atv=-6&fov=80"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="absolute bottom-4 right-4 z-10 bg-primary hover:bg-primary/90 text-white font-bold px-5 py-2.5 rounded-full shadow-lg flex items-center gap-2 transition-all duration-300 hover:scale-105 text-sm"
+                 data-testid="button-virtual-tour-home"
+               >
+                 <Video className="w-4 h-4" />
+                 Virtual Tour
+               </a>
              </div>
           </div>
 
