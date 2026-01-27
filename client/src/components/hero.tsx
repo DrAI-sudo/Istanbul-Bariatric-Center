@@ -1,14 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
-import { useState, useEffect } from "react";
+import { useRef, useEffect } from "react";
 
 export function Hero() {
   const { t } = useTranslation('home');
-  const [videoLoaded, setVideoLoaded] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
   
   useEffect(() => {
-    const timer = setTimeout(() => setVideoLoaded(true), 100);
-    return () => clearTimeout(timer);
+    const video = videoRef.current;
+    if (video) {
+      video.play().catch(() => {
+        // Autoplay was prevented, video will show first frame
+      });
+    }
   }, []);
   
   return (
@@ -17,20 +21,18 @@ export function Hero() {
       aria-label="Hero section"
     >
       <div className="absolute inset-0 z-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-        {videoLoaded && (
-          <video 
-            autoPlay 
-            loop 
-            muted 
-            playsInline
-            preload="metadata"
-            aria-hidden="true"
-            className="w-full h-full object-cover opacity-50"
-            poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'%3E%3Crect fill='%231e293b' width='1920' height='1080'/%3E%3C/svg%3E"
-          >
-            <source src="/hero-video.mp4" type="video/mp4" />
-          </video>
-        )}
+        <video 
+          ref={videoRef}
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          preload="auto"
+          aria-hidden="true"
+          className="w-full h-full object-cover opacity-50"
+        >
+          <source src="/hero-video.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-black/30" aria-hidden="true" />
       </div>
 
