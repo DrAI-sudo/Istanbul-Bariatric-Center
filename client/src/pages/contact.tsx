@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent } from "@/components/ui/card";
-import { Phone, Mail, MapPin, Building2 } from "lucide-react";
+import { Phone, Mail, MapPin, Building2, Video } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation } from "@tanstack/react-query";
@@ -233,7 +233,7 @@ export default function Contact() {
           </div>
           
           <div className="grid lg:grid-cols-2 gap-8">
-            <div className="rounded-2xl overflow-hidden shadow-xl">
+            <div className="rounded-2xl overflow-hidden shadow-xl relative group">
               <img 
                 src={hospitalImage} 
                 alt="Liv Vadi Hospital - Istanbul Bariatric Center" 
@@ -242,6 +242,16 @@ export default function Contact() {
                 height="400"
                 loading="lazy"
               />
+              <a
+                href="https://vr.livhospital.com/videoroom.html#!/Genel-Goruntuler/0a3/?dil=Tr&ath=-57&atv=-6&fov=80"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute bottom-4 right-4 bg-primary hover:bg-primary/90 text-white font-bold px-6 py-3 rounded-full shadow-lg flex items-center gap-2 transition-all duration-300 hover:scale-105"
+                data-testid="button-virtual-tour"
+              >
+                <Video className="w-5 h-5" />
+                Virtual Tour
+              </a>
             </div>
             
             <div className="rounded-2xl overflow-hidden shadow-xl h-[400px] lg:h-auto">
