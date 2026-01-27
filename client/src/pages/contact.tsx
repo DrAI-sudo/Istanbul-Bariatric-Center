@@ -233,11 +233,11 @@ export default function Contact() {
           </div>
           
           <div className="grid lg:grid-cols-2 gap-8">
-            <div className="rounded-2xl overflow-hidden shadow-xl relative group">
+            <div className="rounded-2xl overflow-hidden shadow-xl relative">
               <img 
                 src={hospitalImage} 
                 alt="Liv Vadi Hospital - Istanbul Bariatric Center" 
-                className="w-full h-full object-cover"
+                className="w-full h-auto object-cover block"
                 width="600"
                 height="400"
                 loading="lazy"
@@ -246,7 +246,7 @@ export default function Contact() {
                 href="https://vr.livhospital.com/videoroom.html#!/Genel-Goruntuler/0a3/?dil=Tr&ath=-57&atv=-6&fov=80"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="absolute bottom-4 right-4 bg-primary hover:bg-primary/90 text-white font-bold px-6 py-3 rounded-full shadow-lg flex items-center gap-2 transition-all duration-300 hover:scale-105"
+                className="absolute bottom-6 right-6 z-10 bg-primary hover:bg-primary/90 text-white font-bold px-6 py-3 rounded-full shadow-lg flex items-center gap-2 transition-all duration-300 hover:scale-105"
                 data-testid="button-virtual-tour"
               >
                 <Video className="w-5 h-5" />
