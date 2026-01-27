@@ -28,7 +28,7 @@ export function Hero() {
             className="w-full h-full object-cover opacity-50"
             poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'%3E%3Crect fill='%231e293b' width='1920' height='1080'/%3E%3C/svg%3E"
           >
-            <source src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2021/07/ibc-promo-3-1.mp4" type="video/mp4" />
+            <source src="/hero-video.mp4" type="video/mp4" />
           </video>
         )}
         <div className="absolute inset-0 bg-black/30" aria-hidden="true" />
