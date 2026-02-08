@@ -30,6 +30,14 @@ declare module "http" {
   }
 }
 
+app.use((req, res, next) => {
+  const host = req.headers.host;
+  if (host === "istanbulbariatriccenter.replit.app") {
+    return res.redirect(301, "https://istanbulbariatriccenter.com" + req.originalUrl);
+  }
+  next();
+});
+
 app.use(
   express.json({
     verify: (req, _res, buf) => {
