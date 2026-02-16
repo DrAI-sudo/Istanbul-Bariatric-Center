@@ -5,7 +5,6 @@
   <!-- MAIN PAGES -->
   <!-- ============================================ -->
   
-  <!-- Homepage -->
   <url>
     <loc>https://istanbulbariatriccenter.com/</loc>
     <lastmod>2025-05-11</lastmod>
@@ -13,7 +12,6 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- About -->
   <url>
     <loc>https://istanbulbariatriccenter.com/about</loc>
     <lastmod>2025-01-01</lastmod>
@@ -21,7 +19,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Treatments -->
   <url>
     <loc>https://istanbulbariatriccenter.com/treatments</loc>
     <lastmod>2025-01-01</lastmod>
@@ -29,7 +26,6 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Gastric Sleeve -->
   <url>
     <loc>https://istanbulbariatriccenter.com/sleeve-gastrectomy</loc>
     <lastmod>2025-01-01</lastmod>
@@ -37,7 +33,6 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Mini Gastric Bypass -->
   <url>
     <loc>https://istanbulbariatriccenter.com/mini-gastric-bypass</loc>
     <lastmod>2025-01-01</lastmod>
@@ -45,7 +40,6 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Gastric Balloon -->
   <url>
     <loc>https://istanbulbariatriccenter.com/gastric-balloon</loc>
     <lastmod>2025-01-01</lastmod>
@@ -53,7 +47,6 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Duodenal Switch -->
   <url>
     <loc>https://istanbulbariatriccenter.com/duodenal-switch</loc>
     <lastmod>2025-01-01</lastmod>
@@ -61,7 +54,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- ESG -->
   <url>
     <loc>https://istanbulbariatriccenter.com/esg</loc>
     <lastmod>2025-01-01</lastmod>
@@ -69,7 +61,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Transit Bipartition -->
   <url>
     <loc>https://istanbulbariatriccenter.com/transit-bipartition</loc>
     <lastmod>2025-01-01</lastmod>
@@ -77,7 +68,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Post Bariatric Surgery -->
   <url>
     <loc>https://istanbulbariatriccenter.com/post-bariatric-surgery</loc>
     <lastmod>2025-01-01</lastmod>
@@ -85,7 +75,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Results -->
   <url>
     <loc>https://istanbulbariatriccenter.com/results</loc>
     <lastmod>2025-01-01</lastmod>
@@ -93,7 +82,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Blog Index -->
   <url>
     <loc>https://istanbulbariatriccenter.com/blog</loc>
     <lastmod>2025-05-11</lastmod>
@@ -101,7 +89,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Contact -->
   <url>
     <loc>https://istanbulbariatriccenter.com/contact</loc>
     <lastmod>2025-01-01</lastmod>
@@ -109,7 +96,6 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Insurance -->
   <url>
     <loc>https://istanbulbariatriccenter.com/insurance</loc>
     <lastmod>2025-01-16</lastmod>
@@ -158,70 +144,70 @@
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/gastric-fundus-ablation-explained</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/could-weight-loss-injections-replace-obesity-surgery</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/body-roundness-index-bri</loc>
-    <lastmod>2024-11-01</lastmod>
+    <lastmod>2024-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/ultra-processed-foods-and-their-impact-on-your-health</loc>
-    <lastmod>2024-11-01</lastmod>
+    <lastmod>2024-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty</loc>
-    <lastmod>2024-10-01</lastmod>
+    <lastmod>2024-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/5-things-you-didnt-know-about-bariatric-surgery</loc>
-    <lastmod>2024-10-01</lastmod>
+    <lastmod>2024-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/bariatric-surgery-guidelines-updated</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2024-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/barretts-esophagus-and-increased-risk-after-sleeve-gastrectomy</loc>
-    <lastmod>2024-09-01</lastmod>
+    <lastmod>2024-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/comprehensive-guide-to-preoperative-medication-management</loc>
-    <lastmod>2024-08-01</lastmod>
+    <lastmod>2024-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/leaks-in-bariatric-surgery</loc>
-    <lastmod>2024-08-01</lastmod>
+    <lastmod>2024-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -235,203 +221,203 @@
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/15-most-nutrient-dense-foods</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-06-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/bariatric-surgery-nutrition</loc>
-    <lastmod>2024-06-01</lastmod>
+    <lastmod>2024-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/leptin-hormone-in-obesity-treatment</loc>
-    <lastmod>2024-06-01</lastmod>
+    <lastmod>2024-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/bariatric-surgery-pros-and-cons</loc>
-    <lastmod>2024-05-01</lastmod>
+    <lastmod>2024-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/endoscopic-sleeve-gastroplasty-vs-gastric-sleeve</loc>
-    <lastmod>2024-05-01</lastmod>
+    <lastmod>2024-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/endoscopic-sleeve-gastroplasty-long-term-results</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/endo-band-novel-endoscopic-approach</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/vitamin-mineral-deficiencies-after-gastric-bypass</loc>
-    <lastmod>2024-03-01</lastmod>
+    <lastmod>2024-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/bariatric-surgery-as-safe-as-other-common-operations</loc>
-    <lastmod>2024-03-01</lastmod>
+    <lastmod>2024-02-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/grazing-after-bariatric-surgery</loc>
-    <lastmod>2024-02-01</lastmod>
+    <lastmod>2024-02-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/bariatric-friendly-christmas-dinner-ideas</loc>
-    <lastmod>2023-12-01</lastmod>
+    <lastmod>2023-12-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/endoscopic-sleeve-gastroplasty-in-class-iii-obesity</loc>
-    <lastmod>2023-11-01</lastmod>
+    <lastmod>2023-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/pose-endoscopic-sleeve-gastroplasty</loc>
-    <lastmod>2023-10-01</lastmod>
+    <lastmod>2023-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/endoscopic-sleeve-gastroplasty-game-changer</loc>
-    <lastmod>2023-09-01</lastmod>
+    <lastmod>2023-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://istanbulbariatriccenter.com/blog/fatty-liver-increases-in-adolescents</loc>
-    <lastmod>2023-08-01</lastmod>
+    <lastmod>2023-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/effects-of-obesity-on-sexual-activity</loc>
-    <lastmod>2023-07-01</lastmod>
+    <loc>https://istanbulbariatriccenter.com/blog/bariatric-surgery-18-frequently-asked-questions</loc>
+    <lastmod>2023-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/incisionless-stomach-reduction-endoscopic-sleeve-gastroplasty</loc>
-    <lastmod>2023-06-01</lastmod>
+    <loc>https://istanbulbariatriccenter.com/blog/melatonin-sleep-glucose-metabolism</loc>
+    <lastmod>2023-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/gastric-sleeve-surgery-cost</loc>
-    <lastmod>2023-05-01</lastmod>
+    <loc>https://istanbulbariatriccenter.com/blog/argon-plasma-coagulation-weight-regain</loc>
+    <lastmod>2023-04-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/obesity-and-sleep-apnea</loc>
-    <lastmod>2023-04-01</lastmod>
+    <loc>https://istanbulbariatriccenter.com/blog/revisional-bariatric-surgery-in-turkey</loc>
+    <lastmod>2022-09-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/new-study-asserts-weight-loss-surgery-can-extend-life-by-years</loc>
-    <lastmod>2023-03-01</lastmod>
+    <loc>https://istanbulbariatriccenter.com/blog/marmite-rich-resource-of-vitamin-b</loc>
+    <lastmod>2022-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/gastric-sleeve-or-bypass</loc>
-    <lastmod>2023-02-01</lastmod>
+    <loc>https://istanbulbariatriccenter.com/blog/ozempic-medical-treatment-of-obesity</loc>
+    <lastmod>2022-06-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/is-bariatric-surgery-safe</loc>
-    <lastmod>2023-01-01</lastmod>
+    <loc>https://istanbulbariatriccenter.com/blog/bariclip</loc>
+    <lastmod>2022-02-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/revision-bariatric-surgery</loc>
-    <lastmod>2022-12-01</lastmod>
+    <loc>https://istanbulbariatriccenter.com/blog/elipse-swallowable-intragastric-balloon</loc>
+    <lastmod>2022-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/how-safe-is-weight-loss-surgery</loc>
-    <lastmod>2022-11-01</lastmod>
+    <loc>https://istanbulbariatriccenter.com/blog/transit-bipartition-revision-alternative</loc>
+    <lastmod>2021-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/getting-weight-loss-surgery-in-istanbul</loc>
-    <lastmod>2022-10-01</lastmod>
+    <loc>https://istanbulbariatriccenter.com/blog/bariatric-preoperative-diet</loc>
+    <lastmod>2021-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/what-is-metabolic-syndrome</loc>
-    <lastmod>2022-09-01</lastmod>
+    <loc>https://istanbulbariatriccenter.com/blog/obese-adults-covid-vaccine-priority</loc>
+    <lastmod>2021-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/transit-bipartition-with-sleeve-gastrectomy</loc>
-    <lastmod>2022-08-01</lastmod>
+    <loc>https://istanbulbariatriccenter.com/blog/why-istanbul-is-an-important-location-for-obesity-surgery</loc>
+    <lastmod>2020-12-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/how-much-weight-can-you-lose-with-gastric-sleeve</loc>
-    <lastmod>2022-07-01</lastmod>
+    <loc>https://istanbulbariatriccenter.com/blog/bariatric-surgery-during-covid-19-pandemic</loc>
+    <lastmod>2020-12-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://istanbulbariatriccenter.com/blog/why-choose-istanbul-for-bariatric-surgery</loc>
-    <lastmod>2022-06-01</lastmod>
+    <loc>https://istanbulbariatriccenter.com/blog/nutrition-tips-during-self-quarantine-covid-19</loc>
+    <lastmod>2020-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
