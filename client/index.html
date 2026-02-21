@@ -63,7 +63,7 @@
     <!-- DNS prefetch for external resources -->
     <link rel="dns-prefetch" href="https://istanbulbariatriccenter.com" />
     <link rel="dns-prefetch" href="https://www.ifso.com" />
-    <link rel="dns-prefetch" href="https://www.chat-data.com" />
+
     <link rel="dns-prefetch" href="https://clinics.euromedfin.com" />
     
     <!-- Minimal critical CSS for loading state -->
@@ -82,32 +82,5 @@
       </div>
     </div>
     <script type="module" src="/src/main.tsx"></script>
-    <!-- Load chat widget only after user interaction to save 68KB -->
-    <script>
-      (function() {
-        var chatLoaded = false;
-        function loadChat() {
-          if (chatLoaded) return;
-          chatLoaded = true;
-          var s = document.createElement('script');
-          s.src = 'https://www.chat-data.com/embed.min.js?chatbotId=67ccb5256b01cddd3d5cbaa7';
-          s.id = 'chat-data-embed';
-          document.body.appendChild(s);
-          window.removeEventListener('scroll', loadChat);
-          window.removeEventListener('mousemove', loadChat);
-          window.removeEventListener('touchstart', loadChat);
-        }
-        if ('requestIdleCallback' in window) {
-          requestIdleCallback(function() {
-            setTimeout(loadChat, 4000);
-          });
-        } else {
-          setTimeout(loadChat, 5000);
-        }
-        window.addEventListener('scroll', loadChat, { passive: true, once: true });
-        window.addEventListener('mousemove', loadChat, { passive: true, once: true });
-        window.addEventListener('touchstart', loadChat, { passive: true, once: true });
-      })();
-    </script>
   </body>
 </html>
