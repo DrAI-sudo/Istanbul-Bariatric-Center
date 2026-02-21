@@ -2,6 +2,7 @@ import express, { type Request, Response, NextFunction } from "express";
 import compression from "compression";
 import { registerRoutes } from "./routes";
 import { registerMayaChatRoutes } from "./maya-chat";
+import { registerAdminRoutes } from "./admin-routes";
 import { serveStatic } from "./static";
 import { createServer } from "http";
 
@@ -88,6 +89,7 @@ app.use((req, res, next) => {
 
 (async () => {
   registerMayaChatRoutes(app);
+  registerAdminRoutes(app);
   await registerRoutes(httpServer, app);
 
   app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {

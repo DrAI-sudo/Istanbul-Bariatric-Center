@@ -36,9 +36,23 @@ The backend serves the React SPA in production and provides API endpoints for co
 ### Maya AI Chatbot
 - **Component**: `client/src/components/maya-chatbot.tsx` - Self-contained floating chat widget
 - **Backend**: `server/maya-chat.ts` - Streaming chat API at `/api/maya-chat` using OpenAI (gpt-5-mini)
+- **Knowledge Base**: `server/maya-knowledge-base.ts` - Comprehensive treatment info, pricing, doctor details
 - **Profile Photo**: `client/public/maya-avatar.webp` (96x96, compressed)
-- **Features**: Multilingual greetings (9 languages), SSE streaming, responsive (full-screen mobile), lead collection system prompt
+- **Features**: Multilingual greetings (9 languages), SSE streaming, responsive (full-screen mobile), lead collection, conversation persistence
 - **Integration**: Replit AI Integrations (no API key needed, billed to credits)
+
+### Admin Dashboard
+- **Route**: `/admin` (not linked from main website, password-protected)
+- **Auth**: Token-based authentication using ADMIN_PASSWORD secret
+- **Backend**: `server/admin-routes.ts` - Admin API endpoints for analytics, conversations, leads, contacts
+- **Frontend**: `client/src/pages/admin.tsx` - Dashboard with tabs (Overview, Traffic, Conversations, Leads, Contact Forms)
+- **Features**: 
+  - Real-time page view tracking with daily/weekly/monthly/annual periods
+  - Pie charts for page view distribution, bar charts for visitor trends
+  - Chatbot conversation viewer with delete functionality
+  - Lead tracking (extracted from chatbot conversations)
+  - Contact form submissions viewer
+- **Tracking**: Client-side PageTracker component sends page views and session duration to `/api/track`
 
 ### Data Storage
 - **Database**: PostgreSQL
@@ -46,6 +60,10 @@ The backend serves the React SPA in production and provides API endpoints for co
 - **Tables**: 
   - `users` - User accounts with username/password
   - `contact_submissions` - Contact form entries with name, email, phone, subject, message, and timestamp
+  - `page_views` - Analytics tracking with path, session ID, duration, referrer, user agent
+  - `conversations` - Chatbot conversation records
+  - `messages` - Individual chat messages linked to conversations
+  - `chatbot_leads` - Lead information extracted from chatbot (name, phone, email)
 - **Migrations**: Managed via `drizzle-kit push`
 
 ### Code Organization

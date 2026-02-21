@@ -1,6 +1,7 @@
 import type { Express, Request, Response } from "express";
 import OpenAI from "openai";
 import { MAYA_KNOWLEDGE_BASE } from "./maya-knowledge-base";
+import { storage } from "./storage";
 
 const openai = new OpenAI({
   apiKey: process.env.AI_INTEGRATIONS_OPENAI_API_KEY,
@@ -51,18 +52,65 @@ IMPORTANT: The contact collection should feel like a natural part of providing e
 
 ${MAYA_KNOWLEDGE_BASE}`;
 
+function extractLeadInfo(messagesArr: Array<{role: string; content: string}>): { name?: string; phone?: string; email?: string } {
+  const lead: { name?: string; phone?: string; email?: string } = {};
+  
+  for (const msg of messagesArr) {
+    if (msg.role !== "user") continue;
+    const text = msg.content;
+    
+    const emailMatch = text.match(/[\w.+-]+@[\w-]+\.[\w.]+/);
+    if (emailMatch) lead.email = emailMatch[0];
+    
+    const phoneMatch = text.match(/\+?\d[\d\s\-().]{7,}\d/);
+    if (phoneMatch) lead.phone = phoneMatch[0].trim();
+    
+    const namePatterns = [
+      /(?:my name is|i'?m|i am|name:?)\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)/i,
+      /^([A-Z][a-z]+\s+[A-Z][a-z]+)$/m,
+    ];
+    for (const pattern of namePatterns) {
+      const match = text.match(pattern);
+      if (match) {
+        lead.name = match[1].trim();
+        break;
+      }
+    }
+  }
+  
+  return lead;
+}
+
 export function registerMayaChatRoutes(app: Express): void {
   app.post("/api/maya-chat", async (req: Request, res: Response) => {
     try {
-      const { messages } = req.body;
+      const { messages: userMessages, conversationId: clientConvoId } = req.body;
 
-      if (!messages || !Array.isArray(messages)) {
+      if (!userMessages || !Array.isArray(userMessages)) {
         return res.status(400).json({ error: "Messages array is required" });
+      }
+
+      let conversationId = clientConvoId ? parseInt(clientConvoId) : null;
+      
+      try {
+        if (!conversationId) {
+          const firstMsg = userMessages[0]?.content || "New conversation";
+          const title = firstMsg.substring(0, 100);
+          const convo = await storage.createConversation(title);
+          conversationId = convo.id;
+        }
+        
+        const lastMsg = userMessages[userMessages.length - 1];
+        if (lastMsg && lastMsg.role === "user") {
+          await storage.addMessage(conversationId, lastMsg.role, lastMsg.content);
+        }
+      } catch (dbErr) {
+        console.error("DB save error (non-fatal):", dbErr);
       }
 
       const chatMessages: OpenAI.ChatCompletionMessageParam[] = [
         { role: "system", content: MAYA_SYSTEM_PROMPT },
-        ...messages.map((m: { role: string; content: string }) => ({
+        ...userMessages.map((m: { role: string; content: string }) => ({
           role: m.role as "user" | "assistant",
           content: m.content,
         })),
@@ -74,6 +122,10 @@ export function registerMayaChatRoutes(app: Express): void {
       res.setHeader("X-Accel-Buffering", "no");
       res.flushHeaders();
 
+      if (conversationId) {
+        res.write(`data: ${JSON.stringify({ conversationId })}\n\n`);
+      }
+
       const stream = await openai.chat.completions.create({
         model: "gpt-5-mini",
         messages: chatMessages,
@@ -81,11 +133,31 @@ export function registerMayaChatRoutes(app: Express): void {
         max_completion_tokens: 8192,
       });
 
+      let fullResponse = "";
       for await (const chunk of stream) {
         const content = chunk.choices[0]?.delta?.content || "";
         if (content) {
+          fullResponse += content;
           res.write(`data: ${JSON.stringify({ content })}\n\n`);
         }
+      }
+
+      try {
+        if (conversationId && fullResponse) {
+          await storage.addMessage(conversationId, "assistant", fullResponse);
+        }
+        
+        const leadInfo = extractLeadInfo(userMessages);
+        if (leadInfo.name || leadInfo.phone || leadInfo.email) {
+          await storage.createLead({
+            conversationId,
+            name: leadInfo.name || null,
+            phone: leadInfo.phone || null,
+            email: leadInfo.email || null,
+          });
+        }
+      } catch (dbErr) {
+        console.error("DB save response error (non-fatal):", dbErr);
       }
 
       res.write(`data: ${JSON.stringify({ done: true })}\n\n`);

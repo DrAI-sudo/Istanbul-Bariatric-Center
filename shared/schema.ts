@@ -1,5 +1,5 @@
 import { sql } from "drizzle-orm";
-import { pgTable, text, varchar, serial, timestamp } from "drizzle-orm/pg-core";
+import { pgTable, text, varchar, serial, timestamp, integer } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
@@ -34,5 +34,40 @@ export const insertContactSubmissionSchema = createInsertSchema(contactSubmissio
 
 export type InsertContactSubmission = z.infer<typeof insertContactSubmissionSchema>;
 export type ContactSubmission = typeof contactSubmissions.$inferSelect;
+
+export const pageViews = pgTable("page_views", {
+  id: serial("id").primaryKey(),
+  path: text("path").notNull(),
+  sessionId: text("session_id").notNull(),
+  duration: integer("duration").default(0),
+  referrer: text("referrer"),
+  userAgent: text("user_agent"),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+export const insertPageViewSchema = createInsertSchema(pageViews).omit({
+  id: true,
+  createdAt: true,
+});
+
+export type InsertPageView = z.infer<typeof insertPageViewSchema>;
+export type PageView = typeof pageViews.$inferSelect;
+
+export const chatbotLeads = pgTable("chatbot_leads", {
+  id: serial("id").primaryKey(),
+  conversationId: integer("conversation_id"),
+  name: text("name"),
+  phone: text("phone"),
+  email: text("email"),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+export const insertChatbotLeadSchema = createInsertSchema(chatbotLeads).omit({
+  id: true,
+  createdAt: true,
+});
+
+export type InsertChatbotLead = z.infer<typeof insertChatbotLeadSchema>;
+export type ChatbotLead = typeof chatbotLeads.$inferSelect;
 
 export * from "./models/chat";

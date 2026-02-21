@@ -28,6 +28,7 @@ export default function MayaChatbot() {
   const [input, setInput] = useState("");
   const [isStreaming, setIsStreaming] = useState(false);
   const [initialized, setInitialized] = useState(false);
+  const [conversationId, setConversationId] = useState<number | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
 
@@ -66,7 +67,7 @@ export default function MayaChatbot() {
       const res = await fetch("/api/maya-chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: updatedMessages }),
+        body: JSON.stringify({ messages: updatedMessages, conversationId }),
       });
 
       if (!res.ok) throw new Error("Failed");
@@ -90,6 +91,9 @@ export default function MayaChatbot() {
           if (!line.startsWith("data: ")) continue;
           try {
             const data = JSON.parse(line.slice(6));
+            if (data.conversationId && !conversationId) {
+              setConversationId(data.conversationId);
+            }
             if (data.content) {
               fullContent += data.content;
               setMessages((prev) => {

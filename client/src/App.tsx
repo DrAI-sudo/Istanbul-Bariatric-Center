@@ -23,6 +23,7 @@ const TransitBipartition = lazy(() => import("@/pages/transit-bipartition"));
 const ESG = lazy(() => import("@/pages/esg"));
 const PostBariatricSurgery = lazy(() => import("@/pages/post-bariatric-surgery"));
 const Insurance = lazy(() => import("@/pages/insurance"));
+const AdminDashboard = lazy(() => import("@/pages/admin"));
 const NotFound = lazy(() => import("@/pages/not-found"));
 
 function PageLoader() {
@@ -69,6 +70,7 @@ function Router() {
           <Route path="/esg" component={ESG} />
           <Route path="/post-bariatric-surgery" component={PostBariatricSurgery} />
           <Route path="/insurance" component={Insurance} />
+          <Route path="/admin" component={AdminDashboard} />
           <Route component={NotFound} />
         </Switch>
       </Suspense>
@@ -88,17 +90,66 @@ function SkipToContent() {
   );
 }
 
+function PageTracker() {
+  const [pathname] = useLocation();
+
+  useEffect(() => {
+    if (pathname === "/admin") return;
+
+    let sessionId = sessionStorage.getItem("session_id");
+    if (!sessionId) {
+      sessionId = Math.random().toString(36).substring(2) + Date.now().toString(36);
+      sessionStorage.setItem("session_id", sessionId);
+    }
+
+    fetch("/api/track", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        path: pathname,
+        sessionId,
+        referrer: document.referrer || null,
+      }),
+    }).catch(() => {});
+
+    const startTime = Date.now();
+    return () => {
+      const duration = Math.round((Date.now() - startTime) / 1000);
+      if (duration > 0) {
+        navigator.sendBeacon(
+          "/api/track",
+          new Blob([JSON.stringify({ path: pathname, sessionId, duration })], { type: "application/json" })
+        );
+      }
+    };
+  }, [pathname]);
+
+  return null;
+}
+
+function AppContent() {
+  const [pathname] = useLocation();
+  const isAdmin = pathname === "/admin";
+
+  return (
+    <>
+      <SkipToContent />
+      <Toaster />
+      <SonnerToaster position="top-center" richColors />
+      <PageTracker />
+      <main id="main-content">
+        <Router />
+      </main>
+      {!isAdmin && <MayaChatbot />}
+    </>
+  );
+}
+
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <SkipToContent />
-        <Toaster />
-        <SonnerToaster position="top-center" richColors />
-        <main id="main-content">
-          <Router />
-        </main>
-        <MayaChatbot />
+        <AppContent />
       </TooltipProvider>
     </QueryClientProvider>
   );
