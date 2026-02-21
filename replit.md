@@ -31,7 +31,14 @@ The frontend is a single-page application with pages for home, about, treatments
 - **API Design**: RESTful endpoints under `/api` prefix
 - **Development**: tsx for TypeScript execution, Vite dev server integration
 
-The backend serves the React SPA in production and provides API endpoints for contact form submissions. The server includes logging middleware and serves static files from the built client.
+The backend serves the React SPA in production and provides API endpoints for contact form submissions and the Maya AI chatbot. The server includes logging middleware and serves static files from the built client.
+
+### Maya AI Chatbot
+- **Component**: `client/src/components/maya-chatbot.tsx` - Self-contained floating chat widget
+- **Backend**: `server/maya-chat.ts` - Streaming chat API at `/api/maya-chat` using OpenAI (gpt-5-mini)
+- **Profile Photo**: `client/public/maya-avatar.webp` (96x96, compressed)
+- **Features**: Multilingual greetings (9 languages), SSE streaming, responsive (full-screen mobile), lead collection system prompt
+- **Integration**: Replit AI Integrations (no API key needed, billed to credits)
 
 ### Data Storage
 - **Database**: PostgreSQL
