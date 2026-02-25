@@ -6,6 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent } from "@/components/ui/card";
 import { Phone, Mail, MapPin, Building2, Video } from "lucide-react";
+import { SummarizeWithAI } from "@/components/summarize-with-ai";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation } from "@tanstack/react-query";
@@ -76,6 +77,7 @@ export default function Contact() {
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
             {t('contact.subtitle')}
           </p>
+          <SummarizeWithAI variant="dark" />
         </div>
       </section>
 

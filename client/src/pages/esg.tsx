@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
+import { SummarizeWithAI } from "@/components/summarize-with-ai";
 
 const esgFaqs = [
   {
@@ -95,6 +96,7 @@ export default function ESG() {
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
             {t('esg.heroSubtitle')}
           </p>
+          <SummarizeWithAI variant="dark" />
         </div>
       </section>
 

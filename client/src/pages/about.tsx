@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useTranslation } from "react-i18next";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
+import { SummarizeWithAI } from "@/components/summarize-with-ai";
 
 const doctors = [
   {
@@ -74,6 +75,7 @@ export default function About() {
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
             {t('about.subtitle')}
           </p>
+          <SummarizeWithAI variant="dark" />
         </div>
       </section>
 

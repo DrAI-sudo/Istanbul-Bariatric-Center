@@ -7,6 +7,7 @@ import { useState } from "react";
 import { getBlogPostBySlug, blogPosts } from "@/data/blog-posts";
 import { useTranslation } from "react-i18next";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
+import { SummarizeWithAI } from "@/components/summarize-with-ai";
 
 export default function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
@@ -118,6 +119,9 @@ export default function BlogPost() {
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary leading-tight mb-6" data-testid="text-post-title">
                 {getPostTitle(post.slug, post.title)}
               </h1>
+              <div className="mb-4">
+                <SummarizeWithAI variant="light" />
+              </div>
               <div className="flex flex-wrap items-center gap-6 text-slate-500 border-b border-slate-200 pb-6">
                 <div className="flex items-center gap-2">
                   <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">

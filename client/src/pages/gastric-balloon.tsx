@@ -5,6 +5,7 @@ import { CheckCircle2, ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/components/seo";
 import { Link } from "wouter";
+import { SummarizeWithAI } from "@/components/summarize-with-ai";
 
 const balloonTypes = [
   {
@@ -47,6 +48,7 @@ export default function GastricBalloon() {
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
             {t('gastricBalloon.heroSubtitle')}
           </p>
+          <SummarizeWithAI variant="dark" />
         </div>
       </section>
 

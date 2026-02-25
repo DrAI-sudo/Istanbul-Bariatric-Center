@@ -5,6 +5,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Check } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
+import { SummarizeWithAI } from "@/components/summarize-with-ai";
 
 interface FAQ {
   question: string;
@@ -36,6 +37,7 @@ export default function DuodenalSwitch() {
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
             {t('duodenalSwitch.heroSubtitle')}
           </p>
+          <SummarizeWithAI variant="dark" />
         </div>
       </section>
 

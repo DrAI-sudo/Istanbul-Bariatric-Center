@@ -5,6 +5,7 @@ import { ArrowRight, CheckCircle2, Check } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { useTranslation } from "react-i18next";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
+import { SummarizeWithAI } from "@/components/summarize-with-ai";
 
 export default function Treatments() {
   const { t } = useTranslation('treatments');
@@ -108,6 +109,7 @@ export default function Treatments() {
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
             {t('main.subtitle')}
           </p>
+          <SummarizeWithAI variant="dark" />
         </div>
       </section>
 

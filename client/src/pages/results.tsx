@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/components/seo";
+import { SummarizeWithAI } from "@/components/summarize-with-ai";
 
 const beforeAfterImages = [
   "https://bariatricsurgeryinturkey.com/assets/ba_1-ByMXV9kJ.jpeg",
@@ -79,6 +80,7 @@ export default function Results() {
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
             {t('results.subtitle')}
           </p>
+          <SummarizeWithAI variant="dark" />
         </div>
       </section>
 

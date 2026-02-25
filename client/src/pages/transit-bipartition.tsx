@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, AlertCircle } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/components/seo";
+import { SummarizeWithAI } from "@/components/summarize-with-ai";
 
 const eligibilityCriteria = [
   "Individuals that have a Body Mass Index of 35 and above",
@@ -57,6 +58,7 @@ export default function TransitBipartition() {
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
             {t('transitBipartition.heroSubtitle')}
           </p>
+          <SummarizeWithAI variant="dark" />
         </div>
       </section>
 

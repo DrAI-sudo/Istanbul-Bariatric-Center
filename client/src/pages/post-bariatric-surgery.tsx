@@ -5,6 +5,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Check, ArrowRight, CheckCircle2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
+import { SummarizeWithAI } from "@/components/summarize-with-ai";
 
 const procedures = [
   {
@@ -94,6 +95,7 @@ export default function PostBariatricSurgery() {
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
             {t('postBariatric.heroSubtitle')}
           </p>
+          <SummarizeWithAI variant="dark" />
         </div>
       </section>
 

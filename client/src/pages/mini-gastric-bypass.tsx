@@ -5,6 +5,7 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SEO } from "@/components/seo";
 import { Link } from "wouter";
+import { SummarizeWithAI } from "@/components/summarize-with-ai";
 
 export default function MiniGastricBypass() {
   const { t } = useTranslation('treatments');
@@ -38,6 +39,7 @@ export default function MiniGastricBypass() {
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
             {t('gastricBypass.heroSubtitle')}
           </p>
+          <SummarizeWithAI variant="dark" />
         </div>
       </section>
 

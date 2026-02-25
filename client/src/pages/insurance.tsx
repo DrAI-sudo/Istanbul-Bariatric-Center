@@ -3,6 +3,7 @@ import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { Check, Shield } from "lucide-react";
 import { SEO } from "@/components/seo";
+import { SummarizeWithAI } from "@/components/summarize-with-ai";
 
 const benefits = [
   "Additional Medical / Surgical Costs as a result of a Complication",
@@ -44,6 +45,9 @@ export default function Insurance() {
             <h1 className="text-3xl md:text-4xl font-bold text-slate-900 text-center mb-8" data-testid="text-insurance-title">
               Specialised International Travel Insurance for Medical Travellers
             </h1>
+            <div className="flex justify-center mb-8">
+              <SummarizeWithAI variant="light" />
+            </div>
             
             <div className="bg-blue-50 rounded-xl p-6 md:p-8 mb-10">
               <div className="flex items-start gap-4">

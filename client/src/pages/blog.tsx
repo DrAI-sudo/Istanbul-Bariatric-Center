@@ -8,6 +8,7 @@ import { Calendar, ChevronLeft, ChevronRight } from "lucide-react";
 import { blogPosts } from "@/data/blog-posts";
 import { useTranslation } from "react-i18next";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
+import { SummarizeWithAI } from "@/components/summarize-with-ai";
 
 const POSTS_PER_PAGE = 6;
 
@@ -91,6 +92,7 @@ export default function Blog() {
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
             {t('pages:blog.subtitle')}
           </p>
+          <SummarizeWithAI variant="dark" />
         </div>
       </section>
 

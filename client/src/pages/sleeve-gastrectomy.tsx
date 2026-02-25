@@ -7,6 +7,7 @@ import { Check, ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
 import { Link } from "wouter";
+import { SummarizeWithAI } from "@/components/summarize-with-ai";
 
 const faqs = [
   {
@@ -116,6 +117,7 @@ export default function SleeveGastrectomy() {
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
             {t('gastricSleeve.heroSubtitle')}
           </p>
+          <SummarizeWithAI variant="dark" />
         </div>
       </section>
 
