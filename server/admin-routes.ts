@@ -25,7 +25,7 @@ export function registerAdminRoutes(app: Express): void {
       return res.status(500).json({ error: "Admin password not configured" });
     }
     
-    if (password === adminPassword) {
+    if (password?.trim() === adminPassword?.trim()) {
       const token = generateToken();
       adminTokens.add(token);
       return res.json({ success: true, token });
