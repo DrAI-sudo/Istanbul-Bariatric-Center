@@ -14,7 +14,7 @@ The clinic offers all-inclusive VIP treatment packages including:
 - 24/7 patient coordinator support
 - Lifetime aftercare and follow-up
 
-WhatsApp Contact: +90 553 301 6085
+WhatsApp Contact: +90 532 413 1143 (Turkey) or +44 7491 068686 (UK)
 
 === TREATMENT OFFERINGS & PRICING ===
 
@@ -177,7 +177,7 @@ Blog URL: /blog
 
 === CONTACT INFORMATION ===
 - Website: https://istanbulbariatriccenter.com
-- WhatsApp: +90 553 301 6085
+- WhatsApp: +90 532 413 1143 (Turkey) or +44 7491 068686 (UK)
 - Contact Form: /contact (on website)
 - Location: Istanbul, Turkey
 - Appointment Scheduling: Through website contact form or WhatsApp
