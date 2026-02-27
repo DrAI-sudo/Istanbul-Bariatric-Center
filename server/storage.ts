@@ -34,6 +34,8 @@ export interface IStorage {
   deleteConversation(conversationId: number): Promise<void>;
 
   createLead(lead: InsertChatbotLead): Promise<ChatbotLead>;
+  getLeadByConversation(conversationId: number): Promise<ChatbotLead | null>;
+  updateLead(id: number, data: Partial<InsertChatbotLead>): Promise<void>;
   getAllLeads(): Promise<ChatbotLead[]>;
   deleteLead(id: number): Promise<void>;
 }
@@ -167,6 +169,15 @@ export class DatabaseStorage implements IStorage {
   async createLead(lead: InsertChatbotLead): Promise<ChatbotLead> {
     const result = await db.insert(chatbotLeads).values(lead).returning();
     return result[0];
+  }
+
+  async getLeadByConversation(conversationId: number): Promise<ChatbotLead | null> {
+    const result = await db.select().from(chatbotLeads).where(eq(chatbotLeads.conversationId, conversationId));
+    return result[0] || null;
+  }
+
+  async updateLead(id: number, data: Partial<InsertChatbotLead>): Promise<void> {
+    await db.update(chatbotLeads).set(data).where(eq(chatbotLeads.id, id));
   }
 
   async getAllLeads(): Promise<ChatbotLead[]> {

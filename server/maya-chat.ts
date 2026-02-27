@@ -148,13 +148,24 @@ export function registerMayaChatRoutes(app: Express): void {
         }
         
         const leadInfo = extractLeadInfo(userMessages);
-        if (leadInfo.name || leadInfo.phone || leadInfo.email) {
-          await storage.createLead({
-            conversationId,
-            name: leadInfo.name || null,
-            phone: leadInfo.phone || null,
-            email: leadInfo.email || null,
-          });
+        if (conversationId && (leadInfo.name || leadInfo.phone || leadInfo.email)) {
+          const existingLead = await storage.getLeadByConversation(conversationId);
+          if (existingLead) {
+            const updates: Record<string, string | null> = {};
+            if (leadInfo.name && leadInfo.name !== existingLead.name) updates.name = leadInfo.name;
+            if (leadInfo.phone && leadInfo.phone !== existingLead.phone) updates.phone = leadInfo.phone;
+            if (leadInfo.email && leadInfo.email !== existingLead.email) updates.email = leadInfo.email;
+            if (Object.keys(updates).length > 0) {
+              await storage.updateLead(existingLead.id, updates);
+            }
+          } else {
+            await storage.createLead({
+              conversationId,
+              name: leadInfo.name || null,
+              phone: leadInfo.phone || null,
+              email: leadInfo.email || null,
+            });
+          }
         }
       } catch (dbErr) {
         console.error("DB save response error (non-fatal):", dbErr);
