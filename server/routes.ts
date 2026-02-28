@@ -3,7 +3,7 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertContactSubmissionSchema } from "@shared/schema";
 import { fromZodError } from "zod-validation-error";
-import { sendContactEmail } from "./email";
+import { sendContactEmail, sendHealthProfileEmail } from "./email";
 import path from "path";
 import fs from "fs";
 import { fileURLToPath } from "url";
@@ -120,6 +120,24 @@ export async function registerRoutes(
         success: false, 
         error: 'Failed to submit contact form' 
       });
+    }
+  });
+
+  app.post("/api/health-profile", async (req, res) => {
+    try {
+      const { firstName, surname, email } = req.body;
+      if (!firstName || !surname || !email) {
+        return res.status(400).json({ success: false, error: "Name and email are required" });
+      }
+
+      sendHealthProfileEmail(req.body).catch(err => {
+        console.error('Health profile email error:', err);
+      });
+
+      res.json({ success: true });
+    } catch (error) {
+      console.error('Error processing health profile:', error);
+      res.status(500).json({ success: false, error: 'Failed to submit health profile' });
     }
   });
 

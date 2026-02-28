@@ -23,6 +23,7 @@ const TransitBipartition = lazy(() => import("@/pages/transit-bipartition"));
 const ESG = lazy(() => import("@/pages/esg"));
 const PostBariatricSurgery = lazy(() => import("@/pages/post-bariatric-surgery"));
 const Insurance = lazy(() => import("@/pages/insurance"));
+const HealthProfile = lazy(() => import("@/pages/health-profile"));
 const AdminDashboard = lazy(() => import("@/pages/admin"));
 const NotFound = lazy(() => import("@/pages/not-found"));
 
@@ -70,6 +71,7 @@ function Router() {
           <Route path="/esg" component={ESG} />
           <Route path="/post-bariatric-surgery" component={PostBariatricSurgery} />
           <Route path="/insurance" component={Insurance} />
+          <Route path="/health-profile" component={HealthProfile} />
           <Route path="/admin" component={AdminDashboard} />
           <Route component={NotFound} />
         </Switch>

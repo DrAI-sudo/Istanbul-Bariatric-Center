@@ -66,6 +66,13 @@ The backend serves the React SPA in production and provides API endpoints for co
   - `chatbot_leads` - Lead information extracted from chatbot (name, phone, email)
 - **Migrations**: Managed via `drizzle-kit push`
 
+### Personal Health Profile
+- **Route**: `/health-profile` - Eligibility assessment form
+- **Page**: `client/src/pages/health-profile.tsx` - Multi-section form with personal info, lifestyle, surgery interest, medical history
+- **API**: `POST /api/health-profile` - Sends form data via email to drmuratustun@gmail.com using Resend
+- **Homepage Link**: "Am I Eligible?" button in BMI calculator section links to this page
+- **Email**: Formatted HTML email with all sections, medical checklist flags highlighted in red
+
 ### Code Organization
 - `/client` - React frontend source code
 - `/server` - Express backend source code

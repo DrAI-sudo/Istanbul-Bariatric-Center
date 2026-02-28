@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Calculator } from "lucide-react";
+import { Calculator, ClipboardList } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { Link } from "wouter";
 
 type UnitSystem = "metric" | "imperial";
 
@@ -255,6 +256,20 @@ export function BMICalculator() {
               </p>
             </div>
           </div>
+        </div>
+
+        <div className="mt-12 text-center">
+          <Link href="/health-profile">
+            <Button
+              size="lg"
+              className="bg-primary hover:bg-primary/90 text-white font-bold text-lg px-10 py-6 rounded-full shadow-xl transition-transform hover:scale-105"
+              data-testid="button-am-i-eligible"
+            >
+              <ClipboardList className="w-5 h-5 mr-2" />
+              Am I Eligible?
+            </Button>
+          </Link>
+          <p className="text-gray-500 text-sm mt-3">Complete your health profile to find out if you qualify for bariatric surgery</p>
         </div>
 
         <div className="mt-12">
