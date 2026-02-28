@@ -181,8 +181,16 @@ export default function HealthProfile() {
       />
       <Navbar />
 
-      <section className="bg-slate-900 text-white pt-40 pb-20">
-        <div className="container mx-auto px-4 text-center">
+      <section className="relative text-white pt-40 pb-20 overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="/health-profile-hero.webp"
+            alt="Medical consultation for bariatric surgery eligibility"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-slate-900/70" />
+        </div>
+        <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-6" data-testid="text-health-profile-title">
             Personal Health Profile
           </h1>
