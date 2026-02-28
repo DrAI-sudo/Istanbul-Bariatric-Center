@@ -157,9 +157,11 @@ export default function Treatments() {
                     </div>
 
                     <div className="pt-6">
-                      <Button className="bg-primary hover:bg-primary/90">
-                        {t('common.consultFor')} {treatment.title} <ArrowRight className="ml-2 w-4 h-4" />
-                      </Button>
+                      <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`Hi, I'd like to consult about ${treatment.title}`)}`} target="_blank" rel="noopener noreferrer">
+                        <Button className="bg-primary hover:bg-primary/90">
+                          {t('common.consultFor')} {treatment.title} <ArrowRight className="ml-2 w-4 h-4" />
+                        </Button>
+                      </a>
                     </div>
                   </div>
                   
