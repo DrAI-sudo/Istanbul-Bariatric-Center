@@ -129,6 +129,39 @@ export default function Treatments() {
     }
   ];
 
+  const esgPackages = [
+    {
+      name: "ESG Relaxation",
+      price: "£4,950",
+      color: "emerald",
+      recommended: true,
+      features: [
+        "State-of-the-art Liv hospital",
+        "Procedure with Dr Murat Ustun (Pioneer of ESG in Turkey)",
+        "VIP Airport Transfers",
+        "All comprehensive preop tests and consultations",
+        "OR and hospital costs",
+        "2 days of admission in private room"
+      ]
+    },
+    {
+      name: "ESG Luxury",
+      price: "£5,950",
+      color: "amber",
+      features: [
+        "State-of-the-art Liv hospital",
+        "Procedure with Dr Murat Ustun (Pioneer of ESG in Turkey)",
+        "VIP Airport Transfers",
+        "All comprehensive preop tests and consultations",
+        "OR and hospital costs",
+        "2 days of admission in private room",
+        "2 days of accommodation in Radisson Hotel",
+        "4 UK registered dietitian appointments",
+        "1 months supplement and multivitamin package"
+      ]
+    }
+  ];
+
   const duodenalSwitchPackages = [
     {
       name: "Duodenal Switch Relaxation",
@@ -195,6 +228,26 @@ export default function Treatments() {
       advantages: t('duodenalSwitch.advantages', { returnObjects: true }) as string[],
       disadvantages: t('duodenalSwitch.disadvantages', { returnObjects: true }) as string[],
       ifsoImage: "https://www.ifso.com/images/duodenal-switch-pop-up.png"
+    },
+    {
+      title: "Endoscopic Sleeve Gastroplasty (ESG)",
+      desc: "ESG is a minimally invasive, non-surgical weight loss procedure that reduces the size of your stomach by up to 70-80% using an endoscopic suturing device inserted through the mouth. No incisions are required, making it ideal for patients with BMI 30-40 who prefer a non-surgical approach.",
+      advantages: [
+        "Non-surgical — no incisions or scars",
+        "Shorter recovery time (return to normal activities in 1-3 days)",
+        "Lower complication risk compared to surgery",
+        "Reversible procedure",
+        "15-20% total body weight loss expected",
+        "Same-day or next-day discharge",
+        "Performed under general anesthesia (~90 minutes)"
+      ],
+      disadvantages: [
+        "Less weight loss than surgical options like gastric sleeve",
+        "May require repeat procedures for optimal results",
+        "Not suitable for BMI over 40",
+        "Relatively newer procedure with less long-term data"
+      ],
+      ifsoImage: ""
     }
   ];
 
@@ -373,6 +426,56 @@ export default function Treatments() {
                           emerald: { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' },
                           amber: { border: 'border-amber-500', bg: 'bg-amber-50', price: 'text-amber-600', check: 'bg-amber-100', checkIcon: 'text-amber-600', btn: 'bg-amber-600 hover:bg-amber-700', badge: 'bg-amber-600' },
                         }[pkg.color] || { border: 'border-blue-500', bg: 'bg-blue-50', price: 'text-blue-600', check: 'bg-blue-100', checkIcon: 'text-blue-600', btn: 'bg-blue-600 hover:bg-blue-700', badge: 'bg-blue-600' };
+                        return (
+                          <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? `${colorStyles.border} shadow-lg scale-105 z-10` : `${colorStyles.border} shadow-sm`}`}>
+                            {pkg.recommended && (
+                              <div className={`absolute top-0 right-0 ${colorStyles.badge} text-white text-xs font-bold px-3 py-1 rounded-bl-lg`}>
+                                {t('common.popular')}
+                              </div>
+                            )}
+                            <CardHeader className={`text-center pb-2 ${colorStyles.bg}`}>
+                              <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
+                            </CardHeader>
+                            <CardContent className="text-center space-y-6 pt-6">
+                              <div className={`text-4xl font-extrabold ${colorStyles.price}`}>{pkg.price}</div>
+                              <ul className="space-y-4 text-left mx-auto max-w-[240px]">
+                                {pkg.features.map((feature, fIdx) => (
+                                  <li key={fIdx} className="flex items-center gap-3 text-slate-700">
+                                    <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
+                                      <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} />
+                                    </div>
+                                    {feature}
+                                  </li>
+                                ))}
+                              </ul>
+                            </CardContent>
+                            <CardFooter className="pt-4 pb-8">
+                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`Hi, I'm interested in the ${pkg.name} package`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
+                                <Button className={`w-full ${colorStyles.btn} text-white`}>
+                                  {t('common.selectPackage')}
+                                </Button>
+                              </a>
+                            </CardFooter>
+                          </Card>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+
+                {i === 5 && (
+                  <div className="mt-16 bg-slate-50 rounded-3xl p-8 md:p-12">
+                    <div className="text-center mb-12">
+                      <h3 className="text-3xl font-bold text-slate-900 mb-4">ESG Packages</h3>
+                      <p className="text-slate-600">Choose the right ESG package for your needs</p>
+                    </div>
+
+                    <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+                      {esgPackages.map((pkg, idx) => {
+                        const colorStyles = {
+                          emerald: { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' },
+                          amber: { border: 'border-amber-500', bg: 'bg-amber-50', price: 'text-amber-600', check: 'bg-amber-100', checkIcon: 'text-amber-600', btn: 'bg-amber-600 hover:bg-amber-700', badge: 'bg-amber-600' },
+                        }[pkg.color] || { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' };
                         return (
                           <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? `${colorStyles.border} shadow-lg scale-105 z-10` : `${colorStyles.border} shadow-sm`}`}>
                             {pkg.recommended && (
