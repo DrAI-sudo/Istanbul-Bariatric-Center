@@ -99,6 +99,37 @@ export default function Treatments() {
     }
   ];
 
+  const duodenalSwitchPackages = [
+    {
+      name: "Duodenal Switch Relaxation",
+      price: "£4,400",
+      color: "emerald",
+      recommended: true,
+      features: [
+        "Surgery with world renowned Dr Murat Ustun",
+        "JCI Accredited Hospital (3 days)",
+        "All comprehensive preops and consultations",
+        "Airport Pickup",
+        "UK registered dietitian Support"
+      ]
+    },
+    {
+      name: "Duodenal Switch Luxury",
+      price: "£4,700",
+      color: "amber",
+      features: [
+        "Surgery with world renowned Dr Murat Ustun",
+        "JCI Accredited Hospital (3 days)",
+        "All comprehensive preops and consultations",
+        "Airport Pickup",
+        "3 night of Radisson hotel accommodation",
+        "UK registered dietitian Support",
+        "1 months of supplements",
+        "Local UK care support in 8 Locations"
+      ]
+    }
+  ];
+
   const treatments = [
     {
       title: t('gastricSleeve.title'),
@@ -262,6 +293,56 @@ export default function Treatments() {
                           emerald: { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' },
                           amber: { border: 'border-amber-500', bg: 'bg-amber-50', price: 'text-amber-600', check: 'bg-amber-100', checkIcon: 'text-amber-600', btn: 'bg-amber-600 hover:bg-amber-700', badge: 'bg-amber-600' },
                         }[pkg.color] || { border: 'border-blue-500', bg: 'bg-blue-50', price: 'text-blue-600', check: 'bg-blue-100', checkIcon: 'text-blue-600', btn: 'bg-blue-600 hover:bg-blue-700', badge: 'bg-blue-600' };
+                        return (
+                          <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? `${colorStyles.border} shadow-lg scale-105 z-10` : `${colorStyles.border} shadow-sm`}`}>
+                            {pkg.recommended && (
+                              <div className={`absolute top-0 right-0 ${colorStyles.badge} text-white text-xs font-bold px-3 py-1 rounded-bl-lg`}>
+                                {t('common.popular')}
+                              </div>
+                            )}
+                            <CardHeader className={`text-center pb-2 ${colorStyles.bg}`}>
+                              <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
+                            </CardHeader>
+                            <CardContent className="text-center space-y-6 pt-6">
+                              <div className={`text-4xl font-extrabold ${colorStyles.price}`}>{pkg.price}</div>
+                              <ul className="space-y-4 text-left mx-auto max-w-[240px]">
+                                {pkg.features.map((feature, fIdx) => (
+                                  <li key={fIdx} className="flex items-center gap-3 text-slate-700">
+                                    <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
+                                      <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} />
+                                    </div>
+                                    {feature}
+                                  </li>
+                                ))}
+                              </ul>
+                            </CardContent>
+                            <CardFooter className="pt-4 pb-8">
+                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`Hi, I'm interested in the ${pkg.name} package`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
+                                <Button className={`w-full ${colorStyles.btn} text-white`}>
+                                  {t('common.selectPackage')}
+                                </Button>
+                              </a>
+                            </CardFooter>
+                          </Card>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+
+                {i === 4 && (
+                  <div className="mt-16 bg-slate-50 rounded-3xl p-8 md:p-12">
+                    <div className="text-center mb-12">
+                      <h3 className="text-3xl font-bold text-slate-900 mb-4">Duodenal Switch Packages</h3>
+                      <p className="text-slate-600">Choose the right duodenal switch package for your needs</p>
+                    </div>
+
+                    <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+                      {duodenalSwitchPackages.map((pkg, idx) => {
+                        const colorStyles = {
+                          emerald: { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' },
+                          amber: { border: 'border-amber-500', bg: 'bg-amber-50', price: 'text-amber-600', check: 'bg-amber-100', checkIcon: 'text-amber-600', btn: 'bg-amber-600 hover:bg-amber-700', badge: 'bg-amber-600' },
+                        }[pkg.color] || { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' };
                         return (
                           <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? `${colorStyles.border} shadow-lg scale-105 z-10` : `${colorStyles.border} shadow-sm`}`}>
                             {pkg.recommended && (
