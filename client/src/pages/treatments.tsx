@@ -10,8 +10,95 @@ import { SummarizeWithAI } from "@/components/summarize-with-ai";
 export default function Treatments() {
   const { t } = useTranslation('treatments');
 
-  const seoTitle = "Weight Loss Surgery Options & Treatments";
-  const seoDescription = "Explore our bariatric surgery options: Gastric Sleeve, Gastric Bypass, Gastric Balloon, Duodenal Switch, and more. Compare procedures and find the right weight loss solution.";
+  const seoTitle = "Weight Loss Surgery in Turkey 2026 - Gastric Sleeve, Bypass, Balloon & ESG Prices from £1,650";
+  const seoDescription = "Compare all bariatric surgery options in Istanbul, Turkey: Gastric Sleeve from £2,950, Gastric Bypass from £3,350, Gastric Balloon from £1,650, ESG from £4,950. JCI accredited hospital, world-renowned Dr Murat Ustun. All-inclusive packages with airport transfers, hotel & dietitian support.";
+
+  const treatmentsFAQs = [
+    { question: "How much does weight loss surgery cost in Turkey?", answer: "Weight loss surgery in Turkey starts from £1,650 for a gastric balloon, £2,950 for gastric sleeve, £3,350 for gastric bypass, and £4,950 for ESG. All packages include JCI accredited hospital stay, preoperative tests, airport transfers, and dietitian support." },
+    { question: "Which bariatric surgery is best for me?", answer: "The best bariatric surgery depends on your BMI, health conditions, and weight loss goals. Gastric sleeve is ideal for BMI 35+, gastric bypass for BMI 40+ or with metabolic conditions, gastric balloon for BMI 30-40 seeking non-surgical options, and ESG for BMI 30-40 wanting minimally invasive treatment." },
+    { question: "Is weight loss surgery in Turkey safe?", answer: "Yes, Turkey is one of the world's leading destinations for bariatric surgery. Istanbul Bariatric Center operates in JCI-accredited hospitals with internationally trained surgeons. Dr Murat Ustun has performed thousands of successful procedures with excellent outcomes." },
+    { question: "What is included in the surgery packages?", answer: "All packages include hospital stay in a JCI accredited facility, all preoperative tests and consultations, airport pickup, and dietitian support. Relaxation and Luxury packages add Dr Murat Ustun as your surgeon, extended hospital stays, Radisson hotel accommodation, UK registered dietitian support, and supplements." },
+    { question: "How much weight will I lose after bariatric surgery?", answer: "Expected weight loss varies by procedure: Gastric sleeve patients typically lose 60-70% of excess weight, gastric bypass 70-80%, gastric balloon 10-15% of total body weight, and ESG 15-20% of total body weight within the first year." },
+    { question: "What is the recovery time for bariatric surgery in Turkey?", answer: "Recovery varies by procedure: Gastric sleeve and bypass patients stay 2-3 days in hospital and can return to normal activities in 2-3 weeks. Gastric balloon is same-day, and ESG patients can resume activities in 1-3 days." },
+    { question: "Do I get aftercare support after returning home?", answer: "Yes, all patients receive comprehensive aftercare including dietitian support, follow-up consultations, and access to our UK-based care support team available in 8 locations across the UK." },
+    { question: "Who is Dr Murat Ustun?", answer: "Dr Murat Ustun is a world-renowned bariatric surgeon based in Istanbul, Turkey. He is a pioneer of ESG (Endoscopic Sleeve Gastroplasty) in Turkey and has performed thousands of successful weight loss surgeries including gastric sleeve, gastric bypass, and duodenal switch procedures." }
+  ];
+
+  const medicalProceduresSchema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Weight Loss Surgery Options & Treatments in Turkey",
+    "description": seoDescription,
+    "url": "https://istanbulbariatriccenter.com/treatments",
+    "mainEntity": [
+      {
+        "@type": "MedicalProcedure",
+        "name": "Gastric Sleeve Surgery (Sleeve Gastrectomy)",
+        "alternateName": ["VSG", "Vertical Sleeve Gastrectomy", "Gastric Sleeve Turkey"],
+        "procedureType": "Surgical",
+        "bodyLocation": "Stomach",
+        "description": "Gastric sleeve surgery removes approximately 75-80% of the stomach, creating a smaller tube-shaped stomach that limits food intake and reduces hunger hormones.",
+        "howPerformed": "Laparoscopic surgery removing 75-80% of the stomach",
+        "preparation": "Comprehensive preoperative tests and consultations",
+        "followup": "Dietitian support and follow-up consultations",
+        "status": "http://schema.org/ActiveActionStatus",
+        "offers": [
+          { "@type": "Offer", "name": "Sleeve Gastrectomy Basic", "price": "2950", "priceCurrency": "GBP", "description": "JCI Accredited Hospital (2 days), Airport Pickup, Dietitian Support" },
+          { "@type": "Offer", "name": "Sleeve Gastrectomy Relaxation", "price": "3950", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, JCI Hospital (3 days), UK Dietitian" },
+          { "@type": "Offer", "name": "Sleeve Gastrectomy Luxury", "price": "4250", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, Radisson Hotel, UK Dietitian, Supplements" }
+        ]
+      },
+      {
+        "@type": "MedicalProcedure",
+        "name": "Gastric Bypass Surgery (Roux-en-Y)",
+        "alternateName": ["RYGB", "Roux-en-Y Gastric Bypass", "Gastric Bypass Turkey"],
+        "procedureType": "Surgical",
+        "bodyLocation": "Stomach and Small Intestine",
+        "description": "Gastric bypass creates a small pouch from the stomach and connects it directly to the small intestine, bypassing most of the stomach and part of the small intestine.",
+        "offers": [
+          { "@type": "Offer", "name": "Gastric Bypass Basic", "price": "3350", "priceCurrency": "GBP" },
+          { "@type": "Offer", "name": "Gastric Bypass Relaxation", "price": "4350", "priceCurrency": "GBP" },
+          { "@type": "Offer", "name": "Gastric Bypass Luxury", "price": "4650", "priceCurrency": "GBP" }
+        ]
+      },
+      {
+        "@type": "MedicalProcedure",
+        "name": "Gastric Balloon",
+        "alternateName": ["Intragastric Balloon", "Orbera Balloon", "Allurion Balloon", "Gastric Balloon Turkey"],
+        "procedureType": "Noninvasive",
+        "bodyLocation": "Stomach",
+        "description": "A soft silicone balloon placed in the stomach endoscopically to reduce capacity and help patients feel full faster.",
+        "offers": [
+          { "@type": "Offer", "name": "Endoscopic Orbera Balloon", "price": "1650", "priceCurrency": "GBP" },
+          { "@type": "Offer", "name": "Allurion Swallowable Balloon", "price": "2250", "priceCurrency": "GBP" }
+        ]
+      },
+      {
+        "@type": "MedicalProcedure",
+        "name": "Duodenal Switch Surgery",
+        "alternateName": ["BPD/DS", "Biliopancreatic Diversion", "Duodenal Switch Turkey"],
+        "procedureType": "Surgical",
+        "bodyLocation": "Stomach and Small Intestine",
+        "description": "A complex procedure combining sleeve gastrectomy with intestinal bypass for maximum weight loss in patients with very high BMI.",
+        "offers": [
+          { "@type": "Offer", "name": "Duodenal Switch Relaxation", "price": "4400", "priceCurrency": "GBP" },
+          { "@type": "Offer", "name": "Duodenal Switch Luxury", "price": "4700", "priceCurrency": "GBP" }
+        ]
+      },
+      {
+        "@type": "MedicalProcedure",
+        "name": "Endoscopic Sleeve Gastroplasty (ESG)",
+        "alternateName": ["ESG", "Apollo ESG", "Non-Surgical Gastric Sleeve", "ESG Turkey"],
+        "procedureType": "Noninvasive",
+        "bodyLocation": "Stomach",
+        "description": "A minimally invasive, non-surgical weight loss procedure that reduces stomach size by 70-80% using endoscopic suturing through the mouth.",
+        "offers": [
+          { "@type": "Offer", "name": "ESG Relaxation", "price": "4950", "priceCurrency": "GBP" },
+          { "@type": "Offer", "name": "ESG Luxury", "price": "5950", "priceCurrency": "GBP" }
+        ]
+      }
+    ]
+  };
 
   const packages = [
     {
@@ -259,13 +346,15 @@ export default function Treatments() {
       <SEO
         title={seoTitle}
         description={seoDescription}
-        keywords="bariatric surgery options, gastric sleeve, gastric bypass, gastric balloon, weight loss procedures"
+        keywords="weight loss surgery turkey, bariatric surgery istanbul, gastric sleeve turkey cost, gastric bypass turkey price, gastric balloon turkey, ESG turkey, endoscopic sleeve gastroplasty, duodenal switch turkey, sleeve gastrectomy turkey, bariatric surgery cost turkey 2026, best bariatric surgeon turkey, dr murat ustun, JCI hospital istanbul, all inclusive weight loss surgery, gastric sleeve package turkey, gastric bypass package, weight loss surgery abroad, medical tourism turkey, obesity surgery turkey, metabolic surgery istanbul, cheap gastric sleeve, affordable bariatric surgery, gastric sleeve uk patients, weight loss surgery from uk"
         url="/treatments"
       />
       <JsonLd data={structuredData.createBreadcrumb([
         { name: "Home", url: "/" },
         { name: "Treatments", url: "/treatments" }
       ])} />
+      <JsonLd data={medicalProceduresSchema} />
+      <JsonLd data={structuredData.createFAQ(treatmentsFAQs)} />
       <Navbar />
       
       <main id="main-content" role="main">
@@ -650,6 +739,75 @@ export default function Treatments() {
                 Body contouring options after weight loss surgery
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-white" id="faqs">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Frequently Asked Questions About Weight Loss Surgery in Turkey</h2>
+            <p className="text-lg text-slate-600">Everything you need to know about bariatric surgery at Istanbul Bariatric Center</p>
+          </div>
+          <div className="space-y-6">
+            {treatmentsFAQs.map((faq, idx) => (
+              <details key={idx} className="group bg-slate-50 rounded-xl border border-slate-200 overflow-hidden">
+                <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-slate-100 transition-colors">
+                  <h3 className="text-lg font-semibold text-slate-900 pr-4">{faq.question}</h3>
+                  <span className="text-primary text-xl font-bold shrink-0 group-open:rotate-45 transition-transform">+</span>
+                </summary>
+                <div className="px-6 pb-6">
+                  <p className="text-slate-600 leading-relaxed">{faq.answer}</p>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-slate-900 text-white">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-bold mb-4">Explore Our Treatment Pages</h2>
+            <p className="text-slate-300">Learn more about each procedure in detail</p>
+          </div>
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <a href="/sleeve-gastrectomy" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
+              <h3 className="font-semibold text-white mb-1">Gastric Sleeve Surgery</h3>
+              <p className="text-sm text-slate-300">From £2,950</p>
+            </a>
+            <a href="/mini-gastric-bypass" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
+              <h3 className="font-semibold text-white mb-1">Mini Gastric Bypass</h3>
+              <p className="text-sm text-slate-300">Specialist procedure</p>
+            </a>
+            <a href="/gastric-balloon" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
+              <h3 className="font-semibold text-white mb-1">Gastric Balloon</h3>
+              <p className="text-sm text-slate-300">From £1,650</p>
+            </a>
+            <a href="/esg" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
+              <h3 className="font-semibold text-white mb-1">ESG Procedure</h3>
+              <p className="text-sm text-slate-300">From £4,950</p>
+            </a>
+            <a href="/duodenal-switch" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
+              <h3 className="font-semibold text-white mb-1">Duodenal Switch</h3>
+              <p className="text-sm text-slate-300">From £4,400</p>
+            </a>
+            <a href="/transit-bipartition" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
+              <h3 className="font-semibold text-white mb-1">Transit Bipartition</h3>
+              <p className="text-sm text-slate-300">Advanced procedure</p>
+            </a>
+            <a href="/post-bariatric-surgery" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
+              <h3 className="font-semibold text-white mb-1">Post-Bariatric Surgery</h3>
+              <p className="text-sm text-slate-300">Body contouring</p>
+            </a>
+            <a href="/health-profile" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
+              <h3 className="font-semibold text-white mb-1">Am I Eligible?</h3>
+              <p className="text-sm text-slate-300">Free health assessment</p>
+            </a>
+            <a href="/results" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
+              <h3 className="font-semibold text-white mb-1">Patient Results</h3>
+              <p className="text-sm text-slate-300">Success stories</p>
+            </a>
           </div>
         </div>
       </section>
