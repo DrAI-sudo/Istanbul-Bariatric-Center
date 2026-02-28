@@ -117,8 +117,8 @@ export default function HealthProfile() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formData.firstName || !formData.surname || !formData.email) {
-      toast.error("Please fill in at least your name and email address.");
+    if (!formData.firstName || !formData.surname || !formData.email || !formData.height || !formData.weight || !formData.telephone) {
+      toast.error("Please fill in all required fields (name, email, height, weight, and telephone).");
       return;
     }
     setSubmitting(true);
@@ -232,12 +232,12 @@ export default function HealthProfile() {
                   <Input id="dob" type="date" value={formData.dateOfBirth} onChange={(e) => updateField("dateOfBirth", e.target.value)} data-testid="input-dob" />
                 </div>
                 <div>
-                  <Label htmlFor="height">Height</Label>
-                  <Input id="height" placeholder={'e.g., 175 cm or 5\'9"'} value={formData.height} onChange={(e) => updateField("height", e.target.value)} data-testid="input-height" />
+                  <Label htmlFor="height">Height <span className="text-red-500">*</span></Label>
+                  <Input id="height" required placeholder={'e.g., 175 cm or 5\'9"'} value={formData.height} onChange={(e) => updateField("height", e.target.value)} data-testid="input-height" />
                 </div>
                 <div>
-                  <Label htmlFor="weight">Weight</Label>
-                  <Input id="weight" placeholder="e.g., 120 kg or 265 lbs" value={formData.weight} onChange={(e) => updateField("weight", e.target.value)} data-testid="input-weight" />
+                  <Label htmlFor="weight">Weight <span className="text-red-500">*</span></Label>
+                  <Input id="weight" required placeholder="e.g., 120 kg or 265 lbs" value={formData.weight} onChange={(e) => updateField("weight", e.target.value)} data-testid="input-weight" />
                 </div>
               </div>
             </div>
@@ -263,8 +263,8 @@ export default function HealthProfile() {
                   <Input id="email" type="email" placeholder="your@email.com" value={formData.email} onChange={(e) => updateField("email", e.target.value)} required data-testid="input-email" />
                 </div>
                 <div>
-                  <Label htmlFor="telephone">Telephone</Label>
-                  <Input id="telephone" placeholder="Telephone number" value={formData.telephone} onChange={(e) => updateField("telephone", e.target.value)} data-testid="input-telephone" />
+                  <Label htmlFor="telephone">Telephone <span className="text-red-500">*</span></Label>
+                  <Input id="telephone" required placeholder="Telephone number" value={formData.telephone} onChange={(e) => updateField("telephone", e.target.value)} data-testid="input-telephone" />
                 </div>
                 <div>
                   <Label htmlFor="mobile">Mobile</Label>
