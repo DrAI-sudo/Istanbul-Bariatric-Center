@@ -15,34 +15,43 @@ export default function Treatments() {
 
   const packages = [
     {
-      name: t('gastricSleeve.packages.basic.name'),
-      price: t('gastricSleeve.packages.basic.price'),
+      name: "Sleeve Gastrectomy Basic",
+      price: "£2,950",
+      color: "blue",
       features: [
-        t('common.bestDoctors'),
-        t('common.jciHospital'),
-        t('common.airportPickup'),
-        `${t('gastricSleeve.packages.basic.days')} ${t('common.daysAccommodation')}`
+        "Best Doctors",
+        "JCI Accredited Hospital (2 days)",
+        "All comprehensive preops and consultations",
+        "Airport Pickup",
+        "Dietitian Support"
       ]
     },
     {
-      name: t('gastricSleeve.packages.relaxation.name'),
-      price: t('gastricSleeve.packages.relaxation.price'),
+      name: "Sleeve Gastrectomy Relaxation",
+      price: "£3,950",
+      color: "emerald",
+      recommended: true,
       features: [
-        t('common.bestDoctors'),
-        t('common.jciHospital'),
-        t('common.airportPickup'),
-        `${t('gastricSleeve.packages.relaxation.days')} ${t('common.daysAccommodation')}`
-      ],
-      recommended: true
+        "Surgery with world renowned Dr Murat Ustun",
+        "JCI Accredited Hospital (3 days)",
+        "All comprehensive preops and consultations",
+        "Airport Pickup",
+        "UK registered dietitian Support"
+      ]
     },
     {
-      name: t('gastricSleeve.packages.luxury.name'),
-      price: t('gastricSleeve.packages.luxury.price'),
+      name: "Sleeve Gastrectomy Luxury",
+      price: "£4,250",
+      color: "amber",
       features: [
-        t('common.bestDoctors'),
-        t('common.jciHospital'),
-        t('common.airportPickup'),
-        `${t('gastricSleeve.packages.luxury.days')} ${t('common.daysAccommodation')}`
+        "Surgery with world renowned Dr Murat Ustun",
+        "JCI Accredited Hospital (3 days)",
+        "All comprehensive preops and consultations",
+        "Airport Pickup",
+        "3 night of Radisson hotel accommodation",
+        "UK registered dietitian Support",
+        "1 months of supplements",
+        "Local UK care support in 8 Locations"
       ]
     }
   ];
@@ -200,36 +209,45 @@ export default function Treatments() {
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-8">
-                      {packages.map((pkg, idx) => (
-                        <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? 'border-primary shadow-lg scale-105 z-10' : 'border-white shadow-sm'}`}>
-                          {pkg.recommended && (
-                            <div className="absolute top-0 right-0 bg-primary text-white text-xs font-bold px-3 py-1 rounded-bl-lg">
-                              {t('common.popular')}
-                            </div>
-                          )}
-                          <CardHeader className="text-center pb-2">
-                            <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
-                          </CardHeader>
-                          <CardContent className="text-center space-y-6">
-                            <div className="text-4xl font-extrabold text-primary">{pkg.price}</div>
-                            <ul className="space-y-4 text-left mx-auto max-w-[200px]">
-                              {pkg.features.map((feature, fIdx) => (
-                                <li key={fIdx} className="flex items-center gap-3 text-slate-700">
-                                  <div className="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center shrink-0">
-                                    <Check className="w-3 h-3 text-primary" />
-                                  </div>
-                                  {feature}
-                                </li>
-                              ))}
-                            </ul>
-                          </CardContent>
-                          <CardFooter className="pt-4 pb-8">
-                            <Button className={`w-full ${pkg.recommended ? 'bg-primary hover:bg-primary/90' : 'bg-slate-900 hover:bg-slate-800'}`}>
-                              {t('common.selectPackage')}
-                            </Button>
-                          </CardFooter>
-                        </Card>
-                      ))}
+                      {packages.map((pkg, idx) => {
+                        const colorStyles = {
+                          blue: { border: 'border-blue-500', bg: 'bg-blue-50', price: 'text-blue-600', check: 'bg-blue-100', checkIcon: 'text-blue-600', btn: 'bg-blue-600 hover:bg-blue-700', badge: 'bg-blue-600' },
+                          emerald: { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' },
+                          amber: { border: 'border-amber-500', bg: 'bg-amber-50', price: 'text-amber-600', check: 'bg-amber-100', checkIcon: 'text-amber-600', btn: 'bg-amber-600 hover:bg-amber-700', badge: 'bg-amber-600' },
+                        }[pkg.color] || { border: 'border-blue-500', bg: 'bg-blue-50', price: 'text-blue-600', check: 'bg-blue-100', checkIcon: 'text-blue-600', btn: 'bg-blue-600 hover:bg-blue-700', badge: 'bg-blue-600' };
+                        return (
+                          <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? `${colorStyles.border} shadow-lg scale-105 z-10` : `${colorStyles.border} shadow-sm`}`}>
+                            {pkg.recommended && (
+                              <div className={`absolute top-0 right-0 ${colorStyles.badge} text-white text-xs font-bold px-3 py-1 rounded-bl-lg`}>
+                                {t('common.popular')}
+                              </div>
+                            )}
+                            <CardHeader className={`text-center pb-2 ${colorStyles.bg}`}>
+                              <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
+                            </CardHeader>
+                            <CardContent className="text-center space-y-6 pt-6">
+                              <div className={`text-4xl font-extrabold ${colorStyles.price}`}>{pkg.price}</div>
+                              <ul className="space-y-4 text-left mx-auto max-w-[240px]">
+                                {pkg.features.map((feature, fIdx) => (
+                                  <li key={fIdx} className="flex items-center gap-3 text-slate-700">
+                                    <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
+                                      <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} />
+                                    </div>
+                                    {feature}
+                                  </li>
+                                ))}
+                              </ul>
+                            </CardContent>
+                            <CardFooter className="pt-4 pb-8">
+                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`Hi, I'm interested in the ${pkg.name} package`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
+                                <Button className={`w-full ${colorStyles.btn} text-white`}>
+                                  {t('common.selectPackage')}
+                                </Button>
+                              </a>
+                            </CardFooter>
+                          </Card>
+                        );
+                      })}
                     </div>
                   </div>
                 )}
