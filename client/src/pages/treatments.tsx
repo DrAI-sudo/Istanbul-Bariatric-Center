@@ -247,7 +247,7 @@ export default function Treatments() {
         "Not suitable for BMI over 40",
         "Relatively newer procedure with less long-term data"
       ],
-      ifsoImage: ""
+      ifsoImage: "/esg-procedure.webp"
     }
   ];
 
