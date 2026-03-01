@@ -1,5 +1,226 @@
+# Istanbul Bariatric Center - Robots.txt
+# Welcome all legitimate crawlers and AI bots
+# Last updated: 2026-03-01
+
+# === Standard Search Engine Crawlers ===
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: Googlebot-Image
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: Googlebot-Video
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: Slurp
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: Baiduspider
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: YandexBot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+# === OpenAI Crawlers ===
+User-agent: GPTBot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+# === Anthropic Crawlers ===
+User-agent: ClaudeBot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: Claude-Web
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+# === Google AI / Gemini ===
+User-agent: Google-Extended
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: GoogleOther
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+# === Perplexity AI ===
+User-agent: PerplexityBot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+# === xAI / Grok ===
+User-agent: Grokbot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: xai-grok
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+# === DeepSeek ===
+User-agent: DeepSeekBot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+# === Meta AI ===
+User-agent: FacebookBot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: MetaBot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: meta-externalagent
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+# === Apple ===
+User-agent: Applebot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+# === Microsoft / Copilot ===
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+User-agent: CopilotBot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+# === Cohere AI ===
+User-agent: cohere-ai
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+# === You.com ===
+User-agent: YouBot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+# === Brave Search ===
+User-agent: Brave
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+# === Common Crawl ===
+User-agent: CCBot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+# === Diffbot ===
+User-agent: Diffbot
+Allow: /
+Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
+
+# === Catch-all for any other bots ===
 User-agent: *
 Allow: /
 Disallow: /api/
+Disallow: /superadmin
+Disallow: /admin
 
+# Sitemaps
 Sitemap: https://istanbulbariatriccenter.com/sitemap.xml
+
+# LLM Discovery Files
+# See https://llmstxt.org/ for the llms.txt standard
+# /llms.txt - Structured overview for AI models
+# /llms-full.txt - Detailed content for AI models
+# /.well-known/ai-plugin.json - AI plugin discovery

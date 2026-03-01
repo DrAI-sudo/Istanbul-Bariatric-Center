@@ -40,6 +40,15 @@ app.use((req, res, next) => {
   next();
 });
 
+app.use((req, res, next) => {
+  if (req.path.startsWith("/api/") || req.path.startsWith("/admin") || req.path.startsWith("/superadmin")) {
+    res.setHeader("X-Robots-Tag", "noindex, nofollow");
+  } else {
+    res.setHeader("X-Robots-Tag", "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1");
+  }
+  next();
+});
+
 app.use(
   express.json({
     verify: (req, _res, buf) => {

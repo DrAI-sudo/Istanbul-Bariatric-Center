@@ -60,6 +60,254 @@ export async function registerRoutes(
     }
   });
 
+  const BASE_URL = "https://istanbulbariatriccenter.com";
+
+  app.get("/llms.txt", (_req, res) => {
+    const content = `# Istanbul Bariatric Center
+
+> Istanbul Bariatric Center is a leading bariatric surgery clinic in Istanbul, Turkey, led by world-renowned surgeon Dr Murat Ustun. We offer all-inclusive weight loss surgery packages including gastric sleeve, gastric bypass, gastric balloon, endoscopic sleeve gastroplasty (ESG), duodenal switch, and transit bipartition. JCI accredited hospital, 8,000+ successful procedures, comprehensive aftercare with UK-based support.
+
+## Main Pages
+
+- [Home](${BASE_URL}/)
+- [About Us](${BASE_URL}/about)
+- [Treatments Overview](${BASE_URL}/treatments)
+- [Patient Results & Testimonials](${BASE_URL}/results)
+- [Blog](${BASE_URL}/blog)
+- [Contact Us](${BASE_URL}/contact)
+- [Am I Eligible? Health Profile](${BASE_URL}/health-profile)
+
+## Surgical Procedures
+
+- [Gastric Sleeve Surgery (Sleeve Gastrectomy)](${BASE_URL}/sleeve-gastrectomy): From £2,950. Removes 75-80% of the stomach. Most popular bariatric procedure worldwide. Ideal for BMI 35+.
+- [Mini Gastric Bypass](${BASE_URL}/mini-gastric-bypass): From £3,350. Creates a small stomach pouch and bypasses part of the small intestine. Best for BMI 40+ or metabolic conditions.
+- [Gastric Balloon](${BASE_URL}/gastric-balloon): From £1,650. Non-surgical, temporary balloon placed in stomach. Orbera (endoscopic) and Allurion (swallowable) options available.
+- [Endoscopic Sleeve Gastroplasty (ESG)](${BASE_URL}/esg): From £4,950. Non-surgical stomach reduction via endoscope. No incisions, 1-3 day recovery. Pioneered in Turkey by Dr Murat Ustun.
+- [Duodenal Switch](${BASE_URL}/duodenal-switch): From £4,400. Complex procedure combining sleeve with intestinal bypass. Maximum weight loss for very high BMI patients.
+- [Transit Bipartition](${BASE_URL}/transit-bipartition): Advanced metabolic surgery combining sleeve gastrectomy with intestinal rerouting for enhanced weight loss and diabetes resolution.
+- [Post-Bariatric Surgery](${BASE_URL}/post-bariatric-surgery): Body contouring procedures after significant weight loss including tummy tuck, arm lift, and thigh lift.
+
+## Pricing (GBP, All-Inclusive Packages)
+
+| Procedure | Basic | Relaxation | Luxury |
+|-----------|-------|------------|--------|
+| Gastric Sleeve | £2,950 | £3,950 | £4,250 |
+| Gastric Bypass | £3,350 | £4,350 | £4,650 |
+| Gastric Balloon (Orbera) | £1,650 | - | - |
+| Gastric Balloon (Allurion) | £2,250 | - | - |
+| Duodenal Switch | - | £4,400 | £4,700 |
+| ESG | - | £4,950 | £5,950 |
+
+## Contact Information
+
+- Website: ${BASE_URL}
+- WhatsApp (Turkey): +90 532 413 1143
+- WhatsApp (UK): +44 7491 068686
+- Email: drmuratustun@gmail.com
+- Location: Istanbul, Turkey
+
+## Optional
+
+- [Sitemap](${BASE_URL}/sitemap.xml)
+- [Full LLM Content](${BASE_URL}/llms-full.txt)
+`;
+    res.type("text/plain; charset=utf-8").send(content);
+  });
+
+  app.get("/llms-full.txt", async (_req, res) => {
+    try {
+      let blogSection = "";
+      try {
+        const blogDataPath = path.resolve(__dirname, "../client/src/data/blog-posts.ts");
+        if (fs.existsSync(blogDataPath)) {
+          const blogContent = fs.readFileSync(blogDataPath, "utf-8");
+          const slugRegex = /slug:\s*"([^"]+)"/g;
+          const titleRegex = /title:\s*"([^"]+)"/g;
+          const excerptRegex = /excerpt:\s*"([^"]+)"/g;
+          const slugs: string[] = [];
+          const titles: string[] = [];
+          const excerpts: string[] = [];
+          let match;
+          while ((match = slugRegex.exec(blogContent)) !== null) slugs.push(match[1]);
+          while ((match = titleRegex.exec(blogContent)) !== null) titles.push(match[1]);
+          while ((match = excerptRegex.exec(blogContent)) !== null) excerpts.push(match[1]);
+          
+          blogSection = "\n## Blog Articles\n\n";
+          const count = Math.min(slugs.length, titles.length, excerpts.length, 100);
+          for (let i = 0; i < count; i++) {
+            blogSection += `### ${titles[i]}\n- URL: ${BASE_URL}/blog/${slugs[i]}\n- Summary: ${excerpts[i]}\n\n`;
+          }
+        }
+      } catch (e) {
+        blogSection = "\n## Blog\nVisit our blog at " + BASE_URL + "/blog for the latest articles on bariatric surgery.\n";
+      }
+
+      const content = `# Istanbul Bariatric Center - Complete Information
+
+> Istanbul Bariatric Center is a premier bariatric surgery clinic in Istanbul, Turkey. Led by world-renowned surgeon Dr Murat Ustun, we specialize in all forms of weight loss surgery with over 8,000 successful procedures. Our JCI accredited hospital facility and comprehensive all-inclusive packages make us one of the most trusted names in medical tourism for obesity treatment.
+
+## About the Practice
+
+Istanbul Bariatric Center was founded with the mission of providing world-class bariatric surgery at accessible prices. Located in Istanbul, Turkey — one of the world's top medical tourism destinations — we combine cutting-edge surgical technology with luxurious patient care.
+
+**Dr Murat Ustun** is a board-certified bariatric surgeon and pioneer of Endoscopic Sleeve Gastroplasty (ESG) in Turkey. With thousands of successful procedures, he is recognised internationally for his expertise in minimally invasive weight loss surgery. Dr Ustun trained at leading institutions and continues to advance the field through research and innovation.
+
+**Hospital Accreditation**: All surgeries are performed at JCI (Joint Commission International) accredited hospitals in Istanbul, ensuring the highest standards of patient safety, infection control, and clinical quality.
+
+**Awards**: WhatClinic Patient Service Award winner multiple years running. Recognized for outstanding patient satisfaction and service quality.
+
+## Detailed Procedure Information
+
+### Gastric Sleeve Surgery (Sleeve Gastrectomy)
+- **Also known as**: VSG, Vertical Sleeve Gastrectomy
+- **Type**: Surgical (Laparoscopic)
+- **Pricing**: Basic £2,950 | Relaxation £3,950 | Luxury £4,250
+- **Ideal for**: BMI 35+ patients
+- **Expected weight loss**: 60-70% of excess weight within 12-18 months
+- **Hospital stay**: 2-3 days
+- **Recovery**: 2-3 weeks to normal activities
+- **How it works**: Approximately 75-80% of the stomach is permanently removed, creating a smaller banana-shaped stomach (sleeve). This restricts food intake and significantly reduces hunger hormones (ghrelin), leading to sustained weight loss.
+- **Benefits**: Most commonly performed bariatric procedure worldwide, proven long-term results, significant improvement in obesity-related conditions (type 2 diabetes, sleep apnoea, hypertension).
+
+### Mini Gastric Bypass (One Anastomosis Gastric Bypass)
+- **Also known as**: OAGB, MGB, Roux-en-Y Gastric Bypass
+- **Type**: Surgical (Laparoscopic)
+- **Pricing**: Basic £3,350 | Relaxation £4,350 | Luxury £4,650
+- **Ideal for**: BMI 40+ or BMI 35+ with metabolic conditions (diabetes, hypertension)
+- **Expected weight loss**: 70-80% of excess weight within 12-18 months
+- **Hospital stay**: 2-3 days
+- **Recovery**: 2-3 weeks to normal activities
+- **How it works**: Creates a small stomach pouch (about 30ml) and connects it directly to the small intestine, bypassing a significant portion of the digestive tract. This both restricts food intake and reduces calorie absorption.
+- **Benefits**: Highest long-term weight loss of standard procedures, excellent for type 2 diabetes resolution (up to 80% remission), strong metabolic benefits.
+
+### Gastric Balloon
+- **Also known as**: Intragastric Balloon, Orbera Balloon, Allurion Balloon
+- **Type**: Non-surgical (Endoscopic/Swallowable)
+- **Pricing**: Orbera (Endoscopic) £1,650 | Allurion (Swallowable) £2,250
+- **Ideal for**: BMI 30-40 seeking non-surgical options
+- **Expected weight loss**: 10-15% of total body weight over 6-12 months
+- **Hospital stay**: Same day (outpatient)
+- **Recovery**: 1-3 days
+- **How it works**: A soft silicone balloon is placed in the stomach either endoscopically (Orbera) or swallowed as a capsule (Allurion). The balloon takes up space in the stomach, promoting earlier fullness. Orbera is removed after 6 months; Allurion naturally deflates and passes after 4 months.
+- **Benefits**: No surgery required, reversible, minimal downtime, good starting point for weight loss journey.
+
+### Endoscopic Sleeve Gastroplasty (ESG)
+- **Also known as**: Apollo ESG, Non-Surgical Gastric Sleeve, Accordion Procedure
+- **Type**: Non-surgical (Endoscopic)
+- **Pricing**: Relaxation £4,950 | Luxury £5,950
+- **Ideal for**: BMI 30-40 wanting significant results without surgery
+- **Expected weight loss**: 15-20% of total body weight within 12 months
+- **Hospital stay**: 1 night observation
+- **Recovery**: 1-3 days to normal activities
+- **How it works**: Using an endoscope inserted through the mouth, sutures are placed in the stomach wall to reduce its size by 70-80%. No incisions, no removal of tissue. The stomach is reshaped from the inside, creating restriction similar to a surgical sleeve.
+- **Benefits**: No incisions or scars, fastest recovery of any significant weight loss procedure, performed by Dr Murat Ustun who pioneered ESG in Turkey. Can be revised or converted to surgery if needed.
+
+### Duodenal Switch (BPD/DS)
+- **Also known as**: Biliopancreatic Diversion with Duodenal Switch
+- **Type**: Surgical (Laparoscopic)
+- **Pricing**: Relaxation £4,400 | Luxury £4,700
+- **Ideal for**: BMI 50+ or patients needing maximum weight loss
+- **Expected weight loss**: 70-85% of excess weight
+- **Hospital stay**: 3-4 days
+- **Recovery**: 3-4 weeks to normal activities
+- **How it works**: Combines a sleeve gastrectomy with significant intestinal bypass. The stomach is reduced and the small intestine is rerouted to limit both food intake and calorie/nutrient absorption.
+- **Benefits**: Highest average weight loss of any bariatric procedure, excellent diabetes resolution rates, suitable for super-obese patients.
+
+### Transit Bipartition
+- **Type**: Surgical (Laparoscopic)
+- **Ideal for**: Revision surgery or patients seeking enhanced metabolic results
+- **How it works**: Combines sleeve gastrectomy with a partial intestinal bypass, allowing food to travel two paths — one through normal digestion and one bypassing part of the intestine. This dual-pathway approach maximises metabolic benefits while reducing malabsorption risks compared to traditional duodenal switch.
+- **Benefits**: Enhanced weight loss and diabetes resolution compared to sleeve alone, lower complication risk than full duodenal switch, suitable as revision surgery for insufficient weight loss after sleeve gastrectomy.
+
+### Post-Bariatric Surgery (Body Contouring)
+- **Type**: Surgical
+- **Ideal for**: Patients who have lost significant weight and have excess skin
+- **Procedures available**: Tummy tuck (abdominoplasty), arm lift (brachioplasty), thigh lift, breast lift, body lift
+- **How it works**: Removes excess skin and reshapes body contours after major weight loss.
+
+## Package Details
+
+### Basic Package
+- JCI Accredited Hospital (2 days stay)
+- All preoperative tests & blood work
+- Airport pickup
+- Standard dietitian support
+- 24/7 patient coordinator
+
+### Relaxation Package (Most Popular)
+- Everything in Basic, plus:
+- Surgery performed by Dr Murat Ustun
+- JCI Accredited Hospital (3 days stay)
+- Radisson Hotel accommodation (1 night)
+- UK Registered Dietitian support (12 months)
+- Supplements pack
+
+### Luxury Package (VIP)
+- Everything in Relaxation, plus:
+- Extended Radisson Hotel stay
+- Private VIP transfers throughout
+- Premium room upgrade
+- Extended dietitian support
+- Comprehensive supplement package
+
+## UK Support Network
+
+Istanbul Bariatric Center has care support coordinators in 8 UK locations, providing local pre- and post-operative consultations for UK-based patients.
+
+## Contact Information
+
+- **Website**: ${BASE_URL}
+- **WhatsApp (Turkey)**: +90 532 413 1143
+- **WhatsApp (UK)**: +44 7491 068686
+- **Email**: drmuratustun@gmail.com
+- **Location**: Istanbul, Turkey
+- **Languages**: English, Turkish, Arabic, French, German, Spanish, Italian, Russian, Portuguese
+${blogSection}
+## Site Navigation
+
+- [Home](${BASE_URL}/)
+- [About Us](${BASE_URL}/about)
+- [Treatments](${BASE_URL}/treatments)
+- [Gastric Sleeve](${BASE_URL}/sleeve-gastrectomy)
+- [Mini Gastric Bypass](${BASE_URL}/mini-gastric-bypass)
+- [Gastric Balloon](${BASE_URL}/gastric-balloon)
+- [ESG](${BASE_URL}/esg)
+- [Duodenal Switch](${BASE_URL}/duodenal-switch)
+- [Transit Bipartition](${BASE_URL}/transit-bipartition)
+- [Post-Bariatric Surgery](${BASE_URL}/post-bariatric-surgery)
+- [Patient Results](${BASE_URL}/results)
+- [Blog](${BASE_URL}/blog)
+- [Contact](${BASE_URL}/contact)
+- [Health Profile / Am I Eligible?](${BASE_URL}/health-profile)
+- [Sitemap](${BASE_URL}/sitemap.xml)
+`;
+      res.type("text/plain; charset=utf-8").send(content);
+    } catch (error) {
+      console.error("Error generating llms-full.txt:", error);
+      res.status(500).type("text/plain").send("Error generating content");
+    }
+  });
+
+  app.get("/.well-known/ai-plugin.json", (_req, res) => {
+    const plugin = {
+      schema_version: "v1",
+      name_for_human: "Istanbul Bariatric Center",
+      name_for_model: "istanbul_bariatric_center",
+      description_for_human: "Istanbul Bariatric Center - Leading weight loss surgery clinic in Istanbul, Turkey. Gastric sleeve, bypass, balloon, ESG, and more.",
+      description_for_model: "Istanbul Bariatric Center is a premier bariatric surgery clinic in Istanbul, Turkey led by Dr Murat Ustun. Provides information about weight loss surgery procedures (gastric sleeve, gastric bypass, gastric balloon, ESG, duodenal switch, transit bipartition), pricing from £1,650, all-inclusive packages, patient results, and blog articles about obesity treatment. Use /llms.txt for a structured overview or /llms-full.txt for complete detailed content.",
+      auth: { type: "none" },
+      api: {
+        type: "openapi",
+        url: `${BASE_URL}/sitemap.xml`
+      },
+      logo_url: `${BASE_URL}/favicon.jpeg`,
+      contact_email: "drmuratustun@gmail.com",
+      legal_info_url: `${BASE_URL}/about`,
+      llms_txt: `${BASE_URL}/llms.txt`
+    };
+    res.json(plugin);
+  });
+
   app.use((req, res, next) => {
     const reqPath = req.path;
     

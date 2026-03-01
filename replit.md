@@ -98,3 +98,11 @@ The backend serves the React SPA in production and provides API endpoints for co
 - Styling: Tailwind CSS, class-variance-authority, clsx, tailwind-merge
 - Date handling: date-fns
 - Notifications: sonner (toast notifications)
+
+### AI Crawler Accessibility
+- **robots.txt**: `client/public/robots.txt` — Expanded to 25+ named AI crawlers (GPTBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended, Grokbot, DeepSeekBot, FacebookBot, MetaBot, Applebot, CopilotBot, etc.) with Disallow for `/api/`, `/admin`, `/superadmin`
+- **llms.txt**: Served at `/llms.txt` from `server/routes.ts` — Structured LLM discovery file with practice overview, all procedures with links/pricing, contact info
+- **llms-full.txt**: Served at `/llms-full.txt` from `server/routes.ts` — Detailed version with full procedure descriptions, package details, and dynamically parsed blog posts (up to 100)
+- **ai-plugin.json**: Served at `/.well-known/ai-plugin.json` from `server/routes.ts` — AI plugin discovery pointing to llms.txt and sitemap
+- **X-Robots-Tag Header**: Middleware in `server/index.ts` — Public pages get `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1`; `/api/`, `/admin`, `/superadmin` get `noindex, nofollow`
+- **Enhanced Meta Robots**: `client/index.html` — Both `robots` and `googlebot` meta tags with `max-image-preview:large, max-snippet:-1, max-video-preview:-1`
