@@ -1,5 +1,5 @@
 export function Awards() {
-  const years = [2019, 2020, 2021, 2023, 2024];
+  const years = [2019, 2020, 2021, 2023, 2024, 2025];
   
   return (
     <section className="py-16 bg-slate-900 text-white relative overflow-hidden" aria-labelledby="awards-heading">
