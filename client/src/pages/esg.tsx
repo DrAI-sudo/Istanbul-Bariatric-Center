@@ -123,7 +123,7 @@ export default function ESG() {
             </div>
             <div className="flex justify-center">
               <img 
-                src="https://cdn.durable.co/blocks/30R8bzGmRZ7QXj7gX5yFO3oEJLlwBsNJujHFhMv9qhwcOshDkscOR2rp9Zduoc5V.jpg" 
+                src="/esg-procedure-cdn.webp" 
                 alt="Apollo Endoscopic Gastroplasty ESG Procedure" 
                 className="rounded-2xl shadow-xl max-w-md w-full"
                 width="400"

@@ -99,6 +99,21 @@ The backend serves the React SPA in production and provides API endpoints for co
 - Date handling: date-fns
 - Notifications: sonner (toast notifications)
 
+### Server-Side SEO Injection (SPA SSR)
+- **Architecture**: React SPA with server-side content injection for crawlers
+- **SEO Data**: `server/seo-data.ts` — Rich content definitions for all 15 static pages + 45 blog posts, including titles, descriptions, full page content, and JSON-LD schemas
+- **SEO Injection**: `server/seo-inject.ts` — Injects into HTML: meta tags (title, description, OG, Twitter, canonical), JSON-LD structured data, rich crawlable content div, noscript fallback, navigation links, blog article index
+- **Blog Content Injection**: Full blog post HTML content extracted from `client/src/data/blog-posts.ts` and injected server-side for each blog URL
+- **Vite Dev Integration**: `server/vite.ts` — SSR injection also works in development mode
+- **Production Integration**: `server/static.ts` — SSR injection in production build serving
+
+### Image Assets
+- All images converted to WebP format and saved in `client/public/`
+- External CDN images (IFSO diagrams, before/after photos) downloaded locally and converted to WebP
+- Before/after photos: `ba_1.webp` through `ba_12.webp`
+- IFSO procedure diagrams: `ifso-sleeve.webp`, `ifso-bypass.webp`, `ifso-ds.webp`, `ifso-esg.webp`, `ifso-lagb.webp`
+- ESG procedure image: `esg-procedure-cdn.webp`
+
 ### AI Crawler Accessibility
 - **robots.txt**: `client/public/robots.txt` — Expanded to 25+ named AI crawlers (GPTBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended, Grokbot, DeepSeekBot, FacebookBot, MetaBot, Applebot, CopilotBot, etc.) with Disallow for `/api/`, `/admin`, `/superadmin`
 - **llms.txt**: Served at `/llms.txt` from `server/routes.ts` — Structured LLM discovery file with practice overview, all procedures with links/pricing, contact info

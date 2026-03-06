@@ -286,35 +286,35 @@ export default function Treatments() {
       desc: t('gastricSleeve.desc'),
       advantages: t('gastricSleeve.advantages', { returnObjects: true }) as string[],
       disadvantages: t('gastricSleeve.disadvantages', { returnObjects: true }) as string[],
-      ifsoImage: "https://www.ifso.com/images/sleeve-gastrectomy-pop-up.png"
+      ifsoImage: "/ifso-sleeve.webp"
     },
     {
       title: t('gastricBypass.title'),
       desc: t('gastricBypass.desc'),
       advantages: t('gastricBypass.advantages', { returnObjects: true }) as string[],
       disadvantages: t('gastricBypass.disadvantages', { returnObjects: true }) as string[],
-      ifsoImage: "https://www.ifso.com/images/oagb-mini-gastric-bypass-img.jpg"
+      ifsoImage: "/ifso-bypass.webp"
     },
     {
       title: t('gastricBalloon.title'),
       desc: t('gastricBalloon.desc'),
       advantages: t('gastricBalloon.advantages', { returnObjects: true }) as string[],
       disadvantages: t('gastricBalloon.disadvantages', { returnObjects: true }) as string[],
-      ifsoImage: "/gastric-balloon.jpeg"
+      ifsoImage: "/gastric-balloon.webp"
     },
     {
       title: t('gastricBand.title'),
       desc: t('gastricBand.desc'),
       advantages: t('gastricBand.advantages', { returnObjects: true }) as string[],
       disadvantages: t('gastricBand.disadvantages', { returnObjects: true }) as string[],
-      ifsoImage: "https://www.ifso.com/images/how-lagb-works-img.jpg"
+      ifsoImage: "/ifso-lagb.webp"
     },
     {
       title: t('duodenalSwitch.title'),
       desc: t('duodenalSwitch.desc'),
       advantages: t('duodenalSwitch.advantages', { returnObjects: true }) as string[],
       disadvantages: t('duodenalSwitch.disadvantages', { returnObjects: true }) as string[],
-      ifsoImage: "https://www.ifso.com/images/duodenal-switch-pop-up.png"
+      ifsoImage: "/ifso-ds.webp"
     },
     {
       title: "Endoscopic Sleeve Gastroplasty (ESG)",

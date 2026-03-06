@@ -69,7 +69,7 @@ export default function GastricBalloon() {
             </div>
             <div className="flex justify-center">
               <img 
-                src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/Gastric-Balloon-300x278.png" 
+                src="/gastric-balloon.webp" 
                 alt="Gastric Balloon Illustration" 
                 className="max-w-sm w-full"
                 width="300"

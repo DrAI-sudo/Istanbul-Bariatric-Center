@@ -13,6 +13,7 @@ export const VALID_STATIC_ROUTES = [
   "/esg",
   "/post-bariatric-surgery",
   "/insurance",
+  "/health-profile",
 ];
 
 export const VALID_BLOG_SLUGS = [

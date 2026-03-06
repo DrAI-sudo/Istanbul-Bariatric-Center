@@ -33,7 +33,7 @@ export default function Insurance() {
       <main id="main-content" role="main">
         <section className="pt-24">
           <img 
-            src="/insurance-header.jpeg" 
+            src="/insurance-header.webp" 
             alt="Global Protective Solutions - Administered by Custom Assurance Placements Ltd." 
             className="w-full max-w-4xl mx-auto"
             data-testid="img-insurance-header"

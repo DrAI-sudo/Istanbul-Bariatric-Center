@@ -8,18 +8,18 @@ import { SEO } from "@/components/seo";
 import { SummarizeWithAI } from "@/components/summarize-with-ai";
 
 const beforeAfterImages = [
-  "https://bariatricsurgeryinturkey.com/assets/ba_1-ByMXV9kJ.jpeg",
-  "https://bariatricsurgeryinturkey.com/assets/ba_2-Do-jhvDA.jpeg",
-  "https://bariatricsurgeryinturkey.com/assets/ba_3-3xKc-EEk.jpeg",
-  "https://bariatricsurgeryinturkey.com/assets/ba_4-DdDcnv7A.jpeg",
-  "https://bariatricsurgeryinturkey.com/assets/ba_5-BatUBxC4.jpeg",
-  "https://bariatricsurgeryinturkey.com/assets/ba_6-BOMiSlR5.jpeg",
-  "https://bariatricsurgeryinturkey.com/assets/ba_7-rrNuob_8.png",
-  "https://bariatricsurgeryinturkey.com/assets/ba_8-5GD_zqNU.jpeg",
-  "https://bariatricsurgeryinturkey.com/assets/ba_9-B0Y8qqr_.jpeg",
-  "https://bariatricsurgeryinturkey.com/assets/ba_10-B06X8z-7.jpeg",
-  "https://bariatricsurgeryinturkey.com/assets/ba_11-akQcc2Oe.jpeg",
-  "https://bariatricsurgeryinturkey.com/assets/ba_12-LTS2-bwF.jpeg"
+  "/ba_1.webp",
+  "/ba_2.webp",
+  "/ba_3.webp",
+  "/ba_4.webp",
+  "/ba_5.webp",
+  "/ba_6.webp",
+  "/ba_7.webp",
+  "/ba_8.webp",
+  "/ba_9.webp",
+  "/ba_10.webp",
+  "/ba_11.webp",
+  "/ba_12.webp"
 ];
 
 const results = [

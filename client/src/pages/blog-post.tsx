@@ -152,7 +152,7 @@ export default function BlogPost() {
                 width="800"
                 height="450"
                 onError={(e) => {
-                  e.currentTarget.src = "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2020/10/gastric-sleeve.png";
+                  e.currentTarget.src = "/gastric-sleeve.webp";
                 }}
               />
             </div>

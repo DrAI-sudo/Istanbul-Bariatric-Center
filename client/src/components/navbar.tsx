@@ -49,7 +49,7 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-2" aria-label="Istanbul Bariatric Center - Home">
            {showSolidNav ? (
              <img 
-               src="/logo.jpeg" 
+               src="/logo.webp" 
                alt="Istanbul Bariatric Center - Op. Dr Murat Üstün" 
                className="h-16 md:h-20 w-auto transition-all duration-300"
                width="80"

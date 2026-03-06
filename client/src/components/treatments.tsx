@@ -7,25 +7,25 @@ const treatments = [
     title: "Sleeve Gastrectomy",
     desc: "Laparoscopic sleeve gastrectomy is the most popular bariatric surgery worldwide.",
     link: "/sleeve-gastrectomy",
-    image: "https://www.ifso.com/images/sleeve-gastrectomy-pop-up.png"
+    image: "/ifso-sleeve.webp"
   },
   {
     title: "Mini Gastric Bypass",
     desc: "Discover your weight loss potential with mini-gastric bypass surgeries.",
     link: "/mini-gastric-bypass",
-    image: "https://www.ifso.com/images/oagb-mini-gastric-bypass-img.jpg"
+    image: "/ifso-bypass.webp"
   },
   {
     title: "Intragastric Balloon",
     desc: "Gastric balloon procedure is a non-surgical method to lose weight.",
     link: "/gastric-balloon",
-    image: "/gastric-balloon.jpeg"
+    image: "/gastric-balloon.webp"
   },
   {
     title: "Surgery for Diabetes",
     desc: "Metabolic surgeries are made for reversion of the diabetes diseases.",
     link: "/duodenal-switch",
-    image: "https://www.ifso.com/images/duodenal-switch-pop-up.png"
+    image: "/ifso-ds.webp"
   },
   {
     title: "Post-Bariatric Surgery",
@@ -43,7 +43,7 @@ const treatments = [
     title: "ESG (Endoscopic Sleeve Gastroplasty)",
     desc: "A non-surgical, incisionless weight loss procedure with quick recovery.",
     link: "/esg",
-    image: "https://www.ifso.com/images/endoscopic-sleeve-gastroplasty-pop-up.png"
+    image: "/ifso-esg.webp"
   }
 ];
 

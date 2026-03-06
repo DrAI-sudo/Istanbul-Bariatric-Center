@@ -14,7 +14,7 @@ interface SEOProps {
 
 const SITE_NAME = "Istanbul Bariatric Center";
 const BASE_URL = "https://istanbulbariatriccenter.com";
-const DEFAULT_IMAGE = "https://istanbulbariatriccenter.com/opengraph.jpg";
+const DEFAULT_IMAGE = "https://istanbulbariatriccenter.com/opengraph.webp";
 
 export function SEO({
   title,
@@ -146,7 +146,7 @@ export const structuredData = {
     name: "Istanbul Bariatric Center",
     alternateName: "IBC",
     url: "https://istanbulbariatriccenter.com",
-    logo: "https://istanbulbariatriccenter.com/logo.png",
+    logo: "https://istanbulbariatriccenter.com/logo.webp",
     image: DEFAULT_IMAGE,
     description: "Leading bariatric surgery center in Istanbul, Turkey offering gastric sleeve, gastric bypass, and other weight loss procedures with world-class care.",
     telephone: "+905324131143",
@@ -219,7 +219,7 @@ export const structuredData = {
       name: "Istanbul Bariatric Center",
       logo: {
         "@type": "ImageObject",
-        url: "https://istanbulbariatriccenter.com/logo.png",
+        url: "https://istanbulbariatriccenter.com/logo.webp",
       },
     },
     mainEntityOfPage: {

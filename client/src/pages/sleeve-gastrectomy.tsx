@@ -154,7 +154,7 @@ export default function SleeveGastrectomy() {
             </div>
             <div className="flex justify-center">
               <img 
-                src="/gastric-sleeve.png" 
+                src="/gastric-sleeve.webp" 
                 alt="Gastric Sleeve Surgery Illustration" 
                 className="max-w-md w-full"
                 width="400"

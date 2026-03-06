@@ -300,7 +300,7 @@ ${blogSection}
         type: "openapi",
         url: `${BASE_URL}/sitemap.xml`
       },
-      logo_url: `${BASE_URL}/favicon.jpeg`,
+      logo_url: `${BASE_URL}/favicon.webp`,
       contact_email: "drmuratustun@gmail.com",
       legal_info_url: `${BASE_URL}/about`,
       llms_txt: `${BASE_URL}/llms.txt`

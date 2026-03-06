@@ -10,7 +10,7 @@ const doctors = [
   {
     name: "Dr. Murat Üstün",
     role: "Founder, Lead Bariatric Surgeon",
-    image: "/dr-murat-ustun.jpeg",
+    image: "/dr-murat-ustun.webp",
     desc: "Founder of Istanbul Bariatric Center (IBC) and one of the most competent bariatric surgeons in Turkey. Specialized in Ankara Training and Research Hospital and participated in more than 100 national and international congresses.",
     specialties: ["Gastric Sleeve", "Gastric Bypass", "Duodenal Switch"]
   },
