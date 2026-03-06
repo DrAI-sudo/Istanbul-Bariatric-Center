@@ -13,7 +13,7 @@ import { useMutation } from "@tanstack/react-query";
 import { insertContactSubmissionSchema, type InsertContactSubmission } from "@shared/schema";
 import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
-import hospitalImage from "@assets/IMG_1801_1766124176672.webp";
+import hospitalImage from "@assets/IMG_1801_1766124176672.jpeg";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
 
 export default function Contact() {
