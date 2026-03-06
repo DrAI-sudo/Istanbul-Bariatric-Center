@@ -24,7 +24,7 @@ const doctors = [
   {
     name: "Dr. Erhan Eryılmaz",
     role: "Plastic Surgeon",
-    image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/01/Untitled-design-1.jpeg",
+    image: "/dr-erhan-eryilmaz.jpeg",
     desc: "Specialized in Plastic and Reconstructive Surgery since 2000. Received Plastic and Reconstructive Surgery training after weight loss (bariatric surgery) in Pittsburg in 2006.",
     specialties: ["Reconstructive Surgery", "Body Contouring", "Facial Surgery"]
   },
@@ -38,7 +38,7 @@ const doctors = [
   {
     name: "Dr. Levent Bakisgan",
     role: "General Surgeon-Bariatric Endoscopist",
-    image: "https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2024/01/Untitled-design-3.jpeg",
+    image: "/dr-levent-bakisgan.jpeg",
     desc: "Well-renowned Surgeon with strong background and expertise in bariatric surgeries. Expert in gastric bypass, sleeve gastrectomy and adjustable gastric banding.",
     specialties: ["General Surgery", "Bariatric Endoscopy"]
   }
