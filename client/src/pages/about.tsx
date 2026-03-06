@@ -39,7 +39,7 @@ const doctors = [
     name: "Dr. Levent Bakisgan",
     role: "General Surgeon-Bariatric Endoscopist",
     image: "/dr-levent-bakisgan.jpeg",
-    desc: "Well-renowned Surgeon with strong background and expertise in bariatric surgeries. Expert in gastric bypass, sleeve gastrectomy and adjustable gastric banding.",
+    desc: "A 27 years of experience, especially specialised endoscopic and swallowable balloon applications. Provides comprehensive packages including dietitian and psychologist support.",
     specialties: ["General Surgery", "Bariatric Endoscopy"]
   }
 ];
