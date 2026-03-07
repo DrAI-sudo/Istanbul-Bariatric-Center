@@ -58,8 +58,9 @@ export function VIPPackage() {
                  alt="Istanbul Bariatric Center - Liv Hospital at night" 
                  className="w-full h-auto object-cover block"
                  loading="lazy"
-                 width="400"
-                 height="300"
+                 width="651"
+                 height="410"
+                 decoding="async"
                />
                <a
                  href="https://vr.livhospital.com/videoroom.html#!/Genel-Goruntuler/0a3/?dil=Tr&ath=-57&atv=-6&fov=80"
