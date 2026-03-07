@@ -39,6 +39,19 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor-react': ['react', 'react-dom'],
+          'vendor-ui': ['@radix-ui/react-accordion', '@radix-ui/react-dialog', '@radix-ui/react-tooltip', '@radix-ui/react-select', '@radix-ui/react-tabs'],
+          'vendor-forms': ['react-hook-form', '@hookform/resolvers', 'zod'],
+          'vendor-query': ['@tanstack/react-query'],
+          'i18n': ['i18next', 'react-i18next'],
+        },
+      },
+    },
+    cssCodeSplit: true,
+    target: 'es2020',
   },
   server: {
     host: "0.0.0.0",

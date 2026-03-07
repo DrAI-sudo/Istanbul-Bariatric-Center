@@ -1,19 +1,41 @@
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 
 export function Hero() {
   const { t } = useTranslation('home');
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [videoLoaded, setVideoLoaded] = useState(false);
   
   useEffect(() => {
     const video = videoRef.current;
-    if (video) {
-      video.play().catch(() => {
-        // Autoplay was prevented, video will show first frame
-      });
+    if (!video) return;
+
+    const loadVideo = () => {
+      video.src = "/hero-video.mp4";
+      video.load();
+      video.play().catch(() => {});
+      setVideoLoaded(true);
+    };
+
+    if (!('IntersectionObserver' in window)) {
+      loadVideo();
+      return;
     }
-  }, []);
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !videoLoaded) {
+          loadVideo();
+          observer.disconnect();
+        }
+      },
+      { threshold: 0 }
+    );
+
+    observer.observe(video);
+    return () => observer.disconnect();
+  }, [videoLoaded]);
   
   return (
     <section 
@@ -27,12 +49,10 @@ export function Hero() {
           loop 
           muted 
           playsInline
-          preload="auto"
+          preload="none"
           aria-hidden="true"
-          className="w-full h-full object-cover opacity-50"
-        >
-          <source src="/hero-video.mp4" type="video/mp4" />
-        </video>
+          className={`w-full h-full object-cover transition-opacity duration-1000 ${videoLoaded ? 'opacity-50' : 'opacity-0'}`}
+        />
         <div className="absolute inset-0 bg-black/30" aria-hidden="true" />
       </div>
 

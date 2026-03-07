@@ -1,0 +1,73 @@
+Background and foreground colors do not have a sufficient contrast ratio.
+Low-contrast text is difficult or impossible for many users to read. Learn how to provide sufficient color contrast.
+Failing Elements
+Book Free Consultation
+<button class="inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visi…" aria-label="Get a free consultation via WhatsApp">
+BOOK FREE CONSULTATION
+<button class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition…" aria-label="Start your VIP package inquiry via WhatsApp">
+No obligation — speak with our team today
+<p class="text-slate-400 font-medium">
+All-Inclusive VIP & Value Packages Every package includes pre-operative testin…
+<section class="py-20 bg-white" aria-labelledby="vip-package-heading">
+SERVICE
+<span class="text-amber-600 text-[10px] md:text-xs font-bold tracking-widest">
+SERVICE AWARD 2019
+<div class="w-full h-full bg-white rounded-t-lg relative overflow-hidden shadow-lg" style="clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 50% 100%, 0px 85%);">
+AWARD
+<span class="text-amber-600 text-lg md:text-xl font-extrabold">
+SERVICE AWARD 2019
+<div class="w-full h-full bg-white rounded-t-lg relative overflow-hidden shadow-lg" style="clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 50% 100%, 0px 85%);">
+SERVICE
+<span class="text-amber-600 text-[10px] md:text-xs font-bold tracking-widest">
+SERVICE AWARD 2020
+<div class="w-full h-full bg-white rounded-t-lg relative overflow-hidden shadow-lg" style="clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 50% 100%, 0px 85%);">
+AWARD
+<span class="text-amber-600 text-lg md:text-xl font-extrabold">
+SERVICE AWARD 2020
+<div class="w-full h-full bg-white rounded-t-lg relative overflow-hidden shadow-lg" style="clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 50% 100%, 0px 85%);">
+SERVICE
+<span class="text-amber-600 text-[10px] md:text-xs font-bold tracking-widest">
+SERVICE AWARD 2021
+<div class="w-full h-full bg-white rounded-t-lg relative overflow-hidden shadow-lg" style="clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 50% 100%, 0px 85%);">
+AWARD
+<span class="text-amber-600 text-lg md:text-xl font-extrabold">
+SERVICE AWARD 2021
+<div class="w-full h-full bg-white rounded-t-lg relative overflow-hidden shadow-lg" style="clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 50% 100%, 0px 85%);">
+SERVICE
+<span class="text-amber-600 text-[10px] md:text-xs font-bold tracking-widest">
+SERVICE AWARD 2023
+<div class="w-full h-full bg-white rounded-t-lg relative overflow-hidden shadow-lg" style="clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 50% 100%, 0px 85%);">
+AWARD
+<span class="text-amber-600 text-lg md:text-xl font-extrabold">
+SERVICE AWARD 2023
+<div class="w-full h-full bg-white rounded-t-lg relative overflow-hidden shadow-lg" style="clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 50% 100%, 0px 85%);">
+SERVICE
+<span class="text-amber-600 text-[10px] md:text-xs font-bold tracking-widest">
+SERVICE AWARD 2024
+<div class="w-full h-full bg-white rounded-t-lg relative overflow-hidden shadow-lg" style="clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 50% 100%, 0px 85%);">
+AWARD
+<span class="text-amber-600 text-lg md:text-xl font-extrabold">
+SERVICE AWARD 2024
+<div class="w-full h-full bg-white rounded-t-lg relative overflow-hidden shadow-lg" style="clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 50% 100%, 0px 85%);">
+SERVICE
+<span class="text-amber-600 text-[10px] md:text-xs font-bold tracking-widest">
+SERVICE AWARD 2025
+<div class="w-full h-full bg-white rounded-t-lg relative overflow-hidden shadow-lg" style="clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 50% 100%, 0px 85%);">
+AWARD
+<span class="text-amber-600 text-lg md:text-xl font-extrabold">
+SERVICE AWARD 2025
+<div class="w-full h-full bg-white rounded-t-lg relative overflow-hidden shadow-lg" style="clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 50% 100%, 0px 85%);">
+October 2025
+<span class="text-xs text-slate-400">
+October 2025 "I had my gastric sleeve surgery at Memorial Hospital, Turkey, by…
+<div class="h-full p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:sh…">
+Verified Patient
+<p class="text-xs text-slate-400 flex items-center gap-1">
+October 2025 "I had my gastric sleeve surgery at Memorial Hospital, Turkey, by…
+<div class="h-full p-8 bg-white rounded-2xl shadow-sm border border-slate-100 hover:sh…">
+WhatsApp Us
+<button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md…" aria-label="WhatsApp Us - Opens in new window">
+© 2025 Istanbul Bariatric Center. All rights reserved.
+<p>
+Istanbul Bariatric Center Leading the way in bariatric surgery with world-clas…
+<footer role="contentinfo" class="bg-slate-900 text-white pt-20 pb-10">
