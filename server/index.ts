@@ -49,6 +49,10 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get("/healthz", (_req, res) => {
+  res.status(200).send("ok");
+});
+
 app.use(
   express.json({
     verify: (req, _res, buf) => {

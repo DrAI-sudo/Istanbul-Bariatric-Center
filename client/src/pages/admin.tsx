@@ -238,16 +238,23 @@ export default function AdminDashboard() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ password }),
       });
-      const data = await res.json();
+      const text = await res.text();
+      let data;
+      try {
+        data = JSON.parse(text);
+      } catch {
+        setLoginError("Server error - please try again");
+        return;
+      }
       if (data.success) {
         setToken(data.token);
         sessionStorage.setItem("admin_token", data.token);
         setPassword("");
       } else {
-        setLoginError("Invalid password");
+        setLoginError(data.error || "Invalid password");
       }
     } catch (e) {
-      setLoginError("Login failed");
+      setLoginError("Connection error - please check your internet and try again");
     }
   };
 
