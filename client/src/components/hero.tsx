@@ -55,7 +55,7 @@ export function Hero() {
         <div className="pt-8">
           <Button 
             size="lg" 
-            className="bg-[#25D366] hover:bg-[#128C7E] text-white font-bold text-lg px-10 py-8 rounded-full shadow-xl transition-transform hover:scale-105"
+            className="bg-[#1a9e4d] hover:bg-[#128C7E] text-white font-bold text-lg px-10 py-8 rounded-full shadow-xl transition-transform hover:scale-105"
             onClick={() => window.open('https://wa.me/905324131143', '_blank')}
             aria-label="Get a free consultation via WhatsApp"
           >

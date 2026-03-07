@@ -110,13 +110,13 @@ export function VIPPackage() {
         <div className="text-center mt-16 space-y-6">
           <Button 
             size="lg" 
-            className="bg-[#25D366] hover:bg-[#128C7E] text-white font-bold text-lg px-12 py-8 rounded-full shadow-xl uppercase tracking-wider"
+            className="bg-[#1a9e4d] hover:bg-[#128C7E] text-white font-bold text-lg px-12 py-8 rounded-full shadow-xl uppercase tracking-wider"
             onClick={() => window.open('https://wa.me/905324131143', '_blank')}
             aria-label="Start your VIP package inquiry via WhatsApp"
           >
             {t('vipPackage.letsTryIt')}
           </Button>
-          <p className="text-slate-400 font-medium">{t('vipPackage.getStarted')}</p>
+          <p className="text-slate-600 font-medium">{t('vipPackage.getStarted')}</p>
         </div>
       </div>
     </section>
