@@ -1,11 +1,12 @@
 import { Switch, Route } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as SonnerToaster } from "sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
 import { lazy, Suspense, useEffect } from "react";
 import { useLocation } from "wouter";
+
+const Toaster = lazy(() => import("@/components/ui/toaster").then(m => ({ default: m.Toaster })));
+const SonnerToaster = lazy(() => import("sonner").then(m => ({ default: m.Toaster })));
+const TooltipProvider = lazy(() => import("@/components/ui/tooltip").then(m => ({ default: m.TooltipProvider })));
 const MayaChatbot = lazy(() => import("@/components/maya-chatbot"));
 
 const Home = lazy(() => import("@/pages/home"));
@@ -136,8 +137,10 @@ function AppContent() {
   return (
     <>
       <SkipToContent />
-      <Toaster />
-      <SonnerToaster position="top-center" richColors />
+      <Suspense fallback={null}>
+        <Toaster />
+        <SonnerToaster position="top-center" richColors />
+      </Suspense>
       <PageTracker />
       <main id="main-content">
         <Router />
@@ -150,9 +153,11 @@ function AppContent() {
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <AppContent />
-      </TooltipProvider>
+      <Suspense fallback={null}>
+        <TooltipProvider>
+          <AppContent />
+        </TooltipProvider>
+      </Suspense>
     </QueryClientProvider>
   );
 }

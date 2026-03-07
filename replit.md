@@ -88,8 +88,7 @@ The backend serves the React SPA in production and provides API endpoints for co
 - connect-pg-simple for session storage capability
 
 ### Third-Party Services
-- Google Fonts (Inter, Plus Jakarta Sans)
-- External video content from rocketcdn.me
+- Self-hosted fonts via @fontsource (Inter, Plus Jakarta Sans)
 - WhatsApp Business integration for customer contact
 
 ### Key NPM Packages
@@ -121,3 +120,11 @@ The backend serves the React SPA in production and provides API endpoints for co
 - **ai-plugin.json**: Served at `/.well-known/ai-plugin.json` from `server/routes.ts` — AI plugin discovery pointing to llms.txt and sitemap
 - **X-Robots-Tag Header**: Middleware in `server/index.ts` — Public pages get `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1`; `/api/`, `/admin`, `/superadmin` get `noindex, nofollow`
 - **Enhanced Meta Robots**: `client/index.html` — Both `robots` and `googlebot` meta tags with `max-image-preview:large, max-snippet:-1, max-video-preview:-1`
+
+### Performance Optimizations
+- **Video**: Hero video deferred via RAF (no download until after first paint); transit bipartition GIF (26MB) converted to MP4 (1.5MB)
+- **Images**: All images local WebP; Liv Hospital image resized to display dimensions and compressed (71KB→34KB)
+- **Code Splitting**: All pages lazy-loaded; Toaster/SonnerToaster/TooltipProvider/MayaChatbot lazy-loaded to reduce initial bundle
+- **Build**: Vite manual chunks (vendor/ui/query), terser minification with console stripping in production
+- **Caching**: Static assets served with 1-year immutable cache; HTML served with no-cache
+- **Network**: Removed unused preconnect/dns-prefetch to dead CDNs; awards texture inlined as SVG data URI

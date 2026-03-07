@@ -1,19 +1,26 @@
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 
 export function Hero() {
   const { t } = useTranslation('home');
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [videoSrc, setVideoSrc] = useState<string | undefined>(undefined);
   
   useEffect(() => {
-    const video = videoRef.current;
-    if (video) {
-      video.play().catch(() => {
-        // Autoplay was prevented, video will show first frame
-      });
-    }
+    const raf = requestAnimationFrame(() => {
+      setVideoSrc("/hero-video.mp4");
+    });
+    return () => cancelAnimationFrame(raf);
   }, []);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (video && videoSrc) {
+      video.load();
+      video.play().catch(() => {});
+    }
+  }, [videoSrc]);
   
   return (
     <section 
@@ -27,11 +34,11 @@ export function Hero() {
           loop 
           muted 
           playsInline
-          preload="metadata"
+          preload="none"
           aria-hidden="true"
           className="w-full h-full object-cover opacity-50"
         >
-          <source src="/hero-video.mp4" type="video/mp4" />
+          {videoSrc && <source src={videoSrc} type="video/mp4" />}
         </video>
         <div className="absolute inset-0 bg-black/30" aria-hidden="true" />
       </div>
