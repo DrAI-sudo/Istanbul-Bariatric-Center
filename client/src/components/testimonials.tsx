@@ -198,7 +198,7 @@ export function Testimonials() {
                         <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                       ))}
                     </div>
-                    <span className="text-xs text-slate-500">{item.date}</span>
+                    <span className="text-xs text-slate-400">{item.date}</span>
                   </div>
                   <Quote className="w-8 h-8 text-primary/20 mb-4" />
                   <p className="text-slate-600 mb-6 leading-relaxed italic flex-grow">
@@ -214,7 +214,7 @@ export function Testimonials() {
                       <p className="font-bold text-slate-900 flex items-center gap-2">
                         {item.name} <span className="text-lg">{item.flag}</span>
                       </p>
-                      <p className="text-xs text-slate-500 flex items-center gap-1">
+                      <p className="text-xs text-slate-400 flex items-center gap-1">
                         <BadgeCheck className="w-3 h-3 text-green-500" />
                         Verified Patient
                       </p>

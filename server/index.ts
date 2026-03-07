@@ -6,6 +6,7 @@ import { registerAdminRoutes } from "./admin-routes";
 import { serveStatic } from "./static";
 import { createServer } from "http";
 
+// Prevent unhandled rejections from crashing the server
 process.on('unhandledRejection', (reason, promise) => {
   console.error('Unhandled Rejection at:', promise, 'reason:', reason);
 });
@@ -13,6 +14,7 @@ process.on('unhandledRejection', (reason, promise) => {
 const app = express();
 const httpServer = createServer(app);
 
+// Enable gzip/brotli compression for all responses
 app.use(compression({
   level: 6,
   threshold: 1024,
@@ -95,29 +97,6 @@ app.use((req, res, next) => {
 });
 
 (async () => {
-  const port = parseInt(process.env.PORT || "5000", 10);
-
-  const startupHandler = (_req: Request, res: Response) => {
-    res.status(200).set({ "Content-Type": "text/html" }).send(
-      "<!DOCTYPE html><html><head><meta charset='utf-8'><title>Istanbul Bariatric Center</title><meta http-equiv='refresh' content='2'></head><body><p>Loading...</p></body></html>"
-    );
-  };
-  app.use(startupHandler);
-
-  await new Promise<void>((resolve) => {
-    httpServer.listen(
-      {
-        port,
-        host: "0.0.0.0",
-        reusePort: true,
-      },
-      () => {
-        log(`serving on port ${port}`);
-        resolve();
-      },
-    );
-  });
-
   registerMayaChatRoutes(app);
   registerAdminRoutes(app);
   await registerRoutes(httpServer, app);
@@ -130,6 +109,9 @@ app.use((req, res, next) => {
     throw err;
   });
 
+  // importantly only setup vite in development and after
+  // setting up all the other routes so the catch-all route
+  // doesn't interfere with the other routes
   if (process.env.NODE_ENV === "production") {
     serveStatic(app);
   } else {
@@ -137,13 +119,19 @@ app.use((req, res, next) => {
     await setupVite(httpServer, app);
   }
 
-  // Remove the startup handler now that all routes are registered
-  const idx = app._router.stack.findIndex(
-    (layer: any) => layer.handle === startupHandler
+  // ALWAYS serve the app on the port specified in the environment variable PORT
+  // Other ports are firewalled. Default to 5000 if not specified.
+  // this serves both the API and the client.
+  // It is the only port that is not firewalled.
+  const port = parseInt(process.env.PORT || "5000", 10);
+  httpServer.listen(
+    {
+      port,
+      host: "0.0.0.0",
+      reusePort: true,
+    },
+    () => {
+      log(`serving on port ${port}`);
+    },
   );
-  if (idx !== -1) {
-    app._router.stack.splice(idx, 1);
-  }
-
-  log("app fully initialized");
 })();

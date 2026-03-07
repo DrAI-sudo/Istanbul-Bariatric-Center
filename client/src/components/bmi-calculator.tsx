@@ -224,7 +224,7 @@ export function BMICalculator() {
 
             {!result && (
               <div className="mt-6 p-6 bg-gray-50 rounded-xl">
-                <h3 className="font-semibold text-gray-900 mb-2">{t('home:bmi.enterDetails')}</h3>
+                <h4 className="font-semibold text-gray-900 mb-2">{t('home:bmi.enterDetails')}</h4>
                 <p className="text-sm text-gray-600">
                   {t('home:bmi.inputMessage')}
                 </p>
@@ -233,7 +233,7 @@ export function BMICalculator() {
           </div>
 
           <div className="bg-white rounded-2xl shadow-lg p-8">
-            <h3 className="font-semibold text-gray-900 mb-6">{t('home:bmi.categories')}</h3>
+            <h4 className="font-semibold text-gray-900 mb-6">{t('home:bmi.categories')}</h4>
             <div className="space-y-3">
               {bmiCategories.map((cat, index) => (
                 <div
@@ -250,7 +250,7 @@ export function BMICalculator() {
             </div>
 
             <div className="mt-8 p-4 bg-blue-50 rounded-xl">
-              <h4 className="font-medium text-gray-900 mb-2">{t('home:bmi.whyBmiMatters')}</h4>
+              <h5 className="font-medium text-gray-900 mb-2">{t('home:bmi.whyBmiMatters')}</h5>
               <p className="text-sm text-gray-600">
                 {t('home:bmi.bmiExplanation')}
               </p>

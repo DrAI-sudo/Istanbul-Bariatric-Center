@@ -23,9 +23,9 @@ export function Awards() {
                   <div className="absolute inset-0 flex flex-col items-center justify-center p-2 border-4 border-amber-500" style={{
                     clipPath: 'polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%)'
                   }}>
-                    <span className="text-amber-700 text-[10px] md:text-xs font-bold tracking-widest">SERVICE</span>
-                    <span className="text-amber-700 text-lg md:text-xl font-extrabold">AWARD</span>
-                    <span className="text-amber-700 text-xl md:text-2xl font-extrabold">{year}</span>
+                    <span className="text-amber-600 text-[10px] md:text-xs font-bold tracking-widest">SERVICE</span>
+                    <span className="text-amber-600 text-lg md:text-xl font-extrabold">AWARD</span>
+                    <span className="text-amber-600 text-xl md:text-2xl font-extrabold">{year}</span>
                   </div>
                 </div>
               </div>

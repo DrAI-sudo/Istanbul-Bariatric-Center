@@ -25,7 +25,7 @@ export function VIPPackage() {
                 <Heart className="w-8 h-8 text-primary" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.lovelyExperience')}</h3>
+                <h4 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.lovelyExperience')}</h4>
                 <p className="text-slate-500 text-lg">{t('vipPackage.fromStartToEnd')}</p>
               </div>
             </div>
@@ -35,7 +35,7 @@ export function VIPPackage() {
                 <Building className="w-8 h-8 text-primary" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.fullyFormedHospital')}</h3>
+                <h4 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.fullyFormedHospital')}</h4>
                 <p className="text-slate-500 text-lg">{t('vipPackage.jciAccredited')}</p>
               </div>
             </div>
@@ -45,7 +45,7 @@ export function VIPPackage() {
                 <Calendar className="w-8 h-8 text-primary" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.accommodation')}</h3>
+                <h4 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.accommodation')}</h4>
                 <p className="text-slate-500 text-lg">{t('vipPackage.luxuryHotels')}</p>
               </div>
             </div>
@@ -58,9 +58,8 @@ export function VIPPackage() {
                  alt="Istanbul Bariatric Center - Liv Hospital at night" 
                  className="w-full h-auto object-cover block"
                  loading="lazy"
-                 width="651"
-                 height="410"
-                 decoding="async"
+                 width="400"
+                 height="300"
                />
                <a
                  href="https://vr.livhospital.com/videoroom.html#!/Genel-Goruntuler/0a3/?dil=Tr&ath=-57&atv=-6&fov=80"
@@ -81,7 +80,7 @@ export function VIPPackage() {
                 <Plane className="w-8 h-8 text-primary" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.freeAirportPickup')}</h3>
+                <h4 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.freeAirportPickup')}</h4>
                 <p className="text-slate-500 text-lg">{t('vipPackage.forYourConvenience')}</p>
               </div>
             </div>
@@ -91,7 +90,7 @@ export function VIPPackage() {
                 <Tag className="w-8 h-8 text-primary" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.startsFrom')}</h3>
+                <h4 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.startsFrom')}</h4>
                 <p className="text-slate-500 text-lg">{t('vipPackage.bestPrices')}</p>
               </div>
             </div>
@@ -101,7 +100,7 @@ export function VIPPackage() {
                 <Users className="w-8 h-8 text-primary" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.helpfulStaff')}</h3>
+                <h4 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.helpfulStaff')}</h4>
                 <p className="text-slate-500 text-lg">{t('vipPackage.noCost')}</p>
               </div>
             </div>
@@ -111,13 +110,13 @@ export function VIPPackage() {
         <div className="text-center mt-16 space-y-6">
           <Button 
             size="lg" 
-            className="bg-[#0e7a6e] hover:bg-[#0a6b60] text-white font-bold text-lg px-12 py-8 rounded-full shadow-xl uppercase tracking-wider"
+            className="bg-[#25D366] hover:bg-[#128C7E] text-white font-bold text-lg px-12 py-8 rounded-full shadow-xl uppercase tracking-wider"
             onClick={() => window.open('https://wa.me/905324131143', '_blank')}
             aria-label="Start your VIP package inquiry via WhatsApp"
           >
             {t('vipPackage.letsTryIt')}
           </Button>
-          <p className="text-slate-500 font-medium">{t('vipPackage.getStarted')}</p>
+          <p className="text-slate-400 font-medium">{t('vipPackage.getStarted')}</p>
         </div>
       </div>
     </section>

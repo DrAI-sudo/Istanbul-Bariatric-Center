@@ -12,7 +12,7 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
             <h2 className="text-2xl font-heading font-bold">Istanbul Bariatric Center</h2>
-            <p className="text-slate-300 leading-relaxed">
+            <p className="text-slate-400 leading-relaxed">
               Leading the way in bariatric surgery with world-class facilities and expert care. Your health is our priority.
             </p>
             <div className="flex gap-4" role="list" aria-label="Social media links">
@@ -30,7 +30,7 @@ export function Footer() {
 
           <nav aria-label="Treatment links">
             <h3 className="font-bold text-lg mb-6">Treatments</h3>
-            <ul className="space-y-4 text-slate-300">
+            <ul className="space-y-4 text-slate-400">
               <li><Link href="/sleeve-gastrectomy" className="hover:text-primary transition-colors">Gastric Sleeve</Link></li>
               <li><Link href="/mini-gastric-bypass" className="hover:text-primary transition-colors">Gastric Bypass</Link></li>
               <li><Link href="/gastric-balloon" className="hover:text-primary transition-colors">Gastric Balloon</Link></li>
@@ -43,7 +43,7 @@ export function Footer() {
 
           <nav aria-label="Quick links">
             <h3 className="font-bold text-lg mb-6">Quick Links</h3>
-            <ul className="space-y-4 text-slate-300">
+            <ul className="space-y-4 text-slate-400">
               <li><Link href="/about" className="hover:text-primary transition-colors">About Us</Link></li>
               <li><Link href="/treatments" className="hover:text-primary transition-colors">Treatments</Link></li>
               <li><Link href="/results" className="hover:text-primary transition-colors">Results</Link></li>
@@ -54,7 +54,7 @@ export function Footer() {
 
           <div>
             <h3 className="font-bold text-lg mb-6">Contact Us</h3>
-            <ul className="space-y-4 text-slate-300">
+            <ul className="space-y-4 text-slate-400">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-1" />
                 <span>Istanbul, Turkey</span>
@@ -69,14 +69,14 @@ export function Footer() {
               </li>
             </ul>
             <a href="https://wa.me/905324131143" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
-              <Button className="w-full mt-6 bg-green-700 hover:bg-green-800" aria-label="WhatsApp Us - Opens in new window">
+              <Button className="w-full mt-6 bg-green-600 hover:bg-green-700" aria-label="WhatsApp Us - Opens in new window">
                 WhatsApp Us
               </Button>
             </a>
           </div>
         </div>
 
-        <div className="border-t border-slate-800 pt-8 text-center text-slate-400 text-sm">
+        <div className="border-t border-slate-800 pt-8 text-center text-slate-500 text-sm">
           <p>{t('copyright')}</p>
         </div>
       </div>
