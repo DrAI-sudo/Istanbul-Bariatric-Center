@@ -80,8 +80,8 @@ export default function TransitBipartition() {
             </div>
             <div className="flex justify-center">
               <img 
-                src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2021/12/insuline.jpg" 
-                alt="Insulin and Obesity" 
+                src="/blog-insulin.webp" 
+                alt="Insulin and Obesity — the relationship between insulin resistance, diet, and weight gain" 
                 className="rounded-2xl shadow-xl max-w-md w-full"
                 width="400"
                 height="267"
@@ -118,19 +118,29 @@ export default function TransitBipartition() {
 
       {/* What is Transit Bipartition */}
       <section className="py-20">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">What is the Transit Bipartition Surgery?</h2>
+        <div className="container mx-auto px-4 max-w-6xl">
+          <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">What is the Transit Bipartition Surgery?</h2>
           
-          <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
-            <p>
-              Transit bipartition surgery, also known as <em>surgical treatment of diabetes</em>, is a type of surgical operation that is carried out amongst the metabolic surgery procedures, which is perfect for Type 2 diabetes mellitus patients with an excess weight issue, and which is generally done by laparoscopic method.
-            </p>
-            <p>
-              The procedure combines a typical sleeve gastrectomy with a connection between stomach and the distal small bowel; this creates a faster way to the ileum while preserving access to the duodenum. After this operation, in which the continuity of the stomach and duodenum is preserved, <strong>there is no severe reduction in the absorption of minerals and vitamins</strong> necessary for the body.
-            </p>
-            <p>
-              Very impressive and reliable outcomes are acquired with the transit bipartition surgery executed for the therapy of individuals with Type 2 diabetes mellitus. After the operation, which is finished in approximately <strong>1 hour</strong>, individuals can get rid of type 2 diabetes, lose their excess weight, and improve their health problems due to excess weight.
-            </p>
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
+              <p>
+                Transit bipartition surgery, also known as <em>surgical treatment of diabetes</em>, is a type of surgical operation that is carried out amongst the metabolic surgery procedures, which is perfect for Type 2 diabetes mellitus patients with an excess weight issue, and which is generally done by laparoscopic method.
+              </p>
+              <p>
+                The procedure combines a typical sleeve gastrectomy with a connection between stomach and the distal small bowel; this creates a faster way to the ileum while preserving access to the duodenum. After this operation, in which the continuity of the stomach and duodenum is preserved, <strong>there is no severe reduction in the absorption of minerals and vitamins</strong> necessary for the body.
+              </p>
+              <p>
+                Very impressive and reliable outcomes are acquired with the transit bipartition surgery executed for the therapy of individuals with Type 2 diabetes mellitus. After the operation, which is finished in approximately <strong>1 hour</strong>, individuals can get rid of type 2 diabetes, lose their excess weight, and improve their health problems due to excess weight.
+              </p>
+            </div>
+            <div className="flex justify-center">
+              <img 
+                src="/transit-bipartition-animation.gif" 
+                alt="Transit Bipartition surgery animation — sleeve gastrectomy combined with intestinal bypass" 
+                className="rounded-2xl shadow-xl max-w-md w-full"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </section>
