@@ -18,6 +18,15 @@ process.on('SIGTERM', () => {
 const app = express();
 const httpServer = createServer(app);
 
+let appReady = false;
+
+app.use((req, res, next) => {
+  if (!appReady) {
+    return res.status(200).send("ok");
+  }
+  next();
+});
+
 app.use(compression({
   level: 6,
   threshold: 1024,
@@ -104,6 +113,11 @@ app.use((req, res, next) => {
   next();
 });
 
+const port = parseInt(process.env.PORT || "5000", 10);
+httpServer.listen({ port, host: "0.0.0.0", reusePort: true }, () => {
+  log(`listening on port ${port}`);
+});
+
 (async () => {
   registerMayaChatRoutes(app);
   registerAdminRoutes(app);
@@ -124,14 +138,6 @@ app.use((req, res, next) => {
     await setupVite(httpServer, app);
   }
 
-  const port = parseInt(process.env.PORT || "5000", 10);
-  httpServer.listen(
-    {
-      port,
-      host: "0.0.0.0",
-    },
-    () => {
-      log(`serving on port ${port}`);
-    },
-  );
+  appReady = true;
+  log("app fully initialized");
 })();
