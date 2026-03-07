@@ -37,6 +37,7 @@ declare module "http" {
 }
 
 app.use((req, res, next) => {
+  if (process.env.NODE_ENV !== "production") return next();
   const host = (req.headers.host || "").split(":")[0].toLowerCase();
   if (host === "istanbulbariatriccenter.replit.app" || host.endsWith(".repl.co") || host.endsWith(".replit.dev")) {
     return res.redirect(301, "https://istanbulbariatriccenter.com" + req.originalUrl);
