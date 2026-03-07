@@ -3,7 +3,7 @@ export function Awards() {
   
   return (
     <section className="py-16 bg-slate-900 text-white relative overflow-hidden" aria-labelledby="awards-heading">
-      <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10" aria-hidden="true"></div>
+      <div className="absolute inset-0 opacity-10" style={{backgroundImage: "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Crect width='20' height='20' fill='%23fff' fill-opacity='0'/%3E%3Crect x='0' y='0' width='10' height='10' fill='%23fff' fill-opacity='.15'/%3E%3Crect x='10' y='10' width='10' height='10' fill='%23fff' fill-opacity='.15'/%3E%3C/svg%3E\")"}} aria-hidden="true"></div>
       
       <div className="container mx-auto px-4 relative z-10 text-center">
         <h2 id="awards-heading" className="text-3xl md:text-4xl font-heading font-bold mb-8">

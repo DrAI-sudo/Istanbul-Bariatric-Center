@@ -134,11 +134,15 @@ export default function TransitBipartition() {
               </p>
             </div>
             <div className="flex justify-center">
-              <img 
-                src="/transit-bipartition-animation.gif" 
-                alt="Transit Bipartition surgery animation — sleeve gastrectomy combined with intestinal bypass" 
+              <video 
+                src="/transit-bipartition-animation.mp4" 
+                autoPlay 
+                loop 
+                muted 
+                playsInline
+                preload="none"
                 className="rounded-2xl shadow-xl max-w-md w-full"
-                loading="lazy"
+                aria-label="Transit Bipartition surgery animation — sleeve gastrectomy combined with intestinal bypass"
               />
             </div>
           </div>

@@ -6,7 +6,7 @@ import { Toaster as SonnerToaster } from "sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { lazy, Suspense, useEffect } from "react";
 import { useLocation } from "wouter";
-import MayaChatbot from "@/components/maya-chatbot";
+const MayaChatbot = lazy(() => import("@/components/maya-chatbot"));
 
 const Home = lazy(() => import("@/pages/home"));
 const About = lazy(() => import("@/pages/about"));
@@ -142,7 +142,7 @@ function AppContent() {
       <main id="main-content">
         <Router />
       </main>
-      {!isAdmin && <MayaChatbot />}
+      {!isAdmin && <Suspense fallback={null}><MayaChatbot /></Suspense>}
     </>
   );
 }

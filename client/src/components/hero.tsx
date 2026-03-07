@@ -27,7 +27,7 @@ export function Hero() {
           loop 
           muted 
           playsInline
-          preload="auto"
+          preload="metadata"
           aria-hidden="true"
           className="w-full h-full object-cover opacity-50"
         >
