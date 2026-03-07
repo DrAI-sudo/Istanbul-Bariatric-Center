@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
-import { CheckCircle2 } from "lucide-react";
+import { CheckCircle2, Award, ShieldCheck, Stethoscope, BadgePoundSterling } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
 import { SummarizeWithAI } from "@/components/summarize-with-ai";
@@ -13,7 +13,7 @@ const esgFaqs = [
   },
   {
     question: "How much does ESG cost in Turkey?",
-    answer: "ESG in Turkey costs significantly less than in the UK, US, or Europe, typically ranging from £3,500-£5,500, including hospital stay, medical team, and aftercare. This is about 50-70% less than Western prices."
+    answer: "ESG in Istanbul starts from £4,950 for the Relaxation package and £5,950 for the Luxury package. Both include JCI-accredited hospital stay, procedure with Dr Murat Ustun, preoperative tests, airport transfers, hotel accommodation, and dietitian support — approximately 50–70% less than UK or US prices."
   },
   {
     question: "What is the recovery time after ESG?",
@@ -31,6 +31,63 @@ const esgFaqs = [
     question: "Is ESG safer than gastric sleeve surgery?",
     answer: "Yes, ESG has a lower risk profile than surgical procedures as it requires no incisions, has shorter procedure time (~90 minutes), and is reversible. It has shown a highly strong safety record in clinical studies."
   }
+];
+
+const comparisonData = [
+  {
+    criteria: "Procedure Type",
+    esg: "Endoscopic (through mouth)",
+    sleeve: "Laparoscopic surgery (4–5 incisions)",
+    balloon: "Endoscopic (through mouth)",
+  },
+  {
+    criteria: "BMI Range",
+    esg: "30–40",
+    sleeve: "35+",
+    balloon: "30–40",
+  },
+  {
+    criteria: "Expected Weight Loss",
+    esg: "15–20% of total body weight",
+    sleeve: "60–70% of excess weight",
+    balloon: "10–15% of total body weight",
+  },
+  {
+    criteria: "Procedure Duration",
+    esg: "~90 minutes",
+    sleeve: "~60 minutes",
+    balloon: "~20 minutes",
+  },
+  {
+    criteria: "Hospital Stay",
+    esg: "Same day / 1 night",
+    sleeve: "2–3 nights",
+    balloon: "Same day",
+  },
+  {
+    criteria: "Recovery Time",
+    esg: "1–3 days",
+    sleeve: "2–3 weeks",
+    balloon: "1–3 days",
+  },
+  {
+    criteria: "Risk Profile",
+    esg: "Very low — no incisions",
+    sleeve: "Low — minimally invasive surgery",
+    balloon: "Very low — temporary device",
+  },
+  {
+    criteria: "Reversibility",
+    esg: "Potentially reversible",
+    sleeve: "Permanent (stomach removed)",
+    balloon: "Fully reversible (removed at 6–12 months)",
+  },
+  {
+    criteria: "Starting Price (Istanbul)",
+    esg: "From £4,950",
+    sleeve: "From £2,950",
+    balloon: "From £1,650",
+  },
 ];
 
 const healthBenefits = [
@@ -76,7 +133,7 @@ export default function ESG() {
     <div className="min-h-screen bg-white">
       <SEO
         title="Endoscopic Sleeve Gastroplasty Turkey | ESG Istanbul | Non-Surgical Weight Loss"
-        description="Get Endoscopic Sleeve Gastroplasty (ESG) in Turkey with Apollo Overstitch technology. Non-surgical, incisionless stomach reduction. 15-20% weight loss, same-day discharge, from £3,500. Expert bariatric team in Istanbul."
+        description="Get Endoscopic Sleeve Gastroplasty (ESG) in Istanbul with Apollo Overstitch technology. Non-surgical, incisionless stomach reduction. 15-20% weight loss, same-day discharge, from £4,950. Pioneer surgeon Dr Murat Ustun at JCI-accredited Liv Hospital."
         keywords="endoscopic sleeve gastroplasty turkey, esg turkey, endoscopic sleeve gastroplasty istanbul, apollo esg turkey, non-surgical weight loss turkey, stomach reduction without surgery, endoscopic bariatric procedure turkey, esg cost turkey, incisionless weight loss, apollo overstitch turkey, esg weight loss, endoscopic gastroplasty price"
         url="/esg"
       />
@@ -151,6 +208,47 @@ export default function ESG() {
               />
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* ESG vs Sleeve vs Balloon Comparison */}
+      <section className="py-20" data-testid="section-esg-comparison">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <h2 className="text-3xl font-bold text-slate-900 mb-4 text-center">ESG vs Gastric Sleeve vs Gastric Balloon</h2>
+          <p className="text-lg text-slate-600 text-center mb-12 max-w-3xl mx-auto">
+            Compare key factors to find the procedure that best matches your goals, BMI, and lifestyle.
+          </p>
+
+          <div className="overflow-x-auto rounded-2xl border border-slate-200 shadow-sm">
+            <table className="w-full text-left" data-testid="table-esg-comparison">
+              <thead>
+                <tr className="bg-slate-900 text-white">
+                  <th className="p-4 font-semibold text-sm uppercase tracking-wider">Criteria</th>
+                  <th className="p-4 font-semibold text-sm uppercase tracking-wider bg-primary/90">ESG</th>
+                  <th className="p-4 font-semibold text-sm uppercase tracking-wider">Gastric Sleeve</th>
+                  <th className="p-4 font-semibold text-sm uppercase tracking-wider">Gastric Balloon</th>
+                </tr>
+              </thead>
+              <tbody>
+                {comparisonData.map((row, i) => (
+                  <tr
+                    key={i}
+                    className={`border-b border-slate-100 hover:bg-blue-50/50 transition-colors ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50/50'}`}
+                    data-testid={`row-comparison-${i}`}
+                  >
+                    <td className="p-4 font-medium text-slate-900">{row.criteria}</td>
+                    <td className="p-4 text-slate-700 bg-primary/5 font-medium">{row.esg}</td>
+                    <td className="p-4 text-slate-700">{row.sleeve}</td>
+                    <td className="p-4 text-slate-700">{row.balloon}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <p className="text-sm text-slate-500 mt-4 text-center">
+            All procedures performed at JCI-accredited Liv Hospital, Istanbul, by Dr Murat Ustun and his specialist team.
+          </p>
         </div>
       </section>
 
@@ -315,6 +413,50 @@ export default function ESG() {
             <p className="text-slate-700">
               Studies also showed an improvement on many health conditions related to obesity such as heart disease or stroke, high blood pressure, and diabetes (Type 2). In summary, Apollo Endoscopic sleeve gastroplasty leads to a significant weight loss of about <strong>15-20% over a 12-18 month period</strong> and it helps to prevent the development of many health problems related to obesity.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose IBC for ESG */}
+      <section className="py-20 bg-slate-900 text-white" data-testid="section-why-ibc-esg">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <h2 className="text-3xl font-bold mb-4 text-center">Why Choose IBC for ESG?</h2>
+          <p className="text-lg text-slate-300 text-center mb-12 max-w-3xl mx-auto">
+            Istanbul Bariatric Center combines world-class surgical expertise, JCI-accredited facilities, and transparent all-inclusive pricing.
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center" data-testid="card-why-ibc-surgeon">
+              <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
+                <Stethoscope className="w-7 h-7 text-primary" />
+              </div>
+              <h3 className="text-lg font-bold mb-2">Dr Murat Ustun</h3>
+              <p className="text-slate-300 text-sm">Pioneer of ESG in Turkey with thousands of successful bariatric procedures. Internationally recognised for endoscopic innovation.</p>
+            </div>
+
+            <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center" data-testid="card-why-ibc-hospital">
+              <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
+                <ShieldCheck className="w-7 h-7 text-primary" />
+              </div>
+              <h3 className="text-lg font-bold mb-2">JCI-Accredited Hospital</h3>
+              <p className="text-slate-300 text-sm">All procedures are performed at Liv Hospital, Istanbul — holding the gold standard Joint Commission International accreditation.</p>
+            </div>
+
+            <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center" data-testid="card-why-ibc-pricing">
+              <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
+                <BadgePoundSterling className="w-7 h-7 text-primary" />
+              </div>
+              <h3 className="text-lg font-bold mb-2">All-Inclusive from £4,950</h3>
+              <p className="text-slate-300 text-sm">Transparent pricing with no hidden fees. Packages include hospital stay, transfers, hotel, dietitian support, and 12-month aftercare.</p>
+            </div>
+
+            <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center" data-testid="card-why-ibc-results">
+              <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
+                <Award className="w-7 h-7 text-primary" />
+              </div>
+              <h3 className="text-lg font-bold mb-2">Proven Results</h3>
+              <p className="text-slate-300 text-sm">Patients achieve 15–20% total body weight loss within 12–18 months, supported by a dedicated nutrition and wellness programme.</p>
+            </div>
           </div>
         </div>
       </section>

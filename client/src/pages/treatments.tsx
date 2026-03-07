@@ -10,24 +10,24 @@ import { SummarizeWithAI } from "@/components/summarize-with-ai";
 export default function Treatments() {
   const { t } = useTranslation('treatments');
 
-  const seoTitle = "Weight Loss Surgery in Turkey 2026 - Gastric Sleeve, Bypass, Balloon & ESG Prices from £1,650";
-  const seoDescription = "Compare all bariatric surgery options in Istanbul, Turkey: Gastric Sleeve from £2,950, Gastric Bypass from £3,350, Gastric Balloon from £1,650, ESG from £4,950. JCI accredited hospital, world-renowned Dr Murat Ustun. All-inclusive packages with airport transfers, hotel & dietitian support.";
+  const seoTitle = "Weight Loss Surgery in Istanbul 2026 — Gastric Sleeve, Bypass, Balloon & ESG | All-Inclusive Packages";
+  const seoDescription = "Compare every bariatric procedure at Istanbul Bariatric Center: Gastric Sleeve from £2,950, Bypass from £3,350, Balloon from £1,650, ESG from £4,950. Performed by Dr Murat Ustun at JCI-accredited Liv Hospital. All-inclusive packages with VIP transfers, hotel & lifetime dietitian support.";
 
   const treatmentsFAQs = [
-    { question: "How much does weight loss surgery cost in Turkey?", answer: "Weight loss surgery in Turkey starts from £1,650 for a gastric balloon, £2,950 for gastric sleeve, £3,350 for gastric bypass, and £4,950 for ESG. All packages include JCI accredited hospital stay, preoperative tests, airport transfers, and dietitian support." },
-    { question: "Which bariatric surgery is best for me?", answer: "The best bariatric surgery depends on your BMI, health conditions, and weight loss goals. Gastric sleeve is ideal for BMI 35+, gastric bypass for BMI 40+ or with metabolic conditions, gastric balloon for BMI 30-40 seeking non-surgical options, and ESG for BMI 30-40 wanting minimally invasive treatment." },
-    { question: "Is weight loss surgery in Turkey safe?", answer: "Yes, Turkey is one of the world's leading destinations for bariatric surgery. Istanbul Bariatric Center operates in JCI-accredited hospitals with internationally trained surgeons. Dr Murat Ustun has performed thousands of successful procedures with excellent outcomes." },
-    { question: "What is included in the surgery packages?", answer: "All packages include hospital stay in a JCI accredited facility, all preoperative tests and consultations, airport pickup, and dietitian support. Relaxation and Luxury packages add Dr Murat Ustun as your surgeon, extended hospital stays, Radisson hotel accommodation, UK registered dietitian support, and supplements." },
-    { question: "How much weight will I lose after bariatric surgery?", answer: "Expected weight loss varies by procedure: Gastric sleeve patients typically lose 60-70% of excess weight, gastric bypass 70-80%, gastric balloon 10-15% of total body weight, and ESG 15-20% of total body weight within the first year." },
-    { question: "What is the recovery time for bariatric surgery in Turkey?", answer: "Recovery varies by procedure: Gastric sleeve and bypass patients stay 2-3 days in hospital and can return to normal activities in 2-3 weeks. Gastric balloon is same-day, and ESG patients can resume activities in 1-3 days." },
-    { question: "Do I get aftercare support after returning home?", answer: "Yes, all patients receive comprehensive aftercare including dietitian support, follow-up consultations, and access to our UK-based care support team available in 8 locations across the UK." },
-    { question: "Who is Dr Murat Ustun?", answer: "Dr Murat Ustun is a world-renowned bariatric surgeon based in Istanbul, Turkey. He is a pioneer of ESG (Endoscopic Sleeve Gastroplasty) in Turkey and has performed thousands of successful weight loss surgeries including gastric sleeve, gastric bypass, and duodenal switch procedures." }
+    { question: "How much does weight loss surgery cost in Istanbul?", answer: "All-inclusive packages at Istanbul Bariatric Center start from £1,650 for a gastric balloon, £2,950 for gastric sleeve, £3,350 for gastric bypass, and £4,950 for ESG. Every package covers your JCI-accredited hospital stay, pre-operative tests, VIP airport transfers, and dietitian follow-up." },
+    { question: "Which bariatric procedure is right for me?", answer: "The best procedure depends on your BMI, medical history, and weight-loss goals. Gastric sleeve suits BMI 35+, gastric bypass is recommended for BMI 40+ or patients with metabolic conditions, gastric balloon is a non-surgical option for BMI 30–40, and ESG offers a minimally invasive approach for BMI 30–40." },
+    { question: "Is bariatric surgery at Istanbul Bariatric Center safe?", answer: "Absolutely. All procedures are performed at JCI-accredited Liv Hospital in Istanbul by internationally trained surgeons. Dr Murat Ustun, the centre's founder and lead surgeon, has performed thousands of successful operations with outstanding safety outcomes." },
+    { question: "What is included in each surgery package?", answer: "Every package includes admission to a JCI-accredited hospital, full pre-operative testing, surgeon and anaesthesia fees, VIP airport transfer, and dietitian support. Relaxation and Luxury tiers add Dr Murat Ustun as your operating surgeon, extended hospital stays, Radisson hotel accommodation, UK-registered dietitian follow-up, and supplement packages." },
+    { question: "How much weight can I expect to lose?", answer: "Results vary by procedure: gastric sleeve patients typically lose 60–70% of excess weight, gastric bypass 70–80%, gastric balloon 10–15% of total body weight, and ESG 15–20% of total body weight — all within the first 12–18 months." },
+    { question: "What is the recovery timeline?", answer: "Gastric sleeve and bypass patients stay 2–3 days in hospital and return to daily activities within 2–3 weeks. Gastric balloon is a same-day procedure, and ESG patients can resume normal activities within 1–3 days." },
+    { question: "Do I receive aftercare once I return home?", answer: "Yes. Every patient receives a structured aftercare plan including dietitian guidance, follow-up consultations, and access to our UK-based patient-support team operating from 8 locations across the United Kingdom." },
+    { question: "Who is Dr Murat Ustun?", answer: "Dr Murat Ustun is the founder and lead bariatric surgeon at Istanbul Bariatric Center. A pioneer of ESG (Endoscopic Sleeve Gastroplasty) in Turkey, he has performed thousands of weight-loss procedures — including gastric sleeve, gastric bypass, and duodenal switch — at Liv Hospital in Istanbul." }
   ];
 
   const medicalProceduresSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "name": "Weight Loss Surgery Options & Treatments in Turkey",
+    "name": "Weight Loss Surgery at Istanbul Bariatric Center — Liv Hospital, Istanbul",
     "description": seoDescription,
     "url": "https://istanbulbariatriccenter.com/treatments",
     "mainEntity": [
@@ -106,11 +106,11 @@ export default function Treatments() {
       price: "£2,950",
       color: "blue",
       features: [
-        "Best Doctors",
-        "JCI Accredited Hospital (2 days)",
-        "All comprehensive preops and consultations",
-        "Airport Pickup",
-        "Dietitian Support"
+        "Experienced surgical team",
+        "JCI-accredited hospital (2 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "Dietitian support"
       ]
     },
     {
@@ -119,11 +119,11 @@ export default function Treatments() {
       color: "emerald",
       recommended: true,
       features: [
-        "Surgery with world renowned Dr Murat Ustun",
-        "JCI Accredited Hospital (3 days)",
-        "All comprehensive preops and consultations",
-        "Airport Pickup",
-        "UK registered dietitian Support"
+        "Surgery with Dr Murat Ustun",
+        "JCI-accredited hospital (3 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "UK-registered dietitian support"
       ]
     },
     {
@@ -131,14 +131,14 @@ export default function Treatments() {
       price: "£4,250",
       color: "amber",
       features: [
-        "Surgery with world renowned Dr Murat Ustun",
-        "JCI Accredited Hospital (3 days)",
-        "All comprehensive preops and consultations",
-        "Airport Pickup",
-        "3 night of Radisson hotel accommodation",
-        "UK registered dietitian Support",
-        "1 months of supplements",
-        "Local UK care support in 8 Locations"
+        "Surgery with Dr Murat Ustun",
+        "JCI-accredited hospital (3 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "3 nights of Radisson hotel accommodation",
+        "UK registered dietitian support",
+        "1 month of supplements",
+        "Local UK care support in 8 locations"
       ]
     }
   ];
@@ -149,11 +149,11 @@ export default function Treatments() {
       price: "£3,350",
       color: "blue",
       features: [
-        "Best Doctors",
-        "JCI Accredited Hospital (2 days)",
-        "All comprehensive preops and consultations",
-        "Airport Pickup",
-        "Dietitian Support"
+        "Experienced surgical team",
+        "JCI-accredited hospital (2 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "Dietitian support"
       ]
     },
     {
@@ -162,11 +162,11 @@ export default function Treatments() {
       color: "emerald",
       recommended: true,
       features: [
-        "Surgery with world renowned Dr Murat Ustun",
-        "JCI Accredited Hospital (3 days)",
-        "All comprehensive preops and consultations",
-        "Airport Pickup",
-        "UK registered dietitian Support"
+        "Surgery with Dr Murat Ustun",
+        "JCI-accredited hospital (3 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "UK-registered dietitian support"
       ]
     },
     {
@@ -174,14 +174,14 @@ export default function Treatments() {
       price: "£4,650",
       color: "amber",
       features: [
-        "Surgery with world renowned Dr Murat Ustun",
-        "JCI Accredited Hospital (3 days)",
-        "All comprehensive preops and consultations",
-        "Airport Pickup",
-        "3 night of Radisson hotel accommodation",
-        "UK registered dietitian Support",
-        "1 months of supplements",
-        "Local UK care support in 8 Locations"
+        "Surgery with Dr Murat Ustun",
+        "JCI-accredited hospital (3 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "3 nights of Radisson hotel accommodation",
+        "UK registered dietitian support",
+        "1 month of supplements",
+        "Local UK care support in 8 locations"
       ]
     }
   ];
@@ -226,7 +226,7 @@ export default function Treatments() {
         "State-of-the-art Liv hospital",
         "Procedure with Dr Murat Ustun (Pioneer of ESG in Turkey)",
         "VIP Airport Transfers",
-        "All comprehensive preop tests and consultations",
+        "All pre-operative tests and consultations",
         "OR and hospital costs",
         "2 days of admission in private room"
       ]
@@ -239,12 +239,12 @@ export default function Treatments() {
         "State-of-the-art Liv hospital",
         "Procedure with Dr Murat Ustun (Pioneer of ESG in Turkey)",
         "VIP Airport Transfers",
-        "All comprehensive preop tests and consultations",
+        "All pre-operative tests and consultations",
         "OR and hospital costs",
         "2 days of admission in private room",
         "2 days of accommodation in Radisson Hotel",
         "4 UK registered dietitian appointments",
-        "1 months supplement and multivitamin package"
+        "1 month supplement and multivitamin package"
       ]
     }
   ];
@@ -256,11 +256,11 @@ export default function Treatments() {
       color: "emerald",
       recommended: true,
       features: [
-        "Surgery with world renowned Dr Murat Ustun",
-        "JCI Accredited Hospital (3 days)",
-        "All comprehensive preops and consultations",
-        "Airport Pickup",
-        "UK registered dietitian Support"
+        "Surgery with Dr Murat Ustun",
+        "JCI-accredited hospital (3 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "UK-registered dietitian support"
       ]
     },
     {
@@ -268,15 +268,63 @@ export default function Treatments() {
       price: "£4,700",
       color: "amber",
       features: [
-        "Surgery with world renowned Dr Murat Ustun",
-        "JCI Accredited Hospital (3 days)",
-        "All comprehensive preops and consultations",
-        "Airport Pickup",
-        "3 night of Radisson hotel accommodation",
-        "UK registered dietitian Support",
-        "1 months of supplements",
-        "Local UK care support in 8 Locations"
+        "Surgery with Dr Murat Ustun",
+        "JCI-accredited hospital (3 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "3 nights of Radisson hotel accommodation",
+        "UK registered dietitian support",
+        "1 month of supplements",
+        "Local UK care support in 8 locations"
       ]
+    }
+  ];
+
+  const comparisonData = [
+    {
+      procedure: "Gastric Sleeve",
+      type: "Surgical",
+      bmiRange: "35+",
+      startingPrice: "£2,950",
+      hospitalStay: "2–3 days",
+      expectedWeightLoss: "60–70% excess weight",
+      recovery: "2–3 weeks"
+    },
+    {
+      procedure: "Gastric Bypass",
+      type: "Surgical",
+      bmiRange: "40+ (or 35+ with comorbidities)",
+      startingPrice: "£3,350",
+      hospitalStay: "2–3 days",
+      expectedWeightLoss: "70–80% excess weight",
+      recovery: "2–3 weeks"
+    },
+    {
+      procedure: "Gastric Balloon",
+      type: "Non-surgical",
+      bmiRange: "30–40",
+      startingPrice: "£1,650",
+      hospitalStay: "Same day",
+      expectedWeightLoss: "10–15% total body weight",
+      recovery: "1–3 days"
+    },
+    {
+      procedure: "ESG",
+      type: "Non-surgical",
+      bmiRange: "30–40",
+      startingPrice: "£4,950",
+      hospitalStay: "1–2 days",
+      expectedWeightLoss: "15–20% total body weight",
+      recovery: "1–3 days"
+    },
+    {
+      procedure: "Duodenal Switch",
+      type: "Surgical",
+      bmiRange: "50+ (or 40+ with comorbidities)",
+      startingPrice: "£4,400",
+      hospitalStay: "3–4 days",
+      expectedWeightLoss: "70–85% excess weight",
+      recovery: "3–4 weeks"
     }
   ];
 
@@ -369,6 +417,52 @@ export default function Treatments() {
             {t('main.subtitle')}
           </p>
           <SummarizeWithAI variant="dark" />
+        </div>
+      </section>
+
+      <section className="py-16 bg-white" data-testid="section-comparison-table">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4" data-testid="text-comparison-title">Compare All Procedures at a Glance</h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">Find the right weight loss procedure based on your BMI, budget, and recovery preferences.</p>
+          </div>
+          <div className="overflow-x-auto rounded-2xl border border-slate-200 shadow-lg">
+            <table className="w-full text-left min-w-[800px]" data-testid="table-procedure-comparison">
+              <thead>
+                <tr className="bg-slate-900 text-white">
+                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">Procedure</th>
+                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">Type</th>
+                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">BMI Range</th>
+                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">Starting Price</th>
+                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">Hospital Stay</th>
+                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">Expected Weight Loss</th>
+                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">Recovery</th>
+                </tr>
+              </thead>
+              <tbody>
+                {comparisonData.map((row, idx) => (
+                  <tr
+                    key={idx}
+                    className={`border-b border-slate-100 transition-colors duration-200 hover:bg-primary/5 ${idx % 2 === 0 ? 'bg-white' : 'bg-slate-50'}`}
+                    data-testid={`row-procedure-${row.procedure.toLowerCase().replace(/\s+/g, '-')}`}
+                  >
+                    <td className="px-6 py-5 font-semibold text-slate-900">{row.procedure}</td>
+                    <td className="px-6 py-5">
+                      <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold ${row.type === 'Surgical' ? 'bg-blue-100 text-blue-700' : 'bg-emerald-100 text-emerald-700'}`}>
+                        {row.type}
+                      </span>
+                    </td>
+                    <td className="px-6 py-5 text-slate-700">{row.bmiRange}</td>
+                    <td className="px-6 py-5 font-bold text-primary">{row.startingPrice}</td>
+                    <td className="px-6 py-5 text-slate-700">{row.hospitalStay}</td>
+                    <td className="px-6 py-5 text-slate-700">{row.expectedWeightLoss}</td>
+                    <td className="px-6 py-5 text-slate-700">{row.recovery}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-slate-500 mt-4 text-center">All prices are all-inclusive. Final pricing confirmed after free consultation.</p>
         </div>
       </section>
 

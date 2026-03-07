@@ -1,26 +1,26 @@
 {
   "hero": {
-    "title": "Transformez Votre Vie avec la Chirurgie Bariatrique Experte en Turquie",
-    "subtitle": "Chirurgie de perte de poids de classe mondiale avec soins personnalisés, traitement VIP et résultats qui changent la vie",
-    "cta": "Commencez Votre Voyage"
+    "title": "Chirurgie Bariatrique d'Excellence à Istanbul",
+    "subtitle": "Soins dirigés par des chirurgiens à l'Hôpital Liv accrédité JCI — forfaits tout compris avec transferts VIP, convalescence privée et suivi diététique à vie",
+    "cta": "Réserver une Consultation Gratuite"
   },
   "vipPackage": {
-    "title": "Forfaits VIP Platinum et Économiques Tout Compris",
-    "description": "La nouvelle offre d'Istanbul Bariatric Center ne vous fera pas seulement perdre du poids, elle vous fera également découvrir Istanbul! Transferts VIP à l'aéroport, tous les tests préopératoires complets, 3 jours d'hospitalisation, 3 jours d'hébergement, suivis diététiques inclus!",
-    "lovelyExperience": "Expérience Merveilleuse",
-    "fromStartToEnd": "Du début à la fin",
-    "fullyFormedHospital": "Hôpital Complet",
-    "jciAccredited": "Hôpital accrédité JCI",
-    "accommodation": "5 Jours d'Hébergement",
-    "luxuryHotels": "Dans les hôtels de luxe d'Istanbul",
-    "freeAirportPickup": "Transfert Aéroport Gratuit",
-    "forYourConvenience": "Pour votre confort",
-    "startsFrom": "À partir de £1,850",
-    "bestPrices": "Meilleurs prix pour votre traitement",
-    "helpfulStaff": "Personnel 24/7",
-    "noCost": "Sans frais supplémentaires",
-    "letsTryIt": "Essayons",
-    "getStarted": "Commencer"
+    "title": "Forfaits VIP & Value Tout Compris",
+    "description": "Chaque forfait comprend les examens préopératoires, l'admission en hôpital accrédité JCI, les transferts VIP aéroport et le suivi diététique dédié — pour que vous puissiez vous concentrer entièrement sur votre transformation.",
+    "lovelyExperience": "Parcours de Soins Fluide",
+    "fromStartToEnd": "Accompagnement à chaque étape",
+    "fullyFormedHospital": "Hôpital Accrédité JCI",
+    "jciAccredited": "Établissement certifié internationalement",
+    "accommodation": "Hébergement 5 Étoiles",
+    "luxuryHotels": "Radisson et hôtels premium d'Istanbul",
+    "freeAirportPickup": "Transferts VIP Aéroport",
+    "forYourConvenience": "Service privé porte-à-porte",
+    "startsFrom": "Tout Compris à partir de £1 650",
+    "bestPrices": "Tarifs transparents, tout compris",
+    "helpfulStaff": "Assistance Patient 24/7",
+    "noCost": "Coordinateurs de soins dédiés",
+    "letsTryIt": "Réserver une Consultation Gratuite",
+    "getStarted": "Sans engagement — parlez à notre équipe dès aujourd'hui"
   },
   "awards": {
     "title": "Excellence Primée",
@@ -49,12 +49,12 @@
     "bmiExplanation": "L'IMC est un indicateur important de la santé générale. Un IMC de 30 ou plus indique l'obésité, ce qui augmente le risque de diverses conditions de santé. La chirurgie bariatrique est généralement recommandée pour les personnes ayant un IMC de 35+ ou 30+ avec des problèmes de santé liés à l'obésité."
   },
   "treatments": {
-    "title": "Traitements Endoscopiques et Laparoscopiques",
-    "subtitle": "Nous offrons une gamme complète de procédures de perte de poids éprouvées adaptées à vos besoins",
+    "title": "Procédures Endoscopiques & Laparoscopiques",
+    "subtitle": "Une gamme complète de procédures éprouvées de perte de poids, adaptées à votre profil clinique",
     "viewAll": "Voir Tous les Traitements"
   },
   "testimonials": {
-    "title": "Histoires de Réussite",
+    "title": "Témoignages de Patients",
     "subtitle": "De vrais patients, de vraies transformations, de vrais résultats"
   }
 }

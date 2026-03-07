@@ -1,26 +1,26 @@
 {
   "hero": {
-    "title": "Verwandeln Sie Ihr Leben mit Experter Adipositas-Chirurgie in der Türkei",
-    "subtitle": "Weltklasse-Gewichtsverlust-Chirurgie mit persönlicher Betreuung, VIP-Behandlung und lebensverändernden Ergebnissen",
-    "cta": "Starten Sie Ihre Reise"
+    "title": "Erstklassige Bariatrische Chirurgie in Istanbul",
+    "subtitle": "Ärztlich geleitete Betreuung im JCI-akkreditierten Liv Hospital — All-Inclusive-Pakete mit VIP-Transfer, privater Erholung und lebenslanger Ernährungsberatung",
+    "cta": "Kostenlose Beratung buchen"
   },
   "vipPackage": {
-    "title": "All-Inclusive Platinum VIP und Wirtschaftliche Pakete",
-    "description": "Das neue Angebot des Istanbul Bariatric Center lässt Sie nicht nur abnehmen, sondern stellt Ihnen auch Istanbul vor! VIP-Flughafentransfers, alle umfassenden präoperativen Tests, 3 Tage Krankenhausaufenthalt, 3 Tage Unterkunft, Ernährungsberater-Nachsorge inklusive!",
-    "lovelyExperience": "Wunderbare Erfahrung",
-    "fromStartToEnd": "Von Anfang bis Ende",
-    "fullyFormedHospital": "Voll Ausgestattetes Krankenhaus",
-    "jciAccredited": "JCI-akkreditiertes Krankenhaus",
-    "accommodation": "5 Tage Unterkunft",
-    "luxuryHotels": "In Luxushotels von Istanbul",
-    "freeAirportPickup": "Kostenloser Flughafentransfer",
-    "forYourConvenience": "Für Ihren Komfort",
-    "startsFrom": "Ab £1.850",
-    "bestPrices": "Beste Preise für Ihre Behandlung",
-    "helpfulStaff": "24/7 Hilfsbereites Personal",
-    "noCost": "Ohne zusätzliche Kosten",
-    "letsTryIt": "Probieren wir es aus",
-    "getStarted": "Loslegen"
+    "title": "All-Inclusive VIP- & Value-Pakete",
+    "description": "Jedes Paket umfasst präoperative Untersuchungen, Aufnahme im JCI-akkreditierten Krankenhaus, VIP-Flughafentransfer und persönliche Ernährungsberatung — damit Sie sich ganz auf Ihre Verwandlung konzentrieren können.",
+    "lovelyExperience": "Nahtlose Betreuung",
+    "fromStartToEnd": "Begleitung bei jedem Schritt",
+    "fullyFormedHospital": "JCI-Akkreditiertes Krankenhaus",
+    "jciAccredited": "International zertifizierte Einrichtung",
+    "accommodation": "5-Sterne-Unterkunft",
+    "luxuryHotels": "Radisson & Premium-Hotels in Istanbul",
+    "freeAirportPickup": "VIP-Flughafentransfer",
+    "forYourConvenience": "Privater Tür-zu-Tür-Service",
+    "startsFrom": "All-Inclusive ab £1.650",
+    "bestPrices": "Transparente All-Inclusive-Preise",
+    "helpfulStaff": "24/7 Patientenbetreuung",
+    "noCost": "Persönliche Betreuungskoordinatoren",
+    "letsTryIt": "Kostenlose Beratung buchen",
+    "getStarted": "Unverbindlich — sprechen Sie noch heute mit unserem Team"
   },
   "awards": {
     "title": "Preisgekrönte Exzellenz",
@@ -49,12 +49,12 @@
     "bmiExplanation": "Der BMI ist ein wichtiger Indikator für die allgemeine Gesundheit. Ein BMI von 30 oder höher zeigt Adipositas an, was das Risiko für verschiedene Gesundheitszustände erhöht. Bariatrische Chirurgie wird typischerweise für Personen mit einem BMI von 35+ oder 30+ mit adipositasbedingten Gesundheitsproblemen empfohlen."
   },
   "treatments": {
-    "title": "Endoskopische und Laparoskopische Behandlungen",
-    "subtitle": "Wir bieten eine umfassende Palette bewährter Gewichtsverlustverfahren, die auf Ihre Bedürfnisse zugeschnitten sind",
+    "title": "Endoskopische & Laparoskopische Eingriffe",
+    "subtitle": "Eine umfassende Palette bewährter Verfahren zur Gewichtsreduktion, individuell auf Ihr klinisches Profil abgestimmt",
     "viewAll": "Alle Behandlungen anzeigen"
   },
   "testimonials": {
-    "title": "Erfolgsgeschichten",
+    "title": "Patientenberichte",
     "subtitle": "Echte Patienten, echte Transformationen, echte Ergebnisse"
   }
 }

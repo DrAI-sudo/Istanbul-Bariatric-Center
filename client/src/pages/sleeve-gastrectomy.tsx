@@ -70,11 +70,11 @@ export default function SleeveGastrectomy() {
       color: "blue",
       recommended: false,
       features: [
-        "Best Doctors",
-        "JCI Accredited Hospital (2 days)",
-        "All comprehensive preops and consultations",
-        "Airport Pickup",
-        "Dietitian Support"
+        "Experienced surgical team",
+        "JCI-accredited hospital (2 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "Dietitian support"
       ]
     },
     { 
@@ -83,11 +83,11 @@ export default function SleeveGastrectomy() {
       color: "emerald",
       recommended: true,
       features: [
-        "Surgery with world renowned Dr Murat Ustun",
-        "JCI Accredited Hospital (3 days)",
-        "All comprehensive preops and consultations",
-        "Airport Pickup",
-        "UK registered dietitian Support"
+        "Surgery with Dr Murat Ustun",
+        "JCI-accredited hospital (3 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "UK-registered dietitian support"
       ]
     },
     { 
@@ -96,14 +96,14 @@ export default function SleeveGastrectomy() {
       color: "amber",
       recommended: false,
       features: [
-        "Surgery with world renowned Dr Murat Ustun",
-        "JCI Accredited Hospital (3 days)",
-        "All comprehensive preops and consultations",
-        "Airport Pickup",
-        "3 night of Radisson hotel accommodation",
-        "UK registered dietitian Support",
-        "1 months of supplements",
-        "Local UK care support in 8 Locations"
+        "Surgery with Dr Murat Ustun",
+        "JCI-accredited hospital (3 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "3 nights of Radisson hotel accommodation",
+        "UK-registered dietitian support",
+        "1 month of supplements",
+        "Local UK care support in 8 locations"
       ]
     }
   ];
@@ -111,8 +111,8 @@ export default function SleeveGastrectomy() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Gastric Sleeve Surgery in Turkey - From £2,250"
-        description="Gastric Sleeve (VSG) surgery in Istanbul, Turkey. 75-80% stomach reduction, rapid weight loss. All-inclusive packages from £2,250. JCI accredited hospital."
+        title="Gastric Sleeve Surgery in Istanbul — All-Inclusive from £2,950"
+        description="Gastric Sleeve (VSG) surgery at JCI-accredited Liv Hospital, Istanbul. 75–80% stomach reduction with rapid weight loss. All-inclusive packages from £2,950 with Dr Murat Ustun, VIP transfers & dietitian support."
         keywords="gastric sleeve turkey, sleeve gastrectomy istanbul, vsg surgery turkey, weight loss surgery cost"
         url="/sleeve-gastrectomy"
       />
