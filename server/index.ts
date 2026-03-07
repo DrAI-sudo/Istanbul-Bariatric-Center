@@ -6,27 +6,15 @@ import { registerAdminRoutes } from "./admin-routes";
 import { serveStatic } from "./static";
 import { createServer } from "http";
 
+// Prevent unhandled rejections from crashing the server
 process.on('unhandledRejection', (reason, promise) => {
   console.error('Unhandled Rejection at:', promise, 'reason:', reason);
-});
-
-process.on('SIGTERM', () => {
-  console.log('SIGTERM received, shutting down gracefully...');
-  process.exit(0);
 });
 
 const app = express();
 const httpServer = createServer(app);
 
-let appReady = false;
-
-app.use((req, res, next) => {
-  if (!appReady) {
-    return res.status(200).send("ok");
-  }
-  next();
-});
-
+// Enable gzip/brotli compression for all responses
 app.use(compression({
   level: 6,
   threshold: 1024,
@@ -45,9 +33,8 @@ declare module "http" {
 }
 
 app.use((req, res, next) => {
-  if (process.env.NODE_ENV !== "production") return next();
-  const host = (req.headers.host || "").split(":")[0].toLowerCase();
-  if (host === "istanbulbariatriccenter.replit.app" || host.endsWith(".repl.co") || host.endsWith(".replit.dev")) {
+  const host = req.headers.host;
+  if (host === "istanbulbariatriccenter.replit.app") {
     return res.redirect(301, "https://istanbulbariatriccenter.com" + req.originalUrl);
   }
   next();
@@ -60,10 +47,6 @@ app.use((req, res, next) => {
     res.setHeader("X-Robots-Tag", "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1");
   }
   next();
-});
-
-app.get("/healthz", (_req, res) => {
-  res.status(200).send("ok");
 });
 
 app.use(
@@ -113,11 +96,6 @@ app.use((req, res, next) => {
   next();
 });
 
-const port = parseInt(process.env.PORT || "5000", 10);
-httpServer.listen({ port, host: "0.0.0.0", reusePort: true }, () => {
-  log(`listening on port ${port}`);
-});
-
 (async () => {
   registerMayaChatRoutes(app);
   registerAdminRoutes(app);
@@ -131,6 +109,9 @@ httpServer.listen({ port, host: "0.0.0.0", reusePort: true }, () => {
     throw err;
   });
 
+  // importantly only setup vite in development and after
+  // setting up all the other routes so the catch-all route
+  // doesn't interfere with the other routes
   if (process.env.NODE_ENV === "production") {
     serveStatic(app);
   } else {
@@ -138,6 +119,19 @@ httpServer.listen({ port, host: "0.0.0.0", reusePort: true }, () => {
     await setupVite(httpServer, app);
   }
 
-  appReady = true;
-  log("app fully initialized");
+  // ALWAYS serve the app on the port specified in the environment variable PORT
+  // Other ports are firewalled. Default to 5000 if not specified.
+  // this serves both the API and the client.
+  // It is the only port that is not firewalled.
+  const port = parseInt(process.env.PORT || "5000", 10);
+  httpServer.listen(
+    {
+      port,
+      host: "0.0.0.0",
+      reusePort: true,
+    },
+    () => {
+      log(`serving on port ${port}`);
+    },
+  );
 })();

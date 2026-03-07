@@ -80,11 +80,11 @@ export default function TransitBipartition() {
             </div>
             <div className="flex justify-center">
               <img 
-                src="/insuline.webp" 
+                src="https://caf0fec0.delivery.rocketcdn.me/wp-content/uploads/2021/12/insuline.jpg" 
                 alt="Insulin and Obesity" 
                 className="rounded-2xl shadow-xl max-w-md w-full"
-                width="650"
-                height="433"
+                width="400"
+                height="267"
                 loading="lazy"
               />
             </div>
@@ -181,21 +181,6 @@ export default function TransitBipartition() {
               </p>
             </div>
             
-            <div className="flex justify-center my-8">
-              <video 
-                autoPlay 
-                loop 
-                muted 
-                playsInline
-                poster="/transit-bipartition-poster.webp"
-                className="rounded-2xl shadow-xl max-w-sm w-full"
-                width="600"
-                height="600"
-              >
-                <source src="/transit-bipartition.mp4" type="video/mp4" />
-              </video>
-            </div>
-
             <p>
               This way, when the individual eats, the receptors in the middle part of the small intestine feel quickly, and the risk of absorption troubles is eliminated as the consumed food passes all parts of the small intestine.
             </p>

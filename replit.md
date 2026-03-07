@@ -73,12 +73,6 @@ The backend serves the React SPA in production and provides API endpoints for co
 - **Homepage Link**: "Am I Eligible?" button in BMI calculator section links to this page
 - **Email**: Formatted HTML email with all sections, medical checklist flags highlighted in red
 
-### Performance Optimizations
-- **Hero Video**: Re-encoded from 3.8MB to 2.2MB (1280x682, CRF 32, preset slow, -an, faststart), lazy-loaded via IntersectionObserver with `preload="none"`, fade-in transition — does not affect LCP
-- **Code Splitting**: All pages lazy-loaded via `React.lazy()`, Maya chatbot lazy-loaded, Vite manual chunks for vendor-react, vendor-ui, vendor-forms, vendor-query, i18n
-- **Static Asset Caching**: Express static middleware configured with 1-year immutable cache for images/video, no-cache for HTML
-- **Stale Preconnects Removed**: Removed unused preconnects to rocketcdn/ifso (images now local), replaced with googletagmanager preconnect
-
 ### Code Organization
 - `/client` - React frontend source code
 - `/server` - Express backend source code

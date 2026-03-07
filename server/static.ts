@@ -32,17 +32,7 @@ export function serveStatic(app: Express) {
     }
   });
 
-  app.use(express.static(distPath, {
-    maxAge: '1y',
-    immutable: true,
-    setHeaders: (res, filePath) => {
-      if (filePath.endsWith('.html')) {
-        res.setHeader('Cache-Control', 'no-cache');
-      } else if (filePath.endsWith('.mp4') || filePath.endsWith('.webp') || filePath.endsWith('.jpeg') || filePath.endsWith('.jpg') || filePath.endsWith('.png')) {
-        res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
-      }
-    },
-  }));
+  app.use(express.static(distPath));
 
   app.use("*", (req, res) => {
     const requestPath = req.originalUrl.split("?")[0];
