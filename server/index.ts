@@ -18,8 +18,6 @@ process.on('SIGTERM', () => {
 const app = express();
 const httpServer = createServer(app);
 
-let appReady = false;
-
 app.use(compression({
   level: 6,
   threshold: 1024,
@@ -36,13 +34,6 @@ declare module "http" {
     rawBody: unknown;
   }
 }
-
-app.use((req, res, next) => {
-  if (!appReady) {
-    return res.status(200).set({ "Content-Type": "text/html" }).send("<!DOCTYPE html><html><head><meta http-equiv='refresh' content='2'><title>Loading...</title></head><body><p>Starting up, please wait...</p></body></html>");
-  }
-  next();
-});
 
 app.use((req, res, next) => {
   if (process.env.NODE_ENV !== "production") return next();
@@ -113,18 +104,6 @@ app.use((req, res, next) => {
   next();
 });
 
-const port = parseInt(process.env.PORT || "5000", 10);
-httpServer.listen(
-  {
-    port,
-    host: "0.0.0.0",
-    reusePort: true,
-  },
-  () => {
-    log(`serving on port ${port}`);
-  },
-);
-
 (async () => {
   registerMayaChatRoutes(app);
   registerAdminRoutes(app);
@@ -145,6 +124,14 @@ httpServer.listen(
     await setupVite(httpServer, app);
   }
 
-  appReady = true;
-  log("app fully initialized");
+  const port = parseInt(process.env.PORT || "5000", 10);
+  httpServer.listen(
+    {
+      port,
+      host: "0.0.0.0",
+    },
+    () => {
+      log(`serving on port ${port}`);
+    },
+  );
 })();
