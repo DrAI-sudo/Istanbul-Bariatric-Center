@@ -38,10 +38,8 @@ declare module "http" {
 }
 
 app.use((req, res, next) => {
-  if (req.path === "/healthz" || req.path === "/") {
-    if (!appReady) {
-      return res.status(200).send("ok");
-    }
+  if (!appReady) {
+    return res.status(200).set({ "Content-Type": "text/html" }).send("<!DOCTYPE html><html><head><meta http-equiv='refresh' content='2'><title>Loading...</title></head><body><p>Starting up, please wait...</p></body></html>");
   }
   next();
 });
@@ -115,17 +113,24 @@ app.use((req, res, next) => {
   next();
 });
 
-const port = parseInt(process.env.PORT || "5000", 10);
-httpServer.listen(
-  {
-    port,
-    host: "0.0.0.0",
-    reusePort: true,
-  },
-  () => {
+function startListening(retries = 5) {
+  const port = parseInt(process.env.PORT || "5000", 10);
+  httpServer.listen({ port, host: "0.0.0.0" }, () => {
     log(`serving on port ${port}`);
-  },
-);
+  });
+
+  httpServer.on("error", (err: NodeJS.ErrnoException) => {
+    if (err.code === "EADDRINUSE" && retries > 0) {
+      log(`port ${port} in use, retrying in 1s... (${retries} retries left)`);
+      setTimeout(() => startListening(retries - 1), 1000);
+    } else {
+      console.error("Server error:", err);
+      process.exit(1);
+    }
+  });
+}
+
+startListening();
 
 (async () => {
   registerMayaChatRoutes(app);
