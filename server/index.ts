@@ -32,6 +32,10 @@ declare module "http" {
   }
 }
 
+app.get("/__healthcheck", (_req, res) => {
+  res.status(200).send("ok");
+});
+
 app.use((req, res, next) => {
   const host = req.headers.host;
   if (host === "istanbulbariatriccenter.replit.app") {
