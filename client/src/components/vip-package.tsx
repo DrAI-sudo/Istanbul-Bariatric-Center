@@ -25,7 +25,7 @@ export function VIPPackage() {
                 <Heart className="w-8 h-8 text-primary" />
               </div>
               <div>
-                <h4 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.lovelyExperience')}</h4>
+                <h3 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.lovelyExperience')}</h3>
                 <p className="text-slate-500 text-lg">{t('vipPackage.fromStartToEnd')}</p>
               </div>
             </div>
@@ -35,7 +35,7 @@ export function VIPPackage() {
                 <Building className="w-8 h-8 text-primary" />
               </div>
               <div>
-                <h4 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.fullyFormedHospital')}</h4>
+                <h3 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.fullyFormedHospital')}</h3>
                 <p className="text-slate-500 text-lg">{t('vipPackage.jciAccredited')}</p>
               </div>
             </div>
@@ -45,7 +45,7 @@ export function VIPPackage() {
                 <Calendar className="w-8 h-8 text-primary" />
               </div>
               <div>
-                <h4 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.accommodation')}</h4>
+                <h3 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.accommodation')}</h3>
                 <p className="text-slate-500 text-lg">{t('vipPackage.luxuryHotels')}</p>
               </div>
             </div>
@@ -80,7 +80,7 @@ export function VIPPackage() {
                 <Plane className="w-8 h-8 text-primary" />
               </div>
               <div>
-                <h4 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.freeAirportPickup')}</h4>
+                <h3 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.freeAirportPickup')}</h3>
                 <p className="text-slate-500 text-lg">{t('vipPackage.forYourConvenience')}</p>
               </div>
             </div>
@@ -90,7 +90,7 @@ export function VIPPackage() {
                 <Tag className="w-8 h-8 text-primary" />
               </div>
               <div>
-                <h4 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.startsFrom')}</h4>
+                <h3 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.startsFrom')}</h3>
                 <p className="text-slate-500 text-lg">{t('vipPackage.bestPrices')}</p>
               </div>
             </div>
@@ -100,7 +100,7 @@ export function VIPPackage() {
                 <Users className="w-8 h-8 text-primary" />
               </div>
               <div>
-                <h4 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.helpfulStaff')}</h4>
+                <h3 className="text-xl font-bold text-[#2d3e50] mb-2 uppercase tracking-wide">{t('vipPackage.helpfulStaff')}</h3>
                 <p className="text-slate-500 text-lg">{t('vipPackage.noCost')}</p>
               </div>
             </div>
