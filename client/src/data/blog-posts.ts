@@ -145,6 +145,8 @@ export const blogPosts: BlogPost[] = [
 <h3>DSIT (Diverted Sleeve Gastrectomy with Ileal Transposition)</h3>
 <p>DSIT combines a sleeve gastrectomy with duodenal transection and ileal transposition. Studies from Turkey involving over 350 patients have reported diabetes remission rates of approximately <strong>80–86%</strong> at one year, with HbA1c dropping from an average of 9.2% to 6.1%. However, DSIT is a more extensive operation than standard ileal transposition.</p>
 
+<img loading="lazy" src="/blog-ileal-dsit-illustration.webp" alt="Surgical illustration of diverted sleeve gastrectomy with ileal transposition (DSIT) showing the transposed ileal segment and flow of digestion — by Dr. Murat Ustun" class="w-full rounded-lg my-6" />
+
 <h3>SASI (Single Anastomosis Sleeve Ileal Bypass)</h3>
 <p>SASI is a simpler procedure that combines a sleeve gastrectomy with a single connection between the stomach and the ileum, preserving normal digestive continuity. A 2025 meta-analysis of over 2,500 patients across 38 studies reported a diabetes remission rate of approximately <strong>93%</strong>. Its relative simplicity has made it more popular than pure ileal transposition in some centres.</p>
 
