@@ -32,7 +32,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>The procedure is typically performed <strong>laparoscopically</strong> (through small incisions) and takes approximately 2–3 hours. It requires two or three intestinal reconnections (anastomoses), making it technically more complex than a standard sleeve gastrectomy or even a gastric bypass.</p>
 
-<img loading="lazy" src="/blog-ileal-transposition-diagram.webp" alt="Anatomical diagram showing ileal transposition surgery with the distal ileum relocated to the proximal jejunum" class="w-full rounded-lg my-6" />
+<img loading="lazy" src="/blog-ileal-dsit-illustration.webp" alt="Surgical illustration of diverted sleeve gastrectomy with ileal transposition (DSIT) showing the transposed ileal segment and flow of digestion — by Dr. Murat Ustun" class="w-full rounded-lg my-6" />
 
 <h2>The Science Behind It: The Hindgut Hypothesis</h2>
 <p>To understand why ileal transposition works, we need to understand a concept called the <strong>hindgut hypothesis</strong>. This theory has become one of the most important ideas in metabolic surgery.</p>
@@ -47,7 +47,6 @@ export const blogPosts: BlogPost[] = [
 
 <p>In a normal digestive process, food takes a relatively long time to reach the distal ileum, so L-cells are stimulated late in the digestive cycle. With ileal transposition, the relocated ileal segment is exposed to nutrients within minutes of eating, triggering a <strong>much earlier and more robust release of GLP-1 and PYY</strong>.</p>
 
-<img loading="lazy" src="/blog-ileal-glp1-mechanism.webp" alt="Medical illustration showing GLP-1 and PYY hormone release from L-cells in the ileum and their effects on insulin and appetite" class="w-full rounded-lg my-6" />
 
 <h3>What the Research Shows</h3>
 <p>Studies in both animal models and humans have demonstrated remarkable hormonal changes after ileal transposition:</p>
@@ -144,8 +143,6 @@ export const blogPosts: BlogPost[] = [
 
 <h3>DSIT (Diverted Sleeve Gastrectomy with Ileal Transposition)</h3>
 <p>DSIT combines a sleeve gastrectomy with duodenal transection and ileal transposition. Studies from Turkey involving over 350 patients have reported diabetes remission rates of approximately <strong>80–86%</strong> at one year, with HbA1c dropping from an average of 9.2% to 6.1%. However, DSIT is a more extensive operation than standard ileal transposition.</p>
-
-<img loading="lazy" src="/blog-ileal-dsit-illustration.webp" alt="Surgical illustration of diverted sleeve gastrectomy with ileal transposition (DSIT) showing the transposed ileal segment and flow of digestion — by Dr. Murat Ustun" class="w-full rounded-lg my-6" />
 
 <h3>SASI (Single Anastomosis Sleeve Ileal Bypass)</h3>
 <p>SASI is a simpler procedure that combines a sleeve gastrectomy with a single connection between the stomach and the ileum, preserving normal digestive continuity. A 2025 meta-analysis of over 2,500 patients across 38 studies reported a diabetes remission rate of approximately <strong>93%</strong>. Its relative simplicity has made it more popular than pure ileal transposition in some centres.</p>
