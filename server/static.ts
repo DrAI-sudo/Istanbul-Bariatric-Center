@@ -23,15 +23,6 @@ export function serveStatic(app: Express) {
     }
   });
 
-  app.get("/sitemap.xml", (_req, res) => {
-    const sitemapPath = path.resolve(distPath, "sitemap.xml");
-    if (fs.existsSync(sitemapPath)) {
-      res.status(200).type("application/xml").sendFile(sitemapPath);
-    } else {
-      res.status(404).send("Not found");
-    }
-  });
-
   app.use(express.static(distPath, {
     maxAge: '1y',
     immutable: true,

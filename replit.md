@@ -100,11 +100,13 @@ The backend serves the React SPA in production and provides API endpoints for co
 
 ### Server-Side SEO Injection (SPA SSR)
 - **Architecture**: React SPA with server-side content injection for crawlers
-- **SEO Data**: `server/seo-data.ts` — Rich content definitions for all 15 static pages + 48 blog posts, including titles, descriptions, full page content, and JSON-LD schemas
+- **SEO Data**: `server/seo-data.ts` — Rich content definitions for all 15 static pages + 46 blog posts, including titles, descriptions, full page content, and JSON-LD schemas
 - **SEO Injection**: `server/seo-inject.ts` — Injects into HTML: meta tags (title, description, OG, Twitter, canonical), JSON-LD structured data, rich crawlable content div, noscript fallback, navigation links, blog article index
 - **Blog Content Injection**: Full blog post HTML content extracted from `client/src/data/blog-posts.ts` and injected server-side for each blog URL
 - **Vite Dev Integration**: `server/vite.ts` — SSR injection also works in development mode
 - **Production Integration**: `server/static.ts` — SSR injection in production build serving
+- **Dynamic Sitemap**: `server/routes.ts` — Sitemap generated dynamically from `seo-data.ts` blog posts + static routes; no static file needed
+- **Dynamic Route Validation**: `server/valid-routes.ts` — Blog slug validation reads from `seo-data.ts` dynamically, so new posts are automatically valid routes (200 status in production)
 
 ### Image Assets
 - All images converted to WebP format and saved in `client/public/`

@@ -4,6 +4,8 @@ import { storage } from "./storage";
 import { insertContactSubmissionSchema } from "@shared/schema";
 import { fromZodError } from "zod-validation-error";
 import { sendContactEmail, sendHealthProfileEmail } from "./email";
+import { getAllBlogSlugs, getAllStaticRoutes, blogPosts as seoBlogPosts } from "./seo-data";
+import { VALID_STATIC_ROUTES } from "./valid-routes";
 import path from "path";
 import fs from "fs";
 import { fileURLToPath } from "url";
@@ -51,13 +53,42 @@ export async function registerRoutes(
     }
   });
 
-  app.get("/sitemap.xml", (req, res) => {
-    const sitemapPath = path.resolve(__dirname, "../client/public/sitemap.xml");
-    if (fs.existsSync(sitemapPath)) {
-      res.type("application/xml").sendFile(sitemapPath);
-    } else {
-      res.status(404).send("Sitemap not found");
+  app.get("/sitemap.xml", (_req, res) => {
+    const BASE = "https://istanbulbariatriccenter.com";
+    const today = new Date().toISOString().split("T")[0];
+
+    const staticPriorities: Record<string, { priority: string; changefreq: string }> = {
+      "/": { priority: "1.0", changefreq: "weekly" },
+      "/about": { priority: "0.8", changefreq: "monthly" },
+      "/treatments": { priority: "0.9", changefreq: "monthly" },
+      "/results": { priority: "0.8", changefreq: "monthly" },
+      "/blog": { priority: "0.9", changefreq: "weekly" },
+      "/contact": { priority: "0.7", changefreq: "monthly" },
+      "/sleeve-gastrectomy": { priority: "0.9", changefreq: "monthly" },
+      "/mini-gastric-bypass": { priority: "0.9", changefreq: "monthly" },
+      "/gastric-balloon": { priority: "0.9", changefreq: "monthly" },
+      "/duodenal-switch": { priority: "0.8", changefreq: "monthly" },
+      "/transit-bipartition": { priority: "0.8", changefreq: "monthly" },
+      "/esg": { priority: "0.9", changefreq: "monthly" },
+      "/post-bariatric-surgery": { priority: "0.7", changefreq: "monthly" },
+      "/insurance": { priority: "0.6", changefreq: "monthly" },
+      "/health-profile": { priority: "0.7", changefreq: "monthly" },
+    };
+
+    let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+
+    for (const route of VALID_STATIC_ROUTES) {
+      const meta = staticPriorities[route] || { priority: "0.5", changefreq: "monthly" };
+      xml += `  <url>\n    <loc>${BASE}${route}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${meta.changefreq}</changefreq>\n    <priority>${meta.priority}</priority>\n  </url>\n`;
     }
+
+    for (const post of seoBlogPosts) {
+      const dateStr = new Date(post.date).toISOString().split("T")[0];
+      xml += `  <url>\n    <loc>${BASE}/blog/${post.slug}</loc>\n    <lastmod>${isNaN(new Date(post.date).getTime()) ? today : dateStr}</lastmod>\n    <changefreq>yearly</changefreq>\n    <priority>0.6</priority>\n  </url>\n`;
+    }
+
+    xml += `</urlset>`;
+    res.type("application/xml").send(xml);
   });
 
   const BASE_URL = "https://istanbulbariatriccenter.com";
