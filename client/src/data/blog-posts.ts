@@ -10,6 +10,214 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "ileal-transposition-surgery-diabetes",
+    title: "Ileal Transposition Surgery for Diabetes: What Patients Need to Know",
+    date: "March 9, 2026",
+    category: "Metabolic Surgery",
+    excerpt: "Ileal transposition is an investigational metabolic procedure that repositions part of the small intestine to boost natural gut hormones like GLP-1. Learn how it works, who it is for, and why it is not yet a standard treatment for diabetes.",
+    image: "/blog-ileal-cover.webp",
+    content: `<h2>Ileal Transposition Surgery for Diabetes: A Complete Patient Guide</h2>
+<p>Type 2 diabetes is one of the most widespread chronic conditions in the world. For millions of people, managing blood sugar through diet, exercise, and medication is a lifelong challenge. Over the past two decades, bariatric and metabolic surgery has proven remarkably effective at putting type 2 diabetes into remission — sometimes even before significant weight loss occurs. This has led researchers to explore whether surgically altering the gut could treat diabetes directly, even in patients who are not severely overweight.</p>
+
+<p>One of the most intriguing procedures to emerge from this line of research is <strong>ileal transposition</strong> (IT). Unlike conventional bariatric surgeries such as gastric sleeve or gastric bypass, ileal transposition does not dramatically reduce the size of the stomach or bypass large segments of the intestine. Instead, it repositions a short segment of the lower small intestine to a higher position, triggering a powerful hormonal response that improves how the body handles glucose and insulin.</p>
+
+<p>In this article, we will explain what ileal transposition is, how it works, who might benefit from it, and why it remains an investigational procedure rather than a standard treatment option.</p>
+
+<img loading="lazy" src="/blog-ileal-cover.webp" alt="Modern hospital operating room prepared for laparoscopic metabolic surgery" class="w-full rounded-lg my-6" />
+
+<h2>What Is Ileal Transposition Surgery?</h2>
+<p>Ileal transposition is a surgical procedure in which a segment of the <strong>distal ileum</strong> (the last part of the small intestine, typically 10–20 cm) is detached and relocated to a higher position in the intestinal tract — usually near the <strong>duodenum</strong> or <strong>proximal jejunum</strong>.</p>
+
+<p>The key idea is simple but powerful: by moving this segment upstream, the food you eat reaches the ileum much sooner than it normally would. This early contact triggers the release of important gut hormones that regulate blood sugar, appetite, and metabolism.</p>
+
+<p>The procedure is typically performed <strong>laparoscopically</strong> (through small incisions) and takes approximately 2–3 hours. It requires two or three intestinal reconnections (anastomoses), making it technically more complex than a standard sleeve gastrectomy or even a gastric bypass.</p>
+
+<img loading="lazy" src="/blog-ileal-transposition-diagram.webp" alt="Anatomical diagram showing ileal transposition surgery with the distal ileum relocated to the proximal jejunum" class="w-full rounded-lg my-6" />
+
+<h2>The Science Behind It: The Hindgut Hypothesis</h2>
+<p>To understand why ileal transposition works, we need to understand a concept called the <strong>hindgut hypothesis</strong>. This theory has become one of the most important ideas in metabolic surgery.</p>
+
+<h3>How the Hindgut Hypothesis Works</h3>
+<p>Your small intestine is lined with specialised cells called <strong>L-cells</strong>, which are concentrated in the distal ileum (the "hindgut"). When partially digested food reaches these L-cells, they release two critical hormones:</p>
+
+<ul>
+<li><strong>GLP-1 (Glucagon-Like Peptide-1):</strong> This hormone stimulates the pancreas to produce insulin, suppresses glucagon (a hormone that raises blood sugar), slows gastric emptying, and reduces appetite. GLP-1 is so effective at managing diabetes that an entire class of medications — GLP-1 receptor agonists like semaglutide and liraglutide — has been developed to mimic its effects.</li>
+<li><strong>PYY (Peptide YY):</strong> This hormone signals satiety (fullness), slows gut motility, and helps regulate food intake. Together with GLP-1, it acts as a natural appetite suppressant.</li>
+</ul>
+
+<p>In a normal digestive process, food takes a relatively long time to reach the distal ileum, so L-cells are stimulated late in the digestive cycle. With ileal transposition, the relocated ileal segment is exposed to nutrients within minutes of eating, triggering a <strong>much earlier and more robust release of GLP-1 and PYY</strong>.</p>
+
+<img loading="lazy" src="/blog-ileal-glp1-mechanism.webp" alt="Medical illustration showing GLP-1 and PYY hormone release from L-cells in the ileum and their effects on insulin and appetite" class="w-full rounded-lg my-6" />
+
+<h3>What the Research Shows</h3>
+<p>Studies in both animal models and humans have demonstrated remarkable hormonal changes after ileal transposition:</p>
+
+<ul>
+<li><strong>3-fold increase</strong> in GLP-1 levels after meals</li>
+<li><strong>3-fold increase</strong> in PYY excursions</li>
+<li><strong>8-fold higher fasting PYY levels</strong></li>
+<li>Improved insulin secretion within the first week after surgery</li>
+<li>Better blood sugar control that often precedes any significant weight loss</li>
+</ul>
+
+<p>This last point is particularly important. In many patients, diabetes improvement begins <strong>before they lose substantial weight</strong>, suggesting that the hormonal changes — not weight loss — are the primary driver of metabolic improvement.</p>
+
+<h2>Beyond GLP-1: Additional Mechanisms</h2>
+<p>While the GLP-1 and PYY response is the best-known effect of ileal transposition, researchers have identified several additional mechanisms that contribute to its metabolic benefits:</p>
+
+<h3>Bile Acid Signalling</h3>
+<p>The transposed ileal segment absorbs bile acids earlier in the digestive process. Bile acids are now understood to act as signalling molecules that stimulate GLP-1 secretion, improve lipid profiles, and enhance glucose homeostasis. They also activate a receptor called <strong>TGR5</strong>, which increases energy expenditure.</p>
+
+<h3>Pancreatic Beta-Cell Preservation</h3>
+<p>One of the most promising findings from animal studies is that ileal transposition appears to <strong>protect and preserve beta cells</strong> — the insulin-producing cells in the pancreas. Research in diabetic rat models has shown greater pancreatic insulin content, better beta-cell architecture, and reduced beta-cell loss after the procedure.</p>
+
+<h3>Changes at the Tissue Level</h3>
+<p>Studies have found that ileal transposition leads to:</p>
+<ul>
+<li>Increased expression of <strong>GLUT-4</strong> (a glucose transporter) in muscle tissue, improving glucose uptake</li>
+<li>Upregulation of <strong>AMPK</strong>, an enzyme that helps regulate energy balance</li>
+<li>Reduced endoplasmic reticulum stress in fat, muscle, liver, and pancreatic tissue</li>
+<li>"Browning" of white adipose tissue, which increases calorie burning</li>
+<li>Smaller fat cell (adipocyte) size and reduced ectopic fat deposition</li>
+</ul>
+
+<h3>Structural Adaptation of the Intestine</h3>
+<p>After surgery, the transposed ileal segment undergoes a fascinating transformation. The tissue adapts to its new location through a process called <strong>"jejunisation"</strong> — it develops longer villi, increased crypt depth, and greater density of enterocytes. This essentially means the transposed segment becomes more efficient at absorbing nutrients and producing hormones over time.</p>
+
+<h2>Who Might Benefit from Ileal Transposition?</h2>
+<p>Ileal transposition has been studied primarily in the following patient groups:</p>
+
+<ul>
+<li><strong>Non-obese patients with type 2 diabetes (BMI under 30):</strong> This is the group where ileal transposition offers something unique, as most standard bariatric procedures are not recommended for patients with a BMI below 30.</li>
+<li><strong>Mildly obese patients with poorly controlled diabetes (BMI 30–35):</strong> In this group, metabolic surgery is conditionally recommended by some guidelines, and ileal transposition has shown promising results.</li>
+<li><strong>Patients who have not responded to medical therapy:</strong> Those who have tried multiple oral medications and injectable therapies without achieving adequate blood sugar control.</li>
+</ul>
+
+<h3>Current Guideline Recommendations</h3>
+<p>It is important to understand where ileal transposition stands relative to established guidelines:</p>
+
+<table>
+<thead>
+<tr><th>BMI Range</th><th>Guideline Recommendation</th></tr>
+</thead>
+<tbody>
+<tr><td>BMI ≥ 40</td><td>Metabolic surgery recommended</td></tr>
+<tr><td>BMI 35–39.9 with diabetes</td><td>Metabolic surgery recommended</td></tr>
+<tr><td>BMI 30–34.9 with uncontrolled diabetes</td><td>Metabolic surgery may be considered</td></tr>
+<tr><td>BMI &lt; 30</td><td>Surgery not currently recommended in guidelines</td></tr>
+</tbody>
+</table>
+
+<p>Guidelines from the <strong>Diabetes Surgery Summit (DSS-II)</strong>, the <strong>American Society for Metabolic and Bariatric Surgery (ASMBS)</strong>, the <strong>International Diabetes Federation (IDF)</strong>, and <strong>NICE (UK)</strong> all emphasise that new metabolic procedures like ileal transposition should only be performed in research settings until they are proven safe and effective through well-designed trials.</p>
+
+<h2>Why Ileal Transposition Is Not Yet a Standard Treatment</h2>
+<p>Despite its promising mechanism and early results, ileal transposition has not been widely adopted for several important reasons:</p>
+
+<h3>1. Limited Evidence</h3>
+<p>Most studies on ileal transposition in humans are:</p>
+<ul>
+<li>Small (fewer than 200 patients)</li>
+<li>Non-randomised</li>
+<li>Conducted at a single centre</li>
+<li>Lacking long-term follow-up beyond 2–3 years</li>
+</ul>
+<p>There are very few randomised controlled trials — the gold standard for medical evidence — comparing ileal transposition to established procedures or medical therapy.</p>
+
+<h3>2. Surgical Complexity</h3>
+<p>Compared with a gastric sleeve (which requires one staple line) or even a gastric bypass (which requires two connections), ileal transposition involves multiple intestinal anastomoses and bowel transposition. This increases operating time and the potential for surgical complications.</p>
+
+<h3>3. Potential Complications</h3>
+<p>Risks associated with ileal transposition include:</p>
+<ul>
+<li>Bowel obstruction</li>
+<li>Internal hernia</li>
+<li>Anastomotic leak</li>
+<li>Malabsorption of certain nutrients</li>
+<li>Long-term nutritional deficiencies that are not yet fully characterised</li>
+</ul>
+
+<h3>4. Competition from New Medications</h3>
+<p>The rapid development of <strong>GLP-1 receptor agonists</strong> (such as semaglutide, liraglutide, and tirzepatide) has changed the landscape for diabetes and weight management. These injectable medications mimic the very hormones that ileal transposition aims to boost — GLP-1 and related incretins — without the need for surgery. For non-obese diabetic patients, many clinicians now favour these medications over investigational surgical procedures.</p>
+
+<h2>Ileal Transposition vs Other Metabolic Procedures</h2>
+<p>Ileal transposition is not the only procedure designed to treat diabetes through intestinal manipulation. Several related procedures have emerged, each with its own approach:</p>
+
+<h3>DSIT (Diverted Sleeve Gastrectomy with Ileal Transposition)</h3>
+<p>DSIT combines a sleeve gastrectomy with duodenal transection and ileal transposition. Studies from Turkey involving over 350 patients have reported diabetes remission rates of approximately <strong>80–86%</strong> at one year, with HbA1c dropping from an average of 9.2% to 6.1%. However, DSIT is a more extensive operation than standard ileal transposition.</p>
+
+<h3>SASI (Single Anastomosis Sleeve Ileal Bypass)</h3>
+<p>SASI is a simpler procedure that combines a sleeve gastrectomy with a single connection between the stomach and the ileum, preserving normal digestive continuity. A 2025 meta-analysis of over 2,500 patients across 38 studies reported a diabetes remission rate of approximately <strong>93%</strong>. Its relative simplicity has made it more popular than pure ileal transposition in some centres.</p>
+
+<h3>SADI-S (Single Anastomosis Duodeno-Ileal Bypass with Sleeve Gastrectomy)</h3>
+<p>SADI-S involves a sleeve gastrectomy plus a single connection between the duodenum and the ileum, bypassing a larger segment of the small intestine. It produces very strong metabolic effects but carries a higher risk of malabsorptive complications.</p>
+
+<h3>Standard Gastric Bypass (RYGB)</h3>
+<p>Roux-en-Y gastric bypass remains the most well-studied metabolic procedure, with diabetes remission rates of <strong>60–80%</strong> at 5 years. It combines both the "foregut" (exclusion of the duodenum) and "hindgut" (earlier nutrient delivery to the ileum) effects, making it a well-rounded metabolic operation.</p>
+
+<h2>The Debate: Should BMI Define Diabetes Surgery?</h2>
+<p>One of the most controversial topics in metabolic surgery is whether <strong>BMI should be the primary criterion</strong> for determining who qualifies for diabetes surgery. Traditionally, bariatric surgery has been reserved for patients with a BMI of 35 or above (or 40 without comorbidities). But an increasing body of evidence suggests that metabolic surgery can benefit diabetic patients with much lower BMIs.</p>
+
+<p>Proponents of expanding surgical criteria argue that:</p>
+<ul>
+<li>Diabetes remission after surgery is often <strong>independent of weight loss</strong>, driven by hormonal changes</li>
+<li>Patients with shorter diabetes duration and lower BMI often have <strong>better surgical outcomes</strong></li>
+<li>Asian populations develop type 2 diabetes at significantly lower BMIs, and guidelines already use lower thresholds (BMI 27.5) for these groups</li>
+<li>Waiting for severe obesity to develop before offering metabolic surgery may allow irreversible beta-cell damage</li>
+</ul>
+
+<p>Opponents counter that:</p>
+<ul>
+<li>Long-term data on surgery for non-obese diabetics is <strong>insufficient</strong></li>
+<li>The risk-benefit ratio of surgery changes significantly at lower BMIs</li>
+<li>New medications like GLP-1 agonists offer non-surgical alternatives</li>
+<li>Surgical complications, however rare, carry lifelong consequences</li>
+</ul>
+
+<p>This debate is central to the future of procedures like ileal transposition, which are specifically designed for non-obese diabetic patients.</p>
+
+<h2>Where Ileal Transposition Is Performed Today</h2>
+<p>As of 2026, ileal transposition is performed at a limited number of specialised centres worldwide, primarily in:</p>
+<ul>
+<li><strong>Turkey:</strong> Several metabolic surgery centres have performed the largest case series</li>
+<li><strong>India:</strong> Select centres offer variations of the procedure</li>
+<li><strong>Brazil:</strong> Where much of the original research was conducted</li>
+<li><strong>Europe and Latin America:</strong> A handful of research-oriented centres</li>
+</ul>
+
+<p>The procedure is often performed under various names, including diverted sleeve gastrectomy with ileal transposition (DSIT), sleeve gastrectomy with ileal interposition, and metabolic surgery for non-obese diabetes. None of these are currently recognised as standard operations in international bariatric surgery guidelines.</p>
+
+<h2>The Future of Ileal Transposition</h2>
+<p>While ileal transposition is not a standard treatment today, the scientific principles behind it have profoundly influenced our understanding of metabolic surgery. The hindgut hypothesis has been validated through numerous studies, and the importance of GLP-1 in diabetes management is now universally accepted.</p>
+
+<p>Looking ahead, several developments could shape the future of this procedure:</p>
+<ul>
+<li><strong>Larger clinical trials:</strong> Multi-centre, randomised studies comparing ileal transposition to medical therapy and established surgical procedures</li>
+<li><strong>Patient selection tools:</strong> Better biomarkers and criteria to identify which patients are most likely to benefit</li>
+<li><strong>Combination approaches:</strong> Pairing ileal transposition with other techniques (such as sleeve gastrectomy) to optimise both metabolic and weight-loss outcomes</li>
+<li><strong>Less invasive alternatives:</strong> Endoscopic approaches that could deliver similar hormonal effects without open surgery</li>
+</ul>
+
+<h2>Key Takeaways for Patients</h2>
+<p>If you are considering metabolic surgery for type 2 diabetes, here are the most important points to remember about ileal transposition:</p>
+
+<ul>
+<li><strong>It is investigational:</strong> Ileal transposition is not a standard, guideline-approved treatment. It should only be performed in research settings or at specialised centres with extensive experience.</li>
+<li><strong>The science is promising:</strong> The procedure targets real, well-understood hormonal pathways (GLP-1, PYY) that are central to diabetes management.</li>
+<li><strong>Proven alternatives exist:</strong> Gastric sleeve, gastric bypass, and newer procedures like SASI have much larger evidence bases and well-established safety profiles.</li>
+<li><strong>Medication options are expanding:</strong> GLP-1 receptor agonists and dual incretin therapies offer powerful non-surgical options for many patients.</li>
+<li><strong>Consult a qualified specialist:</strong> Any decision about metabolic surgery should involve a multidisciplinary team including a metabolic surgeon, endocrinologist, dietitian, and psychologist.</li>
+</ul>
+
+<h2>Conclusion</h2>
+<p>Ileal transposition represents one of the most intellectually fascinating approaches in metabolic surgery. By simply moving a segment of the small intestine to a new position, surgeons can trigger a cascade of hormonal changes that dramatically improve blood sugar control — often before any weight is lost. The procedure has deepened our understanding of how the gut communicates with the pancreas, brain, and other organs to regulate metabolism.</p>
+
+<p>However, fascinating science does not automatically translate into standard clinical practice. Until larger, well-designed trials confirm its long-term safety and efficacy, ileal transposition remains an investigational procedure. For most patients with type 2 diabetes, proven options — from lifestyle changes and medications to established metabolic surgeries — should be the first line of treatment.</p>
+
+<p>At Istanbul Bariatric Center, we stay at the forefront of metabolic surgery research and offer a full range of proven bariatric procedures. If you have type 2 diabetes and are exploring your surgical options, our team — led by experienced metabolic surgeons — can help you find the right approach for your individual situation.</p>
+
+<p><strong>Contact us today for a free consultation</strong> to discuss whether metabolic surgery could help you achieve diabetes remission and a healthier life.</p>`
+  },
+  {
     slug: "gastric-fundus-mucosal-ablation-gfma-latest-news",
     title: "Gastric Fundus Mucosal Ablation (GFMA) Latest News",
     date: "May 11, 2025",

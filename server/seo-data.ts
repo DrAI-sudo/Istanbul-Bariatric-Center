@@ -291,6 +291,7 @@ interface BlogPostSEO {
 }
 
 const blogPosts: BlogPostSEO[] = [
+  { slug: "ileal-transposition-surgery-diabetes", title: "Ileal Transposition Surgery for Diabetes: What Patients Need to Know", excerpt: "Ileal transposition is an investigational metabolic procedure that repositions part of the small intestine to boost natural gut hormones like GLP-1. Learn how it works, who it is for, and why it is not yet a standard treatment for diabetes.", date: "March 9, 2026", image: "/blog-ileal-cover.webp" },
   { slug: "gastric-fundus-mucosal-ablation-gfma-latest-news", title: "Gastric Fundus Mucosal Ablation (GFMA) Latest News", excerpt: "GFMA: A New Era in Non-Surgical Weight Loss. Recent studies suggest an endoscopic procedure could curb hunger and achieve surgical-level weight loss without any incisions.", date: "May 11, 2025", image: "/blog-gfma.webp" },
   { slug: "scientific-blind-alleys-dietary-fat-sugar-freud-and-adler", title: "Scientific Blind Alleys: Dietary Fat, Sugar, Freud, and Adler", excerpt: "How Two Historic Health Myths Shaped Today's Obesity Crisis — and How We Can Fix It.", date: "April 26, 2025", image: "/blog-scientific-blind-alleys.webp" },
   { slug: "minimizer-ring", title: "Minimizer Ring: What is it and what is it used for?", excerpt: "The MiniMIZER® Ring in Bariatric Surgery: Enhancing Outcomes in Primary and Revisional Procedures.", date: "April 19, 2025", image: "/blog-minimizer-ring.webp" },
