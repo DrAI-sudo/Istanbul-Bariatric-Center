@@ -10,6 +10,399 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "esg-tore-endoscopic-weight-loss-evidence-2026",
+    title: "ESG and TORe: The Latest Clinical Evidence for Endoscopic Weight Loss (2026 Update)",
+    date: "March 18, 2026",
+    category: "Endoscopic Procedures",
+    excerpt: "A comprehensive look at the latest clinical evidence for Endoscopic Sleeve Gastroplasty (ESG) and Transoral Outlet Reduction (TORe) — including long-term results up to 5 years, safety data from over 15,000 patients, and how these non-surgical procedures compare.",
+    image: "/blog-esg-tore-evidence-2026.webp",
+    content: `<h2>ESG and TORe: What the Latest Research Tells Us About Non-Surgical Weight Loss</h2>
+<p>For patients exploring weight loss options, one of the most common questions is: <em>"Do I really need surgery?"</em> The good news is that endoscopic (non-surgical) weight loss procedures have matured significantly over the past few years, and we now have strong clinical evidence — including randomised controlled trials, large prospective studies, and meta-analyses covering over 15,000 patients — to help answer that question.</p>
+
+<p>Two endoscopic procedures stand out in the current evidence base: <strong>Endoscopic Sleeve Gastroplasty (ESG)</strong> and <strong>Transoral Outlet Reduction (TORe)</strong>. In this article, we break down the latest data on how effective they are, how safe they are, and who they are best suited for.</p>
+
+<img loading="lazy" src="/blog-esg-tore-evidence-2026.webp" alt="Modern endoscopic suite prepared for a minimally invasive weight loss procedure" class="w-full rounded-lg my-6" />
+
+<div style="background: linear-gradient(135deg, #EFF6FF, #DBEAFE); border-radius: 12px; padding: 24px; margin: 24px 0;">
+<p style="font-weight: 700; font-size: 1.1em; margin-bottom: 8px;">In This Article</p>
+<ul style="margin: 0; padding-left: 20px;">
+<li>What ESG and TORe are and how they work</li>
+<li>Short-term and long-term weight loss results (up to 5 years)</li>
+<li>Safety data from large clinical studies</li>
+<li>Interactive comparison tables</li>
+<li>Who is a good candidate for each procedure</li>
+</ul>
+</div>
+
+<h2>What Is Endoscopic Sleeve Gastroplasty (ESG)?</h2>
+<p><strong>Endoscopic Sleeve Gastroplasty (ESG)</strong> is a non-surgical weight loss procedure performed entirely through the mouth using a flexible endoscope — the same type of instrument used in a routine gastroscopy. There are no incisions, no scars, and no removal of any organs.</p>
+
+<p>During ESG, the doctor uses a specialised suturing device to place a series of stitches along the inside of the stomach, reducing its volume by approximately 70–80%. The result is a sleeve-shaped stomach that holds less food, helping patients feel full sooner and eat smaller portions naturally.</p>
+
+<p>Most patients go home the same day or the next morning, and recovery typically takes 3–5 days — compared to 2–4 weeks for surgical options.</p>
+
+<p><strong>Interested in learning more about ESG?</strong> Read our detailed guide: <a href="/esg" style="color: #2563EB; text-decoration: underline;">Endoscopic Sleeve Gastroplasty at Istanbul Bariatric Center</a></p>
+
+<h2>ESG Efficacy: What the Clinical Studies Show</h2>
+<p>The evidence supporting ESG has grown substantially. Here are the key findings from major clinical studies:</p>
+
+<h3>The MERIT Trial (Randomised Controlled Trial)</h3>
+<p>The <strong>MERIT trial</strong> was a landmark multicentre randomised controlled trial — the gold standard of medical evidence. Patients who received ESG achieved a mean total body weight loss (TBWL) of <strong>13.6% at 12 months</strong>, which was significantly better than lifestyle intervention alone. This trial established ESG as a clinically validated treatment, not just an experimental procedure.</p>
+
+<h3>Large Prospective Cohort Studies</h3>
+<p>Larger real-world studies have confirmed and even exceeded the MERIT trial results:</p>
+<ul>
+<li>A prospective multicentre study of <strong>656 patients</strong> reported a mean TBWL of <strong>15.5% at 12 months</strong> and <strong>15.1% at 24 months</strong></li>
+<li>A large prospective cohort of <strong>612 patients</strong> achieved a mean TBWL of <strong>21.2% at 12 months</strong></li>
+<li>A longitudinal cohort of <strong>216 patients</strong> reported a mean TBWL of <strong>15.6% at 12 months</strong></li>
+</ul>
+
+<h3>IFSO Meta-Analysis (Over 15,000 Patients)</h3>
+<p>The <strong>IFSO Bariatric Endoscopy Committee</strong> published a comprehensive meta-analysis reviewing data from <strong>15,714 patients</strong>. The pooled mean TBWL was <strong>17.56% at 12 months</strong>, confirming that ESG delivers consistent, reproducible results across different centres and patient populations worldwide.</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left; border: 1px solid #1E3A8A;">Study</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #1E3A8A;">Type</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #1E3A8A;">Patients</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #1E3A8A;">TBWL at 12 Months</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">MERIT Trial (Abu Dayyeh, Lancet 2022)</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">RCT</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">150</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">13.6%</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Alqahtani, GIE 2023</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">Prospective Multicentre</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">656</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">15.5%</td>
+</tr>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Bhandari, J Min Access Surg 2023</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">Prospective Cohort</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">612</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">21.2%</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Sharaiha, CGH 2021</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">Longitudinal Cohort</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">216</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">15.6%</td>
+</tr>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">IFSO Meta-Analysis (Abu Dayyeh, Obes Surg 2024)</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">Meta-Analysis</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">15,714</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">17.56%</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2>ESG Long-Term Results: Does the Weight Stay Off?</h2>
+<p>One of the biggest concerns patients have about any weight loss procedure is whether the results last. The long-term data for ESG is reassuring:</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 24px 0;">
+<div style="background: #EFF6FF; border-left: 4px solid #2563EB; border-radius: 8px; padding: 20px; text-align: center;">
+<p style="font-size: 2em; font-weight: 800; color: #1E40AF; margin: 0;">18.19%</p>
+<p style="color: #475569; margin: 4px 0 0 0;">Mean TBWL at <strong>4 years</strong></p>
+</div>
+<div style="background: #EFF6FF; border-left: 4px solid #2563EB; border-radius: 8px; padding: 20px; text-align: center;">
+<p style="font-size: 2em; font-weight: 800; color: #1E40AF; margin: 0;">15.9%</p>
+<p style="color: #475569; margin: 4px 0 0 0;">Mean TBWL at <strong>5 years</strong></p>
+</div>
+</div>
+
+<p>A prospective study following 612 patients reported a mean TBWL of <strong>18.19% at 4 years</strong>, with the majority of patients maintaining clinically relevant weight loss throughout the follow-up period. Separate five-year data from a longitudinal cohort confirmed a mean TBWL of <strong>15.9% at 5 years</strong>.</p>
+
+<p>These results demonstrate that ESG is not a short-term fix — patients who commit to the recommended dietary and lifestyle changes after the procedure can maintain meaningful weight loss for years.</p>
+
+<p>For a deeper dive into long-term ESG data, see: <a href="/blog/endoscopic-sleeve-gastroplasty-long-term-results" style="color: #2563EB; text-decoration: underline;">ESG Long-Term Results: What the Evidence Shows</a></p>
+
+<h2>ESG Safety Profile</h2>
+<p>Safety is naturally a top priority for any patient considering a medical procedure. The data on ESG safety is very encouraging:</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #059669; color: white;">
+<th style="padding: 12px 16px; text-align: left; border: 1px solid #047857;">Study</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #047857;">SAE Rate</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #047857;">Mortality</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #047857;">Key Finding</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0FDF4;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">MERIT Trial (RCT)</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #059669;">2%</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">0%</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">All events fully resolved</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">IFSO Meta-Analysis (15,714 patients)</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #059669;">1.25%</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">—</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Consistent safety across large populations</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p>In the MERIT trial, the serious adverse event (SAE) rate was just <strong>2%</strong>, with no mortality and full resolution of all events. Across the massive IFSO meta-analysis of over 15,000 patients, the pooled SAE rate was only <strong>1.25%</strong>.</p>
+
+<p>To put this in perspective, ESG has a lower complication rate than most traditional bariatric surgeries, while still delivering clinically meaningful weight loss. For more context on how ESG compares to surgical options, read: <a href="/blog/comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty" style="color: #2563EB; text-decoration: underline;">Comparing Bariatric Surgery and Endoscopic Sleeve Gastroplasty</a></p>
+
+<div style="background: linear-gradient(135deg, #1E40AF, #3B82F6); color: white; border-radius: 12px; padding: 32px; margin: 32px 0; text-align: center;">
+<p style="font-size: 1.3em; font-weight: 700; margin: 0 0 8px 0;">Considering ESG?</p>
+<p style="margin: 0 0 16px 0; opacity: 0.9;">Our team performs ESG procedures using the latest techniques at our Istanbul clinic. Get a free, no-obligation consultation to find out if ESG is right for you.</p>
+<a href="/contact" style="display: inline-block; background: white; color: #1E40AF; font-weight: 700; padding: 12px 32px; border-radius: 8px; text-decoration: none;">Request a Free Consultation</a>
+</div>
+
+<h2>What Is Transoral Outlet Reduction (TORe)?</h2>
+<p><strong>Transoral Outlet Reduction (TORe)</strong> is a specialised endoscopic procedure designed for patients who have <strong>regained weight after Roux-en-Y gastric bypass</strong> (RYGB) surgery. It is also used to treat <strong>dumping syndrome</strong> — a condition where food moves too quickly from the stomach into the small intestine, causing nausea, dizziness, and other symptoms.</p>
+
+<p>Over time, the outlet (anastomosis) connecting the stomach pouch to the small intestine can stretch and enlarge after gastric bypass, allowing patients to eat larger portions and regain weight. TORe uses an endoscopic suturing device to reduce the size of this outlet, restoring the restriction that made the original surgery effective.</p>
+
+<p>Like ESG, TORe is performed through the mouth with no incisions, and most patients return to normal activities within a few days.</p>
+
+<p><strong>Related reading:</strong> <a href="/blog/revisional-bariatric-surgery-in-turkey" style="color: #2563EB; text-decoration: underline;">Revisional Bariatric Surgery in Turkey</a> | <a href="/blog/argon-plasma-coagulation-weight-regain" style="color: #2563EB; text-decoration: underline;">Argon Plasma Coagulation for Weight Regain</a></p>
+
+<h2>TORe Efficacy: Results from Key Studies</h2>
+<p>TORe has been studied in several clinical investigations, with consistent results across different patient groups:</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left; border: 1px solid #1E3A8A;">Study</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #1E3A8A;">Patients</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #1E3A8A;">TBWL 12 Months</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #1E3A8A;">TBWL 24 Months</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #1E3A8A;">TBWL 5 Years</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Jirapinyo, GIE 2020</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">331</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">8.5%</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">—</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">8.8%</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Pontecorvi, Obes Surg 2023</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">87</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">9.9%</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">8.1%</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">—</td>
+</tr>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Dolan, GIE 2021 (vs Surgery)</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">31</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">8.5%</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">—</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">8.8%</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h3>Weight Regain After Gastric Bypass</h3>
+<p>In a large study of 331 patients who had regained weight after gastric bypass, TORe achieved a mean TBWL of <strong>8.5% at 12 months</strong>. While this may seem modest compared to ESG or primary bariatric surgery, it is important to remember that these patients had already lost significant weight from their original bypass surgery — TORe is designed to recapture lost ground, not to produce first-time weight loss.</p>
+
+<h3>Dumping Syndrome and Weight Regain</h3>
+<p>For patients dealing with both weight regain and dumping syndrome, TORe proved effective on both fronts: mean TBWL was <strong>9.9% at 12 months</strong> and <strong>8.1% at 24 months</strong>, with <strong>61% of patients maintaining more than 5% TBWL</strong>. Resolution of dumping syndrome was observed in <strong>57.2% of patients</strong> at 24 months.</p>
+
+<h3>TORe vs Surgical Revision</h3>
+<p>A matched cohort comparison found that TORe achieved <strong>comparable weight loss to surgical revision</strong> of the gastrojejunal anastomosis — but with dramatically fewer complications. TORe patients achieved 8.5% TBWL at 1 year and 8.8% at 5 years, similar to surgical outcomes.</p>
+
+<h2>TORe Long-Term Results</h2>
+<p>Five-year follow-up data paints an encouraging picture for TORe durability:</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin: 24px 0;">
+<div style="background: #EFF6FF; border-left: 4px solid #2563EB; border-radius: 8px; padding: 20px; text-align: center;">
+<p style="font-size: 2em; font-weight: 800; color: #1E40AF; margin: 0;">8.8%</p>
+<p style="color: #475569; margin: 4px 0 0 0;">Mean TBWL at <strong>5 years</strong></p>
+</div>
+<div style="background: #EFF6FF; border-left: 4px solid #2563EB; border-radius: 8px; padding: 20px; text-align: center;">
+<p style="font-size: 2em; font-weight: 800; color: #1E40AF; margin: 0;">10.3 kg</p>
+<p style="color: #475569; margin: 4px 0 0 0;">Mean weight loss at <strong>5 years</strong></p>
+</div>
+<div style="background: #EFF6FF; border-left: 4px solid #2563EB; border-radius: 8px; padding: 20px; text-align: center;">
+<p style="font-size: 2em; font-weight: 800; color: #1E40AF; margin: 0;">77%</p>
+<p style="color: #475569; margin: 4px 0 0 0;">Patients who <strong>stopped regaining</strong></p>
+</div>
+</div>
+
+<p>The five-year study of 331 patients showed that <strong>77% of patients stopped regaining weight</strong> after TORe, with a mean absolute weight loss of <strong>10.3 kg maintained at 5 years</strong>. This is particularly meaningful because weight regain after gastric bypass is a progressive problem — without intervention, most patients continue to regain over time.</p>
+
+<h2>TORe Safety Profile</h2>
+<p>TORe has demonstrated an excellent safety record, particularly when compared to surgical revision:</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #059669; color: white;">
+<th style="padding: 12px 16px; text-align: left; border: 1px solid #047857;">Measure</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #047857;">TORe</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #047857;">Surgical Revision</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0FDF4;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Severe adverse events</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #059669;">0%</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #DC2626;">19.4%</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Overall SAE rate (5-year study)</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #059669;">3.9%</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">—</td>
+</tr>
+<tr style="background: #F0FDF4;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Mortality</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #059669;">0%</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">—</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Comparable weight loss at 5 years?</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;" colspan="2">Yes — similar TBWL with significantly fewer complications</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p>The contrast is striking: in the matched comparison study, TORe had <strong>0% severe adverse events</strong> compared to <strong>19.4% in the surgical revision group</strong> — while achieving comparable long-term weight loss. This makes TORe a compelling first-line option for patients with weight regain after gastric bypass who want to avoid a second surgery.</p>
+
+<h2>ESG vs TORe: Which Procedure Is Right for You?</h2>
+<p>These two procedures serve different patient populations. Here is a quick comparison to help you understand which one may be more appropriate for your situation:</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E293B; color: white;">
+<th style="padding: 12px 16px; text-align: left; border: 1px solid #334155;">Feature</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #334155;">ESG</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #334155;">TORe</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F8FAFC;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0; font-weight: 600;">Best for</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Primary weight loss (BMI 30–40)</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Weight regain after gastric bypass</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0; font-weight: 600;">How it works</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Reduces stomach volume by suturing</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Tightens enlarged gastric bypass outlet</td>
+</tr>
+<tr style="background: #F8FAFC;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0; font-weight: 600;">12-month TBWL</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">13.6–21.2%</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">8.5–9.9%</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0; font-weight: 600;">5-year TBWL</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700;">15.9%</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700;">8.8%</td>
+</tr>
+<tr style="background: #F8FAFC;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0; font-weight: 600;">SAE rate</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; color: #059669; font-weight: 700;">1.25–2%</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; color: #059669; font-weight: 700;">0–3.9%</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0; font-weight: 600;">Incisions</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">None</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">None</td>
+</tr>
+<tr style="background: #F8FAFC;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0; font-weight: 600;">Recovery</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">3–5 days</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">2–3 days</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0; font-weight: 600;">Reversible</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">Yes</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">Yes</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p>For a broader look at all available options, see: <a href="/blog/weight-loss-treatments-a-holistic-comparison" style="color: #2563EB; text-decoration: underline;">Weight Loss Treatments: A Holistic Comparison</a></p>
+
+<h2>How ESG and TORe Compare to Surgical Options</h2>
+<p>Patients often ask how endoscopic procedures compare to traditional bariatric surgery. The key trade-off is straightforward:</p>
+
+<ul>
+<li><strong>Surgical procedures</strong> (gastric sleeve, gastric bypass) generally produce greater total weight loss (20–35% TBWL) but carry higher complication rates and require longer recovery</li>
+<li><strong>Endoscopic procedures</strong> (ESG, TORe) produce moderate but clinically meaningful weight loss (8–21% TBWL) with significantly lower complication rates and faster recovery</li>
+</ul>
+
+<p>For many patients — especially those with a BMI between 30 and 40, or those who prefer a less invasive approach — endoscopic procedures offer an excellent balance of efficacy and safety.</p>
+
+<p><strong>Related reading:</strong></p>
+<ul>
+<li><a href="/blog/endoscopic-sleeve-gastroplasty-vs-gastric-sleeve" style="color: #2563EB; text-decoration: underline;">ESG vs Gastric Sleeve: A Detailed Comparison</a></li>
+<li><a href="/blog/bariatric-surgery-pros-and-cons" style="color: #2563EB; text-decoration: underline;">Bariatric Surgery Pros and Cons</a></li>
+<li><a href="/blog/endoscopic-sleeve-gastroplasty-game-changer" style="color: #2563EB; text-decoration: underline;">Why ESG Is a Game Changer</a></li>
+</ul>
+
+<h2>Who Is a Good Candidate?</h2>
+
+<h3>You may be a good candidate for ESG if:</h3>
+<ul>
+<li>Your BMI is between 30 and 40</li>
+<li>You have tried diet and exercise but have not achieved lasting results</li>
+<li>You want to avoid surgery</li>
+<li>You are motivated to follow a structured post-procedure diet and exercise programme</li>
+<li>You do not have a history of previous stomach surgery</li>
+</ul>
+
+<h3>You may be a good candidate for TORe if:</h3>
+<ul>
+<li>You have previously had Roux-en-Y gastric bypass surgery</li>
+<li>You have regained a significant amount of weight after your bypass</li>
+<li>You experience dumping syndrome</li>
+<li>You want to avoid a second open or laparoscopic surgery</li>
+</ul>
+
+<p>Not sure which option is right for you? Our <a href="/health-profile" style="color: #2563EB; text-decoration: underline;">Personal Health Profile Assessment</a> can help determine your eligibility.</p>
+
+<h2>Why Choose Istanbul Bariatric Center for ESG?</h2>
+<p>At Istanbul Bariatric Center, we offer ESG as part of our comprehensive weight loss programmes. Our experienced team uses the latest endoscopic suturing technology, and every patient receives personalised aftercare including dietary guidance, exercise plans, and regular follow-up.</p>
+
+<p>Our <a href="/treatments" style="color: #2563EB; text-decoration: underline;">VIP treatment packages</a> include airport transfers, luxury hotel accommodation, pre-operative testing, the procedure itself, and 12 months of aftercare support — all at a fraction of UK and US prices.</p>
+
+<div style="background: linear-gradient(135deg, #1E40AF, #3B82F6); color: white; border-radius: 12px; padding: 32px; margin: 32px 0; text-align: center;">
+<p style="font-size: 1.3em; font-weight: 700; margin: 0 0 8px 0;">Ready to Take the Next Step?</p>
+<p style="margin: 0 0 16px 0; opacity: 0.9;">Contact us for a free consultation. Our team will review your medical history, discuss your goals, and recommend the best approach for your situation.</p>
+<a href="/contact" style="display: inline-block; background: white; color: #1E40AF; font-weight: 700; padding: 12px 32px; border-radius: 8px; text-decoration: none; margin: 4px;">Get a Free Consultation</a>
+<a href="https://wa.me/905324131143" style="display: inline-block; background: #25D366; color: white; font-weight: 700; padding: 12px 32px; border-radius: 8px; text-decoration: none; margin: 4px;">WhatsApp Us</a>
+</div>
+
+<h2>References</h2>
+<ol style="font-size: 0.9em; color: #64748B;">
+<li>Abu Dayyeh BK. Endoscopic sleeve gastroplasty for treatment of class I and II obesity (MERIT). <em>Lancet</em>. 2022. N=85 ESG; 150 exposed to ESG.</li>
+<li>Alqahtani A. Prospective multicentre study of endoscopic sleeve gastroplasty. <em>Gastrointest Endosc</em>. 2023. N=656.</li>
+<li>Bhandari M. Four-year outcomes of endoscopic sleeve gastroplasty. <em>J Minim Access Surg</em>. 2023. N=612.</li>
+<li>Sharaiha RZ. Five-year outcomes of endoscopic sleeve gastroplasty. <em>Clin Gastroenterol Hepatol</em>. 2021. N=216 (5-year follow-up N=56).</li>
+<li>Abu Dayyeh BK. IFSO evidence-based review and position statement on ESG. <em>Obes Surg</em>. 2024. N=15,714.</li>
+<li>Jirapinyo P. Five-year outcomes of transoral outlet reduction after Roux-en-Y gastric bypass. <em>Gastrointest Endosc</em>. 2020. N=331.</li>
+<li>Pontecorvi V. Long-term outcomes of transoral outlet reduction for dumping syndrome and weight regain. <em>Obes Surg</em>. 2023. N=87.</li>
+<li>Dolan RD. Endoscopic versus surgical gastrojejunal revision: 5-year safety and efficacy comparison. <em>Gastrointest Endosc</em>. 2021. N=31 TORe vs 31 surgical.</li>
+</ol>`
+  },
+  {
     slug: "ileal-transposition-surgery-diabetes",
     title: "Ileal Transposition Surgery for Diabetes: What Patients Need to Know",
     date: "March 9, 2026",
