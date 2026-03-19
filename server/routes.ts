@@ -24,7 +24,10 @@ const LEGACY_REDIRECTS: Record<string, string> = {
   "/blog/page/1": "/blog",
   "/blog/page/2": "/blog",
   "/blog/page/3": "/blog",
+  "/blog/page/4": "/blog",
+  "/blog/page/5": "/blog",
   "/uncategorized/page/1": "/blog",
+  "/uncategorized/page/2": "/blog",
   "/uncategorized": "/blog",
   "/5-things-you-didnt-know-about-bariatric-surgery-with-dr-charles-procter": "/blog/5-things-you-didnt-know-about-bariatric-surgery",
   "/comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty-making-an-informed-choice-for-weight-loss": "/blog/comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty",
@@ -33,11 +36,76 @@ const LEGACY_REDIRECTS: Record<string, string> = {
   "/obesity-treatment": "/treatments",
   "/sleeve-gastrectomy-prices": "/sleeve-gastrectomy",
   "/surgery-for-diabetes": "/duodenal-switch",
+  "/contact-us": "/contact",
+  "/contactus": "/contact",
+  "/our-doctors": "/about",
+  "/our-team": "/about",
+  "/team": "/about",
+  "/dr-murat-ustun": "/about",
+  "/services": "/treatments",
+  "/procedures": "/treatments",
+  "/prices": "/treatments",
+  "/pricing": "/treatments",
+  "/cost": "/treatments",
+  "/gastric-sleeve": "/sleeve-gastrectomy",
+  "/gastric-sleeve-surgery": "/sleeve-gastrectomy",
+  "/gastric-sleeve-turkey": "/sleeve-gastrectomy",
+  "/sleeve-gastrectomy-turkey": "/sleeve-gastrectomy",
+  "/gastric-bypass": "/mini-gastric-bypass",
+  "/gastric-bypass-surgery": "/mini-gastric-bypass",
+  "/gastric-bypass-turkey": "/mini-gastric-bypass",
+  "/mini-gastric-bypass-turkey": "/mini-gastric-bypass",
+  "/roux-en-y-gastric-bypass": "/mini-gastric-bypass",
+  "/gastric-balloon-turkey": "/gastric-balloon",
+  "/intragastric-balloon": "/gastric-balloon",
+  "/allurion-balloon": "/gastric-balloon",
+  "/orbera-balloon": "/gastric-balloon",
+  "/elipse-balloon": "/gastric-balloon",
+  "/duodenal-switch-turkey": "/duodenal-switch",
+  "/biliopancreatic-diversion": "/duodenal-switch",
+  "/esg-turkey": "/esg",
+  "/endoscopic-sleeve-gastroplasty": "/esg",
+  "/endoscopic-sleeve-gastroplasty-turkey": "/esg",
+  "/transit-bipartition-turkey": "/transit-bipartition",
+  "/body-contouring": "/post-bariatric-surgery",
+  "/tummy-tuck-after-weight-loss": "/post-bariatric-surgery",
+  "/before-after": "/results",
+  "/before-and-after": "/results",
+  "/testimonials": "/results",
+  "/patient-stories": "/results",
+  "/success-stories": "/results",
+  "/reviews": "/results",
+  "/gallery": "/results",
+  "/faq": "/treatments",
+  "/faqs": "/treatments",
+  "/frequently-asked-questions": "/treatments",
+  "/privacy-policy": "/",
+  "/terms-and-conditions": "/",
+  "/terms": "/",
+  "/disclaimer": "/",
+  "/sample-page": "/",
+  "/home": "/",
+  "/index.html": "/",
+  "/index.php": "/",
+  "/wp-login.php": "/",
+  "/wp-admin": "/",
+  "/feed": "/blog",
+  "/feed/rss": "/blog",
+  "/feed/rss2": "/blog",
+  "/feed/atom": "/blog",
+  "/rss": "/blog",
+  "/comments/feed": "/blog",
 };
 
-const YEAR_ARCHIVE_REGEX = /^\/20\d{2}(\/\d{1,2})?$/;
+const YEAR_ARCHIVE_REGEX = /^\/20\d{2}(\/\d{1,2})?(\/\d{1,2})?$/;
 const TAG_REGEX = /^\/tag\/.+$/;
 const EMBED_REGEX = /^\/[^/]+\/embed$/;
+const CATEGORY_REGEX = /^\/category\/.+$/;
+const AUTHOR_REGEX = /^\/author\/.+$/;
+const WP_CONTENT_REGEX = /^\/wp-(content|includes|json|admin)\/.*/;
+const FEED_REGEX = /^\/.*\/feed\/?$/;
+const PAGE_REGEX = /^\/page\/\d+$/;
+const ATTACHMENT_REGEX = /^\/.+\/attachment\/.+$/;
 
 export async function registerRoutes(
   httpServer: Server,
@@ -352,8 +420,31 @@ ${blogSection}
     if (TAG_REGEX.test(reqPath)) {
       return res.redirect(301, "/blog");
     }
+    if (CATEGORY_REGEX.test(reqPath)) {
+      return res.redirect(301, "/blog");
+    }
+    if (AUTHOR_REGEX.test(reqPath)) {
+      return res.redirect(301, "/about");
+    }
     if (EMBED_REGEX.test(reqPath)) {
       return res.redirect(301, "/");
+    }
+    if (WP_CONTENT_REGEX.test(reqPath)) {
+      return res.redirect(301, "/");
+    }
+    if (FEED_REGEX.test(reqPath)) {
+      return res.redirect(301, "/blog");
+    }
+    if (PAGE_REGEX.test(reqPath)) {
+      return res.redirect(301, "/blog");
+    }
+    if (ATTACHMENT_REGEX.test(reqPath)) {
+      return res.redirect(301, "/");
+    }
+
+    const rootSlug = reqPath.slice(1);
+    if (rootSlug && !rootSlug.includes("/") && !VALID_STATIC_ROUTES.includes(reqPath) && getAllBlogSlugs().includes(rootSlug)) {
+      return res.redirect(301, `/blog/${rootSlug}`);
     }
     
     if (req.query.page_id === "24") {
@@ -370,6 +461,12 @@ ${blogSection}
     }
     if (req.query.page_id) {
       return res.redirect(301, "/");
+    }
+    if (req.query.preview === "true") {
+      return res.redirect(301, "/");
+    }
+    if (req.query.replytocom) {
+      return res.redirect(301, reqPath);
     }
     
     next();

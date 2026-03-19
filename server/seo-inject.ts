@@ -44,7 +44,12 @@ export function injectSEO(html: string, requestPath: string): string {
   );
 
   const canonicalTag = `<link rel="canonical" href="${escapeAttr(seo.canonical)}" />`;
-  if (!result.includes('rel="canonical"')) {
+  if (result.includes('rel="canonical"')) {
+    result = result.replace(
+      /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/,
+      canonicalTag
+    );
+  } else {
     result = result.replace("</head>", `  ${canonicalTag}\n  </head>`);
   }
 

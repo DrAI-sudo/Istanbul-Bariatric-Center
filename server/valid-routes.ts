@@ -19,9 +19,17 @@ export const VALID_STATIC_ROUTES = [
 ];
 
 export function isValidRoute(path: string): boolean {
-  const cleanPath = path.split("?")[0];
+  let cleanPath = path.split("?")[0];
+
+  if (cleanPath !== "/" && cleanPath.endsWith("/")) {
+    cleanPath = cleanPath.slice(0, -1);
+  }
 
   if (VALID_STATIC_ROUTES.includes(cleanPath)) {
+    return true;
+  }
+
+  if (cleanPath === "/admin") {
     return true;
   }
 
