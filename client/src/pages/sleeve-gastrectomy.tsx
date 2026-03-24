@@ -56,6 +56,16 @@ const faqs = [
   }
 ];
 
+function linkifyDrName(text: string) {
+  if (!text.includes('Dr Murat Ustun')) return text;
+  const parts = text.split(/(Dr Murat Ustun)/);
+  return <>{parts.map((part, i) =>
+    part === 'Dr Murat Ustun'
+      ? <a key={i} href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">{part}</a>
+      : part
+  )}</>;
+}
+
 export default function SleeveGastrectomy() {
   const { t } = useTranslation('treatments');
   
@@ -231,7 +241,7 @@ export default function SleeveGastrectomy() {
                           <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
                             <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} />
                           </div>
-                          {feature}
+                          {linkifyDrName(feature)}
                         </li>
                       ))}
                     </ul>
@@ -308,7 +318,7 @@ export default function SleeveGastrectomy() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Start Your Weight Loss Journey?</h2>
           <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Contact us today for a free consultation and learn how gastric sleeve surgery can help you achieve your goals.
+            Contact <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">Dr Murat Ustun's</a> team today for a free consultation and learn how gastric sleeve surgery can help you achieve your goals.
           </p>
           <Button 
             size="lg" 

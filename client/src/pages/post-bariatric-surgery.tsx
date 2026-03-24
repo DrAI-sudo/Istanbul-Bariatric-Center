@@ -111,7 +111,7 @@ export default function PostBariatricSurgery() {
                 Post-bariatric body contouring surgery, also known as body sculpting or skin removal surgery, is a collection of plastic surgery procedures designed to remove excess skin and reshape the body after massive weight loss. These procedures can dramatically improve body contour, eliminate skin irritation, and help patients achieve the body they've worked so hard for.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
-                At Istanbul Bariatric Center, we work with leading plastic surgeons who specialize in post-bariatric body contouring. Our surgeons understand the unique needs of weight loss patients and use advanced techniques to minimize scarring while maximizing results.
+                At Istanbul Bariatric Center, founded by <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Dr Murat Ustun</a>, we work with leading plastic surgeons who specialize in post-bariatric body contouring. Our surgeons understand the unique needs of weight loss patients and use advanced techniques to minimize scarring while maximizing results.
               </p>
             </div>
             <div className="bg-slate-50 rounded-2xl p-8 border border-slate-100">
@@ -359,7 +359,7 @@ export default function PostBariatricSurgery() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Complete Your Transformation?</h2>
           <p className="text-xl text-white/80 max-w-2xl mx-auto mb-8">
-            Contact us today for a free consultation with our expert plastic surgeons. We'll help you create a personalized treatment plan to achieve your body goals.
+            Contact <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">Dr Murat Ustun's</a> team today for a free consultation with our expert plastic surgeons. We'll help you create a personalized treatment plan to achieve your body goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

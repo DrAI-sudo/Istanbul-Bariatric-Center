@@ -7,6 +7,16 @@ import { useTranslation } from "react-i18next";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
 import { SummarizeWithAI } from "@/components/summarize-with-ai";
 
+function linkifyDrName(text: string) {
+  if (!text.includes('Dr Murat Ustun')) return text;
+  const parts = text.split(/(Dr Murat Ustun)/);
+  return <>{parts.map((part, i) =>
+    part === 'Dr Murat Ustun'
+      ? <a key={i} href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">{part}</a>
+      : part
+  )}</>;
+}
+
 export default function Treatments() {
   const { t } = useTranslation('treatments');
 
@@ -462,7 +472,7 @@ export default function Treatments() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-slate-500 mt-4 text-center">All prices are all-inclusive. Final pricing confirmed after free consultation.</p>
+          <p className="text-sm text-slate-500 mt-4 text-center">All prices are all-inclusive. All Relaxation and Luxury packages include surgery with <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Dr Murat Ustun</a>. Final pricing confirmed after free consultation.</p>
         </div>
       </section>
 
@@ -576,7 +586,7 @@ export default function Treatments() {
                                     <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
                                       <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} />
                                     </div>
-                                    {feature}
+                                    {linkifyDrName(feature)}
                                   </li>
                                 ))}
                               </ul>
@@ -627,7 +637,7 @@ export default function Treatments() {
                                     <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
                                       <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} />
                                     </div>
-                                    {feature}
+                                    {linkifyDrName(feature)}
                                   </li>
                                 ))}
                               </ul>
@@ -677,7 +687,7 @@ export default function Treatments() {
                                     <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
                                       <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} />
                                     </div>
-                                    {feature}
+                                    {linkifyDrName(feature)}
                                   </li>
                                 ))}
                               </ul>
@@ -727,7 +737,7 @@ export default function Treatments() {
                                     <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
                                       <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} />
                                     </div>
-                                    {feature}
+                                    {linkifyDrName(feature)}
                                   </li>
                                 ))}
                               </ul>
@@ -778,7 +788,7 @@ export default function Treatments() {
                                     <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
                                       <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} />
                                     </div>
-                                    {feature}
+                                    {linkifyDrName(feature)}
                                   </li>
                                 ))}
                               </ul>
@@ -851,7 +861,7 @@ export default function Treatments() {
                   <span className="text-primary text-xl font-bold shrink-0 group-open:rotate-45 transition-transform">+</span>
                 </summary>
                 <div className="px-6 pb-6">
-                  <p className="text-slate-600 leading-relaxed">{faq.answer}</p>
+                  <p className="text-slate-600 leading-relaxed">{faq.answer.includes('Dr Murat Ustun') ? linkifyDrName(faq.answer) : faq.answer}</p>
                 </div>
               </details>
             ))}

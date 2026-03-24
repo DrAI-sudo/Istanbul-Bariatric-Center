@@ -29,6 +29,7 @@ const results = [
     lost: "52 kg",
     time: "5 Months",
     desc: "I've had Sleeve gastrectomy operations. My surgeon name was Dr Murat Üstün and his team Istanbul Bariatrics was absolutely amazing. I was out of hospital within 2.5 days.",
+    drLink: true,
     tags: ["Sleeve Gastrectomy", "Life Changing"]
   },
   {
@@ -37,6 +38,7 @@ const results = [
     lost: "52 kg",
     time: "8 Months",
     desc: "In 8 months I am down 52kg. I am so grateful to Dr Ustun and Istanbul Bariatric centre for giving me my life back. If anyone is still researching, look no further.",
+    drLink: true,
     tags: ["Gastric Sleeve", "Recommendation"]
   },
   {
@@ -53,6 +55,7 @@ const results = [
     lost: "Total Control",
     time: "Post-Op",
     desc: "I feel totally in control of my weight thank you to Dr Murat he is very nice and kind. The best decision in life with the best team thank you for making me feel myself again.",
+    drLink: true,
     tags: ["Control", "Best Decision"]
   }
 ];
@@ -144,7 +147,13 @@ export default function Results() {
                     </div>
                     
                     <p className="text-slate-600 italic mb-6 leading-relaxed">
-                      "{result.desc}"
+                      &ldquo;{(result as any).drLink ? (
+                        <>{result.desc.split(/(Dr Murat Üstün|Dr Ustun|Dr Murat)/g).map((part: string, pi: number) =>
+                          /Dr Murat Üstün|Dr Ustun|Dr Murat/.test(part) 
+                            ? <a key={pi} href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary not-italic hover:underline">{part}</a>
+                            : part
+                        )}</>
+                      ) : result.desc}&rdquo;
                     </p>
                     
                     <div className="flex flex-wrap gap-2 mt-auto">

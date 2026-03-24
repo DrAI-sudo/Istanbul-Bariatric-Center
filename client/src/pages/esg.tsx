@@ -247,7 +247,7 @@ export default function ESG() {
           </div>
 
           <p className="text-sm text-slate-500 mt-4 text-center">
-            All procedures performed at JCI-accredited Liv Hospital, Istanbul, by Dr Murat Ustun and his specialist team.
+            All procedures performed at JCI-accredited Liv Hospital, Istanbul, by <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Dr Murat Ustun</a> and his specialist team.
           </p>
         </div>
       </section>
@@ -430,8 +430,8 @@ export default function ESG() {
               <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
                 <Stethoscope className="w-7 h-7 text-primary" />
               </div>
-              <h3 className="text-lg font-bold mb-2">Dr Murat Ustun</h3>
-              <p className="text-slate-300 text-sm">Pioneer of ESG in Turkey with thousands of successful bariatric procedures. Internationally recognised for endoscopic innovation.</p>
+              <h3 className="text-lg font-bold mb-2"><a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Dr Murat Ustun</a></h3>
+              <p className="text-slate-300 text-sm"><a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-slate-200 hover:text-primary transition-colors">Pioneer of ESG in Turkey</a> with thousands of successful bariatric procedures. Internationally recognised for endoscopic innovation.</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center" data-testid="card-why-ibc-hospital">
@@ -471,7 +471,7 @@ export default function ESG() {
             {esgFaqs.map((faq, i) => (
               <div key={i} className="bg-white rounded-xl p-6 shadow-sm border border-slate-100">
                 <h3 className="text-lg font-bold text-slate-900 mb-3">{faq.question}</h3>
-                <p className="text-slate-600 leading-relaxed">{faq.answer}</p>
+                <p className="text-slate-600 leading-relaxed">{faq.answer.includes('Dr Murat Ustun') ? <>{faq.answer.split(/(Dr Murat Ustun)/g).map((part: string, pi: number) => part === 'Dr Murat Ustun' ? <a key={pi} href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">{part}</a> : part)}</> : faq.answer}</p>
               </div>
             ))}
           </div>
@@ -483,7 +483,7 @@ export default function ESG() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Get Endoscopic Sleeve Gastroplasty in Turkey</h2>
           <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Contact us today for a free consultation to learn if Apollo Endoscopic Sleeve Gastroplasty is right for you.
+            Contact <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">Dr Murat Ustun</a> today for a free consultation to learn if Apollo Endoscopic Sleeve Gastroplasty is right for you.
           </p>
           <Button 
             size="lg" 

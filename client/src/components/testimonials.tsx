@@ -202,7 +202,13 @@ export function Testimonials() {
                   </div>
                   <Quote className="w-8 h-8 text-primary/20 mb-4" />
                   <p className="text-slate-600 mb-6 leading-relaxed italic flex-grow">
-                    "{item.text}"
+                    &ldquo;{item.text.includes('Dr. Murat') || item.text.includes('Dr Murat') ? (
+                      <>{item.text.split(/(Dr\.?\s*Murat(?:'s)?)/g).map((part: string, pi: number) =>
+                        /Dr\.?\s*Murat/.test(part)
+                          ? <a key={pi} href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary not-italic hover:underline">{part}</a>
+                          : part
+                      )}</>
+                    ) : item.text}&rdquo;
                   </p>
                   <div className="flex items-center gap-4 mt-auto">
                     <Avatar className="h-10 w-10 border border-slate-200">

@@ -234,7 +234,7 @@ export default function Contact() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Our Hospital</h2>
             <p className="text-slate-600 max-w-2xl mx-auto">
-              Istanbul Bariatric Center is located at Liv Vadi Hospital, one of Turkey's most modern healthcare facilities.
+              Istanbul Bariatric Center, led by <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Dr Murat Ustun</a>, is located at Liv Vadi Hospital, one of Turkey's most modern healthcare facilities.
             </p>
           </div>
           

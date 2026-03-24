@@ -126,10 +126,16 @@ export default function About() {
                   />
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-bold text-slate-900 mb-1">{doctor.name}</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-1">
+                    {(doctor as any).nameLink ? (
+                      <a href={(doctor as any).nameLink} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">{doctor.name}</a>
+                    ) : doctor.name}
+                  </h3>
                   <p className="text-primary font-medium text-sm mb-4 uppercase">{doctor.role}</p>
                   <p className="text-slate-600 text-sm mb-6 leading-relaxed">
-                    {doctor.desc}
+                    {doctor.name === "Dr. Murat Üstün" ? (
+                      <>Founder of Istanbul Bariatric Center (IBC) and one of the most competent <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">bariatric surgeons in Turkey</a>. Specialized in Ankara Training and Research Hospital and participated in more than 100 national and international congresses.</>
+                    ) : doctor.desc}
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {doctor.specialties.map((tag, j) => (

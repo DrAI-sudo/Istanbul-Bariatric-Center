@@ -241,7 +241,7 @@ export default function GastricBalloon() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Interested in Gastric Balloon?</h2>
           <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Contact us today for a free consultation and learn if gastric balloon is the right option for your weight loss journey.
+            Contact <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">Dr Murat Ustun's</a> team today for a free consultation and learn if gastric balloon is the right option for your weight loss journey.
           </p>
           <Button 
             size="lg" 
