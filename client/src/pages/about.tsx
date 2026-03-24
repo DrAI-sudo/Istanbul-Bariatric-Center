@@ -9,6 +9,7 @@ import { SummarizeWithAI } from "@/components/summarize-with-ai";
 const doctors = [
   {
     name: "Dr. Murat Üstün",
+    nameLink: "https://drmuratustun.com",
     role: "Founder, Lead Bariatric Surgeon",
     image: "/dr-murat-ustun.webp",
     desc: "Founder of Istanbul Bariatric Center (IBC) and one of the most competent bariatric surgeons in Turkey. Specialized in Ankara Training and Research Hospital and participated in more than 100 national and international congresses.",
