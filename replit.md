@@ -126,7 +126,8 @@ The backend serves the React SPA in production and provides API endpoints for co
 - **Arabic Page**: `/esg/ar` — `client/src/pages/esg-ar.tsx` — Full Arabic RTL page targeting Gulf patients (Saudi Arabia, UAE, Kuwait, Qatar). Premium/luxury VIP positioning. Pricing: $7,500 procedure / $8,500 all-inclusive. RTL layout with dir="rtl" set on mount. Amber/gold accent colors. AI-generated images: `esg-ar-hero.webp`, `esg-ar-istanbul.webp`, `esg-ar-consultation.webp`
 - **Features**: Interactive BMI/IMC calculator, FAQ accordion, comparison tables (ESG vs medications, ESG vs gastric sleeve), step-by-step journey timeline, country-specific patient testimonials, internal links section, country flags
 - **SEO**: Full SSR injection, JSON-LD MedicalProcedure schema, breadcrumbs, FAQ schema, sitemap entry, llms.txt entry
-- **Extensible**: Designed for future country pages (e.g., `/esg/it`, `/esg/pl`)
+- **Italian Page**: `/esg/it` — `client/src/pages/esg-it.tsx` — Full Italian-language ESG page targeting "ESG Italia", "dimagrire senza chirurgia", "gastroplastica endoscopica prezzo", "alternativa Ozempic Italia". Tone: clinical authority, trust-driven, transparent pricing. All-inclusive pricing: €6,450. AI-generated images: `esg-it-hero.webp`, `esg-it-istanbul.webp`, `esg-it-consultation.webp`
+- **Extensible**: Designed for future country pages (e.g., `/esg/pl`)
 
 ### AI Crawler Accessibility
 - **robots.txt**: `client/public/robots.txt` — Expanded to 25+ named AI crawlers (GPTBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended, Grokbot, DeepSeekBot, FacebookBot, MetaBot, Applebot, CopilotBot, etc.) with Disallow for `/api/`, `/admin`, `/superadmin`
