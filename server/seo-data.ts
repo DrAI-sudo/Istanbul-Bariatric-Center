@@ -746,6 +746,56 @@ const staticPages: Record<string, PageSEO> = {
       ]
     }]
   },
+  "/esg/se": {
+    title: "ESG Turkiet för svenska patienter | Gå ner i vikt utan operation | € 6 450 allt inkluderat",
+    description: "Endoskopisk sleeve gastroplastik utan kirurgi för patienter från Sverige. All-inclusive-paket € 6 450 på JCI-ackrediterat sjukhus. Betydande besparingar jämfört med Sverige. Gratis konsultation.",
+    h1: "Endoskopisk Sleeve Gastroplastik (ESG) — Gå ner i vikt utan operation i Turkiet",
+    bodyExcerpt: "Endoskopisk Sleeve Gastroplastik (ESG) för patienter från Sverige vid Istanbul Bariatric Center. Magförminskning utan kirurgi. JCI-ackrediterat sjukhus. Dr. Murat Üstün. All-inclusive-paket € 6 450 med VIP-transfer, hotell och 12 månaders nutritionsstöd. Direktflyg från Stockholm Arlanda (~3-3,5 timmar).",
+    canonical: SITE_URL + "/esg/se",
+    richContent: `<section><h2>Vad är Endoskopisk Sleeve Gastroplastik (ESG)?</h2><p>ESG är en innovativ procedur för att minska magsäckens volym utan kirurgi. Genom munnen förs ett endoskop ned för att placera interna suturer som reducerar magvolymen med 70-80%. Till skillnad från en traditionell sleeve gastrectomy görs inga snitt, ingen vävnad avlägsnas och återhämtningen är betydligt snabbare. Proceduren använder Apollo OverStitch-teknologi och tar 60-90 minuter under generell anestesi.</p></section>
+<section><h2>Varför väljer svenska patienter ESG i Turkiet</h2><h3>Begränsad tillgång i Sverige</h3><p>ESG erbjuds ännu inte inom den offentliga svenska sjukvården. Privata kliniker som erbjuder proceduren är sällsynta, väntetiderna är långa — även i Stockholm och Göteborg.</p><h3>Betydande besparingar</h3><p>I Sverige kan ESG kosta 80 000-150 000 SEK på privata kliniker. Hos Istanbul Bariatric Center är all-inclusive-paketet € 6 450 (~70 000 SEK) — inklusive procedur, sjukhus, hotell, transfer och 12 månaders uppföljning.</p><h3>Snabb tillgång</h3><p>Ingen väntelista. Direktflyg från Stockholm Arlanda, Göteborg Landvetter (~3-3,5 timmar). Fullständig behandling inom 3-4 dagar.</p></section>
+<section><h2>ESG vs läkemedel</h2><table><thead><tr><th>Faktor</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Effekt</td><td>Tillfällig</td><td>Långsiktig</td></tr><tr><td>Biverkningar</td><td>Vanliga</td><td>Få</td></tr><tr><td>Kostnad</td><td>Löpande</td><td>Engångs</td></tr><tr><td>Viktuppgång</td><td>Vanlig</td><td>Begränsad</td></tr></tbody></table></section>
+<section><h2>ESG vs gastric sleeve-operation</h2><table><thead><tr><th>Egenskap</th><th>ESG</th><th>Gastric Sleeve</th></tr></thead><tbody><tr><td>Typ</td><td>Endoskopisk</td><td>Laparoskopisk kirurgi</td></tr><tr><td>Återhämtning</td><td>1-3 dagar</td><td>2-3 veckor</td></tr><tr><td>Ärr</td><td>Inga</td><td>4-5 små</td></tr><tr><td>Viktnedgång</td><td>15-20% av kroppsvikten</td><td>60-70% av övervikten</td></tr></tbody></table></section>
+<section><h2>Varför Istanbul Bariatric Center</h2><ul><li><strong>Dr. Murat Üstün</strong> — Pionjär inom ESG i Turkiet med tusentals framgångsrika procedurer</li><li><strong>JCI-ackrediterat sjukhus</strong> — Liv Hospital, internationell guldstandard</li><li><strong>Internationellt team</strong> — Dedikerat stöd för internationella patienter</li><li><strong>All-inclusive-paket</strong> — Procedur, sjukhus, hotell, transfer, tester, 12 mån nutritionsstöd</li></ul></section>
+<section><h2>Behandlingsprocess</h2><ol><li>Gratis onlinekonsultation via WhatsApp</li><li>Direktflyg till Istanbul (~3-3,5 timmar)</li><li>VIP-transfer från flygplatsen till hotellet</li><li>Preoperativa undersökningar på sjukhuset</li><li>ESG-procedur (60-90 minuter, inga snitt)</li><li>Återhämtning och hemresa inom 3-4 dagar</li></ol></section>
+<section><h2>Förväntade resultat</h2><p>Svenska patienter kan förvänta sig en viktnedgång på 15-20% av kroppsvikten under 12-18 månader. Vid BMI 38+ är genomsnittlig viktnedgång cirka 20 kg under de första 6 månaderna. Betydande förbättring av diabetes, blodtryck och sömnapné.</p></section>
+<section><h2>Vanliga frågor</h2><dl><dt>Är ESG tillgängligt via den svenska sjukvården?</dt><dd>Nej, ESG erbjuds inte inom den offentliga sjukvården. Privata kliniker i Sverige tar 80 000-150 000 SEK.</dd><dt>Hur länge behöver jag stanna i Istanbul?</dt><dd>3-4 dagar. Direktflyg från Stockholm Arlanda, Göteborg Landvetter (~3-3,5 timmar).</dd><dt>Gör proceduren ont?</dt><dd>ESG genomförs under generell anestesi. Milt obehag 1-3 dagar efter proceduren.</dd><dt>Är resultaten hållbara?</dt><dd>Ja, med rätt livsstil. 12 månaders nutritionsstöd ingår i alla paket.</dd><dt>Vad är skillnaden mellan ESG och Ozempic?</dt><dd>ESG erbjuder en engångs fysisk reduktion av magsäcken utan löpande läkemedelskostnader.</dd><dt>Vilket BMI krävs?</dt><dd>BMI mellan 30 och 40 rekommenderas.</dd><dt>Är det säkert?</dt><dd>Alla procedurer på JCI-ackrediterat Liv Hospital. Dr. Murat Üstün — tusentals ESG-procedurer.</dd><dt>Vad ingår i paketet?</dt><dd>Procedur, JCI-sjukhus, tester, VIP-transfer, hotell, läkemedel, 12 månaders nutritionsstöd. Inga dolda kostnader.</dd></dl></section>
+<section><h2>Kontakt</h2><p>WhatsApp: +90 532 413 1143 | E-post: drmuratustun@gmail.com</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Endoskopisk Sleeve Gastroplastik för svenska patienter",
+      "alternateName": ["ESG Sverige", "ESG Turkiet", "Gå ner i vikt utan operation", "Gastroplastik"],
+      "description": "Endoskopisk Sleeve Gastroplastik (ESG) för patienter från Sverige vid Istanbul Bariatric Center. Magförminskning utan kirurgi. JCI-ackrediterat sjukhus.",
+      "procedureType": "Endoscopic",
+      "bodyLocation": "Stomach",
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Är ESG tillgängligt via den svenska sjukvården?", "acceptedAnswer": { "@type": "Answer", "text": "Nej, ESG erbjuds inte inom den offentliga svenska sjukvården. Enstaka privata kliniker erbjuder proceduren till 80 000-150 000 SEK." } },
+        { "@type": "Question", "name": "Hur länge behöver jag stanna i Istanbul?", "acceptedAnswer": { "@type": "Answer", "text": "3-4 dagar. Direktflyg från Stockholm Arlanda och Göteborg Landvetter (~3-3,5 timmar)." } },
+        { "@type": "Question", "name": "Gör proceduren ont?", "acceptedAnswer": { "@type": "Answer", "text": "ESG genomförs under generell anestesi. Ett milt obehag kan förekomma 1-3 dagar efter proceduren, kontrollerat med läkemedel." } },
+        { "@type": "Question", "name": "Är resultaten hållbara?", "acceptedAnswer": { "@type": "Answer", "text": "Ja, med rätt livsstil. 12 månaders nutritionsstöd med kvalificerad dietist ingår i alla paket." } },
+        { "@type": "Question", "name": "Vad är skillnaden mellan ESG och Ozempic/Wegovy?", "acceptedAnswer": { "@type": "Answer", "text": "ESG erbjuder en engångs fysisk reduktion av magsäcken utan löpande läkemedelskostnader." } },
+        { "@type": "Question", "name": "Vilket BMI krävs för ESG?", "acceptedAnswer": { "@type": "Answer", "text": "ESG rekommenderas för patienter med BMI mellan 30 och 40." } },
+        { "@type": "Question", "name": "Är det säkert att få behandling utomlands?", "acceptedAnswer": { "@type": "Answer", "text": "Istanbul Bariatric Center verkar i Liv Hospital med JCI-ackreditering — den internationella guldstandarden. Dr. Murat Üstün har genomfört tusentals ESG-procedurer." } },
+        { "@type": "Question", "name": "Vad ingår i all-inclusive-paketet?", "acceptedAnswer": { "@type": "Answer", "text": "Fullständig ESG-procedur, JCI-sjukhus, preoperativa tester, VIP-transfer, hotellboende, läkemedel, kvalificerat nutritionsstöd i 12 månader. Inga dolda kostnader." } }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://istanbulbariatriccenter.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://istanbulbariatriccenter.com/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "ESG", "item": "https://istanbulbariatriccenter.com/esg" },
+        { "@type": "ListItem", "position": 4, "name": "ESG för svenska patienter", "item": "https://istanbulbariatriccenter.com/esg/se" }
+      ]
+    }]
+  },
   "/post-bariatric-surgery": {
     title: "Post Bariatric Body Contouring Surgery - Istanbul Bariatric Center",
     description: "Post bariatric body contouring surgery in Istanbul. Tummy tuck, arm lift, thigh lift, breast lift after major weight loss. Complete your transformation.",

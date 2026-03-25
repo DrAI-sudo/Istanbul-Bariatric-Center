@@ -22,6 +22,7 @@ export const VALID_STATIC_ROUTES = [
   "/esg/it",
   "/esg/ru",
   "/esg/ro",
+  "/esg/se",
   "/post-bariatric-surgery",
   "/insurance",
   "/health-profile",
