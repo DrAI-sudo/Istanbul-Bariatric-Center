@@ -153,6 +153,7 @@ export async function registerRoutes(
       "/esg/no": { priority: "0.9", changefreq: "monthly" },
       "/esg/hu": { priority: "0.9", changefreq: "monthly" },
       "/esg/fi": { priority: "0.9", changefreq: "monthly" },
+      "/esg/ca": { priority: "0.9", changefreq: "monthly" },
       "/post-bariatric-surgery": { priority: "0.7", changefreq: "monthly" },
       "/insurance": { priority: "0.6", changefreq: "monthly" },
       "/health-profile": { priority: "0.7", changefreq: "monthly" },
@@ -212,6 +213,7 @@ export async function registerRoutes(
 - [ESG for norske pasienter](${BASE_URL}/esg/no): Endoskopisk sleeve gastroplastikk for pasienter fra Norge. All-inclusive-pakke € 6.450. JCI-akkreditert sykehus. Gratis konsultasjon.
 - [ESG magyar betegeknek](${BASE_URL}/esg/hu): Endoszkópos sleeve gastroplasztika magyar pácienseknek. All-inclusive csomag € 6.450. JCI-akkreditált kórház. Ingyenes konzultáció.
 - [ESG suomalaisille potilaille](${BASE_URL}/esg/fi): Endoskooppinen sleeve gastroplastia suomalaisille potilaille. All-inclusive-paketti € 6.450. JCI-akkreditoitu sairaala. Ilmainen konsultaatio.
+- [ESG for Canadian Patients](${BASE_URL}/esg/ca): Endoscopic Sleeve Gastroplasty for Canadian patients. Procedure $7,500 USD. All-inclusive $8,500 USD. JCI-accredited hospital. Free consultation.
 - [Duodenal Switch](${BASE_URL}/duodenal-switch): From £4,400. Complex procedure combining sleeve with intestinal bypass. Maximum weight loss for very high BMI patients.
 - [Transit Bipartition](${BASE_URL}/transit-bipartition): Advanced metabolic surgery combining sleeve gastrectomy with intestinal rerouting for enhanced weight loss and diabetes resolution.
 - [Post-Bariatric Surgery](${BASE_URL}/post-bariatric-surgery): Body contouring procedures after significant weight loss including tummy tuck, arm lift, and thigh lift.

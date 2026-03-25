@@ -1046,6 +1046,56 @@ const staticPages: Record<string, PageSEO> = {
       ]
     }]
   },
+  "/esg/ca": {
+    title: "ESG Turkey for Canadian Patients | Weight Loss Without Surgery | $8,500 USD All-Inclusive",
+    description: "Endoscopic Sleeve Gastroplasty without surgery for Canadian patients. All-inclusive package $8,500 USD at JCI-accredited hospital in Istanbul. Save compared to Canadian private clinics. Free consultation.",
+    h1: "Endoscopic Sleeve Gastroplasty (ESG) — Safe, Minimally Invasive Weight Loss in Turkey",
+    bodyExcerpt: "Endoscopic Sleeve Gastroplasty (ESG) for Canadian patients at Istanbul Bariatric Center. Stomach reduction without surgery. JCI-accredited hospital. Dr. Murat Üstün. Procedure $7,500 USD or all-inclusive package $8,500 USD with VIP transfers, hotel, and 12-month dietitian support. Direct flights from Toronto Pearson (~10-11 hours).",
+    canonical: SITE_URL + "/esg/ca",
+    richContent: `<section><h2>What is Endoscopic Sleeve Gastroplasty (ESG)?</h2><p>ESG is an innovative procedure that reduces stomach volume without surgery. A flexible endoscope is inserted through the mouth, and internal sutures are placed to reduce the stomach's capacity by 70-80%. Unlike traditional sleeve gastrectomy, there are no incisions, no tissue is removed, and recovery is significantly faster. The procedure uses Apollo OverStitch technology and takes approximately 60-90 minutes under general anaesthesia.</p></section>
+<section><h2>Why Canadian Patients Choose ESG in Turkey</h2><h3>Limited Access in Canada</h3><p>ESG is rarely available through provincial healthcare. Wait times for publicly funded bariatric surgery can exceed 2-5 years. Private clinics in Toronto, Vancouver, or Montreal charge $15,000-$25,000 CAD or more.</p><h3>Significant Savings</h3><p>Our all-inclusive package is $8,500 USD (~$11,500 CAD) — including the procedure at a JCI-accredited hospital, hotel accommodation, VIP airport transfers, and 12-month dietitian support. Procedure-only option available at $7,500 USD.</p><h3>No Wait Times</h3><p>Skip years-long waiting lists. Fast consultation, flexible scheduling, and complete treatment in 3-4 days. Direct flights from Toronto Pearson (~10-11 hours).</p></section>
+<section><h2>ESG vs Weight Loss Medications</h2><table><thead><tr><th>Factor</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Effectiveness</td><td>Temporary</td><td>Long-term</td></tr><tr><td>Side effects</td><td>Common</td><td>Minimal</td></tr><tr><td>Cost</td><td>Ongoing $300-$500 CAD/month</td><td>One-time $8,500 USD</td></tr><tr><td>Weight regain</td><td>Common after stopping</td><td>Limited</td></tr></tbody></table></section>
+<section><h2>ESG vs Gastric Sleeve Surgery</h2><table><thead><tr><th>Feature</th><th>ESG</th><th>Gastric Sleeve</th></tr></thead><tbody><tr><td>Type</td><td>Endoscopic</td><td>Laparoscopic</td></tr><tr><td>Recovery</td><td>1-3 days</td><td>2-3 weeks</td></tr><tr><td>Scarring</td><td>None</td><td>4-5 small scars</td></tr><tr><td>Weight loss</td><td>15-20% of body weight</td><td>60-70% of excess weight</td></tr></tbody></table></section>
+<section><h2>Why Istanbul Bariatric Center</h2><ul><li><strong>Dr. Murat Üstün</strong> — Pioneer of ESG in Turkey with thousands of successful procedures</li><li><strong>JCI-accredited hospital</strong> — Liv Hospital, same international standard as top Canadian hospitals</li><li><strong>International team</strong> — Dedicated English-speaking coordinators for Canadian patients</li><li><strong>All-inclusive packages</strong> — Procedure, hospital, hotel, transfers, tests, 12-month dietitian support</li></ul></section>
+<section><h2>Your Treatment Journey</h2><ol><li>Free online consultation via WhatsApp or website</li><li>Direct flight to Istanbul from Toronto (~10-11 hours)</li><li>VIP transfer from airport to hotel</li><li>Pre-operative assessments at hospital</li><li>ESG procedure (60-90 minutes, no incisions)</li><li>Recovery and travel home within 3-4 days</li></ol></section>
+<section><h2>Expected Results</h2><p>Canadian patients can expect 15-20% total body weight loss over 12-18 months. For patients with BMI 38+, average weight loss is approximately 45 lbs in the first 6 months. Significant improvement in type 2 diabetes, hypertension, and sleep apnea.</p></section>
+<section><h2>Frequently Asked Questions</h2><dl><dt>Is ESG available through provincial healthcare?</dt><dd>No, ESG is not covered by provincial health plans. Private clinics charge $15,000-$25,000+ CAD.</dd><dt>How long do I need to stay in Istanbul?</dt><dd>3-4 days. Direct flights from Toronto Pearson (~10-11 hours).</dd><dt>Is the procedure painful?</dt><dd>ESG is performed under general anaesthesia. Mild discomfort for 1-3 days post-procedure.</dd><dt>Are results long-lasting?</dt><dd>Yes, with proper lifestyle changes. 12-month dietitian support is included.</dd><dt>How does ESG compare to Ozempic?</dt><dd>ESG is a one-time physical stomach reduction — no ongoing prescription costs.</dd><dt>What BMI is required?</dt><dd>BMI between 30 and 40.</dd><dt>Is it safe?</dt><dd>All procedures at JCI-accredited Liv Hospital. Dr. Murat Üstün has performed thousands of ESG procedures.</dd><dt>What's included in the package?</dt><dd>Procedure, JCI hospital, tests, VIP transfers, hotel, medications, 12-month dietitian support. No hidden costs.</dd></dl></section>
+<section><h2>Contact</h2><p>WhatsApp: +90 532 413 1143 | Email: drmuratustun@gmail.com</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Endoscopic Sleeve Gastroplasty for Canadian Patients",
+      "alternateName": ["ESG Canada", "ESG Turkey", "Weight loss without surgery Canada", "Bariatric Turkey for Canadians"],
+      "description": "Endoscopic Sleeve Gastroplasty (ESG) for Canadian patients at Istanbul Bariatric Center. Stomach reduction without surgery. JCI-accredited hospital.",
+      "procedureType": "Endoscopic",
+      "bodyLocation": "Stomach",
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Is ESG available through provincial healthcare in Canada?", "acceptedAnswer": { "@type": "Answer", "text": "No, ESG is not covered by provincial health plans (OHIP, MSP, AHCIP, etc.). Private clinics charge $15,000-$25,000+ CAD." } },
+        { "@type": "Question", "name": "How long do I need to stay in Istanbul?", "acceptedAnswer": { "@type": "Answer", "text": "3-4 days. Direct flights from Toronto Pearson (~10-11 hours) with connections from all major Canadian cities." } },
+        { "@type": "Question", "name": "Is the ESG procedure painful?", "acceptedAnswer": { "@type": "Answer", "text": "ESG is performed under general anaesthesia — you won't feel anything during the procedure. Mild discomfort for 1-3 days, managed with medication." } },
+        { "@type": "Question", "name": "Are the results long-lasting?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, with the right lifestyle. 12-month dietitian program with a qualified nutritionist is included in every package." } },
+        { "@type": "Question", "name": "How does ESG compare to Ozempic or Wegovy?", "acceptedAnswer": { "@type": "Answer", "text": "ESG is a one-time physical stomach reduction — no ongoing monthly prescription costs of $300-$500 CAD." } },
+        { "@type": "Question", "name": "What BMI is required for ESG?", "acceptedAnswer": { "@type": "Answer", "text": "ESG is recommended for patients with a BMI between 30 and 40." } },
+        { "@type": "Question", "name": "Is it safe to have medical treatment abroad?", "acceptedAnswer": { "@type": "Answer", "text": "Istanbul Bariatric Center operates at JCI-accredited Liv Hospital — the same international standard as top Canadian hospitals." } },
+        { "@type": "Question", "name": "What does the all-inclusive package include?", "acceptedAnswer": { "@type": "Answer", "text": "Complete ESG procedure, JCI hospital, tests, VIP transfers, hotel, medications, and 12-month dietitian support. No hidden costs." } }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://istanbulbariatriccenter.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://istanbulbariatriccenter.com/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "ESG", "item": "https://istanbulbariatriccenter.com/esg" },
+        { "@type": "ListItem", "position": 4, "name": "ESG for Canadian Patients", "item": "https://istanbulbariatriccenter.com/esg/ca" }
+      ]
+    }]
+  },
   "/post-bariatric-surgery": {
     title: "Post Bariatric Body Contouring Surgery - Istanbul Bariatric Center",
     description: "Post bariatric body contouring surgery in Istanbul. Tummy tuck, arm lift, thigh lift, breast lift after major weight loss. Complete your transformation.",

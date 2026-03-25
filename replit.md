@@ -49,7 +49,7 @@ Preferred communication style: Simple, everyday language.
 - **Features**: Dynamic sitemap generation, blog content injection, route validation, enhanced meta robots tags for AI crawlers.
 
 ### Country-Specific Landing Pages
-- **Architecture**: ESG (Endoscopic Sleeve Gastroplasty) landing pages under `/esg/{country}` (e.g., UK, Germany, France, Spain, Dutch, Arabic, Italian, Russian, Romanian, Swedish, Polish, Danish, Norwegian, Hungarian, Finnish).
+- **Architecture**: ESG (Endoscopic Sleeve Gastroplasty) landing pages under `/esg/{country}` (e.g., UK, Germany, France, Spain, Dutch, Arabic, Italian, Russian, Romanian, Swedish, Polish, Danish, Norwegian, Hungarian, Finnish, Canadian).
 - **Features**: Localized content, interactive BMI calculator, FAQs, comparison tables, testimonials, full SSR injection, JSON-LD schemas.
 
 ### AI Crawler Accessibility
