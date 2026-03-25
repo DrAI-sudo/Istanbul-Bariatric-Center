@@ -646,6 +646,106 @@ const staticPages: Record<string, PageSEO> = {
       ]
     }]
   },
+  "/esg/ru": {
+    title: "ESG Турция для пациентов из России | Похудение без операции | Клиника JCI",
+    description: "Эндоскопическая гастропластика без хирургии для пациентов из России и СНГ. Клиника с аккредитацией JCI. Русскоговорящий персонал. Пакеты «всё включено». Бесплатная консультация.",
+    h1: "Эндоскопическая гастропластика (ESG) — эффективное снижение веса без операции в Турции",
+    bodyExcerpt: "Эндоскопическая гастропластика (ESG) для пациентов из России и СНГ в Istanbul Bariatric Center. Уменьшение желудка без операции. Клиника с аккредитацией JCI. Доктор Мурат Юстюн. Русскоговорящий персонал. Пакеты «всё включено» с трансфером, проживанием и 12 месяцами нутритивного сопровождения.",
+    canonical: SITE_URL + "/esg/ru",
+    richContent: `<section><h2>Что такое эндоскопическая гастропластика (ESG)?</h2><p>ESG — это инновационная процедура для уменьшения объёма желудка без хирургического вмешательства. Через рот вводится эндоскоп для наложения внутренних швов, уменьшающих объём желудка на 70-80%. В отличие от рукавной гастрэктомии, не делается ни одного разреза, ткань желудка не удаляется, а восстановление происходит значительно быстрее. Процедура использует технологию Apollo OverStitch и длится 60-90 минут под общим наркозом.</p></section>
+<section><h2>Почему пациенты из России выбирают ESG в Турции</h2><h3>Опыт и доступность</h3><p>Турция — мировой лидер в области бариатрической медицины. Современные клиники, опытные хирурги и международные стандарты качества. ESG доступна без длительного ожидания.</p><h3>Доступные цены</h3><p>Стоимость ESG в Стамбуле значительно ниже, чем в частных клиниках России и Европы — при высоком уровне качества. Полный пакет «всё включено» с клиникой JCI, отелем, трансфером и 12 месяцами наблюдения.</p><h3>Удобная логистика</h3><p>Прямые рейсы из Москвы, Санкт-Петербурга, Казани, Екатеринбурга (~3-4 часа). Безвизовый режим. VIP-трансфер и организация пребывания.</p></section>
+<section><h2>ESG vs медикаменты</h2><table><thead><tr><th>Фактор</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Эффект</td><td>Временный</td><td>Стабильный</td></tr><tr><td>Побочные эффекты</td><td>Частые</td><td>Минимальные</td></tr><tr><td>Стоимость</td><td>Постоянная</td><td>Разовая</td></tr><tr><td>Возврат веса</td><td>Часто</td><td>Минимален</td></tr></tbody></table></section>
+<section><h2>ESG vs рукавная гастрэктомия</h2><table><thead><tr><th>Характеристика</th><th>ESG</th><th>Рукавная гастрэктомия</th></tr></thead><tbody><tr><td>Тип</td><td>Эндоскопическая</td><td>Хирургическая</td></tr><tr><td>Восстановление</td><td>1-3 дня</td><td>2-3 недели</td></tr><tr><td>Шрамы</td><td>Нет</td><td>4-5 маленьких</td></tr><tr><td>Потеря веса</td><td>15-20% от массы тела</td><td>60-70% избыточного веса</td></tr></tbody></table></section>
+<section><h2>Почему Istanbul Bariatric Center</h2><ul><li><strong>Доктор Мурат Юстюн</strong> — пионер ESG в Турции с тысячами успешных процедур</li><li><strong>Клиника JCI</strong> — Liv Hospital, золотой стандарт</li><li><strong>Русскоговорящий персонал</strong> — координаторы и переводчики на русском языке</li><li><strong>Пакеты «всё включено»</strong> — процедура, клиника, отель, трансфер, анализы, 12 мес. наблюдения</li></ul></section>
+<section><h2>Этапы лечения</h2><ol><li>Бесплатная онлайн-консультация через WhatsApp</li><li>Прямой рейс в Стамбул (~3-4 часа)</li><li>VIP-трансфер из аэропорта в отель</li><li>Полное медицинское обследование в клинике</li><li>Процедура ESG (60-90 минут, без разрезов)</li><li>Восстановление и возвращение через 3-4 дня</li></ol></section>
+<section><h2>Результаты</h2><p>Пациенты могут ожидать потерю 15-20% массы тела за 12-18 месяцев. При ИМТ 38+ средняя потеря составляет около 20 кг за 6 месяцев. Значительное улучшение диабета, давления, апноэ сна.</p></section>
+<section><h2>Часто задаваемые вопросы</h2><dl><dt>Процедура болезненна?</dt><dd>ESG проводится под общим наркозом. Лёгкий дискомфорт в течение 1-3 дней после процедуры.</dd><dt>Сколько дней в Стамбуле?</dt><dd>3-4 дня. Прямые рейсы из Москвы, Санкт-Петербурга, Казани (~3-4 часа).</dd><dt>Результат сохраняется?</dt><dd>Да, при здоровом образе жизни. 12 месяцев нутритивного сопровождения включено.</dd><dt>Чем ESG отличается от Ozempic?</dt><dd>ESG — разовое физическое уменьшение желудка без постоянных затрат.</dd><dt>Какой ИМТ нужен?</dt><dd>ESG рекомендуется при ИМТ от 30 до 40.</dd><dt>Безопасно ли?</dt><dd>Все процедуры в клинике Liv Hospital с аккредитацией JCI. Тысячи успешных ESG.</dd><dt>Что включено?</dt><dd>Процедура, клиника JCI, анализы, VIP-трансфер, отель, нутритивное сопровождение 12 месяцев, медикаменты.</dd><dt>Есть русскоговорящий персонал?</dt><dd>Да. Координаторы и переводчики на русском языке. WhatsApp 24/7.</dd></dl></section>
+<section><h2>Контакты</h2><p>WhatsApp: +90 532 413 1143 | Email: drmuratustun@gmail.com</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Эндоскопическая гастропластика для пациентов из России и СНГ",
+      "alternateName": ["ESG Россия", "ESG Турция", "Похудение без операции", "Эндоскопическая гастропластика"],
+      "description": "Эндоскопическая гастропластика (ESG) для пациентов из России и СНГ в Istanbul Bariatric Center. Уменьшение желудка без операции. Клиника JCI. Русскоговорящий персонал.",
+      "procedureType": "Endoscopic",
+      "bodyLocation": "Stomach",
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Процедура ESG болезненна?", "acceptedAnswer": { "@type": "Answer", "text": "ESG проводится под общим наркозом. После пробуждения может быть лёгкий дискомфорт в течение 1-3 дней, хорошо купируемый медикаментами." } },
+        { "@type": "Question", "name": "Сколько дней нужно провести в Стамбуле?", "acceptedAnswer": { "@type": "Answer", "text": "3-4 дня. Прямые рейсы из Москвы, Санкт-Петербурга, Казани и других городов (~3-4 часа)." } },
+        { "@type": "Question", "name": "Результат сохраняется надолго?", "acceptedAnswer": { "@type": "Answer", "text": "Да, при здоровом образе жизни. Программа наблюдения 12 месяцев включена во все пакеты." } },
+        { "@type": "Question", "name": "Чем ESG отличается от Ozempic/Wegovy?", "acceptedAnswer": { "@type": "Answer", "text": "ESG — разовое физическое уменьшение желудка без постоянных ежемесячных затрат." } },
+        { "@type": "Question", "name": "Какой ИМТ нужен для ESG?", "acceptedAnswer": { "@type": "Answer", "text": "ESG рекомендуется при ИМТ от 30 до 40, особенно для тех, кому не помогли диеты и физические нагрузки." } },
+        { "@type": "Question", "name": "Безопасно ли лечение за границей?", "acceptedAnswer": { "@type": "Answer", "text": "Istanbul Bariatric Center работает на базе Liv Hospital с аккредитацией JCI — золотой стандарт качества. Тысячи успешных ESG." } },
+        { "@type": "Question", "name": "Что включено в пакет?", "acceptedAnswer": { "@type": "Answer", "text": "Процедура, клиника JCI, предоперационные анализы, VIP-трансфер, отель, медикаменты, нутритивное сопровождение 12 месяцев. Без скрытых платежей." } },
+        { "@type": "Question", "name": "Есть ли русскоговорящий персонал?", "acceptedAnswer": { "@type": "Answer", "text": "Да. Координаторы и переводчики на русском языке. WhatsApp-поддержка 24/7." } }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://istanbulbariatriccenter.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://istanbulbariatriccenter.com/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "ESG", "item": "https://istanbulbariatriccenter.com/esg" },
+        { "@type": "ListItem", "position": 4, "name": "ESG для пациентов из России", "item": "https://istanbulbariatriccenter.com/esg/ru" }
+      ]
+    }]
+  },
+  "/esg/ro": {
+    title: "ESG Turcia pentru pacienți din România | Slăbire fără operație | Spital JCI",
+    description: "Gastroplastie endoscopică fără chirurgie pentru pacienți din România. Spital acreditat JCI. Pachete all-inclusive. Zboruri directe din București și Cluj. Consultație gratuită.",
+    h1: "Gastroplastie Endoscopică (ESG) — Slăbire fără operație în Turcia pentru pacienți din România",
+    bodyExcerpt: "Gastroplastie Endoscopică (ESG) pentru pacienți din România la Istanbul Bariatric Center. Reducerea stomacului fără chirurgie. Spital acreditat JCI. Dr. Murat Üstün. Pachete all-inclusive cu transfer VIP, cazare hotel și urmărire nutrițională 12 luni. Zboruri directe din București și Cluj (~1,5-2 ore).",
+    canonical: SITE_URL + "/esg/ro",
+    richContent: `<section><h2>Ce este Gastroplastia Endoscopică (ESG)?</h2><p>ESG este o procedură inovatoare pentru reducerea volumului stomacului fără chirurgie. Prin gură se introduce un endoscop cu care se aplică suturi interne, reducând volumul gastric cu 70-80%. Spre deosebire de sleeve gastrectomy, nu se fac incizii, nu se îndepărtează țesut gastric, iar recuperarea este semnificativ mai rapidă. Procedura folosește tehnologia Apollo OverStitch și durează 60-90 de minute sub anestezie generală.</p></section>
+<section><h2>De ce pacienții români aleg ESG în Turcia</h2><h3>Costuri accesibile</h3><p>ESG în clinicile private din România costă între 6.000 și 12.000 €. La Istanbul Bariatric Center, pachetul all-inclusive este semnificativ mai accesibil — cu aceleași standarde internaționale. Include procedura, spitalul JCI, hotelul, transferul și 12 luni de urmărire.</p><h3>Acces rapid</h3><p>Fără liste lungi de așteptare. Consultația se organizează în câteva zile, iar tratamentul complet durează doar 3-4 zile.</p><h3>Experiență medicală</h3><p>Turcia este un lider mondial în chirurgia bariatrică. Dr. Murat Üstün a realizat mii de proceduri ESG cu rezultate excelente, la Liv Hospital acreditat JCI.</p></section>
+<section><h2>ESG vs medicamente pentru slăbire</h2><table><thead><tr><th>Factor</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Eficacitate</td><td>Limitată</td><td>Stabilă</td></tr><tr><td>Efecte secundare</td><td>Frecvente</td><td>Minime</td></tr><tr><td>Cost</td><td>Lunar, continuu</td><td>O singură dată</td></tr><tr><td>Recâștigare</td><td>Frecventă</td><td>Redusă</td></tr></tbody></table></section>
+<section><h2>ESG vs Sleeve Gastric</h2><table><thead><tr><th>Caracteristică</th><th>ESG</th><th>Sleeve Gastric</th></tr></thead><tbody><tr><td>Tip</td><td>Endoscopică</td><td>Chirurgicală</td></tr><tr><td>Recuperare</td><td>1-3 zile</td><td>2-3 săptămâni</td></tr><tr><td>Cicatrici</td><td>Niciuna</td><td>4-5 mici</td></tr><tr><td>Pierdere greutate</td><td>15-20% din greutate</td><td>60-70% din excesul ponderal</td></tr></tbody></table></section>
+<section><h2>De ce Istanbul Bariatric Center</h2><ul><li><strong>Dr. Murat Üstün</strong> — Pionier ESG în Turcia cu mii de proceduri reușite</li><li><strong>Spital acreditat JCI</strong> — Liv Hospital, standardul de aur</li><li><strong>Suport complet</strong> — Echipă dedicată pacienților internaționali</li><li><strong>Pachete all-inclusive</strong> — Procedură, spital, hotel, transfer, analize, nutriție 12 luni</li></ul></section>
+<section><h2>Procesul pacientului</h2><ol><li>Consultație online gratuită prin WhatsApp</li><li>Zbor direct la Istanbul (~1,5-2 ore din București/Cluj)</li><li>Transfer VIP de la aeroport la hotel</li><li>Investigații preoperatorii complete</li><li>Procedura ESG (60-90 minute, fără incizii)</li><li>Recuperare și întoarcere în 3-4 zile</li></ol></section>
+<section><h2>Rezultate așteptate</h2><p>Pacienții români pot aștepta o pierdere de 15-20% din greutatea corporală în 12-18 luni. La IMC 38+, media este de aproximativ 20 kg în 6 luni. Îmbunătățire semnificativă a diabetului, tensiunii și apneei de somn.</p></section>
+<section><h2>Întrebări frecvente</h2><dl><dt>ESG este acoperită de CNAS?</dt><dd>Nu, gastroplastia endoscopică nu este acoperită de asigurarea de sănătate în România. Clinicile private o oferă la 6.000-12.000 €.</dd><dt>Cât timp la Istanbul?</dt><dd>3-4 zile. Zboruri directe din București și Cluj (~1,5-2 ore).</dd><dt>Este dureroasă?</dt><dd>Se realizează sub anestezie generală. Disconfort ușor 1-3 zile după procedură.</dd><dt>Rezultatele sunt durabile?</dt><dd>Da, cu stil de viață sănătos. 12 luni de urmărire nutrițională incluse.</dd><dt>Diferența față de Ozempic?</dt><dd>ESG oferă reducere fizică permanentă a stomacului fără costuri lunare.</dd><dt>Ce IMC este necesar?</dt><dd>IMC între 30 și 40.</dd><dt>Este sigur?</dt><dd>Spital Liv Hospital acreditat JCI. Dr. Murat Üstün — mii de ESG reușite.</dd><dt>Ce include pachetul?</dt><dd>Procedura, spital JCI, analize, transfer VIP, hotel, nutriție 12 luni, medicație. Fără costuri ascunse.</dd></dl></section>
+<section><h2>Contact</h2><p>WhatsApp: +90 532 413 1143 | Email: drmuratustun@gmail.com</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Gastroplastie Endoscopică pentru pacienți din România",
+      "alternateName": ["ESG România", "ESG Turcia", "Slăbire fără operație", "Gastroplastie endoscopică"],
+      "description": "Gastroplastie Endoscopică (ESG) pentru pacienți din România la Istanbul Bariatric Center. Reducerea stomacului fără chirurgie. Spital acreditat JCI.",
+      "procedureType": "Endoscopic",
+      "bodyLocation": "Stomach",
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "ESG este acoperită de asigurarea de sănătate în România?", "acceptedAnswer": { "@type": "Answer", "text": "Nu, gastroplastia endoscopică nu este acoperită de CNAS. Clinicile private din România o oferă la prețuri de 6.000-12.000 €." } },
+        { "@type": "Question", "name": "Cât timp trebuie să stau la Istanbul?", "acceptedAnswer": { "@type": "Answer", "text": "3-4 zile. Zboruri directe din București, Cluj-Napoca și alte orașe (~1,5-2 ore)." } },
+        { "@type": "Question", "name": "Procedura este dureroasă?", "acceptedAnswer": { "@type": "Answer", "text": "ESG se realizează sub anestezie generală. După trezire, un ușor disconfort timp de 1-3 zile, ușor de gestionat." } },
+        { "@type": "Question", "name": "Rezultatele sunt durabile?", "acceptedAnswer": { "@type": "Answer", "text": "Da, cu stil de viață sănătos. Programul de urmărire nutrițională de 12 luni este inclus în toate pachetele." } },
+        { "@type": "Question", "name": "Care este diferența dintre ESG și Ozempic/Wegovy?", "acceptedAnswer": { "@type": "Answer", "text": "ESG oferă o reducere fizică permanentă a stomacului — fără costuri lunare recurente." } },
+        { "@type": "Question", "name": "Ce IMC este necesar pentru ESG?", "acceptedAnswer": { "@type": "Answer", "text": "ESG este recomandată pentru un IMC între 30 și 40." } },
+        { "@type": "Question", "name": "Este sigur tratamentul medical în străinătate?", "acceptedAnswer": { "@type": "Answer", "text": "Istanbul Bariatric Center operează în spitalul Liv Hospital, acreditat JCI — standardul de aur mondial. Dr. Murat Üstün a realizat mii de proceduri ESG." } },
+        { "@type": "Question", "name": "Ce include pachetul complet?", "acceptedAnswer": { "@type": "Answer", "text": "Procedura completă, spital JCI, analize, transfer VIP, cazare hotel, medicație, urmărire nutrițională 12 luni. Fără costuri ascunse." } }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://istanbulbariatriccenter.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://istanbulbariatriccenter.com/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "ESG", "item": "https://istanbulbariatriccenter.com/esg" },
+        { "@type": "ListItem", "position": 4, "name": "ESG pentru pacienți din România", "item": "https://istanbulbariatriccenter.com/esg/ro" }
+      ]
+    }]
+  },
   "/post-bariatric-surgery": {
     title: "Post Bariatric Body Contouring Surgery - Istanbul Bariatric Center",
     description: "Post bariatric body contouring surgery in Istanbul. Tummy tuck, arm lift, thigh lift, breast lift after major weight loss. Complete your transformation.",

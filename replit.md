@@ -127,7 +127,9 @@ The backend serves the React SPA in production and provides API endpoints for co
 - **Features**: Interactive BMI/IMC calculator, FAQ accordion, comparison tables (ESG vs medications, ESG vs gastric sleeve), step-by-step journey timeline, country-specific patient testimonials, internal links section, country flags
 - **SEO**: Full SSR injection, JSON-LD MedicalProcedure schema, breadcrumbs, FAQ schema, sitemap entry, llms.txt entry
 - **Italian Page**: `/esg/it` — `client/src/pages/esg-it.tsx` — Full Italian-language ESG page targeting "ESG Italia", "dimagrire senza chirurgia", "gastroplastica endoscopica prezzo", "alternativa Ozempic Italia". Tone: clinical authority, trust-driven, transparent pricing. All-inclusive pricing: €6,450. AI-generated images: `esg-it-hero.webp`, `esg-it-istanbul.webp`, `esg-it-consultation.webp`
-- **Extensible**: Designed for future country pages (e.g., `/esg/pl`)
+- **Russian Page**: `/esg/ru` — `client/src/pages/esg-ru.tsx` — Full Russian-language ESG page targeting "ESG Россия", "похудение без операции", "гастропластика Турция". Tone: doctor authority, trust-driven. Emphasizes Russian-speaking staff, visa-free travel, CIS coverage. AI-generated images: `esg-ru-hero.webp`, `esg-ru-istanbul.webp`, `esg-ru-consultation.webp`
+- **Romanian Page**: `/esg/ro` — `client/src/pages/esg-ro.tsx` — Full Romanian-language ESG page targeting "ESG România", "slăbire fără operație", "tratament obezitate Turcia". Tone: price-sensitive, conversion-focused. Short flight (~1.5-2h from București/Cluj). AI-generated images: `esg-ro-hero.webp`, `esg-ro-istanbul.webp`, `esg-ro-consultation.webp`
+- **Extensible**: Designed for future country pages (e.g., `/esg/pl`, `/esg/se`)
 
 ### AI Crawler Accessibility
 - **robots.txt**: `client/public/robots.txt` — Expanded to 25+ named AI crawlers (GPTBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended, Grokbot, DeepSeekBot, FacebookBot, MetaBot, Applebot, CopilotBot, etc.) with Disallow for `/api/`, `/admin`, `/superadmin`
