@@ -143,6 +143,7 @@ export async function registerRoutes(
       "/esg/fr": { priority: "0.9", changefreq: "monthly" },
       "/esg/es": { priority: "0.9", changefreq: "monthly" },
       "/esg/nl": { priority: "0.9", changefreq: "monthly" },
+      "/esg/ar": { priority: "0.9", changefreq: "monthly" },
       "/post-bariatric-surgery": { priority: "0.7", changefreq: "monthly" },
       "/insurance": { priority: "0.6", changefreq: "monthly" },
       "/health-profile": { priority: "0.7", changefreq: "monthly" },
@@ -192,6 +193,7 @@ export async function registerRoutes(
 - [ESG pour patients français](${BASE_URL}/esg/fr): Sleeve gastroplastie endoscopique pour patients en France. Jusqu'à 70% moins cher qu'en France. Forfaits tout compris à partir d'environ 5 800 €. Accompagnement francophone.
 - [ESG para pacientes españoles](${BASE_URL}/esg/es): Gastroplastia endoscópica para pacientes en España. Hasta 70% más barato que en España. Paquetes todo incluido desde aprox. 5.800 €. Atención en español.
 - [ESG voor Nederlandse patiënten](${BASE_URL}/esg/nl): Endoscopische sleeve gastroplastiek voor patiënten uit Nederland. Tot 70% goedkoper dan in Nederland. All-inclusive pakketten vanaf circa € 5.800. Persoonlijke begeleiding.
+- [ESG للمرضى من الخليج](${BASE_URL}/esg/ar): عملية طي المعدة بالمنظار للمرضى من السعودية والإمارات. باقات شاملة من ٧,٥٠٠ دولار. مستشفى معتمد JCI. خدمة VIP. مترجمون عرب.
 - [Duodenal Switch](${BASE_URL}/duodenal-switch): From £4,400. Complex procedure combining sleeve with intestinal bypass. Maximum weight loss for very high BMI patients.
 - [Transit Bipartition](${BASE_URL}/transit-bipartition): Advanced metabolic surgery combining sleeve gastrectomy with intestinal rerouting for enhanced weight loss and diabetes resolution.
 - [Post-Bariatric Surgery](${BASE_URL}/post-bariatric-surgery): Body contouring procedures after significant weight loss including tummy tuck, arm lift, and thigh lift.

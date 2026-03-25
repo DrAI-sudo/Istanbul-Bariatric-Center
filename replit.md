@@ -123,9 +123,10 @@ The backend serves the React SPA in production and provides API endpoints for co
 - **French Page**: `/esg/fr` — `client/src/pages/esg-fr.tsx` — Full French-language ESG page targeting "ESG France", "sleeve sans chirurgie", "perte de poids sans opération". Tone: medical credibility, reassurance, safety emphasis. AI-generated images: `esg-fr-hero.webp`, `esg-fr-istanbul.webp`, `esg-fr-consultation.webp`
 - **Spanish Page**: `/esg/es` — `client/src/pages/esg-es.tsx` — Full Spanish-language ESG page targeting "ESG España", "adelgazar sin cirugía", "gastroplastia endoscópica precio", "alternativa Ozempic España". Bilingual SEO for Spain + LATAM. AI-generated images: `esg-es-hero.webp`, `esg-es-istanbul.webp`, `esg-es-consultation.webp`
 - **Dutch Page**: `/esg/nl` — `client/src/pages/esg-nl.tsx` — Full Dutch-language ESG page targeting "ESG Nederland", "afvallen zonder operatie", "maag verkleinen zonder operatie", "alternatief Ozempic". Tone: pragmatic, value-conscious, trust-focused. AI-generated images: `esg-nl-hero.webp`, `esg-nl-istanbul.webp`, `esg-nl-consultation.webp`
+- **Arabic Page**: `/esg/ar` — `client/src/pages/esg-ar.tsx` — Full Arabic RTL page targeting Gulf patients (Saudi Arabia, UAE, Kuwait, Qatar). Premium/luxury VIP positioning. Pricing: $7,500 procedure / $8,500 all-inclusive. RTL layout with dir="rtl" set on mount. Amber/gold accent colors. AI-generated images: `esg-ar-hero.webp`, `esg-ar-istanbul.webp`, `esg-ar-consultation.webp`
 - **Features**: Interactive BMI/IMC calculator, FAQ accordion, comparison tables (ESG vs medications, ESG vs gastric sleeve), step-by-step journey timeline, country-specific patient testimonials, internal links section, country flags
 - **SEO**: Full SSR injection, JSON-LD MedicalProcedure schema, breadcrumbs, FAQ schema, sitemap entry, llms.txt entry
-- **Extensible**: Designed for future country pages (e.g., `/esg/ar`, `/esg/it`, `/esg/pl`)
+- **Extensible**: Designed for future country pages (e.g., `/esg/it`, `/esg/pl`)
 
 ### AI Crawler Accessibility
 - **robots.txt**: `client/public/robots.txt` — Expanded to 25+ named AI crawlers (GPTBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended, Grokbot, DeepSeekBot, FacebookBot, MetaBot, Applebot, CopilotBot, etc.) with Disallow for `/api/`, `/admin`, `/superadmin`
