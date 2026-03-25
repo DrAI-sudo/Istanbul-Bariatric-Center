@@ -23,6 +23,7 @@ const DuodenalSwitch = lazy(() => import("@/pages/duodenal-switch"));
 const TransitBipartition = lazy(() => import("@/pages/transit-bipartition"));
 const ESG = lazy(() => import("@/pages/esg"));
 const ESGUK = lazy(() => import("@/pages/esg-uk"));
+const ESGDE = lazy(() => import("@/pages/esg-de"));
 const PostBariatricSurgery = lazy(() => import("@/pages/post-bariatric-surgery"));
 const Insurance = lazy(() => import("@/pages/insurance"));
 const HealthProfile = lazy(() => import("@/pages/health-profile"));
@@ -72,6 +73,7 @@ function Router() {
           <Route path="/transit-bipartition" component={TransitBipartition} />
           <Route path="/esg" component={ESG} />
           <Route path="/esg/uk" component={ESGUK} />
+          <Route path="/esg/de" component={ESGDE} />
           <Route path="/post-bariatric-surgery" component={PostBariatricSurgery} />
           <Route path="/insurance" component={Insurance} />
           <Route path="/health-profile" component={HealthProfile} />

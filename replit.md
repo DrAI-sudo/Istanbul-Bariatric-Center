@@ -119,9 +119,10 @@ The backend serves the React SPA in production and provides API endpoints for co
 ### Country-Specific Landing Pages
 - **Architecture**: Country-specific ESG landing pages under `/esg/{country}` route pattern
 - **UK Page**: `/esg/uk` — `client/src/pages/esg-uk.tsx` — 2500+ word local SEO page targeting "ESG UK", "endoscopic sleeve gastroplasty UK", "weight loss Turkey UK patients"
-- **Features**: Interactive BMI calculator, FAQ accordion, comparison tables (ESG vs medications, ESG vs gastric sleeve), step-by-step journey timeline, UK patient testimonials, internal links section, country flags
+- **German Page**: `/esg/de` — `client/src/pages/esg-de.tsx` — Full German-language ESG page targeting "ESG Deutschland", "Magenverkleinerung ohne OP", "ESG Türkei Kosten". AI-generated images: `esg-de-hero.webp`, `esg-de-istanbul.webp`, `esg-de-consultation.webp`
+- **Features**: Interactive BMI calculator, FAQ accordion, comparison tables (ESG vs medications, ESG vs gastric sleeve), step-by-step journey timeline, country-specific patient testimonials, internal links section, country flags
 - **SEO**: Full SSR injection, JSON-LD MedicalProcedure schema, breadcrumbs, FAQ schema, sitemap entry, llms.txt entry
-- **Extensible**: Designed for future country pages (e.g., `/esg/germany`, `/esg/ireland`)
+- **Extensible**: Designed for future country pages (e.g., `/esg/ireland`, `/esg/fr`)
 
 ### AI Crawler Accessibility
 - **robots.txt**: `client/public/robots.txt` — Expanded to 25+ named AI crawlers (GPTBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended, Grokbot, DeepSeekBot, FacebookBot, MetaBot, Applebot, CopilotBot, etc.) with Disallow for `/api/`, `/admin`, `/superadmin`

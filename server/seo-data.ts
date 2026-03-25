@@ -311,6 +311,62 @@ const staticPages: Record<string, PageSEO> = {
       ]
     }]
   },
+  "/esg/de": {
+    title: "ESG Türkei für deutsche Patienten | Magenverkleinerung ohne OP | Bis zu 70 % sparen",
+    description: "Endoskopische Sleeve Gastroplastik für Patienten aus Deutschland. Bis zu 70 % günstiger als in Deutschland. All-Inclusive-Pakete ab ca. 5.800 € im JCI-akkreditierten Krankenhaus. Jetzt kostenlos beraten lassen.",
+    h1: "Endoskopische Sleeve Gastroplastik (ESG) für Patienten aus Deutschland — Abnehmen ohne Operation in der Türkei",
+    bodyExcerpt: "ESG für deutsche Patienten im Istanbul Bariatric Center. Minimalinvasive, schnittfreie Magenverkleinerung mit All-Inclusive-Paketen ab ca. 5.800 €. Bis zu 70 % günstiger als in Deutschland. JCI-akkreditiertes Liv Hospital, Pionier-Chirurg Dr. Murat Üstün, deutschsprachige Patientenbetreuung, 12-monatige Ernährungsberatung inklusive.",
+    canonical: SITE_URL + "/esg/de",
+    richContent: `<section><h2>Was ist die Endoskopische Sleeve Gastroplastik (ESG)?</h2><p>Die Endoskopische Sleeve Gastroplastik (ESG) ist ein innovatives, schnittfreies Verfahren zur Gewichtsreduktion, bei dem der Magen mithilfe eines Endoskops verkleinert wird, das über den Mund eingeführt wird. Im Gegensatz zur klassischen Schlauchmagen-Operation werden keine Schnitte am Bauch vorgenommen, kein Magengewebe entfernt, und die Erholung ist deutlich schneller. Das Verfahren nutzt die Apollo OverStitch-Technologie, um den Magen um bis zu 70–80 % zu verkleinern. Der Eingriff dauert ca. 60–90 Minuten unter Vollnarkose.</p><p>Für deutsche Patienten stellt die ESG eine bahnbrechende Alternative dar — sowohl zur chirurgischen Gewichtsreduktion als auch zum langfristigen Einsatz von Medikamenten wie Ozempic oder Wegovy.</p></section>
+<section><h2>Warum deutsche Patienten ESG in der Türkei wählen</h2><h3>Begrenzte Verfügbarkeit in Deutschland</h3><p>Die ESG ist in Deutschland noch nicht flächendeckend verfügbar. Viele Kliniken bieten das Verfahren nicht an, und die gesetzlichen Krankenkassen übernehmen die Kosten in der Regel nicht. Private Anbieter sind selten und haben oft lange Wartelisten.</p><h3>Erhebliche Kostenersparnis</h3><p>In Deutschland kostet ESG typischerweise 8.000–15.000 € in privaten Kliniken. Im Istanbul Bariatric Center beginnen All-Inclusive-Pakete ab ca. 5.800 € (£4.950) — eine Ersparnis von bis zu 60–70 %. Das Paket umfasst Eingriff, Krankenhausaufenthalt, Hotel, Flughafentransfer, Voruntersuchungen und 12-monatige Ernährungsberatung.</p><h3>Keine Wartezeiten</h3><p>Selbst in Großstädten wie Berlin, München, Frankfurt oder Hamburg können Wartezeiten für private Beratungen Wochen oder Monate betragen. Im Istanbul Bariatric Center erhalten Sie Ihre Beratung innerhalb weniger Tage.</p></section>
+<section><h2>ESG vs Medikamente zur Gewichtsreduktion</h2><p>Viele Patienten in Deutschland beginnen mit GLP-1-Medikamenten wie Ozempic oder Wegovy. Die ESG wird zunehmend als effektiver nächster Schritt gesehen, da sie eine einmalige physische Magenverkleinerung bietet — ohne laufende Medikamentenkosten.</p><table><thead><tr><th>Faktor</th><th>Ozempic / Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Dauerhafte Wirkung</td><td>Begrenzt</td><td>Stabiler</td></tr><tr><td>Nebenwirkungen</td><td>Häufig</td><td>Gering</td></tr><tr><td>Kosten</td><td>200–400 €/Monat</td><td>Einmalig ab 5.800 €</td></tr><tr><td>Jojo-Effekt</td><td>Häufig</td><td>Reduziert</td></tr></tbody></table></section>
+<section><h2>ESG vs Schlauchmagen-Operation</h2><table><thead><tr><th>Merkmal</th><th>ESG</th><th>Schlauchmagen</th></tr></thead><tbody><tr><td>Verfahren</td><td>Endoskopisch</td><td>Chirurgisch</td></tr><tr><td>Erholung</td><td>1–3 Tage</td><td>2–3 Wochen</td></tr><tr><td>Narben</td><td>Keine</td><td>4–5 kleine Narben</td></tr><tr><td>Gewichtsverlust</td><td>15–20 % Körpergewicht</td><td>60–70 % Übergewicht</td></tr><tr><td>Reversibel</td><td>Möglich</td><td>Nein</td></tr></tbody></table></section>
+<section><h2>Warum das Istanbul Bariatric Center?</h2><ul><li><strong>Dr. Murat Üstün</strong> — Pionier der ESG in der Türkei mit Tausenden erfolgreicher Eingriffe</li><li><strong>JCI-akkreditiertes Krankenhaus</strong> — Liv Hospital mit internationalem Goldstandard</li><li><strong>Deutsches Patienten-Team</strong> — Klare Kommunikation, transparente Preise, strukturierte Nachsorge</li><li><strong>All-Inclusive ab ca. 5.800 €</strong> — Eingriff, Krankenhaus, Hotel, Transfer, Voruntersuchungen, 12-monatige Ernährungsberatung</li></ul></section>
+<section><h2>Behandlungsablauf</h2><ol><li>Kostenlose Online-Beratung via WhatsApp</li><li>Direktflug nach Istanbul (2,5–3 Stunden)</li><li>VIP-Flughafentransfer zum Hotel</li><li>Präoperative Untersuchung im Krankenhaus</li><li>ESG-Eingriff (60–90 Minuten, keine Schnitte)</li><li>Erholung und Rückreise innerhalb von 3–4 Tagen</li></ol></section>
+<section><h2>ESG-Ergebnisse</h2><p>Deutsche Patienten können mit 15–20 % Gewichtsverlust über 12–18 Monate rechnen. Patienten mit BMI 38+ verlieren durchschnittlich ca. 20 kg in 6 Monaten. Deutliche Verbesserungen bei Typ-2-Diabetes, Bluthochdruck und Schlafapnoe werden häufig berichtet.</p></section>
+<section><h2>Sicherheit & Qualitätsstandards</h2><p>Die ESG gilt als eines der sichersten Verfahren zur Gewichtsreduktion. Dr. Murat Üstün hat Tausende ESG-Eingriffe mit hervorragenden Sicherheitsergebnissen durchgeführt. Alle Eingriffe finden im JCI-akkreditierten Liv Hospital statt.</p></section>
+<section><h2>Leben nach der ESG</h2><p>Erste 8 Stunden: nur klare Flüssigkeiten. Woche 1–2: Flüssigphase. Woche 3–6: halbfeste Nahrung. Ab Woche 7: schrittweiser Übergang zu fester Nahrung. Monat 3–12: fortlaufende Ernährungsberatung. Jedes Paket beinhaltet 12-monatige qualifizierte Ernährungsberatung.</p></section>
+<section><h2>Häufig gestellte Fragen</h2><dl><dt>Wird ESG von der Krankenkasse übernommen?</dt><dd>In der Regel übernehmen gesetzliche Krankenkassen in Deutschland die Kosten für ESG nicht. Private Versicherungen prüfen Einzelfälle.</dd><dt>Wie lange muss ich in Istanbul bleiben?</dt><dd>Die meisten deutschen Patienten bleiben 3–4 Tage. Direktflüge von Berlin, Frankfurt, München, Hamburg nach Istanbul dauern 2,5–3 Stunden.</dd><dt>Ist der Eingriff schmerzhaft?</dt><dd>Die ESG wird unter Vollnarkose durchgeführt. Nach dem Aufwachen können leichte Beschwerden auftreten, die 1–3 Tage anhalten.</dd><dt>Nehme ich nach der ESG wieder zu?</dt><dd>Langfristige Ergebnisse hängen von Ihrer Mitarbeit ab. Unser 12-monatiges Nachsorgeprogramm unterstützt Sie dabei.</dd><dt>Wie schneidet ESG im Vergleich zu Ozempic ab?</dt><dd>ESG bietet eine einmalige physische Magenverkleinerung ohne laufende Kosten. Viele Patienten sehen ESG als nächsten Schritt, wenn Medikamente nicht mehr wirken.</dd><dt>Welchen BMI brauche ich?</dt><dd>ESG wird für BMI 30–40 empfohlen.</dd><dt>Ist ein Eingriff im Ausland sicher?</dt><dd>Das Istanbul Bariatric Center arbeitet im JCI-akkreditierten Liv Hospital. Dr. Murat Üstün hat Tausende erfolgreiche ESG-Eingriffe durchgeführt.</dd><dt>Was ist im Paket enthalten?</dt><dd>Eingriff, JCI-Krankenhaus, Voruntersuchungen, VIP-Transfer, Hotel, 12-monatige Ernährungsberatung, Medikamente, Nachsorge. Keine versteckten Kosten.</dd></dl></section>
+<section><h2>Kontakt</h2><p>WhatsApp: +90 532 413 1143 | E-Mail: drmuratustun@gmail.com</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Endoskopische Sleeve Gastroplastik für deutsche Patienten",
+      "alternateName": ["ESG Deutschland", "ESG Türkei", "Magenverkleinerung ohne OP"],
+      "description": "Minimalinvasive Magenverkleinerung für Patienten aus Deutschland. Magen wird um 70–80 % verkleinert. All-Inclusive-Pakete ab ca. 5.800 € im JCI-akkreditierten Krankenhaus in Istanbul.",
+      "procedureType": "Noninvasive",
+      "bodyLocation": "Stomach",
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" },
+      "offers": [
+        { "@type": "Offer", "name": "Relaxation Paket", "price": "4950", "priceCurrency": "GBP", "description": "ESG-Eingriff, JCI-Krankenhaus, Radisson Hotel, Ernährungsberatung 12 Monate" },
+        { "@type": "Offer", "name": "Luxury Paket", "price": "5950", "priceCurrency": "GBP", "description": "Premium VIP-Erfahrung mit erweitertem Hotel und umfassender Nachsorge" }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Wird ESG von der Krankenkasse übernommen?", "acceptedAnswer": { "@type": "Answer", "text": "In der Regel übernehmen gesetzliche Krankenkassen in Deutschland die Kosten für ESG nicht. Private Versicherungen prüfen Einzelfälle." } },
+        { "@type": "Question", "name": "Wie lange muss ich in Istanbul bleiben?", "acceptedAnswer": { "@type": "Answer", "text": "Die meisten deutschen Patienten bleiben 3–4 Tage. Direktflüge von Berlin, Frankfurt, München, Hamburg nach Istanbul dauern 2,5–3 Stunden." } },
+        { "@type": "Question", "name": "Ist der Eingriff schmerzhaft?", "acceptedAnswer": { "@type": "Answer", "text": "Die ESG wird unter Vollnarkose durchgeführt. Nach dem Aufwachen können leichte Beschwerden auftreten, die 1–3 Tage anhalten und mit Medikamenten behandelbar sind." } },
+        { "@type": "Question", "name": "Nehme ich nach der ESG wieder zu?", "acceptedAnswer": { "@type": "Answer", "text": "Langfristige Ergebnisse hängen von Ihrer Mitarbeit ab. Unser 12-monatiges Nachsorgeprogramm mit Ernährungsberatung unterstützt Sie dabei." } },
+        { "@type": "Question", "name": "Wie schneidet ESG im Vergleich zu Ozempic ab?", "acceptedAnswer": { "@type": "Answer", "text": "ESG bietet eine einmalige physische Magenverkleinerung ohne laufende Kosten. Viele Patienten sehen ESG als nächsten Schritt, wenn Medikamente nicht mehr ausreichend wirken." } },
+        { "@type": "Question", "name": "Welchen BMI brauche ich für ESG?", "acceptedAnswer": { "@type": "Answer", "text": "ESG wird für Patienten mit BMI 30–40 empfohlen, die mit Diäten und Sport allein keine dauerhaften Ergebnisse erzielen konnten." } },
+        { "@type": "Question", "name": "Ist ein medizinischer Eingriff im Ausland sicher?", "acceptedAnswer": { "@type": "Answer", "text": "Das Istanbul Bariatric Center arbeitet im JCI-akkreditierten Liv Hospital — dem internationalen Goldstandard. Dr. Murat Üstün hat Tausende erfolgreiche ESG-Eingriffe durchgeführt." } },
+        { "@type": "Question", "name": "Was ist im All-Inclusive-Paket enthalten?", "acceptedAnswer": { "@type": "Answer", "text": "Eingriff, JCI-Krankenhaus, Voruntersuchungen, VIP-Flughafentransfer, Hotel, 12-monatige Ernährungsberatung, Medikamente und Nachsorge. Keine versteckten Kosten." } }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://istanbulbariatriccenter.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://istanbulbariatriccenter.com/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "ESG", "item": "https://istanbulbariatriccenter.com/esg" },
+        { "@type": "ListItem", "position": 4, "name": "ESG für deutsche Patienten", "item": "https://istanbulbariatriccenter.com/esg/de" }
+      ]
+    }]
+  },
   "/post-bariatric-surgery": {
     title: "Post Bariatric Body Contouring Surgery - Istanbul Bariatric Center",
     description: "Post bariatric body contouring surgery in Istanbul. Tummy tuck, arm lift, thigh lift, breast lift after major weight loss. Complete your transformation.",
