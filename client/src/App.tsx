@@ -39,6 +39,7 @@ const ESGHU = lazy(() => import("@/pages/esg-hu"));
 const ESGFI = lazy(() => import("@/pages/esg-fi"));
 const ESGCA = lazy(() => import("@/pages/esg-ca"));
 const ESGUS = lazy(() => import("@/pages/esg-us"));
+const ESGANZ = lazy(() => import("@/pages/esg-anz"));
 const PostBariatricSurgery = lazy(() => import("@/pages/post-bariatric-surgery"));
 const Insurance = lazy(() => import("@/pages/insurance"));
 const HealthProfile = lazy(() => import("@/pages/health-profile"));
@@ -104,6 +105,7 @@ function Router() {
           <Route path="/esg/fi" component={ESGFI} />
           <Route path="/esg/ca" component={ESGCA} />
           <Route path="/esg/us" component={ESGUS} />
+          <Route path="/esg/anz" component={ESGANZ} />
           <Route path="/post-bariatric-surgery" component={PostBariatricSurgery} />
           <Route path="/insurance" component={Insurance} />
           <Route path="/health-profile" component={HealthProfile} />

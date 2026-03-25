@@ -1146,6 +1146,56 @@ const staticPages: Record<string, PageSEO> = {
       ]
     }]
   },
+  "/esg/anz": {
+    title: "ESG Turkey for Australia & New Zealand | Safe, Minimally Invasive Weight Loss | $8,500 USD All-Inclusive",
+    description: "Endoscopic Sleeve Gastroplasty for Australian and New Zealand patients. Procedure $7,500 USD. All-inclusive $8,500 USD at JCI-accredited hospital. Safe, minimally invasive weight loss. Free consultation.",
+    h1: "Endoscopic Sleeve Gastroplasty (ESG) — Safe, Minimally Invasive Weight Loss in Istanbul",
+    bodyExcerpt: "Endoscopic Sleeve Gastroplasty (ESG) for Australian and New Zealand patients at Istanbul Bariatric Center. Minimally invasive stomach reduction without surgery. JCI-accredited hospital. Dr. Murat Üstün. Procedure $7,500 USD or all-inclusive $8,500 USD with VIP transfers, 4-star hotel, and 12-month dietitian support via telehealth. Flights from Sydney, Melbourne, Auckland.",
+    canonical: SITE_URL + "/esg/anz",
+    richContent: `<section><h2>How ESG Works</h2><p>ESG reduces the stomach's capacity through a non-surgical, endoscopic procedure, allowing patients to feel full faster and consume less food. A flexible endoscope is passed through the mouth, and internal sutures reduce stomach volume by 70–80%. Unlike traditional sleeve gastrectomy, no tissue is removed and the procedure is potentially reversible. Published clinical data demonstrates 15–20% total body weight loss within 6–12 months, with durable results at 2–5 year follow-up. The procedure takes approximately 60–90 minutes under conscious sedation.</p></section>
+<section><h2>Why ANZ Patients Choose ESG Abroad</h2><h3>Limited Access Locally</h3><p>ESG is not widely available in Australia or New Zealand. Private clinics often charge $15,000–$25,000 AUD/NZD, and public access is limited with long waitlists that can stretch to 12+ months.</p><h3>Affordable, Transparent Packages</h3><p>Our all-inclusive package is $8,500 USD (~$13,000 AUD / ~$14,200 NZD) — significantly less than ANZ private clinics, even after accounting for flights. Procedure-only option at $7,500 USD (~$11,500 AUD / ~$12,500 NZD).</p><h3>Internationally Accredited Care</h3><p>JCI-accredited hospitals in Istanbul. Experienced ESG specialists with thousands of procedures. Turkey is the world's 4th-largest medical tourism destination with over 1.2 million international patients annually.</p></section>
+<section><h2>ESG vs Weight Loss Medications</h2><table><thead><tr><th>Factor</th><th>Medications</th><th>ESG</th></tr></thead><tbody><tr><td>Effectiveness</td><td>Limited — significant weight regain after stopping</td><td>Sustainable at 2–5 year follow-up</td></tr><tr><td>Side effects</td><td>Common (nausea, diarrhoea, pancreatitis risk)</td><td>Mild and rare (1–3 days)</td></tr><tr><td>Cost</td><td>Ongoing: $200–$400+/month AUD</td><td>One-time $8,500 USD</td></tr><tr><td>Treatment type</td><td>Weekly injections indefinitely</td><td>Single endoscopic procedure</td></tr></tbody></table></section>
+<section><h2>ESG vs Gastric Sleeve Surgery</h2><table><thead><tr><th>Feature</th><th>ESG</th><th>Gastric Sleeve</th></tr></thead><tbody><tr><td>Invasiveness</td><td>Minimal</td><td>High</td></tr><tr><td>Recovery</td><td>1–3 days</td><td>2–4 weeks</td></tr><tr><td>Scarring</td><td>None</td><td>4–5 small scars</td></tr><tr><td>Complications</td><td>&lt;1% serious</td><td>1–3% serious</td></tr><tr><td>Weight loss</td><td>15–20% body weight</td><td>60–70% excess weight</td></tr><tr><td>ANZ cost</td><td>$15,000–$25,000 AUD (ANZ) / $8,500 USD (Istanbul)</td><td>$15,000–$35,000 AUD</td></tr></tbody></table></section>
+<section><h2>Why Istanbul Bariatric Center</h2><ul><li><strong>Experienced team</strong> — Dr. Murat Üstün, pioneer of ESG in Turkey with thousands of successful procedures</li><li><strong>JCI-accredited hospital</strong> — Liv Hospital, the gold standard for healthcare quality worldwide</li><li><strong>Full international support</strong> — Pre-travel consultation, VIP transfers, English-speaking coordinators, telehealth compatible with AEST/NZST</li><li><strong>Modern facilities</strong> — Cutting-edge endoscopic units, comprehensive infection control protocols</li></ul></section>
+<section><h2>Treatment Process for ANZ Patients</h2><ol><li>Initial online consultation — medical team review within 24–48 hours</li><li>Travel to Istanbul — flights from Sydney (~18h), Melbourne (~19h), Auckland (~22h) via Turkish Airlines, Emirates, Qatar Airways, Singapore Airlines</li><li>VIP transfer from Istanbul Airport (IST) to 4-star hotel</li><li>Comprehensive pre-operative assessments (blood panel, ECG, ultrasound)</li><li>ESG procedure (60–90 minutes, conscious sedation, no incisions)</li><li>Recovery and return home within 3–4 nights, telehealth follow-up compatible with AEST/NZST</li></ol></section>
+<section><h2>Expected Results</h2><p>Based on published clinical data: 15–20% total body weight loss within 6–12 months. Improved metabolic health markers including blood sugar, cholesterol, and blood pressure. Increased energy, mobility, and overall quality of life.</p></section>
+<section><h2>Frequently Asked Questions</h2><dl><dt>Will I feel pain during ESG?</dt><dd>Sedation ensures comfort; mild bloating or cramping is possible for 1–3 days.</dd><dt>How long in Istanbul?</dt><dd>Usually 3–4 nights, including procedure and recovery.</dd><dt>Are results sustainable?</dt><dd>Yes. Published studies show durable 15–20% weight loss at 2–5 year follow-up with dietary adherence.</dd><dt>Is ESG available in Australia/NZ?</dt><dd>Not widely. Private clinics charge $15,000–$25,000 AUD/NZD. Public access is very limited.</dd><dt>ESG vs Ozempic?</dt><dd>ESG is a one-time structural solution. Medications cost $200–$400+/month AUD with weight regain after stopping.</dd><dt>What BMI qualifies?</dt><dd>BMI 30–40.</dd><dt>Is Turkey safe?</dt><dd>JCI-accredited Liv Hospital — gold standard for patient safety worldwide. Turkey is the world's 4th-largest medical tourism destination.</dd><dt>What's included?</dt><dd>Procedure, JCI hospital, labs, VIP transfers, 4-star hotel, medications, 12-month dietitian support via telehealth.</dd></dl></section>
+<section><h2>Contact</h2><p>WhatsApp: +90 532 413 1143 | Email: drmuratustun@gmail.com</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Endoscopic Sleeve Gastroplasty for Australian and New Zealand Patients",
+      "alternateName": ["ESG Australia", "ESG New Zealand", "ESG ANZ", "Weight loss without surgery Australia", "Bariatric Turkey for Australians"],
+      "description": "Endoscopic Sleeve Gastroplasty (ESG) for Australian and New Zealand patients at Istanbul Bariatric Center. Minimally invasive stomach reduction. JCI-accredited hospital.",
+      "procedureType": "Endoscopic",
+      "bodyLocation": "Stomach",
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Will I feel pain during ESG?", "acceptedAnswer": { "@type": "Answer", "text": "Sedation ensures comfort; mild bloating or cramping is possible for 1–3 days post-procedure." } },
+        { "@type": "Question", "name": "How long do I need to stay in Istanbul?", "acceptedAnswer": { "@type": "Answer", "text": "Usually 3–4 nights, including procedure and recovery. Flights from Sydney (~18h), Melbourne (~19h), Auckland (~22h)." } },
+        { "@type": "Question", "name": "Are the results sustainable?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Published studies demonstrate 15–20% total body weight loss with durable results at 2–5 year follow-up." } },
+        { "@type": "Question", "name": "Is ESG available in Australia or New Zealand?", "acceptedAnswer": { "@type": "Answer", "text": "Not widely. Private clinics charge $15,000–$25,000 AUD/NZD. Public access is limited with long waitlists." } },
+        { "@type": "Question", "name": "How does ESG compare to Ozempic or Wegovy?", "acceptedAnswer": { "@type": "Answer", "text": "ESG is a one-time structural solution. Medications cost $200–$400+/month AUD with significant weight regain after stopping." } },
+        { "@type": "Question", "name": "What BMI qualifies for ESG?", "acceptedAnswer": { "@type": "Answer", "text": "ESG is recommended for patients with a BMI between 30 and 40." } },
+        { "@type": "Question", "name": "Is it safe to have medical treatment in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "JCI-accredited Liv Hospital — gold standard for patient safety. Turkey is the world's 4th-largest medical tourism destination with 1.2M+ patients annually." } },
+        { "@type": "Question", "name": "What does the all-inclusive package include?", "acceptedAnswer": { "@type": "Answer", "text": "Complete ESG procedure, JCI hospital, labs, VIP transfers, 4-star hotel, medications, and 12-month dietitian support via telehealth." } }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://istanbulbariatriccenter.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://istanbulbariatriccenter.com/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "ESG", "item": "https://istanbulbariatriccenter.com/esg" },
+        { "@type": "ListItem", "position": 4, "name": "ESG for ANZ Patients", "item": "https://istanbulbariatriccenter.com/esg/anz" }
+      ]
+    }]
+  },
   "/post-bariatric-surgery": {
     title: "Post Bariatric Body Contouring Surgery - Istanbul Bariatric Center",
     description: "Post bariatric body contouring surgery in Istanbul. Tummy tuck, arm lift, thigh lift, breast lift after major weight loss. Complete your transformation.",
