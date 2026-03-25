@@ -479,6 +479,62 @@ const staticPages: Record<string, PageSEO> = {
       ]
     }]
   },
+  "/esg/nl": {
+    title: "ESG Turkije voor Nederlandse patiënten | Afvallen zonder operatie | Tot 70% besparing",
+    description: "Endoscopische sleeve gastroplastiek zonder operatie voor patiënten uit Nederland. Tot 70% goedkoper dan in Nederland. All-inclusive pakketten vanaf circa € 5.800 in JCI-geaccrediteerd ziekenhuis. Gratis consult.",
+    h1: "Endoscopische Sleeve Gastroplastiek (ESG) voor patiënten uit Nederland — Afvallen zonder operatie in Turkije",
+    bodyExcerpt: "ESG voor Nederlandse patiënten bij Istanbul Bariatric Center. Maagverkleining zonder operatie met all-inclusive pakketten vanaf circa € 5.800. Tot 70% goedkoper dan in Nederland. JCI-geaccrediteerd ziekenhuis, pionier Dr. Murat Üstün, persoonlijke begeleiding, 12 maanden voedingsbegeleiding inbegrepen.",
+    canonical: SITE_URL + "/esg/nl",
+    richContent: `<section><h2>Wat is de Endoscopische Sleeve Gastroplastiek (ESG)?</h2><p>De ESG is een innovatieve procedure voor maagverkleining zonder operatie. Via de mond wordt een endoscoop ingebracht waarmee interne hechtingen worden geplaatst die het maagvolume met 70 tot 80% verkleinen. In tegenstelling tot de klassieke maagverkleining (sleeve gastrectomy) worden er geen sneden gemaakt, wordt er geen maagweefsel verwijderd en is het herstel aanzienlijk sneller. De procedure maakt gebruik van de Apollo OverStitch-technologie en duurt circa 60 tot 90 minuten onder algehele narcose.</p><p>Voor Nederlandse patiënten vult de ESG een belangrijke leemte — tussen leefstijlmaatregelen die niet hebben gewerkt en een invasieve operatie waarvoor velen niet in aanmerking komen of niet klaar voor zijn.</p></section>
+<section><h2>Waarom Nederlandse patiënten voor ESG in Turkije kiezen</h2><h3>Beperkte beschikbaarheid in Nederland</h3><p>De ESG is in Nederland nog niet breed beschikbaar. De procedure wordt niet aangeboden in de reguliere ziekenhuiszorg en de criteria voor bariatrische behandelingen zijn strikt. Privéklinieken die ESG aanbieden zijn schaars en hebben vaak lange wachttijden.</p><h3>Aanzienlijke kostenbesparing</h3><p>In Nederland kost ESG doorgaans € 8.000 tot € 15.000 bij privéklinieken. Bij Istanbul Bariatric Center beginnen all-inclusive pakketten vanaf circa € 5.800 (£4.950) — een besparing van 40 tot 60%. Het pakket omvat de procedure, ziekenhuisopname, hotel, transfer en 12 maanden voedingsbegeleiding.</p><h3>Geen wachttijden</h3><p>Zelfs in grote steden als Amsterdam, Rotterdam, Den Haag of Utrecht kunnen wachttijden voor privéconsulten in de bariatrische zorg weken of maanden bedragen. Bij Istanbul Bariatric Center wordt uw consult binnen enkele dagen georganiseerd.</p></section>
+<section><h2>ESG vs afslankmedicatie</h2><p>Veel patiënten in Nederland beginnen met GLP-1-medicatie zoals Ozempic of Wegovy. De ESG positioneert zich steeds vaker als de logische volgende stap, met een eenmalige fysieke maagverkleining zonder doorlopende kosten.</p><table><thead><tr><th>Factor</th><th>Ozempic / Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Effectiviteit</td><td>Beperkt</td><td>Stabieler</td></tr><tr><td>Bijwerkingen</td><td>Regelmatig</td><td>Beperkt</td></tr><tr><td>Kosten</td><td>€ 200–400/maand</td><td>Eenmalig vanaf € 5.800</td></tr><tr><td>Gewichtstoename</td><td>Gebruikelijk</td><td>Verminderd</td></tr></tbody></table></section>
+<section><h2>ESG vs chirurgische maagverkleining</h2><table><thead><tr><th>Kenmerk</th><th>ESG</th><th>Maagverkleining</th></tr></thead><tbody><tr><td>Type</td><td>Endoscopisch</td><td>Chirurgisch</td></tr><tr><td>Herstel</td><td>1–3 dagen</td><td>2–3 weken</td></tr><tr><td>Littekens</td><td>Geen</td><td>4–5 kleine</td></tr><tr><td>Gewichtsverlies</td><td>15–20% lichaamsgewicht</td><td>60–70% overgewicht</td></tr><tr><td>Omkeerbaarheid</td><td>Mogelijk</td><td>Nee</td></tr></tbody></table></section>
+<section><h2>Waarom Istanbul Bariatric Center?</h2><ul><li><strong>Dr. Murat Üstün</strong> — Pionier van ESG in Turkije met duizenden succesvolle ingrepen</li><li><strong>JCI-geaccrediteerd ziekenhuis</strong> — Liv Hospital, internationale gouden standaard</li><li><strong>Nederlands patiëntenteam</strong> — Duidelijke communicatie, transparante prijzen, gestructureerde nazorg</li><li><strong>All-inclusive vanaf ~€ 5.800</strong> — Procedure, ziekenhuis, hotel, transfer, onderzoeken, 12 maanden voedingsbegeleiding</li></ul></section>
+<section><h2>Behandeltraject stap voor stap</h2><ol><li>Gratis online consult via WhatsApp</li><li>Directe vlucht naar Istanbul (~3,5 uur)</li><li>VIP-luchthaventransfer naar hotel</li><li>Preoperatieve onderzoeken in het ziekenhuis</li><li>ESG-procedure (60–90 minuten, zonder sneden)</li><li>Herstel en terugkeer naar Nederland binnen 3–4 dagen</li></ol></section>
+<section><h2>Verwachte resultaten</h2><p>Nederlandse patiënten kunnen een gewichtsverlies van 15 tot 20% verwachten over 12 tot 18 maanden. Patiënten met BMI 38+ verliezen gemiddeld circa 20 kg in 6 maanden. Merkbare verbeteringen in diabetes type 2, hoge bloeddruk en slaapapneu worden veelvuldig gerapporteerd.</p></section>
+<section><h2>Veiligheid en kwaliteitsnormen</h2><p>De ESG wordt beschouwd als een van de veiligste procedures voor gewichtsverlies. Dr. Murat Üstün heeft duizenden ESG-procedures uitgevoerd met uitstekende resultaten. Alle ingrepen vinden plaats in het JCI-geaccrediteerde Liv Hospital.</p></section>
+<section><h2>Het leven na ESG</h2><p>Eerste 8 uur: heldere vloeistoffen. Week 1–2: vloeibare fase. Week 3–6: halfvaste voeding. Vanaf week 7: geleidelijke overgang naar vast voedsel. Maand 3–12: doorlopende voedingsbegeleiding. Elk pakket omvat 12 maanden begeleiding door een gekwalificeerde diëtist.</p></section>
+<section><h2>Veelgestelde vragen</h2><dl><dt>Wordt ESG vergoed door de zorgverzekering?</dt><dd>Op dit moment wordt ESG niet vergoed door de basisverzekering in Nederland. Sommige aanvullende verzekeringen beoordelen aanvragen per geval.</dd><dt>Hoe lang moet ik in Istanbul blijven?</dt><dd>3 tot 4 dagen. Directe vluchten vanuit Amsterdam Schiphol en Eindhoven (~3,5 uur).</dd><dt>Is de procedure pijnlijk?</dt><dd>De ESG wordt uitgevoerd onder algehele narcose. Lichte klachten kunnen 1 tot 3 dagen aanhouden.</dd><dt>Zijn de resultaten blijvend?</dt><dd>Ja, met goede nazorg. Ons 12-maandenprogramma begeleidt u.</dd><dt>Hoe verhoudt ESG zich tot Ozempic?</dt><dd>ESG biedt een eenmalige fysieke maagverkleining zonder doorlopende kosten.</dd><dt>Welk BMI heb ik nodig?</dt><dd>ESG wordt aanbevolen bij een BMI van 30 tot 40.</dd><dt>Is een behandeling in het buitenland veilig?</dt><dd>Istanbul Bariatric Center opereert in het JCI-geaccrediteerde Liv Hospital. Dr. Murat Üstün heeft duizenden ESG-procedures uitgevoerd.</dd><dt>Wat zit er in het all-inclusive pakket?</dt><dd>Procedure, JCI-ziekenhuis, onderzoeken, VIP-transfer, hotel, 12 maanden voedingsbegeleiding, medicatie. Geen verborgen kosten.</dd></dl></section>
+<section><h2>Contact</h2><p>WhatsApp: +90 532 413 1143 | E-mail: drmuratustun@gmail.com</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Endoscopische Sleeve Gastroplastiek voor Nederlandse patiënten",
+      "alternateName": ["ESG Nederland", "ESG Turkije", "Maag verkleinen zonder operatie"],
+      "description": "Endoscopische sleeve gastroplastiek voor patiënten uit Nederland. Maagverkleining zonder operatie. All-inclusive pakketten vanaf circa € 5.800 in JCI-geaccrediteerd ziekenhuis in Istanbul.",
+      "procedureType": "Noninvasive",
+      "bodyLocation": "Stomach",
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" },
+      "offers": [
+        { "@type": "Offer", "name": "Relaxation Pakket", "price": "4950", "priceCurrency": "GBP", "description": "ESG, JCI-ziekenhuis, Radisson Hotel, 12 maanden voedingsbegeleiding" },
+        { "@type": "Offer", "name": "Luxury Pakket", "price": "5950", "priceCurrency": "GBP", "description": "VIP premium ervaring met uitgebreid hotel en volledige begeleiding" }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Wordt ESG vergoed door de zorgverzekering?", "acceptedAnswer": { "@type": "Answer", "text": "Op dit moment wordt ESG niet vergoed door de basisverzekering in Nederland. Sommige aanvullende verzekeringen beoordelen aanvragen per geval." } },
+        { "@type": "Question", "name": "Hoe lang moet ik in Istanbul blijven?", "acceptedAnswer": { "@type": "Answer", "text": "De meeste Nederlandse patiënten verblijven 3 tot 4 dagen. Directe vluchten vanuit Amsterdam Schiphol en Eindhoven duren circa 3,5 uur." } },
+        { "@type": "Question", "name": "Is de procedure pijnlijk?", "acceptedAnswer": { "@type": "Answer", "text": "De ESG wordt uitgevoerd onder algehele narcose. Na het ontwaken kunnen lichte klachten optreden die doorgaans binnen 1 tot 3 dagen verdwijnen." } },
+        { "@type": "Question", "name": "Zijn de resultaten blijvend?", "acceptedAnswer": { "@type": "Answer", "text": "De langetermijnresultaten hangen af van uw inzet. Ons 12 maanden durend nazorgprogramma met gekwalificeerde diëtist is inbegrepen." } },
+        { "@type": "Question", "name": "Hoe verhoudt ESG zich tot Ozempic of Wegovy?", "acceptedAnswer": { "@type": "Answer", "text": "ESG biedt een eenmalige fysieke maagverkleining zonder doorlopende medicatiekosten. Veel patiënten zien het als de logische volgende stap." } },
+        { "@type": "Question", "name": "Welk BMI heb ik nodig voor ESG?", "acceptedAnswer": { "@type": "Answer", "text": "ESG wordt aanbevolen bij een BMI van 30 tot 40, vooral voor patiënten die geen blijvende resultaten hebben behaald met diëten en beweging." } },
+        { "@type": "Question", "name": "Is een medische behandeling in het buitenland veilig?", "acceptedAnswer": { "@type": "Answer", "text": "Istanbul Bariatric Center opereert in het JCI-geaccrediteerde Liv Hospital. Dr. Murat Üstün heeft duizenden ESG-procedures uitgevoerd met uitstekende resultaten." } },
+        { "@type": "Question", "name": "Wat zit er in het all-inclusive pakket?", "acceptedAnswer": { "@type": "Answer", "text": "Procedure, JCI-ziekenhuis, preoperatieve onderzoeken, VIP-transfer, hotel, 12 maanden voedingsbegeleiding, medicatie en doorlopende nazorg. Geen verborgen kosten." } }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://istanbulbariatriccenter.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://istanbulbariatriccenter.com/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "ESG", "item": "https://istanbulbariatriccenter.com/esg" },
+        { "@type": "ListItem", "position": 4, "name": "ESG voor Nederlandse patiënten", "item": "https://istanbulbariatriccenter.com/esg/nl" }
+      ]
+    }]
+  },
   "/post-bariatric-surgery": {
     title: "Post Bariatric Body Contouring Surgery - Istanbul Bariatric Center",
     description: "Post bariatric body contouring surgery in Istanbul. Tummy tuck, arm lift, thigh lift, breast lift after major weight loss. Complete your transformation.",
