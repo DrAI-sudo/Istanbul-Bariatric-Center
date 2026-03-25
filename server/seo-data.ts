@@ -423,6 +423,62 @@ const staticPages: Record<string, PageSEO> = {
       ]
     }]
   },
+  "/esg/es": {
+    title: "ESG Turquía para pacientes de España | Adelgazar sin cirugía | Hasta 70 % de ahorro",
+    description: "Gastroplastia endoscópica sin cirugía para pacientes en España. Hasta un 70 % más barato que en España. Paquetes todo incluido desde aprox. 5.800 € en hospital acreditado JCI. Consulta gratuita.",
+    h1: "Gastroplastia Endoscópica en Manga (ESG) para pacientes en España — Adelgazar sin cirugía en Turquía",
+    bodyExcerpt: "ESG para pacientes españoles en Istanbul Bariatric Center. Reducción gástrica mínimamente invasiva sin cirugía con paquetes todo incluido desde aprox. 5.800 €. Hasta 70 % más barato que en España. Hospital acreditado JCI, cirujano pionero Dr. Murat Üstün, atención en español, seguimiento nutricional de 12 meses incluido.",
+    canonical: SITE_URL + "/esg/es",
+    richContent: `<section><h2>¿Qué es la Gastroplastia Endoscópica en Manga (ESG)?</h2><p>La ESG es un procedimiento innovador de reducción gástrica sin cirugía. Se introduce un endoscopio por la boca para realizar suturas internas que reducen el volumen del estómago entre un 70 y un 80 %. A diferencia de la manga gástrica quirúrgica, no se realizan incisiones, no se extrae tejido gástrico y la recuperación es considerablemente más rápida. El procedimiento utiliza la tecnología Apollo OverStitch y dura aproximadamente 60 a 90 minutos bajo anestesia general.</p><p>Para los pacientes españoles, la ESG representa una alternativa revolucionaria que cierra la brecha entre las medidas de estilo de vida que no han funcionado y una cirugía invasiva para la que muchos no están preparados.</p></section>
+<section><h2>¿Por qué los pacientes españoles eligen la ESG en Turquía?</h2><h3>Acceso limitado en España</h3><p>Aunque la ESG está creciendo en popularidad, todavía no está ampliamente disponible en el sistema sanitario público español. Las clínicas privadas que la ofrecen son escasas, con listas de espera que pueden extenderse semanas o meses.</p><h3>Ahorro económico significativo</h3><p>En España, la ESG cuesta típicamente entre 8.000 y 14.000 € en clínicas privadas. En Istanbul Bariatric Center, los paquetes todo incluido comienzan desde aproximadamente 5.800 € (£4.950) — un ahorro de hasta el 60–70 %. El paquete incluye procedimiento, hospitalización, hotel, traslados y 12 meses de seguimiento nutricional.</p><h3>Sin tiempos de espera</h3><p>Incluso en grandes ciudades como Madrid, Barcelona, Valencia o Málaga, los tiempos de espera para una consulta privada pueden alcanzar varias semanas. En Istanbul Bariatric Center, su consulta se organiza en pocos días.</p></section>
+<section><h2>ESG vs medicamentos para adelgazar</h2><p>Muchos pacientes en España empiezan con medicamentos GLP-1 como Ozempic o Wegovy. La ESG se posiciona cada vez más como el siguiente paso lógico, ofreciendo una reducción gástrica física única sin gastos recurrentes.</p><table><thead><tr><th>Factor</th><th>Ozempic / Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Duración de eficacia</td><td>Variable</td><td>Más estable</td></tr><tr><td>Efectos secundarios</td><td>Frecuentes</td><td>Mínimos</td></tr><tr><td>Coste</td><td>200–400 €/mes</td><td>Único desde 5.800 €</td></tr><tr><td>Recuperación de peso</td><td>Frecuente</td><td>Menor</td></tr></tbody></table></section>
+<section><h2>ESG vs Manga gástrica quirúrgica</h2><table><thead><tr><th>Característica</th><th>ESG</th><th>Manga gástrica</th></tr></thead><tbody><tr><td>Tipo</td><td>Endoscópico</td><td>Quirúrgico</td></tr><tr><td>Recuperación</td><td>1–3 días</td><td>2–3 semanas</td></tr><tr><td>Cicatrices</td><td>Ninguna</td><td>4–5 pequeñas</td></tr><tr><td>Pérdida de peso</td><td>15–20 % peso corporal</td><td>60–70 % exceso de peso</td></tr><tr><td>Reversibilidad</td><td>Posible</td><td>No</td></tr></tbody></table></section>
+<section><h2>¿Por qué Istanbul Bariatric Center?</h2><ul><li><strong>Dr. Murat Üstün</strong> — Pionero de la ESG en Turquía con miles de procedimientos exitosos</li><li><strong>Hospital acreditado JCI</strong> — Liv Hospital, estándar mundial más exigente</li><li><strong>Atención en español</strong> — Comunicación clara, precios transparentes, seguimiento estructurado</li><li><strong>Todo incluido desde ~5.800 €</strong> — Procedimiento, hospital, hotel, traslados, exámenes, 12 meses de seguimiento nutricional</li></ul></section>
+<section><h2>Proceso paso a paso</h2><ol><li>Consulta online gratuita vía WhatsApp</li><li>Vuelo directo a Estambul (~3,5–4 horas)</li><li>Traslado VIP aeropuerto al hotel</li><li>Exámenes preoperatorios en el hospital</li><li>Procedimiento ESG (60–90 minutos, sin incisiones)</li><li>Recuperación y regreso a España en 3–4 días</li></ol></section>
+<section><h2>Resultados esperados</h2><p>Los pacientes españoles pueden esperar una pérdida de peso del 15 al 20 % en 12 a 18 meses. Pacientes con IMC 38+ pierden en promedio unos 20 kg en 6 meses. Mejoras notables en diabetes tipo 2, hipertensión y apnea del sueño son frecuentemente reportadas.</p></section>
+<section><h2>Seguridad y estándares de calidad</h2><p>La ESG es considerada uno de los procedimientos de pérdida de peso más seguros. El Dr. Murat Üstün ha realizado miles de ESG con excelentes resultados. Todos los procedimientos se realizan en el Liv Hospital, acreditado JCI.</p></section>
+<section><h2>La vida después de la ESG</h2><p>Primeras 8 horas: líquidos claros. Semanas 1–2: fase líquida. Semanas 3–6: alimentos semisólidos. Desde semana 7: transición a alimentación sólida. Meses 3–12: seguimiento nutricional continuo. Cada paquete incluye 12 meses de seguimiento con nutricionista cualificada.</p></section>
+<section><h2>Preguntas frecuentes</h2><dl><dt>¿La ESG está cubierta por la Seguridad Social?</dt><dd>Actualmente no está incluida en la cartera de servicios de la Seguridad Social española. Algunos seguros privados valoran caso por caso.</dd><dt>¿Cuánto dura la estancia?</dt><dd>3 a 4 días. Vuelos directos desde Madrid, Barcelona, Málaga, Valencia (~3,5–4 horas).</dd><dt>¿Es doloroso?</dt><dd>La ESG se realiza bajo anestesia general. Pueden aparecer molestias leves durante 1 a 3 días.</dd><dt>¿Los resultados son duraderos?</dt><dd>Sí, con buen seguimiento. Nuestro programa de 12 meses le acompaña.</dd><dt>¿Cómo se compara con Ozempic?</dt><dd>La ESG ofrece una reducción gástrica física única sin gastos recurrentes.</dd><dt>¿Qué IMC necesito?</dt><dd>La ESG se recomienda para un IMC de 30 a 40.</dd><dt>¿Es seguro un procedimiento en el extranjero?</dt><dd>Istanbul Bariatric Center opera en el Liv Hospital, acreditado JCI. El Dr. Murat Üstün ha realizado miles de ESG.</dd><dt>¿Qué incluye el paquete?</dt><dd>Procedimiento, hospital JCI, exámenes, traslados VIP, hotel, 12 meses de seguimiento nutricional, medicación. Sin costes ocultos.</dd></dl></section>
+<section><h2>Contacto</h2><p>WhatsApp: +90 532 413 1143 | Email: drmuratustun@gmail.com</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Gastroplastia Endoscópica en Manga para pacientes españoles",
+      "alternateName": ["ESG España", "ESG Turquía", "Reducción de estómago sin cirugía"],
+      "description": "Reducción gástrica mínimamente invasiva para pacientes en España. Estómago reducido entre un 70 y un 80 %. Paquetes todo incluido desde aproximadamente 5.800 € en hospital acreditado JCI en Estambul.",
+      "procedureType": "Noninvasive",
+      "bodyLocation": "Stomach",
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" },
+      "offers": [
+        { "@type": "Offer", "name": "Paquete Relaxation", "price": "4950", "priceCurrency": "GBP", "description": "ESG, hospital JCI, Radisson Hotel, seguimiento nutricional 12 meses" },
+        { "@type": "Offer", "name": "Paquete Luxury", "price": "5950", "priceCurrency": "GBP", "description": "Experiencia VIP premium con hotel ampliado y seguimiento completo" }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "¿La ESG está cubierta por la Seguridad Social?", "acceptedAnswer": { "@type": "Answer", "text": "Actualmente no está incluida en la cartera de servicios de la Seguridad Social española. Algunos seguros privados valoran las solicitudes caso por caso." } },
+        { "@type": "Question", "name": "¿Cuánto tiempo dura la estancia en Estambul?", "acceptedAnswer": { "@type": "Answer", "text": "La mayoría de los pacientes españoles permanecen entre 3 y 4 días. Vuelos directos desde Madrid, Barcelona, Málaga y Valencia (~3,5–4 horas)." } },
+        { "@type": "Question", "name": "¿Es doloroso el procedimiento?", "acceptedAnswer": { "@type": "Answer", "text": "La ESG se realiza bajo anestesia general. Tras el procedimiento, pueden aparecer molestias leves durante 1 a 3 días, bien controladas con medicación." } },
+        { "@type": "Question", "name": "¿Los resultados son duraderos?", "acceptedAnswer": { "@type": "Answer", "text": "Los resultados a largo plazo dependen de su compromiso. Nuestro programa de 12 meses con nutricionista cualificada le acompaña." } },
+        { "@type": "Question", "name": "¿Cómo se compara la ESG con Ozempic o Wegovy?", "acceptedAnswer": { "@type": "Answer", "text": "La ESG ofrece una reducción gástrica física y única, sin gastos farmacéuticos recurrentes. Muchos pacientes la ven como el paso lógico siguiente." } },
+        { "@type": "Question", "name": "¿Qué IMC necesito para la ESG?", "acceptedAnswer": { "@type": "Answer", "text": "La ESG se recomienda para un IMC de 30 a 40, especialmente para pacientes que no han logrado resultados duraderos con métodos convencionales." } },
+        { "@type": "Question", "name": "¿Es seguro un procedimiento médico en el extranjero?", "acceptedAnswer": { "@type": "Answer", "text": "Istanbul Bariatric Center opera en el Liv Hospital, acreditado JCI — el estándar internacional más exigente. El Dr. Murat Üstün ha realizado miles de ESG con excelentes resultados." } },
+        { "@type": "Question", "name": "¿Qué incluye el paquete todo incluido?", "acceptedAnswer": { "@type": "Answer", "text": "Procedimiento, hospital JCI, exámenes preoperatorios, traslados VIP, hotel, seguimiento nutricional de 12 meses, medicación y seguimiento continuo. Sin costes ocultos." } }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://istanbulbariatriccenter.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://istanbulbariatriccenter.com/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "ESG", "item": "https://istanbulbariatriccenter.com/esg" },
+        { "@type": "ListItem", "position": 4, "name": "ESG para pacientes españoles", "item": "https://istanbulbariatriccenter.com/esg/es" }
+      ]
+    }]
+  },
   "/post-bariatric-surgery": {
     title: "Post Bariatric Body Contouring Surgery - Istanbul Bariatric Center",
     description: "Post bariatric body contouring surgery in Istanbul. Tummy tuck, arm lift, thigh lift, breast lift after major weight loss. Complete your transformation.",
