@@ -73,6 +73,7 @@ export function Treatments() {
                     loop
                     muted
                     playsInline
+                    aria-hidden="true"
                     className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                     width="300"
                     height="192"

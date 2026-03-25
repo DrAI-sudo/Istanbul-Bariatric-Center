@@ -13,9 +13,9 @@ export function Awards() {
           We are proud to be recognized for our high-quality service and patient care. Winners of the WhatClinic Patient Service Award for multiple consecutive years.
         </p>
         
-        <ul className="flex flex-wrap justify-center gap-6 md:gap-10 items-center list-none" role="list" aria-label="WhatClinic Patient Service Awards">
+        <ul className="flex flex-wrap justify-center gap-6 md:gap-10 items-center list-none" aria-label="WhatClinic Patient Service Awards">
           {years.map((year) => (
-            <li key={year} className="flex flex-col items-center group" role="listitem">
+            <li key={year} className="flex flex-col items-center group">
               <div className="w-24 h-28 md:w-28 md:h-32 relative transition-transform duration-300 group-hover:scale-110" aria-label={`WhatClinic Service Award ${year}`}>
                 <div className="w-full h-full bg-white rounded-t-lg relative overflow-hidden shadow-lg" style={{
                   clipPath: 'polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%)'

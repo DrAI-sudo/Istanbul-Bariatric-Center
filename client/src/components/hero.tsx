@@ -8,10 +8,10 @@ export function Hero() {
   const [videoSrc, setVideoSrc] = useState<string | undefined>(undefined);
   
   useEffect(() => {
-    const raf = requestAnimationFrame(() => {
+    const timer = setTimeout(() => {
       setVideoSrc("/hero-video.mp4");
-    });
-    return () => cancelAnimationFrame(raf);
+    }, 2500);
+    return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {
@@ -55,7 +55,7 @@ export function Hero() {
         <div className="pt-8">
           <Button 
             size="lg" 
-            className="bg-[#1a9e4d] hover:bg-[#128C7E] text-white font-bold text-lg px-10 py-8 rounded-full shadow-xl transition-transform hover:scale-105"
+            className="bg-[#15803d] hover:bg-[#166534] text-white font-bold text-lg px-10 py-8 rounded-full shadow-xl transition-transform hover:scale-105"
             onClick={() => window.open('https://wa.me/905324131143', '_blank')}
             aria-label="Get a free consultation via WhatsApp"
           >

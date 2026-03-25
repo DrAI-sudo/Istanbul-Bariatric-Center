@@ -110,7 +110,7 @@ export function VIPPackage() {
         <div className="text-center mt-16 space-y-6">
           <Button 
             size="lg" 
-            className="bg-[#1a9e4d] hover:bg-[#128C7E] text-white font-bold text-lg px-12 py-8 rounded-full shadow-xl uppercase tracking-wider"
+            className="bg-[#15803d] hover:bg-[#166534] text-white font-bold text-lg px-12 py-8 rounded-full shadow-xl uppercase tracking-wider"
             onClick={() => window.open('https://wa.me/905324131143', '_blank')}
             aria-label="Start your VIP package inquiry via WhatsApp"
           >

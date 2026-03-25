@@ -211,7 +211,7 @@ export function BMICalculator() {
                   href="https://wa.me/905324131143?text=Hello%2C%20I%20just%20calculated%20my%20BMI%20and%20I%20would%20like%20to%20inquire%20about%20my%20options."
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center justify-center gap-2 w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-lg transition-colors"
+                  className="mt-4 inline-flex items-center justify-center gap-2 w-full bg-green-700 hover:bg-green-800 text-white font-medium py-3 px-6 rounded-lg transition-colors"
                   data-testid="button-whatsapp-bmi"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -250,7 +250,7 @@ export function BMICalculator() {
             </div>
 
             <div className="mt-8 p-4 bg-blue-50 rounded-xl">
-              <h5 className="font-medium text-gray-900 mb-2">{t('home:bmi.whyBmiMatters')}</h5>
+              <h3 className="font-medium text-gray-900 mb-2">{t('home:bmi.whyBmiMatters')}</h3>
               <p className="text-sm text-gray-600">
                 {t('home:bmi.bmiExplanation')}
               </p>

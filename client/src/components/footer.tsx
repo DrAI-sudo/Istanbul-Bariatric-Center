@@ -15,14 +15,14 @@ export function Footer() {
             <p className="text-slate-300 leading-relaxed">
               Founded by <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors underline">Dr. Murat Üstün</a>, leading the way in bariatric surgery with world-class facilities and expert care. Your health is our priority.
             </p>
-            <div className="flex gap-4" role="list" aria-label="Social media links">
-              <a href="https://www.facebook.com/istanbulbariatriccenter" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" aria-label="Follow us on Facebook" role="listitem">
+            <div className="flex gap-4" aria-label="Social media links">
+              <a href="https://www.facebook.com/istanbulbariatriccenter" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" aria-label="Follow us on Facebook">
                 <Facebook className="w-5 h-5" aria-hidden="true" />
               </a>
-              <a href="https://www.instagram.com/istanbulbariatriccenter" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" aria-label="Follow us on Instagram" role="listitem">
+              <a href="https://www.instagram.com/istanbulbariatriccenter" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" aria-label="Follow us on Instagram">
                 <Instagram className="w-5 h-5" aria-hidden="true" />
               </a>
-              <a href="https://www.youtube.com/@istanbulbariatriccenter" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" aria-label="Subscribe to our YouTube channel" role="listitem">
+              <a href="https://www.youtube.com/@istanbulbariatriccenter" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" aria-label="Subscribe to our YouTube channel">
                 <Youtube className="w-5 h-5" aria-hidden="true" />
               </a>
             </div>
@@ -69,7 +69,7 @@ export function Footer() {
               </li>
             </ul>
             <a href="https://wa.me/905324131143" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
-              <Button className="w-full mt-6 bg-green-600 hover:bg-green-700" aria-label="WhatsApp Us - Opens in new window">
+              <Button className="w-full mt-6 bg-green-700 hover:bg-green-800" aria-label="WhatsApp Us - Opens in new window">
                 WhatsApp Us
               </Button>
             </a>
