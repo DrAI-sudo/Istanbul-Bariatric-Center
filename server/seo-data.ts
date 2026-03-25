@@ -796,6 +796,56 @@ const staticPages: Record<string, PageSEO> = {
       ]
     }]
   },
+  "/esg/pl": {
+    title: "ESG Turcja dla pacjentów z Polski | Odchudzanie bez operacji | € 6 450 all-inclusive",
+    description: "Endoskopowa gastroplastyka rękawowa bez chirurgii dla pacjentów z Polski. Pakiet all-inclusive € 6 450 w szpitalu z akredytacją JCI. Oszczędności w porównaniu z Polską. Bezpłatna konsultacja.",
+    h1: "Endoskopowa Gastroplastyka Rękawowa (ESG) — Odchudzanie bez operacji w Turcji",
+    bodyExcerpt: "Endoskopowa Gastroplastyka Rękawowa (ESG) dla pacjentów z Polski w Istanbul Bariatric Center. Zmniejszenie żołądka bez operacji. Szpital z akredytacją JCI. Dr Murat Üstün. Pakiet all-inclusive € 6 450 z transferem VIP, hotelem i 12-miesięcznym wsparciem dietetycznym. Bezpośrednie loty z Warszawy i Krakowa (~2,5-3 godziny).",
+    canonical: SITE_URL + "/esg/pl",
+    richContent: `<section><h2>Czym jest Endoskopowa Gastroplastyka Rękawowa (ESG)?</h2><p>ESG to innowacyjny zabieg polegający na zmniejszeniu objętości żołądka bez chirurgii. Przez usta wprowadzany jest endoskop, za pomocą którego zakładane są wewnętrzne szwy zmniejszające objętość żołądka o 70-80%. W odróżnieniu od tradycyjnej resekcji rękawowej nie wykonuje się żadnych cięć, nie usuwa się tkanki żołądka, a rekonwalescencja jest znacznie krótsza. Zabieg wykorzystuje technologię Apollo OverStitch i trwa 60-90 minut w znieczuleniu ogólnym.</p></section>
+<section><h2>Dlaczego polscy pacjenci wybierają ESG w Turcji</h2><h3>Doświadczenie i standardy</h3><p>Turcja jest światowym liderem w chirurgii bariatrycznej. Nowoczesne szpitale z akredytacją JCI, doświadczeni specjaliści i międzynarodowe standardy opieki.</p><h3>Oszczędności finansowe</h3><p>W Polsce prywatne kliniki pobierają 25 000-50 000 PLN za ESG. Nasz pakiet all-inclusive to € 6 450 (~28 000 PLN) — z procedurą, szpitalem JCI, hotelem, transferem i 12-miesięcznym wsparciem dietetycznym.</p><h3>Szybki dostęp</h3><p>Bez kolejek. Bezpośrednie loty z Warszawy, Krakowa, Wrocławia i Gdańska (~2,5-3 godziny). Pełne leczenie w 3-4 dni.</p></section>
+<section><h2>ESG vs leki odchudzające</h2><table><thead><tr><th>Czynnik</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Efekt</td><td>Tymczasowy</td><td>Trwały</td></tr><tr><td>Skutki uboczne</td><td>Częste</td><td>Minimalne</td></tr><tr><td>Koszt</td><td>Stały</td><td>Jednorazowy</td></tr><tr><td>Powrót wagi</td><td>Częsty</td><td>Ograniczony</td></tr></tbody></table></section>
+<section><h2>ESG vs chirurgiczna resekcja żołądka</h2><table><thead><tr><th>Cecha</th><th>ESG</th><th>Gastric Sleeve</th></tr></thead><tbody><tr><td>Typ</td><td>Endoskopowy</td><td>Laparoskopowy</td></tr><tr><td>Rekonwalescencja</td><td>1-3 dni</td><td>2-3 tygodnie</td></tr><tr><td>Blizny</td><td>Brak</td><td>4-5 małych</td></tr><tr><td>Utrata wagi</td><td>15-20% masy ciała</td><td>60-70% nadwagi</td></tr></tbody></table></section>
+<section><h2>Dlaczego Istanbul Bariatric Center</h2><ul><li><strong>Dr Murat Üstün</strong> — Pionier ESG w Turcji z tysiącami udanych zabiegów</li><li><strong>Szpital z akredytacją JCI</strong> — Liv Hospital, międzynarodowy złoty standard</li><li><strong>Opieka międzynarodowa</strong> — Dedykowany zespół dla pacjentów zagranicznych</li><li><strong>Pakiet all-inclusive</strong> — Zabieg, szpital, hotel, transfer, badania, 12 mies. wsparcia dietetycznego</li></ul></section>
+<section><h2>Proces leczenia</h2><ol><li>Bezpłatna konsultacja online przez WhatsApp</li><li>Bezpośredni lot do Stambułu (~2,5-3 godziny)</li><li>Transfer VIP z lotniska do hotelu</li><li>Badania przedoperacyjne w szpitalu</li><li>Zabieg ESG (60-90 minut, bez cięć)</li><li>Rekonwalescencja i powrót w ciągu 3-4 dni</li></ol></section>
+<section><h2>Oczekiwane wyniki</h2><p>Polscy pacjenci mogą oczekiwać utraty 15-20% masy ciała w ciągu 12-18 miesięcy. Przy BMI 38+ średnia utrata wagi wynosi około 20 kg w pierwszych 6 miesiącach. Znacząca poprawa cukrzycy, ciśnienia tętniczego i bezdechu sennego.</p></section>
+<section><h2>Najczęściej zadawane pytania</h2><dl><dt>Czy ESG jest dostępne w ramach NFZ?</dt><dd>Nie, ESG nie jest refundowane przez NFZ. Prywatne kliniki w Polsce pobierają 25 000-50 000 PLN.</dd><dt>Jak długo trwa pobyt w Stambule?</dt><dd>3-4 dni. Bezpośrednie loty z Warszawy, Krakowa, Wrocławia i Gdańska (~2,5-3 godziny).</dd><dt>Czy zabieg jest bolesny?</dt><dd>ESG wykonywane w znieczuleniu ogólnym. Lekki dyskomfort 1-3 dni po zabiegu.</dd><dt>Czy wyniki są trwałe?</dt><dd>Tak, przy odpowiednim stylu życia. 12-miesięczne wsparcie dietetyczne w cenie.</dd><dt>Czym ESG różni się od Ozempic?</dt><dd>ESG to jednorazowa fizyczna redukcja żołądka bez stałych kosztów leków.</dd><dt>Jakie BMI jest wymagane?</dt><dd>BMI od 30 do 40.</dd><dt>Czy to bezpieczne?</dt><dd>Wszystkie zabiegi w Liv Hospital z akredytacją JCI. Dr Murat Üstün — tysiące zabiegów ESG.</dd><dt>Co obejmuje pakiet?</dt><dd>Zabieg, szpital JCI, badania, transfer VIP, hotel, leki, 12 mies. wsparcia dietetycznego. Bez ukrytych kosztów.</dd></dl></section>
+<section><h2>Kontakt</h2><p>WhatsApp: +90 532 413 1143 | E-mail: drmuratustun@gmail.com</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Endoskopowa Gastroplastyka Rękawowa dla pacjentów z Polski",
+      "alternateName": ["ESG Polska", "ESG Turcja", "Odchudzanie bez operacji", "Gastroplastyka endoskopowa"],
+      "description": "Endoskopowa Gastroplastyka Rękawowa (ESG) dla pacjentów z Polski w Istanbul Bariatric Center. Zmniejszenie żołądka bez operacji. Szpital z akredytacją JCI.",
+      "procedureType": "Endoscopic",
+      "bodyLocation": "Stomach",
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Czy ESG jest dostępne w ramach NFZ w Polsce?", "acceptedAnswer": { "@type": "Answer", "text": "Nie, ESG nie jest refundowane przez NFZ. Prywatne kliniki w Polsce oferują zabieg w cenach 25 000-50 000 PLN." } },
+        { "@type": "Question", "name": "Jak długo trwa pobyt w Stambule?", "acceptedAnswer": { "@type": "Answer", "text": "3-4 dni. Bezpośrednie loty z Warszawy, Krakowa, Wrocławia i Gdańska (~2,5-3 godziny)." } },
+        { "@type": "Question", "name": "Czy zabieg jest bolesny?", "acceptedAnswer": { "@type": "Answer", "text": "ESG wykonywane jest w znieczuleniu ogólnym. Po przebudzeniu może wystąpić lekki dyskomfort trwający 1-3 dni, kontrolowany lekami." } },
+        { "@type": "Question", "name": "Czy wyniki są trwałe?", "acceptedAnswer": { "@type": "Answer", "text": "Tak, przy odpowiednim stylu życia. 12-miesięczne wsparcie dietetyczne z wykwalifikowanym dietetykiem wliczone w każdy pakiet." } },
+        { "@type": "Question", "name": "Czym ESG różni się od Ozempic/Wegovy?", "acceptedAnswer": { "@type": "Answer", "text": "ESG to jednorazowa fizyczna redukcja żołądka — bez stałych miesięcznych kosztów leków." } },
+        { "@type": "Question", "name": "Jakie BMI jest wymagane do ESG?", "acceptedAnswer": { "@type": "Answer", "text": "ESG jest zalecane dla pacjentów z BMI od 30 do 40." } },
+        { "@type": "Question", "name": "Czy leczenie za granicą jest bezpieczne?", "acceptedAnswer": { "@type": "Answer", "text": "Istanbul Bariatric Center działa w Liv Hospital z akredytacją JCI — międzynarodowym złotym standardem. Dr Murat Üstün przeprowadził tysiące zabiegów ESG." } },
+        { "@type": "Question", "name": "Co obejmuje pakiet all-inclusive?", "acceptedAnswer": { "@type": "Answer", "text": "Pełna procedura ESG, szpital JCI, badania przedoperacyjne, transfer VIP, hotel, leki pooperacyjne, wsparcie dietetyczne 12 miesięcy. Bez ukrytych kosztów." } }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://istanbulbariatriccenter.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://istanbulbariatriccenter.com/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "ESG", "item": "https://istanbulbariatriccenter.com/esg" },
+        { "@type": "ListItem", "position": 4, "name": "ESG dla pacjentów z Polski", "item": "https://istanbulbariatriccenter.com/esg/pl" }
+      ]
+    }]
+  },
   "/post-bariatric-surgery": {
     title: "Post Bariatric Body Contouring Surgery - Istanbul Bariatric Center",
     description: "Post bariatric body contouring surgery in Istanbul. Tummy tuck, arm lift, thigh lift, breast lift after major weight loss. Complete your transformation.",

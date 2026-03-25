@@ -148,6 +148,7 @@ export async function registerRoutes(
       "/esg/ru": { priority: "0.9", changefreq: "monthly" },
       "/esg/ro": { priority: "0.9", changefreq: "monthly" },
       "/esg/se": { priority: "0.9", changefreq: "monthly" },
+      "/esg/pl": { priority: "0.9", changefreq: "monthly" },
       "/post-bariatric-surgery": { priority: "0.7", changefreq: "monthly" },
       "/insurance": { priority: "0.6", changefreq: "monthly" },
       "/health-profile": { priority: "0.7", changefreq: "monthly" },
@@ -202,6 +203,7 @@ export async function registerRoutes(
 - [ESG для пациентов из России](${BASE_URL}/esg/ru): Эндоскопическая гастропластика для пациентов из России и СНГ. Клиника с аккредитацией JCI. Русскоговорящий персонал. Пакеты «всё включено».
 - [ESG pentru pacienți din România](${BASE_URL}/esg/ro): Gastroplastie endoscopică pentru pacienți din România. Spital acreditat JCI. Pachete all-inclusive. Zboruri directe din București și Cluj.
 - [ESG för svenska patienter](${BASE_URL}/esg/se): Endoskopisk sleeve gastroplastik för patienter från Sverige. All-inclusive-paket € 6 450. JCI-ackrediterat sjukhus. Gratis konsultation.
+- [ESG dla pacjentów z Polski](${BASE_URL}/esg/pl): Endoskopowa gastroplastyka rękawowa dla pacjentów z Polski. Pakiet all-inclusive € 6 450. Szpital z akredytacją JCI. Bezpłatna konsultacja.
 - [Duodenal Switch](${BASE_URL}/duodenal-switch): From £4,400. Complex procedure combining sleeve with intestinal bypass. Maximum weight loss for very high BMI patients.
 - [Transit Bipartition](${BASE_URL}/transit-bipartition): Advanced metabolic surgery combining sleeve gastrectomy with intestinal rerouting for enhanced weight loss and diabetes resolution.
 - [Post-Bariatric Surgery](${BASE_URL}/post-bariatric-surgery): Body contouring procedures after significant weight loss including tummy tuck, arm lift, and thigh lift.
