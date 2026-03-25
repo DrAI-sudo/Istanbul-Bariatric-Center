@@ -140,6 +140,7 @@ export async function registerRoutes(
       "/esg": { priority: "0.9", changefreq: "monthly" },
       "/esg/uk": { priority: "0.9", changefreq: "monthly" },
       "/esg/de": { priority: "0.9", changefreq: "monthly" },
+      "/esg/fr": { priority: "0.9", changefreq: "monthly" },
       "/post-bariatric-surgery": { priority: "0.7", changefreq: "monthly" },
       "/insurance": { priority: "0.6", changefreq: "monthly" },
       "/health-profile": { priority: "0.7", changefreq: "monthly" },
@@ -186,6 +187,7 @@ export async function registerRoutes(
 - [Endoscopic Sleeve Gastroplasty (ESG)](${BASE_URL}/esg): From £4,950. Non-surgical stomach reduction via endoscope. No incisions, 1-3 day recovery. Pioneered in Turkey by Dr Murat Ustun.
 - [ESG for UK Patients](${BASE_URL}/esg/uk): ESG tailored for UK patients. Save up to 70% vs UK private clinics. All-inclusive packages from £4,950. UK patient coordinators, UK WhatsApp support.
 - [ESG für deutsche Patienten](${BASE_URL}/esg/de): ESG für Patienten aus Deutschland. Bis zu 70% günstiger als in Deutschland. All-Inclusive-Pakete ab ca. 5.800 €. Deutschsprachige Patientenbetreuung.
+- [ESG pour patients français](${BASE_URL}/esg/fr): Sleeve gastroplastie endoscopique pour patients en France. Jusqu'à 70% moins cher qu'en France. Forfaits tout compris à partir d'environ 5 800 €. Accompagnement francophone.
 - [Duodenal Switch](${BASE_URL}/duodenal-switch): From £4,400. Complex procedure combining sleeve with intestinal bypass. Maximum weight loss for very high BMI patients.
 - [Transit Bipartition](${BASE_URL}/transit-bipartition): Advanced metabolic surgery combining sleeve gastrectomy with intestinal rerouting for enhanced weight loss and diabetes resolution.
 - [Post-Bariatric Surgery](${BASE_URL}/post-bariatric-surgery): Body contouring procedures after significant weight loss including tummy tuck, arm lift, and thigh lift.
