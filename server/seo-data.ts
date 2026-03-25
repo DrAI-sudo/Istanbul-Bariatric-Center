@@ -946,6 +946,106 @@ const staticPages: Record<string, PageSEO> = {
       ]
     }]
   },
+  "/esg/hu": {
+    title: "ESG Törökország magyar betegeknek | Fogyás műtét nélkül | € 6.450 all-inclusive",
+    description: "Endoszkópos sleeve gastroplasztika műtét nélkül magyar pácienseknek. All-inclusive csomag € 6.450 JCI-akkreditált kórházban. Megtakarítás Magyarországhoz képest. Ingyenes konzultáció.",
+    h1: "Endoszkópos Sleeve Gastroplasztika (ESG) — Fogyás műtét nélkül Törökországban",
+    bodyExcerpt: "Endoszkópos Sleeve Gastroplasztika (ESG) magyar pácienseknek az Istanbul Bariatric Centerben. Gyomor csökkentés műtét nélkül. JCI-akkreditált kórház. Dr. Murat Üstün. All-inclusive csomag € 6.450 VIP transzferrel, szállodával és 12 hónapos dietetikai támogatással. Közvetlen járatok Budapestről (~2-2,5 óra).",
+    canonical: SITE_URL + "/esg/hu",
+    richContent: `<section><h2>Mi az Endoszkópos Sleeve Gastroplasztika (ESG)?</h2><p>Az ESG egy innovatív eljárás, amely műtét nélkül csökkenti a gyomor térfogatát. A szájon át egy endoszkópot vezetnek le, amellyel belső varratokat helyeznek el, 70-80%-kal csökkentve a gyomor térfogatát. A hagyományos sleeve gastrectomyval ellentétben nincs vágás, nem távolítanak el szövetet, és a felépülés lényegesen gyorsabb. Az eljárás Apollo OverStitch technológiát alkalmaz és kb. 60-90 percig tart általános altatásban.</p></section>
+<section><h2>Miért választják a magyar betegek az ESG-t Törökországban</h2><h3>Tapasztalat és szabványok</h3><p>Törökország világvezető a bariatrikus sebészetben. Modern, JCI-akkreditált kórházak, tapasztalt specialisták és nemzetközi ellátási szabványok.</p><h3>Jelentős megtakarítás</h3><p>Magyarországon magánklinikákon 2.000.000-4.000.000 Ft-ba kerülhet az ESG. All-inclusive csomagunk € 6.450 (~2.600.000 Ft) — beavatkozással, JCI kórházzal, szállodával, transzferrel és 12 hónapos dietetikai támogatással.</p><h3>Gyors hozzáférés</h3><p>Nincs várólista. Közvetlen járatok Budapest Liszt Ferencről (~2-2,5 óra). Teljes kezelés 3-4 napon belül.</p></section>
+<section><h2>ESG vs fogyókúrás gyógyszerek</h2><table><thead><tr><th>Tényező</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Hatás</td><td>Átmeneti</td><td>Tartós</td></tr><tr><td>Mellékhatások</td><td>Gyakoriak</td><td>Kevés</td></tr><tr><td>Költség</td><td>Folyamatos</td><td>Egyszeri</td></tr><tr><td>Visszahízás</td><td>Gyakori</td><td>Korlátozott</td></tr></tbody></table></section>
+<section><h2>ESG vs gyomorcső műtét</h2><table><thead><tr><th>Tulajdonság</th><th>ESG</th><th>Gastric Sleeve</th></tr></thead><tbody><tr><td>Típus</td><td>Endoszkópos</td><td>Laparoszkópos</td></tr><tr><td>Felépülés</td><td>1-3 nap</td><td>2-3 hét</td></tr><tr><td>Hegek</td><td>Nincsenek</td><td>4-5 kis heg</td></tr><tr><td>Fogyás</td><td>15-20% testsúlyból</td><td>60-70% túlsúlyból</td></tr></tbody></table></section>
+<section><h2>Miért az Istanbul Bariatric Center</h2><ul><li><strong>Dr. Murat Üstün</strong> — Az ESG úttörője Törökországban, több ezer sikeres beavatkozással</li><li><strong>JCI-akkreditált kórház</strong> — Liv Hospital, nemzetközi aranyszabvány</li><li><strong>Nemzetközi csapat</strong> — Dedikált csapat külföldi pácienseknek</li><li><strong>All-inclusive csomag</strong> — Beavatkozás, kórház, szálloda, transzfer, vizsgálatok, 12 hó dietetikai támogatás</li></ul></section>
+<section><h2>Kezelési folyamat</h2><ol><li>Ingyenes online konzultáció WhatsApp-on</li><li>Közvetlen járat Isztambulba Budapestről (~2-2,5 óra)</li><li>VIP transzfer a repülőtérről a szállodába</li><li>Preoperatív vizsgálatok a kórházban</li><li>ESG beavatkozás (60-90 perc, nincs vágás)</li><li>Felépülés és hazautazás 3-4 napon belül</li></ol></section>
+<section><h2>Várható eredmények</h2><p>Magyar páciensek 15-20%-os testsúlycsökkenésre számíthatnak 12-18 hónap alatt. BMI 38+ esetén az átlagos fogyás kb. 20 kg az első 6 hónapban. Jelentős javulás diabétesz, magas vérnyomás és alvási apnoé terén.</p></section>
+<section><h2>Gyakran ismételt kérdések</h2><dl><dt>Elérhető az ESG a TB keretében?</dt><dd>Nem, az ESG nem érhető el a magyar társadalombiztosítás keretében. Magánklinikákon 2-4 millió Ft.</dd><dt>Mennyi időt kell Isztambulban tölteni?</dt><dd>3-4 napot. Közvetlen járatok Budapestről (~2-2,5 óra).</dd><dt>Fájdalmas a beavatkozás?</dt><dd>Az ESG-t általános altatásban végzik. Enyhe kellemetlenség 1-3 napig a beavatkozás után.</dd><dt>Tartósak az eredmények?</dt><dd>Igen, megfelelő életmóddal. 12 hónapos dietetikai támogatás benne van az árban.</dd><dt>Mi a különbség az ESG és az Ozempic között?</dt><dd>Az ESG egyszeri fizikai gyomorcsökkentés — folyamatos gyógyszerköltségek nélkül.</dd><dt>Milyen BMI szükséges?</dt><dd>BMI 30 és 40 között.</dd><dt>Biztonságos?</dt><dd>Minden beavatkozás JCI-akkreditált Liv Hospitalban. Dr. Murat Üstün több ezer ESG beavatkozást végzett.</dd><dt>Mit tartalmaz a csomag?</dt><dd>Beavatkozás, JCI kórház, vizsgálatok, VIP transzfer, szálloda, gyógyszerek, 12 hó dietetikai támogatás. Nincsenek rejtett költségek.</dd></dl></section>
+<section><h2>Kapcsolat</h2><p>WhatsApp: +90 532 413 1143 | E-mail: drmuratustun@gmail.com</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Endoszkópos Sleeve Gastroplasztika magyar betegeknek",
+      "alternateName": ["ESG Magyarország", "ESG Törökország", "Fogyás műtét nélkül", "Gyomor csökkentés műtét nélkül"],
+      "description": "Endoszkópos Sleeve Gastroplasztika (ESG) magyar pácienseknek az Istanbul Bariatric Centerben. Gyomor csökkentés műtét nélkül. JCI-akkreditált kórház.",
+      "procedureType": "Endoscopic",
+      "bodyLocation": "Stomach",
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Elérhető az ESG a magyar egészségügyi rendszerben?", "acceptedAnswer": { "@type": "Answer", "text": "Nem, az ESG nem érhető el a TB keretében. Magánklinikákon 2.000.000-4.000.000 Ft-ba kerülhet." } },
+        { "@type": "Question", "name": "Mennyi időt kell Isztambulban tölteni?", "acceptedAnswer": { "@type": "Answer", "text": "3-4 napot. Közvetlen járatok Budapest Liszt Ferencről (~2-2,5 óra)." } },
+        { "@type": "Question", "name": "Fájdalmas az ESG beavatkozás?", "acceptedAnswer": { "@type": "Answer", "text": "Az ESG-t általános altatásban végzik — a beavatkozás során semmit sem érez. Enyhe kellemetlenség 1-3 napig, gyógyszerekkel kezelhető." } },
+        { "@type": "Question", "name": "Tartósak az eredmények?", "acceptedAnswer": { "@type": "Answer", "text": "Igen, megfelelő életmóddal. 12 hónapos dietetikai támogatás képzett dietetikussal minden csomag részét képezi." } },
+        { "@type": "Question", "name": "Mi a különbség az ESG és az Ozempic/Wegovy között?", "acceptedAnswer": { "@type": "Answer", "text": "Az ESG egyszeri fizikai gyomorcsökkentés — folyamatos havi gyógyszerköltségek nélkül." } },
+        { "@type": "Question", "name": "Milyen BMI szükséges az ESG-hez?", "acceptedAnswer": { "@type": "Answer", "text": "Az ESG 30 és 40 közötti BMI-vel rendelkező pácienseknek ajánlott." } },
+        { "@type": "Question", "name": "Biztonságos a külföldi kezelés?", "acceptedAnswer": { "@type": "Answer", "text": "Az Istanbul Bariatric Center a JCI-akkreditált Liv Hospitalban működik. Dr. Murat Üstün több ezer sikeres ESG beavatkozást végzett." } },
+        { "@type": "Question", "name": "Mit tartalmaz az all-inclusive csomag?", "acceptedAnswer": { "@type": "Answer", "text": "Teljes ESG beavatkozás, JCI kórház, vizsgálatok, VIP transzfer, szálloda, gyógyszerek és 12 hónapos dietetikai támogatás. Nincsenek rejtett költségek." } }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://istanbulbariatriccenter.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://istanbulbariatriccenter.com/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "ESG", "item": "https://istanbulbariatriccenter.com/esg" },
+        { "@type": "ListItem", "position": 4, "name": "ESG magyar betegeknek", "item": "https://istanbulbariatriccenter.com/esg/hu" }
+      ]
+    }]
+  },
+  "/esg/fi": {
+    title: "ESG Turkki suomalaisille potilaille | Laihtuminen ilman leikkausta | € 6.450 all-inclusive",
+    description: "Endoskooppinen sleeve gastroplastia ilman leikkausta suomalaisille potilaille. All-inclusive-paketti € 6.450 JCI-akkreditoidussa sairaalassa. Säästöjä Suomeen verrattuna. Ilmainen konsultaatio.",
+    h1: "Endoskooppinen Sleeve Gastroplastia (ESG) — Laihtuminen ilman leikkausta Turkissa",
+    bodyExcerpt: "Endoskooppinen Sleeve Gastroplastia (ESG) suomalaisille potilaille Istanbul Bariatric Centerissä. Mahalaukun pienennys ilman leikkausta. JCI-akkreditoitu sairaala. Dr. Murat Üstün. All-inclusive-paketti € 6.450 VIP-kuljetuksella, hotellilla ja 12 kuukauden ravitsemustuella. Suorat lennot Helsinki-Vantaalta (~3,5-4 tuntia).",
+    canonical: SITE_URL + "/esg/fi",
+    richContent: `<section><h2>Mikä on Endoskooppinen Sleeve Gastroplastia (ESG)?</h2><p>ESG on innovatiivinen toimenpide, joka pienentää mahalaukun tilavuutta ilman leikkausta. Suun kautta viedään endoskooppi, jolla asetetaan sisäiset ompeleet, jotka pienentävät mahalaukun tilavuutta 70-80%. Toisin kuin perinteisessä sleeve gastrectomyssa ei tehdä viiltoja, kudosta ei poisteta ja toipuminen on huomattavasti nopeampaa. Toimenpide käyttää Apollo OverStitch -teknologiaa ja kestää noin 60-90 minuuttia yleisanestesiassa.</p></section>
+<section><h2>Miksi suomalaiset potilaat valitsevat ESG:n Turkissa</h2><h3>Asiantuntemus ja standardit</h3><p>Turkki on maailman johtavia maita bariatrisessa kirurgiassa. Modernit JCI-akkreditoidut sairaalat, kokeneet asiantuntijat ja kansainväliset hoitostandardit.</p><h3>Merkittävät säästöt</h3><p>Suomessa yksityisklinikkojen ESG-hinnat ovat 8.000-15.000 €. All-inclusive-pakettimme on € 6.450 — toimenpiteellä, JCI-sairaalalla, hotellilla, kuljetuksella ja 12 kuukauden ravitsemustuella.</p><h3>Nopea hoitoonpääsy</h3><p>Ei jonotuslistaa. Suorat lennot Helsinki-Vantaalta (~3,5-4 tuntia). Täydellinen hoito 3-4 päivässä.</p></section>
+<section><h2>ESG vs painonpudotuslääkkeet</h2><table><thead><tr><th>Tekijä</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Vaikutus</td><td>Tilapäinen</td><td>Pitkäaikainen</td></tr><tr><td>Haittavaikutukset</td><td>Yleisiä</td><td>Vähäisiä</td></tr><tr><td>Kustannus</td><td>Jatkuva</td><td>Kertamaksu</td></tr><tr><td>Painonnousu</td><td>Yleistä</td><td>Rajallista</td></tr></tbody></table></section>
+<section><h2>ESG vs kirurginen sleeve gastrectomy</h2><table><thead><tr><th>Ominaisuus</th><th>ESG</th><th>Gastric Sleeve</th></tr></thead><tbody><tr><td>Tyyppi</td><td>Endoskooppinen</td><td>Laparoskooppinen</td></tr><tr><td>Toipuminen</td><td>1-3 päivää</td><td>2-3 viikkoa</td></tr><tr><td>Arvet</td><td>Ei lainkaan</td><td>4-5 pientä</td></tr><tr><td>Painonpudotus</td><td>15-20% kehonpainosta</td><td>60-70% ylipainosta</td></tr></tbody></table></section>
+<section><h2>Miksi Istanbul Bariatric Center</h2><ul><li><strong>Dr. Murat Üstün</strong> — ESG:n uranuurtaja Turkissa tuhansilla onnistuneilla toimenpiteillä</li><li><strong>JCI-akkreditoitu sairaala</strong> — Liv Hospital, kansainvälinen kultastandardi</li><li><strong>Kansainvälinen tiimi</strong> — Omistettu tiimi kansainvälisille potilaille</li><li><strong>All-inclusive-paketti</strong> — Toimenpide, sairaala, hotelli, kuljetus, testit, 12 kk ravitsemustuki</li></ul></section>
+<section><h2>Hoitoprosessi</h2><ol><li>Ilmainen online-konsultaatio WhatsAppin kautta</li><li>Suora lento Istanbuliin Helsinki-Vantaalta (~3,5-4 tuntia)</li><li>VIP-kuljetus lentokentältä hotellille</li><li>Preoperatiiviset tutkimukset sairaalassa</li><li>ESG-toimenpide (60-90 minuuttia, ei viiltoja)</li><li>Toipuminen ja kotiinpaluu 3-4 päivän kuluessa</li></ol></section>
+<section><h2>Odotetut tulokset</h2><p>Suomalaiset potilaat voivat odottaa 15-20% painonpudotusta 12-18 kuukauden aikana. BMI 38+ potilailla keskimääräinen painonpudotus on noin 20 kg ensimmäisten 6 kuukauden aikana. Merkittävä parannus diabeteksessa, korkeassa verenpaineessa ja uniapneassa.</p></section>
+<section><h2>Usein kysytyt kysymykset</h2><dl><dt>Onko ESG saatavilla julkisessa terveydenhuollossa?</dt><dd>Ei, ESG ei ole saatavilla julkisessa terveydenhuollossa Suomessa. Yksityisklinikkojen hinnat ovat 8.000-15.000 €.</dd><dt>Kuinka kauan Istanbulissa tulee olla?</dt><dd>3-4 päivää. Suorat lennot Helsinki-Vantaalta (~3,5-4 tuntia).</dd><dt>Onko toimenpide kivulias?</dt><dd>ESG tehdään yleisanestesiassa. Lievä epämukavuus 1-3 päivää toimenpiteen jälkeen.</dd><dt>Ovatko tulokset pysyviä?</dt><dd>Kyllä, oikealla elämäntavalla. 12 kuukauden ravitsemustuki sisältyy hintaan.</dd><dt>Mikä on ESG:n ja Ozempicin ero?</dt><dd>ESG on kertaalleen tehtävä fyysinen mahalaukun pienennys — ilman jatkuvia lääkekustannuksia.</dd><dt>Mikä BMI vaaditaan?</dt><dd>BMI 30-40.</dd><dt>Onko se turvallista?</dt><dd>Kaikki toimenpiteet JCI-akkreditoidussa Liv Hospitalissa. Dr. Murat Üstün on suorittanut tuhansia ESG-toimenpiteitä.</dd><dt>Mitä paketti sisältää?</dt><dd>Toimenpide, JCI-sairaala, testit, VIP-kuljetus, hotelli, lääkitys, 12 kk ravitsemustuki. Ei piilokustannuksia.</dd></dl></section>
+<section><h2>Yhteystiedot</h2><p>WhatsApp: +90 532 413 1143 | Sähköposti: drmuratustun@gmail.com</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Endoskooppinen Sleeve Gastroplastia suomalaisille potilaille",
+      "alternateName": ["ESG Suomi", "ESG Turkki", "Laihtuminen ilman leikkausta", "Mahalaukun pienennys ilman leikkausta"],
+      "description": "Endoskooppinen Sleeve Gastroplastia (ESG) suomalaisille potilaille Istanbul Bariatric Centerissä. Mahalaukun pienennys ilman leikkausta. JCI-akkreditoitu sairaala.",
+      "procedureType": "Endoscopic",
+      "bodyLocation": "Stomach",
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Onko ESG saatavilla julkisessa terveydenhuollossa Suomessa?", "acceptedAnswer": { "@type": "Answer", "text": "Ei, ESG ei ole saatavilla julkisessa terveydenhuollossa. Yksityisklinikkojen hinnat ovat 8.000-15.000 €." } },
+        { "@type": "Question", "name": "Kuinka kauan minun täytyy olla Istanbulissa?", "acceptedAnswer": { "@type": "Answer", "text": "3-4 päivää. Suorat lennot Helsinki-Vantaalta (~3,5-4 tuntia)." } },
+        { "@type": "Question", "name": "Onko ESG-toimenpide kivulias?", "acceptedAnswer": { "@type": "Answer", "text": "ESG tehdään yleisanestesiassa — ette tunne mitään toimenpiteen aikana. Lievä epämukavuus 1-3 päivää, hallittavissa lääkkeillä." } },
+        { "@type": "Question", "name": "Ovatko tulokset pysyviä?", "acceptedAnswer": { "@type": "Answer", "text": "Kyllä, oikealla elämäntavalla. 12 kuukauden ravitsemusohjelma pätevän ravitsemusterapeutin kanssa sisältyy kaikkiin paketteihin." } },
+        { "@type": "Question", "name": "Mikä on ESG:n ja Ozempicin/Wegovyn ero?", "acceptedAnswer": { "@type": "Answer", "text": "ESG on kertaalleen tehtävä fyysinen mahalaukun pienennys — ilman jatkuvia kuukausittaisia lääkekustannuksia." } },
+        { "@type": "Question", "name": "Mikä BMI vaaditaan ESG:hen?", "acceptedAnswer": { "@type": "Answer", "text": "ESG suositellaan potilaille, joiden BMI on 30-40." } },
+        { "@type": "Question", "name": "Onko hoito ulkomailla turvallista?", "acceptedAnswer": { "@type": "Answer", "text": "Istanbul Bariatric Center toimii JCI-akkreditoidussa Liv Hospitalissa. Dr. Murat Üstün on suorittanut tuhansia onnistuneita ESG-toimenpiteitä." } },
+        { "@type": "Question", "name": "Mitä all-inclusive-paketti sisältää?", "acceptedAnswer": { "@type": "Answer", "text": "Täydellinen ESG-toimenpide, JCI-sairaala, testit, VIP-kuljetus, hotelli, lääkitys ja 12 kuukauden ravitsemustuki. Ei piilokustannuksia." } }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://istanbulbariatriccenter.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://istanbulbariatriccenter.com/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "ESG", "item": "https://istanbulbariatriccenter.com/esg" },
+        { "@type": "ListItem", "position": 4, "name": "ESG suomalaisille", "item": "https://istanbulbariatriccenter.com/esg/fi" }
+      ]
+    }]
+  },
   "/post-bariatric-surgery": {
     title: "Post Bariatric Body Contouring Surgery - Istanbul Bariatric Center",
     description: "Post bariatric body contouring surgery in Istanbul. Tummy tuck, arm lift, thigh lift, breast lift after major weight loss. Complete your transformation.",
