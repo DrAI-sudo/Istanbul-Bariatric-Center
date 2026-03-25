@@ -13,6 +13,7 @@ export const VALID_STATIC_ROUTES = [
   "/duodenal-switch",
   "/transit-bipartition",
   "/esg",
+  "/esg/uk",
   "/post-bariatric-surgery",
   "/insurance",
   "/health-profile",

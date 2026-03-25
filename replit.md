@@ -100,7 +100,7 @@ The backend serves the React SPA in production and provides API endpoints for co
 
 ### Server-Side SEO Injection (SPA SSR)
 - **Architecture**: React SPA with server-side content injection for crawlers
-- **SEO Data**: `server/seo-data.ts` — Rich content definitions for all 15 static pages + 46 blog posts, including titles, descriptions, full page content, and JSON-LD schemas
+- **SEO Data**: `server/seo-data.ts` — Rich content definitions for all 16 static pages + 46 blog posts, including titles, descriptions, full page content, and JSON-LD schemas
 - **SEO Injection**: `server/seo-inject.ts` — Injects into HTML: meta tags (title, description, OG, Twitter, canonical), JSON-LD structured data, rich crawlable content div, noscript fallback, navigation links, blog article index
 - **Blog Content Injection**: Full blog post HTML content extracted from `client/src/data/blog-posts.ts` and injected server-side for each blog URL
 - **Vite Dev Integration**: `server/vite.ts` — SSR injection also works in development mode
@@ -114,6 +114,14 @@ The backend serves the React SPA in production and provides API endpoints for co
 - Before/after photos: `ba_1.webp` through `ba_12.webp`
 - IFSO procedure diagrams: `ifso-sleeve.webp`, `ifso-bypass.webp`, `ifso-ds.webp`, `ifso-esg.webp`, `ifso-lagb.webp`
 - ESG procedure image: `esg-procedure-cdn.webp`
+- ESG UK landing page images: `esg-uk-hero.webp`, `esg-uk-hospital.webp`, `esg-uk-consultation.webp`
+
+### Country-Specific Landing Pages
+- **Architecture**: Country-specific ESG landing pages under `/esg/{country}` route pattern
+- **UK Page**: `/esg/uk` — `client/src/pages/esg-uk.tsx` — 2500+ word local SEO page targeting "ESG UK", "endoscopic sleeve gastroplasty UK", "weight loss Turkey UK patients"
+- **Features**: Interactive BMI calculator, FAQ accordion, comparison tables (ESG vs medications, ESG vs gastric sleeve), step-by-step journey timeline, UK patient testimonials, internal links section, country flags
+- **SEO**: Full SSR injection, JSON-LD MedicalProcedure schema, breadcrumbs, FAQ schema, sitemap entry, llms.txt entry
+- **Extensible**: Designed for future country pages (e.g., `/esg/germany`, `/esg/ireland`)
 
 ### AI Crawler Accessibility
 - **robots.txt**: `client/public/robots.txt` — Expanded to 25+ named AI crawlers (GPTBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended, Grokbot, DeepSeekBot, FacebookBot, MetaBot, Applebot, CopilotBot, etc.) with Disallow for `/api/`, `/admin`, `/superadmin`
