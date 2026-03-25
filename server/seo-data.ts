@@ -1096,6 +1096,56 @@ const staticPages: Record<string, PageSEO> = {
       ]
     }]
   },
+  "/esg/us": {
+    title: "ESG Turkey for US Patients | Minimally Invasive Weight Loss | $8,500 All-Inclusive",
+    description: "Endoscopic Sleeve Gastroplasty for American patients. Procedure $7,500 USD. All-inclusive $8,500 USD at JCI-accredited hospital. Evidence-based weight loss without surgery. Free consultation.",
+    h1: "Endoscopic Sleeve Gastroplasty (ESG) — A Minimally Invasive Alternative to Traditional Bariatric Surgery",
+    bodyExcerpt: "Endoscopic Sleeve Gastroplasty (ESG) for American patients at Istanbul Bariatric Center. Evidence-based stomach reduction without surgery. JCI-accredited hospital. Dr. Murat Üstün. Procedure $7,500 USD or all-inclusive $8,500 USD with VIP transfers, 4-star hotel, and 12-month dietitian support via telemedicine. Direct flights from NYC, Chicago, LA, Houston, Miami.",
+    canonical: SITE_URL + "/esg/us",
+    richContent: `<section><h2>How ESG Works — The Science</h2><p>ESG is an innovative endoscopic procedure that reduces stomach volume by 70-80% without surgical incisions. A flexible endoscope is inserted through the mouth, and internal sutures are placed using FDA-cleared Apollo OverStitch technology. Unlike traditional sleeve gastrectomy, no tissue is removed, and the procedure is potentially reversible. Published clinical data demonstrates 15-20% total body weight loss at 12-18 months, with durable results at 2-5 year follow-up.</p></section>
+<section><h2>Why American Patients Choose ESG in Turkey</h2><h3>Limited US Access & High Costs</h3><p>ESG is not widely available in US clinics. Where offered, prices range from $15,000-$25,000+ out-of-pocket, as most insurers consider ESG investigational. Wait times for bariatric programs can exceed 6-12 months.</p><h3>65-70% Cost Savings</h3><p>Our all-inclusive package is $8,500 USD — a fraction of US pricing. This includes the procedure at a JCI-accredited hospital, 4-star hotel, VIP transfers, and 12-month dietitian support via telemedicine. HSA/FSA-eligible. Procedure-only option at $7,500 USD.</p><h3>Fast Scheduling</h3><p>From consultation to procedure in as little as 2 weeks. Direct flights from NYC (~10h), Chicago (~11h), LA (~13h), Houston (~12h), Miami (~11h).</p></section>
+<section><h2>ESG vs Weight Loss Medications</h2><table><thead><tr><th>Factor</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Effectiveness</td><td>Temporary — 2/3 weight returns after stopping</td><td>Durable at 2-5 year follow-up</td></tr><tr><td>Side effects</td><td>Common (nausea, pancreatitis risk)</td><td>Minimal (1-3 days discomfort)</td></tr><tr><td>Annual cost</td><td>$12,000-$18,000/year</td><td>One-time $8,500 USD</td></tr><tr><td>FDA status</td><td>FDA-approved</td><td>FDA-cleared device</td></tr></tbody></table></section>
+<section><h2>ESG vs Gastric Sleeve Surgery</h2><table><thead><tr><th>Feature</th><th>ESG</th><th>Gastric Sleeve</th></tr></thead><tbody><tr><td>Type</td><td>Endoscopic</td><td>Laparoscopic (4-5 incisions)</td></tr><tr><td>Recovery</td><td>1-3 days</td><td>2-4 weeks</td></tr><tr><td>Complications</td><td>&lt;1% serious</td><td>1-3% serious</td></tr><tr><td>Weight loss</td><td>15-20% body weight</td><td>60-70% excess weight</td></tr><tr><td>US cost</td><td>$15,000-$25,000</td><td>$15,000-$35,000</td></tr></tbody></table></section>
+<section><h2>Why Istanbul Bariatric Center</h2><ul><li><strong>Dr. Murat Üstün</strong> — Pioneer of ESG in Turkey with thousands of successful procedures and complication rates comparable to leading US centers</li><li><strong>JCI-accredited hospital</strong> — Liv Hospital, same accreditation as Cleveland Clinic, Mayo Clinic, Johns Hopkins</li><li><strong>US patient support</strong> — English-speaking coordinators, telemedicine follow-up compatible with US time zones</li><li><strong>Transparent pricing</strong> — No surprise bills. From $7,500 procedure only to $8,500 all-inclusive</li></ul></section>
+<section><h2>Treatment Timeline</h2><ol><li>Free online consultation — medical team review within 24-48 hours</li><li>Direct flight to Istanbul from major US hubs (NYC, Chicago, LA, Houston, Miami)</li><li>VIP transfer from Istanbul Airport (IST) to 4-star hotel</li><li>Comprehensive pre-operative assessments (labs, ECG, ultrasound)</li><li>ESG procedure (60-90 minutes, no incisions, FDA-cleared technology)</li><li>Recovery and travel home within 3-4 days, telemedicine follow-up begins within one week</li></ol></section>
+<section><h2>Expected Results</h2><p>Based on published clinical data and our patient outcomes: 15-20% total body weight loss over 12-18 months. For patients with BMI 38+, average weight loss is approximately 45 lbs in the first 6 months. Significant improvement in A1C, blood pressure, sleep apnea, and NAFLD markers.</p></section>
+<section><h2>Frequently Asked Questions</h2><dl><dt>Is ESG covered by US insurance?</dt><dd>Most US insurers consider ESG investigational. Out-of-pocket costs at US clinics: $15,000-$25,000+. HSA/FSA funds may be used.</dd><dt>How long in Istanbul?</dt><dd>3-4 days. Direct flights from NYC (~10h), Chicago (~11h), LA (~13h).</dd><dt>Is it painful?</dt><dd>ESG is performed under general anesthesia. Mild discomfort for 1-3 days post-procedure.</dd><dt>Are results evidence-based?</dt><dd>Yes. Published studies show durable 15-20% weight loss at 2-5 year follow-up.</dd><dt>ESG vs Ozempic?</dt><dd>ESG is a one-time structural solution. Ozempic costs $12,000-$18,000/year with significant weight regain after stopping.</dd><dt>What BMI qualifies?</dt><dd>BMI 30-40.</dd><dt>Is it safe abroad?</dt><dd>JCI-accredited Liv Hospital — same standard as Cleveland Clinic and Mayo Clinic.</dd><dt>What's included?</dt><dd>Procedure, JCI hospital, labs, VIP transfers, 4-star hotel, medications, 12-month dietitian support via telemedicine.</dd></dl></section>
+<section><h2>Contact</h2><p>WhatsApp: +90 532 413 1143 | Email: drmuratustun@gmail.com</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Endoscopic Sleeve Gastroplasty for American Patients",
+      "alternateName": ["ESG USA", "ESG United States", "Weight loss without surgery USA", "Bariatric Turkey for Americans"],
+      "description": "Endoscopic Sleeve Gastroplasty (ESG) for American patients at Istanbul Bariatric Center. Evidence-based stomach reduction without surgery. JCI-accredited hospital.",
+      "procedureType": "Endoscopic",
+      "bodyLocation": "Stomach",
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Is ESG covered by US health insurance?", "acceptedAnswer": { "@type": "Answer", "text": "Most US insurers consider ESG investigational. Out-of-pocket costs at US clinics range from $15,000 to $25,000+. HSA/FSA funds may be used." } },
+        { "@type": "Question", "name": "How long do I need to stay in Istanbul?", "acceptedAnswer": { "@type": "Answer", "text": "3-4 days. Direct flights from NYC (~10h), Chicago (~11h), LA (~13h), Houston (~12h), Miami (~11h)." } },
+        { "@type": "Question", "name": "Is the ESG procedure painful?", "acceptedAnswer": { "@type": "Answer", "text": "ESG is performed under general anesthesia — you won't feel anything during the procedure. Mild discomfort for 1-3 days, managed with medication." } },
+        { "@type": "Question", "name": "Are the results evidence-based and long-lasting?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Published clinical studies show 15-20% total body weight loss with durable results at 2-5 year follow-up." } },
+        { "@type": "Question", "name": "How does ESG compare to Ozempic or Wegovy?", "acceptedAnswer": { "@type": "Answer", "text": "ESG is a one-time structural solution. GLP-1 medications cost $12,000-$18,000/year without insurance and studies show significant weight regain after discontinuation." } },
+        { "@type": "Question", "name": "What BMI qualifies for ESG?", "acceptedAnswer": { "@type": "Answer", "text": "ESG is recommended for patients with a BMI between 30 and 40." } },
+        { "@type": "Question", "name": "Is it safe to have medical treatment outside the US?", "acceptedAnswer": { "@type": "Answer", "text": "Istanbul Bariatric Center operates at JCI-accredited Liv Hospital — the same accreditation held by Cleveland Clinic, Mayo Clinic, and Johns Hopkins." } },
+        { "@type": "Question", "name": "What does the all-inclusive package include?", "acceptedAnswer": { "@type": "Answer", "text": "Complete ESG procedure, JCI hospital, comprehensive labs, VIP transfers, 4-star hotel, medications, and 12-month dietitian support via telemedicine. No hidden costs." } }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://istanbulbariatriccenter.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://istanbulbariatriccenter.com/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "ESG", "item": "https://istanbulbariatriccenter.com/esg" },
+        { "@type": "ListItem", "position": 4, "name": "ESG for US Patients", "item": "https://istanbulbariatriccenter.com/esg/us" }
+      ]
+    }]
+  },
   "/post-bariatric-surgery": {
     title: "Post Bariatric Body Contouring Surgery - Istanbul Bariatric Center",
     description: "Post bariatric body contouring surgery in Istanbul. Tummy tuck, arm lift, thigh lift, breast lift after major weight loss. Complete your transformation.",
