@@ -2,9 +2,7 @@
 
 ## Overview
 
-This is a medical tourism website for Istanbul Bariatric Center, a weight loss surgery clinic in Turkey. The application is a full-stack web app built with React frontend and Express backend, featuring a marketing website with treatment information, blog posts, patient testimonials, and a contact form system.
-
-The site showcases various bariatric surgery procedures (gastric sleeve, gastric bypass, gastric balloon, etc.), VIP packages, doctor profiles, and success stories. It includes a contact form that stores submissions in a PostgreSQL database.
+This project is a full-stack web application for Istanbul Bariatric Center, a medical tourism provider specializing in weight loss surgery in Turkey. The application serves as a comprehensive marketing platform, showcasing bariatric procedures, VIP packages, doctor profiles, and patient testimonials. Its primary purpose is to attract international patients, provide detailed information, and facilitate inquiries through contact forms and an AI chatbot. The project aims to establish a strong online presence and support the center's growth in the medical tourism market.
 
 ## User Preferences
 
@@ -14,137 +12,69 @@ Preferred communication style: Simple, everyday language.
 
 ## System Architecture
 
-### Frontend Architecture
+### Frontend
 - **Framework**: React with TypeScript
-- **Routing**: Wouter for client-side routing
-- **Styling**: Tailwind CSS v4 with CSS variables for theming
-- **UI Components**: shadcn/ui component library (New York style) with Radix UI primitives
-- **State Management**: TanStack React Query for server state
+- **Routing**: Wouter
+- **Styling**: Tailwind CSS v4 with CSS variables, shadcn/ui component library
+- **State Management**: TanStack React Query
 - **Form Handling**: React Hook Form with Zod validation
 - **Build Tool**: Vite
+- **UI/UX**: Clean medical theme (white background, blue primary colors), single-page application structure, includes pages for home, about, treatments, results, blog, contact, and country-specific landing pages.
 
-The frontend is a single-page application with pages for home, about, treatments (multiple procedure-specific pages), results, blog, and contact. The design follows a clean medical theme with a white background and blue primary colors.
-
-### Backend Architecture
+### Backend
 - **Framework**: Express.js with TypeScript
 - **Database ORM**: Drizzle ORM with PostgreSQL
-- **API Design**: RESTful endpoints under `/api` prefix
-- **Development**: tsx for TypeScript execution, Vite dev server integration
-
-The backend serves the React SPA in production and provides API endpoints for contact form submissions and the Maya AI chatbot. The server includes logging middleware and serves static files from the built client.
+- **API Design**: RESTful endpoints under `/api`
+- **Deployment**: Serves React SPA in production, provides API for forms and AI chatbot.
 
 ### Maya AI Chatbot
-- **Component**: `client/src/components/maya-chatbot.tsx` - Self-contained floating chat widget
-- **Backend**: `server/maya-chat.ts` - Streaming chat API at `/api/maya-chat` using OpenAI (gpt-5-mini)
-- **Knowledge Base**: `server/maya-knowledge-base.ts` - Comprehensive treatment info, pricing, doctor details
-- **Profile Photo**: `client/public/maya-avatar.webp` (96x96, compressed)
-- **Features**: Multilingual greetings (9 languages), SSE streaming, responsive (full-screen mobile), lead collection, conversation persistence
-- **Integration**: Replit AI Integrations (no API key needed, billed to credits)
+- **Implementation**: Self-contained React component (`maya-chatbot.tsx`), streaming API (`/api/maya-chat`) using OpenAI (gpt-5-mini), comprehensive knowledge base.
+- **Features**: Multilingual greetings, SSE streaming, responsive design, lead collection, conversation persistence.
 
 ### Admin Dashboard
-- **Route**: `/admin` (not linked from main website, password-protected)
-- **Auth**: Token-based authentication using ADMIN_PASSWORD secret
-- **Backend**: `server/admin-routes.ts` - Admin API endpoints for analytics, conversations, leads, contacts
-- **Frontend**: `client/src/pages/admin.tsx` - Dashboard with tabs (Overview, Traffic, Conversations, Leads, Contact Forms)
-- **Features**: 
-  - Real-time page view tracking with daily/weekly/monthly/annual periods
-  - Pie charts for page view distribution, bar charts for visitor trends
-  - Chatbot conversation viewer with delete functionality
-  - Lead tracking (extracted from chatbot conversations)
-  - Contact form submissions viewer
-- **Tracking**: Client-side PageTracker component sends page views and session duration to `/api/track`
+- **Access**: Password-protected `/admin` route.
+- **Features**: Real-time analytics (page views, visitor trends), chatbot conversation viewer, lead tracking, contact form submissions viewer.
 
 ### Data Storage
 - **Database**: PostgreSQL
-- **Schema**: Defined in `shared/schema.ts` using Drizzle ORM
-- **Tables**: 
-  - `users` - User accounts with username/password
-  - `contact_submissions` - Contact form entries with name, email, phone, subject, message, and timestamp
-  - `page_views` - Analytics tracking with path, session ID, duration, referrer, user agent
-  - `conversations` - Chatbot conversation records
-  - `messages` - Individual chat messages linked to conversations
-  - `chatbot_leads` - Lead information extracted from chatbot (name, phone, email)
-- **Migrations**: Managed via `drizzle-kit push`
+- **Schema**: Defined with Drizzle ORM, includes tables for users, contact submissions, page views, conversations, messages, and chatbot leads.
 
 ### Personal Health Profile
-- **Route**: `/health-profile` - Eligibility assessment form
-- **Page**: `client/src/pages/health-profile.tsx` - Multi-section form with personal info, lifestyle, surgery interest, medical history
-- **API**: `POST /api/health-profile` - Sends form data via email to drmuratustun@gmail.com using Resend
-- **Homepage Link**: "Am I Eligible?" button in BMI calculator section links to this page
-- **Email**: Formatted HTML email with all sections, medical checklist flags highlighted in red
+- **Functionality**: Eligibility assessment form (`/health-profile`) that collects personal, lifestyle, and medical history.
+- **Integration**: Submits data via email using Resend.
 
-### Code Organization
-- `/client` - React frontend source code
-- `/server` - Express backend source code
-- `/shared` - Shared types and database schema
-- `/attached_assets` - Static assets like images
-- Path aliases: `@/` for client source, `@shared/` for shared code
+### Server-Side SEO Injection
+- **Strategy**: React SPA with server-side content injection for crawlers.
+- **Content**: Rich SEO data (`seo-data.ts`) for pages and blog posts (titles, descriptions, content, JSON-LD schemas).
+- **Features**: Dynamic sitemap generation, blog content injection, route validation, enhanced meta robots tags for AI crawlers.
+
+### Country-Specific Landing Pages
+- **Architecture**: ESG (Endoscopic Sleeve Gastroplasty) landing pages under `/esg/{country}` (e.g., UK, Germany, France, Spain, Dutch, Arabic, Italian, Russian, Romanian, Swedish, Polish, Danish, Norwegian).
+- **Features**: Localized content, interactive BMI calculator, FAQs, comparison tables, testimonials, full SSR injection, JSON-LD schemas.
+
+### AI Crawler Accessibility
+- **Configuration**: `robots.txt` expanded for 25+ AI crawlers, `llms.txt` and `llms-full.txt` for LLM discovery, `ai-plugin.json` for AI plugin discovery.
+- **Headers**: `X-Robots-Tag` for granular control over indexing.
+
+### Performance Optimizations
+- **Media**: WebP image format, optimized video delivery, local image assets.
+- **Code**: Code splitting, manual chunks, terser minification, console stripping.
+- **Caching**: Aggressive caching for static assets.
 
 ## External Dependencies
 
 ### Database
-- PostgreSQL database (connection via `DATABASE_URL` environment variable)
-- Drizzle ORM for database operations
-- connect-pg-simple for session storage capability
+- PostgreSQL
+- Drizzle ORM
+- connect-pg-simple
 
 ### Third-Party Services
-- Self-hosted fonts via @fontsource (Inter, Plus Jakarta Sans)
-- WhatsApp Business integration for customer contact
+- Resend (for email delivery)
+- WhatsApp Business (for customer contact)
+- OpenAI (for Maya AI chatbot)
 
 ### Key NPM Packages
-- UI: Radix UI components, Lucide icons, Embla Carousel
+- UI: Radix UI, Lucide icons, Embla Carousel, sonner (toast notifications)
 - Forms: React Hook Form, Zod, zod-validation-error
 - Styling: Tailwind CSS, class-variance-authority, clsx, tailwind-merge
 - Date handling: date-fns
-- Notifications: sonner (toast notifications)
-
-### Server-Side SEO Injection (SPA SSR)
-- **Architecture**: React SPA with server-side content injection for crawlers
-- **SEO Data**: `server/seo-data.ts` — Rich content definitions for all 16 static pages + 46 blog posts, including titles, descriptions, full page content, and JSON-LD schemas
-- **SEO Injection**: `server/seo-inject.ts` — Injects into HTML: meta tags (title, description, OG, Twitter, canonical), JSON-LD structured data, rich crawlable content div, noscript fallback, navigation links, blog article index
-- **Blog Content Injection**: Full blog post HTML content extracted from `client/src/data/blog-posts.ts` and injected server-side for each blog URL
-- **Vite Dev Integration**: `server/vite.ts` — SSR injection also works in development mode
-- **Production Integration**: `server/static.ts` — SSR injection in production build serving
-- **Dynamic Sitemap**: `server/routes.ts` — Sitemap generated dynamically from `seo-data.ts` blog posts + static routes; no static file needed
-- **Dynamic Route Validation**: `server/valid-routes.ts` — Blog slug validation reads from `seo-data.ts` dynamically, so new posts are automatically valid routes (200 status in production)
-
-### Image Assets
-- All images converted to WebP format and saved in `client/public/`
-- External CDN images (IFSO diagrams, before/after photos) downloaded locally and converted to WebP
-- Before/after photos: `ba_1.webp` through `ba_12.webp`
-- IFSO procedure diagrams: `ifso-sleeve.webp`, `ifso-bypass.webp`, `ifso-ds.webp`, `ifso-esg.webp`, `ifso-lagb.webp`
-- ESG procedure image: `esg-procedure-cdn.webp`
-- ESG UK landing page images: `esg-uk-hero.webp`, `esg-uk-hospital.webp`, `esg-uk-consultation.webp`
-
-### Country-Specific Landing Pages
-- **Architecture**: Country-specific ESG landing pages under `/esg/{country}` route pattern
-- **UK Page**: `/esg/uk` — `client/src/pages/esg-uk.tsx` — 2500+ word local SEO page targeting "ESG UK", "endoscopic sleeve gastroplasty UK", "weight loss Turkey UK patients"
-- **German Page**: `/esg/de` — `client/src/pages/esg-de.tsx` — Full German-language ESG page targeting "ESG Deutschland", "Magenverkleinerung ohne OP", "ESG Türkei Kosten". AI-generated images: `esg-de-hero.webp`, `esg-de-istanbul.webp`, `esg-de-consultation.webp`
-- **French Page**: `/esg/fr` — `client/src/pages/esg-fr.tsx` — Full French-language ESG page targeting "ESG France", "sleeve sans chirurgie", "perte de poids sans opération". Tone: medical credibility, reassurance, safety emphasis. AI-generated images: `esg-fr-hero.webp`, `esg-fr-istanbul.webp`, `esg-fr-consultation.webp`
-- **Spanish Page**: `/esg/es` — `client/src/pages/esg-es.tsx` — Full Spanish-language ESG page targeting "ESG España", "adelgazar sin cirugía", "gastroplastia endoscópica precio", "alternativa Ozempic España". Bilingual SEO for Spain + LATAM. AI-generated images: `esg-es-hero.webp`, `esg-es-istanbul.webp`, `esg-es-consultation.webp`
-- **Dutch Page**: `/esg/nl` — `client/src/pages/esg-nl.tsx` — Full Dutch-language ESG page targeting "ESG Nederland", "afvallen zonder operatie", "maag verkleinen zonder operatie", "alternatief Ozempic". Tone: pragmatic, value-conscious, trust-focused. AI-generated images: `esg-nl-hero.webp`, `esg-nl-istanbul.webp`, `esg-nl-consultation.webp`
-- **Arabic Page**: `/esg/ar` — `client/src/pages/esg-ar.tsx` — Full Arabic RTL page targeting Gulf patients (Saudi Arabia, UAE, Kuwait, Qatar). Premium/luxury VIP positioning. Pricing: $7,500 procedure / $8,500 all-inclusive. RTL layout with dir="rtl" set on mount. Amber/gold accent colors. AI-generated images: `esg-ar-hero.webp`, `esg-ar-istanbul.webp`, `esg-ar-consultation.webp`
-- **Features**: Interactive BMI/IMC calculator, FAQ accordion, comparison tables (ESG vs medications, ESG vs gastric sleeve), step-by-step journey timeline, country-specific patient testimonials, internal links section, country flags
-- **SEO**: Full SSR injection, JSON-LD MedicalProcedure schema, breadcrumbs, FAQ schema, sitemap entry, llms.txt entry
-- **Italian Page**: `/esg/it` — `client/src/pages/esg-it.tsx` — Full Italian-language ESG page targeting "ESG Italia", "dimagrire senza chirurgia", "gastroplastica endoscopica prezzo", "alternativa Ozempic Italia". Tone: clinical authority, trust-driven, transparent pricing. All-inclusive pricing: €6,450. AI-generated images: `esg-it-hero.webp`, `esg-it-istanbul.webp`, `esg-it-consultation.webp`
-- **Russian Page**: `/esg/ru` — `client/src/pages/esg-ru.tsx` — Full Russian-language ESG page targeting "ESG Россия", "похудение без операции", "гастропластика Турция". Tone: doctor authority, trust-driven. Emphasizes Russian-speaking staff, visa-free travel, CIS coverage. AI-generated images: `esg-ru-hero.webp`, `esg-ru-istanbul.webp`, `esg-ru-consultation.webp`
-- **Romanian Page**: `/esg/ro` — `client/src/pages/esg-ro.tsx` — Full Romanian-language ESG page targeting "ESG România", "slăbire fără operație", "tratament obezitate Turcia". Tone: price-sensitive, conversion-focused. Short flight (~1.5-2h from București/Cluj). AI-generated images: `esg-ro-hero.webp`, `esg-ro-istanbul.webp`, `esg-ro-consultation.webp`
-- **Swedish Page**: `/esg/se` — `client/src/pages/esg-se.tsx` — Full Swedish-language ESG page targeting "ESG Sverige", "gå ner i vikt utan operation", "gastroplastik Turkiet", "Ozempic alternativ Sverige". Tone: evidence-based, transparent, non-aggressive. High-trust Scandinavian market. All-inclusive pricing: € 6 450 (~70 000 SEK). Comparison with Swedish private clinic costs (80 000-150 000 SEK). Direct flights from Stockholm Arlanda, Göteborg Landvetter (~3-3.5h). AI-generated images: `esg-se-hero.webp`, `esg-se-istanbul.webp`, `esg-se-consultation.webp`
-- **Polish Page**: `/esg/pl` — `client/src/pages/esg-pl.tsx` — Full Polish-language ESG page targeting "ESG Polska", "odchudzanie bez operacji", "gastroplastyka Turcja", "alternatywa Ozempic". Tone: clear pricing, trust signals, professional. Strong outbound medical tourism market. All-inclusive pricing: € 6 450 (~28 000 PLN). Comparison with Polish private clinic costs (25 000-50 000 PLN). Direct flights from Warszawa, Kraków, Wrocław, Gdańsk (~2.5-3h). AI-generated images: `esg-pl-hero.webp`, `esg-pl-istanbul.webp`, `esg-pl-consultation.webp`
-- **Extensible**: Designed for future country pages (e.g., `/esg/dk`, `/esg/no`)
-
-### AI Crawler Accessibility
-- **robots.txt**: `client/public/robots.txt` — Expanded to 25+ named AI crawlers (GPTBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended, Grokbot, DeepSeekBot, FacebookBot, MetaBot, Applebot, CopilotBot, etc.) with Disallow for `/api/`, `/admin`, `/superadmin`
-- **llms.txt**: Served at `/llms.txt` from `server/routes.ts` — Structured LLM discovery file with practice overview, all procedures with links/pricing, contact info
-- **llms-full.txt**: Served at `/llms-full.txt` from `server/routes.ts` — Detailed version with full procedure descriptions, package details, and dynamically parsed blog posts (up to 100)
-- **ai-plugin.json**: Served at `/.well-known/ai-plugin.json` from `server/routes.ts` — AI plugin discovery pointing to llms.txt and sitemap
-- **X-Robots-Tag Header**: Middleware in `server/index.ts` — Public pages get `index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1`; `/api/`, `/admin`, `/superadmin` get `noindex, nofollow`
-- **Enhanced Meta Robots**: `client/index.html` — Both `robots` and `googlebot` meta tags with `max-image-preview:large, max-snippet:-1, max-video-preview:-1`
-
-### Performance Optimizations
-- **Video**: Hero video deferred via RAF (no download until after first paint); transit bipartition GIF (26MB) converted to MP4 (1.5MB)
-- **Images**: All images local WebP; Liv Hospital image resized to display dimensions and compressed (71KB→34KB)
-- **Code Splitting**: All pages lazy-loaded; Toaster/SonnerToaster/TooltipProvider/MayaChatbot lazy-loaded to reduce initial bundle
-- **Build**: Vite manual chunks (vendor/ui/query), terser minification with console stripping in production
-- **Caching**: Static assets served with 1-year immutable cache; HTML served with no-cache
-- **Network**: Removed unused preconnect/dns-prefetch to dead CDNs; awards texture inlined as SVG data URI
