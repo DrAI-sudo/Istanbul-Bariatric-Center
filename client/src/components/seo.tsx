@@ -114,16 +114,25 @@ export function JsonLd({ data }: JsonLdProps) {
     const dataStr = JSON.stringify(data);
     const schemaType = (data as { "@type"?: string })["@type"] || "unknown";
     const scriptId = `jsonld-${schemaType}-${dataStr.length}`;
-    
-    const script = document.createElement("script");
-    script.type = "application/ld+json";
-    script.textContent = dataStr;
-    script.id = scriptId;
+
+    const existingScripts = document.head.querySelectorAll('script[type="application/ld+json"]');
+    existingScripts.forEach((existing) => {
+      try {
+        const parsed = JSON.parse(existing.textContent || "");
+        if (parsed["@type"] === schemaType && !existing.id) {
+          existing.remove();
+        }
+      } catch {}
+    });
     
     const existingScript = document.getElementById(scriptId) as HTMLScriptElement | null;
     if (existingScript) {
       existingScript.textContent = dataStr;
     } else {
+      const script = document.createElement("script");
+      script.type = "application/ld+json";
+      script.textContent = dataStr;
+      script.id = scriptId;
       document.head.appendChild(script);
     }
 
