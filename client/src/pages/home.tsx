@@ -1,12 +1,44 @@
+import { lazy, Suspense, useEffect, useRef, useState } from "react";
 import { Navbar } from "@/components/navbar";
 import { Hero } from "@/components/hero";
 import { VIPPackage } from "@/components/vip-package";
-import { Treatments } from "@/components/treatments";
 import { Awards } from "@/components/awards";
-import { Testimonials } from "@/components/testimonials";
 import { Footer } from "@/components/footer";
-import { BMICalculator } from "@/components/bmi-calculator";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
+
+const Treatments = lazy(() => import("@/components/treatments").then(m => ({ default: m.Treatments })));
+const BMICalculator = lazy(() => import("@/components/bmi-calculator").then(m => ({ default: m.BMICalculator })));
+const Testimonials = lazy(() => import("@/components/testimonials").then(m => ({ default: m.Testimonials })));
+
+function LazySection({ children }: { children: React.ReactNode }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el || !('IntersectionObserver' in window)) {
+      setVisible(true);
+      return;
+    }
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "200px" }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <div ref={ref} style={{ minHeight: visible ? undefined : "100px" }}>
+      {visible && <Suspense fallback={null}>{children}</Suspense>}
+    </div>
+  );
+}
 
 export default function Home() {
   return (
@@ -28,9 +60,9 @@ export default function Home() {
         <Hero />
         <VIPPackage />
         <Awards />
-        <BMICalculator />
-        <Treatments />
-        <Testimonials />
+        <LazySection><BMICalculator /></LazySection>
+        <LazySection><Treatments /></LazySection>
+        <LazySection><Testimonials /></LazySection>
       </main>
       <Footer />
     </div>

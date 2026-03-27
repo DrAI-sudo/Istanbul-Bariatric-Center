@@ -1,11 +1,13 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, lazy, Suspense } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useTranslation } from "react-i18next";
 import { LanguageSwitcher } from "./language-switcher";
-import { SearchButton, SearchModal } from "./search-modal";
+import { SearchButton } from "./search-button";
+
+const SearchModal = lazy(() => import("./search-modal").then(m => ({ default: m.SearchModal })));
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -15,10 +17,17 @@ export function Navbar() {
   const { t } = useTranslation('nav');
 
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
+      if (!ticking) {
+        ticking = true;
+        requestAnimationFrame(() => {
+          setIsScrolled(window.scrollY > 20);
+          ticking = false;
+        });
+      }
     };
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -97,7 +106,7 @@ export function Navbar() {
           </Button>
         </nav>
         
-        <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
+        {isSearchOpen && <Suspense fallback={null}><SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} /></Suspense>}
 
         <div className="lg:hidden flex items-center gap-2">
           <SearchButton 

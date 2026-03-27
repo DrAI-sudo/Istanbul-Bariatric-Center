@@ -45,6 +45,7 @@ export default defineConfig({
           vendor: ['react', 'react-dom'],
           ui: ['@radix-ui/react-dialog', '@radix-ui/react-tabs', '@radix-ui/react-tooltip', '@radix-ui/react-accordion'],
           query: ['@tanstack/react-query'],
+          i18n: ['i18next', 'react-i18next', 'i18next-browser-languagedetector'],
         },
       },
     },

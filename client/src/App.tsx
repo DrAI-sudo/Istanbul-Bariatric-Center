@@ -141,15 +141,23 @@ function PageTracker() {
       sessionStorage.setItem("session_id", sessionId);
     }
 
-    fetch("/api/track", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        path: pathname,
-        sessionId,
-        referrer: document.referrer || null,
-      }),
-    }).catch(() => {});
+    const doTrack = () => {
+      fetch("/api/track", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          path: pathname,
+          sessionId,
+          referrer: document.referrer || null,
+        }),
+      }).catch(() => {});
+    };
+    
+    if ('requestIdleCallback' in window) {
+      (window as any).requestIdleCallback(doTrack, { timeout: 3000 });
+    } else {
+      setTimeout(doTrack, 2000);
+    }
 
     const startTime = Date.now();
     return () => {
