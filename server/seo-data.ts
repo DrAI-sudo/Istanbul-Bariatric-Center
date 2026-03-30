@@ -12,9 +12,9 @@ interface PageSEO {
 
 const staticPages: Record<string, PageSEO> = {
   "/": {
-    title: "Istanbul Bariatric Center - Weight Loss Surgery in Turkey",
-    description: "World-class gastric sleeve, gastric bypass & bariatric surgery in Turkey. 8,000+ successful surgeries. JCI accredited. Free consultation.",
-    h1: "Istanbul Bariatric Center - Weight Loss Surgery in Turkey",
+    title: "Weight Loss Surgery in Istanbul: Options & Free Consultation",
+    description: "Istanbul Bariatric Center: Expert weight loss surgery in Turkey. Gastric sleeve & bypass options with Dr. Murat Ustun. Book your free consultation.",
+    h1: "Weight Loss Surgery in Istanbul: Options & Free Consultation",
     bodyExcerpt: "Istanbul Bariatric Center offers world-class bariatric surgery in Turkey with over 8,000 successful procedures. Led by Dr. Murat Ustun, our JCI-accredited hospital provides VIP all-inclusive packages for gastric sleeve, gastric bypass, gastric balloon, ESG, and revision surgery. Award-winning service from £2,250 with airport transfers, luxury hotel, and aftercare included.",
     canonical: SITE_URL + "/",
     richContent: `<section><h2>World-Class Bariatric Surgery in Istanbul, Turkey</h2><p>Istanbul Bariatric Center is a leading weight loss surgery clinic in Istanbul, Turkey, led by world-renowned bariatric surgeon Dr Murat Ustun. With over 8,000 successful procedures, we offer comprehensive all-inclusive packages for gastric sleeve, gastric bypass, gastric balloon, endoscopic sleeve gastroplasty (ESG), duodenal switch, and transit bipartition surgery.</p></section>
@@ -46,9 +46,9 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/about": {
-    title: "About Us - Istanbul Bariatric Center | Dr. Murat Ustun",
-    description: "About Istanbul Bariatric Center, led by Dr. Murat Ustun. 8,000+ successful bariatric surgeries. IFSO member, JCI accredited Liv Hospital.",
-    h1: "About Istanbul Bariatric Center",
+    title: "About Istanbul Bariatric Center: Expert Weight Loss Surgery",
+    description: "Istanbul Bariatric Center: Expert weight loss surgery in Istanbul. Over 8,000 successful surgeries. Meet our specialist team today.",
+    h1: "Istanbul Bariatric Center: Personalized Weight Loss Surgery in Turkey",
     bodyExcerpt: "Istanbul Bariatric Center is led by Dr. Murat Ustun, an experienced bariatric surgeon and member of IFSO. Operating at JCI-accredited Liv Hospital in Istanbul, our multidisciplinary team includes specialist surgeons, dietitians, and patient coordinators dedicated to providing world-class weight loss surgery with personalized VIP care.",
     canonical: SITE_URL + "/about",
     richContent: `<section><h2>About Dr Murat Ustun</h2><p>Dr Murat Ustun is a board-certified bariatric surgeon and pioneer of Endoscopic Sleeve Gastroplasty (ESG) in Turkey. With thousands of successful procedures, he is internationally recognised for his expertise in minimally invasive weight loss surgery. Dr Ustun is a member of IFSO (International Federation for the Surgery of Obesity and Metabolic Disorders) and operates at JCI-accredited Liv Hospital in Istanbul.</p></section>
@@ -85,9 +85,9 @@ const staticPages: Record<string, PageSEO> = {
 <section><h2>All-Inclusive Package Details</h2><p>Basic Package: JCI Hospital (2 days), airport pickup, dietitian support. Relaxation Package: Dr Murat Ustun, JCI Hospital (3 days), Radisson Hotel, UK dietitian (12 months), supplements. Luxury Package: Everything in Relaxation plus extended hotel, VIP transfers, premium room.</p></section>`,
   },
   "/results": {
-    title: "Patient Results & Testimonials - Istanbul Bariatric Center",
-    description: "Real patient results and testimonials from Istanbul Bariatric Center. Before and after weight loss surgery transformations.",
-    h1: "Patient Results & Testimonials",
+    title: "Before & After Results: Patient Success Stories",
+    description: "Istanbul Bariatric Center: See real patient results and before & after photos. Explore successful weight loss transformations. Contact us.",
+    h1: "Before & After: Istanbul Bariatric Center Patient Success Stories",
     bodyExcerpt: "View real patient results and testimonials from Istanbul Bariatric Center. Our patients share their weight loss journeys and transformations after gastric sleeve, gastric bypass, and other bariatric procedures. Over 8,000 successful surgeries with verified 5-star reviews on WhatClinic.",
     canonical: SITE_URL + "/results",
     richContent: `<section><h2>Real Patient Transformations</h2><p>Our patients have achieved life-changing results through bariatric surgery at Istanbul Bariatric Center. View real before and after photos and read testimonials from patients who have undergone gastric sleeve, gastric bypass, ESG, and other weight loss procedures.</p></section>
@@ -147,8 +147,8 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/mini-gastric-bypass": {
-    title: "Mini Gastric Bypass Surgery in Turkey - Istanbul Bariatric Center",
-    description: "Mini Gastric Bypass (One Anastomosis Gastric Bypass) surgery in Istanbul. Effective weight loss with metabolic benefits. Expert care by Dr. Murat Ustun.",
+    title: "Mini Gastric Bypass Surgery in Istanbul: Benefits & Results",
+    description: "Mini Gastric Bypass in Istanbul: Expert weight loss surgery at Istanbul Bariatric Center. Achieve lasting results. Contact us now.",
     h1: "Mini Gastric Bypass Surgery",
     bodyExcerpt: "Mini Gastric Bypass (One Anastomosis Gastric Bypass) at Istanbul Bariatric Center is a simplified version of the traditional Roux-en-Y bypass. This procedure creates a long, narrow gastric pouch and connects it to the small intestine, combining restrictive and malabsorptive mechanisms for effective weight loss and diabetes resolution.",
     canonical: SITE_URL + "/mini-gastric-bypass",
@@ -220,8 +220,8 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/transit-bipartition": {
-    title: "Transit Bipartition Surgery in Turkey - Istanbul Bariatric Center",
-    description: "Transit Bipartition (TB) surgery in Istanbul. A modern alternative combining sleeve gastrectomy with metabolic benefits. Excellent for revision surgery.",
+    title: "Transit Bipartition Surgery Istanbul: Diabetes & Weight Loss",
+    description: "Istanbul Transit Bipartition: Achieve weight loss & diabetes remission with expert metabolic surgeons. 86% diabetes remission rate. Contact us.",
     h1: "Transit Bipartition Surgery",
     bodyExcerpt: "Transit Bipartition at Istanbul Bariatric Center is a modern bariatric procedure that combines sleeve gastrectomy with a partial intestinal bypass. It enhances metabolic outcomes while preserving natural digestive flow. Particularly effective as a revision option when sleeve gastrectomy alone has not achieved desired results.",
     canonical: SITE_URL + "/transit-bipartition",
@@ -1215,9 +1215,9 @@ const staticPages: Record<string, PageSEO> = {
 <section><h2>Finance Options</h2><p>We work with medical finance providers to offer flexible payment plans for bariatric surgery. Spread the cost of your treatment with affordable monthly payments. Contact our patient coordinators for personalised finance options.</p></section>`,
   },
   "/health-profile": {
-    title: "Am I Eligible for Weight Loss Surgery? - Istanbul Bariatric Center",
-    description: "Complete our free health profile assessment to find out if you're eligible for bariatric surgery. Personal health evaluation by Dr Murat Ustun's team.",
-    h1: "Personal Health Profile - Am I Eligible?",
+    title: "Personal Health Profile: Am I Eligible for Bariatric Surgery?",
+    description: "Assess your eligibility for bariatric surgery with a free health profile at Istanbul Bariatric Center. Get personalized expert recommendations.",
+    h1: "Personal Health Profile: Am I Eligible for Bariatric Surgery?",
     bodyExcerpt: "Complete our comprehensive health profile to find out if you're eligible for weight loss surgery at Istanbul Bariatric Center. Our medical team will review your health information including BMI, medical history, and lifestyle factors to recommend the most suitable procedure for you.",
     canonical: SITE_URL + "/health-profile",
     richContent: `<section><h2>Free Eligibility Assessment</h2><p>Our personal health profile form helps determine your suitability for bariatric surgery. Complete the assessment with your health information including height, weight, medical history, lifestyle factors, and surgery preferences. Dr Murat Ustun's medical team will review your profile and provide a personalised recommendation.</p></section>
@@ -1234,7 +1234,7 @@ interface BlogPostSEO {
 }
 
 const blogPosts: BlogPostSEO[] = [
-  { slug: "esg-tore-endoscopic-weight-loss-evidence-2026", title: "ESG and TORe: The Latest Clinical Evidence for Endoscopic Weight Loss (2026 Update)", excerpt: "A comprehensive look at the latest clinical evidence for Endoscopic Sleeve Gastroplasty (ESG) and Transoral Outlet Reduction (TORe) — including long-term results up to 5 years, safety data from over 15,000 patients, and how these non-surgical procedures compare.", date: "March 18, 2026", image: "/blog-esg-tore-evidence-2026.webp" },
+  { slug: "esg-tore-endoscopic-weight-loss-evidence-2026", title: "ESG & TORe 2026: Clinical Evidence for Endoscopic Weight Loss", excerpt: "Explore non-surgical weight loss with ESG and TORe at Istanbul Bariatric Center. Latest 2026 clinical evidence, 5-year outcomes, and safety data.", date: "March 18, 2026", image: "/blog-esg-tore-evidence-2026.webp" },
   { slug: "ileal-transposition-surgery-diabetes", title: "Ileal Transposition Surgery for Diabetes: What Patients Need to Know", excerpt: "Ileal transposition is an investigational metabolic procedure that repositions part of the small intestine to boost natural gut hormones like GLP-1. Learn how it works, who it is for, and why it is not yet a standard treatment for diabetes.", date: "March 9, 2026", image: "/blog-ileal-cover.webp" },
   { slug: "gastric-fundus-mucosal-ablation-gfma-latest-news", title: "Gastric Fundus Mucosal Ablation (GFMA) Latest News", excerpt: "GFMA: A New Era in Non-Surgical Weight Loss. Recent studies suggest an endoscopic procedure could curb hunger and achieve surgical-level weight loss without any incisions.", date: "May 11, 2025", image: "/blog-gfma.webp" },
   { slug: "scientific-blind-alleys-dietary-fat-sugar-freud-and-adler", title: "Scientific Blind Alleys: Dietary Fat, Sugar, Freud, and Adler", excerpt: "How Two Historic Health Myths Shaped Today's Obesity Crisis — and How We Can Fix It.", date: "April 26, 2025", image: "/blog-scientific-blind-alleys.webp" },
@@ -1250,7 +1250,7 @@ const blogPosts: BlogPostSEO[] = [
   { slug: "bariatric-surgery-guidelines-updated", title: "Bariatric Surgery Guidelines Updated", excerpt: "Updated Guidelines on Bariatric Surgery: A Comprehensive Overview.", date: "November 7, 2024", image: "/blog-guidelines.webp" },
   { slug: "barretts-esophagus-and-increased-risk-after-sleeve-gastrectomy", title: "Barrett's Esophagus and Increased Risk After Sleeve Gastrectomy", excerpt: "Barrett's Esophagus is a serious consequence of long term acid reflux. Recent research reveals important findings about risk factors after sleeve gastrectomy.", date: "July 30, 2024", image: "/blog-barretts-esophagus.webp" },
   { slug: "comprehensive-guide-to-preoperative-medication-management", title: "Comprehensive Guide to Preoperative Medication Management", excerpt: "Proper medication management before bariatric surgery is crucial for ensuring your safety and optimizing surgical outcomes.", date: "July 24, 2024", image: "/blog-preop-medications.webp" },
-  { slug: "leaks-in-bariatric-surgery", title: "Leaks in Bariatric Surgery", excerpt: "Understanding the Risks of Gastrointestinal Leaks in Bariatric Surgery.", date: "July 16, 2024", image: "/blog-gastric-sleeve.webp" },
+  { slug: "leaks-in-bariatric-surgery", title: "Leaks in Bariatric Surgery: Prevention, Causes & Management", excerpt: "Understand gastric leaks after bariatric surgery. Istanbul Bariatric Center provides expert insights on causes, prevention, and treatment options.", date: "July 16, 2024", image: "/blog-gastric-sleeve.webp" },
   { slug: "obesity-and-cancer-risk", title: "Obesity and Cancer Risk", excerpt: "Each year, over 684,000 Americans are diagnosed with cancers linked to obesity.", date: "July 1, 2024", image: "/blog-obesity-crisis.webp" },
   { slug: "15-most-nutrient-dense-foods", title: "15 Most Nutrient-Dense Foods", excerpt: "Simplify Your Diet, Improve Nutrition, and Reduce Calories.", date: "June 18, 2024", image: "/blog-nutrient-dense.webp" },
   { slug: "bariatric-surgery-nutrition", title: "Bariatric Surgery Nutrition", excerpt: "Comprehensive Bariatric Surgery Nutrition and Recovery Guide based on 2024 guidelines for optimal outcomes and long-term success.", date: "June 6, 2024", image: "/blog-bariatric-nutrition-cover.webp" },

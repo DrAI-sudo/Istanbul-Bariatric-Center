@@ -58,7 +58,7 @@ export default function About() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="About Us - Expert Bariatric Surgeons"
+        title="About Istanbul Bariatric Center: Expert Weight Loss Surgery"
         description="Meet our team of expert bariatric surgeons at Istanbul Bariatric Center. Over 8,000 successful surgeries and 22+ years of experience in weight loss surgery."
         keywords="bariatric surgeon turkey, dr murat ustun, weight loss doctors istanbul, obesity specialists"
         url="/about"

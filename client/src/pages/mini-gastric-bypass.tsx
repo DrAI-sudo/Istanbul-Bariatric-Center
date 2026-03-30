@@ -25,7 +25,7 @@ export default function MiniGastricBypass() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Mini Gastric Bypass Surgery in Turkey"
+        title="Mini Gastric Bypass Surgery in Istanbul: Benefits & Results"
         description="Mini Gastric Bypass surgery in Istanbul. Achieve 70-85% excess weight loss with this effective bariatric procedure. Expert surgeons, JCI accredited hospital."
         keywords="mini gastric bypass turkey, gastric bypass istanbul, weight loss surgery, bariatric surgery"
         url="/mini-gastric-bypass"

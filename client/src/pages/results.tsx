@@ -66,7 +66,7 @@ export default function Results() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Before & After Results - Patient Success Stories"
+        title="Before & After Results: Patient Success Stories"
         description="See real before and after photos and testimonials from our gastric sleeve and weight loss surgery patients. Verified results from 8,000+ successful procedures."
         keywords="gastric sleeve before after, weight loss surgery results, bariatric surgery testimonials, patient success stories"
         url="/results"

@@ -174,7 +174,7 @@ export default function HealthProfile() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Personal Health Profile - Am I Eligible?"
+        title="Personal Health Profile: Am I Eligible for Bariatric Surgery?"
         description="Complete your personal health profile to find out if you are eligible for bariatric surgery at Istanbul Bariatric Center. Free assessment by our medical team."
         keywords="bariatric surgery eligibility, health profile, weight loss surgery assessment, gastric sleeve eligibility"
         url="/health-profile"
@@ -247,7 +247,7 @@ export default function HealthProfile() {
                 <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
                   <MapPin className="w-5 h-5 text-primary" />
                 </div>
-                <h2 className="text-xl font-bold text-gray-900">Contact Details</h2>
+                <h2 className="text-xl font-bold text-gray-900">Enter Your Contact Information for Bariatric Surgery Eligibility</h2>
               </div>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="md:col-span-2">

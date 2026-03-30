@@ -11,12 +11,12 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     slug: "esg-tore-endoscopic-weight-loss-evidence-2026",
-    title: "ESG and TORe: The Latest Clinical Evidence for Endoscopic Weight Loss (2026 Update)",
+    title: "ESG & TORe 2026: Clinical Evidence for Endoscopic Weight Loss",
     date: "March 18, 2026",
     category: "Endoscopic Procedures",
     excerpt: "A comprehensive look at the latest clinical evidence for Endoscopic Sleeve Gastroplasty (ESG) and Transoral Outlet Reduction (TORe) — including long-term results up to 5 years, safety data from over 15,000 patients, and how these non-surgical procedures compare.",
     image: "/blog-esg-tore-evidence-2026.webp",
-    content: `<h2>ESG and TORe: What the Latest Research Tells Us About Non-Surgical Weight Loss</h2>
+    content: `<h2>ESG & TORe: Latest Clinical Evidence for Endoscopic Weight Loss</h2>
 <p>For patients exploring weight loss options, one of the most common questions is: <em>"Do I really need surgery?"</em> The good news is that endoscopic (non-surgical) weight loss procedures have matured significantly over the past few years, and we now have strong clinical evidence — including randomised controlled trials, large prospective studies, and meta-analyses covering over 15,000 patients — to help answer that question.</p>
 
 <p>Two endoscopic procedures stand out in the current evidence base: <strong>Endoscopic Sleeve Gastroplasty (ESG)</strong> and <strong>Transoral Outlet Reduction (TORe)</strong>. In this article, we break down the latest data on how effective they are, how safe they are, and who they are best suited for.</p>
@@ -1535,12 +1535,12 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "leaks-in-bariatric-surgery",
-    title: "Leaks in Bariatric Surgery",
+    title: "Leaks in Bariatric Surgery: Prevention, Causes & Management",
     date: "May 30, 2024",
     category: "Education",
     excerpt: "Understanding the Risks of Gastrointestinal Leaks in Bariatric Surgery.",
     image: "/gastric-sleeve.webp",
-    content: `<h2>Understanding the Risks of Gastrointestinal Leaks in Bariatric Surgery: A Detailed Overview</h2>
+    content: `<h2>Gastrointestinal Leaks in Bariatric Surgery: Risks & Prevention</h2>
 
 <p>Bariatric surgery, encompassing procedures like laparoscopic sleeve gastrectomy (LSG) and laparoscopic Roux-en-Y gastric bypass (LRYGB), has become increasingly popular for managing morbid obesity. While these surgeries can lead to significant weight loss and improvement in comorbid conditions, they are not without risks. One of the most concerning complications is a gastrointestinal leak, which, although rare, can lead to severe morbidity and even mortality.</p>
 

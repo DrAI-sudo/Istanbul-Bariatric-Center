@@ -44,7 +44,7 @@ export default function TransitBipartition() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Transit Bipartition Surgery in Turkey"
+        title="Transit Bipartition Surgery Istanbul: Diabetes & Weight Loss"
         description="Transit Bipartition surgery in Istanbul. Revolutionary diabetes and weight loss surgery with 86% diabetes remission rate. Expert metabolic surgeons."
         keywords="transit bipartition turkey, diabetes surgery istanbul, metabolic surgery, weight loss surgery"
         url="/transit-bipartition"
@@ -152,7 +152,7 @@ export default function TransitBipartition() {
       {/* Who is Eligible */}
       <section className="py-20 bg-slate-50">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">Who Are Eligible for Transit Bipartition Surgery?</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-8">Who Is a Good Candidate for Transit Bipartition Surgery?</h2>
           
           <p className="text-lg text-slate-600 mb-8">
             Transit bipartition, which is a metabolic surgical procedure approach developed for Type 2 diabetes treatment, also makes it possible for patients with a body mass index more than 35 to lose weight securely.
