@@ -42,6 +42,7 @@ const ESGUS = lazy(() => import("@/pages/esg-us"));
 const ESGANZ = lazy(() => import("@/pages/esg-anz"));
 const PostBariatricSurgery = lazy(() => import("@/pages/post-bariatric-surgery"));
 const Insurance = lazy(() => import("@/pages/insurance"));
+const BariatricGuide = lazy(() => import("@/pages/bariatric-guide"));
 const HealthProfile = lazy(() => import("@/pages/health-profile"));
 const AdminDashboard = lazy(() => import("@/pages/admin"));
 const NotFound = lazy(() => import("@/pages/not-found"));
@@ -109,6 +110,7 @@ function Router() {
           <Route path="/post-bariatric-surgery" component={PostBariatricSurgery} />
           <Route path="/insurance" component={Insurance} />
           <Route path="/health-profile" component={HealthProfile} />
+          <Route path="/bariatric-surgery-turkey-guide" component={BariatricGuide} />
           <Route path="/admin" component={AdminDashboard} />
           <Route component={NotFound} />
         </Switch>

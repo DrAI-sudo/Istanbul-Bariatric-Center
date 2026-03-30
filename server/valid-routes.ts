@@ -34,6 +34,7 @@ export const VALID_STATIC_ROUTES = [
   "/post-bariatric-surgery",
   "/insurance",
   "/health-profile",
+  "/bariatric-surgery-turkey-guide",
 ];
 
 export function isValidRoute(path: string): boolean {

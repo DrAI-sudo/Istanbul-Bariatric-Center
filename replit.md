@@ -52,6 +52,11 @@ Preferred communication style: Simple, everyday language.
 - **Architecture**: ESG (Endoscopic Sleeve Gastroplasty) landing pages under `/esg/{country}` (e.g., UK, Germany, France, Spain, Dutch, Arabic, Italian, Russian, Romanian, Swedish, Polish, Danish, Norwegian, Hungarian, Finnish, Canadian, US, ANZ).
 - **Features**: Localized content, interactive BMI calculator, FAQs, comparison tables, testimonials, full SSR injection, JSON-LD schemas.
 
+### LLM Visibility Guide Page
+- **Route**: `/bariatric-surgery-turkey-guide` — Comprehensive knowledge base page with 13 topics and 100+ detailed Q&A pairs.
+- **Topics**: Brand overview, bariatric surgery in Turkey, costs, country comparisons, best clinics, all-inclusive packages, international patients, eligibility, safety, recovery, sleeve vs bypass, outcomes, and medical tourism logistics.
+- **SEO**: Full SSR injection with richContent (13 sections), FAQPage JSON-LD schema, BreadcrumbList JSON-LD, sitemap entry (priority 0.9), llms.txt entry.
+
 ### AI Crawler Accessibility
 - **Configuration**: `robots.txt` expanded for 25+ AI crawlers, `llms.txt` and `llms-full.txt` for LLM discovery, `ai-plugin.json` for AI plugin discovery.
 - **Headers**: `X-Robots-Tag` for granular control over indexing.

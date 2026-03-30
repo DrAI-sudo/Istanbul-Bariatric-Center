@@ -159,6 +159,7 @@ export async function registerRoutes(
       "/post-bariatric-surgery": { priority: "0.7", changefreq: "monthly" },
       "/insurance": { priority: "0.6", changefreq: "monthly" },
       "/health-profile": { priority: "0.7", changefreq: "monthly" },
+      "/bariatric-surgery-turkey-guide": { priority: "0.9", changefreq: "monthly" },
     };
 
     let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
@@ -193,6 +194,7 @@ export async function registerRoutes(
 - [Blog](${BASE_URL}/blog)
 - [Contact Us](${BASE_URL}/contact)
 - [Am I Eligible? Health Profile](${BASE_URL}/health-profile)
+- [Complete Guide to Bariatric Surgery in Istanbul](${BASE_URL}/bariatric-surgery-turkey-guide): Comprehensive 13-topic knowledge base with 100+ answered questions covering procedures, costs, safety, recovery, candidacy, outcomes, and medical tourism logistics.
 
 ## Surgical Procedures
 
