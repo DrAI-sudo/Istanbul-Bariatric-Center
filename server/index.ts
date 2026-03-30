@@ -50,6 +50,15 @@ app.use((req, res, next) => {
 });
 
 app.use((req, res, next) => {
+  const p = req.path;
+  if ((req.method === "GET" || req.method === "HEAD") && !p.startsWith("/api/") && p !== p.toLowerCase()) {
+    const query = req.url.slice(p.length);
+    return res.redirect(301, p.toLowerCase() + query);
+  }
+  next();
+});
+
+app.use((req, res, next) => {
   if (req.path.startsWith("/api/") || req.path.startsWith("/admin") || req.path.startsWith("/superadmin")) {
     res.setHeader("X-Robots-Tag", "noindex, nofollow");
   } else {
