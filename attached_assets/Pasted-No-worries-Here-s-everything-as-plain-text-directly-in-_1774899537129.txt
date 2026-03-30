@@ -1,0 +1,45 @@
+No worries! Here's everything as plain text directly in the chat — just highlight and copy each section:
+
+PAGE: / (Homepage)
+Title: Weight Loss Surgery in Istanbul: Options & Free Consultation
+Meta: Istanbul Bariatric Center: Expert weight loss surgery in Turkey. Gastric sleeve & bypass options with Dr. Murat Ustun. Book your free consultation.
+
+PAGE: /about
+Title: About Istanbul Bariatric Center: Expert Weight Loss Surgery
+Meta: Istanbul Bariatric Center: Expert weight loss surgery in Istanbul. Over 8,000 successful surgeries. Meet our specialist team today.
+H1: Istanbul Bariatric Center: Personalized Weight Loss Surgery in Turkey
+H2: Meet Our Multidisciplinary Bariatric Care Team
+
+PAGE: /mini-gastric-bypass
+Title: Mini Gastric Bypass Surgery in Istanbul: Benefits & Results
+Meta: Mini Gastric Bypass in Istanbul: Expert weight loss surgery at Istanbul Bariatric Center. Achieve lasting results. Contact us now.
+H2: Mini Gastric Bypass: Expected Weight Loss & Health Benefits
+
+PAGE: /transit-bipartition
+Title: Transit Bipartition Surgery Istanbul: Diabetes & Weight Loss
+Meta: Istanbul Transit Bipartition: Achieve weight loss & diabetes remission with expert metabolic surgeons. 86% diabetes remission rate. Contact us.
+H2: Who Is a Good Candidate for Transit Bipartition Surgery?
+
+PAGE: /health-profile
+Title: Personal Health Profile: Am I Eligible for Bariatric Surgery?
+Meta: Assess your eligibility for bariatric surgery with a free health profile at Istanbul Bariatric Center. Get personalized expert recommendations.
+H2: Enter Your Contact Information for Bariatric Surgery Eligibility
+
+PAGE: /results
+Title: Before & After Results: Patient Success Stories
+Meta: Istanbul Bariatric Center: See real patient results and before & after photos. Explore successful weight loss transformations. Contact us.
+H1: Before & After: Istanbul Bariatric Center Patient Success Stories
+H2: Istanbul Bariatric Center: Verified Patient Reviews & Ratings
+
+PAGE: /blog/esg-tore-endoscopic-weight-loss-evidence-2026
+Title: ESG & TORe 2026: Clinical Evidence for Endoscopic Weight Loss
+Meta: Explore non-surgical weight loss with ESG and TORe at Istanbul Bariatric Center. Latest 2026 clinical evidence, 5-year outcomes, and safety data.
+H1: ESG & TORe: 5-Year Efficacy & Safety in Endoscopic Weight Loss
+H2: ESG & TORe: Latest Clinical Evidence for Endoscopic Weight Loss
+
+PAGE: /blog/leaks-in-bariatric-surgery
+Title: Leaks in Bariatric Surgery: Prevention, Causes & Management
+Meta: Understand gastric leaks after bariatric surgery. Istanbul Bariatric Center provides expert insights on causes, prevention, and treatment options.
+H2: Gastrointestinal Leaks in Bariatric Surgery: Risks & Prevention
+
+Each line is short enough to highlight individually. Once you've pasted everything in Replit, remember to request re-indexing in Google Search Console for each updated page!
