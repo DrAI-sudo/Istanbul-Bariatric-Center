@@ -55,7 +55,7 @@ app.use((req, res, next) => {
 app.use((req, res, next) => {
   const p = req.path;
   if ((req.method === "GET" || req.method === "HEAD") && !p.startsWith("/api/") && p !== p.toLowerCase()) {
-    if (process.env.NODE_ENV !== "production" && (p.startsWith("/src/") || p.startsWith("/node_modules/") || p.startsWith("/@") || p.startsWith("/@fs/"))) {
+    if (p.startsWith("/assets/") || p.startsWith("/src/") || p.startsWith("/node_modules/") || p.startsWith("/@") || p.startsWith("/@fs/")) {
       return next();
     }
     const query = req.url.slice(p.length);
