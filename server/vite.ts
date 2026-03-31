@@ -14,6 +14,10 @@ export async function setupVite(server: Server, app: Express) {
     middlewareMode: true,
     hmr: { server, path: "/vite-hmr" },
     allowedHosts: true as const,
+    fs: {
+      strict: false,
+      deny: ["**/.env*", "**/.git/**"],
+    },
   };
 
   const vite = await createViteServer({
@@ -32,8 +36,28 @@ export async function setupVite(server: Server, app: Express) {
 
   app.use(vite.middlewares);
 
+  app.use("/node_modules/.vite/deps", (req, res, next) => {
+    const filePath = req.path;
+    if (!filePath || filePath === "/" || !filePath.endsWith(".js")) {
+      return next();
+    }
+    const absPath = path.resolve(import.meta.dirname, "..", "node_modules", ".vite", "deps", filePath.slice(1));
+    if (fs.existsSync(absPath) && fs.statSync(absPath).isFile()) {
+      res.setHeader("Content-Type", "text/javascript");
+      res.setHeader("Cache-Control", "max-age=31536000, immutable");
+      fs.createReadStream(absPath).pipe(res);
+    } else {
+      res.status(404).end();
+    }
+  });
+
   app.use("*", async (req, res, next) => {
     const url = req.originalUrl;
+    const urlPath = url.split("?")[0];
+
+    if (urlPath.match(/\.(js|ts|tsx|jsx|css|json|map|woff2?|ttf|eot|svg|png|jpg|gif|ico|wasm)$/)) {
+      return res.status(404).end();
+    }
 
     try {
       const clientTemplate = path.resolve(
@@ -43,7 +67,6 @@ export async function setupVite(server: Server, app: Express) {
         "index.html",
       );
 
-      // always reload the index.html file from disk incase it changes
       let template = await fs.promises.readFile(clientTemplate, "utf-8");
       template = template.replace(
         `src="/src/main.tsx"`,
