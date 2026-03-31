@@ -43,6 +43,17 @@ export function injectSEO(html: string, requestPath: string): string {
     `<meta name="twitter:description" content="${escapeAttr(seo.description)}" />`
   );
 
+  const productionImageUrl = "https://istanbulbariatriccenter.com/opengraph.jpg";
+  result = result.replace(
+    /<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/,
+    `<meta property="og:image" content="${productionImageUrl}" />`
+  );
+
+  result = result.replace(
+    /<meta\s+name="twitter:image"\s+content="[^"]*"\s*\/?>/,
+    `<meta name="twitter:image" content="${productionImageUrl}" />`
+  );
+
   const canonicalTag = `<link rel="canonical" href="${escapeAttr(seo.canonical)}" />`;
   if (result.includes('rel="canonical"')) {
     result = result.replace(
@@ -95,7 +106,7 @@ export function injectSEO(html: string, requestPath: string): string {
 
   const crawlableBlock = `
     <div id="seo-content" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">
-      <h1>${escapeHtml(seo.h1)}</h1>
+      <h2>${escapeHtml(seo.h1)}</h2>
       <p>${escapeHtml(seo.bodyExcerpt)}</p>
       ${richContent}
       ${blogPostHTML}

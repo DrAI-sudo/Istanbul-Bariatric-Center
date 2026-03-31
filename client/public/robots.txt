@@ -1,220 +1,86 @@
 # Istanbul Bariatric Center - Robots.txt
 # Welcome all legitimate crawlers and AI bots
-# Last updated: 2026-03-01
+# Last updated: 2026-03-30
 
-# === Standard Search Engine Crawlers ===
-User-agent: Googlebot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: Googlebot-Image
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: Googlebot-Video
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: Bingbot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: Slurp
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: DuckDuckBot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: Baiduspider
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: YandexBot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-# === OpenAI Crawlers ===
-User-agent: GPTBot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: ChatGPT-User
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: OAI-SearchBot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-# === Anthropic Crawlers ===
-User-agent: ClaudeBot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: Claude-Web
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: anthropic-ai
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-# === Google AI / Gemini ===
-User-agent: Google-Extended
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: GoogleOther
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-# === Perplexity AI ===
-User-agent: PerplexityBot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-# === xAI / Grok ===
-User-agent: Grokbot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: xai-grok
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-# === DeepSeek ===
-User-agent: DeepSeekBot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-# === Meta AI ===
-User-agent: FacebookBot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: MetaBot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: meta-externalagent
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-# === Apple ===
-User-agent: Applebot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: Applebot-Extended
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-# === Microsoft / Copilot ===
-User-agent: Bingbot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-User-agent: CopilotBot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-# === Cohere AI ===
-User-agent: cohere-ai
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-# === You.com ===
-User-agent: YouBot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-# === Brave Search ===
-User-agent: Brave
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-# === Common Crawl ===
-User-agent: CCBot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-# === Diffbot ===
-User-agent: Diffbot
-Allow: /
-Disallow: /api/
-Disallow: /superadmin
-Disallow: /admin
-
-# === Catch-all for any other bots ===
+# === Global rules for all bots ===
 User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /superadmin
 Disallow: /admin
+
+# === AI & LLM Crawlers — Full Access ===
+# These crawlers are explicitly welcomed with no restrictions
+# beyond the global disallows handled by the catch-all above.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Grokbot
+Allow: /
+
+User-agent: xai-grok
+Allow: /
+
+User-agent: DeepSeekBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: MetaBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CopilotBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Brave
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
 
 # Sitemaps
 Sitemap: https://istanbulbariatriccenter.com/sitemap.xml
