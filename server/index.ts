@@ -71,7 +71,9 @@ app.use((req, res, next) => {
     res.setHeader("X-Robots-Tag", "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1");
   }
   res.setHeader("X-Content-Type-Options", "nosniff");
-  res.setHeader("X-Frame-Options", "SAMEORIGIN");
+  if (process.env.NODE_ENV === "production") {
+    res.setHeader("X-Frame-Options", "SAMEORIGIN");
+  }
   res.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
   res.setHeader("Permissions-Policy", "camera=(), microphone=(), geolocation=()");
   if (process.env.NODE_ENV === "production") {
