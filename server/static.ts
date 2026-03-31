@@ -4,6 +4,34 @@ import path from "path";
 import { isValidRoute } from "./valid-routes";
 import { injectSEO } from "./seo-inject";
 
+function injectFontPreloads(html: string, distPath: string): string {
+  const assetsDir = path.resolve(distPath, "assets");
+  if (!fs.existsSync(assetsDir)) return html;
+
+  const files = fs.readdirSync(assetsDir);
+  const criticalFonts = files.filter(f =>
+    f.endsWith(".woff2") && (
+      f.startsWith("inter-latin-400") ||
+      f.startsWith("inter-latin-500") ||
+      f.startsWith("inter-latin-700") ||
+      f.startsWith("plus-jakarta-sans-latin-700")
+    )
+  );
+
+  const preloadTags = criticalFonts
+    .map(f => `<link rel="preload" href="/assets/${f}" as="font" type="font/woff2" crossorigin>`)
+    .join("\n    ");
+
+  const mainJs = files.find(f => f.startsWith("index-") && f.endsWith(".js") && !f.includes(".css"));
+  const vendorJs = files.find(f => f.startsWith("vendor-") && f.endsWith(".js"));
+  const modulePreloads = [mainJs, vendorJs]
+    .filter(Boolean)
+    .map(f => `<link rel="modulepreload" href="/assets/${f}">`)
+    .join("\n    ");
+
+  return html.replace("</head>", `    ${preloadTags}\n    ${modulePreloads}\n  </head>`);
+}
+
 export function serveStatic(app: Express) {
   const distPath = path.resolve(__dirname, "public");
   if (!fs.existsSync(distPath)) {
@@ -12,7 +40,8 @@ export function serveStatic(app: Express) {
     );
   }
 
-  const indexHtml = fs.readFileSync(path.resolve(distPath, "index.html"), "utf-8");
+  const rawHtml = fs.readFileSync(path.resolve(distPath, "index.html"), "utf-8");
+  const indexHtml = injectFontPreloads(rawHtml, distPath);
 
   app.get("/robots.txt", (_req, res) => {
     const robotsPath = path.resolve(distPath, "robots.txt");
