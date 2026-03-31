@@ -304,7 +304,7 @@ export default function ESGDeutschland() {
     <div className="min-h-screen bg-white">
       <SEO
         title="ESG Türkei für deutsche Patienten | Magenverkleinerung ohne OP | Bis zu 70 % sparen"
-        description="Endoskopische Sleeve Gastroplastik für Patienten aus Deutschland. Bis zu 70 % günstiger als in Deutschland. All-Inclusive-Pakete ab ca. 5.800 € im JCI-akkreditierten Krankenhaus. Jetzt kostenlos beraten lassen."
+        description="ESG für Patienten aus Deutschland. Bis zu 70 % günstiger. All-Inclusive ab ca. 5.800 € im JCI-akkreditierten Krankenhaus. Kostenlose Beratung."
         keywords="ESG Deutschland, Magenverkleinerung ohne OP, ESG Türkei Kosten, Alternative Ozempic Deutschland, Abnehmen ohne Operation, Endoskopische Sleeve Gastroplastik Türkei, ESG Kosten Deutschland vs Türkei, bariatrische Chirurgie Türkei, Schlauchmagen ohne OP, Magenverkleinerung Istanbul"
         url="/esg/de"
       />

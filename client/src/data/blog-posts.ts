@@ -14,7 +14,7 @@ export const blogPosts: BlogPost[] = [
     title: "ESG & TORe 2026: Clinical Evidence for Endoscopic Weight Loss",
     date: "March 18, 2026",
     category: "Endoscopic Procedures",
-    excerpt: "A comprehensive look at the latest clinical evidence for Endoscopic Sleeve Gastroplasty (ESG) and Transoral Outlet Reduction (TORe) — including long-term results up to 5 years, safety data from over 15,000 patients, and how these non-surgical procedures compare.",
+    excerpt: "Latest clinical evidence for ESG and TORe — long-term results up to 5 years, safety data from 15,000+ patients, and how these non-surgical procedures compare.",
     image: "/blog-esg-tore-evidence-2026.webp",
     content: `<h2>ESG & TORe: Latest Clinical Evidence for Endoscopic Weight Loss</h2>
 <p>For patients exploring weight loss options, one of the most common questions is: <em>"Do I really need surgery?"</em> The good news is that endoscopic (non-surgical) weight loss procedures have matured significantly over the past few years, and we now have strong clinical evidence — including randomised controlled trials, large prospective studies, and meta-analyses covering over 15,000 patients — to help answer that question.</p>
@@ -407,7 +407,7 @@ export const blogPosts: BlogPost[] = [
     title: "Ileal Transposition Surgery for Diabetes: What Patients Need to Know",
     date: "March 9, 2026",
     category: "Metabolic Surgery",
-    excerpt: "Ileal transposition is an investigational metabolic procedure that repositions part of the small intestine to boost natural gut hormones like GLP-1. Learn how it works, who it is for, and why it is not yet a standard treatment for diabetes.",
+    excerpt: "Ileal transposition repositions the small intestine to boost GLP-1. Learn how it works, who it helps, and why it is not yet standard treatment.",
     image: "/blog-ileal-cover.webp",
     content: `<h2>Ileal Transposition Surgery for Diabetes: A Complete Patient Guide</h2>
 <p>Type 2 diabetes is one of the most widespread chronic conditions in the world. For millions of people, managing blood sugar through diet, exercise, and medication is a lifelong challenge. Over the past two decades, bariatric and metabolic surgery has proven remarkably effective at putting type 2 diabetes into remission — sometimes even before significant weight loss occurs. This has led researchers to explore whether surgically altering the gut could treat diabetes directly, even in patients who are not severely overweight.</p>
@@ -614,7 +614,7 @@ export const blogPosts: BlogPost[] = [
     title: "Gastric Fundus Mucosal Ablation (GFMA) Latest News",
     date: "May 11, 2025",
     category: "New Technology",
-    excerpt: "GFMA: A New Era in Non-Surgical Weight Loss. Recent studies suggest an endoscopic procedure could curb hunger and achieve surgical-level weight loss without any incisions.",
+    excerpt: "GFMA: A new era in non-surgical weight loss. Studies show an endoscopic procedure could curb hunger and achieve surgical-level results.",
     image: "/blog-gfma.webp",
     content: `<h2>GFMA: A New Era in Non‑Surgical Weight Loss</h2>
 <p>Obesity is a chronic, lifelong disease that often resists diet and exercise alone. Bariatric surgery has been the gold standard for substantial weight loss, but many patients are reluctant to undergo an operation. What if an endoscopic procedure could curb hunger and achieve surgical-level weight loss – all without any incisions? Recent studies (the ABLATE I and ABLATE II trials) suggest this may be possible.</p>
@@ -1371,7 +1371,7 @@ export const blogPosts: BlogPost[] = [
     title: "Comprehensive Guide to Preoperative Medication Management",
     date: "July 6, 2024",
     category: "Pre-Surgery",
-    excerpt: "Proper medication management before bariatric surgery is crucial for ensuring your safety and optimizing surgical outcomes. Learn which medications to stop, continue, and adjust.",
+    excerpt: "Medication management before bariatric surgery is crucial for safety. Learn which medications to stop, continue, and adjust before your procedure.",
     image: "/blog-preop-medications.webp",
     content: `<h2>Comprehensive Guide to Preoperative Medication Management for Bariatric Surgery</h2>
 

@@ -263,7 +263,7 @@ export default function ESGRomania() {
     <div className="min-h-screen bg-white">
       <SEO
         title="ESG Turcia pentru pacienți din România | Slăbire fără operație | Spital JCI"
-        description="Gastroplastie endoscopică fără chirurgie pentru pacienți din România. Spital acreditat JCI. Pachete all-inclusive. Zboruri directe din București și Cluj. Consultație gratuită."
+        description="Gastroplastie endoscopică fără chirurgie pentru pacienți din România. Spital acreditat JCI. Pachete all-inclusive. Consultație gratuită."
         keywords="ESG România, slăbire fără operație, gastroplastie endoscopică, tratament obezitate Turcia, alternativă Ozempic, chirurgie bariatrică Turcia, ESG preț, pierdere greutate Istanbul"
         url="/esg/ro"
       />

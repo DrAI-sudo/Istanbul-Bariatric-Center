@@ -303,7 +303,7 @@ export default function ESGNederland() {
     <div className="min-h-screen bg-white">
       <SEO
         title="ESG Turkije voor Nederlandse patiënten | Afvallen zonder operatie | Tot 70% besparing"
-        description="Endoscopische sleeve gastroplastiek zonder operatie voor patiënten uit Nederland. Tot 70% goedkoper dan in Nederland. All-inclusive pakketten vanaf circa € 5.800 in JCI-geaccrediteerd ziekenhuis. Gratis consult."
+        description="ESG zonder operatie voor patiënten uit Nederland. Tot 70% goedkoper. All-inclusive vanaf € 5.800 in JCI-geaccrediteerd ziekenhuis. Gratis consult."
         keywords="ESG Nederland, afvallen zonder operatie, maag verkleinen zonder operatie, alternatief Ozempic Nederland, afvallen Turkije, endoscopische sleeve gastroplastiek, ESG Turkije prijs, bariatrische chirurgie Turkije, maagverkleining zonder operatie, gewichtsverlies zonder operatie"
         url="/esg/nl"
       />

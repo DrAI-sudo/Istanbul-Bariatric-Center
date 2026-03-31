@@ -304,7 +304,7 @@ export default function ESGUK() {
     <div className="min-h-screen bg-white">
       <SEO
         title="ESG for UK Patients | Endoscopic Sleeve Gastroplasty Turkey | Save Up to 70%"
-        description="Discover ESG for UK patients at Istanbul Bariatric Center. Affordable, non-surgical weight loss in Turkey. All-inclusive packages from £4,950. Save up to 70% vs UK private clinics. Free consultation available."
+        description="ESG for UK patients. Affordable non-surgical weight loss in Turkey. All-inclusive from £4,950. Save up to 70% vs UK clinics. Free consultation."
         keywords="ESG UK, endoscopic sleeve gastroplasty UK, weight loss Turkey UK patients, non surgical weight loss UK, ESG vs Wegovy UK, ESG cost UK, ESG alternative UK, bariatric surgery Turkey UK, ESG Istanbul UK patients, gastric sleeve alternative UK"
         url="/esg/uk"
       />

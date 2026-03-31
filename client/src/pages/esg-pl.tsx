@@ -266,7 +266,7 @@ export default function ESGPoland() {
     <div className="min-h-screen bg-white">
       <SEO
         title="ESG Turcja dla pacjentów z Polski | Odchudzanie bez operacji | € 6 450 all-inclusive"
-        description="Endoskopowa gastroplastyka rękawowa bez chirurgii dla pacjentów z Polski. Pakiet all-inclusive € 6 450 w szpitalu z akredytacją JCI. Oszczędności w porównaniu z Polską. Bezpłatna konsultacja."
+        description="ESG bez chirurgii dla pacjentów z Polski. All-inclusive € 6 450 w szpitalu z akredytacją JCI w Stambule. Bezpłatna konsultacja."
         keywords="ESG Polska, odchudzanie bez operacji, gastroplastyka Turcja, alternatywa Ozempic, redukcja wagi, zmniejszenie żołądka bez operacji, ESG cena, chirurgia bariatryczna Turcja"
         url="/esg/pl"
       />

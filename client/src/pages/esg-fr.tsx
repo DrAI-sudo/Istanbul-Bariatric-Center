@@ -304,7 +304,7 @@ export default function ESGFrance() {
     <div className="min-h-screen bg-white">
       <SEO
         title="ESG Turquie pour patients français | Sleeve sans chirurgie | Jusqu'à 70 % d'économie"
-        description="Sleeve gastroplastie endoscopique pour patients en France. Jusqu'à 70 % moins chère qu'en France. Forfaits tout compris à partir d'environ 5 800 € en hôpital accrédité JCI. Consultation gratuite."
+        description="ESG pour patients en France. Jusqu'à 70 % moins cher. Forfaits tout compris dès 5 800 € en hôpital accrédité JCI. Consultation gratuite."
         keywords="ESG France, sleeve sans chirurgie, perte de poids sans opération, alternative Ozempic France, ESG Turquie prix, gastroplastie endoscopique France, chirurgie bariatrique Turquie, réduction gastrique sans opération, ESG coût France vs Turquie, maigrir sans chirurgie"
         url="/esg/fr"
       />

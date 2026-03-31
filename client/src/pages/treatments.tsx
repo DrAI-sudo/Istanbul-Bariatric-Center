@@ -21,7 +21,7 @@ export default function Treatments() {
   const { t } = useTranslation('treatments');
 
   const seoTitle = "Weight Loss Surgery in Istanbul 2026 — Gastric Sleeve, Bypass, Balloon & ESG | All-Inclusive Packages";
-  const seoDescription = "Compare every bariatric procedure at Istanbul Bariatric Center: Gastric Sleeve from £2,950, Bypass from £3,350, Balloon from £1,650, ESG from £4,950. Performed by Dr Murat Ustun at JCI-accredited Liv Hospital. All-inclusive packages with VIP transfers, hotel & lifetime dietitian support.";
+  const seoDescription = "Compare bariatric procedures: Gastric Sleeve from £2,950, Bypass £3,350, Balloon £1,650, ESG £4,950. Dr Murat Ustun at JCI-accredited Liv Hospital.";
 
   const treatmentsFAQs = [
     { question: "How much does weight loss surgery cost in Istanbul?", answer: "All-inclusive packages at Istanbul Bariatric Center start from £1,650 for a gastric balloon, £2,950 for gastric sleeve, £3,350 for gastric bypass, and £4,950 for ESG. Every package covers your JCI-accredited hospital stay, pre-operative tests, VIP airport transfers, and dietitian follow-up." },

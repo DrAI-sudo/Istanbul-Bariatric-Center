@@ -122,7 +122,7 @@ export default function SleeveGastrectomy() {
     <div className="min-h-screen bg-white">
       <SEO
         title="Gastric Sleeve Surgery in Istanbul — All-Inclusive from £2,950"
-        description="Gastric Sleeve (VSG) surgery at JCI-accredited Liv Hospital, Istanbul. 75–80% stomach reduction with rapid weight loss. All-inclusive packages from £2,950 with Dr Murat Ustun, VIP transfers & dietitian support."
+        description="Gastric Sleeve (VSG) at JCI-accredited Liv Hospital, Istanbul. 75–80% stomach reduction. All-inclusive packages from £2,950 with Dr Murat Ustun."
         keywords="gastric sleeve turkey, sleeve gastrectomy istanbul, vsg surgery turkey, weight loss surgery cost"
         url="/sleeve-gastrectomy"
       />

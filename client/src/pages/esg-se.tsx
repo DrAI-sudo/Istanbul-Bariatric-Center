@@ -266,7 +266,7 @@ export default function ESGSweden() {
     <div className="min-h-screen bg-white">
       <SEO
         title="ESG Turkiet för svenska patienter | Gå ner i vikt utan operation | € 6 450 allt inkluderat"
-        description="Endoskopisk sleeve gastroplastik utan kirurgi för patienter från Sverige. All-inclusive-paket € 6 450 på JCI-ackrediterat sjukhus. Betydande besparingar jämfört med Sverige. Gratis konsultation."
+        description="ESG utan kirurgi för patienter från Sverige. All-inclusive € 6 450 på JCI-ackrediterat sjukhus i Istanbul. Gratis konsultation."
         keywords="ESG Sverige, gå ner i vikt utan operation, gastroplastik Turkiet, Ozempic alternativ Sverige, viktnedgång behandling, magförminskning utan operation, ESG pris, bariatrisk behandling Turkiet"
         url="/esg/se"
       />

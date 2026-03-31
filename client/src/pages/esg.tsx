@@ -133,7 +133,7 @@ export default function ESG() {
     <div className="min-h-screen bg-white">
       <SEO
         title="Endoscopic Sleeve Gastroplasty Turkey | ESG Istanbul | Non-Surgical Weight Loss"
-        description="Get Endoscopic Sleeve Gastroplasty (ESG) in Istanbul with Apollo Overstitch technology. Non-surgical, incisionless stomach reduction. 15-20% weight loss, same-day discharge, from £4,950. Pioneer surgeon Dr Murat Ustun at JCI-accredited Liv Hospital."
+        description="ESG in Istanbul with Apollo Overstitch. Non-surgical stomach reduction, 15-20% weight loss, same-day discharge, from £4,950. Dr Murat Ustun."
         keywords="endoscopic sleeve gastroplasty turkey, esg turkey, endoscopic sleeve gastroplasty istanbul, apollo esg turkey, non-surgical weight loss turkey, stomach reduction without surgery, endoscopic bariatric procedure turkey, esg cost turkey, incisionless weight loss, apollo overstitch turkey, esg weight loss, endoscopic gastroplasty price"
         url="/esg"
       />

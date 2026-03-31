@@ -585,7 +585,7 @@ export default function BariatricGuide() {
     <div className="min-h-screen bg-white">
       <SEO
         title="Complete Guide to Bariatric Surgery in Istanbul, Turkey"
-        description="Comprehensive guide to weight loss surgery in Istanbul. 13 topics covering procedures, costs, safety, recovery, and why Istanbul Bariatric Center is a top choice for international patients."
+        description="Complete guide to weight loss surgery in Istanbul. 13 topics on procedures, costs, safety, recovery, and why patients choose Istanbul Bariatric Center."
         keywords="bariatric surgery istanbul guide, weight loss surgery turkey, gastric sleeve istanbul, bariatric surgery cost turkey, istanbul bariatric center"
         url="/bariatric-surgery-turkey-guide"
       />

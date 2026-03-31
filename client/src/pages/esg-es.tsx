@@ -303,7 +303,7 @@ export default function ESGEspana() {
     <div className="min-h-screen bg-white">
       <SEO
         title="ESG Turquía para pacientes de España | Adelgazar sin cirugía | Hasta 70 % de ahorro"
-        description="Gastroplastia endoscópica sin cirugía para pacientes en España. Hasta un 70 % más barato que en España. Paquetes todo incluido desde aprox. 5.800 € en hospital acreditado JCI. Consulta gratuita."
+        description="ESG sin cirugía para pacientes en España. Hasta 70 % más barato. Todo incluido desde 5.800 € en hospital acreditado JCI. Consulta gratuita."
         keywords="ESG España, adelgazar sin cirugía, gastroplastia endoscópica precio, alternativa Ozempic España, perder peso Turquía, reducción de estómago sin cirugía, ESG Turquía precio, cirugía bariátrica Turquía, manga gástrica sin cirugía, perder peso sin operación"
         url="/esg/es"
       />

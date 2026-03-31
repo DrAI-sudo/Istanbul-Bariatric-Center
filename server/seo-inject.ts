@@ -88,7 +88,7 @@ export function injectSEO(html: string, requestPath: string): string {
   const noscriptBlock = `
     <noscript>
       <div style="padding:20px;max-width:800px;margin:0 auto;font-family:sans-serif">
-        <h1>${escapeHtml(seo.h1)}</h1>
+        <h2>${escapeHtml(seo.h1)}</h2>
         <p>${escapeHtml(seo.bodyExcerpt)}</p>
         ${richContent}
         ${blogPostHTML}

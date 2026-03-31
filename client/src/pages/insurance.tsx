@@ -24,7 +24,7 @@ export default function Insurance() {
     <div className="min-h-screen bg-white">
       <SEO
         title="Travel Insurance for Medical Tourists"
-        description="Specialized international travel insurance for medical tourists. Coverage for travel accidents, illness, and medical complications for up to 180 days past your procedure date."
+        description="International travel insurance for medical tourists. Coverage for accidents, illness and complications up to 180 days post-procedure."
         keywords="medical travel insurance, bariatric surgery insurance, medical tourism insurance, travel insurance turkey"
         url="/insurance"
       />

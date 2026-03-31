@@ -303,7 +303,7 @@ export default function ESGItalia() {
     <div className="min-h-screen bg-white">
       <SEO
         title="ESG Turchia per pazienti italiani | Dimagrire senza chirurgia | € 6.450 tutto incluso"
-        description="Gastroplastica endoscopica senza intervento chirurgico per pazienti dall'Italia. Pacchetto tutto incluso a € 6.450 in ospedale accreditato JCI. Risparmio significativo rispetto all'Italia. Consulenza gratuita."
+        description="ESG senza chirurgia per pazienti dall'Italia. Tutto incluso € 6.450 in ospedale accreditato JCI a Istanbul. Consulenza gratuita."
         keywords="ESG Italia, dimagrire senza chirurgia, gastroplastica endoscopica prezzo, alternativa Ozempic Italia, perdere peso Turchia, riduzione stomaco senza operazione, ESG Turchia prezzo, chirurgia bariatrica Turchia, gastroplastica endoscopica Italia"
         url="/esg/it"
       />

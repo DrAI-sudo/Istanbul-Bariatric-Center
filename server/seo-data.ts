@@ -255,7 +255,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/uk": {
     title: "ESG for UK Patients | Endoscopic Sleeve Gastroplasty Turkey | Save Up to 70%",
-    description: "Discover ESG for UK patients at Istanbul Bariatric Center. Affordable, non-surgical weight loss in Turkey. All-inclusive packages from £4,950. Save up to 70% vs UK private clinics. Free consultation available.",
+    description: "ESG for UK patients. Affordable non-surgical weight loss in Turkey. All-inclusive from £4,950. Save up to 70% vs UK clinics. Free consultation.",
     h1: "Endoscopic Sleeve Gastroplasty (ESG) for UK Patients — A Safer, Non-Surgical Weight Loss Solution in Turkey",
     bodyExcerpt: "ESG for UK patients at Istanbul Bariatric Center. Non-surgical, incision-free weight loss procedure with all-inclusive packages from £4,950. Save up to 70% compared to UK private clinics. JCI-accredited Liv Hospital, pioneer surgeon Dr Murat Ustun, UK patient coordinators, 12-month UK dietitian support included.",
     canonical: SITE_URL + "/esg/uk",
@@ -313,7 +313,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/de": {
     title: "ESG Türkei für deutsche Patienten | Magenverkleinerung ohne OP | Bis zu 70 % sparen",
-    description: "Endoskopische Sleeve Gastroplastik für Patienten aus Deutschland. Bis zu 70 % günstiger als in Deutschland. All-Inclusive-Pakete ab ca. 5.800 € im JCI-akkreditierten Krankenhaus. Jetzt kostenlos beraten lassen.",
+    description: "ESG für Patienten aus Deutschland. Bis zu 70 % günstiger. All-Inclusive ab ca. 5.800 € im JCI-akkreditierten Krankenhaus. Kostenlose Beratung.",
     h1: "Endoskopische Sleeve Gastroplastik (ESG) für Patienten aus Deutschland — Abnehmen ohne Operation in der Türkei",
     bodyExcerpt: "ESG für deutsche Patienten im Istanbul Bariatric Center. Minimalinvasive, schnittfreie Magenverkleinerung mit All-Inclusive-Paketen ab ca. 5.800 €. Bis zu 70 % günstiger als in Deutschland. JCI-akkreditiertes Liv Hospital, Pionier-Chirurg Dr. Murat Üstün, deutschsprachige Patientenbetreuung, 12-monatige Ernährungsberatung inklusive.",
     canonical: SITE_URL + "/esg/de",
@@ -369,7 +369,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/fr": {
     title: "ESG Turquie pour patients français | Sleeve sans chirurgie | Jusqu'à 70 % d'économie",
-    description: "Sleeve gastroplastie endoscopique pour patients en France. Jusqu'à 70 % moins chère qu'en France. Forfaits tout compris à partir d'environ 5 800 € en hôpital accrédité JCI. Consultation gratuite.",
+    description: "ESG pour patients en France. Jusqu'à 70 % moins cher. Forfaits tout compris dès 5 800 € en hôpital accrédité JCI. Consultation gratuite.",
     h1: "Sleeve Gastroplastie Endoscopique (ESG) pour les patients en France — Perdre du poids sans chirurgie en Turquie",
     bodyExcerpt: "ESG pour patients français à Istanbul Bariatric Center. Réduction gastrique mini-invasive sans chirurgie avec forfaits tout compris à partir d'environ 5 800 €. Jusqu'à 70 % moins cher qu'en France. Hôpital accrédité JCI, chirurgien pionnier Dr Murat Üstün, accompagnement francophone, suivi nutritionnel de 12 mois inclus.",
     canonical: SITE_URL + "/esg/fr",
@@ -425,7 +425,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/es": {
     title: "ESG Turquía para pacientes de España | Adelgazar sin cirugía | Hasta 70 % de ahorro",
-    description: "Gastroplastia endoscópica sin cirugía para pacientes en España. Hasta un 70 % más barato que en España. Paquetes todo incluido desde aprox. 5.800 € en hospital acreditado JCI. Consulta gratuita.",
+    description: "ESG sin cirugía para pacientes en España. Hasta 70 % más barato. Todo incluido desde 5.800 € en hospital acreditado JCI. Consulta gratuita.",
     h1: "Gastroplastia Endoscópica en Manga (ESG) para pacientes en España — Adelgazar sin cirugía en Turquía",
     bodyExcerpt: "ESG para pacientes españoles en Istanbul Bariatric Center. Reducción gástrica mínimamente invasiva sin cirugía con paquetes todo incluido desde aprox. 5.800 €. Hasta 70 % más barato que en España. Hospital acreditado JCI, cirujano pionero Dr. Murat Üstün, atención en español, seguimiento nutricional de 12 meses incluido.",
     canonical: SITE_URL + "/esg/es",
@@ -481,7 +481,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/nl": {
     title: "ESG Turkije voor Nederlandse patiënten | Afvallen zonder operatie | Tot 70% besparing",
-    description: "Endoscopische sleeve gastroplastiek zonder operatie voor patiënten uit Nederland. Tot 70% goedkoper dan in Nederland. All-inclusive pakketten vanaf circa € 5.800 in JCI-geaccrediteerd ziekenhuis. Gratis consult.",
+    description: "ESG zonder operatie voor patiënten uit Nederland. Tot 70% goedkoper. All-inclusive vanaf € 5.800 in JCI-geaccrediteerd ziekenhuis. Gratis consult.",
     h1: "Endoscopische Sleeve Gastroplastiek (ESG) voor patiënten uit Nederland — Afvallen zonder operatie in Turkije",
     bodyExcerpt: "ESG voor Nederlandse patiënten bij Istanbul Bariatric Center. Maagverkleining zonder operatie met all-inclusive pakketten vanaf circa € 5.800. Tot 70% goedkoper dan in Nederland. JCI-geaccrediteerd ziekenhuis, pionier Dr. Murat Üstün, persoonlijke begeleiding, 12 maanden voedingsbegeleiding inbegrepen.",
     canonical: SITE_URL + "/esg/nl",
@@ -537,7 +537,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/ar": {
     title: "عملية طي المعدة بالمنظار في تركيا | ESG للمرضى من الخليج | من ٧,٥٠٠ دولار",
-    description: "عملية ESG بدون جراحة للمرضى من السعودية والإمارات والكويت وقطر. نتائج فعالة مع تجربة VIP فاخرة. باقات شاملة تبدأ من ٧,٥٠٠ دولار. مستشفى معتمد JCI. استشارة مجانية.",
+    description: "عملية ESG بدون جراحة للمرضى من الخليج. باقات شاملة من ٧,٥٠٠ دولار. مستشفى معتمد JCI. استشارة مجانية.",
     h1: "عملية طي المعدة بالمنظار (ESG) بدون جراحة — حل متطور لإنقاص الوزن للمرضى من الخليج في تركيا",
     bodyExcerpt: "عملية ESG لمرضى الخليج في مركز إسطنبول لجراحة السمنة. تصغير المعدة بدون جراحة مع باقات شاملة من ٧,٥٠٠ دولار. مستشفى معتمد JCI، الدكتور مراد أوستون رائد ESG في تركيا، مترجمون عرب، متابعة غذائية ١٢ شهرًا.",
     canonical: SITE_URL + "/esg/ar",
@@ -593,7 +593,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/it": {
     title: "ESG Turchia per pazienti italiani | Dimagrire senza chirurgia | € 6.450 tutto incluso",
-    description: "Gastroplastica endoscopica senza intervento chirurgico per pazienti dall'Italia. Pacchetto tutto incluso a € 6.450 in ospedale accreditato JCI. Risparmio significativo rispetto all'Italia. Consulenza gratuita.",
+    description: "ESG senza chirurgia per pazienti dall'Italia. Tutto incluso € 6.450 in ospedale accreditato JCI a Istanbul. Consulenza gratuita.",
     h1: "Gastroplastica Endoscopica (ESG) per pazienti dall'Italia — Dimagrire senza chirurgia in Turchia",
     bodyExcerpt: "Gastroplastica Endoscopica (ESG) per pazienti italiani presso Istanbul Bariatric Center. Riduzione dello stomaco senza chirurgia. Pacchetto tutto incluso a € 6.450 — ospedale accreditato JCI, Dr. Murat Üstün, transfer VIP, hotel, supporto nutrizionale 12 mesi. Risparmio del 20-55% rispetto ai prezzi italiani.",
     canonical: SITE_URL + "/esg/it",
@@ -648,7 +648,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/ru": {
     title: "ESG Турция для пациентов из России | Похудение без операции | Клиника JCI",
-    description: "Эндоскопическая гастропластика без хирургии для пациентов из России и СНГ. Клиника с аккредитацией JCI. Русскоговорящий персонал. Пакеты «всё включено». Бесплатная консультация.",
+    description: "Эндоскопическая гастропластика для пациентов из России и СНГ. Клиника JCI. Пакеты всё включено. Бесплатная консультация.",
     h1: "Эндоскопическая гастропластика (ESG) — эффективное снижение веса без операции в Турции",
     bodyExcerpt: "Эндоскопическая гастропластика (ESG) для пациентов из России и СНГ в Istanbul Bariatric Center. Уменьшение желудка без операции. Клиника с аккредитацией JCI. Доктор Мурат Юстюн. Русскоговорящий персонал. Пакеты «всё включено» с трансфером, проживанием и 12 месяцами нутритивного сопровождения.",
     canonical: SITE_URL + "/esg/ru",
@@ -698,7 +698,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/ro": {
     title: "ESG Turcia pentru pacienți din România | Slăbire fără operație | Spital JCI",
-    description: "Gastroplastie endoscopică fără chirurgie pentru pacienți din România. Spital acreditat JCI. Pachete all-inclusive. Zboruri directe din București și Cluj. Consultație gratuită.",
+    description: "Gastroplastie endoscopică fără chirurgie pentru pacienți din România. Spital acreditat JCI. Pachete all-inclusive. Consultație gratuită.",
     h1: "Gastroplastie Endoscopică (ESG) — Slăbire fără operație în Turcia pentru pacienți din România",
     bodyExcerpt: "Gastroplastie Endoscopică (ESG) pentru pacienți din România la Istanbul Bariatric Center. Reducerea stomacului fără chirurgie. Spital acreditat JCI. Dr. Murat Üstün. Pachete all-inclusive cu transfer VIP, cazare hotel și urmărire nutrițională 12 luni. Zboruri directe din București și Cluj (~1,5-2 ore).",
     canonical: SITE_URL + "/esg/ro",
@@ -748,7 +748,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/se": {
     title: "ESG Turkiet för svenska patienter | Gå ner i vikt utan operation | € 6 450 allt inkluderat",
-    description: "Endoskopisk sleeve gastroplastik utan kirurgi för patienter från Sverige. All-inclusive-paket € 6 450 på JCI-ackrediterat sjukhus. Betydande besparingar jämfört med Sverige. Gratis konsultation.",
+    description: "ESG utan kirurgi för patienter från Sverige. All-inclusive € 6 450 på JCI-ackrediterat sjukhus i Istanbul. Gratis konsultation.",
     h1: "Endoskopisk Sleeve Gastroplastik (ESG) — Gå ner i vikt utan operation i Turkiet",
     bodyExcerpt: "Endoskopisk Sleeve Gastroplastik (ESG) för patienter från Sverige vid Istanbul Bariatric Center. Magförminskning utan kirurgi. JCI-ackrediterat sjukhus. Dr. Murat Üstün. All-inclusive-paket € 6 450 med VIP-transfer, hotell och 12 månaders nutritionsstöd. Direktflyg från Stockholm Arlanda (~3-3,5 timmar).",
     canonical: SITE_URL + "/esg/se",
@@ -798,7 +798,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/pl": {
     title: "ESG Turcja dla pacjentów z Polski | Odchudzanie bez operacji | € 6 450 all-inclusive",
-    description: "Endoskopowa gastroplastyka rękawowa bez chirurgii dla pacjentów z Polski. Pakiet all-inclusive € 6 450 w szpitalu z akredytacją JCI. Oszczędności w porównaniu z Polską. Bezpłatna konsultacja.",
+    description: "ESG bez chirurgii dla pacjentów z Polski. All-inclusive € 6 450 w szpitalu z akredytacją JCI w Stambule. Bezpłatna konsultacja.",
     h1: "Endoskopowa Gastroplastyka Rękawowa (ESG) — Odchudzanie bez operacji w Turcji",
     bodyExcerpt: "Endoskopowa Gastroplastyka Rękawowa (ESG) dla pacjentów z Polski w Istanbul Bariatric Center. Zmniejszenie żołądka bez operacji. Szpital z akredytacją JCI. Dr Murat Üstün. Pakiet all-inclusive € 6 450 z transferem VIP, hotelem i 12-miesięcznym wsparciem dietetycznym. Bezpośrednie loty z Warszawy i Krakowa (~2,5-3 godziny).",
     canonical: SITE_URL + "/esg/pl",
@@ -848,7 +848,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/dk": {
     title: "ESG Tyrkiet for danske patienter | Vægttab uden kirurgi | € 6.450 all-inclusive",
-    description: "Endoskopisk sleeve gastroplastik uden kirurgi for patienter fra Danmark. All-inclusive-pakke € 6.450 på JCI-akkrediteret hospital. Besparelser ift. Danmark. Gratis konsultation.",
+    description: "ESG uden kirurgi for patienter fra Danmark. All-inclusive € 6.450 på JCI-akkrediteret hospital i Istanbul. Gratis konsultation.",
     h1: "Endoskopisk Sleeve Gastroplastik (ESG) — Vægttab uden kirurgi i Tyrkiet",
     bodyExcerpt: "Endoskopisk Sleeve Gastroplastik (ESG) for patienter fra Danmark i Istanbul Bariatric Center. Mavereduktion uden kirurgi. JCI-akkrediteret hospital. Dr. Murat Üstün. All-inclusive-pakke € 6.450 med VIP-transfer, hotel og 12 måneders ernæringsstøtte. Direkte fly fra København Kastrup (~3-3,5 timer).",
     canonical: SITE_URL + "/esg/dk",
@@ -898,7 +898,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/no": {
     title: "ESG Tyrkia for norske pasienter | Vekttap uten kirurgi | € 6.450 all-inclusive",
-    description: "Endoskopisk sleeve gastroplastikk uten kirurgi for pasienter fra Norge. All-inclusive-pakke € 6.450 på JCI-akkreditert sykehus. Besparelser sammenlignet med Norge. Gratis konsultasjon.",
+    description: "ESG uten kirurgi for pasienter fra Norge. All-inclusive € 6.450 på JCI-akkreditert sykehus i Istanbul. Gratis konsultasjon.",
     h1: "Endoskopisk Sleeve Gastroplastikk (ESG) — Vekttap uten kirurgi i Tyrkia",
     bodyExcerpt: "Endoskopisk Sleeve Gastroplastikk (ESG) for pasienter fra Norge i Istanbul Bariatric Center. Mageminsking uten kirurgi. JCI-akkreditert sykehus. Dr. Murat Üstün. All-inclusive-pakke € 6.450 med VIP-transfer, hotell og 12 måneders ernæringsstøtte. Direktefly fra Oslo Gardermoen (~3,5-4 timer).",
     canonical: SITE_URL + "/esg/no",
@@ -948,7 +948,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/hu": {
     title: "ESG Törökország magyar betegeknek | Fogyás műtét nélkül | € 6.450 all-inclusive",
-    description: "Endoszkópos sleeve gastroplasztika műtét nélkül magyar pácienseknek. All-inclusive csomag € 6.450 JCI-akkreditált kórházban. Megtakarítás Magyarországhoz képest. Ingyenes konzultáció.",
+    description: "ESG műtét nélkül magyar pácienseknek. All-inclusive € 6.450 JCI-akkreditált kórházban Isztambulban. Ingyenes konzultáció.",
     h1: "Endoszkópos Sleeve Gastroplasztika (ESG) — Fogyás műtét nélkül Törökországban",
     bodyExcerpt: "Endoszkópos Sleeve Gastroplasztika (ESG) magyar pácienseknek az Istanbul Bariatric Centerben. Gyomor csökkentés műtét nélkül. JCI-akkreditált kórház. Dr. Murat Üstün. All-inclusive csomag € 6.450 VIP transzferrel, szállodával és 12 hónapos dietetikai támogatással. Közvetlen járatok Budapestről (~2-2,5 óra).",
     canonical: SITE_URL + "/esg/hu",
@@ -998,7 +998,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/fi": {
     title: "ESG Turkki suomalaisille potilaille | Laihtuminen ilman leikkausta | € 6.450 all-inclusive",
-    description: "Endoskooppinen sleeve gastroplastia ilman leikkausta suomalaisille potilaille. All-inclusive-paketti € 6.450 JCI-akkreditoidussa sairaalassa. Säästöjä Suomeen verrattuna. Ilmainen konsultaatio.",
+    description: "Endoskooppinen sleeve gastroplastia suomalaisille. All-inclusive € 6.450 JCI-akkreditoidussa sairaalassa. Ilmainen konsultaatio.",
     h1: "Endoskooppinen Sleeve Gastroplastia (ESG) — Laihtuminen ilman leikkausta Turkissa",
     bodyExcerpt: "Endoskooppinen Sleeve Gastroplastia (ESG) suomalaisille potilaille Istanbul Bariatric Centerissä. Mahalaukun pienennys ilman leikkausta. JCI-akkreditoitu sairaala. Dr. Murat Üstün. All-inclusive-paketti € 6.450 VIP-kuljetuksella, hotellilla ja 12 kuukauden ravitsemustuella. Suorat lennot Helsinki-Vantaalta (~3,5-4 tuntia).",
     canonical: SITE_URL + "/esg/fi",
@@ -1048,7 +1048,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/ca": {
     title: "ESG Turkey for Canadian Patients | Weight Loss Without Surgery | $8,500 USD All-Inclusive",
-    description: "Endoscopic Sleeve Gastroplasty without surgery for Canadian patients. All-inclusive package $8,500 USD at JCI-accredited hospital in Istanbul. Save compared to Canadian private clinics. Free consultation.",
+    description: "ESG without surgery for Canadian patients. All-inclusive $8,500 USD at JCI-accredited hospital. Save vs Canadian clinics. Free consultation.",
     h1: "Endoscopic Sleeve Gastroplasty (ESG) — Safe, Minimally Invasive Weight Loss in Turkey",
     bodyExcerpt: "Endoscopic Sleeve Gastroplasty (ESG) for Canadian patients at Istanbul Bariatric Center. Stomach reduction without surgery. JCI-accredited hospital. Dr. Murat Üstün. Procedure $7,500 USD or all-inclusive package $8,500 USD with VIP transfers, hotel, and 12-month dietitian support. Direct flights from Toronto Pearson (~10-11 hours).",
     canonical: SITE_URL + "/esg/ca",
@@ -1098,7 +1098,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/us": {
     title: "ESG Turkey for US Patients | Minimally Invasive Weight Loss | $8,500 All-Inclusive",
-    description: "Endoscopic Sleeve Gastroplasty for American patients. Procedure $7,500 USD. All-inclusive $8,500 USD at JCI-accredited hospital. Evidence-based weight loss without surgery. Free consultation.",
+    description: "ESG for US patients. Procedure $7,500, all-inclusive $8,500 USD at JCI-accredited hospital in Istanbul. Free consultation.",
     h1: "Endoscopic Sleeve Gastroplasty (ESG) — A Minimally Invasive Alternative to Traditional Bariatric Surgery",
     bodyExcerpt: "Endoscopic Sleeve Gastroplasty (ESG) for American patients at Istanbul Bariatric Center. Evidence-based stomach reduction without surgery. JCI-accredited hospital. Dr. Murat Üstün. Procedure $7,500 USD or all-inclusive $8,500 USD with VIP transfers, 4-star hotel, and 12-month dietitian support via telemedicine. Direct flights from NYC, Chicago, LA, Houston, Miami.",
     canonical: SITE_URL + "/esg/us",
@@ -1148,7 +1148,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/esg/anz": {
     title: "ESG Turkey for Australia & New Zealand | Safe, Minimally Invasive Weight Loss | $8,500 USD All-Inclusive",
-    description: "Endoscopic Sleeve Gastroplasty for Australian and New Zealand patients. Procedure $7,500 USD. All-inclusive $8,500 USD at JCI-accredited hospital. Safe, minimally invasive weight loss. Free consultation.",
+    description: "ESG for Australian and New Zealand patients. All-inclusive $8,500 USD at JCI-accredited hospital in Istanbul. Free consultation.",
     h1: "Endoscopic Sleeve Gastroplasty (ESG) — Safe, Minimally Invasive Weight Loss in Istanbul",
     bodyExcerpt: "Endoscopic Sleeve Gastroplasty (ESG) for Australian and New Zealand patients at Istanbul Bariatric Center. Minimally invasive stomach reduction without surgery. JCI-accredited hospital. Dr. Murat Üstün. Procedure $7,500 USD or all-inclusive $8,500 USD with VIP transfers, 4-star hotel, and 12-month dietitian support via telehealth. Flights from Sydney, Melbourne, Auckland.",
     canonical: SITE_URL + "/esg/anz",
@@ -1216,7 +1216,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/bariatric-surgery-turkey-guide": {
     title: "Complete Guide to Bariatric Surgery in Istanbul, Turkey",
-    description: "Comprehensive guide to weight loss surgery in Istanbul. 13 topics covering procedures, costs, safety, recovery, and why Istanbul Bariatric Center is a top choice for international patients.",
+    description: "Complete guide to weight loss surgery in Istanbul. 13 topics on procedures, costs, safety, recovery, and why patients choose Istanbul Bariatric Center.",
     h1: "Complete Guide to Bariatric Surgery in Istanbul, Turkey",
     bodyExcerpt: "Everything you need to know about weight loss surgery at Istanbul Bariatric Center — from procedures and costs to safety, recovery, and planning your trip. 13 comprehensive topics with over 100 detailed answers covering bariatric surgery in Turkey.",
     canonical: SITE_URL + "/bariatric-surgery-turkey-guide",

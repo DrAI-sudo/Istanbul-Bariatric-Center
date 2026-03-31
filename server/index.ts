@@ -37,6 +37,9 @@ app.use((req, res, next) => {
   if (host === "istanbulbariatriccenter.replit.app") {
     return res.redirect(301, "https://istanbulbariatriccenter.com" + req.originalUrl);
   }
+  if (host === "www.istanbulbariatriccenter.com") {
+    return res.redirect(301, "https://istanbulbariatriccenter.com" + req.originalUrl);
+  }
   next();
 });
 
