@@ -8,6 +8,7 @@ const Toaster = lazy(() => import("@/components/ui/toaster").then(m => ({ defaul
 const SonnerToaster = lazy(() => import("sonner").then(m => ({ default: m.Toaster })));
 const TooltipProvider = lazy(() => import("@/components/ui/tooltip").then(m => ({ default: m.TooltipProvider })));
 const MayaChatbot = lazy(() => import("@/components/maya-chatbot"));
+const PromoPopup = lazy(() => import("@/components/promo-popup"));
 
 const Home = lazy(() => import("@/pages/home"));
 const About = lazy(() => import("@/pages/about"));
@@ -192,6 +193,7 @@ function AppContent() {
         <Router />
       </main>
       {!isAdmin && <Suspense fallback={null}><MayaChatbot /></Suspense>}
+      {!isAdmin && <Suspense fallback={null}><PromoPopup /></Suspense>}
     </>
   );
 }
