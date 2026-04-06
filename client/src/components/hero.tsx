@@ -28,6 +28,13 @@ export function Hero() {
       aria-label="Hero section"
     >
       <div className="absolute inset-0 z-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+        <img
+          src="/hero-poster.webp"
+          alt="Liv Hospital Istanbul at night"
+          className="absolute inset-0 w-full h-full object-cover opacity-50"
+          fetchPriority="high"
+          decoding="async"
+        />
         <video 
           ref={videoRef}
           autoPlay 
@@ -35,8 +42,9 @@ export function Hero() {
           muted 
           playsInline
           preload="none"
+          poster="/hero-poster.webp"
           aria-hidden="true"
-          className="w-full h-full object-cover opacity-50"
+          className="absolute inset-0 w-full h-full object-cover opacity-50"
         >
           {videoSrc && <source src={videoSrc} type="video/mp4" />}
         </video>
