@@ -6,6 +6,8 @@ import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/componen
 import { useTranslation } from "react-i18next";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
 import { SummarizeWithAI } from "@/components/summarize-with-ai";
+import { useEffect } from "react";
+import { changeLanguage } from "@/i18n/config";
 
 function linkifyDrName(text: string) {
   if (!text.includes('Dr Murat Ustun')) return text;
@@ -17,29 +19,26 @@ function linkifyDrName(text: string) {
   )}</>;
 }
 
-export default function Treatments() {
-  const { t } = useTranslation('treatments');
+export default function Treatments({ lang }: { lang?: string }) {
+  const { t, i18n } = useTranslation('treatments');
 
-  const seoTitle = "Weight Loss Surgery in Istanbul 2026 — Gastric Sleeve, Bypass, Balloon & ESG | All-Inclusive Packages";
-  const seoDescription = "Compare bariatric procedures: Gastric Sleeve from £2,950, Bypass £3,350, Balloon £1,650, ESG £4,950. Dr Murat Ustun at JCI-accredited Liv Hospital.";
+  useEffect(() => {
+    if (lang && lang !== i18n.language) {
+      changeLanguage(lang);
+    }
+  }, [lang, i18n.language]);
 
-  const treatmentsFAQs = [
-    { question: "How much does weight loss surgery cost in Istanbul?", answer: "All-inclusive packages at Istanbul Bariatric Center start from £1,650 for a gastric balloon, £2,950 for gastric sleeve, £3,350 for gastric bypass, and £4,950 for ESG. Every package covers your JCI-accredited hospital stay, pre-operative tests, VIP airport transfers, and dietitian follow-up." },
-    { question: "Which bariatric procedure is right for me?", answer: "The best procedure depends on your BMI, medical history, and weight-loss goals. Gastric sleeve suits BMI 35+, gastric bypass is recommended for BMI 40+ or patients with metabolic conditions, gastric balloon is a non-surgical option for BMI 30–40, and ESG offers a minimally invasive approach for BMI 30–40." },
-    { question: "Is bariatric surgery at Istanbul Bariatric Center safe?", answer: "Absolutely. All procedures are performed at JCI-accredited Liv Hospital in Istanbul by internationally trained surgeons. Dr Murat Ustun, the centre's founder and lead surgeon, has performed thousands of successful operations with outstanding safety outcomes." },
-    { question: "What is included in each surgery package?", answer: "Every package includes admission to a JCI-accredited hospital, full pre-operative testing, surgeon and anaesthesia fees, VIP airport transfer, and dietitian support. Relaxation and Luxury tiers add Dr Murat Ustun as your operating surgeon, extended hospital stays, Radisson hotel accommodation, UK-registered dietitian follow-up, and supplement packages." },
-    { question: "How much weight can I expect to lose?", answer: "Results vary by procedure: gastric sleeve patients typically lose 60–70% of excess weight, gastric bypass 70–80%, gastric balloon 10–15% of total body weight, and ESG 15–20% of total body weight — all within the first 12–18 months." },
-    { question: "What is the recovery timeline?", answer: "Gastric sleeve and bypass patients stay 2–3 days in hospital and return to daily activities within 2–3 weeks. Gastric balloon is a same-day procedure, and ESG patients can resume normal activities within 1–3 days." },
-    { question: "Do I receive aftercare once I return home?", answer: "Yes. Every patient receives a structured aftercare plan including dietitian guidance, follow-up consultations, and access to our UK-based patient-support team operating from 8 locations across the United Kingdom." },
-    { question: "Who is Dr Murat Ustun?", answer: "Dr Murat Ustun is the founder and lead bariatric surgeon at Istanbul Bariatric Center. A pioneer of ESG (Endoscopic Sleeve Gastroplasty) in Turkey, he has performed thousands of weight-loss procedures — including gastric sleeve, gastric bypass, and duodenal switch — at Liv Hospital in Istanbul." }
-  ];
+  const seoTitle = t('seo.title');
+  const seoDescription = t('seo.description');
+
+  const treatmentsFAQs = t('faqSection.faqs', { returnObjects: true }) as Array<{ question: string; answer: string }>;
 
   const medicalProceduresSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
     "name": "Weight Loss Surgery at Istanbul Bariatric Center — Liv Hospital, Istanbul",
     "description": seoDescription,
-    "url": "https://istanbulbariatriccenter.com/treatments",
+    "url": `https://istanbulbariatriccenter.com/treatments${lang ? `/${lang}` : ''}`,
     "mainEntity": [
       {
         "@type": "MedicalProcedure",
@@ -112,229 +111,141 @@ export default function Treatments() {
 
   const packages = [
     {
-      name: "Sleeve Gastrectomy Basic",
+      name: t('packages.sleeveBasic.name'),
       price: "£2,950",
       color: "blue",
-      features: [
-        "Experienced surgical team",
-        "JCI-accredited hospital (2 days)",
-        "All pre-operative tests and consultations",
-        "VIP airport transfer",
-        "Dietitian support"
-      ]
+      features: t('packages.sleeveBasic.features', { returnObjects: true }) as string[]
     },
     {
-      name: "Sleeve Gastrectomy Relaxation",
+      name: t('packages.sleeveRelaxation.name'),
       price: "£3,950",
       color: "emerald",
       recommended: true,
-      features: [
-        "Surgery with Dr Murat Ustun",
-        "JCI-accredited hospital (3 days)",
-        "All pre-operative tests and consultations",
-        "VIP airport transfer",
-        "UK-registered dietitian support"
-      ]
+      features: t('packages.sleeveRelaxation.features', { returnObjects: true }) as string[]
     },
     {
-      name: "Sleeve Gastrectomy Luxury",
+      name: t('packages.sleeveLuxury.name'),
       price: "£4,250",
       color: "amber",
-      features: [
-        "Surgery with Dr Murat Ustun",
-        "JCI-accredited hospital (3 days)",
-        "All pre-operative tests and consultations",
-        "VIP airport transfer",
-        "3 nights of Radisson hotel accommodation",
-        "UK registered dietitian support",
-        "1 month of supplements",
-        "Local UK care support in 8 locations"
-      ]
+      features: t('packages.sleeveLuxury.features', { returnObjects: true }) as string[]
     }
   ];
 
   const bypassPackages = [
     {
-      name: "Gastric Bypass Basic",
+      name: t('packages.bypassBasic.name'),
       price: "£3,350",
       color: "blue",
-      features: [
-        "Experienced surgical team",
-        "JCI-accredited hospital (2 days)",
-        "All pre-operative tests and consultations",
-        "VIP airport transfer",
-        "Dietitian support"
-      ]
+      features: t('packages.bypassBasic.features', { returnObjects: true }) as string[]
     },
     {
-      name: "Gastric Bypass Relaxation",
+      name: t('packages.bypassRelaxation.name'),
       price: "£4,350",
       color: "emerald",
       recommended: true,
-      features: [
-        "Surgery with Dr Murat Ustun",
-        "JCI-accredited hospital (3 days)",
-        "All pre-operative tests and consultations",
-        "VIP airport transfer",
-        "UK-registered dietitian support"
-      ]
+      features: t('packages.bypassRelaxation.features', { returnObjects: true }) as string[]
     },
     {
-      name: "Gastric Bypass Luxury",
+      name: t('packages.bypassLuxury.name'),
       price: "£4,650",
       color: "amber",
-      features: [
-        "Surgery with Dr Murat Ustun",
-        "JCI-accredited hospital (3 days)",
-        "All pre-operative tests and consultations",
-        "VIP airport transfer",
-        "3 nights of Radisson hotel accommodation",
-        "UK registered dietitian support",
-        "1 month of supplements",
-        "Local UK care support in 8 locations"
-      ]
+      features: t('packages.bypassLuxury.features', { returnObjects: true }) as string[]
     }
   ];
 
   const balloonPackages = [
     {
-      name: "Endoscopic Orbera Balloon",
+      name: t('packages.balloonOrbera.name'),
       price: "£1,650",
       color: "blue",
-      features: [
-        "Airport Transfers",
-        "Comprehensive Preop Tests",
-        "Endoscopy",
-        "Anesthesia",
-        "2 nights of accommodation",
-        "Dietitian Support"
-      ]
+      features: t('packages.balloonOrbera.features', { returnObjects: true }) as string[]
     },
     {
-      name: "Allurion Swallowable Balloon",
+      name: t('packages.balloonAllurion.name'),
       price: "£2,250",
       color: "emerald",
       recommended: true,
-      features: [
-        "Airport Transfers",
-        "Comprehensive Preop Tests",
-        "Endoscopy",
-        "Anesthesia",
-        "1 night of accommodation",
-        "Dietitian Support"
-      ]
+      features: t('packages.balloonAllurion.features', { returnObjects: true }) as string[]
     }
   ];
 
   const esgPackages = [
     {
-      name: "ESG Relaxation",
+      name: t('packages.esgRelaxation.name'),
       price: "£4,950",
       color: "emerald",
       recommended: true,
-      features: [
-        "State-of-the-art Liv hospital",
-        "Procedure with Dr Murat Ustun (Pioneer of ESG in Turkey)",
-        "VIP Airport Transfers",
-        "All pre-operative tests and consultations",
-        "OR and hospital costs",
-        "2 days of admission in private room"
-      ]
+      features: t('packages.esgRelaxation.features', { returnObjects: true }) as string[]
     },
     {
-      name: "ESG Luxury",
+      name: t('packages.esgLuxury.name'),
       price: "£5,950",
       color: "amber",
-      features: [
-        "State-of-the-art Liv hospital",
-        "Procedure with Dr Murat Ustun (Pioneer of ESG in Turkey)",
-        "VIP Airport Transfers",
-        "All pre-operative tests and consultations",
-        "OR and hospital costs",
-        "2 days of admission in private room",
-        "2 days of accommodation in Radisson Hotel",
-        "4 UK registered dietitian appointments",
-        "1 month supplement and multivitamin package"
-      ]
+      features: t('packages.esgLuxury.features', { returnObjects: true }) as string[]
     }
   ];
 
   const duodenalSwitchPackages = [
     {
-      name: "Duodenal Switch Relaxation",
+      name: t('packages.dsRelaxation.name'),
       price: "£4,400",
       color: "emerald",
       recommended: true,
-      features: [
-        "Surgery with Dr Murat Ustun",
-        "JCI-accredited hospital (3 days)",
-        "All pre-operative tests and consultations",
-        "VIP airport transfer",
-        "UK-registered dietitian support"
-      ]
+      features: t('packages.dsRelaxation.features', { returnObjects: true }) as string[]
     },
     {
-      name: "Duodenal Switch Luxury",
+      name: t('packages.dsLuxury.name'),
       price: "£4,700",
       color: "amber",
-      features: [
-        "Surgery with Dr Murat Ustun",
-        "JCI-accredited hospital (3 days)",
-        "All pre-operative tests and consultations",
-        "VIP airport transfer",
-        "3 nights of Radisson hotel accommodation",
-        "UK registered dietitian support",
-        "1 month of supplements",
-        "Local UK care support in 8 locations"
-      ]
+      features: t('packages.dsLuxury.features', { returnObjects: true }) as string[]
     }
   ];
 
   const comparisonData = [
     {
-      procedure: "Gastric Sleeve",
-      type: "Surgical",
-      bmiRange: "35+",
+      procedure: t('comparison.gastricSleeve'),
+      type: t('comparison.surgical'),
+      bmiRange: t('comparison.bmi35plus'),
       startingPrice: "£2,950",
-      hospitalStay: "2–3 days",
-      expectedWeightLoss: "60–70% excess weight",
-      recovery: "2–3 weeks"
+      hospitalStay: t('comparison.stay2to3'),
+      expectedWeightLoss: t('comparison.loss60to70'),
+      recovery: t('comparison.recovery2to3weeks')
     },
     {
-      procedure: "Gastric Bypass",
-      type: "Surgical",
-      bmiRange: "40+ (or 35+ with comorbidities)",
+      procedure: t('comparison.gastricBypass'),
+      type: t('comparison.surgical'),
+      bmiRange: t('comparison.bmi40plus'),
       startingPrice: "£3,350",
-      hospitalStay: "2–3 days",
-      expectedWeightLoss: "70–80% excess weight",
-      recovery: "2–3 weeks"
+      hospitalStay: t('comparison.stay2to3'),
+      expectedWeightLoss: t('comparison.loss70to80'),
+      recovery: t('comparison.recovery2to3weeks')
     },
     {
-      procedure: "Gastric Balloon",
-      type: "Non-surgical",
-      bmiRange: "30–40",
+      procedure: t('comparison.gastricBalloon'),
+      type: t('comparison.nonSurgical'),
+      bmiRange: t('comparison.bmi30to40'),
       startingPrice: "£1,650",
-      hospitalStay: "Same day",
-      expectedWeightLoss: "10–15% total body weight",
-      recovery: "1–3 days"
+      hospitalStay: t('comparison.staySameDay'),
+      expectedWeightLoss: t('comparison.loss10to15'),
+      recovery: t('comparison.recovery1to3days')
     },
     {
-      procedure: "ESG",
-      type: "Non-surgical",
-      bmiRange: "30–40",
+      procedure: t('comparison.esg'),
+      type: t('comparison.nonSurgical'),
+      bmiRange: t('comparison.bmi30to40'),
       startingPrice: "£4,950",
-      hospitalStay: "1–2 days",
-      expectedWeightLoss: "15–20% total body weight",
-      recovery: "1–3 days"
+      hospitalStay: t('comparison.stay1to2'),
+      expectedWeightLoss: t('comparison.loss15to20'),
+      recovery: t('comparison.recovery1to3days')
     },
     {
-      procedure: "Duodenal Switch",
-      type: "Surgical",
-      bmiRange: "50+ (or 40+ with comorbidities)",
+      procedure: t('comparison.duodenalSwitch'),
+      type: t('comparison.surgical'),
+      bmiRange: t('comparison.bmi50plus'),
       startingPrice: "£4,400",
-      hospitalStay: "3–4 days",
-      expectedWeightLoss: "70–85% excess weight",
-      recovery: "3–4 weeks"
+      hospitalStay: t('comparison.stay3to4'),
+      expectedWeightLoss: t('comparison.loss70to85'),
+      recovery: t('comparison.recovery3to4weeks')
     }
   ];
 
@@ -375,41 +286,30 @@ export default function Treatments() {
       ifsoImage: "/ifso-ds.webp"
     },
     {
-      title: "Endoscopic Sleeve Gastroplasty (ESG)",
-      desc: "ESG is a minimally invasive, non-surgical weight loss procedure that reduces the size of your stomach by up to 70-80% using an endoscopic suturing device inserted through the mouth. No incisions are required, making it ideal for patients with BMI 30-40 who prefer a non-surgical approach.",
-      advantages: [
-        "Non-surgical — no incisions or scars",
-        "Shorter recovery time (return to normal activities in 1-3 days)",
-        "Lower complication risk compared to surgery",
-        "Reversible procedure",
-        "15-20% total body weight loss expected",
-        "Same-day or next-day discharge",
-        "Performed under general anesthesia (~90 minutes)"
-      ],
-      disadvantages: [
-        "Less weight loss than surgical options like gastric sleeve",
-        "May require repeat procedures for optimal results",
-        "Not suitable for BMI over 40",
-        "Relatively newer procedure with less long-term data"
-      ],
+      title: t('esgTreatment.title'),
+      desc: t('esgTreatment.desc'),
+      advantages: t('esgTreatment.advantages', { returnObjects: true }) as string[],
+      disadvantages: t('esgTreatment.disadvantages', { returnObjects: true }) as string[],
       ifsoImage: "/esg-procedure.webp"
     }
   ];
 
+  const urlBase = lang ? `/treatments/${lang}` : '/treatments';
+
   return (
     <div className="min-h-screen bg-white">
       <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-primary focus:text-white focus:px-4 focus:py-2 focus:rounded">
-        Skip to main content
+        {t('seo.skipToContent')}
       </a>
       <SEO
         title={seoTitle}
         description={seoDescription}
         keywords="weight loss surgery turkey, bariatric surgery istanbul, gastric sleeve turkey cost, gastric bypass turkey price, gastric balloon turkey, ESG turkey, endoscopic sleeve gastroplasty, duodenal switch turkey, sleeve gastrectomy turkey, bariatric surgery cost turkey 2026, best bariatric surgeon turkey, dr murat ustun, JCI hospital istanbul, all inclusive weight loss surgery, gastric sleeve package turkey, gastric bypass package, weight loss surgery abroad, medical tourism turkey, obesity surgery turkey, metabolic surgery istanbul, cheap gastric sleeve, affordable bariatric surgery, gastric sleeve uk patients, weight loss surgery from uk"
-        url="/treatments"
+        url={urlBase}
       />
       <JsonLd data={structuredData.createBreadcrumb([
         { name: "Home", url: "/" },
-        { name: "Treatments", url: "/treatments" }
+        { name: t('main.title'), url: urlBase }
       ])} />
       <JsonLd data={medicalProceduresSchema} />
       <JsonLd data={structuredData.createFAQ(treatmentsFAQs)} />
@@ -418,7 +318,7 @@ export default function Treatments() {
       <main id="main-content" role="main">
       <section className="relative text-white pt-40 pb-20 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/treatments-hero.webp" alt="Active healthy lifestyle after bariatric surgery" className="w-full h-full object-cover" />
+          <img src="/treatments-hero.webp" alt={t('seo.heroAlt')} className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-slate-900/70" />
         </div>
         <div className="container mx-auto px-4 text-center relative z-10">
@@ -433,20 +333,20 @@ export default function Treatments() {
       <section className="py-16 bg-white" data-testid="section-comparison-table">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4" data-testid="text-comparison-title">Compare All Procedures at a Glance</h2>
-            <p className="text-lg text-slate-600 max-w-2xl mx-auto">Find the right weight loss procedure based on your BMI, budget, and recovery preferences.</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4" data-testid="text-comparison-title">{t('comparison.title')}</h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">{t('comparison.subtitle')}</p>
           </div>
           <div className="overflow-x-auto rounded-2xl border border-slate-200 shadow-lg">
             <table className="w-full text-left min-w-[800px]" data-testid="table-procedure-comparison">
               <thead>
                 <tr className="bg-slate-900 text-white">
-                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">Procedure</th>
-                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">Type</th>
-                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">BMI Range</th>
-                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">Starting Price</th>
-                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">Hospital Stay</th>
-                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">Expected Weight Loss</th>
-                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">Recovery</th>
+                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">{t('comparison.procedure')}</th>
+                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">{t('comparison.type')}</th>
+                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">{t('comparison.bmiRange')}</th>
+                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">{t('comparison.startingPrice')}</th>
+                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">{t('comparison.hospitalStay')}</th>
+                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">{t('comparison.expectedWeightLoss')}</th>
+                  <th className="px-6 py-4 font-semibold text-sm uppercase tracking-wider">{t('comparison.recovery')}</th>
                 </tr>
               </thead>
               <tbody>
@@ -458,7 +358,7 @@ export default function Treatments() {
                   >
                     <td className="px-6 py-5 font-semibold text-slate-900">{row.procedure}</td>
                     <td className="px-6 py-5">
-                      <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold ${row.type === 'Surgical' ? 'bg-blue-100 text-blue-700' : 'bg-emerald-100 text-emerald-700'}`}>
+                      <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold ${row.type === t('comparison.surgical') ? 'bg-blue-100 text-blue-700' : 'bg-emerald-100 text-emerald-700'}`}>
                         {row.type}
                       </span>
                     </td>
@@ -472,7 +372,7 @@ export default function Treatments() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-slate-500 mt-4 text-center">All prices are all-inclusive. All Relaxation and Luxury packages include surgery with <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Dr Murat Ustun</a>. Final pricing confirmed after free consultation.</p>
+          <p className="text-sm text-slate-500 mt-4 text-center">{linkifyDrName(t('comparison.priceNote'))}</p>
         </div>
       </section>
 
@@ -520,7 +420,7 @@ export default function Treatments() {
                     </div>
 
                     <div className="pt-6">
-                      <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`Hi, I'd like to consult about ${treatment.title}`)}`} target="_blank" rel="noopener noreferrer">
+                      <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`${t('whatsapp.consultMessage')} ${treatment.title}`)}`} target="_blank" rel="noopener noreferrer">
                         <Button className="bg-primary hover:bg-primary/90">
                           {t('common.consultFor')} {treatment.title} <ArrowRight className="ml-2 w-4 h-4" />
                         </Button>
@@ -549,7 +449,7 @@ export default function Treatments() {
                         <div className="w-32 h-32 bg-white rounded-full mx-auto mb-6 flex items-center justify-center shadow-sm">
                           <span className="text-4xl">🩺</span>
                         </div>
-                        <p className="text-slate-400 font-medium">Medical Illustration of {treatment.title}</p>
+                        <p className="text-slate-400 font-medium">{treatment.title}</p>
                       </div>
                     )}
                   </div>
@@ -558,8 +458,8 @@ export default function Treatments() {
                 {i === 2 && (
                   <div className="mt-16 bg-slate-50 rounded-3xl p-8 md:p-12">
                     <div className="text-center mb-12">
-                      <h3 className="text-3xl font-bold text-slate-900 mb-4">Gastric Balloon Packages</h3>
-                      <p className="text-slate-600">Choose the right gastric balloon package for your needs</p>
+                      <h3 className="text-3xl font-bold text-slate-900 mb-4">{t('packages.balloonTitle')}</h3>
+                      <p className="text-slate-600">{t('packages.balloonSubtitle')}</p>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
@@ -592,7 +492,7 @@ export default function Treatments() {
                               </ul>
                             </CardContent>
                             <CardFooter className="pt-4 pb-8">
-                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`Hi, I'm interested in the ${pkg.name} package`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
+                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`${t('whatsapp.packageMessage')} ${pkg.name}`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
                                 <Button className={`w-full ${colorStyles.btn} text-white`}>
                                   {t('common.selectPackage')}
                                 </Button>
@@ -608,8 +508,8 @@ export default function Treatments() {
                 {i === 1 && (
                   <div className="mt-16 bg-slate-50 rounded-3xl p-8 md:p-12">
                     <div className="text-center mb-12">
-                      <h3 className="text-3xl font-bold text-slate-900 mb-4">Gastric Bypass Packages</h3>
-                      <p className="text-slate-600">Choose the right gastric bypass package for your needs</p>
+                      <h3 className="text-3xl font-bold text-slate-900 mb-4">{t('packages.bypassTitle')}</h3>
+                      <p className="text-slate-600">{t('packages.bypassSubtitle')}</p>
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-8">
@@ -643,7 +543,7 @@ export default function Treatments() {
                               </ul>
                             </CardContent>
                             <CardFooter className="pt-4 pb-8">
-                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`Hi, I'm interested in the ${pkg.name} package`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
+                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`${t('whatsapp.packageMessage')} ${pkg.name}`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
                                 <Button className={`w-full ${colorStyles.btn} text-white`}>
                                   {t('common.selectPackage')}
                                 </Button>
@@ -659,8 +559,8 @@ export default function Treatments() {
                 {i === 5 && (
                   <div className="mt-16 bg-slate-50 rounded-3xl p-8 md:p-12">
                     <div className="text-center mb-12">
-                      <h3 className="text-3xl font-bold text-slate-900 mb-4">ESG Packages</h3>
-                      <p className="text-slate-600">Choose the right ESG package for your needs</p>
+                      <h3 className="text-3xl font-bold text-slate-900 mb-4">{t('packages.esgTitle')}</h3>
+                      <p className="text-slate-600">{t('packages.esgSubtitle')}</p>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
@@ -693,7 +593,7 @@ export default function Treatments() {
                               </ul>
                             </CardContent>
                             <CardFooter className="pt-4 pb-8">
-                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`Hi, I'm interested in the ${pkg.name} package`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
+                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`${t('whatsapp.packageMessage')} ${pkg.name}`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
                                 <Button className={`w-full ${colorStyles.btn} text-white`}>
                                   {t('common.selectPackage')}
                                 </Button>
@@ -709,8 +609,8 @@ export default function Treatments() {
                 {i === 4 && (
                   <div className="mt-16 bg-slate-50 rounded-3xl p-8 md:p-12">
                     <div className="text-center mb-12">
-                      <h3 className="text-3xl font-bold text-slate-900 mb-4">Duodenal Switch Packages</h3>
-                      <p className="text-slate-600">Choose the right duodenal switch package for your needs</p>
+                      <h3 className="text-3xl font-bold text-slate-900 mb-4">{t('packages.dsTitle')}</h3>
+                      <p className="text-slate-600">{t('packages.dsSubtitle')}</p>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
@@ -743,7 +643,7 @@ export default function Treatments() {
                               </ul>
                             </CardContent>
                             <CardFooter className="pt-4 pb-8">
-                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`Hi, I'm interested in the ${pkg.name} package`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
+                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`${t('whatsapp.packageMessage')} ${pkg.name}`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
                                 <Button className={`w-full ${colorStyles.btn} text-white`}>
                                   {t('common.selectPackage')}
                                 </Button>
@@ -794,7 +694,7 @@ export default function Treatments() {
                               </ul>
                             </CardContent>
                             <CardFooter className="pt-4 pb-8">
-                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`Hi, I'm interested in the ${pkg.name} package`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
+                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`${t('whatsapp.packageMessage')} ${pkg.name}`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
                                 <Button className={`w-full ${colorStyles.btn} text-white`}>
                                   {t('common.selectPackage')}
                                 </Button>
@@ -816,31 +716,31 @@ export default function Treatments() {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h2 className="text-3xl font-bold text-slate-900">Post-Bariatric Plastic Surgery</h2>
+              <h2 className="text-3xl font-bold text-slate-900">{t('postBariatricSection.sectionTitle')}</h2>
               <p className="text-lg text-slate-600 leading-relaxed">
-                After significant weight loss following bariatric surgery, many patients are left with excess, sagging skin. Post-bariatric body contouring surgery removes this excess skin and reshapes the body to help you fully enjoy your transformation.
+                {t('postBariatricSection.desc1')}
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Our procedures include abdominoplasty (tummy tuck), arm lift, thigh lift, body lift, breast lift, and face/neck lift. These surgeries can dramatically improve body contour and eliminate skin irritation.
+                {t('postBariatricSection.desc2')}
               </p>
               <div className="pt-4">
                 <Button 
                   className="bg-primary hover:bg-primary/90"
                   onClick={() => window.location.href = '/post-bariatric-surgery'}
                 >
-                  Learn More About Body Contouring <ArrowRight className="ml-2 w-4 h-4" />
+                  {t('postBariatricSection.learnMore')} <ArrowRight className="ml-2 w-4 h-4" />
                 </Button>
               </div>
             </div>
             <div className="bg-white rounded-2xl p-8 border border-slate-200 shadow-lg">
               <img 
                 src="/post-bariatric-surgery.webp" 
-                alt="Post-bariatric body contouring procedures"
+                alt={t('postBariatricSection.imageAlt')}
                 className="w-full rounded-lg"
                 loading="lazy"
               />
               <p className="text-sm text-slate-500 mt-4 text-center">
-                Body contouring options after weight loss surgery
+                {t('postBariatricSection.imageCaption')}
               </p>
             </div>
           </div>
@@ -850,8 +750,8 @@ export default function Treatments() {
       <section className="py-20 bg-white" id="faqs">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">Frequently Asked Questions About Weight Loss Surgery in Turkey</h2>
-            <p className="text-lg text-slate-600">Everything you need to know about bariatric surgery at Istanbul Bariatric Center</p>
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">{t('faqSection.title')}</h2>
+            <p className="text-lg text-slate-600">{t('faqSection.subtitle')}</p>
           </div>
           <div className="space-y-6">
             {treatmentsFAQs.map((faq, idx) => (
@@ -872,45 +772,45 @@ export default function Treatments() {
       <section className="py-16 bg-slate-900 text-white">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold mb-4">Explore Our Treatment Pages</h2>
-            <p className="text-slate-300">Learn more about each procedure in detail</p>
+            <h2 className="text-3xl font-bold mb-4">{t('treatmentLinks.title')}</h2>
+            <p className="text-slate-300">{t('treatmentLinks.subtitle')}</p>
           </div>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
             <a href="/sleeve-gastrectomy" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
-              <h3 className="font-semibold text-white mb-1">Gastric Sleeve Surgery</h3>
-              <p className="text-sm text-slate-300">From £2,950</p>
+              <h3 className="font-semibold text-white mb-1">{t('treatmentLinks.gastricSleeve')}</h3>
+              <p className="text-sm text-slate-300">{t('treatmentLinks.gastricSleevePrice')}</p>
             </a>
             <a href="/mini-gastric-bypass" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
-              <h3 className="font-semibold text-white mb-1">Mini Gastric Bypass</h3>
-              <p className="text-sm text-slate-300">Specialist procedure</p>
+              <h3 className="font-semibold text-white mb-1">{t('treatmentLinks.miniBypass')}</h3>
+              <p className="text-sm text-slate-300">{t('treatmentLinks.miniBypassDesc')}</p>
             </a>
             <a href="/gastric-balloon" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
-              <h3 className="font-semibold text-white mb-1">Gastric Balloon</h3>
-              <p className="text-sm text-slate-300">From £1,650</p>
+              <h3 className="font-semibold text-white mb-1">{t('treatmentLinks.gastricBalloon')}</h3>
+              <p className="text-sm text-slate-300">{t('treatmentLinks.gastricBalloonPrice')}</p>
             </a>
             <a href="/esg" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
-              <h3 className="font-semibold text-white mb-1">ESG Procedure</h3>
-              <p className="text-sm text-slate-300">From £4,950</p>
+              <h3 className="font-semibold text-white mb-1">{t('treatmentLinks.esg')}</h3>
+              <p className="text-sm text-slate-300">{t('treatmentLinks.esgPrice')}</p>
             </a>
             <a href="/duodenal-switch" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
-              <h3 className="font-semibold text-white mb-1">Duodenal Switch</h3>
-              <p className="text-sm text-slate-300">From £4,400</p>
+              <h3 className="font-semibold text-white mb-1">{t('treatmentLinks.duodenalSwitch')}</h3>
+              <p className="text-sm text-slate-300">{t('treatmentLinks.duodenalSwitchPrice')}</p>
             </a>
             <a href="/transit-bipartition" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
-              <h3 className="font-semibold text-white mb-1">Transit Bipartition</h3>
-              <p className="text-sm text-slate-300">Advanced procedure</p>
+              <h3 className="font-semibold text-white mb-1">{t('treatmentLinks.transitBipartition')}</h3>
+              <p className="text-sm text-slate-300">{t('treatmentLinks.transitBipartitionDesc')}</p>
             </a>
             <a href="/post-bariatric-surgery" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
-              <h3 className="font-semibold text-white mb-1">Post-Bariatric Surgery</h3>
-              <p className="text-sm text-slate-300">Body contouring</p>
+              <h3 className="font-semibold text-white mb-1">{t('treatmentLinks.postBariatric')}</h3>
+              <p className="text-sm text-slate-300">{t('treatmentLinks.postBariatricDesc')}</p>
             </a>
             <a href="/health-profile" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
-              <h3 className="font-semibold text-white mb-1">Am I Eligible?</h3>
-              <p className="text-sm text-slate-300">Free health assessment</p>
+              <h3 className="font-semibold text-white mb-1">{t('treatmentLinks.eligible')}</h3>
+              <p className="text-sm text-slate-300">{t('treatmentLinks.eligibleDesc')}</p>
             </a>
             <a href="/results" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
-              <h3 className="font-semibold text-white mb-1">Patient Results</h3>
-              <p className="text-sm text-slate-300">Success stories</p>
+              <h3 className="font-semibold text-white mb-1">{t('treatmentLinks.results')}</h3>
+              <p className="text-sm text-slate-300">{t('treatmentLinks.resultsDesc')}</p>
             </a>
           </div>
         </div>

@@ -80,6 +80,7 @@ function Router() {
           <Route path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/treatments" component={Treatments} />
+          <Route path="/treatments/:lang">{(params) => <Treatments lang={params.lang} />}</Route>
           <Route path="/results" component={Results} />
           <Route path="/blog" component={Blog} />
           <Route path="/blog/:slug" component={BlogPost} />

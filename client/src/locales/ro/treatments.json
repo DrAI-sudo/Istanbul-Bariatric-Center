@@ -52,9 +52,21 @@
       "Deficit de vitamine: partea îndepărtată a stomacului este parțial responsabilă de absorbția vitaminelor."
     ],
     "packages": {
-      "basic": { "name": "Sleeve Gastric Basic", "price": "£2250", "days": "3" },
-      "relaxation": { "name": "Sleeve Gastric Relaxare", "price": "£3250", "days": "5" },
-      "luxury": { "name": "Sleeve Gastric Lux", "price": "£4000", "days": "7" }
+      "basic": {
+        "name": "Sleeve Gastric Basic",
+        "price": "£2250",
+        "days": "3"
+      },
+      "relaxation": {
+        "name": "Sleeve Gastric Relaxare",
+        "price": "£3250",
+        "days": "5"
+      },
+      "luxury": {
+        "name": "Sleeve Gastric Lux",
+        "price": "£4000",
+        "days": "7"
+      }
     }
   },
   "gastricBypass": {
@@ -171,18 +183,54 @@
     "statMonths": "Luni până la Rezultate",
     "statBest": "Rezultate pe Termen Lung",
     "faqs": [
-      {"question": "Ce este chirurgia Switch Duodenal?", "answer": "Sau cum o numesc unii medici \"Reducere Gastrică cu Switch Duodenal\" este o operație de pierdere în greutate care implică atât aspecte restrictive, cât și malabsorbtive. Partea restrictivă a operației implică tăierea a până la 70% din stomac și o parte din duoden."},
-      {"question": "Este similar cu bypass-ul gastric?", "answer": "Switch-ul duodenal este similar cu bypass-ul gastric în obiective, deoarece reduce cantitatea de mâncare care intră în stomac și reduce cantitatea de calorii absorbite de corp, dar pentru că este mai mult o operație malabsorbtivă, provoacă mai multe efecte secundare decât alte tipuri de operații."},
-      {"question": "Este switch-ul duodenal mai bun decât alte tipuri de chirurgie a obezității?", "answer": "Unii medici sugerează că este mai bun pe termen lung, deoarece în switch-ul duodenal stomacul rămâne mai mare, deci poate găzdui mai multă mâncare în comparație cu alte tipuri de chirurgie a obezității, acest lucru vă va ajuta să aveți o formă corporală mai bună pe termen lung."},
-      {"question": "Poate oricine să aibă operația de switch duodenal? Cum știu dacă sunt candidat?", "answer": "Nu oricine poate avea operația de switch duodenal, doar medicul sau echipa medicală poate decide acest lucru, iar decizia va fi în funcție de IMC-ul dumneavoastră \"Indicele de Masă Corporală\" - dacă este mai mare de 40, puteți avea operația. Desigur, există și alte lucruri de luat în considerare, așa că este foarte important ca medicul dumneavoastră să decidă dacă puteți avea operația sau nu."},
-      {"question": "Cât durează timpul de recuperare pentru chirurgia switch duodenal?", "answer": "Diferă de la un pacient la altul, dar pentru majoritatea pacienților durează între trei și patru săptămâni de recuperare. Chiar dacă operația nu lasă multe cicatrici din exterior, necesită muncă grea din interior."},
-      {"question": "Pot să mă întorc la muncă după timpul de recuperare și să încep să fac exerciții?", "answer": "Este mai bine să luați încă o săptămână departe de stres și activități grele doar pentru a vă asigura că corpul dumneavoastră s-a adaptat la noua situație după operație."},
-      {"question": "Cât timp durează să pierd în greutate după operație?", "answer": "Majoritatea pacienților care au avut operația de switch duodenal își pierd greutatea în primele 12-18 luni. Acesta este motivul pentru care nu toată lumea se simte încurajată să aibă acest tip de chirurgie a obezității."},
-      {"question": "Este posibil să iau în greutate după ce am slăbit?", "answer": "Poate fi dacă vă întoarceți la vechiul stil de viață nesănătos, dar se știe că operația duodenală are cea mai bună pierdere în greutate de lungă durată dintre tipurile de chirurgie a obezității."},
-      {"question": "Trebuie să evit anumite tipuri de alimente după operație?", "answer": "Este greu să menționezi tipuri specifice de alimente pentru că diferă de la un pacient la altul, dar există unele tipuri de alimente de care ar trebui să stați absolut departe, cum ar fi mâncarea grasă, deoarece provoacă diaree. În orice caz, este important să obțineți răspunsurile la această întrebare de la medic după ce vă examinează corpul."},
-      {"question": "Cât de mult voi slăbi după operație?", "answer": "Majoritatea pacienților pierd între 40 și 60% din greutatea lor. Cu toate acestea, trebuie să știți că nimic din toate acestea nu se va întâmpla dacă nu depuneți un efort suplimentar și nu vă schimbați stilul de viață într-unul mai sănătos."},
-      {"question": "Chirurgia switch duodenal previne sarcina? Sau are efecte negative asupra corpurilor însărcinate?", "answer": "Operația nu va preveni sarcina. Cu toate acestea, în primele 18 luni sugerăm ca o femeie să nu experimenteze sarcina, deoarece în această perioadă va pierde în greutate și acest lucru ar putea afecta negativ corpul ei. În orice caz, operațiile de pierdere în greutate ajută femeile să aibă o experiență de sarcină mai sănătoasă (după pierderea maximă în greutate)."},
-      {"question": "Chirurgia switch duodenal costă mai mult decât alte operații de obezitate?", "answer": "Costă puțin mai mult decât alte tipuri de chirurgie a obezității pentru că necesită mai multă muncă și efort din partea echipei medicale și a chirurgilor."}
+      {
+        "question": "Ce este chirurgia Switch Duodenal?",
+        "answer": "Sau cum o numesc unii medici \"Reducere Gastrică cu Switch Duodenal\" este o operație de pierdere în greutate care implică atât aspecte restrictive, cât și malabsorbtive. Partea restrictivă a operației implică tăierea a până la 70% din stomac și o parte din duoden."
+      },
+      {
+        "question": "Este similar cu bypass-ul gastric?",
+        "answer": "Switch-ul duodenal este similar cu bypass-ul gastric în obiective, deoarece reduce cantitatea de mâncare care intră în stomac și reduce cantitatea de calorii absorbite de corp, dar pentru că este mai mult o operație malabsorbtivă, provoacă mai multe efecte secundare decât alte tipuri de operații."
+      },
+      {
+        "question": "Este switch-ul duodenal mai bun decât alte tipuri de chirurgie a obezității?",
+        "answer": "Unii medici sugerează că este mai bun pe termen lung, deoarece în switch-ul duodenal stomacul rămâne mai mare, deci poate găzdui mai multă mâncare în comparație cu alte tipuri de chirurgie a obezității, acest lucru vă va ajuta să aveți o formă corporală mai bună pe termen lung."
+      },
+      {
+        "question": "Poate oricine să aibă operația de switch duodenal? Cum știu dacă sunt candidat?",
+        "answer": "Nu oricine poate avea operația de switch duodenal, doar medicul sau echipa medicală poate decide acest lucru, iar decizia va fi în funcție de IMC-ul dumneavoastră \"Indicele de Masă Corporală\" - dacă este mai mare de 40, puteți avea operația. Desigur, există și alte lucruri de luat în considerare, așa că este foarte important ca medicul dumneavoastră să decidă dacă puteți avea operația sau nu."
+      },
+      {
+        "question": "Cât durează timpul de recuperare pentru chirurgia switch duodenal?",
+        "answer": "Diferă de la un pacient la altul, dar pentru majoritatea pacienților durează între trei și patru săptămâni de recuperare. Chiar dacă operația nu lasă multe cicatrici din exterior, necesită muncă grea din interior."
+      },
+      {
+        "question": "Pot să mă întorc la muncă după timpul de recuperare și să încep să fac exerciții?",
+        "answer": "Este mai bine să luați încă o săptămână departe de stres și activități grele doar pentru a vă asigura că corpul dumneavoastră s-a adaptat la noua situație după operație."
+      },
+      {
+        "question": "Cât timp durează să pierd în greutate după operație?",
+        "answer": "Majoritatea pacienților care au avut operația de switch duodenal își pierd greutatea în primele 12-18 luni. Acesta este motivul pentru care nu toată lumea se simte încurajată să aibă acest tip de chirurgie a obezității."
+      },
+      {
+        "question": "Este posibil să iau în greutate după ce am slăbit?",
+        "answer": "Poate fi dacă vă întoarceți la vechiul stil de viață nesănătos, dar se știe că operația duodenală are cea mai bună pierdere în greutate de lungă durată dintre tipurile de chirurgie a obezității."
+      },
+      {
+        "question": "Trebuie să evit anumite tipuri de alimente după operație?",
+        "answer": "Este greu să menționezi tipuri specifice de alimente pentru că diferă de la un pacient la altul, dar există unele tipuri de alimente de care ar trebui să stați absolut departe, cum ar fi mâncarea grasă, deoarece provoacă diaree. În orice caz, este important să obțineți răspunsurile la această întrebare de la medic după ce vă examinează corpul."
+      },
+      {
+        "question": "Cât de mult voi slăbi după operație?",
+        "answer": "Majoritatea pacienților pierd între 40 și 60% din greutatea lor. Cu toate acestea, trebuie să știți că nimic din toate acestea nu se va întâmpla dacă nu depuneți un efort suplimentar și nu vă schimbați stilul de viață într-unul mai sănătos."
+      },
+      {
+        "question": "Chirurgia switch duodenal previne sarcina? Sau are efecte negative asupra corpurilor însărcinate?",
+        "answer": "Operația nu va preveni sarcina. Cu toate acestea, în primele 18 luni sugerăm ca o femeie să nu experimenteze sarcina, deoarece în această perioadă va pierde în greutate și acest lucru ar putea afecta negativ corpul ei. În orice caz, operațiile de pierdere în greutate ajută femeile să aibă o experiență de sarcină mai sănătoasă (după pierderea maximă în greutate)."
+      },
+      {
+        "question": "Chirurgia switch duodenal costă mai mult decât alte operații de obezitate?",
+        "answer": "Costă puțin mai mult decât alte tipuri de chirurgie a obezității pentru că necesită mai multă muncă și efort din partea echipei medicale și a chirurgilor."
+      }
     ],
     "diabetesTitle": "Switch Duodenal pentru Diabet",
     "diabetesP1": "Chirurgia switch duodenal este deosebit de eficientă pentru pacienții cu diabet de tip 2. Procedura nu doar că ajută la o pierdere semnificativă în greutate, dar s-a demonstrat că îmbunătățește sau chiar rezolvă diabetul la mulți pacienți.",
@@ -208,5 +256,283 @@
     "heroTitle": "Conturarea Corpului Post-Bariatric Istanbul, Turcia",
     "heroSubtitle": "Finalizați-vă călătoria de pierdere în greutate cu proceduri de conturare a corpului concepute pentru a elimina pielea în exces după o pierdere semnificativă în greutate.",
     "desc": "După o pierdere majoră în greutate, mulți pacienți rămân cu piele în exces. Chirurgia post-bariatrică ajută la remodelarea și conturarea corpului."
+  },
+  "comparison": {
+    "title": "Compară toate procedurile pe scurt",
+    "subtitle": "Găsește procedura de pierdere în greutate potrivită în funcție de IMC-ul tău, buget și preferințele de recuperare.",
+    "procedure": "Procedură",
+    "type": "Tip",
+    "bmiRange": "Interval IMC",
+    "startingPrice": "Preț de început",
+    "hospitalStay": "Séjour în spital",
+    "expectedWeightLoss": "Pierderea în greutate așteptată",
+    "recovery": "Recuperare",
+    "surgical": "Chirurgical",
+    "nonSurgical": "Non-chirurgical",
+    "priceNote": "Toate prețurile sunt all-inclusive. Toate pachetele de Relaxare și Lux includ intervenția chirurgicală cu Dr Murat Ustun. Prețul final este confirmat după consultația gratuită.",
+    "gastricSleeve": "Sleeve Gastric",
+    "gastricBypass": "Bypass Gastric",
+    "gastricBalloon": "Balon Gastric",
+    "esg": "ESG",
+    "duodenalSwitch": "Switch Duodenal",
+    "bmi35plus": "35+",
+    "bmi40plus": "40+ (sau 35+ cu comorbidități)",
+    "bmi30to40": "30–40",
+    "bmi50plus": "50+ (sau 40+ cu comorbidități)",
+    "stay2to3": "2–3 zile",
+    "staySameDay": "În aceeași zi",
+    "stay1to2": "1–2 zile",
+    "stay3to4": "3–4 zile",
+    "loss60to70": "60–70% din greutatea excesivă",
+    "loss70to80": "70–80% din greutatea excesivă",
+    "loss10to15": "10–15% din greutatea corporală totală",
+    "loss15to20": "15–20% din greutatea corporală totală",
+    "loss70to85": "70–85% din greutatea excesivă",
+    "recovery2to3weeks": "2–3 săptămâni",
+    "recovery1to3days": "1–3 zile",
+    "recovery3to4weeks": "3–4 săptămâni"
+  },
+  "packages": {
+    "sleeveBasic": {
+      "name": "Sleeve Gastrectomy Basic",
+      "features": [
+        "Echipă chirurgicală experimentată",
+        "Spital acreditat JCI (2 zile)",
+        "Toate testele și consultațiile preoperatorii",
+        "Transfer VIP de la aeroport",
+        "Suport din partea dieteticianului"
+      ]
+    },
+    "sleeveRelaxation": {
+      "name": "Sleeve Gastrectomy Relaxation",
+      "features": [
+        "Intervenție chirurgicală cu Dr Murat Ustun",
+        "Spital acreditat JCI (3 zile)",
+        "Toate testele și consultațiile preoperatorii",
+        "Transfer VIP de la aeroport",
+        "Suport din partea dieteticianului înregistrat în Marea Britanie"
+      ]
+    },
+    "sleeveLuxury": {
+      "name": "Sleeve Gastrectomy Luxury",
+      "features": [
+        "Intervenție chirurgicală cu Dr Murat Ustun",
+        "Spital acreditat JCI (3 zile)",
+        "Toate testele și consultațiile preoperatorii",
+        "Transfer VIP de la aeroport",
+        "3 nopți de cazare la hotel Radisson",
+        "Suport din partea dieteticianului înregistrat în Marea Britanie",
+        "1 lună de suplimente",
+        "Suport local în Marea Britanie în 8 locații"
+      ]
+    },
+    "bypassBasic": {
+      "name": "Gastric Bypass Basic",
+      "features": [
+        "Echipă chirurgicală experimentată",
+        "Spital acreditat JCI (2 zile)",
+        "Toate testele și consultațiile preoperatorii",
+        "Transfer VIP de la aeroport",
+        "Suport din partea dieteticianului"
+      ]
+    },
+    "bypassRelaxation": {
+      "name": "Gastric Bypass Relaxation",
+      "features": [
+        "Intervenție chirurgicală cu Dr Murat Ustun",
+        "Spital acreditat JCI (3 zile)",
+        "Toate testele și consultațiile preoperatorii",
+        "Transfer VIP de la aeroport",
+        "Suport din partea dieteticianului înregistrat în Marea Britanie"
+      ]
+    },
+    "bypassLuxury": {
+      "name": "Gastric Bypass Luxury",
+      "features": [
+        "Intervenție chirurgicală cu Dr Murat Ustun",
+        "Spital acreditat JCI (3 zile)",
+        "Toate testele și consultațiile preoperatorii",
+        "Transfer VIP de la aeroport",
+        "3 nopți de cazare la hotel Radisson",
+        "Suport din partea dieteticianului înregistrat în Marea Britanie",
+        "1 lună de suplimente",
+        "Suport local în Marea Britanie în 8 locații"
+      ]
+    },
+    "balloonOrbera": {
+      "name": "Balon Orbera Endoscopic",
+      "features": [
+        "Transferuri de la aeroport",
+        "Teste preoperatorii cuprinzătoare",
+        "Endoscopie",
+        "Anestezie",
+        "2 nopți de cazare",
+        "Suport din partea dieteticianului"
+      ]
+    },
+    "balloonAllurion": {
+      "name": "Balon Allurion Înghițibil",
+      "features": [
+        "Transferuri de la aeroport",
+        "Teste preoperatorii cuprinzătoare",
+        "Endoscopie",
+        "Anestezie",
+        "1 noapte de cazare",
+        "Suport din partea dieteticianului"
+      ]
+    },
+    "esgRelaxation": {
+      "name": "ESG Relaxation",
+      "features": [
+        "Spital modern Liv",
+        "Procedură cu Dr Murat Ustun (Pionier al ESG în Turcia)",
+        "Transferuri VIP de la aeroport",
+        "Toate testele și consultațiile preoperatorii",
+        "Costuri OR și spital",
+        "2 zile de internare în cameră privată"
+      ]
+    },
+    "esgLuxury": {
+      "name": "ESG Luxury",
+      "features": [
+        "Spital modern Liv",
+        "Procedură cu Dr Murat Ustun (Pionier al ESG în Turcia)",
+        "Transferuri VIP de la aeroport",
+        "Toate testele și consultațiile preoperatorii",
+        "Costuri OR și spital",
+        "2 zile de internare în cameră privată",
+        "2 zile de cazare la hotel Radisson",
+        "4 întâlniri cu dietetician înregistrat în Marea Britanie",
+        "1 lună de suplimente și pachet de multivitamine"
+      ]
+    },
+    "dsRelaxation": {
+      "name": "Duodenal Switch Relaxation",
+      "features": [
+        "Intervenție chirurgicală cu Dr Murat Ustun",
+        "Spital acreditat JCI (3 zile)",
+        "Toate testele și consultațiile preoperatorii",
+        "Transfer VIP de la aeroport",
+        "Suport din partea dieteticianului înregistrat în Marea Britanie"
+      ]
+    },
+    "dsLuxury": {
+      "name": "Duodenal Switch Luxury",
+      "features": [
+        "Intervenție chirurgicală cu Dr Murat Ustun",
+        "Spital acreditat JCI (3 zile)",
+        "Toate testele și consultațiile preoperatorii",
+        "Transfer VIP de la aeroport",
+        "3 nopți de cazare la hotel Radisson",
+        "Suport din partea dieteticianului înregistrat în Marea Britanie",
+        "1 lună de suplimente",
+        "Suport local în Marea Britanie în 8 locații"
+      ]
+    },
+    "bypassTitle": "Pachete Bypass Gastric",
+    "bypassSubtitle": "Alege pachetul de bypass gastric potrivit pentru nevoile tale",
+    "balloonTitle": "Pachete Balon Gastric",
+    "balloonSubtitle": "Alege pachetul de balon gastric potrivit pentru nevoile tale",
+    "esgTitle": "Pachete ESG",
+    "esgSubtitle": "Alege pachetul ESG potrivit pentru nevoile tale",
+    "dsTitle": "Pachete Switch Duodenal",
+    "dsSubtitle": "Alege pachetul de switch duodenal potrivit pentru nevoile tale"
+  },
+  "esgTreatment": {
+    "title": "Gastroplastia Endoscopic Sleeve (ESG)",
+    "desc": "ESG este o procedură minim invazivă, non-chirurgicală de pierdere în greutate care reduce dimensiunea stomacului cu până la 70-80% folosind un dispozitiv de sutură endoscopic introdus prin gură. Nu sunt necesare incizii, ceea ce o face ideală pentru pacienții cu IMC 30-40 care preferă o abordare non-chirurgicală.",
+    "advantages": [
+      "Non-chirurgical — fără incizii sau cicatrici",
+      "Timp de recuperare mai scurt (revenire la activitățile normale în 1-3 zile)",
+      "Riscuri de complicații mai mici comparativ cu intervențiile chirurgicale",
+      "Procedură reversibilă",
+      "Pierderea în greutate totală așteptată de 15-20%",
+      "Externare în aceeași zi sau a doua zi",
+      "Executată sub anestezie generală (~90 de minute)"
+    ],
+    "disadvantages": [
+      "Pierderea în greutate mai mică decât opțiunile chirurgicale precum sleeve gastric",
+      "Poate necesita proceduri repetate pentru rezultate optime",
+      "Nu este potrivită pentru IMC peste 40",
+      "Procedură relativ nouă cu date pe termen lung mai puține"
+    ]
+  },
+  "postBariatricSection": {
+    "sectionTitle": "Chirurgie plastică post-bariatrică",
+    "desc1": "După o pierdere semnificativă în greutate în urma intervenției chirurgicale bariatrice, mulți pacienți rămân cu piele excesivă și lăsată. Chirurgia de conturare a corpului post-bariatric îndepărtează această piele excesivă și remodela corpul pentru a te ajuta să te bucuri pe deplin de transformarea ta.",
+    "desc2": "Procedurile noastre includ abdominoplastie (tummy tuck), lifting de brațe, lifting de coapse, lifting de corp, lifting de sâni și lifting de față/gât. Aceste intervenții chirurgicale pot îmbunătăți dramatic conturul corpului și pot elimina iritația pielii.",
+    "learnMore": "Află mai multe despre conturarea corpului",
+    "imageAlt": "Proceduri de conturare a corpului post-bariatric",
+    "imageCaption": "Opțiuni de conturare a corpului după intervenția chirurgicală de pierdere în greutate"
+  },
+  "faqSection": {
+    "title": "Întrebări frecvente despre intervenția chirurgicală de pierdere în greutate în Turcia",
+    "subtitle": "Tot ce trebuie să știi despre chirurgia bariatrică la Istanbul Bariatric Center",
+    "faqs": [
+      {
+        "question": "Cât costă intervenția chirurgicală de pierdere în greutate în Istanbul?",
+        "answer": "Pachetele all-inclusive la Istanbul Bariatric Center încep de la £1,650 pentru un balon gastric, £2,950 pentru sleeve gastric, £3,350 pentru bypass gastric și £4,950 pentru ESG. Fiecare pachet acoperă șederea ta la spital acreditat JCI, testele preoperatorii, transferurile VIP de la aeroport și urmărirea din partea dieteticianului."
+      },
+      {
+        "question": "Care procedură bariatrică este potrivită pentru mine?",
+        "answer": "Cea mai bună procedură depinde de IMC-ul tău, istoricul medical și obiectivele de pierdere în greutate. Sleeve gastric se potrivește IMC-ului 35+, bypass gastric este recomandat pentru IMC 40+ sau pacienți cu condiții metabolice, balon gastric este o opțiune non-chirurgicală pentru IMC 30–40, iar ESG oferă o abordare minim invazivă pentru IMC 30–40."
+      },
+      {
+        "question": "Este intervenția chirurgicală bariatrică la Istanbul Bariatric Center sigură?",
+        "answer": "Absolut. Toate procedurile sunt efectuate la Spitalul Liv acreditat JCI din Istanbul de chirurgi instruiți internațional. Dr Murat Ustun, fondatorul centrului și chirurgul principal, a efectuat mii de operații de succes cu rezultate de siguranță remarcabile."
+      },
+      {
+        "question": "Ce este inclus în fiecare pachet chirurgical?",
+        "answer": "Fiecare pachet include internarea la un spital acreditat JCI, teste preoperatorii complete, taxe pentru chirurg și anestezie, transfer VIP de la aeroport și suport din partea dieteticianului. Nivelurile de Relaxare și Lux adaugă Dr Murat Ustun ca chirurg operator, șederi prelungite în spital, cazare la hotel Radisson, urmărire din partea dieteticianului înregistrat în Marea Britanie și pachete de suplimente."
+      },
+      {
+        "question": "Cât de mult pot să mă aștept să pierd în greutate?",
+        "answer": "Rezultatele variază în funcție de procedură: pacienții cu sleeve gastric pierd de obicei 60–70% din greutatea excesivă, bypass gastric 70–80%, balon gastric 10–15% din greutatea corporală totală, iar ESG 15–20% din greutatea corporală totală — toate în primele 12–18 luni."
+      },
+      {
+        "question": "Care este cronologia recuperării?",
+        "answer": "Pacienții cu sleeve gastric și bypass rămân 2–3 zile în spital și revin la activitățile zilnice în termen de 2–3 săptămâni. Balonul gastric este o procedură în aceeași zi, iar pacienții ESG pot relua activitățile normale în termen de 1–3 zile."
+      },
+      {
+        "question": "Primești îngrijire postoperatorie odată ce te întorci acasă?",
+        "answer": "Da. Fiecare pacient primește un plan structurat de îngrijire postoperatorie, inclusiv îndrumare din partea dieteticianului, consultații de urmărire și acces la echipa noastră de suport pentru pacienți din Marea Britanie care operează din 8 locații din întreaga Regat Unit."
+      },
+      {
+        "question": "Cine este Dr Murat Ustun?",
+        "answer": "Dr Murat Ustun este fondatorul și chirurgul principal bariatric la Istanbul Bariatric Center. Un pionier al ESG (Gastroplastia Endoscopic Sleeve) în Turcia, el a efectuat mii de proceduri de pierdere în greutate — inclusiv sleeve gastric, bypass gastric și switch duodenal — la Spitalul Liv din Istanbul."
+      }
+    ]
+  },
+  "treatmentLinks": {
+    "title": "Explorează paginile noastre de tratament",
+    "subtitle": "Află mai multe despre fiecare procedură în detaliu",
+    "gastricSleeve": "Chirurgie Sleeve Gastric",
+    "gastricSleevePrice": "De la £2,950",
+    "miniBypass": "Mini Bypass Gastric",
+    "miniBypassDesc": "Procedură specializată",
+    "gastricBalloon": "Balon Gastric",
+    "gastricBalloonPrice": "De la £1,650",
+    "esg": "Procedura ESG",
+    "esgPrice": "De la £4,950",
+    "duodenalSwitch": "Switch Duodenal",
+    "duodenalSwitchPrice": "De la £4,400",
+    "transitBipartition": "Bipartition de Transit",
+    "transitBipartitionDesc": "Procedură avansată",
+    "postBariatric": "Chirurgie Post-Bariatrică",
+    "postBariatricDesc": "Conturarea corpului",
+    "eligible": "Sunt eu eligibil?",
+    "eligibleDesc": "Evaluare gratuită a sănătății",
+    "results": "Rezultatele pacienților",
+    "resultsDesc": "Povești de succes"
+  },
+  "whatsapp": {
+    "consultMessage": "Bună, aș dori să consult despre",
+    "packageMessage": "Bună, sunt interesat de"
+  },
+  "seo": {
+    "title": "Chirurgie de pierdere în greutate în Istanbul 2026 — Sleeve Gastric, Bypass, Balon & ESG | Pachete All-Inclusive",
+    "description": "Compară procedurile bariatrice: Sleeve Gastric de la £2,950, Bypass £3,350, Balon £1,650, ESG £4,950. Dr Murat Ustun la Spitalul Liv acreditat JCI.",
+    "heroAlt": "Stil de viață activ și sănătos după intervenția chirurgicală bariatrică",
+    "skipToContent": "Sari la conținutul principal"
   }
 }

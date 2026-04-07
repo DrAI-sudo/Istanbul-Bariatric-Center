@@ -24,6 +24,284 @@
     "sleevePackageTitle": "Sleeve Gastrectomy Package Options",
     "sleevePackageDesc": "In Istanbul Bariatric Center, you are free to choose any of the treatment packages that fits your budget."
   },
+  "comparison": {
+    "title": "Compare All Procedures at a Glance",
+    "subtitle": "Find the right weight loss procedure based on your BMI, budget, and recovery preferences.",
+    "procedure": "Procedure",
+    "type": "Type",
+    "bmiRange": "BMI Range",
+    "startingPrice": "Starting Price",
+    "hospitalStay": "Hospital Stay",
+    "expectedWeightLoss": "Expected Weight Loss",
+    "recovery": "Recovery",
+    "surgical": "Surgical",
+    "nonSurgical": "Non-surgical",
+    "priceNote": "All prices are all-inclusive. All Relaxation and Luxury packages include surgery with Dr Murat Ustun. Final pricing confirmed after free consultation.",
+    "gastricSleeve": "Gastric Sleeve",
+    "gastricBypass": "Gastric Bypass",
+    "gastricBalloon": "Gastric Balloon",
+    "esg": "ESG",
+    "duodenalSwitch": "Duodenal Switch",
+    "bmi35plus": "35+",
+    "bmi40plus": "40+ (or 35+ with comorbidities)",
+    "bmi30to40": "30–40",
+    "bmi50plus": "50+ (or 40+ with comorbidities)",
+    "stay2to3": "2–3 days",
+    "staySameDay": "Same day",
+    "stay1to2": "1–2 days",
+    "stay3to4": "3–4 days",
+    "loss60to70": "60–70% excess weight",
+    "loss70to80": "70–80% excess weight",
+    "loss10to15": "10–15% total body weight",
+    "loss15to20": "15–20% total body weight",
+    "loss70to85": "70–85% excess weight",
+    "recovery2to3weeks": "2–3 weeks",
+    "recovery1to3days": "1–3 days",
+    "recovery3to4weeks": "3–4 weeks"
+  },
+  "packages": {
+    "sleeveBasic": {
+      "name": "Sleeve Gastrectomy Basic",
+      "features": [
+        "Experienced surgical team",
+        "JCI-accredited hospital (2 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "Dietitian support"
+      ]
+    },
+    "sleeveRelaxation": {
+      "name": "Sleeve Gastrectomy Relaxation",
+      "features": [
+        "Surgery with Dr Murat Ustun",
+        "JCI-accredited hospital (3 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "UK-registered dietitian support"
+      ]
+    },
+    "sleeveLuxury": {
+      "name": "Sleeve Gastrectomy Luxury",
+      "features": [
+        "Surgery with Dr Murat Ustun",
+        "JCI-accredited hospital (3 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "3 nights of Radisson hotel accommodation",
+        "UK registered dietitian support",
+        "1 month of supplements",
+        "Local UK care support in 8 locations"
+      ]
+    },
+    "bypassBasic": {
+      "name": "Gastric Bypass Basic",
+      "features": [
+        "Experienced surgical team",
+        "JCI-accredited hospital (2 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "Dietitian support"
+      ]
+    },
+    "bypassRelaxation": {
+      "name": "Gastric Bypass Relaxation",
+      "features": [
+        "Surgery with Dr Murat Ustun",
+        "JCI-accredited hospital (3 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "UK-registered dietitian support"
+      ]
+    },
+    "bypassLuxury": {
+      "name": "Gastric Bypass Luxury",
+      "features": [
+        "Surgery with Dr Murat Ustun",
+        "JCI-accredited hospital (3 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "3 nights of Radisson hotel accommodation",
+        "UK registered dietitian support",
+        "1 month of supplements",
+        "Local UK care support in 8 locations"
+      ]
+    },
+    "balloonOrbera": {
+      "name": "Endoscopic Orbera Balloon",
+      "features": [
+        "Airport Transfers",
+        "Comprehensive Preop Tests",
+        "Endoscopy",
+        "Anesthesia",
+        "2 nights of accommodation",
+        "Dietitian Support"
+      ]
+    },
+    "balloonAllurion": {
+      "name": "Allurion Swallowable Balloon",
+      "features": [
+        "Airport Transfers",
+        "Comprehensive Preop Tests",
+        "Endoscopy",
+        "Anesthesia",
+        "1 night of accommodation",
+        "Dietitian Support"
+      ]
+    },
+    "esgRelaxation": {
+      "name": "ESG Relaxation",
+      "features": [
+        "State-of-the-art Liv hospital",
+        "Procedure with Dr Murat Ustun (Pioneer of ESG in Turkey)",
+        "VIP Airport Transfers",
+        "All pre-operative tests and consultations",
+        "OR and hospital costs",
+        "2 days of admission in private room"
+      ]
+    },
+    "esgLuxury": {
+      "name": "ESG Luxury",
+      "features": [
+        "State-of-the-art Liv hospital",
+        "Procedure with Dr Murat Ustun (Pioneer of ESG in Turkey)",
+        "VIP Airport Transfers",
+        "All pre-operative tests and consultations",
+        "OR and hospital costs",
+        "2 days of admission in private room",
+        "2 days of accommodation in Radisson Hotel",
+        "4 UK registered dietitian appointments",
+        "1 month supplement and multivitamin package"
+      ]
+    },
+    "dsRelaxation": {
+      "name": "Duodenal Switch Relaxation",
+      "features": [
+        "Surgery with Dr Murat Ustun",
+        "JCI-accredited hospital (3 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "UK-registered dietitian support"
+      ]
+    },
+    "dsLuxury": {
+      "name": "Duodenal Switch Luxury",
+      "features": [
+        "Surgery with Dr Murat Ustun",
+        "JCI-accredited hospital (3 days)",
+        "All pre-operative tests and consultations",
+        "VIP airport transfer",
+        "3 nights of Radisson hotel accommodation",
+        "UK registered dietitian support",
+        "1 month of supplements",
+        "Local UK care support in 8 locations"
+      ]
+    },
+    "bypassTitle": "Gastric Bypass Packages",
+    "bypassSubtitle": "Choose the right gastric bypass package for your needs",
+    "balloonTitle": "Gastric Balloon Packages",
+    "balloonSubtitle": "Choose the right gastric balloon package for your needs",
+    "esgTitle": "ESG Packages",
+    "esgSubtitle": "Choose the right ESG package for your needs",
+    "dsTitle": "Duodenal Switch Packages",
+    "dsSubtitle": "Choose the right duodenal switch package for your needs"
+  },
+  "esgTreatment": {
+    "title": "Endoscopic Sleeve Gastroplasty (ESG)",
+    "desc": "ESG is a minimally invasive, non-surgical weight loss procedure that reduces the size of your stomach by up to 70-80% using an endoscopic suturing device inserted through the mouth. No incisions are required, making it ideal for patients with BMI 30-40 who prefer a non-surgical approach.",
+    "advantages": [
+      "Non-surgical — no incisions or scars",
+      "Shorter recovery time (return to normal activities in 1-3 days)",
+      "Lower complication risk compared to surgery",
+      "Reversible procedure",
+      "15-20% total body weight loss expected",
+      "Same-day or next-day discharge",
+      "Performed under general anesthesia (~90 minutes)"
+    ],
+    "disadvantages": [
+      "Less weight loss than surgical options like gastric sleeve",
+      "May require repeat procedures for optimal results",
+      "Not suitable for BMI over 40",
+      "Relatively newer procedure with less long-term data"
+    ]
+  },
+  "postBariatricSection": {
+    "sectionTitle": "Post-Bariatric Plastic Surgery",
+    "desc1": "After significant weight loss following bariatric surgery, many patients are left with excess, sagging skin. Post-bariatric body contouring surgery removes this excess skin and reshapes the body to help you fully enjoy your transformation.",
+    "desc2": "Our procedures include abdominoplasty (tummy tuck), arm lift, thigh lift, body lift, breast lift, and face/neck lift. These surgeries can dramatically improve body contour and eliminate skin irritation.",
+    "learnMore": "Learn More About Body Contouring",
+    "imageAlt": "Post-bariatric body contouring procedures",
+    "imageCaption": "Body contouring options after weight loss surgery"
+  },
+  "faqSection": {
+    "title": "Frequently Asked Questions About Weight Loss Surgery in Turkey",
+    "subtitle": "Everything you need to know about bariatric surgery at Istanbul Bariatric Center",
+    "faqs": [
+      {
+        "question": "How much does weight loss surgery cost in Istanbul?",
+        "answer": "All-inclusive packages at Istanbul Bariatric Center start from £1,650 for a gastric balloon, £2,950 for gastric sleeve, £3,350 for gastric bypass, and £4,950 for ESG. Every package covers your JCI-accredited hospital stay, pre-operative tests, VIP airport transfers, and dietitian follow-up."
+      },
+      {
+        "question": "Which bariatric procedure is right for me?",
+        "answer": "The best procedure depends on your BMI, medical history, and weight-loss goals. Gastric sleeve suits BMI 35+, gastric bypass is recommended for BMI 40+ or patients with metabolic conditions, gastric balloon is a non-surgical option for BMI 30–40, and ESG offers a minimally invasive approach for BMI 30–40."
+      },
+      {
+        "question": "Is bariatric surgery at Istanbul Bariatric Center safe?",
+        "answer": "Absolutely. All procedures are performed at JCI-accredited Liv Hospital in Istanbul by internationally trained surgeons. Dr Murat Ustun, the centre's founder and lead surgeon, has performed thousands of successful operations with outstanding safety outcomes."
+      },
+      {
+        "question": "What is included in each surgery package?",
+        "answer": "Every package includes admission to a JCI-accredited hospital, full pre-operative testing, surgeon and anaesthesia fees, VIP airport transfer, and dietitian support. Relaxation and Luxury tiers add Dr Murat Ustun as your operating surgeon, extended hospital stays, Radisson hotel accommodation, UK-registered dietitian follow-up, and supplement packages."
+      },
+      {
+        "question": "How much weight can I expect to lose?",
+        "answer": "Results vary by procedure: gastric sleeve patients typically lose 60–70% of excess weight, gastric bypass 70–80%, gastric balloon 10–15% of total body weight, and ESG 15–20% of total body weight — all within the first 12–18 months."
+      },
+      {
+        "question": "What is the recovery timeline?",
+        "answer": "Gastric sleeve and bypass patients stay 2–3 days in hospital and return to daily activities within 2–3 weeks. Gastric balloon is a same-day procedure, and ESG patients can resume normal activities within 1–3 days."
+      },
+      {
+        "question": "Do I receive aftercare once I return home?",
+        "answer": "Yes. Every patient receives a structured aftercare plan including dietitian guidance, follow-up consultations, and access to our UK-based patient-support team operating from 8 locations across the United Kingdom."
+      },
+      {
+        "question": "Who is Dr Murat Ustun?",
+        "answer": "Dr Murat Ustun is the founder and lead bariatric surgeon at Istanbul Bariatric Center. A pioneer of ESG (Endoscopic Sleeve Gastroplasty) in Turkey, he has performed thousands of weight-loss procedures — including gastric sleeve, gastric bypass, and duodenal switch — at Liv Hospital in Istanbul."
+      }
+    ]
+  },
+  "treatmentLinks": {
+    "title": "Explore Our Treatment Pages",
+    "subtitle": "Learn more about each procedure in detail",
+    "gastricSleeve": "Gastric Sleeve Surgery",
+    "gastricSleevePrice": "From £2,950",
+    "miniBypass": "Mini Gastric Bypass",
+    "miniBypassDesc": "Specialist procedure",
+    "gastricBalloon": "Gastric Balloon",
+    "gastricBalloonPrice": "From £1,650",
+    "esg": "ESG Procedure",
+    "esgPrice": "From £4,950",
+    "duodenalSwitch": "Duodenal Switch",
+    "duodenalSwitchPrice": "From £4,400",
+    "transitBipartition": "Transit Bipartition",
+    "transitBipartitionDesc": "Advanced procedure",
+    "postBariatric": "Post-Bariatric Surgery",
+    "postBariatricDesc": "Body contouring",
+    "eligible": "Am I Eligible?",
+    "eligibleDesc": "Free health assessment",
+    "results": "Patient Results",
+    "resultsDesc": "Success stories"
+  },
+  "whatsapp": {
+    "consultMessage": "Hi, I'd like to consult about",
+    "packageMessage": "Hi, I'm interested in the"
+  },
+  "seo": {
+    "title": "Weight Loss Surgery in Istanbul 2026 — Gastric Sleeve, Bypass, Balloon & ESG | All-Inclusive Packages",
+    "description": "Compare bariatric procedures: Gastric Sleeve from £2,950, Bypass £3,350, Balloon £1,650, ESG £4,950. Dr Murat Ustun at JCI-accredited Liv Hospital.",
+    "heroAlt": "Active healthy lifestyle after bariatric surgery",
+    "skipToContent": "Skip to main content"
+  },
   "gastricSleeve": {
     "title": "Gastric Sleeve Surgery",
     "heroTitle": "Sleeve Gastrectomy Istanbul, Turkey",

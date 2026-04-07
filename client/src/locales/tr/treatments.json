@@ -52,9 +52,21 @@
       "Vitamin eksikliği: çıkarılan mide kısmı kısmen vitamin emiliminden sorumludur."
     ],
     "packages": {
-      "basic": { "name": "Tüp Mide Temel", "price": "£2250", "days": "3" },
-      "relaxation": { "name": "Tüp Mide Rahatlama", "price": "£3250", "days": "5" },
-      "luxury": { "name": "Tüp Mide Lüks", "price": "£4000", "days": "7" }
+      "basic": {
+        "name": "Tüp Mide Temel",
+        "price": "£2250",
+        "days": "3"
+      },
+      "relaxation": {
+        "name": "Tüp Mide Rahatlama",
+        "price": "£3250",
+        "days": "5"
+      },
+      "luxury": {
+        "name": "Tüp Mide Lüks",
+        "price": "£4000",
+        "days": "7"
+      }
     }
   },
   "gastricBypass": {
@@ -171,18 +183,54 @@
     "statMonths": "Sonuçlara Kadar Ay",
     "statBest": "Uzun Vadeli Sonuçlar",
     "faqs": [
-      {"question": "Duodenal Switch ameliyatı nedir?", "answer": "Veya bazı doktorların \"Gastrik Redüksiyon Duodenal Switch\" olarak adlandırdığı bu ameliyat, hem kısıtlayıcı hem de malabsorptif yönleri içeren bir kilo verme ameliyatıdır. Ameliyatın kısıtlayıcı kısmı, midenin %70'ine kadar ve duodenumun bir kısmının kesilmesini içerir."},
-      {"question": "Mide bypass'ına benzer mi?", "answer": "Duodenal switch, mideye giren yiyecek miktarını azalttığı ve vücudunuz tarafından emilen kalori miktarını düşürdüğü için hedefleri açısından mide bypass'ına benzer, ancak daha çok malabsorptif bir operasyon olduğu için diğer ameliyat türlerinden daha fazla yan etkiye neden olur."},
-      {"question": "Duodenal switch diğer obezite ameliyatı türlerinden daha mı iyi?", "answer": "Bazı doktorlar, duodenal switch'te mide daha büyük kaldığı için diğer obezite ameliyatı türlerine kıyasla daha fazla yiyecek barındırabileceğinden uzun vadede daha iyi olduğunu öne sürüyor, bu da uzun vadede daha iyi bir vücut şekline sahip olmanıza yardımcı olacaktır."},
-      {"question": "Herkes duodenal switch ameliyatı olabilir mi? Aday olup olmadığımı nasıl anlarım?", "answer": "Herkes duodenal switch ameliyatı olamaz, buna sadece doktor veya tıbbi ekip karar verebilir ve karar VKİ'nize \"Vücut Kitle İndeksi\" göre verilecektir - 40'ın üzerindeyse ameliyat olabilirsiniz. Elbette dikkate alınması gereken başka şeyler de var, bu nedenle doktorunuzun ameliyat olup olamayacağınıza karar vermesi çok önemlidir."},
-      {"question": "Duodenal switch ameliyatı için iyileşme süresi ne kadardır?", "answer": "Hastadan hastaya farklılık gösterir ancak çoğu hasta için üç ila dört hafta arasında iyileşme gerektirir. Ameliyat dışarıdan çok fazla iz bırakmasa da içeriden ciddi çalışma gerektirir."},
-      {"question": "İyileşme süresinden sonra işe dönebilir ve egzersiz yapmaya başlayabilir miyim?", "answer": "Vücudunuzun ameliyattan sonraki yeni duruma uyum sağladığından emin olmak için stres ve yoğun aktivitelerden bir hafta daha uzak durmak daha iyidir."},
-      {"question": "Ameliyattan sonra kilo vermem ne kadar sürer?", "answer": "Duodenal switch ameliyatı olan hastaların çoğu ilk 12 ila 18 ay içinde kilolarını verir. Bu nedenle herkes bu tür obezite ameliyatı olmak için cesaretlenmiş hissetmez."},
-      {"question": "Kilo verdikten sonra tekrar kilo almam mümkün mü?", "answer": "Eski sağlıksız yaşam tarzına dönerseniz olabilir, ancak duodenal ameliyatın obezite ameliyatı türleri arasında en iyi kalıcı kilo kaybına sahip olduğu bilinmektedir."},
-      {"question": "Ameliyattan sonra belirli yiyeceklerden kaçınmam gerekiyor mu?", "answer": "Hastadan hastaya farklılık gösterdiği için belirli yiyecek türlerini söylemek zordur, ancak ishale neden olduğu için yağlı yiyecekler gibi kesinlikle uzak durmanız gereken bazı yiyecek türleri vardır. Her durumda, bu sorunun cevaplarını doktor vücudunuzu muayene ettikten sonra ondan almanız önemlidir."},
-      {"question": "Ameliyattan sonra ne kadar kilo vereceğim?", "answer": "Hastaların çoğu kilolarının %40 ila %60'ını kaybeder. Ancak, ekstra çaba göstermez ve yaşam tarzınızı daha sağlıklı bir hale dönüştürmezseniz bunların hiçbirinin olmayacağını bilmelisiniz."},
-      {"question": "Duodenal switch ameliyatı hamileliği önler mi? Veya hamile vücutlar üzerinde olumsuz etkileri var mı?", "answer": "Ameliyat hamileliği önlemeyecektir. Ancak, ilk 18 ay boyunca bir kadının hamile kalmamasını öneriyoruz çünkü bu süre zarfında kilo verecek ve bu vücudunu olumsuz etkileyebilir. Her durumda, kilo verme ameliyatları kadınların daha sağlıklı bir hamilelik deneyimi yaşamasına yardımcı olur (maksimum kilo kaybından sonra)."},
-      {"question": "Duodenal switch ameliyatı diğer obezite ameliyatlarından daha mı pahalı?", "answer": "Tıbbi ekip ve cerrahlardan daha fazla çalışma ve çaba gerektirdiği için diğer obezite ameliyatı türlerinden biraz daha pahalıdır."}
+      {
+        "question": "Duodenal Switch ameliyatı nedir?",
+        "answer": "Veya bazı doktorların \"Gastrik Redüksiyon Duodenal Switch\" olarak adlandırdığı bu ameliyat, hem kısıtlayıcı hem de malabsorptif yönleri içeren bir kilo verme ameliyatıdır. Ameliyatın kısıtlayıcı kısmı, midenin %70'ine kadar ve duodenumun bir kısmının kesilmesini içerir."
+      },
+      {
+        "question": "Mide bypass'ına benzer mi?",
+        "answer": "Duodenal switch, mideye giren yiyecek miktarını azalttığı ve vücudunuz tarafından emilen kalori miktarını düşürdüğü için hedefleri açısından mide bypass'ına benzer, ancak daha çok malabsorptif bir operasyon olduğu için diğer ameliyat türlerinden daha fazla yan etkiye neden olur."
+      },
+      {
+        "question": "Duodenal switch diğer obezite ameliyatı türlerinden daha mı iyi?",
+        "answer": "Bazı doktorlar, duodenal switch'te mide daha büyük kaldığı için diğer obezite ameliyatı türlerine kıyasla daha fazla yiyecek barındırabileceğinden uzun vadede daha iyi olduğunu öne sürüyor, bu da uzun vadede daha iyi bir vücut şekline sahip olmanıza yardımcı olacaktır."
+      },
+      {
+        "question": "Herkes duodenal switch ameliyatı olabilir mi? Aday olup olmadığımı nasıl anlarım?",
+        "answer": "Herkes duodenal switch ameliyatı olamaz, buna sadece doktor veya tıbbi ekip karar verebilir ve karar VKİ'nize \"Vücut Kitle İndeksi\" göre verilecektir - 40'ın üzerindeyse ameliyat olabilirsiniz. Elbette dikkate alınması gereken başka şeyler de var, bu nedenle doktorunuzun ameliyat olup olamayacağınıza karar vermesi çok önemlidir."
+      },
+      {
+        "question": "Duodenal switch ameliyatı için iyileşme süresi ne kadardır?",
+        "answer": "Hastadan hastaya farklılık gösterir ancak çoğu hasta için üç ila dört hafta arasında iyileşme gerektirir. Ameliyat dışarıdan çok fazla iz bırakmasa da içeriden ciddi çalışma gerektirir."
+      },
+      {
+        "question": "İyileşme süresinden sonra işe dönebilir ve egzersiz yapmaya başlayabilir miyim?",
+        "answer": "Vücudunuzun ameliyattan sonraki yeni duruma uyum sağladığından emin olmak için stres ve yoğun aktivitelerden bir hafta daha uzak durmak daha iyidir."
+      },
+      {
+        "question": "Ameliyattan sonra kilo vermem ne kadar sürer?",
+        "answer": "Duodenal switch ameliyatı olan hastaların çoğu ilk 12 ila 18 ay içinde kilolarını verir. Bu nedenle herkes bu tür obezite ameliyatı olmak için cesaretlenmiş hissetmez."
+      },
+      {
+        "question": "Kilo verdikten sonra tekrar kilo almam mümkün mü?",
+        "answer": "Eski sağlıksız yaşam tarzına dönerseniz olabilir, ancak duodenal ameliyatın obezite ameliyatı türleri arasında en iyi kalıcı kilo kaybına sahip olduğu bilinmektedir."
+      },
+      {
+        "question": "Ameliyattan sonra belirli yiyeceklerden kaçınmam gerekiyor mu?",
+        "answer": "Hastadan hastaya farklılık gösterdiği için belirli yiyecek türlerini söylemek zordur, ancak ishale neden olduğu için yağlı yiyecekler gibi kesinlikle uzak durmanız gereken bazı yiyecek türleri vardır. Her durumda, bu sorunun cevaplarını doktor vücudunuzu muayene ettikten sonra ondan almanız önemlidir."
+      },
+      {
+        "question": "Ameliyattan sonra ne kadar kilo vereceğim?",
+        "answer": "Hastaların çoğu kilolarının %40 ila %60'ını kaybeder. Ancak, ekstra çaba göstermez ve yaşam tarzınızı daha sağlıklı bir hale dönüştürmezseniz bunların hiçbirinin olmayacağını bilmelisiniz."
+      },
+      {
+        "question": "Duodenal switch ameliyatı hamileliği önler mi? Veya hamile vücutlar üzerinde olumsuz etkileri var mı?",
+        "answer": "Ameliyat hamileliği önlemeyecektir. Ancak, ilk 18 ay boyunca bir kadının hamile kalmamasını öneriyoruz çünkü bu süre zarfında kilo verecek ve bu vücudunu olumsuz etkileyebilir. Her durumda, kilo verme ameliyatları kadınların daha sağlıklı bir hamilelik deneyimi yaşamasına yardımcı olur (maksimum kilo kaybından sonra)."
+      },
+      {
+        "question": "Duodenal switch ameliyatı diğer obezite ameliyatlarından daha mı pahalı?",
+        "answer": "Tıbbi ekip ve cerrahlardan daha fazla çalışma ve çaba gerektirdiği için diğer obezite ameliyatı türlerinden biraz daha pahalıdır."
+      }
     ],
     "diabetesTitle": "Diyabet için Duodenal Switch",
     "diabetesP1": "Duodenal switch ameliyatı, tip 2 diyabeti olan hastalar için özellikle etkilidir. Prosedür yalnızca önemli kilo kaybına yardımcı olmakla kalmaz, aynı zamanda birçok hastada diyabeti iyileştirdiği veya hatta çözdüğü gösterilmiştir.",
@@ -208,5 +256,283 @@
     "heroTitle": "Bariatrik Sonrası Vücut Şekillendirme İstanbul, Türkiye",
     "heroSubtitle": "Önemli kilo kaybından sonra fazla deriyi çıkarmak için tasarlanmış vücut şekillendirme prosedürleri ile kilo verme yolculuğunuzu tamamlayın.",
     "desc": "Büyük kilo kaybından sonra birçok hasta fazla deri ile kalır. Bariatrik sonrası cerrahi vücudu yeniden şekillendirmeye ve konturlamaya yardımcı olur."
+  },
+  "comparison": {
+    "title": "Tüm İşlemleri Kısa Bir Bakışla Karşılaştırın",
+    "subtitle": "BMI, bütçeniz ve iyileşme tercihlerinize göre doğru kilo verme prosedürünü bulun.",
+    "procedure": "Prosedür",
+    "type": "Tür",
+    "bmiRange": "BMI Aralığı",
+    "startingPrice": "Başlangıç Fiyatı",
+    "hospitalStay": "Hastane Yatışı",
+    "expectedWeightLoss": "Beklenen Kilo Kaybı",
+    "recovery": "İyileşme",
+    "surgical": "Cerrahi",
+    "nonSurgical": "Cerrahi Olmayan",
+    "priceNote": "Tüm fiyatlar her şey dahil. Tüm Rahatlama ve Lüks paketleri, Dr Murat Ustun ile cerrahiyi içermektedir. Nihai fiyatlandırma, ücretsiz danışmanlık sonrası onaylanacaktır.",
+    "gastricSleeve": "Mide Kelepçesi",
+    "gastricBypass": "Mide Baypası",
+    "gastricBalloon": "Mide Balonu",
+    "esg": "ESG",
+    "duodenalSwitch": "Duodenal Switch",
+    "bmi35plus": "35+",
+    "bmi40plus": "40+ (veya 35+ komorbiditelerle)",
+    "bmi30to40": "30–40",
+    "bmi50plus": "50+ (veya 40+ komorbiditelerle)",
+    "stay2to3": "2–3 gün",
+    "staySameDay": "Aynı gün",
+    "stay1to2": "1–2 gün",
+    "stay3to4": "3–4 gün",
+    "loss60to70": "%60–70 fazla kilo kaybı",
+    "loss70to80": "%70–80 fazla kilo kaybı",
+    "loss10to15": "%10–15 toplam vücut ağırlığı kaybı",
+    "loss15to20": "%15–20 toplam vücut ağırlığı kaybı",
+    "loss70to85": "%70–85 fazla kilo kaybı",
+    "recovery2to3weeks": "2–3 hafta",
+    "recovery1to3days": "1–3 gün",
+    "recovery3to4weeks": "3–4 hafta"
+  },
+  "packages": {
+    "sleeveBasic": {
+      "name": "Mide Kelepçesi Temel",
+      "features": [
+        "Deneyimli cerrahi ekip",
+        "JCI akredite hastane (2 gün)",
+        "Tüm önceden operasyon testleri ve danışmanlıklar",
+        "VIP havaalanı transferi",
+        "Diyetisyen desteği"
+      ]
+    },
+    "sleeveRelaxation": {
+      "name": "Mide Kelepçesi Rahatlama",
+      "features": [
+        "Dr Murat Ustun ile cerrahi",
+        "JCI akredite hastane (3 gün)",
+        "Tüm önceden operasyon testleri ve danışmanlıklar",
+        "VIP havaalanı transferi",
+        "UK kayıtlı diyetisyen desteği"
+      ]
+    },
+    "sleeveLuxury": {
+      "name": "Mide Kelepçesi Lüks",
+      "features": [
+        "Dr Murat Ustun ile cerrahi",
+        "JCI akredite hastane (3 gün)",
+        "Tüm önceden operasyon testleri ve danışmanlıklar",
+        "VIP havaalanı transferi",
+        "3 gece Radisson otel konaklaması",
+        "UK kayıtlı diyetisyen desteği",
+        "1 ay takviye",
+        "8 lokasyonda yerel UK bakım desteği"
+      ]
+    },
+    "bypassBasic": {
+      "name": "Mide Baypası Temel",
+      "features": [
+        "Deneyimli cerrahi ekip",
+        "JCI akredite hastane (2 gün)",
+        "Tüm önceden operasyon testleri ve danışmanlıklar",
+        "VIP havaalanı transferi",
+        "Diyetisyen desteği"
+      ]
+    },
+    "bypassRelaxation": {
+      "name": "Mide Baypası Rahatlama",
+      "features": [
+        "Dr Murat Ustun ile cerrahi",
+        "JCI akredite hastane (3 gün)",
+        "Tüm önceden operasyon testleri ve danışmanlıklar",
+        "VIP havaalanı transferi",
+        "UK kayıtlı diyetisyen desteği"
+      ]
+    },
+    "bypassLuxury": {
+      "name": "Mide Baypası Lüks",
+      "features": [
+        "Dr Murat Ustun ile cerrahi",
+        "JCI akredite hastane (3 gün)",
+        "Tüm önceden operasyon testleri ve danışmanlıklar",
+        "VIP havaalanı transferi",
+        "3 gece Radisson otel konaklaması",
+        "UK kayıtlı diyetisyen desteği",
+        "1 ay takviye",
+        "8 lokasyonda yerel UK bakım desteği"
+      ]
+    },
+    "balloonOrbera": {
+      "name": "Endoskopik Orbera Balonu",
+      "features": [
+        "Havaalanı Transferleri",
+        "Kapsamlı Ön Testler",
+        "Endoskopi",
+        "Anestezi",
+        "2 gece konaklama",
+        "Diyetisyen Desteği"
+      ]
+    },
+    "balloonAllurion": {
+      "name": "Allurion Yutulabilir Balon",
+      "features": [
+        "Havaalanı Transferleri",
+        "Kapsamlı Ön Testler",
+        "Endoskopi",
+        "Anestezi",
+        "1 gece konaklama",
+        "Diyetisyen Desteği"
+      ]
+    },
+    "esgRelaxation": {
+      "name": "ESG Rahatlama",
+      "features": [
+        "Son teknoloji Liv hastanesi",
+        "Dr Murat Ustun ile prosedür (Türkiye'de ESG'nin öncüsü)",
+        "VIP Havaalanı Transferleri",
+        "Tüm önceden operasyon testleri ve danışmanlıklar",
+        "OR ve hastane maliyetleri",
+        "Özel odada 2 gün kabul"
+      ]
+    },
+    "esgLuxury": {
+      "name": "ESG Lüks",
+      "features": [
+        "Son teknoloji Liv hastanesi",
+        "Dr Murat Ustun ile prosedür (Türkiye'de ESG'nin öncüsü)",
+        "VIP Havaalanı Transferleri",
+        "Tüm önceden operasyon testleri ve danışmanlıklar",
+        "OR ve hastane maliyetleri",
+        "Özel odada 2 gün kabul",
+        "Radisson Otel'de 2 gün konaklama",
+        "4 UK kayıtlı diyetisyen randevusu",
+        "1 ay takviye ve multivitamin paketi"
+      ]
+    },
+    "dsRelaxation": {
+      "name": "Duodenal Switch Rahatlama",
+      "features": [
+        "Dr Murat Ustun ile cerrahi",
+        "JCI akredite hastane (3 gün)",
+        "Tüm önceden operasyon testleri ve danışmanlıklar",
+        "VIP havaalanı transferi",
+        "UK kayıtlı diyetisyen desteği"
+      ]
+    },
+    "dsLuxury": {
+      "name": "Duodenal Switch Lüks",
+      "features": [
+        "Dr Murat Ustun ile cerrahi",
+        "JCI akredite hastane (3 gün)",
+        "Tüm önceden operasyon testleri ve danışmanlıklar",
+        "VIP havaalanı transferi",
+        "3 gece Radisson otel konaklaması",
+        "UK kayıtlı diyetisyen desteği",
+        "1 ay takviye",
+        "8 lokasyonda yerel UK bakım desteği"
+      ]
+    },
+    "bypassTitle": "Mide Baypası Paketleri",
+    "bypassSubtitle": "İhtiyaçlarınıza uygun mide baypası paketini seçin",
+    "balloonTitle": "Mide Balonu Paketleri",
+    "balloonSubtitle": "İhtiyaçlarınıza uygun mide balonu paketini seçin",
+    "esgTitle": "ESG Paketleri",
+    "esgSubtitle": "İhtiyaçlarınıza uygun ESG paketini seçin",
+    "dsTitle": "Duodenal Switch Paketleri",
+    "dsSubtitle": "İhtiyaçlarınıza uygun duodenal switch paketini seçin"
+  },
+  "esgTreatment": {
+    "title": "Endoskopik Mide Gastroplasti (ESG)",
+    "desc": "ESG, midenizin boyutunu ağızdan yerleştirilen bir endoskopik dikiş cihazı kullanarak %70-80 oranında azaltan minimal invaziv, cerrahi olmayan bir kilo verme prosedürüdür. Kesik gerektirmediği için, cerrahi olmayan bir yaklaşımı tercih eden BMI 30-40 olan hastalar için idealdir.",
+    "advantages": [
+      "Cerrahi olmayan — kesik veya iz yok",
+      "Daha kısa iyileşme süresi (1-3 gün içinde normal aktivitelere dönüş)",
+      "Cerrahiden daha düşük komplikasyon riski",
+      "Geri dönüşümlü prosedür",
+      "%15-20 toplam vücut ağırlığı kaybı bekleniyor",
+      "Aynı gün veya ertesi gün taburcu",
+      "Genel anestezi altında yapılır (~90 dakika)"
+    ],
+    "disadvantages": [
+      "Mide kelepçesi gibi cerrahi seçeneklerden daha az kilo kaybı",
+      "Optimal sonuçlar için tekrar prosedürler gerekebilir",
+      "BMI 40'ın üzerindekiler için uygun değil",
+      "Görece daha yeni bir prosedür, daha az uzun vadeli veriye sahip"
+    ]
+  },
+  "postBariatricSection": {
+    "sectionTitle": "Post-Bariyatrik Plastik Cerrahi",
+    "desc1": "Bariyatrik cerrahiden sonra önemli kilo kaybı yaşayan birçok hasta, fazla, sarkan ciltle baş başa kalır. Post-bariyatrik vücut şekillendirme cerrahisi, bu fazla cildi çıkarır ve vücudu yeniden şekillendirerek dönüşümünüzden tam anlamıyla keyif almanıza yardımcı olur.",
+    "desc2": "Prosedürlerimiz arasında abdominoplasti (karın germe), kol kaldırma, uyluk kaldırma, vücut kaldırma, meme kaldırma ve yüz/şahne kaldırma bulunmaktadır. Bu cerrahiler, vücut konturunu dramatik şekilde iyileştirebilir ve cilt tahrişini ortadan kaldırabilir.",
+    "learnMore": "Vücut Şekillendirme Hakkında Daha Fazla Bilgi Edinin",
+    "imageAlt": "Post-bariyatrik vücut şekillendirme prosedürleri",
+    "imageCaption": "Kilo verme cerrahisi sonrası vücut şekillendirme seçenekleri"
+  },
+  "faqSection": {
+    "title": "Türkiye'de Kilo Verme Cerrahisi Hakkında Sıkça Sorulan Sorular",
+    "subtitle": "İstanbul Bariyatrik Merkezi'nde bariyatrik cerrahi hakkında bilmeniz gereken her şey",
+    "faqs": [
+      {
+        "question": "İstanbul'da kilo verme cerrahisi ne kadar?",
+        "answer": "İstanbul Bariyatrik Merkezi'nde her şey dahil paketler, mide balonu için £1,650, mide kelepçesi için £2,950, mide baypası için £3,350 ve ESG için £4,950'den başlamaktadır. Her paket, JCI akredite hastane yatışınızı, önceden operasyon testlerini, VIP havaalanı transferlerini ve diyetisyen takibini kapsamaktadır."
+      },
+      {
+        "question": "Hangi bariyatrik prosedür benim için uygun?",
+        "answer": "En iyi prosedür, BMI'nize, tıbbi geçmişinize ve kilo verme hedeflerinize bağlıdır. Mide kelepçesi, BMI 35+ için uygundur, mide baypası BMI 40+ veya metabolik hastalığı olan hastalar için önerilir, mide balonu BMI 30–40 için cerrahi olmayan bir seçenektir ve ESG, BMI 30–40 için minimal invaziv bir yaklaşım sunar."
+      },
+      {
+        "question": "İstanbul Bariyatrik Merkezi'nde bariyatrik cerrahi güvenli mi?",
+        "answer": "Kesinlikle. Tüm prosedürler, İstanbul'daki JCI akredite Liv Hastanesi'nde uluslararası eğitim almış cerrahlar tarafından gerçekleştirilmektedir. Merkezin kurucusu ve baş cerrahı Dr Murat Ustun, olağanüstü güvenlik sonuçları ile binlerce başarılı operasyon gerçekleştirmiştir."
+      },
+      {
+        "question": "Her cerrahi paket neyi içerir?",
+        "answer": "Her paket, JCI akredite bir hastaneye kabul, tam önceden operasyon testi, cerrah ve anestezi ücretleri, VIP havaalanı transferi ve diyetisyen desteği içerir. Rahatlama ve Lüks katmanları, Dr Murat Ustun'u cerrahınız olarak ekler, hastane yatış sürelerini uzatır, Radisson otel konaklaması, UK kayıtlı diyetisyen takibi ve takviye paketleri ekler."
+      },
+      {
+        "question": "Ne kadar kilo kaybetmeyi bekleyebilirim?",
+        "answer": "Sonuçlar prosedüre göre değişir: mide kelepçesi hastaları genellikle fazla kilolarının %60–70'ini, mide baypası %70–80'ini, mide balonu toplam vücut ağırlığının %10–15'ini ve ESG toplam vücut ağırlığının %15–20'sini kaybeder — tüm bunlar ilk 12–18 ay içinde."
+      },
+      {
+        "question": "İyileşme süreci nedir?",
+        "answer": "Mide kelepçesi ve baypası hastaları hastanede 2–3 gün kalır ve 2–3 hafta içinde günlük aktivitelere döner. Mide balonu aynı gün yapılan bir prosedürdür ve ESG hastaları 1–3 gün içinde normal aktivitelere dönebilir."
+      },
+      {
+        "question": "Eve döndüğümde bakım alacak mıyım?",
+        "answer": "Evet. Her hasta, diyetisyen rehberliği, takip danışmanlıkları ve Birleşik Krallık'ta 8 lokasyondan faaliyet gösteren hasta destek ekibimize erişim dahil olmak üzere yapılandırılmış bir bakım planı alır."
+      },
+      {
+        "question": "Dr Murat Ustun kimdir?",
+        "answer": "Dr Murat Ustun, İstanbul Bariyatrik Merkezi'nin kurucusu ve baş bariyatrik cerrahıdır. Türkiye'de ESG (Endoskopik Mide Gastroplasti) öncüsü olan Dr Ustun, Liv Hastanesi'nde binlerce kilo verme prosedürü — mide kelepçesi, mide baypası ve duodenal switch dahil — gerçekleştirmiştir."
+      }
+    ]
+  },
+  "treatmentLinks": {
+    "title": "Tedavi Sayfalarımızı Keşfedin",
+    "subtitle": "Her prosedür hakkında daha fazla bilgi edinin",
+    "gastricSleeve": "Mide Kelepçesi Cerrahisi",
+    "gastricSleevePrice": "£2,950'dan itibaren",
+    "miniBypass": "Mini Mide Baypası",
+    "miniBypassDesc": "Uzman prosedür",
+    "gastricBalloon": "Mide Balonu",
+    "gastricBalloonPrice": "£1,650'dan itibaren",
+    "esg": "ESG Prosedürü",
+    "esgPrice": "£4,950'dan itibaren",
+    "duodenalSwitch": "Duodenal Switch",
+    "duodenalSwitchPrice": "£4,400'dan itibaren",
+    "transitBipartition": "Transit Bipartisyon",
+    "transitBipartitionDesc": "Gelişmiş prosedür",
+    "postBariatric": "Post-Bariyatrik Cerrahi",
+    "postBariatricDesc": "Vücut şekillendirme",
+    "eligible": "Uygun muyum?",
+    "eligibleDesc": "Ücretsiz sağlık değerlendirmesi",
+    "results": "Hasta Sonuçları",
+    "resultsDesc": "Başarı hikayeleri"
+  },
+  "whatsapp": {
+    "consultMessage": "Merhaba, hakkında danışmak istiyorum",
+    "packageMessage": "Merhaba, ilgileniyorum"
+  },
+  "seo": {
+    "title": "İstanbul'da Kilo Verme Cerrahisi 2026 — Mide Kelepçesi, Baypas, Balon & ESG | Her Şey Dahil Paketler",
+    "description": "Bariyatrik prosedürleri karşılaştırın: Mide Kelepçesi £2,950'dan, Baypas £3,350, Balon £1,650, ESG £4,950. Dr Murat Ustun, JCI akredite Liv Hastanesi'nde.",
+    "heroAlt": "Bariyatrik cerrahiden sonra aktif sağlıklı yaşam tarzı",
+    "skipToContent": "Ana içeriğe atla"
   }
 }

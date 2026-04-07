@@ -52,9 +52,21 @@
       "Carenza di vitamine: la parte rimossa dello stomaco è parzialmente responsabile dell'assorbimento delle vitamine."
     ],
     "packages": {
-      "basic": { "name": "Sleeve Gastrico Base", "price": "£2250", "days": "3" },
-      "relaxation": { "name": "Sleeve Gastrico Relax", "price": "£3250", "days": "5" },
-      "luxury": { "name": "Sleeve Gastrico Lusso", "price": "£4000", "days": "7" }
+      "basic": {
+        "name": "Sleeve Gastrico Base",
+        "price": "£2250",
+        "days": "3"
+      },
+      "relaxation": {
+        "name": "Sleeve Gastrico Relax",
+        "price": "£3250",
+        "days": "5"
+      },
+      "luxury": {
+        "name": "Sleeve Gastrico Lusso",
+        "price": "£4000",
+        "days": "7"
+      }
     }
   },
   "gastricBypass": {
@@ -171,18 +183,54 @@
     "statMonths": "Mesi per i Risultati",
     "statBest": "Risultati a Lungo Termine",
     "faqs": [
-      {"question": "Cos'è la chirurgia dello Switch Duodenale?", "answer": "O come alcuni medici la chiamano \"Riduzione Gastrica con Switch Duodenale\" è un intervento per la perdita di peso che coinvolge aspetti sia restrittivi che malassorbitivi. La parte restrittiva dell'intervento prevede il taglio fino al 70% dello stomaco e parte del duodeno."},
-      {"question": "È simile al bypass gastrico?", "answer": "Lo switch duodenale è simile al bypass gastrico negli obiettivi perché riduce la quantità di cibo che entra nello stomaco e riduce la quantità di calorie assorbite dal corpo, ma poiché è più un'operazione malassorbitiva, causa più effetti collaterali rispetto ad altri tipi di interventi."},
-      {"question": "Lo switch duodenale è migliore di altri tipi di chirurgia dell'obesità?", "answer": "Alcuni medici suggeriscono che sia migliore a lungo termine perché nello switch duodenale lo stomaco rimane più grande, quindi può ospitare più cibo rispetto ad altri tipi di chirurgia dell'obesità, questo ti aiuterà ad avere una migliore forma corporea a lungo termine."},
-      {"question": "Tutti possono sottoporsi alla chirurgia dello switch duodenale? Come faccio a sapere se sono un candidato?", "answer": "Non tutti possono sottoporsi alla chirurgia dello switch duodenale, solo il medico o l'équipe medica può decidere e la decisione sarà in base al tuo BMI \"Indice di Massa Corporea\" - se è superiore a 40, puoi sottoporti all'intervento. Naturalmente, ci sono altre cose da considerare, quindi è molto importante che il tuo medico decida se puoi sottoporti all'intervento o meno."},
-      {"question": "Quanto dura il tempo di recupero per la chirurgia dello switch duodenale?", "answer": "Varia da paziente a paziente ma per la maggior parte dei pazienti sono necessarie tra le tre e le quattro settimane di recupero. Anche se l'intervento non lascia molte cicatrici esternamente, richiede un duro lavoro dall'interno."},
-      {"question": "Posso tornare al lavoro dopo il tempo di recupero e iniziare a fare esercizio?", "answer": "È meglio prendersi un'altra settimana lontano dallo stress e dalle attività intense solo per assicurarsi che il corpo si sia adattato alla nuova situazione dopo l'intervento."},
-      {"question": "Quanto tempo ci vuole per perdere peso dopo l'intervento?", "answer": "La maggior parte dei pazienti che hanno subito la chirurgia dello switch duodenale perde peso durante i primi 12-18 mesi. Questo è il motivo per cui non tutti si sentono incoraggiati ad avere questo tipo di chirurgia dell'obesità."},
-      {"question": "È possibile che riprenda peso dopo averlo perso?", "answer": "Può succedere se si torna al vecchio stile di vita poco salutare, ma è noto che la chirurgia duodenale ha la migliore perdita di peso duratura tra i tipi di chirurgia dell'obesità."},
-      {"question": "Devo evitare certi tipi di cibo dopo l'intervento?", "answer": "È difficile menzionare tipi specifici di cibo perché varia da paziente a paziente, ma ci sono alcuni tipi di cibo da cui dovresti assolutamente stare lontano come i cibi grassi perché causano diarrea. In ogni caso, è importante ottenere le risposte a questa domanda dal medico dopo che avrà esaminato il tuo corpo."},
-      {"question": "Quanto peso perderò dopo l'intervento?", "answer": "La maggior parte dei pazienti perde tra il 40 e il 60% del proprio peso. Tuttavia, devi sapere che nulla di tutto ciò accadrà se non fai uno sforzo extra e non cambi il tuo stile di vita in uno più sano."},
-      {"question": "La chirurgia dello switch duodenale impedisce la gravidanza? O ha effetti negativi sui corpi in gravidanza?", "answer": "L'intervento non impedirà la gravidanza. Tuttavia, durante i primi 18 mesi suggeriamo che una donna non rimanga incinta perché durante questo periodo perderà peso e questo potrebbe influire negativamente sul suo corpo. In ogni caso, gli interventi per la perdita di peso aiutano le donne ad avere un'esperienza di gravidanza più sana (dopo la massima perdita di peso)."},
-      {"question": "La chirurgia dello switch duodenale costa più di altre chirurgie dell'obesità?", "answer": "Costa un po' di più rispetto ad altri tipi di chirurgia dell'obesità perché richiede più lavoro e sforzo da parte dell'équipe medica e dei chirurghi."}
+      {
+        "question": "Cos'è la chirurgia dello Switch Duodenale?",
+        "answer": "O come alcuni medici la chiamano \"Riduzione Gastrica con Switch Duodenale\" è un intervento per la perdita di peso che coinvolge aspetti sia restrittivi che malassorbitivi. La parte restrittiva dell'intervento prevede il taglio fino al 70% dello stomaco e parte del duodeno."
+      },
+      {
+        "question": "È simile al bypass gastrico?",
+        "answer": "Lo switch duodenale è simile al bypass gastrico negli obiettivi perché riduce la quantità di cibo che entra nello stomaco e riduce la quantità di calorie assorbite dal corpo, ma poiché è più un'operazione malassorbitiva, causa più effetti collaterali rispetto ad altri tipi di interventi."
+      },
+      {
+        "question": "Lo switch duodenale è migliore di altri tipi di chirurgia dell'obesità?",
+        "answer": "Alcuni medici suggeriscono che sia migliore a lungo termine perché nello switch duodenale lo stomaco rimane più grande, quindi può ospitare più cibo rispetto ad altri tipi di chirurgia dell'obesità, questo ti aiuterà ad avere una migliore forma corporea a lungo termine."
+      },
+      {
+        "question": "Tutti possono sottoporsi alla chirurgia dello switch duodenale? Come faccio a sapere se sono un candidato?",
+        "answer": "Non tutti possono sottoporsi alla chirurgia dello switch duodenale, solo il medico o l'équipe medica può decidere e la decisione sarà in base al tuo BMI \"Indice di Massa Corporea\" - se è superiore a 40, puoi sottoporti all'intervento. Naturalmente, ci sono altre cose da considerare, quindi è molto importante che il tuo medico decida se puoi sottoporti all'intervento o meno."
+      },
+      {
+        "question": "Quanto dura il tempo di recupero per la chirurgia dello switch duodenale?",
+        "answer": "Varia da paziente a paziente ma per la maggior parte dei pazienti sono necessarie tra le tre e le quattro settimane di recupero. Anche se l'intervento non lascia molte cicatrici esternamente, richiede un duro lavoro dall'interno."
+      },
+      {
+        "question": "Posso tornare al lavoro dopo il tempo di recupero e iniziare a fare esercizio?",
+        "answer": "È meglio prendersi un'altra settimana lontano dallo stress e dalle attività intense solo per assicurarsi che il corpo si sia adattato alla nuova situazione dopo l'intervento."
+      },
+      {
+        "question": "Quanto tempo ci vuole per perdere peso dopo l'intervento?",
+        "answer": "La maggior parte dei pazienti che hanno subito la chirurgia dello switch duodenale perde peso durante i primi 12-18 mesi. Questo è il motivo per cui non tutti si sentono incoraggiati ad avere questo tipo di chirurgia dell'obesità."
+      },
+      {
+        "question": "È possibile che riprenda peso dopo averlo perso?",
+        "answer": "Può succedere se si torna al vecchio stile di vita poco salutare, ma è noto che la chirurgia duodenale ha la migliore perdita di peso duratura tra i tipi di chirurgia dell'obesità."
+      },
+      {
+        "question": "Devo evitare certi tipi di cibo dopo l'intervento?",
+        "answer": "È difficile menzionare tipi specifici di cibo perché varia da paziente a paziente, ma ci sono alcuni tipi di cibo da cui dovresti assolutamente stare lontano come i cibi grassi perché causano diarrea. In ogni caso, è importante ottenere le risposte a questa domanda dal medico dopo che avrà esaminato il tuo corpo."
+      },
+      {
+        "question": "Quanto peso perderò dopo l'intervento?",
+        "answer": "La maggior parte dei pazienti perde tra il 40 e il 60% del proprio peso. Tuttavia, devi sapere che nulla di tutto ciò accadrà se non fai uno sforzo extra e non cambi il tuo stile di vita in uno più sano."
+      },
+      {
+        "question": "La chirurgia dello switch duodenale impedisce la gravidanza? O ha effetti negativi sui corpi in gravidanza?",
+        "answer": "L'intervento non impedirà la gravidanza. Tuttavia, durante i primi 18 mesi suggeriamo che una donna non rimanga incinta perché durante questo periodo perderà peso e questo potrebbe influire negativamente sul suo corpo. In ogni caso, gli interventi per la perdita di peso aiutano le donne ad avere un'esperienza di gravidanza più sana (dopo la massima perdita di peso)."
+      },
+      {
+        "question": "La chirurgia dello switch duodenale costa più di altre chirurgie dell'obesità?",
+        "answer": "Costa un po' di più rispetto ad altri tipi di chirurgia dell'obesità perché richiede più lavoro e sforzo da parte dell'équipe medica e dei chirurghi."
+      }
     ],
     "diabetesTitle": "Switch Duodenale per il Diabete",
     "diabetesP1": "La chirurgia dello switch duodenale è particolarmente efficace per i pazienti con diabete di tipo 2. La procedura non solo aiuta con una significativa perdita di peso, ma ha anche dimostrato di migliorare o addirittura risolvere il diabete in molti pazienti.",
@@ -208,5 +256,283 @@
     "heroTitle": "Rimodellamento Corporeo Post-Bariatrico Istanbul, Turchia",
     "heroSubtitle": "Completa il tuo percorso di perdita di peso con procedure di rimodellamento corporeo progettate per rimuovere la pelle in eccesso dopo una significativa perdita di peso.",
     "desc": "Dopo una significativa perdita di peso, molti pazienti rimangono con pelle in eccesso. La chirurgia post-bariatrica aiuta a rimodellare e scolpire il corpo."
+  },
+  "comparison": {
+    "title": "Confronta tutte le procedure a colpo d'occhio",
+    "subtitle": "Trova la giusta procedura di perdita di peso in base al tuo BMI, budget e preferenze di recupero.",
+    "procedure": "Procedura",
+    "type": "Tipo",
+    "bmiRange": "Intervallo BMI",
+    "startingPrice": "Prezzo di partenza",
+    "hospitalStay": "Permanenza in ospedale",
+    "expectedWeightLoss": "Perdita di peso prevista",
+    "recovery": "Recupero",
+    "surgical": "Chirurgico",
+    "nonSurgical": "Non chirurgico",
+    "priceNote": "Tutti i prezzi sono all-inclusive. Tutti i pacchetti Relaxation e Luxury includono l'intervento con il Dr Murat Ustun. Prezzo finale confermato dopo la consulenza gratuita.",
+    "gastricSleeve": "Gastric Sleeve",
+    "gastricBypass": "Gastric Bypass",
+    "gastricBalloon": "Pallone Gastrico",
+    "esg": "ESG",
+    "duodenalSwitch": "Duodenal Switch",
+    "bmi35plus": "35+",
+    "bmi40plus": "40+ (o 35+ con comorbidità)",
+    "bmi30to40": "30–40",
+    "bmi50plus": "50+ (o 40+ con comorbidità)",
+    "stay2to3": "2–3 giorni",
+    "staySameDay": "Stesso giorno",
+    "stay1to2": "1–2 giorni",
+    "stay3to4": "3–4 giorni",
+    "loss60to70": "60–70% di peso in eccesso",
+    "loss70to80": "70–80% di peso in eccesso",
+    "loss10to15": "10–15% del peso corporeo totale",
+    "loss15to20": "15–20% del peso corporeo totale",
+    "loss70to85": "70–85% di peso in eccesso",
+    "recovery2to3weeks": "2–3 settimane",
+    "recovery1to3days": "1–3 giorni",
+    "recovery3to4weeks": "3–4 settimane"
+  },
+  "packages": {
+    "sleeveBasic": {
+      "name": "Gastrectomia a manica di base",
+      "features": [
+        "Team chirurgico esperto",
+        "Ospedale accreditato JCI (2 giorni)",
+        "Tutti i test e le consulenze pre-operatorie",
+        "Trasferimento VIP dall'aeroporto",
+        "Supporto dietista"
+      ]
+    },
+    "sleeveRelaxation": {
+      "name": "Gastrectomia a manica Relaxation",
+      "features": [
+        "Intervento con il Dr Murat Ustun",
+        "Ospedale accreditato JCI (3 giorni)",
+        "Tutti i test e le consulenze pre-operatorie",
+        "Trasferimento VIP dall'aeroporto",
+        "Supporto dietista registrato nel Regno Unito"
+      ]
+    },
+    "sleeveLuxury": {
+      "name": "Gastrectomia a manica Luxury",
+      "features": [
+        "Intervento con il Dr Murat Ustun",
+        "Ospedale accreditato JCI (3 giorni)",
+        "Tutti i test e le consulenze pre-operatorie",
+        "Trasferimento VIP dall'aeroporto",
+        "3 notti di sistemazione in hotel Radisson",
+        "Supporto dietista registrato nel Regno Unito",
+        "1 mese di integratori",
+        "Supporto assistenziale locale nel Regno Unito in 8 località"
+      ]
+    },
+    "bypassBasic": {
+      "name": "Gastric Bypass di base",
+      "features": [
+        "Team chirurgico esperto",
+        "Ospedale accreditato JCI (2 giorni)",
+        "Tutti i test e le consulenze pre-operatorie",
+        "Trasferimento VIP dall'aeroporto",
+        "Supporto dietista"
+      ]
+    },
+    "bypassRelaxation": {
+      "name": "Gastric Bypass Relaxation",
+      "features": [
+        "Intervento con il Dr Murat Ustun",
+        "Ospedale accreditato JCI (3 giorni)",
+        "Tutti i test e le consulenze pre-operatorie",
+        "Trasferimento VIP dall'aeroporto",
+        "Supporto dietista registrato nel Regno Unito"
+      ]
+    },
+    "bypassLuxury": {
+      "name": "Gastric Bypass Luxury",
+      "features": [
+        "Intervento con il Dr Murat Ustun",
+        "Ospedale accreditato JCI (3 giorni)",
+        "Tutti i test e le consulenze pre-operatorie",
+        "Trasferimento VIP dall'aeroporto",
+        "3 notti di sistemazione in hotel Radisson",
+        "Supporto dietista registrato nel Regno Unito",
+        "1 mese di integratori",
+        "Supporto assistenziale locale nel Regno Unito in 8 località"
+      ]
+    },
+    "balloonOrbera": {
+      "name": "Pallone Orbera Endoscopico",
+      "features": [
+        "Trasferimenti aeroportuali",
+        "Test pre-operatori completi",
+        "Endoscopia",
+        "Anestesia",
+        "2 notti di sistemazione",
+        "Supporto dietista"
+      ]
+    },
+    "balloonAllurion": {
+      "name": "Pallone Allurion ingeribile",
+      "features": [
+        "Trasferimenti aeroportuali",
+        "Test pre-operatori completi",
+        "Endoscopia",
+        "Anestesia",
+        "1 notte di sistemazione",
+        "Supporto dietista"
+      ]
+    },
+    "esgRelaxation": {
+      "name": "ESG Relaxation",
+      "features": [
+        "Ospedale Liv all'avanguardia",
+        "Procedura con il Dr Murat Ustun (Pioniere dell'ESG in Turchia)",
+        "Trasferimenti VIP dall'aeroporto",
+        "Tutti i test e le consulenze pre-operatorie",
+        "Costi OR e ospedalieri",
+        "2 giorni di ammissione in camera privata"
+      ]
+    },
+    "esgLuxury": {
+      "name": "ESG Luxury",
+      "features": [
+        "Ospedale Liv all'avanguardia",
+        "Procedura con il Dr Murat Ustun (Pioniere dell'ESG in Turchia)",
+        "Trasferimenti VIP dall'aeroporto",
+        "Tutti i test e le consulenze pre-operatorie",
+        "Costi OR e ospedalieri",
+        "2 giorni di ammissione in camera privata",
+        "2 giorni di sistemazione in hotel Radisson",
+        "4 appuntamenti con dietista registrato nel Regno Unito",
+        "1 mese di pacchetto di integratori e multivitaminici"
+      ]
+    },
+    "dsRelaxation": {
+      "name": "Duodenal Switch Relaxation",
+      "features": [
+        "Intervento con il Dr Murat Ustun",
+        "Ospedale accreditato JCI (3 giorni)",
+        "Tutti i test e le consulenze pre-operatorie",
+        "Trasferimento VIP dall'aeroporto",
+        "Supporto dietista registrato nel Regno Unito"
+      ]
+    },
+    "dsLuxury": {
+      "name": "Duodenal Switch Luxury",
+      "features": [
+        "Intervento con il Dr Murat Ustun",
+        "Ospedale accreditato JCI (3 giorni)",
+        "Tutti i test e le consulenze pre-operatorie",
+        "Trasferimento VIP dall'aeroporto",
+        "3 notti di sistemazione in hotel Radisson",
+        "Supporto dietista registrato nel Regno Unito",
+        "1 mese di integratori",
+        "Supporto assistenziale locale nel Regno Unito in 8 località"
+      ]
+    },
+    "bypassTitle": "Pacchetti Gastric Bypass",
+    "bypassSubtitle": "Scegli il pacchetto gastric bypass giusto per le tue esigenze",
+    "balloonTitle": "Pacchetti Pallone Gastrico",
+    "balloonSubtitle": "Scegli il pacchetto pallone gastrico giusto per le tue esigenze",
+    "esgTitle": "Pacchetti ESG",
+    "esgSubtitle": "Scegli il pacchetto ESG giusto per le tue esigenze",
+    "dsTitle": "Pacchetti Duodenal Switch",
+    "dsSubtitle": "Scegli il pacchetto duodenal switch giusto per le tue esigenze"
+  },
+  "esgTreatment": {
+    "title": "Gastroplastica a manica endoscopica (ESG)",
+    "desc": "L'ESG è una procedura di perdita di peso minimamente invasiva e non chirurgica che riduce le dimensioni dello stomaco fino al 70-80% utilizzando un dispositivo di sutura endoscopica inserito attraverso la bocca. Non sono necessarie incisioni, rendendola ideale per i pazienti con BMI 30-40 che preferiscono un approccio non chirurgico.",
+    "advantages": [
+      "Non chirurgico — nessuna incisione o cicatrice",
+      "Tempo di recupero più breve (ritorno alle normali attività in 1-3 giorni)",
+      "Rischio di complicazioni inferiore rispetto alla chirurgia",
+      "Procedura reversibile",
+      "Perdita di peso totale prevista del 15-20%",
+      "Dimissione lo stesso giorno o il giorno successivo",
+      "Eseguito in anestesia generale (~90 minuti)"
+    ],
+    "disadvantages": [
+      "Meno perdita di peso rispetto alle opzioni chirurgiche come la gastrectomia a manica",
+      "Potrebbe richiedere procedure ripetute per risultati ottimali",
+      "Non adatto per BMI superiore a 40",
+      "Procedura relativamente nuova con meno dati a lungo termine"
+    ]
+  },
+  "postBariatricSection": {
+    "sectionTitle": "Chirurgia plastica post-bariatrica",
+    "desc1": "Dopo una significativa perdita di peso a seguito di chirurgia bariatrica, molti pazienti si trovano ad affrontare pelle in eccesso e flaccida. La chirurgia di rimodellamento del corpo post-bariatrica rimuove questa pelle in eccesso e rimodella il corpo per aiutarti a godere appieno della tua trasformazione.",
+    "desc2": "Le nostre procedure includono addominoplastica (tummy tuck), sollevamento delle braccia, sollevamento delle cosce, sollevamento del corpo, sollevamento del seno e sollevamento di viso/collo. Queste chirurgie possono migliorare drasticamente il contorno del corpo ed eliminare l'irritazione della pelle.",
+    "learnMore": "Scopri di più sul rimodellamento del corpo",
+    "imageAlt": "Procedure di rimodellamento del corpo post-bariatrico",
+    "imageCaption": "Opzioni di rimodellamento del corpo dopo la chirurgia di perdita di peso"
+  },
+  "faqSection": {
+    "title": "Domande frequenti sulla chirurgia di perdita di peso in Turchia",
+    "subtitle": "Tutto ciò che devi sapere sulla chirurgia bariatrica presso l'Istanbul Bariatric Center",
+    "faqs": [
+      {
+        "question": "Quanto costa la chirurgia di perdita di peso a Istanbul?",
+        "answer": "I pacchetti all-inclusive presso l'Istanbul Bariatric Center partono da £1,650 per un pallone gastrico, £2,950 per una gastrectomia a manica, £3,350 per un gastric bypass e £4,950 per l'ESG. Ogni pacchetto copre la tua permanenza in ospedale accreditato JCI, test pre-operatori, trasferimenti VIP dall'aeroporto e follow-up con il dietista."
+      },
+      {
+        "question": "Quale procedura bariatrica è giusta per me?",
+        "answer": "La migliore procedura dipende dal tuo BMI, dalla tua storia medica e dai tuoi obiettivi di perdita di peso. La gastrectomia a manica è adatta per BMI 35+, il bypass gastrico è raccomandato per BMI 40+ o pazienti con condizioni metaboliche, il pallone gastrico è un'opzione non chirurgica per BMI 30–40 e l'ESG offre un approccio minimamente invasivo per BMI 30–40."
+      },
+      {
+        "question": "La chirurgia bariatrica presso l'Istanbul Bariatric Center è sicura?",
+        "answer": "Assolutamente. Tutte le procedure sono eseguite presso l'ospedale Liv accreditato JCI a Istanbul da chirurghi formati a livello internazionale. Il Dr Murat Ustun, fondatore e chirurgo principale del centro, ha eseguito migliaia di operazioni di successo con risultati di sicurezza eccezionali."
+      },
+      {
+        "question": "Cosa è incluso in ogni pacchetto chirurgico?",
+        "answer": "Ogni pacchetto include ammissione a un ospedale accreditato JCI, test pre-operatori completi, spese per il chirurgo e l'anestesia, trasferimento VIP dall'aeroporto e supporto dietista. I livelli Relaxation e Luxury aggiungono il Dr Murat Ustun come tuo chirurgo operante, prolungamenti della permanenza in ospedale, sistemazione in hotel Radisson, follow-up con dietista registrato nel Regno Unito e pacchetti di integratori."
+      },
+      {
+        "question": "Quanta perdita di peso posso aspettarmi?",
+        "answer": "I risultati variano a seconda della procedura: i pazienti con gastrectomia a manica perdono tipicamente il 60–70% del peso in eccesso, il bypass gastrico il 70–80%, il pallone gastrico il 10–15% del peso corporeo totale e l'ESG il 15–20% del peso corporeo totale — tutto entro i primi 12–18 mesi."
+      },
+      {
+        "question": "Qual è la tempistica di recupero?",
+        "answer": "I pazienti con gastrectomia a manica e bypass rimangono 2–3 giorni in ospedale e tornano alle attività quotidiane entro 2–3 settimane. Il pallone gastrico è una procedura dello stesso giorno, e i pazienti ESG possono riprendere le normali attività entro 1–3 giorni."
+      },
+      {
+        "question": "Ricevo assistenza post-operatoria una volta tornato a casa?",
+        "answer": "Sì. Ogni paziente riceve un piano di assistenza post-operatoria strutturato che include orientamenti dietistici, consulenze di follow-up e accesso al nostro team di supporto pazienti con sede nel Regno Unito che opera in 8 località in tutto il Regno Unito."
+      },
+      {
+        "question": "Chi è il Dr Murat Ustun?",
+        "answer": "Il Dr Murat Ustun è il fondatore e chirurgo bariatrico principale presso l'Istanbul Bariatric Center. Pioniere dell'ESG (Gastroplastica a manica endoscopica) in Turchia, ha eseguito migliaia di procedure di perdita di peso — inclusa la gastrectomia a manica, il bypass gastrico e il duodenal switch — presso l'ospedale Liv a Istanbul."
+      }
+    ]
+  },
+  "treatmentLinks": {
+    "title": "Esplora le nostre pagine di trattamento",
+    "subtitle": "Scopri di più su ciascuna procedura in dettaglio",
+    "gastricSleeve": "Chirurgia Gastric Sleeve",
+    "gastricSleevePrice": "A partire da £2,950",
+    "miniBypass": "Mini Gastric Bypass",
+    "miniBypassDesc": "Procedura specialistica",
+    "gastricBalloon": "Pallone Gastrico",
+    "gastricBalloonPrice": "A partire da £1,650",
+    "esg": "Procedura ESG",
+    "esgPrice": "A partire da £4,950",
+    "duodenalSwitch": "Duodenal Switch",
+    "duodenalSwitchPrice": "A partire da £4,400",
+    "transitBipartition": "Bipartizione di transito",
+    "transitBipartitionDesc": "Procedura avanzata",
+    "postBariatric": "Chirurgia post-bariatrica",
+    "postBariatricDesc": "Rimodellamento del corpo",
+    "eligible": "Sono idoneo?",
+    "eligibleDesc": "Valutazione della salute gratuita",
+    "results": "Risultati dei pazienti",
+    "resultsDesc": "Storie di successo"
+  },
+  "whatsapp": {
+    "consultMessage": "Ciao, vorrei consultare riguardo a",
+    "packageMessage": "Ciao, sono interessato al"
+  },
+  "seo": {
+    "title": "Chirurgia di perdita di peso a Istanbul 2026 — Gastric Sleeve, Bypass, Pallone & ESG | Pacchetti All-Inclusive",
+    "description": "Confronta le procedure bariatriche: Gastric Sleeve da £2,950, Bypass £3,350, Pallone £1,650, ESG £4,950. Dr Murat Ustun presso l'ospedale Liv accreditato JCI.",
+    "heroAlt": "Stile di vita attivo e sano dopo la chirurgia bariatrica",
+    "skipToContent": "Salta al contenuto principale"
   }
 }

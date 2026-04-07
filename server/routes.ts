@@ -160,6 +160,14 @@ export async function registerRoutes(
       "/insurance": { priority: "0.6", changefreq: "monthly" },
       "/health-profile": { priority: "0.7", changefreq: "monthly" },
       "/bariatric-surgery-turkey-guide": { priority: "0.9", changefreq: "monthly" },
+      "/treatments/tr": { priority: "0.8", changefreq: "monthly" },
+      "/treatments/es": { priority: "0.8", changefreq: "monthly" },
+      "/treatments/de": { priority: "0.8", changefreq: "monthly" },
+      "/treatments/fr": { priority: "0.8", changefreq: "monthly" },
+      "/treatments/it": { priority: "0.8", changefreq: "monthly" },
+      "/treatments/ro": { priority: "0.8", changefreq: "monthly" },
+      "/treatments/ru": { priority: "0.8", changefreq: "monthly" },
+      "/treatments/ar": { priority: "0.8", changefreq: "monthly" },
     };
 
     let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
@@ -190,6 +198,14 @@ export async function registerRoutes(
 - [Home](${BASE_URL}/)
 - [About Us](${BASE_URL}/about)
 - [Treatments Overview](${BASE_URL}/treatments)
+- [Treatments - Türkçe](${BASE_URL}/treatments/tr)
+- [Treatments - Español](${BASE_URL}/treatments/es)
+- [Treatments - Deutsch](${BASE_URL}/treatments/de)
+- [Treatments - Français](${BASE_URL}/treatments/fr)
+- [Treatments - Italiano](${BASE_URL}/treatments/it)
+- [Treatments - Română](${BASE_URL}/treatments/ro)
+- [Treatments - Русский](${BASE_URL}/treatments/ru)
+- [Treatments - العربية](${BASE_URL}/treatments/ar)
 - [Patient Results & Testimonials](${BASE_URL}/results)
 - [Blog](${BASE_URL}/blog)
 - [Contact Us](${BASE_URL}/contact)
