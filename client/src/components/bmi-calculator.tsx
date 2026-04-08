@@ -277,10 +277,9 @@ export function BMICalculator() {
             Financing Options for EU Patients - Apply Now!
           </h3>
           <iframe 
-            width="100%" 
-            height="400px" 
+            className="w-full border-0"
+            style={{ height: "400px" }}
             src="https://clinics.euromedfin.com/clinic-iframe/34173cb38f07f89ddbebc2ac9128303f?lang=en" 
-            frameBorder="0" 
             allowFullScreen
             loading="lazy"
             title="EuroMedFin Clinic"
