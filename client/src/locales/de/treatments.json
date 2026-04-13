@@ -1,40 +1,318 @@
 {
   "common": {
     "advantages": "Vorteile",
-    "thingsToConsider": "Zu beachten",
+    "thingsToConsider": "Zu Beachten",
     "consultFor": "Beratung für",
     "selectPackage": "PAKET WÄHLEN",
     "popular": "BELIEBT",
     "bestDoctors": "Beste Ärzte",
     "jciHospital": "JCI-akkreditiertes Krankenhaus",
-    "airportPickup": "Flughafentransfer",
+    "airportPickup": "Flughafenabholung",
     "daysAccommodation": "Tage Unterkunft",
     "risks": "Risiken",
-    "faqs": "Häufig gestellte Fragen",
+    "faqs": "Häufig Gestellte Fragen",
     "getQuote": "Kostenloses Angebot",
-    "bookConsultation": "Kostenlose Beratung buchen",
-    "learnMore": "Mehr erfahren",
+    "bookConsultation": "Kostenlose Beratung Buchen",
+    "learnMore": "Mehr Erfahren",
     "readMore": "Weiterlesen",
     "whyTurkey": "Warum Türkei?",
     "packageOptions": "Paketoptionen"
   },
   "main": {
     "title": "Bariatrische Behandlungen",
-    "subtitle": "Wir bieten eine umfassende Palette von Gewichtsverlustverfahren an, die auf Ihre spezifischen Bedürfnisse und Gesundheitszustände zugeschnitten sind.",
-    "sleevePackageTitle": "Schlauchmagen-Paketoptionen",
-    "sleevePackageDesc": "Im Istanbul Bariatric Center können Sie frei eines der Behandlungspakete wählen, das zu Ihrem Budget passt."
+    "subtitle": "Wir bieten ein umfassendes Spektrum an Gewichtsverlust-Verfahren, die auf Ihre spezifischen Bedürfnisse und Gesundheitszustände zugeschnitten sind.",
+    "sleevePackageTitle": "Schlauchmagen Paketoptionen",
+    "sleevePackageDesc": "Im Istanbul Bariatric Center können Sie frei das Behandlungspaket wählen, das zu Ihrem Budget passt."
+  },
+  "comparison": {
+    "title": "Alle Verfahren auf einen Blick vergleichen",
+    "subtitle": "Finden Sie das richtige Gewichtsverlust-Verfahren basierend auf Ihrem BMI, Budget und Genesungspräferenzen.",
+    "procedure": "Verfahren",
+    "type": "Typ",
+    "bmiRange": "BMI-Bereich",
+    "startingPrice": "Startpreis",
+    "hospitalStay": "Krankenhausaufenthalt",
+    "expectedWeightLoss": "Erwarteter Gewichtsverlust",
+    "recovery": "Genesung",
+    "surgical": "Chirurgisch",
+    "nonSurgical": "Nicht-chirurgisch",
+    "priceNote": "Alle Preise sind all-inclusive. Alle Entspannungs- und Luxuspakete beinhalten die Operation mit Dr Murat Ustun. Endgültige Preise werden nach kostenloser Beratung bestätigt.",
+    "gastricSleeve": "Schlauchmagen",
+    "gastricBypass": "Magenbypass",
+    "gastricBalloon": "Magenballon",
+    "esg": "ESG",
+    "duodenalSwitch": "Duodenal-Switch",
+    "bmi35plus": "35+",
+    "bmi40plus": "40+ (oder 35+ mit Begleiterkrankungen)",
+    "bmi30to40": "30–40",
+    "bmi50plus": "50+ (oder 40+ mit Begleiterkrankungen)",
+    "stay2to3": "2–3 Tage",
+    "staySameDay": "Gleicher Tag",
+    "stay1to2": "1–2 Tage",
+    "stay3to4": "3–4 Tage",
+    "loss60to70": "60–70% des Übergewichts",
+    "loss70to80": "70–80% des Übergewichts",
+    "loss10to15": "10–15% des Gesamtkörpergewichts",
+    "loss15to20": "15–20% des Gesamtkörpergewichts",
+    "loss70to85": "70–85% des Übergewichts",
+    "recovery2to3weeks": "2–3 Wochen",
+    "recovery1to3days": "1–3 Tage",
+    "recovery3to4weeks": "3–4 Wochen"
+  },
+  "packages": {
+    "sleeveBasic": {
+      "name": "Schlauchmagen Basis",
+      "features": [
+        "Erfahrenes Chirurgenteam",
+        "JCI-akkreditiertes Krankenhaus (2 Tage)",
+        "Alle präoperativen Tests und Konsultationen",
+        "VIP-Flughafentransfer",
+        "Ernährungsberater-Unterstützung"
+      ]
+    },
+    "sleeveRelaxation": {
+      "name": "Schlauchmagen Entspannung",
+      "features": [
+        "Operation mit Dr Murat Ustun",
+        "JCI-akkreditiertes Krankenhaus (3 Tage)",
+        "Alle präoperativen Tests und Konsultationen",
+        "VIP-Flughafentransfer",
+        "UK-registrierter Ernährungsberater"
+      ]
+    },
+    "sleeveLuxury": {
+      "name": "Schlauchmagen Luxus",
+      "features": [
+        "Operation mit Dr Murat Ustun",
+        "JCI-akkreditiertes Krankenhaus (3 Tage)",
+        "Alle präoperativen Tests und Konsultationen",
+        "VIP-Flughafentransfer",
+        "3 Nächte Radisson Hotel",
+        "UK-registrierter Ernährungsberater",
+        "1 Monat Nahrungsergänzungsmittel",
+        "Lokale UK-Betreuung an 8 Standorten"
+      ]
+    },
+    "bypassBasic": {
+      "name": "Magenbypass Basis",
+      "features": [
+        "Erfahrenes Chirurgenteam",
+        "JCI-akkreditiertes Krankenhaus (2 Tage)",
+        "Alle präoperativen Tests und Konsultationen",
+        "VIP-Flughafentransfer",
+        "Ernährungsberater-Unterstützung"
+      ]
+    },
+    "bypassRelaxation": {
+      "name": "Magenbypass Entspannung",
+      "features": [
+        "Operation mit Dr Murat Ustun",
+        "JCI-akkreditiertes Krankenhaus (3 Tage)",
+        "Alle präoperativen Tests und Konsultationen",
+        "VIP-Flughafentransfer",
+        "UK-registrierter Ernährungsberater"
+      ]
+    },
+    "bypassLuxury": {
+      "name": "Magenbypass Luxus",
+      "features": [
+        "Operation mit Dr Murat Ustun",
+        "JCI-akkreditiertes Krankenhaus (3 Tage)",
+        "Alle präoperativen Tests und Konsultationen",
+        "VIP-Flughafentransfer",
+        "3 Nächte Radisson Hotel",
+        "UK-registrierter Ernährungsberater",
+        "1 Monat Nahrungsergänzungsmittel",
+        "Lokale UK-Betreuung an 8 Standorten"
+      ]
+    },
+    "balloonOrbera": {
+      "name": "Endoskopischer Orbera Ballon",
+      "features": [
+        "Flughafentransfers",
+        "Umfassende präoperative Tests",
+        "Endoskopie",
+        "Anästhesie",
+        "2 Nächte Unterkunft",
+        "Ernährungsberater-Unterstützung"
+      ]
+    },
+    "balloonAllurion": {
+      "name": "Allurion Schluckballon",
+      "features": [
+        "Flughafentransfers",
+        "Umfassende präoperative Tests",
+        "Endoskopie",
+        "Anästhesie",
+        "1 Nacht Unterkunft",
+        "Ernährungsberater-Unterstützung"
+      ]
+    },
+    "esgRelaxation": {
+      "name": "ESG Entspannung",
+      "features": [
+        "Modernste Liv Klinik",
+        "Verfahren mit Dr Murat Ustun (Pionier der ESG in der Türkei)",
+        "VIP-Flughafentransfers",
+        "Alle präoperativen Tests und Konsultationen",
+        "OP- und Krankenhauskosten",
+        "2 Tage Aufnahme im Privatzimmer"
+      ]
+    },
+    "esgLuxury": {
+      "name": "ESG Luxus",
+      "features": [
+        "Modernste Liv Klinik",
+        "Verfahren mit Dr Murat Ustun (Pionier der ESG in der Türkei)",
+        "VIP-Flughafentransfers",
+        "Alle präoperativen Tests und Konsultationen",
+        "OP- und Krankenhauskosten",
+        "2 Tage Aufnahme im Privatzimmer",
+        "2 Tage Radisson Hotel",
+        "4 UK-registrierte Ernährungsberater-Termine",
+        "1 Monat Nahrungsergänzungs- und Multivitaminpaket"
+      ]
+    },
+    "dsRelaxation": {
+      "name": "Duodenal-Switch Entspannung",
+      "features": [
+        "Operation mit Dr Murat Ustun",
+        "JCI-akkreditiertes Krankenhaus (3 Tage)",
+        "Alle präoperativen Tests und Konsultationen",
+        "VIP-Flughafentransfer",
+        "UK-registrierter Ernährungsberater"
+      ]
+    },
+    "dsLuxury": {
+      "name": "Duodenal-Switch Luxus",
+      "features": [
+        "Operation mit Dr Murat Ustun",
+        "JCI-akkreditiertes Krankenhaus (3 Tage)",
+        "Alle präoperativen Tests und Konsultationen",
+        "VIP-Flughafentransfer",
+        "3 Nächte Radisson Hotel",
+        "UK-registrierter Ernährungsberater",
+        "1 Monat Nahrungsergänzungsmittel",
+        "Lokale UK-Betreuung an 8 Standorten"
+      ]
+    },
+    "bypassTitle": "Magenbypass-Pakete",
+    "bypassSubtitle": "Wählen Sie das richtige Magenbypass-Paket für Ihre Bedürfnisse",
+    "balloonTitle": "Magenballon-Pakete",
+    "balloonSubtitle": "Wählen Sie das richtige Magenballon-Paket für Ihre Bedürfnisse",
+    "esgTitle": "ESG-Pakete",
+    "esgSubtitle": "Wählen Sie das richtige ESG-Paket für Ihre Bedürfnisse",
+    "dsTitle": "Duodenal-Switch-Pakete",
+    "dsSubtitle": "Wählen Sie das richtige Duodenal-Switch-Paket für Ihre Bedürfnisse"
+  },
+  "esgTreatment": {
+    "title": "Endoskopische Sleeve-Gastroplastik (ESG)",
+    "desc": "ESG ist ein minimal-invasives, nicht-chirurgisches Gewichtsverlust-Verfahren, das die Magengröße um bis zu 70-80% reduziert, indem ein endoskopisches Nahtgerät durch den Mund eingeführt wird. Keine Schnitte erforderlich, ideal für Patienten mit BMI 30-40.",
+    "advantages": [
+      "Nicht-chirurgisch — keine Schnitte oder Narben",
+      "Kürzere Erholungszeit (Rückkehr zu normalen Aktivitäten in 1-3 Tagen)",
+      "Geringeres Komplikationsrisiko im Vergleich zur Chirurgie",
+      "Reversibles Verfahren",
+      "15-20% Gesamtkörpergewichtsverlust erwartet",
+      "Entlassung am selben oder nächsten Tag",
+      "Unter Vollnarkose durchgeführt (~90 Minuten)"
+    ],
+    "disadvantages": [
+      "Weniger Gewichtsverlust als chirurgische Optionen wie Schlauchmagen",
+      "Möglicherweise wiederholte Verfahren für optimale Ergebnisse erforderlich",
+      "Nicht geeignet für BMI über 40",
+      "Relativ neues Verfahren mit weniger Langzeitdaten"
+    ]
+  },
+  "postBariatricSection": {
+    "sectionTitle": "Post-Bariatrische Plastische Chirurgie",
+    "desc1": "Nach erheblichem Gewichtsverlust durch bariatrische Chirurgie bleiben viele Patienten mit überschüssiger, hängender Haut zurück. Die post-bariatrische Körperformung entfernt diese überschüssige Haut und formt den Körper neu.",
+    "desc2": "Unsere Verfahren umfassen Bauchstraffung (Abdominoplastik), Oberarmstraffung, Oberschenkelstraffung, Körperstraffung, Bruststraffung und Gesichts-/Halsstraffung.",
+    "learnMore": "Mehr über Körperformung erfahren",
+    "imageAlt": "Post-bariatrische Körperformungsverfahren",
+    "imageCaption": "Körperformungsoptionen nach Gewichtsverlustchirurgie"
+  },
+  "faqSection": {
+    "title": "Häufig Gestellte Fragen zur Gewichtsverlustchirurgie in der Türkei",
+    "subtitle": "Alles was Sie über bariatrische Chirurgie im Istanbul Bariatric Center wissen müssen",
+    "faqs": [
+      {
+        "question": "Was kostet eine Gewichtsverlustoperation in Istanbul?",
+        "answer": "All-inclusive-Pakete im Istanbul Bariatric Center beginnen ab £1.650 für Magenballon, £2.950 für Schlauchmagen, £3.350 für Magenbypass und £4.950 für ESG. Jedes Paket umfasst JCI-akkreditierten Krankenhausaufenthalt, präoperative Tests, VIP-Flughafentransfers und Ernährungsberater-Nachsorge."
+      },
+      {
+        "question": "Welches bariatrische Verfahren ist richtig für mich?",
+        "answer": "Das beste Verfahren hängt von Ihrem BMI, Ihrer Krankengeschichte und Ihren Gewichtsverlustzielen ab. Schlauchmagen für BMI 35+, Magenbypass für BMI 40+ oder metabolische Erkrankungen, Magenballon als nicht-chirurgische Option für BMI 30-40 und ESG als minimal-invasiver Ansatz für BMI 30-40."
+      },
+      {
+        "question": "Ist bariatrische Chirurgie im Istanbul Bariatric Center sicher?",
+        "answer": "Absolut. Alle Verfahren werden im JCI-akkreditierten Liv Hospital in Istanbul von international ausgebildeten Chirurgen durchgeführt. Dr Murat Ustun, Gründer und leitender Chirurg, hat tausende erfolgreiche Operationen mit hervorragenden Sicherheitsergebnissen durchgeführt."
+      },
+      {
+        "question": "Was ist in jedem Chirurgiepaket enthalten?",
+        "answer": "Jedes Paket umfasst Aufnahme im JCI-akkreditierten Krankenhaus, vollständige präoperative Tests, Chirurgen- und Anästhesiegebühren, VIP-Flughafentransfer und Ernährungsberater-Unterstützung. Entspannungs- und Luxuspakete fügen Dr Murat Ustun als Chirurg, erweiterte Krankenhausaufenthalte, Radisson Hotelunterkunft, UK-Ernährungsberater-Nachsorge und Nahrungsergänzungspakete hinzu."
+      },
+      {
+        "question": "Wie viel Gewicht kann ich erwarten zu verlieren?",
+        "answer": "Ergebnisse variieren je nach Verfahren: Schlauchmagen-Patienten verlieren typischerweise 60-70% des Übergewichts, Magenbypass 70-80%, Magenballon 10-15% des Gesamtkörpergewichts und ESG 15-20% des Gesamtkörpergewichts — alles innerhalb der ersten 12-18 Monate."
+      },
+      {
+        "question": "Wie lang ist die Genesungszeit?",
+        "answer": "Schlauchmagen- und Bypass-Patienten bleiben 2-3 Tage im Krankenhaus und kehren innerhalb von 2-3 Wochen zu täglichen Aktivitäten zurück. Der Magenballon ist ein ambulantes Verfahren und ESG-Patienten können innerhalb von 1-3 Tagen normale Aktivitäten wieder aufnehmen."
+      },
+      {
+        "question": "Erhalte ich Nachsorge nach der Rückkehr?",
+        "answer": "Ja. Jeder Patient erhält einen strukturierten Nachsorgeplan mit Ernährungsberatung, Nachsorgekonsultationen und Zugang zu unserem UK-basierten Patientenunterstützungsteam an 8 Standorten."
+      },
+      {
+        "question": "Wer ist Dr Murat Ustun?",
+        "answer": "Dr Murat Ustun ist der Gründer und leitende bariatrische Chirurg des Istanbul Bariatric Center. Als Pionier der ESG in der Türkei hat er tausende Gewichtsverlust-Verfahren im Liv Hospital in Istanbul durchgeführt."
+      }
+    ]
+  },
+  "treatmentLinks": {
+    "title": "Entdecken Sie Unsere Behandlungsseiten",
+    "subtitle": "Erfahren Sie mehr über jedes Verfahren im Detail",
+    "gastricSleeve": "Schlauchmagen-Operation",
+    "gastricSleevePrice": "Ab £2.950",
+    "miniBypass": "Mini-Magenbypass",
+    "miniBypassDesc": "Spezialisiertes Verfahren",
+    "gastricBalloon": "Magenballon",
+    "gastricBalloonPrice": "Ab £1.650",
+    "esg": "ESG-Verfahren",
+    "esgPrice": "Ab £4.950",
+    "duodenalSwitch": "Duodenal-Switch",
+    "duodenalSwitchPrice": "Ab £4.400",
+    "transitBipartition": "Transit-Bipartition",
+    "transitBipartitionDesc": "Fortgeschrittenes Verfahren",
+    "postBariatric": "Post-Bariatrische Chirurgie",
+    "postBariatricDesc": "Körperformung",
+    "eligible": "Bin Ich Geeignet?",
+    "eligibleDesc": "Kostenlose Gesundheitsbewertung",
+    "results": "Patientenergebnisse",
+    "resultsDesc": "Erfolgsgeschichten"
+  },
+  "whatsapp": {
+    "consultMessage": "Hallo, ich möchte mich beraten lassen über",
+    "packageMessage": "Hallo, ich interessiere mich für das"
+  },
+  "seo": {
+    "title": "Gewichtsverlustchirurgie in Istanbul 2026 — Schlauchmagen, Bypass, Ballon & ESG | All-Inclusive-Pakete",
+    "description": "Bariatrische Verfahren vergleichen: Schlauchmagen ab £2.950, Bypass £3.350, Ballon £1.650, ESG £4.950. Dr Murat Ustun im JCI-akkreditierten Liv Hospital.",
+    "heroAlt": "Aktiver gesunder Lebensstil nach bariatrischer Chirurgie",
+    "skipToContent": "Zum Hauptinhalt springen"
   },
   "gastricSleeve": {
     "title": "Schlauchmagen-Operation",
-    "heroTitle": "Schlauchmagen Istanbul, Türkei",
-    "heroSubtitle": "Die Schlauchmagen-Operation ist eine der am häufigsten durchgeführten bariatrischen Operationen weltweit und in der Türkei. Entdecken Sie, warum sie so effektiv ist.",
-    "desc": "Auch als Sleeve-Gastrektomie bekannt, beinhaltet dieses Verfahren die Entfernung von 70-80% des Magens, wobei ein röhrenförmiger Beutel zurückbleibt. Es schränkt die Nahrungsaufnahme ein und beeinflusst Darmhormone, um den Hunger zu reduzieren.",
-    "overviewTitle": "Schlauchmagen Türkei: Überblick",
-    "overviewP1": "Der Schlauchmagen oder die Sleeve-Gastrektomie ist eine bariatrische Operation, die durchgeführt wird, indem ein Teil Ihres Magens abgeschnitten wird, um eine kleinere Kammer zu schaffen. Es ist eine der am häufigsten durchgeführten bariatrischen Operationen weltweit und in der Türkei.",
-    "overviewP2": "Fettleibigkeit ist eines der lästigsten Probleme für viele Menschen auf der ganzen Welt, nicht nur wegen der Veränderung von Form, Gesicht oder Körper, die danach kommt, sondern auch wegen der gesundheitlichen Probleme, die sie verursachen kann.",
-    "overviewP3": "Es gibt mehrere Krankheiten, die direkt mit Fettleibigkeit zusammenhängen, wie: Diabetes Typ II, Bluthochdruck, Herzprobleme, hoher Cholesterinspiegel und mehr.",
+    "heroTitle": "Sleeve-Gastrektomie Istanbul, Türkei",
+    "heroSubtitle": "Die Schlauchmagen-Operation ist eine der weltweit und in der Türkei am häufigsten durchgeführten bariatrischen Operationen.",
+    "desc": "Auch als Sleeve-Gastrektomie bekannt, werden bei diesem Verfahren 70-80% des Magens entfernt und ein röhrenförmiger Beutel zurückgelassen. Es begrenzt die Nahrungsaufnahme und beeinflusst Darmhormone zur Hungerreduktion.",
+    "overviewTitle": "Sleeve-Gastrektomie Türkei: Überblick",
+    "overviewP1": "Der Schlauchmagen oder Sleeve-Gastrektomie ist eine bariatrische Operation, bei der ein Teil Ihres Magens herausgeschnitten wird, um eine kleinere Kammer zu schaffen.",
+    "overviewP2": "Fettleibigkeit ist eines der lästigsten Probleme für viele Menschen weltweit.",
+    "overviewP3": "Es gibt verschiedene Krankheiten, die direkt mit Fettleibigkeit zusammenhängen: Typ-2-Diabetes, Bluthochdruck, Herzprobleme, hoher Cholesterinspiegel und mehr.",
     "advantages": [
-      "Kontrolliert die Menge an Nahrung im Magen",
+      "Kontrolliert die im Magen aufgenommene Nahrungsmenge",
       "Unterstützt schnellen Gewichtsverlust",
       "Kürzerer Krankenhausaufenthalt als Bypass",
       "Reduziert Hunger und Appetit"
@@ -44,12 +322,12 @@
       "Potenzial für Vitaminmangel"
     ],
     "risks": [
-      "Blutungen aus dem Inneren des Magens oder der Operationswunde.",
-      "Tiefe Venenthrombose: oder TVT, ein Blutgerinnsel, das sich während des Eingriffs oder während des Erholungsprozesses in Ihrer Vene bildet.",
-      "Unregelmäßiger Herzschlag: Einige Operationen können während der Operation zu einem unregelmäßigen Herzschlag führen.",
-      "Magenlecks: Die Magenflüssigkeiten können aus der Nahtlinie in Ihrem Magen austreten.",
-      "Stenose: bedeutet, dass ein Teil Ihres Magens sich schließen könnte und eine Verstopfung verursacht.",
-      "Vitaminmangel: Der entfernte Teil Ihres Magens ist teilweise für die Vitaminaufnahme verantwortlich."
+      "Blutungen aus dem Mageninneren oder der Operationswunde.",
+      "Tiefe Venenthrombose: Blutgerinnsel in der Vene während oder nach dem Eingriff.",
+      "Unregelmäßiger Herzschlag während der Operation.",
+      "Magenlecks: Magenflüssigkeit kann aus der Nahtlinie austreten.",
+      "Stenose: Ein Teil des Magens kann sich verschließen und eine Verstopfung verursachen.",
+      "Vitaminmangel: Der entfernte Magenanteil ist teilweise für die Vitaminaufnahme verantwortlich."
     ],
     "packages": {
       "basic": {
@@ -72,89 +350,89 @@
   "gastricBypass": {
     "title": "Magenbypass-Operation",
     "heroTitle": "Mini-Magenbypass Istanbul, Türkei",
-    "heroSubtitle": "Der Mini-Magenbypass ist eine vereinfachte Version des traditionellen Magenbypasses und bietet ausgezeichnete Gewichtsverlustergebnisse mit weniger Komplikationen.",
-    "desc": "Der Magen wird in zwei Teile geteilt und ein kleinerer Beutel geschaffen. Der Dünndarm wird neu angeordnet, um mit beiden verbunden zu werden. Dies begrenzt die Nahrungsaufnahme und Kalorienaufnahme.",
+    "heroSubtitle": "Der Mini-Magenbypass ist eine vereinfachte Version des traditionellen Magenbypasses mit ausgezeichneten Gewichtsverlusten und weniger Komplikationen.",
+    "desc": "Der Magen wird in zwei Teile geteilt, wobei ein kleinerer Beutel entsteht. Der Dünndarm wird umgeleitet, um an beiden anzuschließen. Dies begrenzt die Nahrungsaufnahme und Kalorienabsorption.",
     "advantages": [
       "Langfristiger Gewichtsverlust",
-      "Kontrolliert die konsumierte Nahrungsmenge",
+      "Kontrolliert die aufgenommene Nahrungsmenge",
       "Unterdrückt Hunger durch Darmhormone"
     ],
     "disadvantages": [
       "Komplexe Operation",
       "Erfordert längeren Krankenhausaufenthalt",
-      "Risiko von Vitaminmangel"
+      "Risiko eines Vitaminmangels"
     ],
     "tableOfContents": "Inhaltsverzeichnis",
-    "tocItem1": "Wie kann mir die Mini-Magenbypass-Operation beim Abnehmen helfen?",
-    "tocItem2": "Gibt es Nebenwirkungen bei der Mini-Magenbypass-Operation?",
-    "tocItem3": "Übernehmen Versicherungen die Kosten der Operation?",
-    "tocItem4": "Was Sie vor der Mini-Magenbypass-Operation wissen müssen",
-    "introP1": "Für viele Menschen auf der Welt ist Übergewicht und Fettleibigkeit ein sehr ernstes Problem, nicht nur wegen der Veränderung von Form, Gesicht oder Körper, sondern auch wegen der gesundheitlichen Probleme, die es verursachen kann.",
-    "introP2": "Tatsächlich ist Fettleibigkeit ein sehr wichtiger Grund und könnte der direkte Grund für die meisten Schlaganfälle, Blutzucker-, Blutdruck-, Atem-, Magenprobleme und viele andere Gesundheitsprobleme sein.",
-    "introP3": "Es gibt verschiedene Arten von Gewichtsverlustoperationen, jede unterscheidet sich von der anderen in ihren Schritten, aber alle teilen die gleichen angenehmen Ergebnisse, nämlich einen signifikanten Gewichtsverlust. Eine dieser Arten heißt Mini-Magenbypass.",
-    "introP4": "Diese Operation gilt als eine der effektivsten Gewichtsverlustoperationen und hat viele Vorteile im Vergleich zu anderen Arten von Gewichtsverlustoperationen.",
-    "introP5": "Wie bei jeder anderen Gewichtsverlustoperation besteht die Grundidee der Mini-Magenbypass-Operation darin, das Magenvolumen zu reduzieren, um die vom Patienten aufgenommene Nahrungsmenge zu verringern. Die Mini-Magenbypass-Operation umfasst jedoch andere Schritte. Während der Operation schneidet der Arzt den oberen Teil des Magens ab und teilt ihn in einen Schlauch, der dann mit einer Darmschlinge verbunden wird. Der Rest des Magens, der 75% des gesamten Magens entspricht, bleibt ungenutzt.",
-    "introP6": "Die Oberseite des Magens wird zu einem 50-ml-Schlauch geklammert, dieser Schlauch wird der neue kleine Magen sein und ist vollständig vom ursprünglichen Magen getrennt. Dieser Magen wird dann an eine Schlinge des Dünndarms genäht, wobei der erste Teil des Darms, genannt Zwölffingerdarm, und etwa 150-200 cm des Darms umgangen werden.",
-    "introP7": "Die Mini-Magenbypass-Operation kann als primäre Gewichtsverlustoperation verwendet werden oder für Menschen, die bereits Diät und tägliche Übungen versucht haben, aber keine angenehmen Ergebnisse erzielt haben, oder für Patienten, die eine Gewichtsverlustoperation wiederholen, weil die erste aus irgendeinem Grund nicht erfolgreich war.",
-    "howItHelpsTitle": "Wie kann mir die Mini-Magenbypass-Operation beim Abnehmen helfen?",
+    "tocItem1": "Wie kann der Mini-Magenbypass beim Abnehmen helfen?",
+    "tocItem2": "Gibt es Nebenwirkungen beim Mini-Magenbypass?",
+    "tocItem3": "Übernehmen Versicherungen die Operationskosten?",
+    "tocItem4": "Was Sie vor dem Mini-Magenbypass wissen sollten",
+    "introP1": "Für viele Menschen weltweit ist Übergewicht und Fettleibigkeit ein sehr ernstes Problem.",
+    "introP2": "Tatsächlich kann Fettleibigkeit die direkte Ursache für Schlaganfälle, Blutzuckerprobleme, Blutdruckprobleme, Atemprobleme und viele andere Gesundheitsprobleme sein.",
+    "introP3": "Es gibt verschiedene Arten der Gewichtsverlustchirurgie, die sich in ihren Schritten unterscheiden, aber alle die gleichen positiven Ergebnisse teilen.",
+    "introP4": "Diese Operation gilt als eine der effektivsten Gewichtsverlust-Operationen.",
+    "introP5": "Die Grundidee der Mini-Magenbypass-Operation ist es, das Magenvolumen zu reduzieren, um die vom Patienten aufgenommene Nahrungsmenge zu verringern.",
+    "introP6": "Die Oberseite des Magens wird geklammert, um ein 50-ml-Rohr zu bilden, das der neue kleine Magen sein wird.",
+    "introP7": "Der Mini-Magenbypass kann als primäre Gewichtsverlust-Operation oder für Personen verwendet werden, die bereits Diät und Bewegung versucht haben.",
+    "howItHelpsTitle": "Mini-Magenbypass: Erwarteter Gewichtsverlust und Gesundheitsvorteile",
     "howItHelpsIntro": "Die Mini-Magenbypass-Operation hilft Ihnen auf verschiedene Weise beim Abnehmen:",
     "benefit1Title": "Reduziert das Hungergefühl",
-    "benefit1Desc": "Der entfernte Teil des Magens ist für das Hungerhormon verantwortlich. Wenn er entfernt wird, wird das Hungergefühl reduziert, was zu weniger Gewicht führt.",
+    "benefit1Desc": "Der entfernte Magenanteil ist für das Hungerhormon verantwortlich. Wenn er entfernt wird, verringert sich das Hungergefühl.",
     "benefit2Title": "Reduziert die Nahrungsaufnahme",
-    "benefit2Desc": "Durch die Reduzierung der Nahrungsmenge, die in den Magen gelangt, da das Volumen Ihres Magens nach der Operation kleiner geworden ist.",
+    "benefit2Desc": "Durch die Reduzierung der in den Magen gelangenden Nahrungsmenge, da das Magenvolumen nach der Operation kleiner ist.",
     "benefit3Title": "Reduziert die Kalorienaufnahme",
-    "benefit3Desc": "Durch die Reduzierung der Kalorienmenge, die Sie aus der Nahrung aufnehmen, was zu einem gesünderen Lebensstil führt.",
+    "benefit3Desc": "Durch die Reduzierung der aus der Nahrung aufgenommenen Kalorien, was zu einem gesünderen Lebensstil führt.",
     "additionalBenefitsTitle": "Zusätzliche Vorteile",
-    "additionalBenefitsDesc": "Nach zwei Jahren werden Sie etwa 80% Ihres Gewichts verlieren, und ernsthafte Gesundheitsprobleme und Krankheiten wie Typ-2-Diabetes, Blutzuckerkrankheiten, Herzprobleme werden sich nach dieser Operation verbessern oder sogar verschwinden.",
-    "sideEffectsTitle": "Gibt es Nebenwirkungen bei der Mini-Magenbypass-Operation?",
-    "sideEffectsIntro": "Wie bei jeder anderen Operation in jedem anderen Bereich gibt es einige Nebenwirkungen, die während der Operation oder nach der Operation auftreten können. Obwohl die Mini-Magenbypass-Operation sicher ist, gibt es noch einige Risiken, die wir erwähnen können:",
+    "additionalBenefitsDesc": "Nach zwei Jahren verlieren Sie etwa 80% Ihres Gewichts und ernste Gesundheitsprobleme wie Typ-2-Diabetes verbessern sich oder verschwinden sogar.",
+    "sideEffectsTitle": "Gibt es Nebenwirkungen beim Mini-Magenbypass?",
+    "sideEffectsIntro": "Wie bei jeder Operation gibt es einige Nebenwirkungen, die während oder nach der Operation auftreten können:",
     "sideEffects": [
-      "Blutungen aus dem Inneren Ihres Magens oder Ihrer Magenwunde.",
-      "Sie könnten Schmerzen verspüren, wenn der Arzt oder das medizinische Team Ihnen keine starke Vollnarkose gegeben hat.",
-      "Magenlecks: Die Magenflüssigkeiten können aus der Nahtlinie in Ihrem Magen austreten.",
-      "Stenose: Das bedeutet, dass ein Teil Ihres Magens sich schließen könnte, was eine Verstopfung in Ihrem Magen verursacht.",
-      "Vitaminmangel: Der entfernte Teil Ihres Magens ist teilweise für die Vitaminaufnahme verantwortlich, wenn Sie also diesen Teil verlieren, werden die Vitamine in Ihrem Körper abnehmen."
+      "Blutungen aus dem Mageninneren oder der Wunde.",
+      "Schmerzen bei unzureichender Vollnarkose.",
+      "Magenlecks: Magenflüssigkeit kann aus der Nahtlinie austreten.",
+      "Stenose: Verschluss eines Magenteils.",
+      "Vitaminmangel."
     ],
-    "sideEffectsConclusion": "Diese Risiken gelten als frühe Komplikationen und glücklicherweise sind 95% der Fälle erfolgreich. Es gibt noch einige späte Komplikationen, die auftreten können, wie innere Hernien, obwohl das Risiko einer inneren Hernie nach dem Mini-Bypass erheblich niedriger ist als nach dem Standard-Magenbypass. Manchmal können sich die Darmschlingen im Bauch verheddern und stecken bleiben. In diesem Fall ist eine weitere Operation notwendig, um das Problem zu beheben.",
-    "insuranceTitle": "Übernehmen Versicherungen die Kosten der Operation?",
-    "insuranceDesc": "Die meisten Versicherungsgesellschaften übernehmen die Operationskosten, wenn der Patient die BMI-Index-Bedingung erfüllt. Natürlich ändert sich diese Information von Land zu Land, daher ist es besser, diese Information in Ihrem Land zu erfragen.",
-    "thingsToKnowTitle": "Was Sie vor der Mini-Magenbypass-Operation wissen müssen",
+    "sideEffectsConclusion": "Diese Risiken gelten als Frühkomplikationen und 95% der Fälle sind erfolgreich.",
+    "insuranceTitle": "Übernehmen Versicherungen die Kosten?",
+    "insuranceDesc": "Die meisten Versicherungen übernehmen die Kosten, wenn der Patient die BMI-Bedingung erfüllt. Dies variiert von Land zu Land.",
+    "thingsToKnowTitle": "Was Sie vor dem Mini-Magenbypass wissen sollten",
     "thingsToKnow": [
-      "Patienten, die diese Operation haben möchten, sollten mindestens 35 kg/m² im BMI-Index erreichen.",
-      "Ein Patient wird eine Stunde bis 90 Minuten im Krankenhaus für die Operation verbringen.",
-      "Ein Patient muss drei bis vier Tage im Krankenhaus bleiben, um sicherzustellen, dass nichts schief geht.",
-      "Ein Patient wird zwischen 70% und 85% des Gesamtgewichts verlieren.",
-      "Ein Patient muss wissen, dass die Krankheit nach maximal drei Wochen verschwinden wird.",
-      "Ein Patient muss lebenslang Nahrungsergänzungsmittel einnehmen.",
-      "Ein Patient muss die Anweisungen des Arztes und die vorgegebenen Diäten befolgen."
+      "Patienten sollten einen BMI von mindestens 35 kg/m² haben.",
+      "Der Patient verbringt 60-90 Minuten im Krankenhaus für die Operation.",
+      "Der Patient muss 3-4 Tage im Krankenhaus bleiben.",
+      "Der Patient verliert zwischen 70% und 85% des Gesamtgewichts.",
+      "Die Beschwerden klingen in maximal drei Wochen ab.",
+      "Der Patient muss lebenslang Nahrungsergänzungsmittel einnehmen.",
+      "Der Patient muss die Anweisungen des Arztes und Diätpläne befolgen."
     ],
-    "thingsToKnowConclusion": "Am Ende sollten Sie wissen, dass obwohl es sicher und nicht sehr schwer ist, der Arzt oder das medizinische Team alle Informationen über Ihren Gesundheitszustand kennen sollte, einschließlich Ihres Krankengeschichtsberichts, um Probleme während der Operation oder nach der Operation während der Erholungszeit zu vermeiden.",
+    "thingsToKnowConclusion": "Abschließend sollte der Arzt oder das medizinische Team alle Informationen über Ihren Gesundheitszustand kennen.",
     "ctaTitle": "Bereit, mehr über den Mini-Magenbypass zu erfahren?",
-    "ctaDesc": "Kontaktieren Sie uns noch heute für eine kostenlose Beratung und erfahren Sie, wie die Mini-Magenbypass-Operation Ihnen helfen kann, Ihre Gewichtsverlustziele zu erreichen."
+    "ctaDesc": "Kontaktieren Sie uns noch heute für eine kostenlose Beratung."
   },
   "gastricBalloon": {
     "title": "Intragastrischer Ballon",
     "heroTitle": "Magenballon Istanbul, Türkei",
-    "heroSubtitle": "Eine nicht-chirurgische Gewichtsverlustlösung, die Ihnen hilft, Gewicht zu verlieren, ohne dauerhafte Veränderungen an Ihrem Körper.",
-    "desc": "Ein nicht-invasives endoskopisches Verfahren, bei dem ein mit Kochsalzlösung gefüllter Ballon im Magen platziert wird, um ein Sättigungsgefühl zu erzeugen und die Nahrungsaufnahme zu reduzieren.",
+    "heroSubtitle": "Eine nicht-chirurgische Gewichtsverlustlösung, die Ihnen beim Abnehmen hilft ohne permanente Veränderungen am Körper.",
+    "desc": "Ein nicht-invasives endoskopisches Verfahren, bei dem ein mit Kochsalzlösung gefüllter Ballon in den Magen eingesetzt wird, um ein Sättigungsgefühl zu erzeugen.",
     "advantages": [
       "Nicht-chirurgisch / Nicht-invasiv",
       "Sehr sicheres Verfahren",
-      "Keine dauerhaften Veränderungen der Anatomie"
+      "Keine dauerhaften anatomischen Veränderungen"
     ],
     "disadvantages": [
-      "Vorübergehende Lösung (6 Monate)",
-      "Weniger Gewichtsverlust als bei Operation"
+      "Temporäre Lösung (6 Monate)",
+      "Weniger Gewichtsverlust als Chirurgie"
     ]
   },
   "gastricBand": {
-    "title": "Verstellbares Magenband",
-    "desc": "Ein Band wird um den oberen Teil des Magens gelegt, um einen kleineren Beutel zu schaffen. Die Straffheit des Bandes kann durch Injektion von Kochsalzlösung angepasst werden.",
+    "title": "Einstellbares Magenband",
+    "desc": "Ein Band wird um den oberen Teil des Magens gelegt, um einen kleineren Beutel zu schaffen. Die Spannung kann durch Injektion von Kochsalzlösung angepasst werden.",
     "advantages": [
-      "Niedrigstes Komplexitätsniveau",
+      "Geringste Komplexität",
       "Kurzer Krankenhausaufenthalt (<24 Stunden)",
       "Reversibel und einstellbar",
-      "Normalerweise keine Vitaminprobleme"
+      "In der Regel keine Vitaminprobleme"
     ],
     "disadvantages": [
       "Langsamerer Gewichtsverlust",
@@ -163,376 +441,98 @@
     ]
   },
   "duodenalSwitch": {
-    "title": "Duodenal Switch",
-    "heroTitle": "Duodenal Switch Istanbul, Türkei",
-    "heroSubtitle": "Eine der effektivsten Gewichtsverlustoperationen für Patienten mit schwerer Fettleibigkeit, die signifikante und dauerhafte Ergebnisse bietet.",
-    "desc": "Ein komplexes Verfahren, das Schlauchmagen mit Darmbypass kombiniert. Es bietet den signifikantesten Gewichtsverlust, birgt aber höhere Risiken.",
+    "title": "Duodenal-Switch",
+    "heroTitle": "Duodenal-Switch Istanbul, Türkei",
+    "heroSubtitle": "Eine der effektivsten Gewichtsverlust-Operationen für Patienten mit schwerer Adipositas.",
+    "desc": "Ein komplexes Verfahren, das Sleeve-Gastrektomie mit Darmbypass kombiniert. Bietet den höchsten Gewichtsverlust, aber höhere Risiken.",
     "advantages": [
       "Schnellster Gewichtsverlust",
-      "Verlieren Sie ~70% des Übergewichts"
+      "Verlust von ~70% des Übergewichts"
     ],
     "disadvantages": [
       "Komplizierteste Operation",
-      "Hohes Risiko von Vitaminmangel",
+      "Hohes Risiko für Vitaminmangel",
       "Erfordert strenge Nachsorge"
     ],
-    "introP1": "Heutzutage klagen viele Menschen auf der ganzen Welt über Fettleibigkeitsprobleme, insbesondere da sie für viele schwerwiegende Gesundheitsprobleme wie Herzinfarkte, Schlaganfälle, Leber- und Nierenprobleme und viele weitere Gesundheitsprobleme verantwortlich ist. Daher haben Hunderttausende von Menschen, die an Fettleibigkeit leiden, begonnen, sich Adipositas-Operationen zu unterziehen.",
-    "introP2": "Es gibt verschiedene Arten von Adipositas-Operationen, jede Art hat ihre eigenen Werkzeuge und Durchführungsweise, aber alle Arten teilen das gleiche Ziel, nämlich bei der Behandlung von Fettleibigkeitsproblemen zu helfen.",
-    "introP3": "Die Duodenal-Switch-Operation ist eine der Arten von Adipositas-Operationen und eine sehr effiziente.",
+    "introP1": "Heutzutage klagen viele Menschen weltweit über Adipositas-Probleme.",
+    "introP2": "Es gibt verschiedene Arten der Adipositas-Chirurgie mit eigenen Werkzeugen und Methoden.",
+    "introP3": "Duodenal-Switch ist eine der effizientesten Arten der Adipositas-Chirurgie.",
     "statWeightLoss": "Gewichtsverlust",
-    "statMonths": "Monate bis Ergebnisse",
+    "statMonths": "Monate bis Ergebnis",
     "statBest": "Langzeitergebnisse",
     "faqs": [
       {
-        "question": "Was ist eine Duodenal-Switch-Operation?",
-        "answer": "Oder wie einige Ärzte es nennen \"Magenreduktion mit Duodenal-Switch\" ist eine Gewichtsverlustoperation, die sowohl restriktive als auch malabsorptive Aspekte beinhaltet. Der restriktive Teil der Operation beinhaltet das Entfernen von bis zu 70% des Magens und eines Teils des Zwölffingerdarms."
+        "question": "Was ist Duodenal-Switch-Chirurgie?",
+        "answer": "Eine Gewichtsverlust-Operation mit restriktiven und malabsorptiven Aspekten."
       },
       {
-        "question": "Ist es ähnlich wie ein Magenbypass?",
-        "answer": "Der Duodenal-Switch ist in seinen Zielen dem Magenbypass ähnlich, da er die Menge an Nahrung, die in Ihren Magen gelangt, reduziert und die Menge an absorbierten Kalorien verringert, aber da es sich mehr um eine malabsorptive Operation handelt, verursacht sie mehr Nebenwirkungen als andere Operationsarten."
+        "question": "Ist es ähnlich wie Magenbypass?",
+        "answer": "Der Duodenal-Switch ist in seinen Zielen dem Magenbypass ähnlich."
       },
       {
-        "question": "Ist der Duodenal-Switch besser als andere Arten von Adipositas-Operationen?",
-        "answer": "Einige Ärzte schlagen vor, dass er langfristig besser ist, weil beim Duodenal-Switch der Magen größer bleibt, sodass er im Vergleich zu anderen Adipositas-Operationen mehr Nahrung aufnehmen kann, was Ihnen langfristig zu einer besseren Körperform verhilft."
+        "question": "Ist Duodenal-Switch besser als andere Typen?",
+        "answer": "Einige Ärzte halten ihn langfristig für besser, da der Magen größer bleibt."
       },
       {
-        "question": "Kann jeder eine Duodenal-Switch-Operation haben? Wie weiß ich, ob ich ein Kandidat bin?",
-        "answer": "Nicht jeder kann eine Duodenal-Switch-Operation haben, nur der Arzt oder das medizinische Team kann das entscheiden und die Entscheidung wird nach Ihrem BMI \"Body Mass Index\" getroffen - wenn er größer als 40 ist, können Sie die Operation haben. Natürlich gibt es andere Dinge zu berücksichtigen, daher ist es sehr wichtig, dass Ihr Arzt entscheidet, ob Sie die Operation haben können oder nicht."
+        "question": "Kann jeder die Operation bekommen?",
+        "answer": "Nicht jeder kann die Operation bekommen, der BMI muss über 40 liegen."
       },
       {
-        "question": "Wie lang ist die Erholungszeit nach einer Duodenal-Switch-Operation?",
-        "answer": "Es unterscheidet sich von Patient zu Patient, aber für die meisten Patienten dauert es zwischen drei und vier Wochen Erholung. Auch wenn die Operation von außen nicht viele Narben hinterlässt, erfordert sie viel Arbeit von innen."
+        "question": "Wie lang ist die Genesungszeit?",
+        "answer": "Drei bis vier Wochen für die meisten Patienten."
       },
       {
-        "question": "Kann ich nach der Erholungszeit wieder arbeiten und mit dem Training beginnen?",
-        "answer": "Es ist besser, eine weitere Woche weg von Stress und anstrengenden Aktivitäten zu nehmen, nur um sicherzustellen, dass sich Ihr Körper an die neue Situation nach der Operation angepasst hat."
+        "question": "Kann ich danach wieder arbeiten?",
+        "answer": "Nehmen Sie sich eine zusätzliche Woche Ruhe von Stress und anstrengenden Aktivitäten."
       },
       {
-        "question": "Wie lange dauert es, bis ich nach der Operation Gewicht verliere?",
-        "answer": "Die meisten Patienten, die eine Duodenal-Switch-Operation hatten, verlieren ihr Gewicht in den ersten 12 bis 18 Monaten. Deshalb fühlt sich nicht jeder ermutigt, diese Art von Adipositas-Operation zu haben."
+        "question": "Wie schnell verliere ich Gewicht?",
+        "answer": "Die meisten Patienten verlieren ihr Gewicht in den ersten 12-18 Monaten."
       },
       {
-        "question": "Ist es möglich, dass ich nach dem Abnehmen wieder zunehme?",
-        "answer": "Das kann passieren, wenn Sie zum alten ungesunden Lebensstil zurückkehren, aber es ist bekannt, dass die Duodenal-Operation den besten langanhaltenden Gewichtsverlust unter den Adipositas-Operationsarten hat."
+        "question": "Kann ich wieder zunehmen?",
+        "answer": "Möglich bei ungesundem Lebensstil, aber Duodenal-Switch hat die besten Langzeitergebnisse."
       },
       {
-        "question": "Muss ich nach der Operation bestimmte Lebensmittel vermeiden?",
-        "answer": "Es ist schwer, bestimmte Lebensmittelarten zu nennen, da es von Patient zu Patient unterschiedlich ist, aber es gibt einige Lebensmittelarten, von denen Sie sich unbedingt fernhalten sollten, wie fettiges Essen, da es Durchfall verursacht. In jedem Fall ist es wichtig, die Antworten auf diese Frage vom Arzt zu bekommen, nachdem er Ihren Körper untersucht hat."
+        "question": "Muss ich bestimmte Lebensmittel meiden?",
+        "answer": "Fettiges Essen sollte vermieden werden, da es Durchfall verursacht."
       },
       {
-        "question": "Wie viel Gewicht werde ich nach der Operation verlieren?",
-        "answer": "Die meisten Patienten verlieren zwischen 40 und 60% ihres Gewichts. Sie müssen jedoch wissen, dass nichts davon passieren wird, wenn Sie sich nicht extra anstrengen und Ihren Lebensstil zu einem gesünderen ändern."
+        "question": "Wie viel Gewicht werde ich verlieren?",
+        "answer": "Die meisten Patienten verlieren 40-60% ihres Gewichts."
       },
       {
-        "question": "Verhindert die Duodenal-Switch-Operation eine Schwangerschaft? Oder hat sie negative Auswirkungen auf schwangere Körper?",
-        "answer": "Die Operation verhindert keine Schwangerschaft. Wir empfehlen jedoch, dass eine Frau in den ersten 18 Monaten keine Schwangerschaft erlebt, da sie in dieser Zeit Gewicht verliert und dies ihren Körper negativ beeinflussen könnte. In jedem Fall helfen Gewichtsverlustoperationen Frauen, eine gesündere Schwangerschaftserfahrung zu haben (nach dem maximalen Gewichtsverlust)."
+        "question": "Verhindert die Operation eine Schwangerschaft?",
+        "answer": "Nein, aber wir empfehlen in den ersten 18 Monaten keine Schwangerschaft."
       },
       {
-        "question": "Kostet die Duodenal-Switch-Operation mehr als andere Adipositas-Operationen?",
-        "answer": "Sie kostet etwas mehr als andere Arten von Adipositas-Operationen, da sie mehr Arbeit und Aufwand vom medizinischen Team und den Chirurgen erfordert."
+        "question": "Kostet es mehr als andere Operationen?",
+        "answer": "Etwas mehr, da es mehr Aufwand vom medizinischen Team erfordert."
       }
     ],
     "diabetesTitle": "Duodenal-Switch bei Diabetes",
-    "diabetesP1": "Die Duodenal-Switch-Operation ist besonders wirksam für Patienten mit Typ-2-Diabetes. Das Verfahren hilft nicht nur bei signifikantem Gewichtsverlust, sondern hat auch gezeigt, dass es Diabetes bei vielen Patienten verbessert oder sogar auflöst.",
-    "diabetesP2": "Die malabsorptive Komponente der Operation verändert, wie der Körper Nahrung verarbeitet und kann zu einer verbesserten Insulinsensitivität und Blutzuckerkontrolle führen. Viele Patienten sehen Verbesserungen bei ihrem Diabetes, noch bevor ein signifikanter Gewichtsverlust eintritt.",
-    "diabetesHighlight": "Studien haben gezeigt, dass der Duodenal-Switch eine der höchsten Diabetesremissionsraten unter allen bariatrischen Verfahren hat, was ihn zu einer ausgezeichneten Wahl für Patienten mit schwerer Fettleibigkeit macht, die durch Diabetes kompliziert wird.",
-    "ctaTitle": "Ist der Duodenal-Switch das Richtige für Sie?",
-    "ctaDesc": "Kontaktieren Sie uns heute für eine kostenlose Beratung, um festzustellen, ob die Duodenal-Switch-Operation die richtige Option für Ihre Gewichtsverlust- und Diabetesmanagementziele ist."
+    "diabetesP1": "Die Duodenal-Switch-Operation ist besonders wirksam bei Typ-2-Diabetes-Patienten.",
+    "diabetesP2": "Die malabsorptive Komponente verändert die Nahrungsverarbeitung und kann die Insulinempfindlichkeit verbessern.",
+    "diabetesHighlight": "Studien zeigen, dass Duodenal-Switch eine der höchsten Diabetesremissionsraten aller bariatrischen Verfahren hat.",
+    "ctaTitle": "Ist Duodenal-Switch das Richtige für Sie?",
+    "ctaDesc": "Kontaktieren Sie uns für eine kostenlose Beratung."
   },
   "esg": {
     "title": "Endoskopische Sleeve-Gastroplastik",
-    "heroTitle": "ESG (Endoskopische Sleeve-Gastroplastik) Istanbul, Türkei",
-    "heroSubtitle": "Ein minimal-invasives, schnittfreies Verfahren, das die Magengröße ohne Operation reduziert.",
-    "desc": "ESG ist ein Gewichtsverlustverfahren, das durch ein Endoskop durchgeführt wird und die Magenkapazität um 70-80% ohne externe Schnitte reduziert."
+    "heroTitle": "ESG Istanbul, Türkei",
+    "heroSubtitle": "Ein minimal-invasives, schnittfreies Verfahren zur Magenverkleinerung ohne Operation.",
+    "desc": "ESG ist ein Gewichtsverlust-Verfahren durch ein Endoskop, das die Magenkapazität um 70-80% ohne äußere Schnitte reduziert."
   },
   "transitBipartition": {
     "title": "Transit-Bipartition",
     "heroTitle": "Transit-Bipartition Istanbul, Türkei",
-    "heroSubtitle": "Eine innovative metabolische Operation, die die Vorteile des Schlauchmagens mit dem Darmbypass kombiniert.",
-    "desc": "Die Transit-Bipartition ist eine metabolische Operation, die Schlauchmagen mit einem partiellen Darmbypass kombiniert, um die Diabeteskontrolle und den Gewichtsverlust zu verbessern."
+    "heroSubtitle": "Eine innovative metabolische Chirurgie, die Sleeve-Gastrektomie mit Darmbypass kombiniert.",
+    "desc": "Transit-Bipartition kombiniert Sleeve-Gastrektomie mit teilweisem Darmbypass zur Verbesserung der Diabeteskontrolle und des Gewichtsverlusts."
   },
   "postBariatric": {
     "title": "Post-Bariatrische Chirurgie",
-    "heroTitle": "Post-Bariatrische Körperkonturierung Istanbul, Türkei",
-    "heroSubtitle": "Vervollständigen Sie Ihre Gewichtsverlust-Reise mit Körperkonturierungsverfahren, die entwickelt wurden, um überschüssige Haut nach erheblichem Gewichtsverlust zu entfernen.",
-    "desc": "Nach erheblichem Gewichtsverlust bleiben viele Patienten mit überschüssiger Haut zurück. Die post-bariatrische Chirurgie hilft, den Körper neu zu formen und zu konturieren."
-  },
-  "comparison": {
-    "title": "Vergleichen Sie alle Verfahren auf einen Blick",
-    "subtitle": "Finden Sie das richtige Verfahren zur Gewichtsreduktion basierend auf Ihrem BMI, Budget und Ihren Genesungspräferenzen.",
-    "procedure": "Verfahren",
-    "type": "Typ",
-    "bmiRange": "BMI-Bereich",
-    "startingPrice": "Startpreis",
-    "hospitalStay": "Krankenhausaufenthalt",
-    "expectedWeightLoss": "Erwarteter Gewichtsverlust",
-    "recovery": "Genesung",
-    "surgical": "Chirurgisch",
-    "nonSurgical": "Nicht-chirurgisch",
-    "priceNote": "Alle Preise sind all-inclusive. Alle Entspannungs- und Luxuspakete beinhalten die Operation mit Dr. Murat Ustun. Endgültige Preise werden nach einer kostenlosen Beratung bestätigt.",
-    "gastricSleeve": "Magenbypass",
-    "gastricBypass": "Magenbypass",
-    "gastricBalloon": "Magenballon",
-    "esg": "ESG",
-    "duodenalSwitch": "Duodenal Switch",
-    "bmi35plus": "35+",
-    "bmi40plus": "40+ (oder 35+ mit Begleiterkrankungen)",
-    "bmi30to40": "30–40",
-    "bmi50plus": "50+ (oder 40+ mit Begleiterkrankungen)",
-    "stay2to3": "2–3 Tage",
-    "staySameDay": "Am selben Tag",
-    "stay1to2": "1–2 Tage",
-    "stay3to4": "3–4 Tage",
-    "loss60to70": "60–70% Übergewicht",
-    "loss70to80": "70–80% Übergewicht",
-    "loss10to15": "10–15% des Gesamtgewichts",
-    "loss15to20": "15–20% des Gesamtgewichts",
-    "loss70to85": "70–85% Übergewicht",
-    "recovery2to3weeks": "2–3 Wochen",
-    "recovery1to3days": "1–3 Tage",
-    "recovery3to4weeks": "3–4 Wochen"
-  },
-  "packages": {
-    "sleeveBasic": {
-      "name": "Basis Magenbypass",
-      "features": [
-        "Erfahrenes chirurgisches Team",
-        "JCI-akkreditiertes Krankenhaus (2 Tage)",
-        "Alle präoperativen Tests und Beratungen",
-        "VIP-Flughafenübertragung",
-        "Diätassistentenunterstützung"
-      ]
-    },
-    "sleeveRelaxation": {
-      "name": "Entspannungs Magenbypass",
-      "features": [
-        "Operation mit Dr. Murat Ustun",
-        "JCI-akkreditiertes Krankenhaus (3 Tage)",
-        "Alle präoperativen Tests und Beratungen",
-        "VIP-Flughafenübertragung",
-        "UK-registrierte Diätassistentenunterstützung"
-      ]
-    },
-    "sleeveLuxury": {
-      "name": "Luxus Magenbypass",
-      "features": [
-        "Operation mit Dr. Murat Ustun",
-        "JCI-akkreditiertes Krankenhaus (3 Tage)",
-        "Alle präoperativen Tests und Beratungen",
-        "VIP-Flughafenübertragung",
-        "3 Nächte Radisson Hotelunterkunft",
-        "UK-registrierte Diätassistentenunterstützung",
-        "1 Monat Nahrungsergänzungsmittel",
-        "Lokale UK-Pflegeunterstützung an 8 Standorten"
-      ]
-    },
-    "bypassBasic": {
-      "name": "Basis Magenbypass",
-      "features": [
-        "Erfahrenes chirurgisches Team",
-        "JCI-akkreditiertes Krankenhaus (2 Tage)",
-        "Alle präoperativen Tests und Beratungen",
-        "VIP-Flughafenübertragung",
-        "Diätassistentenunterstützung"
-      ]
-    },
-    "bypassRelaxation": {
-      "name": "Entspannungs Magenbypass",
-      "features": [
-        "Operation mit Dr. Murat Ustun",
-        "JCI-akkreditiertes Krankenhaus (3 Tage)",
-        "Alle präoperativen Tests und Beratungen",
-        "VIP-Flughafenübertragung",
-        "UK-registrierte Diätassistentenunterstützung"
-      ]
-    },
-    "bypassLuxury": {
-      "name": "Luxus Magenbypass",
-      "features": [
-        "Operation mit Dr. Murat Ustun",
-        "JCI-akkreditiertes Krankenhaus (3 Tage)",
-        "Alle präoperativen Tests und Beratungen",
-        "VIP-Flughafenübertragung",
-        "3 Nächte Radisson Hotelunterkunft",
-        "UK-registrierte Diätassistentenunterstützung",
-        "1 Monat Nahrungsergänzungsmittel",
-        "Lokale UK-Pflegeunterstützung an 8 Standorten"
-      ]
-    },
-    "balloonOrbera": {
-      "name": "Endoskopischer Orbera Ballon",
-      "features": [
-        "Flughafenübertragungen",
-        "Umfassende präoperative Tests",
-        "Endoskopie",
-        "Anästhesie",
-        "2 Nächte Unterkunft",
-        "Diätassistentenunterstützung"
-      ]
-    },
-    "balloonAllurion": {
-      "name": "Allurion Schluckballon",
-      "features": [
-        "Flughafenübertragungen",
-        "Umfassende präoperative Tests",
-        "Endoskopie",
-        "Anästhesie",
-        "1 Nacht Unterkunft",
-        "Diätassistentenunterstützung"
-      ]
-    },
-    "esgRelaxation": {
-      "name": "ESG Entspannung",
-      "features": [
-        "Modernes Liv Krankenhaus",
-        "Verfahren mit Dr. Murat Ustun (Pionier der ESG in der Türkei)",
-        "VIP Flughafenübertragungen",
-        "Alle präoperativen Tests und Beratungen",
-        "OR- und Krankenhauskosten",
-        "2 Tage Aufnahme in einem privaten Zimmer"
-      ]
-    },
-    "esgLuxury": {
-      "name": "ESG Luxus",
-      "features": [
-        "Modernes Liv Krankenhaus",
-        "Verfahren mit Dr. Murat Ustun (Pionier der ESG in der Türkei)",
-        "VIP Flughafenübertragungen",
-        "Alle präoperativen Tests und Beratungen",
-        "OR- und Krankenhauskosten",
-        "2 Tage Aufnahme in einem privaten Zimmer",
-        "2 Tage Unterkunft im Radisson Hotel",
-        "4 UK-registrierte Diätassistenten Termine",
-        "1 Monat Nahrungsergänzungsmittel und Multivitaminpaket"
-      ]
-    },
-    "dsRelaxation": {
-      "name": "Duodenal Switch Entspannung",
-      "features": [
-        "Operation mit Dr. Murat Ustun",
-        "JCI-akkreditiertes Krankenhaus (3 Tage)",
-        "Alle präoperativen Tests und Beratungen",
-        "VIP-Flughafenübertragung",
-        "UK-registrierte Diätassistentenunterstützung"
-      ]
-    },
-    "dsLuxury": {
-      "name": "Duodenal Switch Luxus",
-      "features": [
-        "Operation mit Dr. Murat Ustun",
-        "JCI-akkreditiertes Krankenhaus (3 Tage)",
-        "Alle präoperativen Tests und Beratungen",
-        "VIP-Flughafenübertragung",
-        "3 Nächte Radisson Hotelunterkunft",
-        "UK-registrierte Diätassistentenunterstützung",
-        "1 Monat Nahrungsergänzungsmittel",
-        "Lokale UK-Pflegeunterstützung an 8 Standorten"
-      ]
-    },
-    "bypassTitle": "Magenbypass-Pakete",
-    "bypassSubtitle": "Wählen Sie das richtige Magenbypass-Paket für Ihre Bedürfnisse",
-    "balloonTitle": "Magenballon-Pakete",
-    "balloonSubtitle": "Wählen Sie das richtige Magenballon-Paket für Ihre Bedürfnisse",
-    "esgTitle": "ESG-Pakete",
-    "esgSubtitle": "Wählen Sie das richtige ESG-Paket für Ihre Bedürfnisse",
-    "dsTitle": "Duodenal Switch-Pakete",
-    "dsSubtitle": "Wählen Sie das richtige Duodenal Switch-Paket für Ihre Bedürfnisse"
-  },
-  "esgTreatment": {
-    "title": "Endoskopische Sleeve-Gastroplastik (ESG)",
-    "desc": "ESG ist ein minimalinvasives, nicht-chirurgisches Verfahren zur Gewichtsreduktion, das die Größe Ihres Magens um bis zu 70-80% reduziert, indem ein endoskopisches Nahtgerät durch den Mund eingeführt wird. Es sind keine Einschnitte erforderlich, was es ideal für Patienten mit einem BMI von 30-40 macht, die einen nicht-chirurgischen Ansatz bevorzugen.",
-    "advantages": [
-      "Nicht-chirurgisch — keine Einschnitte oder Narben",
-      "Kürzere Erholungszeit (Rückkehr zu normalen Aktivitäten in 1-3 Tagen)",
-      "Geringeres Komplikationsrisiko im Vergleich zu chirurgischen Optionen",
-      "Umkehrbares Verfahren",
-      "Erwarteter Gewichtsverlust von 15-20% des Gesamtgewichts",
-      "Entlassung am selben oder nächsten Tag",
-      "Durchgeführt unter Vollnarkose (~90 Minuten)"
-    ],
-    "disadvantages": [
-      "Weniger Gewichtsverlust als chirurgische Optionen wie Magenbypass",
-      "Kann wiederholte Verfahren für optimale Ergebnisse erfordern",
-      "Nicht geeignet für BMI über 40",
-      "Relativ neu mit weniger Langzeitdaten"
-    ]
-  },
-  "postBariatricSection": {
-    "sectionTitle": "Post-bariatrische plastische Chirurgie",
-    "desc1": "Nach erheblichem Gewichtsverlust nach einer bariatrischen Operation haben viele Patienten überschüssige, schlaffe Haut. Die post-bariatrische Körperformung entfernt diese überschüssige Haut und formt den Körper um, um Ihnen zu helfen, Ihre Transformation voll zu genießen.",
-    "desc2": "Unsere Verfahren umfassen Abdominoplastik (Bauchstraffung), Oberarmstraffung, Oberschenkelstraffung, Körperstraffung, Bruststraffung und Gesichts-/Halsstraffung. Diese Operationen können die Körperform dramatisch verbessern und Hautreizungen beseitigen.",
-    "learnMore": "Erfahren Sie mehr über Körperformung",
-    "imageAlt": "Post-bariatrische Körperformungsverfahren",
-    "imageCaption": "Optionen zur Körperformung nach einer Gewichtsverlustoperation"
-  },
-  "faqSection": {
-    "title": "Häufig gestellte Fragen zur Gewichtsverlustchirurgie in der Türkei",
-    "subtitle": "Alles, was Sie über bariatrische Chirurgie im Istanbul Bariatric Center wissen müssen",
-    "faqs": [
-      {
-        "question": "Wie viel kostet die Gewichtsverlustchirurgie in Istanbul?",
-        "answer": "All-inclusive-Pakete im Istanbul Bariatric Center beginnen bei £1,650 für einen Magenballon, £2,950 für einen Magenbypass, £3,350 für einen Magenbypass und £4,950 für ESG. Jedes Paket deckt Ihren Aufenthalt im JCI-akkreditierten Krankenhaus, präoperative Tests, VIP-Flughafenübertragungen und Nachsorge durch Diätassistenten ab."
-      },
-      {
-        "question": "Welches bariatrische Verfahren ist das richtige für mich?",
-        "answer": "Das beste Verfahren hängt von Ihrem BMI, Ihrer Krankengeschichte und Ihren Gewichtsverlustzielen ab. Der Magenbypass eignet sich für BMI 35+, der Magenbypass wird für BMI 40+ oder Patienten mit metabolischen Erkrankungen empfohlen, der Magenballon ist eine nicht-chirurgische Option für BMI 30–40, und ESG bietet einen minimalinvasiven Ansatz für BMI 30–40."
-      },
-      {
-        "question": "Ist die bariatrische Chirurgie im Istanbul Bariatric Center sicher?",
-        "answer": "Absolut. Alle Verfahren werden im JCI-akkreditierten Liv Hospital in Istanbul von international ausgebildeten Chirurgen durchgeführt. Dr. Murat Ustun, der Gründer und leitende Chirurg des Zentrums, hat Tausende von erfolgreichen Operationen mit hervorragenden Sicherheitsresultaten durchgeführt."
-      },
-      {
-        "question": "Was ist in jedem Operationspaket enthalten?",
-        "answer": "Jedes Paket umfasst die Aufnahme in ein JCI-akkreditiertes Krankenhaus, vollständige präoperative Tests, Gebühren für Chirurgen und Anästhesie, VIP-Flughafenübertragung und Unterstützung durch Diätassistenten. Entspannungs- und Luxustarife fügen Dr. Murat Ustun als Ihren operierenden Chirurgen, verlängerte Krankenhausaufenthalte, Radisson Hotelunterkunft, Nachsorge durch UK-registrierte Diätassistenten und Nahrungsergänzungsmittelpakete hinzu."
-      },
-      {
-        "question": "Wie viel Gewicht kann ich erwarten zu verlieren?",
-        "answer": "Die Ergebnisse variieren je nach Verfahren: Patienten mit Magenbypass verlieren typischerweise 60–70% des Übergewichts, Magenbypass 70–80%, Magenballon 10–15% des Gesamtgewichts und ESG 15–20% des Gesamtgewichts — alles innerhalb der ersten 12–18 Monate."
-      },
-      {
-        "question": "Wie sieht der Genesungszeitraum aus?",
-        "answer": "Patienten mit Magenbypass und Bypass bleiben 2–3 Tage im Krankenhaus und kehren innerhalb von 2–3 Wochen zu ihren täglichen Aktivitäten zurück. Der Magenballon ist ein Verfahren am selben Tag, und ESG-Patienten können innerhalb von 1–3 Tagen zu normalen Aktivitäten zurückkehren."
-      },
-      {
-        "question": "Erhalte ich nach der Rückkehr nach Hause Nachsorge?",
-        "answer": "Ja. Jeder Patient erhält einen strukturierten Nachsorgeplan, der die Anleitung durch Diätassistenten, Nachsorgeberatungen und Zugang zu unserem in Großbritannien ansässigen Patientensupport-Team umfasst, das an 8 Standorten im Vereinigten Königreich tätig ist."
-      },
-      {
-        "question": "Wer ist Dr. Murat Ustun?",
-        "answer": "Dr. Murat Ustun ist der Gründer und leitende bariatrische Chirurg im Istanbul Bariatric Center. Als Pionier der ESG (Endoskopische Sleeve-Gastroplastik) in der Türkei hat er Tausende von Gewichtsverlustverfahren — einschließlich Magenbypass, Magenbypass und Duodenal Switch — im Liv Hospital in Istanbul durchgeführt."
-      }
-    ]
-  },
-  "treatmentLinks": {
-    "title": "Entdecken Sie unsere Behandlungsseiten",
-    "subtitle": "Erfahren Sie mehr über jedes Verfahren im Detail",
-    "gastricSleeve": "Magenbypass-Operation",
-    "gastricSleevePrice": "Ab £2,950",
-    "miniBypass": "Mini Magenbypass",
-    "miniBypassDesc": "Spezialverfahren",
-    "gastricBalloon": "Magenballon",
-    "gastricBalloonPrice": "Ab £1,650",
-    "esg": "ESG-Verfahren",
-    "esgPrice": "Ab £4,950",
-    "duodenalSwitch": "Duodenal Switch",
-    "duodenalSwitchPrice": "Ab £4,400",
-    "transitBipartition": "Transit Bipartition",
-    "transitBipartitionDesc": "Fortgeschrittenes Verfahren",
-    "postBariatric": "Post-bariatrische Chirurgie",
-    "postBariatricDesc": "Körperformung",
-    "eligible": "Bin ich berechtigt?",
-    "eligibleDesc": "Kostenlose Gesundheitsbewertung",
-    "results": "Patientenergebnisse",
-    "resultsDesc": "Erfolgsgeschichten"
-  },
-  "whatsapp": {
-    "consultMessage": "Hallo, ich möchte mich über",
-    "packageMessage": "Hallo, ich interessiere mich für das"
-  },
-  "seo": {
-    "title": "Gewichtsverlustchirurgie in Istanbul 2026 — Magenbypass, Bypass, Ballon & ESG | All-Inclusive-Pakete",
-    "description": "Vergleichen Sie bariatrische Verfahren: Magenbypass ab £2,950, Bypass £3,350, Ballon £1,650, ESG £4,950. Dr. Murat Ustun im JCI-akkreditierten Liv Hospital.",
-    "heroAlt": "Aktiver gesunder Lebensstil nach bariatrischer Chirurgie",
-    "skipToContent": "Zum Hauptinhalt springen"
+    "heroTitle": "Post-Bariatrische Körperformung Istanbul, Türkei",
+    "heroSubtitle": "Vervollständigen Sie Ihre Gewichtsverlust-Reise mit Körperformungsverfahren.",
+    "desc": "Nach großem Gewichtsverlust bleibt oft überschüssige Haut. Post-bariatrische Chirurgie hilft den Körper neu zu formen."
   }
 }

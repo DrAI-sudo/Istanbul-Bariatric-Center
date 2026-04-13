@@ -1,54 +1,332 @@
 {
   "common": {
     "advantages": "Ventajas",
-    "thingsToConsider": "Consideraciones",
-    "consultFor": "Consultar para",
+    "thingsToConsider": "Aspectos a Considerar",
+    "consultFor": "Consultar sobre",
     "selectPackage": "SELECCIONAR PAQUETE",
     "popular": "POPULAR",
-    "bestDoctors": "Mejores Médicos",
+    "bestDoctors": "Mejores Doctores",
     "jciHospital": "Hospital Acreditado JCI",
     "airportPickup": "Recogida en Aeropuerto",
     "daysAccommodation": "Días de Alojamiento",
     "risks": "Riesgos",
     "faqs": "Preguntas Frecuentes",
-    "getQuote": "Obtener Cotización Gratis",
-    "bookConsultation": "Reservar Consulta Gratis",
+    "getQuote": "Obtener Presupuesto Gratis",
+    "bookConsultation": "Reservar Consulta Gratuita",
     "learnMore": "Más Información",
     "readMore": "Leer Más",
-    "whyTurkey": "¿Por qué Turquía?",
-    "packageOptions": "Opciones de Paquete"
+    "whyTurkey": "¿Por Qué Turquía?",
+    "packageOptions": "Opciones de Paquetes"
   },
   "main": {
     "title": "Tratamientos Bariátricos",
     "subtitle": "Ofrecemos una gama completa de procedimientos de pérdida de peso adaptados a sus necesidades específicas y condiciones de salud.",
-    "sleevePackageTitle": "Opciones de Paquete de Manga Gástrica",
-    "sleevePackageDesc": "En Istanbul Bariatric Center, es libre de elegir cualquiera de los paquetes de tratamiento que se ajuste a su presupuesto."
+    "sleevePackageTitle": "Opciones de Paquetes de Manga Gástrica",
+    "sleevePackageDesc": "En Istanbul Bariatric Center, puede elegir libremente el paquete de tratamiento que se ajuste a su presupuesto."
+  },
+  "comparison": {
+    "title": "Compare Todos los Procedimientos de un Vistazo",
+    "subtitle": "Encuentre el procedimiento de pérdida de peso adecuado según su IMC, presupuesto y preferencias de recuperación.",
+    "procedure": "Procedimiento",
+    "type": "Tipo",
+    "bmiRange": "Rango de IMC",
+    "startingPrice": "Precio Inicial",
+    "hospitalStay": "Estancia Hospitalaria",
+    "expectedWeightLoss": "Pérdida de Peso Esperada",
+    "recovery": "Recuperación",
+    "surgical": "Quirúrgico",
+    "nonSurgical": "No quirúrgico",
+    "priceNote": "Todos los precios son todo incluido. Todos los paquetes Relajación y Lujo incluyen cirugía con el Dr Murat Ustun. Precio final confirmado tras consulta gratuita.",
+    "gastricSleeve": "Manga Gástrica",
+    "gastricBypass": "Bypass Gástrico",
+    "gastricBalloon": "Balón Gástrico",
+    "esg": "ESG",
+    "duodenalSwitch": "Derivación Duodenal",
+    "bmi35plus": "35+",
+    "bmi40plus": "40+ (o 35+ con comorbilidades)",
+    "bmi30to40": "30–40",
+    "bmi50plus": "50+ (o 40+ con comorbilidades)",
+    "stay2to3": "2–3 días",
+    "staySameDay": "Mismo día",
+    "stay1to2": "1–2 días",
+    "stay3to4": "3–4 días",
+    "loss60to70": "60–70% del peso excedente",
+    "loss70to80": "70–80% del peso excedente",
+    "loss10to15": "10–15% del peso corporal total",
+    "loss15to20": "15–20% del peso corporal total",
+    "loss70to85": "70–85% del peso excedente",
+    "recovery2to3weeks": "2–3 semanas",
+    "recovery1to3days": "1–3 días",
+    "recovery3to4weeks": "3–4 semanas"
+  },
+  "packages": {
+    "sleeveBasic": {
+      "name": "Manga Gástrica Básico",
+      "features": [
+        "Equipo quirúrgico experimentado",
+        "Hospital acreditado JCI (2 días)",
+        "Todas las pruebas y consultas preoperatorias",
+        "Traslado VIP desde el aeropuerto",
+        "Apoyo de dietista"
+      ]
+    },
+    "sleeveRelaxation": {
+      "name": "Manga Gástrica Relajación",
+      "features": [
+        "Cirugía con el Dr Murat Ustun",
+        "Hospital acreditado JCI (3 días)",
+        "Todas las pruebas y consultas preoperatorias",
+        "Traslado VIP desde el aeropuerto",
+        "Apoyo de dietista registrado en el Reino Unido"
+      ]
+    },
+    "sleeveLuxury": {
+      "name": "Manga Gástrica Lujo",
+      "features": [
+        "Cirugía con el Dr Murat Ustun",
+        "Hospital acreditado JCI (3 días)",
+        "Todas las pruebas y consultas preoperatorias",
+        "Traslado VIP desde el aeropuerto",
+        "3 noches de alojamiento en hotel Radisson",
+        "Apoyo de dietista registrado en el Reino Unido",
+        "1 mes de suplementos",
+        "Apoyo de atención local en el Reino Unido en 8 ubicaciones"
+      ]
+    },
+    "bypassBasic": {
+      "name": "Bypass Gástrico Básico",
+      "features": [
+        "Equipo quirúrgico experimentado",
+        "Hospital acreditado JCI (2 días)",
+        "Todas las pruebas y consultas preoperatorias",
+        "Traslado VIP desde el aeropuerto",
+        "Apoyo de dietista"
+      ]
+    },
+    "bypassRelaxation": {
+      "name": "Bypass Gástrico Relajación",
+      "features": [
+        "Cirugía con el Dr Murat Ustun",
+        "Hospital acreditado JCI (3 días)",
+        "Todas las pruebas y consultas preoperatorias",
+        "Traslado VIP desde el aeropuerto",
+        "Apoyo de dietista registrado en el Reino Unido"
+      ]
+    },
+    "bypassLuxury": {
+      "name": "Bypass Gástrico Lujo",
+      "features": [
+        "Cirugía con el Dr Murat Ustun",
+        "Hospital acreditado JCI (3 días)",
+        "Todas las pruebas y consultas preoperatorias",
+        "Traslado VIP desde el aeropuerto",
+        "3 noches de alojamiento en hotel Radisson",
+        "Apoyo de dietista registrado en el Reino Unido",
+        "1 mes de suplementos",
+        "Apoyo de atención local en el Reino Unido en 8 ubicaciones"
+      ]
+    },
+    "balloonOrbera": {
+      "name": "Balón Orbera Endoscópico",
+      "features": [
+        "Traslados al aeropuerto",
+        "Pruebas preoperatorias completas",
+        "Endoscopia",
+        "Anestesia",
+        "2 noches de alojamiento",
+        "Apoyo de dietista"
+      ]
+    },
+    "balloonAllurion": {
+      "name": "Balón Allurion Ingerible",
+      "features": [
+        "Traslados al aeropuerto",
+        "Pruebas preoperatorias completas",
+        "Endoscopia",
+        "Anestesia",
+        "1 noche de alojamiento",
+        "Apoyo de dietista"
+      ]
+    },
+    "esgRelaxation": {
+      "name": "ESG Relajación",
+      "features": [
+        "Hospital Liv de última generación",
+        "Procedimiento con el Dr Murat Ustun (Pionero del ESG en Turquía)",
+        "Traslados VIP al aeropuerto",
+        "Todas las pruebas y consultas preoperatorias",
+        "Costos de quirófano y hospital",
+        "2 días de admisión en habitación privada"
+      ]
+    },
+    "esgLuxury": {
+      "name": "ESG Lujo",
+      "features": [
+        "Hospital Liv de última generación",
+        "Procedimiento con el Dr Murat Ustun (Pionero del ESG en Turquía)",
+        "Traslados VIP al aeropuerto",
+        "Todas las pruebas y consultas preoperatorias",
+        "Costos de quirófano y hospital",
+        "2 días de admisión en habitación privada",
+        "2 días de alojamiento en Hotel Radisson",
+        "4 citas con dietista registrado del Reino Unido",
+        "1 mes de paquete de suplementos y multivitaminas"
+      ]
+    },
+    "dsRelaxation": {
+      "name": "Derivación Duodenal Relajación",
+      "features": [
+        "Cirugía con el Dr Murat Ustun",
+        "Hospital acreditado JCI (3 días)",
+        "Todas las pruebas y consultas preoperatorias",
+        "Traslado VIP desde el aeropuerto",
+        "Apoyo de dietista registrado en el Reino Unido"
+      ]
+    },
+    "dsLuxury": {
+      "name": "Derivación Duodenal Lujo",
+      "features": [
+        "Cirugía con el Dr Murat Ustun",
+        "Hospital acreditado JCI (3 días)",
+        "Todas las pruebas y consultas preoperatorias",
+        "Traslado VIP desde el aeropuerto",
+        "3 noches de alojamiento en hotel Radisson",
+        "Apoyo de dietista registrado en el Reino Unido",
+        "1 mes de suplementos",
+        "Apoyo de atención local en el Reino Unido en 8 ubicaciones"
+      ]
+    },
+    "bypassTitle": "Paquetes de Bypass Gástrico",
+    "bypassSubtitle": "Elija el paquete de bypass gástrico adecuado para sus necesidades",
+    "balloonTitle": "Paquetes de Balón Gástrico",
+    "balloonSubtitle": "Elija el paquete de balón gástrico adecuado para sus necesidades",
+    "esgTitle": "Paquetes de ESG",
+    "esgSubtitle": "Elija el paquete de ESG adecuado para sus necesidades",
+    "dsTitle": "Paquetes de Derivación Duodenal",
+    "dsSubtitle": "Elija el paquete de derivación duodenal adecuado para sus necesidades"
+  },
+  "esgTreatment": {
+    "title": "Gastroplastia Endoscópica en Manga (ESG)",
+    "desc": "ESG es un procedimiento de pérdida de peso mínimamente invasivo y no quirúrgico que reduce el tamaño del estómago hasta un 70-80% usando un dispositivo de sutura endoscópica insertado por la boca. No requiere incisiones, ideal para pacientes con IMC 30-40 que prefieren un enfoque no quirúrgico.",
+    "advantages": [
+      "No quirúrgico — sin incisiones ni cicatrices",
+      "Tiempo de recuperación más corto (vuelta a actividades normales en 1-3 días)",
+      "Menor riesgo de complicaciones comparado con cirugía",
+      "Procedimiento reversible",
+      "Se espera pérdida del 15-20% del peso corporal total",
+      "Alta el mismo día o al día siguiente",
+      "Realizado bajo anestesia general (~90 minutos)"
+    ],
+    "disadvantages": [
+      "Menor pérdida de peso que opciones quirúrgicas como manga gástrica",
+      "Puede requerir procedimientos repetidos para resultados óptimos",
+      "No apto para IMC superior a 40",
+      "Procedimiento relativamente nuevo con menos datos a largo plazo"
+    ]
+  },
+  "postBariatricSection": {
+    "sectionTitle": "Cirugía Plástica Post-Bariátrica",
+    "desc1": "Después de una pérdida de peso significativa tras cirugía bariátrica, muchos pacientes quedan con piel sobrante y caída. La cirugía de contorno corporal post-bariátrica elimina esta piel sobrante y remodela el cuerpo.",
+    "desc2": "Nuestros procedimientos incluyen abdominoplastia, lifting de brazos, lifting de muslos, lifting corporal, lifting de pecho y lifting facial/cuello.",
+    "learnMore": "Más Información Sobre Contorno Corporal",
+    "imageAlt": "Procedimientos de contorno corporal post-bariátrico",
+    "imageCaption": "Opciones de contorno corporal después de cirugía de pérdida de peso"
+  },
+  "faqSection": {
+    "title": "Preguntas Frecuentes Sobre Cirugía de Pérdida de Peso en Turquía",
+    "subtitle": "Todo lo que necesita saber sobre cirugía bariátrica en Istanbul Bariatric Center",
+    "faqs": [
+      {
+        "question": "¿Cuánto cuesta la cirugía de pérdida de peso en Estambul?",
+        "answer": "Los paquetes todo incluido en Istanbul Bariatric Center comienzan desde £1.650 para balón gástrico, £2.950 para manga gástrica, £3.350 para bypass gástrico y £4.950 para ESG. Cada paquete cubre estancia en hospital acreditado JCI, pruebas preoperatorias, traslados VIP al aeropuerto y seguimiento con dietista."
+      },
+      {
+        "question": "¿Qué procedimiento bariátrico es adecuado para mí?",
+        "answer": "El mejor procedimiento depende de su IMC, historial médico y objetivos de pérdida de peso. La manga gástrica es para IMC 35+, bypass gástrico para IMC 40+ o condiciones metabólicas, balón gástrico es opción no quirúrgica para IMC 30-40, y ESG ofrece un enfoque mínimamente invasivo para IMC 30-40."
+      },
+      {
+        "question": "¿Es segura la cirugía bariátrica en Istanbul Bariatric Center?",
+        "answer": "Absolutamente. Todos los procedimientos se realizan en el Hospital Liv acreditado por JCI en Estambul por cirujanos con formación internacional. El Dr Murat Ustun, fundador y cirujano principal, ha realizado miles de operaciones exitosas con excelentes resultados de seguridad."
+      },
+      {
+        "question": "¿Qué incluye cada paquete quirúrgico?",
+        "answer": "Cada paquete incluye admisión en hospital acreditado JCI, pruebas preoperatorias completas, honorarios del cirujano y anestesista, traslado VIP al aeropuerto y apoyo de dietista. Los niveles Relajación y Lujo añaden al Dr Murat Ustun como cirujano, estancias hospitalarias extendidas, alojamiento en hotel Radisson, seguimiento con dietista del Reino Unido y paquetes de suplementos."
+      },
+      {
+        "question": "¿Cuánto peso puedo esperar perder?",
+        "answer": "Los resultados varían según el procedimiento: los pacientes de manga gástrica pierden típicamente el 60-70% del peso excedente, bypass gástrico 70-80%, balón gástrico 10-15% del peso corporal total y ESG 15-20% del peso corporal total — todo dentro de los primeros 12-18 meses."
+      },
+      {
+        "question": "¿Cuál es el tiempo de recuperación?",
+        "answer": "Los pacientes de manga gástrica y bypass permanecen 2-3 días en el hospital y vuelven a actividades diarias en 2-3 semanas. El balón gástrico es un procedimiento del mismo día, y los pacientes de ESG pueden reanudar actividades normales en 1-3 días."
+      },
+      {
+        "question": "¿Recibo seguimiento al volver a casa?",
+        "answer": "Sí. Cada paciente recibe un plan de seguimiento estructurado que incluye orientación de dietista, consultas de seguimiento y acceso a nuestro equipo de apoyo al paciente con sede en el Reino Unido que opera desde 8 ubicaciones."
+      },
+      {
+        "question": "¿Quién es el Dr Murat Ustun?",
+        "answer": "El Dr Murat Ustun es el fundador y cirujano bariátrico principal de Istanbul Bariatric Center. Pionero del ESG en Turquía, ha realizado miles de procedimientos de pérdida de peso en el Hospital Liv de Estambul."
+      }
+    ]
+  },
+  "treatmentLinks": {
+    "title": "Explore Nuestras Páginas de Tratamiento",
+    "subtitle": "Conozca más sobre cada procedimiento en detalle",
+    "gastricSleeve": "Cirugía de Manga Gástrica",
+    "gastricSleevePrice": "Desde £2.950",
+    "miniBypass": "Mini Bypass Gástrico",
+    "miniBypassDesc": "Procedimiento especializado",
+    "gastricBalloon": "Balón Gástrico",
+    "gastricBalloonPrice": "Desde £1.650",
+    "esg": "Procedimiento ESG",
+    "esgPrice": "Desde £4.950",
+    "duodenalSwitch": "Derivación Duodenal",
+    "duodenalSwitchPrice": "Desde £4.400",
+    "transitBipartition": "Bipartición Tránsito",
+    "transitBipartitionDesc": "Procedimiento avanzado",
+    "postBariatric": "Cirugía Post-Bariátrica",
+    "postBariatricDesc": "Contorno corporal",
+    "eligible": "¿Soy Elegible?",
+    "eligibleDesc": "Evaluación de salud gratuita",
+    "results": "Resultados de Pacientes",
+    "resultsDesc": "Historias de éxito"
+  },
+  "whatsapp": {
+    "consultMessage": "Hola, me gustaría consultar sobre",
+    "packageMessage": "Hola, estoy interesado en el"
+  },
+  "seo": {
+    "title": "Cirugía de Pérdida de Peso en Estambul 2026 — Manga Gástrica, Bypass, Balón y ESG | Paquetes Todo Incluido",
+    "description": "Compare procedimientos bariátricos: Manga Gástrica desde £2.950, Bypass £3.350, Balón £1.650, ESG £4.950. Dr Murat Ustun en Hospital Liv acreditado JCI.",
+    "heroAlt": "Estilo de vida activo y saludable después de cirugía bariátrica",
+    "skipToContent": "Saltar al contenido principal"
   },
   "gastricSleeve": {
     "title": "Cirugía de Manga Gástrica",
     "heroTitle": "Gastrectomía en Manga Estambul, Turquía",
-    "heroSubtitle": "La cirugía de manga gástrica es una de las cirugías bariátricas más aplicadas tanto a nivel mundial como en Turquía. Descubra por qué es tan efectiva.",
-    "desc": "También conocida como gastrectomía en manga, este procedimiento implica extirpar el 70-80% del estómago, dejando una bolsa tubular. Restringe la ingesta de alimentos e impacta las hormonas intestinales para reducir el hambre.",
-    "overviewTitle": "Gastrectomía en Manga Turquía: Visión General",
-    "overviewP1": "La manga gástrica o gastrectomía en manga es una cirugía bariátrica que se realiza cortando una parte de su estómago para crear una cámara más pequeña. Es una de las cirugías bariátricas más aplicadas tanto a nivel mundial como en Turquía.",
-    "overviewP2": "La obesidad es uno de los problemas más molestos para muchas personas en todo el mundo, no solo por el cambio de forma, cara o cuerpo que viene después, sino también por los problemas de salud que puede causar.",
-    "overviewP3": "Hay varias enfermedades que están directamente relacionadas con la obesidad como: Diabetes tipo II, Presión arterial alta, Problemas cardíacos, Colesterol alto y más.",
+    "heroSubtitle": "La cirugía de manga gástrica es una de las cirugías bariátricas más realizadas a nivel mundial y en Turquía.",
+    "desc": "También conocida como gastrectomía en manga, este procedimiento implica la extirpación del 70-80% del estómago, dejando un tubo. Restringe la ingesta de alimentos e impacta las hormonas intestinales para reducir el hambre.",
+    "overviewTitle": "Gastrectomía en Manga Turquía: Resumen",
+    "overviewP1": "La manga gástrica o gastrectomía en manga es una cirugía bariátrica que se realiza cortando una parte del estómago para crear una cámara más pequeña.",
+    "overviewP2": "La obesidad es uno de los problemas más molestos para muchas personas en todo el mundo.",
+    "overviewP3": "Hay varias enfermedades directamente relacionadas con la obesidad: Diabetes tipo II, hipertensión, problemas cardíacos, colesterol alto y más.",
     "advantages": [
       "Controla la cantidad de comida en el estómago",
       "Apoya la pérdida de peso rápida",
-      "Estancia hospitalaria más corta que el bypass",
+      "Estancia hospitalaria más corta que bypass",
       "Reduce el hambre y el apetito"
     ],
     "disadvantages": [
       "Procedimiento irreversible",
-      "Potencial de deficiencia de vitaminas"
+      "Potencial deficiencia de vitaminas"
     ],
     "risks": [
-      "Sangrado del interior del estómago o de la herida quirúrgica.",
-      "Trombosis Venosa Profunda: o TVP, que es un coágulo de sangre que se forma en la vena durante el procedimiento o durante el proceso de recuperación.",
-      "Latido cardíaco irregular: algunas cirugías pueden provocar un latido cardíaco irregular durante la cirugía.",
-      "Fugas Gástricas: los fluidos del estómago pueden filtrarse de la línea de sutura en el estómago.",
-      "Estenosis: que significa que una parte del estómago podría cerrarse causando una obstrucción.",
+      "Sangrado del interior del estómago o la herida quirúrgica.",
+      "Trombosis Venosa Profunda: coágulo de sangre en la vena durante o después del procedimiento.",
+      "Latido cardíaco irregular durante la cirugía.",
+      "Fugas Gástricas: los fluidos estomacales pueden filtrarse de la línea de sutura.",
+      "Estenosis: parte del estómago puede cerrarse causando obstrucción.",
       "Deficiencia de vitaminas: la parte extraída del estómago es parcialmente responsable de la absorción de vitaminas."
     ],
     "packages": {
@@ -73,11 +351,11 @@
     "title": "Cirugía de Bypass Gástrico",
     "heroTitle": "Mini Bypass Gástrico Estambul, Turquía",
     "heroSubtitle": "El mini bypass gástrico es una versión simplificada del bypass gástrico tradicional, ofreciendo excelentes resultados de pérdida de peso con menos complicaciones.",
-    "desc": "El estómago se divide en dos partes, creando una bolsa más pequeña. El intestino delgado se reorganiza para conectarse a ambos. Esto limita la ingesta de alimentos y la absorción de calorías.",
+    "desc": "El estómago se divide en dos partes, creando un saco más pequeño. El intestino delgado se reorganiza para conectarse a ambos. Esto limita la ingesta de alimentos y la absorción de calorías.",
     "advantages": [
       "Pérdida de peso a largo plazo",
       "Controla la cantidad de comida consumida",
-      "Suprime el hambre a través de hormonas intestinales"
+      "Suprime el hambre mediante hormonas intestinales"
     ],
     "disadvantages": [
       "Cirugía compleja",
@@ -88,55 +366,55 @@
     "tocItem1": "¿Cómo puede ayudarme el mini bypass gástrico a perder peso?",
     "tocItem2": "¿Hay efectos secundarios del mini bypass gástrico?",
     "tocItem3": "¿Las compañías de seguros cubren los costos de la cirugía?",
-    "tocItem4": "Lo que necesita saber antes del mini bypass gástrico",
-    "introP1": "Para muchas personas en el mundo, el exceso de peso y la obesidad es un problema muy serio, no solo por el cambio de forma, cara o cuerpo que viene después, sino también por los problemas de salud que puede causar.",
-    "introP2": "De hecho, la obesidad es una razón muy importante y podría ser la razón directa de la mayoría de los accidentes cerebrovasculares, problemas de azúcar en sangre, presión arterial, respiración, estómago y muchos otros problemas de salud.",
-    "introP3": "Hay varios tipos de cirugía de pérdida de peso, cada uno difiere del otro en sus pasos pero todos comparten los mismos resultados agradables que es una pérdida de peso significativa. Uno de estos tipos se llama mini bypass gástrico.",
-    "introP4": "Esta cirugía se considera una de las cirugías de pérdida de peso más efectivas y tiene muchas ventajas en comparación con otros tipos de cirugía de pérdida de peso.",
-    "introP5": "Como cualquier otra cirugía de pérdida de peso, la idea básica de la cirugía de mini bypass gástrico es reducir el volumen del estómago para disminuir la cantidad de comida consumida por el paciente. Sin embargo, la cirugía de mini bypass gástrico implica diferentes pasos. Durante la cirugía, el médico cortará la parte superior del estómago y la dividirá en un tubo, y luego la unirá a un asa del intestino. El resto del estómago que equivale al 75% del estómago entero permanecerá inútil.",
-    "introP6": "La parte superior del estómago se engrapa para formar un tubo de 50 ml, este tubo será el nuevo estómago pequeño y completamente separado del estómago original. Este estómago se cose luego a un asa del intestino delgado, evitando la primera parte del intestino llamada duodeno y aproximadamente 150-200 cm del intestino.",
-    "introP7": "La cirugía de mini bypass gástrico puede usarse como cirugía de pérdida de peso primaria o puede usarse para personas que ya probaron dieta y ejercicios diarios pero no tuvieron resultados satisfactorios, o para pacientes que están rehaciendo una cirugía de pérdida de peso porque la primera no tuvo éxito por alguna razón.",
-    "howItHelpsTitle": "¿Cómo puede ayudarme el mini bypass gástrico a perder peso?",
+    "tocItem4": "Cosas que Necesita Saber Antes del Mini Bypass Gástrico",
+    "introP1": "Para muchas personas en todo el mundo, el exceso de peso y la obesidad es un problema muy serio.",
+    "introP2": "De hecho, la obesidad es una razón muy importante y puede ser la causa directa de la mayoría de los accidentes cerebrovasculares, problemas de azúcar en sangre, presión arterial, problemas respiratorios y muchos otros problemas de salud.",
+    "introP3": "Hay varios tipos de cirugía de pérdida de peso, cada uno difiere del otro en sus pasos pero todos comparten los mismos resultados agradables.",
+    "introP4": "Esta cirugía se considera una de las más efectivas para la pérdida de peso.",
+    "introP5": "Como cualquier otra cirugía de pérdida de peso, la idea básica del mini bypass gástrico es reducir el volumen del estómago para disminuir la cantidad de alimento consumido por el paciente.",
+    "introP6": "La parte superior del estómago se grapa para formar un tubo de 50 ml, este tubo será el nuevo estómago pequeño completamente separado del estómago original.",
+    "introP7": "El mini bypass gástrico puede usarse como cirugía primaria o para personas que ya intentaron dieta y ejercicio sin resultados.",
+    "howItHelpsTitle": "Mini Bypass Gástrico: Pérdida de Peso Esperada y Beneficios para la Salud",
     "howItHelpsIntro": "La cirugía de mini bypass gástrico le ayuda a perder peso de varias maneras:",
     "benefit1Title": "Reduce la sensación de hambre",
-    "benefit1Desc": "La parte eliminada del estómago es responsable de la hormona del hambre. Por lo tanto, cuando se elimina, la sensación de hambre se reducirá, lo que resultará en menos peso.",
+    "benefit1Desc": "La parte extraída del estómago es responsable de la hormona del hambre. Así, cuando se extirpa, se reduce la sensación de hambre.",
     "benefit2Title": "Reduce la ingesta de alimentos",
-    "benefit2Desc": "Al reducir la cantidad de comida que entra en el estómago ya que el volumen de su estómago se ha vuelto más pequeño después de la cirugía.",
+    "benefit2Desc": "Al reducir la cantidad de alimento que entra al estómago ya que el volumen es más pequeño después de la cirugía.",
     "benefit3Title": "Reduce la absorción de calorías",
-    "benefit3Desc": "Al reducir la cantidad de calorías que absorbe de la comida que come, lo que resulta en un estilo de vida más saludable.",
+    "benefit3Desc": "Al reducir la cantidad de calorías que absorbe de los alimentos que come, resultando en un estilo de vida más saludable.",
     "additionalBenefitsTitle": "Beneficios Adicionales",
-    "additionalBenefitsDesc": "Después de dos años perderá alrededor del 80% de su peso, y problemas de salud graves y enfermedades como diabetes tipo 2, enfermedades de azúcar en sangre, problemas cardíacos mejorarán o incluso desaparecerán después de esta cirugía.",
+    "additionalBenefitsDesc": "Después de dos años perderá alrededor del 80% de su peso, y problemas de salud graves como diabetes tipo 2, enfermedades de azúcar en sangre, problemas cardíacos mejorarán o incluso desaparecerán.",
     "sideEffectsTitle": "¿Hay efectos secundarios del mini bypass gástrico?",
-    "sideEffectsIntro": "Como cualquier otra cirugía en cualquier otro campo, hay algunos efectos secundarios que pueden ocurrir durante la cirugía o después de la cirugía. A pesar de que la cirugía de mini bypass gástrico es segura, todavía hay algunos riesgos que podemos mencionar:",
+    "sideEffectsIntro": "Como cualquier cirugía, hay algunos efectos secundarios que pueden ocurrir durante o después de la cirugía:",
     "sideEffects": [
-      "Sangrado del interior de su estómago o de su herida estomacal.",
-      "Podría sentir dolor si el médico o el equipo médico no le dio una anestesia general potente.",
-      "Fugas gástricas: los fluidos del estómago pueden filtrarse de la línea de sutura en su estómago.",
-      "Estenosis: lo que significa que una parte de su estómago podría cerrarse causando una obstrucción en su estómago.",
-      "Deficiencia de vitaminas: la parte eliminada de su estómago es parcialmente responsable de la absorción de vitaminas, por lo que cuando pierde esta parte, las vitaminas en su cuerpo disminuirán."
+      "Sangrado del interior del estómago o la herida.",
+      "Puede sentir dolor si no se administra anestesia general potente.",
+      "Fugas Gástricas: los fluidos estomacales pueden filtrarse.",
+      "Estenosis: parte del estómago puede cerrarse causando obstrucción.",
+      "Deficiencia de vitaminas."
     ],
-    "sideEffectsConclusion": "Estos riesgos se consideran complicaciones tempranas y afortunadamente el 95% de los casos son exitosos. Todavía hay algunas complicaciones tardías que pueden aparecer como hernia interna aunque el riesgo de hernia interna es considerablemente menor después del mini-bypass que después del bypass gástrico estándar. A veces las asas del intestino en el abdomen pueden enredarse y atascarse. En este caso, otra operación o cirugía es necesaria para solucionar el problema.",
-    "insuranceTitle": "¿Las compañías de seguros cubren los costos de la cirugía?",
-    "insuranceDesc": "La mayoría de las compañías de seguros cubren los costos de la cirugía si el paciente cumple con la condición del índice BMI. Por supuesto, esta información cambia de un país a otro, por lo que es mejor preguntar esta información en su país.",
-    "thingsToKnowTitle": "Lo que necesita saber antes del mini bypass gástrico",
+    "sideEffectsConclusion": "Estos riesgos se consideran complicaciones tempranas y afortunadamente el 95% de los casos son exitosos.",
+    "insuranceTitle": "¿Las compañías de seguros cubren los costos?",
+    "insuranceDesc": "La mayoría de las compañías de seguros cubren los costos si el paciente cumple con la condición del Índice IMC. Esto varía según el país.",
+    "thingsToKnowTitle": "Cosas que Necesita Saber Antes del Mini Bypass Gástrico",
     "thingsToKnow": [
-      "Los pacientes que deseen tener esta cirugía deben tener al menos 35 kg/m² en el índice BMI.",
-      "Un paciente pasará una hora a 90 minutos en el hospital haciendo la cirugía.",
-      "Un paciente debe permanecer en el hospital de tres a cuatro días para asegurarse de que nada vaya mal.",
-      "Un paciente perderá entre el 70% y el 85% del peso total.",
-      "Un paciente debe saber que la enfermedad desaparecerá después de tres semanas como máximo.",
-      "Un paciente debe tomar suplementos de por vida.",
-      "Un paciente debe seguir las instrucciones del médico y las dietas dadas."
+      "Los pacientes deben tener al menos 35 kg/m² en el índice IMC.",
+      "El paciente pasará de una hora a 90 minutos en el hospital para la cirugía.",
+      "El paciente debe permanecer en el hospital de tres a cuatro días.",
+      "El paciente perderá entre el 70% y el 85% del peso total.",
+      "El paciente debe saber que las molestias pasarán en máximo tres semanas.",
+      "El paciente debe tomar suplementos de por vida.",
+      "El paciente debe seguir las instrucciones del médico y las dietas indicadas."
     ],
-    "thingsToKnowConclusion": "Al final, debe saber que a pesar de ser seguro y no muy difícil, el médico o el equipo médico debe conocer toda la información relacionada con su estado de salud, incluido su informe de historial médico, solo para evitar cualquier problema durante la cirugía o después de la cirugía durante el tiempo de recuperación.",
-    "ctaTitle": "¿Listo para saber más sobre el mini bypass gástrico?",
-    "ctaDesc": "Contáctenos hoy para una consulta gratuita y aprenda cómo la cirugía de mini bypass gástrico puede ayudarle a alcanzar sus objetivos de pérdida de peso."
+    "thingsToKnowConclusion": "Al final, debe saber que aunque es seguro, el médico o equipo médico debe conocer toda la información relacionada con su estado de salud.",
+    "ctaTitle": "¿Listo para Saber Más Sobre el Mini Bypass Gástrico?",
+    "ctaDesc": "Contáctenos hoy para una consulta gratuita y conozca cómo el mini bypass gástrico puede ayudarle a alcanzar sus objetivos de pérdida de peso."
   },
   "gastricBalloon": {
     "title": "Balón Intragástrico",
     "heroTitle": "Balón Gástrico Estambul, Turquía",
     "heroSubtitle": "Una solución de pérdida de peso no quirúrgica que le ayuda a perder peso sin cambios permanentes en su cuerpo.",
-    "desc": "Un procedimiento endoscópico no invasivo donde se coloca un balón lleno de solución salina en el estómago para crear una sensación de saciedad y reducir la ingesta de alimentos.",
+    "desc": "Un procedimiento endoscópico no invasivo donde se coloca un balón lleno de solución salina en el estómago para crear sensación de saciedad y reducir la ingesta de alimentos.",
     "advantages": [
       "No quirúrgico / No invasivo",
       "Procedimiento muy seguro",
@@ -144,12 +422,12 @@
     ],
     "disadvantages": [
       "Solución temporal (6 meses)",
-      "Menos pérdida de peso que la cirugía"
+      "Menor pérdida de peso que la cirugía"
     ]
   },
   "gastricBand": {
     "title": "Banda Gástrica Ajustable",
-    "desc": "Se coloca una banda alrededor de la parte superior del estómago para crear una bolsa más pequeña. La tensión de la banda se puede ajustar inyectando solución salina.",
+    "desc": "Se coloca una banda alrededor de la parte superior del estómago para crear un saco más pequeño. La tensión de la banda se puede ajustar inyectando solución salina.",
     "advantages": [
       "Nivel más bajo de complejidad",
       "Estancia hospitalaria corta (<24 horas)",
@@ -158,86 +436,86 @@
     ],
     "disadvantages": [
       "Pérdida de peso más lenta",
-      "Cuerpo extraño en el cuerpo",
-      "Posibles problemas mecánicos"
+      "Cuerpo extraño en el organismo",
+      "Problemas mecánicos posibles"
     ]
   },
   "duodenalSwitch": {
-    "title": "Switch Duodenal",
-    "heroTitle": "Switch Duodenal Estambul, Turquía",
+    "title": "Derivación Duodenal",
+    "heroTitle": "Derivación Duodenal Estambul, Turquía",
     "heroSubtitle": "Una de las cirugías de pérdida de peso más efectivas para pacientes con obesidad severa, ofreciendo resultados significativos y duraderos.",
-    "desc": "Un procedimiento complejo que combina la gastrectomía en manga con el bypass intestinal. Ofrece la pérdida de peso más significativa pero conlleva mayores riesgos.",
+    "desc": "Un procedimiento complejo que combina gastrectomía en manga con bypass intestinal. Ofrece la pérdida de peso más significativa pero conlleva mayores riesgos.",
     "advantages": [
       "Pérdida de peso más rápida",
-      "Perder ~70% del exceso de peso"
+      "Perder ~70% del peso excedente"
     ],
     "disadvantages": [
       "Cirugía más complicada",
       "Alto riesgo de deficiencias vitamínicas",
       "Requiere seguimiento estricto"
     ],
-    "introP1": "Hoy en día, muchas personas en todo el mundo se quejan de problemas de obesidad, especialmente porque es responsable de muchos problemas de salud graves como ataques cardíacos, accidentes cerebrovasculares, problemas hepáticos y renales, y muchos más problemas de salud. Por ello, cientos de miles de personas que sufren de obesidad han comenzado a someterse a cirugías de obesidad.",
-    "introP2": "Existen varios tipos de cirugía de obesidad, cada tipo tiene sus propias herramientas y forma de realizarse, pero todos los tipos comparten el mismo objetivo que es ayudar a curar los problemas de obesidad.",
-    "introP3": "La cirugía de switch duodenal es uno de los tipos de cirugía de obesidad y muy eficiente.",
+    "introP1": "Hoy en día hay muchas personas en todo el mundo que se quejan de problemas de obesidad.",
+    "introP2": "Hay varios tipos de cirugía de obesidad, cada tipo tiene sus propias herramientas y métodos.",
+    "introP3": "La cirugía de derivación duodenal es uno de los tipos de cirugía de obesidad y muy eficiente.",
     "statWeightLoss": "Pérdida de Peso",
     "statMonths": "Meses para Resultados",
     "statBest": "Resultados a Largo Plazo",
     "faqs": [
       {
-        "question": "¿Qué es la cirugía de Switch Duodenal?",
-        "answer": "O como algunos médicos la llaman \"Reducción Gástrica con Switch Duodenal\" es una cirugía de pérdida de peso que involucra aspectos tanto restrictivos como malabsortivos. La parte restrictiva de la cirugía implica cortar hasta el 70% del estómago y parte del duodeno."
+        "question": "¿Qué es la cirugía de Derivación Duodenal?",
+        "answer": "También llamada 'Reducción Gástrica con Derivación Duodenal', es una cirugía de pérdida de peso que involucra aspectos tanto restrictivos como malabsortivos."
       },
       {
         "question": "¿Es similar al bypass gástrico?",
-        "answer": "El switch duodenal es similar al bypass gástrico en sus objetivos porque reduce la cantidad de comida que entra en su estómago y reduce la cantidad de calorías absorbidas por su cuerpo, pero debido a que es más una operación malabsortiva, causa más efectos secundarios que otros tipos de cirugías."
+        "answer": "La derivación duodenal es similar al bypass gástrico en objetivos porque reduce la cantidad de alimento y calorías absorbidas."
       },
       {
-        "question": "¿Es el switch duodenal mejor que otros tipos de cirugía de obesidad?",
-        "answer": "Algunos médicos sugieren que es mejor a largo plazo porque en el switch duodenal el estómago permanece más grande, por lo que puede albergar más comida en comparación con otros tipos de cirugía de obesidad, esto le ayudará a tener una mejor forma corporal a largo plazo."
+        "question": "¿Es la derivación duodenal mejor que otros tipos?",
+        "answer": "Algunos médicos sugieren que es mejor a largo plazo porque el estómago permanece más grande."
       },
       {
-        "question": "¿Puede cualquiera tener la cirugía de switch duodenal? ¿Cómo sé si soy candidato?",
-        "answer": "No cualquiera puede tener la cirugía de switch duodenal, solo el médico o el equipo médico puede decidir eso y la decisión será según su IMC \"Índice de Masa Corporal\" si es mayor de 40, entonces puede tener la cirugía. Por supuesto, hay otras cosas a considerar, por lo que es muy importante que su médico decida si puede tener la cirugía o no."
+        "question": "¿Cualquiera puede tener la cirugía?",
+        "answer": "No cualquiera puede tener la cirugía, solo el médico puede decidir según su IMC, si es mayor de 40 puede ser candidato."
       },
       {
-        "question": "¿Cuánto tiempo es la recuperación para la cirugía de switch duodenal?",
-        "answer": "Difiere de un paciente a otro, pero para la mayoría de los pacientes necesita entre tres y cuatro semanas de recuperación. Aunque la cirugía no deja muchas cicatrices por fuera, requiere un trabajo duro desde el interior."
+        "question": "¿Cuánto es el tiempo de recuperación?",
+        "answer": "Difiere de un paciente a otro pero para la mayoría necesita entre tres y cuatro semanas de recuperación."
       },
       {
-        "question": "¿Puedo volver al trabajo después del tiempo de recuperación y empezar a hacer ejercicio?",
-        "answer": "Es mejor tomar otra semana alejado del estrés y las actividades intensas solo para asegurarse de que su cuerpo se ha adaptado a la nueva situación después de la cirugía."
+        "question": "¿Puedo volver al trabajo después?",
+        "answer": "Es mejor tomarse otra semana alejado del estrés y actividades intensas."
       },
       {
-        "question": "¿Cuánto tiempo tarda en perder peso después de la cirugía?",
-        "answer": "La mayoría de los pacientes que han tenido la cirugía de switch duodenal pierden su peso durante los primeros 12 a 18 meses. Por eso no todos se sienten animados a tener este tipo de cirugía de obesidad."
+        "question": "¿Cuánto tiempo tarda en perder peso?",
+        "answer": "La mayoría de los pacientes pierden su peso durante los primeros 12 a 18 meses."
       },
       {
-        "question": "¿Es posible que recupere peso después de perderlo?",
-        "answer": "Puede ser si vuelve al antiguo estilo de vida poco saludable, pero es conocido que la cirugía duodenal tiene la mejor pérdida de peso duradera entre los tipos de cirugía de obesidad."
+        "question": "¿Es posible recuperar peso?",
+        "answer": "Puede ser si vuelve al estilo de vida poco saludable, pero la derivación duodenal tiene la mejor pérdida de peso a largo plazo."
       },
       {
-        "question": "¿Tengo que evitar ciertos tipos de alimentos después de la cirugía?",
-        "answer": "Es difícil mencionar tipos específicos de alimentos porque difiere de un paciente a otro, pero hay algunos tipos de alimentos de los que debe mantenerse absolutamente alejado como la comida grasa porque causa diarrea. En cualquier caso, es importante obtener las respuestas a esta pregunta del médico después de que examine su cuerpo."
+        "question": "¿Debo evitar ciertos alimentos?",
+        "answer": "Varía de paciente a paciente pero debe evitar alimentos grasos ya que causan diarrea."
       },
       {
-        "question": "¿Cuánto peso perderé después de la cirugía?",
-        "answer": "La mayoría de los pacientes pierden entre el 40 y el 60% de su peso. Sin embargo, debe saber que nada de esto sucederá si no hace un esfuerzo extra y cambia su estilo de vida a uno más saludable."
+        "question": "¿Cuánto peso perderé?",
+        "answer": "La mayoría pierde entre el 40% y el 60% de su peso."
       },
       {
-        "question": "¿La cirugía de switch duodenal previene el embarazo? ¿O tiene efectos negativos en los cuerpos embarazados?",
-        "answer": "La cirugía no prevendrá el embarazo. Sin embargo, durante los primeros 18 meses sugerimos que una mujer no experimente un embarazo porque durante este tiempo estará perdiendo peso y esto podría afectar negativamente a su cuerpo. En cualquier caso, las cirugías de pérdida de peso ayudan a las mujeres a tener una experiencia de embarazo más saludable (después de la máxima pérdida de peso)."
+        "question": "¿La cirugía previene el embarazo?",
+        "answer": "La cirugía no previene el embarazo. Sin embargo, durante los primeros 18 meses sugerimos que no se embarace."
       },
       {
-        "question": "¿La cirugía de switch duodenal cuesta más que otras cirugías de obesidad?",
-        "answer": "Cuesta un poco más que otros tipos de cirugía de obesidad porque requiere más trabajo y esfuerzo del equipo médico y los cirujanos."
+        "question": "¿Cuesta más que otras cirugías?",
+        "answer": "Cuesta un poco más porque requiere más trabajo del equipo médico y cirujanos."
       }
     ],
-    "diabetesTitle": "Switch Duodenal para la Diabetes",
-    "diabetesP1": "La cirugía de switch duodenal es particularmente efectiva para pacientes con diabetes tipo 2. El procedimiento no solo ayuda con una pérdida de peso significativa, sino que también ha demostrado mejorar o incluso resolver la diabetes en muchos pacientes.",
-    "diabetesP2": "El componente malabsortivo de la cirugía cambia cómo el cuerpo procesa los alimentos y puede llevar a una mejor sensibilidad a la insulina y control del azúcar en sangre. Muchos pacientes ven mejoras en su diabetes incluso antes de que ocurra una pérdida de peso significativa.",
-    "diabetesHighlight": "Los estudios han demostrado que el switch duodenal tiene una de las tasas más altas de remisión de diabetes entre todos los procedimientos bariátricos, lo que lo convierte en una excelente opción para pacientes con obesidad severa complicada por diabetes.",
-    "ctaTitle": "¿Es el Switch Duodenal Adecuado para Usted?",
-    "ctaDesc": "Contáctenos hoy para una consulta gratuita para determinar si la cirugía de switch duodenal es la opción correcta para sus objetivos de pérdida de peso y manejo de la diabetes."
+    "diabetesTitle": "Derivación Duodenal para Diabetes",
+    "diabetesP1": "La derivación duodenal es particularmente efectiva para pacientes con diabetes tipo 2.",
+    "diabetesP2": "El componente malabsortivo cambia cómo el cuerpo procesa los alimentos y puede mejorar la sensibilidad a la insulina.",
+    "diabetesHighlight": "Los estudios han demostrado que la derivación duodenal tiene una de las tasas más altas de remisión de diabetes.",
+    "ctaTitle": "¿Es la Derivación Duodenal Adecuada para Usted?",
+    "ctaDesc": "Contáctenos hoy para una consulta gratuita para determinar si la derivación duodenal es la opción correcta."
   },
   "esg": {
     "title": "Gastroplastia Endoscópica en Manga",
@@ -246,293 +524,15 @@
     "desc": "ESG es un procedimiento de pérdida de peso realizado a través de un endoscopio, reduciendo la capacidad del estómago en un 70-80% sin incisiones externas."
   },
   "transitBipartition": {
-    "title": "Bipartición de Tránsito",
-    "heroTitle": "Bipartición de Tránsito Estambul, Turquía",
-    "heroSubtitle": "Una cirugía metabólica innovadora que combina los beneficios de la gastrectomía en manga con el bypass intestinal.",
-    "desc": "La bipartición de tránsito es una cirugía metabólica que combina la gastrectomía en manga con un bypass intestinal parcial para mejorar el control de la diabetes y la pérdida de peso."
+    "title": "Bipartición Tránsito",
+    "heroTitle": "Bipartición Tránsito Estambul, Turquía",
+    "heroSubtitle": "Una cirugía metabólica innovadora que combina los beneficios de la gastrectomía en manga con bypass intestinal.",
+    "desc": "La bipartición tránsito es una cirugía metabólica que combina gastrectomía en manga con bypass intestinal parcial para mejorar el control de la diabetes y la pérdida de peso."
   },
   "postBariatric": {
-    "title": "Cirugía Post Bariátrica",
-    "heroTitle": "Contorno Corporal Post Bariátrico Estambul, Turquía",
-    "heroSubtitle": "Complete su viaje de pérdida de peso con procedimientos de contorno corporal diseñados para eliminar el exceso de piel después de una pérdida de peso significativa.",
-    "desc": "Después de una pérdida de peso importante, muchos pacientes quedan con exceso de piel. La cirugía post-bariátrica ayuda a remodelar y contornear el cuerpo."
-  },
-  "comparison": {
-    "title": "Comparar Todos los Procedimientos de un Vistazo",
-    "subtitle": "Encuentra el procedimiento de pérdida de peso adecuado según tu IMC, presupuesto y preferencias de recuperación.",
-    "procedure": "Procedimiento",
-    "type": "Tipo",
-    "bmiRange": "Rango de IMC",
-    "startingPrice": "Precio Inicial",
-    "hospitalStay": "Estancia en el Hospital",
-    "expectedWeightLoss": "Pérdida de Peso Esperada",
-    "recovery": "Recuperación",
-    "surgical": "Quirúrgico",
-    "nonSurgical": "No quirúrgico",
-    "priceNote": "Todos los precios son todo incluido. Todos los paquetes de Relajación y Lujo incluyen cirugía con el Dr. Murat Ustun. El precio final se confirma después de la consulta gratuita.",
-    "gastricSleeve": "Manga Gástrica",
-    "gastricBypass": "Bypass Gástrico",
-    "gastricBalloon": "Globo Gástrico",
-    "esg": "ESG",
-    "duodenalSwitch": "Cambio Duodenal",
-    "bmi35plus": "35+",
-    "bmi40plus": "40+ (o 35+ con comorbilidades)",
-    "bmi30to40": "30–40",
-    "bmi50plus": "50+ (o 40+ con comorbilidades)",
-    "stay2to3": "2–3 días",
-    "staySameDay": "El mismo día",
-    "stay1to2": "1–2 días",
-    "stay3to4": "3–4 días",
-    "loss60to70": "60–70% de peso excesivo",
-    "loss70to80": "70–80% de peso excesivo",
-    "loss10to15": "10–15% del peso corporal total",
-    "loss15to20": "15–20% del peso corporal total",
-    "loss70to85": "70–85% de peso excesivo",
-    "recovery2to3weeks": "2–3 semanas",
-    "recovery1to3days": "1–3 días",
-    "recovery3to4weeks": "3–4 semanas"
-  },
-  "packages": {
-    "sleeveBasic": {
-      "name": "Manga Gástrica Básica",
-      "features": [
-        "Equipo quirúrgico experimentado",
-        "Hospital acreditado por JCI (2 días)",
-        "Todas las pruebas y consultas preoperatorias",
-        "Transferencia VIP al aeropuerto",
-        "Apoyo de dietista"
-      ]
-    },
-    "sleeveRelaxation": {
-      "name": "Manga Gástrica Relajación",
-      "features": [
-        "Cirugía con el Dr. Murat Ustun",
-        "Hospital acreditado por JCI (3 días)",
-        "Todas las pruebas y consultas preoperatorias",
-        "Transferencia VIP al aeropuerto",
-        "Apoyo de dietista registrado en el Reino Unido"
-      ]
-    },
-    "sleeveLuxury": {
-      "name": "Manga Gástrica Lujo",
-      "features": [
-        "Cirugía con el Dr. Murat Ustun",
-        "Hospital acreditado por JCI (3 días)",
-        "Todas las pruebas y consultas preoperatorias",
-        "Transferencia VIP al aeropuerto",
-        "3 noches de alojamiento en hotel Radisson",
-        "Apoyo de dietista registrado en el Reino Unido",
-        "1 mes de suplementos",
-        "Apoyo de atención local en el Reino Unido en 8 ubicaciones"
-      ]
-    },
-    "bypassBasic": {
-      "name": "Bypass Gástrico Básico",
-      "features": [
-        "Equipo quirúrgico experimentado",
-        "Hospital acreditado por JCI (2 días)",
-        "Todas las pruebas y consultas preoperatorias",
-        "Transferencia VIP al aeropuerto",
-        "Apoyo de dietista"
-      ]
-    },
-    "bypassRelaxation": {
-      "name": "Bypass Gástrico Relajación",
-      "features": [
-        "Cirugía con el Dr. Murat Ustun",
-        "Hospital acreditado por JCI (3 días)",
-        "Todas las pruebas y consultas preoperatorias",
-        "Transferencia VIP al aeropuerto",
-        "Apoyo de dietista registrado en el Reino Unido"
-      ]
-    },
-    "bypassLuxury": {
-      "name": "Bypass Gástrico Lujo",
-      "features": [
-        "Cirugía con el Dr. Murat Ustun",
-        "Hospital acreditado por JCI (3 días)",
-        "Todas las pruebas y consultas preoperatorias",
-        "Transferencia VIP al aeropuerto",
-        "3 noches de alojamiento en hotel Radisson",
-        "Apoyo de dietista registrado en el Reino Unido",
-        "1 mes de suplementos",
-        "Apoyo de atención local en el Reino Unido en 8 ubicaciones"
-      ]
-    },
-    "balloonOrbera": {
-      "name": "Globo Orbera Endoscópico",
-      "features": [
-        "Transferencias al aeropuerto",
-        "Pruebas preoperatorias completas",
-        "Endoscopia",
-        "Anestesia",
-        "2 noches de alojamiento",
-        "Apoyo de dietista"
-      ]
-    },
-    "balloonAllurion": {
-      "name": "Globo Tragable Allurion",
-      "features": [
-        "Transferencias al aeropuerto",
-        "Pruebas preoperatorias completas",
-        "Endoscopia",
-        "Anestesia",
-        "1 noche de alojamiento",
-        "Apoyo de dietista"
-      ]
-    },
-    "esgRelaxation": {
-      "name": "ESG Relajación",
-      "features": [
-        "Hospital Liv de última generación",
-        "Procedimiento con el Dr. Murat Ustun (Pionero de ESG en Turquía)",
-        "Transferencias VIP al aeropuerto",
-        "Todas las pruebas y consultas preoperatorias",
-        "Costos de OR y hospital",
-        "2 días de admisión en habitación privada"
-      ]
-    },
-    "esgLuxury": {
-      "name": "ESG Lujo",
-      "features": [
-        "Hospital Liv de última generación",
-        "Procedimiento con el Dr. Murat Ustun (Pionero de ESG en Turquía)",
-        "Transferencias VIP al aeropuerto",
-        "Todas las pruebas y consultas preoperatorias",
-        "Costos de OR y hospital",
-        "2 días de admisión en habitación privada",
-        "2 días de alojamiento en el Hotel Radisson",
-        "4 citas con dietista registrado en el Reino Unido",
-        "1 mes de paquete de suplementos y multivitaminas"
-      ]
-    },
-    "dsRelaxation": {
-      "name": "Cambio Duodenal Relajación",
-      "features": [
-        "Cirugía con el Dr. Murat Ustun",
-        "Hospital acreditado por JCI (3 días)",
-        "Todas las pruebas y consultas preoperatorias",
-        "Transferencia VIP al aeropuerto",
-        "Apoyo de dietista registrado en el Reino Unido"
-      ]
-    },
-    "dsLuxury": {
-      "name": "Cambio Duodenal Lujo",
-      "features": [
-        "Cirugía con el Dr. Murat Ustun",
-        "Hospital acreditado por JCI (3 días)",
-        "Todas las pruebas y consultas preoperatorias",
-        "Transferencia VIP al aeropuerto",
-        "3 noches de alojamiento en hotel Radisson",
-        "Apoyo de dietista registrado en el Reino Unido",
-        "1 mes de suplementos",
-        "Apoyo de atención local en el Reino Unido en 8 ubicaciones"
-      ]
-    },
-    "bypassTitle": "Paquetes de Bypass Gástrico",
-    "bypassSubtitle": "Elige el paquete de bypass gástrico adecuado para tus necesidades",
-    "balloonTitle": "Paquetes de Globo Gástrico",
-    "balloonSubtitle": "Elige el paquete de globo gástrico adecuado para tus necesidades",
-    "esgTitle": "Paquetes de ESG",
-    "esgSubtitle": "Elige el paquete de ESG adecuado para tus necesidades",
-    "dsTitle": "Paquetes de Cambio Duodenal",
-    "dsSubtitle": "Elige el paquete de cambio duodenal adecuado para tus necesidades"
-  },
-  "esgTreatment": {
-    "title": "Gastroplastia Endoscópica de Manga (ESG)",
-    "desc": "ESG es un procedimiento de pérdida de peso mínimamente invasivo y no quirúrgico que reduce el tamaño de tu estómago hasta un 70-80% utilizando un dispositivo de sutura endoscópica insertado a través de la boca. No se requieren incisiones, lo que lo hace ideal para pacientes con IMC de 30-40 que prefieren un enfoque no quirúrgico.",
-    "advantages": [
-      "No quirúrgico — sin incisiones ni cicatrices",
-      "Tiempo de recuperación más corto (regreso a actividades normales en 1-3 días)",
-      "Menor riesgo de complicaciones en comparación con la cirugía",
-      "Procedimiento reversible",
-      "Se espera una pérdida de peso del 15-20% del peso corporal total",
-      "Alta el mismo día o al día siguiente",
-      "Realizado bajo anestesia general (~90 minutos)"
-    ],
-    "disadvantages": [
-      "Menos pérdida de peso que opciones quirúrgicas como la manga gástrica",
-      "Puede requerir procedimientos repetidos para resultados óptimos",
-      "No es adecuado para IMC superior a 40",
-      "Procedimiento relativamente nuevo con menos datos a largo plazo"
-    ]
-  },
-  "postBariatricSection": {
-    "sectionTitle": "Cirugía Plástica Post-Bariátrica",
-    "desc1": "Después de una pérdida de peso significativa tras la cirugía bariátrica, muchos pacientes quedan con piel excesiva y flácida. La cirugía de contorno corporal post-bariátrica elimina esta piel excesiva y remodela el cuerpo para ayudarte a disfrutar plenamente de tu transformación.",
-    "desc2": "Nuestros procedimientos incluyen abdominoplastia (tummy tuck), levantamiento de brazos, levantamiento de muslos, levantamiento de cuerpo, levantamiento de senos y levantamiento de cara/cuello. Estas cirugías pueden mejorar drásticamente el contorno corporal y eliminar la irritación de la piel.",
-    "learnMore": "Aprende Más Sobre el Contorno Corporal",
-    "imageAlt": "Procedimientos de contorno corporal post-bariátrica",
-    "imageCaption": "Opciones de contorno corporal después de la cirugía de pérdida de peso"
-  },
-  "faqSection": {
-    "title": "Preguntas Frecuentes Sobre Cirugía de Pérdida de Peso en Turquía",
-    "subtitle": "Todo lo que necesitas saber sobre la cirugía bariátrica en el Istanbul Bariatric Center",
-    "faqs": [
-      {
-        "question": "¿Cuánto cuesta la cirugía de pérdida de peso en Estambul?",
-        "answer": "Los paquetes todo incluido en el Istanbul Bariatric Center comienzan desde £1,650 para un globo gástrico, £2,950 para manga gástrica, £3,350 para bypass gástrico y £4,950 para ESG. Cada paquete cubre tu estancia en un hospital acreditado por JCI, pruebas preoperatorias, transferencias VIP al aeropuerto y seguimiento de dietista."
-      },
-      {
-        "question": "¿Cuál procedimiento bariátrico es adecuado para mí?",
-        "answer": "El mejor procedimiento depende de tu IMC, historial médico y objetivos de pérdida de peso. La manga gástrica es adecuada para IMC 35+, el bypass gástrico se recomienda para IMC 40+ o pacientes con condiciones metabólicas, el globo gástrico es una opción no quirúrgica para IMC 30–40, y ESG ofrece un enfoque mínimamente invasivo para IMC 30–40."
-      },
-      {
-        "question": "¿Es segura la cirugía bariátrica en el Istanbul Bariatric Center?",
-        "answer": "Absolutamente. Todos los procedimientos se realizan en el Hospital Liv acreditado por JCI en Estambul por cirujanos entrenados internacionalmente. El Dr. Murat Ustun, fundador y cirujano principal del centro, ha realizado miles de operaciones exitosas con resultados de seguridad sobresalientes."
-      },
-      {
-        "question": "¿Qué incluye cada paquete de cirugía?",
-        "answer": "Cada paquete incluye admisión a un hospital acreditado por JCI, pruebas preoperatorias completas, tarifas de cirujano y anestesia, transferencia VIP al aeropuerto y apoyo de dietista. Los niveles de Relajación y Lujo añaden al Dr. Murat Ustun como tu cirujano operativo, estancias hospitalarias prolongadas, alojamiento en hotel Radisson, seguimiento de dietista registrado en el Reino Unido y paquetes de suplementos."
-      },
-      {
-        "question": "¿Cuánto peso puedo esperar perder?",
-        "answer": "Los resultados varían según el procedimiento: los pacientes de manga gástrica típicamente pierden el 60–70% del peso excesivo, el bypass gástrico el 70–80%, el globo gástrico el 10–15% del peso corporal total y ESG el 15–20% del peso corporal total — todo dentro de los primeros 12–18 meses."
-      },
-      {
-        "question": "¿Cuál es el cronograma de recuperación?",
-        "answer": "Los pacientes de manga gástrica y bypass permanecen 2–3 días en el hospital y regresan a actividades diarias en 2–3 semanas. El globo gástrico es un procedimiento del mismo día, y los pacientes de ESG pueden reanudar actividades normales en 1–3 días."
-      },
-      {
-        "question": "¿Recibo atención posterior una vez que regreso a casa?",
-        "answer": "Sí. Cada paciente recibe un plan de atención posterior estructurado que incluye orientación de dietista, consultas de seguimiento y acceso a nuestro equipo de apoyo a pacientes con sede en el Reino Unido que opera desde 8 ubicaciones en todo el Reino Unido."
-      },
-      {
-        "question": "¿Quién es el Dr. Murat Ustun?",
-        "answer": "El Dr. Murat Ustun es el fundador y cirujano bariátrico principal en el Istanbul Bariatric Center. Pionero de ESG (Gastroplastia Endoscópica de Manga) en Turquía, ha realizado miles de procedimientos de pérdida de peso — incluyendo manga gástrica, bypass gástrico y cambio duodenal — en el Hospital Liv en Estambul."
-      }
-    ]
-  },
-  "treatmentLinks": {
-    "title": "Explora Nuestras Páginas de Tratamiento",
-    "subtitle": "Aprende más sobre cada procedimiento en detalle",
-    "gastricSleeve": "Cirugía de Manga Gástrica",
-    "gastricSleevePrice": "Desde £2,950",
-    "miniBypass": "Mini Bypass Gástrico",
-    "miniBypassDesc": "Procedimiento especializado",
-    "gastricBalloon": "Globo Gástrico",
-    "gastricBalloonPrice": "Desde £1,650",
-    "esg": "Procedimiento ESG",
-    "esgPrice": "Desde £4,950",
-    "duodenalSwitch": "Cambio Duodenal",
-    "duodenalSwitchPrice": "Desde £4,400",
-    "transitBipartition": "Bipartición de Tránsito",
-    "transitBipartitionDesc": "Procedimiento avanzado",
-    "postBariatric": "Cirugía Post-Bariátrica",
-    "postBariatricDesc": "Contorno corporal",
-    "eligible": "¿Soy Elegible?",
-    "eligibleDesc": "Evaluación de salud gratuita",
-    "results": "Resultados de Pacientes",
-    "resultsDesc": "Historias de éxito"
-  },
-  "whatsapp": {
-    "consultMessage": "Hola, me gustaría consultar sobre",
-    "packageMessage": "Hola, estoy interesado en el"
-  },
-  "seo": {
-    "title": "Cirugía de Pérdida de Peso en Estambul 2026 — Manga Gástrica, Bypass, Globo & ESG | Paquetes Todo Incluido",
-    "description": "Compara procedimientos bariátricos: Manga Gástrica desde £2,950, Bypass £3,350, Globo £1,650, ESG £4,950. Dr. Murat Ustun en el Hospital Liv acreditado por JCI.",
-    "heroAlt": "Estilo de vida activo y saludable después de la cirugía bariátrica",
-    "skipToContent": "Saltar al contenido principal"
+    "title": "Cirugía Post-Bariátrica",
+    "heroTitle": "Contorno Corporal Post-Bariátrico Estambul, Turquía",
+    "heroSubtitle": "Complete su viaje de pérdida de peso con procedimientos de contorno corporal diseñados para eliminar el exceso de piel.",
+    "desc": "Después de una pérdida de peso mayor, muchos pacientes quedan con exceso de piel. La cirugía post-bariátrica ayuda a remodelar y contornear el cuerpo."
   }
 }

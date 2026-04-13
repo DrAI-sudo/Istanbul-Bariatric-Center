@@ -2,82 +2,360 @@
   "common": {
     "advantages": "Avantajlar",
     "thingsToConsider": "Dikkat Edilmesi Gerekenler",
-    "consultFor": "Danışmanlık Al",
-    "selectPackage": "PAKETİ SEÇ",
-    "popular": "POPÜLER",
+    "consultFor": "Danışma",
+    "selectPackage": "PAKET SEÇ",
+    "popular": "POPÜLERr",
     "bestDoctors": "En İyi Doktorlar",
     "jciHospital": "JCI Akrediteli Hastane",
-    "airportPickup": "Havalimanı Transferi",
+    "airportPickup": "Havaalanı Karşılama",
     "daysAccommodation": "Gün Konaklama",
     "risks": "Riskler",
     "faqs": "Sıkça Sorulan Sorular",
     "getQuote": "Ücretsiz Teklif Al",
-    "bookConsultation": "Ücretsiz Danışmanlık",
+    "bookConsultation": "Ücretsiz Danışma Randevusu",
     "learnMore": "Daha Fazla Bilgi",
     "readMore": "Devamını Oku",
     "whyTurkey": "Neden Türkiye?",
     "packageOptions": "Paket Seçenekleri"
   },
   "main": {
-    "title": "Bariatrik Tedaviler",
-    "subtitle": "Özel ihtiyaçlarınıza ve sağlık durumunuza göre uyarlanmış kapsamlı kilo verme prosedürleri sunuyoruz.",
-    "sleevePackageTitle": "Tüp Mide Ameliyatı Paket Seçenekleri",
-    "sleevePackageDesc": "İstanbul Bariatrik Merkezi'nde bütçenize uygun tedavi paketlerinden birini seçmekte özgürsünüz."
+    "title": "Bariyatrik Tedaviler",
+    "subtitle": "Özel ihtiyaçlarınıza ve sağlık durumunuza göre kapsamlı kilo verme prosedürleri sunuyoruz.",
+    "sleevePackageTitle": "Sleeve Gastrektomi Paket Seçenekleri",
+    "sleevePackageDesc": "Istanbul Bariatric Center'da bütçenize uygun tedavi paketlerinden birini seçmekte özgürsünüz."
+  },
+  "comparison": {
+    "title": "Tüm Prosedürleri Bir Bakışta Karşılaştırın",
+    "subtitle": "BMI, bütçe ve iyileşme tercihlerinize göre doğru kilo verme prosedürünü bulun.",
+    "procedure": "Prosedür",
+    "type": "Tür",
+    "bmiRange": "BMI Aralığı",
+    "startingPrice": "Başlangıç Fiyatı",
+    "hospitalStay": "Hastanede Kalış",
+    "expectedWeightLoss": "Beklenen Kilo Kaybı",
+    "recovery": "İyileşme",
+    "surgical": "Cerrahi",
+    "nonSurgical": "Cerrahi Olmayan",
+    "priceNote": "Tüm fiyatlar her şey dahildir. Tüm Rahatlama ve Lüks paketleri Dr Murat Ustun ile ameliyatı içerir. Kesin fiyatlandırma ücretsiz danışmadan sonra onaylanır.",
+    "gastricSleeve": "Tüp Mide",
+    "gastricBypass": "Mide Bypass",
+    "gastricBalloon": "Mide Balonu",
+    "esg": "ESG",
+    "duodenalSwitch": "Duodenal Switch",
+    "bmi35plus": "35+",
+    "bmi40plus": "40+ (veya 35+ eşlik eden hastalıklar ile)",
+    "bmi30to40": "30–40",
+    "bmi50plus": "50+ (veya 40+ eşlik eden hastalıklar ile)",
+    "stay2to3": "2–3 gün",
+    "staySameDay": "Aynı gün",
+    "stay1to2": "1–2 gün",
+    "stay3to4": "3–4 gün",
+    "loss60to70": "Fazla kilonun %60–70'i",
+    "loss70to80": "Fazla kilonun %70–80'i",
+    "loss10to15": "Toplam vücut ağırlığının %10–15'i",
+    "loss15to20": "Toplam vücut ağırlığının %15–20'si",
+    "loss70to85": "Fazla kilonun %70–85'i",
+    "recovery2to3weeks": "2–3 hafta",
+    "recovery1to3days": "1–3 gün",
+    "recovery3to4weeks": "3–4 hafta"
+  },
+  "packages": {
+    "sleeveBasic": {
+      "name": "Tüp Mide Temel",
+      "features": [
+        "Deneyimli cerrahi ekip",
+        "JCI akrediteli hastane (2 gün)",
+        "Tüm ameliyat öncesi testler ve konsültasyonlar",
+        "VIP havaalanı transferi",
+        "Diyetisyen desteği"
+      ]
+    },
+    "sleeveRelaxation": {
+      "name": "Tüp Mide Rahatlama",
+      "features": [
+        "Dr Murat Ustun ile ameliyat",
+        "JCI akrediteli hastane (3 gün)",
+        "Tüm ameliyat öncesi testler ve konsültasyonlar",
+        "VIP havaalanı transferi",
+        "İngiltere kayıtlı diyetisyen desteği"
+      ]
+    },
+    "sleeveLuxury": {
+      "name": "Tüp Mide Lüks",
+      "features": [
+        "Dr Murat Ustun ile ameliyat",
+        "JCI akrediteli hastane (3 gün)",
+        "Tüm ameliyat öncesi testler ve konsültasyonlar",
+        "VIP havaalanı transferi",
+        "3 gece Radisson otel konaklaması",
+        "İngiltere kayıtlı diyetisyen desteği",
+        "1 aylık takviye paketi",
+        "8 lokasyonda yerel İngiltere bakım desteği"
+      ]
+    },
+    "bypassBasic": {
+      "name": "Mide Bypass Temel",
+      "features": [
+        "Deneyimli cerrahi ekip",
+        "JCI akrediteli hastane (2 gün)",
+        "Tüm ameliyat öncesi testler ve konsültasyonlar",
+        "VIP havaalanı transferi",
+        "Diyetisyen desteği"
+      ]
+    },
+    "bypassRelaxation": {
+      "name": "Mide Bypass Rahatlama",
+      "features": [
+        "Dr Murat Ustun ile ameliyat",
+        "JCI akrediteli hastane (3 gün)",
+        "Tüm ameliyat öncesi testler ve konsültasyonlar",
+        "VIP havaalanı transferi",
+        "İngiltere kayıtlı diyetisyen desteği"
+      ]
+    },
+    "bypassLuxury": {
+      "name": "Mide Bypass Lüks",
+      "features": [
+        "Dr Murat Ustun ile ameliyat",
+        "JCI akrediteli hastane (3 gün)",
+        "Tüm ameliyat öncesi testler ve konsültasyonlar",
+        "VIP havaalanı transferi",
+        "3 gece Radisson otel konaklaması",
+        "İngiltere kayıtlı diyetisyen desteği",
+        "1 aylık takviye paketi",
+        "8 lokasyonda yerel İngiltere bakım desteği"
+      ]
+    },
+    "balloonOrbera": {
+      "name": "Endoskopik Orbera Balon",
+      "features": [
+        "Havaalanı Transferleri",
+        "Kapsamlı Ameliyat Öncesi Testler",
+        "Endoskopi",
+        "Anestezi",
+        "2 gece konaklama",
+        "Diyetisyen Desteği"
+      ]
+    },
+    "balloonAllurion": {
+      "name": "Allurion Yutulabilir Balon",
+      "features": [
+        "Havaalanı Transferleri",
+        "Kapsamlı Ameliyat Öncesi Testler",
+        "Endoskopi",
+        "Anestezi",
+        "1 gece konaklama",
+        "Diyetisyen Desteği"
+      ]
+    },
+    "esgRelaxation": {
+      "name": "ESG Rahatlama",
+      "features": [
+        "Son teknoloji Liv hastanesi",
+        "Dr Murat Ustun ile prosedür (Türkiye'de ESG öncüsü)",
+        "VIP Havaalanı Transferleri",
+        "Tüm ameliyat öncesi testler ve konsültasyonlar",
+        "Ameliyathane ve hastane masrafları",
+        "Özel odada 2 gün yatış"
+      ]
+    },
+    "esgLuxury": {
+      "name": "ESG Lüks",
+      "features": [
+        "Son teknoloji Liv hastanesi",
+        "Dr Murat Ustun ile prosedür (Türkiye'de ESG öncüsü)",
+        "VIP Havaalanı Transferleri",
+        "Tüm ameliyat öncesi testler ve konsültasyonlar",
+        "Ameliyathane ve hastane masrafları",
+        "Özel odada 2 gün yatış",
+        "Radisson Otel'de 2 gün konaklama",
+        "4 İngiltere kayıtlı diyetisyen randevusu",
+        "1 aylık takviye ve multivitamin paketi"
+      ]
+    },
+    "dsRelaxation": {
+      "name": "Duodenal Switch Rahatlama",
+      "features": [
+        "Dr Murat Ustun ile ameliyat",
+        "JCI akrediteli hastane (3 gün)",
+        "Tüm ameliyat öncesi testler ve konsültasyonlar",
+        "VIP havaalanı transferi",
+        "İngiltere kayıtlı diyetisyen desteği"
+      ]
+    },
+    "dsLuxury": {
+      "name": "Duodenal Switch Lüks",
+      "features": [
+        "Dr Murat Ustun ile ameliyat",
+        "JCI akrediteli hastane (3 gün)",
+        "Tüm ameliyat öncesi testler ve konsültasyonlar",
+        "VIP havaalanı transferi",
+        "3 gece Radisson otel konaklaması",
+        "İngiltere kayıtlı diyetisyen desteği",
+        "1 aylık takviye paketi",
+        "8 lokasyonda yerel İngiltere bakım desteği"
+      ]
+    },
+    "bypassTitle": "Mide Bypass Paketleri",
+    "bypassSubtitle": "İhtiyaçlarınıza uygun mide bypass paketini seçin",
+    "balloonTitle": "Mide Balonu Paketleri",
+    "balloonSubtitle": "İhtiyaçlarınıza uygun mide balonu paketini seçin",
+    "esgTitle": "ESG Paketleri",
+    "esgSubtitle": "İhtiyaçlarınıza uygun ESG paketini seçin",
+    "dsTitle": "Duodenal Switch Paketleri",
+    "dsSubtitle": "İhtiyaçlarınıza uygun duodenal switch paketini seçin"
+  },
+  "esgTreatment": {
+    "title": "Endoskopik Sleeve Gastroplasti (ESG)",
+    "desc": "ESG, ağızdan takılan endoskopik dikiş cihazı kullanılarak mide boyutunu %70-80'e kadar küçülten minimal invaziv, cerrahi olmayan bir kilo verme prosedürüdür. Kesi gerektirmez, BMI 30-40 arası cerrahi olmayan yaklaşımı tercih eden hastalar için idealdir.",
+    "advantages": [
+      "Cerrahi olmayan — kesi veya iz yok",
+      "Daha kısa iyileşme süresi (1-3 gün içinde normal aktivitelere dönüş)",
+      "Cerrahiye göre daha düşük komplikasyon riski",
+      "Geri dönüşümlü prosedür",
+      "%15-20 toplam vücut ağırlığı kaybı beklenir",
+      "Aynı gün veya ertesi gün taburcu",
+      "Genel anestezi altında yapılır (~90 dakika)"
+    ],
+    "disadvantages": [
+      "Tüp mide gibi cerrahi seçeneklerden daha az kilo kaybı",
+      "Optimal sonuçlar için tekrar prosedür gerekebilir",
+      "BMI 40 üzeri için uygun değil",
+      "Nispeten yeni prosedür, daha az uzun vadeli veri"
+    ]
+  },
+  "postBariatricSection": {
+    "sectionTitle": "Bariyatrik Sonrası Plastik Cerrahi",
+    "desc1": "Bariyatrik cerrahi sonrası önemli kilo kaybının ardından, birçok hasta fazla, sarkık deri ile kalır. Bariyatrik sonrası vücut şekillendirme ameliyatı bu fazla deriyi kaldırır ve vücudu yeniden şekillendirir.",
+    "desc2": "Prosedürlerimiz arasında karın germe (abdominoplasti), kol kaldırma, uyluk kaldırma, vücut kaldırma, meme kaldırma ve yüz/boyun kaldırma yer almaktadır.",
+    "learnMore": "Vücut Şekillendirme Hakkında Daha Fazla Bilgi",
+    "imageAlt": "Bariyatrik sonrası vücut şekillendirme prosedürleri",
+    "imageCaption": "Kilo verme cerrahisi sonrası vücut şekillendirme seçenekleri"
+  },
+  "faqSection": {
+    "title": "Türkiye'de Kilo Verme Cerrahisi Hakkında Sıkça Sorulan Sorular",
+    "subtitle": "Istanbul Bariatric Center'da bariyatrik cerrahi hakkında bilmeniz gereken her şey",
+    "faqs": [
+      {
+        "question": "İstanbul'da kilo verme cerrahisi ne kadara mal olur?",
+        "answer": "Istanbul Bariatric Center'da her şey dahil paketler mide balonu için £1.650, tüp mide için £2.950, mide bypass için £3.350 ve ESG için £4.950'den başlar. Her paket JCI akrediteli hastane konaklamanızı, ameliyat öncesi testleri, VIP havaalanı transferlerini ve diyetisyen takibini kapsar."
+      },
+      {
+        "question": "Benim için hangi bariyatrik prosedür doğru?",
+        "answer": "En iyi prosedür BMI'nize, tıbbi geçmişinize ve kilo verme hedeflerinize bağlıdır. Tüp mide BMI 35+ için, mide bypass BMI 40+ veya metabolik rahatsızlıkları olan hastalar için, mide balonu BMI 30-40 için cerrahi olmayan bir seçenek ve ESG BMI 30-40 için minimal invaziv bir yaklaşım sunar."
+      },
+      {
+        "question": "Istanbul Bariatric Center'da bariyatrik cerrahi güvenli midir?",
+        "answer": "Kesinlikle. Tüm prosedürler İstanbul'daki JCI akrediteli Liv Hastanesi'nde uluslararası eğitimli cerrahlar tarafından gerçekleştirilir. Merkezin kurucusu ve baş cerrahı Dr Murat Ustun, olağanüstü güvenlik sonuçlarıyla binlerce başarılı operasyon gerçekleştirmiştir."
+      },
+      {
+        "question": "Her cerrahi paketinde neler dahil?",
+        "answer": "Her paket JCI akrediteli hastaneye yatış, tam ameliyat öncesi testler, cerrah ve anestezi ücretleri, VIP havaalanı transferi ve diyetisyen desteğini içerir. Rahatlama ve Lüks kademeleri ameliyat cerrahınız olarak Dr Murat Ustun'u, uzatılmış hastane kalışlarını, Radisson otel konaklamasını, İngiltere kayıtlı diyetisyen takibini ve takviye paketlerini ekler."
+      },
+      {
+        "question": "Ne kadar kilo vermeyi bekleyebilirim?",
+        "answer": "Sonuçlar prosedüre göre değişir: tüp mide hastaları genellikle fazla kilonun %60-70'ini, mide bypass %70-80'ini, mide balonu toplam vücut ağırlığının %10-15'ini ve ESG toplam vücut ağırlığının %15-20'sini kaybeder — hepsi ilk 12-18 ay içinde."
+      },
+      {
+        "question": "İyileşme süreci nasıl?",
+        "answer": "Tüp mide ve bypass hastaları hastanede 2-3 gün kalır ve 2-3 hafta içinde günlük aktivitelere döner. Mide balonu aynı gün prosedürüdür ve ESG hastaları 1-3 gün içinde normal aktivitelere devam edebilir."
+      },
+      {
+        "question": "Eve döndüğümde bakım alıyor muyum?",
+        "answer": "Evet. Her hasta diyetisyen rehberliği, takip konsültasyonları ve İngiltere genelinde 8 lokasyondan hizmet veren İngiltere merkezli hasta destek ekibimize erişim dahil yapılandırılmış bir bakım planı alır."
+      },
+      {
+        "question": "Dr Murat Ustun kimdir?",
+        "answer": "Dr Murat Ustun, Istanbul Bariatric Center'ın kurucusu ve baş bariyatrik cerrahıdır. Türkiye'de ESG'nin (Endoskopik Sleeve Gastroplasti) öncüsü olan Dr Ustun, İstanbul'daki Liv Hastanesi'nde tüp mide, mide bypass ve duodenal switch dahil binlerce kilo verme prosedürü gerçekleştirmiştir."
+      }
+    ]
+  },
+  "treatmentLinks": {
+    "title": "Tedavi Sayfalarımızı Keşfedin",
+    "subtitle": "Her prosedür hakkında ayrıntılı bilgi edinin",
+    "gastricSleeve": "Tüp Mide Cerrahisi",
+    "gastricSleevePrice": "£2.950'den başlayan fiyatlarla",
+    "miniBypass": "Mini Mide Bypass",
+    "miniBypassDesc": "Uzman prosedür",
+    "gastricBalloon": "Mide Balonu",
+    "gastricBalloonPrice": "£1.650'den başlayan fiyatlarla",
+    "esg": "ESG Prosedürü",
+    "esgPrice": "£4.950'den başlayan fiyatlarla",
+    "duodenalSwitch": "Duodenal Switch",
+    "duodenalSwitchPrice": "£4.400'den başlayan fiyatlarla",
+    "transitBipartition": "Transit Bipartisyon",
+    "transitBipartitionDesc": "İleri düzey prosedür",
+    "postBariatric": "Bariyatrik Sonrası Cerrahi",
+    "postBariatricDesc": "Vücut şekillendirme",
+    "eligible": "Uygun Muyum?",
+    "eligibleDesc": "Ücretsiz sağlık değerlendirmesi",
+    "results": "Hasta Sonuçları",
+    "resultsDesc": "Başarı hikayeleri"
+  },
+  "whatsapp": {
+    "consultMessage": "Merhaba, danışmak istiyorum",
+    "packageMessage": "Merhaba, ilgilendiğim paket"
+  },
+  "seo": {
+    "title": "İstanbul'da 2026 Kilo Verme Cerrahisi — Tüp Mide, Bypass, Balon & ESG | Her Şey Dahil Paketler",
+    "description": "Bariyatrik prosedürleri karşılaştırın: Tüp Mide £2.950, Bypass £3.350, Balon £1.650, ESG £4.950. JCI akrediteli Liv Hastanesi'nde Dr Murat Ustun.",
+    "heroAlt": "Bariyatrik cerrahi sonrası aktif sağlıklı yaşam tarzı",
+    "skipToContent": "Ana içeriğe atla"
   },
   "gastricSleeve": {
-    "title": "Tüp Mide Ameliyatı",
-    "heroTitle": "Tüp Mide Ameliyatı İstanbul, Türkiye",
-    "heroSubtitle": "Tüp mide ameliyatı, dünya genelinde ve Türkiye'de en çok uygulanan bariatrik ameliyatlardan biridir. Neden bu kadar etkili olduğunu keşfedin.",
-    "desc": "Sleeve gastrektomi olarak da bilinen bu prosedür, midenin %70-80'inin çıkarılmasını ve tübüler bir kese bırakılmasını içerir. Yiyecek alımını kısıtlar ve açlığı azaltmak için bağırsak hormonlarını etkiler.",
-    "overviewTitle": "Tüp Mide Ameliyatı Türkiye: Genel Bakış",
-    "overviewP1": "Tüp mide veya sleeve gastrektomi, midenizin bir kısmını keserek daha küçük bir oda oluşturmak için yapılan bir bariatrik cerrahidir. Hem dünya genelinde hem de Türkiye'de en çok uygulanan bariatrik ameliyatlardan biridir.",
-    "overviewP2": "Obezite, dünya çapında birçok insan için en sinir bozucu sorunlardan biridir, sadece sonrasında gelen şekil, yüz veya vücut değişikliği nedeniyle değil, aynı zamanda neden olabileceği sağlık sorunları nedeniyle.",
-    "overviewP3": "Obezite ile doğrudan ilişkili çeşitli hastalıklar vardır: Tip II Diyabet, Yüksek tansiyon, Kalp sorunları, Yüksek Kolesterol ve daha fazlası.",
+    "title": "Tüp Mide Cerrahisi",
+    "heroTitle": "Sleeve Gastrektomi İstanbul, Türkiye",
+    "heroSubtitle": "Tüp mide cerrahisi dünya genelinde ve Türkiye'de en çok uygulanan bariyatrik cerrahilerden biridir. Neden bu kadar etkili olduğunu keşfedin.",
+    "desc": "Sleeve gastrektomi olarak da bilinen bu prosedür, midenin %70-80'ini çıkararak tübüler bir poş bırakır. Gıda alımını kısıtlar ve açlığı azaltmak için bağırsak hormonlarını etkiler.",
+    "overviewTitle": "Sleeve Gastrektomi Türkiye: Genel Bakış",
+    "overviewP1": "Tüp mide veya sleeve gastrektomi, midenizin bir kısmını keserek daha küçük bir oda oluşturan bir bariyatrik cerrahidir.",
+    "overviewP2": "Obezite dünya genelinde birçok insan için en rahatsız edici sorunlardan biridir.",
+    "overviewP3": "Obezite ile doğrudan ilişkili çeşitli hastalıklar vardır: Tip 2 Diyabet, Yüksek Tansiyon, Kalp Sorunları, Yüksek Kolesterol ve dahası.",
     "advantages": [
-      "Midede tutulan yiyecek miktarını kontrol eder",
-      "Hızlı kilo kaybını destekler",
+      "Midede tutulan gıda miktarını kontrol eder",
+      "Hızlı kilo vermeyi destekler",
       "Bypass'a göre daha kısa hastane kalışı",
       "Açlık ve iştahı azaltır"
     ],
     "disadvantages": [
-      "Geri dönüşü olmayan prosedür",
+      "Geri dönüşümsüz prosedür",
       "Vitamin eksikliği potansiyeli"
     ],
     "risks": [
-      "Mide içinden veya cerrahi yaradan kanama.",
-      "Derin Ven Trombozu: veya DVT, prosedür sırasında veya iyileşme sürecinde damarınızda oluşan kan pıhtısı.",
+      "Midenin içinden veya cerrahi yaradan kanama.",
+      "Derin Ven Trombozu: prosedür sırasında veya iyileşme sürecinde damarınızda kan pıhtısı oluşması.",
       "Düzensiz kalp atışı: bazı ameliyatlar ameliyat sırasında düzensiz kalp atışına yol açabilir.",
-      "Mide Sızıntıları: mide sıvıları midenizdeki dikiş hattından sızabilir.",
-      "Stenoz: midenizin bir kısmının kapanarak midenizde tıkanıklığa neden olması anlamına gelir.",
-      "Vitamin eksikliği: çıkarılan mide kısmı kısmen vitamin emiliminden sorumludur."
+      "Mide Sızıntıları: mide sıvıları mideninizdeki dikiş hattından sızabilir.",
+      "Stenoz: midenizin bir kısmının kapanarak midede tıkanıklığa neden olması.",
+      "Vitamin eksikliği: midenizin çıkarılan kısmı kısmen vitamin emiliminden sorumludur."
     ],
     "packages": {
       "basic": {
-        "name": "Tüp Mide Temel",
+        "name": "Sleeve Gastrektomi Temel",
         "price": "£2250",
         "days": "3"
       },
       "relaxation": {
-        "name": "Tüp Mide Rahatlama",
+        "name": "Sleeve Gastrektomi Rahatlama",
         "price": "£3250",
         "days": "5"
       },
       "luxury": {
-        "name": "Tüp Mide Lüks",
+        "name": "Sleeve Gastrektomi Lüks",
         "price": "£4000",
         "days": "7"
       }
     }
   },
   "gastricBypass": {
-    "title": "Mide Bypass Ameliyatı",
+    "title": "Mide Bypass Cerrahisi",
     "heroTitle": "Mini Mide Bypass İstanbul, Türkiye",
-    "heroSubtitle": "Mini mide bypass, geleneksel mide bypass'ın basitleştirilmiş bir versiyonudur ve daha az komplikasyonla mükemmel kilo kaybı sonuçları sunar.",
-    "desc": "Mide iki parçaya ayrılır ve daha küçük bir kese oluşturulur. İnce bağırsak her ikisine de bağlanacak şekilde yeniden düzenlenir. Bu, yiyecek alımını ve kalori emilimini sınırlar.",
+    "heroSubtitle": "Mini mide bypass, geleneksel mide bypass'ın basitleştirilmiş bir versiyonudur ve daha az komplikasyon ile mükemmel kilo verme sonuçları sunar.",
+    "desc": "Mide iki parçaya bölünür, daha küçük bir poş oluşturulur. İnce bağırsak her ikisine de bağlanacak şekilde yeniden düzenlenir. Bu, gıda alımını ve kalori emilimini sınırlar.",
     "advantages": [
-      "Uzun vadeli kilo kaybı",
-      "Tüketilen yiyecek miktarını kontrol eder",
-      "Bağırsak hormonları aracılığıyla açlığı bastırır"
+      "Uzun vadeli kilo verme",
+      "Tüketilen gıda miktarını kontrol eder",
+      "Bağırsak hormonları ile açlığı bastırır"
     ],
     "disadvantages": [
       "Karmaşık cerrahi",
@@ -85,58 +363,58 @@
       "Vitamin eksikliği riski"
     ],
     "tableOfContents": "İçindekiler",
-    "tocItem1": "Mini mide bypass ameliyatı kilo vermeme nasıl yardımcı olabilir?",
-    "tocItem2": "Mini mide bypass ameliyatının yan etkileri var mı?",
-    "tocItem3": "Sigorta şirketleri ameliyat ücretlerini karşılıyor mu?",
-    "tocItem4": "Mini Mide Bypass Ameliyatından Önce Bilmeniz Gerekenler",
-    "introP1": "Dünya genelinde birçok insan için fazla kilo ve obezite çok ciddi bir sorundur, sadece sonrasında gelen şekil, yüz veya vücut değişikliği nedeniyle değil, aynı zamanda neden olabileceği sağlık sorunları nedeniyle.",
-    "introP2": "Aslında, obezite çok önemli bir nedendir ve çoğu inme, kan şekeri, kan basıncı sorunları, solunum sorunları, mide sorunları ve diğer birçok sağlık sorununun doğrudan nedeni olabilir.",
-    "introP3": "Her biri adımlarında diğerinden farklı olan ancak hepsinin ortak noktası önemli kilo kaybı olan hoş sonuçları paylaşan birkaç kilo verme ameliyatı türü vardır. Bu türlerden biri mini mide bypass olarak adlandırılır.",
-    "introP4": "Bu ameliyat, en etkili kilo verme ameliyatlarından biri olarak kabul edilir ve diğer kilo verme ameliyatı türlerine kıyasla birçok avantaja sahiptir.",
-    "introP5": "Diğer kilo verme ameliyatları gibi, mini mide ameliyatının temel fikri, hastanın tükettiği yiyecek miktarını azaltmak için mide hacmini küçültmektir. Ancak mini mide bypass ameliyatı farklı adımlar içerir. Ameliyat sırasında doktor midenin üst kısmını kesecek ve bir tüp haline getirecek, ardından bunu bir bağırsak döngüsüne birleştirecektir. Tüm midenin %75'ine eşit olan midenin geri kalanı kullanılamaz kalacaktır.",
-    "introP6": "Midenin üst kısmı 50 ml boyutunda bir tüp oluşturmak için zımbalanır, bu tüp yeni küçük mide olacak ve orijinal mideden tamamen ayrılacaktır. Bu mide daha sonra ince bağırsağın bir döngüsüne dikilir, bağırsağın duodenum adı verilen ilk kısmını ve bağırsağın yaklaşık 150-200 cm'sini atlar.",
-    "introP7": "Mini mide bypass ameliyatı birincil bir kilo verme ameliyatı olarak kullanılabilir veya diyet ve günlük egzersizleri zaten denemiş ancak hoş sonuçlar elde edememiş kişiler için veya herhangi bir nedenle ilk ameliyat başarısız olduğu için kilo verme ameliyatını yeniden yaptıran hastalar için kullanılabilir.",
-    "howItHelpsTitle": "Mini mide bypass ameliyatı kilo vermeme nasıl yardımcı olabilir?",
-    "howItHelpsIntro": "Mini mide bypass ameliyatı birçok şekilde kilo vermenize yardımcı olur:",
+    "tocItem1": "Mini mide bypass cerrahisi kilo vermeme nasıl yardımcı olabilir?",
+    "tocItem2": "Mini mide bypass cerrahisinin yan etkileri var mı?",
+    "tocItem3": "Sigorta şirketleri ameliyat masraflarını karşılıyor mu?",
+    "tocItem4": "Mini Mide Bypass Cerrahisi Öncesi Bilmeniz Gerekenler",
+    "introP1": "Dünya genelinde birçok insan için aşırı kilo ve obezite çok ciddi bir sorundur.",
+    "introP2": "Aslında obezite, inme, kan şekeri, tansiyon sorunları, solunum problemleri, mide sorunları ve diğer birçok sağlık sorununun çok önemli ve doğrudan nedeni olabilir.",
+    "introP3": "Kilo verme cerrahisinin her biri adımlarında farklılık gösteren ancak hepsinin aynı hoş sonuçları paylaştığı çeşitli türleri vardır. Bu türlerden biri mini mide bypass'tır.",
+    "introP4": "Bu cerrahi, en etkili kilo verme ameliyatlarından biri olarak kabul edilir.",
+    "introP5": "Diğer kilo verme cerrahileri gibi, mini mide cerrahisinin temel fikri mide hacmini azaltarak hasta tarafından tüketilen gıda miktarını düşürmektir.",
+    "introP6": "Midenin üst kısmı zımbalanarak 50 ml boyutunda bir tüp oluşturulur, bu tüp yeni küçük mide olacak ve orijinal mideden tamamen ayrılacaktır.",
+    "introP7": "Mini mide bypass ameliyatı birincil kilo verme ameliyatı olarak veya diyet ve egzersiz deneyip sonuç alamayan kişiler için kullanılabilir.",
+    "howItHelpsTitle": "Mini Mide Bypass: Beklenen Kilo Kaybı ve Sağlık Faydaları",
+    "howItHelpsIntro": "Mini mide bypass cerrahisi çeşitli şekillerde kilo vermenize yardımcı olur:",
     "benefit1Title": "Açlık hissini azaltır",
-    "benefit1Desc": "Çıkarılan mide kısmı açlık hormonundan sorumludur. Bu nedenle, çıkarıldığında açlık hissi azalacak ve bu da daha az kiloya neden olacaktır.",
-    "benefit2Title": "Yiyecek alımını azaltır",
-    "benefit2Desc": "Ameliyattan sonra mide hacminiz küçüldüğü için mideye giren yiyecek miktarını azaltarak.",
+    "benefit1Desc": "Midenin çıkarılan kısmı açlık hormonundan sorumludur. Bu nedenle çıkarıldığında açlık hissi azalır.",
+    "benefit2Title": "Gıda alımını azaltır",
+    "benefit2Desc": "Ameliyat sonrası mide hacminiz küçüldüğü için mideye giren gıda miktarını azaltarak.",
     "benefit3Title": "Kalori emilimini azaltır",
-    "benefit3Desc": "Yediğiniz yiyeceklerden emdiğiniz kalori miktarını azaltarak daha sağlıklı bir yaşam tarzı sağlar.",
+    "benefit3Desc": "Yediğiniz gıdalardan emdiğiniz kalori miktarını azaltarak daha sağlıklı bir yaşam tarzı sağlar.",
     "additionalBenefitsTitle": "Ek Faydalar",
-    "additionalBenefitsDesc": "İki yıl sonra kilonuzun yaklaşık %80'ini kaybedeceksiniz ve tip 2 diyabet, kan şekeri hastalıkları, kalp sorunları gibi ciddi sağlık sorunları ve hastalıklar bu ameliyattan sonra iyileşecek veya hatta kaybolacaktır.",
-    "sideEffectsTitle": "Mini mide bypass ameliyatının yan etkileri var mı?",
-    "sideEffectsIntro": "Herhangi bir alandaki diğer ameliyatlar gibi, ameliyat sırasında veya sonrasında meydana gelebilecek bazı yan etkiler vardır. Mini mide bypass ameliyatı güvenli olmasına rağmen yine de belirtebileceğimiz bazı riskler vardır:",
+    "additionalBenefitsDesc": "İki yıl sonra kilonuzun yaklaşık %80'ini kaybedeceksiniz ve tip 2 diyabet, kan şekeri hastalıkları, kalp sorunları gibi ciddi sağlık sorunları iyileşecek veya bu ameliyattan sonra kaybolacaktır.",
+    "sideEffectsTitle": "Mini mide bypass cerrahisinin yan etkileri var mı?",
+    "sideEffectsIntro": "Herhangi bir alandaki cerrahi gibi, ameliyat sırasında veya sonrasında meydana gelebilecek bazı yan etkiler vardır. Mini mide bypass cerrahisi güvenli olmasına rağmen bahsedebileceğimiz bazı riskler vardır:",
     "sideEffects": [
       "Midenizin içinden veya mide yaranızdan kanama.",
-      "Doktor veya tıbbi ekip size güçlü genel anestezi vermezse ağrı hissedebilirsiniz.",
-      "Mide Sızıntıları: mide sıvıları midenizdeki dikiş hattından sızabilir.",
-      "Stenoz: midenizin bir kısmının kapanarak midenizde tıkanıklığa neden olması anlamına gelir.",
-      "Vitamin eksikliği: çıkarılan mide kısmı kısmen vitamin emiliminden sorumludur, bu yüzden bu kısmı kaybettiğinizde vücudunuzdaki vitaminler azalacaktır."
+      "Doktor veya tıbbi ekip güçlü genel anestezi uygulamazsa ağrı hissedebilirsiniz.",
+      "Mide Sızıntıları: mide sıvıları mideninizdeki dikiş hattından sızabilir.",
+      "Stenoz: midenizin bir kısmının kapanarak midede tıkanıklığa neden olması.",
+      "Vitamin eksikliği: midenizin çıkarılan kısmı kısmen vitamin emiliminden sorumludur."
     ],
-    "sideEffectsConclusion": "Bu riskler erken komplikasyonlar olarak kabul edilir ve neyse ki vakaların %95'i başarılıdır. Yine de, mini bypass sonrası standart mide bypass'ına göre internal herni riski önemli ölçüde düşük olmasına rağmen internal herni gibi bazı geç komplikasyonlar ortaya çıkabilir. Bazen karındaki bağırsak döngüleri birbirine dolanabilir ve takılabilir. Bu durumda, sorunu çözmek için başka bir ameliyat veya cerrahi gereklidir.",
-    "insuranceTitle": "Sigorta şirketleri ameliyat ücretlerini karşılıyor mu?",
-    "insuranceDesc": "Çoğu sigorta şirketi, hasta BMI İndeksi koşulunu yerine getirdiğinde ameliyat masraflarını karşılar. Elbette bu bilgi ülkeden ülkeye değişir, bu yüzden bu bilgiyi ülkenizde sormak daha iyidir.",
-    "thingsToKnowTitle": "Mini Mide Bypass Ameliyatından Önce Bilmeniz Gerekenler",
+    "sideEffectsConclusion": "Bu riskler erken komplikasyonlar olarak kabul edilir ve vakaların %95'i başarılıdır.",
+    "insuranceTitle": "Sigorta şirketleri ameliyat masraflarını karşılıyor mu?",
+    "insuranceDesc": "Çoğu sigorta şirketi hasta BMI İndeksi koşulunu karşılarsa ameliyat masraflarını karşılar. Ülkeden ülkeye değişir.",
+    "thingsToKnowTitle": "Mini Mide Bypass Cerrahisi Öncesi Bilmeniz Gerekenler",
     "thingsToKnow": [
-      "Bu ameliyatı yaptırmak isteyen hastalar BMI indeksinde en az 35 kg/m² puan almalıdır.",
-      "Hasta ameliyatı yapmak için hastanede bir saat ila 90 dakika geçirecektir.",
-      "Hasta, hiçbir şeyin ters gitmediğinden emin olmak için üç ila dört gün hastanede kalmalıdır.",
+      "Bu ameliyatı yaptırmak isteyen hastaların BMI indeksinde en az 35 kg/m² puan alması gerekir.",
+      "Hasta ameliyat için hastanede bir saatten 90 dakikaya kadar geçirecektir.",
+      "Hasta hiçbir şeyin yanlış gitmediğinden emin olmak için hastanede üç ila dört gün kalmalıdır.",
       "Hasta toplam kilonun %70 ila %85'ini kaybedecektir.",
-      "Hasta, rahatsızlığın en fazla üç hafta sonra geçeceğini bilmelidir.",
+      "Hasta hastalığın en fazla üç hafta sonra geçeceğini bilmelidir.",
       "Hasta ömür boyu takviye almalıdır.",
       "Hasta doktorun talimatlarını ve verilen diyetleri takip etmelidir."
     ],
-    "thingsToKnowConclusion": "Sonuç olarak, güvenli ve çok zor olmamasına rağmen, ameliyat sırasında veya iyileşme sürecinde herhangi bir sorunu önlemek için doktorun veya tıbbi ekibin tıbbi geçmiş raporunuz dahil sağlık durumunuzla ilgili tüm bilgileri bilmesi gerektiğini bilmelisiniz.",
-    "ctaTitle": "Mini Mide Bypass Hakkında Daha Fazla Bilgi Almaya Hazır mısınız?",
-    "ctaDesc": "Bugün ücretsiz danışmanlık için bizimle iletişime geçin ve mini mide bypass ameliyatının kilo verme hedeflerinize ulaşmanıza nasıl yardımcı olabileceğini öğrenin."
+    "thingsToKnowConclusion": "Sonuç olarak, güvenli olmasına ve çok zor olmamasına rağmen doktor veya tıbbi ekip sağlık durumunuzla ilgili tüm bilgileri bilmelidir.",
+    "ctaTitle": "Mini Mide Bypass Hakkında Daha Fazla Bilgi Edinmeye Hazır Mısınız?",
+    "ctaDesc": "Bugün ücretsiz danışma için bizimle iletişime geçin ve mini mide bypass cerrahisinin kilo verme hedeflerinize ulaşmanıza nasıl yardımcı olabileceğini öğrenin."
   },
   "gastricBalloon": {
-    "title": "Mide Balonu",
+    "title": "İntragastrik Balon",
     "heroTitle": "Mide Balonu İstanbul, Türkiye",
-    "heroSubtitle": "Vücudunuzda kalıcı değişiklikler yapmadan kilo vermenize yardımcı olan cerrahi olmayan bir kilo verme çözümü.",
-    "desc": "Doluluk hissi yaratmak ve yiyecek alımını azaltmak için mideye tuzlu su dolu bir balonun yerleştirildiği invaziv olmayan endoskopik bir prosedür.",
+    "heroSubtitle": "Vücudunuzda kalıcı değişiklikler olmadan kilo vermenize yardımcı olan cerrahi olmayan bir kilo verme çözümü.",
+    "desc": "Mideye serum dolu bir balonun yerleştirildiği, tokluk hissi yaratan ve gıda alımını azaltan invaziv olmayan endoskopik prosedür.",
     "advantages": [
       "Cerrahi olmayan / İnvaziv olmayan",
       "Çok güvenli prosedür",
@@ -144,14 +422,14 @@
     ],
     "disadvantages": [
       "Geçici çözüm (6 ay)",
-      "Cerrahiden daha az kilo kaybı"
+      "Cerrahiye göre daha az kilo kaybı"
     ]
   },
   "gastricBand": {
     "title": "Ayarlanabilir Mide Bandı",
-    "desc": "Daha küçük bir kese oluşturmak için midenin üst kısmına bir bant yerleştirilir. Bandın sıkılığı serum fizyolojik enjekte edilerek ayarlanabilir.",
+    "desc": "Daha küçük bir poş oluşturmak için midenin üst kısmına bir bant yerleştirilir. Bandın sıkılığı serum fizyolojik enjekte edilerek ayarlanabilir.",
     "advantages": [
-      "En düşük karmaşıklık seviyesi",
+      "En düşük karmaşıklık düzeyi",
       "Kısa hastane kalışı (<24 saat)",
       "Geri dönüşümlü ve ayarlanabilir",
       "Genellikle vitamin sorunu yok"
@@ -166,373 +444,95 @@
     "title": "Duodenal Switch",
     "heroTitle": "Duodenal Switch İstanbul, Türkiye",
     "heroSubtitle": "Şiddetli obezitesi olan hastalar için en etkili kilo verme ameliyatlarından biri, önemli ve kalıcı sonuçlar sunar.",
-    "desc": "Sleeve gastrektomiyi bağırsak bypass'ı ile birleştiren karmaşık bir prosedür. En önemli kilo kaybını sunar ancak daha yüksek riskler taşır.",
+    "desc": "Sleeve gastrektomi ile bağırsak bypass'ını birleştiren karmaşık bir prosedür. En önemli kilo kaybını sunar ancak daha yüksek riskler taşır.",
     "advantages": [
       "En hızlı kilo kaybı",
       "Fazla kilonun ~%70'ini kaybetme"
     ],
     "disadvantages": [
-      "En karmaşık cerrahi",
+      "En karmaşık ameliyat",
       "Yüksek vitamin eksikliği riski",
       "Sıkı takip gerektirir"
     ],
-    "introP1": "Günümüzde dünya genelinde birçok insan obezite sorunlarından şikayet etmektedir, özellikle kalp krizleri, felç, karaciğer ve böbrek sorunları gibi birçok ciddi sağlık sorununa neden olduğu için. Bu nedenle, yüz binlerce obezite hastası obezite ameliyatları olmaya başlamıştır.",
-    "introP2": "Obezite ameliyatının birkaç türü vardır, her türün kendi araçları ve yapılma şekli vardır ancak tüm türler aynı amacı paylaşır: obezite sorunlarının tedavisine yardımcı olmak.",
-    "introP3": "Duodenal switch ameliyatı, obezite ameliyatı türlerinden biridir ve çok etkilidir.",
+    "introP1": "Günümüzde dünya genelinde birçok insan obezite sorunlarından şikayet etmektedir.",
+    "introP2": "Obezite cerrahisinin her birinin kendine özgü araçları ve yöntemi olan çeşitli türleri vardır.",
+    "introP3": "Duodenal switch cerrahisi obezite cerrahi türlerinden biri ve çok etkili olanıdır.",
     "statWeightLoss": "Kilo Kaybı",
-    "statMonths": "Sonuçlara Kadar Ay",
+    "statMonths": "Sonuç Ayı",
     "statBest": "Uzun Vadeli Sonuçlar",
     "faqs": [
       {
-        "question": "Duodenal Switch ameliyatı nedir?",
-        "answer": "Veya bazı doktorların \"Gastrik Redüksiyon Duodenal Switch\" olarak adlandırdığı bu ameliyat, hem kısıtlayıcı hem de malabsorptif yönleri içeren bir kilo verme ameliyatıdır. Ameliyatın kısıtlayıcı kısmı, midenin %70'ine kadar ve duodenumun bir kısmının kesilmesini içerir."
+        "question": "Duodenal Switch cerrahisi nedir?",
+        "answer": "Bazı doktorların 'Gastrik Redüksiyon Duodenal Switch' dediği bu ameliyat, hem kısıtlayıcı hem de malabsorptif yönleri içeren bir kilo verme ameliyatıdır."
       },
       {
-        "question": "Mide bypass'ına benzer mi?",
-        "answer": "Duodenal switch, mideye giren yiyecek miktarını azalttığı ve vücudunuz tarafından emilen kalori miktarını düşürdüğü için hedefleri açısından mide bypass'ına benzer, ancak daha çok malabsorptif bir operasyon olduğu için diğer ameliyat türlerinden daha fazla yan etkiye neden olur."
+        "question": "Mide bypass'a benzer mi?",
+        "answer": "Duodenal switch hedefler açısından mide bypass'a benzer çünkü mideye giren gıda miktarını ve vücudunuza emilen kalori miktarını azaltır."
       },
       {
-        "question": "Duodenal switch diğer obezite ameliyatı türlerinden daha mı iyi?",
-        "answer": "Bazı doktorlar, duodenal switch'te mide daha büyük kaldığı için diğer obezite ameliyatı türlerine kıyasla daha fazla yiyecek barındırabileceğinden uzun vadede daha iyi olduğunu öne sürüyor, bu da uzun vadede daha iyi bir vücut şekline sahip olmanıza yardımcı olacaktır."
+        "question": "Duodenal switch diğer obezite cerrahisi türlerinden daha mı iyi?",
+        "answer": "Bazı doktorlar uzun vadede daha iyi olduğunu öne sürer çünkü duodenal switch'te mide büyük kalır."
       },
       {
-        "question": "Herkes duodenal switch ameliyatı olabilir mi? Aday olup olmadığımı nasıl anlarım?",
-        "answer": "Herkes duodenal switch ameliyatı olamaz, buna sadece doktor veya tıbbi ekip karar verebilir ve karar VKİ'nize \"Vücut Kitle İndeksi\" göre verilecektir - 40'ın üzerindeyse ameliyat olabilirsiniz. Elbette dikkate alınması gereken başka şeyler de var, bu nedenle doktorunuzun ameliyat olup olamayacağınıza karar vermesi çok önemlidir."
+        "question": "Herkes duodenal switch cerrahisi olabilir mi?",
+        "answer": "Herkes duodenal switch cerrahisi olamaz, sadece doktor veya tıbbi ekip karar verebilir ve karar BMI'nize göre olacaktır, 40'ın üzerindeyse ameliyat olabilirsiniz."
       },
       {
-        "question": "Duodenal switch ameliyatı için iyileşme süresi ne kadardır?",
-        "answer": "Hastadan hastaya farklılık gösterir ancak çoğu hasta için üç ila dört hafta arasında iyileşme gerektirir. Ameliyat dışarıdan çok fazla iz bırakmasa da içeriden ciddi çalışma gerektirir."
+        "question": "Duodenal switch cerrahisinin iyileşme süresi ne kadardır?",
+        "answer": "Hastadan hastaya farklılık gösterir ancak çoğu hasta için üç ila dört hafta iyileşme gerektirir."
       },
       {
-        "question": "İyileşme süresinden sonra işe dönebilir ve egzersiz yapmaya başlayabilir miyim?",
-        "answer": "Vücudunuzun ameliyattan sonraki yeni duruma uyum sağladığından emin olmak için stres ve yoğun aktivitelerden bir hafta daha uzak durmak daha iyidir."
+        "question": "İyileşme süresinden sonra işe dönebilir ve egzersiz yapabilir miyim?",
+        "answer": "Vücudunuzun ameliyat sonrası yeni duruma uyum sağladığından emin olmak için stres ve ağır aktivitelerden bir hafta daha uzak durmak daha iyidir."
       },
       {
         "question": "Ameliyattan sonra kilo vermem ne kadar sürer?",
-        "answer": "Duodenal switch ameliyatı olan hastaların çoğu ilk 12 ila 18 ay içinde kilolarını verir. Bu nedenle herkes bu tür obezite ameliyatı olmak için cesaretlenmiş hissetmez."
+        "answer": "Çoğu hasta ilk 12 ila 18 ayda kilosunu kaybeder."
       },
       {
-        "question": "Kilo verdikten sonra tekrar kilo almam mümkün mü?",
-        "answer": "Eski sağlıksız yaşam tarzına dönerseniz olabilir, ancak duodenal ameliyatın obezite ameliyatı türleri arasında en iyi kalıcı kilo kaybına sahip olduğu bilinmektedir."
+        "question": "Kaybettikten sonra tekrar kilo almam mümkün mü?",
+        "answer": "Eski sağlıksız yaşam tarzına dönerseniz mümkündür ancak duodenal cerrahinin obezite cerrahi türleri arasında en iyi uzun süreli kilo kaybına sahip olduğu bilinmektedir."
       },
       {
         "question": "Ameliyattan sonra belirli yiyeceklerden kaçınmam gerekiyor mu?",
-        "answer": "Hastadan hastaya farklılık gösterdiği için belirli yiyecek türlerini söylemek zordur, ancak ishale neden olduğu için yağlı yiyecekler gibi kesinlikle uzak durmanız gereken bazı yiyecek türleri vardır. Her durumda, bu sorunun cevaplarını doktor vücudunuzu muayene ettikten sonra ondan almanız önemlidir."
+        "answer": "Hastadan hastaya farklılık gösterdiği için belirli yiyecek türlerini söylemek zordur ancak yağlı yiyecekler gibi kesinlikle uzak durmanız gereken bazı yiyecek türleri vardır."
       },
       {
         "question": "Ameliyattan sonra ne kadar kilo vereceğim?",
-        "answer": "Hastaların çoğu kilolarının %40 ila %60'ını kaybeder. Ancak, ekstra çaba göstermez ve yaşam tarzınızı daha sağlıklı bir hale dönüştürmezseniz bunların hiçbirinin olmayacağını bilmelisiniz."
+        "answer": "Çoğu hasta kilolarının %40 ila %60'ını kaybeder. Ancak yaşam tarzınızı değiştirmezseniz bunun hiçbirinin gerçekleşmeyeceğini bilmeniz gerekir."
       },
       {
-        "question": "Duodenal switch ameliyatı hamileliği önler mi? Veya hamile vücutlar üzerinde olumsuz etkileri var mı?",
-        "answer": "Ameliyat hamileliği önlemeyecektir. Ancak, ilk 18 ay boyunca bir kadının hamile kalmamasını öneriyoruz çünkü bu süre zarfında kilo verecek ve bu vücudunu olumsuz etkileyebilir. Her durumda, kilo verme ameliyatları kadınların daha sağlıklı bir hamilelik deneyimi yaşamasına yardımcı olur (maksimum kilo kaybından sonra)."
+        "question": "Duodenal switch cerrahisi hamileliği engelliyor mu?",
+        "answer": "Ameliyat hamileliği engellemez. Ancak ilk 18 ay boyunca hamile kalmamanızı öneririz çünkü bu süre boyunca kilo vereceksiniz."
       },
       {
-        "question": "Duodenal switch ameliyatı diğer obezite ameliyatlarından daha mı pahalı?",
-        "answer": "Tıbbi ekip ve cerrahlardan daha fazla çalışma ve çaba gerektirdiği için diğer obezite ameliyatı türlerinden biraz daha pahalıdır."
+        "question": "Duodenal switch cerrahisi diğer obezite ameliyatlarından daha mı pahalı?",
+        "answer": "Tıbbi ekip ve cerrahlardan daha fazla çalışma ve çaba gerektirdiği için diğer obezite cerrahi türlerinden biraz daha pahalıdır."
       }
     ],
     "diabetesTitle": "Diyabet için Duodenal Switch",
-    "diabetesP1": "Duodenal switch ameliyatı, tip 2 diyabeti olan hastalar için özellikle etkilidir. Prosedür yalnızca önemli kilo kaybına yardımcı olmakla kalmaz, aynı zamanda birçok hastada diyabeti iyileştirdiği veya hatta çözdüğü gösterilmiştir.",
-    "diabetesP2": "Ameliyatın malabsorptif bileşeni, vücudun yiyeceği nasıl işlediğini değiştirir ve gelişmiş insülin duyarlılığı ve kan şekeri kontrolüne yol açabilir. Birçok hasta, önemli kilo kaybı gerçekleşmeden önce bile diyabetlerinde iyileşmeler görür.",
-    "diabetesHighlight": "Çalışmalar, duodenal switch'in tüm bariatrik prosedürler arasında en yüksek diyabet remisyon oranlarından birine sahip olduğunu göstermiştir, bu da onu diyabetle komplike olmuş şiddetli obezitesi olan hastalar için mükemmel bir seçim haline getirir.",
-    "ctaTitle": "Duodenal Switch Sizin için Uygun mu?",
-    "ctaDesc": "Duodenal switch ameliyatının kilo verme ve diyabet yönetimi hedefleriniz için doğru seçenek olup olmadığını belirlemek için bugün ücretsiz danışmanlık için bizimle iletişime geçin."
+    "diabetesP1": "Duodenal switch cerrahisi Tip 2 diyabetli hastalar için özellikle etkilidir.",
+    "diabetesP2": "Cerrahinin malabsorptif bileşeni vücudun gıdayı işleme şeklini değiştirir ve insülin duyarlılığının ve kan şekeri kontrolünün iyileşmesine yol açabilir.",
+    "diabetesHighlight": "Çalışmalar, duodenal switch'in tüm bariyatrik prosedürler arasında en yüksek diyabet remisyon oranlarından birine sahip olduğunu göstermiştir.",
+    "ctaTitle": "Duodenal Switch Sizin İçin Doğru mu?",
+    "ctaDesc": "Bugün ücretsiz danışma için bizimle iletişime geçerek duodenal switch cerrahisinin kilo verme ve diyabet yönetimi hedefleriniz için doğru seçenek olup olmadığını belirleyin."
   },
   "esg": {
     "title": "Endoskopik Sleeve Gastroplasti",
     "heroTitle": "ESG (Endoskopik Sleeve Gastroplasti) İstanbul, Türkiye",
-    "heroSubtitle": "Ameliyat olmadan mide boyutunu azaltan minimal invaziv, kesisiz bir prosedür.",
-    "desc": "ESG, harici kesiler olmadan mide kapasitesini %70-80 azaltan, endoskop aracılığıyla gerçekleştirilen bir kilo verme prosedürüdür."
+    "heroSubtitle": "Cerrahi olmadan mide boyutunu küçülten minimal invaziv, kesisiz bir prosedür.",
+    "desc": "ESG, endoskop aracılığıyla gerçekleştirilen, harici kesi olmadan mide kapasitesini %70-80 azaltan bir kilo verme prosedürüdür."
   },
   "transitBipartition": {
     "title": "Transit Bipartisyon",
     "heroTitle": "Transit Bipartisyon İstanbul, Türkiye",
-    "heroSubtitle": "Sleeve gastrektominin faydalarını bağırsak bypass'ı ile birleştiren yenilikçi bir metabolik cerrahi.",
-    "desc": "Transit bipartisyon, diyabet kontrolünü ve kilo kaybını iyileştirmek için sleeve gastrektomiyi kısmi bağırsak bypass'ı ile birleştiren metabolik bir cerrahidir."
+    "heroSubtitle": "Sleeve gastrektominin faydalarını bağırsak bypass ile birleştiren yenilikçi bir metabolik cerrahi.",
+    "desc": "Transit bipartisyon, diyabet kontrolünü ve kilo kaybını iyileştirmek için sleeve gastrektomi ile kısmi bağırsak bypass'ını birleştiren metabolik bir cerrahidir."
   },
   "postBariatric": {
-    "title": "Bariatrik Sonrası Cerrahi",
-    "heroTitle": "Bariatrik Sonrası Vücut Şekillendirme İstanbul, Türkiye",
-    "heroSubtitle": "Önemli kilo kaybından sonra fazla deriyi çıkarmak için tasarlanmış vücut şekillendirme prosedürleri ile kilo verme yolculuğunuzu tamamlayın.",
-    "desc": "Büyük kilo kaybından sonra birçok hasta fazla deri ile kalır. Bariatrik sonrası cerrahi vücudu yeniden şekillendirmeye ve konturlamaya yardımcı olur."
-  },
-  "comparison": {
-    "title": "Tüm İşlemleri Kısa Bir Bakışla Karşılaştırın",
-    "subtitle": "BMI, bütçeniz ve iyileşme tercihlerinize göre doğru kilo verme prosedürünü bulun.",
-    "procedure": "Prosedür",
-    "type": "Tür",
-    "bmiRange": "BMI Aralığı",
-    "startingPrice": "Başlangıç Fiyatı",
-    "hospitalStay": "Hastane Yatışı",
-    "expectedWeightLoss": "Beklenen Kilo Kaybı",
-    "recovery": "İyileşme",
-    "surgical": "Cerrahi",
-    "nonSurgical": "Cerrahi Olmayan",
-    "priceNote": "Tüm fiyatlar her şey dahil. Tüm Rahatlama ve Lüks paketleri, Dr Murat Ustun ile cerrahiyi içermektedir. Nihai fiyatlandırma, ücretsiz danışmanlık sonrası onaylanacaktır.",
-    "gastricSleeve": "Mide Kelepçesi",
-    "gastricBypass": "Mide Baypası",
-    "gastricBalloon": "Mide Balonu",
-    "esg": "ESG",
-    "duodenalSwitch": "Duodenal Switch",
-    "bmi35plus": "35+",
-    "bmi40plus": "40+ (veya 35+ komorbiditelerle)",
-    "bmi30to40": "30–40",
-    "bmi50plus": "50+ (veya 40+ komorbiditelerle)",
-    "stay2to3": "2–3 gün",
-    "staySameDay": "Aynı gün",
-    "stay1to2": "1–2 gün",
-    "stay3to4": "3–4 gün",
-    "loss60to70": "%60–70 fazla kilo kaybı",
-    "loss70to80": "%70–80 fazla kilo kaybı",
-    "loss10to15": "%10–15 toplam vücut ağırlığı kaybı",
-    "loss15to20": "%15–20 toplam vücut ağırlığı kaybı",
-    "loss70to85": "%70–85 fazla kilo kaybı",
-    "recovery2to3weeks": "2–3 hafta",
-    "recovery1to3days": "1–3 gün",
-    "recovery3to4weeks": "3–4 hafta"
-  },
-  "packages": {
-    "sleeveBasic": {
-      "name": "Mide Kelepçesi Temel",
-      "features": [
-        "Deneyimli cerrahi ekip",
-        "JCI akredite hastane (2 gün)",
-        "Tüm önceden operasyon testleri ve danışmanlıklar",
-        "VIP havaalanı transferi",
-        "Diyetisyen desteği"
-      ]
-    },
-    "sleeveRelaxation": {
-      "name": "Mide Kelepçesi Rahatlama",
-      "features": [
-        "Dr Murat Ustun ile cerrahi",
-        "JCI akredite hastane (3 gün)",
-        "Tüm önceden operasyon testleri ve danışmanlıklar",
-        "VIP havaalanı transferi",
-        "UK kayıtlı diyetisyen desteği"
-      ]
-    },
-    "sleeveLuxury": {
-      "name": "Mide Kelepçesi Lüks",
-      "features": [
-        "Dr Murat Ustun ile cerrahi",
-        "JCI akredite hastane (3 gün)",
-        "Tüm önceden operasyon testleri ve danışmanlıklar",
-        "VIP havaalanı transferi",
-        "3 gece Radisson otel konaklaması",
-        "UK kayıtlı diyetisyen desteği",
-        "1 ay takviye",
-        "8 lokasyonda yerel UK bakım desteği"
-      ]
-    },
-    "bypassBasic": {
-      "name": "Mide Baypası Temel",
-      "features": [
-        "Deneyimli cerrahi ekip",
-        "JCI akredite hastane (2 gün)",
-        "Tüm önceden operasyon testleri ve danışmanlıklar",
-        "VIP havaalanı transferi",
-        "Diyetisyen desteği"
-      ]
-    },
-    "bypassRelaxation": {
-      "name": "Mide Baypası Rahatlama",
-      "features": [
-        "Dr Murat Ustun ile cerrahi",
-        "JCI akredite hastane (3 gün)",
-        "Tüm önceden operasyon testleri ve danışmanlıklar",
-        "VIP havaalanı transferi",
-        "UK kayıtlı diyetisyen desteği"
-      ]
-    },
-    "bypassLuxury": {
-      "name": "Mide Baypası Lüks",
-      "features": [
-        "Dr Murat Ustun ile cerrahi",
-        "JCI akredite hastane (3 gün)",
-        "Tüm önceden operasyon testleri ve danışmanlıklar",
-        "VIP havaalanı transferi",
-        "3 gece Radisson otel konaklaması",
-        "UK kayıtlı diyetisyen desteği",
-        "1 ay takviye",
-        "8 lokasyonda yerel UK bakım desteği"
-      ]
-    },
-    "balloonOrbera": {
-      "name": "Endoskopik Orbera Balonu",
-      "features": [
-        "Havaalanı Transferleri",
-        "Kapsamlı Ön Testler",
-        "Endoskopi",
-        "Anestezi",
-        "2 gece konaklama",
-        "Diyetisyen Desteği"
-      ]
-    },
-    "balloonAllurion": {
-      "name": "Allurion Yutulabilir Balon",
-      "features": [
-        "Havaalanı Transferleri",
-        "Kapsamlı Ön Testler",
-        "Endoskopi",
-        "Anestezi",
-        "1 gece konaklama",
-        "Diyetisyen Desteği"
-      ]
-    },
-    "esgRelaxation": {
-      "name": "ESG Rahatlama",
-      "features": [
-        "Son teknoloji Liv hastanesi",
-        "Dr Murat Ustun ile prosedür (Türkiye'de ESG'nin öncüsü)",
-        "VIP Havaalanı Transferleri",
-        "Tüm önceden operasyon testleri ve danışmanlıklar",
-        "OR ve hastane maliyetleri",
-        "Özel odada 2 gün kabul"
-      ]
-    },
-    "esgLuxury": {
-      "name": "ESG Lüks",
-      "features": [
-        "Son teknoloji Liv hastanesi",
-        "Dr Murat Ustun ile prosedür (Türkiye'de ESG'nin öncüsü)",
-        "VIP Havaalanı Transferleri",
-        "Tüm önceden operasyon testleri ve danışmanlıklar",
-        "OR ve hastane maliyetleri",
-        "Özel odada 2 gün kabul",
-        "Radisson Otel'de 2 gün konaklama",
-        "4 UK kayıtlı diyetisyen randevusu",
-        "1 ay takviye ve multivitamin paketi"
-      ]
-    },
-    "dsRelaxation": {
-      "name": "Duodenal Switch Rahatlama",
-      "features": [
-        "Dr Murat Ustun ile cerrahi",
-        "JCI akredite hastane (3 gün)",
-        "Tüm önceden operasyon testleri ve danışmanlıklar",
-        "VIP havaalanı transferi",
-        "UK kayıtlı diyetisyen desteği"
-      ]
-    },
-    "dsLuxury": {
-      "name": "Duodenal Switch Lüks",
-      "features": [
-        "Dr Murat Ustun ile cerrahi",
-        "JCI akredite hastane (3 gün)",
-        "Tüm önceden operasyon testleri ve danışmanlıklar",
-        "VIP havaalanı transferi",
-        "3 gece Radisson otel konaklaması",
-        "UK kayıtlı diyetisyen desteği",
-        "1 ay takviye",
-        "8 lokasyonda yerel UK bakım desteği"
-      ]
-    },
-    "bypassTitle": "Mide Baypası Paketleri",
-    "bypassSubtitle": "İhtiyaçlarınıza uygun mide baypası paketini seçin",
-    "balloonTitle": "Mide Balonu Paketleri",
-    "balloonSubtitle": "İhtiyaçlarınıza uygun mide balonu paketini seçin",
-    "esgTitle": "ESG Paketleri",
-    "esgSubtitle": "İhtiyaçlarınıza uygun ESG paketini seçin",
-    "dsTitle": "Duodenal Switch Paketleri",
-    "dsSubtitle": "İhtiyaçlarınıza uygun duodenal switch paketini seçin"
-  },
-  "esgTreatment": {
-    "title": "Endoskopik Mide Gastroplasti (ESG)",
-    "desc": "ESG, midenizin boyutunu ağızdan yerleştirilen bir endoskopik dikiş cihazı kullanarak %70-80 oranında azaltan minimal invaziv, cerrahi olmayan bir kilo verme prosedürüdür. Kesik gerektirmediği için, cerrahi olmayan bir yaklaşımı tercih eden BMI 30-40 olan hastalar için idealdir.",
-    "advantages": [
-      "Cerrahi olmayan — kesik veya iz yok",
-      "Daha kısa iyileşme süresi (1-3 gün içinde normal aktivitelere dönüş)",
-      "Cerrahiden daha düşük komplikasyon riski",
-      "Geri dönüşümlü prosedür",
-      "%15-20 toplam vücut ağırlığı kaybı bekleniyor",
-      "Aynı gün veya ertesi gün taburcu",
-      "Genel anestezi altında yapılır (~90 dakika)"
-    ],
-    "disadvantages": [
-      "Mide kelepçesi gibi cerrahi seçeneklerden daha az kilo kaybı",
-      "Optimal sonuçlar için tekrar prosedürler gerekebilir",
-      "BMI 40'ın üzerindekiler için uygun değil",
-      "Görece daha yeni bir prosedür, daha az uzun vadeli veriye sahip"
-    ]
-  },
-  "postBariatricSection": {
-    "sectionTitle": "Post-Bariyatrik Plastik Cerrahi",
-    "desc1": "Bariyatrik cerrahiden sonra önemli kilo kaybı yaşayan birçok hasta, fazla, sarkan ciltle baş başa kalır. Post-bariyatrik vücut şekillendirme cerrahisi, bu fazla cildi çıkarır ve vücudu yeniden şekillendirerek dönüşümünüzden tam anlamıyla keyif almanıza yardımcı olur.",
-    "desc2": "Prosedürlerimiz arasında abdominoplasti (karın germe), kol kaldırma, uyluk kaldırma, vücut kaldırma, meme kaldırma ve yüz/şahne kaldırma bulunmaktadır. Bu cerrahiler, vücut konturunu dramatik şekilde iyileştirebilir ve cilt tahrişini ortadan kaldırabilir.",
-    "learnMore": "Vücut Şekillendirme Hakkında Daha Fazla Bilgi Edinin",
-    "imageAlt": "Post-bariyatrik vücut şekillendirme prosedürleri",
-    "imageCaption": "Kilo verme cerrahisi sonrası vücut şekillendirme seçenekleri"
-  },
-  "faqSection": {
-    "title": "Türkiye'de Kilo Verme Cerrahisi Hakkında Sıkça Sorulan Sorular",
-    "subtitle": "İstanbul Bariyatrik Merkezi'nde bariyatrik cerrahi hakkında bilmeniz gereken her şey",
-    "faqs": [
-      {
-        "question": "İstanbul'da kilo verme cerrahisi ne kadar?",
-        "answer": "İstanbul Bariyatrik Merkezi'nde her şey dahil paketler, mide balonu için £1,650, mide kelepçesi için £2,950, mide baypası için £3,350 ve ESG için £4,950'den başlamaktadır. Her paket, JCI akredite hastane yatışınızı, önceden operasyon testlerini, VIP havaalanı transferlerini ve diyetisyen takibini kapsamaktadır."
-      },
-      {
-        "question": "Hangi bariyatrik prosedür benim için uygun?",
-        "answer": "En iyi prosedür, BMI'nize, tıbbi geçmişinize ve kilo verme hedeflerinize bağlıdır. Mide kelepçesi, BMI 35+ için uygundur, mide baypası BMI 40+ veya metabolik hastalığı olan hastalar için önerilir, mide balonu BMI 30–40 için cerrahi olmayan bir seçenektir ve ESG, BMI 30–40 için minimal invaziv bir yaklaşım sunar."
-      },
-      {
-        "question": "İstanbul Bariyatrik Merkezi'nde bariyatrik cerrahi güvenli mi?",
-        "answer": "Kesinlikle. Tüm prosedürler, İstanbul'daki JCI akredite Liv Hastanesi'nde uluslararası eğitim almış cerrahlar tarafından gerçekleştirilmektedir. Merkezin kurucusu ve baş cerrahı Dr Murat Ustun, olağanüstü güvenlik sonuçları ile binlerce başarılı operasyon gerçekleştirmiştir."
-      },
-      {
-        "question": "Her cerrahi paket neyi içerir?",
-        "answer": "Her paket, JCI akredite bir hastaneye kabul, tam önceden operasyon testi, cerrah ve anestezi ücretleri, VIP havaalanı transferi ve diyetisyen desteği içerir. Rahatlama ve Lüks katmanları, Dr Murat Ustun'u cerrahınız olarak ekler, hastane yatış sürelerini uzatır, Radisson otel konaklaması, UK kayıtlı diyetisyen takibi ve takviye paketleri ekler."
-      },
-      {
-        "question": "Ne kadar kilo kaybetmeyi bekleyebilirim?",
-        "answer": "Sonuçlar prosedüre göre değişir: mide kelepçesi hastaları genellikle fazla kilolarının %60–70'ini, mide baypası %70–80'ini, mide balonu toplam vücut ağırlığının %10–15'ini ve ESG toplam vücut ağırlığının %15–20'sini kaybeder — tüm bunlar ilk 12–18 ay içinde."
-      },
-      {
-        "question": "İyileşme süreci nedir?",
-        "answer": "Mide kelepçesi ve baypası hastaları hastanede 2–3 gün kalır ve 2–3 hafta içinde günlük aktivitelere döner. Mide balonu aynı gün yapılan bir prosedürdür ve ESG hastaları 1–3 gün içinde normal aktivitelere dönebilir."
-      },
-      {
-        "question": "Eve döndüğümde bakım alacak mıyım?",
-        "answer": "Evet. Her hasta, diyetisyen rehberliği, takip danışmanlıkları ve Birleşik Krallık'ta 8 lokasyondan faaliyet gösteren hasta destek ekibimize erişim dahil olmak üzere yapılandırılmış bir bakım planı alır."
-      },
-      {
-        "question": "Dr Murat Ustun kimdir?",
-        "answer": "Dr Murat Ustun, İstanbul Bariyatrik Merkezi'nin kurucusu ve baş bariyatrik cerrahıdır. Türkiye'de ESG (Endoskopik Mide Gastroplasti) öncüsü olan Dr Ustun, Liv Hastanesi'nde binlerce kilo verme prosedürü — mide kelepçesi, mide baypası ve duodenal switch dahil — gerçekleştirmiştir."
-      }
-    ]
-  },
-  "treatmentLinks": {
-    "title": "Tedavi Sayfalarımızı Keşfedin",
-    "subtitle": "Her prosedür hakkında daha fazla bilgi edinin",
-    "gastricSleeve": "Mide Kelepçesi Cerrahisi",
-    "gastricSleevePrice": "£2,950'dan itibaren",
-    "miniBypass": "Mini Mide Baypası",
-    "miniBypassDesc": "Uzman prosedür",
-    "gastricBalloon": "Mide Balonu",
-    "gastricBalloonPrice": "£1,650'dan itibaren",
-    "esg": "ESG Prosedürü",
-    "esgPrice": "£4,950'dan itibaren",
-    "duodenalSwitch": "Duodenal Switch",
-    "duodenalSwitchPrice": "£4,400'dan itibaren",
-    "transitBipartition": "Transit Bipartisyon",
-    "transitBipartitionDesc": "Gelişmiş prosedür",
-    "postBariatric": "Post-Bariyatrik Cerrahi",
-    "postBariatricDesc": "Vücut şekillendirme",
-    "eligible": "Uygun muyum?",
-    "eligibleDesc": "Ücretsiz sağlık değerlendirmesi",
-    "results": "Hasta Sonuçları",
-    "resultsDesc": "Başarı hikayeleri"
-  },
-  "whatsapp": {
-    "consultMessage": "Merhaba, hakkında danışmak istiyorum",
-    "packageMessage": "Merhaba, ilgileniyorum"
-  },
-  "seo": {
-    "title": "İstanbul'da Kilo Verme Cerrahisi 2026 — Mide Kelepçesi, Baypas, Balon & ESG | Her Şey Dahil Paketler",
-    "description": "Bariyatrik prosedürleri karşılaştırın: Mide Kelepçesi £2,950'dan, Baypas £3,350, Balon £1,650, ESG £4,950. Dr Murat Ustun, JCI akredite Liv Hastanesi'nde.",
-    "heroAlt": "Bariyatrik cerrahiden sonra aktif sağlıklı yaşam tarzı",
-    "skipToContent": "Ana içeriğe atla"
+    "title": "Bariyatrik Sonrası Cerrahi",
+    "heroTitle": "Bariyatrik Sonrası Vücut Şekillendirme İstanbul, Türkiye",
+    "heroSubtitle": "Önemli kilo kaybından sonra fazla deriyi almak için tasarlanmış vücut şekillendirme prosedürleri ile kilo verme yolculuğunuzu tamamlayın.",
+    "desc": "Büyük kilo kaybından sonra birçok hasta fazla deri ile kalır. Bariyatrik sonrası cerrahi vücudu yeniden şekillendirmeye ve kontürlemeye yardımcı olur."
   }
 }

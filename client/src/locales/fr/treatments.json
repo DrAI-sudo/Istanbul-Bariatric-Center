@@ -1,38 +1,316 @@
 {
   "common": {
     "advantages": "Avantages",
-    "thingsToConsider": "Points à considérer",
+    "thingsToConsider": "Points à Considérer",
     "consultFor": "Consulter pour",
-    "selectPackage": "SÉLECTIONNER LE FORFAIT",
+    "selectPackage": "CHOISIR LE FORFAIT",
     "popular": "POPULAIRE",
     "bestDoctors": "Meilleurs Médecins",
     "jciHospital": "Hôpital Accrédité JCI",
-    "airportPickup": "Transfert Aéroport",
+    "airportPickup": "Prise en Charge Aéroport",
     "daysAccommodation": "Jours d'Hébergement",
     "risks": "Risques",
     "faqs": "Questions Fréquentes",
     "getQuote": "Devis Gratuit",
-    "bookConsultation": "Réserver une Consultation Gratuite",
+    "bookConsultation": "Consultation Gratuite",
     "learnMore": "En Savoir Plus",
-    "readMore": "Lire Plus",
-    "whyTurkey": "Pourquoi la Turquie?",
-    "packageOptions": "Options de Forfait"
+    "readMore": "Lire la Suite",
+    "whyTurkey": "Pourquoi la Turquie ?",
+    "packageOptions": "Options de Forfaits"
   },
   "main": {
     "title": "Traitements Bariatriques",
-    "subtitle": "Nous offrons une gamme complète de procédures de perte de poids adaptées à vos besoins spécifiques et conditions de santé.",
-    "sleevePackageTitle": "Options de Forfait Sleeve Gastrique",
-    "sleevePackageDesc": "Au Istanbul Bariatric Center, vous êtes libre de choisir l'un des forfaits de traitement qui correspond à votre budget."
+    "subtitle": "Nous proposons une gamme complète de procédures de perte de poids adaptées à vos besoins spécifiques et conditions de santé.",
+    "sleevePackageTitle": "Options de Forfaits Sleeve Gastrique",
+    "sleevePackageDesc": "À Istanbul Bariatric Center, vous êtes libre de choisir le forfait de traitement qui correspond à votre budget."
+  },
+  "comparison": {
+    "title": "Comparez Toutes les Procédures en un Coup d'Œil",
+    "subtitle": "Trouvez la bonne procédure de perte de poids selon votre IMC, budget et préférences de récupération.",
+    "procedure": "Procédure",
+    "type": "Type",
+    "bmiRange": "Plage IMC",
+    "startingPrice": "Prix de Départ",
+    "hospitalStay": "Séjour Hospitalier",
+    "expectedWeightLoss": "Perte de Poids Attendue",
+    "recovery": "Récupération",
+    "surgical": "Chirurgical",
+    "nonSurgical": "Non chirurgical",
+    "priceNote": "Tous les prix sont tout inclus. Tous les forfaits Détente et Luxe incluent la chirurgie avec le Dr Murat Ustun. Prix final confirmé après consultation gratuite.",
+    "gastricSleeve": "Sleeve Gastrique",
+    "gastricBypass": "Bypass Gastrique",
+    "gastricBalloon": "Ballon Gastrique",
+    "esg": "ESG",
+    "duodenalSwitch": "Switch Duodénal",
+    "bmi35plus": "35+",
+    "bmi40plus": "40+ (ou 35+ avec comorbidités)",
+    "bmi30to40": "30–40",
+    "bmi50plus": "50+ (ou 40+ avec comorbidités)",
+    "stay2to3": "2–3 jours",
+    "staySameDay": "Même jour",
+    "stay1to2": "1–2 jours",
+    "stay3to4": "3–4 jours",
+    "loss60to70": "60–70% du poids excédentaire",
+    "loss70to80": "70–80% du poids excédentaire",
+    "loss10to15": "10–15% du poids corporel total",
+    "loss15to20": "15–20% du poids corporel total",
+    "loss70to85": "70–85% du poids excédentaire",
+    "recovery2to3weeks": "2–3 semaines",
+    "recovery1to3days": "1–3 jours",
+    "recovery3to4weeks": "3–4 semaines"
+  },
+  "packages": {
+    "sleeveBasic": {
+      "name": "Sleeve Gastrique Basique",
+      "features": [
+        "Équipe chirurgicale expérimentée",
+        "Hôpital accrédité JCI (2 jours)",
+        "Tous les tests et consultations préopératoires",
+        "Transfert VIP aéroport",
+        "Soutien diététique"
+      ]
+    },
+    "sleeveRelaxation": {
+      "name": "Sleeve Gastrique Détente",
+      "features": [
+        "Chirurgie avec le Dr Murat Ustun",
+        "Hôpital accrédité JCI (3 jours)",
+        "Tous les tests et consultations préopératoires",
+        "Transfert VIP aéroport",
+        "Diététicien enregistré au Royaume-Uni"
+      ]
+    },
+    "sleeveLuxury": {
+      "name": "Sleeve Gastrique Luxe",
+      "features": [
+        "Chirurgie avec le Dr Murat Ustun",
+        "Hôpital accrédité JCI (3 jours)",
+        "Tous les tests et consultations préopératoires",
+        "Transfert VIP aéroport",
+        "3 nuits hôtel Radisson",
+        "Diététicien enregistré au Royaume-Uni",
+        "1 mois de suppléments",
+        "Soutien local au Royaume-Uni dans 8 localités"
+      ]
+    },
+    "bypassBasic": {
+      "name": "Bypass Gastrique Basique",
+      "features": [
+        "Équipe chirurgicale expérimentée",
+        "Hôpital accrédité JCI (2 jours)",
+        "Tous les tests et consultations préopératoires",
+        "Transfert VIP aéroport",
+        "Soutien diététique"
+      ]
+    },
+    "bypassRelaxation": {
+      "name": "Bypass Gastrique Détente",
+      "features": [
+        "Chirurgie avec le Dr Murat Ustun",
+        "Hôpital accrédité JCI (3 jours)",
+        "Tous les tests et consultations préopératoires",
+        "Transfert VIP aéroport",
+        "Diététicien enregistré au Royaume-Uni"
+      ]
+    },
+    "bypassLuxury": {
+      "name": "Bypass Gastrique Luxe",
+      "features": [
+        "Chirurgie avec le Dr Murat Ustun",
+        "Hôpital accrédité JCI (3 jours)",
+        "Tous les tests et consultations préopératoires",
+        "Transfert VIP aéroport",
+        "3 nuits hôtel Radisson",
+        "Diététicien enregistré au Royaume-Uni",
+        "1 mois de suppléments",
+        "Soutien local au Royaume-Uni dans 8 localités"
+      ]
+    },
+    "balloonOrbera": {
+      "name": "Ballon Orbera Endoscopique",
+      "features": [
+        "Transferts aéroport",
+        "Tests préopératoires complets",
+        "Endoscopie",
+        "Anesthésie",
+        "2 nuits d'hébergement",
+        "Soutien diététique"
+      ]
+    },
+    "balloonAllurion": {
+      "name": "Ballon Allurion Avalable",
+      "features": [
+        "Transferts aéroport",
+        "Tests préopératoires complets",
+        "Endoscopie",
+        "Anesthésie",
+        "1 nuit d'hébergement",
+        "Soutien diététique"
+      ]
+    },
+    "esgRelaxation": {
+      "name": "ESG Détente",
+      "features": [
+        "Hôpital Liv de pointe",
+        "Procédure avec le Dr Murat Ustun (Pionnier de l'ESG en Turquie)",
+        "Transferts VIP aéroport",
+        "Tous les tests et consultations préopératoires",
+        "Frais de bloc et d'hôpital",
+        "2 jours d'admission en chambre privée"
+      ]
+    },
+    "esgLuxury": {
+      "name": "ESG Luxe",
+      "features": [
+        "Hôpital Liv de pointe",
+        "Procédure avec le Dr Murat Ustun (Pionnier de l'ESG en Turquie)",
+        "Transferts VIP aéroport",
+        "Tous les tests et consultations préopératoires",
+        "Frais de bloc et d'hôpital",
+        "2 jours d'admission en chambre privée",
+        "2 jours hôtel Radisson",
+        "4 rendez-vous diététicien UK",
+        "1 mois de suppléments et multivitamines"
+      ]
+    },
+    "dsRelaxation": {
+      "name": "Switch Duodénal Détente",
+      "features": [
+        "Chirurgie avec le Dr Murat Ustun",
+        "Hôpital accrédité JCI (3 jours)",
+        "Tous les tests et consultations préopératoires",
+        "Transfert VIP aéroport",
+        "Diététicien enregistré au Royaume-Uni"
+      ]
+    },
+    "dsLuxury": {
+      "name": "Switch Duodénal Luxe",
+      "features": [
+        "Chirurgie avec le Dr Murat Ustun",
+        "Hôpital accrédité JCI (3 jours)",
+        "Tous les tests et consultations préopératoires",
+        "Transfert VIP aéroport",
+        "3 nuits hôtel Radisson",
+        "Diététicien enregistré au Royaume-Uni",
+        "1 mois de suppléments",
+        "Soutien local au Royaume-Uni dans 8 localités"
+      ]
+    },
+    "bypassTitle": "Forfaits Bypass Gastrique",
+    "bypassSubtitle": "Choisissez le forfait bypass gastrique adapté à vos besoins",
+    "balloonTitle": "Forfaits Ballon Gastrique",
+    "balloonSubtitle": "Choisissez le forfait ballon gastrique adapté à vos besoins",
+    "esgTitle": "Forfaits ESG",
+    "esgSubtitle": "Choisissez le forfait ESG adapté à vos besoins",
+    "dsTitle": "Forfaits Switch Duodénal",
+    "dsSubtitle": "Choisissez le forfait switch duodénal adapté à vos besoins"
+  },
+  "esgTreatment": {
+    "title": "Gastroplastie Endoscopique en Manchon (ESG)",
+    "desc": "L'ESG est une procédure de perte de poids peu invasive et non chirurgicale qui réduit la taille de l'estomac jusqu'à 70-80% à l'aide d'un dispositif de suture endoscopique inséré par la bouche. Aucune incision requise, idéale pour les patients avec un IMC de 30-40.",
+    "advantages": [
+      "Non chirurgical — sans incisions ni cicatrices",
+      "Temps de récupération plus court (reprise des activités normales en 1-3 jours)",
+      "Risque de complications moindre par rapport à la chirurgie",
+      "Procédure réversible",
+      "Perte de 15-20% du poids corporel total attendue",
+      "Sortie le jour même ou le lendemain",
+      "Réalisée sous anesthésie générale (~90 minutes)"
+    ],
+    "disadvantages": [
+      "Perte de poids moindre que les options chirurgicales",
+      "Peut nécessiter des procédures répétées",
+      "Non adapté pour un IMC supérieur à 40",
+      "Procédure relativement nouvelle avec moins de données à long terme"
+    ]
+  },
+  "postBariatricSection": {
+    "sectionTitle": "Chirurgie Plastique Post-Bariatrique",
+    "desc1": "Après une perte de poids significative suite à une chirurgie bariatrique, de nombreux patients se retrouvent avec un excès de peau flasque. La chirurgie de remodelage corporel post-bariatrique élimine cet excès de peau et remodèle le corps.",
+    "desc2": "Nos procédures comprennent l'abdominoplastie, le lifting des bras, le lifting des cuisses, le lifting corporel, le lifting des seins et le lifting du visage/cou.",
+    "learnMore": "En savoir plus sur le remodelage corporel",
+    "imageAlt": "Procédures de remodelage corporel post-bariatrique",
+    "imageCaption": "Options de remodelage corporel après chirurgie de perte de poids"
+  },
+  "faqSection": {
+    "title": "Questions Fréquentes sur la Chirurgie de Perte de Poids en Turquie",
+    "subtitle": "Tout ce que vous devez savoir sur la chirurgie bariatrique à Istanbul Bariatric Center",
+    "faqs": [
+      {
+        "question": "Combien coûte la chirurgie de perte de poids à Istanbul ?",
+        "answer": "Les forfaits tout inclus commencent à partir de £1.650 pour le ballon gastrique, £2.950 pour le sleeve gastrique, £3.350 pour le bypass gastrique et £4.950 pour l'ESG. Chaque forfait couvre le séjour hospitalier JCI, les tests préopératoires, les transferts VIP et le suivi diététique."
+      },
+      {
+        "question": "Quelle procédure bariatrique me convient ?",
+        "answer": "La meilleure procédure dépend de votre IMC, antécédents médicaux et objectifs. Le sleeve gastrique pour IMC 35+, le bypass pour IMC 40+, le ballon pour IMC 30-40, et l'ESG pour IMC 30-40."
+      },
+      {
+        "question": "La chirurgie est-elle sûre à Istanbul Bariatric Center ?",
+        "answer": "Absolument. Toutes les procédures sont réalisées à l'hôpital Liv accrédité JCI par des chirurgiens formés internationalement. Le Dr Murat Ustun a réalisé des milliers d'opérations réussies."
+      },
+      {
+        "question": "Que comprend chaque forfait ?",
+        "answer": "Chaque forfait comprend l'admission à l'hôpital JCI, les tests préopératoires, les honoraires du chirurgien et de l'anesthésiste, le transfert VIP et le soutien diététique. Les forfaits Détente et Luxe ajoutent le Dr Murat Ustun, l'hôtel Radisson et le suivi diététique UK."
+      },
+      {
+        "question": "Combien de poids puis-je m'attendre à perdre ?",
+        "answer": "Sleeve gastrique : 60-70% du poids excédentaire, bypass : 70-80%, ballon : 10-15% du poids corporel total, ESG : 15-20% — tout dans les 12-18 premiers mois."
+      },
+      {
+        "question": "Quel est le temps de récupération ?",
+        "answer": "Sleeve et bypass : 2-3 jours d'hôpital, reprise en 2-3 semaines. Ballon : même jour. ESG : 1-3 jours."
+      },
+      {
+        "question": "Ai-je un suivi après mon retour ?",
+        "answer": "Oui. Chaque patient reçoit un plan de suivi structuré avec guidance diététique, consultations et accès à notre équipe de soutien UK dans 8 localités."
+      },
+      {
+        "question": "Qui est le Dr Murat Ustun ?",
+        "answer": "Le Dr Murat Ustun est le fondateur et chirurgien bariatrique principal d'Istanbul Bariatric Center. Pionnier de l'ESG en Turquie, il a réalisé des milliers de procédures au Liv Hospital."
+      }
+    ]
+  },
+  "treatmentLinks": {
+    "title": "Explorez Nos Pages de Traitement",
+    "subtitle": "En savoir plus sur chaque procédure en détail",
+    "gastricSleeve": "Chirurgie Sleeve Gastrique",
+    "gastricSleevePrice": "À partir de £2.950",
+    "miniBypass": "Mini Bypass Gastrique",
+    "miniBypassDesc": "Procédure spécialisée",
+    "gastricBalloon": "Ballon Gastrique",
+    "gastricBalloonPrice": "À partir de £1.650",
+    "esg": "Procédure ESG",
+    "esgPrice": "À partir de £4.950",
+    "duodenalSwitch": "Switch Duodénal",
+    "duodenalSwitchPrice": "À partir de £4.400",
+    "transitBipartition": "Bipartition Transit",
+    "transitBipartitionDesc": "Procédure avancée",
+    "postBariatric": "Chirurgie Post-Bariatrique",
+    "postBariatricDesc": "Remodelage corporel",
+    "eligible": "Suis-je Éligible ?",
+    "eligibleDesc": "Évaluation santé gratuite",
+    "results": "Résultats Patients",
+    "resultsDesc": "Histoires de réussite"
+  },
+  "whatsapp": {
+    "consultMessage": "Bonjour, j'aimerais consulter au sujet de",
+    "packageMessage": "Bonjour, je suis intéressé(e) par le"
+  },
+  "seo": {
+    "title": "Chirurgie de Perte de Poids à Istanbul 2026 — Sleeve, Bypass, Ballon & ESG | Forfaits Tout Inclus",
+    "description": "Comparez les procédures bariatriques : Sleeve à partir de £2.950, Bypass £3.350, Ballon £1.650, ESG £4.950. Dr Murat Ustun au Liv Hospital accrédité JCI.",
+    "heroAlt": "Mode de vie actif et sain après chirurgie bariatrique",
+    "skipToContent": "Aller au contenu principal"
   },
   "gastricSleeve": {
     "title": "Chirurgie Sleeve Gastrique",
-    "heroTitle": "Sleeve Gastrectomie Istanbul, Turquie",
-    "heroSubtitle": "La chirurgie sleeve gastrique est l'une des chirurgies bariatriques les plus pratiquées dans le monde et en Turquie. Découvrez pourquoi elle est si efficace.",
-    "desc": "Également connue sous le nom de sleeve gastrectomie, cette procédure implique l'ablation de 70-80% de l'estomac, laissant une poche tubulaire. Elle restreint l'apport alimentaire et impacte les hormones intestinales pour réduire la faim.",
-    "overviewTitle": "Sleeve Gastrectomie Turquie: Aperçu",
-    "overviewP1": "Le sleeve gastrique ou sleeve gastrectomie est une chirurgie bariatrique réalisée en coupant une partie de votre estomac pour créer une chambre plus petite. C'est l'une des chirurgies bariatriques les plus pratiquées dans le monde et en Turquie.",
-    "overviewP2": "L'obésité est l'un des problèmes les plus ennuyeux pour de nombreuses personnes dans le monde, non seulement à cause du changement de forme, de visage ou de corps qui en résulte, mais aussi à cause des problèmes de santé qu'elle peut causer.",
-    "overviewP3": "Il existe plusieurs maladies directement liées à l'obésité comme: le Diabète de type II, l'Hypertension artérielle, les Problèmes cardiaques, le Cholestérol élevé et plus.",
+    "heroTitle": "Gastrectomie en Manchon Istanbul, Turquie",
+    "heroSubtitle": "La chirurgie sleeve gastrique est l'une des chirurgies bariatriques les plus pratiquées dans le monde et en Turquie.",
+    "desc": "Aussi connue sous le nom de gastrectomie en manchon, cette procédure implique le retrait de 70-80% de l'estomac, laissant un tube. Elle restreint l'apport alimentaire et impacte les hormones intestinales pour réduire la faim.",
+    "overviewTitle": "Gastrectomie en Manchon Turquie : Aperçu",
+    "overviewP1": "Le sleeve gastrique est une chirurgie bariatrique réalisée en coupant une partie de votre estomac pour créer une chambre plus petite.",
+    "overviewP2": "L'obésité est l'un des problèmes les plus gênants pour beaucoup de personnes dans le monde.",
+    "overviewP3": "Plusieurs maladies sont directement liées à l'obésité : diabète de type II, hypertension, problèmes cardiaques, cholestérol élevé et plus.",
     "advantages": [
       "Contrôle la quantité de nourriture dans l'estomac",
       "Favorise une perte de poids rapide",
@@ -45,102 +323,102 @@
     ],
     "risks": [
       "Saignement de l'intérieur de l'estomac ou de la plaie chirurgicale.",
-      "Thrombose Veineuse Profonde: ou TVP, un caillot sanguin qui se forme dans votre veine pendant la procédure ou pendant le processus de récupération.",
-      "Battement cardiaque irrégulier: certaines chirurgies peuvent entraîner un battement cardiaque irrégulier pendant l'opération.",
-      "Fuites gastriques: les fluides de l'estomac peuvent fuir de la ligne de suture dans votre estomac.",
-      "Sténose: ce qui signifie qu'une partie de votre estomac pourrait se fermer causant une obstruction.",
-      "Carence en vitamines: la partie enlevée de votre estomac est partiellement responsable de l'absorption des vitamines."
+      "Thrombose veineuse profonde pendant ou après la procédure.",
+      "Rythme cardiaque irrégulier pendant la chirurgie.",
+      "Fuites gastriques : les fluides peuvent fuir de la ligne de suture.",
+      "Sténose : fermeture partielle de l'estomac.",
+      "Carence en vitamines."
     ],
     "packages": {
       "basic": {
-        "name": "Sleeve Gastrique Basique",
+        "name": "Sleeve Basique",
         "price": "£2250",
         "days": "3"
       },
       "relaxation": {
-        "name": "Sleeve Gastrique Relaxation",
+        "name": "Sleeve Détente",
         "price": "£3250",
         "days": "5"
       },
       "luxury": {
-        "name": "Sleeve Gastrique Luxe",
+        "name": "Sleeve Luxe",
         "price": "£4000",
         "days": "7"
       }
     }
   },
   "gastricBypass": {
-    "title": "Chirurgie de Bypass Gastrique",
+    "title": "Chirurgie Bypass Gastrique",
     "heroTitle": "Mini Bypass Gastrique Istanbul, Turquie",
-    "heroSubtitle": "Le mini bypass gastrique est une version simplifiée du bypass gastrique traditionnel, offrant d'excellents résultats de perte de poids avec moins de complications.",
-    "desc": "L'estomac est divisé en deux parties, créant une poche plus petite. L'intestin grêle est réarrangé pour se connecter aux deux. Cela limite l'apport alimentaire et l'absorption des calories.",
+    "heroSubtitle": "Le mini bypass gastrique est une version simplifiée du bypass traditionnel avec d'excellents résultats.",
+    "desc": "L'estomac est divisé en deux parties, créant une poche plus petite. L'intestin grêle est réarrangé. Cela limite l'apport alimentaire et l'absorption des calories.",
     "advantages": [
       "Perte de poids à long terme",
-      "Contrôle la quantité de nourriture consommée",
+      "Contrôle la quantité de nourriture",
       "Supprime la faim via les hormones intestinales"
     ],
     "disadvantages": [
       "Chirurgie complexe",
-      "Nécessite un séjour hospitalier plus long",
+      "Séjour hospitalier plus long",
       "Risque de carence en vitamines"
     ],
     "tableOfContents": "Table des Matières",
-    "tocItem1": "Comment le mini bypass gastrique peut-il m'aider à perdre du poids?",
-    "tocItem2": "Y a-t-il des effets secondaires pour le mini bypass gastrique?",
-    "tocItem3": "Les compagnies d'assurance couvrent-elles les frais de la chirurgie?",
-    "tocItem4": "Ce que vous devez savoir avant le mini bypass gastrique",
-    "introP1": "Pour de nombreuses personnes dans le monde, l'excès de poids et l'obésité sont un problème très sérieux, non seulement à cause du changement de forme, de visage ou de corps qui en résulte, mais aussi à cause des problèmes de santé qu'ils peuvent causer.",
-    "introP2": "En fait, l'obésité est une raison très importante et pourrait être la raison directe de la plupart des accidents vasculaires cérébraux, des problèmes de glycémie, de tension artérielle, de respiration, d'estomac et de nombreux autres problèmes de santé.",
-    "introP3": "Il existe plusieurs types de chirurgie de perte de poids, chacun diffère de l'autre dans ses étapes mais tous partagent les mêmes résultats agréables qui est une perte de poids significative. L'un de ces types s'appelle le mini bypass gastrique.",
-    "introP4": "Cette chirurgie est considérée comme l'une des chirurgies de perte de poids les plus efficaces et présente de nombreux avantages par rapport aux autres types de chirurgie de perte de poids.",
-    "introP5": "Comme toute autre chirurgie de perte de poids, l'idée de base du mini bypass gastrique est de réduire le volume de l'estomac pour diminuer la quantité de nourriture consommée par le patient. Cependant, la chirurgie du mini bypass gastrique implique des étapes différentes. Pendant la chirurgie, le médecin coupera la partie supérieure de l'estomac et la divisera en un tube, puis la joindra à une boucle de l'intestin. Le reste de l'estomac qui équivaut à 75% de l'estomac entier restera inutile.",
-    "introP6": "Le haut de l'estomac est agrafé pour former un tube de 50 ml, ce tube sera le nouveau petit estomac et complètement séparé de l'estomac d'origine. Cet estomac est ensuite cousu à une boucle de l'intestin grêle, contournant la première partie de l'intestin appelée le duodénum et environ 150-200 cm de l'intestin.",
-    "introP7": "La chirurgie du mini bypass gastrique peut être utilisée comme chirurgie de perte de poids primaire ou peut être utilisée pour les personnes qui ont déjà essayé un régime et des exercices quotidiens mais n'ont pas eu de résultats satisfaisants, ou pour les patients qui refont une chirurgie de perte de poids parce que la première n'a pas réussi pour une raison quelconque.",
-    "howItHelpsTitle": "Comment le mini bypass gastrique peut-il m'aider à perdre du poids?",
-    "howItHelpsIntro": "La chirurgie du mini bypass gastrique vous aide à perdre du poids de plusieurs façons:",
+    "tocItem1": "Comment le mini bypass peut m'aider à perdre du poids ?",
+    "tocItem2": "Y a-t-il des effets secondaires ?",
+    "tocItem3": "Les assurances couvrent-elles les frais ?",
+    "tocItem4": "Ce que vous devez savoir avant le mini bypass",
+    "introP1": "Pour beaucoup de personnes dans le monde, l'excès de poids et l'obésité est un problème très sérieux.",
+    "introP2": "L'obésité peut être la cause directe d'AVC, problèmes de glycémie, pression artérielle et bien d'autres.",
+    "introP3": "Il existe plusieurs types de chirurgie de perte de poids.",
+    "introP4": "Cette chirurgie est considérée comme l'une des plus efficaces.",
+    "introP5": "L'idée de base est de réduire le volume de l'estomac.",
+    "introP6": "Le haut de l'estomac est agrafé pour former un tube de 50 ml.",
+    "introP7": "Le mini bypass peut être utilisé comme chirurgie primaire ou pour ceux qui ont déjà essayé régime et exercice.",
+    "howItHelpsTitle": "Mini Bypass : Perte de Poids et Bénéfices Santé",
+    "howItHelpsIntro": "Le mini bypass vous aide à perdre du poids de plusieurs façons :",
     "benefit1Title": "Réduit la sensation de faim",
-    "benefit1Desc": "La partie enlevée de l'estomac est responsable de l'hormone de la faim. Ainsi, lorsqu'elle est enlevée, la sensation de faim sera réduite, ce qui entraînera une perte de poids.",
+    "benefit1Desc": "La partie retirée est responsable de l'hormone de la faim.",
     "benefit2Title": "Réduit l'apport alimentaire",
-    "benefit2Desc": "En réduisant la quantité de nourriture entrant dans l'estomac car le volume de votre estomac est devenu plus petit après la chirurgie.",
+    "benefit2Desc": "En réduisant le volume de l'estomac.",
     "benefit3Title": "Réduit l'absorption des calories",
-    "benefit3Desc": "En réduisant la quantité de calories que vous absorbez de la nourriture que vous mangez, ce qui se traduit par un mode de vie plus sain.",
-    "additionalBenefitsTitle": "Avantages Supplémentaires",
-    "additionalBenefitsDesc": "Après deux ans, vous perdrez environ 80% de votre poids, et des problèmes de santé graves et des maladies comme le diabète de type 2, les maladies de glycémie, les problèmes cardiaques seront améliorés ou même disparaîtront après cette chirurgie.",
-    "sideEffectsTitle": "Y a-t-il des effets secondaires pour le mini bypass gastrique?",
-    "sideEffectsIntro": "Comme toute autre chirurgie dans n'importe quel domaine, il y a des effets secondaires qui peuvent survenir pendant la chirurgie ou après la chirurgie. Bien que la chirurgie du mini bypass gastrique soit sûre, il y a encore quelques risques que nous pouvons mentionner:",
+    "benefit3Desc": "Pour un mode de vie plus sain.",
+    "additionalBenefitsTitle": "Bénéfices Supplémentaires",
+    "additionalBenefitsDesc": "Après deux ans, vous perdrez environ 80% de votre poids et les problèmes de santé s'amélioreront.",
+    "sideEffectsTitle": "Y a-t-il des effets secondaires ?",
+    "sideEffectsIntro": "Comme toute chirurgie, il peut y avoir des effets secondaires :",
     "sideEffects": [
-      "Saignement de l'intérieur de votre estomac ou de votre plaie stomacale.",
-      "Vous pourriez ressentir de la douleur si le médecin ou l'équipe médicale ne vous a pas donné une anesthésie générale puissante.",
-      "Fuites gastriques: les fluides de l'estomac peuvent fuir de la ligne de suture dans votre estomac.",
-      "Sténose: ce qui signifie qu'une partie de votre estomac pourrait se fermer causant une obstruction dans votre estomac.",
-      "Carence en vitamines: la partie enlevée de votre estomac est partiellement responsable de l'absorption des vitamines donc quand vous perdez cette partie, les vitamines dans votre corps diminueront."
+      "Saignement.",
+      "Douleur sans anesthésie adéquate.",
+      "Fuites gastriques.",
+      "Sténose.",
+      "Carence en vitamines."
     ],
-    "sideEffectsConclusion": "Ces risques sont considérés comme des complications précoces et heureusement 95% des cas sont réussis. Il y a encore quelques complications tardives qui peuvent apparaître comme la hernie interne bien que le risque de hernie interne soit considérablement plus faible après le mini-bypass qu'après le bypass gastrique standard. Parfois, les boucles de l'intestin dans l'abdomen peuvent s'emmêler et se coincer. Dans ce cas, une autre opération ou chirurgie est nécessaire pour résoudre le problème.",
-    "insuranceTitle": "Les compagnies d'assurance couvrent-elles les frais de la chirurgie?",
-    "insuranceDesc": "La plupart des compagnies d'assurance couvrent les coûts de la chirurgie si le patient remplit la condition de l'indice BMI. Bien sûr, cette information change d'un pays à l'autre, il est donc préférable de demander cette information dans votre pays.",
-    "thingsToKnowTitle": "Ce que vous devez savoir avant le mini bypass gastrique",
+    "sideEffectsConclusion": "Ces risques sont des complications précoces et 95% des cas sont réussis.",
+    "insuranceTitle": "Les assurances couvrent-elles les frais ?",
+    "insuranceDesc": "La plupart des assurances couvrent si le patient remplit la condition d'IMC.",
+    "thingsToKnowTitle": "Ce que vous devez savoir",
     "thingsToKnow": [
-      "Les patients qui souhaitent avoir cette chirurgie doivent avoir au moins 35 kg/m² dans l'indice BMI.",
-      "Un patient passera une heure à 90 minutes à l'hôpital pour faire la chirurgie.",
-      "Un patient doit rester à l'hôpital pendant trois à quatre jours pour s'assurer que rien ne va mal.",
-      "Un patient perdra entre 70% à 85% du poids total.",
-      "Un patient doit savoir que la maladie disparaîtra après trois semaines au maximum.",
-      "Un patient doit prendre des suppléments à vie.",
-      "Un patient doit suivre les instructions du médecin et les régimes donnés."
+      "IMC minimum de 35 kg/m².",
+      "60-90 minutes de chirurgie.",
+      "3-4 jours d'hospitalisation.",
+      "Perte de 70-85% du poids.",
+      "Malaise disparaît en 3 semaines max.",
+      "Suppléments à vie.",
+      "Suivre les instructions du médecin."
     ],
-    "thingsToKnowConclusion": "En fin de compte, vous devez savoir que malgré le fait que c'est sûr et pas très difficile, le médecin ou l'équipe médicale doit connaître toutes les informations relatives à votre état de santé, y compris votre rapport d'antécédents médicaux, juste pour éviter tout problème pendant la chirurgie ou après la chirurgie pendant le temps de récupération.",
-    "ctaTitle": "Prêt à en savoir plus sur le mini bypass gastrique?",
-    "ctaDesc": "Contactez-nous aujourd'hui pour une consultation gratuite et découvrez comment la chirurgie du mini bypass gastrique peut vous aider à atteindre vos objectifs de perte de poids."
+    "thingsToKnowConclusion": "Le médecin doit connaître votre historique médical complet.",
+    "ctaTitle": "Prêt à en savoir plus ?",
+    "ctaDesc": "Contactez-nous pour une consultation gratuite."
   },
   "gastricBalloon": {
     "title": "Ballon Intragastrique",
     "heroTitle": "Ballon Gastrique Istanbul, Turquie",
-    "heroSubtitle": "Une solution de perte de poids non chirurgicale qui vous aide à perdre du poids sans changements permanents à votre corps.",
-    "desc": "Une procédure endoscopique non invasive où un ballon rempli de solution saline est placé dans l'estomac pour créer une sensation de satiété et réduire l'apport alimentaire.",
+    "heroSubtitle": "Une solution non chirurgicale pour perdre du poids sans changements permanents.",
+    "desc": "Une procédure endoscopique non invasive où un ballon rempli de sérum est placé dans l'estomac.",
     "advantages": [
       "Non chirurgical / Non invasif",
       "Procédure très sûre",
-      "Aucun changement permanent de l'anatomie"
+      "Pas de changements anatomiques permanents"
     ],
     "disadvantages": [
       "Solution temporaire (6 mois)",
@@ -149,9 +427,9 @@
   },
   "gastricBand": {
     "title": "Anneau Gastrique Ajustable",
-    "desc": "Un anneau est placé autour de la partie supérieure de l'estomac pour créer une poche plus petite. La tension de l'anneau peut être ajustée en injectant une solution saline.",
+    "desc": "Un anneau est placé autour de la partie supérieure de l'estomac pour créer une poche plus petite.",
     "advantages": [
-      "Niveau de complexité le plus bas",
+      "Complexité la plus faible",
       "Court séjour hospitalier (<24 heures)",
       "Réversible et ajustable",
       "Généralement pas de problèmes de vitamines"
@@ -165,374 +443,96 @@
   "duodenalSwitch": {
     "title": "Switch Duodénal",
     "heroTitle": "Switch Duodénal Istanbul, Turquie",
-    "heroSubtitle": "L'une des chirurgies de perte de poids les plus efficaces pour les patients souffrant d'obésité sévère, offrant des résultats significatifs et durables.",
-    "desc": "Une procédure complexe combinant sleeve gastrectomie avec bypass intestinal. Elle offre la perte de poids la plus significative mais comporte des risques plus élevés.",
+    "heroSubtitle": "L'une des chirurgies les plus efficaces pour l'obésité sévère.",
+    "desc": "Procédure complexe combinant sleeve gastrique et bypass intestinal. Offre la perte de poids la plus importante mais comporte des risques plus élevés.",
     "advantages": [
       "Perte de poids la plus rapide",
-      "Perdre ~70% de l'excès de poids"
+      "Perte de ~70% du poids excédentaire"
     ],
     "disadvantages": [
-      "Chirurgie la plus compliquée",
-      "Risque élevé de carences en vitamines",
-      "Nécessite un suivi strict"
+      "Chirurgie la plus complexe",
+      "Risque élevé de carences vitaminiques",
+      "Suivi strict nécessaire"
     ],
-    "introP1": "De nos jours, de nombreuses personnes à travers le monde se plaignent de problèmes d'obésité, d'autant plus qu'elle est responsable de nombreux problèmes de santé graves comme les crises cardiaques, les accidents vasculaires cérébraux, les problèmes de foie et de reins, et bien d'autres problèmes de santé. Ainsi, des centaines de milliers de personnes souffrant d'obésité ont commencé à subir des chirurgies de l'obésité.",
-    "introP2": "Il existe plusieurs types de chirurgie de l'obésité, chaque type a ses propres outils et méthode de réalisation, mais tous les types partagent le même objectif qui est d'aider à résoudre les problèmes d'obésité.",
-    "introP3": "La chirurgie du switch duodénal est l'un des types de chirurgie de l'obésité et très efficace.",
+    "introP1": "Beaucoup de personnes souffrent de problèmes d'obésité.",
+    "introP2": "Il existe plusieurs types de chirurgie bariatrique.",
+    "introP3": "Le switch duodénal est l'un des plus efficaces.",
     "statWeightLoss": "Perte de Poids",
     "statMonths": "Mois pour Résultats",
     "statBest": "Résultats à Long Terme",
     "faqs": [
       {
-        "question": "Qu'est-ce que la chirurgie du Switch Duodénal?",
-        "answer": "Ou comme certains médecins l'appellent \"Réduction Gastrique avec Switch Duodénal\" est une chirurgie de perte de poids qui implique à la fois des aspects restrictifs et malabsorptifs. La partie restrictive de la chirurgie implique de couper jusqu'à 70% de l'estomac et une partie du duodénum."
+        "question": "Qu'est-ce que le switch duodénal ?",
+        "answer": "Une chirurgie combinant aspects restrictifs et malabsorptifs."
       },
       {
-        "question": "Est-ce similaire au bypass gastrique?",
-        "answer": "Le switch duodénal est similaire au bypass gastrique dans ses objectifs car il réduit la quantité de nourriture entrant dans votre estomac et réduit la quantité de calories absorbées par votre corps, mais parce qu'il s'agit davantage d'une opération malabsorptive, il provoque plus d'effets secondaires que les autres types de chirurgies."
+        "question": "Est-ce similaire au bypass ?",
+        "answer": "Similaire dans les objectifs, mais plus malabsorptif."
       },
       {
-        "question": "Le switch duodénal est-il meilleur que les autres types de chirurgie de l'obésité?",
-        "answer": "Certains médecins suggèrent qu'il est meilleur à long terme car dans le switch duodénal, l'estomac reste plus grand, il peut donc accueillir plus de nourriture par rapport aux autres types de chirurgie de l'obésité, ce qui vous aidera à avoir une meilleure forme corporelle à long terme."
+        "question": "Est-ce mieux que d'autres types ?",
+        "answer": "Certains médecins le recommandent pour le long terme car l'estomac reste plus grand."
       },
       {
-        "question": "Tout le monde peut-il avoir la chirurgie du switch duodénal? Comment savoir si je suis candidat?",
-        "answer": "Tout le monde ne peut pas avoir la chirurgie du switch duodénal, seul le médecin ou l'équipe médicale peut décider cela et la décision sera prise selon votre IMC \"Indice de Masse Corporelle\" s'il est supérieur à 40, alors vous pouvez avoir la chirurgie du switch duodénal. Bien sûr, il y a d'autres choses à prendre en considération, il est donc très important que votre médecin décide si vous pouvez avoir la chirurgie du switch duodénal ou non."
+        "question": "Tout le monde peut-il l'avoir ?",
+        "answer": "Non, le BMI doit être supérieur à 40."
       },
       {
-        "question": "Quelle est la durée de récupération pour la chirurgie du switch duodénal?",
-        "answer": "Cela diffère d'un patient à l'autre mais pour la plupart des patients, il faut entre trois et quatre semaines de récupération. Même si la chirurgie ne laisse pas beaucoup de cicatrices de l'extérieur, elle nécessite un travail important de l'intérieur."
+        "question": "Temps de récupération ?",
+        "answer": "3-4 semaines pour la plupart des patients."
       },
       {
-        "question": "Puis-je retourner au travail après la période de récupération et commencer à faire de l'exercice?",
-        "answer": "Il est préférable de prendre une semaine supplémentaire loin du stress et des activités intenses juste pour vous assurer que votre corps s'est adapté à la nouvelle situation après la chirurgie."
+        "question": "Puis-je reprendre le travail ?",
+        "answer": "Prenez une semaine supplémentaire de repos."
       },
       {
-        "question": "Combien de temps faut-il pour perdre du poids après la chirurgie?",
-        "answer": "La plupart des patients ayant subi la chirurgie du switch duodénal perdent leur poids pendant les 12 à 18 premiers mois. C'est pourquoi tout le monde ne se sent pas encouragé à avoir ce type de chirurgie de l'obésité."
+        "question": "Combien de temps pour perdre du poids ?",
+        "answer": "12-18 mois pour la plupart."
       },
       {
-        "question": "Est-il possible que je reprenne du poids après l'avoir perdu?",
-        "answer": "Cela peut arriver si vous revenez à l'ancien mode de vie malsain, mais il est connu que la chirurgie duodénale a la meilleure perte de poids durable parmi les types de chirurgie de l'obésité."
+        "question": "Risque de reprise de poids ?",
+        "answer": "Possible avec un mode de vie malsain, mais le switch a les meilleurs résultats à long terme."
       },
       {
-        "question": "Dois-je éviter certains types d'aliments après la chirurgie?",
-        "answer": "Il est difficile de mentionner des types d'aliments spécifiques car cela diffère d'un patient à l'autre, mais il y a certains types d'aliments dont vous devez absolument vous éloigner comme les aliments gras car ils provoquent des diarrhées. Dans tous les cas, il est important de prendre les réponses à cette question auprès du médecin après qu'il ait examiné votre corps."
+        "question": "Dois-je éviter certains aliments ?",
+        "answer": "Les aliments gras surtout, car ils causent des diarrhées."
       },
       {
-        "question": "Combien de poids vais-je perdre après la chirurgie?",
-        "answer": "La plupart des patients perdent entre 40 et 60% de leur poids. Cependant, vous devez savoir que rien de tout cela n'arrivera si vous ne faites pas d'efforts supplémentaires et ne changez pas votre mode de vie pour un mode plus sain."
+        "question": "Combien de poids vais-je perdre ?",
+        "answer": "40-60% du poids total."
       },
       {
-        "question": "La chirurgie du switch duodénal empêche-t-elle la grossesse? Ou a-t-elle des effets négatifs sur les corps enceintes?",
-        "answer": "La chirurgie n'empêchera pas la grossesse. Cependant, pendant les 18 premiers mois, nous suggérons qu'une femme n'ait pas de grossesse car pendant cette période, elle perdra du poids et cela pourrait affecter négativement son corps. Dans tous les cas, les chirurgies de perte de poids aident les femmes à avoir une expérience de grossesse plus saine (après la perte de poids maximale)."
+        "question": "La chirurgie empêche-t-elle la grossesse ?",
+        "answer": "Non, mais nous déconseillons une grossesse pendant les 18 premiers mois."
       },
       {
-        "question": "La chirurgie du switch duodénal coûte-t-elle plus cher que les autres chirurgies de l'obésité?",
-        "answer": "Elle coûte un peu plus cher que les autres types de chirurgie de l'obésité car elle nécessite plus de travail et d'efforts de la part de l'équipe médicale et des chirurgiens."
+        "question": "Coûte-t-il plus cher ?",
+        "answer": "Un peu plus car il requiert plus de travail de l'équipe médicale."
       }
     ],
-    "diabetesTitle": "Switch Duodénal pour le Diabète",
-    "diabetesP1": "La chirurgie du switch duodénal est particulièrement efficace pour les patients atteints de diabète de type 2. La procédure aide non seulement à une perte de poids significative, mais a également démontré qu'elle améliore ou même résout le diabète chez de nombreux patients.",
-    "diabetesP2": "La composante malabsorptive de la chirurgie modifie la façon dont le corps traite les aliments et peut conduire à une meilleure sensibilité à l'insuline et au contrôle de la glycémie. De nombreux patients voient des améliorations de leur diabète avant même qu'une perte de poids significative ne se produise.",
-    "diabetesHighlight": "Des études ont montré que le switch duodénal a l'un des taux de rémission du diabète les plus élevés parmi toutes les procédures bariatriques, ce qui en fait un excellent choix pour les patients souffrant d'obésité sévère compliquée par le diabète.",
-    "ctaTitle": "Le Switch Duodénal est-il fait pour vous?",
-    "ctaDesc": "Contactez-nous aujourd'hui pour une consultation gratuite afin de déterminer si la chirurgie du switch duodénal est la bonne option pour vos objectifs de perte de poids et de gestion du diabète."
+    "diabetesTitle": "Switch Duodénal et Diabète",
+    "diabetesP1": "Particulièrement efficace pour le diabète de type 2.",
+    "diabetesP2": "La composante malabsorptive améliore la sensibilité à l'insuline.",
+    "diabetesHighlight": "L'un des taux de rémission du diabète les plus élevés.",
+    "ctaTitle": "Le Switch Duodénal vous convient-il ?",
+    "ctaDesc": "Contactez-nous pour une consultation gratuite."
   },
   "esg": {
-    "title": "Gastroplastie Endoscopique en Sleeve",
-    "heroTitle": "ESG (Gastroplastie Endoscopique en Sleeve) Istanbul, Turquie",
-    "heroSubtitle": "Une procédure minimalement invasive, sans incision, qui réduit la taille de l'estomac sans chirurgie.",
-    "desc": "L'ESG est une procédure de perte de poids réalisée par endoscopie, réduisant la capacité de l'estomac de 70-80% sans incisions externes."
+    "title": "Gastroplastie Endoscopique en Manchon",
+    "heroTitle": "ESG Istanbul, Turquie",
+    "heroSubtitle": "Procédure mini-invasive sans incision qui réduit la taille de l'estomac sans chirurgie.",
+    "desc": "L'ESG réduit la capacité de l'estomac de 70-80% par endoscopie sans incisions externes."
   },
   "transitBipartition": {
-    "title": "Bipartition de Transit",
-    "heroTitle": "Bipartition de Transit Istanbul, Turquie",
-    "heroSubtitle": "Une chirurgie métabolique innovante qui combine les avantages de la sleeve gastrectomie avec le bypass intestinal.",
-    "desc": "La bipartition de transit est une chirurgie métabolique qui combine la sleeve gastrectomie avec un bypass intestinal partiel pour améliorer le contrôle du diabète et la perte de poids."
+    "title": "Bipartition Transit",
+    "heroTitle": "Bipartition Transit Istanbul, Turquie",
+    "heroSubtitle": "Chirurgie métabolique innovante combinant sleeve et bypass intestinal.",
+    "desc": "Combine sleeve gastrique et bypass intestinal partiel pour le contrôle du diabète et la perte de poids."
   },
   "postBariatric": {
     "title": "Chirurgie Post-Bariatrique",
     "heroTitle": "Remodelage Corporel Post-Bariatrique Istanbul, Turquie",
-    "heroSubtitle": "Complétez votre parcours de perte de poids avec des procédures de remodelage corporel conçues pour éliminer l'excès de peau après une perte de poids importante.",
-    "desc": "Après une perte de poids importante, de nombreux patients se retrouvent avec un excès de peau. La chirurgie post-bariatrique aide à remodeler et à sculpter le corps."
-  },
-  "comparison": {
-    "title": "Comparer toutes les procédures en un coup d'œil",
-    "subtitle": "Trouvez la bonne procédure de perte de poids en fonction de votre IMC, de votre budget et de vos préférences de récupération.",
-    "procedure": "Procédure",
-    "type": "Type",
-    "bmiRange": "Plage d'IMC",
-    "startingPrice": "Prix de départ",
-    "hospitalStay": "Séjour à l'hôpital",
-    "expectedWeightLoss": "Perte de poids attendue",
-    "recovery": "Récupération",
-    "surgical": "Chirurgical",
-    "nonSurgical": "Non chirurgical",
-    "priceNote": "Tous les prix sont tout compris. Tous les forfaits de détente et de luxe incluent la chirurgie avec le Dr Murat Ustun. Le prix final est confirmé après une consultation gratuite.",
-    "gastricSleeve": "Gastric Sleeve",
-    "gastricBypass": "Gastric Bypass",
-    "gastricBalloon": "Ballon gastrique",
-    "esg": "ESG",
-    "duodenalSwitch": "Bypass duodénal",
-    "bmi35plus": "35+",
-    "bmi40plus": "40+ (ou 35+ avec comorbidités)",
-    "bmi30to40": "30–40",
-    "bmi50plus": "50+ (ou 40+ avec comorbidités)",
-    "stay2to3": "2–3 jours",
-    "staySameDay": "Le même jour",
-    "stay1to2": "1–2 jours",
-    "stay3to4": "3–4 jours",
-    "loss60to70": "60–70% de poids excédentaire",
-    "loss70to80": "70–80% de poids excédentaire",
-    "loss10to15": "10–15% du poids corporel total",
-    "loss15to20": "15–20% du poids corporel total",
-    "loss70to85": "70–85% de poids excédentaire",
-    "recovery2to3weeks": "2–3 semaines",
-    "recovery1to3days": "1–3 jours",
-    "recovery3to4weeks": "3–4 semaines"
-  },
-  "packages": {
-    "sleeveBasic": {
-      "name": "Gastrectomie en manchon de base",
-      "features": [
-        "Équipe chirurgicale expérimentée",
-        "Hôpital accrédité JCI (2 jours)",
-        "Tous les tests et consultations préopératoires",
-        "Transfert VIP depuis l'aéroport",
-        "Soutien diététique"
-      ]
-    },
-    "sleeveRelaxation": {
-      "name": "Gastrectomie en manchon détente",
-      "features": [
-        "Chirurgie avec le Dr Murat Ustun",
-        "Hôpital accrédité JCI (3 jours)",
-        "Tous les tests et consultations préopératoires",
-        "Transfert VIP depuis l'aéroport",
-        "Soutien diététique enregistré au Royaume-Uni"
-      ]
-    },
-    "sleeveLuxury": {
-      "name": "Gastrectomie en manchon luxe",
-      "features": [
-        "Chirurgie avec le Dr Murat Ustun",
-        "Hôpital accrédité JCI (3 jours)",
-        "Tous les tests et consultations préopératoires",
-        "Transfert VIP depuis l'aéroport",
-        "3 nuits d'hébergement à l'hôtel Radisson",
-        "Soutien diététique enregistré au Royaume-Uni",
-        "1 mois de suppléments",
-        "Soutien local au Royaume-Uni dans 8 lieux"
-      ]
-    },
-    "bypassBasic": {
-      "name": "Gastric Bypass de base",
-      "features": [
-        "Équipe chirurgicale expérimentée",
-        "Hôpital accrédité JCI (2 jours)",
-        "Tous les tests et consultations préopératoires",
-        "Transfert VIP depuis l'aéroport",
-        "Soutien diététique"
-      ]
-    },
-    "bypassRelaxation": {
-      "name": "Gastric Bypass détente",
-      "features": [
-        "Chirurgie avec le Dr Murat Ustun",
-        "Hôpital accrédité JCI (3 jours)",
-        "Tous les tests et consultations préopératoires",
-        "Transfert VIP depuis l'aéroport",
-        "Soutien diététique enregistré au Royaume-Uni"
-      ]
-    },
-    "bypassLuxury": {
-      "name": "Gastric Bypass luxe",
-      "features": [
-        "Chirurgie avec le Dr Murat Ustun",
-        "Hôpital accrédité JCI (3 jours)",
-        "Tous les tests et consultations préopératoires",
-        "Transfert VIP depuis l'aéroport",
-        "3 nuits d'hébergement à l'hôtel Radisson",
-        "Soutien diététique enregistré au Royaume-Uni",
-        "1 mois de suppléments",
-        "Soutien local au Royaume-Uni dans 8 lieux"
-      ]
-    },
-    "balloonOrbera": {
-      "name": "Ballon Orbera endoscopique",
-      "features": [
-        "Transferts aéroport",
-        "Tests préopératoires complets",
-        "Endoscopie",
-        "Anesthésie",
-        "2 nuits d'hébergement",
-        "Soutien diététique"
-      ]
-    },
-    "balloonAllurion": {
-      "name": "Ballon Allurion ingérable",
-      "features": [
-        "Transferts aéroport",
-        "Tests préopératoires complets",
-        "Endoscopie",
-        "Anesthésie",
-        "1 nuit d'hébergement",
-        "Soutien diététique"
-      ]
-    },
-    "esgRelaxation": {
-      "name": "ESG détente",
-      "features": [
-        "Hôpital Liv à la pointe de la technologie",
-        "Procédure avec le Dr Murat Ustun (Pionnier de l'ESG en Turquie)",
-        "Transferts VIP depuis l'aéroport",
-        "Tous les tests et consultations préopératoires",
-        "Coûts de la salle d'opération et de l'hôpital",
-        "2 jours d'admission en chambre privée"
-      ]
-    },
-    "esgLuxury": {
-      "name": "ESG luxe",
-      "features": [
-        "Hôpital Liv à la pointe de la technologie",
-        "Procédure avec le Dr Murat Ustun (Pionnier de l'ESG en Turquie)",
-        "Transferts VIP depuis l'aéroport",
-        "Tous les tests et consultations préopératoires",
-        "Coûts de la salle d'opération et de l'hôpital",
-        "2 jours d'admission en chambre privée",
-        "2 jours d'hébergement à l'hôtel Radisson",
-        "4 rendez-vous avec un diététicien enregistré au Royaume-Uni",
-        "1 mois de suppléments et de multivitamines"
-      ]
-    },
-    "dsRelaxation": {
-      "name": "Duodenal Switch détente",
-      "features": [
-        "Chirurgie avec le Dr Murat Ustun",
-        "Hôpital accrédité JCI (3 jours)",
-        "Tous les tests et consultations préopératoires",
-        "Transfert VIP depuis l'aéroport",
-        "Soutien diététique enregistré au Royaume-Uni"
-      ]
-    },
-    "dsLuxury": {
-      "name": "Duodenal Switch luxe",
-      "features": [
-        "Chirurgie avec le Dr Murat Ustun",
-        "Hôpital accrédité JCI (3 jours)",
-        "Tous les tests et consultations préopératoires",
-        "Transfert VIP depuis l'aéroport",
-        "3 nuits d'hébergement à l'hôtel Radisson",
-        "Soutien diététique enregistré au Royaume-Uni",
-        "1 mois de suppléments",
-        "Soutien local au Royaume-Uni dans 8 lieux"
-      ]
-    },
-    "bypassTitle": "Forfaits Gastric Bypass",
-    "bypassSubtitle": "Choisissez le bon forfait gastric bypass pour vos besoins",
-    "balloonTitle": "Forfaits Ballon Gastrique",
-    "balloonSubtitle": "Choisissez le bon forfait ballon gastrique pour vos besoins",
-    "esgTitle": "Forfaits ESG",
-    "esgSubtitle": "Choisissez le bon forfait ESG pour vos besoins",
-    "dsTitle": "Forfaits Duodenal Switch",
-    "dsSubtitle": "Choisissez le bon forfait duodenal switch pour vos besoins"
-  },
-  "esgTreatment": {
-    "title": "Gastroplastie par sleeve endoscopique (ESG)",
-    "desc": "L'ESG est une procédure de perte de poids peu invasive et non chirurgicale qui réduit la taille de votre estomac jusqu'à 70-80% à l'aide d'un dispositif de suture endoscopique inséré par la bouche. Aucune incision n'est requise, ce qui la rend idéale pour les patients ayant un IMC de 30-40 qui préfèrent une approche non chirurgicale.",
-    "advantages": [
-      "Non chirurgical — pas d'incisions ni de cicatrices",
-      "Temps de récupération plus court (retour aux activités normales en 1-3 jours)",
-      "Moins de risques de complications par rapport à la chirurgie",
-      "Procédure réversible",
-      "Perte de poids total de 15-20% attendue",
-      "Sortie le même jour ou le lendemain",
-      "Réalisée sous anesthésie générale (~90 minutes)"
-    ],
-    "disadvantages": [
-      "Moins de perte de poids que les options chirurgicales comme la sleeve gastrique",
-      "Peut nécessiter des procédures répétées pour des résultats optimaux",
-      "Non adapté pour un IMC supérieur à 40",
-      "Procédure relativement nouvelle avec moins de données à long terme"
-    ]
-  },
-  "postBariatricSection": {
-    "sectionTitle": "Chirurgie plastique post-bariatrie",
-    "desc1": "Après une perte de poids significative suite à une chirurgie bariatrique, de nombreux patients se retrouvent avec une peau excédentaire et flasque. La chirurgie de remodelage corporel post-bariatrie élimine cette peau excédentaire et redessine le corps pour vous aider à profiter pleinement de votre transformation.",
-    "desc2": "Nos procédures incluent l'abdominoplastie (lifting du ventre), le lifting des bras, le lifting des cuisses, le lifting corporel, le lifting des seins et le lifting du visage/cou. Ces chirurgies peuvent améliorer considérablement le contour du corps et éliminer les irritations cutanées.",
-    "learnMore": "En savoir plus sur le remodelage corporel",
-    "imageAlt": "Procédures de remodelage corporel post-bariatrie",
-    "imageCaption": "Options de remodelage corporel après la chirurgie de perte de poids"
-  },
-  "faqSection": {
-    "title": "Questions Fréquemment Posées sur la Chirurgie de Perte de Poids en Turquie",
-    "subtitle": "Tout ce que vous devez savoir sur la chirurgie bariatrique au Istanbul Bariatric Center",
-    "faqs": [
-      {
-        "question": "Combien coûte la chirurgie de perte de poids à Istanbul ?",
-        "answer": "Les forfaits tout compris au Istanbul Bariatric Center commencent à £1,650 pour un ballon gastrique, £2,950 pour une sleeve gastrique, £3,350 pour un gastric bypass, et £4,950 pour l'ESG. Chaque forfait couvre votre séjour à l'hôpital accrédité JCI, les tests préopératoires, les transferts VIP depuis l'aéroport, et le suivi diététique."
-      },
-      {
-        "question": "Quelle procédure bariatrique me convient ?",
-        "answer": "La meilleure procédure dépend de votre IMC, de vos antécédents médicaux et de vos objectifs de perte de poids. La sleeve gastrique convient aux IMC 35+, le bypass gastrique est recommandé pour les IMC 40+ ou les patients avec des conditions métaboliques, le ballon gastrique est une option non chirurgicale pour les IMC 30–40, et l'ESG offre une approche peu invasive pour les IMC 30–40."
-      },
-      {
-        "question": "La chirurgie bariatrique au Istanbul Bariatric Center est-elle sûre ?",
-        "answer": "Absolument. Toutes les procédures sont réalisées à l'hôpital Liv accrédité JCI à Istanbul par des chirurgiens formés à l'international. Le Dr Murat Ustun, le fondateur et chirurgien principal du centre, a réalisé des milliers d'opérations réussies avec des résultats de sécurité exceptionnels."
-      },
-      {
-        "question": "Que comprend chaque forfait de chirurgie ?",
-        "answer": "Chaque forfait comprend l'admission à un hôpital accrédité JCI, des tests préopératoires complets, les frais de chirurgien et d'anesthésie, le transfert VIP depuis l'aéroport, et le soutien diététique. Les niveaux Détente et Luxe ajoutent le Dr Murat Ustun comme votre chirurgien opérant, des séjours prolongés à l'hôpital, un hébergement à l'hôtel Radisson, un suivi diététique enregistré au Royaume-Uni, et des forfaits de suppléments."
-      },
-      {
-        "question": "Combien de poids puis-je m'attendre à perdre ?",
-        "answer": "Les résultats varient selon la procédure : les patients ayant une sleeve gastrique perdent généralement 60–70% de leur poids excédentaire, le bypass gastrique 70–80%, le ballon gastrique 10–15% de leur poids corporel total, et l'ESG 15–20% de leur poids corporel total — tous dans les 12–18 premiers mois."
-      },
-      {
-        "question": "Quel est le calendrier de récupération ?",
-        "answer": "Les patients ayant une sleeve gastrique et un bypass restent 2–3 jours à l'hôpital et reprennent leurs activités quotidiennes dans les 2–3 semaines. Le ballon gastrique est une procédure le même jour, et les patients ESG peuvent reprendre leurs activités normales dans les 1–3 jours."
-      },
-      {
-        "question": "Reçois-je des soins après mon retour à la maison ?",
-        "answer": "Oui. Chaque patient reçoit un plan de soins après la chirurgie structuré comprenant des conseils diététiques, des consultations de suivi, et l'accès à notre équipe de soutien aux patients basée au Royaume-Uni opérant depuis 8 lieux à travers le Royaume-Uni."
-      },
-      {
-        "question": "Qui est le Dr Murat Ustun ?",
-        "answer": "Le Dr Murat Ustun est le fondateur et le chirurgien bariatrique principal du Istanbul Bariatric Center. Pionnier de l'ESG (Gastroplastie par sleeve endoscopique) en Turquie, il a réalisé des milliers de procédures de perte de poids — y compris la sleeve gastrique, le bypass gastrique, et le bypass duodénal — à l'hôpital Liv à Istanbul."
-      }
-    ]
-  },
-  "treatmentLinks": {
-    "title": "Explorez Nos Pages de Traitement",
-    "subtitle": "En savoir plus sur chaque procédure en détail",
-    "gastricSleeve": "Chirurgie de Sleeve Gastrique",
-    "gastricSleevePrice": "À partir de £2,950",
-    "miniBypass": "Mini Gastric Bypass",
-    "miniBypassDesc": "Procédure spécialisée",
-    "gastricBalloon": "Ballon Gastrique",
-    "gastricBalloonPrice": "À partir de £1,650",
-    "esg": "Procédure ESG",
-    "esgPrice": "À partir de £4,950",
-    "duodenalSwitch": "Bypass Duodénal",
-    "duodenalSwitchPrice": "À partir de £4,400",
-    "transitBipartition": "Bipartition de Transit",
-    "transitBipartitionDesc": "Procédure avancée",
-    "postBariatric": "Chirurgie Post-Bariatrie",
-    "postBariatricDesc": "Remodelage corporel",
-    "eligible": "Suis-je Éligible ?",
-    "eligibleDesc": "Évaluation de santé gratuite",
-    "results": "Résultats des Patients",
-    "resultsDesc": "Histoires de succès"
-  },
-  "whatsapp": {
-    "consultMessage": "Bonjour, j'aimerais consulter à propos de",
-    "packageMessage": "Bonjour, je suis intéressé par le"
-  },
-  "seo": {
-    "title": "Chirurgie de Perte de Poids à Istanbul 2026 — Sleeve Gastrique, Bypass, Ballon & ESG | Forfaits Tout Compris",
-    "description": "Comparez les procédures bariatriques : Sleeve Gastrique à partir de £2,950, Bypass £3,350, Ballon £1,650, ESG £4,950. Dr Murat Ustun à l'hôpital Liv accrédité JCI.",
-    "heroAlt": "Mode de vie actif et sain après la chirurgie bariatrique",
-    "skipToContent": "Passer au contenu principal"
+    "heroSubtitle": "Complétez votre parcours avec des procédures de remodelage corporel.",
+    "desc": "Après une perte de poids importante, la chirurgie post-bariatrique aide à remodeler le corps."
   }
 }
