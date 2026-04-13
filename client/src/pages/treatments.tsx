@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { CountryFlagsBar } from "@/components/country-flags-bar";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle2, Check } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
@@ -815,6 +816,8 @@ export default function Treatments({ lang }: { lang?: string }) {
           </div>
         </div>
       </section>
+
+      <CountryFlagsBar variant="treatments" />
 
       </main>
 

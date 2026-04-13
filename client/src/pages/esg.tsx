@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { CountryFlagsBar } from "@/components/country-flags-bar";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, Award, ShieldCheck, Stethoscope, BadgePoundSterling } from "lucide-react";
 import { useTranslation } from "react-i18next";
@@ -477,6 +478,8 @@ export default function ESG() {
           </div>
         </div>
       </section>
+
+      <CountryFlagsBar variant="esg" />
 
       {/* CTA */}
       <section className="py-20 bg-primary text-white">
