@@ -6,15 +6,15 @@ interface ChatMessage {
 }
 
 const GREETING_MESSAGES: Record<string, string> = {
-  en: "Hi there! I'm Maya, your personal patient coordinator at Istanbul Bariatric Center. How can I help you today? Whether you have questions about our procedures, pricing, or planning your trip to Istanbul — I'm here for you!",
-  tr: "Merhaba! Ben Maya, Istanbul Bariatric Center'daki kişisel hasta koordinatörünüz. Size bugün nasıl yardımcı olabilirim? Prosedürlerimiz, fiyatlandırma veya İstanbul seyahatinizi planlama hakkında sorularınız varsa — buradayım!",
-  es: "¡Hola! Soy Maya, tu coordinadora personal de pacientes en Istanbul Bariatric Center. ¿Cómo puedo ayudarte hoy? Ya sea que tengas preguntas sobre nuestros procedimientos, precios o la planificación de tu viaje a Estambul — ¡estoy aquí para ti!",
-  de: "Hallo! Ich bin Maya, Ihre persönliche Patientenkoordinatorin im Istanbul Bariatric Center. Wie kann ich Ihnen heute helfen? Ob Sie Fragen zu unseren Verfahren, Preisen oder der Planung Ihrer Reise nach Istanbul haben — ich bin für Sie da!",
-  fr: "Bonjour ! Je suis Maya, votre coordinatrice personnelle des patients au Istanbul Bariatric Center. Comment puis-je vous aider aujourd'hui ? Que vous ayez des questions sur nos procédures, nos tarifs ou la planification de votre voyage à Istanbul — je suis là pour vous !",
-  it: "Ciao! Sono Maya, la tua coordinatrice personale dei pazienti presso l'Istanbul Bariatric Center. Come posso aiutarti oggi? Che tu abbia domande sulle nostre procedure, prezzi o sulla pianificazione del tuo viaggio a Istanbul — sono qui per te!",
-  ro: "Bună! Sunt Maya, coordonatoarea ta personală de pacienți la Istanbul Bariatric Center. Cum te pot ajuta astăzi? Fie că ai întrebări despre procedurile noastre, prețuri sau planificarea călătoriei tale la Istanbul — sunt aici pentru tine!",
-  ru: "Привет! Я Майя, ваш персональный координатор пациентов в Istanbul Bariatric Center. Чем могу помочь вам сегодня? Если у вас есть вопросы о наших процедурах, ценах или планировании поездки в Стамбул — я здесь для вас!",
-  ar: "مرحباً! أنا مايا، منسقة المرضى الدوليين الخاصة بك في مركز اسطنبول لجراحة السمنة. كيف يمكنني مساعدتك اليوم؟ سواء كانت لديك أسئلة حول إجراءاتنا أو الأسعار أو التخطيط لرحلتك إلى اسطنبول — أنا هنا من أجلك!",
+  en: "Hey! 👋 I'm Maya from Istanbul Bariatric Center. What can I help you with today?",
+  tr: "Merhaba! 👋 Ben Maya, Istanbul Bariatric Center'dan. Size nasıl yardımcı olabilirim?",
+  es: "¡Hola! 👋 Soy Maya de Istanbul Bariatric Center. ¿En qué puedo ayudarte?",
+  de: "Hallo! 👋 Ich bin Maya vom Istanbul Bariatric Center. Wie kann ich Ihnen helfen?",
+  fr: "Bonjour ! 👋 Je suis Maya d'Istanbul Bariatric Center. Comment puis-je vous aider ?",
+  it: "Ciao! 👋 Sono Maya dell'Istanbul Bariatric Center. Come posso aiutarti?",
+  ro: "Bună! 👋 Sunt Maya de la Istanbul Bariatric Center. Cu ce te pot ajuta?",
+  ru: "Привет! 👋 Я Майя из Istanbul Bariatric Center. Чем могу помочь?",
+  ar: "مرحباً! 👋 أنا مايا من مركز إسطنبول لجراحة السمنة. كيف أقدر أساعدك؟",
 };
 
 function detectLanguage(): string {
