@@ -28,7 +28,7 @@ Preferred communication style: Simple, everyday language.
 - **Deployment**: Serves React SPA in production, provides API for forms and AI chatbot.
 
 ### Maya AI Chatbot
-- **Implementation**: Self-contained React component (`maya-chatbot.tsx`), streaming API (`/api/maya-chat`) using OpenAI (gpt-5-mini), essential info inlined in system prompt (no separate knowledge base file).
+- **Implementation**: Self-contained React component (`maya-chatbot.tsx`), streaming API (`/api/maya-chat`) using OpenAI (gpt-4o-mini), essential info inlined in system prompt (no separate knowledge base file).
 - **Features**: Multilingual greetings, SSE streaming, responsive design, lead collection (name/phone/email), conversation persistence.
 - **Optimization**: Short conversational replies (1-3 sentences, max_completion_tokens: 300), natural lead collection flow, hands off to human coordinators for detailed info.
 
