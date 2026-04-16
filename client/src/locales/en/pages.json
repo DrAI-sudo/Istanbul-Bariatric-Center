@@ -13,7 +13,7 @@
     }
   },
   "results": {
-    "title": "Before & After: Istanbul Bariatric Center Patient Success Stories",
+    "title": "Results & Reviews: Real Patient Transformations",
     "subtitle": "Real people, real results. See how bariatric surgery at Istanbul Bariatric Center has transformed lives.",
     "beforeAfter": "Before & After Results",
     "beforeAfterDesc": "These transformations are more than just physical - they represent renewed confidence, improved health, and a fresh start in life. You could be next!",
@@ -25,7 +25,13 @@
     "startTransformation": "Start Your Transformation",
     "lostIn": "Lost in",
     "from": "From",
-    "verifiedPatient": "Verified Patient"
+    "verifiedPatient": "Verified Patient",
+    "verifiedReviews": "Verified 5-Star Reviews",
+    "verifiedReviewsDesc": "Read what our patients say about their experience. All reviews are verified by WhatClinic.",
+    "viewMore": "View More Reviews",
+    "viewLess": "Show Less",
+    "whatClinicScore": "Outstanding",
+    "whatClinicBadge": "WhatClinic ServiceScore™"
   },
   "contact": {
     "title": "Contact Us",

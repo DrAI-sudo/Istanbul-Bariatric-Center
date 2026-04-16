@@ -213,17 +213,17 @@ const staticPages: Record<string, PageSEO> = {
 <section><h2>تفاصيل الحزمة الشاملة</h2><p>باقة أساسية: مستشفى JCI (يومين)، خدمة نقل من المطار، دعم أخصائي تغذية. باقة استرخاء: الدكتور مراد أستون، مستشفى JCI (ثلاثة أيام)، فندق Radisson، أخصائي تغذية بريطاني (12 شهرًا)، مكملات. باقة فاخرة: كل ما في باقة الاسترخاء بالإضافة إلى إقامة ممتدة، نقل VIP، غرفة فاخرة.</p></section>`,
   },
   "/results": {
-    title: "Before & After Results: Patient Success Stories",
-    description: "Istanbul Bariatric Center: See real patient results and before & after photos. Explore successful weight loss transformations. Contact us.",
-    h1: "Before & After: Istanbul Bariatric Center Patient Success Stories",
-    bodyExcerpt: "View real patient results and testimonials from Istanbul Bariatric Center. Our patients share their weight loss journeys and transformations after gastric sleeve, gastric bypass, and other bariatric procedures. Over 8,000 successful surgeries with verified 5-star reviews on WhatClinic.",
+    title: "Results & Reviews: Patient Success Stories | Istanbul Bariatric Center",
+    description: "Istanbul Bariatric Center: Real patient results, before & after photos, and verified 5-star WhatClinic reviews. 8,000+ successful surgeries.",
+    h1: "Results & Reviews: Real Patient Transformations",
+    bodyExcerpt: "View real patient results, before and after photos, and verified 5-star reviews from Istanbul Bariatric Center. Our patients share their weight loss journeys after gastric sleeve, gastric bypass, and other bariatric procedures. Outstanding 10/10 WhatClinic ServiceScore from 138 interactions.",
     canonical: SITE_URL + "/results",
     richContent: `<section><h2>Real Patient Transformations</h2><p>Our patients have achieved life-changing results through bariatric surgery at Istanbul Bariatric Center. View real before and after photos and read testimonials from patients who have undergone gastric sleeve, gastric bypass, ESG, and other weight loss procedures.</p></section>
-<section><h2>Patient Testimonials</h2>
-<blockquote><p>"The whole experience was amazing from start to finish. Dr Ustun and the team made me feel so comfortable and looked after. I've lost over 40kg and my life has completely changed." — Gastric Sleeve Patient</p></blockquote>
-<blockquote><p>"Best decision I ever made. The VIP package was incredible — hotel, transfers, everything was taken care of. The aftercare support from the UK dietitian has been invaluable." — Gastric Bypass Patient</p></blockquote>
-<blockquote><p>"I was nervous about having surgery abroad but Istanbul Bariatric Center exceeded all my expectations. The hospital was world-class and the care was outstanding." — ESG Patient</p></blockquote></section>
-<section><h2>Verified Reviews</h2><p>Istanbul Bariatric Center has earned the WhatClinic Patient Service Award for 6 consecutive years (2019-2025) based on verified patient reviews. Over 8,000 successful procedures with consistently high satisfaction ratings.</p></section>`,
+<section><h2>Verified 5-Star WhatClinic Reviews</h2>
+<blockquote><p>"I had a sleeve done with Dr Ustun. I did a lot of research to find the best surgeon and I am so thankful I found him. From start to finish my experience has been excellent. In 8 months I am down 52kg. I am so grateful to Dr Ustun and Istanbul Bariatric Centre for giving me my life back." — Danielle, UK</p></blockquote>
+<blockquote><p>"I was treated like a VIP from the first consultation with Demet and Dr Murat to being discharged after my surgery. I was treated in the world-renowned Memorial Sisli hospital which is a million miles away from the hospitals here in the UK." — VIP Package Patient</p></blockquote>
+<blockquote><p>"Demet is the patient coordinator and she is absolutely great. I was talking to her for over a year — it took me such a long time to decide to have this operation. She was patiently answering any of my questions." — Sleeve Gastrectomy Patient</p></blockquote></section>
+<section><h2>WhatClinic Awards & Ratings</h2><p>Istanbul Bariatric Center has earned the WhatClinic Patient Service Award for 6 consecutive years (2019-2025). Outstanding ServiceScore 10/10 from 138 verified interactions. 55 verified patient reviews with 4.9/5 average rating. Over 8,000 successful procedures.</p></section>`,
   },
   "/blog": {
     title: "Bariatric Surgery Blog - Istanbul Bariatric Center",
