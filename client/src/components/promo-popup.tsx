@@ -42,9 +42,13 @@ export default function PromoPopup() {
         </button>
 
         <img
-          src="/promo-popup.png"
+          src="/promo-popup.webp"
           alt="Istanbul Bariatric Center - Early Booking Discount up to 10% off"
           className="w-full h-auto"
+          width="800"
+          height="505"
+          loading="lazy"
+          decoding="async"
           data-testid="img-promo"
         />
 
@@ -53,7 +57,7 @@ export default function PromoPopup() {
             href="https://wa.me/905324131143?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20free%20consultation"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-3 w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold text-lg py-3.5 px-6 rounded-xl transition-colors"
+            className="flex items-center justify-center gap-3 w-full bg-[#128C7E] hover:bg-[#0e6b60] text-white font-bold text-lg py-3.5 px-6 rounded-xl transition-colors shadow-md"
             data-testid="link-promo-whatsapp"
           >
             <svg viewBox="0 0 24 24" className="w-6 h-6 fill-current" aria-hidden="true">

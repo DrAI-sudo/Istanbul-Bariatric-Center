@@ -148,21 +148,36 @@ function PageTracker() {
     }
 
     const doTrack = () => {
-      fetch("/api/track", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
+      try {
+        const payload = JSON.stringify({
           path: pathname,
           sessionId,
           referrer: document.referrer || null,
-        }),
-      }).catch(() => {});
+        });
+        if (navigator.sendBeacon) {
+          navigator.sendBeacon("/api/track", new Blob([payload], { type: "application/json" }));
+        } else {
+          fetch("/api/track", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: payload,
+            keepalive: true,
+          }).catch(() => {});
+        }
+      } catch {}
     };
-    
-    if ('requestIdleCallback' in window) {
-      (window as any).requestIdleCallback(doTrack, { timeout: 3000 });
+
+    const fireAfterLoad = () => {
+      if ('requestIdleCallback' in window) {
+        (window as any).requestIdleCallback(doTrack, { timeout: 5000 });
+      } else {
+        setTimeout(doTrack, 3000);
+      }
+    };
+    if (document.readyState === 'complete') {
+      fireAfterLoad();
     } else {
-      setTimeout(doTrack, 2000);
+      window.addEventListener('load', fireAfterLoad, { once: true });
     }
 
     const startTime = Date.now();
