@@ -110,6 +110,29 @@ export default function Treatments({ lang }: { lang?: string }) {
     ]
   };
 
+  const convertPrice = (gbp: string) => {
+    const num = parseInt(gbp.replace(/[£,]/g, ''), 10);
+    if (!num) return { eur: '', usd: '' };
+    const eur = Math.round(num * 1.15 / 5) * 5;
+    const usd = Math.round(num * 1.35 / 5) * 5;
+    return {
+      eur: '€' + eur.toLocaleString('en-US'),
+      usd: '$' + usd.toLocaleString('en-US'),
+    };
+  };
+
+  const PriceDisplay = ({ price, colorClass }: { price: string; colorClass: string }) => {
+    const { eur, usd } = convertPrice(price);
+    return (
+      <div className="space-y-1">
+        <div className={`text-4xl font-extrabold ${colorClass}`}>{price}</div>
+        <div className="text-sm font-semibold text-slate-500">
+          {eur} <span className="text-slate-300 mx-1">·</span> {usd}
+        </div>
+      </div>
+    );
+  };
+
   const packages = [
     {
       name: t('packages.sleeveBasic.name'),
@@ -364,7 +387,12 @@ export default function Treatments({ lang }: { lang?: string }) {
                       </span>
                     </td>
                     <td className="px-6 py-5 text-slate-700">{row.bmiRange}</td>
-                    <td className="px-6 py-5 font-bold text-primary">{row.startingPrice}</td>
+                    <td className="px-6 py-5 font-bold text-primary">
+                      <div>{row.startingPrice}</div>
+                      <div className="text-xs font-medium text-slate-500 mt-0.5">
+                        {convertPrice(row.startingPrice).eur} · {convertPrice(row.startingPrice).usd}
+                      </div>
+                    </td>
                     <td className="px-6 py-5 text-slate-700">{row.hospitalStay}</td>
                     <td className="px-6 py-5 text-slate-700">{row.expectedWeightLoss}</td>
                     <td className="px-6 py-5 text-slate-700">{row.recovery}</td>
@@ -480,7 +508,7 @@ export default function Treatments({ lang }: { lang?: string }) {
                               <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
                             </CardHeader>
                             <CardContent className="text-center space-y-6 pt-6">
-                              <div className={`text-4xl font-extrabold ${colorStyles.price}`}>{pkg.price}</div>
+                              <PriceDisplay price={pkg.price} colorClass={colorStyles.price} />
                               <ul className="space-y-4 text-left mx-auto max-w-[240px]">
                                 {pkg.features.map((feature, fIdx) => (
                                   <li key={fIdx} className="flex items-center gap-3 text-slate-700">
@@ -531,7 +559,7 @@ export default function Treatments({ lang }: { lang?: string }) {
                               <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
                             </CardHeader>
                             <CardContent className="text-center space-y-6 pt-6">
-                              <div className={`text-4xl font-extrabold ${colorStyles.price}`}>{pkg.price}</div>
+                              <PriceDisplay price={pkg.price} colorClass={colorStyles.price} />
                               <ul className="space-y-4 text-left mx-auto max-w-[240px]">
                                 {pkg.features.map((feature, fIdx) => (
                                   <li key={fIdx} className="flex items-center gap-3 text-slate-700">
@@ -581,7 +609,7 @@ export default function Treatments({ lang }: { lang?: string }) {
                               <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
                             </CardHeader>
                             <CardContent className="text-center space-y-6 pt-6">
-                              <div className={`text-4xl font-extrabold ${colorStyles.price}`}>{pkg.price}</div>
+                              <PriceDisplay price={pkg.price} colorClass={colorStyles.price} />
                               <ul className="space-y-4 text-left mx-auto max-w-[240px]">
                                 {pkg.features.map((feature, fIdx) => (
                                   <li key={fIdx} className="flex items-center gap-3 text-slate-700">
@@ -631,7 +659,7 @@ export default function Treatments({ lang }: { lang?: string }) {
                               <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
                             </CardHeader>
                             <CardContent className="text-center space-y-6 pt-6">
-                              <div className={`text-4xl font-extrabold ${colorStyles.price}`}>{pkg.price}</div>
+                              <PriceDisplay price={pkg.price} colorClass={colorStyles.price} />
                               <ul className="space-y-4 text-left mx-auto max-w-[240px]">
                                 {pkg.features.map((feature, fIdx) => (
                                   <li key={fIdx} className="flex items-center gap-3 text-slate-700">
@@ -682,7 +710,7 @@ export default function Treatments({ lang }: { lang?: string }) {
                               <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
                             </CardHeader>
                             <CardContent className="text-center space-y-6 pt-6">
-                              <div className={`text-4xl font-extrabold ${colorStyles.price}`}>{pkg.price}</div>
+                              <PriceDisplay price={pkg.price} colorClass={colorStyles.price} />
                               <ul className="space-y-4 text-left mx-auto max-w-[240px]">
                                 {pkg.features.map((feature, fIdx) => (
                                   <li key={fIdx} className="flex items-center gap-3 text-slate-700">
