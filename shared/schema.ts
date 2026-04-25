@@ -1,5 +1,5 @@
 import { sql } from "drizzle-orm";
-import { pgTable, text, varchar, serial, timestamp, integer } from "drizzle-orm/pg-core";
+import { pgTable, text, varchar, serial, timestamp, integer, boolean } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
@@ -59,6 +59,10 @@ export const chatbotLeads = pgTable("chatbot_leads", {
   name: text("name"),
   phone: text("phone"),
   email: text("email"),
+  treatment: text("treatment"),
+  destination: text("destination"),
+  travelDate: text("travel_date"),
+  emailSent: boolean("email_sent").default(false).notNull(),
   createdAt: timestamp("created_at").defaultNow().notNull(),
 });
 

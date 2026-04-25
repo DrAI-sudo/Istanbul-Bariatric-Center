@@ -87,6 +87,98 @@ export async function sendContactEmail(formData: {
   }
 }
 
+export async function sendChatLeadEmail(payload: {
+  conversationId: number;
+  lead: {
+    name?: string | null;
+    email?: string | null;
+    phone?: string | null;
+    treatment?: string | null;
+    destination?: string | null;
+    travelDate?: string | null;
+  };
+  transcript: Array<{ role: "user" | "assistant"; content: string }>;
+}): Promise<boolean> {
+  try {
+    const credentials = await getCredentials();
+    if (!credentials) {
+      console.log("Resend: Skipping chat lead email - no credentials available");
+      return false;
+    }
+
+    const resend = new Resend(credentials.apiKey);
+    const { lead, transcript, conversationId } = payload;
+
+    const escape = (s: string) =>
+      s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+    const row = (label: string, value?: string | null) => `
+      <tr>
+        <td style="padding: 8px 12px; color: #64748b; width: 160px; border-bottom: 1px solid #e2e8f0;">${label}</td>
+        <td style="padding: 8px 12px; color: #0f172a; border-bottom: 1px solid #e2e8f0;"><strong>${value && value.trim() ? escape(value) : "—"}</strong></td>
+      </tr>`;
+
+    const transcriptHtml = transcript
+      .map((m) => {
+        const isPatient = m.role === "user";
+        const border = isPatient ? "#16a34a" : "#94a3b8";
+        const bg = isPatient ? "#f0fdf4" : "#f8fafc";
+        const who = isPatient ? "Patient" : "Maya";
+        return `
+          <div style="margin: 10px 0; padding: 10px 14px; border-left: 4px solid ${border}; background: ${bg}; border-radius: 4px;">
+            <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: ${border}; font-weight: 700; margin-bottom: 4px;">${who}</div>
+            <div style="color: #0f172a; white-space: pre-wrap;">${escape(m.content)}</div>
+          </div>`;
+      })
+      .join("");
+
+    const subjectName = lead.name?.trim() || "Unknown";
+    const subjectTreatment = lead.treatment?.trim() ? ` – ${lead.treatment.trim()}` : "";
+
+    const emailHtml = `
+      <div style="font-family: Arial, sans-serif; max-width: 720px; margin: 0 auto;">
+        <div style="background: #0f172a; color: white; padding: 20px 24px; border-radius: 12px 12px 0 0;">
+          <h1 style="margin: 0; font-size: 22px;">New Maya Chatbot Lead</h1>
+          <p style="margin: 6px 0 0; opacity: 0.8; font-size: 13px;">Conversation #${conversationId} · Istanbul Bariatric Center</p>
+        </div>
+
+        <div style="padding: 20px 24px; border: 1px solid #e2e8f0; border-top: none;">
+          <h2 style="color: #0f172a; font-size: 16px; margin: 0 0 12px; padding-bottom: 8px; border-bottom: 2px solid #3b82f6;">Lead Details</h2>
+          <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+            ${row("Name", lead.name)}
+            ${row("Email", lead.email)}
+            ${row("Phone", lead.phone)}
+            ${row("Treatment", lead.treatment)}
+            ${row("Destination", lead.destination)}
+            ${row("Travel Date", lead.travelDate)}
+          </table>
+
+          <h2 style="color: #0f172a; font-size: 16px; margin: 24px 0 12px; padding-bottom: 8px; border-bottom: 2px solid #3b82f6;">Conversation Transcript</h2>
+          ${transcriptHtml || '<p style="color:#64748b">No messages.</p>'}
+        </div>
+
+        <div style="background: #f1f5f9; padding: 14px 24px; border-radius: 0 0 12px 12px; border: 1px solid #e2e8f0; border-top: none;">
+          <p style="margin: 0; color: #64748b; font-size: 12px;">Auto-sent by Maya chatbot lead capture · istanbulbariatriccenter.com</p>
+        </div>
+      </div>
+    `;
+
+    const result = await resend.emails.send({
+      from: credentials.fromEmail,
+      to: "drmuratustun@gmail.com",
+      subject: `New Maya Lead: ${subjectName}${subjectTreatment}`,
+      html: emailHtml,
+      replyTo: lead.email || undefined,
+    });
+
+    console.log("Resend: Chat lead email sent successfully", result);
+    return true;
+  } catch (error) {
+    console.error("Resend: Failed to send chat lead email:", error);
+    return false;
+  }
+}
+
 export async function sendHealthProfileEmail(formData: Record<string, any>): Promise<boolean> {
   try {
     const credentials = await getCredentials();
