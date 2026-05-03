@@ -3611,6 +3611,418 @@ export const blogPosts: BlogPost[] = [
 
 <h3>Conclusion</h3>
 <p>Maintaining healthy nutrition during quarantine is challenging but essential. By planning ahead, focusing on protein and vegetables, staying hydrated, and being mindful of emotional eating, you can emerge from isolation healthier and stronger.</p>`
+  },
+  {
+    slug: "mounjaro-vs-bariatric-surgery-2026",
+    title: "Mounjaro vs Bariatric Surgery 2026: Which Wins for Long-Term Weight Loss?",
+    date: "May 3, 2026",
+    category: "Comparison",
+    excerpt: "Mounjaro (tirzepatide) vs bariatric surgery in 2026 — head-to-head comparison of weight loss results, cost, side effects, durability and ideal patient profile. Includes evidence tables and a decision framework.",
+    image: "/blog-mounjaro-vs-bariatric.webp",
+    content: `<h2>Mounjaro vs Bariatric Surgery 2026: A Realistic Head-to-Head</h2>
+<p>If you have been searching for a serious weight loss solution in 2026, you have probably found yourself caught between two very loud options: <strong>Mounjaro (tirzepatide) and Zepbound on one side, and bariatric surgery — gastric sleeve, gastric bypass and ESG — on the other</strong>. Both work. Both are backed by clinical evidence. But they are very different tools, and choosing the wrong one can cost you years of effort, thousands of pounds and, more importantly, your long-term health.</p>
+
+<p>This guide gives you a clear, data-driven comparison so you can decide which approach fits your goals, your medical profile and your budget. We will look at expected weight loss, cost, side effects, durability, and the patient profiles where each option genuinely shines.</p>
+
+<img loading="lazy" src="/blog-mounjaro-vs-bariatric.webp" alt="Mounjaro injection pen alongside a modern bariatric surgery operating room" class="w-full rounded-lg my-6" />
+
+<div style="background: linear-gradient(135deg, #EFF6FF, #DBEAFE); border-radius: 12px; padding: 24px; margin: 24px 0;">
+<p style="font-weight: 700; font-size: 1.1em; margin-bottom: 8px;">In This Article</p>
+<ul style="margin: 0; padding-left: 20px;">
+<li>How Mounjaro and bariatric surgery actually work</li>
+<li>Real weight loss data — not marketing claims</li>
+<li>5-year cost comparison (UK private vs Turkey)</li>
+<li>Side effects, risks and what happens if you stop</li>
+<li>A simple decision framework for choosing</li>
+</ul>
+</div>
+
+<h2>How Mounjaro Works</h2>
+<p>Mounjaro is the brand name for <strong>tirzepatide</strong>, a once-weekly injection that mimics two natural gut hormones: GLP-1 and GIP. These hormones tell the brain you are full, slow stomach emptying and improve insulin sensitivity. The result is reduced appetite, smaller portions and steady weight loss — typically <strong>15–22% of body weight over 72 weeks</strong> on the highest dose, according to the SURMOUNT-1 trial.</p>
+
+<p>Mounjaro is taken indefinitely. Stop the injections, and the appetite-suppressing effect disappears within weeks. The STEP-1 extension trial of semaglutide (Wegovy) showed patients regained two-thirds of their lost weight within 12 months of stopping. Tirzepatide trials show a similar pattern.</p>
+
+<h2>How Bariatric Surgery Works</h2>
+<p>Bariatric surgery permanently changes the anatomy or physiology of your digestive system. The three most common procedures are:</p>
+<ul>
+<li><strong>Gastric Sleeve (VSG):</strong> 75–80% of the stomach is removed, leaving a banana-shaped sleeve. Reduces capacity and dramatically lowers ghrelin (the hunger hormone).</li>
+<li><strong>Gastric Bypass:</strong> A small stomach pouch is connected directly to the lower small intestine. Restricts intake AND reduces calorie absorption.</li>
+<li><strong>Endoscopic Sleeve Gastroplasty (ESG):</strong> A non-surgical, scarless procedure that reduces stomach volume by 70–80% using internal sutures placed through the mouth.</li>
+</ul>
+<p>Average <strong>total body weight loss is 25–35% at 12–18 months</strong> for sleeve and bypass, and 15–20% for ESG. Crucially, these results are durable: 10-year follow-up data shows most patients keep off 50–70% of their excess weight long-term.</p>
+
+<p>Want to compare procedures in detail? Read our full guide: <a href="/treatments" style="color: #2563EB; text-decoration: underline; font-weight: 600;">All Bariatric Treatments at Istanbul Bariatric Center</a>.</p>
+
+<h2>Weight Loss: The Numbers Side by Side</h2>
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left;">Option</th>
+<th style="padding: 12px 16px; text-align: center;">Avg TBWL at 12 months</th>
+<th style="padding: 12px 16px; text-align: center;">Avg TBWL at 5 years</th>
+<th style="padding: 12px 16px; text-align: center;">Reversible?</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Mounjaro 15 mg</td><td style="padding: 12px 16px; text-align: center;">20.9%</td><td style="padding: 12px 16px; text-align: center; color: #B91C1C;">~7% (if stopped)</td><td style="padding: 12px 16px; text-align: center;">Yes</td></tr>
+<tr><td style="padding: 12px 16px;">Wegovy 2.4 mg</td><td style="padding: 12px 16px; text-align: center;">14.9%</td><td style="padding: 12px 16px; text-align: center; color: #B91C1C;">~5% (if stopped)</td><td style="padding: 12px 16px; text-align: center;">Yes</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Gastric Sleeve</td><td style="padding: 12px 16px; text-align: center;">28–32%</td><td style="padding: 12px 16px; text-align: center; color: #15803D;">22–26%</td><td style="padding: 12px 16px; text-align: center;">No (revisable)</td></tr>
+<tr><td style="padding: 12px 16px;">Gastric Bypass</td><td style="padding: 12px 16px; text-align: center;">30–35%</td><td style="padding: 12px 16px; text-align: center; color: #15803D;">25–30%</td><td style="padding: 12px 16px; text-align: center;">Reversible</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">ESG (endoscopic)</td><td style="padding: 12px 16px; text-align: center;">15–20%</td><td style="padding: 12px 16px; text-align: center; color: #15803D;">13–17%</td><td style="padding: 12px 16px; text-align: center;">Yes (sutures dissolve)</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>The headline insight: at 12 months, Mounjaro is competitive with surgery — particularly with ESG. But at <strong>5 years, the gap widens dramatically</strong> because surgery results stabilise while injection results depend entirely on continued weekly dosing.</p>
+
+<h2>5-Year Cost: Where Mounjaro Loses Its Advantage</h2>
+<p>Many patients assume Mounjaro is cheaper because the upfront cost is lower. The maths over 5 years tells a different story.</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left;">Option</th>
+<th style="padding: 12px 16px; text-align: center;">Year 1</th>
+<th style="padding: 12px 16px; text-align: center;">Years 2–5</th>
+<th style="padding: 12px 16px; text-align: center;">5-Year Total</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Mounjaro UK private</td><td style="padding: 12px 16px; text-align: center;">£2,400</td><td style="padding: 12px 16px; text-align: center;">£2,400/yr</td><td style="padding: 12px 16px; text-align: center; color: #B91C1C; font-weight: 700;">£12,000+</td></tr>
+<tr><td style="padding: 12px 16px;">Gastric Sleeve UK private</td><td style="padding: 12px 16px; text-align: center;">£10,000–14,000</td><td style="padding: 12px 16px; text-align: center;">£0</td><td style="padding: 12px 16px; text-align: center;">£10,000–14,000</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Gastric Sleeve Istanbul</td><td style="padding: 12px 16px; text-align: center;">From £2,950</td><td style="padding: 12px 16px; text-align: center;">£0</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">From £2,950</td></tr>
+<tr><td style="padding: 12px 16px;">ESG Istanbul</td><td style="padding: 12px 16px; text-align: center;">From £4,950</td><td style="padding: 12px 16px; text-align: center;">£0</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">From £4,950</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>By year 3, Mounjaro at private UK pricing has already cost more than gastric sleeve in Istanbul. By year 5, you have spent enough on injections to fund <strong>four sleeve operations in Turkey</strong>. And after year 5, the bill keeps growing — for life.</p>
+
+<h2>Side Effects and Risks</h2>
+<h3>Mounjaro</h3>
+<p>The most common side effects are nausea, vomiting, diarrhoea, constipation and reflux — usually worst when increasing the dose. Rarer but serious risks include pancreatitis, gallbladder disease and a black-box warning for thyroid C-cell tumours (based on rodent data). Long-term safety beyond 5 years is still being established.</p>
+
+<h3>Bariatric Surgery</h3>
+<p>Modern laparoscopic bariatric surgery has a complication rate of around 4–5% and a mortality rate below 0.2% — comparable to a routine gallbladder removal. Specific risks include leaks (under 1% in experienced centres), reflux (more common after sleeve, less after bypass), and lifelong vitamin supplementation requirements. ESG is even safer with no incisions, though long-term data is shorter.</p>
+
+<p>Read more: <a href="/blog/bariatric-surgery-as-safe-as-other-common-operations" style="color: #2563EB; text-decoration: underline;">Bariatric Surgery: As Safe as Other Common Operations</a>.</p>
+
+<h2>What Happens If You Stop?</h2>
+<p>This is the question Mounjaro marketing rarely answers honestly. Tirzepatide works <em>while you take it</em>. Once you stop — whether by choice, supply shortage, or because you can no longer afford £200+ per month — appetite returns within 2–4 weeks, and most patients regain the majority of lost weight within 12 months.</p>
+
+<p>Bariatric surgery is the opposite: the anatomical change is permanent (sleeve, bypass) or long-lasting (ESG sutures last 18–36 months but trigger durable behaviour change). Long-term success still requires healthy eating habits, but you are not chained to a pharmacy supply chain.</p>
+
+<h2>Who Is Mounjaro Best For?</h2>
+<ul>
+<li>BMI 27–32 with weight-related health conditions, where surgery may feel too aggressive</li>
+<li>Patients who are not surgical candidates (severe heart or lung disease, certain coagulation issues)</li>
+<li>Patients using it as a <strong>bridge</strong> to bariatric surgery — losing 10–15% before the operation reduces surgical risk</li>
+<li>Patients with strong financial means and zero concern about lifetime medication cost</li>
+</ul>
+
+<h2>Who Is Bariatric Surgery Best For?</h2>
+<ul>
+<li>BMI 35+ (or 30+ with comorbidities like type 2 diabetes, sleep apnoea, hypertension)</li>
+<li>Patients who want a <strong>permanent, one-time solution</strong> with the strongest long-term evidence</li>
+<li>Anyone who has tried injections, lost weight, then regained when they stopped</li>
+<li>Patients prioritising the lowest 5-year and lifetime cost</li>
+<li>Patients with type 2 diabetes — bariatric surgery puts diabetes into remission in 60–80% of cases, far higher than any medication</li>
+</ul>
+
+<h2>Can You Combine Both?</h2>
+<p>Yes — and this is where the conversation is heading in 2026. A growing protocol uses Mounjaro for 6–12 months <em>before</em> bariatric surgery to reduce liver size and surgical risk, then surgery for permanent anatomy change, with optional short-term GLP-1 use later if weight regain begins. This gets you the safety of a smaller liver, the durability of surgery and the appetite control of medication when you really need it.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Is Mounjaro safer than bariatric surgery?</h3>
+<p>Short-term, both have very low serious-event rates. Long-term, surgery has 30+ years of safety data; tirzepatide has under 5. "Safer" depends on your definition and timeframe.</p>
+
+<h3>Will my weight loss from Mounjaro be permanent?</h3>
+<p>Only if you keep taking it. Discontinuation studies consistently show two-thirds regain within a year of stopping.</p>
+
+<h3>Can I have surgery if Mounjaro stopped working for me?</h3>
+<p>Absolutely — and this is one of the most common patient profiles we see in 2026. Plateau or regain on a GLP-1 is a strong indicator that anatomical surgery will give you the durability you have been missing.</p>
+
+<h3>Is gastric sleeve in Turkey as safe as in the UK?</h3>
+<p>At a JCI-accredited hospital with a high-volume surgeon, yes. Outcomes at our centre match or exceed published UK data — at a fraction of the cost.</p>
+
+<div style="background: linear-gradient(135deg, #1E40AF, #3B82F6); color: white; border-radius: 12px; padding: 28px; margin: 32px 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Not Sure Which Path Is Right for You?</h3>
+<p style="margin: 12px 0 20px;">Our team has helped over 8,000 international patients choose between medical and surgical weight loss. Get a free, no-obligation assessment from Dr Murat Ustun's team.</p>
+<a href="/contact" style="display: inline-block; background: white; color: #1E40AF; padding: 14px 28px; border-radius: 8px; font-weight: 700; text-decoration: none;">Book Your Free Consultation →</a>
+</div>
+
+<p><strong>Related reading:</strong></p>
+<ul>
+<li><a href="/blog/could-weight-loss-injections-replace-obesity-surgery" style="color: #2563EB;">Could Weight Loss Injections Replace Obesity Surgery?</a></li>
+<li><a href="/blog/ozempic-medical-treatment-of-obesity" style="color: #2563EB;">Ozempic and the Medical Treatment of Obesity</a></li>
+<li><a href="/blog/weight-loss-treatments-a-holistic-comparison" style="color: #2563EB;">Weight Loss Treatments: A Holistic Comparison</a></li>
+</ul>`
+  },
+  {
+    slug: "weight-loss-surgery-cost-turkey-2026",
+    title: "Weight Loss Surgery Cost in Turkey 2026: Honest Pricing Guide",
+    date: "May 3, 2026",
+    category: "Medical News",
+    excerpt: "Up-to-date 2026 prices for gastric sleeve, bypass, balloon and ESG in Turkey vs UK, USA, Germany and Mexico. What is included, what is not, and the hidden costs to watch for.",
+    image: "/blog-cost-turkey-2026.webp",
+    content: `<h2>Weight Loss Surgery Cost in Turkey 2026: The Honest Pricing Guide</h2>
+<p>Turkey has become the world's leading destination for affordable, high-quality bariatric surgery. In 2026, that reputation is stronger than ever — but so is the noise. Some clinics advertise sleeve from £1,800 with hidden surcharges; others charge £8,000 for the same procedure. This guide breaks down <strong>real, transparent 2026 pricing</strong> at Istanbul Bariatric Center and how it compares globally, so you can budget confidently.</p>
+
+<img loading="lazy" src="/blog-cost-turkey-2026.webp" alt="Modern Istanbul medical clinic reception with price comparison tablet" class="w-full rounded-lg my-6" />
+
+<div style="background: linear-gradient(135deg, #EFF6FF, #DBEAFE); border-radius: 12px; padding: 24px; margin: 24px 0;">
+<p style="font-weight: 700; font-size: 1.1em; margin-bottom: 8px;">In This Article</p>
+<ul style="margin: 0; padding-left: 20px;">
+<li>2026 prices for every major bariatric procedure</li>
+<li>What our all-inclusive package actually covers</li>
+<li>Country-by-country comparison: Turkey vs UK, USA, Germany, Mexico</li>
+<li>Five hidden costs other clinics do not advertise</li>
+<li>How to evaluate any quote you receive</li>
+</ul>
+</div>
+
+<h2>2026 Prices at Istanbul Bariatric Center</h2>
+<p>Below are our current all-inclusive package prices in GBP, with EUR and USD conversions for international visitors. Pricing is reviewed quarterly and reflects the cost of operating at JCI-accredited hospitals with experienced bariatric specialists.</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left;">Procedure</th>
+<th style="padding: 12px 16px; text-align: center;">From (GBP)</th>
+<th style="padding: 12px 16px; text-align: center;">From (EUR)</th>
+<th style="padding: 12px 16px; text-align: center;">From (USD)</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Gastric Sleeve</td><td style="padding: 12px 16px; text-align: center;">£2,950</td><td style="padding: 12px 16px; text-align: center;">€3,395</td><td style="padding: 12px 16px; text-align: center;">$3,985</td></tr>
+<tr><td style="padding: 12px 16px;">Mini Gastric Bypass</td><td style="padding: 12px 16px; text-align: center;">£3,350</td><td style="padding: 12px 16px; text-align: center;">€3,855</td><td style="padding: 12px 16px; text-align: center;">$4,525</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Gastric Balloon (Orbera)</td><td style="padding: 12px 16px; text-align: center;">£1,650</td><td style="padding: 12px 16px; text-align: center;">€1,900</td><td style="padding: 12px 16px; text-align: center;">$2,230</td></tr>
+<tr><td style="padding: 12px 16px;">Allurion Swallowable Balloon</td><td style="padding: 12px 16px; text-align: center;">£2,250</td><td style="padding: 12px 16px; text-align: center;">€2,590</td><td style="padding: 12px 16px; text-align: center;">$3,040</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">ESG (endoscopic sleeve)</td><td style="padding: 12px 16px; text-align: center;">£4,950</td><td style="padding: 12px 16px; text-align: center;">€5,695</td><td style="padding: 12px 16px; text-align: center;">$6,685</td></tr>
+<tr><td style="padding: 12px 16px;">Duodenal Switch</td><td style="padding: 12px 16px; text-align: center;">£4,400</td><td style="padding: 12px 16px; text-align: center;">€5,060</td><td style="padding: 12px 16px; text-align: center;">$5,940</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>See the full package breakdown: <a href="/treatments" style="color: #2563EB; text-decoration: underline; font-weight: 600;">All Treatments and Packages</a>.</p>
+
+<h2>What Our All-Inclusive Package Covers</h2>
+<p>"All-inclusive" is one of the most abused terms in medical tourism. At Istanbul Bariatric Center, our package covers everything you need from the moment you land:</p>
+<ul>
+<li><strong>JCI-accredited hospital fees</strong> — operating theatre, anaesthesia, all consumables</li>
+<li><strong>Surgeon's fee</strong> — Dr Murat Ustun or a senior member of his team</li>
+<li><strong>All pre-operative tests</strong> — blood work, ECG, chest X-ray, abdominal ultrasound, gastroscopy where indicated</li>
+<li><strong>2 nights in hospital, 4 nights in a 4★ hotel</strong> (most packages — varies by procedure)</li>
+<li><strong>VIP airport transfers</strong> — pickup and drop-off in private vehicle</li>
+<li><strong>Personal English-speaking patient coordinator</strong> from arrival to departure</li>
+<li><strong>Multilingual interpreter</strong> if you prefer Arabic, French, German, Spanish, Italian, Russian or Romanian</li>
+<li><strong>Post-op medications</strong> for the first month</li>
+<li><strong>12 months of online aftercare</strong> with our dietitian and nursing team</li>
+</ul>
+
+<h2>Turkey vs the World: 2026 Price Comparison</h2>
+<p>The same gastric sleeve operation, performed by qualified surgeons in modern hospitals, costs dramatically different amounts depending on geography. Here is how Turkey stacks up in 2026:</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left;">Country</th>
+<th style="padding: 12px 16px; text-align: center;">Gastric Sleeve</th>
+<th style="padding: 12px 16px; text-align: center;">Gastric Bypass</th>
+<th style="padding: 12px 16px; text-align: center;">ESG</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;"><strong>Turkey (Istanbul)</strong></td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">£2,950+</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">£3,350+</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">£4,950+</td></tr>
+<tr><td style="padding: 12px 16px;">Mexico</td><td style="padding: 12px 16px; text-align: center;">£4,500+</td><td style="padding: 12px 16px; text-align: center;">£5,500+</td><td style="padding: 12px 16px; text-align: center;">£6,500+</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Germany (private)</td><td style="padding: 12px 16px; text-align: center;">£12,000+</td><td style="padding: 12px 16px; text-align: center;">£14,000+</td><td style="padding: 12px 16px; text-align: center;">£11,000+</td></tr>
+<tr><td style="padding: 12px 16px;">UK (private)</td><td style="padding: 12px 16px; text-align: center;">£10,000–14,000</td><td style="padding: 12px 16px; text-align: center;">£12,000–16,000</td><td style="padding: 12px 16px; text-align: center;">£10,000–13,000</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">USA</td><td style="padding: 12px 16px; text-align: center;">$18,000–25,000</td><td style="padding: 12px 16px; text-align: center;">$22,000–30,000</td><td style="padding: 12px 16px; text-align: center;">$13,000–20,000</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Even after adding flights (£200–500 from most of Europe, £600–1,200 from North America), Turkey is still the most cost-effective option in the world for high-quality bariatric care.</p>
+
+<h2>Why Is Turkey So Much Cheaper?</h2>
+<p>The price gap is not a quality gap — it reflects three structural factors:</p>
+<ol>
+<li><strong>Currency advantage:</strong> Turkish lira pricing translates favourably into GBP, EUR and USD without compromising hospital standards.</li>
+<li><strong>Lower operating costs:</strong> Hospital staff, real estate and overheads in Istanbul are a fraction of London, Munich or Los Angeles, while medical equipment and protocols are identical.</li>
+<li><strong>Volume specialisation:</strong> Top Turkish bariatric surgeons perform 400–800 procedures a year — three to five times more than typical UK or US private surgeons. This volume drives down per-case cost and improves outcomes.</li>
+</ol>
+
+<h2>Five Hidden Costs to Watch For</h2>
+<p>Cheap headline prices often hide extras. When comparing quotes, ask specifically about:</p>
+<ol>
+<li><strong>Pre-operative tests:</strong> Some clinics quote without bloods, ECG, ultrasound or gastroscopy and add £400–800 on arrival.</li>
+<li><strong>Hospital stay length:</strong> A 1-night stay sounds fine until you have a complication. We include 2 nights as standard for sleeve and bypass.</li>
+<li><strong>Hotel grade:</strong> Some "all-inclusive" packages drop you in a 2★ hostel. Confirm 4★ minimum.</li>
+<li><strong>Surgeon experience:</strong> A junior surgeon working under a famous name's banner is not the same as the named surgeon operating. Always ask who will hold the scalpel.</li>
+<li><strong>Aftercare:</strong> Cheap packages cut you loose at the airport. We include 12 months of online dietitian and nursing follow-up at no extra cost.</li>
+</ol>
+
+<h2>Financing and Payment Options</h2>
+<p>Most international patients pay by bank transfer or card on arrival. We accept GBP, EUR, USD and TRY. For UK patients, several specialist medical finance providers (Chrysalis Finance, Medbelle Finance) offer 0–24 month repayment plans on bariatric surgery in Turkey. Ask our coordinators for current providers.</p>
+
+<h2>How to Evaluate Any Quote</h2>
+<p>Before you book anywhere, run every quote through this five-question checklist:</p>
+<ul>
+<li>Is the named surgeon a member of <strong>IFSO</strong> (the international bariatric body)?</li>
+<li>Is the hospital <strong>JCI-accredited</strong>?</li>
+<li>Are <strong>pre-op tests, hospital, hotel, transfers and aftercare</strong> all itemised in writing?</li>
+<li>What is the <strong>total written price in your currency</strong> — not "from £X"?</li>
+<li>What is the <strong>complication management policy</strong> if something goes wrong after you fly home?</li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Is the cheapest sleeve in Istanbul safe?</h3>
+<p>Sometimes — but the lowest-priced offers (£1,500–2,200) usually cut hospital nights, surgeon experience or aftercare. Bariatric surgery is one place where bargain shopping rarely pays off. Look for value, not the absolute floor.</p>
+
+<h3>Are these prices likely to rise in 2026?</h3>
+<p>Yes — modest inflation of 5–8% is expected by Q4 2026. Booking earlier locks in current pricing.</p>
+
+<h3>Do you accept insurance?</h3>
+<p>Most international travel and elective insurance policies do not cover bariatric surgery abroad, but we provide all documentation needed for HSA/FSA reimbursement (US patients) and self-funded reclaim where applicable.</p>
+
+<h3>Can I split payment?</h3>
+<p>Yes — a small deposit secures your dates, with the balance due on arrival.</p>
+
+<div style="background: linear-gradient(135deg, #1E40AF, #3B82F6); color: white; border-radius: 12px; padding: 28px; margin: 32px 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Get Your Personalised 2026 Quote</h3>
+<p style="margin: 12px 0 20px;">Tell us your procedure of interest and travel dates — we will send a fully itemised, no-pressure quote within 24 hours.</p>
+<a href="/contact" style="display: inline-block; background: white; color: #1E40AF; padding: 14px 28px; border-radius: 8px; font-weight: 700; text-decoration: none;">Request a Free Quote →</a>
+</div>
+
+<p><strong>Related reading:</strong></p>
+<ul>
+<li><a href="/blog/why-istanbul-is-an-important-location-for-obesity-surgery" style="color: #2563EB;">Why Istanbul Is an Important Location for Obesity Surgery</a></li>
+<li><a href="/blog/bariatric-surgery-pros-and-cons" style="color: #2563EB;">Bariatric Surgery: Pros and Cons</a></li>
+<li><a href="/health-profile" style="color: #2563EB;">Complete Your Free Eligibility Assessment</a></li>
+</ul>`
+  },
+  {
+    slug: "gastric-sleeve-recovery-week-by-week",
+    title: "Gastric Sleeve Recovery Week by Week: A Realistic 12-Week Timeline",
+    date: "May 3, 2026",
+    category: "Health Tips",
+    excerpt: "What to actually expect each week after gastric sleeve surgery — physical milestones, diet stages, energy levels, common worries and red flags. A realistic, no-fluff 12-week recovery roadmap.",
+    image: "/blog-sleeve-recovery-weeks.webp",
+    content: `<h2>Gastric Sleeve Recovery Week by Week: What to Really Expect</h2>
+<p>Most gastric sleeve recovery guides online are either terrifying or unrealistically rosy. The truth sits in the middle. The first 7–10 days are challenging but manageable. By week 6, you feel almost normal. By week 12, you are exercising, eating a varied diet and watching the scale move every week.</p>
+
+<p>This is the timeline our medical team gives every patient before they fly to Istanbul — built from over 8,000 procedures and refined for 2026.</p>
+
+<img loading="lazy" src="/blog-sleeve-recovery-weeks.webp" alt="Weekly recovery items after gastric sleeve including broth, protein shake, soft food and vitamins" class="w-full rounded-lg my-6" />
+
+<div style="background: linear-gradient(135deg, #EFF6FF, #DBEAFE); border-radius: 12px; padding: 24px; margin: 24px 0;">
+<p style="font-weight: 700; font-size: 1.1em; margin-bottom: 8px;">In This Article</p>
+<ul style="margin: 0; padding-left: 20px;">
+<li>Day-by-day breakdown for the critical first week</li>
+<li>Diet progression: clear liquids → full liquids → puree → soft → solid</li>
+<li>Energy, sleep and mood week by week</li>
+<li>Red flags that mean call your surgeon immediately</li>
+<li>What is realistic to do at weeks 4, 8 and 12</li>
+</ul>
+</div>
+
+<h2>Day 0: Surgery Day</h2>
+<p>You arrive at the hospital fasted. Surgery itself takes 60–90 minutes under general anaesthesia. You wake up in recovery, usually with mild abdominal pressure rather than sharp pain — laparoscopic surgery uses 4–5 small (5–12 mm) incisions, so postoperative pain is far less than older open surgery. Pain medication is given automatically through your IV.</p>
+<p>Within 4–6 hours, your nurse will get you up and walking — even just to the bathroom. <strong>Early walking is the single most important thing you do</strong>: it dramatically reduces blood clot risk and helps the anaesthesia gas leave your body.</p>
+
+<h2>Days 1–2: In Hospital</h2>
+<p>You stay in hospital for two nights. The next morning a routine swallow test confirms there are no leaks before you start clear liquids: water, sugar-free jelly, broth, herbal tea. Sips only — 30 ml at a time, slowly.</p>
+<p>Expect: shoulder-tip pain (referred from CO₂ gas used during surgery — totally normal, gone in 48 hours), tiredness, some nausea. You will walk every 2 hours. By the afternoon of day 2, most patients are discharged to the hotel.</p>
+
+<h2>Days 3–4: Hotel Recovery</h2>
+<p>You are still on clear liquids but your appetite is essentially zero — the ghrelin (hunger hormone) drop after sleeve is dramatic. Drink slowly throughout the day to stay hydrated. Walk in the hotel corridor every 1–2 hours. Sleep with your upper body slightly elevated.</p>
+
+<h2>Days 5–7: Heading Home</h2>
+<p>Most international patients fly home on day 5 or 6. Flying is safe at this point with TED stockings and a long aisle walk every 90 minutes. You are still on clear liquids transitioning into <strong>full liquids</strong>: protein shakes, milk, smooth soups, sugar-free yoghurt drinks.</p>
+<p>Aim for <strong>60–80 g protein and 1.5–2 L fluid daily</strong>. This sounds impossible at first — sip every few minutes. You may have mild constipation; this resolves with hydration and gentle walking.</p>
+
+<h2>Week 2: Pureed Foods</h2>
+<p>Start of pureed stage: blended cottage cheese, scrambled eggs blended with broth, refined hummus, blended chicken with stock, blended fish, ricotta. Texture should be like baby food. Tiny portions — 4 tablespoons per "meal", 4–6 mini meals per day.</p>
+<p>Energy is still low — most patients nap mid-afternoon. Steri-strips on incisions fall off naturally. You may notice "the whoosh" — first significant scale drop, often 5–10 kg from baseline.</p>
+
+<h2>Week 3: Soft Foods Begin</h2>
+<p>You can introduce soft, easy-to-chew foods: flaked white fish, soft scrambled eggs, well-cooked chicken thigh shredded, cooked vegetables (carrots, courgette), cottage cheese, soft fruits like banana and ripe melon. Chew everything to liquid before swallowing — the new sleeve cannot handle chunks.</p>
+<p>Walking: 30 minutes daily. No abdominal exercise yet, no lifting over 5 kg. Energy returning noticeably by end of week 3.</p>
+
+<h2>Week 4: Almost Normal Food</h2>
+<p>Most patients can now eat the family meal — just smaller, slower and chewed thoroughly. <strong>Protein first, vegetables second, carbs last</strong>. A typical "meal" is 100–150 g of food. You will feel full quickly and the sensation is sharp — stop the moment you do, or risk vomiting.</p>
+<p>By the end of week 4 most patients have lost 10–15 kg from pre-op weight.</p>
+
+<h2>Weeks 5–6: Energy Rebound</h2>
+<p>Energy is now consistently good. You can return to most cardio: brisk walking, stationary bike, swimming once incisions are fully closed (usually by week 5). Light resistance training can begin in week 6, with no heavy core work yet.</p>
+<p>Most patients return to office work by week 2 and physical work by week 4–6.</p>
+
+<h2>Week 8: Stabilising the Routine</h2>
+<p>Eating habits feel natural. You can identify which foods agree with the sleeve (most lean proteins, soft veg, low-carb options) and which do not (dry bread, tough red meat, fizzy drinks, large quantities of sugar). Hair shedding may begin around week 8–12 — this is normal, temporary, and controlled by hitting your protein target and adding biotin/zinc.</p>
+
+<h2>Week 12: The 3-Month Mark</h2>
+<p>This is when patients tell us "I feel like a different person." Average weight loss at 12 weeks is <strong>20–30% of total body weight loss target</strong>. Energy is high, exercise is enjoyable, and you have built a sustainable eating pattern. Bloodwork at month 3 confirms vitamin levels.</p>
+
+<h2>Long-Term Diet Stages Summary</h2>
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left;">Stage</th>
+<th style="padding: 12px 16px; text-align: center;">Duration</th>
+<th style="padding: 12px 16px; text-align: left;">What You Eat</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Clear liquids</td><td style="padding: 12px 16px; text-align: center;">Days 0–7</td><td style="padding: 12px 16px;">Water, broth, herbal tea, sugar-free jelly</td></tr>
+<tr><td style="padding: 12px 16px;">Full liquids</td><td style="padding: 12px 16px; text-align: center;">Days 7–14</td><td style="padding: 12px 16px;">Protein shakes, smooth soup, milk, yoghurt drink</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Pureed</td><td style="padding: 12px 16px; text-align: center;">Week 2</td><td style="padding: 12px 16px;">Blended eggs, fish, chicken, cottage cheese</td></tr>
+<tr><td style="padding: 12px 16px;">Soft</td><td style="padding: 12px 16px; text-align: center;">Weeks 3–4</td><td style="padding: 12px 16px;">Flaked fish, scrambled eggs, soft fruit, cooked veg</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Normal (modified)</td><td style="padding: 12px 16px; text-align: center;">Week 5+</td><td style="padding: 12px 16px;">Almost any well-chewed protein-led meal</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Red Flags: When to Call Your Surgeon</h2>
+<ul>
+<li>Persistent fever above 38.3°C / 101°F</li>
+<li>Heart rate consistently above 120 at rest</li>
+<li>Sharp left shoulder pain combined with abdominal pain (possible leak)</li>
+<li>Inability to keep down any liquid for 24 hours</li>
+<li>Increasing redness, swelling or discharge from any incision</li>
+<li>Calf swelling or sudden shortness of breath (possible blood clot)</li>
+</ul>
+<p>Our team is on WhatsApp 24/7 for international patients — do not hesitate to send a message or photo.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>When can I lift my child?</h3>
+<p>Light hugging only for 4 weeks. Lifting up to 10 kg from week 4, no restrictions from week 6.</p>
+
+<h3>When can I drive?</h3>
+<p>Once you are off opioid pain medication and can do an emergency stop without abdominal pain — usually day 7–10.</p>
+
+<h3>When does the hunger come back?</h3>
+<p>Around month 3–4 a mild physical hunger returns, but it is dramatically smaller than before surgery and easily satisfied with small protein-led meals.</p>
+
+<h3>Will I lose hair?</h3>
+<p>About 30–40% of patients have noticeable shedding at month 3–6. It always grows back. Hit your protein target, take the multivitamin we recommend, and consider biotin and zinc.</p>
+
+<div style="background: linear-gradient(135deg, #1E40AF, #3B82F6); color: white; border-radius: 12px; padding: 28px; margin: 32px 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Plan Your Sleeve Surgery with Confidence</h3>
+<p style="margin: 12px 0 20px;">Get the same week-by-week recovery plan, plus 12 months of online aftercare with our dietitian, included in every package.</p>
+<a href="/treatments" style="display: inline-block; background: white; color: #1E40AF; padding: 14px 28px; border-radius: 8px; font-weight: 700; text-decoration: none;">See Sleeve Packages →</a>
+</div>
+
+<p><strong>Related reading:</strong></p>
+<ul>
+<li><a href="/blog/bariatric-surgery-nutrition" style="color: #2563EB;">Bariatric Surgery Nutrition: The Complete Guide</a></li>
+<li><a href="/blog/bariatric-preoperative-diet" style="color: #2563EB;">Bariatric Preoperative Diet</a></li>
+<li><a href="/blog/grazing-after-bariatric-surgery" style="color: #2563EB;">Grazing After Bariatric Surgery</a></li>
+</ul>`
   }
 ];
 

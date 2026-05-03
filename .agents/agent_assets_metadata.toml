@@ -1,0 +1,32 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "pNl2ln6-DYcVt9aCJSf8e"
+uri = "file://attached_assets/generated_images/blog-mounjaro-vs-bariatric.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "tzPATSsKLBRJdO0j1bbcJ"
+uri = "file://attached_assets/generated_images/blog-cost-turkey-2026.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "tISHRMzPGjz4qCu26Bz21"
+uri = "file://attached_assets/generated_images/blog-sleeve-recovery-weeks.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "x0awt9ZmQ-jXWcGDXLzl_"
+uri = "file://attached_assets/generated_images/blog-sleeve-vs-mini-bypass.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "lczBmAR_5Jy4SZZ4Um_mv"
+uri = "file://attached_assets/generated_images/blog-bariatric-permanent.png"
+type = "image"
+title = "generated_image"
