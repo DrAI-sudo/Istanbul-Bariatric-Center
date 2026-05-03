@@ -4023,6 +4023,291 @@ export const blogPosts: BlogPost[] = [
 <li><a href="/blog/bariatric-preoperative-diet" style="color: #2563EB;">Bariatric Preoperative Diet</a></li>
 <li><a href="/blog/grazing-after-bariatric-surgery" style="color: #2563EB;">Grazing After Bariatric Surgery</a></li>
 </ul>`
+  },
+  {
+    slug: "gastric-sleeve-vs-mini-gastric-bypass-2026",
+    title: "Gastric Sleeve vs Mini Gastric Bypass 2026: Which Is Right For You?",
+    date: "May 3, 2026",
+    category: "Comparison",
+    excerpt: "Detailed 2026 comparison of gastric sleeve and mini gastric bypass — weight loss, diabetes remission, reflux risk, cost, recovery and reversibility. A clear decision matrix to choose the right operation.",
+    image: "/blog-sleeve-vs-mini-bypass.webp",
+    content: `<h2>Gastric Sleeve vs Mini Gastric Bypass 2026: A Surgeon's Perspective</h2>
+<p>The two most common bariatric operations performed in 2026 are <strong>laparoscopic sleeve gastrectomy (gastric sleeve)</strong> and <strong>one-anastomosis (mini) gastric bypass</strong>. Together they account for over 80% of all weight-loss surgeries worldwide. They both work — but they work in different ways, and the right choice depends on your BMI, your reflux history, whether you have type 2 diabetes, and how much complexity you are willing to accept in exchange for better long-term results.</p>
+
+<p>This guide breaks down the real differences in 2026 — using current evidence and the day-to-day experience of operating on thousands of international patients in Istanbul.</p>
+
+<img loading="lazy" src="/blog-sleeve-vs-mini-bypass.webp" alt="Anatomical comparison of gastric sleeve and mini gastric bypass" class="w-full rounded-lg my-6" />
+
+<div style="background: linear-gradient(135deg, #EFF6FF, #DBEAFE); border-radius: 12px; padding: 24px; margin: 24px 0;">
+<p style="font-weight: 700; font-size: 1.1em; margin-bottom: 8px;">In This Article</p>
+<ul style="margin: 0; padding-left: 20px;">
+<li>How sleeve and mini bypass actually work in 2026</li>
+<li>Side-by-side weight loss, diabetes and reflux data</li>
+<li>Cost, recovery and reversibility compared</li>
+<li>Who should pick sleeve, who should pick mini bypass</li>
+<li>A decision matrix you can use today</li>
+</ul>
+</div>
+
+<h2>How the Gastric Sleeve Works</h2>
+<p>In a sleeve gastrectomy, the surgeon removes about 75–80% of the stomach along the greater curvature, leaving behind a long, narrow tube — the "sleeve". The pylorus and intestines stay completely untouched. The operation is purely <strong>restrictive</strong> (smaller stomach) and <strong>hormonal</strong> (the removed fundus produces 80–90% of the body's ghrelin, the hunger hormone).</p>
+
+<p>It is the most popular operation in the world for a reason: it is technically simpler, has no rerouting of intestines, takes 45–60 minutes, and produces excellent weight loss with minimal long-term nutritional issues.</p>
+
+<h2>How the Mini Gastric Bypass Works</h2>
+<p>The mini gastric bypass (also called one-anastomosis gastric bypass, or OAGB) creates a long, narrow stomach pouch — similar in shape to a sleeve — and then connects that pouch directly to a loop of small intestine roughly 150–200 cm beyond the natural connection. Food bypasses the duodenum and the upper part of the jejunum.</p>
+
+<p>This produces three effects: <strong>restriction</strong> (smaller pouch), <strong>malabsorption</strong> (less surface area for calorie absorption), and <strong>strong metabolic/hormonal change</strong> (the rerouting itself triggers gut hormones that improve insulin sensitivity dramatically). The operation takes 75–90 minutes.</p>
+
+<p>To compare with the classic Roux-en-Y bypass, see <a href="/treatments" style="color: #2563EB; text-decoration: underline; font-weight: 600;">our complete treatments page</a>.</p>
+
+<h2>Head-to-Head: The 2026 Numbers</h2>
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left;">Metric</th>
+<th style="padding: 12px 16px; text-align: center;">Gastric Sleeve</th>
+<th style="padding: 12px 16px; text-align: center;">Mini Gastric Bypass</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">% Total Body Weight Loss at 12 months</td><td style="padding: 12px 16px; text-align: center;">28–32%</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">32–38%</td></tr>
+<tr><td style="padding: 12px 16px;">% TBWL at 5 years</td><td style="padding: 12px 16px; text-align: center;">22–26%</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">26–30%</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Type 2 diabetes remission</td><td style="padding: 12px 16px; text-align: center;">55–65%</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">75–85%</td></tr>
+<tr><td style="padding: 12px 16px;">Reflux improvement</td><td style="padding: 12px 16px; text-align: center; color: #B91C1C;">Can worsen</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">Usually improves</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Operation time</td><td style="padding: 12px 16px; text-align: center;">45–60 min</td><td style="padding: 12px 16px; text-align: center;">75–90 min</td></tr>
+<tr><td style="padding: 12px 16px;">Hospital stay</td><td style="padding: 12px 16px; text-align: center;">2 nights</td><td style="padding: 12px 16px; text-align: center;">2 nights</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Vitamin supplementation</td><td style="padding: 12px 16px; text-align: center;">Multivitamin lifelong</td><td style="padding: 12px 16px; text-align: center;">Multi + B12 + iron + calcium</td></tr>
+<tr><td style="padding: 12px 16px;">Reversibility</td><td style="padding: 12px 16px; text-align: center; color: #B91C1C;">Permanent</td><td style="padding: 12px 16px; text-align: center; color: #15803D;">Reversible</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Cost from (Istanbul)</td><td style="padding: 12px 16px; text-align: center;">£2,950</td><td style="padding: 12px 16px; text-align: center;">£3,350</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>If You Have Type 2 Diabetes</h2>
+<p>The single biggest difference is metabolic impact. Mini gastric bypass causes a significant rerouting of food past the duodenum, which triggers powerful gut-hormone changes (GLP-1, PYY, GIP) and improves insulin sensitivity within days — long before any meaningful weight loss. Diabetes remission rates of 75–85% at one year are the published norm, with many patients off all glucose-lowering medication within 2–4 weeks.</p>
+
+<p>Sleeve gastrectomy also improves diabetes (55–65% remission), but the effect is slower and more weight-loss-dependent. <strong>If you have type 2 diabetes — especially if you are insulin-dependent — mini bypass is usually the better choice.</strong></p>
+
+<h2>If You Have Reflux (GERD)</h2>
+<p>Sleeve gastrectomy can worsen reflux. The smaller, higher-pressure tube of the sleeve sometimes pushes acid up against the lower oesophagus, and 15–20% of sleeve patients develop new or worse reflux. Mini bypass, by contrast, removes acid-producing tissue from the food pathway and typically improves reflux. <strong>If you already take daily PPIs, mini bypass is safer.</strong></p>
+
+<h2>If Your BMI Is Very High</h2>
+<p>Patients with BMI 50+ tend to do better long-term with bypass operations. The combination of restriction, malabsorption and metabolic effect produces deeper weight loss with lower regain rates. For patients with BMI 40–50, both operations work well; for BMI 35–40, sleeve is often the more proportionate choice.</p>
+
+<h2>If You Want the Simplest Operation</h2>
+<p>Sleeve is faster, technically simpler, has no anastomosis (intestinal join), no internal hernia risk, no marginal ulcer risk and the lowest lifelong supplementation burden. <strong>For BMI 35–45 with no reflux and no diabetes, sleeve is usually the right answer.</strong></p>
+
+<h2>Side Effects and Risks</h2>
+<h3>Sleeve</h3>
+<ul>
+<li>New-onset reflux in 15–20%</li>
+<li>Leak risk under 1% in experienced centres</li>
+<li>Hair shedding at month 3–6 (temporary)</li>
+<li>Low long-term nutritional deficiency risk</li>
+</ul>
+<h3>Mini Gastric Bypass</h3>
+<ul>
+<li>Bile reflux in 1–3% (managed surgically if needed)</li>
+<li>Marginal ulcer risk if NSAIDs or smoking continue</li>
+<li>Slightly higher risk of B12, iron and calcium deficiency — managed with lifelong supplementation</li>
+<li>Dumping syndrome possible after sugary foods (usually a positive aversive learning loop)</li>
+</ul>
+
+<h2>Long-Term Reversibility</h2>
+<p>This is one of the most underappreciated factors. Sleeve gastrectomy <strong>permanently removes</strong> 75–80% of the stomach. There is no going back. Mini bypass <strong>does not remove any organ</strong> — the bypass can be reversed if there is a serious problem, restoring near-normal anatomy. For some patients, especially younger ones, this matters.</p>
+
+<h2>Decision Matrix</h2>
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left;">Your Situation</th>
+<th style="padding: 12px 16px; text-align: center;">Better Choice</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">BMI 35–40, no diabetes, no reflux</td><td style="padding: 12px 16px; text-align: center; font-weight: 700;">Sleeve</td></tr>
+<tr><td style="padding: 12px 16px;">BMI 40–50 with type 2 diabetes</td><td style="padding: 12px 16px; text-align: center; font-weight: 700;">Mini bypass</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">BMI 50+ regardless of comorbidities</td><td style="padding: 12px 16px; text-align: center; font-weight: 700;">Mini bypass</td></tr>
+<tr><td style="padding: 12px 16px;">Severe reflux / hiatus hernia</td><td style="padding: 12px 16px; text-align: center; font-weight: 700;">Mini bypass</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Younger patient wanting reversibility</td><td style="padding: 12px 16px; text-align: center; font-weight: 700;">Mini bypass</td></tr>
+<tr><td style="padding: 12px 16px;">Want lowest vitamin burden</td><td style="padding: 12px 16px; text-align: center; font-weight: 700;">Sleeve</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Can I switch from sleeve to mini bypass later?</h3>
+<p>Yes — sleeve to bypass is one of the most common revisions, usually for severe reflux or weight regain. Read more in our <a href="/blog/revisional-bariatric-surgery-in-turkey" style="color: #2563EB;">revision surgery guide</a>.</p>
+
+<h3>Is mini bypass riskier than classic Roux-en-Y bypass?</h3>
+<p>Modern data shows comparable safety, with mini bypass actually offering slightly shorter operating time and lower internal hernia risk because there is only one anastomosis instead of two.</p>
+
+<h3>Will I dump after every meal with mini bypass?</h3>
+<p>No — dumping is triggered by concentrated sugar and high-glycaemic carbs. With a balanced protein-led diet, most patients rarely experience symptoms.</p>
+
+<h3>Which one will I lose more weight with?</h3>
+<p>On average, mini bypass produces 4–6% more total body weight loss at every time point. For an individual patient, lifestyle adherence matters more than procedure choice.</p>
+
+<div style="background: linear-gradient(135deg, #1E40AF, #3B82F6); color: white; border-radius: 12px; padding: 28px; margin: 32px 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Get a Personalised Surgical Recommendation</h3>
+<p style="margin: 12px 0 20px;">Send us your BMI, age, comorbidities and reflux history — Dr Murat Ustun's team will reply within 24 hours with a clear procedure recommendation.</p>
+<a href="/health-profile" style="display: inline-block; background: white; color: #1E40AF; padding: 14px 28px; border-radius: 8px; font-weight: 700; text-decoration: none;">Free Eligibility Assessment →</a>
+</div>
+
+<p><strong>Related reading:</strong></p>
+<ul>
+<li><a href="/blog/weight-loss-surgery-cost-turkey-2026" style="color: #2563EB;">Weight Loss Surgery Cost in Turkey 2026</a></li>
+<li><a href="/blog/gastric-sleeve-recovery-week-by-week" style="color: #2563EB;">Gastric Sleeve Recovery Week by Week</a></li>
+<li><a href="/blog/bariatric-surgery-pros-and-cons" style="color: #2563EB;">Bariatric Surgery: Pros and Cons</a></li>
+</ul>`
+  },
+  {
+    slug: "is-bariatric-surgery-permanent-long-term-results",
+    title: "Is Bariatric Surgery Permanent? 5, 10 and 20-Year Results Honestly Reviewed",
+    date: "May 3, 2026",
+    category: "Medical News",
+    excerpt: "An honest look at whether bariatric surgery is truly permanent. What stays the same forever, what can change, why some patients regain, and what 20 years of follow-up data really shows.",
+    image: "/blog-bariatric-permanent.webp",
+    content: `<h2>Is Bariatric Surgery Permanent? The Honest Long-Term Picture</h2>
+<p>It is the question every patient asks before booking surgery: <strong>"Will the weight stay off forever?"</strong> The answer is more nuanced than the marketing on most clinic websites suggests — and far more encouraging than the doom stories you read on Reddit. Here is what 20 years of published follow-up data, and our own outcomes from over 8,000 procedures, actually show.</p>
+
+<img loading="lazy" src="/blog-bariatric-permanent.webp" alt="Person showing dramatic weight loss holding old larger jeans outdoors" class="w-full rounded-lg my-6" />
+
+<div style="background: linear-gradient(135deg, #EFF6FF, #DBEAFE); border-radius: 12px; padding: 24px; margin: 24px 0;">
+<p style="font-weight: 700; font-size: 1.1em; margin-bottom: 8px;">In This Article</p>
+<ul style="margin: 0; padding-left: 20px;">
+<li>What is anatomically and physiologically permanent after surgery</li>
+<li>5-, 10- and 20-year evidence by procedure</li>
+<li>Why a minority of patients regain — and what to do about it</li>
+<li>Lifestyle factors that determine the long-term outcome</li>
+<li>What "permanent" really means for you</li>
+</ul>
+</div>
+
+<h2>What Is Truly Permanent After Surgery</h2>
+<h3>Gastric Sleeve</h3>
+<p>The sleeve removes 75–80% of the stomach permanently. The removed tissue does not grow back. The remaining tube can stretch slightly over years (10–25%), but it never returns to its original size. The dramatic drop in ghrelin, the hunger hormone, is also long-lasting — measurable at 10+ years post-op.</p>
+
+<h3>Gastric Bypass and Mini Bypass</h3>
+<p>The small stomach pouch and the rerouted intestinal anatomy are permanent unless surgically reversed. The pouch can stretch modestly over time. The metabolic and hormonal benefits — improved insulin sensitivity, GLP-1, PYY — persist for life as long as the anatomy is intact.</p>
+
+<h3>ESG (Endoscopic Sleeve Gastroplasty)</h3>
+<p>ESG is more nuanced. The sutures themselves remain in place but soften over 18–36 months. However, follow-up data shows the <strong>weight-loss benefit and the smaller stomach shape remain for at least 5 years</strong> in most patients, because the stomach has remodelled around the suture pattern. For patients who regain, a "re-do" ESG is straightforward.</p>
+
+<h2>The 5, 10 and 20-Year Evidence</h2>
+<p>The Swedish Obese Subjects (SOS) study followed thousands of bariatric patients for over 20 years. Long-term published data from SOS, BARIA-Met, STAMPEDE, and 10-year sleeve studies converge on consistent results:</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left;">Procedure</th>
+<th style="padding: 12px 16px; text-align: center;">% Excess Weight Loss at 5 yr</th>
+<th style="padding: 12px 16px; text-align: center;">at 10 yr</th>
+<th style="padding: 12px 16px; text-align: center;">at 20 yr</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Gastric Sleeve</td><td style="padding: 12px 16px; text-align: center;">60–65%</td><td style="padding: 12px 16px; text-align: center;">55–60%</td><td style="padding: 12px 16px; text-align: center;">~50%</td></tr>
+<tr><td style="padding: 12px 16px;">Gastric Bypass / Mini Bypass</td><td style="padding: 12px 16px; text-align: center;">70–75%</td><td style="padding: 12px 16px; text-align: center;">65–70%</td><td style="padding: 12px 16px; text-align: center;">55–60%</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">ESG</td><td style="padding: 12px 16px; text-align: center;">45–55%</td><td style="padding: 12px 16px; text-align: center;">~40% (limited data)</td><td style="padding: 12px 16px; text-align: center;">N/A</td></tr>
+<tr><td style="padding: 12px 16px;">Diet alone (matched controls)</td><td style="padding: 12px 16px; text-align: center; color: #B91C1C;">~5%</td><td style="padding: 12px 16px; text-align: center; color: #B91C1C;">~3%</td><td style="padding: 12px 16px; text-align: center; color: #B91C1C;">~0%</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>The headline insight: at 20 years, surgical patients are still keeping off roughly half of their original excess weight, while diet-only patients have, on average, returned to baseline. <strong>Bariatric surgery produces by far the most durable weight loss any treatment can offer.</strong></p>
+
+<h2>Why Some Patients Regain</h2>
+<p>About 15–25% of bariatric patients regain meaningful weight (more than 10% of their lowest weight) by year 5–7. The reasons cluster into four buckets:</p>
+<ol>
+<li><strong>Slow drift in eating habits.</strong> Grazing — eating small amounts continuously throughout the day — can bypass the smaller stomach. See our <a href="/blog/grazing-after-bariatric-surgery" style="color: #2563EB;">grazing guide</a> for the early warning signs.</li>
+<li><strong>Liquid calories.</strong> Sodas, alcohol, smoothies and lattes pass straight through — pouch and sleeve restriction does not stop them.</li>
+<li><strong>Pouch / sleeve dilatation.</strong> Modest stretching over time is normal; eating to your full capacity teaches it to stretch faster.</li>
+<li><strong>Hormonal and life events.</strong> Pregnancy, menopause, certain medications (steroids, antidepressants), and major life stress can all reset appetite signalling.</li>
+</ol>
+
+<h2>What To Do If You Start to Regain</h2>
+<p>Regain is not failure — it is feedback. The most effective interventions are:</p>
+<ul>
+<li><strong>Reset the protein-first eating pattern</strong> — go back to your week-4 plan for 6–8 weeks</li>
+<li><strong>Cut liquid calories</strong> — water, herbal tea, plain coffee only</li>
+<li><strong>Add a short course of GLP-1 medication</strong> (Wegovy, Mounjaro) — 6–12 months can break the regain cycle without committing to lifelong injections</li>
+<li><strong>Endoscopic re-suturing</strong> — for patients with documented sleeve or pouch dilatation</li>
+<li><strong>Revisional surgery</strong> — sleeve to bypass conversion is a well-established option</li>
+</ul>
+
+<p>Read more: <a href="/blog/revisional-bariatric-surgery-in-turkey" style="color: #2563EB;">Revisional Bariatric Surgery in Turkey</a>.</p>
+
+<h2>The Permanent Things You Cannot See</h2>
+<p>Beyond the scale, bariatric surgery produces durable changes that often outlast the weight loss itself:</p>
+<ul>
+<li><strong>Type 2 diabetes:</strong> 50–75% of patients are still in remission at 5 years; 30–50% at 10 years (STAMPEDE, SOS data).</li>
+<li><strong>Hypertension:</strong> Resolved or improved in 60–70% at 10 years.</li>
+<li><strong>Sleep apnoea:</strong> Resolved in 85% by year 1, with most still off CPAP at 10 years.</li>
+<li><strong>Cardiovascular mortality:</strong> SOS showed a 30% reduction in cardiovascular deaths over 20 years compared with matched non-surgical controls.</li>
+<li><strong>Cancer risk:</strong> Particularly in women, surgery is associated with a 40% reduction in obesity-related cancers over 20 years.</li>
+</ul>
+
+<h2>What Determines Your Long-Term Result</h2>
+<p>Three factors predict who stays at goal weight at 10 years:</p>
+<ol>
+<li><strong>Protein-first eating.</strong> Patients hitting 60–80 g protein daily long-term keep off 10–15% more weight.</li>
+<li><strong>Regular movement.</strong> Just 30 minutes of brisk walking 5 days a week roughly halves regain risk.</li>
+<li><strong>Long-term medical follow-up.</strong> Patients who attend at least one annual review keep off significantly more weight.</li>
+</ol>
+
+<p>This is why our packages include 12 months of online dietitian and nursing aftercare as standard — and why we encourage annual touchpoints for life.</p>
+
+<h2>Comparing the "Permanence" of Each Option</h2>
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left;">Option</th>
+<th style="padding: 12px 16px; text-align: center;">Anatomy</th>
+<th style="padding: 12px 16px; text-align: center;">Long-Term Result</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Diet & exercise alone</td><td style="padding: 12px 16px; text-align: center;">Unchanged</td><td style="padding: 12px 16px; text-align: center; color: #B91C1C;">95% regain</td></tr>
+<tr><td style="padding: 12px 16px;">GLP-1 injections</td><td style="padding: 12px 16px; text-align: center;">Unchanged</td><td style="padding: 12px 16px; text-align: center; color: #B91C1C;">Regain when stopped</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Gastric balloon</td><td style="padding: 12px 16px; text-align: center;">Temporary</td><td style="padding: 12px 16px; text-align: center;">~50% maintain at 1 yr</td></tr>
+<tr><td style="padding: 12px 16px;">ESG</td><td style="padding: 12px 16px; text-align: center;">Sutures soften but shape persists</td><td style="padding: 12px 16px; text-align: center; color: #15803D;">Durable to 5 yr</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Gastric Sleeve</td><td style="padding: 12px 16px; text-align: center;">Permanent</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">~50% EWL at 20 yr</td></tr>
+<tr><td style="padding: 12px 16px;">Gastric Bypass</td><td style="padding: 12px 16px; text-align: center;">Permanent (reversible)</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">~55% EWL at 20 yr</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+<h3>Will my stomach stretch back to normal?</h3>
+<p>No. The sleeve and pouch can stretch modestly (10–25%) but cannot return to their original capacity.</p>
+
+<h3>If I regain in year 5, did surgery fail?</h3>
+<p>Not at all. Even patients with regain typically remain 25–40% below their pre-surgery weight. There are also effective re-treatment options.</p>
+
+<h3>Can I have surgery reversed?</h3>
+<p>Sleeve gastrectomy cannot be reversed. Gastric bypass and mini bypass can be reversed in cases of severe complications, but reversal is rarely needed.</p>
+
+<h3>How often should I see my surgeon long-term?</h3>
+<p>Annually for life — even brief check-ins are linked to better long-term outcomes.</p>
+
+<div style="background: linear-gradient(135deg, #1E40AF, #3B82F6); color: white; border-radius: 12px; padding: 28px; margin: 32px 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Plan a Long-Term Result, Not Just a Short-Term Win</h3>
+<p style="margin: 12px 0 20px;">Every package at Istanbul Bariatric Center includes 12 months of online aftercare — and lifetime access to our patient community. Take the first step today.</p>
+<a href="/contact" style="display: inline-block; background: white; color: #1E40AF; padding: 14px 28px; border-radius: 8px; font-weight: 700; text-decoration: none;">Speak to Our Team →</a>
+</div>
+
+<p><strong>Related reading:</strong></p>
+<ul>
+<li><a href="/blog/mounjaro-vs-bariatric-surgery-2026" style="color: #2563EB;">Mounjaro vs Bariatric Surgery 2026</a></li>
+<li><a href="/blog/gastric-sleeve-vs-mini-gastric-bypass-2026" style="color: #2563EB;">Sleeve vs Mini Bypass 2026</a></li>
+<li><a href="/results" style="color: #2563EB;">See Our Patient Results</a></li>
+</ul>`
   }
 ];
 
