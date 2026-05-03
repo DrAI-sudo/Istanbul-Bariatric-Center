@@ -4308,6 +4308,246 @@ export const blogPosts: BlogPost[] = [
 <li><a href="/blog/gastric-sleeve-vs-mini-gastric-bypass-2026" style="color: #2563EB;">Sleeve vs Mini Bypass 2026</a></li>
 <li><a href="/results" style="color: #2563EB;">See Our Patient Results</a></li>
 </ul>`
+  },
+  {
+    slug: "weight-regain-after-gastric-sleeve-causes-solutions",
+    title: "Weight Regain After Gastric Sleeve: Causes, Solutions and How to Reset",
+    date: "May 3, 2026",
+    category: "Health Tips",
+    excerpt: "Why some patients regain weight after gastric sleeve, the warning signs to spot early, and the proven medical, behavioural and surgical options to reverse regain in 2026.",
+    image: "/blog-weight-regain-sleeve.webp",
+    content: `<h2>Weight Regain After Gastric Sleeve: Why It Happens and How to Fix It</h2>
+<p>You did the work. You flew to Istanbul, had the surgery, lost 30, 40, maybe 60 kilograms. Then — quietly, slowly — the scale started moving the wrong way. If this is where you are, you are not alone, and you are not a failure. <strong>About 15–25% of gastric sleeve patients experience meaningful weight regain by year 5–7</strong>. The good news: regain is reversible, and 2026 has more effective tools than ever to help you get back on track.</p>
+
+<img loading="lazy" src="/blog-weight-regain-sleeve.webp" alt="Person standing on a bathroom scale with concerned expression" class="w-full rounded-lg my-6" />
+
+<div style="background: linear-gradient(135deg, #EFF6FF, #DBEAFE); border-radius: 12px; padding: 24px; margin: 24px 0;">
+<p style="font-weight: 700; font-size: 1.1em; margin-bottom: 8px;">In This Article</p>
+<ul style="margin: 0; padding-left: 20px;">
+<li>The four main causes of weight regain after sleeve</li>
+<li>Early warning signs you should not ignore</li>
+<li>Behavioural reset: the 30-day protocol that works</li>
+<li>Medical options: GLP-1, endoscopic re-suturing</li>
+<li>When revisional surgery is the right answer</li>
+</ul>
+</div>
+
+<h2>How Much Regain Is Normal?</h2>
+<p>A small amount of regain is biologically normal. Most patients hit their lowest weight ("the nadir") around 12–18 months post-op, then drift up by 5–10% over the following years. This is your body finding equilibrium. <strong>Regain only becomes a clinical problem when it exceeds 15% of your nadir weight</strong>, or when comorbidities (diabetes, hypertension, sleep apnoea) start coming back.</p>
+
+<h2>The Four Main Causes</h2>
+
+<h3>1. The Sleeve Has Stretched</h3>
+<p>The sleeve is a living organ — it can stretch by 10–25% over the years, especially if you regularly eat to maximum capacity. A stretched sleeve holds more food, fills you up more slowly, and removes the safety net that originally controlled your portions. Imaging (gastroscopy or upper GI series) confirms whether your sleeve has dilated.</p>
+
+<h3>2. Liquid Calories Have Crept In</h3>
+<p>This is the most common reason for regain we see in clinic. Sodas, fruit juice, lattes, smoothies, milkshakes and alcohol pass straight through the sleeve in seconds — no restriction, no early fullness signal. A daily 500-calorie habit (one large flavoured latte and an evening glass of wine) adds up to 3,500 kcal a week and 0.5 kg of fat gain monthly.</p>
+
+<h3>3. Grazing Has Replaced Meals</h3>
+<p>Constant low-volume snacking — handfuls of nuts, biscuits with tea, cheese cubes, "just a few crisps" — bypasses the sleeve's restriction completely because each portion is small enough to fit easily. Read our full <a href="/blog/grazing-after-bariatric-surgery" style="color: #2563EB; text-decoration: underline;">grazing guide</a> for the early signs.</p>
+
+<h3>4. Hormonal and Life Changes</h3>
+<p>Pregnancy, perimenopause, certain antidepressants, steroid courses, and high-stress life periods all reset appetite signalling. These are not your fault — but they require a deliberate response.</p>
+
+<h2>Early Warning Signs</h2>
+<p>Catch regain in months, not years. The patients who reverse it most easily notice these signs early:</p>
+<ul>
+<li>You can comfortably finish a full restaurant plate again</li>
+<li>You no longer feel "the stop signal" after small meals</li>
+<li>You snack between meals because you are genuinely hungry</li>
+<li>Your weight has been stable but slowly rising for 8+ weeks</li>
+<li>Your clothes are fitting tighter</li>
+<li>Your energy is dropping and you crave carbs in the afternoon</li>
+</ul>
+
+<h2>Step 1: The 30-Day Behavioural Reset</h2>
+<p>Before any medication or surgery, every patient with regain should run a structured 30-day reset. This alone reverses regain in roughly 60% of patients we see.</p>
+
+<h3>Days 1–7: Liquid and Pureed Reset</h3>
+<p>Return to the post-op diet — protein shakes, broth, blended high-protein foods. This shrinks the sleeve back, reduces appetite, and breaks the grazing cycle. Aim 60–80 g protein, 2 L water, no liquid calories.</p>
+
+<h3>Days 8–14: Soft Foods, Protein First</h3>
+<p>Soft fish, eggs, cottage cheese, well-cooked chicken. Eat protein first at every meal until you are full. No drinking with meals — wait 30 minutes before and after.</p>
+
+<h3>Days 15–30: Normal Food, Old Rules</h3>
+<p>Return to normal eating but reinstate the original rules: protein first, vegetables second, carbs last. Small plates. No liquid calories. No grazing. Daily 30-minute walk minimum.</p>
+
+<p>Most patients lose 4–8 kg during the reset and, more importantly, regain control of hunger signals.</p>
+
+<h2>Step 2: GLP-1 Medication as a Reset Tool</h2>
+<p>If the behavioural reset is not enough, a 6–12 month course of <strong>tirzepatide (Mounjaro) or semaglutide (Wegovy)</strong> is highly effective in 2026. Used as a temporary tool — not a lifetime commitment — GLP-1 drugs can re-establish appetite control and shed regained weight in months.</p>
+<p>Clinical data from 2024–2025 shows GLP-1 use in post-bariatric regain produces 12–18% additional weight loss. The protocol we recommend: 9–12 months on the medication, then a structured taper while behavioural habits consolidate.</p>
+
+<h2>Step 3: Endoscopic Re-Suturing</h2>
+<p>For patients with confirmed sleeve dilatation, endoscopic re-suturing (similar to ESG, but on an existing sleeve) tightens the sleeve from the inside without surgery. The procedure takes 60–90 minutes, requires no incisions, and patients go home the same day. Average additional weight loss: 12–18% over 12 months.</p>
+
+<h2>Step 4: Revisional Surgery</h2>
+<p>When the sleeve has stretched dramatically, when severe reflux has developed, or when comorbidities have returned, revision to <strong>mini gastric bypass</strong> is the most effective definitive option. Conversion from sleeve to mini bypass produces an additional 20–25% total body weight loss with high rates of diabetes and reflux resolution.</p>
+<p>Read more in our complete <a href="/blog/revisional-bariatric-surgery-in-turkey" style="color: #2563EB; text-decoration: underline;">revisional bariatric surgery guide</a>.</p>
+
+<h2>Decision Matrix: Which Solution For You?</h2>
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left;">Your Situation</th>
+<th style="padding: 12px 16px; text-align: center;">Recommended Step</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Regain &lt; 10 kg, no sleeve dilatation</td><td style="padding: 12px 16px; text-align: center; font-weight: 700;">30-day reset</td></tr>
+<tr><td style="padding: 12px 16px;">Regain 10–20 kg, sleeve normal</td><td style="padding: 12px 16px; text-align: center; font-weight: 700;">Reset + GLP-1 course</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Documented sleeve dilatation</td><td style="padding: 12px 16px; text-align: center; font-weight: 700;">Endoscopic re-suturing</td></tr>
+<tr><td style="padding: 12px 16px;">Severe regain + reflux or diabetes</td><td style="padding: 12px 16px; text-align: center; font-weight: 700;">Revision to mini bypass</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+<h3>How do I know if my sleeve has stretched?</h3>
+<p>Endoscopy or upper GI contrast study. We arrange both for international patients during a short evaluation visit.</p>
+
+<h3>Can GLP-1s be used long-term after sleeve regain?</h3>
+<p>Yes, but most patients prefer a defined 9–12 month course paired with behavioural work, then taper. Lifetime use is an option but not necessary for everyone.</p>
+
+<h3>Will revision surgery be more risky than my first operation?</h3>
+<p>Slightly — revision surgery has a marginally higher complication rate (5–7% vs 3–4%) because of scar tissue. In experienced centres it remains very safe.</p>
+
+<h3>How fast can I act?</h3>
+<p>The earlier the better. Reset works fastest within the first year of regain. Even with established regain, every option above is still effective.</p>
+
+<div style="background: linear-gradient(135deg, #1E40AF, #3B82F6); color: white; border-radius: 12px; padding: 28px; margin: 32px 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Get a Personalised Regain Recovery Plan</h3>
+<p style="margin: 12px 0 20px;">Our team will review your post-op timeline, current weight and symptoms, and recommend the right next step — from a free behavioural reset plan through to revision surgery.</p>
+<a href="/contact" style="display: inline-block; background: white; color: #1E40AF; padding: 14px 28px; border-radius: 8px; font-weight: 700; text-decoration: none;">Speak to Our Team →</a>
+</div>
+
+<p><strong>Related reading:</strong></p>
+<ul>
+<li><a href="/blog/is-bariatric-surgery-permanent-long-term-results" style="color: #2563EB;">Is Bariatric Surgery Permanent?</a></li>
+<li><a href="/blog/revisional-bariatric-surgery-in-turkey" style="color: #2563EB;">Revisional Bariatric Surgery in Turkey</a></li>
+<li><a href="/blog/grazing-after-bariatric-surgery" style="color: #2563EB;">Grazing After Bariatric Surgery</a></li>
+</ul>`
+  },
+  {
+    slug: "bariatric-surgery-day-by-day-recovery-timeline",
+    title: "Bariatric Surgery Day-by-Day Recovery Timeline: The First 30 Days",
+    date: "May 3, 2026",
+    category: "Health Tips",
+    excerpt: "A precise day-by-day recovery timeline for the first 30 days after gastric sleeve, bypass or mini bypass — what you can eat, do, lift, and when to call your surgeon. Honest, no fluff.",
+    image: "/blog-day-by-day-recovery.webp",
+    content: `<h2>Bariatric Surgery Day-by-Day Recovery Timeline: The First 30 Days</h2>
+<p>The week-by-week guides online are useful, but the truth is the first 30 days are when nearly every important decision is made. <strong>What you do in days 1, 7, 14 and 30 directly determines your year-1 outcome.</strong> This is the day-by-day timeline our nursing team gives every international patient — distilled from over 8,000 procedures performed in Istanbul.</p>
+
+<img loading="lazy" src="/blog-day-by-day-recovery.webp" alt="Daily recovery planner with calendar, vitamins, water bottle and walking shoes" class="w-full rounded-lg my-6" />
+
+<div style="background: linear-gradient(135deg, #EFF6FF, #DBEAFE); border-radius: 12px; padding: 24px; margin: 24px 0;">
+<p style="font-weight: 700; font-size: 1.1em; margin-bottom: 8px;">In This Article</p>
+<ul style="margin: 0; padding-left: 20px;">
+<li>Day 0: surgery day — what actually happens</li>
+<li>Days 1–7: hospital and immediate recovery</li>
+<li>Days 8–14: return home, transition to soft foods</li>
+<li>Days 15–30: building habits, returning to life</li>
+<li>Red-flag symptoms to call your surgeon for</li>
+</ul>
+</div>
+
+<h2>Day 0 — Surgery Day</h2>
+<p>You arrive fasted at 7 am. Pre-op checks, change into surgical gown, IV inserted. Surgery itself: 45–90 minutes under general anaesthesia depending on procedure. You wake in recovery 30–60 minutes later, slightly groggy, mostly comfortable. Pain is well controlled by IV medication. By 6 pm you walk to the bathroom. By 9 pm you sleep with elevated upper body.</p>
+
+<h2>Day 1 — In Hospital</h2>
+<p>Morning: vital signs, blood test, swallow test (X-ray with contrast) confirms no leak. Permission to start clear liquids: water, broth, sugar-free jelly, herbal tea — sips of 30 ml only. Walk every 2 hours, even just to the corridor. Some shoulder-tip pain from CO₂ gas — completely normal, gone in 48 hours. Light nausea managed with anti-emetic medication.</p>
+
+<h2>Day 2 — Discharge</h2>
+<p>If observations are stable and you tolerate fluids, you are discharged to your hotel by mid-afternoon. Continue clear liquids. Your patient coordinator gives you the WhatsApp number for 24/7 questions.</p>
+
+<h2>Days 3–4 — Hotel Recovery</h2>
+<p>Energy is low; nap when you need to. Drink small sips constantly throughout the day — aim 1.5 L total. Walk in hotel corridors every 1–2 hours, even briefly. Take prescribed PPI (acid blocker) and start the daily multivitamin. Sleep elevated. Constipation is common; do not panic, hydrate and walk more.</p>
+
+<h2>Day 5 — Move to Full Liquids</h2>
+<p>You can now add: protein shakes (30 g protein each), milk, smooth soups (no chunks), thin yoghurt drinks, sugar-free milk-based protein drinks. Aim 60 g protein and 1.5–2 L total fluid daily. Most patients struggle to hit protein the first few days — sip slowly throughout the day, not in big gulps.</p>
+
+<h2>Day 6 — Pre-Flight Check</h2>
+<p>For international patients flying back on day 6 or 7, our team performs a pre-flight check: vital signs, wound check, swallow review. TED stockings issued for the flight. You receive a take-home pack: medications, vitamin schedule, dietitian contact, emergency phone number.</p>
+
+<h2>Day 7 — Travel Home</h2>
+<p>Flying is safe. Stand and walk every 90 minutes during the flight. Keep sipping fluids. Anti-emetic medication if needed. Most patients arrive home tired but well.</p>
+
+<h2>Day 8 — First Day Home</h2>
+<p>Continue full liquids. Hot water bottle for any abdominal discomfort. Start a daily walking goal of 3,000 steps split through the day. Keep the dietitian's number on your phone — early questions are normal.</p>
+
+<h2>Days 9–14 — Pureed Foods Begin</h2>
+<p>Pureed stage starts: blended cottage cheese, scrambled eggs blended with milk, refined hummus, blended chicken with broth, ricotta, soft mashed banana, smooth yoghurt. Texture should be like baby food. 4 tablespoons per "meal", 4–6 mini meals daily. Hit 60–80 g protein. Walking goal: 5,000 steps/day by day 14.</p>
+
+<h2>Day 15 — Soft Foods</h2>
+<p>Soft foods now allowed: flaked white fish, soft scrambled eggs, well-cooked tender chicken, cooked carrots and courgette, cottage cheese, ricotta, soft fruit. Chew everything to liquid before swallowing. No bread, no rice, no pasta yet. The "fullness signal" is sharp — stop the moment you feel it.</p>
+
+<h2>Days 16–21 — Building the Routine</h2>
+<p>Energy returns noticeably. Most office workers return to work this week. Walking 6,000–8,000 steps daily. Light resistance bands fine. Still no abdominal exercise, no lifting over 5 kg. Most patients have lost 8–12 kg from pre-op weight by day 21.</p>
+
+<h2>Days 22–28 — Almost Normal</h2>
+<p>You can re-introduce small portions of well-cooked rice, pasta, soft bread (toasted is easier). Protein remains the priority — aim 80 g daily. The sleeve handles 100–150 g of food per meal, less for bypass. Driving usually safe by day 22 if off opioid pain medication. Sex is fine when you feel ready.</p>
+
+<h2>Day 30 — One-Month Milestone</h2>
+<p>You are eating "normal" food in small portions. You have lost 10–15 kg. Energy is good, mood is positive (after the early hormonal dip). You return to most exercise — swimming, cycling, gym (but no heavy core work until week 6). Time for your first online dietitian review.</p>
+
+<h2>Daily Targets Cheat Sheet</h2>
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left;">Day</th>
+<th style="padding: 12px 16px; text-align: center;">Diet</th>
+<th style="padding: 12px 16px; text-align: center;">Protein</th>
+<th style="padding: 12px 16px; text-align: center;">Walking</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">1–4</td><td style="padding: 12px 16px; text-align: center;">Clear liquids</td><td style="padding: 12px 16px; text-align: center;">As tolerated</td><td style="padding: 12px 16px; text-align: center;">Hourly short walks</td></tr>
+<tr><td style="padding: 12px 16px;">5–8</td><td style="padding: 12px 16px; text-align: center;">Full liquids</td><td style="padding: 12px 16px; text-align: center;">40–60 g</td><td style="padding: 12px 16px; text-align: center;">3,000 steps</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">9–14</td><td style="padding: 12px 16px; text-align: center;">Pureed</td><td style="padding: 12px 16px; text-align: center;">60–80 g</td><td style="padding: 12px 16px; text-align: center;">5,000 steps</td></tr>
+<tr><td style="padding: 12px 16px;">15–21</td><td style="padding: 12px 16px; text-align: center;">Soft</td><td style="padding: 12px 16px; text-align: center;">70–80 g</td><td style="padding: 12px 16px; text-align: center;">6,000–8,000 steps</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">22–30</td><td style="padding: 12px 16px; text-align: center;">Modified normal</td><td style="padding: 12px 16px; text-align: center;">80 g</td><td style="padding: 12px 16px; text-align: center;">8,000–10,000 steps</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Red Flags — Call Your Surgeon Immediately</h2>
+<ul>
+<li>Persistent fever above 38.3°C</li>
+<li>Resting heart rate above 120 bpm sustained</li>
+<li>Sharp left shoulder pain with abdominal pain (possible leak)</li>
+<li>Inability to keep down any liquid for 24 hours</li>
+<li>Increasing redness, swelling or discharge from incisions</li>
+<li>Calf swelling, sudden shortness of breath (possible blood clot)</li>
+</ul>
+<p>Our WhatsApp line is staffed 24/7 for international patients.</p>
+
+<h2>Frequently Asked Questions</h2>
+<h3>When can I drive?</h3>
+<p>Day 7–10, once off opioid pain medication and able to do an emergency stop without abdominal pain.</p>
+
+<h3>When can I have sex?</h3>
+<p>When you feel ready, usually day 10–14. No restriction other than your own comfort.</p>
+
+<h3>When can I lift weights?</h3>
+<p>Light dumbbells (2–5 kg) from week 3. Heavier weights and abdominal work from week 6.</p>
+
+<h3>When does the hunger come back?</h3>
+<p>A small physical hunger returns by month 3. It is far smaller than pre-op and easily satisfied with protein-led meals.</p>
+
+<div style="background: linear-gradient(135deg, #1E40AF, #3B82F6); color: white; border-radius: 12px; padding: 28px; margin: 32px 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Plan Your Recovery With Expert Support</h3>
+<p style="margin: 12px 0 20px;">Every package includes 12 months of online dietitian and nursing aftercare so you have answers when you need them.</p>
+<a href="/treatments" style="display: inline-block; background: white; color: #1E40AF; padding: 14px 28px; border-radius: 8px; font-weight: 700; text-decoration: none;">See All Packages →</a>
+</div>
+
+<p><strong>Related reading:</strong></p>
+<ul>
+<li><a href="/blog/gastric-sleeve-recovery-week-by-week" style="color: #2563EB;">Gastric Sleeve Recovery Week by Week</a></li>
+<li><a href="/blog/bariatric-surgery-nutrition" style="color: #2563EB;">Bariatric Surgery Nutrition Guide</a></li>
+<li><a href="/blog/bariatric-preoperative-diet" style="color: #2563EB;">Bariatric Preoperative Diet</a></li>
+</ul>`
   }
 ];
 
