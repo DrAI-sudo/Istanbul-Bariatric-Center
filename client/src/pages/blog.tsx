@@ -16,10 +16,13 @@ export default function Blog() {
   const { t } = useTranslation(['pages', 'blog']);
   const [currentPage, setCurrentPage] = useState(1);
   
-  const totalPages = Math.ceil(blogPosts.length / POSTS_PER_PAGE);
+  const sortedPosts = [...blogPosts].sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
+  const totalPages = Math.ceil(sortedPosts.length / POSTS_PER_PAGE);
   const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
   const endIndex = startIndex + POSTS_PER_PAGE;
-  const currentPosts = blogPosts.slice(startIndex, endIndex);
+  const currentPosts = sortedPosts.slice(startIndex, endIndex);
 
   const goToPage = (page: number) => {
     setCurrentPage(page);
