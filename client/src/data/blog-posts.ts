@@ -6119,6 +6119,162 @@ export const blogPosts: BlogPost[] = [
 <li><a href="/blog/gastric-sleeve-vs-mini-gastric-bypass-2026" style="color: #2563EB;">Sleeve vs Mini Bypass</a></li>
 <li><a href="/blog/how-to-choose-bariatric-surgeon-istanbul-checklist" style="color: #2563EB;">How to Choose a Bariatric Surgeon</a></li>
 </ul>`
+  },
+  {
+    slug: "ipsos-global-perceptions-obesity-study-2026",
+    title: "Global Perceptions of Obesity in 2026: What a New Ipsos Study Reveals",
+    date: "May 10, 2026",
+    category: "Medical News",
+    excerpt: "A new Ipsos Global Perceptions of Obesity Study surveyed 14,500 adults across 14 countries. Here is what it reveals about stigma, treatment access, risk awareness and the future of obesity care in 2026.",
+    image: "/blog-obesity-perceptions-2026.webp",
+    content: `<h2>Global Perceptions of Obesity in 2026: What a New Ipsos Study Reveals</h2>
+<p>A new Ipsos Global Perceptions of Obesity Study offers a striking look at how people around the world understand, experience and manage obesity in 2026. For policymakers, healthcare professionals and anyone interested in weight management, the findings highlight a powerful mix of personal responsibility, medical reality and social stigma that shapes life for millions.</p>
+
+<img loading="lazy" src="/blog-obesity-perceptions-2026.webp" alt="Ipsos Global Perceptions of Obesity Study 2026 cover — aerial view of diverse adults walking on a city street" class="w-full rounded-lg my-6" />
+
+<div style="background: linear-gradient(135deg, #EFF6FF, #DBEAFE); border-radius: 12px; padding: 24px; margin: 24px 0;">
+<p style="font-weight: 700; font-size: 1.1em; margin-bottom: 8px;">In This Article</p>
+<ul style="margin: 0; padding-left: 20px;">
+<li>How the global obesity study was conducted</li>
+<li>Personal choice vs. chronic disease — the central tension</li>
+<li>Why most people with obesity don't see a doctor</li>
+<li>Limited awareness of obesity-related health risks</li>
+<li>The full life impact: emotional, social, financial</li>
+<li>Stigma, judgment and the avoidance of social life</li>
+<li>What this means for treatment and policy in 2026</li>
+<li>Frequently asked questions</li>
+</ul>
+</div>
+
+<h2>How the Global Obesity Study Was Conducted</h2>
+<p>Ipsos surveyed 14,500 adults in 14 countries between December 2025 and January 2026, including the UK, India, Brazil, Mexico, Italy, Saudi Arabia, South Korea, the UAE and others. Using self-reported height and weight, researchers identified 3,094 respondents living with obesity and 11,406 not living with obesity, enabling robust comparisons between the two groups. The study explored how weight affects physical health, emotional wellbeing, social life, work, healthcare use and attitudes to treatment.</p>
+
+<h2>Obesity: Personal Choices or Medical Condition?</h2>
+<p>One of the most important insights is the tension between viewing obesity as a matter of willpower and recognising it as a chronic disease. Two-thirds (66%) of people living with obesity believe their condition is preventable through personal choices, and almost two-thirds (63%) say diet and exercise alone can solve obesity for most people. Yet seven in ten (71%) also agree that obesity is a medical condition requiring ongoing management, while only about half (51%) acknowledge genetics and biology as primary causes.</p>
+
+<p>This mix of beliefs has real implications for obesity treatment and stigma reduction. When obesity is seen mainly as a lifestyle failure rather than a medical condition influenced by biology, environment and social factors, people may feel shame instead of seeking evidence-based help.</p>
+
+<h2>Trying to Lose Weight Without Consistent Medical Support</h2>
+
+<img loading="lazy" src="/blog-obesity-doctor.webp" alt="Doctor in a bright clinic having a supportive conversation with a patient about weight management" class="w-full rounded-lg my-6" />
+
+<p>The study shows that most people living with obesity are actively trying to manage their weight, but medical support is not used consistently. More than eight in ten (81%) have been advised to lose weight or have considered doing so to prevent serious health problems. However, only 35% have spoken to a doctor about their weight in the past 12 months — a figure almost identical to the share who tried a fad or non-recommended diet (33%).</p>
+
+<p>When people do see doctors, advice still focuses heavily on lifestyle change. Among those who have discussed weight with a doctor, 82% report lifestyle-focused recommendations such as eating healthier (60%), doing more exercise (60%) and eating smaller portions (43%). A smaller proportion recall being guided toward structured weight management programmes, digital tools, or other supportive interventions.</p>
+
+<p>Among those who have not seen a doctor about their weight in the last three months, the leading reason is a preference to manage weight independently (31%), followed by concerns about cost, fear of being judged and doubts about maintaining recommended changes. This suggests that better communication, accessible services and non-stigmatizing care could help close the gap between intention and professional support.</p>
+
+<h2>Limited Awareness of Obesity-Related Health Risks</h2>
+<p>Despite high levels of concern about future health, awareness of the full spectrum of obesity-related risks remains incomplete. Almost half (48%) of people living with obesity say they frequently worry about future health problems because of their weight. However, just over half associate obesity with type 2 diabetes (53%) and heart disease (52%), and only 18% link it to certain cancers and 29% to premature death.</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left;">Health risk</th>
+<th style="padding: 12px 16px; text-align: center;">% of people with obesity who link it to weight</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px; font-weight: 700;">Type 2 diabetes</td><td style="padding: 12px 16px; text-align: center;">53%</td></tr>
+<tr><td style="padding: 12px 16px; font-weight: 700;">Heart disease</td><td style="padding: 12px 16px; text-align: center;">52%</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px; font-weight: 700;">Premature death</td><td style="padding: 12px 16px; text-align: center;">29%</td></tr>
+<tr><td style="padding: 12px 16px; font-weight: 700;">Certain cancers</td><td style="padding: 12px 16px; text-align: center;">18%</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>For public health campaigns and clinical conversations, this is a critical opportunity. Improving understanding of conditions like type 2 diabetes, cardiovascular disease and obesity-related cancers could motivate earlier, sustained engagement with treatment and prevention.</p>
+
+<h2>The Impact of Obesity on Daily Life and Wellbeing</h2>
+
+<img loading="lazy" src="/blog-obesity-community.webp" alt="Diverse group of adults walking together on a city sidewalk, representing the daily lived experience of weight and community" class="w-full rounded-lg my-6" />
+
+<p>The study makes clear that obesity affects far more than the number on the scale. Overall, people living with obesity are 19 percentage points less likely to be satisfied with their physical health (40%) than those not living with obesity (59%). At least seven in ten say their weight has negatively affected every key life dimension measured, from physical health and emotional wellbeing to work, relationships, confidence and finances.</p>
+
+<p>Obesity and weight are reported to impact:</p>
+<ul>
+<li>Physical health and fitness</li>
+<li>Emotional and mental wellbeing</li>
+<li>Confidence and self-esteem</li>
+<li>Social relationships and romantic life</li>
+<li>Work or daily role, and even financial security</li>
+</ul>
+
+<p>This broad impact underscores why obesity management strategies need to be holistic, addressing mental health, social support and stigma alongside medical care and behavioural change.</p>
+
+<h2>Stigma, Judgment and Avoidance of Social Life</h2>
+<p>Beyond health, one of the most striking findings is the level of stigma and self-consciousness people living with obesity report. Compared with people not living with obesity, they are significantly more likely to frequently feel:</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left;">Frequent feeling</th>
+<th style="padding: 12px 16px; text-align: center;">People with obesity</th>
+<th style="padding: 12px 16px; text-align: center;">People without obesity</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px; font-weight: 700;">Judged based on how they look</td><td style="padding: 12px 16px; text-align: center;">35%</td><td style="padding: 12px 16px; text-align: center;">24%</td></tr>
+<tr><td style="padding: 12px 16px; font-weight: 700;">Self-conscious or embarrassed because of weight</td><td style="padding: 12px 16px; text-align: center;">35%</td><td style="padding: 12px 16px; text-align: center;">24%</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px; font-weight: 700;">Perceived as lacking self-control or willpower</td><td style="padding: 12px 16px; text-align: center;">32%</td><td style="padding: 12px 16px; text-align: center;">21%</td></tr>
+<tr><td style="padding: 12px 16px; font-weight: 700;">Avoided social, leisure or romantic activity in the past year</td><td style="padding: 12px 16px; text-align: center;">70%</td><td style="padding: 12px 16px; text-align: center;">53%</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>This perceived judgment translates into behaviour. Seventy percent of people living with obesity say they have avoided social, leisure or romantic activities in the last year because of their weight, including being in photos or videos — highlighting how weight stigma can quietly limit everyday experiences and memories.</p>
+
+<p>For advocates and healthcare providers, tackling weight stigma is therefore not a "nice to have" but a central part of effective obesity care. Reducing blame and bias can make it easier for people to talk openly about weight and access support without fear of humiliation.</p>
+
+<h2>What This Means for Obesity Treatment and Policy</h2>
+<p>Taken together, the Ipsos Global Perceptions of Obesity Study points to several priorities for 2026 and beyond.</p>
+<ul>
+<li><strong>Recognise obesity as a chronic condition.</strong> Many people already see obesity as both a matter of personal responsibility and a medical condition; policy and practice must mirror this dual reality with long-term, multidisciplinary care.</li>
+<li><strong>Improve risk awareness.</strong> Clearer communication about links between obesity and type 2 diabetes, heart disease, certain cancers and premature mortality can support earlier, sustained intervention.</li>
+<li><strong>Expand access to supportive, stigma-free care.</strong> With only 35% seeing a doctor about weight in the past year, there is room for more proactive, accessible services — covered by insurance or public systems where possible.</li>
+<li><strong>Move beyond "eat less, move more" messaging.</strong> While lifestyle change is important, focusing solely on diet and exercise underplays biology and context, and can reinforce self-blame when people struggle.</li>
+<li><strong>Address stigma at every level.</strong> From workplace policies to media portrayals and clinical training, efforts to reduce weight bias are essential to improving quality of life and health outcomes.</li>
+</ul>
+
+<h2>Where Bariatric Care Fits In</h2>
+<p>For people whose obesity has not responded to lifestyle change or medication alone, modern bariatric and endoscopic procedures are an evidence-based, long-term option. At Istanbul Bariatric Center we treat obesity as a chronic medical condition — combining surgery or endoscopic procedures with structured nutritional, psychological and long-term aftercare. If you are unsure whether you would benefit, our <a href="/health-profile" style="color: #2563EB;">eligibility assessment</a> gives you a clear, judgement-free first step.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is the Ipsos Global Perceptions of Obesity Study?</h3>
+<p>It is a 2026 international survey of 14,500 adults across 14 countries — including 3,094 people living with obesity — exploring how weight affects health, emotional wellbeing, work, relationships and use of medical care.</p>
+
+<h3>How many people with obesity actually speak to a doctor about their weight?</h3>
+<p>Only 35% have spoken to a doctor about their weight in the past 12 months — almost the same share as those who tried a fad or non-recommended diet (33%).</p>
+
+<h3>Do people understand the health risks of obesity?</h3>
+<p>Awareness is incomplete. About half link obesity to type 2 diabetes (53%) and heart disease (52%), but only 29% to premature death and just 18% to certain cancers.</p>
+
+<h3>How common is weight stigma?</h3>
+<p>Very common. People with obesity are far more likely to feel judged (35% vs 24%), embarrassed (35% vs 24%) and seen as lacking willpower (32% vs 21%), and 70% have avoided social, leisure or romantic activities because of their weight.</p>
+
+<h3>Is obesity a chronic disease or a lifestyle issue?</h3>
+<p>Both perceptions coexist. 71% of people with obesity agree it is a medical condition requiring ongoing management, yet 63% also believe diet and exercise alone can solve it for most people. Modern medicine treats it as a chronic, multifactorial disease.</p>
+
+<h3>What can someone do if lifestyle change has not worked?</h3>
+<p>Speak to a clinician about evidence-based options: structured weight management programmes, GLP-1 medications, endoscopic procedures such as ESG, and bariatric surgery. The right path depends on BMI, health conditions and personal goals.</p>
+
+<div style="background: linear-gradient(135deg, #1E40AF, #3B82F6); color: white; border-radius: 12px; padding: 28px; margin: 32px 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Take the First Step Without Judgment</h3>
+<p style="margin: 12px 0 20px;">Our team treats obesity as a chronic medical condition — not a personal failing. Complete our private eligibility assessment and a clinician will respond within 48 hours with a clear, evidence-based recommendation.</p>
+<a href="/health-profile" style="display: inline-block; background: white; color: #1E40AF; padding: 14px 28px; border-radius: 8px; font-weight: 700; text-decoration: none;">Start Free Assessment →</a>
+</div>
+
+<p><strong>Source:</strong> <a href="https://www.ipsos.com/sites/default/files/ct/news/documents/2026-03/ipsos-global-perceptions-of-obesity-study-supporting-data.pdf" rel="nofollow noopener" style="color: #2563EB;">Ipsos | Global Perceptions of Obesity Study — Supporting Data (March 2026)</a></p>
+
+<p><strong>Related reading:</strong></p>
+<ul>
+<li><a href="/blog/bariatric-surgery-mental-health-emotional-journey" style="color: #2563EB;">Bariatric Surgery and Mental Health: The Emotional Journey</a></li>
+<li><a href="/blog/obesity-and-cancer-risk" style="color: #2563EB;">Obesity and Cancer Risk</a></li>
+<li><a href="/blog/mounjaro-vs-bariatric-surgery-2026" style="color: #2563EB;">Mounjaro vs Bariatric Surgery in 2026</a></li>
+</ul>`
   }
 ];
 

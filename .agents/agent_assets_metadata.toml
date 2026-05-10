@@ -120,3 +120,15 @@ id = "6W5i0PeuU0rUr5lRN5llB"
 uri = "file://attached_assets/generated_images/blog-revision-surgery.png"
 type = "image"
 title = "generated_image"
+
+[[generated]]
+id = "4a9_xVYs2UQhWL7CgNXCF"
+uri = "file://attached_assets/generated_images/blog-obesity-perceptions-community.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "5szOHufegUHLNO_2ZwkSQ"
+uri = "file://attached_assets/generated_images/blog-obesity-doctor-consultation.png"
+type = "image"
+title = "generated_image"
