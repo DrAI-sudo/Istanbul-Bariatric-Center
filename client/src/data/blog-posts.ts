@@ -6382,6 +6382,9 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <h2>How ESG Is Performed at Istanbul Bariatric Center</h2>
+
+<img loading="lazy" src="/blog-esg-nbsr-anatomy.webp" alt="3D medical illustration of stomach after Endoscopic Sleeve Gastroplasty (ESG) showing the sutured tubular shape created without removing any tissue" class="w-full rounded-lg my-6" />
+
 <p>We have been performing ESG with the Apollo OverStitch device since the procedure's early UK and European adoption, and Dr Murat Ustun was among the first surgeons in Turkey to deliver it routinely. Every ESG at our JCI-accredited hospital includes:</p>
 <ul>
 <li>Pre-operative MDT review with surgeon, dietitian and where needed psychologist</li>
