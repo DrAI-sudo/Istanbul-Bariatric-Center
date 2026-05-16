@@ -6275,6 +6275,160 @@ export const blogPosts: BlogPost[] = [
 <li><a href="/blog/obesity-and-cancer-risk" style="color: #2563EB;">Obesity and Cancer Risk</a></li>
 <li><a href="/blog/mounjaro-vs-bariatric-surgery-2026" style="color: #2563EB;">Mounjaro vs Bariatric Surgery in 2026</a></li>
 </ul>`
+  },
+  {
+    slug: "esg-nbsr-uk-registry-2026",
+    title: "ESG Joins the UK National Bariatric Surgery Registry: What It Means for Patients in 2026",
+    date: "May 16, 2026",
+    category: "Medical News",
+    excerpt: "The British Obesity & Metabolic Specialist Society (BOMSS) has added Endoscopic Sleeve Gastroplasty (ESG) to the UK's National Bariatric Surgery Registry. Here is what this 2026 milestone means for safety data, NHS access, 10-year outcomes and patient choice.",
+    image: "/blog-esg-nbsr-registry-2026.webp",
+    content: `<h2>ESG Joins the UK National Bariatric Surgery Registry: What It Means for Patients in 2026</h2>
+<p>In a significant step for the credibility and oversight of non-surgical weight loss procedures, the British Obesity & Metabolic Specialist Society (BOMSS) has confirmed that Endoscopic Sleeve Gastroplasty (ESG) data will now be incorporated into the UK's National Bariatric Surgery Registry (NBSR). Two leading UK specialists — Mr Omar Khan (Chair of the NBSR Committee) and Mr Jamie Kelly (who has performed over 500 ESG procedures) — recently explained why this matters, how ESG fits into the modern obesity care spectrum and what the 10-year evidence base now shows. This guide unpacks the announcement and what it means if you are considering ESG in 2026.</p>
+
+<img loading="lazy" src="/blog-esg-nbsr-registry-2026.webp" alt="Endoscopic Sleeve Gastroplasty (ESG) procedure — endoscopic view of stomach being sutured during ESG" class="w-full rounded-lg my-6" />
+
+<div style="background: linear-gradient(135deg, #EFF6FF, #DBEAFE); border-radius: 12px; padding: 24px; margin: 24px 0;">
+<p style="font-weight: 700; font-size: 1.1em; margin-bottom: 8px;">In This Article</p>
+<ul style="margin: 0; padding-left: 20px;">
+<li>What the NBSR is and why ESG inclusion matters</li>
+<li>Where ESG sits in the 2026 obesity treatment spectrum</li>
+<li>10-year outcomes data for ESG</li>
+<li>Safety: ESG vs sleeve gastrectomy</li>
+<li>How ESG actually improves reflux</li>
+<li>NICE guidance, NHS access and cost-effectiveness</li>
+<li>Who is the right candidate for ESG?</li>
+<li>How ESG is performed at Istanbul Bariatric Center</li>
+<li>Frequently asked questions</li>
+</ul>
+</div>
+
+<h2>What Is the NBSR — and Why Does ESG Inclusion Matter?</h2>
+<p>The National Bariatric Surgery Registry was established in 2008 as a voluntary audit tool and became mandatory for all NHS bariatric cases in 2013. Since then it has produced the annual Consultant Outcome Publication, showing transparent outcomes for every individual consultant and unit. Initially it tracked gastric bands, sleeve, bypass and BPD/DS; over time it has expanded to include gastric balloons and one-anastomosis gastric bypass.</p>
+<p>Adding ESG to the registry is significant because it formally moves the procedure out of the "newer, niche, mostly private" category and into the mainstream UK obesity-care evidence base — alongside surgical procedures that have been monitored for decades. As Mr Khan explains, the change also reflects the renaming of BOMSS into a metabolic specialist society, recognising that gastroenterologists, not just surgeons, perform many of these procedures.</p>
+<p>The ESG dataset will record patient demographics, procedure volumes, weight loss outcomes, complications and detailed quality-of-life information — the latter being something traditional procedures have far less of.</p>
+
+<h2>Where ESG Sits in the 2026 Obesity Treatment Spectrum</h2>
+<p>Both specialists made the same point: in the era of GLP-1 medications, the old "either surgery or nothing" mindset no longer holds. ESG fits clearly in the modern continuum of care:</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left;">Intervention</th>
+<th style="padding: 12px 16px; text-align: center;">Invasiveness</th>
+<th style="padding: 12px 16px; text-align: center;">Typical weight loss</th>
+<th style="padding: 12px 16px; text-align: center;">Reversible?</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px; font-weight: 700;">Diet & exercise</td><td style="padding: 12px 16px; text-align: center;">None</td><td style="padding: 12px 16px; text-align: center;">3–8% TBWL</td><td style="padding: 12px 16px; text-align: center;">Yes</td></tr>
+<tr><td style="padding: 12px 16px; font-weight: 700;">GLP-1 medication (Mounjaro/Wegovy)</td><td style="padding: 12px 16px; text-align: center;">Injection</td><td style="padding: 12px 16px; text-align: center;">15–22% TBWL</td><td style="padding: 12px 16px; text-align: center;">Yes (regain on stop)</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px; font-weight: 700;">ESG (Endoscopic)</td><td style="padding: 12px 16px; text-align: center;">No incisions</td><td style="padding: 12px 16px; text-align: center;">13–25% TBWL</td><td style="padding: 12px 16px; text-align: center;">Largely yes</td></tr>
+<tr><td style="padding: 12px 16px; font-weight: 700;">Gastric Sleeve</td><td style="padding: 12px 16px; text-align: center;">Laparoscopic</td><td style="padding: 12px 16px; text-align: center;">25–30% TBWL</td><td style="padding: 12px 16px; text-align: center;">No</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px; font-weight: 700;">Gastric Bypass</td><td style="padding: 12px 16px; text-align: center;">Laparoscopic</td><td style="padding: 12px 16px; text-align: center;">30–35% TBWL</td><td style="padding: 12px 16px; text-align: center;">No</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Mr Khan describes ESG as part of a "risk-reward spectrum" — fitting between medication and surgery and particularly valuable for patients who are intolerant of GLP-1s, who do not want major surgery, or who need revision after a previous procedure.</p>
+
+<h2>10-Year Outcomes: The Long-Term Evidence Is Now In</h2>
+<p>One of the biggest historic criticisms of ESG was the absence of long-term data. That has changed. A 2024 paper by Lahooti et al. (American Journal of Gastroenterology) reported on patients ten years post-ESG and concluded that the procedure is <strong>safe, effective and delivers durable long-term results for up to ten years</strong>. There are now over 17,000 peer-reviewed articles on ESG — what Mr Kelly calls "a huge irrefutable body of evidence."</p>
+<p>This long-term durability is one of the most important reasons NBSR inclusion was timed for now: the procedure has graduated from "promising" to "established."</p>
+
+<h2>Safety: ESG vs Sleeve Gastrectomy</h2>
+<p>Direct safety comparisons are where ESG's profile stands out most clearly:</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left;">Safety metric</th>
+<th style="padding: 12px 16px; text-align: center;">Sleeve Gastrectomy</th>
+<th style="padding: 12px 16px; text-align: center;">ESG</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px; font-weight: 700;">Return to theatre (first 2 weeks)</td><td style="padding: 12px 16px; text-align: center;">0.5–1%</td><td style="padding: 12px 16px; text-align: center;">&lt;0.01%</td></tr>
+<tr><td style="padding: 12px 16px; font-weight: 700;">Organ damage (gallbladder, etc.)</td><td style="padding: 12px 16px; text-align: center;">Rare</td><td style="padding: 12px 16px; text-align: center;">3 cases in &gt;70,000 procedures</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px; font-weight: 700;">Long-term nutritional deficiencies</td><td style="padding: 12px 16px; text-align: center;">Possible (B12, iron, vitamin D)</td><td style="padding: 12px 16px; text-align: center;">Not typical — no lifelong supplements</td></tr>
+<tr><td style="padding: 12px 16px; font-weight: 700;">Organ removed</td><td style="padding: 12px 16px; text-align: center;">Yes (75–80% of stomach)</td><td style="padding: 12px 16px; text-align: center;">No — organ preserving</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px; font-weight: 700;">Reversibility</td><td style="padding: 12px 16px; text-align: center;">No</td><td style="padding: 12px 16px; text-align: center;">Largely yes</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>The other comparison worth noting: in GLP-1 trials, serious adverse event rates are typically 4–9%, versus 1–2% for ESG. And many GLP-1 patients discontinue because of side effects, leaving them needing another option.</p>
+
+<h2>How ESG Actually Improves Reflux</h2>
+<p>One of the most counterintuitive findings: where laparoscopic sleeve gastrectomy is known to <em>cause</em> debilitating gastro-oesophageal reflux in many patients, <strong>ESG appears to improve reflux</strong>. Mr Kelly explained the mechanism: manometric studies show ESG increases oesophageal length by about 3 cm by shortening the stomach and pulling the oesophagus back into the abdominal cavity. This re-establishes the angle of His and contributes to better reflux control. Small hiatus hernias often reduce naturally during the procedure.</p>
+<p>For patients with reflux or those worried about developing it, this is a meaningful clinical advantage of ESG over surgical sleeve.</p>
+
+<h2>NICE Guidance, NHS Access and Cost-Effectiveness</h2>
+<p>In February 2024, the UK's National Institute for Health and Care Excellence (NICE) declared ESG (using the OverStitch device) a safe and effective minimally invasive treatment for obesity — making the UK the first country to endorse ESG as a publicly-funded procedure. NICE also lowered the minimum BMI for ESG to 27.5 in certain at-risk groups.</p>
+<p>Kelly et al. (Int J Obes, 2023) published the first NHS cost-effectiveness analysis of ESG vs lifestyle modification alone in adults with class II obesity (BMI 35.0–39.9). The conclusion: ESG is highly cost-effective and could be routinely delivered as a day case — a valuable addition to limited NHS bariatric capacity.</p>
+
+<h2>Who Is the Right Candidate for ESG?</h2>
+<ul>
+<li>BMI 27.5+ (in at-risk groups) up to BMI ~50</li>
+<li>Patients who are intolerant of, or do not wish to remain on, GLP-1 medications long term</li>
+<li>Patients who want a non-surgical, organ-preserving option</li>
+<li>Adolescents in selected cases (safety profile makes this possible)</li>
+<li>Patients with a "hostile abdomen" who are unsuitable for laparoscopic surgery</li>
+<li>Patients post-transplant where weight gain is threatening graft function</li>
+<li>Revisional cases (e.g. dumping syndrome or weight recurrence after bypass)</li>
+<li>Super-obese patients as a bridge to surgery — some lose enough that surgery is no longer needed</li>
+</ul>
+
+<h2>How ESG Is Performed at Istanbul Bariatric Center</h2>
+<p>We have been performing ESG with the Apollo OverStitch device since the procedure's early UK and European adoption, and Dr Murat Ustun was among the first surgeons in Turkey to deliver it routinely. Every ESG at our JCI-accredited hospital includes:</p>
+<ul>
+<li>Pre-operative MDT review with surgeon, dietitian and where needed psychologist</li>
+<li>Prophylactic antibiotics (a lesson learned early in ESG history)</li>
+<li>Proctored learning curve completion for any team member new to the procedure</li>
+<li>12 months of structured online aftercare with a registered dietitian</li>
+<li>Day-case or 1-night-stay protocol</li>
+</ul>
+<p>For UK patients, our 2026 ESG package is materially less expensive than private UK provision while delivering equivalent clinical care — useful while NHS capacity scales up.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is ESG the same as a gastric sleeve?</h3>
+<p>No. A gastric sleeve surgically removes 75–80% of the stomach. ESG uses an endoscope to suture the stomach into a tube shape — nothing is removed, there are no incisions, and the procedure is largely reversible.</p>
+
+<h3>How much weight can I lose with ESG?</h3>
+<p>Published data show 13–25% total body weight loss, with durable results out to 10 years. Outcomes depend on starting BMI, aftercare and lifestyle compliance.</p>
+
+<h3>Is ESG covered by the NHS?</h3>
+<p>Since the 2024 NICE guidance, ESG is endorsed as a publicly-funded option, but commissioning and capacity vary by region. Many UK patients still pay privately or travel abroad while NHS provision scales.</p>
+
+<h3>Does ESG cause nutritional deficiencies?</h3>
+<p>Generally no. Because the procedure is organ-preserving and does not bypass the small intestine, patients typically do not need lifelong B12 injections or daily multivitamins (a multivitamin for the first 6 months is still sensible).</p>
+
+<h3>Does ESG make reflux worse?</h3>
+<p>Unlike surgical sleeve, ESG actually tends to improve reflux. It lengthens the intra-abdominal oesophagus by about 3 cm and can reduce small hiatus hernias.</p>
+
+<h3>Will my ESG data be added to the NBSR if I have the procedure in Turkey?</h3>
+<p>The NBSR captures UK-based procedures. International cases are not included, but Istanbul Bariatric Center maintains its own outcome registry with over 8,000 procedures and shares anonymised data with international peer-reviewed studies.</p>
+
+<h3>How long does the ESG procedure take?</h3>
+<p>The endoscopic procedure itself typically takes 45–75 minutes under general anaesthetic. Most patients go home the same day or after a single overnight stay.</p>
+
+<div style="background: linear-gradient(135deg, #1E40AF, #3B82F6); color: white; border-radius: 12px; padding: 28px; margin: 32px 0; text-align: center;">
+<h3 style="color: white; margin-top: 0;">Considering ESG in 2026?</h3>
+<p style="margin: 12px 0 20px;">Get a written assessment from our endoscopic team within 48 hours, including whether ESG, GLP-1 or surgery is the right fit for your BMI, health profile and goals — with full Istanbul pricing and timing.</p>
+<a href="/treatments/esg" style="display: inline-block; background: white; color: #1E40AF; padding: 14px 28px; border-radius: 8px; font-weight: 700; text-decoration: none;">Explore ESG at Istanbul Bariatric Center →</a>
+</div>
+
+<p><strong>Source:</strong> <a href="https://www.bariatricnews.net/post/improving-our-understanding-of-endoscopic-sleeve-gastroplasty" rel="nofollow noopener" style="color: #2563EB;">Bariatric News — Improving Our Understanding of Endoscopic Sleeve Gastroplasty</a> (interview with Mr Omar Khan and Mr Jamie Kelly).</p>
+
+<p><strong>Related reading:</strong></p>
+<ul>
+<li><a href="/blog/esg-tore-endoscopic-weight-loss-evidence-2026" style="color: #2563EB;">ESG & TORe 2026: Clinical Evidence for Endoscopic Weight Loss</a></li>
+<li><a href="/blog/endoscopic-sleeve-gastroplasty-long-term-results" style="color: #2563EB;">ESG Long-Term Results</a></li>
+<li><a href="/blog/gastric-balloon-vs-gastric-sleeve-which-is-right" style="color: #2563EB;">Gastric Balloon vs Gastric Sleeve</a></li>
+</ul>`
   }
 ];
 
