@@ -146,6 +146,7 @@ export async function registerRoutes(
       "/duodenal-switch": { priority: "0.8", changefreq: "monthly" },
       "/transit-bipartition": { priority: "0.8", changefreq: "monthly" },
       "/esg": { priority: "0.9", changefreq: "monthly" },
+      "/best-endosleeve-clinic-istanbul": { priority: "0.9", changefreq: "monthly" },
       "/esg/uk": { priority: "0.9", changefreq: "monthly" },
       "/esg/de": { priority: "0.9", changefreq: "monthly" },
       "/esg/fr": { priority: "0.9", changefreq: "monthly" },

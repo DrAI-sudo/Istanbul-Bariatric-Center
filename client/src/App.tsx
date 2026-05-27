@@ -23,6 +23,7 @@ const GastricBalloon = lazy(() => import("@/pages/gastric-balloon"));
 const DuodenalSwitch = lazy(() => import("@/pages/duodenal-switch"));
 const TransitBipartition = lazy(() => import("@/pages/transit-bipartition"));
 const ESG = lazy(() => import("@/pages/esg"));
+const BestEndosleeveClinic = lazy(() => import("@/pages/best-endosleeve-clinic"));
 const ESGUK = lazy(() => import("@/pages/esg-uk"));
 const ESGDE = lazy(() => import("@/pages/esg-de"));
 const ESGFR = lazy(() => import("@/pages/esg-fr"));
@@ -92,6 +93,7 @@ function Router() {
           <Route path="/duodenal-switch" component={DuodenalSwitch} />
           <Route path="/transit-bipartition" component={TransitBipartition} />
           <Route path="/esg" component={ESG} />
+          <Route path="/best-endosleeve-clinic-istanbul" component={BestEndosleeveClinic} />
           <Route path="/esg/uk" component={ESGUK} />
           <Route path="/esg/de" component={ESGDE} />
           <Route path="/esg/fr" component={ESGFR} />

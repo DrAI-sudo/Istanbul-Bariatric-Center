@@ -21,6 +21,7 @@ export const VALID_STATIC_ROUTES = [
   "/duodenal-switch",
   "/transit-bipartition",
   "/esg",
+  "/best-endosleeve-clinic-istanbul",
   "/esg/uk",
   "/esg/de",
   "/esg/fr",
