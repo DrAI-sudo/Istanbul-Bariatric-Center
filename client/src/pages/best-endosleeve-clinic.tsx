@@ -2,8 +2,8 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Check, Star, Award, Stethoscope, Building2, Users } from "lucide-react";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
+import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
 
 const reviews = [
   { name: "Sarah T.", city: "London, UK", rating: 5, text: "Endosleeve with Dr Ustun in March 2026 — lost 22 kg in 7 months with no regain. The all-inclusive package was exactly as described, JCI hospital was spotless, and the UK dietitian follow-up has been brilliant." },
