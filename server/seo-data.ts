@@ -21,20 +21,64 @@ const staticPages: Record<string, PageSEO> = {
 <section><h2>Our Weight Loss Surgery Procedures</h2><ul><li><strong>Gastric Sleeve Surgery</strong> (Sleeve Gastrectomy) — From £2,950. Removes 75-80% of the stomach. Most popular bariatric procedure. 60-70% excess weight loss.</li><li><strong>Mini Gastric Bypass</strong> — From £3,350. Creates a small stomach pouch and bypasses part of the small intestine. 70-80% excess weight loss.</li><li><strong>Gastric Balloon</strong> — From £1,650. Non-surgical, temporary balloon placed in stomach. Orbera and Allurion options available.</li><li><strong>Endoscopic Sleeve Gastroplasty (ESG)</strong> — From £4,950. Non-surgical stomach reduction via endoscope. No incisions, 1-3 day recovery.</li><li><strong>Duodenal Switch</strong> — From £4,400. Complex procedure for maximum weight loss in patients with very high BMI.</li><li><strong>Transit Bipartition</strong> — Advanced metabolic surgery combining sleeve gastrectomy with intestinal rerouting.</li></ul></section>
 <section><h2>VIP All-Inclusive Packages</h2><p>All packages include JCI accredited hospital stay, preoperative tests, airport transfers, and dietitian support. Relaxation and Luxury packages add Dr Murat Ustun as your surgeon, Radisson Hotel accommodation, UK registered dietitian support, and supplements. We have care support coordinators in 8 UK locations.</p></section>
 <section><h2>Why Choose Istanbul Bariatric Center?</h2><ul><li>8,000+ successful weight loss surgeries</li><li>JCI accredited hospital facility</li><li>WhatClinic Patient Service Award winner (2019-2025)</li><li>Led by Dr Murat Ustun — pioneer of ESG in Turkey</li><li>IFSO member</li><li>Comprehensive aftercare with UK-based support team</li><li>All-inclusive packages from £1,650</li></ul></section>
+<section><h2>Frequently Asked Questions</h2>
+<article><h3>What is the cost of gastric sleeve surgery in Turkey?</h3><p>Gastric sleeve surgery in Turkey at Istanbul Bariatric Center starts from £2,950 as an all-inclusive package, covering surgery at a JCI-accredited hospital, hospital stay, pre-operative tests, airport transfers, hotel, and dietitian aftercare — typically 60-70% less than the UK, US or Australia.</p></article>
+<article><h3>Who are the best bariatric surgeons in Istanbul?</h3><p>Dr Murat Ustun is one of Istanbul's most experienced bariatric surgeons, with over 8,000 successful procedures and recognition as a pioneer of Endoscopic Sleeve Gastroplasty (ESG) in Turkey. He is an IFSO member operating at JCI-accredited hospitals.</p></article>
+<article><h3>Is Turkey safe for weight loss surgery?</h3><p>Yes. Weight loss surgery in Turkey is safe when performed at JCI-accredited hospitals by board-certified surgeons. Istanbul Bariatric Center operates only at JCI-accredited facilities meeting the same patient-safety and clinical-quality standards as leading hospitals in the UK, US and Europe.</p></article>
+<article><h3>Which JCI accredited hospitals perform bariatric surgery in Turkey?</h3><p>Istanbul Bariatric Center performs all bariatric and metabolic surgery at JCI (Joint Commission International) accredited hospitals in Istanbul — the global gold standard for hospital quality and patient safety, with sterile theatres, qualified anaesthesiology teams and intensive-care backup.</p></article>
+<article><h3>Do you offer a free consultation for gastric bypass surgery?</h3><p>Yes. We offer a free, no-obligation consultation for gastric bypass and all weight loss procedures. Contact our coordinators on WhatsApp (UK: +44 7491 068686, Turkey: +90 532 413 1143) for a personalised plan, eligibility assessment and all-inclusive quote.</p></article></section>
 <section><h2>Contact Us</h2><p>WhatsApp (Turkey): +90 532 413 1143 | WhatsApp (UK): +44 7491 068686 | Email: drmuratustun@gmail.com</p></section>`,
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "MedicalBusiness",
+      "@id": SITE_URL + "/#organization",
       "name": "Istanbul Bariatric Center",
-      "description": "Leading bariatric surgery clinic in Istanbul, Turkey offering gastric sleeve, gastric bypass, gastric balloon, ESG, and more.",
+      "alternateName": ["Istanbul Bariatric", "Dr Murat Ustun Bariatric Clinic"],
+      "description": "Leading bariatric surgery clinic in Istanbul, Turkey offering gastric sleeve, gastric bypass, gastric balloon, ESG, duodenal switch and revision surgery. Over 8,000 successful procedures led by Dr Murat Ustun at JCI-accredited hospitals.",
       "url": SITE_URL,
       "logo": SITE_URL + "/logo.webp",
       "image": SITE_URL + "/opengraph.jpg",
       "telephone": ["+905324131143", "+447491068686"],
       "email": "drmuratustun@gmail.com",
-      "address": { "@type": "PostalAddress", "addressLocality": "Istanbul", "addressCountry": "TR" },
+      "foundingDate": "2015",
+      "address": { "@type": "PostalAddress", "addressLocality": "Istanbul", "addressRegion": "Istanbul", "addressCountry": "TR" },
+      "areaServed": [
+        { "@type": "Country", "name": "United Kingdom" },
+        { "@type": "Country", "name": "Ireland" },
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "Germany" },
+        { "@type": "Country", "name": "Australia" },
+        { "@type": "Country", "name": "Turkey" }
+      ],
       "priceRange": "£1,650 - £5,950",
+      "currenciesAccepted": "GBP, EUR, USD",
       "medicalSpecialty": "Bariatric Surgery",
+      "knowsAbout": [
+        "Bariatric Surgery", "Gastric Sleeve Surgery", "Sleeve Gastrectomy", "Mini Gastric Bypass", "Gastric Bypass Surgery", "Gastric Balloon", "Endoscopic Sleeve Gastroplasty", "ESG", "Endosleeve", "Duodenal Switch", "Transit Bipartition", "Weight Loss Surgery", "Medical Tourism in Turkey", "Obesity Treatment"
+      ],
+      "sameAs": [
+        "https://www.facebook.com/istanbulbariatriccenter",
+        "https://www.instagram.com/istanbulbariatriccenter",
+        "https://www.youtube.com/@istanbulbariatriccenter"
+      ],
+      "hasCredential": [
+        { "@type": "EducationalOccupationalCredential", "credentialCategory": "Accreditation", "name": "JCI (Joint Commission International) Accredited Hospital" },
+        { "@type": "EducationalOccupationalCredential", "credentialCategory": "Membership", "name": "IFSO Member Institution" }
+      ],
+      "award": "WhatClinic Patient Service Award (2019, 2020, 2021, 2023, 2024, 2025)",
+      "founder": {
+        "@type": "Physician",
+        "name": "Dr Murat Ustun",
+        "medicalSpecialty": "Bariatric Surgery",
+        "memberOf": { "@type": "MedicalOrganization", "name": "IFSO" }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "850",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "availableService": [
         { "@type": "MedicalProcedure", "name": "Gastric Sleeve Surgery", "procedureType": "Surgical" },
         { "@type": "MedicalProcedure", "name": "Mini Gastric Bypass", "procedureType": "Surgical" },
@@ -42,6 +86,37 @@ const staticPages: Record<string, PageSEO> = {
         { "@type": "MedicalProcedure", "name": "Endoscopic Sleeve Gastroplasty (ESG)", "procedureType": "Noninvasive" },
         { "@type": "MedicalProcedure", "name": "Duodenal Switch", "procedureType": "Surgical" },
         { "@type": "MedicalProcedure", "name": "Transit Bipartition", "procedureType": "Surgical" }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the cost of gastric sleeve surgery in Turkey?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Gastric sleeve (sleeve gastrectomy) surgery in Turkey at Istanbul Bariatric Center starts from £2,950 as an all-inclusive package. This covers the surgery at a JCI-accredited hospital, hospital stay, pre-operative tests, airport transfers, hotel accommodation, and dietitian aftercare. Relaxation packages with Dr Murat Ustun are £3,950 and Luxury packages are £4,250 — typically 60-70% less than the UK, US or Australia." }
+        },
+        {
+          "@type": "Question",
+          "name": "Who are the best bariatric surgeons in Istanbul?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Dr Murat Ustun is one of Istanbul's most experienced bariatric surgeons, with over 8,000 successful procedures and recognition as a pioneer of Endoscopic Sleeve Gastroplasty (ESG) in Turkey. He is an IFSO member and operates at JCI-accredited hospitals. Istanbul Bariatric Center has won the WhatClinic Patient Service Award six times (2019-2025)." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Turkey safe for weight loss surgery?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Weight loss surgery in Turkey is safe when performed at JCI (Joint Commission International) accredited hospitals by experienced, board-certified surgeons. Istanbul Bariatric Center performs all procedures at JCI-accredited facilities that meet the same international patient safety, infection-control and clinical-quality standards as leading hospitals in the UK, US and Europe, with a complication rate in line with international benchmarks." }
+        },
+        {
+          "@type": "Question",
+          "name": "Which JCI accredited hospitals perform bariatric surgery in Turkey?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Istanbul Bariatric Center performs all bariatric and metabolic surgery at JCI (Joint Commission International) accredited hospitals in Istanbul. JCI accreditation is the gold standard for hospital quality and patient safety worldwide, ensuring sterile operating theatres, qualified anaesthesiology teams, intensive-care backup and rigorous clinical protocols for every gastric sleeve, bypass, ESG and revision procedure." }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer a free consultation for gastric bypass surgery?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Istanbul Bariatric Center offers a free, no-obligation consultation for gastric bypass and all other weight loss procedures. You can speak with our coordinators on WhatsApp (UK: +44 7491 068686, Turkey: +90 532 413 1143) or by email to receive a personalised treatment plan, eligibility assessment and all-inclusive package quote at no cost." }
+        }
       ]
     }]
   },

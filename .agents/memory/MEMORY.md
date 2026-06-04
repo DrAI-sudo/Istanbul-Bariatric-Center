@@ -1,0 +1,1 @@
+- [SEO SSR injection](seo-ssr-injection.md) — SSR SEO content (h1/jsonLd/FAQ) is injected for all UAs in seo-inject.ts; keep exactly one h1 (seo-content=h1, noscript=h2).

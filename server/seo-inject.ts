@@ -106,7 +106,7 @@ export function injectSEO(html: string, requestPath: string): string {
 
   const crawlableBlock = `
     <div id="seo-content" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">
-      <h2>${escapeHtml(seo.h1)}</h2>
+      <h1>${escapeHtml(seo.h1)}</h1>
       <p>${escapeHtml(seo.bodyExcerpt)}</p>
       ${richContent}
       ${blogPostHTML}
