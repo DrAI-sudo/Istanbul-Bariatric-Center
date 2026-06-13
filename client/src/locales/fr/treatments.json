@@ -60,6 +60,15 @@
     "recovery3to4weeks": "3–4 semaines"
   },
   "packages": {
+    "sleeveUltraEco": {
+      "name": "Sleeve Gastrique Ultra Eco",
+      "features": [
+        "Équipe de chirurgiens expérimentée",
+        "Hôpital Boutique",
+        "Tous les tests et consultations préopératoires",
+        "2 jours d'hospitalisation"
+      ]
+    },
     "sleeveBasic": {
       "name": "Sleeve Gastrique Basique",
       "features": [

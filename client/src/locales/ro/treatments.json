@@ -60,6 +60,15 @@
     "recovery3to4weeks": "3–4 săptămâni"
   },
   "packages": {
+    "sleeveUltraEco": {
+      "name": "Gastric Sleeve Ultra Eco",
+      "features": [
+        "Echipă de chirurgi experimentată",
+        "Spital Boutique",
+        "Toate testele și consultațiile preoperatorii",
+        "2 zile de spitalizare"
+      ]
+    },
     "sleeveBasic": {
       "name": "Gastric Sleeve Basic",
       "features": [

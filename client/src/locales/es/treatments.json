@@ -60,6 +60,15 @@
     "recovery3to4weeks": "3–4 semanas"
   },
   "packages": {
+    "sleeveUltraEco": {
+      "name": "Manga Gástrica Ultra Eco",
+      "features": [
+        "Equipo de cirujanos experimentado",
+        "Hospital Boutique",
+        "Todas las pruebas y consultas preoperatorias",
+        "2 días de hospitalización"
+      ]
+    },
     "sleeveBasic": {
       "name": "Manga Gástrica Básico",
       "features": [

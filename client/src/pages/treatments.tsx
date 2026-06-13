@@ -53,6 +53,7 @@ export default function Treatments({ lang }: { lang?: string }) {
         "followup": "Dietitian support and follow-up consultations",
         "status": "http://schema.org/ActiveActionStatus",
         "offers": [
+          { "@type": "Offer", "name": "Sleeve Gastrectomy Ultra Eco", "price": "2150", "priceCurrency": "GBP", "description": "Experienced Surgeon Team, Boutique Hospital (2 days), All pre-operative tests and consultations" },
           { "@type": "Offer", "name": "Sleeve Gastrectomy Basic", "price": "2950", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, Boutique Hospital (2 days), Airport Pickup, Dietitian Support" },
           { "@type": "Offer", "name": "Sleeve Gastrectomy Relaxation", "price": "3950", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, JCI Hospital (3 days), UK Dietitian" },
           { "@type": "Offer", "name": "Sleeve Gastrectomy Luxury", "price": "4250", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, Radisson Hotel, UK Dietitian, Supplements" }
@@ -134,6 +135,12 @@ export default function Treatments({ lang }: { lang?: string }) {
   };
 
   const packages = [
+    {
+      name: t('packages.sleeveUltraEco.name'),
+      price: "£2,150",
+      color: "blue",
+      features: t('packages.sleeveUltraEco.features', { returnObjects: true }) as string[]
+    },
     {
       name: t('packages.sleeveBasic.name'),
       price: "£2,950",
@@ -692,7 +699,7 @@ export default function Treatments({ lang }: { lang?: string }) {
                       <p className="text-slate-600">{t('main.sleevePackageDesc')}</p>
                     </div>
 
-                    <div className="grid md:grid-cols-3 gap-8">
+                    <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
                       {packages.map((pkg, idx) => {
                         const colorStyles = {
                           blue: { border: 'border-blue-500', bg: 'bg-blue-50', price: 'text-blue-600', check: 'bg-blue-100', checkIcon: 'text-blue-600', btn: 'bg-blue-600 hover:bg-blue-700', badge: 'bg-blue-600' },

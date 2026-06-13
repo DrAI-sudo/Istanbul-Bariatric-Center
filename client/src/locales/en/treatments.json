@@ -60,6 +60,15 @@
     "recovery3to4weeks": "3–4 weeks"
   },
   "packages": {
+    "sleeveUltraEco": {
+      "name": "Sleeve Gastrectomy Ultra Eco",
+      "features": [
+        "Experienced Surgeon Team",
+        "Boutique Hospital",
+        "All pre-operative tests and consultations",
+        "2 days of hospitalisation"
+      ]
+    },
     "sleeveBasic": {
       "name": "Sleeve Gastrectomy Basic",
       "features": [

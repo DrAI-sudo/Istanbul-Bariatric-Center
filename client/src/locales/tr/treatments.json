@@ -60,6 +60,15 @@
     "recovery3to4weeks": "3–4 hafta"
   },
   "packages": {
+    "sleeveUltraEco": {
+      "name": "Tüp Mide Ultra Eko",
+      "features": [
+        "Deneyimli Cerrah Ekibi",
+        "Butik Hastane",
+        "Tüm ameliyat öncesi testler ve konsültasyonlar",
+        "2 gün hastane konaklaması"
+      ]
+    },
     "sleeveBasic": {
       "name": "Tüp Mide Temel",
       "features": [

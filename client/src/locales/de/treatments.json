@@ -60,6 +60,15 @@
     "recovery3to4weeks": "3–4 Wochen"
   },
   "packages": {
+    "sleeveUltraEco": {
+      "name": "Schlauchmagen Ultra Eco",
+      "features": [
+        "Erfahrenes Chirurgenteam",
+        "Boutique-Krankenhaus",
+        "Alle präoperativen Tests und Konsultationen",
+        "2 Tage Krankenhausaufenthalt"
+      ]
+    },
     "sleeveBasic": {
       "name": "Schlauchmagen Basis",
       "features": [
