@@ -53,7 +53,7 @@ export default function Treatments({ lang }: { lang?: string }) {
         "followup": "Dietitian support and follow-up consultations",
         "status": "http://schema.org/ActiveActionStatus",
         "offers": [
-          { "@type": "Offer", "name": "Sleeve Gastrectomy Basic", "price": "2950", "priceCurrency": "GBP", "description": "JCI Accredited Hospital (2 days), Airport Pickup, Dietitian Support" },
+          { "@type": "Offer", "name": "Sleeve Gastrectomy Basic", "price": "2950", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, Boutique Hospital (2 days), Airport Pickup, Dietitian Support" },
           { "@type": "Offer", "name": "Sleeve Gastrectomy Relaxation", "price": "3950", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, JCI Hospital (3 days), UK Dietitian" },
           { "@type": "Offer", "name": "Sleeve Gastrectomy Luxury", "price": "4250", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, Radisson Hotel, UK Dietitian, Supplements" }
         ]
