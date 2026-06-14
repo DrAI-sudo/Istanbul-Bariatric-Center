@@ -64,12 +64,46 @@ export function injectSEO(html: string, requestPath: string): string {
     result = result.replace("</head>", `  ${canonicalTag}\n  </head>`);
   }
 
-  if (seo.jsonLd && seo.jsonLd.length > 0) {
-    const jsonLdScripts = seo.jsonLd
-      .map((schema) => `<script type="application/ld+json">${JSON.stringify(schema)}</script>`)
-      .join("\n    ");
-    result = result.replace("</head>", `  ${jsonLdScripts}\n  </head>`);
-  }
+  const baselineSchemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://istanbulbariatriccenter.com/#website",
+      "name": "Istanbul Bariatric Center",
+      "url": "https://istanbulbariatriccenter.com",
+      "description": "World-class bariatric surgery in Istanbul, Turkey. Gastric sleeve, bypass, and weight loss procedures with Dr. Murat Ustun.",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://istanbulbariatriccenter.com/#organization",
+        "name": "Istanbul Bariatric Center"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "@id": "https://istanbulbariatriccenter.com/#organization",
+      "name": "Istanbul Bariatric Center",
+      "url": "https://istanbulbariatriccenter.com",
+      "logo": "https://istanbulbariatriccenter.com/logo.webp",
+      "telephone": ["+905324131143", "+447491068686"],
+      "email": "drmuratustun@gmail.com",
+      "address": { "@type": "PostalAddress", "addressLocality": "Istanbul", "addressCountry": "TR" },
+      "medicalSpecialty": "Bariatric Surgery",
+      "priceRange": "£1,650 - £5,950",
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5" },
+      "sameAs": [
+        "https://www.facebook.com/istanbulbariatriccenter",
+        "https://www.instagram.com/istanbulbariatriccenter",
+        "https://www.youtube.com/@istanbulbariatriccenter"
+      ]
+    }
+  ];
+
+  const allSchemas = [...baselineSchemas, ...(seo.jsonLd || [])];
+  const jsonLdScripts = allSchemas
+    .map((schema) => `<script type="application/ld+json">${JSON.stringify(schema)}</script>`)
+    .join("\n    ");
+  result = result.replace("</head>", `  ${jsonLdScripts}\n  </head>`);
 
   const navHTML = getNavigationHTML();
   const blogListHTML = getBlogListHTML();

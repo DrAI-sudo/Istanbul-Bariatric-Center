@@ -149,6 +149,14 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Our Weight Loss Surgery Treatments",
     bodyExcerpt: "Istanbul Bariatric Center offers a comprehensive range of bariatric and metabolic surgery procedures including Gastric Sleeve (VSG), Mini Gastric Bypass (MGB), Gastric Balloon, Endoscopic Sleeve Gastroplasty (ESG), Transit Bipartition, Duodenal Switch, and Post-Bariatric Body Contouring. Each procedure is tailored to the patient's BMI, health conditions, and weight loss goals.",
     canonical: SITE_URL + "/treatments",
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Weight Loss Surgery Treatments", "item": SITE_URL + "/treatments" }
+      ]
+    }],
     richContent: `<section><h2>Compare All Weight Loss Surgery Procedures</h2>
 <article><h3>Gastric Sleeve Surgery (Sleeve Gastrectomy)</h3><p>Removes approximately 75-80% of the stomach, creating a smaller tube-shaped stomach. Most popular bariatric procedure worldwide with 60-70% excess weight loss. Ideal for BMI 35+.</p><p>Pricing: Basic £2,950 | Relaxation £3,950 | Luxury £4,250</p></article>
 <article><h3>Mini Gastric Bypass (One Anastomosis Gastric Bypass)</h3><p>Creates a small stomach pouch and connects it directly to the small intestine, combining restrictive and malabsorptive mechanisms. 70-80% excess weight loss. Ideal for BMI 40+ or metabolic conditions.</p><p>Pricing: Basic £3,350 | Relaxation £4,350 | Luxury £4,650</p></article>
@@ -165,6 +173,14 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Kilo Verme Cerrahisi Tedavilerimiz",
     bodyExcerpt: "Istanbul Bariatric Center, Mide Kelepçesi (VSG), Mini Mide Baypas (MGB), Mide Balonu, Endoskopik Mide Gastroplasti (ESG), Transit Bipartisyon, Duodenal Switch ve Post-Bariyatrik Vücut Şekillendirme dahil kapsamlı bir bariyatrik ve metabolik cerrahi yelpazesi sunmaktadır.",
     canonical: SITE_URL + "/treatments/tr",
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Tedaviler", "item": SITE_URL + "/treatments/tr" }
+      ]
+    }],
     richContent: `<section><h2>Tüm Kilo Verme Cerrahisi Prosedürlerini Karşılaştırın</h2>
 <article><h3>Mide Kelepçesi Cerrahisi (Sleeve Gastrektomi)</h3><p>Midenin yaklaşık %75-80'ini çıkararak daha küçük bir tüp şeklinde mide oluşturur. Dünyada en popüler bariyatrik prosedür olup, %60-70 fazla kilo kaybı sağlar. BMI 35+ için idealdir.</p><p>Fiyatlandırma: Temel £2,950 | Rahatlama £3,950 | Lüks £4,250</p></article>
 <article><h3>Mini Mide Baypas (Tek Anastomoz Mide Baypas)</h3><p>Küçük bir mide poşu oluşturur ve bunu doğrudan ince bağırsağa bağlar, kısıtlayıcı ve malabsorptif mekanizmaları birleştirir. %70-80 fazla kilo kaybı sağlar. BMI 40+ veya metabolik durumlar için idealdir.</p><p>Fiyatlandırma: Temel £3,350 | Rahatlama £4,350 | Lüks £4,650</p></article>
@@ -181,6 +197,14 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Nuestros Tratamientos de Cirugía para Pérdida de Peso",
     bodyExcerpt: "Istanbul Bariatric Center ofrece una gama completa de procedimientos de cirugía bariátrica y metabólica, incluyendo Manga Gástrica (VSG), Mini Bypass Gástrico (MGB), Globo Gástrico, ESG, Bipartición Tránsito, Derivación Duodenal y Contorno Corporal Post-Bariátrico.",
     canonical: SITE_URL + "/treatments/es",
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Tratamientos", "item": SITE_URL + "/treatments/es" }
+      ]
+    }],
     richContent: `<section><h2>Compara Todos los Procedimientos de Cirugía para Pérdida de Peso</h2>
 <article><h3>Cirugía de Manga Gástrica (Gastrectomía en Manga)</h3><p>Elimina aproximadamente el 75-80% del estómago, creando un estómago más pequeño en forma de tubo. Procedimiento bariátrico más popular en todo el mundo con una pérdida de peso del 60-70%. Ideal para BMI 35+.</p><p>Precios: Básico £2,950 | Relajación £3,950 | Lujo £4,250</p></article>
 <article><h3>Mini Bypass Gástrico (Bypass Gástrico de Una Anastomosis)</h3><p>Crea un pequeño saco gástrico y lo conecta directamente al intestino delgado, combinando mecanismos restrictivos y malabsortivos. 70-80% de pérdida de peso excesivo. Ideal para BMI 40+ o condiciones metabólicas.</p><p>Precios: Básico £3,350 | Relajación £4,350 | Lujo £4,650</p></article>
@@ -197,6 +221,14 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Unsere Gewichtsverlust-Chirurgie Behandlungen",
     bodyExcerpt: "Das Istanbul Bariatric Center bietet ein umfassendes Spektrum an bariatrischen und metabolischen chirurgischen Verfahren, einschließlich Magenbypass (VSG), Mini-Magenbypass (MGB), Magenballon, Endoskopische Magen-Gastroplastik (ESG), Transit-Bipartition, Duodenal-Switch und post-bariatrische Körperformung.",
     canonical: SITE_URL + "/treatments/de",
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Startseite", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Behandlungen", "item": SITE_URL + "/treatments/de" }
+      ]
+    }],
     richContent: `<section><h2>Vergleichen Sie Alle Gewichtsverlust-Chirurgie Verfahren</h2>
 <article><h3>Magenbypass-Chirurgie (Sleeve Gastrektomie)</h3><p>Entfernt etwa 75-80% des Magens und schafft einen kleineren, röhrenförmigen Magen. Beliebtestes bariatrisches Verfahren weltweit mit 60-70% Gewichtsverlust. Ideal für BMI 35+.</p><p>Preise: Basis £2,950 | Entspannung £3,950 | Luxus £4,250</p></article>
 <article><h3>Mini-Magenbypass (One Anastomosis Gastric Bypass)</h3><p>Erzeugt eine kleine Magenblase und verbindet sie direkt mit dem Dünndarm, kombiniert restriktive und malabsorptive Mechanismen. 70-80% Gewichtsverlust. Ideal für BMI 40+ oder metabolische Erkrankungen.</p><p>Preise: Basis £3,350 | Entspannung £4,350 | Luxus £4,650</p></article>
@@ -213,6 +245,14 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Nos Traitements de Chirurgie Bariatrique",
     bodyExcerpt: "Istanbul Bariatric Center propose une gamme complète de procédures de chirurgie bariatrique et métabolique, y compris Sleeve Gastrique (VSG), Mini Bypass Gastrique (MGB), Ballon Gastrique, ESG, Bipartition Transit, Switch Duodénal, et Contouring Corporel Post-Bariatrique.",
     canonical: SITE_URL + "/treatments/fr",
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Accueil", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Traitements", "item": SITE_URL + "/treatments/fr" }
+      ]
+    }],
     richContent: `<section><h2>Comparer Toutes les Procédures de Chirurgie Bariatrique</h2>
 <article><h3>Chirurgie de Sleeve Gastrique (Gastrectomie en Manchon)</h3><p>Retire environ 75-80% de l'estomac, créant un estomac en forme de tube plus petit. Procédure bariatrique la plus populaire au monde avec une perte de poids excédentaire de 60-70%. Idéal pour un IMC de 35+.</p><p>Tarification : Basique £2,950 | Détente £3,950 | Luxe £4,250</p></article>
 <article><h3>Mini Bypass Gastrique (Bypass Gastrique à Une Anastomose)</h3><p>Crée une petite poche gastrique et la connecte directement à l'intestin grêle, combinant des mécanismes restrictifs et malabsorptifs. 70-80% de perte de poids excédentaire. Idéal pour un IMC de 40+ ou des conditions métaboliques.</p><p>Tarification : Basique £3,350 | Détente £4,350 | Luxe £4,650</p></article>
@@ -229,6 +269,14 @@ const staticPages: Record<string, PageSEO> = {
     h1: "I Nostri Trattamenti di Chirurgia per la Perdita di Peso",
     bodyExcerpt: "Istanbul Bariatric Center offre una gamma completa di procedure di chirurgia bariatrica e metabolica, inclusi Sleeve Gastrico (VSG), Mini Bypass Gastrico (MGB), Pallone Gastrico, Gastroplastica Endoscopica a Manica (ESG), Bipartizione Transitiva, Switch Duodenale e Contouring Corporeo Post-Bariatrico.",
     canonical: SITE_URL + "/treatments/it",
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Trattamenti", "item": SITE_URL + "/treatments/it" }
+      ]
+    }],
     richContent: `<section><h2>Confronta Tutte le Procedure di Chirurgia per la Perdita di Peso</h2>
 <article><h3>Chirurgia Sleeve Gastrico (Gastrectomia a Manica)</h3><p>Rimuove circa il 75-80% dello stomaco, creando uno stomaco a forma di tubo più piccolo. Procedura bariatrica più popolare al mondo con una perdita di peso in eccesso del 60-70%. Ideale per BMI 35+.</p><p>Prezzi: Base £2,950 | Relax £3,950 | Lusso £4,250</p></article>
 <article><h3>Mini Bypass Gastrico (Bypass Gastrico con Un'Anastomosi)</h3><p>Crea una piccola sacca gastrica e la collega direttamente all'intestino tenue, combinando meccanismi restrittivi e malassorbitivi. 70-80% di perdita di peso in eccesso. Ideale per BMI 40+ o condizioni metaboliche.</p><p>Prezzi: Base £3,350 | Relax £4,350 | Lusso £4,650</p></article>
@@ -245,6 +293,14 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Tratamentul nostru de Chirurgie pentru Pierderea în Greutate",
     bodyExcerpt: "Istanbul Bariatric Center oferă o gamă completă de proceduri de chirurgie bariatrică și metabolică, inclusiv Gastric Sleeve (VSG), Mini Gastric Bypass (MGB), Gastric Balloon, ESG, Bifurcație de Transit, Duodenal Switch și Conturare Corporală Post-Bariatrică.",
     canonical: SITE_URL + "/treatments/ro",
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Acasă", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Tratamente", "item": SITE_URL + "/treatments/ro" }
+      ]
+    }],
     richContent: `<section><h2>Compară Toate Procedurile de Chirurgie pentru Pierderea în Greutate</h2>
 <article><h3>Chirurgia Gastric Sleeve (Sleeve Gastrectomy)</h3><p>Îndepărtează aproximativ 75-80% din stomac, creând un stomac mai mic în formă de tub. Cea mai populară procedură bariatrică la nivel mondial cu o pierdere în greutate de 60-70% din excesul de greutate. Ideal pentru BMI 35+.</p><p>Pret: Basic £2,950 | Relaxare £3,950 | Lux £4,250</p></article>
 <article><h3>Mini Gastric Bypass (One Anastomosis Gastric Bypass)</h3><p>Creează un mic sac gastric și îl conectează direct la intestinul subțire, combinând mecanisme restrictive și malabsorptive. 70-80% pierdere în greutate din exces. Ideal pentru BMI 40+ sau condiții metabolice.</p><p>Pret: Basic £3,350 | Relaxare £4,350 | Lux £4,650</p></article>
@@ -261,6 +317,14 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Наши процедуры хирургии похудения",
     bodyExcerpt: "Istanbul Bariatric Center предлагает широкий спектр процедур бариатрической и метаболической хирургии, включая гастрический рукав (VSG), мини-гастральный шунт (MGB), гастрический баллон, эндоскопическую гастро-пластическую операцию (ESG), транзитную бипартию, дуоденальный шунт и контурирование тела после бариатрической хирургии. Каждая процедура адаптирована к ИМТ пациента, состоянию здоровья и целям по снижению веса.",
     canonical: SITE_URL + "/treatments/ru",
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Главная", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Процедуры", "item": SITE_URL + "/treatments/ru" }
+      ]
+    }],
     richContent: `<section><h2>Сравните все процедуры хирургии похудения</h2>
 <article><h3>Хирургия гастрического рукава (Sleeve Gastrectomy)</h3><p>Удаляет примерно 75-80% желудка, создавая меньший желудок в форме трубы. Наиболее популярная бариатрическая процедура в мире с потерей избыточного веса 60-70%. Идеально для ИМТ 35+.</p><p>Цена: Базовый £2,950 | Расслабляющий £3,950 | Роскошный £4,250</p></article>
 <article><h3>Мини-гастральный шунт (One Anastomosis Gastric Bypass)</h3><p>Создает небольшой желудочный мешок и соединяет его напрямую с тонкой кишкой, сочетая ограничительные и малабсорбтивные механизмы. 70-80% потеря избыточного веса. Идеально для ИМТ 40+ или метаболических заболеваний.</p><p>Цена: Базовый £3,350 | Расслабляющий £4,350 | Роскошный £4,650</p></article>
@@ -277,6 +341,14 @@ const staticPages: Record<string, PageSEO> = {
     h1: "علاجات جراحة فقدان الوزن لدينا",
     bodyExcerpt: "يقدم مركز إسطنبول لجراحة السمنة مجموعة شاملة من إجراءات جراحة السمنة والأيض بما في ذلك تكميم المعدة (VSG)، تحويل مسار المعدة المصغر (MGB)، بالون المعدة، جراحة تكميم المعدة بالمنظار (ESG)، تقسيم الأمعاء، تحويل الاثني عشر، ونحت الجسم بعد جراحة السمنة. كل إجراء مصمم وفقًا لمؤشر كتلة الجسم (BMI) وظروف الصحة وأهداف فقدان الوزن.",
     canonical: SITE_URL + "/treatments/ar",
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "الرئيسية", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "العلاجات", "item": SITE_URL + "/treatments/ar" }
+      ]
+    }],
     richContent: `<section><h2>قارن جميع إجراءات جراحة فقدان الوزن</h2>
 <article><h3>جراحة تكميم المعدة (Sleeve Gastrectomy)</h3><p>تزيل حوالي 75-80% من المعدة، مما يخلق معدة أصغر على شكل أنبوب. الإجراء الأكثر شعبية في العالم مع فقدان 60-70% من الوزن الزائد. مثالي لمؤشر كتلة الجسم 35+.</p><p>التسعير: باقة أساسية £2,950 | باقة استرخاء £3,950 | باقة فاخرة £4,250</p></article>
 <article><h3>تحويل مسار المعدة المصغر (One Anastomosis Gastric Bypass)</h3><p>يخلق كيس معدي صغير ويربطه مباشرة بالأمعاء الدقيقة، مما يجمع بين الآليات التقييدية وامتصاص الطعام. فقدان 70-80% من الوزن الزائد. مثالي لمؤشر كتلة الجسم 40+ أو الحالات الأيضية.</p><p>التسعير: باقة أساسية £3,350 | باقة استرخاء £4,350 | باقة فاخرة £4,650</p></article>
@@ -299,6 +371,14 @@ const staticPages: Record<string, PageSEO> = {
 <blockquote><p>"I was treated like a VIP from the first consultation with Demet and Dr Murat to being discharged after my surgery. I was treated in the world-renowned Memorial Sisli hospital which is a million miles away from the hospitals here in the UK." — VIP Package Patient</p></blockquote>
 <blockquote><p>"Demet is the patient coordinator and she is absolutely great. I was talking to her for over a year — it took me such a long time to decide to have this operation. She was patiently answering any of my questions." — Sleeve Gastrectomy Patient</p></blockquote></section>
 <section><h2>WhatClinic Awards & Ratings</h2><p>Istanbul Bariatric Center has earned the WhatClinic Patient Service Award for 6 consecutive years (2019-2025). Outstanding ServiceScore 10/10 from 138 verified interactions. 55 verified patient reviews with 4.9/5 average rating. Over 8,000 successful procedures.</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Patient Results & Reviews", "item": SITE_URL + "/results" }
+      ]
+    }],
   },
   "/blog": {
     title: "Bariatric Surgery Blog - Istanbul Bariatric Center",
@@ -307,6 +387,21 @@ const staticPages: Record<string, PageSEO> = {
     bodyExcerpt: "Stay informed with the latest articles and research about bariatric surgery, weight loss treatments, nutrition guidance, and obesity management from Istanbul Bariatric Center. Our medical team shares expert insights on gastric sleeve, gastric bypass, ESG, and more.",
     canonical: SITE_URL + "/blog",
     richContent: `<section><h2>Latest Articles on Weight Loss Surgery & Nutrition</h2><p>Our blog features expert articles from the Istanbul Bariatric Center medical team covering bariatric surgery procedures, nutrition guidance, recovery tips, new research, and weight management strategies. Topics include gastric sleeve, gastric bypass, ESG, gastric balloon, obesity treatment, pre- and post-operative care, vitamin supplementation, and the latest developments in bariatric medicine.</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "Istanbul Bariatric Center Blog",
+      "url": SITE_URL + "/blog",
+      "description": "Expert articles on bariatric surgery, weight loss, nutrition, and obesity treatment from Istanbul Bariatric Center.",
+      "publisher": { "@type": "Organization", "name": "Istanbul Bariatric Center", "url": SITE_URL }
+    }, {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": SITE_URL + "/blog" }
+      ]
+    }],
   },
   "/contact": {
     title: "Contact Us - Istanbul Bariatric Center | Free Consultation",
@@ -316,6 +411,27 @@ const staticPages: Record<string, PageSEO> = {
     canonical: SITE_URL + "/contact",
     richContent: `<section><h2>Get a Free Consultation</h2><p>Contact Istanbul Bariatric Center for a free, no-obligation weight loss surgery consultation. Our multilingual patient coordinators are available to answer all your questions about procedures, pricing, packages, and travel arrangements.</p></section>
 <section><h2>Contact Details</h2><ul><li>WhatsApp (Turkey): +90 532 413 1143</li><li>WhatsApp (UK): +44 7491 068686</li><li>Email: drmuratustun@gmail.com</li><li>Location: Istanbul, Turkey</li></ul><p>We respond to all enquiries within 24 hours. Our team speaks English, Turkish, Arabic, French, German, Spanish, Italian, Russian, and Portuguese.</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact Istanbul Bariatric Center",
+      "url": SITE_URL + "/contact",
+      "description": "Contact Istanbul Bariatric Center for a free weight loss surgery consultation.",
+      "mainEntity": {
+        "@type": "MedicalBusiness",
+        "name": "Istanbul Bariatric Center",
+        "telephone": ["+905324131143", "+447491068686"],
+        "email": "drmuratustun@gmail.com",
+        "address": { "@type": "PostalAddress", "addressLocality": "Istanbul", "addressCountry": "TR" }
+      }
+    }, {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Contact Us", "item": SITE_URL + "/contact" }
+      ]
+    }],
   },
   "/sleeve-gastrectomy": {
     title: "Gastric Sleeve Surgery in Turkey - Istanbul Bariatric Center",
@@ -431,6 +547,24 @@ const staticPages: Record<string, PageSEO> = {
     richContent: `<section><h2>What is Transit Bipartition?</h2><p>Transit Bipartition is a modern bariatric procedure that combines sleeve gastrectomy with a partial intestinal bypass, creating a dual-pathway digestive system. Food travels both through the normal digestive route and through a bypass route, maximising metabolic benefits while reducing malabsorption risks compared to traditional duodenal switch.</p></section>
 <section><h2>Benefits of Transit Bipartition</h2><ul><li>Enhanced weight loss compared to sleeve gastrectomy alone</li><li>Excellent diabetes and metabolic syndrome resolution</li><li>Lower complication risk than full duodenal switch</li><li>Ideal as revision surgery after insufficient weight loss from sleeve gastrectomy</li><li>Preserves natural digestive flow reducing vitamin deficiency risks</li></ul></section>
 <section><h2>Who is Suitable?</h2><p>Transit bipartition is particularly recommended for patients who have not achieved sufficient weight loss or have experienced weight regain after sleeve gastrectomy, patients with type 2 diabetes seeking enhanced metabolic outcomes, and those with BMI 40+ seeking an effective surgical option with lower malabsorption risk than duodenal switch.</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Transit Bipartition Surgery",
+      "procedureType": "Surgical",
+      "bodyLocation": "Stomach and small intestine",
+      "description": "Advanced metabolic surgery combining sleeve gastrectomy with partial intestinal bypass for enhanced weight loss and diabetes remission.",
+      "howPerformed": "Laparoscopic sleeve gastrectomy combined with a partial bypass of the small intestine creating dual digestive pathways.",
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }
+    }, {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": SITE_URL + "/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "Transit Bipartition", "item": SITE_URL + "/transit-bipartition" }
+      ]
+    }],
   },
   "/esg": {
     title: "Endosleeve / ESG in Istanbul 2026 — Apollo Endoscopic Sleeve Gastroplasty Clinic | From £4,950",
@@ -1494,6 +1628,15 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Endoskopik Sleeve Qastroplastika (ESG) — Cərrahiyyəsiz arıqlama Türkiyədə",
     bodyExcerpt: "Azərbaycanlı xəstələr üçün Endoskopik Sleeve Qastroplastika (ESG) Istanbul Bariatric Center-də. Cərrahiyyəsiz mədə azaltma. JCI-akkreditasiyalı xəstəxana. Dr Murat Ustun. Hər şey daxil paket € 6.450 VIP transfer, otel və 12 aylıq dietoloq dəstəyi ilə. Bakıdan birbaşa uçuşlar (~3-3,5 saat).",
     canonical: SITE_URL + "/esg/az",
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "ESG", "item": SITE_URL + "/esg" },
+        { "@type": "ListItem", "position": 3, "name": "ESG — Azərbaycan", "item": SITE_URL + "/esg/az" }
+      ]
+    }],
     richContent: `<section><h2>Endoskopik Sleeve Qastroplastika (ESG) nədir?</h2><p>ESG mədənin həcmini cərrahiyyəsiz azaldan innovativ prosedurdur. Ağızdan endoskop daxil edilir və daxili tikişlər qoyulur, mədənin həcmini 70-80% azaldır. Ənənəvi sleeve qastrektomiyadan fərqli olaraq kəsik yoxdur, toxuma çıxarılmır və sağalma xeyli sürətlidir. Prosedur Apollo OverStitch texnologiyasından istifadə edir və ümumi anesteziya altında təxminən 60-90 dəqiqə davam edir.</p></section>
 <section><h2>Niyə azərbaycanlı xəstələr ESG üçün Türkiyəni seçir</h2><h3>Təcrübə və standartlar</h3><p>Türkiyə bariatrik cərrahiyyədə dünya lideridir. Müasir, JCI-akkreditasiyalı xəstəxanalar, təcrübəli mütəxəssislər və beynəlxalq müalicə standartları.</p><h3>Əhəmiyyətli qənaət</h3><p>ESG Azərbaycanda geniş mövcud deyil. Hər şey daxil paketimiz € 6.450 (~11.900 AZN) — prosedur, JCI xəstəxanası, otel, transfer və 12 aylıq dietoloq dəstəyi daxildir.</p><h3>Sürətli çıxış</h3><p>Gözləmə siyahısı yoxdur. Bakı Heydər Əliyev Hava Limanından birbaşa uçuşlar (~3-3,5 saat). 3-4 gün ərzində tam müalicə.</p></section>
 <section><h2>ESG vs arıqlama dərmanları</h2><table><thead><tr><th>Amil</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Təsir</td><td>Müvəqqəti</td><td>Davamlı</td></tr><tr><td>Tərəf təsirləri</td><td>Tez-tez</td><td>Az</td></tr><tr><td>Xərc</td><td>Davamlı</td><td>Bir dəfəlik</td></tr><tr><td>Çəki geri qayıdır</td><td>Tez-tez</td><td>Məhdud</td></tr></tbody></table></section>
@@ -1508,6 +1651,22 @@ const staticPages: Record<string, PageSEO> = {
     canonical: SITE_URL + "/post-bariatric-surgery",
     richContent: `<section><h2>Body Contouring After Weight Loss</h2><p>After significant weight loss from bariatric surgery, many patients are left with excess, sagging skin that can cause discomfort, hygiene issues, and affect confidence. Post-bariatric body contouring surgery removes this excess skin and reshapes the body to complete your transformation.</p></section>
 <section><h2>Available Procedures</h2><ul><li><strong>Tummy Tuck (Abdominoplasty)</strong> — Removes excess abdominal skin and tightens underlying muscles</li><li><strong>Arm Lift (Brachioplasty)</strong> — Removes excess skin from the upper arms</li><li><strong>Thigh Lift</strong> — Reshapes and firms the thighs by removing excess skin</li><li><strong>Breast Lift/Reduction</strong> — Addresses changes in breast shape and size after weight loss</li><li><strong>Body Lift (Belt Lipectomy)</strong> — Comprehensive procedure addressing abdomen, hips, back, and buttocks</li></ul></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Post Bariatric Body Contouring Surgery",
+      "procedureType": "Surgical",
+      "description": "Body contouring procedures after significant weight loss including tummy tuck, arm lift, thigh lift, breast lift, and body lift.",
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Plastic Surgery" }
+    }, {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": SITE_URL + "/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "Post Bariatric Surgery", "item": SITE_URL + "/post-bariatric-surgery" }
+      ]
+    }],
   },
   "/insurance": {
     title: "Insurance & Finance Options - Istanbul Bariatric Center",
@@ -1517,6 +1676,14 @@ const staticPages: Record<string, PageSEO> = {
     canonical: SITE_URL + "/insurance",
     richContent: `<section><h2>Affordable Weight Loss Surgery</h2><p>Istanbul Bariatric Center offers competitive all-inclusive pricing for weight loss surgery, making it accessible for patients from the UK, Europe, and worldwide. Our packages start from £1,650 for gastric balloon and £2,950 for gastric sleeve surgery, including hospital stay, tests, transfers, and aftercare.</p></section>
 <section><h2>Finance Options</h2><p>We work with medical finance providers to offer flexible payment plans for bariatric surgery. Spread the cost of your treatment with affordable monthly payments. Contact our patient coordinators for personalised finance options.</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Insurance & Finance", "item": SITE_URL + "/insurance" }
+      ]
+    }],
   },
   "/bariatric-surgery-turkey-guide": {
     title: "Complete Guide to Bariatric Surgery in Istanbul, Turkey",
@@ -1575,6 +1742,21 @@ const staticPages: Record<string, PageSEO> = {
     canonical: SITE_URL + "/health-profile",
     richContent: `<section><h2>Free Eligibility Assessment</h2><p>Our personal health profile form helps determine your suitability for bariatric surgery. Complete the assessment with your health information including height, weight, medical history, lifestyle factors, and surgery preferences. Dr Murat Ustun's medical team will review your profile and provide a personalised recommendation.</p></section>
 <section><h2>Who is Eligible for Bariatric Surgery?</h2><ul><li>BMI 35+ (or BMI 30+ with obesity-related health conditions)</li><li>Previous unsuccessful attempts at weight loss through diet and exercise</li><li>No untreated psychiatric conditions that could affect surgical outcomes</li><li>Commitment to lifelong dietary and lifestyle changes</li><li>Age 18-65 (exceptions may apply)</li></ul><p>Even if you're unsure whether you qualify, complete the form and our team will advise you on the best options.</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Who is eligible for bariatric surgery?", "acceptedAnswer": { "@type": "Answer", "text": "Patients with a BMI of 35 or above, or BMI 30+ with obesity-related health conditions such as type 2 diabetes or hypertension, who have had previous unsuccessful attempts at weight loss through diet and exercise are generally eligible. Age 18-65 is typical. Complete the free health profile for a personalised assessment." } },
+        { "@type": "Question", "name": "How do I find out if I qualify for weight loss surgery?", "acceptedAnswer": { "@type": "Answer", "text": "Complete Istanbul Bariatric Center's free Personal Health Profile form with your height, weight, medical history, and lifestyle information. Dr Murat Ustun's medical team will review your submission and provide a personalised recommendation within 24 hours." } }
+      ]
+    }, {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Am I Eligible?", "item": SITE_URL + "/health-profile" }
+      ]
+    }],
   },
 };
 
@@ -1676,6 +1858,19 @@ const navLinks = [
   { href: "/insurance", text: "Insurance" },
 ];
 
+function parseDateToISO(displayDate: string): string {
+  const months: Record<string, string> = {
+    January: "01", February: "02", March: "03", April: "04",
+    May: "05", June: "06", July: "07", August: "08",
+    September: "09", October: "10", November: "11", December: "12",
+  };
+  const match = displayDate.match(/^(\w+)\s+(\d+),\s+(\d{4})$/);
+  if (!match) return displayDate;
+  const [, month, day, year] = match;
+  const monthNum = months[month] || "01";
+  return `${year}-${monthNum}-${day.padStart(2, "0")}`;
+}
+
 export function getSEOData(path: string): PageSEO | null {
   const cleanPath = path.split("?")[0];
 
@@ -1687,6 +1882,8 @@ export function getSEOData(path: string): PageSEO | null {
     const slug = cleanPath.replace("/blog/", "");
     const post = blogPosts.find((p) => p.slug === slug);
     if (post) {
+      const isoPublished = (post as any).publishedAt || parseDateToISO(post.date);
+      const isoModified = (post as any).updatedAt || isoPublished;
       return {
         title: `${post.title} - Istanbul Bariatric Center`,
         description: post.excerpt.length > 155 ? post.excerpt.substring(0, 152) + "..." : post.excerpt,
@@ -1699,12 +1896,21 @@ export function getSEOData(path: string): PageSEO | null {
           "@type": "BlogPosting",
           "headline": post.title,
           "description": post.excerpt,
-          "datePublished": post.date,
+          "datePublished": isoPublished,
+          "dateModified": isoModified,
           "url": `${SITE_URL}/blog/${post.slug}`,
           "image": post.image ? `${SITE_URL}${post.image}` : undefined,
           "author": { "@type": "Person", "name": "Dr Murat Ustun" },
           "publisher": { "@type": "Organization", "name": "Istanbul Bariatric Center", "logo": { "@type": "ImageObject", "url": `${SITE_URL}/logo.webp` } },
           "mainEntityOfPage": { "@type": "WebPage", "@id": `${SITE_URL}/blog/${post.slug}` }
+        }, {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+            { "@type": "ListItem", "position": 2, "name": "Blog", "item": SITE_URL + "/blog" },
+            { "@type": "ListItem", "position": 3, "name": post.title, "item": `${SITE_URL}/blog/${post.slug}` }
+          ]
         }]
       };
     }

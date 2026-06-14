@@ -86,12 +86,15 @@ export default function BlogPost() {
         image={post.image}
         url={`/blog/${post.slug}`}
         type="article"
-        publishedTime={post.date}
+        publishedTime={post.publishedAt || post.date}
+        modifiedTime={post.updatedAt || post.publishedAt || post.date}
       />
       <JsonLd data={structuredData.createArticle({
         title: postTitle,
         excerpt: postExcerpt,
         date: post.date,
+        publishedAt: post.publishedAt,
+        updatedAt: post.updatedAt,
         slug: post.slug,
         image: post.image
       })} />

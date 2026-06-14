@@ -9,6 +9,7 @@ interface SEOProps {
   url?: string;
   type?: "website" | "article";
   publishedTime?: string;
+  modifiedTime?: string;
   author?: string;
 }
 
@@ -24,6 +25,7 @@ export function SEO({
   url = "",
   type = "website",
   publishedTime,
+  modifiedTime,
   author = "Dr. Murat Ustun",
 }: SEOProps) {
   const { i18n } = useTranslation();
@@ -91,6 +93,9 @@ export function SEO({
 
     if (type === "article" && publishedTime) {
       setMeta("article:published_time", publishedTime, true);
+      if (modifiedTime) {
+        setMeta("article:modified_time", modifiedTime, true);
+      }
       setMeta("article:author", author, true);
       setMeta("article:section", "Health", true);
       setMeta("article:tag", "bariatric surgery", true);
@@ -100,7 +105,7 @@ export function SEO({
 
     return () => {
     };
-  }, [fullTitle, description, keywords, image, baseUrl, type, publishedTime, author, currentLang]);
+  }, [fullTitle, description, keywords, image, baseUrl, type, publishedTime, modifiedTime, author, currentLang]);
 
   return null;
 }
@@ -212,13 +217,14 @@ export const structuredData = {
     },
   },
 
-  createArticle: (post: { title: string; excerpt: string; date: string; slug: string; image: string }) => ({
+  createArticle: (post: { title: string; excerpt: string; date: string; publishedAt?: string; updatedAt?: string; slug: string; image: string }) => ({
     "@context": "https://schema.org",
     "@type": "Article",
     headline: post.title,
     description: post.excerpt,
     image: post.image,
-    datePublished: post.date,
+    datePublished: post.publishedAt || post.date,
+    dateModified: post.updatedAt || post.publishedAt || post.date,
     author: {
       "@type": "Person",
       name: "Dr. Murat Ustun",
