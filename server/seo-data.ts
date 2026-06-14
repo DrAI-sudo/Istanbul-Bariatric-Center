@@ -155,6 +155,23 @@ const staticPages: Record<string, PageSEO> = {
     canonical: SITE_URL + "/treatments",
     jsonLd: [{
       "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "@id": SITE_URL + "/treatments#webpage",
+      "name": "Weight Loss Surgery Treatments — Istanbul Bariatric Center",
+      "url": SITE_URL + "/treatments",
+      "description": "Comprehensive range of bariatric and metabolic surgery procedures including Gastric Sleeve, Mini Gastric Bypass, Gastric Balloon, ESG, Transit Bipartition, and Duodenal Switch.",
+      "isPartOf": { "@id": SITE_URL + "/#website" },
+      "provider": { "@id": SITE_URL + "/#organization" },
+      "hasPart": [
+        { "@type": "MedicalProcedure", "name": "Gastric Sleeve Surgery", "url": SITE_URL + "/sleeve-gastrectomy" },
+        { "@type": "MedicalProcedure", "name": "Mini Gastric Bypass", "url": SITE_URL + "/mini-gastric-bypass" },
+        { "@type": "MedicalProcedure", "name": "Gastric Balloon", "url": SITE_URL + "/gastric-balloon" },
+        { "@type": "MedicalProcedure", "name": "Endoscopic Sleeve Gastroplasty (ESG)", "url": SITE_URL + "/esg" },
+        { "@type": "MedicalProcedure", "name": "Duodenal Switch", "url": SITE_URL + "/duodenal-switch" },
+        { "@type": "MedicalProcedure", "name": "Transit Bipartition", "url": SITE_URL + "/transit-bipartition" }
+      ]
+    }, {
+      "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
@@ -178,6 +195,13 @@ const staticPages: Record<string, PageSEO> = {
     bodyExcerpt: "Istanbul Bariatric Center, Mide Kelepçesi (VSG), Mini Mide Baypas (MGB), Mide Balonu, Endoskopik Mide Gastroplasti (ESG), Transit Bipartisyon, Duodenal Switch ve Post-Bariyatrik Vücut Şekillendirme dahil kapsamlı bir bariyatrik ve metabolik cerrahi yelpazesi sunmaktadır.",
     canonical: SITE_URL + "/treatments/tr",
     jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": SITE_URL + "/treatments/tr#webpage",
+      "url": SITE_URL + "/treatments/tr",
+      "isPartOf": { "@id": SITE_URL + "/#website" },
+      "about": { "@id": SITE_URL + "/#organization" }
+    }, {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
@@ -203,6 +227,13 @@ const staticPages: Record<string, PageSEO> = {
     canonical: SITE_URL + "/treatments/es",
     jsonLd: [{
       "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": SITE_URL + "/treatments/es#webpage",
+      "url": SITE_URL + "/treatments/es",
+      "isPartOf": { "@id": SITE_URL + "/#website" },
+      "about": { "@id": SITE_URL + "/#organization" }
+    }, {
+      "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Inicio", "item": SITE_URL + "/" },
@@ -226,6 +257,13 @@ const staticPages: Record<string, PageSEO> = {
     bodyExcerpt: "Das Istanbul Bariatric Center bietet ein umfassendes Spektrum an bariatrischen und metabolischen chirurgischen Verfahren, einschließlich Magenbypass (VSG), Mini-Magenbypass (MGB), Magenballon, Endoskopische Magen-Gastroplastik (ESG), Transit-Bipartition, Duodenal-Switch und post-bariatrische Körperformung.",
     canonical: SITE_URL + "/treatments/de",
     jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": SITE_URL + "/treatments/de#webpage",
+      "url": SITE_URL + "/treatments/de",
+      "isPartOf": { "@id": SITE_URL + "/#website" },
+      "about": { "@id": SITE_URL + "/#organization" }
+    }, {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
@@ -251,6 +289,13 @@ const staticPages: Record<string, PageSEO> = {
     canonical: SITE_URL + "/treatments/fr",
     jsonLd: [{
       "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": SITE_URL + "/treatments/fr#webpage",
+      "url": SITE_URL + "/treatments/fr",
+      "isPartOf": { "@id": SITE_URL + "/#website" },
+      "about": { "@id": SITE_URL + "/#organization" }
+    }, {
+      "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Accueil", "item": SITE_URL + "/" },
@@ -274,6 +319,13 @@ const staticPages: Record<string, PageSEO> = {
     bodyExcerpt: "Istanbul Bariatric Center offre una gamma completa di procedure di chirurgia bariatrica e metabolica, inclusi Sleeve Gastrico (VSG), Mini Bypass Gastrico (MGB), Pallone Gastrico, Gastroplastica Endoscopica a Manica (ESG), Bipartizione Transitiva, Switch Duodenale e Contouring Corporeo Post-Bariatrico.",
     canonical: SITE_URL + "/treatments/it",
     jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": SITE_URL + "/treatments/it#webpage",
+      "url": SITE_URL + "/treatments/it",
+      "isPartOf": { "@id": SITE_URL + "/#website" },
+      "about": { "@id": SITE_URL + "/#organization" }
+    }, {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
@@ -299,6 +351,13 @@ const staticPages: Record<string, PageSEO> = {
     canonical: SITE_URL + "/treatments/ro",
     jsonLd: [{
       "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": SITE_URL + "/treatments/ro#webpage",
+      "url": SITE_URL + "/treatments/ro",
+      "isPartOf": { "@id": SITE_URL + "/#website" },
+      "about": { "@id": SITE_URL + "/#organization" }
+    }, {
+      "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Acasă", "item": SITE_URL + "/" },
@@ -323,6 +382,13 @@ const staticPages: Record<string, PageSEO> = {
     canonical: SITE_URL + "/treatments/ru",
     jsonLd: [{
       "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": SITE_URL + "/treatments/ru#webpage",
+      "url": SITE_URL + "/treatments/ru",
+      "isPartOf": { "@id": SITE_URL + "/#website" },
+      "about": { "@id": SITE_URL + "/#organization" }
+    }, {
+      "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Главная", "item": SITE_URL + "/" },
@@ -346,6 +412,13 @@ const staticPages: Record<string, PageSEO> = {
     bodyExcerpt: "يقدم مركز إسطنبول لجراحة السمنة مجموعة شاملة من إجراءات جراحة السمنة والأيض بما في ذلك تكميم المعدة (VSG)، تحويل مسار المعدة المصغر (MGB)، بالون المعدة، جراحة تكميم المعدة بالمنظار (ESG)، تقسيم الأمعاء، تحويل الاثني عشر، ونحت الجسم بعد جراحة السمنة. كل إجراء مصمم وفقًا لمؤشر كتلة الجسم (BMI) وظروف الصحة وأهداف فقدان الوزن.",
     canonical: SITE_URL + "/treatments/ar",
     jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": SITE_URL + "/treatments/ar#webpage",
+      "url": SITE_URL + "/treatments/ar",
+      "isPartOf": { "@id": SITE_URL + "/#website" },
+      "about": { "@id": SITE_URL + "/#organization" }
+    }, {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
@@ -377,6 +450,20 @@ const staticPages: Record<string, PageSEO> = {
 <section><h2>WhatClinic Awards & Ratings</h2><p>Istanbul Bariatric Center has earned the WhatClinic Patient Service Award for 6 consecutive years (2019-2025). Outstanding ServiceScore 10/10 from 138 verified interactions. 55 verified patient reviews with 4.9/5 average rating. Over 8,000 successful procedures.</p></section>`,
     jsonLd: [{
       "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "@id": SITE_URL + "/results#webpage",
+      "name": "Results & Reviews: Real Patient Transformations",
+      "url": SITE_URL + "/results",
+      "description": "Real patient results, before and after photos, and verified 5-star WhatClinic reviews from Istanbul Bariatric Center. 8,000+ successful bariatric surgeries.",
+      "isPartOf": { "@id": SITE_URL + "/#website" },
+      "about": { "@id": SITE_URL + "/#organization" },
+      "review": [
+        { "@type": "Review", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "author": { "@type": "Person", "name": "Danielle" }, "reviewBody": "I had a sleeve done with Dr Ustun. In 8 months I am down 52kg. I am so grateful to Dr Ustun and Istanbul Bariatric Centre for giving me my life back." },
+        { "@type": "Review", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "author": { "@type": "Person", "name": "VIP Package Patient" }, "reviewBody": "I was treated like a VIP from the first consultation with Demet and Dr Murat to being discharged after my surgery." },
+        { "@type": "Review", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "author": { "@type": "Person", "name": "Sleeve Gastrectomy Patient" }, "reviewBody": "Demet is the patient coordinator and she is absolutely great. She patiently answered any of my questions." }
+      ]
+    }, {
+      "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
@@ -394,10 +481,12 @@ const staticPages: Record<string, PageSEO> = {
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "Blog",
+      "@id": SITE_URL + "/blog#blog",
       "name": "Istanbul Bariatric Center Blog",
       "url": SITE_URL + "/blog",
       "description": "Expert articles on bariatric surgery, weight loss, nutrition, and obesity treatment from Istanbul Bariatric Center.",
-      "publisher": { "@type": "Organization", "name": "Istanbul Bariatric Center", "url": SITE_URL }
+      "isPartOf": { "@id": SITE_URL + "/#website" },
+      "publisher": { "@id": SITE_URL + "/#organization" }
     }, {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -418,16 +507,12 @@ const staticPages: Record<string, PageSEO> = {
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "ContactPage",
+      "@id": SITE_URL + "/contact#webpage",
       "name": "Contact Istanbul Bariatric Center",
       "url": SITE_URL + "/contact",
       "description": "Contact Istanbul Bariatric Center for a free weight loss surgery consultation.",
-      "mainEntity": {
-        "@type": "MedicalBusiness",
-        "name": "Istanbul Bariatric Center",
-        "telephone": ["+905324131143", "+447491068686"],
-        "email": "drmuratustun@gmail.com",
-        "address": { "@type": "PostalAddress", "addressLocality": "Istanbul", "addressCountry": "TR" }
-      }
+      "isPartOf": { "@id": SITE_URL + "/#website" },
+      "mainEntity": { "@id": SITE_URL + "/#organization" }
     }, {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -554,12 +639,14 @@ const staticPages: Record<string, PageSEO> = {
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "MedicalProcedure",
+      "@id": SITE_URL + "/transit-bipartition#procedure",
       "name": "Transit Bipartition Surgery",
       "procedureType": "Surgical",
       "bodyLocation": "Stomach and small intestine",
       "description": "Advanced metabolic surgery combining sleeve gastrectomy with partial intestinal bypass for enhanced weight loss and diabetes remission.",
       "howPerformed": "Laparoscopic sleeve gastrectomy combined with a partial bypass of the small intestine creating dual digestive pathways.",
-      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" },
+      "performer": { "@id": SITE_URL + "/#organization" }
     }, {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -1634,6 +1721,21 @@ const staticPages: Record<string, PageSEO> = {
     canonical: SITE_URL + "/esg/az",
     jsonLd: [{
       "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "@id": SITE_URL + "/esg/az#procedure",
+      "name": "Endoskopik Sleeve Qastroplastika (ESG)",
+      "alternateName": ["ESG", "Endosleeve", "Apollo ESG", "Cərrahiyyəsiz mədə kiçildilməsi"],
+      "procedureType": "Noninvasive",
+      "bodyLocation": "Mədə",
+      "description": "Cərrahiyyəsiz endoskopik mədə azaltma. Apollo OverStitch texnologiyası ilə mədənin həcmini 70-80% azaldır. JCI-akkreditasiyalı Liv Hospital, İstanbul.",
+      "howPerformed": "Ağızdan endoskop daxil edilir; Apollo OverStitch cihazı mədənin böyük əyriliyi boyunca tikişlər qoyur. Kəsik yoxdur. 60-90 dəqiqə ümumi anesteziya altında.",
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Endoscopy" },
+      "performer": { "@id": SITE_URL + "/#organization" },
+      "offers": [
+        { "@type": "Offer", "name": "Hər şey daxil paket", "price": "6450", "priceCurrency": "EUR", "availability": "https://schema.org/InStock", "url": SITE_URL + "/esg/az" }
+      ]
+    }, {
+      "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
@@ -1658,10 +1760,12 @@ const staticPages: Record<string, PageSEO> = {
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "MedicalProcedure",
+      "@id": SITE_URL + "/post-bariatric-surgery#procedure",
       "name": "Post Bariatric Body Contouring Surgery",
       "procedureType": "Surgical",
       "description": "Body contouring procedures after significant weight loss including tummy tuck, arm lift, thigh lift, breast lift, and body lift.",
-      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Plastic Surgery" }
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Plastic Surgery" },
+      "performer": { "@id": SITE_URL + "/#organization" }
     }, {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -1681,6 +1785,16 @@ const staticPages: Record<string, PageSEO> = {
     richContent: `<section><h2>Affordable Weight Loss Surgery</h2><p>Istanbul Bariatric Center offers competitive all-inclusive pricing for weight loss surgery, making it accessible for patients from the UK, Europe, and worldwide. Our packages start from £1,650 for gastric balloon and £2,950 for gastric sleeve surgery, including hospital stay, tests, transfers, and aftercare.</p></section>
 <section><h2>Finance Options</h2><p>We work with medical finance providers to offer flexible payment plans for bariatric surgery. Spread the cost of your treatment with affordable monthly payments. Contact our patient coordinators for personalised finance options.</p></section>`,
     jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": SITE_URL + "/insurance#webpage",
+      "name": "Insurance & Finance Options for Bariatric Surgery",
+      "url": SITE_URL + "/insurance",
+      "description": "Insurance and financing options for bariatric surgery at Istanbul Bariatric Center. Affordable payment plans and packages.",
+      "isPartOf": { "@id": SITE_URL + "/#website" },
+      "about": { "@id": SITE_URL + "/#organization" },
+      "provider": { "@id": SITE_URL + "/#organization" }
+    }, {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
