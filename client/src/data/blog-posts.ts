@@ -6497,7 +6497,7 @@ export const blogPosts: BlogPost[] = [
 <div style="background: linear-gradient(135deg, #1E40AF, #3B82F6); color: white; border-radius: 12px; padding: 28px; margin: 32px 0; text-align: center;">
 <h3 style="color: white; margin-top: 0;">Considering ESG in 2026?</h3>
 <p style="margin: 12px 0 20px;">Get a written assessment from our endoscopic team within 48 hours, including whether ESG, GLP-1 or surgery is the right fit for your BMI, health profile and goals — with full Istanbul pricing and timing.</p>
-<a href="/treatments/esg" style="display: inline-block; background: white; color: #1E40AF; padding: 14px 28px; border-radius: 8px; font-weight: 700; text-decoration: none;">Explore ESG at Istanbul Bariatric Center →</a>
+<a href="/esg" style="display: inline-block; background: white; color: #1E40AF; padding: 14px 28px; border-radius: 8px; font-weight: 700; text-decoration: none;">Explore ESG at Istanbul Bariatric Center →</a>
 </div>
 
 <p><strong>Source:</strong> <a href="https://www.bariatricnews.net/post/improving-our-understanding-of-endoscopic-sleeve-gastroplasty" rel="nofollow noopener" style="color: #2563EB;">Bariatric News — Improving Our Understanding of Endoscopic Sleeve Gastroplasty</a> (interview with Mr Omar Khan and Mr Jamie Kelly).</p>

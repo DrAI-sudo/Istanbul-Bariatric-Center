@@ -18,13 +18,12 @@ const staticPages: SearchResult[] = [
   { title: "Blog", href: "/blog", type: "page" },
   { title: "Contact", href: "/contact", type: "page" },
   { title: "Insurance", href: "/insurance", type: "page" },
-  { title: "Gastric Sleeve Surgery", href: "/treatments/gastric-sleeve", type: "treatment" },
-  { title: "Gastric Bypass Surgery", href: "/treatments/gastric-bypass", type: "treatment" },
-  { title: "Gastric Balloon", href: "/treatments/gastric-balloon", type: "treatment" },
-  { title: "Revision Surgery", href: "/treatments/revision-surgery", type: "treatment" },
-  { title: "Transit Bipartition", href: "/treatments/transit-bipartition", type: "treatment" },
-  { title: "Gastric Botox", href: "/treatments/gastric-botox", type: "treatment" },
-  { title: "VIP Packages", href: "/treatments/vip-packages", type: "treatment" },
+  { title: "Gastric Sleeve Surgery", href: "/sleeve-gastrectomy", type: "treatment" },
+  { title: "Gastric Bypass Surgery", href: "/mini-gastric-bypass", type: "treatment" },
+  { title: "Gastric Balloon", href: "/gastric-balloon", type: "treatment" },
+  { title: "Transit Bipartition", href: "/transit-bipartition", type: "treatment" },
+  { title: "Endoscopic Sleeve Gastroplasty (ESG)", href: "/esg", type: "treatment" },
+  { title: "Duodenal Switch", href: "/duodenal-switch", type: "treatment" },
 ];
 
 interface SearchModalProps {
