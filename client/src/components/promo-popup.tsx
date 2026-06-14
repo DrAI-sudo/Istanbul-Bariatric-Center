@@ -42,11 +42,11 @@ export default function PromoPopup() {
         </button>
 
         <img
-          src="/promo-popup.webp"
-          alt="Istanbul Bariatric Center - Early Booking Discount up to 10% off"
+          src="/promo-popup-eco.webp"
+          alt="Istanbul Bariatric Center - New Package: Ultra Eco Sleeve Gastrectomy just £2150"
           className="w-full h-auto"
-          width="800"
-          height="505"
+          width="1293"
+          height="816"
           loading="lazy"
           decoding="async"
           data-testid="img-promo"
