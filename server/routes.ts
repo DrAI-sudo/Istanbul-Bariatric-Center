@@ -123,65 +123,70 @@ export async function registerRoutes(
 
   app.get("/sitemap.xml", (_req, res) => {
     const BASE = "https://istanbulbariatriccenter.com";
-    const today = new Date().toISOString().split("T")[0];
 
-    const staticPriorities: Record<string, { priority: string; changefreq: string }> = {
-      "/": { priority: "1.0", changefreq: "weekly" },
-      "/about": { priority: "0.8", changefreq: "monthly" },
-      "/treatments": { priority: "0.9", changefreq: "monthly" },
-      "/treatments/tr": { priority: "0.8", changefreq: "monthly" },
-      "/treatments/es": { priority: "0.8", changefreq: "monthly" },
-      "/treatments/de": { priority: "0.8", changefreq: "monthly" },
-      "/treatments/fr": { priority: "0.8", changefreq: "monthly" },
-      "/treatments/it": { priority: "0.8", changefreq: "monthly" },
-      "/treatments/ro": { priority: "0.8", changefreq: "monthly" },
-      "/treatments/ru": { priority: "0.8", changefreq: "monthly" },
-      "/treatments/ar": { priority: "0.8", changefreq: "monthly" },
-      "/results": { priority: "0.8", changefreq: "monthly" },
-      "/blog": { priority: "0.9", changefreq: "weekly" },
-      "/contact": { priority: "0.7", changefreq: "monthly" },
-      "/sleeve-gastrectomy": { priority: "0.9", changefreq: "monthly" },
-      "/mini-gastric-bypass": { priority: "0.9", changefreq: "monthly" },
-      "/gastric-balloon": { priority: "0.9", changefreq: "monthly" },
-      "/duodenal-switch": { priority: "0.8", changefreq: "monthly" },
-      "/transit-bipartition": { priority: "0.8", changefreq: "monthly" },
-      "/esg": { priority: "0.9", changefreq: "monthly" },
-      "/best-endosleeve-clinic-istanbul": { priority: "0.9", changefreq: "monthly" },
-      "/esg/uk": { priority: "0.9", changefreq: "monthly" },
-      "/esg/de": { priority: "0.9", changefreq: "monthly" },
-      "/esg/fr": { priority: "0.9", changefreq: "monthly" },
-      "/esg/es": { priority: "0.9", changefreq: "monthly" },
-      "/esg/nl": { priority: "0.9", changefreq: "monthly" },
-      "/esg/ar": { priority: "0.9", changefreq: "monthly" },
-      "/esg/it": { priority: "0.9", changefreq: "monthly" },
-      "/esg/ru": { priority: "0.9", changefreq: "monthly" },
-      "/esg/ro": { priority: "0.9", changefreq: "monthly" },
-      "/esg/se": { priority: "0.9", changefreq: "monthly" },
-      "/esg/pl": { priority: "0.9", changefreq: "monthly" },
-      "/esg/dk": { priority: "0.9", changefreq: "monthly" },
-      "/esg/no": { priority: "0.9", changefreq: "monthly" },
-      "/esg/hu": { priority: "0.9", changefreq: "monthly" },
-      "/esg/fi": { priority: "0.9", changefreq: "monthly" },
-      "/esg/ca": { priority: "0.9", changefreq: "monthly" },
-      "/esg/us": { priority: "0.9", changefreq: "monthly" },
-      "/esg/anz": { priority: "0.9", changefreq: "monthly" },
-      "/esg/az": { priority: "0.9", changefreq: "monthly" },
-      "/post-bariatric-surgery": { priority: "0.7", changefreq: "monthly" },
-      "/insurance": { priority: "0.6", changefreq: "monthly" },
-      "/health-profile": { priority: "0.7", changefreq: "monthly" },
-      "/bariatric-surgery-turkey-guide": { priority: "0.9", changefreq: "monthly" },
+    // Stable per-route metadata. lastmod reflects the date the page content
+    // was last meaningfully updated. Omitting lastmod is better than sending a
+    // false "today" date on every request, so routes without a known stable
+    // date are left out of this map and will be emitted without <lastmod>.
+    const staticMeta: Record<string, { priority: string; changefreq: string; lastmod?: string }> = {
+      "/": { priority: "1.0", changefreq: "weekly", lastmod: "2025-03-10" },
+      "/about": { priority: "0.8", changefreq: "monthly", lastmod: "2025-01-20" },
+      "/treatments": { priority: "0.9", changefreq: "monthly", lastmod: "2025-02-14" },
+      "/treatments/tr": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-14" },
+      "/treatments/es": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-14" },
+      "/treatments/de": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-14" },
+      "/treatments/fr": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-14" },
+      "/treatments/it": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-14" },
+      "/treatments/ro": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-14" },
+      "/treatments/ru": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-14" },
+      "/treatments/ar": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-14" },
+      "/results": { priority: "0.8", changefreq: "monthly", lastmod: "2025-01-15" },
+      "/blog": { priority: "0.9", changefreq: "weekly", lastmod: "2025-03-01" },
+      "/contact": { priority: "0.7", changefreq: "monthly", lastmod: "2024-11-01" },
+      "/sleeve-gastrectomy": { priority: "0.9", changefreq: "monthly", lastmod: "2025-02-01" },
+      "/mini-gastric-bypass": { priority: "0.9", changefreq: "monthly", lastmod: "2025-02-01" },
+      "/gastric-balloon": { priority: "0.9", changefreq: "monthly", lastmod: "2025-02-01" },
+      "/duodenal-switch": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-01" },
+      "/transit-bipartition": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-01" },
+      "/esg": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/best-endosleeve-clinic-istanbul": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/uk": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/de": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/fr": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/es": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/nl": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/ar": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/it": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/ru": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/ro": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/se": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/pl": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/dk": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/no": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/hu": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/fi": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/ca": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/us": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/anz": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/esg/az": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/post-bariatric-surgery": { priority: "0.7", changefreq: "monthly", lastmod: "2025-01-10" },
+      "/insurance": { priority: "0.6", changefreq: "monthly", lastmod: "2024-12-01" },
+      "/health-profile": { priority: "0.7", changefreq: "monthly", lastmod: "2025-01-10" },
+      "/bariatric-surgery-turkey-guide": { priority: "0.9", changefreq: "monthly", lastmod: "2025-04-01" },
     };
 
     let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
 
     for (const route of VALID_STATIC_ROUTES) {
-      const meta = staticPriorities[route] || { priority: "0.5", changefreq: "monthly" };
-      xml += `  <url>\n    <loc>${BASE}${route}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${meta.changefreq}</changefreq>\n    <priority>${meta.priority}</priority>\n  </url>\n`;
+      const meta = staticMeta[route] || { priority: "0.5", changefreq: "monthly" };
+      const lastmodTag = meta.lastmod ? `\n    <lastmod>${meta.lastmod}</lastmod>` : "";
+      xml += `  <url>\n    <loc>${BASE}${route}</loc>${lastmodTag}\n    <changefreq>${meta.changefreq}</changefreq>\n    <priority>${meta.priority}</priority>\n  </url>\n`;
     }
 
     for (const post of seoBlogPosts) {
-      const dateStr = new Date(post.date).toISOString().split("T")[0];
-      xml += `  <url>\n    <loc>${BASE}/blog/${post.slug}</loc>\n    <lastmod>${isNaN(new Date(post.date).getTime()) ? today : dateStr}</lastmod>\n    <changefreq>yearly</changefreq>\n    <priority>0.6</priority>\n  </url>\n`;
+      const parsed = new Date(post.date);
+      const lastmodTag = isNaN(parsed.getTime()) ? "" : `\n    <lastmod>${parsed.toISOString().split("T")[0]}</lastmod>`;
+      xml += `  <url>\n    <loc>${BASE}/blog/${post.slug}</loc>${lastmodTag}\n    <changefreq>yearly</changefreq>\n    <priority>0.6</priority>\n  </url>\n`;
     }
 
     xml += `</urlset>`;
