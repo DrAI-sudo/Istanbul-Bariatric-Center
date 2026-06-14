@@ -44,15 +44,23 @@ export function injectSEO(html: string, requestPath: string): string {
   );
 
   const productionImageUrl = "https://istanbulbariatriccenter.com/opengraph.jpg";
+  const imageUrl = seo.image || productionImageUrl;
   result = result.replace(
     /<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/,
-    `<meta property="og:image" content="${productionImageUrl}" />`
+    `<meta property="og:image" content="${escapeAttr(imageUrl)}" />`
   );
 
   result = result.replace(
     /<meta\s+name="twitter:image"\s+content="[^"]*"\s*\/?>/,
-    `<meta name="twitter:image" content="${productionImageUrl}" />`
+    `<meta name="twitter:image" content="${escapeAttr(imageUrl)}" />`
   );
+
+  if (seo.ogType) {
+    result = result.replace(
+      /<meta\s+property="og:type"\s+content="[^"]*"\s*\/?>/,
+      `<meta property="og:type" content="${escapeAttr(seo.ogType)}" />`
+    );
+  }
 
   const canonicalTag = `<link rel="canonical" href="${escapeAttr(seo.canonical)}" />`;
   if (result.includes('rel="canonical"')) {
@@ -62,6 +70,16 @@ export function injectSEO(html: string, requestPath: string): string {
     );
   } else {
     result = result.replace("</head>", `  ${canonicalTag}\n  </head>`);
+  }
+
+  if (seo.publishedTime) {
+    const articleTags = [
+      `<meta property="article:published_time" content="${escapeAttr(seo.publishedTime)}" />`,
+    ];
+    if (seo.modifiedTime && seo.modifiedTime !== seo.publishedTime) {
+      articleTags.push(`<meta property="article:modified_time" content="${escapeAttr(seo.modifiedTime)}" />`);
+    }
+    result = result.replace("</head>", `  ${articleTags.join("\n  ")}\n  </head>`);
   }
 
   const baselineSchemas = [
