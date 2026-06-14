@@ -8,6 +8,14 @@ export function injectSEO(html: string, requestPath: string): string {
 
   let result = html;
 
+  const lang = seo.lang || "en";
+  const dir = seo.dir || "ltr";
+
+  result = result.replace(
+    /<html\s[^>]*>/,
+    `<html lang="${escapeAttr(lang)}"${dir === "rtl" ? ' dir="rtl"' : ""}>`
+  );
+
   result = result.replace(
     /<title>[^<]*<\/title>/,
     `<title>${escapeHtml(seo.title)}</title>`
@@ -31,6 +39,11 @@ export function injectSEO(html: string, requestPath: string): string {
   result = result.replace(
     /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/,
     `<meta property="og:url" content="${escapeAttr(seo.canonical)}" />`
+  );
+
+  result = result.replace(
+    /<meta\s+property="og:locale"\s+content="[^"]*"\s*\/?>/,
+    `<meta property="og:locale" content="${escapeAttr(seo.ogLocale || "en_US")}" />`
   );
 
   result = result.replace(
@@ -80,6 +93,16 @@ export function injectSEO(html: string, requestPath: string): string {
       articleTags.push(`<meta property="article:modified_time" content="${escapeAttr(seo.modifiedTime)}" />`);
     }
     result = result.replace("</head>", `  ${articleTags.join("\n  ")}\n  </head>`);
+  }
+
+  if (seo.alternates && seo.alternates.length > 0) {
+    const alternateTags = seo.alternates
+      .map(
+        (alt) =>
+          `<link rel="alternate" hreflang="${escapeAttr(alt.hreflang)}" href="${escapeAttr(alt.href)}" />`
+      )
+      .join("\n  ");
+    result = result.replace("</head>", `  ${alternateTags}\n  </head>`);
   }
 
   const baselineSchemas = [

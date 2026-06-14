@@ -12,7 +12,47 @@ interface PageSEO {
   ogType?: string;
   publishedTime?: string;
   modifiedTime?: string;
+  lang?: string;
+  dir?: "ltr" | "rtl";
+  ogLocale?: string;
+  alternates?: Array<{ hreflang: string; href: string }>;
 }
+
+const TREATMENTS_ALTERNATES: Array<{ hreflang: string; href: string }> = [
+  { hreflang: "en", href: SITE_URL + "/treatments" },
+  { hreflang: "tr", href: SITE_URL + "/treatments/tr" },
+  { hreflang: "es", href: SITE_URL + "/treatments/es" },
+  { hreflang: "de", href: SITE_URL + "/treatments/de" },
+  { hreflang: "fr", href: SITE_URL + "/treatments/fr" },
+  { hreflang: "it", href: SITE_URL + "/treatments/it" },
+  { hreflang: "ro", href: SITE_URL + "/treatments/ro" },
+  { hreflang: "ru", href: SITE_URL + "/treatments/ru" },
+  { hreflang: "ar", href: SITE_URL + "/treatments/ar" },
+  { hreflang: "x-default", href: SITE_URL + "/treatments" },
+];
+
+const ESG_ALTERNATES: Array<{ hreflang: string; href: string }> = [
+  { hreflang: "en-GB", href: SITE_URL + "/esg/uk" },
+  { hreflang: "de", href: SITE_URL + "/esg/de" },
+  { hreflang: "fr", href: SITE_URL + "/esg/fr" },
+  { hreflang: "es", href: SITE_URL + "/esg/es" },
+  { hreflang: "nl", href: SITE_URL + "/esg/nl" },
+  { hreflang: "ar", href: SITE_URL + "/esg/ar" },
+  { hreflang: "it", href: SITE_URL + "/esg/it" },
+  { hreflang: "ru", href: SITE_URL + "/esg/ru" },
+  { hreflang: "ro", href: SITE_URL + "/esg/ro" },
+  { hreflang: "sv", href: SITE_URL + "/esg/se" },
+  { hreflang: "pl", href: SITE_URL + "/esg/pl" },
+  { hreflang: "da", href: SITE_URL + "/esg/dk" },
+  { hreflang: "nb", href: SITE_URL + "/esg/no" },
+  { hreflang: "hu", href: SITE_URL + "/esg/hu" },
+  { hreflang: "fi", href: SITE_URL + "/esg/fi" },
+  { hreflang: "en-CA", href: SITE_URL + "/esg/ca" },
+  { hreflang: "en-US", href: SITE_URL + "/esg/us" },
+  { hreflang: "en-AU", href: SITE_URL + "/esg/anz" },
+  { hreflang: "az", href: SITE_URL + "/esg/az" },
+  { hreflang: "x-default", href: SITE_URL + "/esg/uk" },
+];
 
 const staticPages: Record<string, PageSEO> = {
   "/": {
@@ -194,6 +234,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Kilo Verme Cerrahisi Tedavilerimiz",
     bodyExcerpt: "Istanbul Bariatric Center, Mide Kelepçesi (VSG), Mini Mide Baypas (MGB), Mide Balonu, Endoskopik Mide Gastroplasti (ESG), Transit Bipartisyon, Duodenal Switch ve Post-Bariyatrik Vücut Şekillendirme dahil kapsamlı bir bariyatrik ve metabolik cerrahi yelpazesi sunmaktadır.",
     canonical: SITE_URL + "/treatments/tr",
+    lang: "tr",
+    ogLocale: "tr_TR",
+    alternates: TREATMENTS_ALTERNATES,
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "WebPage",
@@ -225,6 +268,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Nuestros Tratamientos de Cirugía para Pérdida de Peso",
     bodyExcerpt: "Istanbul Bariatric Center ofrece una gama completa de procedimientos de cirugía bariátrica y metabólica, incluyendo Manga Gástrica (VSG), Mini Bypass Gástrico (MGB), Globo Gástrico, ESG, Bipartición Tránsito, Derivación Duodenal y Contorno Corporal Post-Bariátrico.",
     canonical: SITE_URL + "/treatments/es",
+    lang: "es",
+    ogLocale: "es_ES",
+    alternates: TREATMENTS_ALTERNATES,
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "WebPage",
@@ -256,6 +302,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Unsere Gewichtsverlust-Chirurgie Behandlungen",
     bodyExcerpt: "Das Istanbul Bariatric Center bietet ein umfassendes Spektrum an bariatrischen und metabolischen chirurgischen Verfahren, einschließlich Magenbypass (VSG), Mini-Magenbypass (MGB), Magenballon, Endoskopische Magen-Gastroplastik (ESG), Transit-Bipartition, Duodenal-Switch und post-bariatrische Körperformung.",
     canonical: SITE_URL + "/treatments/de",
+    lang: "de",
+    ogLocale: "de_DE",
+    alternates: TREATMENTS_ALTERNATES,
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "WebPage",
@@ -287,6 +336,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Nos Traitements de Chirurgie Bariatrique",
     bodyExcerpt: "Istanbul Bariatric Center propose une gamme complète de procédures de chirurgie bariatrique et métabolique, y compris Sleeve Gastrique (VSG), Mini Bypass Gastrique (MGB), Ballon Gastrique, ESG, Bipartition Transit, Switch Duodénal, et Contouring Corporel Post-Bariatrique.",
     canonical: SITE_URL + "/treatments/fr",
+    lang: "fr",
+    ogLocale: "fr_FR",
+    alternates: TREATMENTS_ALTERNATES,
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "WebPage",
@@ -318,6 +370,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "I Nostri Trattamenti di Chirurgia per la Perdita di Peso",
     bodyExcerpt: "Istanbul Bariatric Center offre una gamma completa di procedure di chirurgia bariatrica e metabolica, inclusi Sleeve Gastrico (VSG), Mini Bypass Gastrico (MGB), Pallone Gastrico, Gastroplastica Endoscopica a Manica (ESG), Bipartizione Transitiva, Switch Duodenale e Contouring Corporeo Post-Bariatrico.",
     canonical: SITE_URL + "/treatments/it",
+    lang: "it",
+    ogLocale: "it_IT",
+    alternates: TREATMENTS_ALTERNATES,
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "WebPage",
@@ -349,6 +404,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Tratamentul nostru de Chirurgie pentru Pierderea în Greutate",
     bodyExcerpt: "Istanbul Bariatric Center oferă o gamă completă de proceduri de chirurgie bariatrică și metabolică, inclusiv Gastric Sleeve (VSG), Mini Gastric Bypass (MGB), Gastric Balloon, ESG, Bifurcație de Transit, Duodenal Switch și Conturare Corporală Post-Bariatrică.",
     canonical: SITE_URL + "/treatments/ro",
+    lang: "ro",
+    ogLocale: "ro_RO",
+    alternates: TREATMENTS_ALTERNATES,
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "WebPage",
@@ -380,6 +438,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Наши процедуры хирургии похудения",
     bodyExcerpt: "Istanbul Bariatric Center предлагает широкий спектр процедур бариатрической и метаболической хирургии, включая гастрический рукав (VSG), мини-гастральный шунт (MGB), гастрический баллон, эндоскопическую гастро-пластическую операцию (ESG), транзитную бипартию, дуоденальный шунт и контурирование тела после бариатрической хирургии. Каждая процедура адаптирована к ИМТ пациента, состоянию здоровья и целям по снижению веса.",
     canonical: SITE_URL + "/treatments/ru",
+    lang: "ru",
+    ogLocale: "ru_RU",
+    alternates: TREATMENTS_ALTERNATES,
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "WebPage",
@@ -411,6 +472,10 @@ const staticPages: Record<string, PageSEO> = {
     h1: "علاجات جراحة فقدان الوزن لدينا",
     bodyExcerpt: "يقدم مركز إسطنبول لجراحة السمنة مجموعة شاملة من إجراءات جراحة السمنة والأيض بما في ذلك تكميم المعدة (VSG)، تحويل مسار المعدة المصغر (MGB)، بالون المعدة، جراحة تكميم المعدة بالمنظار (ESG)، تقسيم الأمعاء، تحويل الاثني عشر، ونحت الجسم بعد جراحة السمنة. كل إجراء مصمم وفقًا لمؤشر كتلة الجسم (BMI) وظروف الصحة وأهداف فقدان الوزن.",
     canonical: SITE_URL + "/treatments/ar",
+    lang: "ar",
+    dir: "rtl",
+    ogLocale: "ar_SA",
+    alternates: TREATMENTS_ALTERNATES,
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "WebPage",
@@ -776,6 +841,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Endoscopic Sleeve Gastroplasty (ESG) for UK Patients — A Safer, Non-Surgical Weight Loss Solution in Turkey",
     bodyExcerpt: "ESG for UK patients at Istanbul Bariatric Center. Non-surgical, incision-free weight loss procedure with all-inclusive packages from £4,950. Save up to 70% compared to UK private clinics. JCI-accredited Liv Hospital, pioneer surgeon Dr Murat Ustun, UK patient coordinators, 12-month UK dietitian support included.",
     canonical: SITE_URL + "/esg/uk",
+    lang: "en-GB",
+    ogLocale: "en_GB",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>What Is Endoscopic Sleeve Gastroplasty (ESG)?</h2><p>Endoscopic Sleeve Gastroplasty (ESG) is a cutting-edge, incision-free weight loss procedure that reduces the size of your stomach using an endoscope inserted through the mouth. Unlike traditional gastric sleeve surgery, no cuts are made on the abdomen, no part of the stomach is removed, and recovery is significantly faster. The procedure uses a specialised suturing system — the Apollo OverStitch technology — to reshape and reduce your stomach by up to 70–80%, helping you feel full faster and eat less. It takes approximately 60–90 minutes under general anaesthesia, and most patients return home the same day or after one night in hospital.</p><p>For UK patients, ESG represents a breakthrough alternative to both surgical weight loss and long-term medication use. It bridges the gap between lifestyle interventions that haven't worked and invasive surgery that many people aren't ready for — or don't qualify for through the NHS.</p></section>
 <section><h2>Why UK Patients Are Choosing ESG in Turkey</h2><h3>Limited NHS Access</h3><p>ESG is not widely available on the NHS. Most NHS bariatric pathways focus on surgical options with strict eligibility criteria — often requiring a BMI of 40+ and years of documented weight management attempts. Private ESG in the UK remains limited to a handful of specialist centres, with long waiting lists even for initial consultations.</p><h3>Significant Cost Savings</h3><p>In the UK, ESG typically costs £8,000–£15,000 at private clinics. At Istanbul Bariatric Center, all-inclusive packages start from £4,950 — that's up to 60–70% savings. Your package includes the procedure, hospital stay, hotel accommodation, airport transfers, pre-operative tests, and 12-month dietitian support. The average UK patient saves £5,000–£10,000 by choosing Istanbul Bariatric Center.</p><h3>No Waiting Lists</h3><p>Even private consultations in cities like London, Manchester, or Birmingham can take weeks or months. With Istanbul Bariatric Center, you can have your consultation within days, your procedure scheduled promptly, and your entire treatment completed within a single short trip — typically 3–4 days from departure to return.</p></section>
 <section><h2>ESG vs Weight Loss Medications in the UK</h2><p>Many UK patients start their weight loss journey with GLP-1 medications like Wegovy or Ozempic. But what happens when the medications plateau, the side effects become difficult, or the monthly costs add up? ESG is increasingly seen as the next step.</p><table><thead><tr><th>Factor</th><th>Wegovy / Ozempic</th><th>ESG</th></tr></thead><tbody><tr><td>Long-Term Effectiveness</td><td>Often limited — weight returns when medication stops</td><td>More durable — physical stomach reduction is permanent</td></tr><tr><td>Side Effects</td><td>Common (nausea, diarrhoea, pancreatitis risk)</td><td>Minimal (mild discomfort for 1–3 days)</td></tr><tr><td>Cost Over Time</td><td>£200–400/month ongoing (£2,400–4,800/year)</td><td>One-time investment from £4,950</td></tr><tr><td>Weight Regain</td><td>Frequent when medication is stopped</td><td>Less common with lifestyle adherence</td></tr><tr><td>NHS Availability</td><td>Limited — strict criteria and long waits</td><td>Not available on NHS</td></tr><tr><td>Procedure Required</td><td>No — weekly/daily injections</td><td>Yes — one 60–90 minute endoscopic procedure</td></tr></tbody></table></section>
@@ -834,6 +902,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Endoskopische Sleeve Gastroplastik (ESG) für Patienten aus Deutschland — Abnehmen ohne Operation in der Türkei",
     bodyExcerpt: "ESG für deutsche Patienten im Istanbul Bariatric Center. Minimalinvasive, schnittfreie Magenverkleinerung mit All-Inclusive-Paketen ab ca. 5.800 €. Bis zu 70 % günstiger als in Deutschland. JCI-akkreditiertes Liv Hospital, Pionier-Chirurg Dr. Murat Üstün, deutschsprachige Patientenbetreuung, 12-monatige Ernährungsberatung inklusive.",
     canonical: SITE_URL + "/esg/de",
+    lang: "de",
+    ogLocale: "de_DE",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>Was ist die Endoskopische Sleeve Gastroplastik (ESG)?</h2><p>Die Endoskopische Sleeve Gastroplastik (ESG) ist ein innovatives, schnittfreies Verfahren zur Gewichtsreduktion, bei dem der Magen mithilfe eines Endoskops verkleinert wird, das über den Mund eingeführt wird. Im Gegensatz zur klassischen Schlauchmagen-Operation werden keine Schnitte am Bauch vorgenommen, kein Magengewebe entfernt, und die Erholung ist deutlich schneller. Das Verfahren nutzt die Apollo OverStitch-Technologie, um den Magen um bis zu 70–80 % zu verkleinern. Der Eingriff dauert ca. 60–90 Minuten unter Vollnarkose.</p><p>Für deutsche Patienten stellt die ESG eine bahnbrechende Alternative dar — sowohl zur chirurgischen Gewichtsreduktion als auch zum langfristigen Einsatz von Medikamenten wie Ozempic oder Wegovy.</p></section>
 <section><h2>Warum deutsche Patienten ESG in der Türkei wählen</h2><h3>Begrenzte Verfügbarkeit in Deutschland</h3><p>Die ESG ist in Deutschland noch nicht flächendeckend verfügbar. Viele Kliniken bieten das Verfahren nicht an, und die gesetzlichen Krankenkassen übernehmen die Kosten in der Regel nicht. Private Anbieter sind selten und haben oft lange Wartelisten.</p><h3>Erhebliche Kostenersparnis</h3><p>In Deutschland kostet ESG typischerweise 8.000–15.000 € in privaten Kliniken. Im Istanbul Bariatric Center beginnen All-Inclusive-Pakete ab ca. 5.800 € (£4.950) — eine Ersparnis von bis zu 60–70 %. Das Paket umfasst Eingriff, Krankenhausaufenthalt, Hotel, Flughafentransfer, Voruntersuchungen und 12-monatige Ernährungsberatung.</p><h3>Keine Wartezeiten</h3><p>Selbst in Großstädten wie Berlin, München, Frankfurt oder Hamburg können Wartezeiten für private Beratungen Wochen oder Monate betragen. Im Istanbul Bariatric Center erhalten Sie Ihre Beratung innerhalb weniger Tage.</p></section>
 <section><h2>ESG vs Medikamente zur Gewichtsreduktion</h2><p>Viele Patienten in Deutschland beginnen mit GLP-1-Medikamenten wie Ozempic oder Wegovy. Die ESG wird zunehmend als effektiver nächster Schritt gesehen, da sie eine einmalige physische Magenverkleinerung bietet — ohne laufende Medikamentenkosten.</p><table><thead><tr><th>Faktor</th><th>Ozempic / Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Dauerhafte Wirkung</td><td>Begrenzt</td><td>Stabiler</td></tr><tr><td>Nebenwirkungen</td><td>Häufig</td><td>Gering</td></tr><tr><td>Kosten</td><td>200–400 €/Monat</td><td>Einmalig ab 5.800 €</td></tr><tr><td>Jojo-Effekt</td><td>Häufig</td><td>Reduziert</td></tr></tbody></table></section>
@@ -890,6 +961,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Sleeve Gastroplastie Endoscopique (ESG) pour les patients en France — Perdre du poids sans chirurgie en Turquie",
     bodyExcerpt: "ESG pour patients français à Istanbul Bariatric Center. Réduction gastrique mini-invasive sans chirurgie avec forfaits tout compris à partir d'environ 5 800 €. Jusqu'à 70 % moins cher qu'en France. Hôpital accrédité JCI, chirurgien pionnier Dr Murat Üstün, accompagnement francophone, suivi nutritionnel de 12 mois inclus.",
     canonical: SITE_URL + "/esg/fr",
+    lang: "fr",
+    ogLocale: "fr_FR",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>Qu'est-ce que la Sleeve Gastroplastie Endoscopique (ESG) ?</h2><p>L'ESG est une technique innovante de réduction gastrique sans chirurgie. Un endoscope est introduit par la bouche pour réaliser des sutures internes qui réduisent le volume de l'estomac de 70 à 80 %. Contrairement à la sleeve gastrectomie classique, aucune incision n'est pratiquée, aucun tissu gastrique n'est retiré, et la récupération est considérablement plus rapide. L'intervention utilise la technologie Apollo OverStitch et dure environ 60 à 90 minutes sous anesthésie générale.</p><p>Pour les patients français, l'ESG comble un vide important entre les mesures hygiéno-diététiques qui n'ont pas fonctionné et une chirurgie invasive pour laquelle beaucoup ne sont pas prêts ou ne remplissent pas les critères.</p></section>
 <section><h2>Pourquoi les patients français choisissent l'ESG en Turquie</h2><h3>Accès limité en France</h3><p>L'ESG reste encore peu répandue en France. Elle n'est pas largement proposée dans les hôpitaux publics et n'est généralement pas prise en charge par l'Assurance maladie. Les cliniques privées qui la proposent sont rares et les délais d'attente peuvent être longs.</p><h3>Économie significative</h3><p>En France, l'ESG coûte typiquement 8 000 à 15 000 € dans le secteur privé. À Istanbul Bariatric Center, les forfaits tout compris débutent à environ 5 800 € (£4 950) — soit une économie de 40 à 60 %. Ce forfait inclut l'intervention, l'hospitalisation, l'hôtel, les transferts et 12 mois de suivi nutritionnel.</p><h3>Aucun délai d'attente</h3><p>Même dans les grandes villes comme Paris, Lyon, Marseille ou Toulouse, les délais pour une consultation privée peuvent atteindre plusieurs semaines. À Istanbul Bariatric Center, votre consultation est organisée en quelques jours.</p></section>
 <section><h2>ESG vs traitements médicamenteux</h2><p>De nombreux patients en France débutent avec des médicaments GLP-1 comme Ozempic ou Wegovy. L'ESG s'inscrit de plus en plus comme l'étape suivante logique, offrant une réduction gastrique physique unique sans frais récurrents.</p><table><thead><tr><th>Critère</th><th>Ozempic / Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Durée d'efficacité</td><td>Variable</td><td>Plus stable</td></tr><tr><td>Effets secondaires</td><td>Fréquents</td><td>Limités</td></tr><tr><td>Coût</td><td>200–400 €/mois</td><td>Unique à partir de 5 800 €</td></tr><tr><td>Reprise de poids</td><td>Fréquente</td><td>Réduite</td></tr></tbody></table></section>
@@ -946,6 +1020,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Gastroplastia Endoscópica en Manga (ESG) para pacientes en España — Adelgazar sin cirugía en Turquía",
     bodyExcerpt: "ESG para pacientes españoles en Istanbul Bariatric Center. Reducción gástrica mínimamente invasiva sin cirugía con paquetes todo incluido desde aprox. 5.800 €. Hasta 70 % más barato que en España. Hospital acreditado JCI, cirujano pionero Dr. Murat Üstün, atención en español, seguimiento nutricional de 12 meses incluido.",
     canonical: SITE_URL + "/esg/es",
+    lang: "es",
+    ogLocale: "es_ES",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>¿Qué es la Gastroplastia Endoscópica en Manga (ESG)?</h2><p>La ESG es un procedimiento innovador de reducción gástrica sin cirugía. Se introduce un endoscopio por la boca para realizar suturas internas que reducen el volumen del estómago entre un 70 y un 80 %. A diferencia de la manga gástrica quirúrgica, no se realizan incisiones, no se extrae tejido gástrico y la recuperación es considerablemente más rápida. El procedimiento utiliza la tecnología Apollo OverStitch y dura aproximadamente 60 a 90 minutos bajo anestesia general.</p><p>Para los pacientes españoles, la ESG representa una alternativa revolucionaria que cierra la brecha entre las medidas de estilo de vida que no han funcionado y una cirugía invasiva para la que muchos no están preparados.</p></section>
 <section><h2>¿Por qué los pacientes españoles eligen la ESG en Turquía?</h2><h3>Acceso limitado en España</h3><p>Aunque la ESG está creciendo en popularidad, todavía no está ampliamente disponible en el sistema sanitario público español. Las clínicas privadas que la ofrecen son escasas, con listas de espera que pueden extenderse semanas o meses.</p><h3>Ahorro económico significativo</h3><p>En España, la ESG cuesta típicamente entre 8.000 y 14.000 € en clínicas privadas. En Istanbul Bariatric Center, los paquetes todo incluido comienzan desde aproximadamente 5.800 € (£4.950) — un ahorro de hasta el 60–70 %. El paquete incluye procedimiento, hospitalización, hotel, traslados y 12 meses de seguimiento nutricional.</p><h3>Sin tiempos de espera</h3><p>Incluso en grandes ciudades como Madrid, Barcelona, Valencia o Málaga, los tiempos de espera para una consulta privada pueden alcanzar varias semanas. En Istanbul Bariatric Center, su consulta se organiza en pocos días.</p></section>
 <section><h2>ESG vs medicamentos para adelgazar</h2><p>Muchos pacientes en España empiezan con medicamentos GLP-1 como Ozempic o Wegovy. La ESG se posiciona cada vez más como el siguiente paso lógico, ofreciendo una reducción gástrica física única sin gastos recurrentes.</p><table><thead><tr><th>Factor</th><th>Ozempic / Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Duración de eficacia</td><td>Variable</td><td>Más estable</td></tr><tr><td>Efectos secundarios</td><td>Frecuentes</td><td>Mínimos</td></tr><tr><td>Coste</td><td>200–400 €/mes</td><td>Único desde 5.800 €</td></tr><tr><td>Recuperación de peso</td><td>Frecuente</td><td>Menor</td></tr></tbody></table></section>
@@ -1002,6 +1079,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Endoscopische Sleeve Gastroplastiek (ESG) voor patiënten uit Nederland — Afvallen zonder operatie in Turkije",
     bodyExcerpt: "ESG voor Nederlandse patiënten bij Istanbul Bariatric Center. Maagverkleining zonder operatie met all-inclusive pakketten vanaf circa € 5.800. Tot 70% goedkoper dan in Nederland. JCI-geaccrediteerd ziekenhuis, pionier Dr. Murat Üstün, persoonlijke begeleiding, 12 maanden voedingsbegeleiding inbegrepen.",
     canonical: SITE_URL + "/esg/nl",
+    lang: "nl",
+    ogLocale: "nl_NL",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>Wat is de Endoscopische Sleeve Gastroplastiek (ESG)?</h2><p>De ESG is een innovatieve procedure voor maagverkleining zonder operatie. Via de mond wordt een endoscoop ingebracht waarmee interne hechtingen worden geplaatst die het maagvolume met 70 tot 80% verkleinen. In tegenstelling tot de klassieke maagverkleining (sleeve gastrectomy) worden er geen sneden gemaakt, wordt er geen maagweefsel verwijderd en is het herstel aanzienlijk sneller. De procedure maakt gebruik van de Apollo OverStitch-technologie en duurt circa 60 tot 90 minuten onder algehele narcose.</p><p>Voor Nederlandse patiënten vult de ESG een belangrijke leemte — tussen leefstijlmaatregelen die niet hebben gewerkt en een invasieve operatie waarvoor velen niet in aanmerking komen of niet klaar voor zijn.</p></section>
 <section><h2>Waarom Nederlandse patiënten voor ESG in Turkije kiezen</h2><h3>Beperkte beschikbaarheid in Nederland</h3><p>De ESG is in Nederland nog niet breed beschikbaar. De procedure wordt niet aangeboden in de reguliere ziekenhuiszorg en de criteria voor bariatrische behandelingen zijn strikt. Privéklinieken die ESG aanbieden zijn schaars en hebben vaak lange wachttijden.</p><h3>Aanzienlijke kostenbesparing</h3><p>In Nederland kost ESG doorgaans € 8.000 tot € 15.000 bij privéklinieken. Bij Istanbul Bariatric Center beginnen all-inclusive pakketten vanaf circa € 5.800 (£4.950) — een besparing van 40 tot 60%. Het pakket omvat de procedure, ziekenhuisopname, hotel, transfer en 12 maanden voedingsbegeleiding.</p><h3>Geen wachttijden</h3><p>Zelfs in grote steden als Amsterdam, Rotterdam, Den Haag of Utrecht kunnen wachttijden voor privéconsulten in de bariatrische zorg weken of maanden bedragen. Bij Istanbul Bariatric Center wordt uw consult binnen enkele dagen georganiseerd.</p></section>
 <section><h2>ESG vs afslankmedicatie</h2><p>Veel patiënten in Nederland beginnen met GLP-1-medicatie zoals Ozempic of Wegovy. De ESG positioneert zich steeds vaker als de logische volgende stap, met een eenmalige fysieke maagverkleining zonder doorlopende kosten.</p><table><thead><tr><th>Factor</th><th>Ozempic / Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Effectiviteit</td><td>Beperkt</td><td>Stabieler</td></tr><tr><td>Bijwerkingen</td><td>Regelmatig</td><td>Beperkt</td></tr><tr><td>Kosten</td><td>€ 200–400/maand</td><td>Eenmalig vanaf € 5.800</td></tr><tr><td>Gewichtstoename</td><td>Gebruikelijk</td><td>Verminderd</td></tr></tbody></table></section>
@@ -1058,6 +1138,10 @@ const staticPages: Record<string, PageSEO> = {
     h1: "عملية طي المعدة بالمنظار (ESG) بدون جراحة — حل متطور لإنقاص الوزن للمرضى من الخليج في تركيا",
     bodyExcerpt: "عملية ESG لمرضى الخليج في مركز إسطنبول لجراحة السمنة. تصغير المعدة بدون جراحة مع باقات شاملة من ٧,٥٠٠ دولار. مستشفى معتمد JCI، الدكتور مراد أوستون رائد ESG في تركيا، مترجمون عرب، متابعة غذائية ١٢ شهرًا.",
     canonical: SITE_URL + "/esg/ar",
+    lang: "ar",
+    dir: "rtl",
+    ogLocale: "ar_SA",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>ما هي عملية طي المعدة بالمنظار (ESG)؟</h2><p>عملية ESG هي إجراء مبتكر لتصغير المعدة بدون جراحة. يتم إدخال منظار عبر الفم لوضع غرز داخلية تقلل حجم المعدة بنسبة ٧٠ إلى ٨٠٪. بخلاف عملية تكميم المعدة الجراحية، لا يتم عمل أي شقوق، ولا يُستأصل أي نسيج من المعدة، والتعافي أسرع بكثير. يستخدم الإجراء تقنية Apollo OverStitch ويستغرق حوالي ٦٠ إلى ٩٠ دقيقة تحت التخدير العام.</p><p>لمرضى الخليج، تمثل عملية ESG حلاً ثوريًا يسد الفجوة بين الحميات التي لم تنجح والجراحة التقليدية التي قد لا يكون المريض مستعدًا لها.</p></section>
 <section><h2>لماذا يختار مرضى الخليج عملية ESG في تركيا؟</h2><h3>جودة طبية عالمية بتكلفة تنافسية</h3><p>في دول الخليج، تكلفة الإجراءات الطبية مرتفعة جدًا. في مركز إسطنبول لجراحة السمنة، نقدم نفس الجودة الطبية — أو أعلى — في مستشفى معتمد JCI، بأسعار تنافسية تبدأ من ٧,٥٠٠ دولار أمريكي.</p><h3>تجربة علاجية فاخرة (VIP)</h3><p>نقدم تجربة متكاملة تشمل استقبال VIP من المطار، إقامة في فنادق فاخرة، مترجمين عرب، خصوصية كاملة، ومتابعة شخصية دقيقة.</p><h3>سرعة في المواعيد</h3><p>بدون قوائم انتظار طويلة. استشارة سريعة، حجز مرن، وإجراء العملية خلال أيام. رحلات مباشرة من الرياض وجدة ودبي والدوحة والكويت.</p></section>
 <section><h2>الأسعار — شفافية كاملة</h2><p>الإجراء فقط: ٧,٥٠٠ دولار أمريكي. الباقة الشاملة VIP: ٨,٥٠٠ دولار أمريكي وتشمل العملية، الإقامة في مستشفى JCI، فحوصات وتحاليل، استقبال VIP من المطار، إقامة فندقية فاخرة، أدوية ما بعد العملية، متابعة غذائية ١٢ شهرًا، ومتابعة مستمرة. بدون أي تكاليف مخفية.</p></section>
@@ -1114,6 +1198,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Gastroplastica Endoscopica (ESG) per pazienti dall'Italia — Dimagrire senza chirurgia in Turchia",
     bodyExcerpt: "Gastroplastica Endoscopica (ESG) per pazienti italiani presso Istanbul Bariatric Center. Riduzione dello stomaco senza chirurgia. Pacchetto tutto incluso a € 6.450 — ospedale accreditato JCI, Dr. Murat Üstün, transfer VIP, hotel, supporto nutrizionale 12 mesi. Risparmio del 20-55% rispetto ai prezzi italiani.",
     canonical: SITE_URL + "/esg/it",
+    lang: "it",
+    ogLocale: "it_IT",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>Cos'è la Gastroplastica Endoscopica (ESG)?</h2><p>La ESG è una procedura innovativa per la riduzione dello stomaco senza chirurgia. Attraverso la bocca viene introdotto un endoscopio per applicare suture interne che riducono il volume gastrico del 70-80%. A differenza della sleeve gastrectomy chirurgica, non vengono praticate incisioni, non viene rimosso tessuto gastrico e il recupero è significativamente più rapido. La procedura utilizza la tecnologia Apollo OverStitch e dura circa 60-90 minuti in anestesia generale.</p><p>Per i pazienti italiani, la ESG colma un vuoto importante — tra le misure di stile di vita che non hanno funzionato e un intervento chirurgico invasivo per il quale molti non sono pronti.</p></section>
 <section><h2>Perché i pazienti italiani scelgono la ESG in Turchia</h2><h3>Accesso limitato in Italia</h3><p>In Italia la ESG non è ancora diffusa. La procedura non è disponibile nella maggior parte degli ospedali pubblici e i criteri per i trattamenti bariatrici nel SSN sono restrittivi. Le cliniche private che offrono la ESG sono rare e hanno spesso lunghe liste d'attesa — anche a Milano, Roma o Napoli.</p><h3>Risparmio significativo</h3><p>In Italia la ESG costa tipicamente € 8.000-15.000 nelle cliniche private. Presso Istanbul Bariatric Center, il pacchetto tutto incluso è di € 6.450 — un risparmio del 20-55%. Il pacchetto include procedura, ospedale JCI, hotel, transfer VIP, esami, farmaci e 12 mesi di supporto nutrizionale.</p><h3>Nessuna lista d'attesa</h3><p>I tempi d'attesa per un consulto privato in ambito bariatrico possono raggiungere settimane o mesi anche nelle grandi città italiane. Presso Istanbul Bariatric Center, il consulto viene organizzato in pochi giorni e il trattamento completo si conclude in 3-4 giorni.</p></section>
 <section><h2>Prezzo — Pacchetto ESG tutto incluso</h2><p>€ 6.450 tutto incluso. Il pacchetto comprende: procedura ESG completa, anestesia generale, ricovero in ospedale accreditato JCI, esami preoperatori, transfer VIP dall'aeroporto, soggiorno in hotel, farmaci post-procedura e supporto nutrizionale per 12 mesi con dietista qualificata. Nessun costo nascosto.</p></section>
@@ -1169,6 +1256,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Эндоскопическая гастропластика (ESG) — эффективное снижение веса без операции в Турции",
     bodyExcerpt: "Эндоскопическая гастропластика (ESG) для пациентов из России и СНГ в Istanbul Bariatric Center. Уменьшение желудка без операции. Клиника с аккредитацией JCI. Доктор Мурат Юстюн. Русскоговорящий персонал. Пакеты «всё включено» с трансфером, проживанием и 12 месяцами нутритивного сопровождения.",
     canonical: SITE_URL + "/esg/ru",
+    lang: "ru",
+    ogLocale: "ru_RU",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>Что такое эндоскопическая гастропластика (ESG)?</h2><p>ESG — это инновационная процедура для уменьшения объёма желудка без хирургического вмешательства. Через рот вводится эндоскоп для наложения внутренних швов, уменьшающих объём желудка на 70-80%. В отличие от рукавной гастрэктомии, не делается ни одного разреза, ткань желудка не удаляется, а восстановление происходит значительно быстрее. Процедура использует технологию Apollo OverStitch и длится 60-90 минут под общим наркозом.</p></section>
 <section><h2>Почему пациенты из России выбирают ESG в Турции</h2><h3>Опыт и доступность</h3><p>Турция — мировой лидер в области бариатрической медицины. Современные клиники, опытные хирурги и международные стандарты качества. ESG доступна без длительного ожидания.</p><h3>Доступные цены</h3><p>Стоимость ESG в Стамбуле значительно ниже, чем в частных клиниках России и Европы — при высоком уровне качества. Полный пакет «всё включено» с клиникой JCI, отелем, трансфером и 12 месяцами наблюдения.</p><h3>Удобная логистика</h3><p>Прямые рейсы из Москвы, Санкт-Петербурга, Казани, Екатеринбурга (~3-4 часа). Безвизовый режим. VIP-трансфер и организация пребывания.</p></section>
 <section><h2>ESG vs медикаменты</h2><table><thead><tr><th>Фактор</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Эффект</td><td>Временный</td><td>Стабильный</td></tr><tr><td>Побочные эффекты</td><td>Частые</td><td>Минимальные</td></tr><tr><td>Стоимость</td><td>Постоянная</td><td>Разовая</td></tr><tr><td>Возврат веса</td><td>Часто</td><td>Минимален</td></tr></tbody></table></section>
@@ -1219,6 +1309,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Gastroplastie Endoscopică (ESG) — Slăbire fără operație în Turcia pentru pacienți din România",
     bodyExcerpt: "Gastroplastie Endoscopică (ESG) pentru pacienți din România la Istanbul Bariatric Center. Reducerea stomacului fără chirurgie. Spital acreditat JCI. Dr. Murat Üstün. Pachete all-inclusive cu transfer VIP, cazare hotel și urmărire nutrițională 12 luni. Zboruri directe din București și Cluj (~1,5-2 ore).",
     canonical: SITE_URL + "/esg/ro",
+    lang: "ro",
+    ogLocale: "ro_RO",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>Ce este Gastroplastia Endoscopică (ESG)?</h2><p>ESG este o procedură inovatoare pentru reducerea volumului stomacului fără chirurgie. Prin gură se introduce un endoscop cu care se aplică suturi interne, reducând volumul gastric cu 70-80%. Spre deosebire de sleeve gastrectomy, nu se fac incizii, nu se îndepărtează țesut gastric, iar recuperarea este semnificativ mai rapidă. Procedura folosește tehnologia Apollo OverStitch și durează 60-90 de minute sub anestezie generală.</p></section>
 <section><h2>De ce pacienții români aleg ESG în Turcia</h2><h3>Costuri accesibile</h3><p>ESG în clinicile private din România costă între 6.000 și 12.000 €. La Istanbul Bariatric Center, pachetul all-inclusive este semnificativ mai accesibil — cu aceleași standarde internaționale. Include procedura, spitalul JCI, hotelul, transferul și 12 luni de urmărire.</p><h3>Acces rapid</h3><p>Fără liste lungi de așteptare. Consultația se organizează în câteva zile, iar tratamentul complet durează doar 3-4 zile.</p><h3>Experiență medicală</h3><p>Turcia este un lider mondial în chirurgia bariatrică. Dr. Murat Üstün a realizat mii de proceduri ESG cu rezultate excelente, la Liv Hospital acreditat JCI.</p></section>
 <section><h2>ESG vs medicamente pentru slăbire</h2><table><thead><tr><th>Factor</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Eficacitate</td><td>Limitată</td><td>Stabilă</td></tr><tr><td>Efecte secundare</td><td>Frecvente</td><td>Minime</td></tr><tr><td>Cost</td><td>Lunar, continuu</td><td>O singură dată</td></tr><tr><td>Recâștigare</td><td>Frecventă</td><td>Redusă</td></tr></tbody></table></section>
@@ -1269,6 +1362,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Endoskopisk Sleeve Gastroplastik (ESG) — Gå ner i vikt utan operation i Turkiet",
     bodyExcerpt: "Endoskopisk Sleeve Gastroplastik (ESG) för patienter från Sverige vid Istanbul Bariatric Center. Magförminskning utan kirurgi. JCI-ackrediterat sjukhus. Dr. Murat Üstün. All-inclusive-paket € 6 450 med VIP-transfer, hotell och 12 månaders nutritionsstöd. Direktflyg från Stockholm Arlanda (~3-3,5 timmar).",
     canonical: SITE_URL + "/esg/se",
+    lang: "sv",
+    ogLocale: "sv_SE",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>Vad är Endoskopisk Sleeve Gastroplastik (ESG)?</h2><p>ESG är en innovativ procedur för att minska magsäckens volym utan kirurgi. Genom munnen förs ett endoskop ned för att placera interna suturer som reducerar magvolymen med 70-80%. Till skillnad från en traditionell sleeve gastrectomy görs inga snitt, ingen vävnad avlägsnas och återhämtningen är betydligt snabbare. Proceduren använder Apollo OverStitch-teknologi och tar 60-90 minuter under generell anestesi.</p></section>
 <section><h2>Varför väljer svenska patienter ESG i Turkiet</h2><h3>Begränsad tillgång i Sverige</h3><p>ESG erbjuds ännu inte inom den offentliga svenska sjukvården. Privata kliniker som erbjuder proceduren är sällsynta, väntetiderna är långa — även i Stockholm och Göteborg.</p><h3>Betydande besparingar</h3><p>I Sverige kan ESG kosta 80 000-150 000 SEK på privata kliniker. Hos Istanbul Bariatric Center är all-inclusive-paketet € 6 450 (~70 000 SEK) — inklusive procedur, sjukhus, hotell, transfer och 12 månaders uppföljning.</p><h3>Snabb tillgång</h3><p>Ingen väntelista. Direktflyg från Stockholm Arlanda, Göteborg Landvetter (~3-3,5 timmar). Fullständig behandling inom 3-4 dagar.</p></section>
 <section><h2>ESG vs läkemedel</h2><table><thead><tr><th>Faktor</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Effekt</td><td>Tillfällig</td><td>Långsiktig</td></tr><tr><td>Biverkningar</td><td>Vanliga</td><td>Få</td></tr><tr><td>Kostnad</td><td>Löpande</td><td>Engångs</td></tr><tr><td>Viktuppgång</td><td>Vanlig</td><td>Begränsad</td></tr></tbody></table></section>
@@ -1319,6 +1415,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Endoskopowa Gastroplastyka Rękawowa (ESG) — Odchudzanie bez operacji w Turcji",
     bodyExcerpt: "Endoskopowa Gastroplastyka Rękawowa (ESG) dla pacjentów z Polski w Istanbul Bariatric Center. Zmniejszenie żołądka bez operacji. Szpital z akredytacją JCI. Dr Murat Üstün. Pakiet all-inclusive € 6 450 z transferem VIP, hotelem i 12-miesięcznym wsparciem dietetycznym. Bezpośrednie loty z Warszawy i Krakowa (~2,5-3 godziny).",
     canonical: SITE_URL + "/esg/pl",
+    lang: "pl",
+    ogLocale: "pl_PL",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>Czym jest Endoskopowa Gastroplastyka Rękawowa (ESG)?</h2><p>ESG to innowacyjny zabieg polegający na zmniejszeniu objętości żołądka bez chirurgii. Przez usta wprowadzany jest endoskop, za pomocą którego zakładane są wewnętrzne szwy zmniejszające objętość żołądka o 70-80%. W odróżnieniu od tradycyjnej resekcji rękawowej nie wykonuje się żadnych cięć, nie usuwa się tkanki żołądka, a rekonwalescencja jest znacznie krótsza. Zabieg wykorzystuje technologię Apollo OverStitch i trwa 60-90 minut w znieczuleniu ogólnym.</p></section>
 <section><h2>Dlaczego polscy pacjenci wybierają ESG w Turcji</h2><h3>Doświadczenie i standardy</h3><p>Turcja jest światowym liderem w chirurgii bariatrycznej. Nowoczesne szpitale z akredytacją JCI, doświadczeni specjaliści i międzynarodowe standardy opieki.</p><h3>Oszczędności finansowe</h3><p>W Polsce prywatne kliniki pobierają 25 000-50 000 PLN za ESG. Nasz pakiet all-inclusive to € 6 450 (~28 000 PLN) — z procedurą, szpitalem JCI, hotelem, transferem i 12-miesięcznym wsparciem dietetycznym.</p><h3>Szybki dostęp</h3><p>Bez kolejek. Bezpośrednie loty z Warszawy, Krakowa, Wrocławia i Gdańska (~2,5-3 godziny). Pełne leczenie w 3-4 dni.</p></section>
 <section><h2>ESG vs leki odchudzające</h2><table><thead><tr><th>Czynnik</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Efekt</td><td>Tymczasowy</td><td>Trwały</td></tr><tr><td>Skutki uboczne</td><td>Częste</td><td>Minimalne</td></tr><tr><td>Koszt</td><td>Stały</td><td>Jednorazowy</td></tr><tr><td>Powrót wagi</td><td>Częsty</td><td>Ograniczony</td></tr></tbody></table></section>
@@ -1369,6 +1468,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Endoskopisk Sleeve Gastroplastik (ESG) — Vægttab uden kirurgi i Tyrkiet",
     bodyExcerpt: "Endoskopisk Sleeve Gastroplastik (ESG) for patienter fra Danmark i Istanbul Bariatric Center. Mavereduktion uden kirurgi. JCI-akkrediteret hospital. Dr. Murat Üstün. All-inclusive-pakke € 6.450 med VIP-transfer, hotel og 12 måneders ernæringsstøtte. Direkte fly fra København Kastrup (~3-3,5 timer).",
     canonical: SITE_URL + "/esg/dk",
+    lang: "da",
+    ogLocale: "da_DK",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>Hvad er Endoskopisk Sleeve Gastroplastik (ESG)?</h2><p>ESG er en innovativ procedure, der reducerer mavesækkens volumen uden kirurgi. Gennem munden føres et endoskop ned for at placere interne suturer, der reducerer mavevolumenet med 70-80%. I modsætning til en traditionel sleeve gastrectomy laves ingen snit, intet væv fjernes, og restitutionen er væsentligt hurtigere. Proceduren anvender Apollo OverStitch-teknologi og tager ca. 60-90 minutter under generel anæstesi.</p></section>
 <section><h2>Hvorfor vælger danske patienter ESG i Tyrkiet</h2><h3>Ekspertise og standarder</h3><p>Tyrkiet er en global leder inden for bariatrisk kirurgi. Moderne hospitaler med JCI-akkreditering, erfarne specialister og internationale standarder for patientpleje.</p><h3>Betydelige besparelser</h3><p>I Danmark kan private klinikker opkræve 60.000-120.000 DKK for ESG. Vores all-inclusive-pakke er € 6.450 (~48.000 DKK) — med procedure, JCI-akkrediteret hospital, hotel, transfer og 12 måneders ernæringsstøtte.</p><h3>Hurtig adgang</h3><p>Ingen venteliste. Direkte fly fra København Kastrup (~3-3,5 timer). Fuld behandling inden for 3-4 dage.</p></section>
 <section><h2>ESG vs medicin til vægttab</h2><table><thead><tr><th>Faktor</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Effekt</td><td>Midlertidig</td><td>Langvarig</td></tr><tr><td>Bivirkninger</td><td>Almindelige</td><td>Få</td></tr><tr><td>Omkostning</td><td>Løbende</td><td>Engangspris</td></tr><tr><td>Vægtøgning</td><td>Almindelig</td><td>Begrænset</td></tr></tbody></table></section>
@@ -1419,6 +1521,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Endoskopisk Sleeve Gastroplastikk (ESG) — Vekttap uten kirurgi i Tyrkia",
     bodyExcerpt: "Endoskopisk Sleeve Gastroplastikk (ESG) for pasienter fra Norge i Istanbul Bariatric Center. Mageminsking uten kirurgi. JCI-akkreditert sykehus. Dr. Murat Üstün. All-inclusive-pakke € 6.450 med VIP-transfer, hotell og 12 måneders ernæringsstøtte. Direktefly fra Oslo Gardermoen (~3,5-4 timer).",
     canonical: SITE_URL + "/esg/no",
+    lang: "nb",
+    ogLocale: "nb_NO",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>Hva er Endoskopisk Sleeve Gastroplastikk (ESG)?</h2><p>ESG er en innovativ prosedyre som reduserer magesekkens volum uten kirurgi. Gjennom munnen føres et endoskop ned for å plassere interne suturer som reduserer magevolumet med 70-80%. I motsetning til en tradisjonell sleeve gastrectomy gjøres ingen snitt, intet vev fjernes, og rekonvalesensen er vesentlig raskere. Prosedyren bruker Apollo OverStitch-teknologi og tar ca. 60-90 minutter under generell anestesi.</p></section>
 <section><h2>Hvorfor velger norske pasienter ESG i Tyrkia</h2><h3>Ekspertise og standarder</h3><p>Tyrkia er verdensledende innen bariatrisk kirurgi. Moderne sykehus med JCI-akkreditering, erfarne spesialister og internasjonale standarder for pasientbehandling.</p><h3>Vesentlige besparelser</h3><p>I Norge kan private klinikker kreve 80.000-150.000 NOK for ESG. Vår all-inclusive-pakke er € 6.450 (~75.000 NOK) — med prosedyre, JCI-akkreditert sykehus, hotell, transfer og 12 måneders ernæringsstøtte.</p><h3>Rask tilgang</h3><p>Ingen venteliste. Direktefly fra Oslo Gardermoen (~3,5-4 timer). Fullstendig behandling innen 3-4 dager.</p></section>
 <section><h2>ESG vs medisiner for vekttap</h2><table><thead><tr><th>Faktor</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Effekt</td><td>Midlertidig</td><td>Langvarig</td></tr><tr><td>Bivirkninger</td><td>Vanlige</td><td>Få</td></tr><tr><td>Kostnad</td><td>Løpende</td><td>Engangspris</td></tr><tr><td>Vektøkning</td><td>Vanlig</td><td>Begrenset</td></tr></tbody></table></section>
@@ -1469,6 +1574,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Endoszkópos Sleeve Gastroplasztika (ESG) — Fogyás műtét nélkül Törökországban",
     bodyExcerpt: "Endoszkópos Sleeve Gastroplasztika (ESG) magyar pácienseknek az Istanbul Bariatric Centerben. Gyomor csökkentés műtét nélkül. JCI-akkreditált kórház. Dr. Murat Üstün. All-inclusive csomag € 6.450 VIP transzferrel, szállodával és 12 hónapos dietetikai támogatással. Közvetlen járatok Budapestről (~2-2,5 óra).",
     canonical: SITE_URL + "/esg/hu",
+    lang: "hu",
+    ogLocale: "hu_HU",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>Mi az Endoszkópos Sleeve Gastroplasztika (ESG)?</h2><p>Az ESG egy innovatív eljárás, amely műtét nélkül csökkenti a gyomor térfogatát. A szájon át egy endoszkópot vezetnek le, amellyel belső varratokat helyeznek el, 70-80%-kal csökkentve a gyomor térfogatát. A hagyományos sleeve gastrectomyval ellentétben nincs vágás, nem távolítanak el szövetet, és a felépülés lényegesen gyorsabb. Az eljárás Apollo OverStitch technológiát alkalmaz és kb. 60-90 percig tart általános altatásban.</p></section>
 <section><h2>Miért választják a magyar betegek az ESG-t Törökországban</h2><h3>Tapasztalat és szabványok</h3><p>Törökország világvezető a bariatrikus sebészetben. Modern, JCI-akkreditált kórházak, tapasztalt specialisták és nemzetközi ellátási szabványok.</p><h3>Jelentős megtakarítás</h3><p>Magyarországon magánklinikákon 2.000.000-4.000.000 Ft-ba kerülhet az ESG. All-inclusive csomagunk € 6.450 (~2.600.000 Ft) — beavatkozással, JCI kórházzal, szállodával, transzferrel és 12 hónapos dietetikai támogatással.</p><h3>Gyors hozzáférés</h3><p>Nincs várólista. Közvetlen járatok Budapest Liszt Ferencről (~2-2,5 óra). Teljes kezelés 3-4 napon belül.</p></section>
 <section><h2>ESG vs fogyókúrás gyógyszerek</h2><table><thead><tr><th>Tényező</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Hatás</td><td>Átmeneti</td><td>Tartós</td></tr><tr><td>Mellékhatások</td><td>Gyakoriak</td><td>Kevés</td></tr><tr><td>Költség</td><td>Folyamatos</td><td>Egyszeri</td></tr><tr><td>Visszahízás</td><td>Gyakori</td><td>Korlátozott</td></tr></tbody></table></section>
@@ -1519,6 +1627,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Endoskooppinen Sleeve Gastroplastia (ESG) — Laihtuminen ilman leikkausta Turkissa",
     bodyExcerpt: "Endoskooppinen Sleeve Gastroplastia (ESG) suomalaisille potilaille Istanbul Bariatric Centerissä. Mahalaukun pienennys ilman leikkausta. JCI-akkreditoitu sairaala. Dr. Murat Üstün. All-inclusive-paketti € 6.450 VIP-kuljetuksella, hotellilla ja 12 kuukauden ravitsemustuella. Suorat lennot Helsinki-Vantaalta (~3,5-4 tuntia).",
     canonical: SITE_URL + "/esg/fi",
+    lang: "fi",
+    ogLocale: "fi_FI",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>Mikä on Endoskooppinen Sleeve Gastroplastia (ESG)?</h2><p>ESG on innovatiivinen toimenpide, joka pienentää mahalaukun tilavuutta ilman leikkausta. Suun kautta viedään endoskooppi, jolla asetetaan sisäiset ompeleet, jotka pienentävät mahalaukun tilavuutta 70-80%. Toisin kuin perinteisessä sleeve gastrectomyssa ei tehdä viiltoja, kudosta ei poisteta ja toipuminen on huomattavasti nopeampaa. Toimenpide käyttää Apollo OverStitch -teknologiaa ja kestää noin 60-90 minuuttia yleisanestesiassa.</p></section>
 <section><h2>Miksi suomalaiset potilaat valitsevat ESG:n Turkissa</h2><h3>Asiantuntemus ja standardit</h3><p>Turkki on maailman johtavia maita bariatrisessa kirurgiassa. Modernit JCI-akkreditoidut sairaalat, kokeneet asiantuntijat ja kansainväliset hoitostandardit.</p><h3>Merkittävät säästöt</h3><p>Suomessa yksityisklinikkojen ESG-hinnat ovat 8.000-15.000 €. All-inclusive-pakettimme on € 6.450 — toimenpiteellä, JCI-sairaalalla, hotellilla, kuljetuksella ja 12 kuukauden ravitsemustuella.</p><h3>Nopea hoitoonpääsy</h3><p>Ei jonotuslistaa. Suorat lennot Helsinki-Vantaalta (~3,5-4 tuntia). Täydellinen hoito 3-4 päivässä.</p></section>
 <section><h2>ESG vs painonpudotuslääkkeet</h2><table><thead><tr><th>Tekijä</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Vaikutus</td><td>Tilapäinen</td><td>Pitkäaikainen</td></tr><tr><td>Haittavaikutukset</td><td>Yleisiä</td><td>Vähäisiä</td></tr><tr><td>Kustannus</td><td>Jatkuva</td><td>Kertamaksu</td></tr><tr><td>Painonnousu</td><td>Yleistä</td><td>Rajallista</td></tr></tbody></table></section>
@@ -1569,6 +1680,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Endoscopic Sleeve Gastroplasty (ESG) — Safe, Minimally Invasive Weight Loss in Turkey",
     bodyExcerpt: "Endoscopic Sleeve Gastroplasty (ESG) for Canadian patients at Istanbul Bariatric Center. Stomach reduction without surgery. JCI-accredited hospital. Dr. Murat Üstün. Procedure $7,500 USD or all-inclusive package $8,500 USD with VIP transfers, hotel, and 12-month dietitian support. Direct flights from Toronto Pearson (~10-11 hours).",
     canonical: SITE_URL + "/esg/ca",
+    lang: "en-CA",
+    ogLocale: "en_CA",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>What is Endoscopic Sleeve Gastroplasty (ESG)?</h2><p>ESG is an innovative procedure that reduces stomach volume without surgery. A flexible endoscope is inserted through the mouth, and internal sutures are placed to reduce the stomach's capacity by 70-80%. Unlike traditional sleeve gastrectomy, there are no incisions, no tissue is removed, and recovery is significantly faster. The procedure uses Apollo OverStitch technology and takes approximately 60-90 minutes under general anaesthesia.</p></section>
 <section><h2>Why Canadian Patients Choose ESG in Turkey</h2><h3>Limited Access in Canada</h3><p>ESG is rarely available through provincial healthcare. Wait times for publicly funded bariatric surgery can exceed 2-5 years. Private clinics in Toronto, Vancouver, or Montreal charge $15,000-$25,000 CAD or more.</p><h3>Significant Savings</h3><p>Our all-inclusive package is $8,500 USD (~$11,500 CAD) — including the procedure at a JCI-accredited hospital, hotel accommodation, VIP airport transfers, and 12-month dietitian support. Procedure-only option available at $7,500 USD.</p><h3>No Wait Times</h3><p>Skip years-long waiting lists. Fast consultation, flexible scheduling, and complete treatment in 3-4 days. Direct flights from Toronto Pearson (~10-11 hours).</p></section>
 <section><h2>ESG vs Weight Loss Medications</h2><table><thead><tr><th>Factor</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Effectiveness</td><td>Temporary</td><td>Long-term</td></tr><tr><td>Side effects</td><td>Common</td><td>Minimal</td></tr><tr><td>Cost</td><td>Ongoing $300-$500 CAD/month</td><td>One-time $8,500 USD</td></tr><tr><td>Weight regain</td><td>Common after stopping</td><td>Limited</td></tr></tbody></table></section>
@@ -1619,6 +1733,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Endoscopic Sleeve Gastroplasty (ESG) — A Minimally Invasive Alternative to Traditional Bariatric Surgery",
     bodyExcerpt: "Endoscopic Sleeve Gastroplasty (ESG) for American patients at Istanbul Bariatric Center. Evidence-based stomach reduction without surgery. JCI-accredited hospital. Dr. Murat Üstün. Procedure $7,500 USD or all-inclusive $8,500 USD with VIP transfers, 4-star hotel, and 12-month dietitian support via telemedicine. Direct flights from NYC, Chicago, LA, Houston, Miami.",
     canonical: SITE_URL + "/esg/us",
+    lang: "en-US",
+    ogLocale: "en_US",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>How ESG Works — The Science</h2><p>ESG is an innovative endoscopic procedure that reduces stomach volume by 70-80% without surgical incisions. A flexible endoscope is inserted through the mouth, and internal sutures are placed using FDA-cleared Apollo OverStitch technology. Unlike traditional sleeve gastrectomy, no tissue is removed, and the procedure is potentially reversible. Published clinical data demonstrates 15-20% total body weight loss at 12-18 months, with durable results at 2-5 year follow-up.</p></section>
 <section><h2>Why American Patients Choose ESG in Turkey</h2><h3>Limited US Access & High Costs</h3><p>ESG is not widely available in US clinics. Where offered, prices range from $15,000-$25,000+ out-of-pocket, as most insurers consider ESG investigational. Wait times for bariatric programs can exceed 6-12 months.</p><h3>65-70% Cost Savings</h3><p>Our all-inclusive package is $8,500 USD — a fraction of US pricing. This includes the procedure at a JCI-accredited hospital, 4-star hotel, VIP transfers, and 12-month dietitian support via telemedicine. HSA/FSA-eligible. Procedure-only option at $7,500 USD.</p><h3>Fast Scheduling</h3><p>From consultation to procedure in as little as 2 weeks. Direct flights from NYC (~10h), Chicago (~11h), LA (~13h), Houston (~12h), Miami (~11h).</p></section>
 <section><h2>ESG vs Weight Loss Medications</h2><table><thead><tr><th>Factor</th><th>Ozempic/Wegovy</th><th>ESG</th></tr></thead><tbody><tr><td>Effectiveness</td><td>Temporary — 2/3 weight returns after stopping</td><td>Durable at 2-5 year follow-up</td></tr><tr><td>Side effects</td><td>Common (nausea, pancreatitis risk)</td><td>Minimal (1-3 days discomfort)</td></tr><tr><td>Annual cost</td><td>$12,000-$18,000/year</td><td>One-time $8,500 USD</td></tr><tr><td>FDA status</td><td>FDA-approved</td><td>FDA-cleared device</td></tr></tbody></table></section>
@@ -1669,6 +1786,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Endoscopic Sleeve Gastroplasty (ESG) — Safe, Minimally Invasive Weight Loss in Istanbul",
     bodyExcerpt: "Endoscopic Sleeve Gastroplasty (ESG) for Australian and New Zealand patients at Istanbul Bariatric Center. Minimally invasive stomach reduction without surgery. JCI-accredited hospital. Dr. Murat Üstün. Procedure $7,500 USD or all-inclusive $8,500 USD with VIP transfers, 4-star hotel, and 12-month dietitian support via telehealth. Flights from Sydney, Melbourne, Auckland.",
     canonical: SITE_URL + "/esg/anz",
+    lang: "en-AU",
+    ogLocale: "en_AU",
+    alternates: ESG_ALTERNATES,
     richContent: `<section><h2>How ESG Works</h2><p>ESG reduces the stomach's capacity through a non-surgical, endoscopic procedure, allowing patients to feel full faster and consume less food. A flexible endoscope is passed through the mouth, and internal sutures reduce stomach volume by 70–80%. Unlike traditional sleeve gastrectomy, no tissue is removed and the procedure is potentially reversible. Published clinical data demonstrates 15–20% total body weight loss within 6–12 months, with durable results at 2–5 year follow-up. The procedure takes approximately 60–90 minutes under conscious sedation.</p></section>
 <section><h2>Why ANZ Patients Choose ESG Abroad</h2><h3>Limited Access Locally</h3><p>ESG is not widely available in Australia or New Zealand. Private clinics often charge $15,000–$25,000 AUD/NZD, and public access is limited with long waitlists that can stretch to 12+ months.</p><h3>Affordable, Transparent Packages</h3><p>Our all-inclusive package is $8,500 USD (~$13,000 AUD / ~$14,200 NZD) — significantly less than ANZ private clinics, even after accounting for flights. Procedure-only option at $7,500 USD (~$11,500 AUD / ~$12,500 NZD).</p><h3>Internationally Accredited Care</h3><p>JCI-accredited hospitals in Istanbul. Experienced ESG specialists with thousands of procedures. Turkey is the world's 4th-largest medical tourism destination with over 1.2 million international patients annually.</p></section>
 <section><h2>ESG vs Weight Loss Medications</h2><table><thead><tr><th>Factor</th><th>Medications</th><th>ESG</th></tr></thead><tbody><tr><td>Effectiveness</td><td>Limited — significant weight regain after stopping</td><td>Sustainable at 2–5 year follow-up</td></tr><tr><td>Side effects</td><td>Common (nausea, diarrhoea, pancreatitis risk)</td><td>Mild and rare (1–3 days)</td></tr><tr><td>Cost</td><td>Ongoing: $200–$400+/month AUD</td><td>One-time $8,500 USD</td></tr><tr><td>Treatment type</td><td>Weekly injections indefinitely</td><td>Single endoscopic procedure</td></tr></tbody></table></section>
@@ -1719,6 +1839,9 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Endoskopik Sleeve Qastroplastika (ESG) — Cərrahiyyəsiz arıqlama Türkiyədə",
     bodyExcerpt: "Azərbaycanlı xəstələr üçün Endoskopik Sleeve Qastroplastika (ESG) Istanbul Bariatric Center-də. Cərrahiyyəsiz mədə azaltma. JCI-akkreditasiyalı xəstəxana. Dr Murat Ustun. Hər şey daxil paket € 6.450 VIP transfer, otel və 12 aylıq dietoloq dəstəyi ilə. Bakıdan birbaşa uçuşlar (~3-3,5 saat).",
     canonical: SITE_URL + "/esg/az",
+    lang: "az",
+    ogLocale: "az_AZ",
+    alternates: ESG_ALTERNATES,
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "MedicalProcedure",
