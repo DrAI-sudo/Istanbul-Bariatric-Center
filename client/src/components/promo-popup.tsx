@@ -57,7 +57,7 @@ export default function PromoPopup() {
             href="https://wa.me/905324131143?text=Hi%2C%20I%27m%20interested%20in%20booking%20a%20free%20consultation"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-3 w-full bg-[#128C7E] hover:bg-[#0e6b60] text-white font-bold text-lg py-3.5 px-6 rounded-xl transition-colors shadow-md"
+            className="flex items-center justify-center gap-3 w-full bg-[#0f7a6b] hover:bg-[#0c6155] text-white font-bold text-lg py-3.5 px-6 rounded-xl transition-colors shadow-md"
             data-testid="link-promo-whatsapp"
           >
             <svg viewBox="0 0 24 24" className="w-6 h-6 fill-current" aria-hidden="true">
