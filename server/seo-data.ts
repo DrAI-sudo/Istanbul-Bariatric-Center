@@ -2215,4 +2215,93 @@ export function getBlogPostContent(slug: string): string | null {
   }
 }
 
+export interface RouteI18nMeta {
+  lang: string;
+  locale: string;
+  dir: "ltr" | "rtl";
+}
+
+const ROUTE_LANG_MAP: Record<string, RouteI18nMeta> = {
+  "/treatments/tr": { lang: "tr", locale: "tr_TR", dir: "ltr" },
+  "/treatments/es": { lang: "es", locale: "es_ES", dir: "ltr" },
+  "/treatments/de": { lang: "de", locale: "de_DE", dir: "ltr" },
+  "/treatments/fr": { lang: "fr", locale: "fr_FR", dir: "ltr" },
+  "/treatments/it": { lang: "it", locale: "it_IT", dir: "ltr" },
+  "/treatments/ro": { lang: "ro", locale: "ro_RO", dir: "ltr" },
+  "/treatments/ru": { lang: "ru", locale: "ru_RU", dir: "ltr" },
+  "/treatments/ar": { lang: "ar", locale: "ar_AR", dir: "rtl" },
+  "/esg/uk":        { lang: "en-GB", locale: "en_GB", dir: "ltr" },
+  "/esg/de":        { lang: "de",    locale: "de_DE", dir: "ltr" },
+  "/esg/fr":        { lang: "fr",    locale: "fr_FR", dir: "ltr" },
+  "/esg/es":        { lang: "es",    locale: "es_ES", dir: "ltr" },
+  "/esg/nl":        { lang: "nl",    locale: "nl_NL", dir: "ltr" },
+  "/esg/ar":        { lang: "ar",    locale: "ar_AR", dir: "rtl" },
+  "/esg/it":        { lang: "it",    locale: "it_IT", dir: "ltr" },
+  "/esg/ru":        { lang: "ru",    locale: "ru_RU", dir: "ltr" },
+  "/esg/ro":        { lang: "ro",    locale: "ro_RO", dir: "ltr" },
+  "/esg/se":        { lang: "sv",    locale: "sv_SE", dir: "ltr" },
+  "/esg/pl":        { lang: "pl",    locale: "pl_PL", dir: "ltr" },
+  "/esg/dk":        { lang: "da",    locale: "da_DK", dir: "ltr" },
+  "/esg/no":        { lang: "nb",    locale: "nb_NO", dir: "ltr" },
+  "/esg/hu":        { lang: "hu",    locale: "hu_HU", dir: "ltr" },
+  "/esg/fi":        { lang: "fi",    locale: "fi_FI", dir: "ltr" },
+  "/esg/ca":        { lang: "en-CA", locale: "en_CA", dir: "ltr" },
+  "/esg/us":        { lang: "en-US", locale: "en_US", dir: "ltr" },
+  "/esg/anz":       { lang: "en-AU", locale: "en_AU", dir: "ltr" },
+  "/esg/az":        { lang: "az",    locale: "az_AZ", dir: "ltr" },
+};
+
+const HREFLANG_GROUPS: Array<Array<{ route: string; hreflang: string }>> = [
+  [
+    { route: "/treatments",    hreflang: "x-default" },
+    { route: "/treatments",    hreflang: "en" },
+    { route: "/treatments/de", hreflang: "de" },
+    { route: "/treatments/es", hreflang: "es" },
+    { route: "/treatments/fr", hreflang: "fr" },
+    { route: "/treatments/it", hreflang: "it" },
+    { route: "/treatments/ro", hreflang: "ro" },
+    { route: "/treatments/ru", hreflang: "ru" },
+    { route: "/treatments/ar", hreflang: "ar" },
+    { route: "/treatments/tr", hreflang: "tr" },
+  ],
+  [
+    { route: "/esg",     hreflang: "x-default" },
+    { route: "/esg",     hreflang: "en" },
+    { route: "/esg/uk",  hreflang: "en-GB" },
+    { route: "/esg/us",  hreflang: "en-US" },
+    { route: "/esg/ca",  hreflang: "en-CA" },
+    { route: "/esg/anz", hreflang: "en-AU" },
+    { route: "/esg/de",  hreflang: "de" },
+    { route: "/esg/fr",  hreflang: "fr" },
+    { route: "/esg/es",  hreflang: "es" },
+    { route: "/esg/it",  hreflang: "it" },
+    { route: "/esg/nl",  hreflang: "nl" },
+    { route: "/esg/ru",  hreflang: "ru" },
+    { route: "/esg/ro",  hreflang: "ro" },
+    { route: "/esg/ar",  hreflang: "ar" },
+    { route: "/esg/se",  hreflang: "sv" },
+    { route: "/esg/pl",  hreflang: "pl" },
+    { route: "/esg/dk",  hreflang: "da" },
+    { route: "/esg/no",  hreflang: "nb" },
+    { route: "/esg/hu",  hreflang: "hu" },
+    { route: "/esg/fi",  hreflang: "fi" },
+    { route: "/esg/az",  hreflang: "az" },
+  ],
+];
+
+export function getRouteI18nMeta(path: string): RouteI18nMeta {
+  const cleanPath = path.split("?")[0].replace(/\/$/, "") || "/";
+  return ROUTE_LANG_MAP[cleanPath] || { lang: "en", locale: "en_US", dir: "ltr" };
+}
+
+export function getHreflangLinks(path: string): Array<{ hreflang: string; href: string }> {
+  const cleanPath = path.split("?")[0].replace(/\/$/, "") || "/";
+  const group = HREFLANG_GROUPS.find((g) => g.some((e) => e.route === cleanPath));
+  if (!group) return [];
+  return group.map((entry) => ({
+    hreflang: entry.hreflang,
+    href: SITE_URL + entry.route,
+  }));
+}
+
 export { SITE_URL, navLinks, blogPosts };

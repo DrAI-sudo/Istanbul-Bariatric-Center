@@ -1,4 +1,4 @@
-import { getSEOData, getNavigationHTML, getBlogListHTML, getBlogPostContent } from "./seo-data";
+import { getSEOData, getNavigationHTML, getBlogListHTML, getBlogPostContent, getHreflangLinks } from "./seo-data";
 
 export function injectSEO(html: string, requestPath: string): string {
   const seo = getSEOData(requestPath);
@@ -93,6 +93,14 @@ export function injectSEO(html: string, requestPath: string): string {
       articleTags.push(`<meta property="article:modified_time" content="${escapeAttr(seo.modifiedTime)}" />`);
     }
     result = result.replace("</head>", `  ${articleTags.join("\n  ")}\n  </head>`);
+  }
+
+  const hreflangLinks = getHreflangLinks(requestPath);
+  if (hreflangLinks.length > 0) {
+    const hreflangTags = hreflangLinks
+      .map((l) => `<link rel="alternate" hreflang="${escapeAttr(l.hreflang)}" href="${escapeAttr(l.href)}" />`)
+      .join("\n    ");
+    result = result.replace("</head>", `  ${hreflangTags}\n  </head>`);
   }
 
   if (seo.alternates && seo.alternates.length > 0) {
