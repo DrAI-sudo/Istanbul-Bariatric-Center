@@ -53,8 +53,9 @@ async function extractFullLead(
 
   try {
     const completion = await openai.chat.completions.create({
-      model: "gpt-4o-mini",
-      max_tokens: 200,
+      model: "gpt-5-mini",
+      max_completion_tokens: 2000,
+      reasoning_effort: "minimal",
       response_format: { type: "json_object" },
       messages: [
         {
@@ -257,10 +258,11 @@ export function registerMayaChatRoutes(app: Express): void {
       }
 
       const stream = await openai.chat.completions.create({
-        model: "gpt-4o-mini",
+        model: "gpt-5-mini",
         messages: chatMessages,
         stream: true,
-        max_tokens: 300,
+        max_completion_tokens: 2000,
+        reasoning_effort: "minimal",
       });
 
       let fullResponse = "";
