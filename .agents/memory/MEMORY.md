@@ -1,2 +1,3 @@
 - [SEO SSR injection](seo-ssr-injection.md) — SSR SEO content (h1/jsonLd/FAQ) is injected for all UAs in seo-inject.ts; keep exactly one h1 (seo-content=h1, noscript=h2).
+- [Adding a blog post](blog-posts.md) — must update BOTH client/src/data/blog-posts.ts (content) AND server/seo-data.ts blogPosts (SEO metadata); no backticks/${} in content; restart for server changes.
 - [gpt-5-mini chat params](gpt5-mini-chat.md) — reasoning model needs max_completion_tokens (not max_tokens) + reasoning_effort:"minimal"; low caps starve output.

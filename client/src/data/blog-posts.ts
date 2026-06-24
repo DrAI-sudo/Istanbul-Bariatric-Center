@@ -12,6 +12,183 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "gastroparesis-symptoms-causes-treatment-guide",
+    title: "Gastroparesis: Symptoms, Causes and Treatment Explained (2026 Guide)",
+    date: "June 24, 2026",
+    publishedAt: "2026-06-24T09:00:00+03:00",
+    category: "Digestive Health",
+    excerpt: "A clear, evidence-based guide to gastroparesis (delayed stomach emptying) — what causes it, the warning symptoms, how doctors diagnose it with a gastric emptying study, and the diet, medication and surgical options that relieve it.",
+    image: "/blog-gastroparesis.webp",
+    content: `<h2>Relieve Your Symptoms by Understanding Gastroparesis</h2>
+<p>Do you ever feel full after only a few bites of food? Or maybe you find yourself vomiting meals you ate hours ago. These are classic signs of <strong>gastroparesis</strong>, a condition where your stomach doesn't empty food into the small intestine as it should.</p>
+
+<p>The word comes from "gastro" meaning stomach and "paresis" meaning weakness. It is essentially a partial paralysis of the stomach muscles. This prevents the organ from pushing food forward, but there is no physical blockage — like a tumour or a stricture — causing the delay.</p>
+
+<p>Your stomach relies on a complex network of nerves and "pacemaker" cells called the interstitial cells of Cajal. When these fail, the rhythmic contractions needed for digestion stop working. This leads to a backlog of food and a host of uncomfortable symptoms.</p>
+
+<img loading="lazy" src="/blog-gastroparesis.webp" alt="Gastroparesis infographic showing delayed stomach emptying, common symptoms, causes and treatment options" class="w-full rounded-lg my-6" />
+
+<div style="background: linear-gradient(135deg, #EFF6FF, #DBEAFE); border-radius: 12px; padding: 24px; margin: 24px 0;">
+<p style="font-weight: 700; font-size: 1.1em; margin-bottom: 8px;">In This Article</p>
+<ul style="margin: 0; padding-left: 20px;">
+<li>What gastroparesis is and how it disrupts digestion</li>
+<li>The most common causes and risk factors</li>
+<li>Warning symptoms of delayed gastric emptying</li>
+<li>How doctors diagnose it with a gastric emptying study</li>
+<li>Diet, medication and surgical treatment options</li>
+</ul>
+</div>
+
+<h2>How Gastroparesis Disrupts Your Digestion</h2>
+<p>A healthy stomach uses strong contractions to grind food and push it through the pylorus into the small intestine. This process depends heavily on the <strong>vagus nerve</strong>, which carries signals from your brain to your gut.</p>
+
+<p>In people with gastroparesis, these nerve signals are interrupted. The muscles in the stomach — especially in the antrum — don't contract with enough force. Food sits in the stomach far longer than it should.</p>
+
+<p>This condition is more common in women, with data showing a prevalence ratio of about <strong>3 to 4 females for every one male</strong>.</p>
+
+<h2>Common Causes and Risk Factors for Gastroparesis</h2>
+<p>Many different things can damage the nerves or muscles of the stomach. Some causes are clear, while others remain a mystery.</p>
+
+<h3>Idiopathic (Unknown) Causes</h3>
+<p>About <strong>half of all cases are idiopathic</strong>. This means doctors cannot find a specific cause for the nerve damage. It is the single most frequent diagnosis for people with this condition.</p>
+
+<h3>The Role of Diabetes</h3>
+<p>Diabetes mellitus is a major cause. High blood sugar over many years damages the neurons that control the stomach — a form of diabetic neuropathy. Diabetes tends to hit the longest nerves in the body first, so many people notice numbness in their feet or toes long before they develop stomach issues. Type 1 diabetics often have more severe gastroparesis than those with Type 2.</p>
+
+<h3>Medications That Slow the Gut</h3>
+<p>Certain drugs can trigger delayed emptying, including:</p>
+<ul>
+<li>Opioids such as morphine and hydromorphone</li>
+<li>Tricyclic antidepressants</li>
+<li>Calcium channel blockers</li>
+<li>GLP-1 agonists such as liraglutide</li>
+<li>Lithium and clonidine</li>
+</ul>
+
+<h3>Surgery and Trauma</h3>
+<p>Any surgery on the stomach can risk damage to the vagus nerve, with gastric resections being common triggers. Spinal cord injuries can also cut off the neural input the stomach needs to move food forward.</p>
+
+<h3>Other Health Conditions</h3>
+<p>Neurological diseases such as Parkinson's or multiple sclerosis can disrupt gastric motility. Some autoimmune conditions also play a role: scleroderma causes collagen to build up in the tissues, while amyloidosis involves protein deposits — both stiffen the stomach and impair nerve function. Viral infections can cause a temporary version of the condition; after a bad case of norovirus or rotavirus, the stomach may stay sluggish for a month or more before returning to normal.</p>
+
+<h2>Recognising the Symptoms of Delayed Gastric Emptying</h2>
+<p>Gastroparesis affects daily life because it changes how you eat and how you feel after meals. The most common sign is <strong>chronic nausea and vomiting</strong>. Because the food isn't moving, it comes back up — and it is common to see undigested food in the vomit even four hours after a meal.</p>
+
+<p>You might also experience <strong>early satiety</strong>, feeling completely full after only a few bites, and <strong>postprandial fullness</strong>, where that stuffed feeling lasts for hours. Some people feel a burning or cramping pain in the upper abdomen that gets worse right after eating. Other common issues include:</p>
+<ul>
+<li>Frequent belching and bloating</li>
+<li>Heartburn and indigestion</li>
+<li>Weight loss in severe cases</li>
+</ul>
+
+<p>If you have the diabetic form, you likely have peripheral neuropathy in your legs as well. The gastroparesis didn't cause the nerve damage in your feet — the diabetes caused both.</p>
+
+<h2>How Doctors Diagnose Gastroparesis</h2>
+<p>This condition cannot be diagnosed with a simple blood test. Doctors must prove the stomach is slow and rule out other problems first. They check for mechanical obstructions using a CT scan or an upper endoscopy to make sure a tumour or physical blockage isn't stopping the food.</p>
+
+<p>Once a blockage is ruled out, they perform a <strong>gastric emptying study</strong> (scintigraphy). You eat a meal labelled with a radiotracer — usually eggs — and a camera tracks how fast the food leaves your stomach. For an accurate result, you must stop medications that slow the gut and keep your blood sugar stable.</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left; border: 1px solid #1E3A8A;">Time After Meal</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #1E3A8A;">Food Remaining</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #1E3A8A;">Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">2 hours</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">&gt;60%</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Positive (delayed emptying)</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">4 hours</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">&gt;10%</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Positive (delayed emptying)</td>
+</tr>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">4 hours</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">10–15%</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Mild</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">4 hours</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">15–35%</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Moderate</td>
+</tr>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">4 hours</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #DC2626;">&gt;35%</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Severe</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2>Managing Gastroparesis Through Diet and Medicine</h2>
+<p>Treatment focuses on making food easier to digest and stimulating the stomach muscles.</p>
+
+<h3>Dietary Changes</h3>
+<p>The goal is to reduce the workload on the stomach. Doctors suggest eating small, frequent meals instead of three large ones, focusing on:</p>
+<ul>
+<li>Low-fibre foods</li>
+<li>Low-fat meals</li>
+<li>Avoiding spicy foods and insoluble fibre</li>
+</ul>
+<p>In severe cases, liquefying foods is the only way to get enough calories. It also helps to avoid alcohol, smoking and carbonated drinks, since bubbles can make the stomach distend. For those with diabetes, tight glucose control is vital — while some nerve damage is permanent, keeping blood sugar steady can prevent symptoms from getting worse. Regular exercise helps too, by naturally increasing gastric motility.</p>
+
+<h3>Prokinetic Medications</h3>
+<p>If diet changes aren't enough, doctors use prokinetic agents to speed up contractions.</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #059669; color: white;">
+<th style="padding: 12px 16px; text-align: left; border: 1px solid #047857;">Medication</th>
+<th style="padding: 12px 16px; text-align: left; border: 1px solid #047857;">Role</th>
+<th style="padding: 12px 16px; text-align: left; border: 1px solid #047857;">Key Caution</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0FDF4;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0; font-weight: 700;">Metoclopramide</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Usually the first choice; oral or IV</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Generally limited to 12 weeks to avoid tardive dyskinesia</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0; font-weight: 700;">Domperidone</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Common alternative to metoclopramide</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Requires cardiac monitoring in some patients</td>
+</tr>
+<tr style="background: #F0FDF4;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0; font-weight: 700;">Erythromycin</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Antibiotic that also acts as a prokinetic</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Used for under 4 weeks due to tachyphylaxis</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h3>Surgical and Endoscopic Options</h3>
+<p>When medicine and diet fail, surgical interventions may be the last resort. These procedures aim to physically help the stomach empty or bypass the problem area, and they are always considered carefully alongside a specialist.</p>
+
+<h2>Final Thoughts on Living with Gastroparesis</h2>
+<p>Gastroparesis is a challenging condition, but it is manageable. By identifying the cause — whether it is diabetes, medication, or a post-viral reaction — you can target the right treatment. Success usually comes from a mix of low-fibre diets, small meals and prokinetic drugs. For those with diabetes, managing blood sugar is the most important step to protect the remaining nerve function.</p>
+
+<p>If you suspect your stomach isn't emptying properly, see a doctor for a gastric emptying study. An accurate diagnosis lets you stop guessing and start a plan that improves your quality of life.</p>
+
+<div style="background: linear-gradient(135deg, #1E40AF, #3B82F6); color: white; border-radius: 12px; padding: 32px; margin: 32px 0; text-align: center;">
+<p style="font-size: 1.3em; font-weight: 700; margin: 0 0 8px 0;">Concerned About Your Digestive Health?</p>
+<p style="margin: 0 0 16px 0; opacity: 0.9;">Our team can help you understand your symptoms and guide you toward the right specialist assessment. Reach out for a free, no-obligation consultation.</p>
+<a href="/contact" style="display: inline-block; background: white; color: #1E40AF; font-weight: 700; padding: 12px 32px; border-radius: 8px; text-decoration: none; margin: 4px;">Get a Free Consultation</a>
+<a href="https://wa.me/905324131143" style="display: inline-block; background: #25D366; color: white; font-weight: 700; padding: 12px 32px; border-radius: 8px; text-decoration: none; margin: 4px;">WhatsApp Us</a>
+</div>
+
+<p style="font-size: 0.9em; color: #64748B;"><em>This article is for general information only and is not a substitute for professional medical advice. Always consult a qualified gastroenterologist about your symptoms and treatment options.</em></p>`
+  },
+  {
     slug: "esg-tore-endoscopic-weight-loss-evidence-2026",
     title: "ESG & TORe 2026: Clinical Evidence for Endoscopic Weight Loss",
     date: "March 18, 2026",
