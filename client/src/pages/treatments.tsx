@@ -4,6 +4,7 @@ import { CountryFlagsBar } from "@/components/country-flags-bar";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle2, Check } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
 import { useTranslation } from "react-i18next";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
 import { SummarizeWithAI } from "@/components/summarize-with-ai";
@@ -327,6 +328,72 @@ export default function Treatments({ lang }: { lang?: string }) {
 
   const urlBase = lang ? `/treatments/${lang}` : '/treatments';
 
+  const packageColorStyles: Record<string, { border: string; bg: string; price: string; check: string; checkIcon: string; btn: string; badge: string }> = {
+    blue: { border: 'border-blue-500', bg: 'bg-blue-50', price: 'text-blue-600', check: 'bg-blue-100', checkIcon: 'text-blue-600', btn: 'bg-blue-600 hover:bg-blue-700', badge: 'bg-blue-600' },
+    emerald: { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' },
+    amber: { border: 'border-amber-500', bg: 'bg-amber-50', price: 'text-amber-600', check: 'bg-amber-100', checkIcon: 'text-amber-600', btn: 'bg-amber-600 hover:bg-amber-700', badge: 'bg-amber-600' },
+  };
+
+  const renderPackagesAccordion = (
+    title: string,
+    subtitle: string,
+    pkgs: { name: string; price: string; color: string; recommended?: boolean; features: string[] }[],
+    gridClass: string,
+    testId: string
+  ) => (
+    <div className="mt-16 bg-slate-50 rounded-3xl px-6 py-4 md:px-12 md:py-6">
+      <Accordion type="single" collapsible className="w-full">
+        <AccordionItem value="packages" className="border-b-0">
+          <AccordionTrigger className="hover:no-underline py-6" data-testid={testId}>
+            <div className="text-center w-full">
+              <h3 className="text-2xl md:text-3xl font-bold text-slate-900">{title}</h3>
+              <p className="text-slate-600 mt-2 font-normal text-base">{subtitle}</p>
+            </div>
+          </AccordionTrigger>
+          <AccordionContent>
+            <div className={`${gridClass} pt-8`}>
+              {pkgs.map((pkg, idx) => {
+                const styles = packageColorStyles[pkg.color] || packageColorStyles.blue;
+                return (
+                  <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? `${styles.border} shadow-lg scale-105 z-10` : `${styles.border} shadow-sm`}`}>
+                    {pkg.recommended && (
+                      <div className={`absolute top-0 right-0 ${styles.badge} text-white text-xs font-bold px-3 py-1 rounded-bl-lg`}>
+                        {t('common.popular')}
+                      </div>
+                    )}
+                    <CardHeader className={`text-center pb-2 ${styles.bg}`}>
+                      <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
+                    </CardHeader>
+                    <CardContent className="text-center space-y-6 pt-6">
+                      <PriceDisplay price={pkg.price} colorClass={styles.price} />
+                      <ul className="space-y-4 text-left mx-auto max-w-[240px]">
+                        {pkg.features.map((feature, fIdx) => (
+                          <li key={fIdx} className="flex items-center gap-3 text-slate-700">
+                            <div className={`w-5 h-5 rounded-full ${styles.check} flex items-center justify-center shrink-0`}>
+                              <Check className={`w-3 h-3 ${styles.checkIcon}`} />
+                            </div>
+                            {linkifyDrName(feature)}
+                          </li>
+                        ))}
+                      </ul>
+                    </CardContent>
+                    <CardFooter className="pt-4 pb-8">
+                      <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`${t('whatsapp.packageMessage')} ${pkg.name}`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
+                        <Button className={`w-full ${styles.btn} text-white`}>
+                          {t('common.selectPackage')}
+                        </Button>
+                      </a>
+                    </CardFooter>
+                  </Card>
+                );
+              })}
+            </div>
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+    </div>
+  );
+
   return (
     <div className="min-h-screen bg-white">
       <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-primary focus:text-white focus:px-4 focus:py-2 focus:rounded">
@@ -491,257 +558,15 @@ export default function Treatments({ lang }: { lang?: string }) {
                   </div>
                 </div>
 
-                {i === 2 && (
-                  <div className="mt-16 bg-slate-50 rounded-3xl p-8 md:p-12">
-                    <div className="text-center mb-12">
-                      <h3 className="text-3xl font-bold text-slate-900 mb-4">{t('packages.balloonTitle')}</h3>
-                      <p className="text-slate-600">{t('packages.balloonSubtitle')}</p>
-                    </div>
+                {i === 2 && renderPackagesAccordion(t('packages.balloonTitle'), t('packages.balloonSubtitle'), balloonPackages, "grid md:grid-cols-2 gap-8 max-w-3xl mx-auto", "accordion-trigger-balloon-packages")}
 
-                    <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-                      {balloonPackages.map((pkg, idx) => {
-                        const colorStyles = {
-                          blue: { border: 'border-blue-500', bg: 'bg-blue-50', price: 'text-blue-600', check: 'bg-blue-100', checkIcon: 'text-blue-600', btn: 'bg-blue-600 hover:bg-blue-700', badge: 'bg-blue-600' },
-                          emerald: { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' },
-                        }[pkg.color] || { border: 'border-blue-500', bg: 'bg-blue-50', price: 'text-blue-600', check: 'bg-blue-100', checkIcon: 'text-blue-600', btn: 'bg-blue-600 hover:bg-blue-700', badge: 'bg-blue-600' };
-                        return (
-                          <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? `${colorStyles.border} shadow-lg scale-105 z-10` : `${colorStyles.border} shadow-sm`}`}>
-                            {pkg.recommended && (
-                              <div className={`absolute top-0 right-0 ${colorStyles.badge} text-white text-xs font-bold px-3 py-1 rounded-bl-lg`}>
-                                {t('common.popular')}
-                              </div>
-                            )}
-                            <CardHeader className={`text-center pb-2 ${colorStyles.bg}`}>
-                              <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
-                            </CardHeader>
-                            <CardContent className="text-center space-y-6 pt-6">
-                              <PriceDisplay price={pkg.price} colorClass={colorStyles.price} />
-                              <ul className="space-y-4 text-left mx-auto max-w-[240px]">
-                                {pkg.features.map((feature, fIdx) => (
-                                  <li key={fIdx} className="flex items-center gap-3 text-slate-700">
-                                    <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
-                                      <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} />
-                                    </div>
-                                    {linkifyDrName(feature)}
-                                  </li>
-                                ))}
-                              </ul>
-                            </CardContent>
-                            <CardFooter className="pt-4 pb-8">
-                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`${t('whatsapp.packageMessage')} ${pkg.name}`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
-                                <Button className={`w-full ${colorStyles.btn} text-white`}>
-                                  {t('common.selectPackage')}
-                                </Button>
-                              </a>
-                            </CardFooter>
-                          </Card>
-                        );
-                      })}
-                    </div>
-                  </div>
-                )}
+                {i === 1 && renderPackagesAccordion(t('packages.bypassTitle'), t('packages.bypassSubtitle'), bypassPackages, "grid md:grid-cols-3 gap-8", "accordion-trigger-bypass-packages")}
 
-                {i === 1 && (
-                  <div className="mt-16 bg-slate-50 rounded-3xl p-8 md:p-12">
-                    <div className="text-center mb-12">
-                      <h3 className="text-3xl font-bold text-slate-900 mb-4">{t('packages.bypassTitle')}</h3>
-                      <p className="text-slate-600">{t('packages.bypassSubtitle')}</p>
-                    </div>
+                {i === 5 && renderPackagesAccordion(t('packages.esgTitle'), t('packages.esgSubtitle'), esgPackages, "grid md:grid-cols-2 gap-8 max-w-3xl mx-auto", "accordion-trigger-esg-packages")}
 
-                    <div className="grid md:grid-cols-3 gap-8">
-                      {bypassPackages.map((pkg, idx) => {
-                        const colorStyles = {
-                          blue: { border: 'border-blue-500', bg: 'bg-blue-50', price: 'text-blue-600', check: 'bg-blue-100', checkIcon: 'text-blue-600', btn: 'bg-blue-600 hover:bg-blue-700', badge: 'bg-blue-600' },
-                          emerald: { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' },
-                          amber: { border: 'border-amber-500', bg: 'bg-amber-50', price: 'text-amber-600', check: 'bg-amber-100', checkIcon: 'text-amber-600', btn: 'bg-amber-600 hover:bg-amber-700', badge: 'bg-amber-600' },
-                        }[pkg.color] || { border: 'border-blue-500', bg: 'bg-blue-50', price: 'text-blue-600', check: 'bg-blue-100', checkIcon: 'text-blue-600', btn: 'bg-blue-600 hover:bg-blue-700', badge: 'bg-blue-600' };
-                        return (
-                          <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? `${colorStyles.border} shadow-lg scale-105 z-10` : `${colorStyles.border} shadow-sm`}`}>
-                            {pkg.recommended && (
-                              <div className={`absolute top-0 right-0 ${colorStyles.badge} text-white text-xs font-bold px-3 py-1 rounded-bl-lg`}>
-                                {t('common.popular')}
-                              </div>
-                            )}
-                            <CardHeader className={`text-center pb-2 ${colorStyles.bg}`}>
-                              <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
-                            </CardHeader>
-                            <CardContent className="text-center space-y-6 pt-6">
-                              <PriceDisplay price={pkg.price} colorClass={colorStyles.price} />
-                              <ul className="space-y-4 text-left mx-auto max-w-[240px]">
-                                {pkg.features.map((feature, fIdx) => (
-                                  <li key={fIdx} className="flex items-center gap-3 text-slate-700">
-                                    <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
-                                      <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} />
-                                    </div>
-                                    {linkifyDrName(feature)}
-                                  </li>
-                                ))}
-                              </ul>
-                            </CardContent>
-                            <CardFooter className="pt-4 pb-8">
-                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`${t('whatsapp.packageMessage')} ${pkg.name}`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
-                                <Button className={`w-full ${colorStyles.btn} text-white`}>
-                                  {t('common.selectPackage')}
-                                </Button>
-                              </a>
-                            </CardFooter>
-                          </Card>
-                        );
-                      })}
-                    </div>
-                  </div>
-                )}
+                {i === 4 && renderPackagesAccordion(t('packages.dsTitle'), t('packages.dsSubtitle'), duodenalSwitchPackages, "grid md:grid-cols-2 gap-8 max-w-3xl mx-auto", "accordion-trigger-ds-packages")}
 
-                {i === 5 && (
-                  <div className="mt-16 bg-slate-50 rounded-3xl p-8 md:p-12">
-                    <div className="text-center mb-12">
-                      <h3 className="text-3xl font-bold text-slate-900 mb-4">{t('packages.esgTitle')}</h3>
-                      <p className="text-slate-600">{t('packages.esgSubtitle')}</p>
-                    </div>
-
-                    <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-                      {esgPackages.map((pkg, idx) => {
-                        const colorStyles = {
-                          emerald: { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' },
-                          amber: { border: 'border-amber-500', bg: 'bg-amber-50', price: 'text-amber-600', check: 'bg-amber-100', checkIcon: 'text-amber-600', btn: 'bg-amber-600 hover:bg-amber-700', badge: 'bg-amber-600' },
-                        }[pkg.color] || { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' };
-                        return (
-                          <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? `${colorStyles.border} shadow-lg scale-105 z-10` : `${colorStyles.border} shadow-sm`}`}>
-                            {pkg.recommended && (
-                              <div className={`absolute top-0 right-0 ${colorStyles.badge} text-white text-xs font-bold px-3 py-1 rounded-bl-lg`}>
-                                {t('common.popular')}
-                              </div>
-                            )}
-                            <CardHeader className={`text-center pb-2 ${colorStyles.bg}`}>
-                              <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
-                            </CardHeader>
-                            <CardContent className="text-center space-y-6 pt-6">
-                              <PriceDisplay price={pkg.price} colorClass={colorStyles.price} />
-                              <ul className="space-y-4 text-left mx-auto max-w-[240px]">
-                                {pkg.features.map((feature, fIdx) => (
-                                  <li key={fIdx} className="flex items-center gap-3 text-slate-700">
-                                    <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
-                                      <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} />
-                                    </div>
-                                    {linkifyDrName(feature)}
-                                  </li>
-                                ))}
-                              </ul>
-                            </CardContent>
-                            <CardFooter className="pt-4 pb-8">
-                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`${t('whatsapp.packageMessage')} ${pkg.name}`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
-                                <Button className={`w-full ${colorStyles.btn} text-white`}>
-                                  {t('common.selectPackage')}
-                                </Button>
-                              </a>
-                            </CardFooter>
-                          </Card>
-                        );
-                      })}
-                    </div>
-                  </div>
-                )}
-
-                {i === 4 && (
-                  <div className="mt-16 bg-slate-50 rounded-3xl p-8 md:p-12">
-                    <div className="text-center mb-12">
-                      <h3 className="text-3xl font-bold text-slate-900 mb-4">{t('packages.dsTitle')}</h3>
-                      <p className="text-slate-600">{t('packages.dsSubtitle')}</p>
-                    </div>
-
-                    <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-                      {duodenalSwitchPackages.map((pkg, idx) => {
-                        const colorStyles = {
-                          emerald: { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' },
-                          amber: { border: 'border-amber-500', bg: 'bg-amber-50', price: 'text-amber-600', check: 'bg-amber-100', checkIcon: 'text-amber-600', btn: 'bg-amber-600 hover:bg-amber-700', badge: 'bg-amber-600' },
-                        }[pkg.color] || { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' };
-                        return (
-                          <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? `${colorStyles.border} shadow-lg scale-105 z-10` : `${colorStyles.border} shadow-sm`}`}>
-                            {pkg.recommended && (
-                              <div className={`absolute top-0 right-0 ${colorStyles.badge} text-white text-xs font-bold px-3 py-1 rounded-bl-lg`}>
-                                {t('common.popular')}
-                              </div>
-                            )}
-                            <CardHeader className={`text-center pb-2 ${colorStyles.bg}`}>
-                              <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
-                            </CardHeader>
-                            <CardContent className="text-center space-y-6 pt-6">
-                              <PriceDisplay price={pkg.price} colorClass={colorStyles.price} />
-                              <ul className="space-y-4 text-left mx-auto max-w-[240px]">
-                                {pkg.features.map((feature, fIdx) => (
-                                  <li key={fIdx} className="flex items-center gap-3 text-slate-700">
-                                    <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
-                                      <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} />
-                                    </div>
-                                    {linkifyDrName(feature)}
-                                  </li>
-                                ))}
-                              </ul>
-                            </CardContent>
-                            <CardFooter className="pt-4 pb-8">
-                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`${t('whatsapp.packageMessage')} ${pkg.name}`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
-                                <Button className={`w-full ${colorStyles.btn} text-white`}>
-                                  {t('common.selectPackage')}
-                                </Button>
-                              </a>
-                            </CardFooter>
-                          </Card>
-                        );
-                      })}
-                    </div>
-                  </div>
-                )}
-
-                {i === 0 && (
-                  <div className="mt-16 bg-slate-50 rounded-3xl p-8 md:p-12">
-                    <div className="text-center mb-12">
-                      <h3 className="text-3xl font-bold text-slate-900 mb-4">{t('main.sleevePackageTitle')}</h3>
-                      <p className="text-slate-600">{t('main.sleevePackageDesc')}</p>
-                    </div>
-
-                    <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
-                      {packages.map((pkg, idx) => {
-                        const colorStyles = {
-                          blue: { border: 'border-blue-500', bg: 'bg-blue-50', price: 'text-blue-600', check: 'bg-blue-100', checkIcon: 'text-blue-600', btn: 'bg-blue-600 hover:bg-blue-700', badge: 'bg-blue-600' },
-                          emerald: { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' },
-                          amber: { border: 'border-amber-500', bg: 'bg-amber-50', price: 'text-amber-600', check: 'bg-amber-100', checkIcon: 'text-amber-600', btn: 'bg-amber-600 hover:bg-amber-700', badge: 'bg-amber-600' },
-                        }[pkg.color] || { border: 'border-blue-500', bg: 'bg-blue-50', price: 'text-blue-600', check: 'bg-blue-100', checkIcon: 'text-blue-600', btn: 'bg-blue-600 hover:bg-blue-700', badge: 'bg-blue-600' };
-                        return (
-                          <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? `${colorStyles.border} shadow-lg scale-105 z-10` : `${colorStyles.border} shadow-sm`}`}>
-                            {pkg.recommended && (
-                              <div className={`absolute top-0 right-0 ${colorStyles.badge} text-white text-xs font-bold px-3 py-1 rounded-bl-lg`}>
-                                {t('common.popular')}
-                              </div>
-                            )}
-                            <CardHeader className={`text-center pb-2 ${colorStyles.bg}`}>
-                              <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
-                            </CardHeader>
-                            <CardContent className="text-center space-y-6 pt-6">
-                              <PriceDisplay price={pkg.price} colorClass={colorStyles.price} />
-                              <ul className="space-y-4 text-left mx-auto max-w-[240px]">
-                                {pkg.features.map((feature, fIdx) => (
-                                  <li key={fIdx} className="flex items-center gap-3 text-slate-700">
-                                    <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
-                                      <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} />
-                                    </div>
-                                    {linkifyDrName(feature)}
-                                  </li>
-                                ))}
-                              </ul>
-                            </CardContent>
-                            <CardFooter className="pt-4 pb-8">
-                              <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`${t('whatsapp.packageMessage')} ${pkg.name}`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
-                                <Button className={`w-full ${colorStyles.btn} text-white`}>
-                                  {t('common.selectPackage')}
-                                </Button>
-                              </a>
-                            </CardFooter>
-                          </Card>
-                        );
-                      })}
-                    </div>
-                  </div>
-                )}
+                {i === 0 && renderPackagesAccordion(t('main.sleevePackageTitle'), t('main.sleevePackageDesc'), packages, "grid md:grid-cols-2 xl:grid-cols-4 gap-8", "accordion-trigger-sleeve-packages")}
               </div>
             ))}
           </div>

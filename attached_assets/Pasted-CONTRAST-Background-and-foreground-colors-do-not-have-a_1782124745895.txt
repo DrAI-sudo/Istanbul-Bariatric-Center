@@ -1,0 +1,48 @@
+CONTRAST
+Background and foreground colors do not have a sufficient contrast ratio.
+Low-contrast text is difficult or impossible for many users to read. Learn how to provide sufficient color contrast.
+Failing Elements
+Tüp Mide Ameliyatı (Sleeve Gastrektomi)
+<a href="/tup-mide" style="color:#0284c7;text-decoration:none">
+Tüp Mide Ameliyatı (Sleeve Gastrektomi) — Fazla kilonun %60-70'i 12-18 ayda kay…
+<li style="padding: 0.875rem 1rem; background: rgb(240, 249, 255); border-radius: 0.5rem;">
+Gastrik Bypass (Roux-en-Y)
+<a href="/gastrik-bypass" style="color:#0284c7;text-decoration:none">
+Gastrik Bypass (Roux-en-Y) — %80-90 tip 2 diyabet remisyon oranı. Metabolik etk…
+<li style="padding: 0.875rem 1rem; background: rgb(240, 249, 255); border-radius: 0.5rem;">
+Diyabet Cerrahisi (Metabolik Cerrahi)
+<a href="/diyabet-cerrahisi" style="color:#0284c7;text-decoration:none">
+Diyabet Cerrahisi (Metabolik Cerrahi) — VKİ ≥30 olan tip 2 diyabet hastalarında…
+<li style="padding: 0.875rem 1rem; background: rgb(240, 249, 255); border-radius: 0.5rem;">
+Mini Gastrik Bypass
+<a href="/mini-gastrik-bypass" style="color:#0284c7;text-decoration:none">
+Mini Gastrik Bypass — Tek anastomozlu teknik. Daha kısa ameliyat süresi, etkili…
+<li style="padding: 0.875rem 1rem; background: rgb(240, 249, 255); border-radius: 0.5rem;">
+Endoskopik Sleeve Gastroplasti (ESG)
+<a href="/esg-tr" style="color:#0284c7;text-decoration:none">
+Endoskopik Sleeve Gastroplasti (ESG) — Ameliyatsız mide küçültme yöntemi. 2014'…
+<li style="padding: 0.875rem 1rem; background: rgb(240, 249, 255); border-radius: 0.5rem;">
+Mide Balonu
+<a href="/mide-balonu" style="color:#0284c7;text-decoration:none">
+Mide Balonu — 6-12 ay için endoskopik olarak yerleştirilen, geçici ve ameliyats…
+<li style="padding: 0.875rem 1rem; background: rgb(240, 249, 255); border-radius: 0.5rem;">
+Revizyon Cerrahisi
+<a href="/revizyon-cerrahisi" style="color:#0284c7;text-decoration:none">
+Revizyon Cerrahisi — Önceki bariatrik ameliyatın yetersiz kaldığı veya komplika…
+<li style="padding: 0.875rem 1rem; background: rgb(240, 249, 255); border-radius: 0.5rem;">
+Duodenal Switch (SADI-S)
+<a href="/duodenal-switch" style="color:#0284c7;text-decoration:none">
+Duodenal Switch (SADI-S) — En yüksek kilo kaybı oranı. Süper obezite ve tedaviy…
+<li style="padding: 0.875rem 1rem; background: rgb(240, 249, 255); border-radius: 0.5rem;">
++90 532 413 1143
+<a href="tel:+905324131143" style="color:#0284c7">
+body
+<body>
++44 7491 068686
+<a href="tel:+447491068686" style="color:#0284c7">
+body
+<body>
+WhatsApp ile Randevu Al
+<a href="https://wa.me/+905324131143" style="display: inline-block; background: rgb(37, 211, 102); color: white; padding: 0.75rem 2rem;">
+İletişim Formu
+<a href="/iletisim" style="display: inline-block; background: rgb(2, 132, 199); color: white; padding: 0.75rem 2rem;">
