@@ -1859,6 +1859,18 @@ const staticPages: Record<string, PageSEO> = {
       ]
     }, {
       "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "ESG Azərbaycanda mövcuddurmu?", "acceptedAnswer": { "@type": "Answer", "text": "ESG Azərbaycanda geniş mövcud deyil. Hər şey daxil paketimiz € 6.450 (~11.900 AZN) — prosedur, JCI xəstəxanası, otel, transfer və 12 aylıq dietoloq dəstəyi daxildir." } },
+        { "@type": "Question", "name": "İstanbulda nə qədər qalmaq lazımdır?", "acceptedAnswer": { "@type": "Answer", "text": "3-4 gün. Bakı Heydər Əliyev Hava Limanından birbaşa uçuşlar (~3-3,5 saat)." } },
+        { "@type": "Question", "name": "Ağrılıdırmı?", "acceptedAnswer": { "@type": "Answer", "text": "ESG ümumi anesteziya altında icra olunur. 1-3 gün yüngül narahatlıq ola bilər, reseptlə verilən dərmanlarla idarə olunur." } },
+        { "@type": "Question", "name": "Nəticələr daimidir?", "acceptedAnswer": { "@type": "Answer", "text": "Bəli, düzgün həyat tərzi ilə nəticələr daimidir. Paketə 12 aylıq dietoloq dəstəyi daxildir." } },
+        { "@type": "Question", "name": "Hansı BMI lazımdır?", "acceptedAnswer": { "@type": "Answer", "text": "ESG BMI 30 ilə 40 arasında olan xəstələr üçün idealdır." } },
+        { "@type": "Question", "name": "Təhlükəsizdirmi?", "acceptedAnswer": { "@type": "Answer", "text": "Bütün əməliyyatlar JCI-akkreditasiyalı Liv Hospital-da aparılır. Dr Murat Ustun minlərlə ESG icra edib." } },
+        { "@type": "Question", "name": "Paketə nələr daxildir?", "acceptedAnswer": { "@type": "Answer", "text": "Prosedur, JCI xəstəxanası, müayinələr, VIP transfer, otel, dərmanlar, 12 ay dietoloq dəstəyi. Gizli xərclər yoxdur." } }
+      ]
+    }, {
+      "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
