@@ -68,6 +68,18 @@ export function injectSEO(html: string, requestPath: string): string {
     `<meta name="twitter:image" content="${escapeAttr(imageUrl)}" />`
   );
 
+  if (seo.image) {
+    const imageAlt = escapeAttr(seo.title);
+    result = result.replace(
+      /<meta\s+property="og:image:alt"\s+content="[^"]*"\s*\/?>/,
+      `<meta property="og:image:alt" content="${imageAlt}" />`
+    );
+    result = result.replace(
+      /<meta\s+name="twitter:image:alt"\s+content="[^"]*"\s*\/?>/,
+      `<meta name="twitter:image:alt" content="${imageAlt}" />`
+    );
+  }
+
   if (seo.ogType) {
     result = result.replace(
       /<meta\s+property="og:type"\s+content="[^"]*"\s*\/?>/,
