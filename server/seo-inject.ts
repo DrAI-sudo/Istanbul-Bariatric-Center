@@ -199,6 +199,60 @@ export function injectSEO(html: string, requestPath: string): string {
   return result;
 }
 
+export function inject404Meta(html: string): string {
+  let result = html;
+
+  result = result.replace(
+    /<title>[^<]*<\/title>/,
+    `<title>Page Not Found | Istanbul Bariatric Center</title>`
+  );
+
+  result = result.replace(
+    /<meta\s+name="robots"\s+content="[^"]*"\s*\/?>/,
+    `<meta name="robots" content="noindex, nofollow" />`
+  );
+
+  result = result.replace(
+    /<meta\s+name="googlebot"\s+content="[^"]*"\s*\/?>/,
+    `<meta name="googlebot" content="noindex, nofollow" />`
+  );
+
+  result = result.replace(
+    /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/,
+    ``
+  );
+
+  result = result.replace(
+    /<meta\s+property="og:title"\s+content="[^"]*"\s*\/?>/,
+    `<meta property="og:title" content="Page Not Found | Istanbul Bariatric Center" />`
+  );
+
+  result = result.replace(
+    /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/,
+    ``
+  );
+
+  result = result.replace(
+    /<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/,
+    `<meta name="twitter:title" content="Page Not Found | Istanbul Bariatric Center" />`
+  );
+
+  const notFoundBlock = `
+    <noscript>
+      <div style="padding:20px;max-width:800px;margin:0 auto;font-family:sans-serif">
+        <h1>Page Not Found</h1>
+        <p>The page you requested does not exist. Please visit our <a href="/">home page</a> or <a href="/contact">contact us</a> for help.</p>
+      </div>
+    </noscript>`;
+
+  result = result.replace(
+    '<div id="root">',
+    `${notFoundBlock}\n    <div id="root">`
+  );
+
+  return result;
+}
+
 function escapeHtml(str: string): string {
   return str
     .replace(/&/g, "&amp;")

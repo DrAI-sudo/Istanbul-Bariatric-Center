@@ -2,7 +2,7 @@ import express, { type Express } from "express";
 import fs from "fs";
 import path from "path";
 import { isValidRoute } from "./valid-routes";
-import { injectSEO } from "./seo-inject";
+import { injectSEO, inject404Meta } from "./seo-inject";
 
 function injectFontPreloads(html: string, distPath: string): string {
   const assetsDir = path.resolve(distPath, "assets");
@@ -70,12 +70,19 @@ export function serveStatic(app: Express) {
       return res.status(404).send("Not found");
     }
     
-    const injectedHtml = injectSEO(indexHtml, requestPath);
-    
     if (isValidRoute(requestPath)) {
+      const injectedHtml = injectSEO(indexHtml, requestPath);
       res.status(200).set({ "Content-Type": "text/html", "Cache-Control": "no-cache" }).end(injectedHtml);
     } else {
-      res.status(404).set({ "Content-Type": "text/html", "Cache-Control": "no-cache" }).end(injectedHtml);
+      const notFoundHtml = inject404Meta(indexHtml);
+      res
+        .status(404)
+        .set({
+          "Content-Type": "text/html",
+          "Cache-Control": "no-cache",
+          "X-Robots-Tag": "noindex, nofollow",
+        })
+        .end(notFoundHtml);
     }
   });
 }

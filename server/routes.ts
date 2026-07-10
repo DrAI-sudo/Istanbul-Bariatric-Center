@@ -456,26 +456,6 @@ ${blogSection}
     }
   });
 
-  app.get("/.well-known/ai-plugin.json", (_req, res) => {
-    const plugin = {
-      schema_version: "v1",
-      name_for_human: "Istanbul Bariatric Center",
-      name_for_model: "istanbul_bariatric_center",
-      description_for_human: "Istanbul Bariatric Center - Leading weight loss surgery clinic in Istanbul, Turkey. Gastric sleeve, bypass, balloon, ESG, and more.",
-      description_for_model: "Istanbul Bariatric Center is a premier bariatric surgery clinic in Istanbul, Turkey led by Dr Murat Ustun. Provides information about weight loss surgery procedures (gastric sleeve, gastric bypass, gastric balloon, ESG, duodenal switch, transit bipartition), pricing from £1,650, all-inclusive packages, patient results, and blog articles about obesity treatment. Use /llms.txt for a structured overview or /llms-full.txt for complete detailed content.",
-      auth: { type: "none" },
-      api: {
-        type: "openapi",
-        url: `${BASE_URL}/sitemap.xml`
-      },
-      logo_url: `${BASE_URL}/favicon.webp`,
-      contact_email: "drmuratustun@gmail.com",
-      legal_info_url: `${BASE_URL}/about`,
-      llms_txt: `${BASE_URL}/llms.txt`
-    };
-    res.json(plugin);
-  });
-
   app.use((req, res, next) => {
     const reqPath = req.path;
     
