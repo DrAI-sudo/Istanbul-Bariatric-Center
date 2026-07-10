@@ -103,16 +103,6 @@ export function injectSEO(html: string, requestPath: string): string {
     result = result.replace("</head>", `  ${hreflangTags}\n  </head>`);
   }
 
-  if (seo.alternates && seo.alternates.length > 0) {
-    const alternateTags = seo.alternates
-      .map(
-        (alt) =>
-          `<link rel="alternate" hreflang="${escapeAttr(alt.hreflang)}" href="${escapeAttr(alt.href)}" />`
-      )
-      .join("\n  ");
-    result = result.replace("</head>", `  ${alternateTags}\n  </head>`);
-  }
-
   const baselineSchemas = [
     {
       "@context": "https://schema.org",
