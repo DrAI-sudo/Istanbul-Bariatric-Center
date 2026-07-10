@@ -7,6 +7,10 @@ channel = "stable-24_05"
 packages = ["libwebp", "imagemagick", "ffmpeg", "poppler_utils"]
 
 [[ports]]
+localPort = 4919
+externalPort = 4200
+
+[[ports]]
 localPort = 5000
 externalPort = 80
 

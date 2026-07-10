@@ -55,12 +55,33 @@ export function serveStatic(app: Express) {
   app.use(express.static(distPath, {
     maxAge: '1y',
     immutable: true,
+    index: false,
     setHeaders: (res, filePath) => {
       if (filePath.endsWith('.html')) {
         res.setHeader('Cache-Control', 'no-cache');
       }
     },
   }));
+
+  const prerenderDir = path.resolve(__dirname, "prerendered");
+  const prerenderCache = new Map<string, string | null>();
+
+  function getPrerenderedHtml(route: string): string | null {
+    if (prerenderCache.has(route)) return prerenderCache.get(route)!;
+    let html: string | null = null;
+    try {
+      const rel = route === "/" ? "index.html" : `${route.replace(/^\//, "")}.html`;
+      const abs = path.resolve(prerenderDir, rel);
+      const relCheck = path.relative(prerenderDir, abs);
+      if (!relCheck.startsWith("..") && !path.isAbsolute(relCheck) && fs.existsSync(abs)) {
+        html = fs.readFileSync(abs, "utf-8");
+      }
+    } catch {
+      html = null;
+    }
+    prerenderCache.set(route, html);
+    return html;
+  }
 
   app.use("*", (req, res) => {
     const requestPath = req.originalUrl.split("?")[0];
@@ -71,6 +92,14 @@ export function serveStatic(app: Express) {
     }
     
     if (isValidRoute(requestPath)) {
+      const normalized = requestPath.replace(/\/+$/, "") || "/";
+      const prerendered = getPrerenderedHtml(normalized);
+      if (prerendered) {
+        return res
+          .status(200)
+          .set({ "Content-Type": "text/html", "Cache-Control": "no-cache" })
+          .end(prerendered);
+      }
       const injectedHtml = injectSEO(indexHtml, requestPath);
       res.status(200).set({ "Content-Type": "text/html", "Cache-Control": "no-cache" }).end(injectedHtml);
     } else {

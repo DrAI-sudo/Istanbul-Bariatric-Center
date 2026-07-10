@@ -109,6 +109,10 @@ const importMetaUrl = require('url').pathToFileURL(__filename).toString();
     external: externals,
     logLevel: "info",
   });
+
+  console.log("prerendering static HTML...");
+  const { prerender } = await import("./prerender");
+  await prerender();
 }
 
 buildAll().catch((err) => {
