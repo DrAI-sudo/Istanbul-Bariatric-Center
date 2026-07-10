@@ -1,0 +1,57 @@
+# Static HTML Prerendering — Setup Guide for istanbulbariatriccenter.com (Replit)
+
+## Confirmed diagnosis
+A raw (non-JS) fetch of the homepage returns only the `<title>` and tagline — no treatment info, no
+stats, no body copy. The `og:image` URL resolves to `istanbul-bariatric-center.replit.app`, confirming
+this is the same Vite/React CSR setup that stemcelllongevita.com had. This is your flagship brand site,
+so this is the highest-priority fix of the three.
+
+**Good news:** Google's own crawler appears to be partially indexing some inner pages already (blog
+posts, ESG comparison pages, /treatments) via its delayed JS-rendering pass — but this is slow, not
+guaranteed, and doesn't help at all with AI crawlers (GPTBot, ClaudeBot, PerplexityBot), which read raw
+HTML only and currently see nothing.
+
+## Two paths — pick one
+
+### Path A: Replit's native SEO Agent (try this first)
+Since this is hosted on Replit, use their built-in tooling before reaching for a custom script:
+1. Open the project in Replit → go to the **Growth** pane (search "Growth" in the tools list).
+2. Click **Run scan with Agent**.
+3. It will explicitly flag the rendering problem and can hand the fix — implementing SSR or SSG —
+   directly to Replit's Agent to build.
+4. Once implemented, re-verify with the same method I used: fetch the homepage raw and confirm the full
+   body copy is present, not just meta tags.
+
+This is the fastest path since it's built into the platform you're already on, and it's the same
+mechanism you likely used to fix stemcelllongevita.com if you went that route.
+
+### Path B: Custom prerender script (if Agent doesn't fully resolve it, or you want a static file you control)
+Use the companion `prerender-ibc.js` file. It's the same approach as before: build the site, spin up a
+local server, headlessly visit every route, and save the fully-rendered HTML as that route's real
+`index.html`.
+
+Steps:
+```bash
+npm install --save-dev puppeteer serve-handler
+```
+Then fill in the `ROUTES` array (see the file — I've pre-populated it with the URLs I could confirm are
+live, but you should cross-check against your full sitemap):
+```bash
+curl -s https://istanbulbariatriccenter.com/sitemap.xml | grep -oP '(?<=<loc>).*?(?=</loc>)' | sed 's|https://istanbulbariatriccenter.com||'
+```
+Add `"postbuild": "node prerender-ibc.js"` to `package.json`, then `npm run build`.
+
+## One thing to check that's specific to this site
+Your `/treatments` page lists localized/translated content ("Pachete All-Inclusive" — Romanian) mixed
+into the same URL as the English content in the search snippet I pulled. If you're serving multiple
+languages, confirm each language variant has its own distinct URL (e.g. `/ro/treatments` or
+`treatments-ro.html`) with proper `hreflang` tags — otherwise prerendering will just bake whichever
+language happens to load first into the static HTML for everyone, English crawlers included, which
+would actively hurt rather than help.
+
+## After either path — verify
+1. Re-fetch the homepage raw and confirm full content (treatments, stats, physician bio) is present.
+2. Google Search Console → URL Inspection → re-submit the homepage and a few treatment pages, watch the
+   Coverage report over 1-2 weeks.
+3. Confirm `robots.txt` and `sitemap.xml` are present, current, and reference every treatment/blog URL —
+   don't rely on internal links alone to get deep pages discovered.
