@@ -81,7 +81,7 @@ const staticPages: Record<string, PageSEO> = {
       "description": "Leading bariatric surgery clinic in Istanbul, Turkey offering gastric sleeve, gastric bypass, gastric balloon, ESG, duodenal switch and revision surgery. Over 8,000 successful procedures led by Dr Murat Ustun at JCI-accredited hospitals.",
       "url": SITE_URL,
       "logo": SITE_URL + "/logo.webp",
-      "image": SITE_URL + "/opengraph.jpg",
+      "image": SITE_URL + "/opengraph.webp",
       "telephone": ["+905324131143", "+447491068686"],
       "email": "drmuratustun@gmail.com",
       "foundingDate": "2015",

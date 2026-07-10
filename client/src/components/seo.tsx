@@ -32,6 +32,7 @@ export function SEO({
   const currentLang = i18n.language || "en";
   const baseUrl = url ? `${BASE_URL}${url}` : BASE_URL;
   const fullTitle = `${title} | ${SITE_NAME}`;
+  const absoluteImage = image.startsWith("/") ? `${BASE_URL}${image}` : image;
 
   useEffect(() => {
     document.title = fullTitle;
@@ -74,7 +75,7 @@ export function SEO({
 
     setMeta("og:title", fullTitle, true);
     setMeta("og:description", description, true);
-    setMeta("og:image", image, true);
+    setMeta("og:image", absoluteImage, true);
     setMeta("og:image:width", "1200", true);
     setMeta("og:image:height", "630", true);
     setMeta("og:image:alt", title, true);
@@ -83,13 +84,13 @@ export function SEO({
     setMeta("og:site_name", SITE_NAME, true);
     setMeta("og:locale", currentLang, true);
 
-    setMeta("twitter:card", "summary_large_image", true);
-    setMeta("twitter:title", fullTitle, true);
-    setMeta("twitter:description", description, true);
-    setMeta("twitter:image", image, true);
-    setMeta("twitter:image:alt", title, true);
-    setMeta("twitter:site", "@IstanbulBariatr", true);
-    setMeta("twitter:creator", "@DrMuratUstun", true);
+    setMeta("twitter:card", "summary_large_image");
+    setMeta("twitter:title", fullTitle);
+    setMeta("twitter:description", description);
+    setMeta("twitter:image", absoluteImage);
+    setMeta("twitter:image:alt", title);
+    setMeta("twitter:site", "@IstanbulBariatr");
+    setMeta("twitter:creator", "@DrMuratUstun");
 
     if (type === "article" && publishedTime) {
       setMeta("article:published_time", publishedTime, true);
@@ -105,7 +106,7 @@ export function SEO({
 
     return () => {
     };
-  }, [fullTitle, description, keywords, image, baseUrl, type, publishedTime, modifiedTime, author, currentLang]);
+  }, [fullTitle, description, keywords, absoluteImage, baseUrl, type, publishedTime, modifiedTime, author, currentLang]);
 
   return null;
 }

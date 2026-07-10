@@ -56,7 +56,7 @@ export function injectSEO(html: string, requestPath: string): string {
     `<meta name="twitter:description" content="${escapeAttr(seo.description)}" />`
   );
 
-  const productionImageUrl = "https://istanbulbariatriccenter.com/opengraph.jpg";
+  const productionImageUrl = "https://istanbulbariatriccenter.com/opengraph.webp";
   const imageUrl = seo.image || productionImageUrl;
   result = result.replace(
     /<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/,

@@ -113,6 +113,44 @@ const importMetaUrl = require('url').pathToFileURL(__filename).toString();
   console.log("prerendering static HTML...");
   const { prerender } = await import("./prerender");
   await prerender();
+
+  await checkForStaleMetadata();
+}
+
+async function checkForStaleMetadata() {
+  // Guard: fail the build if any HTML output references dev/stale domains
+  // or the retired opengraph.jpg — these leaked into social meta tags before.
+  const { readdir } = await import("fs/promises");
+  const stalePattern = /replit\.app|replit\.dev|opengraph\.jpg/;
+  const offenders: string[] = [];
+
+  async function scan(dir: string): Promise<void> {
+    let entries;
+    try {
+      entries = await readdir(dir, { withFileTypes: true });
+    } catch {
+      return;
+    }
+    for (const entry of entries) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) {
+        await scan(full);
+      } else if (entry.name.endsWith(".html")) {
+        const content = await readFile(full, "utf-8");
+        if (stalePattern.test(content)) offenders.push(full);
+      }
+    }
+  }
+
+  await scan("dist/public");
+  await scan("dist/prerendered");
+
+  if (offenders.length > 0) {
+    throw new Error(
+      `Stale domain/image references (replit.app, replit.dev, or opengraph.jpg) found in built HTML:\n  ${offenders.join("\n  ")}`,
+    );
+  }
+  console.log("stale-metadata check passed");
 }
 
 buildAll().catch((err) => {
