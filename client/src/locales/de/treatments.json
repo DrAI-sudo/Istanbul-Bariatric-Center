@@ -41,6 +41,8 @@
     "gastricBypass": "Magenbypass",
     "gastricBalloon": "Magenballon",
     "esg": "ESG",
+    "pose2": "POSE-2 Double Helix",
+    "loss15to16": "15–16% des Gesamtkörpergewichts",
     "duodenalSwitch": "Duodenal-Switch",
     "bmi35plus": "35+",
     "bmi40plus": "40+ (oder 35+ mit Begleiterkrankungen)",
@@ -182,6 +184,31 @@
         "1 Monat Nahrungsergänzungs- und Multivitaminpaket"
       ]
     },
+    "pose2Relaxation": {
+      "name": "POSE-2 Entspannung",
+      "features": [
+        "Modernste Liv Klinik",
+        "Verfahren mit Dr Murat Ustun (Pionier der ESG in der Türkei)",
+        "VIP-Flughafentransfers",
+        "Alle präoperativen Tests und Konsultationen",
+        "OP- und Krankenhauskosten",
+        "2 Tage Aufnahme im Privatzimmer"
+      ]
+    },
+    "pose2Luxury": {
+      "name": "POSE-2 Luxus",
+      "features": [
+        "Modernste Liv Klinik",
+        "Verfahren mit Dr Murat Ustun (Pionier der ESG in der Türkei)",
+        "VIP-Flughafentransfers",
+        "Alle präoperativen Tests und Konsultationen",
+        "OP- und Krankenhauskosten",
+        "2 Tage Aufnahme im Privatzimmer",
+        "2 Tage Radisson Hotel",
+        "4 UK-registrierte Ernährungsberater-Termine",
+        "1 Monat Nahrungsergänzungs- und Multivitaminpaket"
+      ]
+    },
     "dsRelaxation": {
       "name": "Duodenal-Switch Entspannung",
       "features": [
@@ -211,6 +238,8 @@
     "balloonSubtitle": "Wählen Sie das richtige Magenballon-Paket für Ihre Bedürfnisse",
     "esgTitle": "ESG-Pakete",
     "esgSubtitle": "Wählen Sie das richtige ESG-Paket für Ihre Bedürfnisse",
+    "pose2Title": "POSE-2-Pakete",
+    "pose2Subtitle": "Wählen Sie das richtige POSE-2-Paket für Ihre Bedürfnisse",
     "dsTitle": "Duodenal-Switch-Pakete",
     "dsSubtitle": "Wählen Sie das richtige Duodenal-Switch-Paket für Ihre Bedürfnisse"
   },
@@ -231,6 +260,24 @@
       "Möglicherweise wiederholte Verfahren für optimale Ergebnisse erforderlich",
       "Nicht geeignet für BMI über 40",
       "Relativ neues Verfahren mit weniger Langzeitdaten"
+    ]
+  },
+  "pose2Treatment": {
+    "title": "POSE-2 Double Helix",
+    "desc": "POSE-2 (Primary Obesity Surgery Endoluminal) Double Helix ist ein minimal-invasives, nicht-chirurgisches Verfahren zur Gewichtsreduktion, bei dem der Magen mit einer über den Mund eingeführten endoskopischen Nahtplattform neu geformt wird — ganz ohne Schnitte. Vollwandige Raffungen im Magenkörper verengen und verkürzen den Magen um bis zu 70%. Ideal für Patienten mit einem BMI von 30-40, die einen nicht-chirurgischen Ansatz bevorzugen.",
+    "advantages": [
+      "Nicht-chirurgisch — keine Schnitte oder Narben",
+      "Kürzere Erholungszeit (Rückkehr zu normalen Aktivitäten in 1-3 Tagen)",
+      "Geringeres Komplikationsrisiko im Vergleich zur Operation",
+      "15-16% Verlust des Gesamtkörpergewichts zu erwarten",
+      "Entlassung am selben oder nächsten Tag",
+      "Durchführung unter Vollnarkose (~90 Minuten)"
+    ],
+    "disadvantages": [
+      "Weniger Gewichtsverlust als chirurgische Optionen wie der Schlauchmagen",
+      "Für optimale Ergebnisse können Wiederholungseingriffe erforderlich sein",
+      "Nicht geeignet bei BMI über 40",
+      "Neuere Technik mit weniger Langzeitstudien als ESG"
     ]
   },
   "postBariatricSection": {

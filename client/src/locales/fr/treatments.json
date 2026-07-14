@@ -41,6 +41,8 @@
     "gastricBypass": "Bypass Gastrique",
     "gastricBalloon": "Ballon Gastrique",
     "esg": "ESG",
+    "pose2": "POSE-2 Double Helix",
+    "loss15to16": "15–16% du poids corporel total",
     "duodenalSwitch": "Switch Duodénal",
     "bmi35plus": "35+",
     "bmi40plus": "40+ (ou 35+ avec comorbidités)",
@@ -182,6 +184,31 @@
         "1 mois de suppléments et multivitamines"
       ]
     },
+    "pose2Relaxation": {
+      "name": "POSE-2 Détente",
+      "features": [
+        "Hôpital Liv de pointe",
+        "Procédure avec le Dr Murat Ustun (Pionnier de l'ESG en Turquie)",
+        "Transferts VIP aéroport",
+        "Tous les tests et consultations préopératoires",
+        "Frais de bloc et d'hôpital",
+        "2 jours d'admission en chambre privée"
+      ]
+    },
+    "pose2Luxury": {
+      "name": "POSE-2 Luxe",
+      "features": [
+        "Hôpital Liv de pointe",
+        "Procédure avec le Dr Murat Ustun (Pionnier de l'ESG en Turquie)",
+        "Transferts VIP aéroport",
+        "Tous les tests et consultations préopératoires",
+        "Frais de bloc et d'hôpital",
+        "2 jours d'admission en chambre privée",
+        "2 jours hôtel Radisson",
+        "4 rendez-vous diététicien UK",
+        "1 mois de suppléments et multivitamines"
+      ]
+    },
     "dsRelaxation": {
       "name": "Switch Duodénal Détente",
       "features": [
@@ -211,6 +238,8 @@
     "balloonSubtitle": "Choisissez le forfait ballon gastrique adapté à vos besoins",
     "esgTitle": "Forfaits ESG",
     "esgSubtitle": "Choisissez le forfait ESG adapté à vos besoins",
+    "pose2Title": "Forfaits POSE-2",
+    "pose2Subtitle": "Choisissez le forfait POSE-2 adapté à vos besoins",
     "dsTitle": "Forfaits Switch Duodénal",
     "dsSubtitle": "Choisissez le forfait switch duodénal adapté à vos besoins"
   },
@@ -231,6 +260,24 @@
       "Peut nécessiter des procédures répétées",
       "Non adapté pour un IMC supérieur à 40",
       "Procédure relativement nouvelle avec moins de données à long terme"
+    ]
+  },
+  "pose2Treatment": {
+    "title": "POSE-2 Double Helix",
+    "desc": "POSE-2 (Primary Obesity Surgery Endoluminal) Double Helix est une procédure de perte de poids mini-invasive et non chirurgicale qui remodèle l'estomac à l'aide d'une plateforme de suture endoscopique introduite par la bouche — sans aucune incision. Des plicatures pleine épaisseur sont réalisées dans le corps de l'estomac, le rétrécissant et le raccourcissant jusqu'à 70%, ce qui en fait une option idéale pour les patients avec un IMC de 30 à 40 préférant une approche non chirurgicale.",
+    "advantages": [
+      "Non chirurgical — pas d'incisions ni de cicatrices",
+      "Récupération plus courte (retour aux activités normales en 1 à 3 jours)",
+      "Risque de complications plus faible que la chirurgie",
+      "Perte de 15-16% du poids corporel total attendue",
+      "Sortie le jour même ou le lendemain",
+      "Réalisé sous anesthésie générale (~90 minutes)"
+    ],
+    "disadvantages": [
+      "Perte de poids inférieure aux options chirurgicales comme la sleeve gastrique",
+      "Peut nécessiter des procédures répétées pour des résultats optimaux",
+      "Ne convient pas aux IMC supérieurs à 40",
+      "Technique plus récente avec moins d'études à long terme que l'ESG"
     ]
   },
   "postBariatricSection": {

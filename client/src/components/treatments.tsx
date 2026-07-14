@@ -44,6 +44,12 @@ const treatments = [
     desc: "A non-surgical, incisionless weight loss procedure with quick recovery.",
     link: "/esg",
     image: "/ifso-esg.webp"
+  },
+  {
+    title: "POSE-2 Double Helix",
+    desc: "A non-surgical endoscopic procedure that reshapes the stomach — no incisions required.",
+    link: "/treatments#pose-2-double-helix",
+    image: "/pose2-procedure.webp"
   }
 ];
 

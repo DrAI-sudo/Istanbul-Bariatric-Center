@@ -41,6 +41,8 @@
     "gastricBypass": "Bypass Gastric",
     "gastricBalloon": "Balon Gastric",
     "esg": "ESG",
+    "pose2": "POSE-2 Double Helix",
+    "loss15to16": "15–16% din greutatea corporală totală",
     "duodenalSwitch": "Duodenal Switch",
     "bmi35plus": "35+",
     "bmi40plus": "40+ (sau 35+ cu comorbidități)",
@@ -182,6 +184,31 @@
         "1 lună suplimente și multivitamine"
       ]
     },
+    "pose2Relaxation": {
+      "name": "POSE-2 Relaxare",
+      "features": [
+        "Spitalul Liv de ultimă generație",
+        "Procedură cu Dr Murat Ustun (Pionier al ESG în Turcia)",
+        "Transfer VIP aeroport",
+        "Toate testele și consultațiile preoperatorii",
+        "Costuri sala de operații și spital",
+        "2 zile internare în cameră privată"
+      ]
+    },
+    "pose2Luxury": {
+      "name": "POSE-2 Lux",
+      "features": [
+        "Spitalul Liv de ultimă generație",
+        "Procedură cu Dr Murat Ustun (Pionier al ESG în Turcia)",
+        "Transfer VIP aeroport",
+        "Toate testele și consultațiile preoperatorii",
+        "Costuri sala de operații și spital",
+        "2 zile internare în cameră privată",
+        "2 zile hotel Radisson",
+        "4 programări dietetician UK",
+        "1 lună suplimente și multivitamine"
+      ]
+    },
     "dsRelaxation": {
       "name": "Duodenal Switch Relaxare",
       "features": [
@@ -211,6 +238,8 @@
     "balloonSubtitle": "Alegeți pachetul de balon gastric potrivit",
     "esgTitle": "Pachete ESG",
     "esgSubtitle": "Alegeți pachetul ESG potrivit",
+    "pose2Title": "Pachete POSE-2",
+    "pose2Subtitle": "Alegeți pachetul POSE-2 potrivit",
     "dsTitle": "Pachete Duodenal Switch",
     "dsSubtitle": "Alegeți pachetul duodenal switch potrivit"
   },
@@ -231,6 +260,24 @@
       "Poate necesita proceduri repetate",
       "Nu este potrivit pentru BMI peste 40",
       "Procedură relativ nouă"
+    ]
+  },
+  "pose2Treatment": {
+    "title": "POSE-2 Double Helix",
+    "desc": "POSE-2 (Primary Obesity Surgery Endoluminal) Double Helix este o procedură de slăbire minim invazivă, non-chirurgicală, care remodelează stomacul folosind o platformă de sutură endoscopică introdusă prin gură — fără incizii. Plicaturi pe toată grosimea sunt plasate în corpul stomacului, îngustându-l și scurtându-l cu până la 70%, fiind ideală pentru pacienții cu IMC 30-40 care preferă o abordare non-chirurgicală.",
+    "advantages": [
+      "Non-chirurgical — fără incizii sau cicatrici",
+      "Timp de recuperare mai scurt (revenire la activitățile normale în 1-3 zile)",
+      "Risc de complicații mai mic comparativ cu chirurgia",
+      "Pierdere așteptată de 15-16% din greutatea corporală totală",
+      "Externare în aceeași zi sau a doua zi",
+      "Efectuată sub anestezie generală (~90 de minute)"
+    ],
+    "disadvantages": [
+      "Pierdere în greutate mai mică decât opțiunile chirurgicale precum gastric sleeve",
+      "Poate necesita proceduri repetate pentru rezultate optime",
+      "Nu este potrivită pentru IMC peste 40",
+      "Tehnică mai nouă, cu mai puține studii pe termen lung decât ESG"
     ]
   },
   "postBariatricSection": {

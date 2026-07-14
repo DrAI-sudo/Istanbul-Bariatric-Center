@@ -41,6 +41,8 @@
     "gastricBypass": "Mide Bypass",
     "gastricBalloon": "Mide Balonu",
     "esg": "ESG",
+    "pose2": "POSE-2 Double Helix",
+    "loss15to16": "Toplam vücut ağırlığının %15–16'sı",
     "duodenalSwitch": "Duodenal Switch",
     "bmi35plus": "35+",
     "bmi40plus": "40+ (veya 35+ eşlik eden hastalıklar ile)",
@@ -182,6 +184,31 @@
         "1 aylık takviye ve multivitamin paketi"
       ]
     },
+    "pose2Relaxation": {
+      "name": "POSE-2 Rahatlama",
+      "features": [
+        "Son teknoloji Liv hastanesi",
+        "Dr Murat Ustun ile prosedür (Türkiye'de ESG öncüsü)",
+        "VIP Havaalanı Transferleri",
+        "Tüm ameliyat öncesi testler ve konsültasyonlar",
+        "Ameliyathane ve hastane masrafları",
+        "Özel odada 2 gün yatış"
+      ]
+    },
+    "pose2Luxury": {
+      "name": "POSE-2 Lüks",
+      "features": [
+        "Son teknoloji Liv hastanesi",
+        "Dr Murat Ustun ile prosedür (Türkiye'de ESG öncüsü)",
+        "VIP Havaalanı Transferleri",
+        "Tüm ameliyat öncesi testler ve konsültasyonlar",
+        "Ameliyathane ve hastane masrafları",
+        "Özel odada 2 gün yatış",
+        "Radisson Otel'de 2 gün konaklama",
+        "4 İngiltere kayıtlı diyetisyen randevusu",
+        "1 aylık takviye ve multivitamin paketi"
+      ]
+    },
     "dsRelaxation": {
       "name": "Duodenal Switch Rahatlama",
       "features": [
@@ -211,6 +238,8 @@
     "balloonSubtitle": "İhtiyaçlarınıza uygun mide balonu paketini seçin",
     "esgTitle": "ESG Paketleri",
     "esgSubtitle": "İhtiyaçlarınıza uygun ESG paketini seçin",
+    "pose2Title": "POSE-2 Paketleri",
+    "pose2Subtitle": "İhtiyaçlarınıza uygun POSE-2 paketini seçin",
     "dsTitle": "Duodenal Switch Paketleri",
     "dsSubtitle": "İhtiyaçlarınıza uygun duodenal switch paketini seçin"
   },
@@ -231,6 +260,24 @@
       "Optimal sonuçlar için tekrar prosedür gerekebilir",
       "BMI 40 üzeri için uygun değil",
       "Nispeten yeni prosedür, daha az uzun vadeli veri"
+    ]
+  },
+  "pose2Treatment": {
+    "title": "POSE-2 Double Helix",
+    "desc": "POSE-2 (Primary Obesity Surgery Endoluminal) Double Helix, ağızdan yerleştirilen endoskopik dikiş platformu ile mideyi yeniden şekillendiren, minimal invaziv, cerrahi olmayan bir kilo verme prosedürüdür — kesi gerektirmez. Mide gövdesine tam kat plikasyonlar yerleştirilerek mide %70'e kadar daraltılır ve kısaltılır; bu da cerrahi olmayan bir yaklaşımı tercih eden VKİ 30-40 arası hastalar için idealdir.",
+    "advantages": [
+      "Cerrahi değil — kesi veya iz yok",
+      "Daha kısa iyileşme süresi (1-3 gün içinde normal aktivitelere dönüş)",
+      "Ameliyata kıyasla daha düşük komplikasyon riski",
+      "Toplam vücut ağırlığının %15-16'sı kadar kilo kaybı beklenir",
+      "Aynı gün veya ertesi gün taburcu",
+      "Genel anestezi altında uygulanır (~90 dakika)"
+    ],
+    "disadvantages": [
+      "Tüp mide gibi cerrahi seçeneklere göre daha az kilo kaybı",
+      "En iyi sonuçlar için tekrar işlem gerekebilir",
+      "VKİ 40 üzeri için uygun değildir",
+      "ESG'ye göre daha yeni bir teknik, uzun dönem çalışmaları daha az"
     ]
   },
   "postBariatricSection": {

@@ -41,6 +41,8 @@
     "gastricBypass": "Gastric Bypass",
     "gastricBalloon": "Gastric Balloon",
     "esg": "ESG",
+    "pose2": "POSE-2 Double Helix",
+    "loss15to16": "15–16% total body weight",
     "duodenalSwitch": "Duodenal Switch",
     "bmi35plus": "35+",
     "bmi40plus": "40+ (or 35+ with comorbidities)",
@@ -182,6 +184,31 @@
         "1 month supplement and multivitamin package"
       ]
     },
+    "pose2Relaxation": {
+      "name": "POSE-2 Relaxation",
+      "features": [
+        "State-of-the-art Liv hospital",
+        "Procedure with Dr Murat Ustun (Pioneer of ESG in Turkey)",
+        "VIP Airport Transfers",
+        "All pre-operative tests and consultations",
+        "OR and hospital costs",
+        "2 days of admission in private room"
+      ]
+    },
+    "pose2Luxury": {
+      "name": "POSE-2 Luxury",
+      "features": [
+        "State-of-the-art Liv hospital",
+        "Procedure with Dr Murat Ustun (Pioneer of ESG in Turkey)",
+        "VIP Airport Transfers",
+        "All pre-operative tests and consultations",
+        "OR and hospital costs",
+        "2 days of admission in private room",
+        "2 days of accommodation in Radisson Hotel",
+        "4 UK registered dietitian appointments",
+        "1 month supplement and multivitamin package"
+      ]
+    },
     "dsRelaxation": {
       "name": "Duodenal Switch Relaxation",
       "features": [
@@ -211,6 +238,8 @@
     "balloonSubtitle": "Choose the right gastric balloon package for your needs",
     "esgTitle": "ESG Packages",
     "esgSubtitle": "Choose the right ESG package for your needs",
+    "pose2Title": "POSE-2 Packages",
+    "pose2Subtitle": "Choose the right POSE-2 package for your needs",
     "dsTitle": "Duodenal Switch Packages",
     "dsSubtitle": "Choose the right duodenal switch package for your needs"
   },
@@ -231,6 +260,24 @@
       "May require repeat procedures for optimal results",
       "Not suitable for BMI over 40",
       "Relatively newer procedure with less long-term data"
+    ]
+  },
+  "pose2Treatment": {
+    "title": "POSE-2 Double Helix",
+    "desc": "POSE-2 (Primary Obesity Surgery Endoluminal) Double Helix is a minimally invasive, non-surgical weight loss procedure that reshapes the stomach using an endoscopic suturing platform inserted through the mouth — no incisions required. Full-thickness plications are placed in the stomach body, narrowing and shortening it by up to 70%, making it ideal for patients with BMI 30-40 who prefer a non-surgical approach.",
+    "advantages": [
+      "Non-surgical — no incisions or scars",
+      "Shorter recovery time (return to normal activities in 1-3 days)",
+      "Lower complication risk compared to surgery",
+      "15-16% total body weight loss expected",
+      "Same-day or next-day discharge",
+      "Performed under general anesthesia (~90 minutes)"
+    ],
+    "disadvantages": [
+      "Less weight loss than surgical options like gastric sleeve",
+      "May require repeat procedures for optimal results",
+      "Not suitable for BMI over 40",
+      "Newer technique with fewer long-term studies than ESG"
     ]
   },
   "postBariatricSection": {
@@ -339,9 +386,21 @@
       "Vitamin deficiency: the removed part of your stomach is partially responsible for vitamin absorption."
     ],
     "packages": {
-      "basic": { "name": "Sleeve Gastrectomy Basic", "price": "£2250", "days": "3" },
-      "relaxation": { "name": "Sleeve Gastrectomy Relaxation", "price": "£3250", "days": "5" },
-      "luxury": { "name": "Sleeve Gastrectomy Luxury", "price": "£4000", "days": "7" }
+      "basic": {
+        "name": "Sleeve Gastrectomy Basic",
+        "price": "£2250",
+        "days": "3"
+      },
+      "relaxation": {
+        "name": "Sleeve Gastrectomy Relaxation",
+        "price": "£3250",
+        "days": "5"
+      },
+      "luxury": {
+        "name": "Sleeve Gastrectomy Luxury",
+        "price": "£4000",
+        "days": "7"
+      }
     }
   },
   "gastricBypass": {
@@ -458,18 +517,54 @@
     "statMonths": "Months to Results",
     "statBest": "Long-term Results",
     "faqs": [
-      {"question": "What is Duodenal Switch surgery?", "answer": "Or as some doctors call it \"Gastric Reduction Duodenal Switch\" is a weight loss surgery that involves both restrictive and malabsorptive aspects. The restrictive part of the surgery involves cutting up to 70% of the stomach and some of the duodenum."},
-      {"question": "Is it similar to gastric bypass?", "answer": "The duodenal switch is similar to gastric bypass in goals because it reduces the amount of food entering your stomach and reduces the amount of calories absorbed to your body, but because it is more of malabsorptive operation, it causes more side effects than other types of surgeries."},
-      {"question": "Is duodenal switch better than other types of obesity surgery?", "answer": "Some doctors suggest that it is better for the long term because in duodenal switch the stomach will remain big so it will host more food compared to the other types of obesity surgery, this will help you having better body shape in the long term."},
-      {"question": "Can anyone have the duodenal switch surgery? How do I know if I'm a candidate?", "answer": "Not anyone can have duodenal switch surgery, only the doctor or medical team can decide that and the decision will be according to your BMI \"Body Mass Index\" if it is greater than 40 then you can have the duodenal switch surgery. Of course, there are other things to take in consideration so it is very important that your doctor decide whether you can have the duodenal switch surgery or not."},
-      {"question": "How long is the recovery time for duodenal switch surgery?", "answer": "It differs from one patient to another but for most patients it needs between three to four weeks of recovery. Even though that the surgery does not leave many scars from outside but it requires hard work from the inside."},
-      {"question": "Can I get back to work after the recovery time and start exercising?", "answer": "It is better to take another week away from the stress and hard activities just to make sure that your body has adjusted to the new situation after the surgery."},
-      {"question": "How long does it take for me to lose weight after the surgery?", "answer": "Most patients who have had the duodenal switch surgery lose their weight during the first 12 to 18 months. This is why not everyone feels encouraged to have this type of obesity surgery."},
-      {"question": "Is it possible that I gain weight after losing it?", "answer": "Well it can be if you get back to the old unhealthy lifestyle but it is known about duodenal surgery that it has the best long lasting weight loss among the obesity surgery types."},
-      {"question": "Do I have to avoid certain kinds of food after the surgery?", "answer": "It is hard to tell specific types of food because it differs from one patient to another but there are some types of food that you should absolutely stay away from like fatty food because it causes diarrhea. In any case it is important to take the answers of this question from the doctor after he or she examines your body."},
-      {"question": "How much weight will I lose after the surgery?", "answer": "Most patients lose between 40 to 60% of their weight. However, you need to know that none of this will happen if you don't put in an extra effort and change your lifestyle to a healthier one."},
-      {"question": "Does duodenal switch surgery prevent pregnancy? Or have any negative effects on pregnant bodies?", "answer": "The surgery will not prevent pregnancy. However, during the first 18 months we suggest that a woman do not experience pregnancy because during this time she will be losing weight and this might affect negatively on her body. In any case, weight loss surgeries help women in having a healthier pregnancy experience (after the maximum loss of weight)."},
-      {"question": "Does duodenal switch surgery cost more than other obesity surgeries?", "answer": "It costs a little bit more than other types of obesity surgery because it requires more work and effort from the medical team and surgeons."}
+      {
+        "question": "What is Duodenal Switch surgery?",
+        "answer": "Or as some doctors call it \"Gastric Reduction Duodenal Switch\" is a weight loss surgery that involves both restrictive and malabsorptive aspects. The restrictive part of the surgery involves cutting up to 70% of the stomach and some of the duodenum."
+      },
+      {
+        "question": "Is it similar to gastric bypass?",
+        "answer": "The duodenal switch is similar to gastric bypass in goals because it reduces the amount of food entering your stomach and reduces the amount of calories absorbed to your body, but because it is more of malabsorptive operation, it causes more side effects than other types of surgeries."
+      },
+      {
+        "question": "Is duodenal switch better than other types of obesity surgery?",
+        "answer": "Some doctors suggest that it is better for the long term because in duodenal switch the stomach will remain big so it will host more food compared to the other types of obesity surgery, this will help you having better body shape in the long term."
+      },
+      {
+        "question": "Can anyone have the duodenal switch surgery? How do I know if I'm a candidate?",
+        "answer": "Not anyone can have duodenal switch surgery, only the doctor or medical team can decide that and the decision will be according to your BMI \"Body Mass Index\" if it is greater than 40 then you can have the duodenal switch surgery. Of course, there are other things to take in consideration so it is very important that your doctor decide whether you can have the duodenal switch surgery or not."
+      },
+      {
+        "question": "How long is the recovery time for duodenal switch surgery?",
+        "answer": "It differs from one patient to another but for most patients it needs between three to four weeks of recovery. Even though that the surgery does not leave many scars from outside but it requires hard work from the inside."
+      },
+      {
+        "question": "Can I get back to work after the recovery time and start exercising?",
+        "answer": "It is better to take another week away from the stress and hard activities just to make sure that your body has adjusted to the new situation after the surgery."
+      },
+      {
+        "question": "How long does it take for me to lose weight after the surgery?",
+        "answer": "Most patients who have had the duodenal switch surgery lose their weight during the first 12 to 18 months. This is why not everyone feels encouraged to have this type of obesity surgery."
+      },
+      {
+        "question": "Is it possible that I gain weight after losing it?",
+        "answer": "Well it can be if you get back to the old unhealthy lifestyle but it is known about duodenal surgery that it has the best long lasting weight loss among the obesity surgery types."
+      },
+      {
+        "question": "Do I have to avoid certain kinds of food after the surgery?",
+        "answer": "It is hard to tell specific types of food because it differs from one patient to another but there are some types of food that you should absolutely stay away from like fatty food because it causes diarrhea. In any case it is important to take the answers of this question from the doctor after he or she examines your body."
+      },
+      {
+        "question": "How much weight will I lose after the surgery?",
+        "answer": "Most patients lose between 40 to 60% of their weight. However, you need to know that none of this will happen if you don't put in an extra effort and change your lifestyle to a healthier one."
+      },
+      {
+        "question": "Does duodenal switch surgery prevent pregnancy? Or have any negative effects on pregnant bodies?",
+        "answer": "The surgery will not prevent pregnancy. However, during the first 18 months we suggest that a woman do not experience pregnancy because during this time she will be losing weight and this might affect negatively on her body. In any case, weight loss surgeries help women in having a healthier pregnancy experience (after the maximum loss of weight)."
+      },
+      {
+        "question": "Does duodenal switch surgery cost more than other obesity surgeries?",
+        "answer": "It costs a little bit more than other types of obesity surgery because it requires more work and effort from the medical team and surgeons."
+      }
     ],
     "diabetesTitle": "Duodenal Switch for Diabetes",
     "diabetesP1": "Duodenal switch surgery is particularly effective for patients with Type 2 diabetes. The procedure not only helps with significant weight loss but also has been shown to improve or even resolve diabetes in many patients.",

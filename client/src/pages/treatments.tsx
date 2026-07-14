@@ -108,6 +108,18 @@ export default function Treatments({ lang }: { lang?: string }) {
           { "@type": "Offer", "name": "ESG Relaxation", "price": "4950", "priceCurrency": "GBP" },
           { "@type": "Offer", "name": "ESG Luxury", "price": "5950", "priceCurrency": "GBP" }
         ]
+      },
+      {
+        "@type": "MedicalProcedure",
+        "name": "POSE-2 Double Helix",
+        "alternateName": ["POSE-2", "POSE 2", "Primary Obesity Surgery Endoluminal", "POSE-2 Turkey"],
+        "procedureType": "Noninvasive",
+        "bodyLocation": "Stomach",
+        "description": "A minimally invasive, non-surgical weight loss procedure that reshapes the stomach with full-thickness plications using an endoscopic suturing platform inserted through the mouth — no incisions required.",
+        "offers": [
+          { "@type": "Offer", "name": "POSE-2 Relaxation", "price": "4950", "priceCurrency": "GBP" },
+          { "@type": "Offer", "name": "POSE-2 Luxury", "price": "5950", "priceCurrency": "GBP" }
+        ]
       }
     ]
   };
@@ -217,6 +229,22 @@ export default function Treatments({ lang }: { lang?: string }) {
     }
   ];
 
+  const pose2Packages = [
+    {
+      name: t('packages.pose2Relaxation.name'),
+      price: "£4,950",
+      color: "emerald",
+      recommended: true,
+      features: t('packages.pose2Relaxation.features', { returnObjects: true }) as string[]
+    },
+    {
+      name: t('packages.pose2Luxury.name'),
+      price: "£5,950",
+      color: "amber",
+      features: t('packages.pose2Luxury.features', { returnObjects: true }) as string[]
+    }
+  ];
+
   const duodenalSwitchPackages = [
     {
       name: t('packages.dsRelaxation.name'),
@@ -268,6 +296,15 @@ export default function Treatments({ lang }: { lang?: string }) {
       startingPrice: "£4,950",
       hospitalStay: t('comparison.stay1to2'),
       expectedWeightLoss: t('comparison.loss15to20'),
+      recovery: t('comparison.recovery1to3days')
+    },
+    {
+      procedure: t('comparison.pose2'),
+      type: t('comparison.nonSurgical'),
+      bmiRange: t('comparison.bmi30to40'),
+      startingPrice: "£4,950",
+      hospitalStay: t('comparison.stay1to2'),
+      expectedWeightLoss: t('comparison.loss15to16'),
       recovery: t('comparison.recovery1to3days')
     },
     {
@@ -323,6 +360,14 @@ export default function Treatments({ lang }: { lang?: string }) {
       advantages: t('esgTreatment.advantages', { returnObjects: true }) as string[],
       disadvantages: t('esgTreatment.disadvantages', { returnObjects: true }) as string[],
       ifsoImage: "/esg-procedure.webp"
+    },
+    {
+      title: t('pose2Treatment.title'),
+      desc: t('pose2Treatment.desc'),
+      advantages: t('pose2Treatment.advantages', { returnObjects: true }) as string[],
+      disadvantages: t('pose2Treatment.disadvantages', { returnObjects: true }) as string[],
+      ifsoImage: "/pose2-procedure.webp",
+      noIfsoCredit: true
     }
   ];
 
@@ -536,16 +581,18 @@ export default function Treatments({ lang }: { lang?: string }) {
                       <div className="text-center">
                         <img 
                           src={treatment.ifsoImage} 
-                          alt={`IFSO Atlas illustration of ${treatment.title}`}
+                          alt={treatment.noIfsoCredit ? `Illustration of ${treatment.title} procedure` : `IFSO Atlas illustration of ${treatment.title}`}
                           className="w-full max-h-[450px] object-contain rounded-lg shadow-md mb-4"
                           loading="lazy"
                           width="400"
                           height="400"
                           data-testid={`img-ifso-${treatment.title.toLowerCase().replace(/\s+/g, '-')}`}
                         />
-                        <p className="text-xs text-slate-500 mt-4 italic">
-                          © Dr Levent Efe, courtesy of IFSO
-                        </p>
+                        {!treatment.noIfsoCredit && (
+                          <p className="text-xs text-slate-500 mt-4 italic">
+                            © Dr Levent Efe, courtesy of IFSO
+                          </p>
+                        )}
                       </div>
                     ) : (
                       <div className="text-center">
@@ -563,6 +610,8 @@ export default function Treatments({ lang }: { lang?: string }) {
                 {i === 1 && renderPackagesAccordion(t('packages.bypassTitle'), t('packages.bypassSubtitle'), bypassPackages, "grid md:grid-cols-3 gap-8", "accordion-trigger-bypass-packages")}
 
                 {i === 5 && renderPackagesAccordion(t('packages.esgTitle'), t('packages.esgSubtitle'), esgPackages, "grid md:grid-cols-2 gap-8 max-w-3xl mx-auto", "accordion-trigger-esg-packages")}
+
+                {i === 6 && renderPackagesAccordion(t('packages.pose2Title'), t('packages.pose2Subtitle'), pose2Packages, "grid md:grid-cols-2 gap-8 max-w-3xl mx-auto", "accordion-trigger-pose2-packages")}
 
                 {i === 4 && renderPackagesAccordion(t('packages.dsTitle'), t('packages.dsSubtitle'), duodenalSwitchPackages, "grid md:grid-cols-2 gap-8 max-w-3xl mx-auto", "accordion-trigger-ds-packages")}
 
