@@ -2,3 +2,4 @@
 - [Static prerender pipeline](prerender-pipeline.md) — puppeteer renders need isolated contexts + forced server lang/dir (i18n localStorage leaks); express.static needs index:false; long builds must run as a temp workflow.
 - [Adding a blog post](blog-posts.md) — must update BOTH client/src/data/blog-posts.ts (content) AND server/seo-data.ts blogPosts (SEO metadata); no backticks/${} in content; restart for server changes.
 - [gpt-5-mini chat params](gpt5-mini-chat.md) — reasoning model needs max_completion_tokens (not max_tokens) + reasoning_effort:"minimal"; low caps starve output.
+- [Blog SSR content extraction](blog-ssr-content.md) — blog bodies are regex-extracted from client source at runtime; verify <article> + body phrase via Googlebot curl, not just titles.

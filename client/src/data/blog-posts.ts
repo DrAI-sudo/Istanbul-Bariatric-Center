@@ -2891,52 +2891,199 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "pose-endoscopic-sleeve-gastroplasty",
-    title: "POSE Endoscopic Sleeve Gastroplasty in the Treatment of Obesity",
-    date: "November 16, 2023",
+    title: "POSE-2 Double Helix: The Next Generation of Non-Surgical Weight Loss",
+    date: "July 14, 2026",
     publishedAt: "2023-11-16T00:00:00+03:00",
+    updatedAt: "2026-07-14T00:00:00+03:00",
     category: "Treatments",
-    excerpt: "Are you struggling with obesity and looking for a less invasive weight loss solution?",
-    image: "/blog-liver.webp",
-    content: `<h2>POSE Endoscopic Sleeve Gastroplasty in the Treatment of Obesity</h2>
+    excerpt: "POSE-2 Double Helix reshapes your stomach through the mouth — no incisions, no scars, same-day discharge, and 15-20% total body weight loss. Discover how it works, real clinical results, and why patients choose Istanbul.",
+    image: "/pose2-plication-anchors.webp",
+    content: `<h2>POSE-2 Double Helix: The Next Generation of Non-Surgical Weight Loss</h2>
 
-<p>Are you struggling with obesity and looking for a less invasive weight loss solution? The POSE (Primary Obesity Surgery, Endoluminal) endoscopic sleeve gastroplasty might be the answer you've been searching for.</p>
+<p>Are you struggling with obesity but hesitant about surgery? The <strong>POSE-2 Double Helix</strong> (Primary Obesity Surgery Endoluminal, second generation) may be exactly what you have been looking for: a scar-free, incision-free procedure that reshapes your stomach from the inside — through the mouth — and helps you lose <strong>15-20% of your total body weight</strong>.</p>
 
-<p>Obesity is a growing concern worldwide, with nearly 2 billion adults being overweight or obese. Obesity is a complex disease that can lead to various health problems such as diabetes, heart disease, and stroke. While lifestyle changes such as diet and exercise are the first line of treatment for obesity, they may not be effective for everyone. In such cases, bariatric surgery is an option. However, bariatric surgery is invasive and carries risks. Endoscopic sleeve gastroplasty (ESG) is a newer, less invasive procedure that has shown promising results in treating obesity.</p>
+<p>Obesity now affects more than one billion people worldwide and drives type 2 diabetes, heart disease, fatty liver, sleep apnea, and joint problems. Diet and exercise alone fail for most people with a BMI above 30 — not because of willpower, but because of biology. Bariatric surgery works, yet many patients never take that step because they fear the operating room. POSE-2 was designed precisely for this gap: <em>surgical-scale results without surgery</em>.</p>
 
-<h3>Understanding POSE Endoscopic Sleeve Gastroplasty</h3>
-<p>POSE is a minimally invasive procedure designed to help individuals achieve weight loss without undergoing traditional bariatric surgery. Unlike gastric sleeve surgery, POSE is performed endoscopically, meaning it involves no external incisions.</p>
+<div style="background: linear-gradient(135deg, #EFF6FF, #DBEAFE); border-left: 4px solid #1E40AF; border-radius: 8px; padding: 20px 24px; margin: 24px 0;">
+<p style="margin: 0; font-weight: 600; color: #1E3A8A;">POSE-2 at a glance: no incisions • no scars • ~45-60 minute procedure • same-day or 1-night discharge • back to work in 1-3 days • 15-20% total body weight loss</p>
+</div>
 
-<h3>What is POSE endoscopic sleeve gastroplasty?</h3>
-<p>POSE endoscopic sleeve gastroplasty is a type of ESG that uses a device called the Pose system. The Pose system is a set of specialized tools that are used to create a sleeve-like structure inside the stomach. The procedure is performed under general anesthesia and takes about 90 minutes to complete. During the procedure, a flexible endoscope is inserted through the mouth and into the stomach. The Pose system is then used to grasp and fold the stomach tissue, creating a sleeve-like structure. The folds are then sutured together to create a smaller stomach volume.</p>
+<h3>Watch: How POSE-2 Double Helix Works</h3>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; margin: 24px 0; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
+<iframe src="https://www.youtube-nocookie.com/embed/qJIsY5rjpdY" title="POSE-2 Double Helix procedure explained" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+</div>
 
-<h3>How does POSE work?</h3>
-<p>POSE endoscopic sleeve gastroplasty works by reducing the size of the stomach. By creating a smaller stomach volume, the amount of food that can be eaten before feeling full is reduced. This leads to a decrease in calorie intake and subsequent weight loss. The procedure also alters the hormones that regulate appetite, leading to a decrease in hunger and an increase in satiety.</p>
+<h3>From POSE to POSE-2: What Changed?</h3>
+<p>The original POSE procedure, introduced over a decade ago, folded tissue mainly in the upper stomach (the fundus). It worked, but results faded for some patients. The second-generation <strong>POSE-2 "Double Helix" technique</strong> is fundamentally different: using an endoscopic platform inserted through the mouth, the physician places <strong>full-thickness plications</strong> along the greater curvature of the gastric body in a helical (spiral) pattern. This both <strong>narrows and shortens</strong> the stomach — reducing its functional volume by up to 70% — and creates a durable, tube-like shape that closely mimics a surgical sleeve.</p>
 
-<h3>How much weight do you lose?</h3>
-<p>The amount of weight loss varies from person to person and depends on several factors such as age, sex, initial weight, and adherence to diet and exercise. However, studies have shown that people can lose up to 20-25% of their excess weight within the first year after the procedure. A research review including data on 1,542 people found that people had lost 31%, 44%, 53%, and 59% of their excess weight at 1, 3, 6, and 12 months after the procedure, respectively.</p>
+<img src="/pose2-procedure.webp" alt="POSE-2 Double Helix endoscope reshaping the stomach from the inside" style="width: 100%; border-radius: 12px; margin: 24px 0; box-shadow: 0 10px 25px rgba(0,0,0,0.12);" loading="lazy" />
 
-<h3>Is the procedure painful?</h3>
-<p>The procedure is performed under general anesthesia, so you will not feel any pain during the procedure. After the procedure, you may experience some discomfort, nausea, and vomiting. However, these symptoms usually resolve within a few days.</p>
+<p>Because the plications pass through the full thickness of the stomach wall and are secured with special anchor pairs, they heal into permanent tissue bridges — the key to long-lasting restriction. The image below shows a single full-thickness plication held by two anchors:</p>
 
-<h3>Success Rates and Long-Term Results</h3>
-<p>Research suggests that POSE can yield significant weight loss results. Studies have shown that patients can experience substantial weight loss in the months following the procedure. However, individual results may vary, and it's crucial to adopt a healthy lifestyle to maintain the weight loss over the long term.</p>
+<img src="/pose2-plication-anchors.webp" alt="Full-thickness gastric plication secured by suture anchors in the POSE-2 procedure" style="width: 100%; border-radius: 12px; margin: 24px 0; box-shadow: 0 10px 25px rgba(0,0,0,0.12);" loading="lazy" />
 
-<h3>Advantages of POSE</h3>
+<h3>POSE-2 Key Facts</h3>
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left; border: 1px solid #1E3A8A;">Feature</th>
+<th style="padding: 12px 16px; text-align: left; border: 1px solid #1E3A8A;">POSE-2 Double Helix</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Approach</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Fully endoscopic (through the mouth) — <strong>no incisions, no scars</strong></td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Procedure time</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Approximately 45-60 minutes under general anesthesia</td>
+</tr>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Hospital stay</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Same-day discharge or 1 night</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Recovery</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Back to normal activities in 1-3 days</td>
+</tr>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Stomach volume reduction</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Up to 70% (narrowed and shortened)</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Expected weight loss</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">15-20% of total body weight in 12 months</td>
+</tr>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Ideal candidate</td>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">BMI 28-40 (also selected revision cases)</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h3>What Do the Clinical Studies Show?</h3>
+<p>POSE-2 is not experimental — it is backed by prospective clinical research conducted with the same FDA-cleared endoscopic platform:</p>
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left; border: 1px solid #1E3A8A;">Outcome</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #1E3A8A;">Reported Result</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Total body weight loss at 6 months</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">~13-15%</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Total body weight loss at 12 months</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">15-20%</td>
+</tr>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Excess weight loss at 12 months</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">~45-50%</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Technical success rate</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">~98-100%</td>
+</tr>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Serious adverse events</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">&lt;1%</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Beyond the numbers on the scale, patients in these studies also showed meaningful improvements in blood sugar control, blood pressure, cholesterol, and fatty liver markers — the metabolic benefits that truly change long-term health.</p>
+
+<h3>POSE-2 vs ESG vs Gastric Sleeve: Which Is Right for You?</h3>
+<div style="overflow-x: auto; margin: 24px 0;">
+<table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+<thead>
+<tr style="background: #1E40AF; color: white;">
+<th style="padding: 12px 16px; text-align: left; border: 1px solid #1E3A8A;">&nbsp;</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #1E3A8A;">POSE-2 Double Helix</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #1E3A8A;">ESG</th>
+<th style="padding: 12px 16px; text-align: center; border: 1px solid #1E3A8A;">Gastric Sleeve</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Incisions</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">None</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">None</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">Laparoscopic (keyhole)</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Stomach tissue removed</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">No</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">No</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">Yes (~80%, irreversible)</td>
+</tr>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Typical BMI range</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">28-40</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">30-40</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">35+</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Total body weight loss</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0; font-weight: 700; color: #1E40AF;">15-20%</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">15-18%</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">25-30%</td>
+</tr>
+<tr style="background: #F0F9FF;">
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Hospital stay</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">0-1 night</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">1-2 nights</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">3-4 nights</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; border: 1px solid #E2E8F0;">Return to work</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">1-3 days</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">1-3 days</td>
+<td style="padding: 12px 16px; text-align: center; border: 1px solid #E2E8F0;">2-3 weeks</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>In short: if your BMI is between 28 and 40 and you want a scar-free procedure with a fast return to daily life, POSE-2 is one of the strongest options available today. If your BMI is above 40, a surgical option such as the <a href="/sleeve-gastrectomy">gastric sleeve</a> or <a href="/mini-gastric-bypass">mini gastric bypass</a> usually delivers better long-term results.</p>
+
+<h3>Advantages of POSE-2 Double Helix</h3>
 <ul>
-<li>Less invasive than traditional bariatric surgery</li>
-<li>Lower risk of complications</li>
-<li>Reversible - the stomach can be returned to its original size if necessary</li>
-<li>No external incisions</li>
-<li>Shorter recovery period</li>
+<li><strong>No incisions, no scars</strong> — the entire procedure is performed through the mouth</li>
+<li><strong>Full-thickness, durable plications</strong> designed for long-lasting restriction</li>
+<li><strong>Lower complication risk</strong> than surgical alternatives (&lt;1% serious adverse events in studies)</li>
+<li><strong>Rapid recovery</strong> — same-day or next-day discharge, normal activities within days</li>
+<li><strong>Stomach anatomy is preserved</strong> — no tissue is removed</li>
+<li><strong>Works with your biology</strong> — earlier fullness, slower gastric emptying, reduced hunger signals</li>
 </ul>
 
-<h3>Is ESG better than gastric sleeve?</h3>
-<p>Both procedures are effective for weight loss, but ESG has a lower risk of complications and a shorter recovery time. ESG is also reversible, which means that the stomach can be returned to its original size if necessary. However, gastric sleeve surgery is more effective for weight loss and has a longer track record of safety and efficacy.</p>
+<h3>What Is Recovery Like?</h3>
+<p>Most patients go home the same day or the next morning. Mild cramping, nausea, or a sore throat can occur for 24-72 hours and is managed with routine medication. You will follow a staged diet — liquids for the first days, then soft foods, then regular healthy meals — guided by our dietitian team for a full 12 months. There are no wound dressings, no stitches to remove, and no scar care.</p>
 
-<h3>Complications and Side Effects</h3>
-<p>Like any medical procedure, endoscopic sleeve gastroplasty carries risks. The most common side effects include nausea, vomiting, and abdominal pain. Other potential complications include bleeding, infection, perforation, and gastric obstruction. However, the risk of complications is low, and most people recover without any problems.</p>
+<h3>Am I a Candidate?</h3>
+<p>POSE-2 may be right for you if:</p>
+<ul>
+<li>Your BMI is between 28 and 40</li>
+<li>You have not achieved lasting results with diet, exercise, or weight loss medication</li>
+<li>You want to avoid surgery, or surgery is not suitable for you</li>
+<li>You are committed to long-term lifestyle change with professional support</li>
+</ul>
 
-<p><em>Disclaimer: This article is for informational purposes only and should not be considered medical advice. Always consult with a qualified healthcare professional for personalized guidance.</em></p>`
+<h3>POSE-2 in Istanbul: Experience Matters</h3>
+<p>Endoscopic bariatric procedures are highly technique-dependent — outcomes track directly with the endoscopist's experience. At Istanbul Bariatric Center, POSE-2 Double Helix is performed by <strong>Dr. Murat Ustun</strong>, a bariatric surgeon and endoscopic bariatric specialist with over 25 years of experience and thousands of successful procedures, at a JCI-accredited hospital in Istanbul. Our all-inclusive packages (from <strong>£4,950</strong>) cover the procedure, hospital stay, hotel, VIP transfers, and 12 months of UK-based dietitian follow-up — see the full details on our <a href="/treatments#pose-2-double-helix">POSE-2 treatment page</a>.</p>
+
+<div style="background: linear-gradient(135deg, #EFF6FF, #DBEAFE); border-radius: 12px; padding: 24px; margin: 24px 0; text-align: center;">
+<p style="margin: 0 0 8px 0; font-weight: 700; font-size: 1.1em; color: #1E3A8A;">Wondering if POSE-2 is right for you?</p>
+<p style="margin: 0; color: #1E40AF;">Get a free, no-obligation assessment from our medical team — <a href="/contact" style="font-weight: 700;">contact us</a> or message us on WhatsApp today.</p>
+</div>
+
+<p><em>Disclaimer: This article is for informational purposes only and should not be considered medical advice. Individual results vary. Always consult with a qualified healthcare professional for personalized guidance.</em></p>`
   },
   {
     slug: "endoscopic-sleeve-gastroplasty-game-changer",

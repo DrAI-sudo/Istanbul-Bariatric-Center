@@ -1,3 +1,9 @@
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __seoDirname = path.dirname(fileURLToPath(import.meta.url));
+
 const SITE_URL = "https://istanbulbariatriccenter.com";
 
 interface PageSEO {
@@ -2087,7 +2093,7 @@ const blogPosts: BlogPostSEO[] = [
   { slug: "grazing-after-bariatric-surgery", title: "Grazing After Bariatric Surgery", excerpt: "One of the most common challenges that bariatric patients face is grazing.", date: "February 3, 2024", publishedAt: "2024-02-03T00:00:00+03:00", image: "/blog-grazing.webp" },
   { slug: "bariatric-friendly-christmas-dinner-ideas", title: "Bariatric-Friendly Christmas Dinner Ideas", excerpt: "The holiday season is a time for joy, family, and delicious food. Discover 9 delicious bariatric-friendly recipes perfect for your Christmas celebration.", date: "December 22, 2023", publishedAt: "2023-12-22T00:00:00+03:00", image: "/blog-christmas-dinner.webp" },
   { slug: "endoscopic-sleeve-gastroplasty-in-class-iii-obesity", title: "Endoscopic Sleeve Gastroplasty in Class III Obesity", excerpt: "New Study Revealed ESG's Safety and Efficacy in Class III Obesity.", date: "November 3, 2023", publishedAt: "2023-11-03T00:00:00+03:00", image: "/blog-esg-game-changer.webp" },
-  { slug: "pose-endoscopic-sleeve-gastroplasty", title: "POSE Endoscopic Sleeve Gastroplasty in the Treatment of Obesity", excerpt: "Are you struggling with obesity and looking for a less invasive weight loss solution?", date: "October 12, 2023", publishedAt: "2023-10-12T00:00:00+03:00", image: "/blog-gastric-sleeve.webp" },
+  { slug: "pose-endoscopic-sleeve-gastroplasty", title: "POSE-2 Double Helix: The Next Generation of Non-Surgical Weight Loss", excerpt: "POSE-2 Double Helix reshapes your stomach through the mouth — no incisions, no scars, same-day discharge, and 15-20% total body weight loss.", date: "July 14, 2026", publishedAt: "2023-11-16T00:00:00+03:00", image: "/pose2-plication-anchors.webp" },
   { slug: "endoscopic-sleeve-gastroplasty-game-changer", title: "Endoscopic Sleeve Gastroplasty: A Game-Changer in Obesity Treatment", excerpt: "NICE Approves Endoscopic Sleeve Gastroplasty for Primary Obesity Treatment.", date: "September 14, 2023", publishedAt: "2023-09-14T00:00:00+03:00", image: "/blog-esg-game-changer.webp" },
   { slug: "fatty-liver-increases-in-adolescents", title: "Fatty Liver Increases In Adolescents", excerpt: "Chronic choline deficiency in diets can lead to fatty liver.", date: "August 25, 2023", publishedAt: "2023-08-25T00:00:00+03:00", image: "/blog-liver.webp" },
   { slug: "bariatric-surgery-18-frequently-asked-questions", title: "Bariatric Surgery 18 Frequently Asked Questions", excerpt: "Every medical procedure involves inherent risks.", date: "June 24, 2023", publishedAt: "2023-06-24T00:00:00+03:00", image: "/blog-gastric-sleeve.webp" },
@@ -2215,9 +2221,7 @@ export function getAllStaticRoutes(): string[] {
 
 export function getBlogPostContent(slug: string): string | null {
   try {
-    const fs = require("fs");
-    const path = require("path");
-    const blogDataPath = path.resolve(__dirname, "../client/src/data/blog-posts.ts");
+    const blogDataPath = path.resolve(__seoDirname, "../client/src/data/blog-posts.ts");
     if (!fs.existsSync(blogDataPath)) return null;
     const content = fs.readFileSync(blogDataPath, "utf-8");
 
