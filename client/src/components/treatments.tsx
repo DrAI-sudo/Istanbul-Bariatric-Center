@@ -48,7 +48,7 @@ const treatments = [
   {
     title: "POSE-2 Double Helix",
     desc: "A non-surgical endoscopic procedure that reshapes the stomach — no incisions required.",
-    link: "/treatments#pose-2-double-helix",
+    link: "/blog/pose-endoscopic-sleeve-gastroplasty",
     image: "/pose2-procedure.webp"
   }
 ];
