@@ -78,7 +78,7 @@ app.use((req, res, next) => {
   res.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
   res.setHeader("Permissions-Policy", "camera=(), microphone=(), geolocation=()");
   if (process.env.NODE_ENV === "production") {
-    res.setHeader("Content-Security-Policy", "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://dashboard.searchatlas.com https://storage.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https: blob:; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://dashboard.searchatlas.com https://api.openai.com; frame-src 'self' https://clinics.euromedfin.com https://www.youtube.com https://www.youtube-nocookie.com; media-src 'self' blob: data:; object-src 'none'; base-uri 'self'; form-action 'self'");
+    res.setHeader("Content-Security-Policy", "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://dashboard.searchatlas.com https://storage.googleapis.com https://app.trysoro.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https: blob:; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://dashboard.searchatlas.com https://api.openai.com https://app.trysoro.com; frame-src 'self' https://clinics.euromedfin.com https://www.youtube.com https://www.youtube-nocookie.com; media-src 'self' blob: data:; object-src 'none'; base-uri 'self'; form-action 'self'");
   }
   next();
 });
