@@ -179,6 +179,7 @@ export async function registerRoutes(
       "/esg/az": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
       "/post-bariatric-surgery": { priority: "0.7", changefreq: "monthly", lastmod: "2025-01-10" },
       "/insurance": { priority: "0.6", changefreq: "monthly", lastmod: "2024-12-01" },
+      "/news": { priority: "0.7", changefreq: "weekly", lastmod: "2026-07-26" },
       "/health-profile": { priority: "0.7", changefreq: "monthly", lastmod: "2025-01-10" },
       "/bariatric-surgery-turkey-guide": { priority: "0.9", changefreq: "monthly", lastmod: "2025-04-01" },
     };

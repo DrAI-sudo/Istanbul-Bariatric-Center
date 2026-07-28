@@ -43,6 +43,7 @@ export const VALID_STATIC_ROUTES = [
   "/esg/az",
   "/post-bariatric-surgery",
   "/insurance",
+  "/news",
   "/health-profile",
   "/bariatric-surgery-turkey-guide",
 ];

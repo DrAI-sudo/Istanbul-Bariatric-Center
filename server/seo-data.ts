@@ -1954,6 +1954,31 @@ const staticPages: Record<string, PageSEO> = {
       ]
     }],
   },
+  "/news": {
+    title: "News & Updates - Istanbul Bariatric Center",
+    description: "Latest news and updates from Istanbul Bariatric Center — clinic announcements, bariatric surgery developments, and patient information.",
+    h1: "News & Updates",
+    bodyExcerpt: "Stay up to date with the latest news, announcements and developments from Istanbul Bariatric Center. Clinic updates, bariatric surgery advances, patient information and medical tourism news from Istanbul, Turkey.",
+    canonical: SITE_URL + "/news",
+    richContent: `<section><h2>Latest from Istanbul Bariatric Center</h2><p>Follow our news section for clinic announcements, new treatment availability, bariatric surgery research developments, and practical information for international patients planning weight loss surgery in Istanbul, Turkey.</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": SITE_URL + "/news#webpage",
+      "name": "News & Updates - Istanbul Bariatric Center",
+      "url": SITE_URL + "/news",
+      "description": "Latest news and updates from Istanbul Bariatric Center — clinic announcements, bariatric surgery developments, and patient information.",
+      "isPartOf": { "@id": SITE_URL + "/#website" },
+      "about": { "@id": SITE_URL + "/#organization" }
+    }, {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "News & Updates", "item": SITE_URL + "/news" }
+      ]
+    }],
+  },
   "/bariatric-surgery-turkey-guide": {
     title: "Complete Guide to Bariatric Surgery in Istanbul, Turkey",
     description: "Complete guide to weight loss surgery in Istanbul. 13 topics on procedures, costs, safety, recovery, and why patients choose Istanbul Bariatric Center.",
@@ -2125,6 +2150,7 @@ const navLinks = [
   { href: "/post-bariatric-surgery", text: "Post Bariatric Surgery" },
   { href: "/results", text: "Results" },
   { href: "/blog", text: "Blog" },
+  { href: "/news", text: "News" },
   { href: "/contact", text: "Contact" },
   { href: "/health-profile", text: "Am I Eligible?" },
   { href: "/insurance", text: "Insurance" },

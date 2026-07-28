@@ -40,6 +40,7 @@ export function Navbar() {
     { name: t('treatments'), href: "/treatments" },
     { name: t('results'), href: "/results" },
     { name: t('blog'), href: "/blog" },
+    { name: "News", href: "/news" },
     { name: "Insurance", href: "/insurance" },
     { name: t('contact'), href: "/contact" },
   ];

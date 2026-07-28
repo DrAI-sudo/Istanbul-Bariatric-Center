@@ -45,6 +45,7 @@ const ESGANZ = lazy(() => import("@/pages/esg-anz"));
 const ESGAZ = lazy(() => import("@/pages/esg-az"));
 const PostBariatricSurgery = lazy(() => import("@/pages/post-bariatric-surgery"));
 const Insurance = lazy(() => import("@/pages/insurance"));
+const News = lazy(() => import("@/pages/news"));
 const BariatricGuide = lazy(() => import("@/pages/bariatric-guide"));
 const HealthProfile = lazy(() => import("@/pages/health-profile"));
 const AdminDashboard = lazy(() => import("@/pages/admin"));
@@ -85,6 +86,7 @@ function Router() {
           <Route path="/treatments/:lang">{(params) => <Treatments lang={params.lang} />}</Route>
           <Route path="/results" component={Results} />
           <Route path="/blog" component={Blog} />
+          <Route path="/news" component={News} />
           <Route path="/blog/:slug" component={BlogPost} />
           <Route path="/contact" component={Contact} />
           <Route path="/sleeve-gastrectomy" component={SleeveGastrectomy} />
