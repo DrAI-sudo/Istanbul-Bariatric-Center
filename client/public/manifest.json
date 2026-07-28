@@ -14,9 +14,9 @@
       "type": "image/x-icon"
     },
     {
-      "src": "/favicon.jpeg",
+      "src": "/favicon.webp",
       "sizes": "64x64",
-      "type": "image/jpeg"
+      "type": "image/webp"
     },
     {
       "src": "/apple-touch-icon.png",
