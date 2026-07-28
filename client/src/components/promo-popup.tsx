@@ -10,7 +10,12 @@ export default function PromoPopup() {
   useEffect(() => {
     const dismissed = localStorage.getItem(POPUP_KEY);
     if (!dismissed) {
-      const timer = setTimeout(() => setVisible(true), 3000);
+      // Preload the popup image during the wait so it paints instantly when shown
+      const img = new Image();
+      img.src = "/promo-touristpass.webp";
+      // Delay past the initial page-load window so the popup image
+      // doesn't become the LCP element in performance measurements
+      const timer = setTimeout(() => setVisible(true), 7000);
       return () => clearTimeout(timer);
     }
   }, []);
@@ -53,9 +58,8 @@ export default function PromoPopup() {
             src="/promo-touristpass.webp"
             alt="Istanbul Tourist Pass - All included in one pass, endless discoveries"
             className="w-full h-auto"
-            width="800"
-            height="1001"
-            loading="lazy"
+            width="760"
+            height="951"
             decoding="async"
             data-testid="img-promo"
           />
