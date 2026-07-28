@@ -1,0 +1,422 @@
+{
+  "/hero-poster.webp": {
+    "widths": [
+      480,
+      768,
+      1200
+    ],
+    "originalWidth": 1600
+  },
+  "/ifso-sleeve.webp": {
+    "widths": [
+      480
+    ],
+    "originalWidth": 500
+  },
+  "/ifso-ds.webp": {
+    "widths": [
+      480
+    ],
+    "originalWidth": 500
+  },
+  "/post-bariatric-surgery.webp": {
+    "widths": [
+      480
+    ],
+    "originalWidth": 555
+  },
+  "/transit-bipartition.webp": {
+    "widths": [
+      480
+    ],
+    "originalWidth": 600
+  },
+  "/ifso-esg.webp": {
+    "widths": [
+      480
+    ],
+    "originalWidth": 500
+  },
+  "/IMG_1801_1766158987529.webp": {
+    "widths": [
+      480
+    ],
+    "originalWidth": 560
+  },
+  "/about-hero.webp": {
+    "widths": [
+      480,
+      768,
+      1200
+    ],
+    "originalWidth": 2435
+  },
+  "/contact-hero.webp": {
+    "widths": [
+      480,
+      768,
+      1200
+    ],
+    "originalWidth": 1408
+  },
+  "/gastric-sleeve.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-gastroparesis.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-esg-tore-evidence-2026.webp": {
+    "widths": [
+      480
+    ],
+    "originalWidth": 546
+  },
+  "/blog-ileal-cover.webp": {
+    "widths": [
+      480,
+      768,
+      1200
+    ],
+    "originalWidth": 1408
+  },
+  "/blog-gfma.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-scientific-blind-alleys.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-minimizer-ring.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-gastric-fundus.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-fundus-explained.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-weight-loss-injections.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-ultra-processed-2.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-ultra-processed-foods.webp": {
+    "widths": [
+      480,
+      768,
+      1200
+    ],
+    "originalWidth": 1792
+  },
+  "/blog-guidelines.webp": {
+    "widths": [
+      480
+    ],
+    "originalWidth": 768
+  },
+  "/blog-gastric-sleeve.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 860
+  },
+  "/blog-nutrient-dense.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-barretts-esophagus.webp": {
+    "widths": [
+      480,
+      768,
+      1200
+    ],
+    "originalWidth": 5000
+  },
+  "/blog-preop-medications.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-freud-adler.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-nutrient-cover.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-bariatric-nutrition-cover.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-leptin-cover.webp": {
+    "widths": [
+      480,
+      768,
+      1200
+    ],
+    "originalWidth": 1280
+  },
+  "/blog-endo-band.webp": {
+    "widths": [
+      480,
+      768,
+      1200
+    ],
+    "originalWidth": 2048
+  },
+  "/blog-vitamin-deficiencies.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-ibc-clinic.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1009
+  },
+  "/blog-grazing.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-xmas-1.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/blog-ultra-processed.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
+  "/pose2-plication-anchors.webp": {
+    "widths": [
+      480,
+      768,
+      1200
+    ],
+    "originalWidth": 1600
+  },
+  "/blog-insulin.webp": {
+    "widths": [
+      480
+    ],
+    "originalWidth": 650
+  },
+  "/blog-mounjaro-vs-bariatric.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-cost-turkey-2026.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-sleeve-recovery-weeks.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-sleeve-vs-mini-bypass.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-bariatric-permanent.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-weight-regain-sleeve.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-day-by-day-recovery.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-life-after-bypass.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-cheapest-country-bariatric.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-choose-surgeon.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-all-inclusive-package.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-medical-tourism-istanbul.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-bariatric-insurance.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-balloon-vs-sleeve.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-bariatric-pregnancy.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-dumping-syndrome.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-hair-loss.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-loose-skin.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-mental-health.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-revision-surgery.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-obesity-perceptions-2026.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  },
+  "/blog-esg-nbsr-registry-2026.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1200
+  }
+}

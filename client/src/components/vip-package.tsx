@@ -1,3 +1,4 @@
+import { getSrcSet } from "@/lib/image-variants";
 import { Heart, Building, Calendar, Plane, Tag, Users, Video } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
@@ -55,6 +56,8 @@ export function VIPPackage() {
              <div className="rounded-xl overflow-hidden shadow-2xl border-4 border-white relative">
                <img 
                  src="/IMG_1801_1766158987529.webp" 
+                 srcSet={getSrcSet("/IMG_1801_1766158987529.webp")}
+                 sizes="(max-width: 767px) 90vw, 45vw"
                  alt="Istanbul Bariatric Center - Liv Hospital at night" 
                  className="w-full h-auto object-cover block"
                  loading="lazy"

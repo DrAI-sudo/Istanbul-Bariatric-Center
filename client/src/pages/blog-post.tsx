@@ -1,3 +1,4 @@
+import { getSrcSet } from "@/lib/image-variants";
 import { useParams, Link } from "wouter";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
@@ -150,6 +151,8 @@ export default function BlogPost() {
             <div className="aspect-video bg-slate-200 rounded-2xl overflow-hidden mb-12 shadow-2xl ring-1 ring-slate-200">
               <img 
                 src={post.image} 
+                srcSet={getSrcSet(post.image)}
+                sizes="(max-width: 767px) 92vw, (max-width: 1023px) 90vw, 800px"
                 alt={getPostTitle(post.slug, post.title)}
                 className="w-full h-full object-cover"
                 width="800"

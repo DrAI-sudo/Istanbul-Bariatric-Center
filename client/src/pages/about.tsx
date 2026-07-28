@@ -1,3 +1,4 @@
+import { getSrcSet } from "@/lib/image-variants";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Card, CardContent } from "@/components/ui/card";
@@ -72,7 +73,7 @@ export default function About() {
       <main id="main-content" role="main">
       <section className="relative text-white pt-40 pb-20 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/about-hero.webp" alt="Istanbul Bariatric Center hospital building" className="w-full h-full object-cover" />
+          <img src="/about-hero.webp" srcSet={getSrcSet("/about-hero.webp")} sizes="100vw" alt="Istanbul Bariatric Center hospital building" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-slate-900/60" />
         </div>
         <div className="container mx-auto px-4 text-center relative z-10">

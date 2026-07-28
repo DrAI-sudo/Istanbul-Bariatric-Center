@@ -1,3 +1,4 @@
+import { getSrcSet } from "@/lib/image-variants";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
@@ -73,7 +74,7 @@ export default function Contact() {
       <main id="main-content" role="main">
       <section className="relative text-white pt-40 pb-20 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/contact-hero.webp" alt="Contact our patient coordinator" className="w-full h-full object-cover" />
+          <img src="/contact-hero.webp" srcSet={getSrcSet("/contact-hero.webp")} sizes="100vw" alt="Contact our patient coordinator" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-slate-900/65" />
         </div>
         <div className="container mx-auto px-4 text-center relative z-10">

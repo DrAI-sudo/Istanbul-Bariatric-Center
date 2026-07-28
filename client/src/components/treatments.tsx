@@ -1,3 +1,4 @@
+import { getSrcSet } from "@/lib/image-variants";
 import { ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
@@ -75,6 +76,8 @@ export function Treatments() {
                 <div className="h-48 overflow-hidden bg-slate-50">
                   <img 
                     src={item.image} 
+                    srcSet={getSrcSet(item.image)}
+                    sizes="(max-width: 767px) 90vw, (max-width: 1023px) 45vw, 30vw"
                     alt={item.title}
                     className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                     width="300"

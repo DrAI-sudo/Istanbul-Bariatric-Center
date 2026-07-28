@@ -1,3 +1,4 @@
+import { getSrcSet } from "@/lib/image-variants";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { useRef, useEffect, useState } from "react";
@@ -30,6 +31,8 @@ export function Hero() {
       <div className="absolute inset-0 z-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
         <img
           src="/hero-poster.webp"
+          srcSet={getSrcSet("/hero-poster.webp")}
+          sizes="100vw"
           alt="Liv Hospital Istanbul at night"
           className="absolute inset-0 w-full h-full object-cover opacity-50"
           fetchPriority="high"
