@@ -21,6 +21,12 @@ const WIDTHS = [480, 768, 1200];
 const blogPosts = readFileSync(path.resolve("client/src/data/blog-posts.ts"), "utf8");
 const blogCovers = [...new Set([...blogPosts.matchAll(/image: "(\/[^"]+\.(?:webp|jpg|jpeg|png))"/g)].map((m) => m[1]))];
 
+// Inline <img> tags embedded in blog post HTML content strings
+const inlineBlogImages = [...new Set([...blogPosts.matchAll(/src="(\/[^"]+\.(?:webp|jpg|jpeg|png))"/g)].map((m) => m[1]))];
+
+// Before/after gallery images (results page)
+const baImages = Array.from({ length: 12 }, (_, i) => `/ba_${i + 1}.webp`);
+
 // Other key images
 const keyImages = [
   "/hero-poster.webp",
@@ -42,7 +48,7 @@ const keyImages = [
   "/gastric-sleeve.webp",
 ];
 
-const targets = [...new Set([...keyImages, ...blogCovers])];
+const targets = [...new Set([...keyImages, ...blogCovers, ...inlineBlogImages, ...baImages])];
 const manifest = {};
 
 for (const publicPath of targets) {

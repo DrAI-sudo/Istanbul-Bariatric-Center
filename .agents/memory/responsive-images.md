@@ -7,4 +7,4 @@ Responsive variants (480w/768w/1200w webp) for key public images are pre-generat
 
 **Why:** Lighthouse flagged oversized images on mobile; runtime resizing isn't available on static hosting.
 
-**How to apply:** When adding a new blog post cover or key image, re-run the script so variants + manifest stay in sync — otherwise the new image silently ships without srcset. Blog covers are auto-discovered from `image:` fields in blog-posts.ts; other images must be added to the script's `keyImages` list. No upscaling: widths ≥ original are skipped.
+**How to apply:** When adding a new blog post cover, inline blog image, or key image, re-run the script so variants + manifest stay in sync — otherwise the new image silently ships without srcset. Blog covers (`image:` fields) and inline `<img src="...">` tags are auto-discovered from blog-posts.ts; ba_1–12 gallery images are included; other images must be added to the script's `keyImages` list. No upscaling: widths ≥ original are skipped. Inline blog images get srcset at render time via `addSrcSetToHtml()` rewriting the HTML string in blog-post.tsx.

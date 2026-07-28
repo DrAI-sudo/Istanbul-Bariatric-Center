@@ -1,4 +1,4 @@
-import { getSrcSet } from "@/lib/image-variants";
+import { getSrcSet, addSrcSetToHtml } from "@/lib/image-variants";
 import { useParams, Link } from "wouter";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
@@ -165,7 +165,7 @@ export default function BlogPost() {
 
             <div 
               className="blog-content prose prose-lg max-w-none"
-              dangerouslySetInnerHTML={{ __html: getPostContent(post.slug, post.content) }}
+              dangerouslySetInnerHTML={{ __html: addSrcSetToHtml(getPostContent(post.slug, post.content)) }}
             />
 
             {/* Share Buttons */}

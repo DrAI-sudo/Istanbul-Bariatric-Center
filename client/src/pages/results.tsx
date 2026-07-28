@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { getSrcSet } from "@/lib/image-variants";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Card, CardContent } from "@/components/ui/card";
@@ -498,6 +499,8 @@ export default function Results() {
               <div key={i} className="relative group overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
                 <img 
                   src={img} 
+                  srcSet={getSrcSet(img)}
+                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"
                   alt={`Weight loss surgery before and after transformation - patient ${i + 1}`}
                   className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
