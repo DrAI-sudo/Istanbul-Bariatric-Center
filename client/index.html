@@ -63,6 +63,7 @@
     <script nowprocket nitro-exclude type="text/javascript" id="sa-dynamic-optimization" data-uuid="a3b94a48-3eab-4b5d-8451-8a6f541490ca">
       (function(){
         function loadSA(){
+          if (document.getElementById("sa-dynamic-optimization-loader")) return;
           var s = document.createElement("script");
           s.setAttribute("nowprocket", "");
           s.setAttribute("nitro-exclude", "");

@@ -102,6 +102,14 @@ async function renderRoute(browser: Browser, route: string): Promise<void> {
         // the fully rendered content now serves that purpose, and keeping
         // both would duplicate the h1 and body copy for crawlers.
         document.getElementById("seo-content")?.remove();
+        // Remove SearchAtlas script tags appended during the render so the
+        // static HTML doesn't bake in the third-party script (the inline
+        // idle loader in index.html re-adds it once on the client).
+        document
+          .querySelectorAll(
+            '#sa-dynamic-optimization-loader, script[src*="dashboard.searchatlas.com"]',
+          )
+          .forEach((n) => n.remove());
         document.querySelectorAll("noscript").forEach((n) => n.remove());
         // Remove transient overlays (promo popups, toasts, dialogs) so they
         // are not baked into the static HTML.
