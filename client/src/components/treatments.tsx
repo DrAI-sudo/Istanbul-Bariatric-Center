@@ -63,6 +63,12 @@ const treatments = [
     desc: "Incisionless endoscopic procedure that switches off the hunger hormone at its source.",
     link: "/blog/gastric-fundus-mucosal-ablation-gfma-latest-news",
     image: "/gfma-procedure-card.webp"
+  },
+  {
+    title: "Endo Band",
+    desc: "A novel endoscopic band procedure offering a less invasive alternative to traditional surgery.",
+    link: "/blog/endo-band-novel-endoscopic-approach",
+    image: "/blog-endo-band.webp"
   }
 ];
 
