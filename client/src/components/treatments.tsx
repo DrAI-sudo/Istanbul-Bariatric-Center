@@ -51,6 +51,12 @@ const treatments = [
     desc: "A non-surgical endoscopic procedure that reshapes the stomach — no incisions required.",
     link: "/blog/pose-endoscopic-sleeve-gastroplasty",
     image: "/pose2-procedure.webp"
+  },
+  {
+    title: "TORe (Transoral Outlet Reduction)",
+    desc: "Endoscopic revision that tightens a stretched stoma after gastric bypass — no incisions.",
+    link: "/blog/tore-procedure-gastric-bypass-revision",
+    image: "/tore-procedure-card.webp"
   }
 ];
 
