@@ -133,6 +133,16 @@ export default function BlogPost() {
                   </div>
                   <span className="font-medium">{post.date}</span>
                 </div>
+                {post.updatedAt && (
+                  <div className="flex items-center gap-2" data-testid="text-post-updated">
+                    <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+                      <Calendar className="w-4 h-4 text-primary" />
+                    </div>
+                    <span className="font-medium">
+                      Updated: {new Date(post.updatedAt).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+                    </span>
+                  </div>
+                )}
                 <div className="flex items-center gap-2">
                   <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
                     <User className="w-4 h-4 text-primary" />
