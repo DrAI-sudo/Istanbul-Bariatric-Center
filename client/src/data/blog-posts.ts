@@ -59,6 +59,7 @@ export const blogPosts: BlogPost[] = [
 </div>
 
 <h2>Who Is a Candidate for TORe?</h2>
+<img loading="lazy" src="/tore-infographic.webp" alt="Non-surgical gastric bypass revision with TORe (Transoral Outlet Reduction) infographic: oral endoscopic procedure, no incisions, narrowed bypass outlet, 30-60 minutes, same-day discharge, candidates with weight regain and dilated gastrojejunostomy" class="w-full rounded-lg my-6" />
 <p>Not every patient who regains weight is a candidate for endoscopic outlet reduction. Weight regain can be multifactorial — anatomical, hormonal and behavioral — so a thorough evaluation is required. Start by completing our free <a href="/health-profile">online health profile</a> so our team can pre-assess your situation.</p>
 
 <p>The clinical indications for the TORe procedure include:</p>
