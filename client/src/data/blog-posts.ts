@@ -12,6 +12,167 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "tore-procedure-gastric-bypass-revision",
+    title: "TORe Procedure: Endoscopic Outlet Reduction for Gastric Bypass Revision (2026 Guide)",
+    date: "July 31, 2026",
+    publishedAt: "2026-07-31T09:00:00+03:00",
+    category: "Revisional Bariatrics",
+    excerpt: "Regaining weight after gastric bypass? The TORe procedure (Transoral Outlet Reduction) tightens a stretched stoma endoscopically — no incisions, no scars. Full guide to candidacy, method, scientific results and life after TORe at Istanbul Bariatric Center.",
+    image: "/blog-tore-procedure.webp",
+    content: `<h2>Weight Regain After Gastric Bypass: You Are Not Out of Options</h2>
+<p>Weight regain after a successful Roux-en-Y Gastric Bypass (RYGB) is a challenging reality for many patients. While bariatric surgery remains the most effective long-term treatment for severe obesity, the anatomical changes made during the initial operation can alter over time. One of the primary culprits behind weight regain is the dilation (stretching) of the gastrojejunal anastomosis — the connection between the stomach pouch and the small intestine.</p>
+
+<p>Historically, patients facing this issue had to undergo complex, high-risk surgical revisions. Today, advancements in endoscopic technology have introduced a safer, highly effective alternative: the <strong>TORe procedure (Transoral Outlet Reduction)</strong>, also known as <strong>Endoscopic Outlet Reduction</strong>.</p>
+
+<p>At Istanbul Bariatric Center, we are committed to offering our patients the latest, evidence-based solutions for weight regain. In this comprehensive guide, we break down the science, indications, methodology and expected results of TORe so you can make an informed decision about your <a href="/treatments">bariatric revision journey</a>.</p>
+
+<img loading="lazy" src="/blog-tore-procedure.webp" alt="TORe procedure illustration showing endoscopic suturing of a dilated stoma after Roux-en-Y gastric bypass" class="w-full rounded-lg my-6" />
+
+<div style="background: linear-gradient(135deg, #EFF6FF, #DBEAFE); border-radius: 12px; padding: 24px; margin: 24px 0;">
+<p style="font-weight: 700; font-size: 1.1em; margin-bottom: 8px;">In This Article</p>
+<ul style="margin: 0; padding-left: 20px;">
+<li>Why weight regain happens after gastric bypass</li>
+<li>What the TORe procedure is and how it works</li>
+<li>Who is a candidate for endoscopic outlet reduction</li>
+<li>Step-by-step method and recovery timeline</li>
+<li>Scientific results: weight loss, durability and safety data</li>
+<li>TORe vs surgical gastric bypass revision</li>
+</ul>
+</div>
+
+<h2>Understanding Weight Regain After Gastric Bypass</h2>
+<p>Before diving into the TORe procedure, it is crucial to understand <em>why</em> weight regain happens. Following a gastric bypass, patients lose weight through two main mechanisms: restriction (a smaller stomach pouch) and malabsorption (bypassing a portion of the intestine).</p>
+
+<p>Over the years, however, the stomach pouch and the stoma (the outlet connecting the pouch to the intestine) can stretch. When the stoma dilates beyond its intended diameter — usually greater than 10&ndash;15 mm — food passes through the stomach much faster. The restrictive mechanism is lost, patients can eat larger meals, satiety decreases, and weight creeps back.</p>
+
+<p>Scientific literature indicates that up to <strong>20% to 30% of bypass patients</strong> experience significant weight regain over a 10-year period due to anatomical changes like pouch and stoma dilation. This is not a personal failure — it is a mechanical problem, and mechanical problems have mechanical solutions.</p>
+
+<h2>What Is the TORe Procedure?</h2>
+<p>TORe stands for <strong>Transoral Outlet Reduction</strong>. It is a minimally invasive, incisionless endoscopic procedure designed to tighten a stretched gastrojejunal anastomosis (stoma) in patients who have previously undergone a Roux-en-Y Gastric Bypass.</p>
+
+<p>Unlike traditional gastric bypass revisions, which require incisions through the abdomen, TORe is performed <em>transorally</em> — entirely through the mouth. Using a specialized endoscopic suturing system (most commonly the Apollo OverStitch&trade; device, the same platform we use for <a href="/esg">endoscopic sleeve gastroplasty</a>), the bariatric endoscopist places full-thickness sutures around the dilated stoma, cinching it back down to a diameter of approximately 6 to 8 mm.</p>
+
+<p>This restores the restrictive barrier, slows gastric emptying, and helps patients return to the feeling of early fullness they experienced shortly after their original bypass. It is one of the most studied procedures in endobariatrics: an estimated <strong>15,000 endoscopic revisions</strong> of bariatric procedures have been performed worldwide, and <strong>more than 150 clinical papers and abstracts</strong> have been published on TORe alone.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; margin: 24px 0;">
+<iframe src="https://www.youtube-nocookie.com/embed/e7QAgyjpBCY" title="TORe procedure (Transoral Outlet Reduction) explained — Istanbul Bariatric Center" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+</div>
+
+<h2>Who Is a Candidate for TORe?</h2>
+<p>Not every patient who regains weight is a candidate for endoscopic outlet reduction. Weight regain can be multifactorial — anatomical, hormonal and behavioral — so a thorough evaluation is required. Start by completing our free <a href="/health-profile">online health profile</a> so our team can pre-assess your situation.</p>
+
+<p>The clinical indications for the TORe procedure include:</p>
+<ol>
+<li><strong>Anatomical indication:</strong> an upper GI endoscopy confirms the gastrojejunal stoma is dilated, typically measuring <strong>greater than 10 mm</strong> in diameter.</li>
+<li><strong>Clinically significant weight regain:</strong> typically defined as regaining more than 15&ndash;20% of the maximum weight lost after bypass.</li>
+<li><strong>Pouch anatomy:</strong> ideally the gastric pouch is of reasonable size. When needed, TORe can be combined with endoscopic pouch reduction in the same session.</li>
+<li><strong>Failed conservative management:</strong> structured dietary, behavioral and medical weight-loss interventions have been attempted without lasting success.</li>
+<li><strong>Psychological readiness:</strong> commitment to post-procedure dietary guidelines and lifestyle change. TORe is a powerful reset tool, not a magic cure.</li>
+</ol>
+
+<h3>Contraindications</h3>
+<p>TORe may not be suitable for patients with:</p>
+<ul>
+<li>Large, complex hiatal hernias requiring surgical repair</li>
+<li>Severe uncontrolled acid reflux (GERD)</li>
+<li>Active marginal ulcers or erosive gastritis at the stoma (these are treated first)</li>
+<li>Active inflammatory bowel disease</li>
+<li>Unrealistic expectations or inability to commit to nutritional follow-up</li>
+</ul>
+
+<h2>The TORe Method: Step by Step</h2>
+<p>At Istanbul Bariatric Center, the TORe procedure is performed in a state-of-the-art endoscopic suite under general anesthesia or deep sedation. The procedure itself generally takes <strong>45 to 90 minutes</strong>.</p>
+
+<h3>1. Pre-Procedure Evaluation</h3>
+<p>Patients first undergo an upper GI endoscopy to measure the exact size of the pouch and stoma. A barium swallow X-ray may also be used to assess anatomy and rule out strictures, fistulas or marginal ulcers.</p>
+
+<h3>2. Endoscopic Suturing</h3>
+<ul>
+<li>The patient is sedated; a dual-channel endoscope fitted with the suturing system is gently guided through the mouth, down the esophagus and into the gastric pouch.</li>
+<li>The physician visualizes the stretched stoma where the pouch meets the small intestine. The tissue edge is often lightly ablated (with argon plasma coagulation) to improve suture healing.</li>
+<li>Full-thickness absorbable sutures are placed around the circumference of the stomal opening — typically <strong>2 to 4 sutures</strong> in a purse-string or interrupted pattern.</li>
+<li>The sutures are cinched, reducing the outlet from a dilated 15&ndash;20 mm down to a restrictive <strong>6&ndash;8 mm</strong>.</li>
+</ul>
+
+<h3>3. Recovery</h3>
+<p>Because TORe is incisionless, there are no wounds to heal. Patients recover in the post-anesthesia care unit for a few hours and are discharged the same day or after a 24-hour observation. Most return to normal activities within <strong>2&ndash;3 days</strong> — which also makes TORe exceptionally well suited to international patients who travel to Istanbul for treatment.</p>
+
+<h2>Scientific Results: What the Evidence Shows</h2>
+<p>TORe is backed by multiple peer-reviewed studies and randomized trials published in journals such as <em>Gastrointestinal Endoscopy</em> and <em>Obesity Surgery</em>.</p>
+
+<h3>Weight Loss Outcomes</h3>
+<ul>
+<li><strong>Excess weight loss (EWL):</strong> patients achieve an average of <strong>30% to 45% EWL</strong> within 12&ndash;24 months after the procedure.</li>
+<li><strong>Total body weight loss (TBWL):</strong> an average of <strong>8% to 15% TBWL</strong> over 1&ndash;2 years; newer studies using the latest suturing technique report 9&ndash;12% TBWL at 12 months.</li>
+<li><strong>Durability:</strong> long-term series show patients maintaining meaningful weight loss at <strong>5 and even 7 years</strong> after TORe.</li>
+<li><strong>Stopping the trajectory:</strong> untreated patients tend to keep gaining; TORe reliably halts and reverses weight regain.</li>
+</ul>
+
+<h3>Stoma Durability</h3>
+<p>An adequately tightened stoma (reduced to under 8 mm) maintains its size in approximately <strong>70% to 80% of patients</strong> at 12 months. Some natural dilation can occur over 2&ndash;3 years, but the stoma rarely returns to its pre-procedure stretched state when patients adhere to dietary guidelines.</p>
+
+<h3>Safety Profile</h3>
+<p>Compared with surgical revision — which carries morbidity rates of up to 15&ndash;20% — TORe has a remarkable safety record:</p>
+<ul>
+<li>Overall complication rate below <strong>3&ndash;5%</strong></li>
+<li>Common side effects are mild and temporary: nausea, throat irritation and abdominal cramping for 24&ndash;48 hours</li>
+<li>Serious complications (bleeding, perforation, stricture) occur in <strong>less than 1%</strong> of cases</li>
+<li><strong>Repeatable:</strong> if the stoma dilates again years later, TORe can safely be performed again — a major advantage over surgery</li>
+</ul>
+
+<h2>TORe vs Surgical Gastric Bypass Revision</h2>
+<p>Traditionally, patients with weight regain faced aggressive surgical revision: converting the bypass to a more malabsorptive operation such as a <a href="/duodenal-switch">duodenal switch</a>, or surgically revising the pouch. Here is why TORe is now considered the first-line revisional therapy for stoma dilation:</p>
+<ul>
+<li><strong>No external incisions:</strong> completely scarless, with lower risk of hernias, infections and wound complications</li>
+<li><strong>Shorter stay:</strong> outpatient or 24-hour observation, versus 3&ndash;7 days in hospital for surgical revision</li>
+<li><strong>Faster recovery:</strong> back to normal life in 2&ndash;3 days instead of 4&ndash;6 weeks</li>
+<li><strong>Anatomy preserved:</strong> the natural RYGB anatomy stays intact, minimizing the risk of severe malnutrition or dumping syndrome that can follow aggressive surgical conversion</li>
+</ul>
+<p>If your weight regain stems from causes other than stoma dilation, our surgeons will guide you toward the right alternative — from <a href="/gastric-balloon">gastric balloon</a> support to formal surgical revision. Every recommendation starts with diagnostics, not assumptions.</p>
+
+<h2>Life After TORe: The Istanbul Bariatric Center Protocol</h2>
+<p>The science is clear: TORe is a powerful tool, but it is only as effective as the lifestyle changes that support it. The mechanical restriction helps you feel full sooner; long-term success requires adherence to the post-procedure plan.</p>
+
+<h3>Post-Procedure Diet</h3>
+<ul>
+<li><strong>Week 1:</strong> clear and full liquids, allowing the sutures to set and swelling to subside</li>
+<li><strong>Weeks 2&ndash;3:</strong> pureed and soft foods</li>
+<li><strong>Week 4 and beyond:</strong> gradual return to a bariatric-focused diet — high protein, low carbohydrate, nutrient-dense</li>
+</ul>
+<p>We strongly emphasize <strong>avoiding carbonated drinks</strong> and <strong>chewing thoroughly</strong>: gas expansion or unchewed food puts pressure on the newly tightened stoma.</p>
+
+<h3>Long-Term Behavioral Support</h3>
+<p>Our multidisciplinary team works with you to identify and address the factors behind your weight regain: nutritional counseling to reset eating habits, psychological support for emotional eating, and structured physical activity to maximize fat loss. See real outcomes from our patients on our <a href="/results">before and after results page</a>.</p>
+
+<h2>Why Choose Istanbul Bariatric Center for Your TORe Procedure?</h2>
+<ul>
+<li><strong>Expertise:</strong> our bariatric surgeons and therapeutic endoscopists are proficient in advanced endoscopic suturing and have performed hundreds of successful endoscopic revisions.</li>
+<li><strong>Comprehensive care:</strong> a holistic reset program with pre-procedure dietary evaluation, psychological support and lifelong follow-up — not just a procedure.</li>
+<li><strong>State-of-the-art technology:</strong> high-definition imaging and the latest suturing platforms for precision and safety.</li>
+<li><strong>International patient experience:</strong> seamless travel coordination, multilingual support and world-class care in Istanbul — at a fraction of the cost of the same procedure in the UK, EU or USA.</li>
+</ul>
+
+<h2>Frequently Asked Questions About TORe</h2>
+<h3>Is the TORe procedure painful?</h3>
+<p>No incisions are made, so pain is minimal. Most patients report mild throat irritation and abdominal cramping for 24&ndash;48 hours, managed with simple medication.</p>
+<h3>How long do TORe results last?</h3>
+<p>Studies show weight loss maintained at 5&ndash;7 years. The tightened stoma holds its size in 70&ndash;80% of patients at one year, and the procedure can be safely repeated if needed.</p>
+<h3>How soon can I fly home after TORe in Istanbul?</h3>
+<p>Most international patients can fly within 2&ndash;3 days of the procedure, making a short trip to Istanbul entirely feasible.</p>
+<h3>Does TORe work if my pouch is also stretched?</h3>
+<p>Yes — TORe can be combined with endoscopic pouch reduction in the same session when the evaluation shows both the stoma and the pouch have dilated.</p>
+
+<div style="background: linear-gradient(135deg, #1E3A8A, #2563EB); border-radius: 12px; padding: 32px; margin: 32px 0; text-align: center;">
+<p style="color: #fff; font-weight: 700; font-size: 1.3em; margin-bottom: 8px;">Regained Weight After Gastric Bypass?</p>
+<p style="color: #DBEAFE; margin-bottom: 16px;">Find out if the TORe procedure is right for you. Our specialists will review your history, evaluate your anatomy and design your personal weight-loss reset — with no obligation.</p>
+<a href="/contact" style="display: inline-block; background: #fff; color: #1E3A8A; font-weight: 700; padding: 12px 32px; border-radius: 8px; text-decoration: none;">Schedule Your Free Online Consultation</a>
+</div>
+
+<h3>Conclusion</h3>
+<p>Weight regain after gastric bypass is not a personal failure — it is often a natural anatomical consequence of surgery over time. The <strong>TORe procedure</strong> represents a paradigm shift in gastric bypass revision: advanced endoscopic suturing restores the restrictive mechanism of your bypass safely, effectively and without a single incision.</p>
+<p>If you have experienced weight regain after gastric bypass and want to know whether Transoral Outlet Reduction is the right solution for you, <a href="/contact">contact Istanbul Bariatric Center today</a> and take the first step toward your weight-loss reset.</p>`,
+  },
+  {
     slug: "gastroparesis-symptoms-causes-treatment-guide",
     title: "Gastroparesis: Symptoms, Causes and Treatment Explained (2026 Guide)",
     date: "June 24, 2026",
