@@ -57,6 +57,12 @@ const treatments = [
     desc: "Endoscopic revision that tightens a stretched stoma after gastric bypass — no incisions.",
     link: "/blog/tore-procedure-gastric-bypass-revision",
     image: "/tore-procedure-card.webp"
+  },
+  {
+    title: "GFMA (Gastric Fundus Mucosal Ablation)",
+    desc: "Incisionless endoscopic procedure that switches off the hunger hormone at its source.",
+    link: "/blog/gastric-fundus-mucosal-ablation-gfma-latest-news",
+    image: "/gfma-procedure-card.webp"
   }
 ];
 
