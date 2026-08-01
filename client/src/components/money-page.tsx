@@ -419,6 +419,201 @@ export function ConversionModule({ title, text, buttonLabel, whatsappUrl = WHATS
   );
 }
 
+/* ------------------------- Expert point of view --------------------------- */
+
+export interface ExpertPOVProps {
+  /** Module heading, e.g. "How Dr Murat Decides Between Sleeve and Mini Bypass" */
+  title: string;
+  /** First-person, surgeon-authored paragraphs / lists */
+  children: ReactNode;
+  /** Short credential line under the byline */
+  credentials?: string;
+  id?: string;
+}
+
+/**
+ * Surgeon-authored perspective block. Visually distinct from generic prose:
+ * byline, credential line, and a left rule — signalling first-hand expertise
+ * rather than commodity summary content.
+ */
+export function ExpertPOV({ title, children, credentials = "Bariatric & metabolic surgeon — 8,000+ procedures, IFSO member", id }: ExpertPOVProps) {
+  return (
+    <section id={id} className="py-16 scroll-mt-24 bg-white">
+      <div className="container mx-auto px-4 max-w-4xl">
+        <article className="border-l-4 border-primary bg-slate-50 rounded-r-2xl p-8 md:p-10">
+          <header className="mb-6">
+            <p className="text-sm font-semibold uppercase tracking-wide text-primary mb-2">Surgeon's Perspective</p>
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">{title}</h2>
+            <p className="text-slate-900 font-semibold">
+              By{" "}
+              <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                Dr Murat Ustun
+              </a>
+            </p>
+            <p className="text-sm text-slate-500">{credentials}</p>
+          </header>
+          <div className="space-y-5 text-lg text-slate-600 leading-relaxed">{children}</div>
+        </article>
+      </div>
+    </section>
+  );
+}
+
+/* ------------------------------ Decision block ---------------------------- */
+
+export interface DecisionBlockProps {
+  title: string;
+  bestFor: string[];
+  notIdealFor: string[];
+  typicalRecovery: string;
+  tradeOffs: string[];
+}
+
+/**
+ * Structured decision summary: best for / not ideal for / typical recovery /
+ * common trade-offs — the four answers every procedure decision needs.
+ */
+export function DecisionBlock({ title, bestFor, notIdealFor, typicalRecovery, tradeOffs }: DecisionBlockProps) {
+  return (
+    <section className="py-16 bg-slate-50" aria-label={title}>
+      <div className="container mx-auto px-4 max-w-5xl">
+        <h2 className="text-3xl font-bold text-slate-900 mb-10 text-center">{title}</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div className="bg-white rounded-2xl border border-green-200 p-6">
+            <h3 className="font-bold text-green-700 mb-4">Best for</h3>
+            <ul className="space-y-3">
+              {bestFor.map((item, i) => (
+                <li key={i} className="flex items-start gap-3 text-slate-600">
+                  <Check className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" aria-hidden="true" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="bg-white rounded-2xl border border-amber-200 p-6">
+            <h3 className="font-bold text-amber-700 mb-4">Not ideal for</h3>
+            <ul className="space-y-3">
+              {notIdealFor.map((item, i) => (
+                <li key={i} className="flex items-start gap-3 text-slate-600">
+                  <span className="text-amber-600 font-bold mt-0.5 flex-shrink-0" aria-hidden="true">✕</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="bg-white rounded-2xl border border-slate-200 p-6">
+            <h3 className="font-bold text-slate-900 mb-4">Typical recovery</h3>
+            <p className="text-slate-600 leading-relaxed">{typicalRecovery}</p>
+          </div>
+          <div className="bg-white rounded-2xl border border-slate-200 p-6">
+            <h3 className="font-bold text-slate-900 mb-4">Common trade-offs</h3>
+            <ul className="space-y-3">
+              {tradeOffs.map((item, i) => (
+                <li key={i} className="flex items-start gap-3 text-slate-600">
+                  <span className="text-slate-400 mt-0.5 flex-shrink-0" aria-hidden="true">•</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* -------------------------------- Media block ----------------------------- */
+
+export interface MediaBlockProps {
+  title: string;
+  description: string;
+  /** Full YouTube embed URL, e.g. https://www.youtube.com/embed/xxxx */
+  youtubeEmbedUrl: string;
+  /** ISO-8601 publication date. VideoObject JSON-LD is only emitted when this is provided. */
+  uploadDate?: string;
+  withJsonLd?: boolean;
+}
+
+export function MediaBlock({ title, description, youtubeEmbedUrl, uploadDate, withJsonLd = true }: MediaBlockProps) {
+  const videoId = youtubeEmbedUrl.split("/").pop()?.split("?")[0];
+  return (
+    <section className="py-16 bg-slate-900" aria-label={title}>
+      {withJsonLd && !!uploadDate && (
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            name: title,
+            description,
+            embedUrl: youtubeEmbedUrl,
+            thumbnailUrl: videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : undefined,
+            uploadDate,
+            publisher: { "@type": "Organization", name: "Istanbul Bariatric Center" },
+          }}
+        />
+      )}
+      <div className="container mx-auto px-4 max-w-4xl">
+        <h2 className="text-3xl font-bold text-white mb-3 text-center">{title}</h2>
+        <p className="text-slate-300 text-center mb-8 max-w-2xl mx-auto">{description}</p>
+        <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
+          <iframe
+            src={youtubeEmbedUrl}
+            title={title}
+            loading="lazy"
+            className="w-full h-full"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* -------------------------------- Sticky CTA ------------------------------ */
+
+export interface StickyCTAProps {
+  whatsappUrl?: string;
+  /** Where the "Package Guide" action points */
+  guideHref?: string;
+}
+
+/**
+ * Persistent bottom action bar: WhatsApp consult, free assessment, package
+ * guide. Kept compact so it never obscures content; offset from the right so
+ * it does not collide with the chat bubble.
+ */
+export function StickyCTA({ whatsappUrl = WHATSAPP_UK, guideHref = "/cost-of-bariatric-surgery-in-turkey" }: StickyCTAProps) {
+  return (
+    <>
+      {/* Reserve flow space so the fixed bar never obscures the footer */}
+      <div className="h-16" aria-hidden="true" />
+      <nav
+        aria-label="Quick actions"
+        className="fixed bottom-0 inset-x-0 z-40 bg-white/95 backdrop-blur border-t border-slate-200 shadow-[0_-4px_16px_rgba(0,0,0,0.08)] pb-[env(safe-area-inset-bottom)]"
+      >
+      <div className="container mx-auto px-3 py-2.5 flex items-center justify-center gap-2 md:gap-3 pr-20 md:pr-24">
+        <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="flex-1 md:flex-none">
+          <Button className="w-full md:w-auto bg-primary hover:bg-primary/90 h-11 px-5 font-semibold">
+            WhatsApp Consult
+          </Button>
+        </a>
+        <Link href="/health-profile" className="flex-1 md:flex-none hidden sm:block">
+          <Button variant="outline" className="w-full md:w-auto h-11 px-5 font-semibold border-slate-300">
+            Free Assessment
+          </Button>
+        </Link>
+        <Link href={guideHref} className="flex-1 md:flex-none">
+          <Button variant="outline" className="w-full md:w-auto h-11 px-5 font-semibold border-slate-300">
+            Package Guide
+          </Button>
+        </Link>
+      </div>
+      </nav>
+    </>
+  );
+}
+
 /* ----------------------------- Inline CTA button -------------------------- */
 
 export function InlineCTA({ label, whatsappUrl = WHATSAPP_UK }: { label: string; whatsappUrl?: string }) {

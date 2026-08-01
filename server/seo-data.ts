@@ -901,6 +901,220 @@ const staticPages: Record<string, PageSEO> = {
       ]
     }]
   },
+  "/gastric-sleeve-vs-gastric-bypass": {
+    title: "Gastric Sleeve vs Mini Gastric Bypass: Which Is Right for You? (2026)",
+    description: "Side-by-side comparison of gastric sleeve and mini gastric bypass: weight loss, diabetes remission, reflux, risks, recovery and cost in Turkey. Decide with data.",
+    h1: "Gastric Sleeve vs Mini Gastric Bypass",
+    bodyExcerpt: "The sleeve removes ~80% of the stomach and delivers 60-70% excess weight loss with normal intestinal anatomy. The mini gastric bypass adds malabsorption: 70-80% excess weight loss, 80-90% type 2 diabetes remission, and better reflux control — at the cost of lifelong supplements. Choose the sleeve for simplicity and no reflux; choose the bypass for diabetes, existing GERD, or BMI over 45-50. At Istanbul Bariatric Center: sleeve from £2,950, bypass from £3,350, both all-inclusive.",
+    canonical: SITE_URL + "/gastric-sleeve-vs-gastric-bypass",
+    modifiedTime: "2026-08-01T09:00:00+03:00",
+    richContent: `<section><h2>Sleeve vs Mini Bypass at a Glance</h2><table><thead><tr><th>Factor</th><th>Gastric Sleeve</th><th>Mini Gastric Bypass</th></tr></thead><tbody><tr><td>How it works</td><td>Removes ~80% of the stomach (restriction)</td><td>Small pouch + intestinal re-routing (restriction + malabsorption)</td></tr><tr><td>Excess weight loss</td><td>60–70% at 2 years</td><td>70–80% at 2 years</td></tr><tr><td>Type 2 diabetes remission</td><td>60–70%</td><td>80–90%</td></tr><tr><td>Effect on acid reflux</td><td>Can worsen (up to 55% GERD long-term)</td><td>Usually improves reflux</td></tr><tr><td>Lifelong supplements</td><td>Multivitamin recommended</td><td>Multivitamin + B12, iron essential</td></tr><tr><td>Price at IBC (all-inclusive)</td><td>From £2,950</td><td>From £3,350</td></tr></tbody></table></section>
+<section><h2>Choose the Sleeve If</h2><ul><li>You want the simplest effective operation with normal intestinal anatomy</li><li>Your BMI is 35–50 without severe type 2 diabetes</li><li>You have no significant acid reflux</li><li>You take medications whose absorption must not change</li><li>You prefer to keep the bypass in reserve as a possible second step</li></ul></section>
+<section><h2>Choose the Mini Bypass If</h2><ul><li>You have type 2 diabetes — remission rates reach 80–90%</li><li>You already suffer from acid reflux / GERD, which a sleeve can worsen</li><li>Your BMI is above 45–50, where the extra weight loss matters most</li><li>You are a sweet-eater or grazer — malabsorption blunts calorie-dense food</li><li>You are comfortable with lifelong supplements and annual blood tests</li></ul></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Which is better: gastric sleeve or mini gastric bypass?", "acceptedAnswer": { "@type": "Answer", "text": "Neither is universally better \u2014 they suit different patients. The sleeve is simpler, keeps normal intestinal anatomy, and delivers 60-70% excess weight loss. The mini bypass adds a malabsorptive component, delivering 70-80% excess weight loss with stronger type 2 diabetes remission and better reflux control \u2014 at the cost of lifelong vitamin supplementation and a slightly more complex operation. The right choice depends on your BMI, reflux status, diabetes, and eating pattern." }},
+        { "@type": "Question", "name": "Which causes more weight loss: sleeve or bypass?", "acceptedAnswer": { "@type": "Answer", "text": "The mini gastric bypass typically produces more total weight loss: around 70-80% of excess weight at 2 years versus 60-70% for the sleeve. For patients with BMI over 50 or severe type 2 diabetes, the bypass's metabolic effect usually makes it the stronger option." }},
+        { "@type": "Question", "name": "Which is safer: gastric sleeve or bypass?", "acceptedAnswer": { "@type": "Answer", "text": "Both are very safe in experienced hands, with major complication rates of 1-3%. The sleeve is technically simpler with no intestinal rejoining, so early surgical risk is marginally lower. The bypass carries small long-term risks of nutrient deficiency and marginal ulcers, while the sleeve carries a higher long-term risk of acid reflux (GERD)." }},
+        { "@type": "Question", "name": "Should I choose the bypass if I already have acid reflux?", "acceptedAnswer": { "@type": "Answer", "text": "Usually yes. A gastric sleeve can worsen existing reflux \u2014 GERD affects up to 55% of sleeve patients long-term \u2014 whereas the bypass diverts acid away from the oesophagus and typically improves reflux. Significant pre-existing GERD is one of the clearest reasons to prefer a bypass." }},
+        { "@type": "Question", "name": "Can a sleeve be converted to a bypass later?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Sleeve-to-bypass conversion is the most common revision operation worldwide, typically chosen for weight regain or reflux after a sleeve. Many patients start with a sleeve knowing the bypass remains available as a second step if ever needed." }},
+        { "@type": "Question", "name": "What do sleeve and bypass cost in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "At Istanbul Bariatric Center the gastric sleeve starts at \u00a32,950 and the mini gastric bypass at \u00a33,350, both all-inclusive: JCI-accredited hospital, surgeon and anaesthesia fees, tests, transfers, hotel and 12 months of dietitian aftercare." }}
+      ]
+    }, {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": SITE_URL + "/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "Gastric Sleeve vs Mini Gastric Bypass", "item": SITE_URL + "/gastric-sleeve-vs-gastric-bypass" }
+      ]
+    }]
+  },
+  "/esg-vs-gastric-sleeve": {
+    title: "ESG vs Gastric Sleeve: Non-Surgical or Surgical? Honest Comparison (2026)",
+    description: "Endoscopic sleeve gastroplasty vs surgical gastric sleeve: weight loss, safety, reversibility, reflux, recovery and Turkey prices compared side by side.",
+    h1: "ESG vs Gastric Sleeve: Which Should You Choose?",
+    bodyExcerpt: "ESG reshapes the stomach from inside with endoscopic sutures — no incisions, same-day discharge, 15-20% total body weight loss, and it usually improves reflux. The surgical sleeve removes ~80% of the stomach for 25-30% total weight loss but is irreversible and can worsen GERD. ESG suits BMI 30-40 and fast recovery needs; the sleeve remains the benchmark for BMI over 40-45. At Istanbul Bariatric Center: sleeve from £2,950, ESG from £4,950, all-inclusive.",
+    canonical: SITE_URL + "/esg-vs-gastric-sleeve",
+    modifiedTime: "2026-08-01T09:00:00+03:00",
+    richContent: `<section><h2>ESG vs Surgical Sleeve at a Glance</h2><table><thead><tr><th>Factor</th><th>ESG (Endoscopic)</th><th>Gastric Sleeve (Surgical)</th></tr></thead><tbody><tr><td>Technique</td><td>Stomach sutured smaller from inside — no cuts</td><td>~80% of stomach surgically removed</td></tr><tr><td>Total body weight loss</td><td>15–20%</td><td>25–30%</td></tr><tr><td>Hospital stay</td><td>Same day or 1 night</td><td>2–3 nights</td></tr><tr><td>Back to work</td><td>3–5 days</td><td>10–14 days</td></tr><tr><td>Reversible / adjustable</td><td>Largely — can be re-tightened</td><td>No — permanent</td></tr><tr><td>Effect on reflux</td><td>Usually improves</td><td>Can worsen (up to 55% GERD)</td></tr><tr><td>Best BMI range</td><td>30–40 (ESG-Max up to ~45)</td><td>35–55+</td></tr><tr><td>Price at IBC (all-inclusive)</td><td>From £4,950</td><td>From £2,950</td></tr></tbody></table></section>
+<section><h2>The Core Trade-Off</h2><p>The decision comes down to weight loss power versus invasiveness. The surgical sleeve produces roughly a third more weight loss and remains the benchmark for BMI above 40. ESG achieves 15–20% total body weight loss with no incisions, a 3–5 day recovery, and keeps every future option open — an ESG can later be converted to a surgical sleeve or bypass, while a sleeve cannot be undone.</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Is ESG as effective as a gastric sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "The surgical sleeve produces more weight loss: 60-70% of excess weight versus 45-60% for ESG (15-20% of total body weight). But ESG requires no incisions, removes no stomach, has a faster recovery, and is largely reversible. For BMI 30-40, ESG results are often sufficient; above BMI 40-45, the surgical sleeve is usually the stronger choice." }},
+        { "@type": "Question", "name": "What is the main difference between ESG and gastric sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "The gastric sleeve surgically removes about 80% of the stomach through keyhole incisions. ESG (Endoscopic Sleeve Gastroplasty) reshapes the stomach into a sleeve from the inside using sutures placed through an endoscope passed down the throat \u2014 no cuts, no stomach removed, usually same-day discharge." }},
+        { "@type": "Question", "name": "Which is safer: ESG or gastric sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "ESG has the lower risk profile: serious adverse events under 2%, no staple line, no risk of leak, and no permanent anatomical change. The surgical sleeve is also very safe (1-3% major complications) but is irreversible and carries a long-term reflux risk of up to 55%. ESG typically improves rather than worsens reflux." }},
+        { "@type": "Question", "name": "Does ESG last, or does the stomach stretch back?", "acceptedAnswer": { "@type": "Answer", "text": "MERIT randomised trial data shows durable results: at 5 years, over 80% of ESG patients maintain at least 10% total body weight loss. Sutures create permanent scarring that holds the sleeve shape. If needed, ESG can be endoscopically tightened later \u2014 or converted to a surgical sleeve or bypass." }},
+        { "@type": "Question", "name": "Can I have ESG if my BMI is over 40?", "acceptedAnswer": { "@type": "Answer", "text": "Yes \u2014 ESG-Max with additional reinforcement sutures extends effectiveness into higher BMI ranges, and ESG is a valid option for patients who are unfit or unwilling to have surgery. However, for BMI over 45, the surgical sleeve or bypass generally produces substantially better long-term results." }},
+        { "@type": "Question", "name": "How do the costs compare in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "At Istanbul Bariatric Center the surgical sleeve starts at \u00a32,950 and ESG at \u00a34,950, both all-inclusive. ESG costs more because of the Apollo OverStitch device, but avoids surgery, scars, and a hospital stay beyond one night." }}
+      ]
+    }, {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": SITE_URL + "/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "ESG vs Gastric Sleeve", "item": SITE_URL + "/esg-vs-gastric-sleeve" }
+      ]
+    }]
+  },
+  "/gastric-balloon-vs-gastric-sleeve": {
+    title: "Gastric Balloon vs Gastric Sleeve: Temporary or Permanent? (2026)",
+    description: "Gastric balloon vs gastric sleeve compared: weight loss, reversibility, safety, cost in Turkey, and when the balloon is genuinely the right choice.",
+    h1: "Gastric Balloon vs Gastric Sleeve",
+    bodyExcerpt: "The gastric balloon is a temporary 6-12 month tool: 10-15% total body weight loss, no surgery, fully reversible, from £1,650 — ideal for BMI 27-35 or losing weight before an operation. The gastric sleeve is permanent: 25-30% total weight loss, from £2,950. The most common mistake is choosing the balloon for a long-term weight problem — regain after removal is its main drawback. ESG sits between them: non-surgical like the balloon, durable like the sleeve.",
+    canonical: SITE_URL + "/gastric-balloon-vs-gastric-sleeve",
+    modifiedTime: "2026-08-01T09:00:00+03:00",
+    richContent: `<section><h2>Balloon vs Sleeve at a Glance</h2><table><thead><tr><th>Factor</th><th>Gastric Balloon</th><th>Gastric Sleeve</th></tr></thead><tbody><tr><td>Permanence</td><td>Temporary — removed at 6 or 12 months</td><td>Permanent</td></tr><tr><td>Total body weight loss</td><td>10–15% (while in place)</td><td>25–30% (durable)</td></tr><tr><td>Hospital stay</td><td>None — walk out same day</td><td>2–3 nights</td></tr><tr><td>Reversible</td><td>Fully</td><td>No</td></tr><tr><td>Ideal BMI range</td><td>27–35</td><td>35–55+</td></tr><tr><td>Main drawback</td><td>Weight regain after removal</td><td>Irreversible; reflux risk</td></tr><tr><td>Price at IBC (all-inclusive)</td><td>From £1,650</td><td>From £2,950</td></tr></tbody></table></section>
+<section><h2>The Balloon Is Right for You If</h2><ul><li>Your BMI is 27–35 and you need to lose 10–25 kg</li><li>You want a fully reversible, no-surgery option</li><li>You need to lose weight before another operation</li><li>You want to test how restriction feels before a permanent decision</li><li>You can commit to the dietitian programme</li></ul><p>If your BMI is over 35 and this is a long-term weight problem, ESG or the sleeve will serve you better — regain after balloon removal is the most common complaint from patients who chose it for the wrong indication.</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Is a gastric balloon as effective as a gastric sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "No. A balloon produces 10-15% total body weight loss while it is in place (6-12 months); the surgical sleeve produces 25-30% and the result is permanent. The balloon's advantage is that it is temporary, non-surgical, and fully reversible \u2014 a tool to kick-start weight loss or prepare for surgery, not a lifelong solution." }},
+        { "@type": "Question", "name": "Does the weight come back after a gastric balloon?", "acceptedAnswer": { "@type": "Answer", "text": "It can. Once the balloon is removed, the stomach returns to normal capacity, so keeping the weight off depends entirely on the eating habits built during the balloon period. Studies show a significant portion of patients regain weight within 1-2 years of removal unless they transition to further treatment or maintain strict habits." }},
+        { "@type": "Question", "name": "Who is a gastric balloon actually right for?", "acceptedAnswer": { "@type": "Answer", "text": "Patients with BMI 27-35 who need to lose 10-25 kg, patients who want a fully reversible trial of restriction before committing to surgery, and higher-BMI patients who need to lose weight before an operation. For BMI over 35 seeking a lasting result, ESG or a surgical sleeve is usually the better investment." }},
+        { "@type": "Question", "name": "Is the balloon safer than the sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "The balloon avoids surgery entirely \u2014 it is placed endoscopically in about 20 minutes, and swallowable versions need no endoscopy at all. Serious complications are rare, though nausea in the first week is common. The sleeve is also very safe (1-3% major complications) but is a permanent operation. In between the two sits ESG: non-surgical like the balloon, durable like the sleeve." }},
+        { "@type": "Question", "name": "What do the balloon and sleeve cost in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "At Istanbul Bariatric Center the gastric balloon starts at \u00a31,650 and the gastric sleeve at \u00a32,950, both all-inclusive. Note that a balloon lasts 6-12 months while the sleeve is permanent \u2014 per kilogram kept off long-term, the sleeve and ESG are usually better value." }},
+        { "@type": "Question", "name": "Can I have a sleeve or ESG after a balloon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, and it is a common pathway: balloon first to reduce weight and prove restriction works for you, then ESG or a surgical sleeve for the permanent result. We plan this two-step route deliberately for suitable patients." }}
+      ]
+    }, {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": SITE_URL + "/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "Gastric Balloon vs Gastric Sleeve", "item": SITE_URL + "/gastric-balloon-vs-gastric-sleeve" }
+      ]
+    }]
+  },
+  "/weight-regain-after-gastric-sleeve": {
+    title: "Weight Regain After Gastric Sleeve: Why It Happens & All 4 Fix Pathways",
+    description: "Regaining weight after a gastric sleeve? Up to 30% of patients do. Compare all four pathways: dietitian reset, GLP-1 medication, endoscopic re-sleeve, bypass conversion.",
+    h1: "Weight Regain After Gastric Sleeve: Your Four Pathways",
+    bodyExcerpt: "Up to 30% of sleeve patients regain significant weight within five years, driven by sleeve dilation, hormonal adaptation and behavioural drift — not willpower. Four treatment pathways exist, from least to most intervention: a dietitian-led reset programme, GLP-1 medication (Mounjaro/Wegovy), endoscopic re-sleeve to tighten the stretched sleeve without surgery, and surgical conversion to a mini gastric bypass or duodenal switch. Every regain case at Istanbul Bariatric Center starts with a diagnostic endoscopy to identify the cause before recommending any treatment.",
+    canonical: SITE_URL + "/weight-regain-after-gastric-sleeve",
+    modifiedTime: "2026-08-01T09:00:00+03:00",
+    richContent: `<section><h2>The Four Pathways Compared</h2><table><thead><tr><th>Pathway</th><th>Best For</th><th>Invasiveness</th><th>Expected Result</th></tr></thead><tbody><tr><td>1. Dietitian-led reset programme</td><td>Regain under ~10 kg, habits identified as the driver</td><td>None — remote programme</td><td>Halt regain, lose 5–10 kg</td></tr><tr><td>2. GLP-1 medication (Mounjaro/Wegovy)</td><td>Moderate regain, patient prefers no procedure</td><td>None — weekly injection</td><td>10–15% loss while on medication</td></tr><tr><td>3. Endoscopic re-sleeve</td><td>Confirmed sleeve dilation, moderate regain, no severe reflux</td><td>Endoscopic — no incisions, 0–1 night</td><td>Restore restriction; 60–70% of regained weight lost</td></tr><tr><td>4. Conversion to mini bypass / DS</td><td>Major regain, reflux, or anatomy unsuited to re-sleeve</td><td>Laparoscopic, 2–3 nights</td><td>Strongest and most durable result</td></tr></tbody></table></section>
+<section><h2>Why the Weight Comes Back</h2><ul><li><strong>Sleeve dilation:</strong> the sleeve is a muscular tube under pressure at every meal; over years it can gradually stretch, restoring capacity and appetite.</li><li><strong>Hormonal adaptation:</strong> ghrelin (the hunger hormone) partially recovers in some patients 2–4 years after surgery.</li><li><strong>Behavioural drift:</strong> grazing, liquid calories and skipped follow-up quietly erode the remaining restriction.</li></ul><p>Because the cause differs patient to patient, every regain assessment starts with a diagnostic endoscopy that measures the sleeve and rules out other causes.</p></section>
+<section><h2>When to Get Assessed</h2><ul><li>You have regained more than 25% of the weight you originally lost</li><li>Portion sizes are clearly back toward pre-surgery levels</li><li>Hunger between meals has returned</li><li>Heartburn or reflux has appeared alongside the regain</li><li>You are considering GLP-1 medication and want to know if it is the right tool</li></ul></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Is weight regain after gastric sleeve normal?", "acceptedAnswer": { "@type": "Answer", "text": "Some regain is common \u2014 studies show up to 30% of sleeve patients regain significant weight within 5 years. It does not mean you failed. The most frequent causes are gradual sleeve dilation (stretching), hormonal adaptation, and the return of old eating patterns. All three are treatable." }},
+        { "@type": "Question", "name": "How do I know if my sleeve has stretched?", "acceptedAnswer": { "@type": "Answer", "text": "Warning signs include being able to eat much larger portions than in your first year, hunger returning between meals, and steady regain despite reasonable eating. The only way to confirm is a diagnostic endoscopy, which measures the sleeve and rules out other causes \u2014 this is always our first step before recommending any treatment." }},
+        { "@type": "Question", "name": "What are my options if I've regained weight after a sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "Four main pathways, in increasing order of intervention: (1) a structured dietitian-led reset programme, (2) GLP-1 medication (Mounjaro/Wegovy) alongside your sleeve, (3) endoscopic re-sleeve \u2014 tightening the stretched sleeve from inside with sutures, no surgery, and (4) surgical conversion to a mini gastric bypass or duodenal switch. The right one depends on how much you've regained, your sleeve anatomy, and whether you have reflux." }},
+        { "@type": "Question", "name": "Can a stretched sleeve be fixed without surgery?", "acceptedAnswer": { "@type": "Answer", "text": "Often, yes. An endoscopic re-sleeve uses the Apollo OverStitch system to suture the dilated sleeve back to a narrow tube through the mouth \u2014 no incisions, usually one night at most, and back to normal within days. It suits moderate dilation with moderate regain." }},
+        { "@type": "Question", "name": "When is conversion to a bypass the better answer?", "acceptedAnswer": { "@type": "Answer", "text": "When regain is substantial (more than 25-30% of the weight you lost), when reflux has developed alongside the regain, or when endoscopy shows anatomy unsuited to re-sleeving. Sleeve-to-bypass conversion is the most common revision operation worldwide and addresses both regain and reflux in one step." }},
+        { "@type": "Question", "name": "Do GLP-1 medications work after a gastric sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "Yes \u2014 studies show meaningful additional weight loss when GLP-1 medication is added after bariatric surgery, and it can be an effective non-procedural option for moderate regain. The limitations: the effect lasts only while on the medication, monthly cost is significant, and side effects stop some patients. We often use it as a bridge or in combination with other pathways." }}
+      ]
+    }, {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": SITE_URL + "/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "Weight Regain After Gastric Sleeve", "item": SITE_URL + "/weight-regain-after-gastric-sleeve" }
+      ]
+    }]
+  },
+  "/reflux-after-gastric-sleeve": {
+    title: "Acid Reflux After Gastric Sleeve: Causes, Red Flags & Every Fix",
+    description: "Heartburn after your gastric sleeve? GERD affects up to 55% of sleeve patients. Learn the causes, red flags, PPI limits and when bypass conversion is the cure.",
+    h1: "Acid Reflux After Gastric Sleeve: What It Means and How It's Fixed",
+    bodyExcerpt: "GERD affects up to 55% of gastric sleeve patients long-term because the sleeve creates a narrow, high-pressure tube and alters the anti-reflux valve — a mechanical problem that tablets alone cannot fix. The treatment ladder: lifestyle measures and PPIs, diagnostic endoscopy, hiatal hernia repair where found, and — for persistent GERD, especially with weight regain — conversion to a mini gastric bypass, which resolves or dramatically improves reflux in around 90% of cases.",
+    canonical: SITE_URL + "/reflux-after-gastric-sleeve",
+    modifiedTime: "2026-08-01T09:00:00+03:00",
+    richContent: `<section><h2>Treatment Ladder: From Tablets to Cure</h2><table><thead><tr><th>Step</th><th>What It Involves</th><th>Best For</th><th>Limitation</th></tr></thead><tbody><tr><td>Lifestyle + PPI medication</td><td>Smaller evening meals, elevation, daily PPI</td><td>Mild reflux, first-line for everyone</td><td>Controls symptoms; fixes nothing mechanical</td></tr><tr><td>Diagnostic endoscopy</td><td>Camera assessment of sleeve, valve and oesophagus</td><td>Anyone on PPIs over 12 months or with red flags</td><td>Diagnostic — guides the fix</td></tr><tr><td>Hiatal hernia repair</td><td>Laparoscopic repair of the diaphragm opening</td><td>Confirmed hernia with preserved sleeve shape</td><td>Doesn't help if the sleeve itself is the problem</td></tr><tr><td>Conversion to mini gastric bypass</td><td>Sleeve converted to bypass — acid diverted downstream</td><td>Persistent GERD, especially with weight regain</td><td>A second operation — 2–3 nights in hospital</td></tr></tbody></table><p>Roughly 90% of patients converted to bypass for GERD stop or dramatically reduce PPIs.</p></section>
+<section><h2>Red Flags — Get Assessed If</h2><ul><li>You need PPIs daily beyond the first year after surgery</li><li>Reflux wakes you at night or you sleep propped up</li><li>Food or liquid regurgitates when bending or lying down</li><li>Symptoms are worsening rather than stable</li><li>You also have weight regain alongside the reflux</li><li>You have difficulty swallowing or food sticking — see a doctor promptly</li></ul><p>Long-standing reflux can cause Barrett's oesophagus, a pre-cancerous change that is silent while tablets mask the symptoms. A one-time endoscopy settles whether your oesophagus is safe.</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Why does acid reflux happen after a gastric sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "The sleeve turns the stomach into a narrow, high-pressure tube and removes part of the natural anti-reflux valve mechanism. Acid has less room and more pressure pushing it up toward the oesophagus. Studies show GERD affects up to 55% of sleeve patients long-term, and around 10% develop reflux severe enough to need intervention." }},
+        { "@type": "Question", "name": "Will reflux after my sleeve go away on its own?", "acceptedAnswer": { "@type": "Answer", "text": "Mild reflux in the first months often settles as swelling resolves and weight drops. Reflux that persists beyond a year, worsens over time, or wakes you at night usually will not resolve alone \u2014 and long-standing untreated reflux can damage the oesophagus (Barrett's oesophagus), so it needs assessment, not just more antacids." }},
+        { "@type": "Question", "name": "What are the treatment options for reflux after a sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "In order of escalation: (1) lifestyle measures and PPI medication (omeprazole family), (2) endoscopic assessment to check for hiatal hernia or sleeve deformity, (3) hiatal hernia repair if one is found, and (4) conversion to a mini gastric bypass \u2014 the definitive fix, because it diverts acid away from the oesophagus entirely. Bypass conversion resolves or dramatically improves reflux in around 90% of cases." }},
+        { "@type": "Question", "name": "Is it safe to stay on PPIs (omeprazole) for years?", "acceptedAnswer": { "@type": "Answer", "text": "PPIs are generally safe under medical supervision, but needing them daily for years after a sleeve is a signal worth investigating \u2014 both because of possible long-term effects (nutrient absorption, bone density) and because ongoing acid exposure can silently damage the oesophagus even when tablets control the burning." }},
+        { "@type": "Question", "name": "Does converting a sleeve to a bypass really cure reflux?", "acceptedAnswer": { "@type": "Answer", "text": "It is the most reliable solution available. The bypass creates a small pouch that produces little acid and routes bile and acid far downstream, so there is simply much less to reflux. Around 90% of patients converted for GERD stop their PPIs or reduce them dramatically. The conversion also addresses any weight regain at the same time." }},
+        { "@type": "Question", "name": "I have both reflux and weight regain \u2014 which do I treat?", "acceptedAnswer": { "@type": "Answer", "text": "Both, usually with one procedure. Sleeve-to-bypass conversion is uniquely suited to this combination \u2014 it is the standard answer when regain and GERD occur together, resolving acid exposure while restarting weight loss. This is one of the most common revision scenarios we treat." }}
+      ]
+    }, {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": SITE_URL + "/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "Reflux After Gastric Sleeve", "item": SITE_URL + "/reflux-after-gastric-sleeve" }
+      ]
+    }]
+  },
+  "/bariatric-surgery-long-term-results": {
+    title: "Bariatric Surgery Long-Term Results: 5, 10 & 20-Year Outcomes Explained",
+    description: "What the evidence shows 5-20 years after weight loss surgery: sustained weight loss, diabetes remission, 30-50% lower mortality — and the honest regain data.",
+    h1: "Bariatric Surgery Long-Term Results: What Really Happens at 5, 10 and 20 Years",
+    bodyExcerpt: "Long-term evidence including the 20+ year Swedish Obese Subjects study shows bariatric surgery patients maintain 20-30% total body weight loss at 10 years, with all-cause mortality 30-50% lower than matched controls. Sleeve patients keep 50-60% of excess weight off at 10 years, bypass patients 55-65%, and over 80% of ESG patients maintain at least 10% total weight loss at 5 years. Type 2 diabetes remission reaches 80-90% after bypass, with about half of remissions holding beyond 10 years. Modest regain is normal; significant regain affects up to 30% of sleeve patients and is treatable.",
+    canonical: SITE_URL + "/bariatric-surgery-long-term-results",
+    modifiedTime: "2026-08-01T09:00:00+03:00",
+    richContent: `<section><h2>Durability by Procedure</h2><table><thead><tr><th>Procedure</th><th>Total Weight Loss (peak)</th><th>Maintained at 10 Years</th><th>Key Long-Term Consideration</th></tr></thead><tbody><tr><td>Gastric Sleeve</td><td>25–30%</td><td>20–25%</td><td>GERD in up to 55%; regain in ~30% by year 5</td></tr><tr><td>Mini Gastric Bypass</td><td>30–35%</td><td>25–30%</td><td>Lifelong supplements; strongest diabetes effect</td></tr><tr><td>ESG (Endoscopic)</td><td>15–20%</td><td>Over 80% keep ≥10% at 5 yrs</td><td>Re-tightenable; surgery stays available</td></tr><tr><td>Gastric Balloon</td><td>10–15%</td><td>Depends on habits after removal</td><td>A kick-start tool, not a long-term treatment</td></tr></tbody></table></section>
+<section><h2>What the Landmark Studies Show</h2><ul><li><strong>Weight:</strong> surgical patients maintain 20–30% total body weight loss at 10 years, versus roughly 1–2% for intensive non-surgical care.</li><li><strong>Survival:</strong> all-cause mortality falls 30–50%, with the largest reductions in cardiovascular death and obesity-related cancers.</li><li><strong>Diabetes:</strong> remission in the majority of patients, with about half of remissions still holding beyond 10 years.</li><li><strong>Quality of life:</strong> sustained improvements in mobility, sleep apnoea, joint pain, fertility and depression scores.</li></ul></section>
+<section><h2>What Protects Your Result for Decades</h2><ul><li>Annual blood tests — B12, vitamin D, iron, folate, calcium</li><li>Daily multivitamin (lifelong after a bypass)</li><li>Protein-first eating and limiting liquid calories</li><li>Responding to 5 kg of regain, not 25 kg</li><li>A surgical team you can still reach in year 7 — not just year 1</li></ul></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "How much weight do people keep off 10 years after bariatric surgery?", "acceptedAnswer": { "@type": "Answer", "text": "Long-term studies (including the landmark SOS study following patients for 20+ years) show bariatric surgery patients maintain 20-30% total body weight loss at 10 years, versus almost nothing for non-surgical treatment. Sleeve patients typically keep off 50-60% of excess weight at 10 years, bypass patients 55-65%." }},
+        { "@type": "Question", "name": "Does bariatric surgery actually make you live longer?", "acceptedAnswer": { "@type": "Answer", "text": "Yes \u2014 this is one of the strongest findings in modern surgery. Large cohort studies show 30-50% lower all-cause mortality over 10+ years in surgical patients versus matched controls, driven by fewer cardiovascular deaths, diabetes complications and obesity-related cancers." }},
+        { "@type": "Question", "name": "What happens to type 2 diabetes long-term after surgery?", "acceptedAnswer": { "@type": "Answer", "text": "Remission is common and often durable: roughly 60-70% remission after sleeve and 80-90% after bypass at 1-2 years, with about half of remissions sustained past 10 years. Even patients whose diabetes eventually returns typically need less medication and have better control than before surgery." }},
+        { "@type": "Question", "name": "Is some weight regain after surgery inevitable?", "acceptedAnswer": { "@type": "Answer", "text": "A modest regain from the lowest point (typically 5-10% of body weight between years 2 and 5) is physiologically normal and factored into the long-term results above. Significant regain \u2014 more than 25% of the weight lost \u2014 affects up to 30% of sleeve patients within 5 years and is treatable; see our weight regain guide." }},
+        { "@type": "Question", "name": "What long-term follow-up does bariatric surgery need?", "acceptedAnswer": { "@type": "Answer", "text": "Annual blood tests (vitamins B12, D, iron, folate, calcium), consistent multivitamin use \u2014 lifelong after a bypass \u2014 and access to a dietitian when eating drifts. Istanbul Bariatric Center includes 12 months of structured aftercare and remains available on WhatsApp for life." }},
+        { "@type": "Question", "name": "How do the long-term results of ESG compare to surgery?", "acceptedAnswer": { "@type": "Answer", "text": "ESG's 5-year data (MERIT randomised trial) shows over 80% of patients maintaining at least 10% total body weight loss \u2014 durable, but less than surgery's 20-30%. ESG suits lower BMI ranges; surgery remains the benchmark for BMI over 40 or significant metabolic disease." }}
+      ]
+    }, {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": SITE_URL + "/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "Bariatric Surgery Long-Term Results", "item": SITE_URL + "/bariatric-surgery-long-term-results" }
+      ]
+    }]
+  },
+  "/bariatric-surgery-travel-guide": {
+    title: "Bariatric Surgery in Istanbul: Complete Travel Guide — Timeline, Airport, Hotel, Flying Home",
+    description: "Day-by-day travel guide for weight loss surgery in Istanbul: what happens at the airport, hospital and hotel, when you can fly home, packing list and companion tips.",
+    h1: "Your Trip to Istanbul, Day by Day",
+    bodyExcerpt: "A typical surgical trip is 4-6 nights: day 1 arrival with VIP airport pick-up and pre-operative tests; day 2 surgery at JCI-accredited Liv Hospital; days 3-4 monitored hospital recovery; days 4-5 hotel recovery at the Radisson with daily check-ins; day 5-6 final review and fly home. ESG and gastric balloon patients need only 2-3 days. Companions stay free, a translator is provided throughout, and every transfer is included — you never need a taxi. Flying 4-6 days post-op is safe and routine with our return-to-fly protocol.",
+    canonical: SITE_URL + "/bariatric-surgery-travel-guide",
+    modifiedTime: "2026-08-01T09:00:00+03:00",
+    richContent: `<section><h2>The Day-by-Day Timeline (Sleeve & Bypass)</h2><ol><li><strong>Day 1 — Arrival & tests:</strong> VIP driver meets you at Istanbul Airport; blood tests, ECG, chest X-ray, ultrasound, anaesthesia review and consultation with Dr Ustun the same afternoon.</li><li><strong>Day 2 — Surgery day:</strong> the operation takes about an hour; you're walking the corridor the same evening.</li><li><strong>Days 3–4 — Hospital recovery:</strong> leak test, clear liquids, daily visits from Dr Ustun and the dietitian.</li><li><strong>Days 4–5 — Hotel recovery:</strong> discharge to the Radisson with your medication pack and daily team check-ins.</li><li><strong>Day 5–6 — Final review & fly home:</strong> closing check-up, take-home protocol, airport transfer.</li></ol><p>ESG or gastric balloon: procedure on day 1–2, discharge same day or next morning, fly home from day 2–3.</p></section>
+<section><h2>Return-to-Fly Rules</h2><ul><li><strong>Sleeve / bypass / revision:</strong> fly from day 4–6, after your final surgical review</li><li><strong>ESG:</strong> fly from day 2–3</li><li><strong>Gastric balloon:</strong> fly from day 1–2</li></ul><p>On the flight: aisle seat, walk every 45–60 minutes, sip fluids constantly, wear the compression stockings provided. Long-haul patients may be advised to stay one extra night.</p></section>
+<section><h2>Packing List</h2><ul><li>Passport valid 150+ days (UK citizens need no visa)</li><li>Loose, front-opening clothes and slip-on shoes</li><li>Regular medications in original packaging</li><li>Small pillow — hugging it eases the flight home</li><li>Charger with a long cable and entertainment for hospital downtime</li><li>An empty water bottle for scheduled sipping</li></ul></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "How soon after bariatric surgery can I fly home?", "acceptedAnswer": { "@type": "Answer", "text": "For sleeve and bypass patients, flying 4-6 days after surgery is safe and routine \u2014 you'll have had 2-3 monitored nights in hospital and 1-2 recovery nights at the hotel, with a final surgical review before departure. ESG and balloon patients can usually fly within 2-3 days. We schedule your return flight date with you before you ever book it." }},
+        { "@type": "Question", "name": "Should I bring someone with me?", "acceptedAnswer": { "@type": "Answer", "text": "You don't have to \u2014 many patients travel alone and our coordinators, drivers and nurses look after everything \u2014 but a companion makes the trip more comfortable. Companions stay free in your hotel room in our packages, and hospital rooms accommodate an overnight guest. If you come alone, our team checks on you daily at the hotel." }},
+        { "@type": "Question", "name": "What happens when I land at Istanbul Airport?", "acceptedAnswer": { "@type": "Answer", "text": "A VIP driver meets you in arrivals holding your name, takes your luggage and drives you directly to the hotel or hospital depending on your schedule. All transfers \u2014 airport, hotel, hospital, and back \u2014 are included, so you never need a taxi or public transport." }},
+        { "@type": "Question", "name": "What should I pack for bariatric surgery abroad?", "acceptedAnswer": { "@type": "Answer", "text": "Essentials: passport (valid 150+ days), comfortable loose clothing, slip-on shoes, chapstick, any regular medications in original packaging, a small pillow for the flight home (hugging it eases coughing and seatbelt pressure), and an empty water bottle for sipping. We send a full packing checklist when you book." }},
+        { "@type": "Question", "name": "Is Istanbul safe for medical travel?", "acceptedAnswer": { "@type": "Answer", "text": "Istanbul hosts over a million international medical travellers each year and the districts around Liv Hospital are modern, safe and used to international patients. You'll be accompanied by our drivers and coordinators for every scheduled movement, and the team is reachable on WhatsApp 24/7 throughout your stay." }},
+        { "@type": "Question", "name": "What if I have a problem after I fly home?", "acceptedAnswer": { "@type": "Answer", "text": "You keep direct WhatsApp access to the clinical team \u2014 send a message or photos any time and you'll get a same-day response. Relaxation and Luxury packages include 12 months of UK-registered dietitian follow-up, and UK patients have in-person care support in 8 locations. For anything urgent, we coordinate with local services and your GP." }}
+      ]
+    }, {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": SITE_URL + "/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "Bariatric Surgery Travel Guide", "item": SITE_URL + "/bariatric-surgery-travel-guide" }
+      ]
+    }]
+  },
   "/best-endosleeve-clinic-istanbul": {
     title: "Best Endosleeve Clinic in Istanbul 2026 — Apollo ESG Reviews, Cost & Results",
     description: "Best Endosleeve / Apollo ESG clinic in Istanbul: 2,000+ procedures, 4.9★ reviews, JCI hospital, all-inclusive from £4,950. Compare cost, results and reviews of Istanbul Bariatric Center vs other Istanbul ESG clinics.",

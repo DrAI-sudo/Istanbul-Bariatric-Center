@@ -26,6 +26,13 @@ const ESG = lazy(() => import("@/pages/esg"));
 const RevisionBariatricSurgery = lazy(() => import("@/pages/revision-bariatric-surgery"));
 const CostOfBariatricSurgery = lazy(() => import("@/pages/cost-of-bariatric-surgery"));
 const BariatricSurgeryUKPatients = lazy(() => import("@/pages/bariatric-surgery-uk-patients"));
+const SleeveVsBypass = lazy(() => import("@/pages/sleeve-vs-bypass"));
+const ESGVsSleeve = lazy(() => import("@/pages/esg-vs-sleeve"));
+const BalloonVsSleeve = lazy(() => import("@/pages/balloon-vs-sleeve"));
+const WeightRegainAfterSleeve = lazy(() => import("@/pages/weight-regain-after-gastric-sleeve"));
+const RefluxAfterSleeve = lazy(() => import("@/pages/reflux-after-gastric-sleeve"));
+const LongTermResults = lazy(() => import("@/pages/bariatric-surgery-long-term-results"));
+const TravelGuide = lazy(() => import("@/pages/travel-guide"));
 const BestEndosleeveClinic = lazy(() => import("@/pages/best-endosleeve-clinic"));
 const ESGUK = lazy(() => import("@/pages/esg-uk"));
 const ESGDE = lazy(() => import("@/pages/esg-de"));
@@ -101,6 +108,13 @@ function Router() {
           <Route path="/revision-bariatric-surgery" component={RevisionBariatricSurgery} />
           <Route path="/cost-of-bariatric-surgery-in-turkey" component={CostOfBariatricSurgery} />
           <Route path="/bariatric-surgery-for-uk-patients" component={BariatricSurgeryUKPatients} />
+          <Route path="/gastric-sleeve-vs-gastric-bypass" component={SleeveVsBypass} />
+          <Route path="/esg-vs-gastric-sleeve" component={ESGVsSleeve} />
+          <Route path="/gastric-balloon-vs-gastric-sleeve" component={BalloonVsSleeve} />
+          <Route path="/weight-regain-after-gastric-sleeve" component={WeightRegainAfterSleeve} />
+          <Route path="/reflux-after-gastric-sleeve" component={RefluxAfterSleeve} />
+          <Route path="/bariatric-surgery-long-term-results" component={LongTermResults} />
+          <Route path="/bariatric-surgery-travel-guide" component={TravelGuide} />
           <Route path="/best-endosleeve-clinic-istanbul" component={BestEndosleeveClinic} />
           <Route path="/esg/uk" component={ESGUK} />
           <Route path="/esg/de" component={ESGDE} />
