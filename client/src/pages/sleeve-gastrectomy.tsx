@@ -2,12 +2,20 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { Check, ArrowRight } from "lucide-react";
+import { Check } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { SEO, JsonLd, structuredData } from "@/components/seo";
-import { Link } from "wouter";
-import { SummarizeWithAI } from "@/components/summarize-with-ai";
+import { SEO } from "@/components/seo";
+import {
+  MoneyHero,
+  ProcedureFacts,
+  ProseSection,
+  Checklist,
+  SurgeonProof,
+  FAQSection,
+  RelatedLinks,
+  ConversionModule,
+  InlineCTA,
+} from "@/components/money-page";
 
 const faqs = [
   {
@@ -68,13 +76,12 @@ function linkifyDrName(text: string) {
 
 export default function SleeveGastrectomy() {
   const { t } = useTranslation('treatments');
-  
+
   const advantages = t('gastricSleeve.advantages', { returnObjects: true }) as string[];
   const risks = t('gastricSleeve.risks', { returnObjects: true }) as string[];
-  const packages = t('gastricSleeve.packages', { returnObjects: true }) as { basic: { name: string; price: string; days: string }; relaxation: { name: string; price: string; days: string }; luxury: { name: string; price: string; days: string } };
-  
+
   const packageList = [
-    { 
+    {
       name: "Sleeve Gastrectomy Basic",
       price: "£2,950",
       color: "blue",
@@ -87,7 +94,7 @@ export default function SleeveGastrectomy() {
         "Dietitian support"
       ]
     },
-    { 
+    {
       name: "Sleeve Gastrectomy Relaxation",
       price: "£3,950",
       color: "emerald",
@@ -100,7 +107,7 @@ export default function SleeveGastrectomy() {
         "UK-registered dietitian support"
       ]
     },
-    { 
+    {
       name: "Sleeve Gastrectomy Luxury",
       price: "£4,250",
       color: "amber",
@@ -126,209 +133,123 @@ export default function SleeveGastrectomy() {
         keywords="gastric sleeve turkey, sleeve gastrectomy istanbul, vsg surgery turkey, weight loss surgery cost"
         url="/sleeve-gastrectomy"
       />
-      <JsonLd data={structuredData.createFAQ(faqs)} />
       <Navbar />
-      
-      {/* Hero Header */}
-      <section className="bg-slate-900 text-white pt-40 pb-20">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('gastricSleeve.heroTitle')}</h1>
-          <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            {t('gastricSleeve.heroSubtitle')}
-          </p>
-          <SummarizeWithAI variant="dark" />
-        </div>
-      </section>
+      <MoneyHero title={t('gastricSleeve.heroTitle')} subtitle={t('gastricSleeve.heroSubtitle')} />
 
-      {/* Overview Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="space-y-6">
-              <h2 className="text-3xl font-bold text-slate-900">{t('gastricSleeve.overviewTitle')}</h2>
-              <p className="text-lg text-slate-600 leading-relaxed">
-                {t('gastricSleeve.overviewP1')}
-              </p>
-              <p className="text-lg text-slate-600 leading-relaxed">
-                {t('gastricSleeve.overviewP2')}
-              </p>
-              <p className="text-lg text-slate-600 leading-relaxed">
-                {t('gastricSleeve.overviewP3')}
-              </p>
-              <Button 
-                className="bg-primary hover:bg-primary/90 h-12 px-8"
-                onClick={() => window.open('https://wa.me/447491068686', '_blank')}
-              >
-                {t('common.bookConsultation')} <ArrowRight className="ml-2 w-4 h-4" />
-              </Button>
-            </div>
-            <div className="flex justify-center">
-              <img 
-                src="/gastric-sleeve.webp" 
-                alt="Gastric Sleeve Surgery Illustration" 
-                className="max-w-md w-full"
-                width="400"
-                height="400"
-                loading="lazy"
-              />
+      <div>
+        <ProcedureFacts
+          title="Gastric Sleeve at a Glance"
+          facts={[
+            { label: "Stomach reduction", value: "75–80%" },
+            { label: "Excess weight loss", value: "60–70%" },
+            { label: "Hospital stay", value: "2–3 nights" },
+            { label: "All-inclusive from", value: "£2,950" },
+          ]}
+        />
+
+        {/* Overview */}
+        <section className="py-20">
+          <div className="container mx-auto px-4">
+            <div className="grid lg:grid-cols-2 gap-16 items-center">
+              <div className="space-y-6">
+                <h2 className="text-3xl font-bold text-slate-900">{t('gastricSleeve.overviewTitle')}</h2>
+                <p className="text-lg text-slate-600 leading-relaxed">{t('gastricSleeve.overviewP1')}</p>
+                <p className="text-lg text-slate-600 leading-relaxed">{t('gastricSleeve.overviewP2')}</p>
+                <p className="text-lg text-slate-600 leading-relaxed">{t('gastricSleeve.overviewP3')}</p>
+                <InlineCTA label={t('common.bookConsultation')} />
+              </div>
+              <div className="flex justify-center">
+                <img
+                  src="/gastric-sleeve.webp"
+                  alt="Gastric Sleeve Surgery Illustration"
+                  className="max-w-md w-full"
+                  width="400"
+                  height="400"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Advantages */}
-      <section className="py-20 bg-slate-50">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">{t('common.advantages')}</h2>
-          <div className="grid md:grid-cols-2 gap-4">
-            {Array.isArray(advantages) && advantages.map((adv, i) => (
-              <div key={i} className="flex items-start gap-3 p-4 bg-green-50 rounded-lg border border-green-100">
-                <div className="w-6 h-6 rounded-full bg-green-500 text-white flex items-center justify-center shrink-0 mt-0.5">
-                  <Check className="w-4 h-4" />
-                </div>
-                <span className="text-slate-700">{adv}</span>
-              </div>
-            ))}
+        <Checklist title={t('common.advantages')} items={Array.isArray(advantages) ? advantages : []} tone="positive" background="slate" />
+        <Checklist title={t('common.risks')} items={Array.isArray(risks) ? risks : []} tone="warning" background="white" />
+
+        {/* Pricing Packages */}
+        <section className="py-20 bg-slate-50">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-slate-900 mb-4">{t('main.sleevePackageTitle')}</h2>
+              <p className="text-slate-600 text-lg">{t('main.sleevePackageDesc')}</p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              {packageList.map((pkg, idx) => {
+                const colorStyles = {
+                  blue: { border: 'border-blue-500', bg: 'bg-blue-50', price: 'text-blue-600', check: 'bg-blue-100', checkIcon: 'text-blue-600', btn: 'bg-blue-600 hover:bg-blue-700', badge: 'bg-blue-600' },
+                  emerald: { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' },
+                  amber: { border: 'border-amber-500', bg: 'bg-amber-50', price: 'text-amber-600', check: 'bg-amber-100', checkIcon: 'text-amber-600', btn: 'bg-amber-600 hover:bg-amber-700', badge: 'bg-amber-600' },
+                }[pkg.color] || { border: 'border-blue-500', bg: 'bg-blue-50', price: 'text-blue-600', check: 'bg-blue-100', checkIcon: 'text-blue-600', btn: 'bg-blue-600 hover:bg-blue-700', badge: 'bg-blue-600' };
+                return (
+                  <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? `${colorStyles.border} shadow-lg scale-105 z-10` : `${colorStyles.border} shadow-sm`}`}>
+                    {pkg.recommended && (
+                      <div className={`absolute top-0 right-0 ${colorStyles.badge} text-white text-xs font-bold px-3 py-1 rounded-bl-lg`}>
+                        {t('common.popular')}
+                      </div>
+                    )}
+                    <CardHeader className={`text-center pb-2 ${colorStyles.bg}`}>
+                      <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
+                    </CardHeader>
+                    <CardContent className="text-center space-y-6 pt-6">
+                      <div className={`text-4xl font-extrabold ${colorStyles.price}`}>{pkg.price}</div>
+                      <ul className="space-y-4 text-left mx-auto max-w-[240px]">
+                        {pkg.features.map((feature: string, i: number) => (
+                          <li key={i} className="flex items-center gap-3 text-slate-700">
+                            <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
+                              <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} />
+                            </div>
+                            {linkifyDrName(feature)}
+                          </li>
+                        ))}
+                      </ul>
+                    </CardContent>
+                    <CardFooter className="pt-4 pb-8">
+                      <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`Hi, I'm interested in the ${pkg.name} package`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
+                        <Button className={`w-full ${colorStyles.btn} text-white`}>
+                          {t('common.selectPackage')}
+                        </Button>
+                      </a>
+                    </CardFooter>
+                  </Card>
+                );
+              })}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Risks */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">{t('common.risks')}</h2>
-          <div className="grid md:grid-cols-2 gap-4">
-            {Array.isArray(risks) && risks.map((risk, i) => (
-              <div key={i} className="flex items-start gap-3 p-4 bg-amber-50 rounded-lg border border-amber-100">
-                <div className="w-6 h-6 rounded-full bg-amber-500 text-white flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">!</div>
-                <span className="text-slate-700">{risk}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+        <SurgeonProof
+          title="Why Choose Istanbul Bariatric Center for Gastric Sleeve?"
+          subtitle="World-class surgical expertise, JCI-accredited facilities, and transparent all-inclusive pricing."
+        />
 
-      {/* Pricing Packages */}
-      <section className="py-20 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">{t('main.sleevePackageTitle')}</h2>
-            <p className="text-slate-600 text-lg">{t('main.sleevePackageDesc')}</p>
-          </div>
+        <FAQSection title={t('common.faqs')} faqs={faqs} />
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {packageList.map((pkg, idx) => {
-              const colorStyles = {
-                blue: { border: 'border-blue-500', bg: 'bg-blue-50', price: 'text-blue-600', check: 'bg-blue-100', checkIcon: 'text-blue-600', btn: 'bg-blue-600 hover:bg-blue-700', badge: 'bg-blue-600' },
-                emerald: { border: 'border-emerald-500', bg: 'bg-emerald-50', price: 'text-emerald-600', check: 'bg-emerald-100', checkIcon: 'text-emerald-600', btn: 'bg-emerald-600 hover:bg-emerald-700', badge: 'bg-emerald-600' },
-                amber: { border: 'border-amber-500', bg: 'bg-amber-50', price: 'text-amber-600', check: 'bg-amber-100', checkIcon: 'text-amber-600', btn: 'bg-amber-600 hover:bg-amber-700', badge: 'bg-amber-600' },
-              }[pkg.color] || { border: 'border-blue-500', bg: 'bg-blue-50', price: 'text-blue-600', check: 'bg-blue-100', checkIcon: 'text-blue-600', btn: 'bg-blue-600 hover:bg-blue-700', badge: 'bg-blue-600' };
-              return (
-                <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? `${colorStyles.border} shadow-lg scale-105 z-10` : `${colorStyles.border} shadow-sm`}`}>
-                  {pkg.recommended && (
-                    <div className={`absolute top-0 right-0 ${colorStyles.badge} text-white text-xs font-bold px-3 py-1 rounded-bl-lg`}>
-                      {t('common.popular')}
-                    </div>
-                  )}
-                  <CardHeader className={`text-center pb-2 ${colorStyles.bg}`}>
-                    <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
-                  </CardHeader>
-                  <CardContent className="text-center space-y-6 pt-6">
-                    <div className={`text-4xl font-extrabold ${colorStyles.price}`}>{pkg.price}</div>
-                    <ul className="space-y-4 text-left mx-auto max-w-[240px]">
-                      {pkg.features.map((feature: string, i: number) => (
-                        <li key={i} className="flex items-center gap-3 text-slate-700">
-                          <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
-                            <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} />
-                          </div>
-                          {linkifyDrName(feature)}
-                        </li>
-                      ))}
-                    </ul>
-                  </CardContent>
-                  <CardFooter className="pt-4 pb-8">
-                    <a href={`https://wa.me/905324131143?text=${encodeURIComponent(`Hi, I'm interested in the ${pkg.name} package`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
-                      <Button className={`w-full ${colorStyles.btn} text-white`}>
-                        {t('common.selectPackage')}
-                      </Button>
-                    </a>
-                  </CardFooter>
-                </Card>
-              );
-            })}
-          </div>
-        </div>
-      </section>
+        <RelatedLinks
+          title="Explore Other Weight Loss Options"
+          links={[
+            { title: "Gastric Bypass", description: "70-85% excess weight loss", href: "/mini-gastric-bypass" },
+            { title: "Gastric Balloon", description: "Non-surgical option", href: "/gastric-balloon" },
+            { title: "Endoscopic Sleeve", description: "Minimally invasive", href: "/esg" },
+            { title: "Revision Surgery", description: "Options after weight regain", href: "/revision-bariatric-surgery" },
+          ]}
+        />
 
-      {/* FAQs */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">{t('common.faqs')}</h2>
-          
-          <Accordion type="single" collapsible className="space-y-4">
-            {faqs.map((faq, i) => (
-              <AccordionItem key={i} value={`item-${i}`} className="border rounded-lg px-6 bg-white shadow-sm">
-                <AccordionTrigger className="text-left font-bold text-slate-900 hover:no-underline">
-                  {faq.question}
-                </AccordionTrigger>
-                <AccordionContent className="text-slate-600 leading-relaxed">
-                  {faq.answer}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-        </div>
-      </section>
-
-      {/* Related Treatments */}
-      <section className="py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">Explore Other Weight Loss Options</h2>
-          <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto">
-            <Link href="/mini-gastric-bypass">
-              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
-                <h3 className="font-bold text-primary mb-2">Gastric Bypass</h3>
-                <p className="text-sm text-slate-600">70-85% excess weight loss</p>
-              </div>
-            </Link>
-            <Link href="/gastric-balloon">
-              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
-                <h3 className="font-bold text-primary mb-2">Gastric Balloon</h3>
-                <p className="text-sm text-slate-600">Non-surgical option</p>
-              </div>
-            </Link>
-            <Link href="/esg">
-              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
-                <h3 className="font-bold text-primary mb-2">Endoscopic Sleeve</h3>
-                <p className="text-sm text-slate-600">Minimally invasive</p>
-              </div>
-            </Link>
-            <Link href="/duodenal-switch">
-              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
-                <h3 className="font-bold text-primary mb-2">Duodenal Switch</h3>
-                <p className="text-sm text-slate-600">For BMI 50+</p>
-              </div>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="py-20 bg-primary text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">Ready to Start Your Weight Loss Journey?</h2>
-          <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Contact <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">Dr Murat Ustun's</a> team today for a free consultation and learn how gastric sleeve surgery can help you achieve your goals.
-          </p>
-          <Button 
-            size="lg" 
-            className="bg-white text-primary hover:bg-white/90 font-bold text-lg h-14 px-10"
-            onClick={() => window.open('https://wa.me/447491068686', '_blank')}
-          >
-            {t('common.bookConsultation')}
-          </Button>
-        </div>
-      </section>
+        <ConversionModule
+          title="Ready to Start Your Weight Loss Journey?"
+          text={<>Contact <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">Dr Murat Ustun's</a> team today for a free consultation and learn how gastric sleeve surgery can help you achieve your goals.</>}
+          buttonLabel={t('common.bookConsultation')}
+        />
+      </div>
 
       <Footer />
     </div>

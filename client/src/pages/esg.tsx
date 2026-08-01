@@ -1,11 +1,20 @@
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { CountryFlagsBar } from "@/components/country-flags-bar";
-import { Button } from "@/components/ui/button";
-import { CheckCircle2, Award, ShieldCheck, Stethoscope, BadgePoundSterling } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
-import { SummarizeWithAI } from "@/components/summarize-with-ai";
+import {
+  MoneyHero,
+  ProcedureFacts,
+  ProseSection,
+  ComparisonBlock,
+  SurgeonProof,
+  FAQSection,
+  RelatedLinks,
+  ConversionModule,
+  InlineCTA,
+} from "@/components/money-page";
 
 const esgFaqs = [
   {
@@ -34,61 +43,16 @@ const esgFaqs = [
   }
 ];
 
-const comparisonData = [
-  {
-    criteria: "Procedure Type",
-    esg: "Endoscopic (through mouth)",
-    sleeve: "Laparoscopic surgery (4–5 incisions)",
-    balloon: "Endoscopic (through mouth)",
-  },
-  {
-    criteria: "BMI Range",
-    esg: "30–40",
-    sleeve: "35+",
-    balloon: "30–40",
-  },
-  {
-    criteria: "Expected Weight Loss",
-    esg: "15–20% of total body weight",
-    sleeve: "60–70% of excess weight",
-    balloon: "10–15% of total body weight",
-  },
-  {
-    criteria: "Procedure Duration",
-    esg: "~90 minutes",
-    sleeve: "~60 minutes",
-    balloon: "~20 minutes",
-  },
-  {
-    criteria: "Hospital Stay",
-    esg: "Same day / 1 night",
-    sleeve: "2–3 nights",
-    balloon: "Same day",
-  },
-  {
-    criteria: "Recovery Time",
-    esg: "1–3 days",
-    sleeve: "2–3 weeks",
-    balloon: "1–3 days",
-  },
-  {
-    criteria: "Risk Profile",
-    esg: "Very low — no incisions",
-    sleeve: "Low — minimally invasive surgery",
-    balloon: "Very low — temporary device",
-  },
-  {
-    criteria: "Reversibility",
-    esg: "Potentially reversible",
-    sleeve: "Permanent (stomach removed)",
-    balloon: "Fully reversible (removed at 6–12 months)",
-  },
-  {
-    criteria: "Starting Price (Istanbul)",
-    esg: "From £4,950",
-    sleeve: "From £2,950",
-    balloon: "From £1,650",
-  },
+const comparisonRows: string[][] = [
+  ["Procedure Type", "Endoscopic (through mouth)", "Laparoscopic surgery (4–5 incisions)", "Endoscopic (through mouth)"],
+  ["BMI Range", "30–40", "35+", "30–40"],
+  ["Expected Weight Loss", "15–20% of total body weight", "60–70% of excess weight", "10–15% of total body weight"],
+  ["Procedure Duration", "~90 minutes", "~60 minutes", "~20 minutes"],
+  ["Hospital Stay", "Same day / 1 night", "2–3 nights", "Same day"],
+  ["Recovery Time", "1–3 days", "2–3 weeks", "1–3 days"],
+  ["Risk Profile", "Very low — no incisions", "Low — minimally invasive surgery", "Very low — temporary device"],
+  ["Reversibility", "Potentially reversible", "Permanent (stomach removed)", "Fully reversible (removed at 6–12 months)"],
+  ["Starting Price (Istanbul)", "From £4,950", "From £2,950", "From £1,650"],
 ];
 
 const healthBenefits = [
@@ -107,7 +71,7 @@ const weightLossResults = [
 
 export default function ESG() {
   const { t } = useTranslation('treatments');
-  
+
   const esgProcedureSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalProcedure",
@@ -129,7 +93,7 @@ export default function ESG() {
       "name": "Bariatric Surgery"
     }
   };
-  
+
   return (
     <div className="min-h-screen bg-white">
       <SEO
@@ -139,364 +103,255 @@ export default function ESG() {
         url="/esg"
       />
       <JsonLd data={esgProcedureSchema} />
-      <JsonLd data={structuredData.createFAQ(esgFaqs)} />
       <JsonLd data={structuredData.createBreadcrumb([
         { name: "Home", url: "/" },
         { name: "Treatments", url: "/treatments" },
         { name: "Endoscopic Sleeve Gastroplasty", url: "/esg" }
       ])} />
       <Navbar />
-      
-      {/* Hero Header */}
-      <section className="bg-slate-900 text-white pt-40 pb-20">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('esg.heroTitle')}</h1>
-          <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            {t('esg.heroSubtitle')}
+      <MoneyHero title={t('esg.heroTitle')} subtitle={t('esg.heroSubtitle')} />
+
+      <div>
+        <ProcedureFacts
+          title="ESG at a Glance"
+          facts={[
+            { label: "Stomach reduction", value: "70–80%" },
+            { label: "Total body weight loss", value: "15–20%" },
+            { label: "Incisions", value: "None" },
+            { label: "All-inclusive from", value: "£4,950" },
+          ]}
+        />
+
+        {/* Introduction */}
+        <section className="py-20">
+          <div className="container mx-auto px-4">
+            <div className="grid lg:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
+              <div className="space-y-6">
+                <p className="text-lg text-slate-600 leading-relaxed">
+                  Apollo Endoscopic Sleeve Gastroplasty (ESG) is a promising advancement in the treatment of obesity that offers an obese person a great chance of having a significant weight reduction in a short period.
+                </p>
+                <p className="text-lg text-slate-600 leading-relaxed">
+                  <strong>Apollo Endoscopic sleeve gastroplasty</strong> is considered as a promising form of weight reduction treatment. Its biggest appeal is that patients benefit from a reduced risk level and quicker recovery period since it is a <strong>non-surgical and incisionless procedure</strong> of weight-loss.
+                </p>
+                <p className="text-lg text-slate-600 leading-relaxed">
+                  Endoscopic sleeve gastroplasty, utilizing an endoscopic suture system (Apollo), decreases the size of the stomach without the need for surgery. If the person is severely overweight (Over 30 on BMI) and can't drop weight with a proper diet and exercise program, this treatment may be a good choice.
+                </p>
+                <InlineCTA label={t('common.bookConsultation')} />
+              </div>
+              <div className="flex justify-center">
+                <img
+                  src="/esg-procedure-cdn.webp"
+                  alt="Apollo Endoscopic Gastroplasty ESG Procedure"
+                  className="rounded-2xl shadow-xl max-w-md w-full"
+                  width="400"
+                  height="400"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Animation Video Section */}
+        <section className="py-16 bg-slate-100">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">Apollo Endosleeve (ESG) Animation</h2>
+              <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/z_NcxpUfPG4"
+                  title="Apollo ESG Endoscopic Gastroplasty Animation"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <ComparisonBlock
+          title="ESG vs Gastric Sleeve vs Gastric Balloon"
+          subtitle="Compare key factors to find the procedure that best matches your goals, BMI, and lifestyle."
+          columns={["Criteria", "ESG", "Gastric Sleeve", "Gastric Balloon"]}
+          rows={comparisonRows}
+          highlightColumn={0}
+          footnote={<>All procedures performed at JCI-accredited Liv Hospital, Istanbul, by <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Dr Murat Ustun</a> and his specialist team.</>}
+        />
+
+        {/* How Does ESG Help */}
+        <section className="py-20 bg-blue-50">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <h2 className="text-3xl font-bold text-slate-900 mb-8">How Does Endoscopic Sleeve Gastroplasty Help?</h2>
+            <p className="text-lg text-slate-600 mb-8">
+              Endoscopic sleeve gastroplasty is done to help reduce overweight and prevent the chance of having health issues related to extra weight and obesity, such as:
+            </p>
+            <ul className="grid md:grid-cols-2 gap-4">
+              {healthBenefits.map((benefit, i) => (
+                <li key={i} className="flex items-center gap-4 p-5 bg-white rounded-xl shadow-sm border border-slate-100">
+                  <span className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                    <CheckCircle2 className="w-5 h-5 text-primary" aria-hidden="true" />
+                  </span>
+                  <span className="text-slate-700 font-medium">{benefit}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
+        <ProseSection title="Who Is Eligible For Endoscopic Sleeve Gastroplasty?">
+          <p>
+            Generally, endoscopic sleeve gastroplasty is an alternative form of treatment for some of the bariatric procedures and for individuals who are not candidates for other bariatric surgery types. This procedure is applicable and suitable to those whose <strong>BMI is 30 or higher</strong>, or others who have not been responsive with just diet and exercises.
           </p>
-          <SummarizeWithAI variant="dark" />
-        </div>
-      </section>
-
-      {/* Introduction */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
-            <div className="space-y-6">
-              <p className="text-lg text-slate-600 leading-relaxed">
-                Apollo Endoscopic Sleeve Gastroplasty (ESG) is a promising advancement in the treatment of obesity that offers an obese person a great chance of having a significant weight reduction in a short period.
-              </p>
-              <p className="text-lg text-slate-600 leading-relaxed">
-                <strong>Apollo Endoscopic sleeve gastroplasty</strong> is considered as a promising form of weight reduction treatment. Its biggest appeal is that patients benefit from a reduced risk level and quicker recovery period since it is a <strong>non-surgical and incisionless procedure</strong> of weight-loss.
-              </p>
-              <p className="text-lg text-slate-600 leading-relaxed">
-                Endoscopic sleeve gastroplasty, utilizing an endoscopic suture system (Apollo), decreases the size of the stomach without the need for surgery. If the person is severely overweight (Over 30 on BMI) and can't drop weight with a proper diet and exercise program, this treatment may be a good choice.
-              </p>
-              <Button 
-                className="bg-primary hover:bg-primary/90 h-12 px-8"
-                onClick={() => window.open('https://wa.me/447491068686', '_blank')}
-              >
-                {t('common.bookConsultation')}
-              </Button>
-            </div>
-            <div className="flex justify-center">
-              <img 
-                src="/esg-procedure-cdn.webp" 
-                alt="Apollo Endoscopic Gastroplasty ESG Procedure" 
-                className="rounded-2xl shadow-xl max-w-md w-full"
-                width="400"
-                height="400"
-                loading="lazy"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Animation Video Section */}
-      <section className="py-16 bg-slate-100">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">Apollo Endosleeve (ESG) Animation</h2>
-            <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/z_NcxpUfPG4"
-                title="Apollo ESG Endoscopic Gastroplasty Animation"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ESG vs Sleeve vs Balloon Comparison */}
-      <section className="py-20" data-testid="section-esg-comparison">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-4 text-center">ESG vs Gastric Sleeve vs Gastric Balloon</h2>
-          <p className="text-lg text-slate-600 text-center mb-12 max-w-3xl mx-auto">
-            Compare key factors to find the procedure that best matches your goals, BMI, and lifestyle.
+          <p>
+            It should be known that Apollo Endoscopic sleeve gastroplasty isn't necessary right for all people that are morbidly obese. Before anyone tries to undergo such a surgery, a full health checkup and test must be done by a specialized bariatric doctor in order to make sure that person is the right candidate for the surgery.
           </p>
-
-          <div className="overflow-x-auto rounded-2xl border border-slate-200 shadow-sm">
-            <table className="w-full text-left" data-testid="table-esg-comparison">
-              <thead>
-                <tr className="bg-slate-900 text-white">
-                  <th className="p-4 font-semibold text-sm uppercase tracking-wider">Criteria</th>
-                  <th className="p-4 font-semibold text-sm uppercase tracking-wider bg-primary/90">ESG</th>
-                  <th className="p-4 font-semibold text-sm uppercase tracking-wider">Gastric Sleeve</th>
-                  <th className="p-4 font-semibold text-sm uppercase tracking-wider">Gastric Balloon</th>
-                </tr>
-              </thead>
-              <tbody>
-                {comparisonData.map((row, i) => (
-                  <tr
-                    key={i}
-                    className={`border-b border-slate-100 hover:bg-blue-50/50 transition-colors ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50/50'}`}
-                    data-testid={`row-comparison-${i}`}
-                  >
-                    <td className="p-4 font-medium text-slate-900">{row.criteria}</td>
-                    <td className="p-4 text-slate-700 bg-primary/5 font-medium">{row.esg}</td>
-                    <td className="p-4 text-slate-700">{row.sleeve}</td>
-                    <td className="p-4 text-slate-700">{row.balloon}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-sm text-slate-500 mt-4 text-center">
-            All procedures performed at JCI-accredited Liv Hospital, Istanbul, by <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Dr Murat Ustun</a> and his specialist team.
-          </p>
-        </div>
-      </section>
-
-      {/* How Does ESG Help */}
-      <section className="py-20 bg-blue-50">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">How Does Endoscopic Sleeve Gastroplasty Help?</h2>
-          
-          <p className="text-lg text-slate-600 mb-8">
-            Endoscopic sleeve gastroplasty is done to help reduce overweight and prevent the chance of having health issues related to extra weight and obesity, such as:
-          </p>
-
-          <div className="grid md:grid-cols-2 gap-4">
-            {healthBenefits.map((benefit, i) => (
-              <div key={i} className="flex items-center gap-4 p-5 bg-white rounded-xl shadow-sm border border-slate-100">
-                <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-                  <CheckCircle2 className="w-5 h-5 text-primary" />
-                </div>
-                <p className="text-slate-700 font-medium">{benefit}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Who Is Eligible */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">Who Is Eligible For Endoscopic Sleeve Gastroplasty?</h2>
-          
-          <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
-            <p>
-              Generally, endoscopic sleeve gastroplasty is an alternative form of treatment for some of the bariatric procedures and for individuals who are not candidates for other bariatric surgery types. This procedure is applicable and suitable to those whose <strong>BMI is 30 or higher</strong>, or others who have not been responsive with just diet and exercises.
-            </p>
-            <p>
-              It should be known that Apollo Endoscopic sleeve gastroplasty isn't necessary right for all people that are morbidly obese. Before anyone tries to undergo such a surgery, a full health checkup and test must be done by a specialized bariatric doctor in order to make sure that person is the right candidate for the surgery.
-            </p>
-            <div className="p-6 bg-amber-50 rounded-xl border border-amber-100">
-              <p className="text-slate-700">
-                <strong>Important:</strong> Surgery itself won't help to reduce weight as expected without applying a healthy supervised nutrition plan, performing daily exercises, and engaging in continuing counselling.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* How Does It Work */}
-      <section className="py-20 bg-slate-50">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">What Is Endoscopic Sleeve Gastroplasty And How Does It Work?</h2>
-          
-          <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
-            <p>
-              The ESG surgery is conducted by a system called <strong>"Apollo Overstitch"</strong>. This is a device that is inserted in the stomach from the mouth that helps one to insert a variety of sutures (stitches) within the stomach to greatly decrease its size by up to <strong>70-80%</strong>.
-            </p>
-            <p>
-              The sutures modify the stomach's form, making it shaped like a tube, which mimics the sleeve gastrectomy. The surgery is conducted under general anesthesia in order to remove any discomfort that might happen.
-            </p>
-            
-            <div className="grid md:grid-cols-3 gap-6 my-10">
-              <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-100 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">~90</div>
-                <p className="text-slate-600">Minutes Procedure</p>
-              </div>
-              <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-100 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">Same Day</div>
-                <p className="text-slate-600">Go Home</p>
-              </div>
-              <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-100 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">No</div>
-                <p className="text-slate-600">Incisions Required</p>
-              </div>
-            </div>
-            
-            <p>
-              The surgery requires approximately 90 minutes and patients in general can go home at the same day of surgery. In some cases they might stay for one or two days under supervision of the medical staff.
-            </p>
-            <p>
-              Unlike other bariatric surgeries, in order to reach the abdominal cavity, <strong>there is no need to make any incisions</strong>, thereby reducing the harm and ensuring a quick recovery period.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Risks */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">Are There Any Risks Or Side Effects?</h2>
-          
-          <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
-            <p>
-              Endoscopic Sleeve Gastroplasty procedure demonstrated a <strong>highly strong safety record</strong> in all cases. After the treatment, pain and nausea can persist for many days. Typically, these conditions can be treated with pain and nausea medication.
-            </p>
-            <p>
-              In general, <strong>most patients felt better after two days</strong> of surgery.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Nutrition Advice */}
-      <section className="py-20 bg-green-50">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">Nutrition Advice After Apollo ESG</h2>
-          
-          <div className="space-y-4">
-            <div className="flex items-start gap-4 p-5 bg-white rounded-xl shadow-sm border border-green-100">
-              <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center shrink-0 font-bold text-green-700">1</div>
-              <div>
-                <h4 className="font-bold text-slate-900">First 8 Hours</h4>
-                <p className="text-slate-600">No food allowed after the procedure</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4 p-5 bg-white rounded-xl shadow-sm border border-green-100">
-              <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center shrink-0 font-bold text-green-700">2</div>
-              <div>
-                <h4 className="font-bold text-slate-900">First 2 Weeks</h4>
-                <p className="text-slate-600">Only liquids allowed</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4 p-5 bg-white rounded-xl shadow-sm border border-green-100">
-              <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center shrink-0 font-bold text-green-700">3</div>
-              <div>
-                <h4 className="font-bold text-slate-900">Weeks 3-6</h4>
-                <p className="text-slate-600">Semi-liquid foods for four weeks</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4 p-5 bg-white rounded-xl shadow-sm border border-green-100">
-              <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center shrink-0 font-bold text-green-700">4</div>
-              <div>
-                <h4 className="font-bold text-slate-900">After 6 Weeks</h4>
-                <p className="text-slate-600">Transition to healthy diet with regular checkups</p>
-              </div>
-            </div>
-          </div>
-          
-          <p className="text-slate-600 mt-8">
-            There will be a medical and nutrition checkup on a weekly or monthly basis and all dietary instructions will be provided and privately tailored.
-          </p>
-        </div>
-      </section>
-
-      {/* Weight Loss Results */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">How Much Weight Loss Can Be Achieved?</h2>
-          
-          <p className="text-lg text-slate-600 mb-8">
-            Endoscopic sleeve gastroplasty led to a significant weight reduction in many cases. But the surgery itself won't be enough if patients would not obey to a healthy diet and lifestyle and follow nutritionists' instructions.
-          </p>
-
-          <div className="grid md:grid-cols-3 gap-6 mb-10">
-            {weightLossResults.map((result, i) => (
-              <div key={i} className="bg-primary text-white rounded-xl p-6 text-center">
-                <div className="text-xl font-bold mb-2">{result.bmi}</div>
-                <p className="text-white/90">{result.result}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="p-6 bg-blue-50 rounded-xl border border-blue-100">
+          <div className="p-6 bg-amber-50 rounded-xl border border-amber-100">
             <p className="text-slate-700">
-              Studies also showed an improvement on many health conditions related to obesity such as heart disease or stroke, high blood pressure, and diabetes (Type 2). In summary, Apollo Endoscopic sleeve gastroplasty leads to a significant weight loss of about <strong>15-20% over a 12-18 month period</strong> and it helps to prevent the development of many health problems related to obesity.
+              <strong>Important:</strong> Surgery itself won't help to reduce weight as expected without applying a healthy supervised nutrition plan, performing daily exercises, and engaging in continuing counselling.
             </p>
           </div>
-        </div>
-      </section>
+        </ProseSection>
 
-      {/* Why Choose IBC for ESG */}
-      <section className="py-20 bg-slate-900 text-white" data-testid="section-why-ibc-esg">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <h2 className="text-3xl font-bold mb-4 text-center">Why Choose IBC for ESG?</h2>
-          <p className="text-lg text-slate-300 text-center mb-12 max-w-3xl mx-auto">
-            Istanbul Bariatric Center combines world-class surgical expertise, JCI-accredited facilities, and transparent all-inclusive pricing.
+        <ProseSection title="What Is Endoscopic Sleeve Gastroplasty And How Does It Work?" tone="slate">
+          <p>
+            The ESG surgery is conducted by a system called <strong>"Apollo Overstitch"</strong>. This is a device that is inserted in the stomach from the mouth that helps one to insert a variety of sutures (stitches) within the stomach to greatly decrease its size by up to <strong>70-80%</strong>.
           </p>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center" data-testid="card-why-ibc-surgeon">
-              <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
-                <Stethoscope className="w-7 h-7 text-primary" />
-              </div>
-              <h3 className="text-lg font-bold mb-2"><a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Dr Murat Ustun</a></h3>
-              <p className="text-slate-300 text-sm"><a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-slate-200 hover:text-primary transition-colors">Pioneer of ESG in Turkey</a> with thousands of successful bariatric procedures. Internationally recognised for endoscopic innovation.</p>
+          <p>
+            The sutures modify the stomach's form, making it shaped like a tube, which mimics the sleeve gastrectomy. The surgery is conducted under general anesthesia in order to remove any discomfort that might happen.
+          </p>
+          <div className="grid md:grid-cols-3 gap-6 my-10">
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-100 text-center">
+              <div className="text-3xl font-bold text-primary mb-2">~90</div>
+              <p className="text-slate-600">Minutes Procedure</p>
             </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center" data-testid="card-why-ibc-hospital">
-              <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
-                <ShieldCheck className="w-7 h-7 text-primary" />
-              </div>
-              <h3 className="text-lg font-bold mb-2">JCI-Accredited Hospital</h3>
-              <p className="text-slate-300 text-sm">All procedures are performed at Liv Hospital, Istanbul — holding the gold standard Joint Commission International accreditation.</p>
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-100 text-center">
+              <div className="text-3xl font-bold text-primary mb-2">Same Day</div>
+              <p className="text-slate-600">Go Home</p>
             </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center" data-testid="card-why-ibc-pricing">
-              <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
-                <BadgePoundSterling className="w-7 h-7 text-primary" />
-              </div>
-              <h3 className="text-lg font-bold mb-2">All-Inclusive from £4,950</h3>
-              <p className="text-slate-300 text-sm">Transparent pricing with no hidden fees. Packages include hospital stay, transfers, hotel, dietitian support, and 12-month aftercare.</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center" data-testid="card-why-ibc-results">
-              <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
-                <Award className="w-7 h-7 text-primary" />
-              </div>
-              <h3 className="text-lg font-bold mb-2">Proven Results</h3>
-              <p className="text-slate-300 text-sm">Patients achieve 15–20% total body weight loss within 12–18 months, supported by a dedicated nutrition and wellness programme.</p>
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-100 text-center">
+              <div className="text-3xl font-bold text-primary mb-2">No</div>
+              <p className="text-slate-600">Incisions Required</p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-20 bg-slate-50">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-4 text-center">Frequently Asked Questions About ESG in Turkey</h2>
-          <p className="text-lg text-slate-600 text-center mb-12">Everything you need to know about Endoscopic Sleeve Gastroplasty</p>
-          
-          <div className="space-y-4">
-            {esgFaqs.map((faq, i) => (
-              <div key={i} className="bg-white rounded-xl p-6 shadow-sm border border-slate-100">
-                <h3 className="text-lg font-bold text-slate-900 mb-3">{faq.question}</h3>
-                <p className="text-slate-600 leading-relaxed">{faq.answer.includes('Dr Murat Ustun') ? <>{faq.answer.split(/(Dr Murat Ustun)/g).map((part: string, pi: number) => part === 'Dr Murat Ustun' ? <a key={pi} href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">{part}</a> : part)}</> : faq.answer}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <CountryFlagsBar variant="esg" />
-
-      {/* CTA */}
-      <section className="py-20 bg-primary text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">Get Endoscopic Sleeve Gastroplasty in Turkey</h2>
-          <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Contact <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">Dr Murat Ustun</a> today for a free consultation to learn if Apollo Endoscopic Sleeve Gastroplasty is right for you.
+          <p>
+            The surgery requires approximately 90 minutes and patients in general can go home at the same day of surgery. In some cases they might stay for one or two days under supervision of the medical staff.
           </p>
-          <Button 
-            size="lg" 
-            className="bg-white text-primary hover:bg-white/90 font-bold text-lg h-14 px-10"
-            onClick={() => window.open('https://wa.me/447491068686', '_blank')}
-          >
-            {t('common.bookConsultation')}
-          </Button>
-        </div>
-      </section>
+          <p>
+            Unlike other bariatric surgeries, in order to reach the abdominal cavity, <strong>there is no need to make any incisions</strong>, thereby reducing the harm and ensuring a quick recovery period.
+          </p>
+        </ProseSection>
+
+        <ProseSection title="Are There Any Risks Or Side Effects?">
+          <p>
+            Endoscopic Sleeve Gastroplasty procedure demonstrated a <strong>highly strong safety record</strong> in all cases. After the treatment, pain and nausea can persist for many days. Typically, these conditions can be treated with pain and nausea medication.
+          </p>
+          <p>
+            In general, <strong>most patients felt better after two days</strong> of surgery.
+          </p>
+        </ProseSection>
+
+        {/* Nutrition Advice */}
+        <section className="py-20 bg-green-50">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <h2 className="text-3xl font-bold text-slate-900 mb-8">Nutrition Advice After Apollo ESG</h2>
+            <ol className="space-y-4 list-none">
+              {[
+                { title: "First 8 Hours", desc: "No food allowed after the procedure" },
+                { title: "First 2 Weeks", desc: "Only liquids allowed" },
+                { title: "Weeks 3-6", desc: "Semi-liquid foods for four weeks" },
+                { title: "After 6 Weeks", desc: "Transition to healthy diet with regular checkups" },
+              ].map((step, i) => (
+                <li key={i} className="flex items-start gap-4 p-5 bg-white rounded-xl shadow-sm border border-green-100">
+                  <span className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center shrink-0 font-bold text-green-700">{i + 1}</span>
+                  <div>
+                    <h3 className="font-bold text-slate-900">{step.title}</h3>
+                    <p className="text-slate-600">{step.desc}</p>
+                  </div>
+                </li>
+              ))}
+            </ol>
+            <p className="text-slate-600 mt-8">
+              There will be a medical and nutrition checkup on a weekly or monthly basis and all dietary instructions will be provided and privately tailored.
+            </p>
+          </div>
+        </section>
+
+        {/* Weight Loss Results */}
+        <section className="py-20">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <h2 className="text-3xl font-bold text-slate-900 mb-8">How Much Weight Loss Can Be Achieved?</h2>
+            <p className="text-lg text-slate-600 mb-8">
+              Endoscopic sleeve gastroplasty led to a significant weight reduction in many cases. But the surgery itself won't be enough if patients would not obey to a healthy diet and lifestyle and follow nutritionists' instructions.
+            </p>
+            <div className="grid md:grid-cols-3 gap-6 mb-10">
+              {weightLossResults.map((result, i) => (
+                <div key={i} className="bg-primary text-white rounded-xl p-6 text-center">
+                  <div className="text-xl font-bold mb-2">{result.bmi}</div>
+                  <p className="text-white/90">{result.result}</p>
+                </div>
+              ))}
+            </div>
+            <div className="p-6 bg-blue-50 rounded-xl border border-blue-100">
+              <p className="text-slate-700">
+                Studies also showed an improvement on many health conditions related to obesity such as heart disease or stroke, high blood pressure, and diabetes (Type 2). In summary, Apollo Endoscopic sleeve gastroplasty leads to a significant weight loss of about <strong>15-20% over a 12-18 month period</strong> and it helps to prevent the development of many health problems related to obesity.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <SurgeonProof
+          title="Why Choose IBC for ESG?"
+          subtitle="Istanbul Bariatric Center combines world-class surgical expertise, JCI-accredited facilities, and transparent all-inclusive pricing."
+          cards={[
+            {
+              icon: "surgeon",
+              title: <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Dr Murat Ustun</a>,
+              text: <><a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-slate-200 hover:text-primary transition-colors">Pioneer of ESG in Turkey</a> with thousands of successful bariatric procedures. Internationally recognised for endoscopic innovation.</>,
+            },
+            {
+              icon: "hospital",
+              title: "JCI-Accredited Hospital",
+              text: "All procedures are performed at Liv Hospital, Istanbul — holding the gold standard Joint Commission International accreditation.",
+            },
+            {
+              icon: "pricing",
+              title: "All-Inclusive from £4,950",
+              text: "Transparent pricing with no hidden fees. Packages include hospital stay, transfers, hotel, dietitian support, and 12-month aftercare.",
+            },
+            {
+              icon: "results",
+              title: "Proven Results",
+              text: "Patients achieve 15–20% total body weight loss within 12–18 months, supported by a dedicated nutrition and wellness programme.",
+            },
+          ]}
+        />
+
+        <FAQSection
+          title="Frequently Asked Questions About ESG in Turkey"
+          subtitle="Everything you need to know about Endoscopic Sleeve Gastroplasty"
+          faqs={esgFaqs}
+        />
+
+        <CountryFlagsBar variant="esg" />
+
+        <RelatedLinks
+          title="Explore Other Weight Loss Options"
+          links={[
+            { title: "Gastric Sleeve", description: "Most popular option", href: "/sleeve-gastrectomy" },
+            { title: "Gastric Bypass", description: "70-85% excess weight loss", href: "/mini-gastric-bypass" },
+            { title: "Gastric Balloon", description: "Non-surgical option", href: "/gastric-balloon" },
+            { title: "Cost Guide", description: "Compare all prices", href: "/cost-of-bariatric-surgery-in-turkey" },
+          ]}
+        />
+
+        <ConversionModule
+          title="Get Endoscopic Sleeve Gastroplasty in Turkey"
+          text={<>Contact <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">Dr Murat Ustun</a> today for a free consultation to learn if Apollo Endoscopic Sleeve Gastroplasty is right for you.</>}
+          buttonLabel={t('common.bookConsultation')}
+        />
+      </div>
 
       <Footer />
     </div>

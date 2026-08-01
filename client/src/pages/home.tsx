@@ -6,7 +6,8 @@ import { Awards } from "@/components/awards";
 import { Footer } from "@/components/footer";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
 
-const Treatments = lazy(() => import("@/components/treatments").then(m => ({ default: m.Treatments })));
+import { Treatments } from "@/components/treatments";
+
 const BMICalculator = lazy(() => import("@/components/bmi-calculator").then(m => ({ default: m.BMICalculator })));
 const Testimonials = lazy(() => import("@/components/testimonials").then(m => ({ default: m.Testimonials })));
 
@@ -52,18 +53,15 @@ export default function Home() {
       <JsonLd data={structuredData.medicalBusiness} />
       <JsonLd data={structuredData.physician} />
       <JsonLd data={structuredData.website} />
-      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-primary focus:text-white focus:px-4 focus:py-2 focus:rounded">
-        Skip to main content
-      </a>
       <Navbar />
-      <main id="main-content" role="main">
+      <div>
         <Hero />
         <VIPPackage />
         <Awards />
+        <Treatments />
         <LazySection><BMICalculator /></LazySection>
-        <LazySection><Treatments /></LazySection>
         <LazySection><Testimonials /></LazySection>
-      </main>
+      </div>
       <Footer />
     </div>
   );

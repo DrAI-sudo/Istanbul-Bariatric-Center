@@ -798,6 +798,109 @@ const staticPages: Record<string, PageSEO> = {
       ]
     }]
   },
+  "/revision-bariatric-surgery": {
+    title: "Revision Bariatric Surgery in Turkey — Fix Weight Regain After Sleeve or Bypass",
+    description: "Revision weight loss surgery in Istanbul: sleeve-to-bypass conversion, TORe, re-sleeve & transit bipartition. JCI hospital, Dr Murat Ustun. Free assessment.",
+    h1: "Revision Bariatric Surgery in Turkey",
+    bodyExcerpt: "Weight regain after a gastric sleeve or bypass is common — up to 30% of sleeve patients regain significant weight within 5 years and GERD affects up to 55% long-term. Istanbul Bariatric Center offers every major revision pathway: sleeve-to-mini-bypass conversion, duodenal switch, transit bipartition, endoscopic re-sleeve, and TORe for stretched bypass outlets. Every revision begins with diagnostic endoscopy at JCI-accredited Liv Hospital. All-inclusive from £3,950.",
+    canonical: SITE_URL + "/revision-bariatric-surgery",
+    modifiedTime: "2026-08-01T09:00:00+03:00",
+    richContent: `<section><h2>Revision Pathways Compared</h2><table><thead><tr><th>Pathway</th><th>Best For</th><th>Invasiveness</th></tr></thead><tbody><tr><td>Sleeve → Mini Gastric Bypass</td><td>Weight regain after sleeve, especially with reflux (GERD)</td><td>Laparoscopic, 2–3 nights</td></tr><tr><td>Sleeve → Duodenal Switch / Transit Bipartition</td><td>High BMI or type 2 diabetes after a sleeve</td><td>Laparoscopic, 2–3 nights</td></tr><tr><td>Endoscopic Re-Sleeve (ESG revision)</td><td>Moderately stretched sleeve, avoiding surgery</td><td>Endoscopic, same-day / 1 night</td></tr><tr><td>TORe (Transoral Outlet Reduction)</td><td>Weight regain after gastric bypass (stretched stoma)</td><td>Endoscopic, same-day</td></tr><tr><td>Band → Sleeve or Bypass</td><td>Failed or complicated gastric band</td><td>Laparoscopic, 2–3 nights</td></tr></tbody></table></section>
+<section><h2>Who Is a Candidate for Revision Surgery?</h2><ul><li>Significant weight regain after sleeve, bypass or band surgery</li><li>Insufficient weight loss after the first operation</li><li>Severe or persistent acid reflux (GERD) after gastric sleeve</li><li>Returning hunger or larger portion capacity</li><li>Gastric band complications or inadequate results</li><li>Returned or unresolved type 2 diabetes</li></ul></section>
+<section><h2>How the Revision Process Works</h2><p>1. Free remote assessment on WhatsApp — Dr Murat Ustun reviews every revision case personally. 2. Diagnostic endoscopy, imaging and blood tests at JCI-accredited Liv Hospital. 3. Pathway decision — the least invasive option that reliably meets your goals. 4. Procedure: endoscopic revisions are usually same-day; surgical conversions involve 2–3 hospital nights. 5. Twelve months of aftercare with UK-registered dietitian support.</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "MedicalProcedure",
+      "name": "Revision Bariatric Surgery",
+      "alternateName": ["Revisional Bariatric Surgery", "Weight Loss Surgery Revision", "Sleeve to Bypass Conversion", "TORe"],
+      "description": "Surgical and endoscopic revision of previous weight loss surgery for weight regain, insufficient weight loss, or complications such as GERD. Pathways include sleeve-to-bypass conversion, duodenal switch, transit bipartition, endoscopic re-sleeve and TORe.",
+      "procedureType": "Surgical",
+      "bodyLocation": "Stomach",
+      "howPerformed": "Diagnostic endoscopy and imaging determine the cause of failure; the revision is then performed laparoscopically (conversions) or endoscopically (re-sleeve, TORe) at JCI-accredited Liv Hospital, Istanbul.",
+      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }
+    }, {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is revision bariatric surgery?", "acceptedAnswer": { "@type": "Answer", "text": "Revision bariatric surgery is a second procedure performed after a previous weight loss operation when the first surgery has led to weight regain, insufficient weight loss, or complications such as severe reflux. The pathway is chosen based on anatomy, symptoms and goals." }},
+        { "@type": "Question", "name": "How much weight regain is normal after gastric sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "Some fluctuation is normal, but up to 30% of sleeve patients experience significant weight regain within 5 years, often due to gradual stretching of the sleeve or hormonal adaptation. If you have regained more than 25% of the weight you originally lost, a revision assessment is worthwhile." }},
+        { "@type": "Question", "name": "Is revision bariatric surgery riskier than the first surgery?", "acceptedAnswer": { "@type": "Answer", "text": "Revision surgery is technically more complex because of scar tissue from the first operation, which is why surgeon experience matters more than for primary surgery. In high-volume centres, complication rates remain low and outcomes are excellent." }},
+        { "@type": "Question", "name": "Which revision procedure is best after a failed gastric sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "Common options are conversion to mini gastric bypass (especially when reflux is present), conversion to duodenal switch or transit bipartition for greater metabolic effect, or a non-surgical endoscopic re-sleeve. The right option depends on why the sleeve failed, assessed with endoscopy and imaging." }},
+        { "@type": "Question", "name": "How much does revision bariatric surgery cost in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "Revision surgery in Istanbul typically costs £3,950–£5,950 all-inclusive depending on the pathway — roughly 60-70% less than in the UK or US, including JCI-accredited hospital stay, pre-operative endoscopy, transfers, hotel and aftercare." }},
+        { "@type": "Question", "name": "Can a gastric bypass be revised without surgery?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. If the stoma has stretched, TORe (Transoral Outlet Reduction) tightens it endoscopically through the mouth — no incisions, usually same-day discharge." }}
+      ]
+    }, {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": SITE_URL + "/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "Revision Bariatric Surgery", "item": SITE_URL + "/revision-bariatric-surgery" }
+      ]
+    }]
+  },
+  "/cost-of-bariatric-surgery-in-turkey": {
+    title: "Cost of Bariatric Surgery in Turkey (2026): All-Inclusive Prices",
+    description: "Transparent 2026 prices for weight loss surgery in Turkey: gastric sleeve from £2,950, bypass from £3,350, ESG from £4,950. Compare UK, US & EU costs.",
+    h1: "Cost of Bariatric Surgery in Turkey",
+    bodyExcerpt: "Fixed, all-inclusive 2026 prices at Istanbul Bariatric Center: gastric balloon from £1,650, gastric sleeve from £2,950, mini gastric bypass from £3,350, ESG from £4,950, revision surgery from £3,950. Every package includes JCI-accredited hospital stay, surgeon and anaesthesia fees, pre-operative tests, VIP transfers, hotel and 12 months of dietitian aftercare — typically 60-70% less than UK, US or EU private prices with no hidden fees.",
+    canonical: SITE_URL + "/cost-of-bariatric-surgery-in-turkey",
+    modifiedTime: "2026-08-01T09:00:00+03:00",
+    richContent: `<section><h2>Turkey vs UK, US & Europe: Price Comparison (2026)</h2><table><thead><tr><th>Procedure</th><th>Turkey (IBC, all-inclusive)</th><th>United Kingdom</th><th>United States</th><th>Western Europe</th></tr></thead><tbody><tr><td>Gastric Sleeve</td><td>£2,950 – £4,250</td><td>£10,000 – £15,000</td><td>$16,000 – $25,000</td><td>€8,000 – €12,000</td></tr><tr><td>Mini Gastric Bypass</td><td>£3,350 – £4,650</td><td>£11,000 – £16,000</td><td>$20,000 – $30,000</td><td>€9,000 – €14,000</td></tr><tr><td>Gastric Balloon</td><td>£1,650 – £2,250</td><td>£4,000 – £8,000</td><td>$6,000 – $9,000</td><td>€3,500 – €6,000</td></tr><tr><td>ESG (Endoscopic Sleeve)</td><td>£4,950 – £5,950</td><td>£9,000 – £13,000</td><td>$12,000 – $20,000</td><td>€8,000 – €11,000</td></tr><tr><td>Duodenal Switch</td><td>£4,400 – £4,700</td><td>£13,000 – £18,000</td><td>$22,000 – $35,000</td><td>€11,000 – €16,000</td></tr><tr><td>Revision Surgery</td><td>£3,950 – £5,950</td><td>£12,000 – £18,000</td><td>$18,000 – $30,000</td><td>€10,000 – €15,000</td></tr></tbody></table></section>
+<section><h2>What Every Package Includes</h2><ul><li>Surgery at JCI-accredited Liv Hospital, Istanbul</li><li>All surgeon, anaesthesia and hospital fees</li><li>Pre-operative tests and consultations</li><li>VIP airport pick-up and all transfers</li><li>Hotel accommodation (Relaxation & Luxury packages)</li><li>Post-operative medication</li><li>12 months of dietitian support</li><li>UK care support coordinators in 8 locations</li></ul></section>
+<section><h2>Why Is Bariatric Surgery Cheaper in Turkey?</h2><p>The saving is driven by lower operating costs, a favourable exchange rate, and high procedure volumes — not lower standards. Surgery is performed at JCI-accredited hospitals by Dr Murat Ustun, who has performed over 8,000 bariatric procedures. A realistic all-in budget for a UK gastric sleeve patient, including flights and insurance, is roughly £3,300–£4,900 — less than half the cost of the surgery alone at a UK private hospital.</p></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "How much does bariatric surgery cost in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "At Istanbul Bariatric Center, all-inclusive packages start from £1,650 for a gastric balloon, £2,950 for a gastric sleeve, £3,350 for a mini gastric bypass, and £4,950 for ESG — including JCI-accredited hospital stay, pre-operative tests, transfers, hotel and dietitian aftercare." }},
+        { "@type": "Question", "name": "Why is weight loss surgery cheaper in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "Lower operating costs, a favourable exchange rate, and government support for medical tourism — not lower standards. Surgery is performed at JCI-accredited hospitals by high-volume surgeons, at 60-70% less than UK, US or EU private prices." }},
+        { "@type": "Question", "name": "Are there hidden costs in Turkish bariatric surgery packages?", "acceptedAnswer": { "@type": "Answer", "text": "Not at Istanbul Bariatric Center. Packages include surgeon and anaesthesia fees, hospital stay, tests, transfers, hotel, post-op medication and 12 months of dietitian support. Only flights and personal spending are extra." }},
+        { "@type": "Question", "name": "How does the cost compare to the UK or US?", "acceptedAnswer": { "@type": "Answer", "text": "A gastric sleeve costs £10,000–£15,000 privately in the UK and $16,000–$25,000 in the US. In Istanbul the equivalent all-inclusive package is £2,950–£4,250 — typically a 60–75% saving even after flights." }},
+        { "@type": "Question", "name": "Can I pay in instalments or with finance?", "acceptedAnswer": { "@type": "Answer", "text": "Payment is normally made by bank transfer or card, with a deposit to secure your date and the balance on arrival. Coordinators can advise on currently available payment arrangements for your country." }},
+        { "@type": "Question", "name": "Does travel insurance or the NHS cover surgery in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "The NHS and standard travel insurance do not cover planned surgery abroad, but specialist medical-travel insurance covering complications is available and recommended. Total cost including surgery, flights, hotel and insurance is typically still far below a private operation at home." }}
+      ]
+    }, {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": SITE_URL + "/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "Cost of Bariatric Surgery in Turkey", "item": SITE_URL + "/cost-of-bariatric-surgery-in-turkey" }
+      ]
+    }]
+  },
+  "/bariatric-surgery-for-uk-patients": {
+    title: "Bariatric Surgery in Turkey for UK Patients — Aftercare in 8 UK Locations",
+    description: "Weight loss surgery in Istanbul designed for UK patients: fixed GBP prices from £2,950, UK-registered dietitian aftercare, support in 8 UK locations.",
+    h1: "Bariatric Surgery in Turkey for UK Patients",
+    bodyExcerpt: "Istanbul Bariatric Center is built around UK patients: fixed GBP pricing from £2,950 all-inclusive, a 4-hour flight, no visa needed for UK passports, JCI-accredited Liv Hospital, English-speaking team, and aftercare that follows you home — 12 months of UK-registered dietitian support plus in-person care coordinators in 8 UK locations. Typical stay is 4-6 nights; typical saving is 60-70% versus UK private prices.",
+    canonical: SITE_URL + "/bariatric-surgery-for-uk-patients",
+    modifiedTime: "2026-08-01T09:00:00+03:00",
+    richContent: `<section><h2>UK Private Surgery vs Istanbul Bariatric Center</h2><table><thead><tr><th>What You Get</th><th>UK Private Clinic</th><th>Istanbul Bariatric Center</th></tr></thead><tbody><tr><td>Gastric sleeve price</td><td>£10,000 – £15,000</td><td>£2,950 – £4,250 all-inclusive</td></tr><tr><td>Waiting time</td><td>Weeks to months</td><td>Usually 1–3 weeks</td></tr><tr><td>Hospital accreditation</td><td>CQC-regulated</td><td>JCI-accredited (international gold standard)</td></tr><tr><td>Surgeon caseload</td><td>Varies widely</td><td>8,000+ procedures (Dr Murat Ustun)</td></tr><tr><td>Hotel & transfers</td><td>Not included</td><td>Included (Relaxation & Luxury)</td></tr><tr><td>Dietitian aftercare</td><td>Often extra</td><td>12 months included, UK-registered</td></tr><tr><td>In-person UK support</td><td>At the clinic</td><td>Coordinators in 8 UK locations</td></tr></tbody></table></section>
+<section><h2>Your Journey, Step by Step</h2><p>1. Free consultation from home on WhatsApp with a fixed GBP quote. 2. Book your date — direct Istanbul flights from London, Manchester, Birmingham and Edinburgh. 3. Arrival day: VIP transfer, pre-operative tests and anaesthesia review. 4. Surgery at JCI-accredited Liv Hospital with 2–3 nights of monitored recovery. 5. Hotel recovery, final review, transfer back to the airport. 6. Aftercare in the UK: 12 months of UK-registered dietitian support and in-person help in 8 UK locations.</p></section>
+<section><h2>Eligibility for UK Patients</h2><ul><li>BMI 35+ (30+ for non-surgical options like ESG or gastric balloon)</li><li>Diet and exercise attempted without lasting results</li><li>Weight-related conditions such as type 2 diabetes, sleep apnoea or joint pain</li><li>Age 18–65 and fit for general anaesthesia</li><li>Committed to the post-op diet and follow-up programme</li><li>Able to travel to Istanbul for 4–6 nights</li></ul></section>`,
+    jsonLd: [{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Is it safe for UK patients to have weight loss surgery in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — when you choose a provider operating at a JCI-accredited hospital with a high-volume surgeon. Istanbul Bariatric Center operates exclusively at JCI-accredited Liv Hospital and Dr Murat Ustun has performed over 8,000 procedures." }},
+        { "@type": "Question", "name": "How long do UK patients need to stay in Istanbul?", "acceptedAnswer": { "@type": "Answer", "text": "Most UK patients stay 4-6 nights: arrival and tests on day one, surgery on day two, 2-3 nights in hospital, then 1-2 nights at the hotel before flying home. ESG and balloon patients can often return within 2-3 days." }},
+        { "@type": "Question", "name": "What aftercare do UK patients get back home?", "acceptedAnswer": { "@type": "Answer", "text": "Relaxation and Luxury packages include 12 months of support from a UK-registered dietitian, plus care support coordinators in 8 UK locations for in-person help, and WhatsApp access to the clinical team." }},
+        { "@type": "Question", "name": "Will the NHS look after me if something goes wrong?", "acceptedAnswer": { "@type": "Answer", "text": "The NHS will always treat you in an emergency. For routine follow-up, the UK dietitian network and remote clinical team handle aftercare, and specialist medical-travel insurance (typically £100-£200) covers complication treatment." }},
+        { "@type": "Question", "name": "How do payments work from the UK?", "acceptedAnswer": { "@type": "Answer", "text": "A deposit by card or bank transfer secures your surgery date, with the balance payable on arrival in Istanbul. All prices are quoted in pounds sterling and fixed — the quote you receive is the amount you pay." }},
+        { "@type": "Question", "name": "Do UK citizens need a visa for Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "No. UK passport holders can enter Turkey visa-free for up to 90 days. You only need a passport valid for at least 150 days from arrival." }}
+      ]
+    }, {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": SITE_URL + "/treatments" },
+        { "@type": "ListItem", "position": 3, "name": "Bariatric Surgery for UK Patients", "item": SITE_URL + "/bariatric-surgery-for-uk-patients" }
+      ]
+    }]
+  },
   "/best-endosleeve-clinic-istanbul": {
     title: "Best Endosleeve Clinic in Istanbul 2026 — Apollo ESG Reviews, Cost & Results",
     description: "Best Endosleeve / Apollo ESG clinic in Istanbul: 2,000+ procedures, 4.9★ reviews, JCI hospital, all-inclusive from £4,950. Compare cost, results and reviews of Istanbul Bariatric Center vs other Istanbul ESG clinics.",

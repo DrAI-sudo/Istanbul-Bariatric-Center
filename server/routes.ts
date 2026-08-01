@@ -14,6 +14,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const LEGACY_REDIRECTS: Record<string, string> = {
+  "/revision-surgery": "/revision-bariatric-surgery",
   "/treatments/bariatric-surgery/sleeve-gastrectomy": "/sleeve-gastrectomy",
   "/treatments/bariatric-surgery/gastric-bypass": "/mini-gastric-bypass",
   "/treatments/bariatric-surgery/gastric-balloon": "/gastric-balloon",
@@ -157,6 +158,9 @@ export async function registerRoutes(
       "/duodenal-switch": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-01" },
       "/transit-bipartition": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-01" },
       "/esg": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
+      "/revision-bariatric-surgery": { priority: "0.9", changefreq: "monthly", lastmod: "2026-08-01" },
+      "/cost-of-bariatric-surgery-in-turkey": { priority: "0.9", changefreq: "monthly", lastmod: "2026-08-01" },
+      "/bariatric-surgery-for-uk-patients": { priority: "0.9", changefreq: "monthly", lastmod: "2026-08-01" },
       "/best-endosleeve-clinic-istanbul": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
       "/esg/uk": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
       "/esg/de": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
