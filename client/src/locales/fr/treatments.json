@@ -401,7 +401,11 @@
         "price": "£4000",
         "days": "7"
       }
-    }
+    },
+    "ctaTitle": "Prêt à commencer votre parcours de perte de poids ?",
+    "ctaTextBefore": "Contactez dès aujourd'hui l'équipe du ",
+    "ctaLinkText": "Dr Murat Üstün",
+    "ctaTextAfter": " pour une consultation gratuite et découvrez comment la sleeve gastrique peut vous aider à atteindre vos objectifs."
   },
   "gastricBypass": {
     "title": "Chirurgie Bypass Gastrique",
@@ -577,7 +581,13 @@
     "title": "Gastroplastie Endoscopique en Manchon",
     "heroTitle": "ESG Istanbul, Turquie",
     "heroSubtitle": "Procédure mini-invasive sans incision qui réduit la taille de l'estomac sans chirurgie.",
-    "desc": "L'ESG réduit la capacité de l'estomac de 70-80% par endoscopie sans incisions externes."
+    "desc": "L'ESG réduit la capacité de l'estomac de 70-80% par endoscopie sans incisions externes.",
+    "ctaTitle": "Obtenez une gastroplastie endoscopique en manchon en Turquie",
+    "ctaTextBefore": "Contactez dès aujourd'hui le ",
+    "ctaLinkText": "Dr Murat Üstün",
+    "ctaTextAfter": " pour une consultation gratuite afin de savoir si la gastroplastie endoscopique Apollo vous convient.",
+    "faqTitle": "Questions fréquentes sur l'ESG en Turquie",
+    "faqSubtitle": "Tout ce que vous devez savoir sur la gastroplastie endoscopique en manchon"
   },
   "transitBipartition": {
     "title": "Bipartition Transit",

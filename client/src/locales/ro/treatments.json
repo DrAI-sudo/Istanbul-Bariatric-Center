@@ -401,7 +401,11 @@
         "price": "£4000",
         "days": "7"
       }
-    }
+    },
+    "ctaTitle": "Sunteți gata să începeți călătoria de slăbire?",
+    "ctaTextBefore": "Contactați astăzi echipa ",
+    "ctaLinkText": "Dr. Murat Üstün",
+    "ctaTextAfter": " pentru o consultație gratuită și aflați cum vă poate ajuta gastrectomia longitudinală să vă atingeți obiectivele."
   },
   "gastricBypass": {
     "title": "Chirurgie Bypass Gastric",
@@ -577,7 +581,13 @@
     "title": "Gastroplastie Endoscopică Sleeve",
     "heroTitle": "ESG Istanbul, Turcia",
     "heroSubtitle": "Procedură minim invazivă fără incizii.",
-    "desc": "ESG reduce capacitatea stomacului cu 70-80% endoscopic."
+    "desc": "ESG reduce capacitatea stomacului cu 70-80% endoscopic.",
+    "ctaTitle": "Obțineți gastroplastia endoscopică sleeve în Turcia",
+    "ctaTextBefore": "Contactați-l astăzi pe ",
+    "ctaLinkText": "Dr. Murat Üstün",
+    "ctaTextAfter": " pentru o consultație gratuită și aflați dacă gastroplastia endoscopică Apollo este potrivită pentru dumneavoastră.",
+    "faqTitle": "Întrebări frecvente despre ESG în Turcia",
+    "faqSubtitle": "Tot ce trebuie să știți despre gastroplastia endoscopică sleeve"
   },
   "transitBipartition": {
     "title": "Bifurcație de Transit",

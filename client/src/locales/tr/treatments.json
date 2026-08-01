@@ -401,7 +401,11 @@
         "price": "£4000",
         "days": "7"
       }
-    }
+    },
+    "ctaTitle": "Kilo Verme Yolculuğunuza Başlamaya Hazır mısınız?",
+    "ctaTextBefore": "Ücretsiz bir konsültasyon için bugün ",
+    "ctaLinkText": "Dr. Murat Üstün'ün",
+    "ctaTextAfter": " ekibiyle iletişime geçin ve tüp mide ameliyatının hedeflerinize ulaşmanıza nasıl yardımcı olabileceğini öğrenin."
   },
   "gastricBypass": {
     "title": "Mide Bypass Cerrahisi",
@@ -577,7 +581,13 @@
     "title": "Endoskopik Sleeve Gastroplasti",
     "heroTitle": "ESG (Endoskopik Sleeve Gastroplasti) İstanbul, Türkiye",
     "heroSubtitle": "Cerrahi olmadan mide boyutunu küçülten minimal invaziv, kesisiz bir prosedür.",
-    "desc": "ESG, endoskop aracılığıyla gerçekleştirilen, harici kesi olmadan mide kapasitesini %70-80 azaltan bir kilo verme prosedürüdür."
+    "desc": "ESG, endoskop aracılığıyla gerçekleştirilen, harici kesi olmadan mide kapasitesini %70-80 azaltan bir kilo verme prosedürüdür.",
+    "ctaTitle": "Türkiye'de Endoskopik Sleeve Gastroplasti Yaptırın",
+    "ctaTextBefore": "Apollo Endoskopik Sleeve Gastroplasti'nin sizin için uygun olup olmadığını öğrenmek üzere ücretsiz bir konsültasyon için bugün ",
+    "ctaLinkText": "Dr. Murat Üstün",
+    "ctaTextAfter": " ile iletişime geçin.",
+    "faqTitle": "Türkiye'de ESG Hakkında Sıkça Sorulan Sorular",
+    "faqSubtitle": "Endoskopik Sleeve Gastroplasti hakkında bilmeniz gereken her şey"
   },
   "transitBipartition": {
     "title": "Transit Bipartisyon",

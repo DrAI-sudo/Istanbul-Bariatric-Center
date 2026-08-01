@@ -329,8 +329,8 @@ export default function ESG() {
         />
 
         <FAQSection
-          title="Frequently Asked Questions About ESG in Turkey"
-          subtitle="Everything you need to know about Endoscopic Sleeve Gastroplasty"
+          title={t('esg.faqTitle')}
+          subtitle={t('esg.faqSubtitle')}
           faqs={esgFaqs}
         />
 
@@ -350,8 +350,8 @@ export default function ESG() {
         />
 
         <ConversionModule
-          title="Get Endoscopic Sleeve Gastroplasty in Turkey"
-          text={<>Contact <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">Dr Murat Ustun</a> today for a free consultation to learn if Apollo Endoscopic Sleeve Gastroplasty is right for you.</>}
+          title={t('esg.ctaTitle')}
+          text={<>{t('esg.ctaTextBefore')}<a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">{t('esg.ctaLinkText')}</a>{t('esg.ctaTextAfter')}</>}
           buttonLabel={t('common.bookConsultation')}
         />
       </div>

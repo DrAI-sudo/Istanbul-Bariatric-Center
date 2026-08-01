@@ -401,7 +401,11 @@
         "price": "£4000",
         "days": "7"
       }
-    }
+    },
+    "ctaTitle": "Ready to Start Your Weight Loss Journey?",
+    "ctaTextBefore": "Contact ",
+    "ctaLinkText": "Dr Murat Ustun's",
+    "ctaTextAfter": " team today for a free consultation and learn how gastric sleeve surgery can help you achieve your goals."
   },
   "gastricBypass": {
     "title": "Gastric Bypass Surgery",
@@ -577,7 +581,13 @@
     "title": "Endoscopic Sleeve Gastroplasty",
     "heroTitle": "ESG (Endoscopic Sleeve Gastroplasty) Istanbul, Turkey",
     "heroSubtitle": "A minimally invasive, incision-free procedure that reduces stomach size without surgery.",
-    "desc": "ESG is a weight loss procedure performed through an endoscope, reducing stomach capacity by 70-80% without external incisions."
+    "desc": "ESG is a weight loss procedure performed through an endoscope, reducing stomach capacity by 70-80% without external incisions.",
+    "ctaTitle": "Get Endoscopic Sleeve Gastroplasty in Turkey",
+    "ctaTextBefore": "Contact ",
+    "ctaLinkText": "Dr Murat Ustun",
+    "ctaTextAfter": " today for a free consultation to learn if Apollo Endoscopic Sleeve Gastroplasty is right for you.",
+    "faqTitle": "Frequently Asked Questions About ESG in Turkey",
+    "faqSubtitle": "Everything you need to know about Endoscopic Sleeve Gastroplasty"
   },
   "transitBipartition": {
     "title": "Transit Bipartition",

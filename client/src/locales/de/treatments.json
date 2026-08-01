@@ -401,7 +401,11 @@
         "price": "£4000",
         "days": "7"
       }
-    }
+    },
+    "ctaTitle": "Bereit, Ihre Abnehmreise zu beginnen?",
+    "ctaTextBefore": "Kontaktieren Sie noch heute das Team von ",
+    "ctaLinkText": "Dr. Murat Üstün",
+    "ctaTextAfter": " für eine kostenlose Beratung und erfahren Sie, wie die Schlauchmagen-Operation Ihnen helfen kann, Ihre Ziele zu erreichen."
   },
   "gastricBypass": {
     "title": "Magenbypass-Operation",
@@ -577,7 +581,13 @@
     "title": "Endoskopische Sleeve-Gastroplastik",
     "heroTitle": "ESG Istanbul, Türkei",
     "heroSubtitle": "Ein minimal-invasives, schnittfreies Verfahren zur Magenverkleinerung ohne Operation.",
-    "desc": "ESG ist ein Gewichtsverlust-Verfahren durch ein Endoskop, das die Magenkapazität um 70-80% ohne äußere Schnitte reduziert."
+    "desc": "ESG ist ein Gewichtsverlust-Verfahren durch ein Endoskop, das die Magenkapazität um 70-80% ohne äußere Schnitte reduziert.",
+    "ctaTitle": "Endoskopische Sleeve-Gastroplastik in der Türkei",
+    "ctaTextBefore": "Kontaktieren Sie noch heute ",
+    "ctaLinkText": "Dr. Murat Üstün",
+    "ctaTextAfter": " für eine kostenlose Beratung, um zu erfahren, ob die Apollo Endoskopische Sleeve-Gastroplastik für Sie geeignet ist.",
+    "faqTitle": "Häufig gestellte Fragen zur ESG in der Türkei",
+    "faqSubtitle": "Alles, was Sie über die endoskopische Sleeve-Gastroplastik wissen müssen"
   },
   "transitBipartition": {
     "title": "Transit-Bipartition",

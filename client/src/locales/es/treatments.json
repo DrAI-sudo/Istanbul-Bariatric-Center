@@ -401,7 +401,11 @@
         "price": "£4000",
         "days": "7"
       }
-    }
+    },
+    "ctaTitle": "¿Listo para comenzar su viaje de pérdida de peso?",
+    "ctaTextBefore": "Contacte hoy al equipo del ",
+    "ctaLinkText": "Dr. Murat Üstün",
+    "ctaTextAfter": " para una consulta gratuita y descubra cómo la manga gástrica puede ayudarle a alcanzar sus objetivos."
   },
   "gastricBypass": {
     "title": "Cirugía de Bypass Gástrico",
@@ -577,7 +581,13 @@
     "title": "Gastroplastia Endoscópica en Manga",
     "heroTitle": "ESG (Gastroplastia Endoscópica en Manga) Estambul, Turquía",
     "heroSubtitle": "Un procedimiento mínimamente invasivo, sin incisiones, que reduce el tamaño del estómago sin cirugía.",
-    "desc": "ESG es un procedimiento de pérdida de peso realizado a través de un endoscopio, reduciendo la capacidad del estómago en un 70-80% sin incisiones externas."
+    "desc": "ESG es un procedimiento de pérdida de peso realizado a través de un endoscopio, reduciendo la capacidad del estómago en un 70-80% sin incisiones externas.",
+    "ctaTitle": "Obtenga la Gastroplastia Endoscópica en Manga en Turquía",
+    "ctaTextBefore": "Contacte hoy al ",
+    "ctaLinkText": "Dr. Murat Üstün",
+    "ctaTextAfter": " para una consulta gratuita y descubra si la Gastroplastia Endoscópica en Manga Apollo es adecuada para usted.",
+    "faqTitle": "Preguntas frecuentes sobre la ESG en Turquía",
+    "faqSubtitle": "Todo lo que necesita saber sobre la Gastroplastia Endoscópica en Manga"
   },
   "transitBipartition": {
     "title": "Bipartición Tránsito",

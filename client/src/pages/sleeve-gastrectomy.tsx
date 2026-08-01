@@ -249,8 +249,8 @@ export default function SleeveGastrectomy() {
         />
 
         <ConversionModule
-          title="Ready to Start Your Weight Loss Journey?"
-          text={<>Contact <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">Dr Murat Ustun's</a> team today for a free consultation and learn how gastric sleeve surgery can help you achieve your goals.</>}
+          title={t('gastricSleeve.ctaTitle')}
+          text={<>{t('gastricSleeve.ctaTextBefore')}<a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">{t('gastricSleeve.ctaLinkText')}</a>{t('gastricSleeve.ctaTextAfter')}</>}
           buttonLabel={t('common.bookConsultation')}
         />
       </div>
