@@ -585,6 +585,308 @@
     "heroSubtitle": "Chirurgia metabolica innovativa che combina sleeve e bypass intestinale.",
     "desc": "Combina sleeve gastrico e bypass intestinale parziale per il controllo del diabete."
   },
+  "revisionPage": {
+    "hero": {
+      "eyebrow": "Chirurgia della Seconda Possibilità",
+      "title": "Chirurgia Bariatrica di Revisione in Turchia",
+      "subtitle": "Il recupero di peso dopo uno sleeve gastrico o un bypass è più comune di quanto si pensi — e si può correggere. Scopri i percorsi di revisione chirurgici e non chirurgici con uno dei team di revisione più esperti della Turchia.",
+      "stats": [
+        { "value": "8,000+", "label": "Procedure eseguite" },
+        { "value": "5", "label": "Percorsi di revisione" },
+        { "value": "£3,950", "label": "Tutto incluso da" }
+      ]
+    },
+    "facts": {
+      "title": "Chirurgia di Revisione a Colpo d'Occhio",
+      "items": [
+        { "label": "Valutazione", "value": "Endoscopia + imaging" },
+        { "label": "Opzioni", "value": "Chirurgiche ed endoscopiche" },
+        { "label": "Degenza ospedaliera", "value": "0–3 notti" },
+        { "label": "Tutto incluso da", "value": "£3,950" }
+      ]
+    },
+    "why": {
+      "title": "Perché a Volte la Chirurgia per la Perdita di Peso Richiede un Secondo Passo",
+      "p1": "Nessun intervento bariatrico garantisce da solo risultati permanenti. Con il tempo, uno sleeve gastrico può gradualmente dilatarsi, l'uscita dopo un bypass gastrico può allargarsi e l'adattamento ormonale può far tornare la fame. Gli studi mostrano che <strong>fino al 30% dei pazienti con sleeve subisce un significativo recupero di peso entro cinque anni</strong>, e un grave reflusso acido (GERD) si sviluppa in ben il <strong>55% dei pazienti con sleeve</strong> a lungo termine.",
+      "p2": "Nulla di tutto ciò significa che il tuo primo intervento \"ti ha deluso\" — significa che la tua anatomia e il tuo metabolismo sono cambiati, ed esiste un percorso medico ben consolidato per correggerlo. La chirurgia bariatrica di revisione ripristina la restrizione e l'effetto metabolico della procedura originale, oppure la converte in una più adatta al tuo corpo.",
+      "p3": "All'Istanbul Bariatric Center, ogni revisione inizia con un accertamento diagnostico — endoscopia e imaging — affinché il percorso sia scelto in base al <em>perché</em> il primo intervento ha smesso di funzionare, e non su ipotesi.",
+      "cta": "Ottieni una Valutazione di Revisione Gratuita"
+    },
+    "pathways": {
+      "title": "Percorsi di Revisione a Confronto",
+      "subtitle": "La revisione giusta dipende dalla tua procedura originale, dai tuoi sintomi e dai tuoi obiettivi.",
+      "columns": ["Percorso", "Ideale Per", "Come Funziona", "Invasività"],
+      "rows": [
+        ["Sleeve → Mini Bypass Gastrico", "Recupero di peso dopo sleeve, specialmente con reflusso (GERD)", "Converte lo sleeve in una piccola tasca collegata all'intestino, risolvendo il reflusso e aggiungendo un effetto metabolico", "Chirurgia laparoscopica, 2–3 notti"],
+        ["Sleeve → Switch Duodenale / Bipartizione Transitiva", "BMI elevato o diabete di tipo 2 dopo uno sleeve", "Mantiene lo sleeve e aggiunge una componente intestinale per la massima perdita di peso e il controllo del diabete", "Chirurgia laparoscopica, 2–3 notti"],
+        ["Re-Sleeve Endoscopico (revisione ESG)", "Sleeve moderatamente dilatato, pazienti che vogliono evitare la chirurgia", "Suture endoscopiche attraverso la bocca ristringono lo sleeve dilatato — senza incisioni", "Endoscopico, in giornata / 1 notte"],
+        ["TORe (Transoral Outlet Reduction)", "Recupero di peso dopo bypass gastrico dovuto a uno stoma dilatato", "Suture endoscopiche restringono l'uscita allargata tra tasca e intestino", "Endoscopico, dimissione in giornata"],
+        ["Bendaggio → Sleeve o Bypass", "Bendaggio gastrico fallito o con complicanze", "Rimuove il bendaggio e lo converte in uno sleeve o un bypass in una o due fasi", "Chirurgia laparoscopica, 2–3 notti"]
+      ]
+    },
+    "candidacy": {
+      "title": "Sei un Candidato per la Chirurgia di Revisione?",
+      "intro": "Potresti beneficiare di una valutazione di revisione se si applica una delle seguenti condizioni:",
+      "criteria": [
+        "Hai recuperato una parte significativa del peso perso dopo un intervento di sleeve, bypass o bendaggio",
+        "Non hai mai raggiunto la perdita di peso attesa dopo il primo intervento",
+        "Hai sviluppato un reflusso acido grave o persistente (GERD) dopo uno sleeve gastrico",
+        "Ti senti affamato poco dopo i pasti o riesci a mangiare porzioni molto più grandi di prima",
+        "Hai un bendaggio gastrico che causa disagio, scivolamento o risultati inadeguati",
+        "Il tuo diabete di tipo 2 è tornato o non è mai stato completamente risolto dopo l'intervento"
+      ],
+      "note": "<strong>Importante:</strong> la chirurgia di revisione è tecnicamente più impegnativa della chirurgia primaria. Scegli un centro ad alto volume con specifica esperienza in revisioni — l'esperienza del chirurgo è il singolo fattore più importante nei risultati delle revisioni."
+    },
+    "process": {
+      "title": "Come Funziona il Processo di Revisione all'IBC",
+      "steps": [
+        "<strong>Valutazione remota gratuita.</strong> Condividi la tua storia chirurgica, il peso attuale e i sintomi con i nostri coordinatori su WhatsApp. Il Dr Murat Ustun esamina personalmente ogni caso di revisione.",
+        "<strong>Accertamento diagnostico a Istanbul.</strong> All'arrivo, ti sottoponi a endoscopia, imaging ed esami del sangue presso il Liv Hospital accreditato JCI per stabilire esattamente perché la prima procedura ha smesso di funzionare.",
+        "<strong>Decisione del percorso.</strong> In base ai risultati, il team raccomanda l'opzione meno invasiva che soddisferà in modo affidabile i tuoi obiettivi — endoscopica dove possibile, chirurgica dove necessario.",
+        "<strong>Procedura e recupero.</strong> Le revisioni endoscopiche sono di solito in giornata; le conversioni chirurgiche prevedono 2–3 notti in ospedale più il recupero in hotel con il nostro team nelle vicinanze.",
+        "<strong>12 mesi di assistenza post-operatoria.</strong> Supporto di un dietista registrato nel Regno Unito, indicazioni sugli integratori e follow-up regolari proteggono il risultato della tua seconda possibilità."
+      ],
+      "readMore": "Approfondisci nelle nostre guide dettagliate: <guideRevision>Chirurgia Bariatrica di Revisione in Turchia</guideRevision> e <guideTore>la procedura TORe spiegata</guideTore>."
+    },
+    "surgeonProof": {
+      "title": "Perché Affidare la Tua Revisione all'IBC?",
+      "subtitle": "La chirurgia di revisione richiede più esperienza di un primo intervento. È qui che volume e specializzazione contano di più."
+    },
+    "testimonials": {
+      "title": "Pazienti Che Hanno Avuto la Loro Seconda Possibilità",
+      "quotes": [
+        { "name": "Sarah M.", "flag": "🇺🇸", "date": "Ottobre 2025", "text": "Mi sono operata con il Dr. Murat e il suo straordinario team. Tutta la mia esperienza è stata a dir poco favolosa. In soli quattro mesi ho già perso 35 kg. Affido completamente la mia vita al Dr. Murat e al suo team." },
+        { "name": "David R.", "flag": "🇬🇧", "date": "Settembre 2025", "text": "Dal momento in cui sono arrivato, mi sono sentito completamente a mio agio — anche se ho viaggiato da solo. Il team del Dr. Murat è rimasto in contatto con me dall'intervento fino ad oggi, guidandomi passo dopo passo attraverso nutrizione, assistenza post-operatoria e recupero." },
+        { "name": "Peter V.", "flag": "🇧🇪", "date": "Novembre 2024", "text": "Mi sono operato 6 mesi fa e ho perso 45 kg. Il supporto continuo del team del Dr. Murat è stato straordinario. Si informano regolarmente e rispondono prontamente a tutte le mie domande." }
+      ]
+    },
+    "faq": {
+      "title": "Chirurgia di Revisione — Domande Frequenti",
+      "items": [
+        { "question": "Cos'è la chirurgia bariatrica di revisione?", "answer": "La chirurgia bariatrica di revisione è una seconda procedura eseguita dopo un precedente intervento per la perdita di peso — come sleeve gastrico, bypass gastrico o bendaggio gastrico — quando il primo intervento ha portato a recupero di peso, perdita di peso insufficiente o complicanze come un reflusso grave. Il percorso di revisione viene scelto in base alla tua anatomia, ai tuoi sintomi e ai tuoi obiettivi." },
+        { "question": "Quanto recupero di peso è normale dopo uno sleeve gastrico?", "answer": "Una certa fluttuazione del peso è normale, ma gli studi mostrano che fino al 30% dei pazienti con sleeve subisce un significativo recupero di peso entro 5 anni, spesso a causa della graduale dilatazione dello sleeve o dell'adattamento ormonale. Se hai recuperato più del 25% del peso inizialmente perso, vale la pena una valutazione di revisione." },
+        { "question": "Quale procedura di revisione è migliore dopo uno sleeve gastrico fallito?", "answer": "Le opzioni più comuni sono la conversione in mini bypass gastrico (soprattutto in presenza di reflusso — il GERD colpisce fino al 55% dei pazienti con sleeve a lungo termine), la conversione in switch duodenale o bipartizione transitiva per un maggiore effetto metabolico, oppure un re-sleeve endoscopico non chirurgico. L'opzione giusta dipende dal perché lo sleeve ha fallito, che viene valutato con endoscopia e imaging." },
+        { "question": "Un bypass gastrico può essere rivisto senza chirurgia?", "answer": "Sì. Se il collegamento tra tasca e intestino (lo stoma) si è dilatato, il TORe (Transoral Outlet Reduction) lo restringe per via endoscopica attraverso la bocca — senza incisioni, di solito con dimissione in giornata. È la principale revisione non chirurgica per il recupero di peso dopo un bypass." },
+        { "question": "La chirurgia bariatrica di revisione è più rischiosa del primo intervento?", "answer": "La chirurgia di revisione è tecnicamente più complessa a causa del tessuto cicatriziale del primo intervento, motivo per cui l'esperienza del chirurgo conta più che nella chirurgia primaria. Nei centri ad alto volume con chirurghi esperti in revisioni, i tassi di complicanze rimangono bassi e i risultati sono eccellenti." },
+        { "question": "Quanto costa la chirurgia bariatrica di revisione in Turchia?", "answer": "La chirurgia di revisione a Istanbul costa in genere £3,950–£5,950 tutto incluso a seconda del percorso — circa il 60-70% in meno rispetto a Regno Unito o Stati Uniti. Ogni preventivo include la degenza in ospedale accreditato JCI, l'endoscopia e i test preoperatori, i transfer, l'hotel e l'assistenza post-operatoria. Contattaci per una valutazione personalizzata e un preventivo esatto." }
+      ]
+    },
+    "related": {
+      "title": "Esplora le Opzioni Correlate",
+      "links": [
+        { "title": "Mini Bypass Gastrico", "description": "La conversione dello sleeve più comune" },
+        { "title": "Bipartizione Transitiva", "description": "Potente revisione metabolica" },
+        { "title": "Procedura TORe", "description": "Revisione non chirurgica del bypass" },
+        { "title": "Guida ai Costi", "description": "Confronta i prezzi tutto incluso" }
+      ]
+    },
+    "conversion": {
+      "title": "Scopri Quale Percorso di Revisione Fa per Te",
+      "text": "Invia la tua storia chirurgica al team del <doctorLink>Dr Murat Ustun</doctorLink> per una valutazione di revisione gratuita e senza impegno — di solito con risposta entro 24 ore.",
+      "button": "Ottieni la Mia Valutazione Gratuita"
+    }
+  },
+  "costPage": {
+    "hero": {
+      "eyebrow": "Prezzi Trasparenti — Guida 2026",
+      "title": "Costo della Chirurgia Bariatrica in Turchia",
+      "subtitle": "Ogni prezzo su questa pagina è tutto incluso e fissato prima della partenza: ospedale, chirurgo, test, transfer, hotel e 12 mesi di assistenza post-operatoria. Nessun costo nascosto — mai.",
+      "stats": [
+        { "value": "£1,650", "label": "Pacchetti da" },
+        { "value": "60–70%", "label": "Risparmio tipico vs UK/US" },
+        { "value": "0", "label": "Costi nascosti" }
+      ]
+    },
+    "facts": {
+      "title": "Prezzi dei Pacchetti Tutto Incluso 2026",
+      "items": [
+        { "label": "Pallone Gastrico", "value": "Da £1,650" },
+        { "label": "Sleeve Gastrico", "value": "Da £2,950" },
+        { "label": "Mini Bypass Gastrico", "value": "Da £3,350" },
+        { "label": "ESG (Non Chirurgico)", "value": "Da £4,950" }
+      ]
+    },
+    "comparison": {
+      "title": "Turchia vs Regno Unito, USA ed Europa: Confronto dei Prezzi",
+      "subtitle": "Prezzi privati tipici a pagamento per le stesse procedure. I prezzi turchi indicati sono i pacchetti tutto incluso a prezzo fisso dell'Istanbul Bariatric Center.",
+      "columns": ["Procedura", "Turchia (IBC, tutto incluso)", "Regno Unito", "Stati Uniti", "Europa Occidentale"],
+      "rows": [
+        ["Sleeve Gastrico", "£2,950 – £4,250", "£10,000 – £15,000", "$16,000 – $25,000", "€8,000 – €12,000"],
+        ["Mini Bypass Gastrico", "£3,350 – £4,650", "£11,000 – £16,000", "$20,000 – $30,000", "€9,000 – €14,000"],
+        ["Pallone Gastrico", "£1,650 – £2,250", "£4,000 – £8,000", "$6,000 – $9,000", "€3,500 – €6,000"],
+        ["ESG (Sleeve Endoscopico)", "£4,950 – £5,950", "£9,000 – £13,000", "$12,000 – $20,000", "€8,000 – €11,000"],
+        ["Switch Duodenale", "£4,400 – £4,700", "£13,000 – £18,000", "$22,000 – $35,000", "€11,000 – €16,000"],
+        ["Chirurgia di Revisione", "£3,950 – £5,950", "£12,000 – £18,000", "$18,000 – $30,000", "€10,000 – €15,000"]
+      ],
+      "footnote": "Le cifre di Regno Unito, USA e UE sono fasce indicative a pagamento pubblicate da fornitori privati nel 2025–2026 e variano a seconda della clinica e della città."
+    },
+    "includes": {
+      "title": "Cosa Include Ogni Pacchetto IBC",
+      "items": [
+        "Chirurgia eseguita presso il Liv Hospital accreditato JCI, Istanbul",
+        "Tutti gli onorari di chirurgo, anestesia e ospedale",
+        "Test preoperatori, consulenze e valutazione anestesiologica",
+        "Prelievo VIP in aeroporto e tutti i transfer",
+        "Alloggio in hotel (pacchetti Relax e Lusso — Radisson)",
+        "Farmaci post-operatori da portare a casa",
+        "12 mesi di supporto dietista (registrato nel Regno Unito nei pacchetti Relax e Lusso)",
+        "Coordinatori di assistenza UK in 8 sedi"
+      ]
+    },
+    "whyCheaper": {
+      "title": "Perché la Chirurgia Bariatrica Costa Meno in Turchia?",
+      "p1": "La differenza di prezzo <strong>non</strong> riguarda standard inferiori. La Turchia ha uno dei più grandi settori di turismo medico al mondo, e i principali ospedali di Istanbul detengono lo stesso <strong>accreditamento JCI (Joint Commission International)</strong> dei migliori ospedali di Londra, New York e Berlino.",
+      "p2": "Tre fattori determinano il risparmio:",
+      "factors": [
+        "<strong>Costi operativi:</strong> i costi di personale, struttura e amministrazione in Turchia sono una frazione dei livelli occidentali, senza incidere sulle attrezzature cliniche o sui protocolli.",
+        "<strong>Tasso di cambio:</strong> la tua sterlina, il tuo euro o il tuo dollaro rendono molto di più in Turchia.",
+        "<strong>Volume e specializzazione:</strong> i centri bariatrici ad alto volume come il nostro raggiungono efficienze — e risultati migliori — che le cliniche a basso volume non possono ottenere."
+      ],
+      "p3": "Il Dr Murat Ustun ha eseguito <strong>oltre 8.000 procedure bariatriche</strong> — una casistica che pochissimi chirurghi occidentali accumulano mai. In chirurgia, il volume è uno dei più forti predittori di sicurezza.",
+      "cta": "Ottieni il Mio Preventivo Esatto"
+    },
+    "budget": {
+      "title": "Come Pianificare il Budget dell'Intero Viaggio",
+      "intro": "Un budget totale realistico per un paziente del Regno Unito che si sottopone a uno sleeve gastrico con noi:",
+      "items": [
+        "<strong>Pacchetto chirurgico:</strong> £2,950–£4,250 (fisso, tutto incluso)",
+        "<strong>Voli andata e ritorno Londra–Istanbul:</strong> in genere £100–£250",
+        "<strong>Assicurazione di viaggio medica:</strong> £100–£200",
+        "<strong>Spese personali:</strong> £100–£200"
+      ],
+      "total": "Totale: circa <strong>£3,300–£4,900 tutto compreso</strong> — comunque meno della metà del costo della sola chirurgia in un ospedale privato del Regno Unito. Consulta la nostra <ukLink>guida dedicata ai pazienti del Regno Unito</ukLink> per la logistica di viaggio e l'assistenza post-operatoria da casa."
+    },
+    "surgeonProof": {
+      "title": "Prezzo Basso, Standard Senza Compromessi",
+      "subtitle": "Il risparmio deriva dall'economia, non da tagli su sicurezza, strutture o assistenza post-operatoria."
+    },
+    "faq": {
+      "title": "Prezzi — Domande Frequenti",
+      "items": [
+        { "question": "Quanto costa la chirurgia bariatrica in Turchia?", "answer": "All'Istanbul Bariatric Center, i pacchetti tutto incluso partono da £1,650 per un pallone gastrico, £2,950 per uno sleeve gastrico, £3,350 per un mini bypass gastrico e £4,950 per l'ESG. Ogni pacchetto include la degenza in ospedale accreditato JCI, i test preoperatori, i transfer aeroportuali, l'hotel (pacchetti Relax e Lusso) e l'assistenza dietistica post-operatoria." },
+        { "question": "Perché la chirurgia per la perdita di peso costa molto meno in Turchia?", "answer": "La differenza è dovuta a costi operativi inferiori, a un tasso di cambio favorevole e al sostegno governativo al turismo medico — non a standard inferiori. La chirurgia viene eseguita in ospedali accreditati JCI (lo stesso accreditamento internazionale dei migliori ospedali statunitensi ed europei) da chirurghi ad alto volume. Paghi il 60-70% in meno per lo stesso standard clinico." },
+        { "question": "Ci sono costi nascosti nei pacchetti?", "answer": "No. I nostri pacchetti sono davvero tutto incluso: onorari di chirurgo e anestesia, degenza ospedaliera, test e consulenze preoperatorie, transfer VIP aeroportuali, alloggio in hotel (Relax/Lusso), farmaci post-operatori da portare a casa e 12 mesi di supporto dietista. Gli unici costi non inclusi sono i tuoi voli e le spese personali." },
+        { "question": "Come si confronta il costo con Regno Unito, USA o Europa?", "answer": "Uno sleeve gastrico costa circa £10,000–£15,000 privatamente nel Regno Unito, $16,000–$25,000 negli USA e €8,000–€12,000 in gran parte dell'Europa Occidentale. A Istanbul il pacchetto tutto incluso equivalente è £2,950–£4,250 — in genere un risparmio del 60–75% anche dopo i voli." },
+        { "question": "Posso pagare a rate o con un finanziamento?", "answer": "Il pagamento avviene normalmente tramite bonifico bancario o carta, con un acconto per bloccare la data e il saldo all'arrivo. Parla con i nostri coordinatori delle modalità di pagamento attualmente disponibili per il tuo paese." },
+        { "question": "L'assicurazione di viaggio o l'NHS coprono la chirurgia in Turchia?", "answer": "L'NHS e le assicurazioni di viaggio standard non coprono la chirurgia programmata all'estero. Tuttavia, è disponibile un'assicurazione specialistica per viaggi medici che copre le complicanze, e la consigliamo. Molti pazienti trovano comunque il costo totale — chirurgia, voli, hotel e assicurazione — di gran lunga inferiore a un'operazione privata a casa." }
+      ]
+    },
+    "related": {
+      "title": "Confronta le Tue Opzioni",
+      "links": [
+        { "title": "Sleeve Gastrico", "description": "Da £2,950 tutto incluso" },
+        { "title": "Mini Bypass Gastrico", "description": "Da £3,350 tutto incluso" },
+        { "title": "ESG (Non Chirurgico)", "description": "Da £4,950 tutto incluso" },
+        { "title": "Chirurgia di Revisione", "description": "Da £3,950 tutto incluso" }
+      ]
+    },
+    "conversion": {
+      "title": "Ottieni un Preventivo Fisso e Tutto Incluso in 24 Ore",
+      "text": "Comunicaci la tua altezza, il tuo peso e i tuoi obiettivi su WhatsApp e ricevi un preventivo personalizzato e senza impegno — il prezzo che ti viene indicato è il prezzo che paghi.",
+      "button": "Ottieni il Mio Preventivo Gratuito"
+    }
+  },
+  "ukPage": {
+    "hero": {
+      "eyebrow": "Pensato per i Pazienti del Regno Unito",
+      "title": "Chirurgia Bariatrica in Turchia per Pazienti del Regno Unito",
+      "subtitle": "Prezzi fissi in GBP, un volo di 4 ore, assistenza ospedaliera accreditata JCI a Istanbul — e un'assistenza post-operatoria che ti segue a casa, con dietisti registrati nel Regno Unito e coordinatori di supporto in 8 sedi nel Regno Unito.",
+      "stats": [
+        { "value": "£2,950", "label": "Sleeve gastrico da" },
+        { "value": "8", "label": "Sedi di supporto UK" },
+        { "value": "12 mesi", "label": "Assistenza dietistica" }
+      ]
+    },
+    "facts": {
+      "title": "Il Tuo Viaggio a Colpo d'Occhio",
+      "items": [
+        { "label": "Durata del volo", "value": "~4 ore" },
+        { "label": "Visto per passaporti UK", "value": "Non richiesto" },
+        { "label": "Soggiorno tipico", "value": "4–6 notti" },
+        { "label": "Assenza dal lavoro", "value": "1–2 settimane" }
+      ]
+    },
+    "why": {
+      "title": "Perché Migliaia di Pazienti del Regno Unito Scelgono Istanbul",
+      "p1": "La chirurgia privata per la perdita di peso nel Regno Unito costa £10,000–£16,000, e le liste d'attesa dell'NHS per la chirurgia bariatrica si estendono regolarmente <strong>oltre due anni</strong> — con rigidi criteri di idoneità che escludono molte persone che ne trarrebbero beneficio. Ecco perché il Regno Unito è oggi una delle maggiori fonti di pazienti bariatrici che viaggiano verso Istanbul.",
+      "p2": "Il risparmio è considerevole — in genere <strong>60–70% in meno rispetto ai prezzi privati del Regno Unito</strong>, anche dopo i voli — ma il fattore decisivo per la maggior parte dei nostri pazienti del Regno Unito è il modello di assistenza: chirurgia eseguita da un unico chirurgo dedicato con oltre 8.000 procedure, un ospedale accreditato JCI e un pacchetto davvero tutto incluso con assistenza post-operatoria che continua nel Regno Unito.",
+      "cta": "Parla con un Coordinatore UK"
+    },
+    "comparison": {
+      "title": "Chirurgia Privata nel Regno Unito vs Istanbul Bariatric Center",
+      "columns": ["Cosa Ottieni", "Clinica Privata UK", "Istanbul Bariatric Center"],
+      "rows": [
+        ["Prezzo sleeve gastrico", "£10,000 – £15,000", "£2,950 – £4,250 tutto incluso"],
+        ["Tempo di attesa", "Settimane o mesi", "Di solito 1–3 settimane fino alla data scelta"],
+        ["Accreditamento ospedaliero", "Regolamentato CQC", "Accreditato JCI (gold standard internazionale)"],
+        ["Casistica del chirurgo", "Molto variabile", "8,000+ procedure (Dr Murat Ustun)"],
+        ["Hotel e transfer", "Non inclusi", "Inclusi (Relax e Lusso)"],
+        ["Assistenza dietistica", "Spesso extra", "12 mesi inclusi, registrato nel Regno Unito"],
+        ["Supporto UK di persona", "Presso la clinica", "Coordinatori in 8 sedi UK"]
+      ]
+    },
+    "journey": {
+      "title": "Il Tuo Percorso, Passo dopo Passo",
+      "steps": [
+        "<strong>Consulenza gratuita da casa.</strong> Scrivi alla nostra linea UK su WhatsApp. Riceverai una valutazione di idoneità, una raccomandazione personalizzata e un preventivo fisso in GBP — di solito entro 24 ore.",
+        "<strong>Prenota la tua data.</strong> Blocca la data dell'intervento con un acconto. Ti aiutiamo a trovare i voli; Londra, Manchester, Birmingham ed Edimburgo hanno tutti rotte dirette per Istanbul.",
+        "<strong>Giorno dell'arrivo.</strong> Un transfer VIP ti accoglie all'aeroporto di Istanbul. Test preoperatori, consulenze e valutazione anestesiologica vengono completati lo stesso giorno.",
+        "<strong>Chirurgia e degenza ospedaliera.</strong> La tua procedura presso il Liv Hospital accreditato JCI, seguita da 2–3 notti di recupero monitorato con personale che parla inglese e un interprete.",
+        "<strong>Recupero in hotel e rientro a casa.</strong> Una o due notti al Radisson con controlli quotidiani, una visita finale, poi il transfer di ritorno all'aeroporto. Volare 4 ore dopo l'intervento è sicuro e di routine in questa fase.",
+        "<strong>Assistenza post-operatoria nel Regno Unito.</strong> 12 mesi di supporto di un dietista registrato nel Regno Unito, indicazioni sugli integratori, accesso al team clinico via WhatsApp e supporto di persona in 8 sedi nel Regno Unito."
+      ]
+    },
+    "candidacy": {
+      "title": "Sono Idoneo?",
+      "intro": "I pazienti del Regno Unito sono generalmente idonei alla chirurgia per la perdita di peso con noi se:",
+      "criteria": [
+        "Il tuo BMI è 35 o superiore (30+ per opzioni non chirurgiche come ESG o pallone gastrico)",
+        "Hai provato dieta ed esercizio senza risultati duraturi",
+        "Hai condizioni legate al peso come diabete di tipo 2, apnea notturna o dolori articolari",
+        "Hai tra i 18 e i 65 anni e sei idoneo all'anestesia generale",
+        "Sei impegnato a seguire la dieta post-operatoria e il programma di follow-up",
+        "Puoi viaggiare a Istanbul per 4–6 notti"
+      ],
+      "note": "Non sei sicuro? Usa il nostro <profileLink>profilo di salute in 2 minuti</profileLink> o scrivici — la valutazione è gratuita e senza impegno."
+    },
+    "surgeonProof": {
+      "title": "Gli Standard di Sicurezza Che i Pazienti del Regno Unito Dovrebbero Pretendere",
+      "subtitle": "Ovunque tu ti operi all'estero, verifica queste quattro cose. Ecco come ci misuriamo."
+    },
+    "testimonials": {
+      "title": "Cosa Dicono i Pazienti del Regno Unito e dell'Irlanda",
+      "quotes": [
+        { "name": "Emma W.", "flag": "🇬🇧", "date": "Agosto 2025", "text": "Mi sono sottoposta di recente a un intervento di sleeve gastrico e l'esperienza è stata straordinaria. L'ospedale è pulitissimo e hai un'intera stanza tutta per te. Il Dr. Murat e il suo team mi hanno fornito un'assistenza eccellente durante tutto il soggiorno. Sto già vedendo ottimi risultati!" },
+        { "name": "Michelle F.", "flag": "🇬🇧", "date": "Agosto 2024", "text": "Dal prelievo in aeroporto all'alloggio in hotel, tutto era organizzato alla perfezione. L'intervento è andato liscio e il Dr. Murat mi ha visitata più volte durante il recupero. L'assistenza post-operatoria è stata eccellente. Consiglio vivamente!" },
+        { "name": "Robert H.", "flag": "🇮🇪", "date": "Luglio 2025", "text": "Assistenza eccezionale dall'inizio alla fine! Tutti i test effettuati accuratamente, l'operazione è andata benissimo, la cicatrice è quasi invisibile e sta guarendo bene. Il supporto post-operatorio è stato incredibile." }
+      ]
+    },
+    "faq": {
+      "title": "Pazienti del Regno Unito — Domande Frequenti",
+      "items": [
+        { "question": "È sicuro per i pazienti del Regno Unito sottoporsi a chirurgia per la perdita di peso in Turchia?", "answer": "Sì — quando scegli il fornitore giusto. L'Istanbul Bariatric Center opera esclusivamente presso il Liv Hospital accreditato JCI, lo stesso standard di accreditamento internazionale detenuto dai principali ospedali privati del Regno Unito. Il Dr Murat Ustun ha eseguito oltre 8.000 procedure e il centro ha vinto sei volte il WhatClinic Patient Service Award. La chiave è verificare l'accreditamento dell'ospedale e il volume del chirurgo prima di prenotare — con qualsiasi fornitore." },
+        { "question": "Quanto tempo devo restare a Istanbul?", "answer": "La maggior parte dei pazienti del Regno Unito resta 4-6 notti in totale: arrivo e test preoperatori il primo giorno, intervento il secondo giorno, 2-3 notti in ospedale, poi 1-2 notti in hotel prima di rientrare a casa. I pazienti ESG e pallone gastrico possono spesso tornare a casa entro 2-3 giorni." },
+        { "question": "Quale assistenza post-operatoria ricevo una volta tornato nel Regno Unito?", "answer": "I pacchetti Relax e Lusso includono 12 mesi di supporto da parte di un dietista registrato nel Regno Unito, oltre a coordinatori di assistenza in 8 sedi UK per aiuto di persona. Il nostro team clinico resta disponibile su WhatsApp per qualsiasi dubbio, e ci coordiniamo con il tuo medico di base ove necessario." },
+        { "question": "L'NHS si prenderà cura di me se qualcosa va storto?", "answer": "L'NHS ti curerà sempre in caso di emergenza. Per il follow-up di routine, la nostra rete di dietisti UK e il team clinico da remoto gestiscono la tua assistenza post-operatoria. Consigliamo inoltre vivamente un'assicurazione specialistica per viaggi medici, che copre il trattamento delle complicanze — le polizze costano in genere £100-£200." },
+        { "question": "Come funzionano i pagamenti dal Regno Unito?", "answer": "Paghi un acconto con carta o bonifico bancario per bloccare la data dell'intervento, con il saldo pagabile all'arrivo a Istanbul. Tutti i prezzi sono indicati in sterline e fissi — il preventivo che ricevi è l'importo che paghi." },
+        { "question": "Ho bisogno di un visto per viaggiare in Turchia dal Regno Unito?", "answer": "No. I titolari di passaporto del Regno Unito possono entrare in Turchia senza visto per un massimo di 90 giorni. Hai solo bisogno di un passaporto valido per almeno 150 giorni dalla data di arrivo, oltre alla conferma di prenotazione da parte nostra." }
+      ]
+    },
+    "related": {
+      "title": "Pianifica la Tua Procedura",
+      "links": [
+        { "title": "Sleeve Gastrico", "description": "Da £2,950 tutto incluso" },
+        { "title": "ESG (Non Chirurgico)", "description": "Nessuna incisione, dimissione in giornata" },
+        { "title": "Guida ai Costi", "description": "Confronto completo dei prezzi 2026" },
+        { "title": "ESG per Pazienti del Regno Unito", "description": "Pagina ESG dedicata al Regno Unito" }
+      ]
+    },
+    "conversion": {
+      "title": "Parla con il Nostro Team UK Oggi",
+      "text": "Scrivi ai coordinatori UK del <doctorLink>Dr Murat Ustun</doctorLink> su WhatsApp per una valutazione gratuita, un preventivo fisso in GBP e risposte a qualsiasi domanda — senza impegno, senza pressioni.",
+      "button": "Chatta su WhatsApp (UK)"
+    }
+  },
   "postBariatric": {
     "title": "Chirurgia Post-Bariatrica",
     "heroTitle": "Rimodellamento Corporeo Post-Bariatrico Istanbul, Turchia",

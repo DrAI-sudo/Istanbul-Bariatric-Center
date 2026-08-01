@@ -585,6 +585,595 @@
     "heroSubtitle": "Sleeve gastrektominin faydalarını bağırsak bypass ile birleştiren yenilikçi bir metabolik cerrahi.",
     "desc": "Transit bipartisyon, diyabet kontrolünü ve kilo kaybını iyileştirmek için sleeve gastrektomi ile kısmi bağırsak bypass'ını birleştiren metabolik bir cerrahidir."
   },
+    "revisionPage": {
+      "hero": {
+        "eyebrow": "İkinci Şans Cerrahisi",
+        "title": "Türkiye'de Revizyon Bariyatrik Cerrahi",
+        "subtitle": "Tüp mide veya bypass sonrası kilo geri alımı düşündüğünüzden daha yaygındır — ve düzeltilebilir. Türkiye'nin en deneyimli revizyon ekiplerinden biriyle cerrahi ve cerrahi olmayan revizyon yollarını keşfedin.",
+        "stats": [
+          {
+            "value": "8,000+",
+            "label": "Gerçekleştirilen prosedür"
+          },
+          {
+            "value": "5",
+            "label": "Revizyon yolu"
+          },
+          {
+            "value": "£3,950",
+            "label": "Her şey dahil başlangıç"
+          }
+        ]
+      },
+      "facts": {
+        "title": "Bir Bakışta Revizyon Cerrahisi",
+        "items": [
+          {
+            "label": "Değerlendirme",
+            "value": "Endoskopi + görüntüleme"
+          },
+          {
+            "label": "Seçenekler",
+            "value": "Cerrahi ve endoskopik"
+          },
+          {
+            "label": "Hastanede kalış",
+            "value": "0–3 gece"
+          },
+          {
+            "label": "Her şey dahil başlangıç",
+            "value": "£3,950"
+          }
+        ]
+      },
+      "why": {
+        "title": "Kilo Verme Cerrahisi Neden Bazen İkinci Bir Adım Gerektirir",
+        "p1": "Hiçbir bariyatrik ameliyat tek başına kalıcı sonuçları garanti etmez. Zamanla tüp mide kademeli olarak genişleyebilir, mide bypass sonrası çıkış açıklığı genişleyebilir ve hormonal adaptasyon açlığı geri getirebilir. Çalışmalar, <strong>tüp mide hastalarının %30'a varan kısmının beş yıl içinde önemli ölçüde kilo geri aldığını</strong> ve uzun vadede <strong>tüp mide hastalarının %55'inde şiddetli asit reflüsünün (GERD) geliştiğini</strong> göstermektedir.",
+        "p2": "Bunların hiçbiri ilk ameliyatınızın \"sizi yüzüstü bıraktığı\" anlamına gelmez — anatominizin ve metabolizmanızın değiştiği anlamına gelir ve bunu düzeltmek için köklü bir tıbbi yol vardır. Revizyon bariyatrik cerrahisi, orijinal prosedürünüzün kısıtlayıcı ve metabolik etkisini geri kazandırır veya vücudunuza daha uygun bir prosedüre dönüştürür.",
+        "p3": "Istanbul Bariatric Center'da her revizyon bir tanısal inceleme ile başlar — endoskopi ve görüntüleme — böylece izlenecek yol, tahmine dayalı değil, ilk ameliyatın <em>neden</em> işe yaramayı bıraktığına göre seçilir.",
+        "cta": "Ücretsiz Revizyon Değerlendirmesi Alın"
+      },
+      "pathways": {
+        "title": "Revizyon Yolları Karşılaştırması",
+        "subtitle": "Doğru revizyon; orijinal prosedürünüze, semptomlarınıza ve hedeflerinize bağlıdır.",
+        "columns": [
+          "Yol",
+          "En Uygun Olduğu Durum",
+          "Nasıl Çalışır",
+          "İnvazivlik"
+        ],
+        "rows": [
+          [
+            "Tüp Mide → Mini Mide Bypass",
+            "Tüp mide sonrası kilo geri alımı, özellikle reflü (GERD) ile birlikte",
+            "Tüp mideyi bağırsağa bağlı küçük bir poşa dönüştürerek reflüyü giderir ve metabolik bir etki ekler",
+            "Laparoskopik cerrahi, 2–3 gece"
+          ],
+          [
+            "Tüp Mide → Duodenal Switch / Transit Bipartisyon",
+            "Tüp mide sonrası yüksek BMI veya tip 2 diyabet",
+            "Tüp mideyi korur ve maksimum kilo kaybı ile diyabet kontrolü için bağırsak bileşeni ekler",
+            "Laparoskopik cerrahi, 2–3 gece"
+          ],
+          [
+            "Endoskopik Re-Sleeve (ESG revizyonu)",
+            "Orta derecede genişlemiş tüp mide, cerrahiden kaçınmak isteyen hastalar",
+            "Ağızdan geçirilen endoskopik dikişler genişlemiş tüp mideyi yeniden daraltır — kesi yok",
+            "Endoskopik, aynı gün / 1 gece"
+          ],
+          [
+            "TORe (Transoral Çıkış Daraltması)",
+            "Genişlemiş stoma nedeniyle mide bypass sonrası kilo geri alımı",
+            "Endoskopik dikişler, poş ile bağırsak arasındaki genişlemiş çıkışı daraltır",
+            "Endoskopik, aynı gün taburcu"
+          ],
+          [
+            "Bant → Tüp Mide veya Bypass",
+            "Başarısız veya komplikasyonlu mide bandı",
+            "Bandı çıkarır ve bir veya iki aşamada tüp mide ya da bypass'a dönüştürür",
+            "Laparoskopik cerrahi, 2–3 gece"
+          ]
+        ]
+      },
+      "candidacy": {
+        "title": "Revizyon Cerrahisi İçin Uygun musunuz?",
+        "intro": "Aşağıdakilerden herhangi biri sizin için geçerliyse bir revizyon değerlendirmesinden fayda görebilirsiniz:",
+        "criteria": [
+          "Tüp mide, bypass veya bant ameliyatından sonra verdiğiniz kilonun önemli bir kısmını geri aldınız",
+          "İlk ameliyattan sonra beklediğiniz kilo kaybına hiç ulaşamadınız",
+          "Tüp mide sonrası şiddetli veya kalıcı asit reflüsü (GERD) geliştirdiniz",
+          "Yemeklerden kısa süre sonra acıkıyorsunuz veya eskisinden çok daha büyük porsiyonlar yiyebiliyorsunuz",
+          "Rahatsızlığa, kaymaya veya yetersiz sonuçlara neden olan bir mide bandınız var",
+          "Tip 2 diyabetiniz geri döndü veya ameliyat sonrası hiç tam olarak düzelmedi"
+        ],
+        "note": "<strong>Önemli:</strong> revizyon cerrahisi teknik olarak birincil cerrahiden daha zorludur. Belirli revizyon deneyimine sahip yüksek hacimli bir merkez seçin — cerrah uzmanlığı, revizyon sonuçlarında en büyük tek faktördür."
+      },
+      "process": {
+        "title": "IBC'de Revizyon Süreci Nasıl İşler",
+        "steps": [
+          "<strong>Ücretsiz uzaktan değerlendirme.</strong> Cerrahi geçmişinizi, güncel kilonuzu ve semptomlarınızı WhatsApp üzerinden koordinatörlerimizle paylaşın. Dr Murat Ustun her revizyon vakasını bizzat inceler.",
+          "<strong>İstanbul'da tanısal inceleme.</strong> Geldiğinizde, ilk prosedürün neden işe yaramayı bıraktığını tam olarak belirlemek için JCI akrediteli Liv Hospital'da endoskopi, görüntüleme ve kan testlerinden geçersiniz.",
+          "<strong>Yol kararı.</strong> Bulgulara dayanarak ekip, hedeflerinizi güvenilir şekilde karşılayacak en az invaziv seçeneği önerir — mümkünse endoskopik, gerektiğinde cerrahi.",
+          "<strong>Prosedür ve iyileşme.</strong> Endoskopik revizyonlar genellikle aynı gün yapılır; cerrahi dönüşümler hastanede 2–3 gece ve ekibimizin yakınınızda olduğu otel iyileşmesini içerir.",
+          "<strong>12 aylık bakım.</strong> İngiltere kayıtlı diyetisyen desteği, takviye rehberliği ve düzenli takipler ikinci şans sonucunuzu korur."
+        ],
+        "readMore": "Ayrıntılı rehberlerimizde daha fazlasını okuyun: <guideRevision>Türkiye'de Revizyon Bariyatrik Cerrahi</guideRevision> ve <guideTore>TORe prosedürünün açıklaması</guideTore>."
+      },
+      "surgeonProof": {
+        "title": "Revizyonunuz İçin Neden IBC'ye Güvenmelisiniz?",
+        "subtitle": "Revizyon cerrahisi, ilk ameliyattan daha fazla deneyim gerektirir. Hacim ve uzmanlaşmanın en çok önem taşıdığı yer burasıdır."
+      },
+      "testimonials": {
+        "title": "İkinci Şansını Yakalayan Hastalar",
+        "quotes": [
+          {
+            "name": "Sarah M.",
+            "flag": "🇺🇸",
+            "date": "Ekim 2025",
+            "text": "Ameliyatımı Dr. Murat ve harika ekibiyle gerçekleştirdim. Tüm deneyimim muhteşemden başka bir şey değildi. Sadece dört ay içinde 35 kg verdim bile. Hayatımı Dr. Murat ve ekibine tamamen güveniyorum."
+          },
+          {
+            "name": "David R.",
+            "flag": "🇬🇧",
+            "date": "Eylül 2025",
+            "text": "Vardığım andan itibaren, yalnız seyahat etmeme rağmen kendimi tamamen rahat hissettim. Dr. Murat'ın ekibi ameliyattan bugüne kadar benimle iletişimde kaldı, beslenme, bakım ve iyileşme boyunca beni adım adım yönlendirdi."
+          },
+          {
+            "name": "Peter V.",
+            "flag": "🇧🇪",
+            "date": "Kasım 2024",
+            "text": "Ameliyatımı 6 ay önce oldum ve 45 kg verdim. Dr. Murat'ın ekibinin sürekli desteği harikaydı. Düzenli olarak beni kontrol ediyor ve tüm sorularımı hızlıca yanıtlıyorlar."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Revizyon Cerrahisi — Sıkça Sorulan Sorular",
+        "items": [
+          {
+            "question": "Revizyon bariyatrik cerrahi nedir?",
+            "answer": "Revizyon bariyatrik cerrahi, önceki bir kilo verme ameliyatının — tüp mide, mide bypass veya mide bandı gibi — kilo geri alımına, yetersiz kilo kaybına veya şiddetli reflü gibi komplikasyonlara yol açtığı durumlarda gerçekleştirilen ikinci bir prosedürdür. İzlenecek revizyon yolu, anatominize, semptomlarınıza ve hedeflerinize göre seçilir."
+          },
+          {
+            "question": "Tüp mide sonrası ne kadar kilo geri alımı normaldir?",
+            "answer": "Bir miktar kilo dalgalanması normaldir, ancak çalışmalar tüp mide hastalarının %30'a varan kısmının, genellikle tüp midenin kademeli genişlemesi veya hormonal adaptasyon nedeniyle 5 yıl içinde önemli ölçüde kilo geri aldığını göstermektedir. Başlangıçta verdiğiniz kilonun %25'inden fazlasını geri aldıysanız, bir revizyon değerlendirmesi yapmaya değer."
+          },
+          {
+            "question": "Başarısız bir tüp mide sonrası hangi revizyon prosedürü en iyisidir?",
+            "answer": "En yaygın seçenekler; mini mide bypass'a dönüşüm (özellikle reflü varsa — GERD uzun vadede tüp mide hastalarının %55'ini etkiler), daha fazla metabolik etki için duodenal switch veya transit bipartisyona dönüşüm ya da cerrahi olmayan endoskopik re-sleeve'dir. Doğru seçenek, tüp midenin neden başarısız olduğuna bağlıdır ve bu endoskopi ile görüntüleme kullanılarak değerlendirilir."
+          },
+          {
+            "question": "Mide bypass cerrahi olmadan revize edilebilir mi?",
+            "answer": "Evet. Poş ile bağırsak arasındaki bağlantı (stoma) genişlemişse, TORe (Transoral Çıkış Daraltması) bunu ağızdan endoskopik olarak daraltır — kesi yok, genellikle aynı gün taburcu. Bypass sonrası kilo geri alımı için önde gelen cerrahi olmayan revizyondur."
+          },
+          {
+            "question": "Revizyon bariyatrik cerrahisi ilk ameliyattan daha mı riskli?",
+            "answer": "Revizyon cerrahisi, ilk ameliyattan kalan yara dokusu nedeniyle teknik olarak daha karmaşıktır; bu yüzden cerrah deneyimi birincil cerrahiye göre daha çok önem taşır. Deneyimli revizyon cerrahlarına sahip yüksek hacimli merkezlerde komplikasyon oranları düşük kalır ve sonuçlar mükemmeldir."
+          },
+          {
+            "question": "Türkiye'de revizyon bariyatrik cerrahisi ne kadara mal olur?",
+            "answer": "İstanbul'da revizyon cerrahisi izlenecek yola bağlı olarak genellikle her şey dahil £3,950–£5,950 arasında değişir — İngiltere veya ABD'ye kıyasla yaklaşık %60-70 daha ucuz. Her teklif JCI akrediteli hastane konaklamasını, ameliyat öncesi endoskopi ve testleri, transferleri, oteli ve bakımı içerir. Kişiselleştirilmiş bir değerlendirme ve kesin teklif için bizimle iletişime geçin."
+          }
+        ]
+      },
+      "related": {
+        "title": "İlgili Seçenekleri Keşfedin",
+        "links": [
+          {
+            "title": "Mini Mide Bypass",
+            "description": "En yaygın tüp mide dönüşümü"
+          },
+          {
+            "title": "Transit Bipartisyon",
+            "description": "Güçlü metabolik revizyon"
+          },
+          {
+            "title": "TORe Prosedürü",
+            "description": "Cerrahi olmayan bypass revizyonu"
+          },
+          {
+            "title": "Maliyet Rehberi",
+            "description": "Her şey dahil fiyatları karşılaştırın"
+          }
+        ]
+      },
+      "conversion": {
+        "title": "Hangi Revizyon Yolunun Size Uygun Olduğunu Öğrenin",
+        "text": "Ücretsiz, yükümlülük gerektirmeyen bir revizyon değerlendirmesi için cerrahi geçmişinizi <doctorLink>Dr Murat Ustun'un</doctorLink> ekibine gönderin — genellikle 24 saat içinde yanıtlanır.",
+        "button": "Ücretsiz Değerlendirmemi Al"
+      }
+    },
+    "costPage": {
+      "hero": {
+        "eyebrow": "Şeffaf Fiyatlandırma — 2026 Rehberi",
+        "title": "Türkiye'de Bariyatrik Cerrahi Maliyeti",
+        "subtitle": "Bu sayfadaki her fiyat her şey dahildir ve siz seyahat etmeden önce sabittir: hastane, cerrah, testler, transferler, otel ve 12 aylık bakım. Gizli ek ücret yok — hiçbir zaman.",
+        "stats": [
+          {
+            "value": "£1,650",
+            "label": "Paketler başlangıç"
+          },
+          {
+            "value": "60–70%",
+            "label": "İngiltere/ABD'ye göre tipik tasarruf"
+          },
+          {
+            "value": "0",
+            "label": "Gizli ücret"
+          }
+        ]
+      },
+      "facts": {
+        "title": "2026 Her Şey Dahil Paket Fiyatları",
+        "items": [
+          {
+            "label": "Mide Balonu",
+            "value": "£1,650'den başlayan"
+          },
+          {
+            "label": "Tüp Mide",
+            "value": "£2,950'den başlayan"
+          },
+          {
+            "label": "Mini Mide Bypass",
+            "value": "£3,350'den başlayan"
+          },
+          {
+            "label": "ESG (Cerrahi Olmayan)",
+            "value": "£4,950'den başlayan"
+          }
+        ]
+      },
+      "comparison": {
+        "title": "Türkiye ile İngiltere, ABD ve Avrupa: Fiyat Karşılaştırması",
+        "subtitle": "Aynı prosedürler için tipik özel cepten ödeme fiyatları. Gösterilen Türkiye fiyatları Istanbul Bariatric Center'ın sabit, her şey dahil paketleridir.",
+        "columns": [
+          "Prosedür",
+          "Türkiye (IBC, her şey dahil)",
+          "İngiltere",
+          "Amerika Birleşik Devletleri",
+          "Batı Avrupa"
+        ],
+        "rows": [
+          [
+            "Tüp Mide",
+            "£2,950 – £4,250",
+            "£10,000 – £15,000",
+            "$16,000 – $25,000",
+            "€8,000 – €12,000"
+          ],
+          [
+            "Mini Mide Bypass",
+            "£3,350 – £4,650",
+            "£11,000 – £16,000",
+            "$20,000 – $30,000",
+            "€9,000 – €14,000"
+          ],
+          [
+            "Mide Balonu",
+            "£1,650 – £2,250",
+            "£4,000 – £8,000",
+            "$6,000 – $9,000",
+            "€3,500 – €6,000"
+          ],
+          [
+            "ESG (Endoskopik Tüp Mide)",
+            "£4,950 – £5,950",
+            "£9,000 – £13,000",
+            "$12,000 – $20,000",
+            "€8,000 – €11,000"
+          ],
+          [
+            "Duodenal Switch",
+            "£4,400 – £4,700",
+            "£13,000 – £18,000",
+            "$22,000 – $35,000",
+            "€11,000 – €16,000"
+          ],
+          [
+            "Revizyon Cerrahisi",
+            "£3,950 – £5,950",
+            "£12,000 – £18,000",
+            "$18,000 – $30,000",
+            "€10,000 – €15,000"
+          ]
+        ],
+        "footnote": "İngiltere, ABD ve AB rakamları, 2025–2026'da özel sağlayıcılar tarafından yayınlanan gösterge niteliğindeki cepten ödeme aralıklarıdır ve klinik ile şehre göre değişir."
+      },
+      "includes": {
+        "title": "Her IBC Paketinde Neler Dahildir",
+        "items": [
+          "JCI akrediteli Liv Hospital, İstanbul'da gerçekleştirilen ameliyat",
+          "Tüm cerrah, anestezi ve hastane ücretleri",
+          "Ameliyat öncesi testler, konsültasyonlar ve anestezi değerlendirmesi",
+          "VIP havaalanı karşılama ve tüm transferler",
+          "Otel konaklaması (Rahatlama ve Lüks paketleri — Radisson)",
+          "Eve götürülecek ameliyat sonrası ilaçlar",
+          "12 aylık diyetisyen desteği (Rahatlama ve Lüks paketlerinde İngiltere kayıtlı)",
+          "8 lokasyonda İngiltere bakım destek koordinatörleri"
+        ]
+      },
+      "whyCheaper": {
+        "title": "Bariyatrik Cerrahi Neden Türkiye'de Daha Ucuz?",
+        "p1": "Fiyat farkı daha düşük standartlarla ilgili <strong>değildir</strong>. Türkiye dünyanın en büyük medikal turizm sektörlerinden birine sahiptir ve İstanbul'un önde gelen hastaneleri, Londra, New York ve Berlin'deki en iyi hastanelerle aynı <strong>JCI (Joint Commission International) akreditasyonuna</strong> sahiptir.",
+        "p2": "Tasarrufu üç faktör sağlar:",
+        "factors": [
+          "<strong>İşletme maliyetleri:</strong> Türkiye'deki personel, tesis ve idari maliyetler, klinik ekipman veya protokolleri etkilemeden Batı seviyelerinin çok altındadır.",
+          "<strong>Döviz kuru:</strong> paranız, euronuz veya dolarınız Türkiye'de çok daha fazla değer taşır.",
+          "<strong>Hacim ve uzmanlaşma:</strong> bizimki gibi yüksek hacimli bariyatrik merkezler, düşük hacimli kliniklerin ulaşamayacağı verimlilik — ve daha iyi sonuçlar — elde eder."
+        ],
+        "p3": "Dr Murat Ustun <strong>8.000'den fazla bariyatrik prosedür</strong> gerçekleştirmiştir — çok az Batılı cerrahın biriktirebildiği bir vaka sayısı. Cerrahide hacim, güvenliğin en güçlü göstergelerinden biridir.",
+        "cta": "Kesin Teklifimi Al"
+      },
+      "budget": {
+        "title": "Tüm Yolculuğunuzu Nasıl Bütçelemelisiniz",
+        "intro": "Bizimle tüp mide olacak bir İngiltere hastası için gerçekçi bir toplam bütçe:",
+        "items": [
+          "<strong>Ameliyat paketi:</strong> £2,950–£4,250 (sabit, her şey dahil)",
+          "<strong>Londra–İstanbul gidiş-dönüş uçuşlar:</strong> genellikle £100–£250",
+          "<strong>Medikal seyahat sigortası:</strong> £100–£200",
+          "<strong>Kişisel harcamalar:</strong> £100–£200"
+        ],
+        "total": "Toplam: yaklaşık <strong>£3,300–£4,900 her şey dahil</strong> — yine de bir İngiltere özel hastanesinde tek başına ameliyat maliyetinin yarısından daha az. Seyahat lojistiği ve evden bakım için özel <ukLink>İngiltere hastaları rehberimize</ukLink> bakın."
+      },
+      "surgeonProof": {
+        "title": "Düşük Fiyat, Ödün Verilmeyen Standartlar",
+        "subtitle": "Tasarruf; güvenlik, tesisler veya bakımda kısıntı yapmaktan değil, ekonomiden kaynaklanır."
+      },
+      "faq": {
+        "title": "Fiyatlandırma — Sıkça Sorulan Sorular",
+        "items": [
+          {
+            "question": "Türkiye'de bariyatrik cerrahi ne kadara mal olur?",
+            "answer": "Istanbul Bariatric Center'da her şey dahil paketler mide balonu için £1,650, tüp mide için £2,950, mini mide bypass için £3,350 ve ESG için £4,950'den başlar. Her paket JCI akrediteli hastane konaklamasını, ameliyat öncesi testleri, havaalanı transferlerini, oteli (Rahatlama ve Lüks kademeleri) ve diyetisyen bakımını içerir."
+          },
+          {
+            "question": "Kilo verme cerrahisi neden Türkiye'de bu kadar daha ucuz?",
+            "answer": "Fark, daha düşük standartlardan değil; daha düşük işletme maliyetleri, uygun döviz kuru ve medikal turizme yönelik devlet desteğinden kaynaklanır. Ameliyat, yüksek hacimli cerrahlar tarafından JCI akrediteli hastanelerde (en iyi ABD ve Avrupa hastanelerinin sahip olduğu aynı uluslararası akreditasyon) gerçekleştirilir. Aynı klinik standart için %60-70 daha az ödersiniz."
+          },
+          {
+            "question": "Paketlerde gizli maliyetler var mı?",
+            "answer": "Hayır. Paketlerimiz gerçekten her şey dahildir: cerrah ve anestezi ücretleri, hastane konaklaması, ameliyat öncesi testler ve konsültasyonlar, VIP havaalanı transferleri, otel konaklaması (Rahatlama/Lüks), eve götürülecek ameliyat sonrası ilaçlar ve 12 aylık diyetisyen desteği. Dahil olmayan tek maliyet uçuşlarınız ve kişisel harcamalarınızdır."
+          },
+          {
+            "question": "Maliyet İngiltere, ABD veya Avrupa ile nasıl karşılaştırılıyor?",
+            "answer": "Bir tüp mide, İngiltere'de özel olarak yaklaşık £10,000–£15,000, ABD'de $16,000–$25,000 ve Batı Avrupa'nın çoğunda €8,000–€12,000 tutar. İstanbul'da eşdeğer her şey dahil paket £2,950–£4,250'dir — uçuşlar dahil olsa bile genellikle %60–75 tasarruf."
+          },
+          {
+            "question": "Taksitle veya finansmanla ödeme yapabilir miyim?",
+            "answer": "Ödeme normalde banka havalesi veya kartla yapılır; tarihinizi güvenceye almak için bir ön ödeme ve varışta bakiye ödemesi ile. Ülkeniz için mevcut ödeme düzenlemeleri hakkında koordinatörlerimizle görüşün."
+          },
+          {
+            "question": "Seyahat sigortası veya NHS Türkiye'deki ameliyatı karşılıyor mu?",
+            "answer": "NHS ve standart seyahat sigortası yurt dışında planlı ameliyatı kapsamaz. Ancak komplikasyonları kapsayan özel medikal seyahat sigortası mevcuttur ve bunu öneririz. Birçok hasta yine de toplam maliyeti — ameliyat, uçuşlar, otel ve sigorta — kendi ülkesindeki özel bir operasyonun çok altında bulur."
+          }
+        ]
+      },
+      "related": {
+        "title": "Seçeneklerinizi Karşılaştırın",
+        "links": [
+          {
+            "title": "Tüp Mide",
+            "description": "£2,950'den başlayan her şey dahil"
+          },
+          {
+            "title": "Mini Mide Bypass",
+            "description": "£3,350'den başlayan her şey dahil"
+          },
+          {
+            "title": "ESG (Cerrahi Olmayan)",
+            "description": "£4,950'den başlayan her şey dahil"
+          },
+          {
+            "title": "Revizyon Cerrahisi",
+            "description": "£3,950'den başlayan her şey dahil"
+          }
+        ]
+      },
+      "conversion": {
+        "title": "24 Saat İçinde Sabit, Her Şey Dahil Teklif Alın",
+        "text": "Boyunuzu, kilonuzu ve hedeflerinizi WhatsApp üzerinden bize bildirin ve kişiselleştirilmiş, yükümlülük gerektirmeyen bir teklif alın — size verilen fiyat, ödeyeceğiniz fiyattır.",
+        "button": "Ücretsiz Teklifimi Al"
+      }
+    },
+    "ukPage": {
+      "hero": {
+        "eyebrow": "İngiltere Hastaları İçin Tasarlandı",
+        "title": "İngiltere Hastaları İçin Türkiye'de Bariyatrik Cerrahi",
+        "subtitle": "Sabit GBP fiyatlandırması, 4 saatlik bir uçuş, İstanbul'da JCI akrediteli hastane bakımı — ve İngiltere kayıtlı diyetisyenler ile 8 İngiltere lokasyonundaki destek koordinatörleriyle sizi eve kadar takip eden bir bakım.",
+        "stats": [
+          {
+            "value": "£2,950",
+            "label": "Tüp mide başlangıç"
+          },
+          {
+            "value": "8",
+            "label": "İngiltere destek lokasyonu"
+          },
+          {
+            "value": "12 ay",
+            "label": "Diyetisyen bakımı"
+          }
+        ]
+      },
+      "facts": {
+        "title": "Bir Bakışta Yolculuğunuz",
+        "items": [
+          {
+            "label": "Uçuş süresi",
+            "value": "~4 saat"
+          },
+          {
+            "label": "İngiltere pasaportları için vize",
+            "value": "Gerekli değil"
+          },
+          {
+            "label": "Tipik kalış",
+            "value": "4–6 gece"
+          },
+          {
+            "label": "İşten izin",
+            "value": "1–2 hafta"
+          }
+        ]
+      },
+      "why": {
+        "title": "Binlerce İngiltere Hastası Neden İstanbul'u Seçiyor",
+        "p1": "İngiltere'de özel kilo verme cerrahisi £10,000–£16,000 tutar ve bariyatrik cerrahi için NHS bekleme listeleri rutin olarak <strong>iki yılı aşar</strong> — üstelik fayda görecek birçok kişiyi dışlayan katı uygunluk kriterleriyle. İşte bu yüzden İngiltere, artık İstanbul'a seyahat eden bariyatrik hastaların en büyük kaynaklarından biridir.",
+        "p2": "Tasarruf önemlidir — uçuşlar dahil olsa bile genellikle <strong>İngiltere özel fiyatlarından %60–70 daha az</strong> — ancak İngiltere hastalarımızın çoğu için belirleyici faktör bakım modelidir: 8.000'den fazla prosedürü olan tek isimli bir cerrah tarafından ameliyat, JCI akrediteli bir hastane ve İngiltere'de devam eden bakımıyla gerçekten her şey dahil bir paket.",
+        "cta": "Bir İngiltere Koordinatörüyle Görüşün"
+      },
+      "comparison": {
+        "title": "İngiltere Özel Cerrahisi ile Istanbul Bariatric Center",
+        "columns": [
+          "Neler Elde Edersiniz",
+          "İngiltere Özel Kliniği",
+          "Istanbul Bariatric Center"
+        ],
+        "rows": [
+          [
+            "Tüp mide fiyatı",
+            "£10,000 – £15,000",
+            "£2,950 – £4,250 her şey dahil"
+          ],
+          [
+            "Bekleme süresi",
+            "Haftalar ile aylar",
+            "Genellikle seçtiğiniz tarihe 1–3 hafta"
+          ],
+          [
+            "Hastane akreditasyonu",
+            "CQC düzenlemeli",
+            "JCI akrediteli (uluslararası altın standart)"
+          ],
+          [
+            "Cerrah vaka sayısı",
+            "Büyük ölçüde değişir",
+            "8.000+ prosedür (Dr Murat Ustun)"
+          ],
+          [
+            "Otel ve transferler",
+            "Dahil değil",
+            "Dahil (Rahatlama ve Lüks)"
+          ],
+          [
+            "Diyetisyen bakımı",
+            "Genellikle ek ücretli",
+            "12 ay dahil, İngiltere kayıtlı"
+          ],
+          [
+            "Yüz yüze İngiltere desteği",
+            "Klinikte",
+            "8 İngiltere lokasyonunda koordinatörler"
+          ]
+        ]
+      },
+      "journey": {
+        "title": "Yolculuğunuz, Adım Adım",
+        "steps": [
+          "<strong>Evden ücretsiz danışma.</strong> İngiltere hattımıza WhatsApp üzerinden mesaj gönderin. Bir uygunluk değerlendirmesi, kişiselleştirilmiş bir öneri ve sabit GBP teklifi alırsınız — genellikle 24 saat içinde.",
+          "<strong>Tarihinizi ayırtın.</strong> Bir ön ödeme ile ameliyat tarihinizi güvenceye alın. Uçuş bulmanıza yardımcı oluruz; Londra, Manchester, Birmingham ve Edinburgh'un tümünde doğrudan İstanbul uçuşları vardır.",
+          "<strong>Varış günü.</strong> İstanbul Havalimanı'nda sizi VIP transfer karşılar. Ameliyat öncesi testler, konsültasyonlar ve anestezi değerlendirmesi aynı gün tamamlanır.",
+          "<strong>Ameliyat ve hastanede kalış.</strong> JCI akrediteli Liv Hospital'da prosedürünüz, ardından İngilizce konuşan personel ve bir tercümanla 2–3 gece izlemli iyileşme.",
+          "<strong>Otelde iyileşme ve eve dönüş.</strong> Radisson'da günlük kontrollerle bir veya iki gece, son bir değerlendirme, ardından havaalanına transferiniz. Ameliyattan sonra 4 saat uçmak bu aşamada güvenli ve rutindir.",
+          "<strong>İngiltere'de bakım.</strong> 12 aylık İngiltere kayıtlı diyetisyen desteği, takviye rehberliği, klinik ekibe WhatsApp erişimi ve 8 İngiltere lokasyonunda yüz yüze destek."
+        ]
+      },
+      "candidacy": {
+        "title": "Uygun muyum?",
+        "intro": "İngiltere hastaları genellikle aşağıdaki durumlarda bizimle kilo verme cerrahisine uygun olur:",
+        "criteria": [
+          "BMI'niz 35 veya üzeri (ESG ya da mide balonu gibi cerrahi olmayan seçenekler için 30+)",
+          "Kalıcı sonuç almadan diyet ve egzersiz denediniz",
+          "Tip 2 diyabet, uyku apnesi veya eklem ağrısı gibi kiloya bağlı rahatsızlıklarınız var",
+          "18–65 yaş arasındasınız ve genel anesteziye uygunsunuz",
+          "Ameliyat sonrası diyet ve takip programına bağlısınız",
+          "4–6 gece için İstanbul'a seyahat edebiliyorsunuz"
+        ],
+        "note": "Emin değil misiniz? <profileLink>2 dakikalık sağlık profilimizi</profileLink> kullanın veya bize mesaj gönderin — değerlendirme ücretsizdir ve hiçbir yükümlülük getirmez."
+      },
+      "surgeonProof": {
+        "title": "İngiltere Hastalarının Talep Etmesi Gereken Güvenlik Standartları",
+        "subtitle": "Yurt dışında nerede ameliyat olursanız olun, bu dört şeyi doğrulayın. İşte bizim durumumuz."
+      },
+      "testimonials": {
+        "title": "İngiltere ve İrlanda Hastaları Ne Diyor",
+        "quotes": [
+          {
+            "name": "Emma W.",
+            "flag": "🇬🇧",
+            "date": "Ağustos 2025",
+            "text": "Kısa süre önce tüp mide ameliyatı oldum ve deneyim harikaydı. Hastane son derece temiz ve kendinize ait bir odanız oluyor. Dr. Murat ve ekibi kalışım boyunca mükemmel bir bakım sağladı. Şimdiden harika sonuçlar görüyorum!"
+          },
+          {
+            "name": "Michelle F.",
+            "flag": "🇬🇧",
+            "date": "Ağustos 2024",
+            "text": "Havaalanı karşılamasından otel konaklamasına kadar her şey mükemmel organize edilmişti. Ameliyat sorunsuz geçti ve Dr. Murat iyileşmem sırasında beni birçok kez ziyaret etti. Takip bakımı mükemmeldi. Kesinlikle tavsiye ederim!"
+          },
+          {
+            "name": "Robert H.",
+            "flag": "🇮🇪",
+            "date": "Temmuz 2025",
+            "text": "Baştan sona olağanüstü bir bakım! Tüm testler titizlikle yapıldı, operasyon çok iyi geçti, iz neredeyse görünmüyor ve güzelce iyileşiyor. Bakım desteği inanılmazdı."
+          }
+        ]
+      },
+      "faq": {
+        "title": "İngiltere Hastaları — Sıkça Sorulan Sorular",
+        "items": [
+          {
+            "question": "İngiltere hastalarının Türkiye'de kilo verme cerrahisi olması güvenli mi?",
+            "answer": "Evet — doğru sağlayıcıyı seçtiğinizde. Istanbul Bariatric Center yalnızca JCI akrediteli Liv Hospital'da faaliyet gösterir; bu, önde gelen İngiltere özel hastanelerinin sahip olduğu aynı uluslararası akreditasyon standardıdır. Dr Murat Ustun 8.000'den fazla prosedür gerçekleştirmiştir ve merkez altı kez WhatClinic Hasta Hizmeti Ödülü'nü kazanmıştır. Anahtar; herhangi bir sağlayıcıda, rezervasyon yapmadan önce hastane akreditasyonunu ve cerrah hacmini doğrulamaktır."
+          },
+          {
+            "question": "İstanbul'da ne kadar kalmam gerekiyor?",
+            "answer": "İngiltere hastalarının çoğu toplam 4-6 gece kalır: birinci gün varış ve ameliyat öncesi testler, ikinci gün ameliyat, hastanede 2-3 gece, ardından eve dönmeden önce otelde 1-2 gece. ESG ve mide balonu hastaları genellikle 2-3 gün içinde eve dönebilir."
+          },
+          {
+            "question": "İngiltere'ye döndüğümde nasıl bir bakım alıyorum?",
+            "answer": "Rahatlama ve Lüks paketleri, İngiltere kayıtlı bir diyetisyenden 12 aylık desteğin yanı sıra yüz yüze yardım için 8 İngiltere lokasyonunda bakım destek koordinatörlerini içerir. Klinik ekibimiz her türlü endişe için WhatsApp üzerinden ulaşılabilir kalır ve gerektiğinde aile hekiminizle koordinasyon sağlarız."
+          },
+          {
+            "question": "Bir şeyler ters giderse NHS bana bakar mı?",
+            "answer": "NHS acil durumda sizi her zaman tedavi eder. Rutin takip için, İngiltere diyetisyen ağımız ve uzaktan klinik ekibimiz bakımınızı üstlenir. Ayrıca komplikasyon tedavisini kapsayan özel medikal seyahat sigortasını şiddetle öneririz — poliçeler genellikle £100-£200 tutar."
+          },
+          {
+            "question": "İngiltere'den ödemeler nasıl işliyor?",
+            "answer": "Ameliyat tarihinizi güvenceye almak için kart veya banka havalesiyle bir ön ödeme yaparsınız; bakiye İstanbul'a varışta ödenir. Tüm fiyatlar sterlin cinsinden verilir ve sabittir — aldığınız teklif, ödeyeceğiniz tutardır."
+          },
+          {
+            "question": "İngiltere'den Türkiye'ye seyahat etmek için vizeye ihtiyacım var mı?",
+            "answer": "Hayır. İngiltere pasaportu sahipleri Türkiye'ye 90 güne kadar vizesiz girebilir. Yalnızca varış tarihinizden itibaren en az 150 gün geçerli bir pasaporta ve bizden aldığınız rezervasyon onayına ihtiyacınız vardır."
+          }
+        ]
+      },
+      "related": {
+        "title": "Prosedürünüzü Planlayın",
+        "links": [
+          {
+            "title": "Tüp Mide",
+            "description": "£2,950'den başlayan her şey dahil"
+          },
+          {
+            "title": "ESG (Cerrahi Olmayan)",
+            "description": "Kesi yok, aynı gün taburcu"
+          },
+          {
+            "title": "Maliyet Rehberi",
+            "description": "Tam 2026 fiyat karşılaştırması"
+          },
+          {
+            "title": "İngiltere Hastaları İçin ESG",
+            "description": "Özel İngiltere ESG sayfası"
+          }
+        ]
+      },
+      "conversion": {
+        "title": "Bugün İngiltere Ekibimizle Konuşun",
+        "text": "Ücretsiz bir değerlendirme, sabit GBP teklifi ve her türlü sorunun yanıtı için <doctorLink>Dr Murat Ustun'un</doctorLink> İngiltere koordinatörlerine WhatsApp üzerinden mesaj gönderin — yükümlülük yok, baskı yok.",
+        "button": "WhatsApp'ta Sohbet Et (İngiltere)"
+      }
+    },
   "postBariatric": {
     "title": "Bariyatrik Sonrası Cerrahi",
     "heroTitle": "Bariyatrik Sonrası Vücut Şekillendirme İstanbul, Türkiye",

@@ -585,6 +585,308 @@
     "heroSubtitle": "Chirurgie metabolică inovatoare.",
     "desc": "Combină sleeve cu bypass intestinal parțial."
   },
+  "revisionPage": {
+    "hero": {
+      "eyebrow": "Chirurgie de a Doua Șansă",
+      "title": "Chirurgie Bariatrică de Revizie în Turcia",
+      "subtitle": "Recâștigarea în greutate după un gastric sleeve sau bypass este mai frecventă decât credeți — și poate fi corectată. Explorați căile de revizie chirurgicale și non-chirurgicale cu una dintre cele mai experimentate echipe de revizie din Turcia.",
+      "stats": [
+        { "value": "8,000+", "label": "Proceduri efectuate" },
+        { "value": "5", "label": "Căi de revizie" },
+        { "value": "£3,950", "label": "All-inclusive de la" }
+      ]
+    },
+    "facts": {
+      "title": "Chirurgia de Revizie Dintr-o Privire",
+      "items": [
+        { "label": "Evaluare", "value": "Endoscopie + imagistică" },
+        { "label": "Opțiuni", "value": "Chirurgicale și endoscopice" },
+        { "label": "Spitalizare", "value": "0–3 nopți" },
+        { "label": "All-inclusive de la", "value": "£3,950" }
+      ]
+    },
+    "why": {
+      "title": "De Ce Chirurgia de Pierdere în Greutate Are Uneori Nevoie de un al Doilea Pas",
+      "p1": "Nicio operație bariatrică nu garantează singură rezultate permanente. În timp, un gastric sleeve se poate întinde treptat, orificiul de ieșire după un bypass gastric se poate lărgi, iar adaptarea hormonală poate readuce senzația de foame. Studiile arată că <strong>până la 30% dintre pacienții cu sleeve experimentează o recâștigare semnificativă în greutate în cinci ani</strong>, iar refluxul acid sever (GERD) apare la până la <strong>55% dintre pacienții cu sleeve</strong> pe termen lung.",
+      "p2": "Nimic din toate acestea nu înseamnă că prima operație \"a eșuat\" — înseamnă că anatomia și metabolismul dumneavoastră s-au schimbat, iar există o cale medicală bine stabilită pentru corectarea acestora. Chirurgia bariatrică de revizie restabilește restricția și efectul metabolic al procedurii inițiale sau o convertește în una mai potrivită corpului dumneavoastră.",
+      "p3": "La Istanbul Bariatric Center, fiecare revizie începe cu o evaluare diagnostică — endoscopie și imagistică — astfel încât calea să fie aleasă în funcție de <em>motivul</em> pentru care prima operație a încetat să funcționeze, nu pe baza presupunerilor.",
+      "cta": "Obțineți o Evaluare Gratuită de Revizie"
+    },
+    "pathways": {
+      "title": "Compararea Căilor de Revizie",
+      "subtitle": "Revizia potrivită depinde de procedura inițială, de simptomele și de obiectivele dumneavoastră.",
+      "columns": ["Cale", "Recomandat Pentru", "Cum Funcționează", "Invazivitate"],
+      "rows": [
+        ["Sleeve → Mini Bypass Gastric", "Recâștigare în greutate după sleeve, în special cu reflux (GERD)", "Convertește sleeve-ul într-o pungă mică conectată la intestin, rezolvând refluxul și adăugând un efect metabolic", "Chirurgie laparoscopică, 2–3 nopți"],
+        ["Sleeve → Duodenal Switch / Bifurcație de Transit", "BMI ridicat sau diabet tip 2 după un sleeve", "Păstrează sleeve-ul și adaugă o componentă intestinală pentru pierdere maximă în greutate și controlul diabetului", "Chirurgie laparoscopică, 2–3 nopți"],
+        ["Re-Sleeve Endoscopic (revizie ESG)", "Sleeve moderat întins, pacienți care doresc să evite chirurgia", "Suturi endoscopice prin gură restrâng din nou sleeve-ul întins — fără incizii", "Endoscopic, aceeași zi / 1 noapte"],
+        ["TORe (Transoral Outlet Reduction)", "Recâștigare în greutate după bypass gastric din cauza unei stome întinse", "Suturi endoscopice îngustează orificiul de ieșire lărgit dintre pungă și intestin", "Endoscopic, externare în aceeași zi"],
+        ["Bandă → Sleeve sau Bypass", "Bandă gastrică eșuată sau complicată", "Îndepărtează banda și convertește într-un sleeve sau bypass în una sau două etape", "Chirurgie laparoscopică, 2–3 nopți"]
+      ]
+    },
+    "candidacy": {
+      "title": "Sunteți Candidat pentru Chirurgia de Revizie?",
+      "intro": "Ați putea beneficia de o evaluare de revizie dacă oricare dintre următoarele se aplică:",
+      "criteria": [
+        "Ați recâștigat o parte semnificativă din greutatea pierdută după chirurgia de sleeve, bypass sau bandă",
+        "Nu ați atins niciodată pierderea în greutate așteptată după prima operație",
+        "Ați dezvoltat reflux acid sever sau persistent (GERD) după un gastric sleeve",
+        "Vă simțiți flămând la scurt timp după mese sau puteți mânca porții mult mai mari decât înainte",
+        "Aveți o bandă gastrică ce provoacă disconfort, alunecare sau rezultate inadecvate",
+        "Diabetul dumneavoastră tip 2 a revenit sau nu a fost niciodată complet rezolvat după chirurgie"
+      ],
+      "note": "<strong>Important:</strong> chirurgia de revizie este mai solicitantă din punct de vedere tehnic decât chirurgia primară. Alegeți un centru cu volum ridicat și experiență specifică în revizie — expertiza chirurgului este factorul cel mai important pentru rezultatele reviziei."
+    },
+    "process": {
+      "title": "Cum Funcționează Procesul de Revizie la IBC",
+      "steps": [
+        "<strong>Evaluare gratuită la distanță.</strong> Împărtășiți istoricul chirurgical, greutatea actuală și simptomele cu coordonatorii noștri pe WhatsApp. Dr Murat Ustun analizează personal fiecare caz de revizie.",
+        "<strong>Evaluare diagnostică la Istanbul.</strong> La sosire, veți efectua endoscopie, imagistică și analize de sânge la Spitalul Liv acreditat JCI pentru a stabili exact de ce prima procedură a încetat să funcționeze.",
+        "<strong>Decizia asupra căii.</strong> Pe baza rezultatelor, echipa recomandă opțiunea cea mai puțin invazivă care vă va îndeplini în mod fiabil obiectivele — endoscopică acolo unde este posibil, chirurgicală acolo unde este necesar.",
+        "<strong>Procedura și recuperarea.</strong> Reviziile endoscopice sunt de obicei în aceeași zi; conversiile chirurgicale implică 2–3 nopți în spital plus recuperare la hotel, cu echipa noastră în apropiere.",
+        "<strong>12 luni de îngrijire post-operatorie.</strong> Suportul unui dietetician înregistrat UK, îndrumare privind suplimentele și controale regulate vă protejează rezultatul de a doua șansă."
+      ],
+      "readMore": "Citiți mai mult în ghidurile noastre detaliate: <guideRevision>Chirurgia Bariatrică de Revizie în Turcia</guideRevision> și <guideTore>procedura TORe explicată</guideTore>."
+    },
+    "surgeonProof": {
+      "title": "De Ce Să Aveți Încredere în IBC pentru Revizia Dumneavoastră?",
+      "subtitle": "Chirurgia de revizie necesită mai multă experiență decât o primă operație. Aici contează cel mai mult volumul și specializarea."
+    },
+    "testimonials": {
+      "title": "Pacienți Care Și-au Primit a Doua Șansă",
+      "quotes": [
+        { "name": "Sarah M.", "flag": "🇺🇸", "date": "Octombrie 2025", "text": "Am avut operația cu Dr. Murat și echipa sa uimitoare. Întreaga mea experiență a fost pur și simplu fabuloasă. În doar patru luni, am pierdut deja 35 kg. Îmi încredințez complet viața Dr. Murat și echipei sale." },
+        { "name": "David R.", "flag": "🇬🇧", "date": "Septembrie 2025", "text": "Din momentul în care am sosit, m-am simțit complet în largul meu — chiar dacă am călătorit singur. Echipa Dr. Murat a rămas în legătură cu mine de la operație până astăzi, ghidându-mă pas cu pas prin nutriție, îngrijire post-operatorie și recuperare." },
+        { "name": "Peter V.", "flag": "🇧🇪", "date": "Noiembrie 2024", "text": "Am avut operația acum 6 luni și am pierdut 45 kg. Suportul continuu din partea echipei Dr. Murat a fost uimitor. Mă contactează regulat și răspund prompt la toate întrebările mele." }
+      ]
+    },
+    "faq": {
+      "title": "Chirurgia de Revizie — Întrebări Frecvente",
+      "items": [
+        { "question": "Ce este chirurgia bariatrică de revizie?", "answer": "Chirurgia bariatrică de revizie este o a doua procedură efectuată după o operație anterioară de pierdere în greutate — precum gastric sleeve, bypass gastric sau bandă gastrică — atunci când prima intervenție a dus la recâștigare în greutate, pierdere insuficientă în greutate sau complicații precum refluxul sever. Calea de revizie este aleasă în funcție de anatomia, simptomele și obiectivele dumneavoastră." },
+        { "question": "Câtă recâștigare în greutate este normală după gastric sleeve?", "answer": "O anumită fluctuație de greutate este normală, dar studiile arată că până la 30% dintre pacienții cu sleeve experimentează o recâștigare semnificativă în greutate în 5 ani, adesea din cauza întinderii treptate a sleeve-ului sau a adaptării hormonale. Dacă ați recâștigat mai mult de 25% din greutatea pierdută inițial, o evaluare de revizie este binevenită." },
+        { "question": "Ce procedură de revizie este cea mai bună după un gastric sleeve eșuat?", "answer": "Cele mai frecvente opțiuni sunt conversia în mini bypass gastric (mai ales când există reflux — GERD afectează până la 55% dintre pacienții cu sleeve pe termen lung), conversia în duodenal switch sau bifurcație de transit pentru un efect metabolic mai mare, sau un re-sleeve endoscopic non-chirurgical. Opțiunea potrivită depinde de motivul pentru care sleeve-ul a eșuat, care este evaluat prin endoscopie și imagistică." },
+        { "question": "Poate fi revizuit un bypass gastric fără chirurgie?", "answer": "Da. Dacă legătura dintre pungă și intestin (stoma) s-a întins, TORe (Transoral Outlet Reduction) o strânge endoscopic prin gură — fără incizii, de obicei cu externare în aceeași zi. Este principala revizie non-chirurgicală pentru recâștigarea în greutate după bypass." },
+        { "question": "Este chirurgia bariatrică de revizie mai riscantă decât prima operație?", "answer": "Chirurgia de revizie este mai complexă din punct de vedere tehnic din cauza țesutului cicatricial de la prima operație, motiv pentru care experiența chirurgului contează mai mult decât la chirurgia primară. În centrele cu volum ridicat și chirurgi de revizie experimentați, ratele de complicații rămân scăzute, iar rezultatele sunt excelente." },
+        { "question": "Cât costă chirurgia bariatrică de revizie în Turcia?", "answer": "Chirurgia de revizie la Istanbul costă de obicei £3,950–£5,950 all-inclusive, în funcție de cale — cu aproximativ 60-70% mai puțin decât în UK sau US. Fiecare ofertă include spitalizarea la spital acreditat JCI, endoscopia și testele preoperatorii, transferurile, hotelul și îngrijirea post-operatorie. Contactați-ne pentru o evaluare personalizată și o ofertă exactă." }
+      ]
+    },
+    "related": {
+      "title": "Explorați Opțiuni Similare",
+      "links": [
+        { "title": "Mini Bypass Gastric", "description": "Cea mai frecventă conversie de la sleeve" },
+        { "title": "Bifurcație de Transit", "description": "Revizie metabolică puternică" },
+        { "title": "Procedura TORe", "description": "Revizie non-chirurgicală de bypass" },
+        { "title": "Ghid de Costuri", "description": "Comparați prețuri all-inclusive" }
+      ]
+    },
+    "conversion": {
+      "title": "Aflați Ce Cale de Revizie Vi Se Potrivește",
+      "text": "Trimiteți istoricul dumneavoastră chirurgical echipei <doctorLink>Dr Murat Ustun</doctorLink> pentru o evaluare de revizie gratuită, fără obligații — de obicei cu răspuns în 24 de ore.",
+      "button": "Obțineți Evaluarea Mea Gratuită"
+    }
+  },
+  "costPage": {
+    "hero": {
+      "eyebrow": "Prețuri Transparente — Ghid 2026",
+      "title": "Costul Chirurgiei Bariatrice în Turcia",
+      "subtitle": "Fiecare preț de pe această pagină este all-inclusive și fix înainte de a călători: spital, chirurg, teste, transferuri, hotel și 12 luni de îngrijire post-operatorie. Fără costuri ascunse — niciodată.",
+      "stats": [
+        { "value": "£1,650", "label": "Pachete de la" },
+        { "value": "60–70%", "label": "Economie tipică vs UK/US" },
+        { "value": "0", "label": "Taxe ascunse" }
+      ]
+    },
+    "facts": {
+      "title": "Prețuri Pachete All-Inclusive 2026",
+      "items": [
+        { "label": "Balon Gastric", "value": "De la £1,650" },
+        { "label": "Gastric Sleeve", "value": "De la £2,950" },
+        { "label": "Mini Bypass Gastric", "value": "De la £3,350" },
+        { "label": "ESG (Non-Chirurgical)", "value": "De la £4,950" }
+      ]
+    },
+    "comparison": {
+      "title": "Turcia vs UK, US și Europa: Comparație de Prețuri",
+      "subtitle": "Prețuri private tipice cu plată din surse proprii pentru aceleași proceduri. Prețurile turcești afișate sunt pachetele all-inclusive fixe ale Istanbul Bariatric Center.",
+      "columns": ["Procedură", "Turcia (IBC, all-inclusive)", "Regatul Unit", "Statele Unite", "Europa de Vest"],
+      "rows": [
+        ["Gastric Sleeve", "£2,950 – £4,250", "£10,000 – £15,000", "$16,000 – $25,000", "€8,000 – €12,000"],
+        ["Mini Bypass Gastric", "£3,350 – £4,650", "£11,000 – £16,000", "$20,000 – $30,000", "€9,000 – €14,000"],
+        ["Balon Gastric", "£1,650 – £2,250", "£4,000 – £8,000", "$6,000 – $9,000", "€3,500 – €6,000"],
+        ["ESG (Sleeve Endoscopic)", "£4,950 – £5,950", "£9,000 – £13,000", "$12,000 – $20,000", "€8,000 – €11,000"],
+        ["Duodenal Switch", "£4,400 – £4,700", "£13,000 – £18,000", "$22,000 – $35,000", "€11,000 – €16,000"],
+        ["Chirurgie de Revizie", "£3,950 – £5,950", "£12,000 – £18,000", "$18,000 – $30,000", "€10,000 – €15,000"]
+      ],
+      "footnote": "Cifrele pentru UK, US și UE sunt intervale orientative de plată din surse proprii publicate de furnizori privați în 2025–2026 și variază în funcție de clinică și oraș."
+    },
+    "includes": {
+      "title": "Ce Include Fiecare Pachet IBC",
+      "items": [
+        "Chirurgie efectuată la Spitalul Liv acreditat JCI, Istanbul",
+        "Toate onorariile de chirurg, anestezie și spital",
+        "Teste preoperatorii, consultații și evaluare de anestezie",
+        "Preluare VIP de la aeroport și toate transferurile",
+        "Cazare la hotel (pachete Relaxare și Lux — Radisson)",
+        "Medicație post-operatorie de luat acasă",
+        "12 luni de suport dietetician (înregistrat UK la Relaxare și Lux)",
+        "Coordonatori de suport UK în 8 locații"
+      ]
+    },
+    "whyCheaper": {
+      "title": "De Ce Este Chirurgia Bariatrică Mai Ieftină în Turcia?",
+      "p1": "Diferența de preț <strong>nu</strong> ține de standarde mai scăzute. Turcia are unul dintre cele mai mari sectoare de turism medical din lume, iar spitalele de top din Istanbul dețin aceeași <strong>acreditare JCI (Joint Commission International)</strong> ca și spitalele de top din Londra, New York și Berlin.",
+      "p2": "Trei factori determină economia:",
+      "factors": [
+        "<strong>Costuri de operare:</strong> costurile de personal, facilități și administrative în Turcia sunt o fracțiune din nivelurile occidentale, fără a afecta echipamentele clinice sau protocoalele.",
+        "<strong>Cursul de schimb:</strong> lira, euro sau dolarul dumneavoastră au o putere de cumpărare semnificativ mai mare în Turcia.",
+        "<strong>Volumul și specializarea:</strong> centrele bariatrice cu volum ridicat precum al nostru obțin eficiențe — și rezultate mai bune — pe care clinicile cu volum redus nu le pot obține."
+      ],
+      "p3": "Dr Murat Ustun a efectuat <strong>peste 8,000 de proceduri bariatrice</strong> — un volum de cazuri pe care foarte puțini chirurgi occidentali îl acumulează vreodată. În chirurgie, volumul este unul dintre cei mai puternici predictori ai siguranței.",
+      "cta": "Obțineți Oferta Mea Exactă"
+    },
+    "budget": {
+      "title": "Cum Să Vă Bugetați Întreaga Călătorie",
+      "intro": "Un buget total realist pentru un pacient din UK care efectuează un gastric sleeve cu noi:",
+      "items": [
+        "<strong>Pachet chirurgical:</strong> £2,950–£4,250 (fix, all-inclusive)",
+        "<strong>Zboruri dus-întors Londra–Istanbul:</strong> de obicei £100–£250",
+        "<strong>Asigurare medicală de călătorie:</strong> £100–£200",
+        "<strong>Cheltuieli personale:</strong> £100–£200"
+      ],
+      "total": "Total: aproximativ <strong>£3,300–£4,900 all-in</strong> — încă mai puțin de jumătate din costul doar al chirurgiei la un spital privat din UK. Consultați <ukLink>ghidul nostru dedicat pentru pacienții din UK</ukLink> pentru logistica de călătorie și îngrijirea post-operatorie de acasă."
+    },
+    "surgeonProof": {
+      "title": "Preț Mic, Standarde Neafectate",
+      "subtitle": "Economia provine din considerente economice, nu din compromisuri privind siguranța, facilitățile sau îngrijirea post-operatorie."
+    },
+    "faq": {
+      "title": "Prețuri — Întrebări Frecvente",
+      "items": [
+        { "question": "Cât costă chirurgia bariatrică în Turcia?", "answer": "La Istanbul Bariatric Center, pachetele all-inclusive încep de la £1,650 pentru un balon gastric, £2,950 pentru un gastric sleeve, £3,350 pentru un mini bypass gastric și £4,950 pentru ESG. Fiecare pachet include spitalizarea la spital acreditat JCI, testele preoperatorii, transferurile de la aeroport, hotelul (nivelurile Relaxare și Lux) și îngrijirea post-operatorie a dieteticianului." },
+        { "question": "De ce este chirurgia de pierdere în greutate mult mai ieftină în Turcia?", "answer": "Diferența este determinată de costuri de operare mai mici, un curs de schimb favorabil și sprijinul guvernamental pentru turismul medical — nu de standarde mai scăzute. Chirurgia este efectuată la spitale acreditate JCI (aceeași acreditare internațională deținută de spitalele de top din US și Europa) de către chirurgi cu volum ridicat. Plătiți cu 60-70% mai puțin pentru același standard clinic." },
+        { "question": "Există costuri ascunse în pachete?", "answer": "Nu. Pachetele noastre sunt cu adevărat all-inclusive: onorariile de chirurg și anestezie, spitalizarea, testele și consultațiile preoperatorii, transferurile VIP de la aeroport, cazarea la hotel (Relaxare/Lux), medicația post-operatorie de luat acasă și 12 luni de suport dietetician. Singurele costuri neincluse sunt zborurile și cheltuielile personale." },
+        { "question": "Cum se compară costul cu UK, US sau Europa?", "answer": "Un gastric sleeve costă aproximativ £10,000–£15,000 în regim privat în UK, $16,000–$25,000 în US și €8,000–€12,000 în mare parte din Europa de Vest. La Istanbul, pachetul echivalent all-inclusive este £2,950–£4,250 — de obicei o economie de 60–75% chiar și după zboruri." },
+        { "question": "Pot plăti în rate sau prin finanțare?", "answer": "Plata se face în mod normal prin transfer bancar sau card, cu un avans pentru a vă asigura data și restul la sosire. Vorbiți cu coordonatorii noștri despre aranjamentele de plată disponibile în prezent pentru țara dumneavoastră." },
+        { "question": "Asigurarea de călătorie sau NHS acoperă chirurgia în Turcia?", "answer": "NHS și asigurarea de călătorie standard nu acoperă chirurgia programată în străinătate. Cu toate acestea, o asigurare specializată de călătorie medicală care acoperă complicațiile este disponibilă și o recomandăm. Mulți pacienți constată totuși că costul total — chirurgie, zboruri, hotel și asigurare — este mult sub cel al unei operații private acasă." }
+      ]
+    },
+    "related": {
+      "title": "Comparați Opțiunile Dumneavoastră",
+      "links": [
+        { "title": "Gastric Sleeve", "description": "De la £2,950 all-inclusive" },
+        { "title": "Mini Bypass Gastric", "description": "De la £3,350 all-inclusive" },
+        { "title": "ESG (Non-Chirurgical)", "description": "De la £4,950 all-inclusive" },
+        { "title": "Chirurgie de Revizie", "description": "De la £3,950 all-inclusive" }
+      ]
+    },
+    "conversion": {
+      "title": "Obțineți o Ofertă Fixă, All-Inclusive în 24 de Ore",
+      "text": "Spuneți-ne înălțimea, greutatea și obiectivele dumneavoastră pe WhatsApp și primiți o ofertă personalizată, fără obligații — prețul pe care îl primiți este prețul pe care îl plătiți.",
+      "button": "Obțineți Oferta Mea Gratuită"
+    }
+  },
+  "ukPage": {
+    "hero": {
+      "eyebrow": "Conceput pentru Pacienții din UK",
+      "title": "Chirurgie Bariatrică în Turcia pentru Pacienții din UK",
+      "subtitle": "Prețuri fixe în GBP, un zbor de 4 ore, îngrijire spitalicească acreditată JCI la Istanbul — și îngrijire post-operatorie care vă însoțește acasă, cu dieteticieni înregistrați UK și coordonatori de suport în 8 locații din UK.",
+      "stats": [
+        { "value": "£2,950", "label": "Gastric sleeve de la" },
+        { "value": "8", "label": "Locații de suport UK" },
+        { "value": "12 luni", "label": "Îngrijire dietetician" }
+      ]
+    },
+    "facts": {
+      "title": "Călătoria Dumneavoastră Dintr-o Privire",
+      "items": [
+        { "label": "Timp de zbor", "value": "~4 ore" },
+        { "label": "Viză pentru pașapoarte UK", "value": "Nu este necesară" },
+        { "label": "Ședere tipică", "value": "4–6 nopți" },
+        { "label": "Concediu de la muncă", "value": "1–2 săptămâni" }
+      ]
+    },
+    "why": {
+      "title": "De Ce Mii de Pacienți din UK Aleg Istanbulul",
+      "p1": "Chirurgia privată de pierdere în greutate în UK costă £10,000–£16,000, iar listele de așteptare NHS pentru chirurgia bariatrică se întind în mod obișnuit <strong>peste doi ani</strong> — cu criterii de eligibilitate stricte care exclud multe persoane care ar beneficia. De aceea, UK este acum una dintre cele mai mari surse de pacienți bariatrici care călătoresc la Istanbul.",
+      "p2": "Economia este substanțială — de obicei <strong>cu 60–70% mai puțin decât prețurile private din UK</strong>, chiar și după zboruri — dar factorul decisiv pentru majoritatea pacienților noștri din UK este modelul de îngrijire: chirurgie efectuată de un singur chirurg nominalizat cu peste 8,000 de proceduri, un spital acreditat JCI și un pachet cu adevărat all-inclusive cu îngrijire post-operatorie ce continuă în UK.",
+      "cta": "Vorbiți cu un Coordonator UK"
+    },
+    "comparison": {
+      "title": "Chirurgie Privată în UK vs Istanbul Bariatric Center",
+      "columns": ["Ce Primiți", "Clinică Privată UK", "Istanbul Bariatric Center"],
+      "rows": [
+        ["Preț gastric sleeve", "£10,000 – £15,000", "£2,950 – £4,250 all-inclusive"],
+        ["Timp de așteptare", "Săptămâni până la luni", "De obicei 1–3 săptămâni până la data aleasă"],
+        ["Acreditare spital", "Reglementat CQC", "Acreditat JCI (standardul internațional de aur)"],
+        ["Volum de cazuri chirurg", "Variază mult", "8,000+ proceduri (Dr Murat Ustun)"],
+        ["Hotel și transferuri", "Neincluse", "Incluse (Relaxare și Lux)"],
+        ["Îngrijire dietetician", "Adesea extra", "12 luni incluse, înregistrat UK"],
+        ["Suport UK în persoană", "La clinică", "Coordonatori în 8 locații din UK"]
+      ]
+    },
+    "journey": {
+      "title": "Călătoria Dumneavoastră, Pas cu Pas",
+      "steps": [
+        "<strong>Consultație gratuită de acasă.</strong> Trimiteți un mesaj pe linia noastră UK pe WhatsApp. Veți primi o evaluare de eligibilitate, o recomandare personalizată și o ofertă fixă în GBP — de obicei în 24 de ore.",
+        "<strong>Rezervați data.</strong> Asigurați-vă data operației cu un avans. Vă ajutăm să găsiți zboruri; Londra, Manchester, Birmingham și Edinburgh au toate rute directe către Istanbul.",
+        "<strong>Ziua sosirii.</strong> Transferul VIP vă întâmpină la Aeroportul Istanbul. Testele preoperatorii, consultațiile și evaluarea de anestezie sunt finalizate în aceeași zi.",
+        "<strong>Chirurgia și spitalizarea.</strong> Procedura dumneavoastră la Spitalul Liv acreditat JCI, urmată de 2–3 nopți de recuperare monitorizată cu personal vorbitor de engleză și un translator.",
+        "<strong>Recuperare la hotel și zbor spre casă.</strong> Una sau două nopți la Radisson cu controale zilnice, o evaluare finală, apoi transferul înapoi la aeroport. Zborul de 4 ore post-operator este sigur și de rutină în această etapă.",
+        "<strong>Îngrijire post-operatorie în UK.</strong> 12 luni de suport din partea unui dietetician înregistrat UK, îndrumare privind suplimentele, acces pe WhatsApp la echipa clinică și suport în persoană în 8 locații din UK."
+      ]
+    },
+    "candidacy": {
+      "title": "Sunt Eligibil?",
+      "intro": "Pacienții din UK se califică de obicei pentru chirurgia de pierdere în greutate cu noi dacă:",
+      "criteria": [
+        "BMI-ul dumneavoastră este 35 sau mai mare (30+ pentru opțiuni non-chirurgicale precum ESG sau balon gastric)",
+        "Ați încercat dietă și exerciții fizice fără rezultate durabile",
+        "Aveți afecțiuni legate de greutate precum diabet tip 2, apnee în somn sau dureri articulare",
+        "Aveți 18–65 de ani și sunteți apt pentru anestezie generală",
+        "Sunteți dedicat dietei post-operatorii și programului de urmărire",
+        "Puteți călători la Istanbul pentru 4–6 nopți"
+      ],
+      "note": "Nu sunteți sigur? Folosiți <profileLink>profilul nostru de sănătate de 2 minute</profileLink> sau trimiteți-ne un mesaj — evaluarea este gratuită și nu implică nicio obligație."
+    },
+    "surgeonProof": {
+      "title": "Standardele de Siguranță Pe Care Pacienții din UK Ar Trebui Să Le Ceară",
+      "subtitle": "Oriunde ați efectua chirurgia în străinătate, verificați aceste patru aspecte. Iată cum ne poziționăm."
+    },
+    "testimonials": {
+      "title": "Ce Spun Pacienții din UK și Irlanda",
+      "quotes": [
+        { "name": "Emma W.", "flag": "🇬🇧", "date": "August 2025", "text": "Am avut recent o operație de gastric sleeve, iar experiența a fost uimitoare. Spitalul este super curat și aveți o cameră întreagă pentru dumneavoastră. Dr. Murat și echipa sa mi-au oferit o îngrijire excelentă pe tot parcursul șederii. Văd deja rezultate excelente!" },
+        { "name": "Michelle F.", "flag": "🇬🇧", "date": "August 2024", "text": "De la preluarea de la aeroport până la cazarea la hotel, totul a fost perfect organizat. Operația a decurs fără probleme, iar Dr. Murat m-a vizitat de mai multe ori în timpul recuperării. Îngrijirea de urmărire a fost excelentă. Recomand cu căldură!" },
+        { "name": "Robert H.", "flag": "🇮🇪", "date": "Iulie 2025", "text": "Îngrijire remarcabilă de la început până la sfârșit! Toate testele efectuate temeinic, operația a decurs foarte bine, cicatricea este abia vizibilă și se vindecă frumos. Suportul post-operator a fost incredibil." }
+      ]
+    },
+    "faq": {
+      "title": "Pacienți din UK — Întrebări Frecvente",
+      "items": [
+        { "question": "Este sigur pentru pacienții din UK să efectueze chirurgia de pierdere în greutate în Turcia?", "answer": "Da — atunci când alegeți furnizorul potrivit. Istanbul Bariatric Center operează exclusiv la Spitalul Liv acreditat JCI, același standard de acreditare internațională deținut de spitalele private de top din UK. Dr Murat Ustun a efectuat peste 8,000 de proceduri, iar centrul a câștigat de șase ori WhatClinic Patient Service Award. Cheia este verificarea acreditării spitalului și a volumului chirurgului înainte de a rezerva — cu orice furnizor." },
+        { "question": "Cât timp trebuie să stau la Istanbul?", "answer": "Majoritatea pacienților din UK stau 4-6 nopți în total: sosirea și testele preoperatorii în prima zi, chirurgia în a doua zi, 2-3 nopți în spital, apoi 1-2 nopți la hotel înainte de a zbura acasă. Pacienții cu ESG și balon gastric pot adesea reveni acasă în 2-3 zile." },
+        { "question": "Ce îngrijire post-operatorie primesc înapoi în UK?", "answer": "Pachetele Relaxare și Lux includ 12 luni de suport din partea unui dietetician înregistrat UK, plus coordonatori de suport în 8 locații din UK pentru ajutor în persoană. Echipa noastră clinică rămâne disponibilă pe WhatsApp pentru orice îngrijorare, iar noi coordonăm cu medicul dumneavoastră de familie acolo unde este necesar." },
+        { "question": "NHS va avea grijă de mine dacă ceva merge prost?", "answer": "NHS vă va trata întotdeauna într-o urgență. Pentru urmărirea de rutină, rețeaua noastră de dieteticieni din UK și echipa clinică la distanță se ocupă de îngrijirea dumneavoastră post-operatorie. De asemenea, recomandăm cu tărie o asigurare specializată de călătorie medicală, care acoperă tratamentul complicațiilor — polițele costă de obicei £100-£200." },
+        { "question": "Cum funcționează plățile din UK?", "answer": "Plătiți un avans prin card sau transfer bancar pentru a vă asigura data operației, cu restul plătibil la sosirea la Istanbul. Toate prețurile sunt cotate în lire sterline și sunt fixe — oferta pe care o primiți este suma pe care o plătiți." },
+        { "question": "Am nevoie de viză pentru a călători în Turcia din UK?", "answer": "Nu. Deținătorii de pașapoarte UK pot intra în Turcia fără viză pentru până la 90 de zile. Aveți nevoie doar de un pașaport valabil cel puțin 150 de zile de la data sosirii, plus confirmarea rezervării de la noi." }
+      ]
+    },
+    "related": {
+      "title": "Planificați-vă Procedura",
+      "links": [
+        { "title": "Gastric Sleeve", "description": "De la £2,950 all-inclusive" },
+        { "title": "ESG (Non-Chirurgical)", "description": "Fără incizii, externare în aceeași zi" },
+        { "title": "Ghid de Costuri", "description": "Comparație completă de prețuri 2026" },
+        { "title": "ESG pentru Pacienții din UK", "description": "Pagină ESG dedicată UK" }
+      ]
+    },
+    "conversion": {
+      "title": "Vorbiți cu Echipa Noastră UK Astăzi",
+      "text": "Trimiteți un mesaj coordonatorilor UK ai <doctorLink>Dr Murat Ustun</doctorLink> pe WhatsApp pentru o evaluare gratuită, o ofertă fixă în GBP și răspunsuri la orice întrebare — fără obligații, fără presiune.",
+      "button": "Discutați pe WhatsApp (UK)"
+    }
+  },
   "postBariatric": {
     "title": "Chirurgie Post-Bariatrică",
     "heroTitle": "Conturare Post-Bariatrică Istanbul, Turcia",

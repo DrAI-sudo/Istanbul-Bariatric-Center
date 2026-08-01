@@ -585,6 +585,595 @@
     "heroSubtitle": "Una cirugía metabólica innovadora que combina los beneficios de la gastrectomía en manga con bypass intestinal.",
     "desc": "La bipartición tránsito es una cirugía metabólica que combina gastrectomía en manga con bypass intestinal parcial para mejorar el control de la diabetes y la pérdida de peso."
   },
+  "revisionPage": {
+    "hero": {
+      "eyebrow": "Cirugía de Segunda Oportunidad",
+      "title": "Cirugía Bariátrica de Revisión en Turquía",
+      "subtitle": "Recuperar peso tras una manga gástrica o un bypass es más común de lo que cree — y tiene solución. Explore las vías de revisión quirúrgicas y no quirúrgicas con uno de los equipos de revisión más experimentados de Turquía.",
+      "stats": [
+        {
+          "value": "8,000+",
+          "label": "Procedimientos realizados"
+        },
+        {
+          "value": "5",
+          "label": "Vías de revisión"
+        },
+        {
+          "value": "£3,950",
+          "label": "Todo incluido desde"
+        }
+      ]
+    },
+    "facts": {
+      "title": "La Cirugía de Revisión de un Vistazo",
+      "items": [
+        {
+          "label": "Evaluación",
+          "value": "Endoscopia + imágenes"
+        },
+        {
+          "label": "Opciones",
+          "value": "Quirúrgicas y endoscópicas"
+        },
+        {
+          "label": "Estancia hospitalaria",
+          "value": "0–3 noches"
+        },
+        {
+          "label": "Todo incluido desde",
+          "value": "£3,950"
+        }
+      ]
+    },
+    "why": {
+      "title": "Por Qué la Cirugía de Pérdida de Peso a Veces Necesita un Segundo Paso",
+      "p1": "Ninguna operación bariátrica garantiza por sí sola resultados permanentes. Con el tiempo, una manga gástrica puede estirarse gradualmente, la salida tras un bypass gástrico puede ensancharse y la adaptación hormonal puede hacer que vuelva el hambre. Los estudios muestran que <strong>hasta el 30% de los pacientes de manga experimentan una recuperación de peso significativa en cinco años</strong>, y un reflujo ácido severo (ERGE) se desarrolla en hasta un <strong>55% de los pacientes de manga</strong> a largo plazo.",
+      "p2": "Nada de esto significa que su primera cirugía «le falló» — significa que su anatomía y su metabolismo han cambiado, y existe una vía médica bien establecida para corregirlo. La cirugía bariátrica de revisión restaura la restricción y el efecto metabólico de su procedimiento original, o lo convierte en uno que se adapte mejor a su cuerpo.",
+      "p3": "En Istanbul Bariatric Center, cada revisión comienza con un estudio diagnóstico — endoscopia e imágenes — para que la vía se elija en función de <em>por qué</em> dejó de funcionar la primera operación, y no por conjeturas.",
+      "cta": "Obtenga una Evaluación de Revisión Gratuita"
+    },
+    "pathways": {
+      "title": "Comparación de Vías de Revisión",
+      "subtitle": "La revisión adecuada depende de su procedimiento original, sus síntomas y sus objetivos.",
+      "columns": [
+        "Vía",
+        "Ideal Para",
+        "Cómo Funciona",
+        "Invasividad"
+      ],
+      "rows": [
+        [
+          "Manga → Mini Bypass Gástrico",
+          "Recuperación de peso tras la manga, especialmente con reflujo (ERGE)",
+          "Convierte la manga en un pequeño saco conectado al intestino, resolviendo el reflujo y añadiendo un efecto metabólico",
+          "Cirugía laparoscópica, 2–3 noches"
+        ],
+        [
+          "Manga → Derivación Duodenal / Bipartición Tránsito",
+          "IMC alto o diabetes tipo 2 tras una manga",
+          "Mantiene la manga y añade un componente intestinal para máxima pérdida de peso y control de la diabetes",
+          "Cirugía laparoscópica, 2–3 noches"
+        ],
+        [
+          "Re-Manga Endoscópica (revisión de ESG)",
+          "Manga moderadamente estirada, pacientes que desean evitar la cirugía",
+          "Suturas endoscópicas a través de la boca vuelven a tensar la manga estirada — sin incisiones",
+          "Endoscópico, mismo día / 1 noche"
+        ],
+        [
+          "TORe (Reducción Transoral de la Salida)",
+          "Recuperación de peso tras un bypass gástrico por un estoma estirado",
+          "Suturas endoscópicas estrechan la salida ensanchada entre el saco y el intestino",
+          "Endoscópico, alta el mismo día"
+        ],
+        [
+          "Banda → Manga o Bypass",
+          "Banda gástrica fallida o con complicaciones",
+          "Retira la banda y la convierte en una manga o un bypass en una o dos etapas",
+          "Cirugía laparoscópica, 2–3 noches"
+        ]
+      ]
+    },
+    "candidacy": {
+      "title": "¿Es Candidato para la Cirugía de Revisión?",
+      "intro": "Podría beneficiarse de una evaluación de revisión si le ocurre alguna de las siguientes situaciones:",
+      "criteria": [
+        "Recuperó una parte importante del peso que perdió tras una cirugía de manga, bypass o banda",
+        "Nunca alcanzó la pérdida de peso esperada tras la primera operación",
+        "Desarrolló un reflujo ácido severo o persistente (ERGE) tras una manga gástrica",
+        "Siente hambre poco después de las comidas o puede comer porciones mucho más grandes que antes",
+        "Tiene una banda gástrica que le causa molestias, deslizamiento o resultados insuficientes",
+        "Su diabetes tipo 2 volvió o nunca se resolvió por completo tras la cirugía"
+      ],
+      "note": "<strong>Importante:</strong> la cirugía de revisión es técnicamente más exigente que la cirugía primaria. Elija un centro de alto volumen con experiencia específica en revisiones — la experiencia del cirujano es el factor más determinante en los resultados de una revisión."
+    },
+    "process": {
+      "title": "Cómo Funciona el Proceso de Revisión en IBC",
+      "steps": [
+        "<strong>Evaluación remota gratuita.</strong> Comparta su historial quirúrgico, peso actual y síntomas con nuestros coordinadores por WhatsApp. El Dr Murat Ustun revisa personalmente cada caso de revisión.",
+        "<strong>Estudio diagnóstico en Estambul.</strong> A su llegada, se somete a una endoscopia, imágenes y análisis de sangre en el Hospital Liv acreditado por JCI para determinar exactamente por qué dejó de funcionar el primer procedimiento.",
+        "<strong>Decisión de la vía.</strong> Según los hallazgos, el equipo recomienda la opción menos invasiva que cumpla de forma fiable con sus objetivos — endoscópica cuando sea posible, quirúrgica cuando sea necesario.",
+        "<strong>Procedimiento y recuperación.</strong> Las revisiones endoscópicas suelen ser del mismo día; las conversiones quirúrgicas implican 2–3 noches en el hospital más la recuperación en el hotel con nuestro equipo cerca.",
+        "<strong>12 meses de seguimiento.</strong> Apoyo de dietista registrado en el Reino Unido, orientación sobre suplementos y seguimientos regulares protegen el resultado de su segunda oportunidad."
+      ],
+      "readMore": "Lea más en nuestras guías detalladas: <guideRevision>Cirugía Bariátrica de Revisión en Turquía</guideRevision> y <guideTore>el procedimiento TORe explicado</guideTore>."
+    },
+    "surgeonProof": {
+      "title": "¿Por Qué Confiar su Revisión a IBC?",
+      "subtitle": "La cirugía de revisión exige más experiencia que una primera operación. Aquí es donde el volumen y la especialización importan más."
+    },
+    "testimonials": {
+      "title": "Pacientes Que Obtuvieron su Segunda Oportunidad",
+      "quotes": [
+        {
+          "name": "Sarah M.",
+          "flag": "🇺🇸",
+          "date": "Octubre 2025",
+          "text": "Me operé con el Dr. Murat y su increíble equipo. Toda mi experiencia fue sencillamente fabulosa. En solo cuatro meses ya he perdido 35 kg. Confío por completo mi vida al Dr. Murat y a su equipo."
+        },
+        {
+          "name": "David R.",
+          "flag": "🇬🇧",
+          "date": "Septiembre 2025",
+          "text": "Desde el momento en que llegué, me sentí completamente tranquilo, aunque viajaba solo. El equipo del Dr. Murat se mantuvo en contacto conmigo desde la cirugía hasta hoy, guiándome paso a paso en la nutrición, el cuidado posoperatorio y la recuperación."
+        },
+        {
+          "name": "Peter V.",
+          "flag": "🇧🇪",
+          "date": "Noviembre 2024",
+          "text": "Me operé hace 6 meses y he perdido 45 kg. El apoyo continuo del equipo del Dr. Murat ha sido increíble. Se interesan por mí con regularidad y responden todas mis preguntas con rapidez."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Cirugía de Revisión — Preguntas Frecuentes",
+      "items": [
+        {
+          "question": "¿Qué es la cirugía bariátrica de revisión?",
+          "answer": "La cirugía bariátrica de revisión es un segundo procedimiento que se realiza tras una operación previa de pérdida de peso — como la manga gástrica, el bypass gástrico o la banda gástrica — cuando la primera cirugía ha provocado recuperación de peso, pérdida de peso insuficiente o complicaciones como un reflujo severo. La vía de revisión se elige según su anatomía, sus síntomas y sus objetivos."
+        },
+        {
+          "question": "¿Cuánta recuperación de peso es normal tras una manga gástrica?",
+          "answer": "Cierta fluctuación de peso es normal, pero los estudios muestran que hasta el 30% de los pacientes de manga experimentan una recuperación de peso significativa en 5 años, a menudo por un estiramiento gradual de la manga o por adaptación hormonal. Si ha recuperado más del 25% del peso que perdió originalmente, merece la pena una evaluación de revisión."
+        },
+        {
+          "question": "¿Qué procedimiento de revisión es mejor tras una manga gástrica fallida?",
+          "answer": "Las opciones más comunes son la conversión a mini bypass gástrico (especialmente cuando hay reflujo — la ERGE afecta hasta al 55% de los pacientes de manga a largo plazo), la conversión a derivación duodenal o bipartición tránsito para un mayor efecto metabólico, o una re-manga endoscópica no quirúrgica. La opción adecuada depende de por qué falló la manga, lo que se evalúa con endoscopia e imágenes."
+        },
+        {
+          "question": "¿Se puede revisar un bypass gástrico sin cirugía?",
+          "answer": "Sí. Si la conexión entre el saco y el intestino (el estoma) se ha estirado, el TORe (Reducción Transoral de la Salida) lo estrecha por vía endoscópica a través de la boca — sin incisiones, normalmente con alta el mismo día. Es la principal revisión no quirúrgica para la recuperación de peso tras un bypass."
+        },
+        {
+          "question": "¿Es la cirugía bariátrica de revisión más arriesgada que la primera cirugía?",
+          "answer": "La cirugía de revisión es técnicamente más compleja debido al tejido cicatricial de la primera operación, por lo que la experiencia del cirujano importa más que en la cirugía primaria. En centros de alto volumen con cirujanos de revisión experimentados, las tasas de complicaciones se mantienen bajas y los resultados son excelentes."
+        },
+        {
+          "question": "¿Cuánto cuesta la cirugía bariátrica de revisión en Turquía?",
+          "answer": "La cirugía de revisión en Estambul suele costar entre £3,950 y £5,950 todo incluido según la vía — aproximadamente un 60-70% menos que en el Reino Unido o EE. UU. Cada presupuesto incluye la estancia en un hospital acreditado por JCI, la endoscopia y pruebas preoperatorias, los traslados, el hotel y el seguimiento. Contáctenos para una evaluación personalizada y un presupuesto exacto."
+        }
+      ]
+    },
+    "related": {
+      "title": "Explore Opciones Relacionadas",
+      "links": [
+        {
+          "title": "Mini Bypass Gástrico",
+          "description": "La conversión de manga más común"
+        },
+        {
+          "title": "Bipartición Tránsito",
+          "description": "Revisión metabólica potente"
+        },
+        {
+          "title": "Procedimiento TORe",
+          "description": "Revisión de bypass no quirúrgica"
+        },
+        {
+          "title": "Guía de Costes",
+          "description": "Compare precios todo incluido"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Descubra Qué Vía de Revisión Es la Adecuada Para Usted",
+      "text": "Envíe su historial quirúrgico al equipo del <doctorLink>Dr Murat Ustun</doctorLink> para una evaluación de revisión gratuita y sin compromiso — normalmente respondida en menos de 24 horas.",
+      "button": "Obtener Mi Evaluación Gratuita"
+    }
+  },
+  "costPage": {
+    "hero": {
+      "eyebrow": "Precios Transparentes — Guía 2026",
+      "title": "Coste de la Cirugía Bariátrica en Turquía",
+      "subtitle": "Cada precio de esta página es todo incluido y se fija antes de viajar: hospital, cirujano, pruebas, traslados, hotel y 12 meses de seguimiento. Sin extras ocultos — nunca.",
+      "stats": [
+        {
+          "value": "£1,650",
+          "label": "Paquetes desde"
+        },
+        {
+          "value": "60–70%",
+          "label": "Ahorro típico frente a RU/EE. UU."
+        },
+        {
+          "value": "0",
+          "label": "Tarifas ocultas"
+        }
+      ]
+    },
+    "facts": {
+      "title": "Precios de Paquetes Todo Incluido 2026",
+      "items": [
+        {
+          "label": "Balón Gástrico",
+          "value": "Desde £1,650"
+        },
+        {
+          "label": "Manga Gástrica",
+          "value": "Desde £2,950"
+        },
+        {
+          "label": "Mini Bypass Gástrico",
+          "value": "Desde £3,350"
+        },
+        {
+          "label": "ESG (No Quirúrgico)",
+          "value": "Desde £4,950"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Turquía frente a RU, EE. UU. y Europa: Comparación de Precios",
+      "subtitle": "Precios privados de pago particular típicos para los mismos procedimientos. Los precios turcos mostrados son los paquetes fijos todo incluido de Istanbul Bariatric Center.",
+      "columns": [
+        "Procedimiento",
+        "Turquía (IBC, todo incluido)",
+        "Reino Unido",
+        "Estados Unidos",
+        "Europa Occidental"
+      ],
+      "rows": [
+        [
+          "Manga Gástrica",
+          "£2,950 – £4,250",
+          "£10,000 – £15,000",
+          "$16,000 – $25,000",
+          "€8,000 – €12,000"
+        ],
+        [
+          "Mini Bypass Gástrico",
+          "£3,350 – £4,650",
+          "£11,000 – £16,000",
+          "$20,000 – $30,000",
+          "€9,000 – €14,000"
+        ],
+        [
+          "Balón Gástrico",
+          "£1,650 – £2,250",
+          "£4,000 – £8,000",
+          "$6,000 – $9,000",
+          "€3,500 – €6,000"
+        ],
+        [
+          "ESG (Manga Endoscópica)",
+          "£4,950 – £5,950",
+          "£9,000 – £13,000",
+          "$12,000 – $20,000",
+          "€8,000 – €11,000"
+        ],
+        [
+          "Derivación Duodenal",
+          "£4,400 – £4,700",
+          "£13,000 – £18,000",
+          "$22,000 – $35,000",
+          "€11,000 – €16,000"
+        ],
+        [
+          "Cirugía de Revisión",
+          "£3,950 – £5,950",
+          "£12,000 – £18,000",
+          "$18,000 – $30,000",
+          "€10,000 – €15,000"
+        ]
+      ],
+      "footnote": "Las cifras de RU, EE. UU. y la UE son rangos indicativos de pago particular publicados por proveedores privados en 2025–2026 y varían según la clínica y la ciudad."
+    },
+    "includes": {
+      "title": "Qué Incluye Cada Paquete de IBC",
+      "items": [
+        "Cirugía realizada en el Hospital Liv acreditado por JCI, Estambul",
+        "Todos los honorarios del cirujano, la anestesia y el hospital",
+        "Pruebas preoperatorias, consultas y valoración anestésica",
+        "Recogida VIP en el aeropuerto y todos los traslados",
+        "Alojamiento en hotel (paquetes Relajación y Lujo — Radisson)",
+        "Medicación posoperatoria para llevar a casa",
+        "12 meses de apoyo de dietista (registrado en el Reino Unido en Relajación y Lujo)",
+        "Coordinadores de apoyo del Reino Unido en 8 ubicaciones"
+      ]
+    },
+    "whyCheaper": {
+      "title": "¿Por Qué Es Más Barata la Cirugía Bariátrica en Turquía?",
+      "p1": "La diferencia de precio <strong>no</strong> tiene que ver con estándares más bajos. Turquía cuenta con uno de los sectores de turismo médico más grandes del mundo, y los principales hospitales de Estambul tienen la misma <strong>acreditación JCI (Joint Commission International)</strong> que los mejores hospitales de Londres, Nueva York y Berlín.",
+      "p2": "Tres factores impulsan el ahorro:",
+      "factors": [
+        "<strong>Costes operativos:</strong> los costes de personal, instalaciones y administración en Turquía son una fracción de los niveles occidentales, sin afectar al equipamiento clínico ni a los protocolos.",
+        "<strong>Tipo de cambio:</strong> su libra, euro o dólar rinde mucho más en Turquía.",
+        "<strong>Volumen y especialización:</strong> los centros bariátricos de alto volumen como el nuestro logran eficiencias — y mejores resultados — que las clínicas de bajo volumen no pueden alcanzar."
+      ],
+      "p3": "El Dr Murat Ustun ha realizado <strong>más de 8,000 procedimientos bariátricos</strong> — un volumen de casos que muy pocos cirujanos occidentales llegan a acumular. En cirugía, el volumen es uno de los indicadores más sólidos de seguridad.",
+      "cta": "Obtener Mi Presupuesto Exacto"
+    },
+    "budget": {
+      "title": "Cómo Presupuestar su Viaje Completo",
+      "intro": "Un presupuesto total realista para un paciente del Reino Unido que se somete a una manga gástrica con nosotros:",
+      "items": [
+        "<strong>Paquete quirúrgico:</strong> £2,950–£4,250 (fijo, todo incluido)",
+        "<strong>Vuelos de ida y vuelta Londres–Estambul:</strong> normalmente £100–£250",
+        "<strong>Seguro de viaje médico:</strong> £100–£200",
+        "<strong>Gastos personales:</strong> £100–£200"
+      ],
+      "total": "Total: aproximadamente <strong>£3,300–£4,900 todo incluido</strong> — aún menos de la mitad del coste de la cirugía por sí sola en un hospital privado del Reino Unido. Consulte nuestra <ukLink>guía dedicada para pacientes del Reino Unido</ukLink> para la logística del viaje y el seguimiento desde casa."
+    },
+    "surgeonProof": {
+      "title": "Precio Bajo, Estándares Sin Concesiones",
+      "subtitle": "El ahorro proviene de la economía, no de recortar en seguridad, instalaciones o seguimiento."
+    },
+    "faq": {
+      "title": "Precios — Preguntas Frecuentes",
+      "items": [
+        {
+          "question": "¿Cuánto cuesta la cirugía bariátrica en Turquía?",
+          "answer": "En Istanbul Bariatric Center, los paquetes todo incluido comienzan desde £1,650 para un balón gástrico, £2,950 para una manga gástrica, £3,350 para un mini bypass gástrico y £4,950 para ESG. Cada paquete incluye la estancia en un hospital acreditado por JCI, las pruebas preoperatorias, los traslados al aeropuerto, el hotel (niveles Relajación y Lujo) y el seguimiento con dietista."
+        },
+        {
+          "question": "¿Por qué es tanto más barata la cirugía de pérdida de peso en Turquía?",
+          "answer": "La diferencia se debe a menores costes operativos, un tipo de cambio favorable y el apoyo gubernamental al turismo médico — no a estándares más bajos. La cirugía se realiza en hospitales acreditados por JCI (la misma acreditación internacional que tienen los mejores hospitales de EE. UU. y Europa) por cirujanos de alto volumen. Paga un 60-70% menos por el mismo estándar clínico."
+        },
+        {
+          "question": "¿Hay costes ocultos en los paquetes?",
+          "answer": "No. Nuestros paquetes son realmente todo incluido: honorarios del cirujano y la anestesia, estancia hospitalaria, pruebas preoperatorias y consultas, traslados VIP al aeropuerto, alojamiento en hotel (Relajación/Lujo), medicación posoperatoria para llevar a casa y 12 meses de apoyo de dietista. Los únicos costes no incluidos son sus vuelos y sus gastos personales."
+        },
+        {
+          "question": "¿Cómo se compara el coste con el del RU, EE. UU. o Europa?",
+          "answer": "Una manga gástrica cuesta alrededor de £10,000–£15,000 de forma privada en el Reino Unido, $16,000–$25,000 en EE. UU. y €8,000–€12,000 en gran parte de Europa Occidental. En Estambul, el paquete equivalente todo incluido es de £2,950–£4,250 — normalmente un ahorro del 60–75% incluso después de los vuelos."
+        },
+        {
+          "question": "¿Puedo pagar a plazos o con financiación?",
+          "answer": "El pago se realiza normalmente por transferencia bancaria o tarjeta, con un depósito para reservar su fecha y el resto a la llegada. Hable con nuestros coordinadores sobre las opciones de pago disponibles actualmente para su país."
+        },
+        {
+          "question": "¿El seguro de viaje o el NHS cubren la cirugía en Turquía?",
+          "answer": "El NHS y los seguros de viaje estándar no cubren la cirugía programada en el extranjero. Sin embargo, existe un seguro especializado de viaje médico que cubre las complicaciones y lo recomendamos. Muchos pacientes siguen encontrando que el coste total — cirugía, vuelos, hotel y seguro — está muy por debajo de una operación privada en su país."
+        }
+      ]
+    },
+    "related": {
+      "title": "Compare sus Opciones",
+      "links": [
+        {
+          "title": "Manga Gástrica",
+          "description": "Desde £2,950 todo incluido"
+        },
+        {
+          "title": "Mini Bypass Gástrico",
+          "description": "Desde £3,350 todo incluido"
+        },
+        {
+          "title": "ESG (No Quirúrgico)",
+          "description": "Desde £4,950 todo incluido"
+        },
+        {
+          "title": "Cirugía de Revisión",
+          "description": "Desde £3,950 todo incluido"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Obtenga un Presupuesto Fijo y Todo Incluido en 24 Horas",
+      "text": "Díganos su altura, peso y objetivos por WhatsApp y reciba un presupuesto personalizado y sin compromiso — el precio que se le presupuesta es el precio que paga.",
+      "button": "Obtener Mi Presupuesto Gratis"
+    }
+  },
+  "ukPage": {
+    "hero": {
+      "eyebrow": "Diseñado para Pacientes del Reino Unido",
+      "title": "Cirugía Bariátrica en Turquía para Pacientes del Reino Unido",
+      "subtitle": "Precios fijos en libras, un vuelo de 4 horas, atención hospitalaria acreditada por JCI en Estambul — y un seguimiento que le acompaña a casa, con dietistas registrados en el Reino Unido y coordinadores de apoyo en 8 ubicaciones del Reino Unido.",
+      "stats": [
+        {
+          "value": "£2,950",
+          "label": "Manga gástrica desde"
+        },
+        {
+          "value": "8",
+          "label": "Ubicaciones de apoyo en RU"
+        },
+        {
+          "value": "12 meses",
+          "label": "Seguimiento con dietista"
+        }
+      ]
+    },
+    "facts": {
+      "title": "Su Viaje de un Vistazo",
+      "items": [
+        {
+          "label": "Tiempo de vuelo",
+          "value": "~4 horas"
+        },
+        {
+          "label": "Visado para pasaportes del RU",
+          "value": "No requerido"
+        },
+        {
+          "label": "Estancia típica",
+          "value": "4–6 noches"
+        },
+        {
+          "label": "Tiempo libre del trabajo",
+          "value": "1–2 semanas"
+        }
+      ]
+    },
+    "why": {
+      "title": "Por Qué Miles de Pacientes del Reino Unido Eligen Estambul",
+      "p1": "La cirugía privada de pérdida de peso en el Reino Unido cuesta entre £10,000 y £16,000, y las listas de espera del NHS para cirugía bariátrica se extienden habitualmente <strong>más de dos años</strong> — con estrictos criterios de elegibilidad que excluyen a muchas personas que se beneficiarían. Por eso el Reino Unido es ahora una de las mayores fuentes de pacientes bariátricos que viajan a Estambul.",
+      "p2": "El ahorro es considerable — normalmente <strong>un 60–70% menos que los precios privados del Reino Unido</strong>, incluso después de los vuelos — pero el factor decisivo para la mayoría de nuestros pacientes del Reino Unido es el modelo de atención: cirugía a cargo de un único cirujano con nombre y más de 8,000 procedimientos, un hospital acreditado por JCI y un paquete realmente todo incluido con un seguimiento que continúa en el Reino Unido.",
+      "cta": "Hable con un Coordinador del Reino Unido"
+    },
+    "comparison": {
+      "title": "Cirugía Privada del Reino Unido frente a Istanbul Bariatric Center",
+      "columns": [
+        "Lo Que Obtiene",
+        "Clínica Privada del Reino Unido",
+        "Istanbul Bariatric Center"
+      ],
+      "rows": [
+        [
+          "Precio de la manga gástrica",
+          "£10,000 – £15,000",
+          "£2,950 – £4,250 todo incluido"
+        ],
+        [
+          "Tiempo de espera",
+          "De semanas a meses",
+          "Normalmente 1–3 semanas hasta la fecha que elija"
+        ],
+        [
+          "Acreditación del hospital",
+          "Regulado por CQC",
+          "Acreditado por JCI (estándar de oro internacional)"
+        ],
+        [
+          "Volumen de casos del cirujano",
+          "Varía mucho",
+          "8,000+ procedimientos (Dr Murat Ustun)"
+        ],
+        [
+          "Hotel y traslados",
+          "No incluidos",
+          "Incluidos (Relajación y Lujo)"
+        ],
+        [
+          "Seguimiento con dietista",
+          "A menudo aparte",
+          "12 meses incluidos, registrado en el Reino Unido"
+        ],
+        [
+          "Apoyo presencial en el Reino Unido",
+          "En la clínica",
+          "Coordinadores en 8 ubicaciones del Reino Unido"
+        ]
+      ]
+    },
+    "journey": {
+      "title": "Su Viaje, Paso a Paso",
+      "steps": [
+        "<strong>Consulta gratuita desde casa.</strong> Escriba a nuestra línea del Reino Unido por WhatsApp. Recibirá una evaluación de elegibilidad, una recomendación personalizada y un presupuesto fijo en libras — normalmente en menos de 24 horas.",
+        "<strong>Reserve su fecha.</strong> Asegure su fecha de cirugía con un depósito. Le ayudamos a encontrar vuelos; Londres, Mánchester, Birmingham y Edimburgo tienen rutas directas a Estambul.",
+        "<strong>Día de llegada.</strong> Un traslado VIP le recibe en el Aeropuerto de Estambul. Las pruebas preoperatorias, las consultas y la valoración anestésica se completan el mismo día.",
+        "<strong>Cirugía y estancia hospitalaria.</strong> Su procedimiento en el Hospital Liv acreditado por JCI, seguido de 2–3 noches de recuperación monitorizada con personal que habla inglés y un traductor.",
+        "<strong>Recuperación en el hotel y regreso a casa.</strong> Una o dos noches en el Radisson con controles diarios, una revisión final y luego su traslado de vuelta al aeropuerto. Volar 4 horas después de la operación es seguro y habitual en esta etapa.",
+        "<strong>Seguimiento en el Reino Unido.</strong> 12 meses de apoyo de dietista registrado en el Reino Unido, orientación sobre suplementos, acceso al equipo clínico por WhatsApp y apoyo presencial en 8 ubicaciones del Reino Unido."
+      ]
+    },
+    "candidacy": {
+      "title": "¿Soy Elegible?",
+      "intro": "Los pacientes del Reino Unido suelen ser candidatos a la cirugía de pérdida de peso con nosotros si:",
+      "criteria": [
+        "Su IMC es 35 o superior (30+ para opciones no quirúrgicas como ESG o balón gástrico)",
+        "Ha intentado dieta y ejercicio sin resultados duraderos",
+        "Tiene condiciones relacionadas con el peso como diabetes tipo 2, apnea del sueño o dolor articular",
+        "Tiene entre 18 y 65 años y está apto para la anestesia general",
+        "Está comprometido con la dieta posoperatoria y el programa de seguimiento",
+        "Puede viajar a Estambul durante 4–6 noches"
+      ],
+      "note": "¿No está seguro? Utilice nuestro <profileLink>perfil de salud de 2 minutos</profileLink> o escríbanos — la evaluación es gratuita y no conlleva ningún compromiso."
+    },
+    "surgeonProof": {
+      "title": "Los Estándares de Seguridad Que los Pacientes del Reino Unido Deberían Exigir",
+      "subtitle": "Dondequiera que se opere en el extranjero, verifique estas cuatro cosas. Así es como nosotros cumplimos."
+    },
+    "testimonials": {
+      "title": "Lo Que Dicen los Pacientes del Reino Unido e Irlanda",
+      "quotes": [
+        {
+          "name": "Emma W.",
+          "flag": "🇬🇧",
+          "date": "Agosto 2025",
+          "text": "Hace poco me operé de manga gástrica y la experiencia fue increíble. El hospital está superlimpio y tienes una habitación entera para ti. El Dr. Murat y su equipo me brindaron una atención excelente durante toda mi estancia. ¡Ya estoy viendo grandes resultados!"
+        },
+        {
+          "name": "Michelle F.",
+          "flag": "🇬🇧",
+          "date": "Agosto 2024",
+          "text": "Desde la recogida en el aeropuerto hasta el alojamiento en el hotel, todo estuvo perfectamente organizado. La cirugía salió sin problemas y el Dr. Murat me visitó varias veces durante mi recuperación. El seguimiento ha sido excelente. ¡Muy recomendable!"
+        },
+        {
+          "name": "Robert H.",
+          "flag": "🇮🇪",
+          "date": "Julio 2025",
+          "text": "¡Atención excepcional de principio a fin! Todas las pruebas se realizaron minuciosamente, la operación salió muy bien, la cicatriz apenas se ve y está sanando bien. El apoyo de seguimiento ha sido increíble."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pacientes del Reino Unido — Preguntas Frecuentes",
+      "items": [
+        {
+          "question": "¿Es seguro que los pacientes del Reino Unido se operen de pérdida de peso en Turquía?",
+          "answer": "Sí — cuando elige el proveedor adecuado. Istanbul Bariatric Center opera exclusivamente en el Hospital Liv acreditado por JCI, el mismo estándar de acreditación internacional que tienen los principales hospitales privados del Reino Unido. El Dr Murat Ustun ha realizado más de 8,000 procedimientos y el centro ha ganado el WhatClinic Patient Service Award en seis ocasiones. La clave está en verificar la acreditación del hospital y el volumen del cirujano antes de reservar — con cualquier proveedor."
+        },
+        {
+          "question": "¿Cuánto tiempo necesito quedarme en Estambul?",
+          "answer": "La mayoría de los pacientes del Reino Unido se quedan de 4 a 6 noches en total: llegada y pruebas preoperatorias el primer día, cirugía el segundo día, 2-3 noches en el hospital y luego 1-2 noches en el hotel antes de regresar a casa. Los pacientes de ESG y balón gástrico a menudo pueden volver a casa en 2-3 días."
+        },
+        {
+          "question": "¿Qué seguimiento recibo de vuelta en el Reino Unido?",
+          "answer": "Los paquetes Relajación y Lujo incluyen 12 meses de apoyo de un dietista registrado en el Reino Unido, además de coordinadores de apoyo en 8 ubicaciones del Reino Unido para ayuda presencial. Nuestro equipo clínico permanece disponible por WhatsApp para cualquier consulta y coordinamos con su médico de cabecera cuando es necesario."
+        },
+        {
+          "question": "¿Me atenderá el NHS si algo sale mal?",
+          "answer": "El NHS siempre le atenderá en una emergencia. Para el seguimiento rutinario, nuestra red de dietistas del Reino Unido y el equipo clínico remoto se encargan de su seguimiento. También recomendamos encarecidamente un seguro especializado de viaje médico, que cubre el tratamiento de complicaciones — las pólizas suelen costar £100-£200."
+        },
+        {
+          "question": "¿Cómo funcionan los pagos desde el Reino Unido?",
+          "answer": "Paga un depósito con tarjeta o transferencia bancaria para reservar su fecha de cirugía, y el resto se abona a la llegada a Estambul. Todos los precios se presupuestan en libras esterlinas y son fijos — el presupuesto que recibe es la cantidad que paga."
+        },
+        {
+          "question": "¿Necesito visado para viajar a Turquía desde el Reino Unido?",
+          "answer": "No. Los titulares de pasaporte del Reino Unido pueden entrar en Turquía sin visado hasta 90 días. Solo necesita un pasaporte válido durante al menos 150 días desde su fecha de llegada, además de su confirmación de reserva con nosotros."
+        }
+      ]
+    },
+    "related": {
+      "title": "Planifique su Procedimiento",
+      "links": [
+        {
+          "title": "Manga Gástrica",
+          "description": "Desde £2,950 todo incluido"
+        },
+        {
+          "title": "ESG (No Quirúrgico)",
+          "description": "Sin incisiones, alta el mismo día"
+        },
+        {
+          "title": "Guía de Costes",
+          "description": "Comparación completa de precios 2026"
+        },
+        {
+          "title": "ESG para Pacientes del Reino Unido",
+          "description": "Página de ESG dedicada al Reino Unido"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Hable Hoy con Nuestro Equipo del Reino Unido",
+      "text": "Escriba a los coordinadores del Reino Unido del <doctorLink>Dr Murat Ustun</doctorLink> por WhatsApp para una evaluación gratuita, un presupuesto fijo en libras y respuestas a cualquier pregunta — sin compromiso, sin presión.",
+      "button": "Chatear por WhatsApp (RU)"
+    }
+  },
   "postBariatric": {
     "title": "Cirugía Post-Bariátrica",
     "heroTitle": "Contorno Corporal Post-Bariátrico Estambul, Turquía",

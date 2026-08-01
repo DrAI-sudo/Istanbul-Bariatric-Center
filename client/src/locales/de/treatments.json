@@ -585,6 +585,308 @@
     "heroSubtitle": "Eine innovative metabolische Chirurgie, die Sleeve-Gastrektomie mit Darmbypass kombiniert.",
     "desc": "Transit-Bipartition kombiniert Sleeve-Gastrektomie mit teilweisem Darmbypass zur Verbesserung der Diabeteskontrolle und des Gewichtsverlusts."
   },
+  "revisionPage": {
+    "hero": {
+      "eyebrow": "Operation der zweiten Chance",
+      "title": "Bariatrische Revisionschirurgie in der Türkei",
+      "subtitle": "Eine erneute Gewichtszunahme nach einem Schlauchmagen oder Bypass ist häufiger, als Sie denken — und sie lässt sich beheben. Entdecken Sie chirurgische und nicht-chirurgische Revisionswege mit einem der erfahrensten Revisionsteams der Türkei.",
+      "stats": [
+        { "value": "8,000+", "label": "Durchgeführte Eingriffe" },
+        { "value": "5", "label": "Revisionswege" },
+        { "value": "£3,950", "label": "All-inclusive ab" }
+      ]
+    },
+    "facts": {
+      "title": "Revisionschirurgie auf einen Blick",
+      "items": [
+        { "label": "Untersuchung", "value": "Endoskopie + Bildgebung" },
+        { "label": "Optionen", "value": "Chirurgisch & endoskopisch" },
+        { "label": "Krankenhausaufenthalt", "value": "0–3 Nächte" },
+        { "label": "All-inclusive ab", "value": "£3,950" }
+      ]
+    },
+    "why": {
+      "title": "Warum eine Gewichtsverlust-Operation manchmal einen zweiten Schritt braucht",
+      "p1": "Keine bariatrische Operation garantiert von sich aus dauerhafte Ergebnisse. Mit der Zeit kann sich ein Schlauchmagen allmählich dehnen, der Ausgang nach einem Magenbypass kann sich weiten und eine hormonelle Anpassung kann den Hunger zurückbringen. Studien zeigen, dass <strong>bis zu 30% der Schlauchmagen-Patienten innerhalb von fünf Jahren eine erhebliche Gewichtszunahme erleben</strong>, und schwerer saurer Reflux (GERD) entwickelt sich langfristig bei bis zu <strong>55% der Schlauchmagen-Patienten</strong>.",
+      "p2": "Nichts davon bedeutet, dass Ihre erste Operation \"versagt hat\" — es bedeutet, dass sich Ihre Anatomie und Ihr Stoffwechsel verändert haben und es einen gut etablierten medizinischen Weg gibt, dies zu korrigieren. Die bariatrische Revisionschirurgie stellt die Restriktion und den metabolischen Effekt Ihres ursprünglichen Eingriffs wieder her oder wandelt ihn in einen um, der besser zu Ihrem Körper passt.",
+      "p3": "Im Istanbul Bariatric Center beginnt jede Revision mit einer diagnostischen Abklärung — Endoskopie und Bildgebung — sodass der Weg auf der Grundlage der Frage gewählt wird, <em>warum</em> die erste Operation nicht mehr funktioniert hat, und nicht auf Vermutungen basiert.",
+      "cta": "Kostenlose Revisionsbeurteilung erhalten"
+    },
+    "pathways": {
+      "title": "Revisionswege im Vergleich",
+      "subtitle": "Die richtige Revision hängt von Ihrem ursprünglichen Eingriff, Ihren Symptomen und Ihren Zielen ab.",
+      "columns": ["Weg", "Am besten geeignet für", "Wie es funktioniert", "Invasivität"],
+      "rows": [
+        ["Schlauchmagen → Mini-Magenbypass", "Erneute Gewichtszunahme nach Schlauchmagen, besonders bei Reflux (GERD)", "Wandelt den Schlauchmagen in einen kleinen Beutel um, der mit dem Darm verbunden ist, behebt Reflux und fügt einen metabolischen Effekt hinzu", "Laparoskopische Operation, 2–3 Nächte"],
+        ["Schlauchmagen → Duodenal-Switch / Transit-Bipartition", "Hoher BMI oder Typ-2-Diabetes nach einem Schlauchmagen", "Behält den Schlauchmagen und fügt eine Darmkomponente für maximalen Gewichtsverlust und Diabeteskontrolle hinzu", "Laparoskopische Operation, 2–3 Nächte"],
+        ["Endoskopischer Re-Sleeve (ESG-Revision)", "Mäßig gedehnter Schlauchmagen, Patienten, die eine Operation vermeiden möchten", "Endoskopische Nähte durch den Mund straffen den gedehnten Schlauchmagen erneut — keine Schnitte", "Endoskopisch, am selben Tag / 1 Nacht"],
+        ["TORe (Transoral Outlet Reduction)", "Erneute Gewichtszunahme nach Magenbypass aufgrund eines gedehnten Stomas", "Endoskopische Nähte verengen den geweiteten Ausgang zwischen Beutel und Darm", "Endoskopisch, Entlassung am selben Tag"],
+        ["Magenband → Schlauchmagen oder Bypass", "Fehlgeschlagenes oder kompliziertes Magenband", "Entfernt das Band und wandelt es in einem oder zwei Schritten in einen Schlauchmagen oder Bypass um", "Laparoskopische Operation, 2–3 Nächte"]
+      ]
+    },
+    "candidacy": {
+      "title": "Sind Sie ein Kandidat für eine Revisionsoperation?",
+      "intro": "Sie könnten von einer Revisionsbeurteilung profitieren, wenn einer der folgenden Punkte auf Sie zutrifft:",
+      "criteria": [
+        "Sie haben einen erheblichen Teil des Gewichts, das Sie nach einer Schlauchmagen-, Bypass- oder Magenband-Operation verloren hatten, wieder zugenommen",
+        "Sie haben nach der ersten Operation nie Ihren erwarteten Gewichtsverlust erreicht",
+        "Sie haben nach einem Schlauchmagen schweren oder anhaltenden sauren Reflux (GERD) entwickelt",
+        "Sie fühlen sich bald nach den Mahlzeiten hungrig oder können viel größere Portionen als zuvor essen",
+        "Sie haben ein Magenband, das Beschwerden, Verrutschen oder unzureichende Ergebnisse verursacht",
+        "Ihr Typ-2-Diabetes ist zurückgekehrt oder wurde nach der Operation nie vollständig behoben"
+      ],
+      "note": "<strong>Wichtig:</strong> Eine Revisionsoperation ist technisch anspruchsvoller als eine Erstoperation. Wählen Sie ein Zentrum mit hohem Fallaufkommen und spezifischer Revisionserfahrung — die Expertise des Chirurgen ist der wichtigste Einzelfaktor für die Ergebnisse einer Revision."
+    },
+    "process": {
+      "title": "So funktioniert der Revisionsprozess im IBC",
+      "steps": [
+        "<strong>Kostenlose Fernbeurteilung.</strong> Teilen Sie unseren Koordinatoren auf WhatsApp Ihre Operationsgeschichte, Ihr aktuelles Gewicht und Ihre Symptome mit. Dr Murat Ustun prüft jeden Revisionsfall persönlich.",
+        "<strong>Diagnostische Abklärung in Istanbul.</strong> Nach Ihrer Ankunft durchlaufen Sie im JCI-akkreditierten Liv Hospital Endoskopie, Bildgebung und Bluttests, um genau festzustellen, warum der erste Eingriff nicht mehr funktioniert hat.",
+        "<strong>Entscheidung über den Weg.</strong> Auf Grundlage der Befunde empfiehlt das Team die am wenigsten invasive Option, die Ihre Ziele zuverlässig erreicht — endoskopisch wo möglich, chirurgisch wo nötig.",
+        "<strong>Eingriff und Genesung.</strong> Endoskopische Revisionen erfolgen meist am selben Tag; chirurgische Umwandlungen umfassen 2–3 Nächte im Krankenhaus sowie eine Erholung im Hotel mit unserem Team in der Nähe.",
+        "<strong>12 Monate Nachsorge.</strong> Die Unterstützung durch UK-registrierte Ernährungsberater, die Beratung zu Nahrungsergänzungsmitteln und regelmäßige Nachuntersuchungen schützen Ihr Ergebnis der zweiten Chance."
+      ],
+      "readMore": "Lesen Sie mehr in unseren ausführlichen Leitfäden: <guideRevision>Bariatrische Revisionschirurgie in der Türkei</guideRevision> und <guideTore>das TORe-Verfahren erklärt</guideTore>."
+    },
+    "surgeonProof": {
+      "title": "Warum sollten Sie IBC Ihre Revision anvertrauen?",
+      "subtitle": "Eine Revisionsoperation erfordert mehr Erfahrung als eine Erstoperation. Hier sind Fallaufkommen und Spezialisierung am wichtigsten."
+    },
+    "testimonials": {
+      "title": "Patienten, die ihre zweite Chance bekommen haben",
+      "quotes": [
+        { "name": "Sarah M.", "flag": "🇺🇸", "date": "Oktober 2025", "text": "Ich hatte meine Operation bei Dr. Murat und seinem großartigen Team. Meine gesamte Erfahrung war einfach fantastisch. Innerhalb von nur vier Monaten habe ich bereits 35 kg abgenommen. Ich vertraue Dr. Murat und seinem Team mein Leben vollkommen an." },
+        { "name": "David R.", "flag": "🇬🇧", "date": "September 2025", "text": "Von dem Moment an, als ich ankam, fühlte ich mich völlig wohl — obwohl ich allein gereist bin. Dr. Murats Team blieb von der Operation bis heute mit mir in Kontakt und begleitete mich Schritt für Schritt durch Ernährung, Nachsorge und Genesung." },
+        { "name": "Peter V.", "flag": "🇧🇪", "date": "November 2024", "text": "Ich hatte meine Operation vor 6 Monaten und habe 45 kg abgenommen. Die kontinuierliche Unterstützung durch Dr. Murats Team war großartig. Sie melden sich regelmäßig und beantworten alle meine Fragen umgehend." }
+      ]
+    },
+    "faq": {
+      "title": "Revisionschirurgie — Häufig gestellte Fragen",
+      "items": [
+        { "question": "Was ist eine bariatrische Revisionsoperation?", "answer": "Eine bariatrische Revisionsoperation ist ein zweiter Eingriff, der nach einer vorherigen Gewichtsverlust-Operation — wie Schlauchmagen, Magenbypass oder Magenband — durchgeführt wird, wenn die erste Operation zu einer erneuten Gewichtszunahme, unzureichendem Gewichtsverlust oder Komplikationen wie schwerem Reflux geführt hat. Der Revisionsweg wird auf Grundlage Ihrer Anatomie, Symptome und Ziele gewählt." },
+        { "question": "Wie viel erneute Gewichtszunahme ist nach einem Schlauchmagen normal?", "answer": "Gewisse Gewichtsschwankungen sind normal, aber Studien zeigen, dass bis zu 30% der Schlauchmagen-Patienten innerhalb von 5 Jahren eine erhebliche Gewichtszunahme erleben, oft aufgrund einer allmählichen Dehnung des Schlauchmagens oder hormoneller Anpassung. Wenn Sie mehr als 25% des ursprünglich verlorenen Gewichts wieder zugenommen haben, lohnt sich eine Revisionsbeurteilung." },
+        { "question": "Welches Revisionsverfahren ist nach einem fehlgeschlagenen Schlauchmagen am besten?", "answer": "Die häufigsten Optionen sind die Umwandlung in einen Mini-Magenbypass (besonders bei vorhandenem Reflux — GERD betrifft langfristig bis zu 55% der Schlauchmagen-Patienten), die Umwandlung in einen Duodenal-Switch oder eine Transit-Bipartition für einen stärkeren metabolischen Effekt oder ein nicht-chirurgischer endoskopischer Re-Sleeve. Die richtige Option hängt davon ab, warum der Schlauchmagen versagt hat, was mittels Endoskopie und Bildgebung beurteilt wird." },
+        { "question": "Kann ein Magenbypass ohne Operation revidiert werden?", "answer": "Ja. Wenn sich die Verbindung zwischen Beutel und Darm (das Stoma) gedehnt hat, verengt TORe (Transoral Outlet Reduction) sie endoskopisch durch den Mund — keine Schnitte, in der Regel Entlassung am selben Tag. Es ist die führende nicht-chirurgische Revision bei erneuter Gewichtszunahme nach einem Bypass." },
+        { "question": "Ist eine bariatrische Revisionsoperation riskanter als die erste Operation?", "answer": "Eine Revisionsoperation ist technisch komplexer wegen des Narbengewebes der ersten Operation, weshalb die Erfahrung des Chirurgen mehr zählt als bei einer Erstoperation. In Zentren mit hohem Fallaufkommen und erfahrenen Revisionschirurgen bleiben die Komplikationsraten niedrig und die Ergebnisse ausgezeichnet." },
+        { "question": "Was kostet eine bariatrische Revisionsoperation in der Türkei?", "answer": "Eine Revisionsoperation in Istanbul kostet je nach Weg typischerweise £3,950–£5,950 all-inclusive — etwa 60-70% weniger als in Großbritannien oder den USA. Jedes Angebot umfasst den JCI-akkreditierten Krankenhausaufenthalt, präoperative Endoskopie und Tests, Transfers, Hotel und Nachsorge. Kontaktieren Sie uns für eine persönliche Beurteilung und ein genaues Angebot." }
+      ]
+    },
+    "related": {
+      "title": "Verwandte Optionen entdecken",
+      "links": [
+        { "title": "Mini-Magenbypass", "description": "Die häufigste Schlauchmagen-Umwandlung" },
+        { "title": "Transit-Bipartition", "description": "Starke metabolische Revision" },
+        { "title": "TORe-Verfahren", "description": "Nicht-chirurgische Bypass-Revision" },
+        { "title": "Kostenübersicht", "description": "All-inclusive-Preise vergleichen" }
+      ]
+    },
+    "conversion": {
+      "title": "Finden Sie heraus, welcher Revisionsweg zu Ihnen passt",
+      "text": "Senden Sie Ihre Operationsgeschichte an das Team von <doctorLink>Dr Murat Ustun</doctorLink> für eine kostenlose, unverbindliche Revisionsbeurteilung — in der Regel innerhalb von 24 Stunden beantwortet.",
+      "button": "Meine kostenlose Beurteilung erhalten"
+    }
+  },
+  "costPage": {
+    "hero": {
+      "eyebrow": "Transparente Preise — Leitfaden 2026",
+      "title": "Kosten der bariatrischen Chirurgie in der Türkei",
+      "subtitle": "Jeder Preis auf dieser Seite ist all-inclusive und wird vor Ihrer Anreise festgelegt: Krankenhaus, Chirurg, Tests, Transfers, Hotel und 12 Monate Nachsorge. Keine versteckten Zusatzkosten — niemals.",
+      "stats": [
+        { "value": "£1,650", "label": "Pakete ab" },
+        { "value": "60–70%", "label": "Typische Ersparnis ggü. UK/US" },
+        { "value": "0", "label": "Versteckte Gebühren" }
+      ]
+    },
+    "facts": {
+      "title": "All-inclusive-Paketpreise 2026",
+      "items": [
+        { "label": "Magenballon", "value": "Ab £1,650" },
+        { "label": "Schlauchmagen", "value": "Ab £2,950" },
+        { "label": "Mini-Magenbypass", "value": "Ab £3,350" },
+        { "label": "ESG (nicht-chirurgisch)", "value": "Ab £4,950" }
+      ]
+    },
+    "comparison": {
+      "title": "Türkei vs. UK, US & Europa: Preisvergleich",
+      "subtitle": "Typische private Selbstzahlerpreise für dieselben Verfahren. Die angegebenen türkischen Preise sind die festen All-inclusive-Pakete des Istanbul Bariatric Center.",
+      "columns": ["Verfahren", "Türkei (IBC, all-inclusive)", "Vereinigtes Königreich", "Vereinigte Staaten", "Westeuropa"],
+      "rows": [
+        ["Schlauchmagen", "£2,950 – £4,250", "£10,000 – £15,000", "$16,000 – $25,000", "€8,000 – €12,000"],
+        ["Mini-Magenbypass", "£3,350 – £4,650", "£11,000 – £16,000", "$20,000 – $30,000", "€9,000 – €14,000"],
+        ["Magenballon", "£1,650 – £2,250", "£4,000 – £8,000", "$6,000 – $9,000", "€3,500 – €6,000"],
+        ["ESG (endoskopischer Sleeve)", "£4,950 – £5,950", "£9,000 – £13,000", "$12,000 – $20,000", "€8,000 – €11,000"],
+        ["Duodenal-Switch", "£4,400 – £4,700", "£13,000 – £18,000", "$22,000 – $35,000", "€11,000 – €16,000"],
+        ["Revisionsoperation", "£3,950 – £5,950", "£12,000 – £18,000", "$18,000 – $30,000", "€10,000 – €15,000"]
+      ],
+      "footnote": "Die Zahlen für UK, US und EU sind indikative Selbstzahler-Spannen, die 2025–2026 von privaten Anbietern veröffentlicht wurden, und variieren je nach Klinik und Stadt."
+    },
+    "includes": {
+      "title": "Was jedes IBC-Paket enthält",
+      "items": [
+        "Operation im JCI-akkreditierten Liv Hospital, Istanbul",
+        "Alle Chirurgen-, Anästhesie- und Krankenhausgebühren",
+        "Präoperative Tests, Konsultationen und Anästhesieprüfung",
+        "VIP-Flughafenabholung und alle Transfers",
+        "Hotelunterkunft (Entspannungs- & Luxuspakete — Radisson)",
+        "Postoperative Medikamente zum Mitnehmen",
+        "12 Monate Ernährungsberater-Unterstützung (UK-registriert bei Entspannung & Luxus)",
+        "UK-Betreuungskoordinatoren an 8 Standorten"
+      ]
+    },
+    "whyCheaper": {
+      "title": "Warum ist die bariatrische Chirurgie in der Türkei günstiger?",
+      "p1": "Der Preisunterschied liegt <strong>nicht</strong> an niedrigeren Standards. Die Türkei verfügt über einen der größten Medizintourismus-Sektoren der Welt, und Istanbuls führende Krankenhäuser besitzen dieselbe <strong>JCI-Akkreditierung (Joint Commission International)</strong> wie Spitzenkliniken in London, New York und Berlin.",
+      "p2": "Drei Faktoren treiben die Ersparnis:",
+      "factors": [
+        "<strong>Betriebskosten:</strong> Personal-, Einrichtungs- und Verwaltungskosten in der Türkei betragen einen Bruchteil des westlichen Niveaus, ohne die klinische Ausstattung oder Protokolle zu beeinträchtigen.",
+        "<strong>Wechselkurs:</strong> Ihr Pfund, Euro oder Dollar reicht in der Türkei deutlich weiter.",
+        "<strong>Fallaufkommen und Spezialisierung:</strong> Bariatrische Zentren mit hohem Fallaufkommen wie unseres erzielen Effizienzgewinne — und bessere Ergebnisse —, die Kliniken mit geringem Fallaufkommen nicht erreichen können."
+      ],
+      "p3": "Dr Murat Ustun hat <strong>über 8.000 bariatrische Eingriffe</strong> durchgeführt — ein Fallaufkommen, das nur sehr wenige westliche Chirurgen jemals erreichen. Bei Operationen ist das Fallaufkommen einer der stärksten Prädiktoren für Sicherheit.",
+      "cta": "Mein genaues Angebot erhalten"
+    },
+    "budget": {
+      "title": "So planen Sie das Budget für Ihre gesamte Reise",
+      "intro": "Ein realistisches Gesamtbudget für einen UK-Patienten mit einem Schlauchmagen bei uns:",
+      "items": [
+        "<strong>Operationspaket:</strong> £2,950–£4,250 (fest, all-inclusive)",
+        "<strong>Hin- und Rückflug London–Istanbul:</strong> typischerweise £100–£250",
+        "<strong>Medizinische Reiseversicherung:</strong> £100–£200",
+        "<strong>Persönliche Ausgaben:</strong> £100–£200"
+      ],
+      "total": "Gesamt: rund <strong>£3,300–£4,900 all-in</strong> — immer noch weniger als die Hälfte der Kosten allein für die Operation in einem privaten Krankenhaus in Großbritannien. Sehen Sie sich unseren speziellen <ukLink>Leitfaden für UK-Patienten</ukLink> für Reiselogistik und Nachsorge von zu Hause aus an."
+    },
+    "surgeonProof": {
+      "title": "Niedriger Preis, kompromisslose Standards",
+      "subtitle": "Die Ersparnis ergibt sich aus wirtschaftlichen Faktoren, nicht aus Abstrichen bei Sicherheit, Einrichtungen oder Nachsorge."
+    },
+    "faq": {
+      "title": "Preise — Häufig gestellte Fragen",
+      "items": [
+        { "question": "Was kostet eine bariatrische Operation in der Türkei?", "answer": "Im Istanbul Bariatric Center beginnen All-inclusive-Pakete ab £1,650 für einen Magenballon, £2,950 für einen Schlauchmagen, £3,350 für einen Mini-Magenbypass und £4,950 für ESG. Jedes Paket umfasst den JCI-akkreditierten Krankenhausaufenthalt, präoperative Tests, Flughafentransfers, Hotel (Entspannungs- und Luxusstufen) und Ernährungsberater-Nachsorge." },
+        { "question": "Warum ist die Gewichtsverlustchirurgie in der Türkei so viel günstiger?", "answer": "Der Unterschied entsteht durch niedrigere Betriebskosten, einen günstigen Wechselkurs und staatliche Förderung des Medizintourismus — nicht durch niedrigere Standards. Die Operationen werden in JCI-akkreditierten Krankenhäusern (die gleiche internationale Akkreditierung wie führende US- und europäische Kliniken) von Chirurgen mit hohem Fallaufkommen durchgeführt. Sie zahlen 60-70% weniger für denselben klinischen Standard." },
+        { "question": "Gibt es versteckte Kosten in den Paketen?", "answer": "Nein. Unsere Pakete sind wirklich all-inclusive: Chirurgen- und Anästhesiegebühren, Krankenhausaufenthalt, präoperative Tests und Konsultationen, VIP-Flughafentransfers, Hotelunterkunft (Entspannung/Luxus), postoperative Medikamente zum Mitnehmen und 12 Monate Ernährungsberater-Unterstützung. Die einzigen nicht enthaltenen Kosten sind Ihre Flüge und persönliche Ausgaben." },
+        { "question": "Wie sind die Kosten im Vergleich zu UK, US oder Europa?", "answer": "Ein Schlauchmagen kostet privat in Großbritannien rund £10,000–£15,000, in den USA $16,000–$25,000 und in weiten Teilen Westeuropas €8,000–€12,000. In Istanbul beträgt das gleichwertige All-inclusive-Paket £2,950–£4,250 — typischerweise eine Ersparnis von 60–75%, selbst nach Flügen." },
+        { "question": "Kann ich in Raten oder mit Finanzierung zahlen?", "answer": "Die Zahlung erfolgt normalerweise per Banküberweisung oder Karte, mit einer Anzahlung zur Sicherung Ihres Termins und dem Restbetrag bei der Ankunft. Sprechen Sie mit unseren Koordinatoren über die derzeit verfügbaren Zahlungsvereinbarungen für Ihr Land." },
+        { "question": "Übernehmen die Reiseversicherung oder der NHS eine Operation in der Türkei?", "answer": "Der NHS und Standard-Reiseversicherungen übernehmen keine geplanten Operationen im Ausland. Es gibt jedoch spezialisierte Medizinreiseversicherungen, die Komplikationen abdecken, und wir empfehlen diese. Viele Patienten stellen dennoch fest, dass die Gesamtkosten — Operation, Flüge, Hotel und Versicherung — weit unter denen einer privaten Operation zu Hause liegen." }
+      ]
+    },
+    "related": {
+      "title": "Vergleichen Sie Ihre Optionen",
+      "links": [
+        { "title": "Schlauchmagen", "description": "Ab £2,950 all-inclusive" },
+        { "title": "Mini-Magenbypass", "description": "Ab £3,350 all-inclusive" },
+        { "title": "ESG (nicht-chirurgisch)", "description": "Ab £4,950 all-inclusive" },
+        { "title": "Revisionsoperation", "description": "Ab £3,950 all-inclusive" }
+      ]
+    },
+    "conversion": {
+      "title": "Erhalten Sie in 24 Stunden ein festes, All-inclusive-Angebot",
+      "text": "Teilen Sie uns auf WhatsApp Ihre Größe, Ihr Gewicht und Ihre Ziele mit und erhalten Sie ein persönliches, unverbindliches Angebot — der Ihnen genannte Preis ist der Preis, den Sie zahlen.",
+      "button": "Mein kostenloses Angebot erhalten"
+    }
+  },
+  "ukPage": {
+    "hero": {
+      "eyebrow": "Für UK-Patienten konzipiert",
+      "title": "Bariatrische Chirurgie in der Türkei für UK-Patienten",
+      "subtitle": "Feste Preise in GBP, ein 4-Stunden-Flug, JCI-akkreditierte Krankenhausversorgung in Istanbul — und eine Nachsorge, die Ihnen nach Hause folgt, mit UK-registrierten Ernährungsberatern und Betreuungskoordinatoren an 8 Standorten in Großbritannien.",
+      "stats": [
+        { "value": "£2,950", "label": "Schlauchmagen ab" },
+        { "value": "8", "label": "UK-Betreuungsstandorte" },
+        { "value": "12 Mo.", "label": "Ernährungsberater-Nachsorge" }
+      ]
+    },
+    "facts": {
+      "title": "Ihre Reise auf einen Blick",
+      "items": [
+        { "label": "Flugzeit", "value": "~4 Stunden" },
+        { "label": "Visum für UK-Pässe", "value": "Nicht erforderlich" },
+        { "label": "Typischer Aufenthalt", "value": "4–6 Nächte" },
+        { "label": "Arbeitsausfall", "value": "1–2 Wochen" }
+      ]
+    },
+    "why": {
+      "title": "Warum sich Tausende UK-Patienten für Istanbul entscheiden",
+      "p1": "Eine private Gewichtsverlust-Operation in Großbritannien kostet £10,000–£16,000, und die NHS-Wartelisten für bariatrische Operationen erstrecken sich routinemäßig über <strong>mehr als zwei Jahre</strong> — mit strengen Eignungskriterien, die viele Menschen ausschließen, die davon profitieren würden. Deshalb ist Großbritannien heute eine der größten Quellen bariatrischer Patienten, die nach Istanbul reisen.",
+      "p2": "Die Ersparnis ist erheblich — typischerweise <strong>60–70% weniger als die privaten UK-Preise</strong>, selbst nach Flügen —, aber der entscheidende Faktor für die meisten unserer UK-Patienten ist das Betreuungsmodell: Operation durch einen einzigen namentlich genannten Chirurgen mit über 8.000 Eingriffen, ein JCI-akkreditiertes Krankenhaus und ein wirklich all-inclusive-Paket mit Nachsorge, die in Großbritannien fortgesetzt wird.",
+      "cta": "Mit einem UK-Koordinator sprechen"
+    },
+    "comparison": {
+      "title": "Private UK-Operation vs. Istanbul Bariatric Center",
+      "columns": ["Was Sie erhalten", "Private UK-Klinik", "Istanbul Bariatric Center"],
+      "rows": [
+        ["Schlauchmagen-Preis", "£10,000 – £15,000", "£2,950 – £4,250 all-inclusive"],
+        ["Wartezeit", "Wochen bis Monate", "Meist 1–3 Wochen bis zu Ihrem Wunschtermin"],
+        ["Krankenhaus-Akkreditierung", "CQC-reguliert", "JCI-akkreditiert (internationaler Goldstandard)"],
+        ["Fallaufkommen des Chirurgen", "Stark unterschiedlich", "8,000+ Eingriffe (Dr Murat Ustun)"],
+        ["Hotel & Transfers", "Nicht enthalten", "Enthalten (Entspannung & Luxus)"],
+        ["Ernährungsberater-Nachsorge", "Oft extra", "12 Monate enthalten, UK-registriert"],
+        ["Persönliche UK-Unterstützung", "In der Klinik", "Koordinatoren an 8 UK-Standorten"]
+      ]
+    },
+    "journey": {
+      "title": "Ihre Reise, Schritt für Schritt",
+      "steps": [
+        "<strong>Kostenlose Beratung von zu Hause.</strong> Schreiben Sie unserer UK-Leitung auf WhatsApp. Sie erhalten eine Eignungsbeurteilung, eine persönliche Empfehlung und ein festes Angebot in GBP — in der Regel innerhalb von 24 Stunden.",
+        "<strong>Buchen Sie Ihren Termin.</strong> Sichern Sie Ihren Operationstermin mit einer Anzahlung. Wir helfen Ihnen, Flüge zu finden; London, Manchester, Birmingham und Edinburgh haben alle Direktverbindungen nach Istanbul.",
+        "<strong>Ankunftstag.</strong> Ein VIP-Transfer empfängt Sie am Flughafen Istanbul. Präoperative Tests, Konsultationen und die Anästhesieprüfung werden am selben Tag durchgeführt.",
+        "<strong>Operation und Krankenhausaufenthalt.</strong> Ihr Eingriff im JCI-akkreditierten Liv Hospital, gefolgt von 2–3 Nächten überwachter Genesung mit englischsprachigem Personal und einem Dolmetscher.",
+        "<strong>Erholung im Hotel und Rückflug.</strong> Ein bis zwei Nächte im Radisson mit täglichen Kontrollbesuchen, eine Abschlussuntersuchung und dann Ihr Transfer zurück zum Flughafen. Ein 4-Stunden-Flug nach der Operation ist in diesem Stadium sicher und Routine.",
+        "<strong>Nachsorge in Großbritannien.</strong> 12 Monate Unterstützung durch UK-registrierte Ernährungsberater, Beratung zu Nahrungsergänzungsmitteln, WhatsApp-Zugang zum klinischen Team und persönliche Unterstützung an 8 UK-Standorten."
+      ]
+    },
+    "candidacy": {
+      "title": "Bin ich geeignet?",
+      "intro": "UK-Patienten qualifizieren sich typischerweise für eine Gewichtsverlust-Operation bei uns, wenn:",
+      "criteria": [
+        "Ihr BMI 35 oder höher ist (30+ für nicht-chirurgische Optionen wie ESG oder Magenballon)",
+        "Sie Diät und Bewegung ohne dauerhafte Ergebnisse versucht haben",
+        "Sie gewichtsbedingte Erkrankungen wie Typ-2-Diabetes, Schlafapnoe oder Gelenkschmerzen haben",
+        "Sie 18–65 Jahre alt und für eine Vollnarkose geeignet sind",
+        "Sie sich der postoperativen Diät und dem Nachsorgeprogramm verpflichtet fühlen",
+        "Sie für 4–6 Nächte nach Istanbul reisen können"
+      ],
+      "note": "Nicht sicher? Nutzen Sie unser <profileLink>2-minütiges Gesundheitsprofil</profileLink> oder schreiben Sie uns — die Beurteilung ist kostenlos und unverbindlich."
+    },
+    "surgeonProof": {
+      "title": "Die Sicherheitsstandards, die UK-Patienten verlangen sollten",
+      "subtitle": "Wo auch immer Sie sich im Ausland operieren lassen, überprüfen Sie diese vier Dinge. So schneiden wir ab."
+    },
+    "testimonials": {
+      "title": "Was UK- und irische Patienten sagen",
+      "quotes": [
+        { "name": "Emma W.", "flag": "🇬🇧", "date": "August 2025", "text": "Ich hatte kürzlich eine Schlauchmagen-Operation und die Erfahrung war fantastisch. Das Krankenhaus ist super sauber und man hat ein ganzes Zimmer für sich allein. Dr. Murat und sein Team boten während meines gesamten Aufenthalts eine hervorragende Betreuung. Ich sehe bereits großartige Ergebnisse!" },
+        { "name": "Michelle F.", "flag": "🇬🇧", "date": "August 2024", "text": "Von der Flughafenabholung bis zur Hotelunterkunft war alles perfekt organisiert. Die Operation verlief reibungslos und Dr. Murat besuchte mich mehrmals während meiner Genesung. Die Nachsorge war ausgezeichnet. Sehr empfehlenswert!" },
+        { "name": "Robert H.", "flag": "🇮🇪", "date": "Juli 2025", "text": "Herausragende Betreuung von Anfang bis Ende! Alle Tests wurden gründlich durchgeführt, die Operation verlief sehr gut, die Narbe ist kaum sichtbar und heilt gut. Die Nachsorge-Unterstützung war unglaublich." }
+      ]
+    },
+    "faq": {
+      "title": "UK-Patienten — Häufig gestellte Fragen",
+      "items": [
+        { "question": "Ist es für UK-Patienten sicher, sich in der Türkei einer Gewichtsverlust-Operation zu unterziehen?", "answer": "Ja — wenn Sie den richtigen Anbieter wählen. Das Istanbul Bariatric Center operiert ausschließlich im JCI-akkreditierten Liv Hospital, demselben internationalen Akkreditierungsstandard wie führende private UK-Krankenhäuser. Dr Murat Ustun hat über 8.000 Eingriffe durchgeführt und das Zentrum hat den WhatClinic Patient Service Award sechsmal gewonnen. Entscheidend ist, vor der Buchung die Krankenhaus-Akkreditierung und das Fallaufkommen des Chirurgen zu überprüfen — bei jedem Anbieter." },
+        { "question": "Wie lange muss ich in Istanbul bleiben?", "answer": "Die meisten UK-Patienten bleiben insgesamt 4-6 Nächte: Ankunft und präoperative Tests am ersten Tag, Operation am zweiten Tag, 2-3 Nächte im Krankenhaus und dann 1-2 Nächte im Hotel vor dem Rückflug. ESG- und Magenballon-Patienten können oft innerhalb von 2-3 Tagen nach Hause zurückkehren." },
+        { "question": "Welche Nachsorge erhalte ich zurück in Großbritannien?", "answer": "Entspannungs- und Luxuspakete umfassen 12 Monate Unterstützung durch einen UK-registrierten Ernährungsberater sowie Betreuungskoordinatoren an 8 UK-Standorten für persönliche Hilfe. Unser klinisches Team bleibt auf WhatsApp für jedes Anliegen verfügbar, und wir stimmen uns bei Bedarf mit Ihrem Hausarzt ab." },
+        { "question": "Kümmert sich der NHS um mich, wenn etwas schiefgeht?", "answer": "Der NHS wird Sie in einem Notfall immer behandeln. Für die routinemäßige Nachsorge übernehmen unser UK-Ernährungsberater-Netzwerk und das klinische Team aus der Ferne Ihre Betreuung. Wir empfehlen außerdem dringend eine spezialisierte Medizinreiseversicherung, die die Behandlung von Komplikationen abdeckt — Policen kosten typischerweise £100-£200." },
+        { "question": "Wie funktionieren Zahlungen aus Großbritannien?", "answer": "Sie zahlen eine Anzahlung per Karte oder Banküberweisung, um Ihren Operationstermin zu sichern, wobei der Restbetrag bei der Ankunft in Istanbul fällig ist. Alle Preise werden in Pfund Sterling angegeben und sind fest — das Angebot, das Sie erhalten, ist der Betrag, den Sie zahlen." },
+        { "question": "Benötige ich ein Visum, um von Großbritannien in die Türkei zu reisen?", "answer": "Nein. Inhaber eines UK-Passes können bis zu 90 Tage visumfrei in die Türkei einreisen. Sie benötigen lediglich einen Reisepass, der ab Ihrem Ankunftsdatum noch mindestens 150 Tage gültig ist, sowie Ihre Buchungsbestätigung von uns." }
+      ]
+    },
+    "related": {
+      "title": "Planen Sie Ihren Eingriff",
+      "links": [
+        { "title": "Schlauchmagen", "description": "Ab £2,950 all-inclusive" },
+        { "title": "ESG (nicht-chirurgisch)", "description": "Keine Schnitte, Entlassung am selben Tag" },
+        { "title": "Kostenübersicht", "description": "Vollständiger Preisvergleich 2026" },
+        { "title": "ESG für UK-Patienten", "description": "Spezielle UK-ESG-Seite" }
+      ]
+    },
+    "conversion": {
+      "title": "Sprechen Sie noch heute mit unserem UK-Team",
+      "text": "Schreiben Sie den UK-Koordinatoren von <doctorLink>Dr Murat Ustun</doctorLink> auf WhatsApp für eine kostenlose Beurteilung, ein festes GBP-Angebot und Antworten auf jede Frage — unverbindlich und ohne Druck.",
+      "button": "Auf WhatsApp chatten (UK)"
+    }
+  },
   "postBariatric": {
     "title": "Post-Bariatrische Chirurgie",
     "heroTitle": "Post-Bariatrische Körperformung Istanbul, Türkei",
