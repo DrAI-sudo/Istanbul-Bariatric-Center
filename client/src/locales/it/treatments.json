@@ -2321,5 +2321,36 @@
       "text": "Che siano 10 kg o 60 kg, scrivi al nostro team indicando altezza, peso e obiettivo. Riceverai una raccomandazione onesta — pallone, ESG, sleeve o nessuno — entro 24 ore.",
       "button": "Ottieni la Mia Raccomandazione Gratuita"
     }
+  },
+  "related": {
+    "title": "Esplora altre opzioni per perdere peso",
+    "gastricSleeve": {
+      "title": "Sleeve gastrica",
+      "description": "L'opzione più popolare"
+    },
+    "gastricBypass": {
+      "title": "Bypass gastrico",
+      "description": "70-85% di perdita del peso in eccesso"
+    },
+    "gastricBalloon": {
+      "title": "Palloncino gastrico",
+      "description": "Opzione non chirurgica"
+    },
+    "endoscopicSleeve": {
+      "title": "Sleeve endoscopica",
+      "description": "Minimamente invasiva"
+    },
+    "revisionSurgery": {
+      "title": "Chirurgia di revisione",
+      "description": "Opzioni dopo il recupero del peso"
+    },
+    "costGuide": {
+      "title": "Guida ai costi",
+      "description": "Confronta tutti i prezzi"
+    },
+    "duodenalSwitch": {
+      "title": "Switch duodenale",
+      "description": "Per BMI 50+"
+    }
   }
 }

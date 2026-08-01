@@ -2321,5 +2321,36 @@
       "text": "Tüp midenizi ne zaman yaptırdığınızı, hangi ilacı kullandığınızı ve belirtilerinizin ne olduğunu bize söyleyin. Dr Ustun'un ekibi güvence, onarım mı yoksa dönüşüm mü gerektiğini size söyleyecek — 24 saat içinde.",
       "button": "Ücretsiz Reflü İncelememi Al"
     }
+  },
+  "related": {
+    "title": "Diğer Kilo Verme Seçeneklerini Keşfedin",
+    "gastricSleeve": {
+      "title": "Tüp Mide",
+      "description": "En popüler seçenek"
+    },
+    "gastricBypass": {
+      "title": "Gastrik Bypass",
+      "description": "%70-85 fazla kilo kaybı"
+    },
+    "gastricBalloon": {
+      "title": "Mide Balonu",
+      "description": "Ameliyatsız seçenek"
+    },
+    "endoscopicSleeve": {
+      "title": "Endoskopik Sleeve",
+      "description": "Minimal invaziv"
+    },
+    "revisionSurgery": {
+      "title": "Revizyon Cerrahisi",
+      "description": "Kilo geri alımı sonrası seçenekler"
+    },
+    "costGuide": {
+      "title": "Fiyat Rehberi",
+      "description": "Tüm fiyatları karşılaştırın"
+    },
+    "duodenalSwitch": {
+      "title": "Duodenal Switch",
+      "description": "VKİ 50+ için"
+    }
   }
 }

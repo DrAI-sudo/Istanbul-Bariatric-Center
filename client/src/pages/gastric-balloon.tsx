@@ -206,30 +206,30 @@ export default function GastricBalloon() {
       {/* Related Treatments */}
       <section className="py-16 bg-slate-100">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">Explore Other Weight Loss Options</h2>
+          <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">{t("related.title")}</h2>
           <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto">
             <Link href="/sleeve-gastrectomy">
               <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
-                <h3 className="font-bold text-primary mb-2">Gastric Sleeve</h3>
-                <p className="text-sm text-slate-600">Most popular option</p>
+                <h3 className="font-bold text-primary mb-2">{t("related.gastricSleeve.title")}</h3>
+                <p className="text-sm text-slate-600">{t("related.gastricSleeve.description")}</p>
               </div>
             </Link>
             <Link href="/mini-gastric-bypass">
               <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
-                <h3 className="font-bold text-primary mb-2">Gastric Bypass</h3>
-                <p className="text-sm text-slate-600">70-85% excess weight loss</p>
+                <h3 className="font-bold text-primary mb-2">{t("related.gastricBypass.title")}</h3>
+                <p className="text-sm text-slate-600">{t("related.gastricBypass.description")}</p>
               </div>
             </Link>
             <Link href="/esg">
               <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
-                <h3 className="font-bold text-primary mb-2">Endoscopic Sleeve</h3>
-                <p className="text-sm text-slate-600">Minimally invasive</p>
+                <h3 className="font-bold text-primary mb-2">{t("related.endoscopicSleeve.title")}</h3>
+                <p className="text-sm text-slate-600">{t("related.endoscopicSleeve.description")}</p>
               </div>
             </Link>
             <Link href="/duodenal-switch">
               <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
-                <h3 className="font-bold text-primary mb-2">Duodenal Switch</h3>
-                <p className="text-sm text-slate-600">For BMI 50+</p>
+                <h3 className="font-bold text-primary mb-2">{t("related.duodenalSwitch.title")}</h3>
+                <p className="text-sm text-slate-600">{t("related.duodenalSwitch.description")}</p>
               </div>
             </Link>
             <Link href="/gastric-balloon-vs-gastric-sleeve">

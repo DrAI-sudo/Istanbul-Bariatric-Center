@@ -2321,5 +2321,36 @@
       "text": "Send your surgery date, lowest weight, current weight and main struggle on WhatsApp. Dr Ustun's team will tell you which pathway fits — including when the answer is 'no procedure needed'.",
       "button": "Start My Free Assessment"
     }
+  },
+  "related": {
+    "title": "Explore Other Weight Loss Options",
+    "gastricSleeve": {
+      "title": "Gastric Sleeve",
+      "description": "Most popular option"
+    },
+    "gastricBypass": {
+      "title": "Gastric Bypass",
+      "description": "70-85% excess weight loss"
+    },
+    "gastricBalloon": {
+      "title": "Gastric Balloon",
+      "description": "Non-surgical option"
+    },
+    "endoscopicSleeve": {
+      "title": "Endoscopic Sleeve",
+      "description": "Minimally invasive"
+    },
+    "revisionSurgery": {
+      "title": "Revision Surgery",
+      "description": "Options after weight regain"
+    },
+    "costGuide": {
+      "title": "Cost Guide",
+      "description": "Compare all prices"
+    },
+    "duodenalSwitch": {
+      "title": "Duodenal Switch",
+      "description": "For BMI 50+"
+    }
   }
 }

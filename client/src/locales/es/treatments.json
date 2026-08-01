@@ -2321,5 +2321,36 @@
       "text": "Ya sean 10 kg o 60 kg, escriba a nuestro equipo con su altura, peso y objetivo. Recibirá una recomendación honesta — balón, ESG, manga o ninguno — en 24 horas.",
       "button": "Obtener Mi Recomendación Gratuita"
     }
+  },
+  "related": {
+    "title": "Explora otras opciones para perder peso",
+    "gastricSleeve": {
+      "title": "Manga gástrica",
+      "description": "La opción más popular"
+    },
+    "gastricBypass": {
+      "title": "Bypass gástrico",
+      "description": "70-85% de pérdida del exceso de peso"
+    },
+    "gastricBalloon": {
+      "title": "Balón gástrico",
+      "description": "Opción no quirúrgica"
+    },
+    "endoscopicSleeve": {
+      "title": "Manga endoscópica",
+      "description": "Mínimamente invasiva"
+    },
+    "revisionSurgery": {
+      "title": "Cirugía de revisión",
+      "description": "Opciones tras recuperar peso"
+    },
+    "costGuide": {
+      "title": "Guía de precios",
+      "description": "Compara todos los precios"
+    },
+    "duodenalSwitch": {
+      "title": "Cruce duodenal",
+      "description": "Para IMC 50+"
+    }
   }
 }

@@ -337,12 +337,12 @@ export default function ESG() {
         <CountryFlagsBar variant="esg" />
 
         <RelatedLinks
-          title="Explore Other Weight Loss Options"
+          title={t("related.title")}
           links={[
-            { title: "Gastric Sleeve", description: "Most popular option", href: "/sleeve-gastrectomy" },
-            { title: "Gastric Bypass", description: "70-85% excess weight loss", href: "/mini-gastric-bypass" },
-            { title: "Gastric Balloon", description: "Non-surgical option", href: "/gastric-balloon" },
-            { title: "Cost Guide", description: "Compare all prices", href: "/cost-of-bariatric-surgery-in-turkey" },
+            { title: t("related.gastricSleeve.title"), description: t("related.gastricSleeve.description"), href: "/sleeve-gastrectomy" },
+            { title: t("related.gastricBypass.title"), description: t("related.gastricBypass.description"), href: "/mini-gastric-bypass" },
+            { title: t("related.gastricBalloon.title"), description: t("related.gastricBalloon.description"), href: "/gastric-balloon" },
+            { title: t("related.costGuide.title"), description: t("related.costGuide.description"), href: "/cost-of-bariatric-surgery-in-turkey" },
             { title: t("guides.esgVsSleeve.title"), description: t("guides.esgVsSleeve.description"), href: "/esg-vs-gastric-sleeve" },
             { title: t("guides.balloonVsSleeve.title"), description: t("guides.balloonVsSleeve.description"), href: "/gastric-balloon-vs-gastric-sleeve" },
             { title: t("guides.longTermResults.title"), description: t("guides.longTermResults.description"), href: "/bariatric-surgery-long-term-results" },

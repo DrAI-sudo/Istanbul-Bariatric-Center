@@ -2321,5 +2321,36 @@
       "text": "Dites-nous la procédure qui vous intéresse et vos dates préférées sur WhatsApp — vous recevrez un plan jour par jour, des conseils de vol et un devis fixe tout inclus sous 24 heures.",
       "button": "Planifier mon Voyage Gratuitement"
     }
+  },
+  "related": {
+    "title": "Découvrez d'autres options de perte de poids",
+    "gastricSleeve": {
+      "title": "Sleeve gastrique",
+      "description": "L'option la plus populaire"
+    },
+    "gastricBypass": {
+      "title": "Bypass gastrique",
+      "description": "70-85% de perte d'excès de poids"
+    },
+    "gastricBalloon": {
+      "title": "Ballon gastrique",
+      "description": "Option non chirurgicale"
+    },
+    "endoscopicSleeve": {
+      "title": "Sleeve endoscopique",
+      "description": "Mini-invasif"
+    },
+    "revisionSurgery": {
+      "title": "Chirurgie de révision",
+      "description": "Options après reprise de poids"
+    },
+    "costGuide": {
+      "title": "Guide des prix",
+      "description": "Comparez tous les prix"
+    },
+    "duodenalSwitch": {
+      "title": "Switch duodénal",
+      "description": "Pour IMC 50+"
+    }
   }
 }

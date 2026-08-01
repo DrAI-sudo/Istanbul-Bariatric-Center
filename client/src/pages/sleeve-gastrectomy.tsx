@@ -235,12 +235,12 @@ export default function SleeveGastrectomy() {
         <FAQSection title={t('common.faqs')} faqs={faqs} />
 
         <RelatedLinks
-          title="Explore Other Weight Loss Options"
+          title={t("related.title")}
           links={[
-            { title: "Gastric Bypass", description: "70-85% excess weight loss", href: "/mini-gastric-bypass" },
-            { title: "Gastric Balloon", description: "Non-surgical option", href: "/gastric-balloon" },
-            { title: "Endoscopic Sleeve", description: "Minimally invasive", href: "/esg" },
-            { title: "Revision Surgery", description: "Options after weight regain", href: "/revision-bariatric-surgery" },
+            { title: t("related.gastricBypass.title"), description: t("related.gastricBypass.description"), href: "/mini-gastric-bypass" },
+            { title: t("related.gastricBalloon.title"), description: t("related.gastricBalloon.description"), href: "/gastric-balloon" },
+            { title: t("related.endoscopicSleeve.title"), description: t("related.endoscopicSleeve.description"), href: "/esg" },
+            { title: t("related.revisionSurgery.title"), description: t("related.revisionSurgery.description"), href: "/revision-bariatric-surgery" },
             { title: t("guides.sleeveVsBypass.title"), description: t("guides.sleeveVsBypass.description"), href: "/gastric-sleeve-vs-gastric-bypass" },
             { title: t("guides.reflux.title"), description: t("guides.reflux.description"), href: "/reflux-after-gastric-sleeve" },
             { title: t("guides.weightRegain.title"), description: t("guides.weightRegain.description"), href: "/weight-regain-after-gastric-sleeve" },

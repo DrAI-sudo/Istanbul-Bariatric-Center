@@ -2321,5 +2321,36 @@
       "text": "Senden Sie Ihre Größe, Ihr Gewicht und Ihre Ziele über WhatsApp – unser klinisches Team sagt Ihnen ehrlich innerhalb von 24 Stunden, ob die ESG oder der chirurgische Schlauchmagen zu Ihrem Fall passt.",
       "button": "Das klinische Team fragen"
     }
+  },
+  "related": {
+    "title": "Weitere Optionen zur Gewichtsabnahme entdecken",
+    "gastricSleeve": {
+      "title": "Magenverkleinerung (Sleeve)",
+      "description": "Beliebteste Option"
+    },
+    "gastricBypass": {
+      "title": "Magenbypass",
+      "description": "70-85% Übergewichtsverlust"
+    },
+    "gastricBalloon": {
+      "title": "Magenballon",
+      "description": "Nicht-chirurgische Option"
+    },
+    "endoscopicSleeve": {
+      "title": "Endoskopischer Sleeve",
+      "description": "Minimal-invasiv"
+    },
+    "revisionSurgery": {
+      "title": "Revisionschirurgie",
+      "description": "Optionen nach erneuter Gewichtszunahme"
+    },
+    "costGuide": {
+      "title": "Kostenübersicht",
+      "description": "Alle Preise vergleichen"
+    },
+    "duodenalSwitch": {
+      "title": "Duodenal Switch",
+      "description": "Für BMI 50+"
+    }
   }
 }

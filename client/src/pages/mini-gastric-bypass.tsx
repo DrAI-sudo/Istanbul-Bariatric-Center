@@ -172,12 +172,12 @@ export default function MiniGastricBypass() {
         />
 
         <RelatedLinks
-          title="Explore Other Weight Loss Options"
+          title={t("related.title")}
           links={[
-            { title: "Gastric Sleeve", description: "Most popular option", href: "/sleeve-gastrectomy" },
-            { title: "Gastric Balloon", description: "Non-surgical option", href: "/gastric-balloon" },
-            { title: "Endoscopic Sleeve", description: "Minimally invasive", href: "/esg" },
-            { title: "Revision Surgery", description: "Options after weight regain", href: "/revision-bariatric-surgery" },
+            { title: t("related.gastricSleeve.title"), description: t("related.gastricSleeve.description"), href: "/sleeve-gastrectomy" },
+            { title: t("related.gastricBalloon.title"), description: t("related.gastricBalloon.description"), href: "/gastric-balloon" },
+            { title: t("related.endoscopicSleeve.title"), description: t("related.endoscopicSleeve.description"), href: "/esg" },
+            { title: t("related.revisionSurgery.title"), description: t("related.revisionSurgery.description"), href: "/revision-bariatric-surgery" },
             { title: t("guides.sleeveVsBypass.title"), description: t("guides.sleeveVsBypass.description"), href: "/gastric-sleeve-vs-gastric-bypass" },
             { title: t("guides.longTermResults.title"), description: t("guides.longTermResults.description"), href: "/bariatric-surgery-long-term-results" },
             { title: t("guides.travelGuide.title"), description: t("guides.travelGuide.description"), href: "/bariatric-surgery-travel-guide" },

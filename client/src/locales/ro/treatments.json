@@ -2321,5 +2321,36 @@
       "text": "Spuneți-ne înălțimea, greutatea și obiectivele dumneavoastră de sănătate. Vă vom spune ale cărei proceduri dovezi pe termen lung se potrivesc cazului dumneavoastră — gratuit, onest, în decurs de 24 de ore.",
       "button": "Obțineți Evaluarea Mea Gratuită"
     }
+  },
+  "related": {
+    "title": "Explorează alte opțiuni de slăbire",
+    "gastricSleeve": {
+      "title": "Gastric Sleeve",
+      "description": "Cea mai populară opțiune"
+    },
+    "gastricBypass": {
+      "title": "Bypass gastric",
+      "description": "70-85% pierdere din excesul de greutate"
+    },
+    "gastricBalloon": {
+      "title": "Balon gastric",
+      "description": "Opțiune non-chirurgicală"
+    },
+    "endoscopicSleeve": {
+      "title": "Sleeve endoscopic",
+      "description": "Minim invaziv"
+    },
+    "revisionSurgery": {
+      "title": "Chirurgie de revizie",
+      "description": "Opțiuni după recâștigarea greutății"
+    },
+    "costGuide": {
+      "title": "Ghid de prețuri",
+      "description": "Compară toate prețurile"
+    },
+    "duodenalSwitch": {
+      "title": "Switch duodenal",
+      "description": "Pentru IMC 50+"
+    }
   }
 }
