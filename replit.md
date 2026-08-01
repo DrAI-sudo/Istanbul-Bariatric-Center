@@ -67,6 +67,11 @@ Preferred communication style: Simple, everyday language.
 - **Code**: Code splitting, manual chunks, terser minification, console stripping.
 - **Caching**: Aggressive caching for static assets.
 
+## SEO Guardrails
+
+- **Single-h1 rule**: every route must serve exactly one `<h1>` to crawlers. Enforced by `script/check-h1.ts` (the `h1-check` validation, run against dev) and by `script/prerender.ts`, which fails the build if a prerendered page has zero or duplicate h1s.
+- **Post-publish step (required)**: after every publish, run `npm run check:h1:prod` to verify the LIVE site (`https://istanbulbariatriccenter.com`) — production serves prerendered snapshots that can drift from dev.
+
 ## External Dependencies
 
 ### Database

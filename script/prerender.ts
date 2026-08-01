@@ -132,9 +132,12 @@ async function renderRoute(browser: Browser, route: string): Promise<void> {
       dir,
     );
 
-    if (!html.includes("<h1") || html.length < 20000) {
+    // Exactly ONE <h1> per page — a stale/mid-hydration snapshot with zero or
+    // duplicate h1s must never be published (see script/check-h1.ts).
+    const h1Count = (html.match(/<h1(\s[^>]*)?>/gi) || []).length;
+    if (h1Count !== 1 || html.length < 20000) {
       throw new Error(
-        `Rendered HTML for ${route} looks incomplete (length ${html.length}, h1 ${html.includes("<h1")})`,
+        `Rendered HTML for ${route} looks incomplete or malformed (length ${html.length}, h1 count ${h1Count}, expected exactly 1)`,
       );
     }
 

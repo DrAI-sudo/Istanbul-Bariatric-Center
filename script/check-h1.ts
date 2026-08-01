@@ -16,7 +16,12 @@
  *   npx tsx script/check-h1.ts --hydrated   # also run browser check
  *   BASE_URL=http://127.0.0.1:5000 npx tsx script/check-h1.ts
  *
- * Requires the dev server (npm run dev) to be running.
+ *   # Post-publish: verify the LIVE production site (prerendered snapshots
+ *   # can drift from dev). Run this after every publish:
+ *   npm run check:h1:prod
+ *   # equivalent to: BASE_URL=https://istanbulbariatriccenter.com npx tsx script/check-h1.ts
+ *
+ * Without BASE_URL it requires the dev server (npm run dev) to be running.
  */
 import { getAllStaticRoutes, getAllBlogSlugs } from "../server/seo-data";
 

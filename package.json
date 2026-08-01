@@ -9,6 +9,8 @@
     "build": "tsx script/build.ts",
     "start": "NODE_ENV=production node dist/index.cjs",
     "check": "tsc",
+    "check:h1": "tsx script/check-h1.ts",
+    "check:h1:prod": "BASE_URL=https://istanbulbariatriccenter.com tsx script/check-h1.ts",
     "db:push": "drizzle-kit push"
   },
   "dependencies": {
