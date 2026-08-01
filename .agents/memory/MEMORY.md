@@ -1,3 +1,4 @@
+- [Single-h1 guard](h1-guard.md) — `h1-check` validation (script/check-h1.ts) curls every route as Googlebot and fails unless exactly one h1; run after touching SEO injection or adding pages.
 - [SEO SSR injection](seo-ssr-injection.md) — SSR SEO content (h1/jsonLd/FAQ) is injected for all UAs in seo-inject.ts; keep exactly one h1 (seo-content=h1, noscript=h2).
 - [Static prerender pipeline](prerender-pipeline.md) — puppeteer renders need isolated contexts + forced server lang/dir (i18n localStorage leaks); express.static needs index:false; long builds must run as a temp workflow.
 - [Adding a blog post](blog-posts.md) — must update BOTH client/src/data/blog-posts.ts (content) AND server/seo-data.ts blogPosts (SEO metadata); no backticks/${} in content; restart for server changes.

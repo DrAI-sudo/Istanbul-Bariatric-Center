@@ -50,6 +50,10 @@ args = "Start application"
 task = "workflow.run"
 args = "typecheck"
 
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "h1-check"
+
 [[workflows.workflow]]
 name = "Start application"
 author = "agent"
@@ -69,6 +73,17 @@ author = "agent"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "npm run check"
+
+[workflows.workflow.metadata]
+isValidation = true
+
+[[workflows.workflow]]
+name = "h1-check"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npx tsx script/check-h1.ts"
 
 [workflows.workflow.metadata]
 isValidation = true
