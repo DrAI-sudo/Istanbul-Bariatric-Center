@@ -11,4 +11,10 @@ import "@fontsource/plus-jakarta-sans/latin-600.css";
 import "@fontsource/plus-jakarta-sans/latin-700.css";
 import "@fontsource/plus-jakarta-sans/latin-800.css";
 
+// The server injects a hidden #seo-content block (with the page's crawlable
+// <h1>) for no-JS crawlers. Once React renders, each page provides its own
+// visible <h1>, so remove the injected block to keep exactly one h1 in the
+// hydrated DOM.
+document.getElementById("seo-content")?.remove();
+
 createRoot(document.getElementById("root")!).render(<App />);
