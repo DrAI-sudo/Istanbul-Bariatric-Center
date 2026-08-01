@@ -1180,6 +1180,192 @@
     "heroSubtitle": "Complete su viaje de pérdida de peso con procedimientos de contorno corporal diseñados para eliminar el exceso de piel.",
     "desc": "Después de una pérdida de peso mayor, muchos pacientes quedan con exceso de piel. La cirugía post-bariátrica ayuda a remodelar y contornear el cuerpo."
   },
+  "sleeveVsBypassPage": {
+    "hero": {
+      "eyebrow": "Guía de Decisión",
+      "title": "Manga Gástrica vs Mini Bypass Gástrico",
+      "subtitle": "Las dos operaciones de pérdida de peso más realizadas del mundo, comparadas con honestidad — pérdida de peso, remisión de la diabetes, reflujo, riesgos y coste — para que pueda elegir la que se adapta a su cuerpo y a sus objetivos.",
+      "stats": [
+        {
+          "value": "60–70%",
+          "label": "Pérdida de peso excedente — manga"
+        },
+        {
+          "value": "70–80%",
+          "label": "Pérdida de peso excedente — bypass"
+        },
+        {
+          "value": "8,000+",
+          "label": "Procedimientos del Dr Ustun"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Manga vs Mini Bypass de un Vistazo",
+      "columns": [
+        "Factor",
+        "Manga Gástrica",
+        "Mini Bypass Gástrico"
+      ],
+      "rows": [
+        [
+          "Cómo funciona",
+          "Extirpa ~80% del estómago (restricción)",
+          "Pequeña cámara + reconducción intestinal (restricción + malabsorción)"
+        ],
+        [
+          "Pérdida de peso excedente",
+          "60–70% a los 2 años",
+          "70–80% a los 2 años"
+        ],
+        [
+          "Remisión de la diabetes tipo 2",
+          "60–70%",
+          "80–90%"
+        ],
+        [
+          "Efecto sobre el reflujo ácido",
+          "Puede empeorar (hasta 55% de ERGE a largo plazo)",
+          "Suele mejorar el reflujo"
+        ],
+        [
+          "Duración de la operación",
+          "~1 hora",
+          "~1,5 horas"
+        ],
+        [
+          "Estancia hospitalaria",
+          "2–3 noches",
+          "2–3 noches"
+        ],
+        [
+          "Suplementos de por vida",
+          "Multivitamínico recomendado",
+          "Multivitamínico + B12 y hierro esenciales"
+        ],
+        [
+          "Reversible",
+          "No (estómago extirpado)",
+          "Técnicamente sí, rara vez se hace"
+        ],
+        [
+          "Opciones de revisión posteriores",
+          "Conversión a bypass, DS o nueva manga",
+          "TORe (endoscópico) o revisión del asa"
+        ],
+        [
+          "Precio en IBC (todo incluido)",
+          "Desde £2,950",
+          "Desde £3,350"
+        ]
+      ],
+      "footnote": "Los rangos de resultados reflejan series internacionales publicadas y datos de casos de IBC; los resultados individuales varían."
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona Cada Operación",
+      "p1": "La <link1>manga gástrica</link1> extirpa alrededor del 80% del estómago, dejando un tubo estrecho. Se come mucho menos y, al retirar el fundus, se reduce drásticamente la grelina, la hormona del hambre. Por lo demás, la digestión continúa con normalidad — no se reconduce nada.",
+      "p2": "El <link1>mini bypass gástrico</link1> crea una pequeña cámara gástrica y la conecta directamente a un asa del intestino delgado, saltando aproximadamente 150–200 cm. Se come menos <em>y</em> se absorben menos calorías, y el cambio hormonal produce el efecto antidiabético más potente de cualquier procedimiento habitual.",
+      "cta": "Pregunte Cuál Me Conviene — Evaluación Gratuita"
+    },
+    "chooseSleeve": {
+      "title": "Elija la Manga Si…",
+      "items": [
+        "Desea la operación eficaz más sencilla, con una anatomía intestinal normal",
+        "Su IMC está entre 35 y 50 sin diabetes tipo 2 grave",
+        "No tiene <strong>reflujo ácido significativo</strong>",
+        "Toma medicamentos cuya absorción no debe cambiar (algunos fármacos psiquiátricos, de trasplante o para la artritis)",
+        "Prefiere mantener el bypass en reserva como posible segundo paso"
+      ]
+    },
+    "chooseBypass": {
+      "title": "Elija el Mini Bypass Si…",
+      "items": [
+        "Tiene <strong>diabetes tipo 2</strong> — las tasas de remisión alcanzan el 80–90%",
+        "Ya padece <strong>reflujo ácido / ERGE</strong>, que una manga puede empeorar",
+        "Su IMC es superior a 45–50, donde la pérdida de peso adicional importa más",
+        "Es aficionado a lo dulce o picotea — la malabsorción atenúa el efecto de los alimentos densos en calorías",
+        "Le resulta cómodo mantener suplementos disciplinados de por vida y análisis de sangre anuales"
+      ]
+    },
+    "expertPov": {
+      "title": "Cómo Decido Entre la Manga y el Mini Bypass",
+      "p1": "Después de 8,000 procedimientos, mi decisión rara vez empieza por el IMC — empieza con dos preguntas: <strong>¿tiene este paciente reflujo y tiene este paciente diabetes?</strong> Una respuesta afirmativa a cualquiera de ellas me inclina con firmeza hacia el bypass, porque he reoperado demasiadas mangas realizadas en otros centros en pacientes cuyo historial de reflujo se ignoró en la primera consulta.",
+      "p2": "Lo segundo que observo es el <strong>patrón alimentario</strong>, y pregunto por ello sin rodeos. Quien come por volumen — platos grandes, comidas rápidas — evoluciona de forma excelente con una manga, porque la restricción resuelve su verdadero problema. Quien picotea o es aficionado a lo dulce puede superar cualquier restricción; para ellos el componente malabsortivo del bypass no es un lujo, es el mecanismo que hace funcionar la operación.",
+      "p3": "Lo que les digo a los pacientes indecisos: la manga mantiene una puerta abierta — la conversión a bypass sigue disponible años después si alguna vez se necesita. El camino inverso no existe. Esa asimetría resuelve más casos límite en mi clínica que cualquier porcentaje de una tabla comparativa. Pero cuando desde el primer día hay reflujo o diabetes de larga evolución, elegir la manga para \"mantener las opciones abiertas\" es un ahorro falso — simplemente estaría reservando por adelantado la segunda operación."
+    },
+    "candidacy": {
+      "title": "¿Aún Indeciso? Qué Evaluamos",
+      "intro": "En su evaluación gratuita, el Dr Murat Ustun sopesa estos factores antes de recomendar una operación sobre la otra:",
+      "criteria": [
+        "IMC y distribución del peso",
+        "Síntomas de reflujo y hallazgos de endoscopias previas",
+        "Estado, duración y medicación de la diabetes tipo 2",
+        "Patrón alimentario — comedor por volumen vs aficionado a lo dulce/picoteador",
+        "Medicación actual que requiere una absorción predecible",
+        "Su propia preferencia tras entender ambas opciones"
+      ],
+      "note": "Alrededor del 60% de nuestros pacientes se benefician más de una manga y el 40% de un bypass — la clave es adaptar la operación al paciente, nunca una recomendación única para todos."
+    },
+    "surgeonProof": {
+      "title": "Un Cirujano, Ambas Operaciones, más de 8,000 Casos",
+      "subtitle": "Como el Dr Ustun realiza mangas, bypasses, revisiones y procedimientos endoscópicos en gran volumen, su recomendación se basa en su anatomía — no en lo que la clínica pueda ofrecer."
+    },
+    "faq": {
+      "title": "Manga vs Bypass — Sus Preguntas Respondidas",
+      "items": [
+        {
+          "question": "¿Qué es mejor: la manga gástrica o el mini bypass gástrico?",
+          "answer": "Ninguna es universalmente mejor — se adaptan a pacientes distintos. La manga es más sencilla, mantiene la anatomía intestinal normal y ofrece una pérdida del 60-70% del peso excedente. El mini bypass añade un componente malabsortivo, con una pérdida del 70-80% del peso excedente, mayor remisión de la diabetes tipo 2 y mejor control del reflujo — a cambio de suplementación vitamínica de por vida y una operación algo más compleja. La elección correcta depende de su IMC, su estado de reflujo, su diabetes y su patrón alimentario."
+        },
+        {
+          "question": "¿Cuál produce más pérdida de peso: la manga o el bypass?",
+          "answer": "El mini bypass gástrico suele producir más pérdida de peso total: alrededor del 70-80% del peso excedente a los 2 años frente al 60-70% de la manga. Para pacientes con IMC superior a 50 o diabetes tipo 2 grave, el efecto metabólico del bypass suele convertirlo en la opción más potente."
+        },
+        {
+          "question": "¿Cuál es más segura: la manga gástrica o el bypass?",
+          "answer": "Ambas son muy seguras en manos experimentadas, con tasas de complicaciones mayores del 1-3%. La manga es técnicamente más sencilla y no requiere unir el intestino, por lo que el riesgo quirúrgico inicial es marginalmente menor. El bypass conlleva pequeños riesgos a largo plazo de déficit nutricional y úlceras marginales, mientras que la manga conlleva un mayor riesgo a largo plazo de reflujo ácido (ERGE)."
+        },
+        {
+          "question": "¿Debo elegir el bypass si ya tengo reflujo ácido?",
+          "answer": "Normalmente sí. Una manga gástrica puede empeorar el reflujo existente — la ERGE afecta hasta al 55% de los pacientes de manga a largo plazo — mientras que el bypass desvía el ácido lejos del esófago y suele mejorar el reflujo. Una ERGE previa significativa es una de las razones más claras para preferir un bypass."
+        },
+        {
+          "question": "¿Se puede convertir una manga en bypass más adelante?",
+          "answer": "Sí. La conversión de manga a bypass es la operación de revisión más común del mundo, elegida habitualmente por reganancia de peso o reflujo tras una manga. Muchos pacientes empiezan con una manga sabiendo que el bypass sigue disponible como segundo paso si alguna vez se necesita."
+        },
+        {
+          "question": "¿Cuánto cuestan la manga y el bypass en Turquía?",
+          "answer": "En Istanbul Bariatric Center la manga gástrica cuesta desde £2,950 y el mini bypass gástrico desde £3,350, ambos todo incluido: hospital acreditado por JCI, honorarios de cirujano y anestesia, pruebas, traslados, hotel y 12 meses de seguimiento con dietista."
+        }
+      ]
+    },
+    "related": {
+      "title": "Su Próximo Paso",
+      "links": [
+        {
+          "title": "Manga Gástrica",
+          "description": "Guía completa del procedimiento — desde £2,950"
+        },
+        {
+          "title": "Mini Bypass Gástrico",
+          "description": "Guía completa del procedimiento — desde £3,350"
+        },
+        {
+          "title": "ESG vs Manga Gástrica",
+          "description": "¿Prefiere una vía no quirúrgica? Compare el ESG"
+        },
+        {
+          "title": "Guía de Precios",
+          "description": "Todos los precios de 2026 frente a RU, EE. UU. y la UE"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Reciba una Recomendación Personal en 24 Horas",
+      "text": "Envíe su altura, peso y estado de reflujo y diabetes por WhatsApp. El equipo del Dr Ustun le dirá qué operación se adapta a usted — gratis y sin compromiso.",
+      "button": "Obtener Mi Evaluación Gratuita"
+    }
+  },
   "guides": {
     "title": "Guías y comparativas",
     "sleeveVsBypass": {
@@ -1209,6 +1395,931 @@
     "travelGuide": {
       "title": "Guía de viaje",
       "description": "Planifique su viaje quirúrgico a Estambul"
+    }
+  },
+  "refluxPage": {
+    "hero": {
+      "eyebrow": "Guía de Resultados",
+      "title": "Reflujo Ácido Tras la Manga Gástrica: Qué Significa y Cómo Se Corrige",
+      "subtitle": "La ERGE es el compromiso a largo plazo más conocido de la manga — afecta hasta al 55% de los pacientes. La mayoría de los casos son manejables; algunos necesitan reparación; existe una cura definitiva. Aquí verá cómo saber en qué grupo se encuentra.",
+      "stats": [
+        {
+          "value": "55%",
+          "label": "Pacientes de manga con ERGE a largo plazo"
+        },
+        {
+          "value": "~90%",
+          "label": "Resueltos con conversión a bypass"
+        },
+        {
+          "value": "1er paso",
+          "label": "Endoscopia, no más antiácidos"
+        }
+      ]
+    },
+    "whyReflux": {
+      "title": "Por Qué la Manga Causa Reflujo",
+      "p1": "Una manga convierte el estómago de una bolsa de baja presión en un tubo estrecho de alta presión, y la cirugía altera el ángulo y la anatomía valvular de la parte superior del estómago. Añada una hernia de hiato — presente en muchos pacientes con obesidad y que a veces se desarrolla tras la cirugía — y el ácido se empuja hacia arriba, especialmente de noche.",
+      "p2": "Este es un problema <strong>mecánico</strong>. Y eso importa, porque los problemas mecánicos no responden indefinidamente a soluciones químicas: los IBP reducen el ardor del ácido, pero no hacen nada con la presión ni con la válvula, y el reflujo no ácido puede seguir dañando el esófago de forma silenciosa.",
+      "cta": "Pregunte por Mi Reflujo — Gratis"
+    },
+    "redFlags": {
+      "title": "Señales de Alerta — Evalúese Si…",
+      "intro": "Consulte a un especialista bariátrico (no solo la renovación de una receta del médico de cabecera) si aplica alguna de estas:",
+      "criteria": [
+        "Necesita IBP a diario más allá del primer año tras la cirugía",
+        "El reflujo le despierta por la noche o duerme incorporado",
+        "La comida o el líquido regurgita al agacharse o tumbarse",
+        "Los síntomas empeoran en lugar de mantenerse estables",
+        "También tiene reganancia de peso junto con el reflujo",
+        "Tiene dificultad para tragar o la comida se le atasca — consulte a un médico sin demora"
+      ],
+      "note": "El reflujo de larga evolución puede causar esófago de Barrett, un cambio precanceroso que es silencioso mientras las pastillas enmascaran los síntomas. Una endoscopia única determina si su esófago está a salvo."
+    },
+    "ladder": {
+      "title": "Escalera de Tratamiento: De las Pastillas a la Cura",
+      "columns": [
+        "Paso",
+        "En Qué Consiste",
+        "Ideal Para",
+        "Limitación"
+      ],
+      "rows": [
+        [
+          "Estilo de vida + medicación con IBP",
+          "Cenas más ligeras, elevación, IBP a diario",
+          "Reflujo leve, primera línea para todos",
+          "Controla los síntomas; no corrige nada mecánico"
+        ],
+        [
+          "Endoscopia diagnóstica",
+          "Evaluación con cámara de la manga, la válvula y el esófago",
+          "Cualquiera con IBP durante más de 12 meses o con señales de alerta",
+          "Diagnóstica — orienta la solución"
+        ],
+        [
+          "Reparación de hernia de hiato",
+          "Reparación laparoscópica de la abertura del diafragma",
+          "Hernia confirmada con la forma de la manga preservada",
+          "No ayuda si el problema es la propia manga"
+        ],
+        [
+          "Conversión a mini bypass gástrico",
+          "Manga convertida en bypass — ácido desviado más abajo",
+          "ERGE persistente, especialmente con reganancia de peso",
+          "Una segunda operación — 2–3 noches en el hospital"
+        ]
+      ],
+      "footnote": "Aproximadamente el 90% de los pacientes convertidos a bypass por ERGE dejan los IBP o los reducen drásticamente."
+    },
+    "definitiveFix": {
+      "title": "La Solución Definitiva: Conversión de Manga a Bypass",
+      "p1": "Cuando el reflujo persiste a pesar de la medicación — o cuando simplemente está cansado de tomar pastillas cada día para un problema mecánico — convertir la manga en un <link1>mini bypass gástrico</link1> es la respuesta definitiva. La pequeña cámara produce poco ácido, y lo que queda se dirige metro y medio más abajo. Es la misma operación que se utiliza para la <link2>reganancia de peso tras la manga</link2>, por lo que la combinación de ERGE + reganancia apunta con tanta fuerza hacia la conversión.",
+      "p2": "En Istanbul Bariatric Center cada conversión comienza con una endoscopia diagnóstica y, cuando es necesario, la reparación simultánea de la hernia de hiato — consulte la <link1>guía completa de cirugía de revisión</link1> para conocer el proceso y los precios."
+    },
+    "surgeonProof": {
+      "title": "La Revisión por Reflujo Es un Trabajo de Precisión",
+      "subtitle": "La conversión por ERGE exige un diagnóstico endoscópico preciso y un cirujano de revisión experimentado — la combinación exacta que proporciona un centro de gran volumen."
+    },
+    "faq": {
+      "title": "Reflujo Tras la Manga — Sus Preguntas Respondidas",
+      "items": [
+        {
+          "question": "¿Por qué aparece reflujo ácido tras una manga gástrica?",
+          "answer": "La manga convierte el estómago en un tubo estrecho de alta presión y elimina parte del mecanismo valvular antirreflujo natural. El ácido tiene menos espacio y más presión que lo empuja hacia el esófago. Los estudios muestran que la ERGE afecta hasta al 55% de los pacientes de manga a largo plazo, y alrededor del 10% desarrollan un reflujo lo bastante grave como para necesitar intervención."
+        },
+        {
+          "question": "¿Desaparecerá por sí solo el reflujo tras mi manga?",
+          "answer": "El reflujo leve de los primeros meses a menudo se calma a medida que se resuelve la inflamación y baja el peso. El reflujo que persiste más allá de un año, empeora con el tiempo o le despierta por la noche normalmente no se resuelve solo — y el reflujo no tratado de larga evolución puede dañar el esófago (esófago de Barrett), por lo que necesita evaluación, no solo más antiácidos."
+        },
+        {
+          "question": "¿Cuáles son las opciones de tratamiento del reflujo tras una manga?",
+          "answer": "En orden de escalada: (1) medidas de estilo de vida y medicación con IBP (familia del omeprazol), (2) evaluación endoscópica para comprobar si hay hernia de hiato o deformidad de la manga, (3) reparación de la hernia de hiato si se encuentra una, y (4) conversión a un mini bypass gástrico — la solución definitiva, porque desvía el ácido lejos del esófago por completo. La conversión a bypass resuelve o mejora drásticamente el reflujo en alrededor del 90% de los casos."
+        },
+        {
+          "question": "¿Es seguro tomar IBP (omeprazol) durante años?",
+          "answer": "Los IBP son generalmente seguros bajo supervisión médica, pero necesitarlos a diario durante años tras una manga es una señal que merece investigarse — tanto por posibles efectos a largo plazo (absorción de nutrientes, densidad ósea) como porque la exposición continua al ácido puede dañar el esófago de forma silenciosa aun cuando las pastillas controlen el ardor."
+        },
+        {
+          "question": "¿Convertir una manga en bypass realmente cura el reflujo?",
+          "answer": "Es la solución más fiable disponible. El bypass crea una pequeña cámara que produce poco ácido y dirige la bilis y el ácido mucho más abajo, de modo que simplemente hay mucho menos que refluir. Alrededor del 90% de los pacientes convertidos por ERGE dejan sus IBP o los reducen drásticamente. La conversión también aborda cualquier reganancia de peso al mismo tiempo."
+        },
+        {
+          "question": "Tengo tanto reflujo como reganancia de peso — ¿cuál trato?",
+          "answer": "Ambos, normalmente con un solo procedimiento. La conversión de manga a bypass está especialmente indicada para esta combinación — es la respuesta estándar cuando la reganancia y la ERGE aparecen juntas, resolviendo la exposición al ácido a la vez que reinicia la pérdida de peso. Este es uno de los escenarios de revisión más comunes que tratamos."
+        }
+      ]
+    },
+    "related": {
+      "title": "A Dónde Ir Desde Aquí",
+      "links": [
+        {
+          "title": "Centro de Cirugía de Revisión",
+          "description": "Proceso de evaluación, vías y precios"
+        },
+        {
+          "title": "Mini Bypass Gástrico",
+          "description": "La conversión que cura el reflujo"
+        },
+        {
+          "title": "Reganancia de Peso Tras la Manga",
+          "description": "Si la reganancia vino con el ardor"
+        },
+        {
+          "title": "Manga vs Bypass",
+          "description": "¿Eligiendo su primera operación? Lea esto"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Deje de Adivinar — Reciba una Revisión Gratuita de Su Reflujo",
+      "text": "Díganos cuándo se hizo la manga, qué medicación toma y cuáles son sus síntomas. El equipo del Dr Ustun le dirá si necesita tranquilidad, una reparación o una conversión — en 24 horas.",
+      "button": "Obtener Mi Revisión Gratuita de Reflujo"
+    }
+  },
+  "travelGuidePage": {
+    "hero": {
+      "eyebrow": "Guía de Viaje y Logística",
+      "title": "Su Viaje a Estambul, Día a Día",
+      "subtitle": "Desde el momento en que aterriza hasta el momento en que llega a casa — cada traslado, prueba, noche de hospital y estancia de hotel, planificados para usted. Así es exactamente su semana.",
+      "stats": [
+        {
+          "value": "4–6",
+          "label": "Noches en Estambul (cirugía)"
+        },
+        {
+          "value": "2–3",
+          "label": "Noches para ESG / balón"
+        },
+        {
+          "value": "24/7",
+          "label": "Acceso al equipo por WhatsApp"
+        }
+      ]
+    },
+    "facts": {
+      "title": "Logística del Viaje de un Vistazo",
+      "items": [
+        {
+          "label": "Recogida en aeropuerto",
+          "value": "VIP, incluida"
+        },
+        {
+          "label": "Hotel",
+          "value": "Radisson, incluido"
+        },
+        {
+          "label": "Acompañante",
+          "value": "Se aloja gratis"
+        },
+        {
+          "label": "Traductor",
+          "value": "Disponible en todo momento"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "El Cronograma Día a Día (Manga y Bypass)",
+      "steps": [
+        "<strong>Día 1 — Llegada y pruebas.</strong> Un conductor VIP le recibe en el Aeropuerto de Estambul y le lleva al hospital. Los análisis de sangre, el ECG, la radiografía de tórax, la ecografía abdominal, la valoración anestésica y su consulta con el Dr Ustun se realizan todos la misma tarde. Duerme en el hotel (o en el hospital si la cirugía es a primera hora del día siguiente).",
+        "<strong>Día 2 — Día de la cirugía.</strong> La operación dura alrededor de una hora. Despierta en su habitación privada; el personal de enfermería le pone a caminar por el pasillo esa misma tarde — lo mejor que puede hacer para su recuperación.",
+        "<strong>Días 3–4 — Recuperación en el hospital.</strong> Prueba de fugas, transición a líquidos claros, visitas diarias del Dr Ustun y del dietista. La mayoría de los pacientes describen molestias, no dolor — controladas con medicación habitual.",
+        "<strong>Días 4–5 — Recuperación en el hotel.</strong> Alta al Radisson con su paquete de medicación. Caminará distancias cortas, tomará líquidos a intervalos programados, y el equipo se pone en contacto a diario.",
+        "<strong>Día 5–6 — Revisión final y vuelo de vuelta a casa.</strong> Revisión de cierre, su protocolo y suplementos para llevar a casa, y luego un traslado al aeropuerto. Un asiento de pasillo y caminatas regulares durante el vuelo son todo lo que necesita."
+      ],
+      "p1": "¿Se hace un <esgLink>ESG</esgLink> o un <balloonLink>balón gástrico</balloonLink> en su lugar? Su versión es más corta: procedimiento el día 1–2, alta el mismo día o a la mañana siguiente, vuelo de vuelta a casa a partir del día 2–3.",
+      "cta": "Obtener Mi Plan de Viaje Personal"
+    },
+    "packing": {
+      "title": "Lista de Equipaje — Lo Que los Pacientes Desearían Haber Traído",
+      "items": [
+        "Pasaporte válido 150+ días (los ciudadanos del RU no necesitan visado)",
+        "Ropa holgada, de apertura frontal, y zapatos sin cordones",
+        "Medicación habitual en su envase original",
+        "Una almohada pequeña — abrazarla alivia el vuelo de vuelta a casa",
+        "Bálsamo labial y artículos de aseo de tamaño de viaje",
+        "Entretenimiento para los ratos libres en el hospital (¡cargador + cable largo!)",
+        "Una botella de agua vacía para beber a sorbos según lo programado",
+        "Expectativas realistas: esto es recuperación, no turismo"
+      ]
+    },
+    "flyingHome": {
+      "title": "Volver a Casa con Seguridad: Las Reglas para Volver a Volar",
+      "intro": "Viajar en avión tras la cirugía bariátrica es seguro cuando se programa correctamente. Nuestras autorizaciones estándar:",
+      "rules": [
+        "<strong>Manga / bypass / revisión:</strong> vuele a partir del día 4–6, tras su revisión quirúrgica final",
+        "<strong>ESG:</strong> vuele a partir del día 2–3",
+        "<strong>Balón gástrico:</strong> vuele a partir del día 1–2"
+      ],
+      "outro": "En el vuelo: elija un asiento de pasillo, camine cada 45–60 minutos, beba líquidos a sorbos constantemente y use las medias de compresión que le proporcionamos — prevención estándar de coágulos tras cualquier operación. A los pacientes de largo recorrido (EE. UU., Australia) se les puede aconsejar quedarse una noche adicional; lo planificamos con usted antes de que reserve los vuelos."
+    },
+    "companion": {
+      "title": "Venir Solo vs Traer un Acompañante",
+      "p1": "Aproximadamente la mitad de nuestros pacientes internacionales viajan solos — el paquete está diseñado para ello, con todos los traslados organizados, personal que habla inglés, un traductor en cada paso médico y contactos diarios en el hotel. Si trae un acompañante, se aloja gratis en su habitación de hotel, puede pernoctar en el hospital, y Estambul le ofrece mucho que hacer durante su día de procedimiento. En cualquier caso, nunca se le deja resolver nada por su cuenta en una ciudad extranjera."
+    },
+    "surgeonProof": {
+      "title": "La Logística Forma Parte de la Seguridad",
+      "subtitle": "Los traslados sin contratiempos y los días de recuperación estructurados no son un lujo — son la forma en que las complicaciones se detectan pronto y las recuperaciones siguen su curso."
+    },
+    "faq": {
+      "title": "Viaje — Sus Preguntas Respondidas",
+      "items": [
+        {
+          "question": "¿Cuánto tiempo después de la cirugía bariátrica puedo volar de vuelta a casa?",
+          "answer": "Para los pacientes de manga y bypass, volar 4-6 días después de la cirugía es seguro y habitual — habrá pasado 2-3 noches monitorizadas en el hospital y 1-2 noches de recuperación en el hotel, con una revisión quirúrgica final antes de la salida. Los pacientes de ESG y balón suelen poder volar en 2-3 días. Programamos la fecha de su vuelo de regreso con usted antes de que lo reserve."
+        },
+        {
+          "question": "¿Debería traer a alguien conmigo?",
+          "answer": "No tiene por qué — muchos pacientes viajan solos y nuestros coordinadores, conductores y personal de enfermería se ocupan de todo — pero un acompañante hace el viaje más cómodo. Los acompañantes se alojan gratis en su habitación de hotel en nuestros paquetes, y las habitaciones del hospital admiten un huésped para pernoctar. Si viene solo, nuestro equipo se pone en contacto con usted a diario en el hotel."
+        },
+        {
+          "question": "¿Qué ocurre cuando aterrizo en el Aeropuerto de Estambul?",
+          "answer": "Un conductor VIP le recibe en llegadas con su nombre, toma su equipaje y le lleva directamente al hotel o al hospital según su calendario. Todos los traslados — aeropuerto, hotel, hospital y de vuelta — están incluidos, por lo que nunca necesita un taxi ni el transporte público."
+        },
+        {
+          "question": "¿Qué debo llevar para una cirugía bariátrica en el extranjero?",
+          "answer": "Lo esencial: pasaporte (válido 150+ días), ropa holgada y cómoda, zapatos sin cordones, bálsamo labial, cualquier medicación habitual en su envase original, una almohada pequeña para el vuelo de vuelta a casa (abrazarla alivia la tos y la presión del cinturón de seguridad) y una botella de agua vacía para beber a sorbos. Le enviamos una lista de equipaje completa cuando reserva."
+        },
+        {
+          "question": "¿Es Estambul seguro para el turismo médico?",
+          "answer": "Estambul recibe más de un millón de viajeros médicos internacionales cada año, y los distritos alrededor del Hospital Liv son modernos, seguros y están acostumbrados a los pacientes internacionales. Estará acompañado por nuestros conductores y coordinadores en cada desplazamiento programado, y el equipo está disponible por WhatsApp 24/7 durante toda su estancia."
+        },
+        {
+          "question": "¿Qué pasa si tengo un problema después de volar de vuelta a casa?",
+          "answer": "Mantiene acceso directo por WhatsApp al equipo clínico — envíe un mensaje o fotos en cualquier momento y recibirá respuesta el mismo día. Los paquetes Relajación y Lujo incluyen 12 meses de seguimiento con dietista registrado en RU, y los pacientes del RU disponen de apoyo asistencial presencial en 8 ubicaciones. Para cualquier urgencia, coordinamos con los servicios locales y su médico de cabecera."
+        }
+      ]
+    },
+    "related": {
+      "title": "Planifique Su Procedimiento",
+      "links": [
+        {
+          "title": "Guía para Pacientes del RU",
+          "description": "Precios fijos en GBP y seguimiento en el RU en 8 ubicaciones"
+        },
+        {
+          "title": "Guía de Precios",
+          "description": "Precios todo incluido de 2026 frente a RU, EE. UU. y la UE"
+        },
+        {
+          "title": "Manga Gástrica",
+          "description": "El procedimiento más elegido — desde £2,950"
+        },
+        {
+          "title": "ESG (No Quirúrgico)",
+          "description": "El viaje más corto: 2–3 días — desde £4,950"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Obtenga Su Plan de Viaje Personal",
+      "text": "Díganos el procedimiento que le interesa y sus fechas preferidas por WhatsApp — recibirá un plan día a día, orientación sobre vuelos y un presupuesto fijo todo incluido en 24 horas.",
+      "button": "Planificar Mi Viaje Gratis"
+    }
+  },
+  "esgVsSleevePage": {
+    "hero": {
+      "eyebrow": "Guía de Decisión",
+      "title": "ESG vs Manga Gástrica: ¿Cuál Debería Elegir?",
+      "subtitle": "Uno es un procedimiento endoscópico sin cicatrices con alta el mismo día; el otro es la operación de pérdida de peso más realizada del mundo. Aquí está la comparación honesta — incluyendo cuándo desaconsejamos cada una.",
+      "stats": [
+        {
+          "value": "15–20%",
+          "label": "Pérdida de peso total — ESG"
+        },
+        {
+          "value": "25–30%",
+          "label": "Pérdida de peso total — manga"
+        },
+        {
+          "value": "0",
+          "label": "Incisiones con ESG"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "ESG vs Manga Quirúrgica de un Vistazo",
+      "columns": [
+        "Factor",
+        "ESG (Endoscópico)",
+        "Manga Gástrica (Quirúrgica)"
+      ],
+      "rows": [
+        [
+          "Técnica",
+          "Estómago suturado más pequeño desde dentro — sin cortes",
+          "~80% del estómago extirpado quirúrgicamente"
+        ],
+        [
+          "Pérdida de peso corporal total",
+          "15–20%",
+          "25–30%"
+        ],
+        [
+          "Anestesia y duración",
+          "General, 60–90 min",
+          "General, ~60 min"
+        ],
+        [
+          "Estancia hospitalaria",
+          "El mismo día o 1 noche",
+          "2–3 noches"
+        ],
+        [
+          "Vuelta al trabajo",
+          "3–5 días",
+          "10–14 días"
+        ],
+        [
+          "Cicatrices",
+          "Ninguna",
+          "5 pequeñas cicatrices de laparoscopia"
+        ],
+        [
+          "Reversible / ajustable",
+          "En gran medida — se puede volver a ajustar",
+          "No — permanente"
+        ],
+        [
+          "Efecto sobre el reflujo",
+          "Suele mejorar",
+          "Puede empeorar (hasta 55% de ERGE)"
+        ],
+        [
+          "Mejor rango de IMC",
+          "30–40 (ESG-Max hasta ~45)",
+          "35–55+"
+        ],
+        [
+          "Precio en IBC (todo incluido)",
+          "Desde £4,950",
+          "Desde £2,950"
+        ]
+      ]
+    },
+    "tradeOff": {
+      "title": "El Compromiso Fundamental",
+      "p1": "La decisión se reduce a <strong>potencia de pérdida de peso frente a invasividad</strong>. La <sleeveLink>manga quirúrgica</sleeveLink> extirpa tejido gástrico de forma permanente, produce aproximadamente un tercio más de pérdida de peso y sigue siendo la referencia para un IMC superior a 40. El <esgLink>ESG</esgLink> logra una pérdida del 15–20% del peso corporal total sin incisiones, sin órgano extirpado, con una recuperación de 3–5 días y un perfil de seguridad más cercano al de una endoscopia diagnóstica que al de una operación.",
+      "p2": "Y lo que es crucial, el ESG <strong>mantiene abiertas todas las opciones futuras</strong>: si cambian sus objetivos de pérdida de peso, un ESG puede convertirse posteriormente en una manga o un bypass quirúrgico. Una manga quirúrgica no se puede deshacer.",
+      "cta": "¿Cuál Me Conviene? Pregunte Gratis"
+    },
+    "chooseEsg": {
+      "title": "Elija el ESG Si…",
+      "items": [
+        "Su IMC está entre 30 y 40 y desea una pérdida de peso significativa y duradera sin cirugía",
+        "Tiene reflujo ácido — el ESG suele mejorarlo, una manga puede empeorarlo",
+        "Solo puede ausentarse 3–5 días del trabajo o la familia",
+        "No quiere cicatrices ni cambios anatómicos permanentes",
+        "No es apto para cirugía, o la idea de operarse es lo que le ha impedido actuar"
+      ]
+    },
+    "chooseSleeve": {
+      "title": "Elija la Manga Quirúrgica Si…",
+      "items": [
+        "Su IMC es superior a 40–45, donde la pérdida de peso adicional de la cirugía cambia los resultados de salud",
+        "Tiene diabetes tipo 2 significativa — el efecto metabólico de la cirugía es más fuerte",
+        "Quiere el resultado máximo y más estudiado a largo plazo en un solo procedimiento",
+        "El presupuesto importa — el paquete de la manga cuesta £2,000 menos que el ESG"
+      ]
+    },
+    "candidacy": {
+      "title": "Autoevaluación Rápida",
+      "intro": "El ESG es probablemente su mejor punto de partida si la mayoría de estos puntos aplican:",
+      "criteria": [
+        "IMC entre 30 y 40",
+        "Reflujo o ardor de estómago ya presentes",
+        "Fuerte preferencia por evitar la cirugía y las cicatrices",
+        "Necesidad de volver al trabajo en una semana",
+        "Le basta con una pérdida del 15–20% del peso corporal total como objetivo"
+      ],
+      "note": "Si su IMC supera 45, o el control de la diabetes es la prioridad, lea nuestra <bypassLink>comparación manga vs bypass</bypassLink> en su lugar — esa es probablemente su verdadera decisión."
+    },
+    "surgeonProof": {
+      "title": "Experiencia en Ambos — Por Eso el Consejo Es Neutral",
+      "subtitle": "El Dr Ustun realiza más de 2,000 procedimientos endoscópicos junto con mangas y bypasses quirúrgicos. Cuando recomendamos uno sobre otro, es porque se adapta a usted — no porque sea la única herramienta que tenemos."
+    },
+    "faq": {
+      "title": "ESG vs Manga — Sus Preguntas Respondidas",
+      "items": [
+        {
+          "question": "¿Es el ESG tan eficaz como una manga gástrica?",
+          "answer": "La manga quirúrgica produce más pérdida de peso: 60-70% del peso excedente frente al 45-60% del ESG (15-20% del peso corporal total). Pero el ESG no requiere incisiones, no extirpa estómago, tiene una recuperación más rápida y es en gran medida reversible. Para un IMC de 30-40, los resultados del ESG suelen ser suficientes; por encima de un IMC de 40-45, la manga quirúrgica suele ser la opción más potente."
+        },
+        {
+          "question": "¿Cuál es la principal diferencia entre el ESG y la manga gástrica?",
+          "answer": "La manga gástrica extirpa quirúrgicamente alrededor del 80% del estómago mediante incisiones de laparoscopia. El ESG (Gastroplastia Endoscópica en Manga) reconfigura el estómago en forma de manga desde dentro usando suturas colocadas a través de un endoscopio introducido por la garganta — sin cortes, sin estómago extirpado y normalmente con alta el mismo día."
+        },
+        {
+          "question": "¿Cuál es más seguro: el ESG o la manga gástrica?",
+          "answer": "El ESG tiene el perfil de riesgo más bajo: eventos adversos graves por debajo del 2%, sin línea de grapas, sin riesgo de fuga y sin cambio anatómico permanente. La manga quirúrgica también es muy segura (1-3% de complicaciones mayores), pero es irreversible y conlleva un riesgo de reflujo a largo plazo de hasta el 55%. El ESG suele mejorar el reflujo en lugar de empeorarlo."
+        },
+        {
+          "question": "¿El ESG dura, o el estómago se vuelve a estirar?",
+          "answer": "Los datos del ensayo aleatorizado MERIT muestran resultados duraderos: a los 5 años, más del 80% de los pacientes de ESG mantienen al menos un 10% de pérdida de peso corporal total. Las suturas crean una cicatrización permanente que mantiene la forma de manga. Si es necesario, el ESG puede reajustarse endoscópicamente más adelante — o convertirse en una manga o bypass quirúrgico."
+        },
+        {
+          "question": "¿Puedo hacerme un ESG si mi IMC supera 40?",
+          "answer": "Sí — el ESG-Max, con suturas de refuerzo adicionales, amplía la eficacia a rangos de IMC más altos, y el ESG es una opción válida para pacientes no aptos o que no desean operarse. No obstante, para un IMC superior a 45, la manga o el bypass quirúrgico generalmente producen resultados a largo plazo sustancialmente mejores."
+        },
+        {
+          "question": "¿Cómo se comparan los costes en Turquía?",
+          "answer": "En Istanbul Bariatric Center la manga quirúrgica cuesta desde £2,950 y el ESG desde £4,950, ambos todo incluido. El ESG cuesta más por el dispositivo Apollo OverStitch, pero evita la cirugía, las cicatrices y una estancia hospitalaria de más de una noche."
+        }
+      ]
+    },
+    "related": {
+      "title": "Su Próximo Paso",
+      "links": [
+        {
+          "title": "ESG en Detalle",
+          "description": "Apollo ESG y ESG-Max — desde £4,950"
+        },
+        {
+          "title": "Manga Gástrica en Detalle",
+          "description": "Guía completa — desde £2,950"
+        },
+        {
+          "title": "Balón vs Manga",
+          "description": "¿También está considerando el balón gástrico?"
+        },
+        {
+          "title": "Guía de Precios",
+          "description": "Todos los precios de 2026 frente a RU, EE. UU. y la UE"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "¿Indeciso? Obtenga una Opinión Experta Gratuita",
+      "text": "Envíe su altura, peso y objetivos por WhatsApp — nuestro equipo clínico le dirá con honestidad si el ESG o la manga quirúrgica se adapta a su caso, en 24 horas.",
+      "button": "Consultar al Equipo Clínico"
+    }
+  },
+  "longTermResultsPage": {
+    "hero": {
+      "eyebrow": "Guía de Evidencia",
+      "title": "Resultados a Largo Plazo de la Cirugía Bariátrica: Qué Ocurre Realmente a los 5, 10 y 20 Años",
+      "subtitle": "Las cifras honestas — pérdida de peso sostenida, remisión de la diabetes, mayor esperanza de vida y las estadísticas de reganancia que la mayoría de las clínicas no le muestran.",
+      "stats": [
+        {
+          "value": "20–30%",
+          "label": "Peso corporal aún perdido a los 10 años"
+        },
+        {
+          "value": "30–50%",
+          "label": "Menor mortalidad a largo plazo"
+        },
+        {
+          "value": "80–90%",
+          "label": "Remisión de la diabetes (bypass)"
+        }
+      ]
+    },
+    "facts": {
+      "title": "El Largo Plazo, en Cifras",
+      "items": [
+        {
+          "label": "Peso excedente perdido a los 10 años (manga)",
+          "value": "50–60%"
+        },
+        {
+          "label": "Peso excedente perdido a los 10 años (bypass)",
+          "value": "55–65%"
+        },
+        {
+          "label": "ESG con ≥10% de pérdida mantenida a los 5 años",
+          "value": ">80%"
+        },
+        {
+          "label": "Remisión de la diabetes sostenida >10 años",
+          "value": "~50%"
+        }
+      ]
+    },
+    "studies": {
+      "title": "Qué Muestran los Estudios de Referencia",
+      "intro": "La cirugía bariátrica es una de las intervenciones más estudiadas de la medicina. El estudio Swedish Obese Subjects (SOS) ha seguido a miles de pacientes durante más de 20 años; junto con grandes registros nacionales, muestra un panorama coherente:",
+      "points": [
+        "<strong>Peso:</strong> los pacientes quirúrgicos mantienen una pérdida del 20–30% del peso corporal total a los 10 años, frente a aproximadamente el 1–2% del cuidado intensivo no quirúrgico.",
+        "<strong>Supervivencia:</strong> la mortalidad por cualquier causa cae un 30–50%, con las mayores reducciones en muertes cardiovasculares y cánceres relacionados con la obesidad.",
+        "<strong>Diabetes:</strong> remisión en la mayoría de los pacientes, con cerca de la mitad de las remisiones aún vigentes más allá de los 10 años — y mejor control incluso cuando reaparece.",
+        "<strong>Calidad de vida:</strong> mejoras sostenidas en movilidad, apnea del sueño, dolor articular, fertilidad y puntuaciones de depresión en cada punto de seguimiento a largo plazo."
+      ],
+      "cta": "Pregunte Qué Podría Esperar"
+    },
+    "comparison": {
+      "title": "Durabilidad por Procedimiento",
+      "columns": [
+        "Procedimiento",
+        "Pérdida de Peso Total (pico)",
+        "Mantenida a los 10 Años",
+        "Consideración Clave a Largo Plazo"
+      ],
+      "rows": [
+        [
+          "Manga Gástrica",
+          "25–30%",
+          "20–25%",
+          "ERGE en hasta un 55%; reganancia en ~30% al 5.º año"
+        ],
+        [
+          "Mini Bypass Gástrico",
+          "30–35%",
+          "25–30%",
+          "Suplementos de por vida; el mayor efecto sobre la diabetes"
+        ],
+        [
+          "ESG (Endoscópico)",
+          "15–20%",
+          ">80% mantiene ≥10% a los 5 años",
+          "Reajustable; la cirugía sigue disponible"
+        ],
+        [
+          "Balón Gástrico",
+          "10–15%",
+          "Depende de los hábitos tras la retirada",
+          "Una herramienta de impulso, no un tratamiento a largo plazo"
+        ]
+      ],
+      "footnote": "Rangos de series publicadas a largo plazo, incluidos SOS, MERIT y datos de registros nacionales; los resultados individuales varían."
+    },
+    "regain": {
+      "title": "La Parte Honesta: La Reganancia Ocurre — y Es Tratable",
+      "p1": "Un rebote moderado desde su peso más bajo es biología normal, no un fracaso — los promedios a largo plazo anteriores ya lo incluyen. Lo que importa es la minoría que recupera peso de forma significativa: hasta el 30% de los pacientes de manga en cinco años. La diferencia entre un revés temporal y un resultado perdido está en <strong>actuar pronto</strong> — los programas de reinicio, la medicación GLP-1, el reajuste endoscópico y la conversión quirúrgica forman una escalera de tratamiento completa. La trazamos en la <link1>guía de reganancia de peso</link1>."
+    },
+    "checklist": {
+      "title": "Qué Protege Su Resultado Durante Décadas",
+      "items": [
+        "Análisis de sangre anuales — B12, vitamina D, hierro, folato, calcio",
+        "Multivitamínico diario (de por vida tras un bypass)",
+        "Comer priorizando la proteína y limitar las calorías líquidas",
+        "Responder a 5 kg de reganancia, no a 25 kg",
+        "Un equipo quirúrgico al que aún pueda acudir en el año 7 — no solo en el año 1"
+      ]
+    },
+    "surgeonProof": {
+      "title": "Datos de Resultados Que Puede Cuestionar",
+      "subtitle": "Pida a cualquier clínica sus cifras a largo plazo antes de reservar. Las nuestras: más de 8,000 procedimientos, los rangos de resultados publicados arriba y pacientes de 2015 que siguen en contacto por WhatsApp."
+    },
+    "faq": {
+      "title": "Resultados a Largo Plazo — Sus Preguntas Respondidas",
+      "items": [
+        {
+          "question": "¿Cuánto peso mantienen las personas 10 años después de la cirugía bariátrica?",
+          "answer": "Los estudios a largo plazo (incluido el emblemático estudio SOS que sigue a los pacientes durante más de 20 años) muestran que los pacientes de cirugía bariátrica mantienen una pérdida del 20-30% del peso corporal total a los 10 años, frente a casi nada en el tratamiento no quirúrgico. Los pacientes de manga suelen mantener perdido el 50-60% del peso excedente a los 10 años, y los de bypass el 55-65%."
+        },
+        {
+          "question": "¿Realmente la cirugía bariátrica hace que se viva más tiempo?",
+          "answer": "Sí — este es uno de los hallazgos más sólidos de la cirugía moderna. Grandes estudios de cohortes muestran una mortalidad por cualquier causa un 30-50% menor a lo largo de más de 10 años en pacientes quirúrgicos frente a controles equiparables, impulsada por menos muertes cardiovasculares, complicaciones de la diabetes y cánceres relacionados con la obesidad."
+        },
+        {
+          "question": "¿Qué ocurre con la diabetes tipo 2 a largo plazo tras la cirugía?",
+          "answer": "La remisión es común y a menudo duradera: aproximadamente un 60-70% de remisión tras la manga y un 80-90% tras el bypass a los 1-2 años, con alrededor de la mitad de las remisiones sostenidas más allá de los 10 años. Incluso los pacientes cuya diabetes acaba por reaparecer suelen necesitar menos medicación y tienen mejor control que antes de la cirugía."
+        },
+        {
+          "question": "¿Es inevitable cierta reganancia de peso tras la cirugía?",
+          "answer": "Una reganancia moderada desde el punto más bajo (normalmente un 5-10% del peso corporal entre los años 2 y 5) es fisiológicamente normal y está contemplada en los resultados a largo plazo anteriores. La reganancia significativa — más del 25% del peso perdido — afecta hasta al 30% de los pacientes de manga en 5 años y es tratable; consulte nuestra guía de reganancia de peso."
+        },
+        {
+          "question": "¿Qué seguimiento a largo plazo necesita la cirugía bariátrica?",
+          "answer": "Análisis de sangre anuales (vitaminas B12, D, hierro, folato, calcio), uso constante de multivitamínico — de por vida tras un bypass — y acceso a un dietista cuando la alimentación se desvía. Istanbul Bariatric Center incluye 12 meses de seguimiento estructurado y permanece disponible por WhatsApp de por vida."
+        },
+        {
+          "question": "¿Cómo se comparan los resultados a largo plazo del ESG con la cirugía?",
+          "answer": "Los datos del ESG a 5 años (ensayo aleatorizado MERIT) muestran que más del 80% de los pacientes mantienen al menos un 10% de pérdida de peso corporal total — duradero, pero menos que el 20-30% de la cirugía. El ESG es adecuado para rangos de IMC más bajos; la cirugía sigue siendo la referencia para un IMC superior a 40 o una enfermedad metabólica significativa."
+        }
+      ]
+    },
+    "related": {
+      "title": "A Dónde Ir Desde Aquí",
+      "links": [
+        {
+          "title": "Manga vs Bypass",
+          "description": "Elija el procedimiento con la durabilidad que necesita"
+        },
+        {
+          "title": "Reganancia de Peso Tras la Manga",
+          "description": "La escalera de tratamiento completa de la reganancia"
+        },
+        {
+          "title": "Cirugía de Revisión",
+          "description": "Cuando la primera operación necesita un segundo paso"
+        },
+        {
+          "title": "Resultados de Pacientes",
+          "description": "Recorridos reales de antes y después"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Planifique para los Próximos 20 Años, No las Próximas 20 Semanas",
+      "text": "Díganos su altura, peso y objetivos de salud. Le diremos qué procedimiento tiene la evidencia a largo plazo que se adapta a su caso — gratis, honesto, en 24 horas.",
+      "button": "Obtener Mi Evaluación Gratuita"
+    }
+  },
+  "weightRegainPage": {
+    "hero": {
+      "eyebrow": "Guía de Resultados — Sin Culpas, Solo Soluciones",
+      "title": "Reganancia de Peso Tras la Manga Gástrica: Sus Cuatro Vías",
+      "subtitle": "Hasta el 30% de los pacientes de manga recuperan peso significativo en cinco años. No es un fracaso personal — tiene causas físicas, y cada una de ellas tiene tratamiento. Aquí está el mapa completo.",
+      "stats": [
+        {
+          "value": "30%",
+          "label": "De los pacientes recuperan peso en 5 años"
+        },
+        {
+          "value": "4",
+          "label": "Vías de tratamiento"
+        },
+        {
+          "value": "1er paso",
+          "label": "Siempre una endoscopia diagnóstica"
+        }
+      ]
+    },
+    "whyBack": {
+      "title": "Por Qué Vuelve el Peso",
+      "intro": "Tres mecanismos impulsan la reganancia tras una manga, y ninguno de ellos es la fuerza de voluntad:",
+      "mechanisms": [
+        "<strong>Dilatación de la manga.</strong> La manga es un tubo muscular sometido a presión en cada comida; con los años puede estirarse gradualmente, recuperando capacidad y apetito.",
+        "<strong>Adaptación hormonal.</strong> La grelina (la hormona del hambre) se recupera parcialmente en algunos pacientes 2–4 años después de la cirugía.",
+        "<strong>Deriva conductual.</strong> El picoteo, las calorías líquidas y el abandono del seguimiento erosionan silenciosamente la restricción que queda."
+      ],
+      "outro": "Como la causa varía de un paciente a otro, la solución también debe hacerlo — por eso cada caso de reganancia en Istanbul Bariatric Center comienza con una <strong>endoscopia diagnóstica</strong>, no con la venta de un procedimiento.",
+      "cta": "Describa Mi Situación — Revisión Gratuita"
+    },
+    "comparison": {
+      "title": "Las Cuatro Vías Comparadas",
+      "subtitle": "De menor a mayor intervención. Muchos pacientes combinan vías — por ejemplo, un reinicio con dietista más un GLP-1 mientras deciden sobre una nueva manga endoscópica.",
+      "columns": [
+        "Vía",
+        "Ideal Para",
+        "Invasividad",
+        "Resultado Esperado"
+      ],
+      "rows": [
+        [
+          "1. Programa de reinicio dirigido por dietista",
+          "Reganancia inferior a ~10 kg, con hábitos identificados como causa",
+          "Ninguna — programa remoto",
+          "Detener la reganancia, perder 5–10 kg"
+        ],
+        [
+          "2. Medicación GLP-1 (Mounjaro/Wegovy)",
+          "Reganancia moderada, el paciente prefiere ningún procedimiento",
+          "Ninguna — inyección semanal",
+          "10–15% de pérdida mientras se toma la medicación"
+        ],
+        [
+          "3. Nueva manga endoscópica",
+          "Dilatación de la manga confirmada, reganancia moderada, sin reflujo grave",
+          "Endoscópica — sin incisiones, 0–1 noche",
+          "Restaurar la restricción; pérdida del 60–70% del peso recuperado"
+        ],
+        [
+          "4. Conversión a mini bypass / DS",
+          "Reganancia importante, reflujo o anatomía no apta para una nueva manga",
+          "Laparoscópica, 2–3 noches",
+          "El resultado más potente y duradero"
+        ]
+      ]
+    },
+    "howDecide": {
+      "title": "Cómo Decidimos, Paso a Paso",
+      "steps": [
+        "<strong>Revisión remota gratuita.</strong> Envíe la fecha de su cirugía original, su historial de peso y su patrón alimentario actual por WhatsApp — el Dr Ustun revisa personalmente cada caso de reganancia.",
+        "<strong>Endoscopia diagnóstica en Estambul.</strong> Mide el tamaño de la manga y comprueba si hay hernia de hiato y daño por reflujo. Esta única prueba determina qué vías son realistas.",
+        "<strong>Decisión de la vía — la menor intervención que realmente funcione.</strong> Si un programa de reinicio o la medicación pueden lograr su objetivo, se lo decimos; solo se recomienda un procedimiento cuando la anatomía lo exige.",
+        "<strong>Tratamiento y 12 meses de seguimiento</strong> con apoyo de dietista registrado en RU, porque sea cual sea la vía que elija, el apoyo de hábitos decide si esta vez el resultado perdura."
+      ]
+    },
+    "candidacy": {
+      "title": "Cuándo Evaluarse — No Espere a Que Sea 'Bastante Grave'",
+      "intro": "Reserve una evaluación de reganancia si aplica alguno de estos casos:",
+      "criteria": [
+        "Ha recuperado más del 25% del peso que perdió originalmente",
+        "Los tamaños de las porciones han vuelto claramente a niveles prequirúrgicos",
+        "Ha vuelto el hambre entre comidas",
+        "Han aparecido o empeorado el ardor o el reflujo junto con la reganancia",
+        "Está considerando la medicación GLP-1 y quiere saber si es la herramienta adecuada"
+      ],
+      "note": "La reganancia se acelera: actuar a los 10 kg recuperados mantiene abiertas todas las opciones, incluidas las más sencillas. Si el reflujo es su mayor problema, empiece por nuestra <refluxLink>guía de reflujo tras la manga</refluxLink>."
+    },
+    "surgeonProof": {
+      "title": "Por Qué los Pacientes con Reganancia Vienen a Estambul",
+      "subtitle": "La evaluación de revisión exige un centro que ofrezca todas las vías — endoscópicas y quirúrgicas — para que la recomendación se base en su endoscopia, no en las limitaciones de la clínica."
+    },
+    "faq": {
+      "title": "Reganancia de Peso — Sus Preguntas Respondidas",
+      "items": [
+        {
+          "question": "¿Es normal recuperar peso tras una manga gástrica?",
+          "answer": "Cierta reganancia es común — los estudios muestran que hasta el 30% de los pacientes de manga recuperan peso significativo en 5 años. No significa que haya fracasado. Las causas más frecuentes son la dilatación gradual de la manga (estiramiento), la adaptación hormonal y el retorno de los antiguos patrones alimentarios. Las tres son tratables."
+        },
+        {
+          "question": "¿Cómo sé si mi manga se ha estirado?",
+          "answer": "Las señales de alerta incluyen poder comer porciones mucho mayores que en su primer año, la vuelta del hambre entre comidas y una reganancia constante a pesar de comer razonablemente. La única forma de confirmarlo es una endoscopia diagnóstica, que mide la manga y descarta otras causas — este es siempre nuestro primer paso antes de recomendar cualquier tratamiento."
+        },
+        {
+          "question": "¿Cuáles son mis opciones si he recuperado peso tras una manga?",
+          "answer": "Cuatro vías principales, en orden creciente de intervención: (1) un programa estructurado de reinicio dirigido por dietista, (2) medicación GLP-1 (Mounjaro/Wegovy) junto con su manga, (3) una nueva manga endoscópica — reajustando desde dentro la manga estirada con suturas, sin cirugía, y (4) conversión quirúrgica a un mini bypass gástrico o derivación duodenal. La adecuada depende de cuánto haya recuperado, de la anatomía de su manga y de si tiene reflujo."
+        },
+        {
+          "question": "¿Se puede corregir una manga estirada sin cirugía?",
+          "answer": "A menudo, sí. Una nueva manga endoscópica utiliza el sistema Apollo OverStitch para suturar la manga dilatada de nuevo en un tubo estrecho a través de la boca — sin incisiones, normalmente una noche como máximo, y de vuelta a la normalidad en pocos días. Es adecuada para una dilatación moderada con reganancia moderada."
+        },
+        {
+          "question": "¿Cuándo es la conversión a un bypass la mejor respuesta?",
+          "answer": "Cuando la reganancia es sustancial (más del 25-30% del peso que perdió), cuando ha aparecido reflujo junto con la reganancia, o cuando la endoscopia muestra una anatomía no apta para una nueva manga. La conversión de manga a bypass es la operación de revisión más común del mundo y aborda tanto la reganancia como el reflujo en un solo paso."
+        },
+        {
+          "question": "¿Funcionan los medicamentos GLP-1 tras una manga gástrica?",
+          "answer": "Sí — los estudios muestran una pérdida de peso adicional significativa cuando se añade medicación GLP-1 tras la cirugía bariátrica, y puede ser una opción eficaz sin procedimiento para una reganancia moderada. Las limitaciones: el efecto dura solo mientras se toma la medicación, el coste mensual es significativo y los efectos secundarios hacen que algunos pacientes lo abandonen. A menudo lo usamos como puente o en combinación con otras vías."
+        }
+      ]
+    },
+    "related": {
+      "title": "A Dónde Ir Desde Aquí",
+      "links": [
+        {
+          "title": "Centro de Cirugía de Revisión",
+          "description": "Todas las vías de revisión en detalle"
+        },
+        {
+          "title": "Mini Bypass Gástrico",
+          "description": "El objetivo de conversión más común"
+        },
+        {
+          "title": "Reflujo Tras la Manga",
+          "description": "Si el ardor volvió con el peso"
+        },
+        {
+          "title": "Resultados a Largo Plazo",
+          "description": "Qué aspecto tiene el 'éxito' a los 5–10 años"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Obtenga una Evaluación Honesta de Reganancia — Gratis",
+      "text": "Envíe la fecha de su cirugía, su peso más bajo, su peso actual y su principal dificultad por WhatsApp. El equipo del Dr Ustun le dirá qué vía se adapta a usted — incluso cuando la respuesta sea 'no se necesita ningún procedimiento'.",
+      "button": "Iniciar Mi Evaluación Gratuita"
+    }
+  },
+  "balloonVsSleevePage": {
+    "hero": {
+      "eyebrow": "Guía de Decisión",
+      "title": "Balón Gástrico vs Manga Gástrica",
+      "subtitle": "Uno es temporal, reversible y no requiere cirugía; el otro es permanente y mucho más potente. La pregunta honesta no es cuál es 'mejor' — es cuánto peso necesita perder y durante cuánto tiempo.",
+      "stats": [
+        {
+          "value": "10–15%",
+          "label": "Pérdida de peso total — balón"
+        },
+        {
+          "value": "25–30%",
+          "label": "Pérdida de peso total — manga"
+        },
+        {
+          "value": "6–12 me",
+          "label": "Duración del balón"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Balón vs Manga de un Vistazo",
+      "columns": [
+        "Factor",
+        "Balón Gástrico",
+        "Manga Gástrica"
+      ],
+      "rows": [
+        [
+          "Técnica",
+          "Balón de silicona colocado en el estómago (endoscópico o deglutible)",
+          "~80% del estómago extirpado quirúrgicamente"
+        ],
+        [
+          "Permanencia",
+          "Temporal — retirado a los 6 o 12 meses",
+          "Permanente"
+        ],
+        [
+          "Pérdida de peso corporal total",
+          "10–15% (mientras está colocado)",
+          "25–30% (duradera)"
+        ],
+        [
+          "Anestesia",
+          "Sedación, ~20 minutos",
+          "General, ~60 minutos"
+        ],
+        [
+          "Estancia hospitalaria",
+          "Ninguna — sale el mismo día",
+          "2–3 noches"
+        ],
+        [
+          "Vuelta al trabajo",
+          "1–3 días",
+          "10–14 días"
+        ],
+        [
+          "Reversible",
+          "Totalmente",
+          "No"
+        ],
+        [
+          "Rango de IMC ideal",
+          "27–35",
+          "35–55+"
+        ],
+        [
+          "Principal inconveniente",
+          "Reganancia de peso tras la retirada",
+          "Irreversible; riesgo de reflujo"
+        ],
+        [
+          "Precio en IBC (todo incluido)",
+          "Desde £1,650",
+          "Desde £2,950"
+        ]
+      ]
+    },
+    "prose": {
+      "title": "La Forma Correcta de Plantearlo",
+      "p1": "El balón y la manga resuelven <strong>problemas distintos</strong>. El <link1>balón gástrico</link1> es una herramienta de 6–12 meses: ocupa espacio en el estómago para que se sienta lleno antes, ideal para perder 10–25 kg, romper un estancamiento o probar la restricción antes de comprometerse con algo permanente. La <link2>manga gástrica</link2> es una operación permanente que modifica tanto la capacidad como las hormonas del hambre — la herramienta adecuada cuando la obesidad está establecida y es de larga duración.",
+      "p2": "Si se descubre deseando la suavidad del balón pero la durabilidad de la manga, ese punto intermedio existe: el <link1>ESG (gastroplastia endoscópica en manga)</link1> es no quirúrgico como el balón, pero ofrece una pérdida del 15–20% del peso corporal total que perdura — compárelo en nuestra <link2>guía ESG vs manga</link2>.",
+      "cta": "¿No Está Seguro? Reciba Consejo Gratuito"
+    },
+    "candidacy": {
+      "title": "El Balón Es Adecuado para Usted Si…",
+      "intro": "Recomendamos sinceramente el balón cuando:",
+      "criteria": [
+        "Su IMC está entre 27 y 35 y necesita perder 10–25 kg",
+        "Desea una opción totalmente reversible y sin cirugía",
+        "Necesita perder peso antes de otra operación (incluida la cirugía bariátrica)",
+        "Quiere probar cómo se siente la restricción antes de una decisión permanente",
+        "Puede comprometerse con el programa del dietista — el balón solo funciona con él"
+      ],
+      "note": "Si su IMC supera 35 y este es un problema de peso a largo plazo, tenga cuidado de no elegir el balón solo porque parezca más fácil — la reganancia tras la retirada es la queja más común que oímos de pacientes que se colocaron el balón en otros centros. El ESG o la manga le servirán mejor."
+    },
+    "surgeonProof": {
+      "title": "Ofrecemos los Tres — Para Que Reciba el Correcto",
+      "subtitle": "El balón, el ESG y la manga quirúrgica se realizan todos en nuestro centro, lo que significa que nuestra recomendación sigue su caso, no nuestro menú."
+    },
+    "faq": {
+      "title": "Balón vs Manga — Sus Preguntas Respondidas",
+      "items": [
+        {
+          "question": "¿Es un balón gástrico tan eficaz como una manga gástrica?",
+          "answer": "No. Un balón produce una pérdida del 10-15% del peso corporal total mientras está colocado (6-12 meses); la manga quirúrgica produce un 25-30% y el resultado es permanente. La ventaja del balón es que es temporal, no quirúrgico y totalmente reversible — una herramienta para impulsar la pérdida de peso o preparar la cirugía, no una solución de por vida."
+        },
+        {
+          "question": "¿Vuelve el peso tras un balón gástrico?",
+          "answer": "Puede volver. Una vez retirado el balón, el estómago recupera su capacidad normal, así que mantener el peso depende por completo de los hábitos alimentarios adquiridos durante el periodo del balón. Los estudios muestran que una parte significativa de los pacientes recupera peso en 1-2 años tras la retirada, salvo que pasen a un tratamiento posterior o mantengan hábitos estrictos."
+        },
+        {
+          "question": "¿Para quién es realmente adecuado un balón gástrico?",
+          "answer": "Pacientes con IMC de 27-35 que necesitan perder 10-25 kg, pacientes que quieren una prueba totalmente reversible de la restricción antes de comprometerse con la cirugía, y pacientes con IMC más alto que necesitan perder peso antes de una operación. Para un IMC superior a 35 que busca un resultado duradero, el ESG o una manga quirúrgica suelen ser la mejor inversión."
+        },
+        {
+          "question": "¿Es el balón más seguro que la manga?",
+          "answer": "El balón evita por completo la cirugía — se coloca por vía endoscópica en unos 20 minutos, y las versiones deglutibles no requieren endoscopia alguna. Las complicaciones graves son raras, aunque las náuseas durante la primera semana son frecuentes. La manga también es muy segura (1-3% de complicaciones mayores), pero es una operación permanente. Entre ambas se sitúa el ESG: no quirúrgico como el balón, duradero como la manga."
+        },
+        {
+          "question": "¿Cuánto cuestan el balón y la manga en Turquía?",
+          "answer": "En Istanbul Bariatric Center el balón gástrico cuesta desde £1,650 y la manga gástrica desde £2,950, ambos todo incluido. Tenga en cuenta que un balón dura 6-12 meses mientras que la manga es permanente — por kilogramo mantenido a largo plazo, la manga y el ESG suelen ofrecer mejor relación calidad-precio."
+        },
+        {
+          "question": "¿Puedo hacerme una manga o un ESG después de un balón?",
+          "answer": "Sí, y es una vía habitual: primero el balón para reducir peso y demostrar que la restricción le funciona, luego el ESG o una manga quirúrgica para el resultado permanente. Planificamos deliberadamente esta ruta en dos pasos para pacientes adecuados."
+        }
+      ]
+    },
+    "related": {
+      "title": "Su Próximo Paso",
+      "links": [
+        {
+          "title": "Balón Gástrico",
+          "description": "Guía completa — desde £1,650"
+        },
+        {
+          "title": "ESG — el Punto Intermedio",
+          "description": "No quirúrgico y duradero — desde £4,950"
+        },
+        {
+          "title": "Manga Gástrica",
+          "description": "Guía completa — desde £2,950"
+        },
+        {
+          "title": "Guía de Precios",
+          "description": "Todos los precios de 2026 frente a RU, EE. UU. y la UE"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Díganos Su Objetivo — Le Trazaremos la Ruta",
+      "text": "Ya sean 10 kg o 60 kg, escriba a nuestro equipo con su altura, peso y objetivo. Recibirá una recomendación honesta — balón, ESG, manga o ninguno — en 24 horas.",
+      "button": "Obtener Mi Recomendación Gratuita"
     }
   }
 }

@@ -591,18 +591,39 @@
       "title": "Bariatrische Revisionschirurgie in der Türkei",
       "subtitle": "Eine erneute Gewichtszunahme nach einem Schlauchmagen oder Bypass ist häufiger, als Sie denken — und sie lässt sich beheben. Entdecken Sie chirurgische und nicht-chirurgische Revisionswege mit einem der erfahrensten Revisionsteams der Türkei.",
       "stats": [
-        { "value": "8,000+", "label": "Durchgeführte Eingriffe" },
-        { "value": "5", "label": "Revisionswege" },
-        { "value": "£3,950", "label": "All-inclusive ab" }
+        {
+          "value": "8,000+",
+          "label": "Durchgeführte Eingriffe"
+        },
+        {
+          "value": "5",
+          "label": "Revisionswege"
+        },
+        {
+          "value": "£3,950",
+          "label": "All-inclusive ab"
+        }
       ]
     },
     "facts": {
       "title": "Revisionschirurgie auf einen Blick",
       "items": [
-        { "label": "Untersuchung", "value": "Endoskopie + Bildgebung" },
-        { "label": "Optionen", "value": "Chirurgisch & endoskopisch" },
-        { "label": "Krankenhausaufenthalt", "value": "0–3 Nächte" },
-        { "label": "All-inclusive ab", "value": "£3,950" }
+        {
+          "label": "Untersuchung",
+          "value": "Endoskopie + Bildgebung"
+        },
+        {
+          "label": "Optionen",
+          "value": "Chirurgisch & endoskopisch"
+        },
+        {
+          "label": "Krankenhausaufenthalt",
+          "value": "0–3 Nächte"
+        },
+        {
+          "label": "All-inclusive ab",
+          "value": "£3,950"
+        }
       ]
     },
     "why": {
@@ -615,13 +636,43 @@
     "pathways": {
       "title": "Revisionswege im Vergleich",
       "subtitle": "Die richtige Revision hängt von Ihrem ursprünglichen Eingriff, Ihren Symptomen und Ihren Zielen ab.",
-      "columns": ["Weg", "Am besten geeignet für", "Wie es funktioniert", "Invasivität"],
+      "columns": [
+        "Weg",
+        "Am besten geeignet für",
+        "Wie es funktioniert",
+        "Invasivität"
+      ],
       "rows": [
-        ["Schlauchmagen → Mini-Magenbypass", "Erneute Gewichtszunahme nach Schlauchmagen, besonders bei Reflux (GERD)", "Wandelt den Schlauchmagen in einen kleinen Beutel um, der mit dem Darm verbunden ist, behebt Reflux und fügt einen metabolischen Effekt hinzu", "Laparoskopische Operation, 2–3 Nächte"],
-        ["Schlauchmagen → Duodenal-Switch / Transit-Bipartition", "Hoher BMI oder Typ-2-Diabetes nach einem Schlauchmagen", "Behält den Schlauchmagen und fügt eine Darmkomponente für maximalen Gewichtsverlust und Diabeteskontrolle hinzu", "Laparoskopische Operation, 2–3 Nächte"],
-        ["Endoskopischer Re-Sleeve (ESG-Revision)", "Mäßig gedehnter Schlauchmagen, Patienten, die eine Operation vermeiden möchten", "Endoskopische Nähte durch den Mund straffen den gedehnten Schlauchmagen erneut — keine Schnitte", "Endoskopisch, am selben Tag / 1 Nacht"],
-        ["TORe (Transoral Outlet Reduction)", "Erneute Gewichtszunahme nach Magenbypass aufgrund eines gedehnten Stomas", "Endoskopische Nähte verengen den geweiteten Ausgang zwischen Beutel und Darm", "Endoskopisch, Entlassung am selben Tag"],
-        ["Magenband → Schlauchmagen oder Bypass", "Fehlgeschlagenes oder kompliziertes Magenband", "Entfernt das Band und wandelt es in einem oder zwei Schritten in einen Schlauchmagen oder Bypass um", "Laparoskopische Operation, 2–3 Nächte"]
+        [
+          "Schlauchmagen → Mini-Magenbypass",
+          "Erneute Gewichtszunahme nach Schlauchmagen, besonders bei Reflux (GERD)",
+          "Wandelt den Schlauchmagen in einen kleinen Beutel um, der mit dem Darm verbunden ist, behebt Reflux und fügt einen metabolischen Effekt hinzu",
+          "Laparoskopische Operation, 2–3 Nächte"
+        ],
+        [
+          "Schlauchmagen → Duodenal-Switch / Transit-Bipartition",
+          "Hoher BMI oder Typ-2-Diabetes nach einem Schlauchmagen",
+          "Behält den Schlauchmagen und fügt eine Darmkomponente für maximalen Gewichtsverlust und Diabeteskontrolle hinzu",
+          "Laparoskopische Operation, 2–3 Nächte"
+        ],
+        [
+          "Endoskopischer Re-Sleeve (ESG-Revision)",
+          "Mäßig gedehnter Schlauchmagen, Patienten, die eine Operation vermeiden möchten",
+          "Endoskopische Nähte durch den Mund straffen den gedehnten Schlauchmagen erneut — keine Schnitte",
+          "Endoskopisch, am selben Tag / 1 Nacht"
+        ],
+        [
+          "TORe (Transoral Outlet Reduction)",
+          "Erneute Gewichtszunahme nach Magenbypass aufgrund eines gedehnten Stomas",
+          "Endoskopische Nähte verengen den geweiteten Ausgang zwischen Beutel und Darm",
+          "Endoskopisch, Entlassung am selben Tag"
+        ],
+        [
+          "Magenband → Schlauchmagen oder Bypass",
+          "Fehlgeschlagenes oder kompliziertes Magenband",
+          "Entfernt das Band und wandelt es in einem oder zwei Schritten in einen Schlauchmagen oder Bypass um",
+          "Laparoskopische Operation, 2–3 Nächte"
+        ]
       ]
     },
     "candidacy": {
@@ -655,29 +706,74 @@
     "testimonials": {
       "title": "Patienten, die ihre zweite Chance bekommen haben",
       "quotes": [
-        { "name": "Sarah M.", "flag": "🇺🇸", "date": "Oktober 2025", "text": "Ich hatte meine Operation bei Dr. Murat und seinem großartigen Team. Meine gesamte Erfahrung war einfach fantastisch. Innerhalb von nur vier Monaten habe ich bereits 35 kg abgenommen. Ich vertraue Dr. Murat und seinem Team mein Leben vollkommen an." },
-        { "name": "David R.", "flag": "🇬🇧", "date": "September 2025", "text": "Von dem Moment an, als ich ankam, fühlte ich mich völlig wohl — obwohl ich allein gereist bin. Dr. Murats Team blieb von der Operation bis heute mit mir in Kontakt und begleitete mich Schritt für Schritt durch Ernährung, Nachsorge und Genesung." },
-        { "name": "Peter V.", "flag": "🇧🇪", "date": "November 2024", "text": "Ich hatte meine Operation vor 6 Monaten und habe 45 kg abgenommen. Die kontinuierliche Unterstützung durch Dr. Murats Team war großartig. Sie melden sich regelmäßig und beantworten alle meine Fragen umgehend." }
+        {
+          "name": "Sarah M.",
+          "flag": "🇺🇸",
+          "date": "Oktober 2025",
+          "text": "Ich hatte meine Operation bei Dr. Murat und seinem großartigen Team. Meine gesamte Erfahrung war einfach fantastisch. Innerhalb von nur vier Monaten habe ich bereits 35 kg abgenommen. Ich vertraue Dr. Murat und seinem Team mein Leben vollkommen an."
+        },
+        {
+          "name": "David R.",
+          "flag": "🇬🇧",
+          "date": "September 2025",
+          "text": "Von dem Moment an, als ich ankam, fühlte ich mich völlig wohl — obwohl ich allein gereist bin. Dr. Murats Team blieb von der Operation bis heute mit mir in Kontakt und begleitete mich Schritt für Schritt durch Ernährung, Nachsorge und Genesung."
+        },
+        {
+          "name": "Peter V.",
+          "flag": "🇧🇪",
+          "date": "November 2024",
+          "text": "Ich hatte meine Operation vor 6 Monaten und habe 45 kg abgenommen. Die kontinuierliche Unterstützung durch Dr. Murats Team war großartig. Sie melden sich regelmäßig und beantworten alle meine Fragen umgehend."
+        }
       ]
     },
     "faq": {
       "title": "Revisionschirurgie — Häufig gestellte Fragen",
       "items": [
-        { "question": "Was ist eine bariatrische Revisionsoperation?", "answer": "Eine bariatrische Revisionsoperation ist ein zweiter Eingriff, der nach einer vorherigen Gewichtsverlust-Operation — wie Schlauchmagen, Magenbypass oder Magenband — durchgeführt wird, wenn die erste Operation zu einer erneuten Gewichtszunahme, unzureichendem Gewichtsverlust oder Komplikationen wie schwerem Reflux geführt hat. Der Revisionsweg wird auf Grundlage Ihrer Anatomie, Symptome und Ziele gewählt." },
-        { "question": "Wie viel erneute Gewichtszunahme ist nach einem Schlauchmagen normal?", "answer": "Gewisse Gewichtsschwankungen sind normal, aber Studien zeigen, dass bis zu 30% der Schlauchmagen-Patienten innerhalb von 5 Jahren eine erhebliche Gewichtszunahme erleben, oft aufgrund einer allmählichen Dehnung des Schlauchmagens oder hormoneller Anpassung. Wenn Sie mehr als 25% des ursprünglich verlorenen Gewichts wieder zugenommen haben, lohnt sich eine Revisionsbeurteilung." },
-        { "question": "Welches Revisionsverfahren ist nach einem fehlgeschlagenen Schlauchmagen am besten?", "answer": "Die häufigsten Optionen sind die Umwandlung in einen Mini-Magenbypass (besonders bei vorhandenem Reflux — GERD betrifft langfristig bis zu 55% der Schlauchmagen-Patienten), die Umwandlung in einen Duodenal-Switch oder eine Transit-Bipartition für einen stärkeren metabolischen Effekt oder ein nicht-chirurgischer endoskopischer Re-Sleeve. Die richtige Option hängt davon ab, warum der Schlauchmagen versagt hat, was mittels Endoskopie und Bildgebung beurteilt wird." },
-        { "question": "Kann ein Magenbypass ohne Operation revidiert werden?", "answer": "Ja. Wenn sich die Verbindung zwischen Beutel und Darm (das Stoma) gedehnt hat, verengt TORe (Transoral Outlet Reduction) sie endoskopisch durch den Mund — keine Schnitte, in der Regel Entlassung am selben Tag. Es ist die führende nicht-chirurgische Revision bei erneuter Gewichtszunahme nach einem Bypass." },
-        { "question": "Ist eine bariatrische Revisionsoperation riskanter als die erste Operation?", "answer": "Eine Revisionsoperation ist technisch komplexer wegen des Narbengewebes der ersten Operation, weshalb die Erfahrung des Chirurgen mehr zählt als bei einer Erstoperation. In Zentren mit hohem Fallaufkommen und erfahrenen Revisionschirurgen bleiben die Komplikationsraten niedrig und die Ergebnisse ausgezeichnet." },
-        { "question": "Was kostet eine bariatrische Revisionsoperation in der Türkei?", "answer": "Eine Revisionsoperation in Istanbul kostet je nach Weg typischerweise £3,950–£5,950 all-inclusive — etwa 60-70% weniger als in Großbritannien oder den USA. Jedes Angebot umfasst den JCI-akkreditierten Krankenhausaufenthalt, präoperative Endoskopie und Tests, Transfers, Hotel und Nachsorge. Kontaktieren Sie uns für eine persönliche Beurteilung und ein genaues Angebot." }
+        {
+          "question": "Was ist eine bariatrische Revisionsoperation?",
+          "answer": "Eine bariatrische Revisionsoperation ist ein zweiter Eingriff, der nach einer vorherigen Gewichtsverlust-Operation — wie Schlauchmagen, Magenbypass oder Magenband — durchgeführt wird, wenn die erste Operation zu einer erneuten Gewichtszunahme, unzureichendem Gewichtsverlust oder Komplikationen wie schwerem Reflux geführt hat. Der Revisionsweg wird auf Grundlage Ihrer Anatomie, Symptome und Ziele gewählt."
+        },
+        {
+          "question": "Wie viel erneute Gewichtszunahme ist nach einem Schlauchmagen normal?",
+          "answer": "Gewisse Gewichtsschwankungen sind normal, aber Studien zeigen, dass bis zu 30% der Schlauchmagen-Patienten innerhalb von 5 Jahren eine erhebliche Gewichtszunahme erleben, oft aufgrund einer allmählichen Dehnung des Schlauchmagens oder hormoneller Anpassung. Wenn Sie mehr als 25% des ursprünglich verlorenen Gewichts wieder zugenommen haben, lohnt sich eine Revisionsbeurteilung."
+        },
+        {
+          "question": "Welches Revisionsverfahren ist nach einem fehlgeschlagenen Schlauchmagen am besten?",
+          "answer": "Die häufigsten Optionen sind die Umwandlung in einen Mini-Magenbypass (besonders bei vorhandenem Reflux — GERD betrifft langfristig bis zu 55% der Schlauchmagen-Patienten), die Umwandlung in einen Duodenal-Switch oder eine Transit-Bipartition für einen stärkeren metabolischen Effekt oder ein nicht-chirurgischer endoskopischer Re-Sleeve. Die richtige Option hängt davon ab, warum der Schlauchmagen versagt hat, was mittels Endoskopie und Bildgebung beurteilt wird."
+        },
+        {
+          "question": "Kann ein Magenbypass ohne Operation revidiert werden?",
+          "answer": "Ja. Wenn sich die Verbindung zwischen Beutel und Darm (das Stoma) gedehnt hat, verengt TORe (Transoral Outlet Reduction) sie endoskopisch durch den Mund — keine Schnitte, in der Regel Entlassung am selben Tag. Es ist die führende nicht-chirurgische Revision bei erneuter Gewichtszunahme nach einem Bypass."
+        },
+        {
+          "question": "Ist eine bariatrische Revisionsoperation riskanter als die erste Operation?",
+          "answer": "Eine Revisionsoperation ist technisch komplexer wegen des Narbengewebes der ersten Operation, weshalb die Erfahrung des Chirurgen mehr zählt als bei einer Erstoperation. In Zentren mit hohem Fallaufkommen und erfahrenen Revisionschirurgen bleiben die Komplikationsraten niedrig und die Ergebnisse ausgezeichnet."
+        },
+        {
+          "question": "Was kostet eine bariatrische Revisionsoperation in der Türkei?",
+          "answer": "Eine Revisionsoperation in Istanbul kostet je nach Weg typischerweise £3,950–£5,950 all-inclusive — etwa 60-70% weniger als in Großbritannien oder den USA. Jedes Angebot umfasst den JCI-akkreditierten Krankenhausaufenthalt, präoperative Endoskopie und Tests, Transfers, Hotel und Nachsorge. Kontaktieren Sie uns für eine persönliche Beurteilung und ein genaues Angebot."
+        }
       ]
     },
     "related": {
       "title": "Verwandte Optionen entdecken",
       "links": [
-        { "title": "Mini-Magenbypass", "description": "Die häufigste Schlauchmagen-Umwandlung" },
-        { "title": "Transit-Bipartition", "description": "Starke metabolische Revision" },
-        { "title": "TORe-Verfahren", "description": "Nicht-chirurgische Bypass-Revision" },
-        { "title": "Kostenübersicht", "description": "All-inclusive-Preise vergleichen" }
+        {
+          "title": "Mini-Magenbypass",
+          "description": "Die häufigste Schlauchmagen-Umwandlung"
+        },
+        {
+          "title": "Transit-Bipartition",
+          "description": "Starke metabolische Revision"
+        },
+        {
+          "title": "TORe-Verfahren",
+          "description": "Nicht-chirurgische Bypass-Revision"
+        },
+        {
+          "title": "Kostenübersicht",
+          "description": "All-inclusive-Preise vergleichen"
+        }
       ]
     },
     "conversion": {
@@ -692,31 +788,94 @@
       "title": "Kosten der bariatrischen Chirurgie in der Türkei",
       "subtitle": "Jeder Preis auf dieser Seite ist all-inclusive und wird vor Ihrer Anreise festgelegt: Krankenhaus, Chirurg, Tests, Transfers, Hotel und 12 Monate Nachsorge. Keine versteckten Zusatzkosten — niemals.",
       "stats": [
-        { "value": "£1,650", "label": "Pakete ab" },
-        { "value": "60–70%", "label": "Typische Ersparnis ggü. UK/US" },
-        { "value": "0", "label": "Versteckte Gebühren" }
+        {
+          "value": "£1,650",
+          "label": "Pakete ab"
+        },
+        {
+          "value": "60–70%",
+          "label": "Typische Ersparnis ggü. UK/US"
+        },
+        {
+          "value": "0",
+          "label": "Versteckte Gebühren"
+        }
       ]
     },
     "facts": {
       "title": "All-inclusive-Paketpreise 2026",
       "items": [
-        { "label": "Magenballon", "value": "Ab £1,650" },
-        { "label": "Schlauchmagen", "value": "Ab £2,950" },
-        { "label": "Mini-Magenbypass", "value": "Ab £3,350" },
-        { "label": "ESG (nicht-chirurgisch)", "value": "Ab £4,950" }
+        {
+          "label": "Magenballon",
+          "value": "Ab £1,650"
+        },
+        {
+          "label": "Schlauchmagen",
+          "value": "Ab £2,950"
+        },
+        {
+          "label": "Mini-Magenbypass",
+          "value": "Ab £3,350"
+        },
+        {
+          "label": "ESG (nicht-chirurgisch)",
+          "value": "Ab £4,950"
+        }
       ]
     },
     "comparison": {
       "title": "Türkei vs. UK, US & Europa: Preisvergleich",
       "subtitle": "Typische private Selbstzahlerpreise für dieselben Verfahren. Die angegebenen türkischen Preise sind die festen All-inclusive-Pakete des Istanbul Bariatric Center.",
-      "columns": ["Verfahren", "Türkei (IBC, all-inclusive)", "Vereinigtes Königreich", "Vereinigte Staaten", "Westeuropa"],
+      "columns": [
+        "Verfahren",
+        "Türkei (IBC, all-inclusive)",
+        "Vereinigtes Königreich",
+        "Vereinigte Staaten",
+        "Westeuropa"
+      ],
       "rows": [
-        ["Schlauchmagen", "£2,950 – £4,250", "£10,000 – £15,000", "$16,000 – $25,000", "€8,000 – €12,000"],
-        ["Mini-Magenbypass", "£3,350 – £4,650", "£11,000 – £16,000", "$20,000 – $30,000", "€9,000 – €14,000"],
-        ["Magenballon", "£1,650 – £2,250", "£4,000 – £8,000", "$6,000 – $9,000", "€3,500 – €6,000"],
-        ["ESG (endoskopischer Sleeve)", "£4,950 – £5,950", "£9,000 – £13,000", "$12,000 – $20,000", "€8,000 – €11,000"],
-        ["Duodenal-Switch", "£4,400 – £4,700", "£13,000 – £18,000", "$22,000 – $35,000", "€11,000 – €16,000"],
-        ["Revisionsoperation", "£3,950 – £5,950", "£12,000 – £18,000", "$18,000 – $30,000", "€10,000 – €15,000"]
+        [
+          "Schlauchmagen",
+          "£2,950 – £4,250",
+          "£10,000 – £15,000",
+          "$16,000 – $25,000",
+          "€8,000 – €12,000"
+        ],
+        [
+          "Mini-Magenbypass",
+          "£3,350 – £4,650",
+          "£11,000 – £16,000",
+          "$20,000 – $30,000",
+          "€9,000 – €14,000"
+        ],
+        [
+          "Magenballon",
+          "£1,650 – £2,250",
+          "£4,000 – £8,000",
+          "$6,000 – $9,000",
+          "€3,500 – €6,000"
+        ],
+        [
+          "ESG (endoskopischer Sleeve)",
+          "£4,950 – £5,950",
+          "£9,000 – £13,000",
+          "$12,000 – $20,000",
+          "€8,000 – €11,000"
+        ],
+        [
+          "Duodenal-Switch",
+          "£4,400 – £4,700",
+          "£13,000 – £18,000",
+          "$22,000 – $35,000",
+          "€11,000 – €16,000"
+        ],
+        [
+          "Revisionsoperation",
+          "£3,950 – £5,950",
+          "£12,000 – £18,000",
+          "$18,000 – $30,000",
+          "€10,000 – €15,000"
+        ]
       ],
       "footnote": "Die Zahlen für UK, US und EU sind indikative Selbstzahler-Spannen, die 2025–2026 von privaten Anbietern veröffentlicht wurden, und variieren je nach Klinik und Stadt."
     },
@@ -763,21 +922,51 @@
     "faq": {
       "title": "Preise — Häufig gestellte Fragen",
       "items": [
-        { "question": "Was kostet eine bariatrische Operation in der Türkei?", "answer": "Im Istanbul Bariatric Center beginnen All-inclusive-Pakete ab £1,650 für einen Magenballon, £2,950 für einen Schlauchmagen, £3,350 für einen Mini-Magenbypass und £4,950 für ESG. Jedes Paket umfasst den JCI-akkreditierten Krankenhausaufenthalt, präoperative Tests, Flughafentransfers, Hotel (Entspannungs- und Luxusstufen) und Ernährungsberater-Nachsorge." },
-        { "question": "Warum ist die Gewichtsverlustchirurgie in der Türkei so viel günstiger?", "answer": "Der Unterschied entsteht durch niedrigere Betriebskosten, einen günstigen Wechselkurs und staatliche Förderung des Medizintourismus — nicht durch niedrigere Standards. Die Operationen werden in JCI-akkreditierten Krankenhäusern (die gleiche internationale Akkreditierung wie führende US- und europäische Kliniken) von Chirurgen mit hohem Fallaufkommen durchgeführt. Sie zahlen 60-70% weniger für denselben klinischen Standard." },
-        { "question": "Gibt es versteckte Kosten in den Paketen?", "answer": "Nein. Unsere Pakete sind wirklich all-inclusive: Chirurgen- und Anästhesiegebühren, Krankenhausaufenthalt, präoperative Tests und Konsultationen, VIP-Flughafentransfers, Hotelunterkunft (Entspannung/Luxus), postoperative Medikamente zum Mitnehmen und 12 Monate Ernährungsberater-Unterstützung. Die einzigen nicht enthaltenen Kosten sind Ihre Flüge und persönliche Ausgaben." },
-        { "question": "Wie sind die Kosten im Vergleich zu UK, US oder Europa?", "answer": "Ein Schlauchmagen kostet privat in Großbritannien rund £10,000–£15,000, in den USA $16,000–$25,000 und in weiten Teilen Westeuropas €8,000–€12,000. In Istanbul beträgt das gleichwertige All-inclusive-Paket £2,950–£4,250 — typischerweise eine Ersparnis von 60–75%, selbst nach Flügen." },
-        { "question": "Kann ich in Raten oder mit Finanzierung zahlen?", "answer": "Die Zahlung erfolgt normalerweise per Banküberweisung oder Karte, mit einer Anzahlung zur Sicherung Ihres Termins und dem Restbetrag bei der Ankunft. Sprechen Sie mit unseren Koordinatoren über die derzeit verfügbaren Zahlungsvereinbarungen für Ihr Land." },
-        { "question": "Übernehmen die Reiseversicherung oder der NHS eine Operation in der Türkei?", "answer": "Der NHS und Standard-Reiseversicherungen übernehmen keine geplanten Operationen im Ausland. Es gibt jedoch spezialisierte Medizinreiseversicherungen, die Komplikationen abdecken, und wir empfehlen diese. Viele Patienten stellen dennoch fest, dass die Gesamtkosten — Operation, Flüge, Hotel und Versicherung — weit unter denen einer privaten Operation zu Hause liegen." }
+        {
+          "question": "Was kostet eine bariatrische Operation in der Türkei?",
+          "answer": "Im Istanbul Bariatric Center beginnen All-inclusive-Pakete ab £1,650 für einen Magenballon, £2,950 für einen Schlauchmagen, £3,350 für einen Mini-Magenbypass und £4,950 für ESG. Jedes Paket umfasst den JCI-akkreditierten Krankenhausaufenthalt, präoperative Tests, Flughafentransfers, Hotel (Entspannungs- und Luxusstufen) und Ernährungsberater-Nachsorge."
+        },
+        {
+          "question": "Warum ist die Gewichtsverlustchirurgie in der Türkei so viel günstiger?",
+          "answer": "Der Unterschied entsteht durch niedrigere Betriebskosten, einen günstigen Wechselkurs und staatliche Förderung des Medizintourismus — nicht durch niedrigere Standards. Die Operationen werden in JCI-akkreditierten Krankenhäusern (die gleiche internationale Akkreditierung wie führende US- und europäische Kliniken) von Chirurgen mit hohem Fallaufkommen durchgeführt. Sie zahlen 60-70% weniger für denselben klinischen Standard."
+        },
+        {
+          "question": "Gibt es versteckte Kosten in den Paketen?",
+          "answer": "Nein. Unsere Pakete sind wirklich all-inclusive: Chirurgen- und Anästhesiegebühren, Krankenhausaufenthalt, präoperative Tests und Konsultationen, VIP-Flughafentransfers, Hotelunterkunft (Entspannung/Luxus), postoperative Medikamente zum Mitnehmen und 12 Monate Ernährungsberater-Unterstützung. Die einzigen nicht enthaltenen Kosten sind Ihre Flüge und persönliche Ausgaben."
+        },
+        {
+          "question": "Wie sind die Kosten im Vergleich zu UK, US oder Europa?",
+          "answer": "Ein Schlauchmagen kostet privat in Großbritannien rund £10,000–£15,000, in den USA $16,000–$25,000 und in weiten Teilen Westeuropas €8,000–€12,000. In Istanbul beträgt das gleichwertige All-inclusive-Paket £2,950–£4,250 — typischerweise eine Ersparnis von 60–75%, selbst nach Flügen."
+        },
+        {
+          "question": "Kann ich in Raten oder mit Finanzierung zahlen?",
+          "answer": "Die Zahlung erfolgt normalerweise per Banküberweisung oder Karte, mit einer Anzahlung zur Sicherung Ihres Termins und dem Restbetrag bei der Ankunft. Sprechen Sie mit unseren Koordinatoren über die derzeit verfügbaren Zahlungsvereinbarungen für Ihr Land."
+        },
+        {
+          "question": "Übernehmen die Reiseversicherung oder der NHS eine Operation in der Türkei?",
+          "answer": "Der NHS und Standard-Reiseversicherungen übernehmen keine geplanten Operationen im Ausland. Es gibt jedoch spezialisierte Medizinreiseversicherungen, die Komplikationen abdecken, und wir empfehlen diese. Viele Patienten stellen dennoch fest, dass die Gesamtkosten — Operation, Flüge, Hotel und Versicherung — weit unter denen einer privaten Operation zu Hause liegen."
+        }
       ]
     },
     "related": {
       "title": "Vergleichen Sie Ihre Optionen",
       "links": [
-        { "title": "Schlauchmagen", "description": "Ab £2,950 all-inclusive" },
-        { "title": "Mini-Magenbypass", "description": "Ab £3,350 all-inclusive" },
-        { "title": "ESG (nicht-chirurgisch)", "description": "Ab £4,950 all-inclusive" },
-        { "title": "Revisionsoperation", "description": "Ab £3,950 all-inclusive" }
+        {
+          "title": "Schlauchmagen",
+          "description": "Ab £2,950 all-inclusive"
+        },
+        {
+          "title": "Mini-Magenbypass",
+          "description": "Ab £3,350 all-inclusive"
+        },
+        {
+          "title": "ESG (nicht-chirurgisch)",
+          "description": "Ab £4,950 all-inclusive"
+        },
+        {
+          "title": "Revisionsoperation",
+          "description": "Ab £3,950 all-inclusive"
+        }
       ]
     },
     "conversion": {
@@ -792,18 +981,39 @@
       "title": "Bariatrische Chirurgie in der Türkei für UK-Patienten",
       "subtitle": "Feste Preise in GBP, ein 4-Stunden-Flug, JCI-akkreditierte Krankenhausversorgung in Istanbul — und eine Nachsorge, die Ihnen nach Hause folgt, mit UK-registrierten Ernährungsberatern und Betreuungskoordinatoren an 8 Standorten in Großbritannien.",
       "stats": [
-        { "value": "£2,950", "label": "Schlauchmagen ab" },
-        { "value": "8", "label": "UK-Betreuungsstandorte" },
-        { "value": "12 Mo.", "label": "Ernährungsberater-Nachsorge" }
+        {
+          "value": "£2,950",
+          "label": "Schlauchmagen ab"
+        },
+        {
+          "value": "8",
+          "label": "UK-Betreuungsstandorte"
+        },
+        {
+          "value": "12 Mo.",
+          "label": "Ernährungsberater-Nachsorge"
+        }
       ]
     },
     "facts": {
       "title": "Ihre Reise auf einen Blick",
       "items": [
-        { "label": "Flugzeit", "value": "~4 Stunden" },
-        { "label": "Visum für UK-Pässe", "value": "Nicht erforderlich" },
-        { "label": "Typischer Aufenthalt", "value": "4–6 Nächte" },
-        { "label": "Arbeitsausfall", "value": "1–2 Wochen" }
+        {
+          "label": "Flugzeit",
+          "value": "~4 Stunden"
+        },
+        {
+          "label": "Visum für UK-Pässe",
+          "value": "Nicht erforderlich"
+        },
+        {
+          "label": "Typischer Aufenthalt",
+          "value": "4–6 Nächte"
+        },
+        {
+          "label": "Arbeitsausfall",
+          "value": "1–2 Wochen"
+        }
       ]
     },
     "why": {
@@ -814,15 +1024,47 @@
     },
     "comparison": {
       "title": "Private UK-Operation vs. Istanbul Bariatric Center",
-      "columns": ["Was Sie erhalten", "Private UK-Klinik", "Istanbul Bariatric Center"],
+      "columns": [
+        "Was Sie erhalten",
+        "Private UK-Klinik",
+        "Istanbul Bariatric Center"
+      ],
       "rows": [
-        ["Schlauchmagen-Preis", "£10,000 – £15,000", "£2,950 – £4,250 all-inclusive"],
-        ["Wartezeit", "Wochen bis Monate", "Meist 1–3 Wochen bis zu Ihrem Wunschtermin"],
-        ["Krankenhaus-Akkreditierung", "CQC-reguliert", "JCI-akkreditiert (internationaler Goldstandard)"],
-        ["Fallaufkommen des Chirurgen", "Stark unterschiedlich", "8,000+ Eingriffe (Dr Murat Ustun)"],
-        ["Hotel & Transfers", "Nicht enthalten", "Enthalten (Entspannung & Luxus)"],
-        ["Ernährungsberater-Nachsorge", "Oft extra", "12 Monate enthalten, UK-registriert"],
-        ["Persönliche UK-Unterstützung", "In der Klinik", "Koordinatoren an 8 UK-Standorten"]
+        [
+          "Schlauchmagen-Preis",
+          "£10,000 – £15,000",
+          "£2,950 – £4,250 all-inclusive"
+        ],
+        [
+          "Wartezeit",
+          "Wochen bis Monate",
+          "Meist 1–3 Wochen bis zu Ihrem Wunschtermin"
+        ],
+        [
+          "Krankenhaus-Akkreditierung",
+          "CQC-reguliert",
+          "JCI-akkreditiert (internationaler Goldstandard)"
+        ],
+        [
+          "Fallaufkommen des Chirurgen",
+          "Stark unterschiedlich",
+          "8,000+ Eingriffe (Dr Murat Ustun)"
+        ],
+        [
+          "Hotel & Transfers",
+          "Nicht enthalten",
+          "Enthalten (Entspannung & Luxus)"
+        ],
+        [
+          "Ernährungsberater-Nachsorge",
+          "Oft extra",
+          "12 Monate enthalten, UK-registriert"
+        ],
+        [
+          "Persönliche UK-Unterstützung",
+          "In der Klinik",
+          "Koordinatoren an 8 UK-Standorten"
+        ]
       ]
     },
     "journey": {
@@ -856,29 +1098,74 @@
     "testimonials": {
       "title": "Was UK- und irische Patienten sagen",
       "quotes": [
-        { "name": "Emma W.", "flag": "🇬🇧", "date": "August 2025", "text": "Ich hatte kürzlich eine Schlauchmagen-Operation und die Erfahrung war fantastisch. Das Krankenhaus ist super sauber und man hat ein ganzes Zimmer für sich allein. Dr. Murat und sein Team boten während meines gesamten Aufenthalts eine hervorragende Betreuung. Ich sehe bereits großartige Ergebnisse!" },
-        { "name": "Michelle F.", "flag": "🇬🇧", "date": "August 2024", "text": "Von der Flughafenabholung bis zur Hotelunterkunft war alles perfekt organisiert. Die Operation verlief reibungslos und Dr. Murat besuchte mich mehrmals während meiner Genesung. Die Nachsorge war ausgezeichnet. Sehr empfehlenswert!" },
-        { "name": "Robert H.", "flag": "🇮🇪", "date": "Juli 2025", "text": "Herausragende Betreuung von Anfang bis Ende! Alle Tests wurden gründlich durchgeführt, die Operation verlief sehr gut, die Narbe ist kaum sichtbar und heilt gut. Die Nachsorge-Unterstützung war unglaublich." }
+        {
+          "name": "Emma W.",
+          "flag": "🇬🇧",
+          "date": "August 2025",
+          "text": "Ich hatte kürzlich eine Schlauchmagen-Operation und die Erfahrung war fantastisch. Das Krankenhaus ist super sauber und man hat ein ganzes Zimmer für sich allein. Dr. Murat und sein Team boten während meines gesamten Aufenthalts eine hervorragende Betreuung. Ich sehe bereits großartige Ergebnisse!"
+        },
+        {
+          "name": "Michelle F.",
+          "flag": "🇬🇧",
+          "date": "August 2024",
+          "text": "Von der Flughafenabholung bis zur Hotelunterkunft war alles perfekt organisiert. Die Operation verlief reibungslos und Dr. Murat besuchte mich mehrmals während meiner Genesung. Die Nachsorge war ausgezeichnet. Sehr empfehlenswert!"
+        },
+        {
+          "name": "Robert H.",
+          "flag": "🇮🇪",
+          "date": "Juli 2025",
+          "text": "Herausragende Betreuung von Anfang bis Ende! Alle Tests wurden gründlich durchgeführt, die Operation verlief sehr gut, die Narbe ist kaum sichtbar und heilt gut. Die Nachsorge-Unterstützung war unglaublich."
+        }
       ]
     },
     "faq": {
       "title": "UK-Patienten — Häufig gestellte Fragen",
       "items": [
-        { "question": "Ist es für UK-Patienten sicher, sich in der Türkei einer Gewichtsverlust-Operation zu unterziehen?", "answer": "Ja — wenn Sie den richtigen Anbieter wählen. Das Istanbul Bariatric Center operiert ausschließlich im JCI-akkreditierten Liv Hospital, demselben internationalen Akkreditierungsstandard wie führende private UK-Krankenhäuser. Dr Murat Ustun hat über 8.000 Eingriffe durchgeführt und das Zentrum hat den WhatClinic Patient Service Award sechsmal gewonnen. Entscheidend ist, vor der Buchung die Krankenhaus-Akkreditierung und das Fallaufkommen des Chirurgen zu überprüfen — bei jedem Anbieter." },
-        { "question": "Wie lange muss ich in Istanbul bleiben?", "answer": "Die meisten UK-Patienten bleiben insgesamt 4-6 Nächte: Ankunft und präoperative Tests am ersten Tag, Operation am zweiten Tag, 2-3 Nächte im Krankenhaus und dann 1-2 Nächte im Hotel vor dem Rückflug. ESG- und Magenballon-Patienten können oft innerhalb von 2-3 Tagen nach Hause zurückkehren." },
-        { "question": "Welche Nachsorge erhalte ich zurück in Großbritannien?", "answer": "Entspannungs- und Luxuspakete umfassen 12 Monate Unterstützung durch einen UK-registrierten Ernährungsberater sowie Betreuungskoordinatoren an 8 UK-Standorten für persönliche Hilfe. Unser klinisches Team bleibt auf WhatsApp für jedes Anliegen verfügbar, und wir stimmen uns bei Bedarf mit Ihrem Hausarzt ab." },
-        { "question": "Kümmert sich der NHS um mich, wenn etwas schiefgeht?", "answer": "Der NHS wird Sie in einem Notfall immer behandeln. Für die routinemäßige Nachsorge übernehmen unser UK-Ernährungsberater-Netzwerk und das klinische Team aus der Ferne Ihre Betreuung. Wir empfehlen außerdem dringend eine spezialisierte Medizinreiseversicherung, die die Behandlung von Komplikationen abdeckt — Policen kosten typischerweise £100-£200." },
-        { "question": "Wie funktionieren Zahlungen aus Großbritannien?", "answer": "Sie zahlen eine Anzahlung per Karte oder Banküberweisung, um Ihren Operationstermin zu sichern, wobei der Restbetrag bei der Ankunft in Istanbul fällig ist. Alle Preise werden in Pfund Sterling angegeben und sind fest — das Angebot, das Sie erhalten, ist der Betrag, den Sie zahlen." },
-        { "question": "Benötige ich ein Visum, um von Großbritannien in die Türkei zu reisen?", "answer": "Nein. Inhaber eines UK-Passes können bis zu 90 Tage visumfrei in die Türkei einreisen. Sie benötigen lediglich einen Reisepass, der ab Ihrem Ankunftsdatum noch mindestens 150 Tage gültig ist, sowie Ihre Buchungsbestätigung von uns." }
+        {
+          "question": "Ist es für UK-Patienten sicher, sich in der Türkei einer Gewichtsverlust-Operation zu unterziehen?",
+          "answer": "Ja — wenn Sie den richtigen Anbieter wählen. Das Istanbul Bariatric Center operiert ausschließlich im JCI-akkreditierten Liv Hospital, demselben internationalen Akkreditierungsstandard wie führende private UK-Krankenhäuser. Dr Murat Ustun hat über 8.000 Eingriffe durchgeführt und das Zentrum hat den WhatClinic Patient Service Award sechsmal gewonnen. Entscheidend ist, vor der Buchung die Krankenhaus-Akkreditierung und das Fallaufkommen des Chirurgen zu überprüfen — bei jedem Anbieter."
+        },
+        {
+          "question": "Wie lange muss ich in Istanbul bleiben?",
+          "answer": "Die meisten UK-Patienten bleiben insgesamt 4-6 Nächte: Ankunft und präoperative Tests am ersten Tag, Operation am zweiten Tag, 2-3 Nächte im Krankenhaus und dann 1-2 Nächte im Hotel vor dem Rückflug. ESG- und Magenballon-Patienten können oft innerhalb von 2-3 Tagen nach Hause zurückkehren."
+        },
+        {
+          "question": "Welche Nachsorge erhalte ich zurück in Großbritannien?",
+          "answer": "Entspannungs- und Luxuspakete umfassen 12 Monate Unterstützung durch einen UK-registrierten Ernährungsberater sowie Betreuungskoordinatoren an 8 UK-Standorten für persönliche Hilfe. Unser klinisches Team bleibt auf WhatsApp für jedes Anliegen verfügbar, und wir stimmen uns bei Bedarf mit Ihrem Hausarzt ab."
+        },
+        {
+          "question": "Kümmert sich der NHS um mich, wenn etwas schiefgeht?",
+          "answer": "Der NHS wird Sie in einem Notfall immer behandeln. Für die routinemäßige Nachsorge übernehmen unser UK-Ernährungsberater-Netzwerk und das klinische Team aus der Ferne Ihre Betreuung. Wir empfehlen außerdem dringend eine spezialisierte Medizinreiseversicherung, die die Behandlung von Komplikationen abdeckt — Policen kosten typischerweise £100-£200."
+        },
+        {
+          "question": "Wie funktionieren Zahlungen aus Großbritannien?",
+          "answer": "Sie zahlen eine Anzahlung per Karte oder Banküberweisung, um Ihren Operationstermin zu sichern, wobei der Restbetrag bei der Ankunft in Istanbul fällig ist. Alle Preise werden in Pfund Sterling angegeben und sind fest — das Angebot, das Sie erhalten, ist der Betrag, den Sie zahlen."
+        },
+        {
+          "question": "Benötige ich ein Visum, um von Großbritannien in die Türkei zu reisen?",
+          "answer": "Nein. Inhaber eines UK-Passes können bis zu 90 Tage visumfrei in die Türkei einreisen. Sie benötigen lediglich einen Reisepass, der ab Ihrem Ankunftsdatum noch mindestens 150 Tage gültig ist, sowie Ihre Buchungsbestätigung von uns."
+        }
       ]
     },
     "related": {
       "title": "Planen Sie Ihren Eingriff",
       "links": [
-        { "title": "Schlauchmagen", "description": "Ab £2,950 all-inclusive" },
-        { "title": "ESG (nicht-chirurgisch)", "description": "Keine Schnitte, Entlassung am selben Tag" },
-        { "title": "Kostenübersicht", "description": "Vollständiger Preisvergleich 2026" },
-        { "title": "ESG für UK-Patienten", "description": "Spezielle UK-ESG-Seite" }
+        {
+          "title": "Schlauchmagen",
+          "description": "Ab £2,950 all-inclusive"
+        },
+        {
+          "title": "ESG (nicht-chirurgisch)",
+          "description": "Keine Schnitte, Entlassung am selben Tag"
+        },
+        {
+          "title": "Kostenübersicht",
+          "description": "Vollständiger Preisvergleich 2026"
+        },
+        {
+          "title": "ESG für UK-Patienten",
+          "description": "Spezielle UK-ESG-Seite"
+        }
       ]
     },
     "conversion": {
@@ -892,6 +1179,192 @@
     "heroTitle": "Post-Bariatrische Körperformung Istanbul, Türkei",
     "heroSubtitle": "Vervollständigen Sie Ihre Gewichtsverlust-Reise mit Körperformungsverfahren.",
     "desc": "Nach großem Gewichtsverlust bleibt oft überschüssige Haut. Post-bariatrische Chirurgie hilft den Körper neu zu formen."
+  },
+  "sleeveVsBypassPage": {
+    "hero": {
+      "eyebrow": "Entscheidungshilfe",
+      "title": "Schlauchmagen vs. Mini-Magenbypass",
+      "subtitle": "Die beiden weltweit am häufigsten durchgeführten Adipositas-Operationen – ehrlich verglichen in Bezug auf Gewichtsverlust, Diabetes-Remission, Reflux, Risiken und Kosten – damit Sie das Verfahren wählen können, das zu Ihrem Körper und Ihren Zielen passt.",
+      "stats": [
+        {
+          "value": "60–70%",
+          "label": "Übergewichtsverlust – Schlauchmagen"
+        },
+        {
+          "value": "70–80%",
+          "label": "Übergewichtsverlust – Bypass"
+        },
+        {
+          "value": "8,000+",
+          "label": "Eingriffe von Dr Ustun"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Schlauchmagen vs. Mini-Bypass auf einen Blick",
+      "columns": [
+        "Faktor",
+        "Schlauchmagen",
+        "Mini-Magenbypass"
+      ],
+      "rows": [
+        [
+          "Funktionsweise",
+          "Entfernt ~80% des Magens (Restriktion)",
+          "Kleiner Magenbeutel + Umleitung des Darms (Restriktion + Malabsorption)"
+        ],
+        [
+          "Übergewichtsverlust",
+          "60–70% nach 2 Jahren",
+          "70–80% nach 2 Jahren"
+        ],
+        [
+          "Remission bei Typ-2-Diabetes",
+          "60–70%",
+          "80–90%"
+        ],
+        [
+          "Auswirkung auf Sodbrennen",
+          "Kann sich verschlechtern (bis zu 55% GERD langfristig)",
+          "Verbessert den Reflux meist"
+        ],
+        [
+          "Operationsdauer",
+          "~1 Stunde",
+          "~1,5 Stunden"
+        ],
+        [
+          "Krankenhausaufenthalt",
+          "2–3 Nächte",
+          "2–3 Nächte"
+        ],
+        [
+          "Lebenslange Nahrungsergänzung",
+          "Multivitaminpräparat empfohlen",
+          "Multivitamin + B12, Eisen unerlässlich"
+        ],
+        [
+          "Reversibel",
+          "Nein (Magen entfernt)",
+          "Technisch möglich, selten durchgeführt"
+        ],
+        [
+          "Spätere Revisionsoptionen",
+          "Umwandlung in Bypass, DS oder Re-Sleeve",
+          "TORe (endoskopisch) oder Revision der Darmschlinge"
+        ],
+        [
+          "Preis im IBC (all-inclusive)",
+          "Ab £2,950",
+          "Ab £3,350"
+        ]
+      ],
+      "footnote": "Die Ergebnisbereiche basieren auf veröffentlichten internationalen Studienreihen und IBC-Falldaten; individuelle Ergebnisse variieren."
+    },
+    "howItWorks": {
+      "title": "So funktioniert jede Operation",
+      "p1": "Der <link1>Schlauchmagen</link1> entfernt rund 80% des Magens und lässt einen schlanken Schlauch zurück. Sie essen deutlich weniger, und durch die Entfernung des Magenfundus wird Ghrelin, das Hungerhormon, stark reduziert. Die Verdauung läuft ansonsten normal weiter – nichts wird umgeleitet.",
+      "p2": "Der <link1>Mini-Magenbypass</link1> erzeugt einen kleinen Magenbeutel und verbindet ihn direkt mit einer Dünndarmschlinge, wobei etwa 150–200 cm umgangen werden. Sie essen weniger <em>und</em> nehmen weniger Kalorien auf, und die hormonelle Umstellung erzielt den stärksten Anti-Diabetes-Effekt aller gängigen Verfahren.",
+      "cta": "Fragen Sie, was zu mir passt – kostenlose Einschätzung"
+    },
+    "chooseSleeve": {
+      "title": "Wählen Sie den Schlauchmagen, wenn …",
+      "items": [
+        "Sie die einfachste wirksame Operation mit normaler Darmanatomie wünschen",
+        "Ihr BMI 35–50 beträgt, ohne schweren Typ-2-Diabetes",
+        "Sie <strong>kein nennenswertes Sodbrennen</strong> haben",
+        "Sie Medikamente einnehmen, deren Aufnahme sich nicht verändern darf (einige Psychopharmaka, Transplantations- oder Rheumamedikamente)",
+        "Sie den Bypass als möglichen zweiten Schritt in Reserve halten möchten"
+      ]
+    },
+    "chooseBypass": {
+      "title": "Wählen Sie den Mini-Bypass, wenn …",
+      "items": [
+        "Sie <strong>Typ-2-Diabetes</strong> haben – die Remissionsraten erreichen 80–90%",
+        "Sie bereits unter <strong>Sodbrennen / GERD</strong> leiden, das ein Schlauchmagen verschlimmern kann",
+        "Ihr BMI über 45–50 liegt, wo der zusätzliche Gewichtsverlust am wichtigsten ist",
+        "Sie viel Süßes essen oder ständig naschen – die Malabsorption dämpft die Wirkung kalorienreicher Lebensmittel",
+        "Sie mit disziplinierter, lebenslanger Nahrungsergänzung und jährlichen Bluttests einverstanden sind"
+      ]
+    },
+    "expertPov": {
+      "title": "Wie ich zwischen Schlauchmagen und Mini-Bypass entscheide",
+      "p1": "Nach 8,000 Eingriffen beginnt meine Entscheidung selten mit dem BMI – sie beginnt mit zwei Fragen: <strong>Hat dieser Patient Reflux, und hat dieser Patient Diabetes?</strong> Ein Ja zu einer der beiden Fragen drängt mich klar zum Bypass, denn ich habe zu viele andernorts durchgeführte Schlauchmägen nachoperiert, bei denen die Reflux-Vorgeschichte bei der ersten Beratung ignoriert wurde.",
+      "p2": "Als Zweites betrachte ich das <strong>Essverhalten</strong>, und ich frage unverblümt danach. Ein Mengen-Esser – große Portionen, schnelle Mahlzeiten – kommt mit einem Schlauchmagen hervorragend zurecht, weil die Restriktion sein eigentliches Problem löst. Ein Dauer-Nascher oder Süßigkeiten-Esser kann jede Restriktion übertrumpfen; für ihn ist die malabsorptive Komponente des Bypasses kein Luxus, sondern der Mechanismus, der die Operation wirksam macht.",
+      "p3": "Was ich unentschlossenen Patienten sage: Der Schlauchmagen lässt eine Tür offen – eine Umwandlung in einen Bypass bleibt auch Jahre später möglich, falls je nötig. Der umgekehrte Weg existiert nicht. Diese Asymmetrie entscheidet in meiner Klinik mehr Grenzfälle als jede Prozentzahl in einer Vergleichstabelle. Doch wenn Reflux oder langjähriger Diabetes schon am ersten Tag vorliegen, ist die Wahl des Schlauchmagens, um „sich Optionen offenzuhalten“, eine Milchmädchenrechnung – Sie würden die zweite Operation lediglich im Voraus buchen."
+    },
+    "candidacy": {
+      "title": "Noch unentschlossen? Was wir beurteilen",
+      "intro": "Bei Ihrer kostenlosen Einschätzung wägt Dr Murat Ustun diese Faktoren ab, bevor er eine Operation gegenüber der anderen empfiehlt:",
+      "criteria": [
+        "BMI und Gewichtsverteilung",
+        "Reflux-Symptome und etwaige frühere Endoskopie-Befunde",
+        "Typ-2-Diabetes-Status, Dauer und Medikation",
+        "Essverhalten – Mengen-Esser vs. Süßigkeiten-Esser/Nascher",
+        "Aktuelle Medikamente, die eine vorhersehbare Aufnahme erfordern",
+        "Ihre eigene Präferenz, nachdem Sie beide Optionen verstanden haben"
+      ],
+      "note": "Etwa 60% unserer Patienten sind mit einem Schlauchmagen am besten versorgt, 40% mit einem Bypass – entscheidend ist, die Operation auf den Patienten abzustimmen, niemals eine Pauschalempfehlung."
+    },
+    "surgeonProof": {
+      "title": "Ein Chirurg, beide Operationen, 8,000+ Fälle",
+      "subtitle": "Da Dr Ustun Schlauchmägen, Bypässe, Revisionen und endoskopische Eingriffe in hoher Fallzahl durchführt, richtet sich seine Empfehlung nach Ihrer Anatomie – nicht danach, was die Klinik gerade anbietet."
+    },
+    "faq": {
+      "title": "Schlauchmagen vs. Bypass – Ihre Fragen beantwortet",
+      "items": [
+        {
+          "question": "Was ist besser: Schlauchmagen oder Mini-Magenbypass?",
+          "answer": "Keines ist grundsätzlich besser – sie eignen sich für unterschiedliche Patienten. Der Schlauchmagen ist einfacher, erhält die normale Darmanatomie und erzielt 60-70% Übergewichtsverlust. Der Mini-Bypass ergänzt eine malabsorptive Komponente, erzielt 70-80% Übergewichtsverlust mit stärkerer Typ-2-Diabetes-Remission und besserer Reflux-Kontrolle – um den Preis lebenslanger Vitaminergänzung und einer etwas komplexeren Operation. Die richtige Wahl hängt von Ihrem BMI, Reflux-Status, Diabetes und Essverhalten ab."
+        },
+        {
+          "question": "Was führt zu mehr Gewichtsverlust: Schlauchmagen oder Bypass?",
+          "answer": "Der Mini-Magenbypass führt in der Regel zu mehr Gesamtgewichtsverlust: etwa 70-80% des Übergewichts nach 2 Jahren gegenüber 60-70% beim Schlauchmagen. Für Patienten mit einem BMI über 50 oder schwerem Typ-2-Diabetes macht der metabolische Effekt des Bypasses ihn meist zur stärkeren Option."
+        },
+        {
+          "question": "Was ist sicherer: Schlauchmagen oder Bypass?",
+          "answer": "Beide sind in erfahrenen Händen sehr sicher, mit einer Rate schwerer Komplikationen von 1-3%. Der Schlauchmagen ist technisch einfacher ohne Darmverbindung, sodass das frühe operative Risiko geringfügig niedriger ist. Der Bypass birgt geringe langfristige Risiken für Nährstoffmangel und Anastomosengeschwüre, während der Schlauchmagen ein höheres langfristiges Risiko für Sodbrennen (GERD) trägt."
+        },
+        {
+          "question": "Sollte ich den Bypass wählen, wenn ich bereits Sodbrennen habe?",
+          "answer": "Meist ja. Ein Schlauchmagen kann bestehenden Reflux verschlimmern – GERD betrifft langfristig bis zu 55% der Schlauchmagen-Patienten – während der Bypass die Säure von der Speiseröhre ableitet und den Reflux typischerweise verbessert. Ein deutlicher vorbestehender GERD ist einer der klarsten Gründe, einen Bypass zu bevorzugen."
+        },
+        {
+          "question": "Kann ein Schlauchmagen später in einen Bypass umgewandelt werden?",
+          "answer": "Ja. Die Umwandlung von Schlauchmagen zu Bypass ist weltweit die häufigste Revisionsoperation, typischerweise bei erneuter Gewichtszunahme oder Reflux nach einem Schlauchmagen. Viele Patienten beginnen mit einem Schlauchmagen im Wissen, dass der Bypass als zweiter Schritt verfügbar bleibt, falls je nötig."
+        },
+        {
+          "question": "Was kosten Schlauchmagen und Bypass in der Türkei?",
+          "answer": "Im Istanbul Bariatric Center beginnt der Schlauchmagen bei £2,950 und der Mini-Magenbypass bei £3,350, beide all-inclusive: JCI-akkreditiertes Krankenhaus, Chirurgen- und Anästhesiehonorare, Untersuchungen, Transfers, Hotel und 12 Monate Nachsorge durch Ernährungsberater."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ihr nächster Schritt",
+      "links": [
+        {
+          "title": "Schlauchmagen",
+          "description": "Vollständiger Verfahrensratgeber – ab £2,950"
+        },
+        {
+          "title": "Mini-Magenbypass",
+          "description": "Vollständiger Verfahrensratgeber – ab £3,350"
+        },
+        {
+          "title": "ESG vs. Schlauchmagen",
+          "description": "Bevorzugen Sie einen nicht-chirurgischen Weg? ESG vergleichen"
+        },
+        {
+          "title": "Kostenratgeber",
+          "description": "Alle Preise 2026 im Vergleich zu UK, US & EU"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Erhalten Sie eine persönliche Empfehlung in 24 Stunden",
+      "text": "Senden Sie Ihre Größe, Ihr Gewicht sowie Ihren Reflux- und Diabetes-Status über WhatsApp. Das Team von Dr Ustun sagt Ihnen, welche Operation passt – kostenlos und unverbindlich.",
+      "button": "Meine kostenlose Einschätzung erhalten"
+    }
   },
   "guides": {
     "title": "Ratgeber & Vergleiche",
@@ -922,6 +1395,931 @@
     "travelGuide": {
       "title": "Reiseratgeber",
       "description": "So planen Sie Ihre OP-Reise nach Istanbul"
+    }
+  },
+  "travelGuidePage": {
+    "hero": {
+      "eyebrow": "Reise- & Logistik-Ratgeber",
+      "title": "Ihre Reise nach Istanbul, Tag für Tag",
+      "subtitle": "Vom Moment der Landung bis zur Rückkehr nach Hause – jeder Transfer, jede Untersuchung, jede Krankenhausnacht und jeder Hotelaufenthalt für Sie geplant. Genau so sieht Ihre Woche aus.",
+      "stats": [
+        {
+          "value": "4–6",
+          "label": "Nächte in Istanbul (Operation)"
+        },
+        {
+          "value": "2–3",
+          "label": "Nächte für ESG / Ballon"
+        },
+        {
+          "value": "24/7",
+          "label": "WhatsApp-Team erreichbar"
+        }
+      ]
+    },
+    "facts": {
+      "title": "Reise-Logistik auf einen Blick",
+      "items": [
+        {
+          "label": "Flughafenabholung",
+          "value": "VIP, inklusive"
+        },
+        {
+          "label": "Hotel",
+          "value": "Radisson, inklusive"
+        },
+        {
+          "label": "Begleitperson",
+          "value": "übernachtet kostenlos"
+        },
+        {
+          "label": "Dolmetscher",
+          "value": "durchgehend gestellt"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Der Tag-für-Tag-Ablauf (Schlauchmagen & Bypass)",
+      "steps": [
+        "<strong>Tag 1 – Ankunft & Untersuchungen.</strong> Ein VIP-Fahrer empfängt Sie am Flughafen Istanbul und bringt Sie zum Krankenhaus. Bluttests, EKG, Röntgen des Brustkorbs, Bauch-Ultraschall, Anästhesie-Vorgespräch und Ihre Beratung mit Dr Ustun finden alle am selben Nachmittag statt. Sie übernachten im Hotel (oder im Krankenhaus, falls die Operation früh am nächsten Morgen stattfindet).",
+        "<strong>Tag 2 – Operationstag.</strong> Die Operation dauert etwa eine Stunde. Sie wachen in Ihrem Privatzimmer auf; die Pflegekräfte lassen Sie noch am selben Abend über den Flur laufen – das Beste, was Sie für Ihre Genesung tun können.",
+        "<strong>Tag 3–4 – Genesung im Krankenhaus.</strong> Dichtigkeitstest, Übergang zu klaren Flüssigkeiten, tägliche Visiten von Dr Ustun und dem Ernährungsberater. Die meisten Patienten beschreiben ein Unbehagen, keinen Schmerz – mit Routinemedikation gut beherrscht.",
+        "<strong>Tag 4–5 – Genesung im Hotel.</strong> Entlassung ins Radisson mit Ihrem Medikamentenpaket. Sie gehen kurze Strecken, trinken Flüssigkeiten nach Plan, und das Team meldet sich täglich.",
+        "<strong>Tag 5–6 – Abschlusskontrolle & Heimflug.</strong> Abschließende Untersuchung, Ihr Protokoll und Ihre Nahrungsergänzungsmittel für zu Hause, dann ein Transfer zum Flughafen. Ein Gangplatz und regelmäßiges Gehen während des Flugs sind alles, was Sie brauchen."
+      ],
+      "p1": "Sie erhalten stattdessen eine <esgLink>ESG</esgLink> oder einen <balloonLink>Magenballon</balloonLink>? Ihre Variante ist kürzer: Eingriff an Tag 1–2, Entlassung am selben Tag oder am nächsten Morgen, Heimflug ab Tag 2–3.",
+      "cta": "Meinen persönlichen Reiseplan erhalten"
+    },
+    "packing": {
+      "title": "Packliste – was Patienten sich gewünscht hätten mitzunehmen",
+      "items": [
+        "Reisepass, gültig für 150+ Tage (britische Staatsbürger benötigen kein Visum)",
+        "Weite, vorne zu öffnende Kleidung und Slipper zum Hineinschlüpfen",
+        "Regelmäßige Medikamente in der Originalverpackung",
+        "Kleines Kissen – das Umarmen erleichtert den Heimflug",
+        "Lippenpflege und Reise-Toilettenartikel",
+        "Unterhaltung für die Wartezeiten im Krankenhaus (Ladegerät + langes Kabel!)",
+        "Eine leere Wasserflasche zum planmäßigen Trinken",
+        "Angemessene Erwartungen: Dies ist Genesung, keine Besichtigungstour"
+      ]
+    },
+    "flyingHome": {
+      "title": "Sicher nach Hause fliegen: Die Regeln zur Flugtauglichkeit",
+      "intro": "Flugreisen nach einer Adipositas-Operation sind sicher, wenn sie richtig getaktet sind. Unsere Standardfreigaben:",
+      "rules": [
+        "<strong>Schlauchmagen / Bypass / Revision:</strong> Flug ab Tag 4–6, nach Ihrer abschließenden chirurgischen Kontrolle",
+        "<strong>ESG:</strong> Flug ab Tag 2–3",
+        "<strong>Magenballon:</strong> Flug ab Tag 1–2"
+      ],
+      "outro": "Im Flug: Wählen Sie einen Gangplatz, gehen Sie alle 45–60 Minuten, trinken Sie ständig kleine Mengen und tragen Sie die von uns bereitgestellten Kompressionsstrümpfe – die übliche Thromboseprophylaxe nach jeder Operation. Langstreckenpatienten (USA, Australien) wird eventuell empfohlen, eine zusätzliche Nacht zu bleiben; wir planen dies mit Ihnen, bevor Sie Flüge buchen."
+    },
+    "companion": {
+      "title": "Alleine reisen vs. eine Begleitperson mitnehmen",
+      "p1": "Etwa die Hälfte unserer internationalen Patienten reist allein – das Paket ist dafür ausgelegt, mit jedem organisierten Transfer, englischsprachigem Personal, einem Dolmetscher bei jedem medizinischen Schritt und täglichen Meldungen im Hotel. Wenn Sie eine Begleitperson mitbringen, übernachtet diese kostenlos in Ihrem Hotelzimmer, kann im Krankenhaus übernachten, und Istanbul bietet ihr während Ihres Eingriffstages reichlich Möglichkeiten. So oder so werden Sie in einer fremden Stadt nie allein gelassen, um etwas selbst herauszufinden."
+    },
+    "surgeonProof": {
+      "title": "Logistik ist Teil der Sicherheit",
+      "subtitle": "Reibungslose Transfers und strukturierte Genesungstage sind kein Luxus – so werden Komplikationen früh erkannt und Genesungen bleiben auf Kurs."
+    },
+    "faq": {
+      "title": "Reise – Ihre Fragen beantwortet",
+      "items": [
+        {
+          "question": "Wie bald nach der Adipositas-Operation kann ich nach Hause fliegen?",
+          "answer": "Für Schlauchmagen- und Bypass-Patienten ist ein Flug 4-6 Tage nach der Operation sicher und Routine – Sie haben 2-3 überwachte Nächte im Krankenhaus und 1-2 Genesungsnächte im Hotel hinter sich, mit einer abschließenden chirurgischen Kontrolle vor der Abreise. ESG- und Ballon-Patienten können meist innerhalb von 2-3 Tagen fliegen. Wir legen Ihren Rückflugtermin mit Ihnen fest, bevor Sie ihn überhaupt buchen."
+        },
+        {
+          "question": "Sollte ich jemanden mitbringen?",
+          "answer": "Sie müssen nicht – viele Patienten reisen allein, und unsere Koordinatoren, Fahrer und Pflegekräfte kümmern sich um alles –, aber eine Begleitperson macht die Reise angenehmer. Begleitpersonen übernachten in unseren Paketen kostenlos in Ihrem Hotelzimmer, und die Krankenhauszimmer bieten Platz für einen Übernachtungsgast. Wenn Sie allein kommen, schaut unser Team täglich im Hotel nach Ihnen."
+        },
+        {
+          "question": "Was passiert, wenn ich am Flughafen Istanbul lande?",
+          "answer": "Ein VIP-Fahrer empfängt Sie in der Ankunftshalle mit Ihrem Namensschild, nimmt Ihr Gepäck und fährt Sie je nach Zeitplan direkt zum Hotel oder ins Krankenhaus. Alle Transfers – Flughafen, Hotel, Krankenhaus und zurück – sind inklusive, sodass Sie nie ein Taxi oder öffentliche Verkehrsmittel benötigen."
+        },
+        {
+          "question": "Was sollte ich für eine Adipositas-Operation im Ausland einpacken?",
+          "answer": "Das Wichtigste: Reisepass (gültig für 150+ Tage), bequeme weite Kleidung, Slipper zum Hineinschlüpfen, Lippenpflege, alle regelmäßigen Medikamente in Originalverpackung, ein kleines Kissen für den Heimflug (das Umarmen erleichtert Husten und den Druck des Sicherheitsgurts) und eine leere Wasserflasche zum Trinken. Wir senden Ihnen bei der Buchung eine vollständige Packliste."
+        },
+        {
+          "question": "Ist Istanbul für medizinische Reisen sicher?",
+          "answer": "Istanbul empfängt jedes Jahr über eine Million internationale Medizinreisende, und die Stadtviertel rund um das Liv Hospital sind modern, sicher und an internationale Patienten gewöhnt. Bei jeder geplanten Fahrt werden Sie von unseren Fahrern und Koordinatoren begleitet, und das Team ist während Ihres gesamten Aufenthalts 24/7 über WhatsApp erreichbar."
+        },
+        {
+          "question": "Was, wenn ich nach dem Heimflug ein Problem habe?",
+          "answer": "Sie behalten direkten WhatsApp-Zugang zum klinischen Team – senden Sie jederzeit eine Nachricht oder Fotos, und Sie erhalten am selben Tag eine Antwort. Die Pakete Entspannung und Luxus umfassen 12 Monate Nachsorge durch in Großbritannien registrierte Ernährungsberater, und Patienten aus Großbritannien haben persönliche Betreuung an 8 Standorten. Bei dringenden Fällen koordinieren wir uns mit den örtlichen Diensten und Ihrem Hausarzt."
+        }
+      ]
+    },
+    "related": {
+      "title": "Planen Sie Ihren Eingriff",
+      "links": [
+        {
+          "title": "Ratgeber für Patienten aus Großbritannien",
+          "description": "Feste GBP-Preise & UK-Nachsorge an 8 Standorten"
+        },
+        {
+          "title": "Kostenratgeber",
+          "description": "All-inclusive-Preise 2026 im Vergleich zu UK, US & EU"
+        },
+        {
+          "title": "Schlauchmagen",
+          "description": "Das am häufigsten gewählte Verfahren – ab £2,950"
+        },
+        {
+          "title": "ESG (nicht-chirurgisch)",
+          "description": "Kürzeste Reise: 2–3 Tage – ab £4,950"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Erhalten Sie Ihren persönlichen Reiseplan",
+      "text": "Nennen Sie uns über WhatsApp das Verfahren, das Sie interessiert, und Ihre Wunschtermine – Sie erhalten innerhalb von 24 Stunden einen Tag-für-Tag-Plan, Flugempfehlungen und ein festes All-inclusive-Angebot.",
+      "button": "Meine Reise kostenlos planen"
+    }
+  },
+  "balloonVsSleevePage": {
+    "hero": {
+      "eyebrow": "Entscheidungshilfe",
+      "title": "Magenballon vs. Schlauchmagen",
+      "subtitle": "Das eine ist vorübergehend, reversibel und benötigt keine Operation; das andere ist dauerhaft und weitaus wirksamer. Die ehrliche Frage lautet nicht, welches „besser“ ist – sondern wie viel Gewicht Sie verlieren müssen und für wie lange.",
+      "stats": [
+        {
+          "value": "10–15%",
+          "label": "Gesamtgewichtsverlust – Ballon"
+        },
+        {
+          "value": "25–30%",
+          "label": "Gesamtgewichtsverlust – Schlauchmagen"
+        },
+        {
+          "value": "6–12 Mon.",
+          "label": "Ballon-Verweildauer"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Ballon vs. Schlauchmagen auf einen Blick",
+      "columns": [
+        "Faktor",
+        "Magenballon",
+        "Schlauchmagen"
+      ],
+      "rows": [
+        [
+          "Technik",
+          "Silikonballon im Magen platziert (endoskopisch oder schluckbar)",
+          "~80% des Magens werden chirurgisch entfernt"
+        ],
+        [
+          "Dauerhaftigkeit",
+          "Vorübergehend – nach 6 oder 12 Monaten entfernt",
+          "Dauerhaft"
+        ],
+        [
+          "Gesamtkörpergewichtsverlust",
+          "10–15% (während der Verweildauer)",
+          "25–30% (dauerhaft)"
+        ],
+        [
+          "Narkose",
+          "Sedierung, ~20 Minuten",
+          "Vollnarkose, ~60 Minuten"
+        ],
+        [
+          "Krankenhausaufenthalt",
+          "Keiner – noch am selben Tag nach Hause",
+          "2–3 Nächte"
+        ],
+        [
+          "Rückkehr zur Arbeit",
+          "1–3 Tage",
+          "10–14 Tage"
+        ],
+        [
+          "Reversibel",
+          "Vollständig",
+          "Nein"
+        ],
+        [
+          "Idealer BMI-Bereich",
+          "27–35",
+          "35–55+"
+        ],
+        [
+          "Hauptnachteil",
+          "Erneute Gewichtszunahme nach Entfernung",
+          "Irreversibel; Reflux-Risiko"
+        ],
+        [
+          "Preis im IBC (all-inclusive)",
+          "Ab £1,650",
+          "Ab £2,950"
+        ]
+      ]
+    },
+    "prose": {
+      "title": "Die richtige Betrachtungsweise",
+      "p1": "Ballon und Schlauchmagen lösen <strong>unterschiedliche Probleme</strong>. Der <link1>Magenballon</link1> ist ein Werkzeug für 6–12 Monate: Er füllt Raum im Magen, sodass Sie früher satt werden – ideal, um 10–25 kg zu verlieren, ein Plateau zu durchbrechen oder die Restriktion zu testen, bevor Sie sich zu etwas Dauerhaftem verpflichten. Der <link2>Schlauchmagen</link2> ist eine dauerhafte Operation, die sowohl das Fassungsvermögen als auch die Hungerhormone verändert – das passende Werkzeug, wenn die Adipositas etabliert und langfristig ist.",
+      "p2": "Wenn Sie die Sanftheit des Ballons, aber die Dauerhaftigkeit des Schlauchmagens wünschen, gibt es diesen Mittelweg: Die <link1>ESG (endoskopische Schlauchmagen-Gastroplastie)</link1> ist wie der Ballon nicht-chirurgisch, erzielt aber 15–20% Gesamtkörpergewichtsverlust, der anhält – vergleichen Sie sie in unserem <link2>Ratgeber ESG vs. Schlauchmagen</link2>.",
+      "cta": "Nicht sicher? Kostenlose Beratung erhalten"
+    },
+    "candidacy": {
+      "title": "Der Ballon ist das Richtige für Sie, wenn …",
+      "intro": "Wir empfehlen den Ballon wirklich, wenn:",
+      "criteria": [
+        "Ihr BMI 27–35 beträgt und Sie 10–25 kg verlieren müssen",
+        "Sie eine vollständig reversible Option ohne Operation wünschen",
+        "Sie vor einer weiteren Operation (einschließlich Adipositaschirurgie) Gewicht verlieren müssen",
+        "Sie testen möchten, wie sich Restriktion anfühlt, bevor Sie eine dauerhafte Entscheidung treffen",
+        "Sie sich auf das Ernährungsberater-Programm einlassen können – der Ballon wirkt nur damit"
+      ],
+      "note": "Wenn Ihr BMI über 35 liegt und dies ein langfristiges Gewichtsproblem ist, seien Sie vorsichtig, den Ballon nur zu wählen, weil er einfacher erscheint – die erneute Gewichtszunahme nach der Entfernung ist die häufigste Klage, die wir von Patienten hören, die andernorts einen Ballon hatten. Die ESG oder der Schlauchmagen werden Ihnen besser dienen."
+    },
+    "surgeonProof": {
+      "title": "Wir bieten alle drei an – damit Sie das Richtige erhalten",
+      "subtitle": "Ballon, ESG und chirurgischer Schlauchmagen werden alle im Haus durchgeführt, was bedeutet, dass sich unsere Empfehlung nach Ihrem Fall richtet und nicht nach unserer Angebotspalette."
+    },
+    "faq": {
+      "title": "Ballon vs. Schlauchmagen – Ihre Fragen beantwortet",
+      "items": [
+        {
+          "question": "Ist ein Magenballon so wirksam wie ein Schlauchmagen?",
+          "answer": "Nein. Ein Ballon erzielt 10-15% Gesamtkörpergewichtsverlust, solange er sich im Magen befindet (6-12 Monate); der chirurgische Schlauchmagen erzielt 25-30%, und das Ergebnis ist dauerhaft. Der Vorteil des Ballons ist, dass er vorübergehend, nicht-chirurgisch und vollständig reversibel ist – ein Werkzeug, um den Gewichtsverlust anzustoßen oder sich auf eine Operation vorzubereiten, keine lebenslange Lösung."
+        },
+        {
+          "question": "Kommt das Gewicht nach einem Magenballon zurück?",
+          "answer": "Das kann passieren. Sobald der Ballon entfernt ist, kehrt der Magen zu seinem normalen Fassungsvermögen zurück, sodass das Halten des Gewichts vollständig von den während der Ballonzeit aufgebauten Essgewohnheiten abhängt. Studien zeigen, dass ein erheblicher Teil der Patienten innerhalb von 1-2 Jahren nach der Entfernung wieder zunimmt, sofern sie nicht zu einer weiteren Behandlung übergehen oder strenge Gewohnheiten beibehalten."
+        },
+        {
+          "question": "Für wen ist ein Magenballon tatsächlich das Richtige?",
+          "answer": "Für Patienten mit BMI 27-35, die 10-25 kg verlieren müssen, für Patienten, die einen vollständig reversiblen Test der Restriktion wünschen, bevor sie sich zu einer Operation verpflichten, und für Patienten mit höherem BMI, die vor einer Operation Gewicht verlieren müssen. Bei einem BMI über 35 und dem Wunsch nach einem dauerhaften Ergebnis sind die ESG oder ein chirurgischer Schlauchmagen meist die bessere Investition."
+        },
+        {
+          "question": "Ist der Ballon sicherer als der Schlauchmagen?",
+          "answer": "Der Ballon vermeidet eine Operation vollständig – er wird endoskopisch in etwa 20 Minuten platziert, und schluckbare Varianten benötigen gar keine Endoskopie. Schwere Komplikationen sind selten, wobei Übelkeit in der ersten Woche häufig ist. Der Schlauchmagen ist ebenfalls sehr sicher (1-3% schwere Komplikationen), aber eine dauerhafte Operation. Dazwischen liegt die ESG: nicht-chirurgisch wie der Ballon, dauerhaft wie der Schlauchmagen."
+        },
+        {
+          "question": "Was kosten Ballon und Schlauchmagen in der Türkei?",
+          "answer": "Im Istanbul Bariatric Center beginnt der Magenballon bei £1,650 und der Schlauchmagen bei £2,950, beide all-inclusive. Beachten Sie, dass ein Ballon 6-12 Monate hält, während der Schlauchmagen dauerhaft ist – pro langfristig gehaltenem Kilogramm sind der Schlauchmagen und die ESG meist das bessere Preis-Leistungs-Verhältnis."
+        },
+        {
+          "question": "Kann ich nach einem Ballon einen Schlauchmagen oder eine ESG bekommen?",
+          "answer": "Ja, und es ist ein häufiger Weg: zuerst der Ballon, um Gewicht zu reduzieren und zu beweisen, dass Restriktion bei Ihnen funktioniert, dann die ESG oder ein chirurgischer Schlauchmagen für das dauerhafte Ergebnis. Wir planen diesen zweistufigen Weg für geeignete Patienten gezielt."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ihr nächster Schritt",
+      "links": [
+        {
+          "title": "Magenballon",
+          "description": "Vollständiger Ratgeber – ab £1,650"
+        },
+        {
+          "title": "ESG – der Mittelweg",
+          "description": "Nicht-chirurgisch & dauerhaft – ab £4,950"
+        },
+        {
+          "title": "Schlauchmagen",
+          "description": "Vollständiger Ratgeber – ab £2,950"
+        },
+        {
+          "title": "Kostenratgeber",
+          "description": "Alle Preise 2026 im Vergleich zu UK, US & EU"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Nennen Sie uns Ihr Ziel – wir planen den Weg",
+      "text": "Ob 10 kg oder 60 kg – schreiben Sie unserem Team mit Ihrer Größe, Ihrem Gewicht und Ihrem Ziel. Sie erhalten innerhalb von 24 Stunden eine ehrliche Empfehlung – Ballon, ESG, Schlauchmagen oder keines davon.",
+      "button": "Meine kostenlose Empfehlung erhalten"
+    }
+  },
+  "refluxPage": {
+    "hero": {
+      "eyebrow": "Ergebnisratgeber",
+      "title": "Sodbrennen nach Schlauchmagen: Was es bedeutet und wie es behoben wird",
+      "subtitle": "GERD ist die bekannteste langfristige Abwägung des Schlauchmagens – sie betrifft bis zu 55% der Patienten. Die meisten Fälle sind beherrschbar; einige erfordern eine Reparatur; eine endgültige Heilung existiert. So erkennen Sie, zu welcher Gruppe Sie gehören.",
+      "stats": [
+        {
+          "value": "55%",
+          "label": "Schlauchmagen-Patienten mit GERD langfristig"
+        },
+        {
+          "value": "~90%",
+          "label": "durch Bypass-Umwandlung behoben"
+        },
+        {
+          "value": "1. Schritt",
+          "label": "Endoskopie, nicht mehr Säureblocker"
+        }
+      ]
+    },
+    "whyReflux": {
+      "title": "Warum der Schlauchmagen Reflux verursacht",
+      "p1": "Ein Schlauchmagen verwandelt den Magen von einem Beutel mit niedrigem Druck in einen schmalen Schlauch mit hohem Druck, und die Operation verändert den Winkel und die Ventilanatomie am oberen Magenende. Kommt ein Zwerchfellbruch hinzu – bei vielen Patienten mit Adipositas vorhanden und manchmal erst nach der Operation entstehend – wird Säure nach oben gedrückt, besonders nachts.",
+      "p2": "Dies ist ein <strong>mechanisches</strong> Problem. Das ist wichtig, denn mechanische Probleme sprechen nicht dauerhaft auf chemische Lösungen an: PPI (Säureblocker) mindern das Brennen der Säure, ändern aber nichts am Druck oder am Ventil, und nicht-saurer Reflux kann die Speiseröhre still weiter schädigen.",
+      "cta": "Meinen Reflux besprechen – kostenlos"
+    },
+    "redFlags": {
+      "title": "Warnzeichen – lassen Sie sich untersuchen, wenn …",
+      "intro": "Suchen Sie einen Adipositas-Spezialisten auf (nicht nur eine Rezeptverlängerung beim Hausarzt), wenn eines der folgenden Punkte zutrifft:",
+      "criteria": [
+        "Sie über das erste Jahr nach der Operation hinaus täglich PPI benötigen",
+        "Reflux Sie nachts weckt oder Sie erhöht schlafen",
+        "Nahrung oder Flüssigkeit beim Bücken oder Liegen zurückfließt",
+        "Die Symptome sich verschlimmern statt stabil zu bleiben",
+        "Sie zusätzlich zum Reflux erneut an Gewicht zunehmen",
+        "Sie Schluckbeschwerden haben oder Nahrung stecken bleibt – suchen Sie umgehend einen Arzt auf"
+      ],
+      "note": "Langjähriger Reflux kann einen Barrett-Ösophagus verursachen, eine präkanzeröse Veränderung, die unbemerkt bleibt, während Tabletten die Symptome überdecken. Eine einmalige Endoskopie klärt, ob Ihre Speiseröhre sicher ist."
+    },
+    "ladder": {
+      "title": "Behandlungsstufen: Von Tabletten bis zur Heilung",
+      "columns": [
+        "Stufe",
+        "Worum es geht",
+        "Am besten geeignet für",
+        "Einschränkung"
+      ],
+      "rows": [
+        [
+          "Lebensstil + PPI-Medikation",
+          "Kleinere Abendmahlzeiten, erhöhtes Schlafen, tägliche PPI",
+          "Leichter Reflux, First-Line für alle",
+          "Kontrolliert Symptome; behebt nichts Mechanisches"
+        ],
+        [
+          "Diagnostische Endoskopie",
+          "Kamera-Beurteilung von Schlauchmagen, Ventil und Speiseröhre",
+          "Alle mit PPI >12 Monate oder Warnzeichen",
+          "Diagnostisch – leitet die Behebung"
+        ],
+        [
+          "Zwerchfellbruch-Reparatur",
+          "Laparoskopische Reparatur der Zwerchfellöffnung",
+          "Bestätigter Bruch bei erhaltener Schlauchmagen-Form",
+          "Hilft nicht, wenn der Schlauchmagen selbst das Problem ist"
+        ],
+        [
+          "Umwandlung in Mini-Magenbypass",
+          "Schlauchmagen in Bypass umgewandelt – Säure stromabwärts abgeleitet",
+          "Anhaltender GERD, besonders mit erneuter Gewichtszunahme",
+          "Eine zweite Operation – 2–3 Nächte im Krankenhaus"
+        ]
+      ],
+      "footnote": "Etwa 90% der Patienten, die wegen GERD in einen Bypass umgewandelt werden, setzen PPI ab oder reduzieren sie drastisch."
+    },
+    "definitiveFix": {
+      "title": "Die endgültige Lösung: Umwandlung von Schlauchmagen zu Bypass",
+      "p1": "Wenn der Reflux trotz Medikation anhält – oder wenn Sie es einfach leid sind, jeden Tag Tabletten gegen ein mechanisches Problem zu nehmen – ist die Umwandlung des Schlauchmagens in einen <link1>Mini-Magenbypass</link1> die endgültige Antwort. Der kleine Beutel produziert wenig Säure, und was übrig bleibt, wird eineinhalb Meter stromabwärts geleitet. Es ist dieselbe Operation, die bei <link2>erneuter Gewichtszunahme nach Schlauchmagen</link2> eingesetzt wird, weshalb die Kombination aus GERD + Zunahme so klar auf eine Umwandlung hinweist.",
+      "p2": "Im Istanbul Bariatric Center beginnt jede Umwandlung mit einer diagnostischen Endoskopie und, wo nötig, einer gleichzeitigen Zwerchfellbruch-Reparatur – siehe den vollständigen <link1>Ratgeber zur Revisionschirurgie</link1> für Ablauf und Preise."
+    },
+    "surgeonProof": {
+      "title": "Reflux-Revision ist Präzisionsarbeit",
+      "subtitle": "Die Umwandlung bei GERD erfordert eine genaue endoskopische Diagnose und einen erfahrenen Revisionschirurgen – genau die Kombination, die ein Zentrum mit hoher Fallzahl bietet."
+    },
+    "faq": {
+      "title": "Reflux nach Schlauchmagen – Ihre Fragen beantwortet",
+      "items": [
+        {
+          "question": "Warum entsteht Sodbrennen nach einem Schlauchmagen?",
+          "answer": "Der Schlauchmagen verwandelt den Magen in einen schmalen Schlauch mit hohem Druck und entfernt einen Teil des natürlichen Anti-Reflux-Ventilmechanismus. Die Säure hat weniger Raum und mehr Druck, der sie in Richtung Speiseröhre drückt. Studien zeigen, dass GERD langfristig bis zu 55% der Schlauchmagen-Patienten betrifft und etwa 10% einen Reflux entwickeln, der schwer genug ist, um eine Intervention zu erfordern."
+        },
+        {
+          "question": "Verschwindet der Reflux nach meinem Schlauchmagen von selbst?",
+          "answer": "Leichter Reflux in den ersten Monaten legt sich oft, wenn die Schwellung abklingt und das Gewicht sinkt. Reflux, der über ein Jahr hinaus anhält, sich mit der Zeit verschlimmert oder Sie nachts weckt, verschwindet in der Regel nicht von allein – und langjähriger unbehandelter Reflux kann die Speiseröhre schädigen (Barrett-Ösophagus), daher braucht er eine Untersuchung, nicht nur weitere Säureblocker."
+        },
+        {
+          "question": "Welche Behandlungsoptionen gibt es bei Reflux nach einem Schlauchmagen?",
+          "answer": "In der Reihenfolge der Eskalation: (1) Lebensstilmaßnahmen und PPI-Medikation (Omeprazol-Gruppe), (2) endoskopische Beurteilung zur Prüfung auf Zwerchfellbruch oder Schlauchmagen-Deformierung, (3) Zwerchfellbruch-Reparatur, falls einer gefunden wird, und (4) Umwandlung in einen Mini-Magenbypass – die endgültige Lösung, weil sie die Säure vollständig von der Speiseröhre ableitet. Die Bypass-Umwandlung behebt oder verbessert den Reflux in etwa 90% der Fälle drastisch."
+        },
+        {
+          "question": "Ist es sicher, jahrelang PPI (Omeprazol) einzunehmen?",
+          "answer": "PPI sind unter ärztlicher Aufsicht im Allgemeinen sicher, doch sie nach einem Schlauchmagen über Jahre täglich zu benötigen, ist ein Signal, das eine Abklärung wert ist – sowohl wegen möglicher Langzeitwirkungen (Nährstoffaufnahme, Knochendichte) als auch, weil eine anhaltende Säureexposition die Speiseröhre still schädigen kann, selbst wenn die Tabletten das Brennen kontrollieren."
+        },
+        {
+          "question": "Heilt die Umwandlung eines Schlauchmagens in einen Bypass den Reflux wirklich?",
+          "answer": "Es ist die zuverlässigste verfügbare Lösung. Der Bypass erzeugt einen kleinen Beutel, der wenig Säure produziert, und leitet Galle und Säure weit stromabwärts, sodass es schlicht viel weniger zum Refluxieren gibt. Etwa 90% der wegen GERD umgewandelten Patienten setzen ihre PPI ab oder reduzieren sie drastisch. Die Umwandlung behebt zugleich eine etwaige erneute Gewichtszunahme."
+        },
+        {
+          "question": "Ich habe sowohl Reflux als auch erneute Gewichtszunahme – was behandle ich?",
+          "answer": "Beides, meist mit einem Eingriff. Die Umwandlung von Schlauchmagen zu Bypass eignet sich einzigartig für diese Kombination – sie ist die Standardantwort, wenn Zunahme und GERD gemeinsam auftreten, behebt die Säureexposition und startet zugleich den Gewichtsverlust neu. Das ist eines der häufigsten Revisionsszenarien, die wir behandeln."
+        }
+      ]
+    },
+    "related": {
+      "title": "Wie es weitergeht",
+      "links": [
+        {
+          "title": "Revisionschirurgie-Übersicht",
+          "description": "Einschätzungsprozess, Wege & Preise"
+        },
+        {
+          "title": "Mini-Magenbypass",
+          "description": "Die Umwandlung, die Reflux heilt"
+        },
+        {
+          "title": "Erneute Gewichtszunahme nach Schlauchmagen",
+          "description": "Falls die Zunahme mit dem Sodbrennen kam"
+        },
+        {
+          "title": "Schlauchmagen vs. Bypass",
+          "description": "Wählen Sie Ihre erste Operation? Lesen Sie dies"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Hören Sie auf zu raten – lassen Sie Ihren Reflux kostenlos prüfen",
+      "text": "Teilen Sie uns mit, wann Sie Ihren Schlauchmagen hatten, welche Medikamente Sie nehmen und welche Symptome Sie haben. Das Team von Dr Ustun sagt Ihnen innerhalb von 24 Stunden, ob Sie eine Beruhigung, eine Reparatur oder eine Umwandlung brauchen.",
+      "button": "Meine kostenlose Reflux-Prüfung erhalten"
+    }
+  },
+  "longTermResultsPage": {
+    "hero": {
+      "eyebrow": "Evidenz-Ratgeber",
+      "title": "Langzeitergebnisse der Adipositaschirurgie: Was nach 5, 10 und 20 Jahren wirklich geschieht",
+      "subtitle": "Die ehrlichen Zahlen – anhaltender Gewichtsverlust, Diabetes-Remission, längere Lebenserwartung und die Statistiken zur erneuten Gewichtszunahme, die Ihnen die meisten Kliniken nicht zeigen.",
+      "stats": [
+        {
+          "value": "20–30%",
+          "label": "Körpergewicht nach 10 J. noch weg"
+        },
+        {
+          "value": "30–50%",
+          "label": "geringere Langzeitsterblichkeit"
+        },
+        {
+          "value": "80–90%",
+          "label": "Diabetes-Remission (Bypass)"
+        }
+      ]
+    },
+    "facts": {
+      "title": "Das lange Spiel, in Zahlen",
+      "items": [
+        {
+          "label": "Übergewicht weg nach 10 J. (Schlauchmagen)",
+          "value": "50–60%"
+        },
+        {
+          "label": "Übergewicht weg nach 10 J. (Bypass)",
+          "value": "55–65%"
+        },
+        {
+          "label": "ESG ≥10% Verlust nach 5 J. gehalten",
+          "value": ">80%"
+        },
+        {
+          "label": "Diabetes-Remission >10 J. anhaltend",
+          "value": "~50%"
+        }
+      ]
+    },
+    "studies": {
+      "title": "Was die wegweisenden Studien zeigen",
+      "intro": "Die Adipositaschirurgie ist eine der am besten untersuchten Interventionen der Medizin. Die schwedische SOS-Studie (Swedish Obese Subjects) hat Tausende Patienten über mehr als 20 Jahre begleitet; zusammen mit großen nationalen Registern zeigt sie ein konsistentes Bild:",
+      "points": [
+        "<strong>Gewicht:</strong> Chirurgische Patienten halten nach 10 Jahren 20–30% Gesamtkörpergewichtsverlust, gegenüber rund 1–2% bei intensiver nicht-chirurgischer Betreuung.",
+        "<strong>Überleben:</strong> Die Gesamtsterblichkeit sinkt um 30–50%, mit den größten Reduktionen bei kardiovaskulären Todesfällen und adipositasbedingten Krebserkrankungen.",
+        "<strong>Diabetes:</strong> Remission bei der Mehrheit der Patienten, wobei etwa die Hälfte der Remissionen über 10 Jahre hinaus anhält – und mit besserer Kontrolle, selbst wenn er zurückkehrt.",
+        "<strong>Lebensqualität:</strong> anhaltende Verbesserungen bei Beweglichkeit, Schlafapnoe, Gelenkschmerzen, Fruchtbarkeit und Depressionswerten zu jedem langfristigen Nachsorgezeitpunkt."
+      ],
+      "cta": "Fragen Sie, was ich erwarten könnte"
+    },
+    "comparison": {
+      "title": "Dauerhaftigkeit nach Verfahren",
+      "columns": [
+        "Verfahren",
+        "Gesamtgewichtsverlust (Höhepunkt)",
+        "Nach 10 Jahren gehalten",
+        "Wichtige langfristige Erwägung"
+      ],
+      "rows": [
+        [
+          "Schlauchmagen",
+          "25–30%",
+          "20–25%",
+          "GERD bei bis zu 55%; erneute Zunahme bei ~30% bis Jahr 5"
+        ],
+        [
+          "Mini-Magenbypass",
+          "30–35%",
+          "25–30%",
+          "Lebenslange Nahrungsergänzung; stärkster Diabetes-Effekt"
+        ],
+        [
+          "ESG (endoskopisch)",
+          "15–20%",
+          ">80% halten ≥10% nach 5 J.",
+          "Nachziehbar; Operation bleibt verfügbar"
+        ],
+        [
+          "Magenballon",
+          "10–15%",
+          "Hängt von den Gewohnheiten nach Entfernung ab",
+          "Ein Anstoß-Werkzeug, keine langfristige Behandlung"
+        ]
+      ],
+      "footnote": "Bereiche aus veröffentlichten Langzeitstudien, darunter SOS, MERIT und nationale Registerdaten; individuelle Ergebnisse variieren."
+    },
+    "regain": {
+      "title": "Der ehrliche Teil: Erneute Zunahme kommt vor – und ist behandelbar",
+      "p1": "Ein moderater Wiederanstieg von Ihrem niedrigsten Gewicht ist normale Biologie, kein Versagen – die obigen Langzeitdurchschnitte berücksichtigen ihn bereits. Entscheidend ist die Minderheit, die erheblich wieder zunimmt: bis zu 30% der Schlauchmagen-Patienten innerhalb von fünf Jahren. Der Unterschied zwischen einem vorübergehenden Rückschlag und einem verlorenen Ergebnis besteht darin, <strong>früh zu handeln</strong> – Reset-Programme, GLP-1-Medikation, endoskopische Straffung und chirurgische Umwandlung bilden eine vollständige Behandlungsleiter. Wir zeigen sie im <link1>Ratgeber zur erneuten Gewichtszunahme</link1>."
+    },
+    "checklist": {
+      "title": "Was Ihr Ergebnis über Jahrzehnte schützt",
+      "items": [
+        "Jährliche Bluttests – B12, Vitamin D, Eisen, Folsäure, Kalzium",
+        "Tägliches Multivitaminpräparat (lebenslang nach einem Bypass)",
+        "Protein-zuerst-Ernährung und Begrenzung flüssiger Kalorien",
+        "Auf 5 kg erneute Zunahme reagieren, nicht auf 25 kg",
+        "Ein chirurgisches Team, das Sie auch im Jahr 7 noch erreichen können – nicht nur im Jahr 1"
+      ]
+    },
+    "surgeonProof": {
+      "title": "Ergebnisdaten, die Sie hinterfragen können",
+      "subtitle": "Fragen Sie jede Klinik vor der Buchung nach ihren Langzeitzahlen. Unsere: 8,000+ Eingriffe, die oben veröffentlichten Ergebnisbereiche und Patienten seit 2015, die weiterhin über WhatsApp in Kontakt stehen."
+    },
+    "faq": {
+      "title": "Langzeitergebnisse – Ihre Fragen beantwortet",
+      "items": [
+        {
+          "question": "Wie viel Gewicht halten Menschen 10 Jahre nach der Adipositaschirurgie?",
+          "answer": "Langzeitstudien (einschließlich der wegweisenden SOS-Studie, die Patienten über mehr als 20 Jahre begleitet) zeigen, dass Patienten der Adipositaschirurgie nach 10 Jahren 20-30% Gesamtkörpergewichtsverlust halten, gegenüber nahezu nichts bei nicht-chirurgischer Behandlung. Schlauchmagen-Patienten halten nach 10 Jahren typischerweise 50-60% des Übergewichts, Bypass-Patienten 55-65%."
+        },
+        {
+          "question": "Verlängert die Adipositaschirurgie tatsächlich das Leben?",
+          "answer": "Ja – das ist eine der stärksten Erkenntnisse der modernen Chirurgie. Große Kohortenstudien zeigen bei chirurgischen Patienten über mehr als 10 Jahre eine um 30-50% geringere Gesamtsterblichkeit gegenüber vergleichbaren Kontrollgruppen, bedingt durch weniger kardiovaskuläre Todesfälle, Diabetes-Komplikationen und adipositasbedingte Krebserkrankungen."
+        },
+        {
+          "question": "Was passiert langfristig mit Typ-2-Diabetes nach der Operation?",
+          "answer": "Remission ist häufig und oft dauerhaft: nach 1-2 Jahren etwa 60-70% Remission nach Schlauchmagen und 80-90% nach Bypass, wobei etwa die Hälfte der Remissionen über 10 Jahre hinaus anhält. Selbst Patienten, deren Diabetes letztlich zurückkehrt, benötigen typischerweise weniger Medikamente und haben eine bessere Kontrolle als vor der Operation."
+        },
+        {
+          "question": "Ist eine gewisse erneute Gewichtszunahme nach der Operation unvermeidlich?",
+          "answer": "Eine moderate erneute Zunahme vom niedrigsten Punkt (typischerweise 5-10% des Körpergewichts zwischen Jahr 2 und 5) ist physiologisch normal und in den obigen Langzeitergebnissen eingerechnet. Eine erhebliche Zunahme – mehr als 25% des verlorenen Gewichts – betrifft bis zu 30% der Schlauchmagen-Patienten innerhalb von 5 Jahren und ist behandelbar; siehe unseren Ratgeber zur erneuten Gewichtszunahme."
+        },
+        {
+          "question": "Welche Langzeitnachsorge benötigt die Adipositaschirurgie?",
+          "answer": "Jährliche Bluttests (Vitamine B12, D, Eisen, Folsäure, Kalzium), konsequente Multivitamin-Einnahme – lebenslang nach einem Bypass – und Zugang zu einem Ernährungsberater, wenn die Ernährung abdriftet. Das Istanbul Bariatric Center umfasst 12 Monate strukturierte Nachsorge und bleibt lebenslang über WhatsApp erreichbar."
+        },
+        {
+          "question": "Wie vergleichen sich die Langzeitergebnisse der ESG mit denen der Chirurgie?",
+          "answer": "Die 5-Jahres-Daten der ESG (randomisierte MERIT-Studie) zeigen, dass über 80% der Patienten mindestens 10% Gesamtkörpergewichtsverlust halten – dauerhaft, aber weniger als die 20-30% der Chirurgie. Die ESG eignet sich für niedrigere BMI-Bereiche; die Chirurgie bleibt der Maßstab bei einem BMI über 40 oder erheblicher metabolischer Erkrankung."
+        }
+      ]
+    },
+    "related": {
+      "title": "Wie es weitergeht",
+      "links": [
+        {
+          "title": "Schlauchmagen vs. Bypass",
+          "description": "Wählen Sie das Verfahren mit der Dauerhaftigkeit, die Sie brauchen"
+        },
+        {
+          "title": "Erneute Gewichtszunahme nach Schlauchmagen",
+          "description": "Die vollständige Behandlungsleiter bei erneuter Zunahme"
+        },
+        {
+          "title": "Revisionschirurgie",
+          "description": "Wenn die erste Operation einen zweiten Schritt braucht"
+        },
+        {
+          "title": "Patientenergebnisse",
+          "description": "Echte Vorher-Nachher-Verläufe"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Planen Sie für die nächsten 20 Jahre, nicht für die nächsten 20 Wochen",
+      "text": "Nennen Sie uns Ihre Größe, Ihr Gewicht und Ihre Gesundheitsziele. Wir sagen Ihnen, welches Verfahren mit seiner Langzeit-Evidenz zu Ihrem Fall passt – kostenlos, ehrlich, innerhalb von 24 Stunden.",
+      "button": "Meine kostenlose Einschätzung erhalten"
+    }
+  },
+  "weightRegainPage": {
+    "hero": {
+      "eyebrow": "Ergebnisratgeber – keine Schuldzuweisung, nur Lösungen",
+      "title": "Erneute Gewichtszunahme nach Schlauchmagen: Ihre vier Wege",
+      "subtitle": "Bis zu 30% der Schlauchmagen-Patienten nehmen innerhalb von fünf Jahren erheblich wieder zu. Das ist kein persönliches Versagen – es hat körperliche Ursachen, und jede einzelne davon lässt sich behandeln. Hier ist die vollständige Übersicht.",
+      "stats": [
+        {
+          "value": "30%",
+          "label": "der Patienten nehmen innerhalb von 5 J. wieder zu"
+        },
+        {
+          "value": "4",
+          "label": "Behandlungswege"
+        },
+        {
+          "value": "1. Schritt",
+          "label": "Immer diagnostische Endoskopie"
+        }
+      ]
+    },
+    "whyBack": {
+      "title": "Warum das Gewicht zurückkommt",
+      "intro": "Drei Mechanismen treiben die erneute Zunahme nach einem Schlauchmagen an, und keiner davon ist Willenskraft:",
+      "mechanisms": [
+        "<strong>Dehnung des Schlauchmagens.</strong> Der Schlauchmagen ist ein muskulärer Schlauch, der bei jeder Mahlzeit unter Druck steht; über Jahre kann er sich allmählich dehnen und Fassungsvermögen sowie Appetit wiederherstellen.",
+        "<strong>Hormonelle Anpassung.</strong> Ghrelin (das Hungerhormon) erholt sich bei einigen Patienten 2–4 Jahre nach der Operation teilweise wieder.",
+        "<strong>Abweichung im Verhalten.</strong> Naschen, flüssige Kalorien und ausgelassene Nachsorge untergraben still und leise die verbliebene Restriktion."
+      ],
+      "outro": "Da die Ursache von Patient zu Patient unterschiedlich ist, muss es auch die Lösung sein – deshalb beginnt jeder Fall erneuter Gewichtszunahme im Istanbul Bariatric Center mit einer <strong>diagnostischen Endoskopie</strong>, nicht mit einem Verkaufsgespräch für ein bestimmtes Verfahren.",
+      "cta": "Meine Situation schildern – kostenlose Einschätzung"
+    },
+    "comparison": {
+      "title": "Die vier Wege im Vergleich",
+      "subtitle": "Von der geringsten zur stärksten Intervention. Viele Patienten kombinieren mehrere Wege – zum Beispiel ein Ernährungs-Reset plus GLP-1, während sie über einen endoskopischen Re-Sleeve entscheiden.",
+      "columns": [
+        "Weg",
+        "Am besten geeignet für",
+        "Invasivität",
+        "Erwartetes Ergebnis"
+      ],
+      "rows": [
+        [
+          "1. Ernährungsberater-geführtes Reset-Programm",
+          "Zunahme unter ~10 kg, Gewohnheiten als Auslöser erkannt",
+          "Keine – Fernprogramm",
+          "Zunahme stoppen, 5–10 kg verlieren"
+        ],
+        [
+          "2. GLP-1-Medikament (Mounjaro/Wegovy)",
+          "Mäßige Zunahme, Patient bevorzugt keinen Eingriff",
+          "Keine – wöchentliche Injektion",
+          "10–15% Verlust während der Medikation"
+        ],
+        [
+          "3. Endoskopischer Re-Sleeve",
+          "Bestätigte Dehnung des Schlauchmagens, mäßige Zunahme, kein schwerer Reflux",
+          "Endoskopisch – keine Schnitte, 0–1 Nacht",
+          "Restriktion wiederherstellen; 60–70% des wieder zugenommenen Gewichts verloren"
+        ],
+        [
+          "4. Umwandlung in Mini-Bypass / DS",
+          "Starke Zunahme, Reflux oder für Re-Sleeve ungeeignete Anatomie",
+          "Laparoskopisch, 2–3 Nächte",
+          "Stärkstes und dauerhaftestes Ergebnis"
+        ]
+      ]
+    },
+    "howDecide": {
+      "title": "Wie wir entscheiden, Schritt für Schritt",
+      "steps": [
+        "<strong>Kostenlose Ferneinschätzung.</strong> Senden Sie Ihr ursprüngliches Operationsdatum, Ihre Gewichtsverlaufsdaten und Ihr aktuelles Essverhalten über WhatsApp – Dr Ustun prüft jeden Fall erneuter Gewichtszunahme persönlich.",
+        "<strong>Diagnostische Endoskopie in Istanbul.</strong> Misst die Größe des Schlauchmagens, prüft auf Zwerchfellbruch und Reflux-Schäden. Diese eine Untersuchung bestimmt, welche Wege realistisch sind.",
+        "<strong>Entscheidung für den Weg – die geringste Intervention, die tatsächlich wirkt.</strong> Wenn ein Reset-Programm oder Medikament Ihr Ziel erreichen kann, sagen wir das; ein Eingriff wird nur empfohlen, wenn die Anatomie es verlangt.",
+        "<strong>Behandlung und 12 Monate Nachsorge</strong> mit Unterstützung durch in Großbritannien registrierte Ernährungsberater, denn welchen Weg Sie auch wählen: Die Unterstützung bei den Gewohnheiten entscheidet, ob das Ergebnis diesmal anhält."
+      ]
+    },
+    "candidacy": {
+      "title": "Wann Sie sich untersuchen lassen sollten – warten Sie nicht auf „schlimm genug“",
+      "intro": "Buchen Sie eine Einschätzung zur erneuten Gewichtszunahme, wenn eines der folgenden Punkte zutrifft:",
+      "criteria": [
+        "Sie haben mehr als 25% des ursprünglich verlorenen Gewichts wieder zugenommen",
+        "Die Portionsgrößen sind deutlich wieder auf dem Niveau vor der Operation",
+        "Der Hunger zwischen den Mahlzeiten ist zurückgekehrt",
+        "Sodbrennen oder Reflux ist zusammen mit der Zunahme aufgetreten oder hat sich verschlimmert",
+        "Sie ziehen ein GLP-1-Medikament in Betracht und möchten wissen, ob es das richtige Werkzeug ist"
+      ],
+      "note": "Die erneute Zunahme beschleunigt sich: Bei 10 kg Zunahme zu handeln, hält alle Optionen offen, auch die einfachsten. Wenn Reflux Ihr größeres Problem ist, beginnen Sie mit unserem <refluxLink>Ratgeber zu Reflux nach Schlauchmagen</refluxLink>."
+    },
+    "surgeonProof": {
+      "title": "Warum Patienten mit erneuter Gewichtszunahme nach Istanbul kommen",
+      "subtitle": "Eine Revisionseinschätzung erfordert ein Zentrum, das jeden Weg anbietet – endoskopisch und chirurgisch – damit sich die Empfehlung nach Ihrer Endoskopie richtet, nicht nach den Grenzen der Klinik."
+    },
+    "faq": {
+      "title": "Erneute Gewichtszunahme – Ihre Fragen beantwortet",
+      "items": [
+        {
+          "question": "Ist eine erneute Gewichtszunahme nach dem Schlauchmagen normal?",
+          "answer": "Eine gewisse Zunahme ist häufig – Studien zeigen, dass bis zu 30% der Schlauchmagen-Patienten innerhalb von 5 Jahren erheblich wieder zunehmen. Das bedeutet nicht, dass Sie versagt haben. Die häufigsten Ursachen sind eine allmähliche Dehnung des Schlauchmagens, hormonelle Anpassung und die Rückkehr alter Essmuster. Alle drei sind behandelbar."
+        },
+        {
+          "question": "Woran erkenne ich, ob sich mein Schlauchmagen gedehnt hat?",
+          "answer": "Warnzeichen sind, dass Sie viel größere Portionen essen können als im ersten Jahr, dass der Hunger zwischen den Mahlzeiten zurückkehrt und dass Sie trotz vernünftiger Ernährung stetig zunehmen. Bestätigen lässt sich das nur durch eine diagnostische Endoskopie, die den Schlauchmagen misst und andere Ursachen ausschließt – das ist immer unser erster Schritt, bevor wir eine Behandlung empfehlen."
+        },
+        {
+          "question": "Welche Optionen habe ich, wenn ich nach einem Schlauchmagen wieder zugenommen habe?",
+          "answer": "Vier Hauptwege, in aufsteigender Reihenfolge der Intervention: (1) ein strukturiertes, von Ernährungsberatern geführtes Reset-Programm, (2) GLP-1-Medikament (Mounjaro/Wegovy) begleitend zu Ihrem Schlauchmagen, (3) endoskopischer Re-Sleeve – Straffung des gedehnten Schlauchmagens von innen mit Nähten, ohne Operation, und (4) chirurgische Umwandlung in einen Mini-Magenbypass oder Duodenal-Switch. Der richtige Weg hängt davon ab, wie viel Sie wieder zugenommen haben, von Ihrer Schlauchmagen-Anatomie und davon, ob Sie Reflux haben."
+        },
+        {
+          "question": "Kann ein gedehnter Schlauchmagen ohne Operation korrigiert werden?",
+          "answer": "Oft ja. Ein endoskopischer Re-Sleeve nutzt das Apollo-OverStitch-System, um den gedehnten Schlauchmagen durch den Mund wieder zu einem schmalen Schlauch zu vernähen – keine Schnitte, meist höchstens eine Nacht, und innerhalb weniger Tage wieder normal. Er eignet sich für eine mäßige Dehnung mit mäßiger Zunahme."
+        },
+        {
+          "question": "Wann ist die Umwandlung in einen Bypass die bessere Antwort?",
+          "answer": "Wenn die Zunahme erheblich ist (mehr als 25-30% des verlorenen Gewichts), wenn sich zusammen mit der Zunahme Reflux entwickelt hat oder wenn die Endoskopie eine für einen Re-Sleeve ungeeignete Anatomie zeigt. Die Umwandlung von Schlauchmagen zu Bypass ist weltweit die häufigste Revisionsoperation und behandelt Zunahme und Reflux in einem Schritt."
+        },
+        {
+          "question": "Wirken GLP-1-Medikamente nach einem Schlauchmagen?",
+          "answer": "Ja – Studien zeigen einen bedeutsamen zusätzlichen Gewichtsverlust, wenn ein GLP-1-Medikament nach der Adipositaschirurgie hinzugefügt wird, und es kann eine wirksame nicht-verfahrensbasierte Option bei mäßiger Zunahme sein. Die Einschränkungen: Die Wirkung hält nur während der Medikation an, die monatlichen Kosten sind erheblich, und Nebenwirkungen lassen einige Patienten abbrechen. Wir setzen es oft als Überbrückung oder in Kombination mit anderen Wegen ein."
+        }
+      ]
+    },
+    "related": {
+      "title": "Wie es weitergeht",
+      "links": [
+        {
+          "title": "Revisionschirurgie-Übersicht",
+          "description": "Alle Revisionswege im Detail"
+        },
+        {
+          "title": "Mini-Magenbypass",
+          "description": "Das häufigste Umwandlungsziel"
+        },
+        {
+          "title": "Reflux nach Schlauchmagen",
+          "description": "Falls das Sodbrennen mit dem Gewicht zurückkam"
+        },
+        {
+          "title": "Langzeitergebnisse",
+          "description": "Wie „Erfolg“ nach 5–10 Jahren aussieht"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Erhalten Sie eine ehrliche Einschätzung zur erneuten Gewichtszunahme – kostenlos",
+      "text": "Senden Sie Ihr Operationsdatum, Ihr niedrigstes Gewicht, Ihr aktuelles Gewicht und Ihre größte Schwierigkeit über WhatsApp. Das Team von Dr Ustun sagt Ihnen, welcher Weg passt – auch, wenn die Antwort „kein Eingriff nötig“ lautet.",
+      "button": "Meine kostenlose Einschätzung starten"
+    }
+  },
+  "esgVsSleevePage": {
+    "hero": {
+      "eyebrow": "Entscheidungshilfe",
+      "title": "ESG vs. Schlauchmagen: Wofür sollten Sie sich entscheiden?",
+      "subtitle": "Das eine ist ein narbenfreier endoskopischer Eingriff mit Entlassung am selben Tag; das andere ist die weltweit am häufigsten durchgeführte Adipositas-Operation. Hier ist der ehrliche Vergleich – einschließlich der Fälle, in denen wir von jedem der beiden abraten.",
+      "stats": [
+        {
+          "value": "15–20%",
+          "label": "Gesamtgewichtsverlust – ESG"
+        },
+        {
+          "value": "25–30%",
+          "label": "Gesamtgewichtsverlust – Schlauchmagen"
+        },
+        {
+          "value": "0",
+          "label": "Schnitte bei ESG"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "ESG vs. chirurgischer Schlauchmagen auf einen Blick",
+      "columns": [
+        "Faktor",
+        "ESG (endoskopisch)",
+        "Schlauchmagen (chirurgisch)"
+      ],
+      "rows": [
+        [
+          "Technik",
+          "Magen wird von innen verkleinert genäht – keine Schnitte",
+          "~80% des Magens werden chirurgisch entfernt"
+        ],
+        [
+          "Gesamtkörpergewichtsverlust",
+          "15–20%",
+          "25–30%"
+        ],
+        [
+          "Narkose & Dauer",
+          "Vollnarkose, 60–90 Min.",
+          "Vollnarkose, ~60 Min."
+        ],
+        [
+          "Krankenhausaufenthalt",
+          "Am selben Tag oder 1 Nacht",
+          "2–3 Nächte"
+        ],
+        [
+          "Rückkehr zur Arbeit",
+          "3–5 Tage",
+          "10–14 Tage"
+        ],
+        [
+          "Narben",
+          "Keine",
+          "5 kleine Schlüsselloch-Narben"
+        ],
+        [
+          "Reversibel / anpassbar",
+          "Weitgehend – kann nachgezogen werden",
+          "Nein – dauerhaft"
+        ],
+        [
+          "Auswirkung auf Reflux",
+          "Verbessert sich meist",
+          "Kann sich verschlechtern (bis zu 55% GERD)"
+        ],
+        [
+          "Idealer BMI-Bereich",
+          "30–40 (ESG-Max bis ~45)",
+          "35–55+"
+        ],
+        [
+          "Preis im IBC (all-inclusive)",
+          "Ab £4,950",
+          "Ab £2,950"
+        ]
+      ]
+    },
+    "tradeOff": {
+      "title": "Die zentrale Abwägung",
+      "p1": "Die Entscheidung läuft auf <strong>Gewichtsverlust-Kraft versus Invasivität</strong> hinaus. Der <sleeveLink>chirurgische Schlauchmagen</sleeveLink> entfernt dauerhaft Magengewebe, erzielt etwa ein Drittel mehr Gewichtsverlust und bleibt der Maßstab für einen BMI über 40. Die <esgLink>ESG</esgLink> erreicht 15–20% Gesamtkörpergewichtsverlust ohne Schnitte, ohne entferntes Organ, mit einer Genesung von 3–5 Tagen und einem Sicherheitsprofil, das eher einer diagnostischen Endoskopie als einer Operation gleicht.",
+      "p2": "Entscheidend ist, dass die ESG <strong>jede künftige Option offenhält</strong>: Sollten sich Ihre Abnehmziele ändern, kann eine ESG später in einen chirurgischen Schlauchmagen oder Bypass umgewandelt werden. Ein chirurgischer Schlauchmagen lässt sich nicht rückgängig machen.",
+      "cta": "Was ist das Richtige für mich? Kostenlos anfragen"
+    },
+    "chooseEsg": {
+      "title": "Wählen Sie die ESG, wenn …",
+      "items": [
+        "Ihr BMI 30–40 beträgt und Sie einen spürbaren, dauerhaften Gewichtsverlust ohne Operation möchten",
+        "Sie Sodbrennen haben – die ESG bessert es meist, ein Schlauchmagen kann es verschlimmern",
+        "Sie sich nur 3–5 Tage von Arbeit oder Familie freinehmen können",
+        "Sie keine Narben und keine dauerhafte anatomische Veränderung wünschen",
+        "Sie für eine Operation nicht geeignet sind oder allein der Gedanke daran Sie bisher vom Handeln abgehalten hat"
+      ]
+    },
+    "chooseSleeve": {
+      "title": "Wählen Sie den chirurgischen Schlauchmagen, wenn …",
+      "items": [
+        "Ihr BMI über 40–45 liegt, wo der zusätzliche Gewichtsverlust der Operation die gesundheitlichen Ergebnisse verändert",
+        "Sie einen ausgeprägten Typ-2-Diabetes haben – der metabolische Effekt der Operation ist stärker",
+        "Sie das maximale, am besten untersuchte Langzeitergebnis in einem einzigen Eingriff wünschen",
+        "Das Budget entscheidend ist – das Schlauchmagen-Paket ist £2,000 günstiger als die ESG"
+      ]
+    },
+    "candidacy": {
+      "title": "Kurzer Selbsttest",
+      "intro": "Die ESG ist wahrscheinlich Ihr bester Ausgangspunkt, wenn das Meiste davon zutrifft:",
+      "criteria": [
+        "BMI zwischen 30 und 40",
+        "Reflux oder Sodbrennen bereits ein Thema",
+        "Starke Präferenz, Operation und Narben zu vermeiden",
+        "Notwendigkeit, innerhalb einer Woche wieder zu arbeiten",
+        "Einverstanden mit 15–20% Gesamtkörpergewichtsverlust als Ziel"
+      ],
+      "note": "Wenn Ihr BMI über 45 liegt oder die Diabetes-Kontrolle Priorität hat, lesen Sie stattdessen unseren <bypassLink>Vergleich Schlauchmagen vs. Bypass</bypassLink> – das ist wahrscheinlich Ihre eigentliche Entscheidung."
+    },
+    "surgeonProof": {
+      "title": "Erfahren in beiden Verfahren – daher ist die Beratung neutral",
+      "subtitle": "Dr Ustun führt neben chirurgischen Schlauchmägen und Bypässen mehr als 2,000 endoskopische Eingriffe durch. Wenn wir das eine dem anderen vorziehen, dann weil es zu Ihnen passt – nicht weil es das einzige Werkzeug ist, das wir haben."
+    },
+    "faq": {
+      "title": "ESG vs. Schlauchmagen – Ihre Fragen beantwortet",
+      "items": [
+        {
+          "question": "Ist die ESG so wirksam wie ein Schlauchmagen?",
+          "answer": "Der chirurgische Schlauchmagen erzielt mehr Gewichtsverlust: 60-70% des Übergewichts gegenüber 45-60% bei der ESG (15-20% des Gesamtkörpergewichts). Aber die ESG erfordert keine Schnitte, entfernt keinen Magen, hat eine schnellere Genesung und ist weitgehend reversibel. Bei BMI 30-40 sind die ESG-Ergebnisse oft ausreichend; über BMI 40-45 ist der chirurgische Schlauchmagen meist die stärkere Wahl."
+        },
+        {
+          "question": "Was ist der Hauptunterschied zwischen ESG und Schlauchmagen?",
+          "answer": "Der Schlauchmagen entfernt chirurgisch etwa 80% des Magens über Schlüsselloch-Schnitte. Die ESG (endoskopische Schlauchmagen-Gastroplastie) formt den Magen von innen mithilfe von Nähten zu einem Schlauch, die über ein durch den Rachen eingeführtes Endoskop gesetzt werden – keine Schnitte, kein entfernter Magen, meist Entlassung am selben Tag."
+        },
+        {
+          "question": "Was ist sicherer: ESG oder Schlauchmagen?",
+          "answer": "Die ESG hat das geringere Risikoprofil: schwerwiegende unerwünschte Ereignisse unter 2%, keine Klammernahtlinie, kein Leckage-Risiko und keine dauerhafte anatomische Veränderung. Der chirurgische Schlauchmagen ist ebenfalls sehr sicher (1-3% schwere Komplikationen), aber irreversibel und trägt ein langfristiges Reflux-Risiko von bis zu 55%. Die ESG verbessert den Reflux typischerweise, statt ihn zu verschlimmern."
+        },
+        {
+          "question": "Hält die ESG an oder dehnt sich der Magen wieder aus?",
+          "answer": "Die Daten der randomisierten MERIT-Studie zeigen dauerhafte Ergebnisse: Nach 5 Jahren halten über 80% der ESG-Patienten mindestens 10% Gesamtkörpergewichtsverlust. Die Nähte erzeugen dauerhafte Vernarbungen, die die Schlauchform halten. Falls nötig, kann die ESG später endoskopisch nachgezogen – oder in einen chirurgischen Schlauchmagen oder Bypass umgewandelt werden."
+        },
+        {
+          "question": "Kann ich eine ESG bekommen, wenn mein BMI über 40 liegt?",
+          "answer": "Ja – die ESG-Max mit zusätzlichen Verstärkungsnähten erweitert die Wirksamkeit auf höhere BMI-Bereiche, und die ESG ist eine gültige Option für Patienten, die für eine Operation nicht geeignet oder nicht bereit sind. Bei einem BMI über 45 erzielen der chirurgische Schlauchmagen oder Bypass jedoch im Allgemeinen deutlich bessere Langzeitergebnisse."
+        },
+        {
+          "question": "Wie vergleichen sich die Kosten in der Türkei?",
+          "answer": "Im Istanbul Bariatric Center beginnt der chirurgische Schlauchmagen bei £2,950 und die ESG bei £4,950, beide all-inclusive. Die ESG kostet mehr wegen des Apollo-OverStitch-Geräts, vermeidet dafür aber Operation, Narben und einen Krankenhausaufenthalt über eine Nacht hinaus."
+        }
+      ]
+    },
+    "related": {
+      "title": "Ihr nächster Schritt",
+      "links": [
+        {
+          "title": "ESG im Detail",
+          "description": "Apollo ESG & ESG-Max – ab £4,950"
+        },
+        {
+          "title": "Schlauchmagen im Detail",
+          "description": "Vollständiger Ratgeber – ab £2,950"
+        },
+        {
+          "title": "Ballon vs. Schlauchmagen",
+          "description": "Ziehen Sie auch den Magenballon in Betracht?"
+        },
+        {
+          "title": "Kostenratgeber",
+          "description": "Alle Preise 2026 im Vergleich zu UK, US & EU"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Unentschlossen? Holen Sie eine kostenlose Experteneinschätzung",
+      "text": "Senden Sie Ihre Größe, Ihr Gewicht und Ihre Ziele über WhatsApp – unser klinisches Team sagt Ihnen ehrlich innerhalb von 24 Stunden, ob die ESG oder der chirurgische Schlauchmagen zu Ihrem Fall passt.",
+      "button": "Das klinische Team fragen"
     }
   }
 }

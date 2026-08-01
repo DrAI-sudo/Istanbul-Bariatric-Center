@@ -1180,6 +1180,192 @@
     "heroSubtitle": "Complétez votre parcours avec des procédures de remodelage corporel.",
     "desc": "Après une perte de poids importante, la chirurgie post-bariatrique aide à remodeler le corps."
   },
+  "sleeveVsBypassPage": {
+    "hero": {
+      "eyebrow": "Guide de Décision",
+      "title": "Sleeve Gastrique vs Mini Bypass Gastrique",
+      "subtitle": "Les deux interventions de perte de poids les plus pratiquées au monde, comparées en toute honnêteté — perte de poids, rémission du diabète, reflux, risques et coût — afin que vous puissiez choisir celle qui convient à votre corps et à vos objectifs.",
+      "stats": [
+        {
+          "value": "60–70%",
+          "label": "Perte de poids excédentaire — sleeve"
+        },
+        {
+          "value": "70–80%",
+          "label": "Perte de poids excédentaire — bypass"
+        },
+        {
+          "value": "8,000+",
+          "label": "Interventions par le Dr Ustun"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Sleeve vs Mini Bypass en un Coup d'Œil",
+      "columns": [
+        "Facteur",
+        "Sleeve Gastrique",
+        "Mini Bypass Gastrique"
+      ],
+      "rows": [
+        [
+          "Principe de fonctionnement",
+          "Retire ~80% de l'estomac (restriction)",
+          "Petite poche + dérivation intestinale (restriction + malabsorption)"
+        ],
+        [
+          "Perte de poids excédentaire",
+          "60–70% à 2 ans",
+          "70–80% à 2 ans"
+        ],
+        [
+          "Rémission du diabète de type 2",
+          "60–70%",
+          "80–90%"
+        ],
+        [
+          "Effet sur le reflux acide",
+          "Peut s'aggraver (jusqu'à 55% de RGO à long terme)",
+          "Améliore généralement le reflux"
+        ],
+        [
+          "Durée de l'opération",
+          "~1 heure",
+          "~1,5 heure"
+        ],
+        [
+          "Séjour hospitalier",
+          "2–3 nuits",
+          "2–3 nuits"
+        ],
+        [
+          "Compléments à vie",
+          "Multivitamines recommandées",
+          "Multivitamines + B12, fer essentiels"
+        ],
+        [
+          "Réversible",
+          "Non (estomac retiré)",
+          "Techniquement, rarement réalisé"
+        ],
+        [
+          "Options de révision ultérieures",
+          "Conversion en bypass, DS ou re-sleeve",
+          "TORe (endoscopique) ou révision de l'anse"
+        ],
+        [
+          "Prix à l'IBC (tout inclus)",
+          "À partir de £2,950",
+          "À partir de £3,350"
+        ]
+      ],
+      "footnote": "Les fourchettes de résultats reflètent des séries internationales publiées et les données de cas de l'IBC ; les résultats individuels varient."
+    },
+    "howItWorks": {
+      "title": "Comment Fonctionne Chaque Opération",
+      "p1": "Le <link1>sleeve gastrique</link1> retire environ 80% de l'estomac, laissant un tube étroit. Vous mangez beaucoup moins, et le retrait du fundus réduit fortement la ghréline, l'hormone de la faim. La digestion se poursuit par ailleurs normalement — rien n'est dérivé.",
+      "p2": "Le <link1>mini bypass gastrique</link1> crée une petite poche gastrique et la relie directement à une anse de l'intestin grêle, en dérivant environ 150–200 cm. Vous mangez moins <em>et</em> absorbez moins de calories, et le changement hormonal produit l'effet anti-diabète le plus puissant de toutes les procédures courantes.",
+      "cta": "Demandez Laquelle me Convient — Évaluation Gratuite"
+    },
+    "chooseSleeve": {
+      "title": "Choisissez le Sleeve Si…",
+      "items": [
+        "Vous voulez l'opération efficace la plus simple, avec une anatomie intestinale normale",
+        "Votre IMC est de 35–50 sans diabète de type 2 sévère",
+        "Vous n'avez <strong>aucun reflux acide significatif</strong>",
+        "Vous prenez des médicaments dont l'absorption ne doit pas changer (certains médicaments psychiatriques, anti-rejet ou contre l'arthrite)",
+        "Vous préférez garder le bypass en réserve comme éventuelle deuxième étape"
+      ]
+    },
+    "chooseBypass": {
+      "title": "Choisissez le Mini Bypass Si…",
+      "items": [
+        "Vous avez un <strong>diabète de type 2</strong> — les taux de rémission atteignent 80–90%",
+        "Vous souffrez déjà de <strong>reflux acide / RGO</strong>, qu'un sleeve peut aggraver",
+        "Votre IMC est supérieur à 45–50, là où la perte de poids supplémentaire compte le plus",
+        "Vous êtes amateur de sucreries ou grignoteur — la malabsorption atténue l'effet des aliments caloriques",
+        "Vous êtes à l'aise avec une prise de compléments rigoureuse à vie et des analyses sanguines annuelles"
+      ]
+    },
+    "expertPov": {
+      "title": "Comment je Décide Entre Sleeve et Mini Bypass",
+      "p1": "Après 8 000 interventions, ma décision commence rarement par l'IMC — elle commence par deux questions : <strong>ce patient a-t-il du reflux, et ce patient a-t-il du diabète ?</strong> Une réponse positive à l'une ou l'autre m'oriente fermement vers le bypass, car j'ai réopéré trop de sleeves réalisés ailleurs chez des patients dont les antécédents de reflux avaient été ignorés lors de la première consultation.",
+      "p2": "La deuxième chose que j'examine est le <strong>comportement alimentaire</strong>, et je pose la question franchement. Un mangeur de volume — grandes assiettes, repas rapides — réussit remarquablement bien avec un sleeve, car la restriction résout son vrai problème. Un grignoteur ou amateur de sucreries peut manger au-delà de toute restriction ; pour lui, le composant malabsorptif du bypass n'est pas un luxe, c'est le mécanisme qui fait fonctionner l'opération.",
+      "p3": "Ce que je dis aux patients hésitants : le sleeve laisse une porte ouverte — la conversion en bypass reste possible des années plus tard si nécessaire. Le trajet inverse n'existe pas. Cette asymétrie tranche plus de cas limites dans mon cabinet que n'importe quel pourcentage d'un tableau comparatif. Mais lorsque le reflux ou un diabète ancien est présent dès le premier jour, choisir le sleeve pour \"garder ses options ouvertes\" est une fausse économie — vous ne feriez que réserver la deuxième opération à l'avance."
+    },
+    "candidacy": {
+      "title": "Toujours Indécis ? Ce que Nous Évaluons",
+      "intro": "Lors de votre évaluation gratuite, le Dr Murat Ustun pèse ces facteurs avant de recommander une opération plutôt qu'une autre :",
+      "criteria": [
+        "L'IMC et la répartition du poids",
+        "Les symptômes de reflux et tout résultat d'endoscopie antérieure",
+        "Le statut, la durée et le traitement du diabète de type 2",
+        "Le comportement alimentaire — mangeur de volume vs amateur de sucreries/grignoteur",
+        "Les médicaments actuels nécessitant une absorption prévisible",
+        "Votre propre préférence après avoir compris les deux options"
+      ],
+      "note": "Environ 60% de nos patients sont mieux servis par un sleeve, 40% par un bypass — l'objectif est d'adapter l'opération au patient, jamais une recommandation universelle."
+    },
+    "surgeonProof": {
+      "title": "Un Seul Chirurgien, les Deux Opérations, 8 000+ Cas",
+      "subtitle": "Parce que le Dr Ustun réalise sleeves, bypass, révisions et procédures endoscopiques à haut volume, sa recommandation est guidée par votre anatomie — et non par ce que la clinique propose."
+    },
+    "faq": {
+      "title": "Sleeve vs Bypass — Vos Questions, Nos Réponses",
+      "items": [
+        {
+          "question": "Quel est le meilleur : le sleeve gastrique ou le mini bypass gastrique ?",
+          "answer": "Aucun n'est universellement meilleur — ils conviennent à des patients différents. Le sleeve est plus simple, conserve une anatomie intestinale normale et procure 60-70% de perte de poids excédentaire. Le mini bypass ajoute un composant malabsorptif, procurant 70-80% de perte de poids excédentaire avec une rémission plus forte du diabète de type 2 et un meilleur contrôle du reflux — au prix d'une supplémentation vitaminique à vie et d'une opération légèrement plus complexe. Le bon choix dépend de votre IMC, de votre reflux, de votre diabète et de votre comportement alimentaire."
+        },
+        {
+          "question": "Qu'est-ce qui entraîne le plus de perte de poids : le sleeve ou le bypass ?",
+          "answer": "Le mini bypass gastrique produit généralement une perte de poids totale plus importante : environ 70-80% du poids excédentaire à 2 ans contre 60-70% pour le sleeve. Pour les patients avec un IMC supérieur à 50 ou un diabète de type 2 sévère, l'effet métabolique du bypass en fait généralement l'option la plus forte."
+        },
+        {
+          "question": "Quel est le plus sûr : le sleeve gastrique ou le bypass ?",
+          "answer": "Les deux sont très sûrs entre des mains expérimentées, avec des taux de complications majeures de 1-3%. Le sleeve est techniquement plus simple sans reconnexion intestinale, donc le risque chirurgical précoce est légèrement inférieur. Le bypass comporte de petits risques à long terme de carence en nutriments et d'ulcères marginaux, tandis que le sleeve présente un risque plus élevé à long terme de reflux acide (RGO)."
+        },
+        {
+          "question": "Dois-je choisir le bypass si j'ai déjà du reflux acide ?",
+          "answer": "Généralement oui. Un sleeve gastrique peut aggraver un reflux existant — le RGO touche jusqu'à 55% des patients sleeve à long terme — tandis que le bypass détourne l'acide de l'œsophage et améliore généralement le reflux. Un RGO préexistant significatif est l'une des raisons les plus évidentes de préférer un bypass."
+        },
+        {
+          "question": "Un sleeve peut-il être converti en bypass plus tard ?",
+          "answer": "Oui. La conversion sleeve-vers-bypass est l'opération de révision la plus courante au monde, généralement choisie en cas de reprise de poids ou de reflux après un sleeve. De nombreux patients commencent par un sleeve en sachant que le bypass reste disponible comme deuxième étape si nécessaire."
+        },
+        {
+          "question": "Combien coûtent le sleeve et le bypass en Turquie ?",
+          "answer": "À Istanbul Bariatric Center, le sleeve gastrique débute à £2,950 et le mini bypass gastrique à £3,350, tous deux tout inclus : hôpital accrédité JCI, honoraires du chirurgien et de l'anesthésie, examens, transferts, hôtel et 12 mois de suivi diététique."
+        }
+      ]
+    },
+    "related": {
+      "title": "Votre Prochaine Étape",
+      "links": [
+        {
+          "title": "Sleeve Gastrique",
+          "description": "Guide complet de la procédure — à partir de £2,950"
+        },
+        {
+          "title": "Mini Bypass Gastrique",
+          "description": "Guide complet de la procédure — à partir de £3,350"
+        },
+        {
+          "title": "ESG vs Sleeve Gastrique",
+          "description": "Vous préférez une voie non chirurgicale ? Comparez l'ESG"
+        },
+        {
+          "title": "Guide des Coûts",
+          "description": "Tous les prix 2026 vs Royaume-Uni, États-Unis et UE"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Obtenez une Recommandation Personnalisée en 24 Heures",
+      "text": "Envoyez votre taille, votre poids ainsi que votre statut de reflux et de diabète sur WhatsApp. L'équipe du Dr Ustun vous dira quelle opération vous convient — gratuitement et sans engagement.",
+      "button": "Obtenir mon Évaluation Gratuite"
+    }
+  },
   "guides": {
     "title": "Guides et comparatifs",
     "sleeveVsBypass": {
@@ -1209,6 +1395,931 @@
     "travelGuide": {
       "title": "Guide de voyage",
       "description": "Préparer votre séjour chirurgical à Istanbul"
+    }
+  },
+  "refluxPage": {
+    "hero": {
+      "eyebrow": "Guide des Résultats",
+      "title": "Reflux Acide Après un Sleeve Gastrique : Ce que Cela Signifie et Comment le Corriger",
+      "subtitle": "Le RGO est le compromis à long terme le plus connu du sleeve — touchant jusqu'à 55% des patients. La plupart des cas sont gérables ; certains nécessitent une réparation ; une solution définitive existe. Voici comment savoir dans quel groupe vous vous situez.",
+      "stats": [
+        {
+          "value": "55%",
+          "label": "Patients sleeve avec RGO à long terme"
+        },
+        {
+          "value": "~90%",
+          "label": "Résolus par conversion en bypass"
+        },
+        {
+          "value": "1re étape",
+          "label": "Endoscopie, pas plus d'antiacides"
+        }
+      ]
+    },
+    "whyReflux": {
+      "title": "Pourquoi le Sleeve Provoque du Reflux",
+      "p1": "Un sleeve transforme l'estomac, de poche à basse pression en un tube étroit à haute pression, et la chirurgie modifie l'angle et l'anatomie valvulaire au sommet de l'estomac. Ajoutez une hernie hiatale — présente chez de nombreux patients obèses et se développant parfois après la chirurgie — et l'acide est poussé vers le haut, surtout la nuit.",
+      "p2": "C'est un problème <strong>mécanique</strong>. Cela compte, car les problèmes mécaniques ne répondent pas indéfiniment à des solutions chimiques : les IPP réduisent la brûlure de l'acide mais ne font rien contre la pression ou la valve, et le reflux non acide peut continuer à endommager l'œsophage de façon silencieuse.",
+      "cta": "Poser une Question sur mon Reflux — Gratuit"
+    },
+    "redFlags": {
+      "title": "Signaux d'Alerte — Faites-Vous Évaluer Si…",
+      "intro": "Consultez un spécialiste bariatrique (pas seulement un renouvellement d'ordonnance chez le médecin traitant) si l'un de ces points s'applique :",
+      "criteria": [
+        "Vous avez besoin d'IPP quotidiennement au-delà de la première année après la chirurgie",
+        "Le reflux vous réveille la nuit ou vous dormez surélevé",
+        "Des aliments ou des liquides remontent lorsque vous vous penchez ou vous allongez",
+        "Les symptômes s'aggravent plutôt que de rester stables",
+        "Vous avez également une reprise de poids parallèlement au reflux",
+        "Vous avez des difficultés à avaler ou des aliments qui restent bloqués — consultez un médecin rapidement"
+      ],
+      "note": "Un reflux ancien peut provoquer un œsophage de Barrett, une transformation pré-cancéreuse qui reste silencieuse tant que les comprimés masquent les symptômes. Une endoscopie unique détermine si votre œsophage est en sécurité."
+    },
+    "ladder": {
+      "title": "Échelle de Traitement : des Comprimés à la Guérison",
+      "columns": [
+        "Étape",
+        "Ce que Cela Implique",
+        "Idéale Pour",
+        "Limite"
+      ],
+      "rows": [
+        [
+          "Mode de vie + médicament IPP",
+          "Repas du soir plus légers, surélévation, IPP quotidien",
+          "Reflux léger, première intention pour tous",
+          "Contrôle les symptômes ; ne corrige rien de mécanique"
+        ],
+        [
+          "Endoscopie diagnostique",
+          "Évaluation par caméra du sleeve, de la valve et de l'œsophage",
+          "Toute personne sous IPP >12 mois ou avec des signaux d'alerte",
+          "Diagnostique — guide la solution"
+        ],
+        [
+          "Réparation de hernie hiatale",
+          "Réparation laparoscopique de l'ouverture du diaphragme",
+          "Hernie confirmée avec forme du sleeve préservée",
+          "N'aide pas si le sleeve lui-même est le problème"
+        ],
+        [
+          "Conversion en mini bypass gastrique",
+          "Sleeve converti en bypass — acide dérivé en aval",
+          "RGO persistant, surtout avec reprise de poids",
+          "Une seconde opération — 2–3 nuits à l'hôpital"
+        ]
+      ],
+      "footnote": "Environ 90% des patients convertis en bypass pour un RGO arrêtent ou réduisent considérablement les IPP."
+    },
+    "definitiveFix": {
+      "title": "La Solution Définitive : Conversion Sleeve-vers-Bypass",
+      "p1": "Lorsque le reflux persiste malgré les médicaments — ou lorsque vous en avez simplement assez de prendre des comprimés chaque jour pour un problème mécanique — convertir le sleeve en <link1>mini bypass gastrique</link1> est la réponse définitive. La petite poche produit peu d'acide, et ce qui reste est dérivé un mètre et demi plus bas. C'est la même opération utilisée pour la <link2>reprise de poids après un sleeve</link2>, ce qui explique pourquoi l'association RGO + reprise de poids oriente si fortement vers la conversion.",
+      "p2": "À Istanbul Bariatric Center, chaque conversion commence par une endoscopie diagnostique et, si nécessaire, une réparation simultanée de hernie hiatale — consultez le <link1>guide complet de chirurgie de révision</link1> pour le déroulement et les tarifs."
+    },
+    "surgeonProof": {
+      "title": "La Révision pour Reflux est un Travail de Précision",
+      "subtitle": "La conversion pour un RGO exige un diagnostic endoscopique précis et un chirurgien de révision expérimenté — exactement la combinaison qu'offre un centre à haut volume."
+    },
+    "faq": {
+      "title": "Reflux Après un Sleeve — Vos Questions, Nos Réponses",
+      "items": [
+        {
+          "question": "Pourquoi le reflux acide survient-il après un sleeve gastrique ?",
+          "answer": "Le sleeve transforme l'estomac en un tube étroit à haute pression et supprime une partie du mécanisme naturel de valve anti-reflux. L'acide dispose de moins d'espace et d'une pression accrue qui le pousse vers l'œsophage. Les études montrent que le RGO touche jusqu'à 55% des patients sleeve à long terme, et qu'environ 10% développent un reflux suffisamment sévère pour nécessiter une intervention."
+        },
+        {
+          "question": "Le reflux après mon sleeve disparaîtra-t-il de lui-même ?",
+          "answer": "Un reflux léger dans les premiers mois se calme souvent à mesure que l'inflammation se résorbe et que le poids diminue. Un reflux qui persiste au-delà d'un an, s'aggrave avec le temps ou vous réveille la nuit ne disparaîtra généralement pas seul — et un reflux non traité de longue date peut endommager l'œsophage (œsophage de Barrett), il nécessite donc une évaluation, et pas seulement davantage d'antiacides."
+        },
+        {
+          "question": "Quelles sont les options de traitement du reflux après un sleeve ?",
+          "answer": "Par ordre d'escalade : (1) mesures d'hygiène de vie et médicament IPP (famille de l'oméprazole), (2) évaluation endoscopique pour rechercher une hernie hiatale ou une déformation du sleeve, (3) réparation de hernie hiatale si elle est présente, et (4) conversion en mini bypass gastrique — la solution définitive, car elle détourne entièrement l'acide de l'œsophage. La conversion en bypass résout ou améliore considérablement le reflux dans environ 90% des cas."
+        },
+        {
+          "question": "Est-il sûr de rester sous IPP (oméprazole) pendant des années ?",
+          "answer": "Les IPP sont généralement sûrs sous surveillance médicale, mais en avoir besoin quotidiennement pendant des années après un sleeve est un signal à explorer — à la fois en raison d'éventuels effets à long terme (absorption des nutriments, densité osseuse) et parce qu'une exposition continue à l'acide peut endommager l'œsophage en silence même lorsque les comprimés contrôlent la brûlure."
+        },
+        {
+          "question": "Convertir un sleeve en bypass guérit-il réellement le reflux ?",
+          "answer": "C'est la solution la plus fiable disponible. Le bypass crée une petite poche qui produit peu d'acide et dérive la bile et l'acide bien en aval, il y a donc simplement beaucoup moins à refluer. Environ 90% des patients convertis pour un RGO arrêtent leurs IPP ou les réduisent considérablement. La conversion traite aussi toute reprise de poids en même temps."
+        },
+        {
+          "question": "J'ai à la fois du reflux et une reprise de poids — lequel traiter ?",
+          "answer": "Les deux, généralement avec une seule procédure. La conversion sleeve-vers-bypass est particulièrement adaptée à cette association — c'est la réponse standard lorsque reprise de poids et RGO surviennent ensemble, résolvant l'exposition à l'acide tout en relançant la perte de poids. C'est l'un des scénarios de révision les plus fréquents que nous traitons."
+        }
+      ]
+    },
+    "related": {
+      "title": "Où Aller à Partir d'Ici",
+      "links": [
+        {
+          "title": "Pôle Chirurgie de Révision",
+          "description": "Processus d'évaluation, voies et tarifs"
+        },
+        {
+          "title": "Mini Bypass Gastrique",
+          "description": "La conversion qui guérit le reflux"
+        },
+        {
+          "title": "Reprise de Poids Après un Sleeve",
+          "description": "Si la reprise est venue avec les brûlures d'estomac"
+        },
+        {
+          "title": "Sleeve vs Bypass",
+          "description": "Vous choisissez votre première opération ? Lisez ceci"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Arrêtez de Deviner — Faites Évaluer Votre Reflux Gratuitement",
+      "text": "Dites-nous quand vous avez eu votre sleeve, quel médicament vous prenez et quels sont vos symptômes. L'équipe du Dr Ustun vous dira si vous avez besoin d'être rassuré, d'une réparation ou d'une conversion — sous 24 heures.",
+      "button": "Obtenir mon Bilan de Reflux Gratuit"
+    }
+  },
+  "weightRegainPage": {
+    "hero": {
+      "eyebrow": "Guide des Résultats — Sans Jugement, Juste des Solutions",
+      "title": "Reprise de Poids Après un Sleeve Gastrique : Vos Quatre Voies",
+      "subtitle": "Jusqu'à 30% des patients sleeve reprennent un poids significatif en cinq ans. Ce n'est pas un échec personnel — cela a des causes physiques, et chacune d'elles a un traitement. Voici la carte complète.",
+      "stats": [
+        {
+          "value": "30%",
+          "label": "Des patients reprennent du poids en 5 ans"
+        },
+        {
+          "value": "4",
+          "label": "Voies de traitement"
+        },
+        {
+          "value": "1re étape",
+          "label": "Toujours une endoscopie diagnostique"
+        }
+      ]
+    },
+    "whyBack": {
+      "title": "Pourquoi le Poids Revient",
+      "intro": "Trois mécanismes entraînent la reprise de poids après un sleeve, et aucun d'eux n'est une question de volonté :",
+      "mechanisms": [
+        "<strong>Dilatation du sleeve.</strong> Le sleeve est un tube musculaire sous pression à chaque repas ; au fil des années, il peut s'étirer progressivement, rétablissant capacité et appétit.",
+        "<strong>Adaptation hormonale.</strong> La ghréline (l'hormone de la faim) se rétablit partiellement chez certains patients 2–4 ans après la chirurgie.",
+        "<strong>Dérive comportementale.</strong> Le grignotage, les calories liquides et l'abandon du suivi érodent discrètement la restriction restante."
+      ],
+      "outro": "Parce que la cause diffère d'un patient à l'autre, la solution aussi — c'est pourquoi chaque cas de reprise de poids à Istanbul Bariatric Center commence par une <strong>endoscopie diagnostique</strong>, et non par un argumentaire de vente pour une procédure.",
+      "cta": "Décrire ma Situation — Bilan Gratuit"
+    },
+    "comparison": {
+      "title": "Les Quatre Voies Comparées",
+      "subtitle": "De la moins à la plus interventionnelle. De nombreux patients combinent les voies — par exemple une remise à zéro diététique et un GLP-1 en attendant de décider d'un re-sleeve endoscopique.",
+      "columns": [
+        "Voie",
+        "Idéale Pour",
+        "Caractère Invasif",
+        "Résultat Attendu"
+      ],
+      "rows": [
+        [
+          "1. Programme de remise à zéro encadré par une diététicienne",
+          "Reprise de moins de ~10 kg, habitudes identifiées comme cause",
+          "Aucun — programme à distance",
+          "Stopper la reprise, perdre 5–10 kg"
+        ],
+        [
+          "2. Médicament GLP-1 (Mounjaro/Wegovy)",
+          "Reprise modérée, patient préférant éviter toute procédure",
+          "Aucun — injection hebdomadaire",
+          "Perte de 10–15% pendant le traitement"
+        ],
+        [
+          "3. Re-sleeve endoscopique",
+          "Dilatation du sleeve confirmée, reprise modérée, pas de reflux sévère",
+          "Endoscopique — sans incision, 0–1 nuit",
+          "Restaurer la restriction ; 60–70% du poids repris perdu"
+        ],
+        [
+          "4. Conversion en mini bypass / DS",
+          "Reprise importante, reflux ou anatomie inadaptée au re-sleeve",
+          "Laparoscopique, 2–3 nuits",
+          "Résultat le plus fort et le plus durable"
+        ]
+      ]
+    },
+    "howDecide": {
+      "title": "Comment Nous Décidons, Étape par Étape",
+      "steps": [
+        "<strong>Bilan à distance gratuit.</strong> Envoyez la date de votre chirurgie initiale, votre historique de poids et votre comportement alimentaire actuel sur WhatsApp — le Dr Ustun examine personnellement chaque cas de reprise de poids.",
+        "<strong>Endoscopie diagnostique à Istanbul.</strong> Elle mesure la taille du sleeve, vérifie la présence d'une hernie hiatale et de lésions dues au reflux. Ce seul examen détermine quelles voies sont réalistes.",
+        "<strong>Décision de la voie — la moindre intervention qui fonctionnera réellement.</strong> Si un programme de remise à zéro ou un médicament peut atteindre votre objectif, nous le disons ; une procédure n'est recommandée que lorsque l'anatomie l'exige.",
+        "<strong>Traitement et 12 mois de suivi</strong> avec le soutien d'une diététicienne enregistrée au Royaume-Uni, car quelle que soit la voie choisie, l'accompagnement des habitudes détermine si le résultat dure cette fois-ci."
+      ]
+    },
+    "candidacy": {
+      "title": "Quand se Faire Évaluer — N'Attendez Pas que ce Soit « Assez Grave »",
+      "intro": "Prenez rendez-vous pour une évaluation de reprise de poids si l'un de ces points s'applique :",
+      "criteria": [
+        "Vous avez repris plus de 25% du poids que vous aviez initialement perdu",
+        "Les portions sont clairement revenues aux niveaux d'avant la chirurgie",
+        "La faim entre les repas est revenue",
+        "Des brûlures d'estomac ou du reflux sont apparus ou se sont aggravés parallèlement à la reprise",
+        "Vous envisagez un médicament GLP-1 et voulez savoir si c'est le bon outil"
+      ],
+      "note": "La reprise de poids s'accélère : agir à 10 kg repris garde toutes les options ouvertes, y compris les plus simples. Si le reflux est votre plus grand problème, commencez par notre <refluxLink>guide sur le reflux après un sleeve</refluxLink>."
+    },
+    "surgeonProof": {
+      "title": "Pourquoi les Patients en Reprise de Poids Viennent à Istanbul",
+      "subtitle": "L'évaluation de révision exige un centre proposant toutes les voies — endoscopiques et chirurgicales — afin que la recommandation soit guidée par votre endoscopie, et non par les limites de la clinique."
+    },
+    "faq": {
+      "title": "Reprise de Poids — Vos Questions, Nos Réponses",
+      "items": [
+        {
+          "question": "La reprise de poids après un sleeve gastrique est-elle normale ?",
+          "answer": "Une certaine reprise est fréquente — les études montrent que jusqu'à 30% des patients sleeve reprennent un poids significatif en 5 ans. Cela ne signifie pas que vous avez échoué. Les causes les plus fréquentes sont la dilatation progressive du sleeve (étirement), l'adaptation hormonale et le retour des anciennes habitudes alimentaires. Toutes trois sont traitables."
+        },
+        {
+          "question": "Comment savoir si mon sleeve s'est étiré ?",
+          "answer": "Les signes d'alerte incluent la capacité à manger des portions bien plus importantes que lors de votre première année, le retour de la faim entre les repas et une reprise régulière malgré une alimentation raisonnable. Le seul moyen de le confirmer est une endoscopie diagnostique, qui mesure le sleeve et écarte les autres causes — c'est toujours notre première étape avant de recommander un traitement."
+        },
+        {
+          "question": "Quelles sont mes options si j'ai repris du poids après un sleeve ?",
+          "answer": "Quatre voies principales, par ordre croissant d'intervention : (1) un programme structuré de remise à zéro encadré par une diététicienne, (2) un médicament GLP-1 (Mounjaro/Wegovy) en complément de votre sleeve, (3) un re-sleeve endoscopique — resserrement de l'intérieur du sleeve étiré par des sutures, sans chirurgie, et (4) une conversion chirurgicale en mini bypass gastrique ou switch duodénal. La bonne option dépend de l'ampleur de la reprise, de l'anatomie de votre sleeve et de la présence ou non de reflux."
+        },
+        {
+          "question": "Un sleeve étiré peut-il être corrigé sans chirurgie ?",
+          "answer": "Souvent, oui. Un re-sleeve endoscopique utilise le système Apollo OverStitch pour resuturer le sleeve dilaté en un tube étroit par la bouche — sans incision, généralement une nuit au maximum, et un retour à la normale en quelques jours. Il convient à une dilatation modérée avec une reprise de poids modérée."
+        },
+        {
+          "question": "Quand la conversion en bypass est-elle la meilleure réponse ?",
+          "answer": "Lorsque la reprise est importante (plus de 25-30% du poids perdu), lorsqu'un reflux est apparu parallèlement à la reprise, ou lorsque l'endoscopie montre une anatomie inadaptée au re-sleeve. La conversion sleeve-vers-bypass est l'opération de révision la plus courante au monde et traite à la fois la reprise et le reflux en une seule étape."
+        },
+        {
+          "question": "Les médicaments GLP-1 fonctionnent-ils après un sleeve gastrique ?",
+          "answer": "Oui — les études montrent une perte de poids supplémentaire significative lorsqu'un médicament GLP-1 est ajouté après une chirurgie bariatrique, et cela peut être une option non interventionnelle efficace pour une reprise modérée. Les limites : l'effet ne dure que pendant le traitement, le coût mensuel est important et les effets secondaires en font arrêter certains patients. Nous l'utilisons souvent comme relais ou en combinaison avec d'autres voies."
+        }
+      ]
+    },
+    "related": {
+      "title": "Où Aller à Partir d'Ici",
+      "links": [
+        {
+          "title": "Pôle Chirurgie de Révision",
+          "description": "Toutes les voies de révision en détail"
+        },
+        {
+          "title": "Mini Bypass Gastrique",
+          "description": "La cible de conversion la plus courante"
+        },
+        {
+          "title": "Reflux Après un Sleeve",
+          "description": "Si les brûlures d'estomac sont revenues avec le poids"
+        },
+        {
+          "title": "Résultats à Long Terme",
+          "description": "À quoi ressemble le « succès » à 5–10 ans"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Obtenez une Évaluation Honnête de la Reprise de Poids — Gratuite",
+      "text": "Envoyez votre date de chirurgie, votre poids le plus bas, votre poids actuel et votre principale difficulté sur WhatsApp. L'équipe du Dr Ustun vous dira quelle voie convient — y compris lorsque la réponse est « aucune procédure nécessaire ».",
+      "button": "Commencer mon Évaluation Gratuite"
+    }
+  },
+  "esgVsSleevePage": {
+    "hero": {
+      "eyebrow": "Guide de Décision",
+      "title": "ESG vs Sleeve Gastrique : Que Devriez-Vous Choisir ?",
+      "subtitle": "L'une est une procédure endoscopique sans cicatrice avec sortie le jour même ; l'autre est l'opération de perte de poids la plus pratiquée au monde. Voici la comparaison honnête — y compris quand nous déconseillons chacune.",
+      "stats": [
+        {
+          "value": "15–20%",
+          "label": "Perte de poids totale — ESG"
+        },
+        {
+          "value": "25–30%",
+          "label": "Perte de poids totale — sleeve"
+        },
+        {
+          "value": "0",
+          "label": "Incisions avec l'ESG"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "ESG vs Sleeve Chirurgical en un Coup d'Œil",
+      "columns": [
+        "Facteur",
+        "ESG (Endoscopique)",
+        "Sleeve Gastrique (Chirurgical)"
+      ],
+      "rows": [
+        [
+          "Technique",
+          "Estomac suturé pour le rétrécir de l'intérieur — sans incision",
+          "~80% de l'estomac retiré chirurgicalement"
+        ],
+        [
+          "Perte de poids corporel total",
+          "15–20%",
+          "25–30%"
+        ],
+        [
+          "Anesthésie et durée",
+          "Générale, 60–90 min",
+          "Générale, ~60 min"
+        ],
+        [
+          "Séjour hospitalier",
+          "Le jour même ou 1 nuit",
+          "2–3 nuits"
+        ],
+        [
+          "Reprise du travail",
+          "3–5 jours",
+          "10–14 jours"
+        ],
+        [
+          "Cicatrices",
+          "Aucune",
+          "5 petites cicatrices de cœlioscopie"
+        ],
+        [
+          "Réversible / ajustable",
+          "En grande partie — peut être resserré",
+          "Non — permanent"
+        ],
+        [
+          "Effet sur le reflux",
+          "Améliore généralement",
+          "Peut s'aggraver (jusqu'à 55% de RGO)"
+        ],
+        [
+          "Plage d'IMC idéale",
+          "30–40 (ESG-Max jusqu'à ~45)",
+          "35–55+"
+        ],
+        [
+          "Prix à l'IBC (tout inclus)",
+          "À partir de £4,950",
+          "À partir de £2,950"
+        ]
+      ]
+    },
+    "tradeOff": {
+      "title": "Le Compromis Essentiel",
+      "p1": "La décision se résume à un arbitrage entre <strong>puissance de perte de poids et caractère invasif</strong>. Le <sleeveLink>sleeve chirurgical</sleeveLink> retire définitivement du tissu gastrique, produit environ un tiers de perte de poids en plus et reste la référence pour un IMC supérieur à 40. L'<esgLink>ESG</esgLink> obtient une perte de poids corporel total de 15–20% sans incision, sans organe retiré, avec une récupération de 3–5 jours et un profil de sécurité plus proche d'une endoscopie diagnostique que d'une opération.",
+      "p2": "Point crucial, l'ESG <strong>garde toutes les options futures ouvertes</strong> : si vos objectifs de perte de poids évoluent, une ESG peut être ultérieurement convertie en sleeve chirurgical ou en bypass. Un sleeve chirurgical ne peut pas être annulé.",
+      "cta": "Lequel me Convient ? Demandez Gratuitement"
+    },
+    "chooseEsg": {
+      "title": "Choisissez l'ESG Si…",
+      "items": [
+        "Votre IMC est de 30–40 et vous voulez une perte de poids significative et durable sans chirurgie",
+        "Vous avez du reflux acide — l'ESG l'améliore généralement, un sleeve peut l'aggraver",
+        "Vous ne pouvez vous absenter que 3–5 jours de votre travail ou de votre famille",
+        "Vous ne voulez aucune cicatrice ni changement anatomique permanent",
+        "Vous n'êtes pas éligible à la chirurgie, ou c'est l'idée même qui vous a empêché d'agir"
+      ]
+    },
+    "chooseSleeve": {
+      "title": "Choisissez le Sleeve Chirurgical Si…",
+      "items": [
+        "Votre IMC est supérieur à 40–45, là où la perte de poids supplémentaire de la chirurgie change l'état de santé",
+        "Vous avez un diabète de type 2 important — l'effet métabolique de la chirurgie est plus fort",
+        "Vous voulez le résultat maximal et le plus étudié à long terme en une seule procédure",
+        "Le budget compte — le forfait sleeve est £2,000 moins cher que l'ESG"
+      ]
+    },
+    "candidacy": {
+      "title": "Auto-Évaluation Rapide",
+      "intro": "L'ESG est probablement votre meilleur point de départ si la plupart de ces éléments s'appliquent :",
+      "criteria": [
+        "IMC compris entre 30 et 40",
+        "Reflux ou brûlures d'estomac déjà présents",
+        "Forte préférence pour éviter la chirurgie et les cicatrices",
+        "Besoin de reprendre le travail en une semaine",
+        "À l'aise avec un objectif de perte de poids corporel total de 15–20%"
+      ],
+      "note": "Si votre IMC dépasse 45, ou si le contrôle du diabète est la priorité, lisez plutôt notre <bypassLink>comparaison sleeve vs bypass</bypassLink> — c'est probablement votre véritable décision."
+    },
+    "surgeonProof": {
+      "title": "Expérimenté dans les Deux — Donc un Avis Neutre",
+      "subtitle": "Le Dr Ustun réalise plus de 2 000 procédures endoscopiques aux côtés des sleeves et bypass chirurgicaux. Lorsque nous recommandons l'une plutôt que l'autre, c'est parce qu'elle vous convient — et non parce que c'est le seul outil dont nous disposons."
+    },
+    "faq": {
+      "title": "ESG vs Sleeve — Vos Questions, Nos Réponses",
+      "items": [
+        {
+          "question": "L'ESG est-elle aussi efficace qu'un sleeve gastrique ?",
+          "answer": "Le sleeve chirurgical produit davantage de perte de poids : 60-70% du poids excédentaire contre 45-60% pour l'ESG (15-20% du poids corporel total). Mais l'ESG ne nécessite aucune incision, ne retire aucune partie de l'estomac, offre une récupération plus rapide et est largement réversible. Pour un IMC de 30-40, les résultats de l'ESG sont souvent suffisants ; au-delà d'un IMC de 40-45, le sleeve chirurgical est généralement le choix le plus fort."
+        },
+        {
+          "question": "Quelle est la principale différence entre l'ESG et le sleeve gastrique ?",
+          "answer": "Le sleeve gastrique retire chirurgicalement environ 80% de l'estomac par des incisions de cœlioscopie. L'ESG (Gastroplastie Endoscopique en Sleeve) remodèle l'estomac en tube de l'intérieur à l'aide de sutures placées par un endoscope introduit par la gorge — sans coupures, sans estomac retiré, avec généralement une sortie le jour même."
+        },
+        {
+          "question": "Quelle est la plus sûre : l'ESG ou le sleeve gastrique ?",
+          "answer": "L'ESG présente le profil de risque le plus faible : événements indésirables graves inférieurs à 2%, aucune ligne d'agrafes, aucun risque de fuite et aucun changement anatomique permanent. Le sleeve chirurgical est également très sûr (1-3% de complications majeures) mais il est irréversible et comporte un risque de reflux à long terme allant jusqu'à 55%. L'ESG améliore généralement le reflux plutôt que de l'aggraver."
+        },
+        {
+          "question": "L'ESG dure-t-elle, ou l'estomac se redilate-t-il ?",
+          "answer": "Les données de l'essai randomisé MERIT montrent des résultats durables : à 5 ans, plus de 80% des patients ESG maintiennent au moins 10% de perte de poids corporel total. Les sutures créent une cicatrisation permanente qui maintient la forme du tube. Si nécessaire, l'ESG peut être resserrée par voie endoscopique ultérieurement — ou convertie en sleeve chirurgical ou en bypass."
+        },
+        {
+          "question": "Puis-je avoir une ESG si mon IMC dépasse 40 ?",
+          "answer": "Oui — l'ESG-Max avec des sutures de renforcement supplémentaires étend l'efficacité aux IMC plus élevés, et l'ESG est une option valable pour les patients inaptes ou non disposés à subir une chirurgie. Cependant, pour un IMC supérieur à 45, le sleeve chirurgical ou le bypass produisent généralement de bien meilleurs résultats à long terme."
+        },
+        {
+          "question": "Comment se comparent les coûts en Turquie ?",
+          "answer": "À Istanbul Bariatric Center, le sleeve chirurgical débute à £2,950 et l'ESG à £4,950, tous deux tout inclus. L'ESG coûte davantage en raison du dispositif Apollo OverStitch, mais évite la chirurgie, les cicatrices et un séjour hospitalier au-delà d'une nuit."
+        }
+      ]
+    },
+    "related": {
+      "title": "Votre Prochaine Étape",
+      "links": [
+        {
+          "title": "L'ESG en Détail",
+          "description": "Apollo ESG et ESG-Max — à partir de £4,950"
+        },
+        {
+          "title": "Sleeve Gastrique en Détail",
+          "description": "Guide complet — à partir de £2,950"
+        },
+        {
+          "title": "Ballon vs Sleeve",
+          "description": "Vous envisagez aussi le ballon gastrique ?"
+        },
+        {
+          "title": "Guide des Coûts",
+          "description": "Tous les prix 2026 vs Royaume-Uni, États-Unis et UE"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Indécis ? Obtenez un Avis d'Expert Gratuit",
+      "text": "Envoyez votre taille, votre poids et vos objectifs sur WhatsApp — notre équipe clinique vous dira honnêtement si l'ESG ou le sleeve chirurgical convient à votre cas, sous 24 heures.",
+      "button": "Interroger l'Équipe Clinique"
+    }
+  },
+  "longTermResultsPage": {
+    "hero": {
+      "eyebrow": "Guide des Preuves",
+      "title": "Résultats à Long Terme de la Chirurgie Bariatrique : ce qui se Passe Réellement à 5, 10 et 20 Ans",
+      "subtitle": "Les chiffres honnêtes — perte de poids maintenue, rémission du diabète, espérance de vie prolongée, et les statistiques de reprise de poids que la plupart des cliniques ne vous montrent pas.",
+      "stats": [
+        {
+          "value": "20–30%",
+          "label": "Poids corporel toujours perdu à 10 ans"
+        },
+        {
+          "value": "30–50%",
+          "label": "Mortalité à long terme réduite"
+        },
+        {
+          "value": "80–90%",
+          "label": "Rémission du diabète (bypass)"
+        }
+      ]
+    },
+    "facts": {
+      "title": "Le Long Terme, en Chiffres",
+      "items": [
+        {
+          "label": "Poids excédentaire perdu à 10 ans (sleeve)",
+          "value": "50–60%"
+        },
+        {
+          "label": "Poids excédentaire perdu à 10 ans (bypass)",
+          "value": "55–65%"
+        },
+        {
+          "label": "ESG ≥10% de perte maintenue à 5 ans",
+          "value": ">80%"
+        },
+        {
+          "label": "Rémission du diabète maintenue >10 ans",
+          "value": "~50%"
+        }
+      ]
+    },
+    "studies": {
+      "title": "Ce que Montrent les Études de Référence",
+      "intro": "La chirurgie bariatrique est l'une des interventions les plus étudiées en médecine. L'étude suédoise sur les sujets obèses (SOS) a suivi des milliers de patients pendant plus de 20 ans ; associée à de grands registres nationaux, elle montre un tableau cohérent :",
+      "points": [
+        "<strong>Poids :</strong> les patients opérés maintiennent 20–30% de perte de poids corporel total à 10 ans, contre environ 1–2% pour une prise en charge non chirurgicale intensive.",
+        "<strong>Survie :</strong> la mortalité toutes causes confondues chute de 30–50%, avec les plus fortes réductions pour les décès cardiovasculaires et les cancers liés à l'obésité.",
+        "<strong>Diabète :</strong> rémission chez la majorité des patients, dont environ la moitié se maintient au-delà de 10 ans — et un meilleur contrôle même lorsqu'il réapparaît.",
+        "<strong>Qualité de vie :</strong> améliorations durables de la mobilité, de l'apnée du sommeil, des douleurs articulaires, de la fertilité et des scores de dépression à chaque point de suivi à long terme."
+      ],
+      "cta": "Demandez ce que je Pourrais Attendre"
+    },
+    "comparison": {
+      "title": "Durabilité par Procédure",
+      "columns": [
+        "Procédure",
+        "Perte de Poids Totale (pic)",
+        "Maintenue à 10 Ans",
+        "Considération Clé à Long Terme"
+      ],
+      "rows": [
+        [
+          "Sleeve Gastrique",
+          "25–30%",
+          "20–25%",
+          "RGO chez jusqu'à 55% ; reprise chez ~30% dès l'année 5"
+        ],
+        [
+          "Mini Bypass Gastrique",
+          "30–35%",
+          "25–30%",
+          "Compléments à vie ; effet le plus fort sur le diabète"
+        ],
+        [
+          "ESG (Endoscopique)",
+          "15–20%",
+          ">80% conservent ≥10% à 5 ans",
+          "Resserrable ; la chirurgie reste possible"
+        ],
+        [
+          "Ballon Gastrique",
+          "10–15%",
+          "Dépend des habitudes après le retrait",
+          "Un outil de démarrage, pas un traitement à long terme"
+        ]
+      ],
+      "footnote": "Fourchettes issues de séries publiées à long terme, notamment SOS, MERIT et les données de registres nationaux ; les résultats individuels varient."
+    },
+    "regain": {
+      "title": "La Partie Honnête : la Reprise de Poids Arrive — et Elle est Traitable",
+      "p1": "Un léger rebond par rapport à votre poids le plus bas est une biologie normale, pas un échec — les moyennes à long terme ci-dessus l'incluent déjà. Ce qui compte, c'est la minorité qui reprend un poids important : jusqu'à 30% des patients sleeve en cinq ans. La différence entre un revers temporaire et un résultat perdu tient au fait d'<strong>agir tôt</strong> — programmes de remise à zéro, médicaments GLP-1, resserrement endoscopique et conversion chirurgicale forment une échelle de traitement complète. Nous la détaillons dans le <link1>guide sur la reprise de poids</link1>."
+    },
+    "checklist": {
+      "title": "Ce qui Protège Votre Résultat Pendant des Décennies",
+      "items": [
+        "Analyses sanguines annuelles — B12, vitamine D, fer, folates, calcium",
+        "Multivitamines quotidiennes (à vie après un bypass)",
+        "Alimentation privilégiant les protéines et limitant les calories liquides",
+        "Réagir à 5 kg de reprise, pas à 25 kg",
+        "Une équipe chirurgicale que vous pouvez encore joindre à l'année 7 — pas seulement à l'année 1"
+      ]
+    },
+    "surgeonProof": {
+      "title": "Des Données de Résultats que Vous Pouvez Vérifier",
+      "subtitle": "Demandez à toute clinique ses chiffres à long terme avant de réserver. Les nôtres : 8 000+ interventions, les fourchettes de résultats publiées ci-dessus, et des patients de 2015 toujours en contact sur WhatsApp."
+    },
+    "faq": {
+      "title": "Résultats à Long Terme — Vos Questions, Nos Réponses",
+      "items": [
+        {
+          "question": "Combien de poids garde-t-on 10 ans après une chirurgie bariatrique ?",
+          "answer": "Les études à long terme (dont l'étude de référence SOS suivant les patients pendant plus de 20 ans) montrent que les patients de chirurgie bariatrique maintiennent 20-30% de perte de poids corporel total à 10 ans, contre presque rien pour un traitement non chirurgical. Les patients sleeve conservent généralement 50-60% du poids excédentaire à 10 ans, les patients bypass 55-65%."
+        },
+        {
+          "question": "La chirurgie bariatrique fait-elle réellement vivre plus longtemps ?",
+          "answer": "Oui — c'est l'un des résultats les plus solides de la chirurgie moderne. De grandes études de cohorte montrent une mortalité toutes causes confondues inférieure de 30-50% sur plus de 10 ans chez les patients opérés par rapport à des témoins appariés, portée par moins de décès cardiovasculaires, de complications du diabète et de cancers liés à l'obésité."
+        },
+        {
+          "question": "Qu'advient-il du diabète de type 2 à long terme après la chirurgie ?",
+          "answer": "La rémission est fréquente et souvent durable : environ 60-70% de rémission après un sleeve et 80-90% après un bypass à 1-2 ans, dont environ la moitié se maintient au-delà de 10 ans. Même les patients dont le diabète finit par réapparaître ont généralement besoin de moins de médicaments et d'un meilleur contrôle qu'avant la chirurgie."
+        },
+        {
+          "question": "Une certaine reprise de poids après la chirurgie est-elle inévitable ?",
+          "answer": "Une reprise modérée à partir du point le plus bas (généralement 5-10% du poids corporel entre les années 2 et 5) est physiologiquement normale et prise en compte dans les résultats à long terme ci-dessus. Une reprise importante — plus de 25% du poids perdu — touche jusqu'à 30% des patients sleeve en 5 ans et est traitable ; consultez notre guide sur la reprise de poids."
+        },
+        {
+          "question": "Quel suivi à long terme la chirurgie bariatrique nécessite-t-elle ?",
+          "answer": "Des analyses sanguines annuelles (vitamines B12, D, fer, folates, calcium), une prise régulière de multivitamines — à vie après un bypass — et l'accès à une diététicienne lorsque l'alimentation dérive. Istanbul Bariatric Center inclut 12 mois de suivi structuré et reste joignable sur WhatsApp à vie."
+        },
+        {
+          "question": "Comment les résultats à long terme de l'ESG se comparent-ils à la chirurgie ?",
+          "answer": "Les données à 5 ans de l'ESG (essai randomisé MERIT) montrent que plus de 80% des patients maintiennent au moins 10% de perte de poids corporel total — durable, mais inférieur aux 20-30% de la chirurgie. L'ESG convient aux IMC plus faibles ; la chirurgie reste la référence pour un IMC supérieur à 40 ou une maladie métabolique importante."
+        }
+      ]
+    },
+    "related": {
+      "title": "Où Aller à Partir d'Ici",
+      "links": [
+        {
+          "title": "Sleeve vs Bypass",
+          "description": "Choisissez la procédure avec la durabilité qu'il vous faut"
+        },
+        {
+          "title": "Reprise de Poids Après un Sleeve",
+          "description": "L'échelle de traitement complète de la reprise"
+        },
+        {
+          "title": "Chirurgie de Révision",
+          "description": "Quand la première opération a besoin d'une seconde étape"
+        },
+        {
+          "title": "Résultats des Patients",
+          "description": "De véritables parcours avant-après"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Planifiez pour les 20 Prochaines Années, Pas les 20 Prochaines Semaines",
+      "text": "Dites-nous votre taille, votre poids et vos objectifs de santé. Nous vous dirons quelle procédure dont les preuves à long terme correspondent à votre cas — gratuitement, honnêtement, sous 24 heures.",
+      "button": "Obtenir mon Évaluation Gratuite"
+    }
+  },
+  "balloonVsSleevePage": {
+    "hero": {
+      "eyebrow": "Guide de Décision",
+      "title": "Ballon Gastrique vs Sleeve Gastrique",
+      "subtitle": "L'un est temporaire, réversible et sans chirurgie ; l'autre est permanent et bien plus puissant. La vraie question n'est pas lequel est « meilleur » — c'est combien de poids vous devez perdre, et pour combien de temps.",
+      "stats": [
+        {
+          "value": "10–15%",
+          "label": "Perte de poids totale — ballon"
+        },
+        {
+          "value": "25–30%",
+          "label": "Perte de poids totale — sleeve"
+        },
+        {
+          "value": "6–12 mois",
+          "label": "Durée du ballon"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Ballon vs Sleeve en un Coup d'Œil",
+      "columns": [
+        "Facteur",
+        "Ballon Gastrique",
+        "Sleeve Gastrique"
+      ],
+      "rows": [
+        [
+          "Technique",
+          "Ballon en silicone placé dans l'estomac (par endoscopie ou à avaler)",
+          "~80% de l'estomac retiré chirurgicalement"
+        ],
+        [
+          "Permanence",
+          "Temporaire — retiré à 6 ou 12 mois",
+          "Permanent"
+        ],
+        [
+          "Perte de poids corporel total",
+          "10–15% (pendant sa présence)",
+          "25–30% (durable)"
+        ],
+        [
+          "Anesthésie",
+          "Sédation, ~20 minutes",
+          "Générale, ~60 minutes"
+        ],
+        [
+          "Séjour hospitalier",
+          "Aucun — sortie le jour même",
+          "2–3 nuits"
+        ],
+        [
+          "Reprise du travail",
+          "1–3 jours",
+          "10–14 jours"
+        ],
+        [
+          "Réversible",
+          "Totalement",
+          "Non"
+        ],
+        [
+          "Plage d'IMC idéale",
+          "27–35",
+          "35–55+"
+        ],
+        [
+          "Principal inconvénient",
+          "Reprise de poids après le retrait",
+          "Irréversible ; risque de reflux"
+        ],
+        [
+          "Prix à l'IBC (tout inclus)",
+          "À partir de £1,650",
+          "À partir de £2,950"
+        ]
+      ]
+    },
+    "prose": {
+      "title": "La Bonne Façon d'y Réfléchir",
+      "p1": "Le ballon et le sleeve répondent à des <strong>problèmes différents</strong>. Le <link1>ballon gastrique</link1> est un outil de 6–12 mois : il occupe de l'espace dans l'estomac pour vous rassasier plus tôt, idéal pour perdre 10–25 kg, franchir un palier ou tester la restriction avant de s'engager dans quoi que ce soit de permanent. Le <link2>sleeve gastrique</link2> est une opération permanente qui modifie à la fois la capacité et les hormones de la faim — l'outil approprié lorsque l'obésité est installée et de longue date.",
+      "p2": "Si vous recherchez la douceur du ballon mais la durabilité du sleeve, ce compromis existe : l'<link1>ESG (gastroplastie endoscopique en sleeve)</link1> est non chirurgicale comme le ballon, mais offre une perte de poids corporel total de 15–20% qui dure — comparez-la dans notre <link2>guide ESG vs sleeve</link2>.",
+      "cta": "Pas Sûr ? Obtenez des Conseils Gratuits"
+    },
+    "candidacy": {
+      "title": "Le Ballon Vous Convient Si…",
+      "intro": "Nous recommandons sincèrement le ballon lorsque :",
+      "criteria": [
+        "Votre IMC est de 27–35 et vous devez perdre 10–25 kg",
+        "Vous voulez une option entièrement réversible et sans chirurgie",
+        "Vous devez perdre du poids avant une autre opération (y compris une chirurgie bariatrique)",
+        "Vous voulez tester la sensation de restriction avant une décision permanente",
+        "Vous pouvez vous engager dans le programme diététique — le ballon ne fonctionne qu'avec lui"
+      ],
+      "note": "Si votre IMC dépasse 35 et qu'il s'agit d'un problème de poids de longue date, méfiez-vous de choisir le ballon simplement parce qu'il paraît plus facile — la reprise de poids après le retrait est la plainte la plus fréquente que nous entendons des patients ayant eu un ballon ailleurs. L'ESG ou le sleeve vous serviront mieux."
+    },
+    "surgeonProof": {
+      "title": "Nous Proposons les Trois — Pour que Vous Ayez le Bon",
+      "subtitle": "Ballon, ESG et sleeve chirurgical sont tous réalisés en interne, ce qui signifie que notre recommandation suit votre cas, et non notre catalogue."
+    },
+    "faq": {
+      "title": "Ballon vs Sleeve — Vos Questions, Nos Réponses",
+      "items": [
+        {
+          "question": "Un ballon gastrique est-il aussi efficace qu'un sleeve gastrique ?",
+          "answer": "Non. Un ballon produit 10-15% de perte de poids corporel total pendant sa présence (6-12 mois) ; le sleeve chirurgical produit 25-30% et le résultat est permanent. L'avantage du ballon est qu'il est temporaire, non chirurgical et entièrement réversible — un outil pour amorcer la perte de poids ou préparer une chirurgie, et non une solution à vie."
+        },
+        {
+          "question": "Le poids revient-il après un ballon gastrique ?",
+          "answer": "C'est possible. Une fois le ballon retiré, l'estomac retrouve sa capacité normale, donc le maintien du poids dépend entièrement des habitudes alimentaires acquises pendant la période du ballon. Les études montrent qu'une part importante des patients reprend du poids dans les 1-2 ans suivant le retrait, sauf s'ils passent à un traitement complémentaire ou maintiennent des habitudes strictes."
+        },
+        {
+          "question": "À qui convient réellement un ballon gastrique ?",
+          "answer": "Aux patients avec un IMC de 27-35 devant perdre 10-25 kg, aux patients souhaitant un essai entièrement réversible de la restriction avant de s'engager dans une chirurgie, et aux patients à IMC plus élevé devant perdre du poids avant une opération. Pour un IMC supérieur à 35 recherchant un résultat durable, l'ESG ou un sleeve chirurgical constituent généralement le meilleur investissement."
+        },
+        {
+          "question": "Le ballon est-il plus sûr que le sleeve ?",
+          "answer": "Le ballon évite entièrement la chirurgie — il est posé par endoscopie en environ 20 minutes, et les versions à avaler ne nécessitent aucune endoscopie. Les complications graves sont rares, bien que des nausées la première semaine soient fréquentes. Le sleeve est également très sûr (1-3% de complications majeures) mais c'est une opération permanente. Entre les deux se situe l'ESG : non chirurgicale comme le ballon, durable comme le sleeve."
+        },
+        {
+          "question": "Combien coûtent le ballon et le sleeve en Turquie ?",
+          "answer": "À Istanbul Bariatric Center, le ballon gastrique débute à £1,650 et le sleeve gastrique à £2,950, tous deux tout inclus. Notez qu'un ballon dure 6-12 mois alors que le sleeve est permanent — par kilogramme maintenu à long terme, le sleeve et l'ESG offrent généralement un meilleur rapport qualité-prix."
+        },
+        {
+          "question": "Puis-je avoir un sleeve ou une ESG après un ballon ?",
+          "answer": "Oui, et c'est un parcours courant : le ballon d'abord pour réduire le poids et prouver que la restriction fonctionne pour vous, puis l'ESG ou un sleeve chirurgical pour le résultat permanent. Nous planifions délibérément ce parcours en deux étapes pour les patients appropriés."
+        }
+      ]
+    },
+    "related": {
+      "title": "Votre Prochaine Étape",
+      "links": [
+        {
+          "title": "Ballon Gastrique",
+          "description": "Guide complet — à partir de £1,650"
+        },
+        {
+          "title": "ESG — le Juste Milieu",
+          "description": "Non chirurgical et durable — à partir de £4,950"
+        },
+        {
+          "title": "Sleeve Gastrique",
+          "description": "Guide complet — à partir de £2,950"
+        },
+        {
+          "title": "Guide des Coûts",
+          "description": "Tous les prix 2026 vs Royaume-Uni, États-Unis et UE"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Dites-Nous Votre Objectif — Nous Traçons la Voie",
+      "text": "Qu'il s'agisse de 10 kg ou de 60 kg, envoyez à notre équipe votre taille, votre poids et votre objectif. Vous recevrez une recommandation honnête — ballon, ESG, sleeve ou aucun — sous 24 heures.",
+      "button": "Obtenir ma Recommandation Gratuite"
+    }
+  },
+  "travelGuidePage": {
+    "hero": {
+      "eyebrow": "Guide de Voyage et de Logistique",
+      "title": "Votre Voyage à Istanbul, Jour par Jour",
+      "subtitle": "Du moment où vous atterrissez à celui où vous rentrez chez vous — chaque transfert, examen, nuit à l'hôpital et séjour à l'hôtel, planifiés pour vous. Voici exactement à quoi ressemble votre semaine.",
+      "stats": [
+        {
+          "value": "4–6",
+          "label": "Nuits à Istanbul (chirurgie)"
+        },
+        {
+          "value": "2–3",
+          "label": "Nuits pour ESG / ballon"
+        },
+        {
+          "value": "24/7",
+          "label": "Accès à l'équipe WhatsApp"
+        }
+      ]
+    },
+    "facts": {
+      "title": "Logistique du Voyage en un Coup d'Œil",
+      "items": [
+        {
+          "label": "Prise en charge à l'aéroport",
+          "value": "VIP, incluse"
+        },
+        {
+          "label": "Hôtel",
+          "value": "Radisson, inclus"
+        },
+        {
+          "label": "Accompagnant",
+          "value": "Séjour gratuit"
+        },
+        {
+          "label": "Interprète",
+          "value": "Fourni tout au long du séjour"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Le Déroulé Jour par Jour (Sleeve et Bypass)",
+      "steps": [
+        "<strong>Jour 1 — Arrivée et examens.</strong> Un chauffeur VIP vous accueille à l'aéroport d'Istanbul et vous conduit à l'hôpital. Analyses sanguines, ECG, radiographie thoracique, échographie abdominale, consultation d'anesthésie et votre consultation avec le Dr Ustun ont tous lieu le même après-midi. Vous dormez à l'hôtel (ou à l'hôpital si la chirurgie a lieu tôt le lendemain matin).",
+        "<strong>Jour 2 — Jour de l'opération.</strong> L'opération dure environ une heure. Vous vous réveillez dans votre chambre privée ; les infirmières vous font marcher dans le couloir le soir même — la meilleure chose pour la récupération.",
+        "<strong>Jours 3–4 — Récupération à l'hôpital.</strong> Test d'étanchéité, passage aux liquides clairs, visites quotidiennes du Dr Ustun et de la diététicienne. La plupart des patients décrivent une gêne, pas une douleur — gérée par des médicaments de routine.",
+        "<strong>Jours 4–5 — Récupération à l'hôtel.</strong> Sortie vers le Radisson avec votre trousse de médicaments. Vous marcherez sur de courtes distances, boirez des liquides selon le programme, et l'équipe prend de vos nouvelles chaque jour.",
+        "<strong>Jour 5–6 — Bilan final et retour à la maison.</strong> Contrôle de clôture, votre protocole à emporter et vos compléments, puis un transfert vers l'aéroport. Un siège côté couloir et des marches régulières pendant le vol sont tout ce dont vous avez besoin."
+      ],
+      "p1": "Vous avez une <esgLink>ESG</esgLink> ou un <balloonLink>ballon gastrique</balloonLink> à la place ? Votre version est plus courte : procédure le jour 1–2, sortie le jour même ou le lendemain matin, retour à la maison à partir du jour 2–3.",
+      "cta": "Obtenir mon Plan de Voyage Personnalisé"
+    },
+    "packing": {
+      "title": "Liste de Bagages — Ce que les Patients Auraient Aimé Apporter",
+      "items": [
+        "Passeport valable 150+ jours (les citoyens britanniques n'ont pas besoin de visa)",
+        "Vêtements amples s'ouvrant sur le devant et chaussures faciles à enfiler",
+        "Médicaments habituels dans leur emballage d'origine",
+        "Petit coussin — le serrer soulage lors du vol de retour",
+        "Baume à lèvres et articles de toilette format voyage",
+        "De quoi vous divertir pendant les temps morts à l'hôpital (chargeur + câble long !)",
+        "Une bouteille d'eau vide pour boire à petites gorgées selon le programme",
+        "Des attentes réalistes : il s'agit de récupération, pas de tourisme"
+      ]
+    },
+    "flyingHome": {
+      "title": "Rentrer en Toute Sécurité : les Règles de Reprise du Vol",
+      "intro": "Voyager en avion après une chirurgie bariatrique est sûr lorsque le calendrier est respecté. Nos autorisations standard :",
+      "rules": [
+        "<strong>Sleeve / bypass / révision :</strong> vol à partir du jour 4–6, après votre bilan chirurgical final",
+        "<strong>ESG :</strong> vol à partir du jour 2–3",
+        "<strong>Ballon gastrique :</strong> vol à partir du jour 1–2"
+      ],
+      "outro": "Pendant le vol : choisissez un siège côté couloir, marchez toutes les 45–60 minutes, buvez constamment à petites gorgées et portez les bas de contention que nous fournissons — prévention standard des caillots après toute opération. Il peut être conseillé aux patients long-courrier (États-Unis, Australie) de rester une nuit supplémentaire ; nous le planifions avec vous avant que vous ne réserviez vos vols."
+    },
+    "companion": {
+      "title": "Venir Seul vs Venir avec un Accompagnant",
+      "p1": "Environ la moitié de nos patients internationaux voyagent seuls — le forfait est conçu pour cela, avec chaque transfert organisé, un personnel anglophone, un interprète à chaque étape médicale et des visites quotidiennes à l'hôtel. Si vous venez avec un accompagnant, il séjourne gratuitement dans votre chambre d'hôtel, peut passer la nuit à l'hôpital, et Istanbul lui offre de nombreuses activités pendant votre journée d'intervention. Dans tous les cas, vous n'êtes jamais laissé à vous débrouiller seul dans une ville étrangère."
+    },
+    "surgeonProof": {
+      "title": "La Logistique Fait Partie de la Sécurité",
+      "subtitle": "Des transferts fluides et des journées de récupération structurées ne sont pas du luxe — c'est ainsi que les complications sont repérées tôt et que les récupérations restent sur la bonne voie."
+    },
+    "faq": {
+      "title": "Voyage — Vos Questions, Nos Réponses",
+      "items": [
+        {
+          "question": "Combien de temps après une chirurgie bariatrique puis-je rentrer en avion ?",
+          "answer": "Pour les patients sleeve et bypass, voler 4-6 jours après la chirurgie est sûr et courant — vous aurez passé 2-3 nuits surveillées à l'hôpital et 1-2 nuits de récupération à l'hôtel, avec un bilan chirurgical final avant le départ. Les patients ESG et ballon peuvent généralement voler dans les 2-3 jours. Nous planifions la date de votre vol de retour avec vous avant même que vous ne le réserviez."
+        },
+        {
+          "question": "Dois-je venir accompagné ?",
+          "answer": "Vous n'y êtes pas obligé — de nombreux patients voyagent seuls et nos coordinateurs, chauffeurs et infirmières s'occupent de tout — mais un accompagnant rend le voyage plus confortable. Les accompagnants séjournent gratuitement dans votre chambre d'hôtel dans nos forfaits, et les chambres d'hôpital peuvent accueillir un invité pour la nuit. Si vous venez seul, notre équipe prend de vos nouvelles chaque jour à l'hôtel."
+        },
+        {
+          "question": "Que se passe-t-il lorsque j'atterris à l'aéroport d'Istanbul ?",
+          "answer": "Un chauffeur VIP vous accueille aux arrivées avec votre nom, prend vos bagages et vous conduit directement à l'hôtel ou à l'hôpital selon votre programme. Tous les transferts — aéroport, hôtel, hôpital et retour — sont inclus, vous n'avez donc jamais besoin d'un taxi ni des transports en commun."
+        },
+        {
+          "question": "Que dois-je emporter pour une chirurgie bariatrique à l'étranger ?",
+          "answer": "L'essentiel : passeport (valable 150+ jours), vêtements amples confortables, chaussures faciles à enfiler, baume à lèvres, tout médicament habituel dans son emballage d'origine, un petit coussin pour le vol de retour (le serrer soulage la toux et la pression de la ceinture) et une bouteille d'eau vide pour boire à petites gorgées. Nous envoyons une liste de bagages complète au moment de la réservation."
+        },
+        {
+          "question": "Istanbul est-elle sûre pour le tourisme médical ?",
+          "answer": "Istanbul accueille plus d'un million de voyageurs médicaux internationaux chaque année, et les quartiers autour de Liv Hospital sont modernes, sûrs et habitués aux patients internationaux. Vous serez accompagné par nos chauffeurs et coordinateurs à chaque déplacement prévu, et l'équipe est joignable sur WhatsApp 24/7 pendant tout votre séjour."
+        },
+        {
+          "question": "Que faire si j'ai un problème après mon retour à la maison ?",
+          "answer": "Vous conservez un accès direct à l'équipe clinique sur WhatsApp — envoyez un message ou des photos à tout moment et vous obtiendrez une réponse le jour même. Les forfaits Détente et Luxe incluent 12 mois de suivi par une diététicienne enregistrée au Royaume-Uni, et les patients britanniques bénéficient d'un accompagnement en personne dans 8 lieux. Pour toute urgence, nous coordonnons avec les services locaux et votre médecin traitant."
+        }
+      ]
+    },
+    "related": {
+      "title": "Planifiez Votre Procédure",
+      "links": [
+        {
+          "title": "Guide pour les Patients Britanniques",
+          "description": "Prix fixes en GBP et suivi au Royaume-Uni dans 8 lieux"
+        },
+        {
+          "title": "Guide des Coûts",
+          "description": "Prix tout inclus 2026 vs Royaume-Uni, États-Unis et UE"
+        },
+        {
+          "title": "Sleeve Gastrique",
+          "description": "La procédure la plus choisie — à partir de £2,950"
+        },
+        {
+          "title": "ESG (Non Chirurgical)",
+          "description": "Le voyage le plus court : 2–3 jours — à partir de £4,950"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Obtenez Votre Plan de Voyage Personnalisé",
+      "text": "Dites-nous la procédure qui vous intéresse et vos dates préférées sur WhatsApp — vous recevrez un plan jour par jour, des conseils de vol et un devis fixe tout inclus sous 24 heures.",
+      "button": "Planifier mon Voyage Gratuitement"
     }
   }
 }

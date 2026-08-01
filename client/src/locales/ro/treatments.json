@@ -591,18 +591,39 @@
       "title": "Chirurgie Bariatrică de Revizie în Turcia",
       "subtitle": "Recâștigarea în greutate după un gastric sleeve sau bypass este mai frecventă decât credeți — și poate fi corectată. Explorați căile de revizie chirurgicale și non-chirurgicale cu una dintre cele mai experimentate echipe de revizie din Turcia.",
       "stats": [
-        { "value": "8,000+", "label": "Proceduri efectuate" },
-        { "value": "5", "label": "Căi de revizie" },
-        { "value": "£3,950", "label": "All-inclusive de la" }
+        {
+          "value": "8,000+",
+          "label": "Proceduri efectuate"
+        },
+        {
+          "value": "5",
+          "label": "Căi de revizie"
+        },
+        {
+          "value": "£3,950",
+          "label": "All-inclusive de la"
+        }
       ]
     },
     "facts": {
       "title": "Chirurgia de Revizie Dintr-o Privire",
       "items": [
-        { "label": "Evaluare", "value": "Endoscopie + imagistică" },
-        { "label": "Opțiuni", "value": "Chirurgicale și endoscopice" },
-        { "label": "Spitalizare", "value": "0–3 nopți" },
-        { "label": "All-inclusive de la", "value": "£3,950" }
+        {
+          "label": "Evaluare",
+          "value": "Endoscopie + imagistică"
+        },
+        {
+          "label": "Opțiuni",
+          "value": "Chirurgicale și endoscopice"
+        },
+        {
+          "label": "Spitalizare",
+          "value": "0–3 nopți"
+        },
+        {
+          "label": "All-inclusive de la",
+          "value": "£3,950"
+        }
       ]
     },
     "why": {
@@ -615,13 +636,43 @@
     "pathways": {
       "title": "Compararea Căilor de Revizie",
       "subtitle": "Revizia potrivită depinde de procedura inițială, de simptomele și de obiectivele dumneavoastră.",
-      "columns": ["Cale", "Recomandat Pentru", "Cum Funcționează", "Invazivitate"],
+      "columns": [
+        "Cale",
+        "Recomandat Pentru",
+        "Cum Funcționează",
+        "Invazivitate"
+      ],
       "rows": [
-        ["Sleeve → Mini Bypass Gastric", "Recâștigare în greutate după sleeve, în special cu reflux (GERD)", "Convertește sleeve-ul într-o pungă mică conectată la intestin, rezolvând refluxul și adăugând un efect metabolic", "Chirurgie laparoscopică, 2–3 nopți"],
-        ["Sleeve → Duodenal Switch / Bifurcație de Transit", "BMI ridicat sau diabet tip 2 după un sleeve", "Păstrează sleeve-ul și adaugă o componentă intestinală pentru pierdere maximă în greutate și controlul diabetului", "Chirurgie laparoscopică, 2–3 nopți"],
-        ["Re-Sleeve Endoscopic (revizie ESG)", "Sleeve moderat întins, pacienți care doresc să evite chirurgia", "Suturi endoscopice prin gură restrâng din nou sleeve-ul întins — fără incizii", "Endoscopic, aceeași zi / 1 noapte"],
-        ["TORe (Transoral Outlet Reduction)", "Recâștigare în greutate după bypass gastric din cauza unei stome întinse", "Suturi endoscopice îngustează orificiul de ieșire lărgit dintre pungă și intestin", "Endoscopic, externare în aceeași zi"],
-        ["Bandă → Sleeve sau Bypass", "Bandă gastrică eșuată sau complicată", "Îndepărtează banda și convertește într-un sleeve sau bypass în una sau două etape", "Chirurgie laparoscopică, 2–3 nopți"]
+        [
+          "Sleeve → Mini Bypass Gastric",
+          "Recâștigare în greutate după sleeve, în special cu reflux (GERD)",
+          "Convertește sleeve-ul într-o pungă mică conectată la intestin, rezolvând refluxul și adăugând un efect metabolic",
+          "Chirurgie laparoscopică, 2–3 nopți"
+        ],
+        [
+          "Sleeve → Duodenal Switch / Bifurcație de Transit",
+          "BMI ridicat sau diabet tip 2 după un sleeve",
+          "Păstrează sleeve-ul și adaugă o componentă intestinală pentru pierdere maximă în greutate și controlul diabetului",
+          "Chirurgie laparoscopică, 2–3 nopți"
+        ],
+        [
+          "Re-Sleeve Endoscopic (revizie ESG)",
+          "Sleeve moderat întins, pacienți care doresc să evite chirurgia",
+          "Suturi endoscopice prin gură restrâng din nou sleeve-ul întins — fără incizii",
+          "Endoscopic, aceeași zi / 1 noapte"
+        ],
+        [
+          "TORe (Transoral Outlet Reduction)",
+          "Recâștigare în greutate după bypass gastric din cauza unei stome întinse",
+          "Suturi endoscopice îngustează orificiul de ieșire lărgit dintre pungă și intestin",
+          "Endoscopic, externare în aceeași zi"
+        ],
+        [
+          "Bandă → Sleeve sau Bypass",
+          "Bandă gastrică eșuată sau complicată",
+          "Îndepărtează banda și convertește într-un sleeve sau bypass în una sau două etape",
+          "Chirurgie laparoscopică, 2–3 nopți"
+        ]
       ]
     },
     "candidacy": {
@@ -655,29 +706,74 @@
     "testimonials": {
       "title": "Pacienți Care Și-au Primit a Doua Șansă",
       "quotes": [
-        { "name": "Sarah M.", "flag": "🇺🇸", "date": "Octombrie 2025", "text": "Am avut operația cu Dr. Murat și echipa sa uimitoare. Întreaga mea experiență a fost pur și simplu fabuloasă. În doar patru luni, am pierdut deja 35 kg. Îmi încredințez complet viața Dr. Murat și echipei sale." },
-        { "name": "David R.", "flag": "🇬🇧", "date": "Septembrie 2025", "text": "Din momentul în care am sosit, m-am simțit complet în largul meu — chiar dacă am călătorit singur. Echipa Dr. Murat a rămas în legătură cu mine de la operație până astăzi, ghidându-mă pas cu pas prin nutriție, îngrijire post-operatorie și recuperare." },
-        { "name": "Peter V.", "flag": "🇧🇪", "date": "Noiembrie 2024", "text": "Am avut operația acum 6 luni și am pierdut 45 kg. Suportul continuu din partea echipei Dr. Murat a fost uimitor. Mă contactează regulat și răspund prompt la toate întrebările mele." }
+        {
+          "name": "Sarah M.",
+          "flag": "🇺🇸",
+          "date": "Octombrie 2025",
+          "text": "Am avut operația cu Dr. Murat și echipa sa uimitoare. Întreaga mea experiență a fost pur și simplu fabuloasă. În doar patru luni, am pierdut deja 35 kg. Îmi încredințez complet viața Dr. Murat și echipei sale."
+        },
+        {
+          "name": "David R.",
+          "flag": "🇬🇧",
+          "date": "Septembrie 2025",
+          "text": "Din momentul în care am sosit, m-am simțit complet în largul meu — chiar dacă am călătorit singur. Echipa Dr. Murat a rămas în legătură cu mine de la operație până astăzi, ghidându-mă pas cu pas prin nutriție, îngrijire post-operatorie și recuperare."
+        },
+        {
+          "name": "Peter V.",
+          "flag": "🇧🇪",
+          "date": "Noiembrie 2024",
+          "text": "Am avut operația acum 6 luni și am pierdut 45 kg. Suportul continuu din partea echipei Dr. Murat a fost uimitor. Mă contactează regulat și răspund prompt la toate întrebările mele."
+        }
       ]
     },
     "faq": {
       "title": "Chirurgia de Revizie — Întrebări Frecvente",
       "items": [
-        { "question": "Ce este chirurgia bariatrică de revizie?", "answer": "Chirurgia bariatrică de revizie este o a doua procedură efectuată după o operație anterioară de pierdere în greutate — precum gastric sleeve, bypass gastric sau bandă gastrică — atunci când prima intervenție a dus la recâștigare în greutate, pierdere insuficientă în greutate sau complicații precum refluxul sever. Calea de revizie este aleasă în funcție de anatomia, simptomele și obiectivele dumneavoastră." },
-        { "question": "Câtă recâștigare în greutate este normală după gastric sleeve?", "answer": "O anumită fluctuație de greutate este normală, dar studiile arată că până la 30% dintre pacienții cu sleeve experimentează o recâștigare semnificativă în greutate în 5 ani, adesea din cauza întinderii treptate a sleeve-ului sau a adaptării hormonale. Dacă ați recâștigat mai mult de 25% din greutatea pierdută inițial, o evaluare de revizie este binevenită." },
-        { "question": "Ce procedură de revizie este cea mai bună după un gastric sleeve eșuat?", "answer": "Cele mai frecvente opțiuni sunt conversia în mini bypass gastric (mai ales când există reflux — GERD afectează până la 55% dintre pacienții cu sleeve pe termen lung), conversia în duodenal switch sau bifurcație de transit pentru un efect metabolic mai mare, sau un re-sleeve endoscopic non-chirurgical. Opțiunea potrivită depinde de motivul pentru care sleeve-ul a eșuat, care este evaluat prin endoscopie și imagistică." },
-        { "question": "Poate fi revizuit un bypass gastric fără chirurgie?", "answer": "Da. Dacă legătura dintre pungă și intestin (stoma) s-a întins, TORe (Transoral Outlet Reduction) o strânge endoscopic prin gură — fără incizii, de obicei cu externare în aceeași zi. Este principala revizie non-chirurgicală pentru recâștigarea în greutate după bypass." },
-        { "question": "Este chirurgia bariatrică de revizie mai riscantă decât prima operație?", "answer": "Chirurgia de revizie este mai complexă din punct de vedere tehnic din cauza țesutului cicatricial de la prima operație, motiv pentru care experiența chirurgului contează mai mult decât la chirurgia primară. În centrele cu volum ridicat și chirurgi de revizie experimentați, ratele de complicații rămân scăzute, iar rezultatele sunt excelente." },
-        { "question": "Cât costă chirurgia bariatrică de revizie în Turcia?", "answer": "Chirurgia de revizie la Istanbul costă de obicei £3,950–£5,950 all-inclusive, în funcție de cale — cu aproximativ 60-70% mai puțin decât în UK sau US. Fiecare ofertă include spitalizarea la spital acreditat JCI, endoscopia și testele preoperatorii, transferurile, hotelul și îngrijirea post-operatorie. Contactați-ne pentru o evaluare personalizată și o ofertă exactă." }
+        {
+          "question": "Ce este chirurgia bariatrică de revizie?",
+          "answer": "Chirurgia bariatrică de revizie este o a doua procedură efectuată după o operație anterioară de pierdere în greutate — precum gastric sleeve, bypass gastric sau bandă gastrică — atunci când prima intervenție a dus la recâștigare în greutate, pierdere insuficientă în greutate sau complicații precum refluxul sever. Calea de revizie este aleasă în funcție de anatomia, simptomele și obiectivele dumneavoastră."
+        },
+        {
+          "question": "Câtă recâștigare în greutate este normală după gastric sleeve?",
+          "answer": "O anumită fluctuație de greutate este normală, dar studiile arată că până la 30% dintre pacienții cu sleeve experimentează o recâștigare semnificativă în greutate în 5 ani, adesea din cauza întinderii treptate a sleeve-ului sau a adaptării hormonale. Dacă ați recâștigat mai mult de 25% din greutatea pierdută inițial, o evaluare de revizie este binevenită."
+        },
+        {
+          "question": "Ce procedură de revizie este cea mai bună după un gastric sleeve eșuat?",
+          "answer": "Cele mai frecvente opțiuni sunt conversia în mini bypass gastric (mai ales când există reflux — GERD afectează până la 55% dintre pacienții cu sleeve pe termen lung), conversia în duodenal switch sau bifurcație de transit pentru un efect metabolic mai mare, sau un re-sleeve endoscopic non-chirurgical. Opțiunea potrivită depinde de motivul pentru care sleeve-ul a eșuat, care este evaluat prin endoscopie și imagistică."
+        },
+        {
+          "question": "Poate fi revizuit un bypass gastric fără chirurgie?",
+          "answer": "Da. Dacă legătura dintre pungă și intestin (stoma) s-a întins, TORe (Transoral Outlet Reduction) o strânge endoscopic prin gură — fără incizii, de obicei cu externare în aceeași zi. Este principala revizie non-chirurgicală pentru recâștigarea în greutate după bypass."
+        },
+        {
+          "question": "Este chirurgia bariatrică de revizie mai riscantă decât prima operație?",
+          "answer": "Chirurgia de revizie este mai complexă din punct de vedere tehnic din cauza țesutului cicatricial de la prima operație, motiv pentru care experiența chirurgului contează mai mult decât la chirurgia primară. În centrele cu volum ridicat și chirurgi de revizie experimentați, ratele de complicații rămân scăzute, iar rezultatele sunt excelente."
+        },
+        {
+          "question": "Cât costă chirurgia bariatrică de revizie în Turcia?",
+          "answer": "Chirurgia de revizie la Istanbul costă de obicei £3,950–£5,950 all-inclusive, în funcție de cale — cu aproximativ 60-70% mai puțin decât în UK sau US. Fiecare ofertă include spitalizarea la spital acreditat JCI, endoscopia și testele preoperatorii, transferurile, hotelul și îngrijirea post-operatorie. Contactați-ne pentru o evaluare personalizată și o ofertă exactă."
+        }
       ]
     },
     "related": {
       "title": "Explorați Opțiuni Similare",
       "links": [
-        { "title": "Mini Bypass Gastric", "description": "Cea mai frecventă conversie de la sleeve" },
-        { "title": "Bifurcație de Transit", "description": "Revizie metabolică puternică" },
-        { "title": "Procedura TORe", "description": "Revizie non-chirurgicală de bypass" },
-        { "title": "Ghid de Costuri", "description": "Comparați prețuri all-inclusive" }
+        {
+          "title": "Mini Bypass Gastric",
+          "description": "Cea mai frecventă conversie de la sleeve"
+        },
+        {
+          "title": "Bifurcație de Transit",
+          "description": "Revizie metabolică puternică"
+        },
+        {
+          "title": "Procedura TORe",
+          "description": "Revizie non-chirurgicală de bypass"
+        },
+        {
+          "title": "Ghid de Costuri",
+          "description": "Comparați prețuri all-inclusive"
+        }
       ]
     },
     "conversion": {
@@ -692,31 +788,94 @@
       "title": "Costul Chirurgiei Bariatrice în Turcia",
       "subtitle": "Fiecare preț de pe această pagină este all-inclusive și fix înainte de a călători: spital, chirurg, teste, transferuri, hotel și 12 luni de îngrijire post-operatorie. Fără costuri ascunse — niciodată.",
       "stats": [
-        { "value": "£1,650", "label": "Pachete de la" },
-        { "value": "60–70%", "label": "Economie tipică vs UK/US" },
-        { "value": "0", "label": "Taxe ascunse" }
+        {
+          "value": "£1,650",
+          "label": "Pachete de la"
+        },
+        {
+          "value": "60–70%",
+          "label": "Economie tipică vs UK/US"
+        },
+        {
+          "value": "0",
+          "label": "Taxe ascunse"
+        }
       ]
     },
     "facts": {
       "title": "Prețuri Pachete All-Inclusive 2026",
       "items": [
-        { "label": "Balon Gastric", "value": "De la £1,650" },
-        { "label": "Gastric Sleeve", "value": "De la £2,950" },
-        { "label": "Mini Bypass Gastric", "value": "De la £3,350" },
-        { "label": "ESG (Non-Chirurgical)", "value": "De la £4,950" }
+        {
+          "label": "Balon Gastric",
+          "value": "De la £1,650"
+        },
+        {
+          "label": "Gastric Sleeve",
+          "value": "De la £2,950"
+        },
+        {
+          "label": "Mini Bypass Gastric",
+          "value": "De la £3,350"
+        },
+        {
+          "label": "ESG (Non-Chirurgical)",
+          "value": "De la £4,950"
+        }
       ]
     },
     "comparison": {
       "title": "Turcia vs UK, US și Europa: Comparație de Prețuri",
       "subtitle": "Prețuri private tipice cu plată din surse proprii pentru aceleași proceduri. Prețurile turcești afișate sunt pachetele all-inclusive fixe ale Istanbul Bariatric Center.",
-      "columns": ["Procedură", "Turcia (IBC, all-inclusive)", "Regatul Unit", "Statele Unite", "Europa de Vest"],
+      "columns": [
+        "Procedură",
+        "Turcia (IBC, all-inclusive)",
+        "Regatul Unit",
+        "Statele Unite",
+        "Europa de Vest"
+      ],
       "rows": [
-        ["Gastric Sleeve", "£2,950 – £4,250", "£10,000 – £15,000", "$16,000 – $25,000", "€8,000 – €12,000"],
-        ["Mini Bypass Gastric", "£3,350 – £4,650", "£11,000 – £16,000", "$20,000 – $30,000", "€9,000 – €14,000"],
-        ["Balon Gastric", "£1,650 – £2,250", "£4,000 – £8,000", "$6,000 – $9,000", "€3,500 – €6,000"],
-        ["ESG (Sleeve Endoscopic)", "£4,950 – £5,950", "£9,000 – £13,000", "$12,000 – $20,000", "€8,000 – €11,000"],
-        ["Duodenal Switch", "£4,400 – £4,700", "£13,000 – £18,000", "$22,000 – $35,000", "€11,000 – €16,000"],
-        ["Chirurgie de Revizie", "£3,950 – £5,950", "£12,000 – £18,000", "$18,000 – $30,000", "€10,000 – €15,000"]
+        [
+          "Gastric Sleeve",
+          "£2,950 – £4,250",
+          "£10,000 – £15,000",
+          "$16,000 – $25,000",
+          "€8,000 – €12,000"
+        ],
+        [
+          "Mini Bypass Gastric",
+          "£3,350 – £4,650",
+          "£11,000 – £16,000",
+          "$20,000 – $30,000",
+          "€9,000 – €14,000"
+        ],
+        [
+          "Balon Gastric",
+          "£1,650 – £2,250",
+          "£4,000 – £8,000",
+          "$6,000 – $9,000",
+          "€3,500 – €6,000"
+        ],
+        [
+          "ESG (Sleeve Endoscopic)",
+          "£4,950 – £5,950",
+          "£9,000 – £13,000",
+          "$12,000 – $20,000",
+          "€8,000 – €11,000"
+        ],
+        [
+          "Duodenal Switch",
+          "£4,400 – £4,700",
+          "£13,000 – £18,000",
+          "$22,000 – $35,000",
+          "€11,000 – €16,000"
+        ],
+        [
+          "Chirurgie de Revizie",
+          "£3,950 – £5,950",
+          "£12,000 – £18,000",
+          "$18,000 – $30,000",
+          "€10,000 – €15,000"
+        ]
       ],
       "footnote": "Cifrele pentru UK, US și UE sunt intervale orientative de plată din surse proprii publicate de furnizori privați în 2025–2026 și variază în funcție de clinică și oraș."
     },
@@ -763,21 +922,51 @@
     "faq": {
       "title": "Prețuri — Întrebări Frecvente",
       "items": [
-        { "question": "Cât costă chirurgia bariatrică în Turcia?", "answer": "La Istanbul Bariatric Center, pachetele all-inclusive încep de la £1,650 pentru un balon gastric, £2,950 pentru un gastric sleeve, £3,350 pentru un mini bypass gastric și £4,950 pentru ESG. Fiecare pachet include spitalizarea la spital acreditat JCI, testele preoperatorii, transferurile de la aeroport, hotelul (nivelurile Relaxare și Lux) și îngrijirea post-operatorie a dieteticianului." },
-        { "question": "De ce este chirurgia de pierdere în greutate mult mai ieftină în Turcia?", "answer": "Diferența este determinată de costuri de operare mai mici, un curs de schimb favorabil și sprijinul guvernamental pentru turismul medical — nu de standarde mai scăzute. Chirurgia este efectuată la spitale acreditate JCI (aceeași acreditare internațională deținută de spitalele de top din US și Europa) de către chirurgi cu volum ridicat. Plătiți cu 60-70% mai puțin pentru același standard clinic." },
-        { "question": "Există costuri ascunse în pachete?", "answer": "Nu. Pachetele noastre sunt cu adevărat all-inclusive: onorariile de chirurg și anestezie, spitalizarea, testele și consultațiile preoperatorii, transferurile VIP de la aeroport, cazarea la hotel (Relaxare/Lux), medicația post-operatorie de luat acasă și 12 luni de suport dietetician. Singurele costuri neincluse sunt zborurile și cheltuielile personale." },
-        { "question": "Cum se compară costul cu UK, US sau Europa?", "answer": "Un gastric sleeve costă aproximativ £10,000–£15,000 în regim privat în UK, $16,000–$25,000 în US și €8,000–€12,000 în mare parte din Europa de Vest. La Istanbul, pachetul echivalent all-inclusive este £2,950–£4,250 — de obicei o economie de 60–75% chiar și după zboruri." },
-        { "question": "Pot plăti în rate sau prin finanțare?", "answer": "Plata se face în mod normal prin transfer bancar sau card, cu un avans pentru a vă asigura data și restul la sosire. Vorbiți cu coordonatorii noștri despre aranjamentele de plată disponibile în prezent pentru țara dumneavoastră." },
-        { "question": "Asigurarea de călătorie sau NHS acoperă chirurgia în Turcia?", "answer": "NHS și asigurarea de călătorie standard nu acoperă chirurgia programată în străinătate. Cu toate acestea, o asigurare specializată de călătorie medicală care acoperă complicațiile este disponibilă și o recomandăm. Mulți pacienți constată totuși că costul total — chirurgie, zboruri, hotel și asigurare — este mult sub cel al unei operații private acasă." }
+        {
+          "question": "Cât costă chirurgia bariatrică în Turcia?",
+          "answer": "La Istanbul Bariatric Center, pachetele all-inclusive încep de la £1,650 pentru un balon gastric, £2,950 pentru un gastric sleeve, £3,350 pentru un mini bypass gastric și £4,950 pentru ESG. Fiecare pachet include spitalizarea la spital acreditat JCI, testele preoperatorii, transferurile de la aeroport, hotelul (nivelurile Relaxare și Lux) și îngrijirea post-operatorie a dieteticianului."
+        },
+        {
+          "question": "De ce este chirurgia de pierdere în greutate mult mai ieftină în Turcia?",
+          "answer": "Diferența este determinată de costuri de operare mai mici, un curs de schimb favorabil și sprijinul guvernamental pentru turismul medical — nu de standarde mai scăzute. Chirurgia este efectuată la spitale acreditate JCI (aceeași acreditare internațională deținută de spitalele de top din US și Europa) de către chirurgi cu volum ridicat. Plătiți cu 60-70% mai puțin pentru același standard clinic."
+        },
+        {
+          "question": "Există costuri ascunse în pachete?",
+          "answer": "Nu. Pachetele noastre sunt cu adevărat all-inclusive: onorariile de chirurg și anestezie, spitalizarea, testele și consultațiile preoperatorii, transferurile VIP de la aeroport, cazarea la hotel (Relaxare/Lux), medicația post-operatorie de luat acasă și 12 luni de suport dietetician. Singurele costuri neincluse sunt zborurile și cheltuielile personale."
+        },
+        {
+          "question": "Cum se compară costul cu UK, US sau Europa?",
+          "answer": "Un gastric sleeve costă aproximativ £10,000–£15,000 în regim privat în UK, $16,000–$25,000 în US și €8,000–€12,000 în mare parte din Europa de Vest. La Istanbul, pachetul echivalent all-inclusive este £2,950–£4,250 — de obicei o economie de 60–75% chiar și după zboruri."
+        },
+        {
+          "question": "Pot plăti în rate sau prin finanțare?",
+          "answer": "Plata se face în mod normal prin transfer bancar sau card, cu un avans pentru a vă asigura data și restul la sosire. Vorbiți cu coordonatorii noștri despre aranjamentele de plată disponibile în prezent pentru țara dumneavoastră."
+        },
+        {
+          "question": "Asigurarea de călătorie sau NHS acoperă chirurgia în Turcia?",
+          "answer": "NHS și asigurarea de călătorie standard nu acoperă chirurgia programată în străinătate. Cu toate acestea, o asigurare specializată de călătorie medicală care acoperă complicațiile este disponibilă și o recomandăm. Mulți pacienți constată totuși că costul total — chirurgie, zboruri, hotel și asigurare — este mult sub cel al unei operații private acasă."
+        }
       ]
     },
     "related": {
       "title": "Comparați Opțiunile Dumneavoastră",
       "links": [
-        { "title": "Gastric Sleeve", "description": "De la £2,950 all-inclusive" },
-        { "title": "Mini Bypass Gastric", "description": "De la £3,350 all-inclusive" },
-        { "title": "ESG (Non-Chirurgical)", "description": "De la £4,950 all-inclusive" },
-        { "title": "Chirurgie de Revizie", "description": "De la £3,950 all-inclusive" }
+        {
+          "title": "Gastric Sleeve",
+          "description": "De la £2,950 all-inclusive"
+        },
+        {
+          "title": "Mini Bypass Gastric",
+          "description": "De la £3,350 all-inclusive"
+        },
+        {
+          "title": "ESG (Non-Chirurgical)",
+          "description": "De la £4,950 all-inclusive"
+        },
+        {
+          "title": "Chirurgie de Revizie",
+          "description": "De la £3,950 all-inclusive"
+        }
       ]
     },
     "conversion": {
@@ -792,18 +981,39 @@
       "title": "Chirurgie Bariatrică în Turcia pentru Pacienții din UK",
       "subtitle": "Prețuri fixe în GBP, un zbor de 4 ore, îngrijire spitalicească acreditată JCI la Istanbul — și îngrijire post-operatorie care vă însoțește acasă, cu dieteticieni înregistrați UK și coordonatori de suport în 8 locații din UK.",
       "stats": [
-        { "value": "£2,950", "label": "Gastric sleeve de la" },
-        { "value": "8", "label": "Locații de suport UK" },
-        { "value": "12 luni", "label": "Îngrijire dietetician" }
+        {
+          "value": "£2,950",
+          "label": "Gastric sleeve de la"
+        },
+        {
+          "value": "8",
+          "label": "Locații de suport UK"
+        },
+        {
+          "value": "12 luni",
+          "label": "Îngrijire dietetician"
+        }
       ]
     },
     "facts": {
       "title": "Călătoria Dumneavoastră Dintr-o Privire",
       "items": [
-        { "label": "Timp de zbor", "value": "~4 ore" },
-        { "label": "Viză pentru pașapoarte UK", "value": "Nu este necesară" },
-        { "label": "Ședere tipică", "value": "4–6 nopți" },
-        { "label": "Concediu de la muncă", "value": "1–2 săptămâni" }
+        {
+          "label": "Timp de zbor",
+          "value": "~4 ore"
+        },
+        {
+          "label": "Viză pentru pașapoarte UK",
+          "value": "Nu este necesară"
+        },
+        {
+          "label": "Ședere tipică",
+          "value": "4–6 nopți"
+        },
+        {
+          "label": "Concediu de la muncă",
+          "value": "1–2 săptămâni"
+        }
       ]
     },
     "why": {
@@ -814,15 +1024,47 @@
     },
     "comparison": {
       "title": "Chirurgie Privată în UK vs Istanbul Bariatric Center",
-      "columns": ["Ce Primiți", "Clinică Privată UK", "Istanbul Bariatric Center"],
+      "columns": [
+        "Ce Primiți",
+        "Clinică Privată UK",
+        "Istanbul Bariatric Center"
+      ],
       "rows": [
-        ["Preț gastric sleeve", "£10,000 – £15,000", "£2,950 – £4,250 all-inclusive"],
-        ["Timp de așteptare", "Săptămâni până la luni", "De obicei 1–3 săptămâni până la data aleasă"],
-        ["Acreditare spital", "Reglementat CQC", "Acreditat JCI (standardul internațional de aur)"],
-        ["Volum de cazuri chirurg", "Variază mult", "8,000+ proceduri (Dr Murat Ustun)"],
-        ["Hotel și transferuri", "Neincluse", "Incluse (Relaxare și Lux)"],
-        ["Îngrijire dietetician", "Adesea extra", "12 luni incluse, înregistrat UK"],
-        ["Suport UK în persoană", "La clinică", "Coordonatori în 8 locații din UK"]
+        [
+          "Preț gastric sleeve",
+          "£10,000 – £15,000",
+          "£2,950 – £4,250 all-inclusive"
+        ],
+        [
+          "Timp de așteptare",
+          "Săptămâni până la luni",
+          "De obicei 1–3 săptămâni până la data aleasă"
+        ],
+        [
+          "Acreditare spital",
+          "Reglementat CQC",
+          "Acreditat JCI (standardul internațional de aur)"
+        ],
+        [
+          "Volum de cazuri chirurg",
+          "Variază mult",
+          "8,000+ proceduri (Dr Murat Ustun)"
+        ],
+        [
+          "Hotel și transferuri",
+          "Neincluse",
+          "Incluse (Relaxare și Lux)"
+        ],
+        [
+          "Îngrijire dietetician",
+          "Adesea extra",
+          "12 luni incluse, înregistrat UK"
+        ],
+        [
+          "Suport UK în persoană",
+          "La clinică",
+          "Coordonatori în 8 locații din UK"
+        ]
       ]
     },
     "journey": {
@@ -856,29 +1098,74 @@
     "testimonials": {
       "title": "Ce Spun Pacienții din UK și Irlanda",
       "quotes": [
-        { "name": "Emma W.", "flag": "🇬🇧", "date": "August 2025", "text": "Am avut recent o operație de gastric sleeve, iar experiența a fost uimitoare. Spitalul este super curat și aveți o cameră întreagă pentru dumneavoastră. Dr. Murat și echipa sa mi-au oferit o îngrijire excelentă pe tot parcursul șederii. Văd deja rezultate excelente!" },
-        { "name": "Michelle F.", "flag": "🇬🇧", "date": "August 2024", "text": "De la preluarea de la aeroport până la cazarea la hotel, totul a fost perfect organizat. Operația a decurs fără probleme, iar Dr. Murat m-a vizitat de mai multe ori în timpul recuperării. Îngrijirea de urmărire a fost excelentă. Recomand cu căldură!" },
-        { "name": "Robert H.", "flag": "🇮🇪", "date": "Iulie 2025", "text": "Îngrijire remarcabilă de la început până la sfârșit! Toate testele efectuate temeinic, operația a decurs foarte bine, cicatricea este abia vizibilă și se vindecă frumos. Suportul post-operator a fost incredibil." }
+        {
+          "name": "Emma W.",
+          "flag": "🇬🇧",
+          "date": "August 2025",
+          "text": "Am avut recent o operație de gastric sleeve, iar experiența a fost uimitoare. Spitalul este super curat și aveți o cameră întreagă pentru dumneavoastră. Dr. Murat și echipa sa mi-au oferit o îngrijire excelentă pe tot parcursul șederii. Văd deja rezultate excelente!"
+        },
+        {
+          "name": "Michelle F.",
+          "flag": "🇬🇧",
+          "date": "August 2024",
+          "text": "De la preluarea de la aeroport până la cazarea la hotel, totul a fost perfect organizat. Operația a decurs fără probleme, iar Dr. Murat m-a vizitat de mai multe ori în timpul recuperării. Îngrijirea de urmărire a fost excelentă. Recomand cu căldură!"
+        },
+        {
+          "name": "Robert H.",
+          "flag": "🇮🇪",
+          "date": "Iulie 2025",
+          "text": "Îngrijire remarcabilă de la început până la sfârșit! Toate testele efectuate temeinic, operația a decurs foarte bine, cicatricea este abia vizibilă și se vindecă frumos. Suportul post-operator a fost incredibil."
+        }
       ]
     },
     "faq": {
       "title": "Pacienți din UK — Întrebări Frecvente",
       "items": [
-        { "question": "Este sigur pentru pacienții din UK să efectueze chirurgia de pierdere în greutate în Turcia?", "answer": "Da — atunci când alegeți furnizorul potrivit. Istanbul Bariatric Center operează exclusiv la Spitalul Liv acreditat JCI, același standard de acreditare internațională deținut de spitalele private de top din UK. Dr Murat Ustun a efectuat peste 8,000 de proceduri, iar centrul a câștigat de șase ori WhatClinic Patient Service Award. Cheia este verificarea acreditării spitalului și a volumului chirurgului înainte de a rezerva — cu orice furnizor." },
-        { "question": "Cât timp trebuie să stau la Istanbul?", "answer": "Majoritatea pacienților din UK stau 4-6 nopți în total: sosirea și testele preoperatorii în prima zi, chirurgia în a doua zi, 2-3 nopți în spital, apoi 1-2 nopți la hotel înainte de a zbura acasă. Pacienții cu ESG și balon gastric pot adesea reveni acasă în 2-3 zile." },
-        { "question": "Ce îngrijire post-operatorie primesc înapoi în UK?", "answer": "Pachetele Relaxare și Lux includ 12 luni de suport din partea unui dietetician înregistrat UK, plus coordonatori de suport în 8 locații din UK pentru ajutor în persoană. Echipa noastră clinică rămâne disponibilă pe WhatsApp pentru orice îngrijorare, iar noi coordonăm cu medicul dumneavoastră de familie acolo unde este necesar." },
-        { "question": "NHS va avea grijă de mine dacă ceva merge prost?", "answer": "NHS vă va trata întotdeauna într-o urgență. Pentru urmărirea de rutină, rețeaua noastră de dieteticieni din UK și echipa clinică la distanță se ocupă de îngrijirea dumneavoastră post-operatorie. De asemenea, recomandăm cu tărie o asigurare specializată de călătorie medicală, care acoperă tratamentul complicațiilor — polițele costă de obicei £100-£200." },
-        { "question": "Cum funcționează plățile din UK?", "answer": "Plătiți un avans prin card sau transfer bancar pentru a vă asigura data operației, cu restul plătibil la sosirea la Istanbul. Toate prețurile sunt cotate în lire sterline și sunt fixe — oferta pe care o primiți este suma pe care o plătiți." },
-        { "question": "Am nevoie de viză pentru a călători în Turcia din UK?", "answer": "Nu. Deținătorii de pașapoarte UK pot intra în Turcia fără viză pentru până la 90 de zile. Aveți nevoie doar de un pașaport valabil cel puțin 150 de zile de la data sosirii, plus confirmarea rezervării de la noi." }
+        {
+          "question": "Este sigur pentru pacienții din UK să efectueze chirurgia de pierdere în greutate în Turcia?",
+          "answer": "Da — atunci când alegeți furnizorul potrivit. Istanbul Bariatric Center operează exclusiv la Spitalul Liv acreditat JCI, același standard de acreditare internațională deținut de spitalele private de top din UK. Dr Murat Ustun a efectuat peste 8,000 de proceduri, iar centrul a câștigat de șase ori WhatClinic Patient Service Award. Cheia este verificarea acreditării spitalului și a volumului chirurgului înainte de a rezerva — cu orice furnizor."
+        },
+        {
+          "question": "Cât timp trebuie să stau la Istanbul?",
+          "answer": "Majoritatea pacienților din UK stau 4-6 nopți în total: sosirea și testele preoperatorii în prima zi, chirurgia în a doua zi, 2-3 nopți în spital, apoi 1-2 nopți la hotel înainte de a zbura acasă. Pacienții cu ESG și balon gastric pot adesea reveni acasă în 2-3 zile."
+        },
+        {
+          "question": "Ce îngrijire post-operatorie primesc înapoi în UK?",
+          "answer": "Pachetele Relaxare și Lux includ 12 luni de suport din partea unui dietetician înregistrat UK, plus coordonatori de suport în 8 locații din UK pentru ajutor în persoană. Echipa noastră clinică rămâne disponibilă pe WhatsApp pentru orice îngrijorare, iar noi coordonăm cu medicul dumneavoastră de familie acolo unde este necesar."
+        },
+        {
+          "question": "NHS va avea grijă de mine dacă ceva merge prost?",
+          "answer": "NHS vă va trata întotdeauna într-o urgență. Pentru urmărirea de rutină, rețeaua noastră de dieteticieni din UK și echipa clinică la distanță se ocupă de îngrijirea dumneavoastră post-operatorie. De asemenea, recomandăm cu tărie o asigurare specializată de călătorie medicală, care acoperă tratamentul complicațiilor — polițele costă de obicei £100-£200."
+        },
+        {
+          "question": "Cum funcționează plățile din UK?",
+          "answer": "Plătiți un avans prin card sau transfer bancar pentru a vă asigura data operației, cu restul plătibil la sosirea la Istanbul. Toate prețurile sunt cotate în lire sterline și sunt fixe — oferta pe care o primiți este suma pe care o plătiți."
+        },
+        {
+          "question": "Am nevoie de viză pentru a călători în Turcia din UK?",
+          "answer": "Nu. Deținătorii de pașapoarte UK pot intra în Turcia fără viză pentru până la 90 de zile. Aveți nevoie doar de un pașaport valabil cel puțin 150 de zile de la data sosirii, plus confirmarea rezervării de la noi."
+        }
       ]
     },
     "related": {
       "title": "Planificați-vă Procedura",
       "links": [
-        { "title": "Gastric Sleeve", "description": "De la £2,950 all-inclusive" },
-        { "title": "ESG (Non-Chirurgical)", "description": "Fără incizii, externare în aceeași zi" },
-        { "title": "Ghid de Costuri", "description": "Comparație completă de prețuri 2026" },
-        { "title": "ESG pentru Pacienții din UK", "description": "Pagină ESG dedicată UK" }
+        {
+          "title": "Gastric Sleeve",
+          "description": "De la £2,950 all-inclusive"
+        },
+        {
+          "title": "ESG (Non-Chirurgical)",
+          "description": "Fără incizii, externare în aceeași zi"
+        },
+        {
+          "title": "Ghid de Costuri",
+          "description": "Comparație completă de prețuri 2026"
+        },
+        {
+          "title": "ESG pentru Pacienții din UK",
+          "description": "Pagină ESG dedicată UK"
+        }
       ]
     },
     "conversion": {
@@ -892,6 +1179,192 @@
     "heroTitle": "Conturare Post-Bariatrică Istanbul, Turcia",
     "heroSubtitle": "Completați-vă parcursul cu proceduri de conturare.",
     "desc": "Chirurgia post-bariatrică ajută la remodelarea corpului."
+  },
+  "sleeveVsBypassPage": {
+    "hero": {
+      "eyebrow": "Ghid Decizional",
+      "title": "Gastric Sleeve vs Mini Bypass Gastric",
+      "subtitle": "Cele mai efectuate două operații de pierdere în greutate din lume, comparate onest — pierdere în greutate, remisiunea diabetului, refluxul, riscurile și costul — astfel încât să o puteți alege pe cea potrivită corpului și obiectivelor dumneavoastră.",
+      "stats": [
+        {
+          "value": "60–70%",
+          "label": "Pierdere din greutatea în exces — sleeve"
+        },
+        {
+          "value": "70–80%",
+          "label": "Pierdere din greutatea în exces — bypass"
+        },
+        {
+          "value": "8,000+",
+          "label": "Proceduri efectuate de Dr Ustun"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Sleeve vs Mini Bypass Dintr-o Privire",
+      "columns": [
+        "Factor",
+        "Gastric Sleeve",
+        "Mini Bypass Gastric"
+      ],
+      "rows": [
+        [
+          "Cum funcționează",
+          "Îndepărtează ~80% din stomac (restricție)",
+          "Pungă mică + redirecționare intestinală (restricție + malabsorbție)"
+        ],
+        [
+          "Pierdere din greutatea în exces",
+          "60–70% la 2 ani",
+          "70–80% la 2 ani"
+        ],
+        [
+          "Remisiunea diabetului de tip 2",
+          "60–70%",
+          "80–90%"
+        ],
+        [
+          "Efect asupra refluxului acid",
+          "Poate agrava (până la 55% RGE pe termen lung)",
+          "De obicei ameliorează refluxul"
+        ],
+        [
+          "Durata operației",
+          "~1 oră",
+          "~1,5 ore"
+        ],
+        [
+          "Spitalizare",
+          "2–3 nopți",
+          "2–3 nopți"
+        ],
+        [
+          "Suplimente pe viață",
+          "Multivitamine recomandate",
+          "Multivitamine + B12, fier esențiale"
+        ],
+        [
+          "Reversibilă",
+          "Nu (stomac îndepărtat)",
+          "Tehnic da, dar rareori efectuată"
+        ],
+        [
+          "Opțiuni de revizie ulterioară",
+          "Conversie la bypass, DS sau re-sleeve",
+          "TORe (endoscopic) sau revizia ansei"
+        ],
+        [
+          "Preț la IBC (all-inclusive)",
+          "De la £2,950",
+          "De la £3,350"
+        ]
+      ],
+      "footnote": "Intervalele de rezultate reflectă serii internaționale publicate și datele de caz IBC; rezultatele individuale variază."
+    },
+    "howItWorks": {
+      "title": "Cum Funcționează Fiecare Operație",
+      "p1": "<link1>Gastric sleeve-ul</link1> îndepărtează aproximativ 80% din stomac, lăsând un tub subțire. Mâncați mult mai puțin, iar îndepărtarea fundusului reduce drastic grelina, hormonul foamei. În rest, digestia continuă normal — nimic nu este redirecționat.",
+      "p2": "<link1>Mini bypass-ul gastric</link1> creează o pungă gastrică mică și o conectează direct la o ansă a intestinului subțire, ocolind aproximativ 150–200 cm. Mâncați mai puțin <em>și</em> absorbiți mai puține calorii, iar modificarea hormonală produce cel mai puternic efect antidiabetic dintre procedurile comune.",
+      "cta": "Întrebați Care Mi Se Potrivește — Evaluare Gratuită"
+    },
+    "chooseSleeve": {
+      "title": "Alegeți Sleeve-ul Dacă…",
+      "items": [
+        "Doriți cea mai simplă operație eficientă, cu anatomie intestinală normală",
+        "BMI-ul dumneavoastră este 35–50, fără diabet de tip 2 sever",
+        "Nu aveți <strong>reflux acid semnificativ</strong>",
+        "Luați medicamente a căror absorbție nu trebuie să se modifice (unele medicamente psihiatrice, pentru transplant sau artrită)",
+        "Preferați să păstrați bypass-ul în rezervă ca posibil al doilea pas"
+      ]
+    },
+    "chooseBypass": {
+      "title": "Alegeți Mini Bypass-ul Dacă…",
+      "items": [
+        "Aveți <strong>diabet de tip 2</strong> — ratele de remisiune ajung la 80–90%",
+        "Suferiți deja de <strong>reflux acid / RGE</strong>, pe care un sleeve îl poate agrava",
+        "BMI-ul dumneavoastră este peste 45–50, unde pierderea suplimentară în greutate contează cel mai mult",
+        "Sunteți un consumator de dulciuri sau ronțăiți frecvent — malabsorbția atenuează efectul alimentelor bogate în calorii",
+        "Vă simțiți confortabil cu suplimente disciplinate pe viață și analize de sânge anuale"
+      ]
+    },
+    "expertPov": {
+      "title": "Cum Decid Între Sleeve și Mini Bypass",
+      "p1": "După 8,000 de proceduri, decizia mea rareori începe cu BMI-ul — începe cu două întrebări: <strong>are acest pacient reflux și are acest pacient diabet?</strong> Un răspuns afirmativ la oricare dintre ele mă îndreaptă ferm spre bypass, deoarece am reoperat prea multe sleeve-uri efectuate în altă parte la pacienți al căror istoric de reflux a fost ignorat la prima consultație.",
+      "p2": "Al doilea lucru pe care îl analizez este <strong>modelul de alimentație</strong> și întreb despre el direct. Un consumator de volume mari — porții mari, mese rapide — se descurcă minunat cu un sleeve, deoarece restricția rezolvă problema lui reală. Un ronțăitor sau consumator de dulciuri poate depăși orice restricție; pentru el, componenta malabsorptivă a bypass-ului nu este un lux, ci mecanismul care face operația să funcționeze.",
+      "p3": "Ce le spun pacienților nehotărâți: sleeve-ul lasă o ușă deschisă — conversia la bypass rămâne disponibilă chiar și ani mai târziu, dacă va fi vreodată necesară. Drumul invers nu există. Această asimetrie soluționează mai multe cazuri limită în clinica mea decât orice procent dintr-un tabel comparativ. Dar când refluxul sau diabetul de lungă durată sunt prezente din prima zi, alegerea sleeve-ului pentru a „păstra opțiunile deschise” este o falsă economie — pur și simplu ați programa a doua operație în avans."
+    },
+    "candidacy": {
+      "title": "Încă Ezitați? Ce Evaluăm",
+      "intro": "La evaluarea dumneavoastră gratuită, Dr Murat Ustun cântărește acești factori înainte de a recomanda o operație în locul celeilalte:",
+      "criteria": [
+        "BMI-ul și distribuția greutății",
+        "Simptomele de reflux și orice constatări anterioare la endoscopie",
+        "Statutul diabetului de tip 2, durata și medicația",
+        "Modelul de alimentație — consumator de volume mari vs consumator de dulciuri/ronțăitor",
+        "Medicația curentă care necesită o absorbție previzibilă",
+        "Propria dumneavoastră preferință după înțelegerea ambelor opțiuni"
+      ],
+      "note": "Aproximativ 60% dintre pacienții noștri sunt cel mai bine serviți de un sleeve, 40% de un bypass — ideea este de a potrivi operația cu pacientul, niciodată o recomandare universală."
+    },
+    "surgeonProof": {
+      "title": "Un Chirurg, Ambele Operații, Peste 8,000 de Cazuri",
+      "subtitle": "Deoarece Dr Ustun efectuează sleeve-uri, bypass-uri, revizii și proceduri endoscopice în volum mare, recomandarea sa este determinată de anatomia dumneavoastră — nu de ceea ce se întâmplă să ofere clinica."
+    },
+    "faq": {
+      "title": "Sleeve vs Bypass — Răspunsuri la Întrebările Dumneavoastră",
+      "items": [
+        {
+          "question": "Care este mai bun: gastric sleeve sau mini bypass gastric?",
+          "answer": "Niciunul nu este universal mai bun — se potrivesc unor pacienți diferiți. Sleeve-ul este mai simplu, păstrează anatomia intestinală normală și oferă o pierdere de 60-70% din greutatea în exces. Mini bypass-ul adaugă o componentă malabsorptivă, oferind o pierdere de 70-80% din greutatea în exces, cu o remisiune mai puternică a diabetului de tip 2 și un control mai bun al refluxului — cu prețul suplimentării de vitamine pe viață și al unei operații ceva mai complexe. Alegerea potrivită depinde de BMI-ul, statutul refluxului, diabetul și modelul dumneavoastră de alimentație."
+        },
+        {
+          "question": "Care produce o pierdere mai mare în greutate: sleeve sau bypass?",
+          "answer": "Mini bypass-ul gastric produce de obicei o pierdere totală mai mare în greutate: aproximativ 70-80% din greutatea în exces la 2 ani, față de 60-70% pentru sleeve. Pentru pacienții cu BMI peste 50 sau cu diabet de tip 2 sever, efectul metabolic al bypass-ului îl face de obicei opțiunea mai puternică."
+        },
+        {
+          "question": "Care este mai sigur: gastric sleeve sau bypass?",
+          "answer": "Ambele sunt foarte sigure în mâini experimentate, cu rate de complicații majore de 1-3%. Sleeve-ul este tehnic mai simplu, fără reconectare intestinală, astfel încât riscul chirurgical precoce este marginal mai mic. Bypass-ul comportă riscuri mici pe termen lung de deficit de nutrienți și ulcere marginale, în timp ce sleeve-ul comportă un risc mai mare pe termen lung de reflux acid (RGE)."
+        },
+        {
+          "question": "Ar trebui să aleg bypass-ul dacă am deja reflux acid?",
+          "answer": "De obicei da. Un gastric sleeve poate agrava refluxul existent — RGE afectează până la 55% dintre pacienții cu sleeve pe termen lung — în timp ce bypass-ul deviază acidul departe de esofag și, de obicei, ameliorează refluxul. RGE-ul preexistent semnificativ este unul dintre cele mai clare motive pentru a prefera un bypass."
+        },
+        {
+          "question": "Poate fi convertit un sleeve în bypass mai târziu?",
+          "answer": "Da. Conversia sleeve-la-bypass este cea mai frecventă operație de revizie din lume, aleasă de obicei pentru recâștigarea în greutate sau reflux după un sleeve. Mulți pacienți încep cu un sleeve știind că bypass-ul rămâne disponibil ca al doilea pas, dacă va fi vreodată necesar."
+        },
+        {
+          "question": "Cât costă sleeve-ul și bypass-ul în Turcia?",
+          "answer": "La Istanbul Bariatric Center, gastric sleeve-ul începe de la £2,950, iar mini bypass-ul gastric de la £3,350, ambele all-inclusive: spital acreditat JCI, onorarii de chirurg și anestezie, teste, transferuri, hotel și 12 luni de îngrijire post-operatorie a dieteticianului."
+        }
+      ]
+    },
+    "related": {
+      "title": "Următorul Dumneavoastră Pas",
+      "links": [
+        {
+          "title": "Gastric Sleeve",
+          "description": "Ghid complet al procedurii — de la £2,950"
+        },
+        {
+          "title": "Mini Bypass Gastric",
+          "description": "Ghid complet al procedurii — de la £3,350"
+        },
+        {
+          "title": "ESG vs Gastric Sleeve",
+          "description": "Preferați o cale non-chirurgicală? Comparați ESG"
+        },
+        {
+          "title": "Ghid de Costuri",
+          "description": "Toate prețurile 2026 vs UK, US și UE"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Primiți o Recomandare Personală în 24 de Ore",
+      "text": "Trimiteți înălțimea, greutatea și statutul refluxului și diabetului pe WhatsApp. Echipa Dr Ustun vă va spune care operație vi se potrivește — gratuit și fără nicio obligație.",
+      "button": "Obțineți Evaluarea Mea Gratuită"
+    }
   },
   "guides": {
     "title": "Ghiduri și comparații",
@@ -922,6 +1395,931 @@
     "travelGuide": {
       "title": "Ghid de călătorie",
       "description": "Planificarea călătoriei pentru operație la Istanbul"
+    }
+  },
+  "balloonVsSleevePage": {
+    "hero": {
+      "eyebrow": "Ghid Decizional",
+      "title": "Balon Gastric vs Gastric Sleeve",
+      "subtitle": "Unul este temporar, reversibil și nu necesită chirurgie; celălalt este permanent și mult mai puternic. Întrebarea onestă nu este care este „mai bun” — ci câtă greutate trebuie să pierdeți și pentru cât timp.",
+      "stats": [
+        {
+          "value": "10–15%",
+          "label": "Pierdere totală în greutate — balon"
+        },
+        {
+          "value": "25–30%",
+          "label": "Pierdere totală în greutate — sleeve"
+        },
+        {
+          "value": "6–12 luni",
+          "label": "Durata balonului"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "Balon vs Sleeve Dintr-o Privire",
+      "columns": [
+        "Factor",
+        "Balon Gastric",
+        "Gastric Sleeve"
+      ],
+      "rows": [
+        [
+          "Tehnică",
+          "Balon de silicon plasat în stomac (endoscopic sau înghițibil)",
+          "~80% din stomac îndepărtat chirurgical"
+        ],
+        [
+          "Permanență",
+          "Temporar — îndepărtat la 6 sau 12 luni",
+          "Permanent"
+        ],
+        [
+          "Pierdere din greutatea corporală totală",
+          "10–15% (cât timp este montat)",
+          "25–30% (durabilă)"
+        ],
+        [
+          "Anestezie",
+          "Sedare, ~20 de minute",
+          "Generală, ~60 de minute"
+        ],
+        [
+          "Spitalizare",
+          "Niciuna — plecați în aceeași zi",
+          "2–3 nopți"
+        ],
+        [
+          "Revenire la muncă",
+          "1–3 zile",
+          "10–14 zile"
+        ],
+        [
+          "Reversibilă",
+          "Complet",
+          "Nu"
+        ],
+        [
+          "Interval BMI ideal",
+          "27–35",
+          "35–55+"
+        ],
+        [
+          "Principalul dezavantaj",
+          "Recâștigarea în greutate după îndepărtare",
+          "Ireversibil; risc de reflux"
+        ],
+        [
+          "Preț la IBC (all-inclusive)",
+          "De la £1,650",
+          "De la £2,950"
+        ]
+      ]
+    },
+    "prose": {
+      "title": "Modul Corect de a Gândi Acest Lucru",
+      "p1": "Balonul și sleeve-ul rezolvă <strong>probleme diferite</strong>. <link1>Balonul gastric</link1> este un instrument de 6–12 luni: umple spațiu în stomac astfel încât să vă simțiți sătul mai devreme, ideal pentru a pierde 10–25 kg, pentru a depăși un platou sau pentru a testa restricția înainte de a vă angaja la ceva permanent. <link2>Gastric sleeve-ul</link2> este o operație permanentă care modifică atât capacitatea, cât și hormonii foamei — instrumentul adecvat atunci când obezitatea este instalată și de lungă durată.",
+      "p2": "Dacă vă doriți blândețea balonului, dar durabilitatea sleeve-ului, această cale de mijloc există: <link1>ESG (gastroplastia endoscopică cu sleeve)</link1> este non-chirurgical ca balonul, dar oferă o pierdere de 15–20% din greutatea corporală totală care durează — comparați-l în <link2>ghidul nostru ESG vs sleeve</link2>.",
+      "cta": "Nu Sunteți Sigur? Obțineți Sfaturi Gratuite"
+    },
+    "candidacy": {
+      "title": "Balonul Este Potrivit Pentru Dumneavoastră Dacă…",
+      "intro": "Recomandăm cu adevărat balonul atunci când:",
+      "criteria": [
+        "BMI-ul dumneavoastră este 27–35 și trebuie să pierdeți 10–25 kg",
+        "Doriți o opțiune complet reversibilă, fără chirurgie",
+        "Trebuie să pierdeți în greutate înaintea unei alte operații (inclusiv chirurgie bariatrică)",
+        "Doriți să testați cum se simte restricția înaintea unei decizii permanente",
+        "Vă puteți angaja la programul dieteticianului — balonul funcționează doar împreună cu acesta"
+      ],
+      "note": "Dacă BMI-ul dumneavoastră este peste 35 și aceasta este o problemă de greutate pe termen lung, fiți precaut în a alege balonul doar pentru că pare mai ușor — recâștigarea după îndepărtare este cea mai frecventă nemulțumire pe care o auzim de la pacienții care au avut balon în altă parte. ESG sau sleeve-ul vă vor servi mai bine."
+    },
+    "surgeonProof": {
+      "title": "Oferim Toate Cele Trei — Astfel Încât Să O Primiți pe Cea Potrivită",
+      "subtitle": "Balonul, ESG și sleeve-ul chirurgical sunt toate efectuate intern, ceea ce înseamnă că recomandarea noastră urmează cazul dumneavoastră, nu meniul nostru."
+    },
+    "faq": {
+      "title": "Balon vs Sleeve — Răspunsuri la Întrebările Dumneavoastră",
+      "items": [
+        {
+          "question": "Este un balon gastric la fel de eficient ca un gastric sleeve?",
+          "answer": "Nu. Un balon produce o pierdere de 10-15% din greutatea corporală totală cât timp este montat (6-12 luni); sleeve-ul chirurgical produce 25-30%, iar rezultatul este permanent. Avantajul balonului este că este temporar, non-chirurgical și complet reversibil — un instrument pentru a începe pierderea în greutate sau pentru a vă pregăti de chirurgie, nu o soluție pe viață."
+        },
+        {
+          "question": "Revine greutatea după un balon gastric?",
+          "answer": "Poate reveni. Odată ce balonul este îndepărtat, stomacul revine la capacitatea normală, așa că menținerea greutății depinde în întregime de obiceiurile alimentare formate în perioada balonului. Studiile arată că o parte semnificativă dintre pacienți recâștigă în greutate în decurs de 1-2 ani de la îndepărtare, dacă nu trec la un tratament suplimentar sau nu mențin obiceiuri stricte."
+        },
+        {
+          "question": "Pentru cine este de fapt potrivit un balon gastric?",
+          "answer": "Pacienți cu BMI 27-35 care trebuie să piardă 10-25 kg, pacienți care doresc un test complet reversibil al restricției înainte de a se angaja la chirurgie și pacienți cu BMI mai mare care trebuie să piardă în greutate înaintea unei operații. Pentru un BMI peste 35 care caută un rezultat durabil, ESG sau un sleeve chirurgical este de obicei investiția mai bună."
+        },
+        {
+          "question": "Este balonul mai sigur decât sleeve-ul?",
+          "answer": "Balonul evită complet chirurgia — este plasat endoscopic în aproximativ 20 de minute, iar versiunile înghițibile nu necesită deloc endoscopie. Complicațiile grave sunt rare, deși greața în prima săptămână este frecventă. Sleeve-ul este de asemenea foarte sigur (1-3% complicații majore), dar este o operație permanentă. Între cele două se află ESG: non-chirurgical ca balonul, durabil ca sleeve-ul."
+        },
+        {
+          "question": "Cât costă balonul și sleeve-ul în Turcia?",
+          "answer": "La Istanbul Bariatric Center, balonul gastric începe de la £1,650, iar gastric sleeve-ul de la £2,950, ambele all-inclusive. Rețineți că un balon durează 6-12 luni, în timp ce sleeve-ul este permanent — pe kilogram menținut pe termen lung, sleeve-ul și ESG oferă de obicei un raport valoare-preț mai bun."
+        },
+        {
+          "question": "Pot face un sleeve sau ESG după un balon?",
+          "answer": "Da, și este o cale frecventă: mai întâi balonul pentru a reduce greutatea și a dovedi că restricția funcționează pentru dumneavoastră, apoi ESG sau un sleeve chirurgical pentru rezultatul permanent. Planificăm deliberat această cale în doi pași pentru pacienții potriviți."
+        }
+      ]
+    },
+    "related": {
+      "title": "Următorul Dumneavoastră Pas",
+      "links": [
+        {
+          "title": "Balon Gastric",
+          "description": "Ghid complet — de la £1,650"
+        },
+        {
+          "title": "ESG — Calea de Mijloc",
+          "description": "Non-chirurgical și durabil — de la £4,950"
+        },
+        {
+          "title": "Gastric Sleeve",
+          "description": "Ghid complet — de la £2,950"
+        },
+        {
+          "title": "Ghid de Costuri",
+          "description": "Toate prețurile 2026 vs UK, US și UE"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Spuneți-ne Obiectivul — Vă Vom Trasa Calea",
+      "text": "Fie că sunt 10 kg sau 60 kg, trimiteți un mesaj echipei noastre cu înălțimea, greutatea și ținta dumneavoastră. Veți primi o recomandare onestă — balon, ESG, sleeve sau niciuna — în decurs de 24 de ore.",
+      "button": "Obțineți Recomandarea Mea Gratuită"
+    }
+  },
+  "travelGuidePage": {
+    "hero": {
+      "eyebrow": "Ghid de Călătorie și Logistică",
+      "title": "Călătoria Dumneavoastră la Istanbul, Zi cu Zi",
+      "subtitle": "Din momentul în care aterizați până în momentul în care ajungeți acasă — fiecare transfer, test, noapte în spital și ședere la hotel, planificate pentru dumneavoastră. Exact așa arată săptămâna dumneavoastră.",
+      "stats": [
+        {
+          "value": "4–6",
+          "label": "Nopți la Istanbul (chirurgie)"
+        },
+        {
+          "value": "2–3",
+          "label": "Nopți pentru ESG / balon"
+        },
+        {
+          "value": "24/7",
+          "label": "Acces la echipa WhatsApp"
+        }
+      ]
+    },
+    "facts": {
+      "title": "Logistica Călătoriei Dintr-o Privire",
+      "items": [
+        {
+          "label": "Preluare de la aeroport",
+          "value": "VIP, inclusă"
+        },
+        {
+          "label": "Hotel",
+          "value": "Radisson, inclus"
+        },
+        {
+          "label": "Însoțitor",
+          "value": "Stă gratuit"
+        },
+        {
+          "label": "Translator",
+          "value": "Asigurat pe tot parcursul"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Cronologia Zi cu Zi (Sleeve și Bypass)",
+      "steps": [
+        "<strong>Ziua 1 — Sosire și teste.</strong> Un șofer VIP vă întâmpină la Aeroportul Istanbul și vă duce la spital. Analize de sânge, ECG, radiografie toracică, ecografie abdominală, evaluarea de anestezie și consultația cu Dr Ustun au loc toate în aceeași după-amiază. Dormiți la hotel (sau la spital dacă operația este dis-de-dimineață a doua zi).",
+        "<strong>Ziua 2 — Ziua operației.</strong> Operația durează aproximativ o oră. Vă treziți în camera dumneavoastră privată; asistentele vă pun să mergeți pe coridor chiar în aceeași seară — cel mai bun lucru pentru recuperare.",
+        "<strong>Zilele 3–4 — Recuperare în spital.</strong> Test de fistulă, tranziția la lichide clare, vizite zilnice de la Dr Ustun și dietetician. Majoritatea pacienților descriu disconfort, nu durere — gestionat cu medicație de rutină.",
+        "<strong>Zilele 4–5 — Recuperare la hotel.</strong> Externare la Radisson cu pachetul dumneavoastră de medicație. Veți merge distanțe scurte, veți sorbi lichide conform programului, iar echipa vă contactează zilnic.",
+        "<strong>Ziua 5–6 — Evaluare finală și zbor spre casă.</strong> Control final, protocolul dumneavoastră de acasă și suplimentele, apoi un transfer la aeroport. Un loc la culoar și plimbări regulate în timpul zborului sunt tot ce vă trebuie."
+      ],
+      "p1": "Faceți în schimb <esgLink>ESG</esgLink> sau un <balloonLink>balon gastric</balloonLink>? Versiunea dumneavoastră este mai scurtă: procedura în ziua 1–2, externare în aceeași zi sau a doua dimineață, zbor spre casă din ziua 2–3.",
+      "cta": "Obțineți Planul Meu Personal de Călătorie"
+    },
+    "packing": {
+      "title": "Listă de Bagaje — Ce Ar Fi Vrut Pacienții Să Fi Adus",
+      "items": [
+        "Pașaport valabil 150+ zile (cetățenii UK nu au nevoie de viză)",
+        "Haine largi, care se deschid în față, și pantofi fără șireturi",
+        "Medicamentele obișnuite în ambalajul original",
+        "O pernă mică — îmbrățișarea ei ușurează zborul spre casă",
+        "Balsam de buze și articole de toaletă de dimensiuni de călătorie",
+        "Divertisment pentru timpul liber din spital (încărcător + cablu lung!)",
+        "O sticlă de apă goală pentru sorbitul programat",
+        "Așteptări confortabile: aceasta este o recuperare, nu o vizită turistică"
+      ]
+    },
+    "flyingHome": {
+      "title": "Zborul Spre Casă în Siguranță: Regulile de Revenire la Zbor",
+      "intro": "Călătoria cu avionul după chirurgia bariatrică este sigură atunci când este programată corect. Aprobările noastre standard:",
+      "rules": [
+        "<strong>Sleeve / bypass / revizie:</strong> zbor din ziua 4–6, după evaluarea chirurgicală finală",
+        "<strong>ESG:</strong> zbor din ziua 2–3",
+        "<strong>Balon gastric:</strong> zbor din ziua 1–2"
+      ],
+      "outro": "În timpul zborului: alegeți un loc la culoar, plimbați-vă la fiecare 45–60 de minute, sorbiți lichide constant și purtați ciorapii compresivi pe care îi oferim — prevenție standard a cheagurilor după orice operație. Pacienților cu zboruri lungi (US, Australia) li se poate recomanda să rămână o noapte în plus; planificăm acest lucru împreună cu dumneavoastră înainte de a rezerva zborurile."
+    },
+    "companion": {
+      "title": "Să Veniți Singur vs Să Aduceți un Însoțitor",
+      "p1": "Aproximativ jumătate dintre pacienții noștri internaționali călătoresc singuri — pachetul este conceput pentru asta, cu fiecare transfer aranjat, personal vorbitor de engleză, un translator la fiecare pas medical și contactări zilnice la hotel. Dacă aduceți un însoțitor, acesta stă gratuit în camera dumneavoastră de hotel, poate rămâne peste noapte la spital, iar Istanbulul îi oferă multe de făcut în ziua procedurii dumneavoastră. În orice caz, nu sunteți niciodată lăsat să vă descurcați singur cu ceva într-un oraș străin."
+    },
+    "surgeonProof": {
+      "title": "Logistica Face Parte din Siguranță",
+      "subtitle": "Transferurile fără probleme și zilele de recuperare structurate nu sunt un lux — sunt modul în care complicațiile sunt depistate din timp, iar recuperările rămân pe drumul cel bun."
+    },
+    "faq": {
+      "title": "Călătorie — Răspunsuri la Întrebările Dumneavoastră",
+      "items": [
+        {
+          "question": "Cât de curând după chirurgia bariatrică pot zbura spre casă?",
+          "answer": "Pentru pacienții cu sleeve și bypass, zborul la 4-6 zile după operație este sigur și de rutină — veți fi avut 2-3 nopți monitorizate în spital și 1-2 nopți de recuperare la hotel, cu o evaluare chirurgicală finală înainte de plecare. Pacienții cu ESG și balon pot zbura de obicei în decurs de 2-3 zile. Programăm data zborului dumneavoastră de întoarcere împreună cu dumneavoastră înainte de a-l rezerva."
+        },
+        {
+          "question": "Ar trebui să aduc pe cineva cu mine?",
+          "answer": "Nu este obligatoriu — mulți pacienți călătoresc singuri, iar coordonatorii, șoferii și asistentele noastre se ocupă de tot — dar un însoțitor face călătoria mai confortabilă. Însoțitorii stau gratuit în camera dumneavoastră de hotel în pachetele noastre, iar camerele de spital pot găzdui un oaspete peste noapte. Dacă veniți singur, echipa noastră vă verifică zilnic la hotel."
+        },
+        {
+          "question": "Ce se întâmplă când aterizez la Aeroportul Istanbul?",
+          "answer": "Un șofer VIP vă întâmpină la sosiri ținând un afiș cu numele dumneavoastră, vă preia bagajele și vă conduce direct la hotel sau la spital, în funcție de programul dumneavoastră. Toate transferurile — aeroport, hotel, spital și înapoi — sunt incluse, așa că nu aveți niciodată nevoie de un taxi sau de transport public."
+        },
+        {
+          "question": "Ce ar trebui să împachetez pentru chirurgia bariatrică în străinătate?",
+          "answer": "Esențiale: pașaport (valabil 150+ zile), îmbrăcăminte largă și confortabilă, pantofi fără șireturi, balsam de buze, orice medicamente obișnuite în ambalajul original, o pernă mică pentru zborul spre casă (îmbrățișarea ei ușurează tusea și presiunea centurii de siguranță) și o sticlă de apă goală pentru sorbit. Vă trimitem o listă completă de bagaje când vă programați."
+        },
+        {
+          "question": "Este Istanbulul sigur pentru turismul medical?",
+          "answer": "Istanbulul găzduiește peste un milion de călători medicali internaționali în fiecare an, iar cartierele din jurul Spitalului Liv sunt moderne, sigure și obișnuite cu pacienții internaționali. Veți fi însoțit de șoferii și coordonatorii noștri la fiecare deplasare programată, iar echipa poate fi contactată pe WhatsApp 24/7 pe tot parcursul șederii dumneavoastră."
+        },
+        {
+          "question": "Ce fac dacă am o problemă după ce ajung acasă?",
+          "answer": "Păstrați accesul direct pe WhatsApp la echipa clinică — trimiteți un mesaj sau fotografii oricând și veți primi un răspuns în aceeași zi. Pachetele Relaxare și Lux includ 12 luni de urmărire de la un dietetician înregistrat în UK, iar pacienții din UK beneficiază de suport de îngrijire în persoană în 8 locații. Pentru orice urgență, ne coordonăm cu serviciile locale și cu medicul dumneavoastră de familie."
+        }
+      ]
+    },
+    "related": {
+      "title": "Planificați-vă Procedura",
+      "links": [
+        {
+          "title": "Ghid pentru Pacienții din UK",
+          "description": "Prețuri fixe în GBP și îngrijire post-operatorie în UK în 8 locații"
+        },
+        {
+          "title": "Ghid de Costuri",
+          "description": "Prețuri all-inclusive 2026 vs UK, US și UE"
+        },
+        {
+          "title": "Gastric Sleeve",
+          "description": "Cea mai aleasă procedură — de la £2,950"
+        },
+        {
+          "title": "ESG (Non-Chirurgical)",
+          "description": "Cea mai scurtă călătorie: 2–3 zile — de la £4,950"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Obțineți Planul Dumneavoastră Personal de Călătorie",
+      "text": "Spuneți-ne procedura de interes și datele preferate pe WhatsApp — veți primi un plan zi cu zi, îndrumări privind zborul și o ofertă fixă all-inclusive în decurs de 24 de ore.",
+      "button": "Planificați-mi Călătoria Gratuit"
+    }
+  },
+  "esgVsSleevePage": {
+    "hero": {
+      "eyebrow": "Ghid Decizional",
+      "title": "ESG vs Gastric Sleeve: Pe Care Ar Trebui Să O Alegeți?",
+      "subtitle": "Una este o procedură endoscopică fără cicatrici, cu externare în aceeași zi; cealaltă este cea mai efectuată operație de pierdere în greutate din lume. Iată comparația onestă — inclusiv când vă sfătuim să evitați fiecare dintre ele.",
+      "stats": [
+        {
+          "value": "15–20%",
+          "label": "Pierdere totală în greutate — ESG"
+        },
+        {
+          "value": "25–30%",
+          "label": "Pierdere totală în greutate — sleeve"
+        },
+        {
+          "value": "0",
+          "label": "Incizii cu ESG"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "ESG vs Sleeve Chirurgical Dintr-o Privire",
+      "columns": [
+        "Factor",
+        "ESG (Endoscopic)",
+        "Gastric Sleeve (Chirurgical)"
+      ],
+      "rows": [
+        [
+          "Tehnică",
+          "Stomac suturat mai mic din interior — fără incizii",
+          "~80% din stomac îndepărtat chirurgical"
+        ],
+        [
+          "Pierdere din greutatea corporală totală",
+          "15–20%",
+          "25–30%"
+        ],
+        [
+          "Anestezie și durată",
+          "Generală, 60–90 min",
+          "Generală, ~60 min"
+        ],
+        [
+          "Spitalizare",
+          "Aceeași zi sau 1 noapte",
+          "2–3 nopți"
+        ],
+        [
+          "Revenire la muncă",
+          "3–5 zile",
+          "10–14 zile"
+        ],
+        [
+          "Cicatrici",
+          "Niciuna",
+          "5 cicatrici mici de tip keyhole"
+        ],
+        [
+          "Reversibilă / ajustabilă",
+          "În mare parte — poate fi re-strânsă",
+          "Nu — permanentă"
+        ],
+        [
+          "Efect asupra refluxului",
+          "De obicei ameliorează",
+          "Poate agrava (până la 55% RGE)"
+        ],
+        [
+          "Interval BMI optim",
+          "30–40 (ESG-Max până la ~45)",
+          "35–55+"
+        ],
+        [
+          "Preț la IBC (all-inclusive)",
+          "De la £4,950",
+          "De la £2,950"
+        ]
+      ]
+    },
+    "tradeOff": {
+      "title": "Compromisul Fundamental",
+      "p1": "Decizia se reduce la <strong>puterea de pierdere în greutate versus caracterul invaziv</strong>. <sleeveLink>Sleeve-ul chirurgical</sleeveLink> îndepărtează permanent țesut gastric, produce cu aproximativ o treime mai multă pierdere în greutate și rămâne standardul de referință pentru un BMI peste 40. <esgLink>ESG</esgLink> obține o pierdere de 15–20% din greutatea corporală totală, fără incizii, fără organ îndepărtat, cu o recuperare de 3–5 zile și un profil de siguranță mai apropiat de o endoscopie diagnostică decât de o operație.",
+      "p2": "În mod crucial, ESG <strong>păstrează toate opțiunile viitoare deschise</strong>: dacă obiectivele dumneavoastră de pierdere în greutate se schimbă, un ESG poate fi convertit ulterior într-un sleeve chirurgical sau bypass. Un sleeve chirurgical nu poate fi anulat.",
+      "cta": "Care Mi Se Potrivește? Întrebați Gratuit"
+    },
+    "chooseEsg": {
+      "title": "Alegeți ESG Dacă…",
+      "items": [
+        "BMI-ul dumneavoastră este 30–40 și doriți o pierdere în greutate semnificativă și durabilă fără chirurgie",
+        "Aveți reflux acid — ESG îl ameliorează de obicei, un sleeve îl poate agrava",
+        "Vă puteți lua doar 3–5 zile libere de la muncă sau familie",
+        "Nu doriți cicatrici și nicio modificare anatomică permanentă",
+        "Nu sunteți eligibil pentru chirurgie sau ideea acesteia este ceea ce v-a împiedicat să acționați"
+      ]
+    },
+    "chooseSleeve": {
+      "title": "Alegeți Sleeve-ul Chirurgical Dacă…",
+      "items": [
+        "BMI-ul dumneavoastră este peste 40–45, unde pierderea suplimentară în greutate a chirurgiei schimbă rezultatele de sănătate",
+        "Aveți diabet de tip 2 semnificativ — efectul metabolic al chirurgiei este mai puternic",
+        "Doriți rezultatul maxim, cel mai studiat pe termen lung, într-o singură procedură",
+        "Bugetul contează — pachetul de sleeve este cu £2,000 mai ieftin decât ESG"
+      ]
+    },
+    "candidacy": {
+      "title": "Verificare Rapidă Personală",
+      "intro": "ESG este probabil cel mai bun punct de plecare dacă majoritatea acestor situații se aplică:",
+      "criteria": [
+        "BMI între 30 și 40",
+        "Refluxul sau arsurile la stomac sunt deja o problemă",
+        "Preferință puternică de a evita chirurgia și cicatricile",
+        "Nevoia de a reveni la muncă în decurs de o săptămână",
+        "Vă simțiți confortabil cu o pierdere de 15–20% din greutatea corporală totală ca obiectiv"
+      ],
+      "note": "Dacă BMI-ul dumneavoastră este peste 45 sau dacă controlul diabetului este prioritatea, citiți în schimb <bypassLink>comparația noastră sleeve vs bypass</bypassLink> — aceea este probabil decizia dumneavoastră reală."
+    },
+    "surgeonProof": {
+      "title": "Experimentat în Ambele — Deci Sfatul Este Neutru",
+      "subtitle": "Dr Ustun efectuează peste 2,000 de proceduri endoscopice, alături de sleeve-uri și bypass-uri chirurgicale. Când recomandăm una în locul celeilalte, este pentru că vi se potrivește — nu pentru că este singurul instrument pe care îl avem."
+    },
+    "faq": {
+      "title": "ESG vs Sleeve — Răspunsuri la Întrebările Dumneavoastră",
+      "items": [
+        {
+          "question": "Este ESG la fel de eficient ca un gastric sleeve?",
+          "answer": "Sleeve-ul chirurgical produce o pierdere mai mare în greutate: 60-70% din greutatea în exces, față de 45-60% pentru ESG (15-20% din greutatea corporală totală). Dar ESG nu necesită incizii, nu îndepărtează stomacul, are o recuperare mai rapidă și este în mare parte reversibil. Pentru un BMI de 30-40, rezultatele ESG sunt adesea suficiente; peste un BMI de 40-45, sleeve-ul chirurgical este de obicei alegerea mai puternică."
+        },
+        {
+          "question": "Care este principala diferență dintre ESG și gastric sleeve?",
+          "answer": "Gastric sleeve-ul îndepărtează chirurgical aproximativ 80% din stomac prin incizii de tip keyhole. ESG (Gastroplastia Endoscopică cu Sleeve) remodelează stomacul într-un sleeve din interior, folosind suturi plasate printr-un endoscop introdus pe gât — fără incizii, fără stomac îndepărtat, de obicei cu externare în aceeași zi."
+        },
+        {
+          "question": "Care este mai sigur: ESG sau gastric sleeve?",
+          "answer": "ESG are profilul de risc mai scăzut: evenimente adverse grave sub 2%, fără linie de capse, fără risc de fistulă și fără nicio modificare anatomică permanentă. Sleeve-ul chirurgical este de asemenea foarte sigur (1-3% complicații majore), dar este ireversibil și comportă un risc de reflux pe termen lung de până la 55%. ESG de obicei ameliorează, mai degrabă decât să agraveze, refluxul."
+        },
+        {
+          "question": "Rezistă ESG sau stomacul se întinde la loc?",
+          "answer": "Datele studiului randomizat MERIT arată rezultate durabile: la 5 ani, peste 80% dintre pacienții cu ESG mențin cel puțin 10% pierdere din greutatea corporală totală. Suturile creează o cicatrizare permanentă care menține forma sleeve-ului. Dacă este necesar, ESG poate fi re-strâns endoscopic ulterior — sau convertit într-un sleeve chirurgical sau bypass."
+        },
+        {
+          "question": "Pot face ESG dacă BMI-ul meu este peste 40?",
+          "answer": "Da — ESG-Max, cu suturi de întărire suplimentare, extinde eficacitatea în intervalele de BMI mai mari, iar ESG este o opțiune validă pentru pacienții care nu sunt apți sau nu doresc să facă chirurgie. Totuși, pentru un BMI peste 45, sleeve-ul chirurgical sau bypass-ul produc în general rezultate substanțial mai bune pe termen lung."
+        },
+        {
+          "question": "Cum se compară costurile în Turcia?",
+          "answer": "La Istanbul Bariatric Center, sleeve-ul chirurgical începe de la £2,950, iar ESG de la £4,950, ambele all-inclusive. ESG costă mai mult din cauza dispozitivului Apollo OverStitch, dar evită chirurgia, cicatricile și o spitalizare mai lungă de o noapte."
+        }
+      ]
+    },
+    "related": {
+      "title": "Următorul Dumneavoastră Pas",
+      "links": [
+        {
+          "title": "ESG în Detaliu",
+          "description": "Apollo ESG și ESG-Max — de la £4,950"
+        },
+        {
+          "title": "Gastric Sleeve în Detaliu",
+          "description": "Ghid complet — de la £2,950"
+        },
+        {
+          "title": "Balon vs Sleeve",
+          "description": "Luați în considerare și balonul gastric?"
+        },
+        {
+          "title": "Ghid de Costuri",
+          "description": "Toate prețurile 2026 vs UK, US și UE"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Nehotărât? Obțineți o Opinie de Expert Gratuită",
+      "text": "Trimiteți înălțimea, greutatea și obiectivele pe WhatsApp — echipa noastră clinică vă va spune onest dacă ESG sau sleeve-ul chirurgical se potrivește cazului dumneavoastră, în decurs de 24 de ore.",
+      "button": "Întrebați Echipa Clinică"
+    }
+  },
+  "weightRegainPage": {
+    "hero": {
+      "eyebrow": "Ghid de Rezultate — Fără Reproșuri, Doar Soluții",
+      "title": "Recâștigarea în Greutate După Gastric Sleeve: Cele Patru Căi ale Dumneavoastră",
+      "subtitle": "Până la 30% dintre pacienții cu sleeve recâștigă greutate semnificativă în decurs de cinci ani. Nu este un eșec personal — are cauze fizice, iar fiecare dintre ele are un tratament. Iată harta completă.",
+      "stats": [
+        {
+          "value": "30%",
+          "label": "Dintre pacienți recâștigă în 5 ani"
+        },
+        {
+          "value": "4",
+          "label": "Căi de tratament"
+        },
+        {
+          "value": "Primul pas",
+          "label": "Întotdeauna endoscopie diagnostică"
+        }
+      ]
+    },
+    "whyBack": {
+      "title": "De Ce Revine Greutatea",
+      "intro": "Trei mecanisme determină recâștigarea după un sleeve, și niciunul dintre ele nu ține de voință:",
+      "mechanisms": [
+        "<strong>Dilatarea sleeve-ului.</strong> Sleeve-ul este un tub muscular aflat sub presiune la fiecare masă; de-a lungul anilor se poate întinde treptat, restabilind capacitatea și apetitul.",
+        "<strong>Adaptarea hormonală.</strong> Grelina (hormonul foamei) se recuperează parțial la unii pacienți la 2–4 ani după operație.",
+        "<strong>Devierea comportamentală.</strong> Ronțăitul, caloriile lichide și controalele omise erodează în tăcere restricția care rămâne."
+      ],
+      "outro": "Deoarece cauza diferă de la pacient la pacient, la fel trebuie să difere și soluția — motiv pentru care fiecare caz de recâștigare la Istanbul Bariatric Center începe cu o <strong>endoscopie diagnostică</strong>, nu cu un discurs de vânzare pentru o anumită procedură.",
+      "cta": "Descrieți-mi Situația — Evaluare Gratuită"
+    },
+    "comparison": {
+      "title": "Cele Patru Căi Comparate",
+      "subtitle": "De la cea mai puțină la cea mai multă intervenție. Mulți pacienți combină căile — de exemplu, o resetare cu dieteticianul plus GLP-1 în timp ce decid asupra unui re-sleeve endoscopic.",
+      "columns": [
+        "Cale",
+        "Cea Mai Potrivită Pentru",
+        "Caracter Invaziv",
+        "Rezultat Așteptat"
+      ],
+      "rows": [
+        [
+          "1. Program de resetare condus de dietetician",
+          "Recâștigare sub ~10 kg, obiceiuri identificate ca factor determinant",
+          "Niciun — program la distanță",
+          "Oprirea recâștigării, pierdere de 5–10 kg"
+        ],
+        [
+          "2. Medicație GLP-1 (Mounjaro/Wegovy)",
+          "Recâștigare moderată, pacientul preferă să nu facă o procedură",
+          "Niciun — injecție săptămânală",
+          "Pierdere de 10–15% cât timp se ia medicația"
+        ],
+        [
+          "3. Re-sleeve endoscopic",
+          "Dilatare de sleeve confirmată, recâștigare moderată, fără reflux sever",
+          "Endoscopic — fără incizii, 0–1 noapte",
+          "Restabilirea restricției; pierderea a 60–70% din greutatea recâștigată"
+        ],
+        [
+          "4. Conversie la mini bypass / DS",
+          "Recâștigare majoră, reflux sau anatomie nepotrivită pentru re-sleeve",
+          "Laparoscopic, 2–3 nopți",
+          "Cel mai puternic și mai durabil rezultat"
+        ]
+      ]
+    },
+    "howDecide": {
+      "title": "Cum Decidem, Pas cu Pas",
+      "steps": [
+        "<strong>Evaluare gratuită la distanță.</strong> Trimiteți data operației inițiale, istoricul greutății și modelul actual de alimentație pe WhatsApp — Dr Ustun analizează personal fiecare caz de recâștigare.",
+        "<strong>Endoscopie diagnostică la Istanbul.</strong> Măsoară dimensiunea sleeve-ului, verifică prezența unei hernii hiatale și a leziunilor de reflux. Acest singur test determină care căi sunt realiste.",
+        "<strong>Decizia asupra căii — cea mai puțină intervenție care va funcționa cu adevărat.</strong> Dacă un program de resetare sau medicația vă poate atinge obiectivul, vă spunem acest lucru; o procedură este recomandată doar atunci când anatomia o impune.",
+        "<strong>Tratament și 12 luni de îngrijire post-operatorie</strong> cu suportul unui dietetician înregistrat în UK, pentru că, indiferent de calea aleasă, suportul pentru obiceiuri decide dacă rezultatul durează de data aceasta."
+      ]
+    },
+    "candidacy": {
+      "title": "Când Să Vă Evaluați — Nu Așteptați Să Fie „Suficient de Rău”",
+      "intro": "Programați o evaluare a recâștigării dacă oricare dintre acestea se aplică:",
+      "criteria": [
+        "Ați recâștigat mai mult de 25% din greutatea pe care ați pierdut-o inițial",
+        "Dimensiunile porțiilor au revenit clar spre nivelurile de dinainte de operație",
+        "Foamea între mese a revenit",
+        "Arsurile la stomac sau refluxul au apărut sau s-au agravat odată cu recâștigarea",
+        "Luați în considerare medicația GLP-1 și doriți să știți dacă este instrumentul potrivit"
+      ],
+      "note": "Recâștigarea se accelerează: acțiunea la 10 kg recâștigate păstrează toate opțiunile deschise, inclusiv pe cele mai simple. Dacă refluxul este problema dumneavoastră mai mare, începeți cu <refluxLink>ghidul nostru despre refluxul după sleeve</refluxLink>."
+    },
+    "surgeonProof": {
+      "title": "De Ce Vin Pacienții cu Recâștigare la Istanbul",
+      "subtitle": "Evaluarea pentru revizie necesită un centru care oferă fiecare cale — endoscopică și chirurgicală — astfel încât recomandarea să fie determinată de endoscopia dumneavoastră, nu de limitările clinicii."
+    },
+    "faq": {
+      "title": "Recâștigarea în Greutate — Răspunsuri la Întrebările Dumneavoastră",
+      "items": [
+        {
+          "question": "Este normală recâștigarea în greutate după gastric sleeve?",
+          "answer": "O anumită recâștigare este frecventă — studiile arată că până la 30% dintre pacienții cu sleeve recâștigă greutate semnificativă în decurs de 5 ani. Nu înseamnă că ați eșuat. Cele mai frecvente cauze sunt dilatarea treptată a sleeve-ului (întinderea), adaptarea hormonală și revenirea vechilor modele de alimentație. Toate trei sunt tratabile."
+        },
+        {
+          "question": "Cum știu dacă sleeve-ul meu s-a întins?",
+          "answer": "Semnele de avertizare includ capacitatea de a mânca porții mult mai mari decât în primul an, revenirea foamei între mese și o recâștigare constantă în ciuda unei alimentații rezonabile. Singura modalitate de a confirma este o endoscopie diagnostică, care măsoară sleeve-ul și exclude alte cauze — acesta este întotdeauna primul nostru pas înainte de a recomanda orice tratament."
+        },
+        {
+          "question": "Ce opțiuni am dacă am recâștigat greutate după un sleeve?",
+          "answer": "Patru căi principale, în ordinea crescătoare a intervenției: (1) un program structurat de resetare condus de dietetician, (2) medicație GLP-1 (Mounjaro/Wegovy) alături de sleeve-ul dumneavoastră, (3) re-sleeve endoscopic — strângerea sleeve-ului întins din interior cu suturi, fără chirurgie, și (4) conversie chirurgicală la un mini bypass gastric sau duodenal switch. Cea potrivită depinde de cât ați recâștigat, de anatomia sleeve-ului și de prezența refluxului."
+        },
+        {
+          "question": "Poate fi reparat un sleeve întins fără chirurgie?",
+          "answer": "Adesea da. Un re-sleeve endoscopic folosește sistemul Apollo OverStitch pentru a sutura sleeve-ul dilatat înapoi într-un tub îngust prin gură — fără incizii, de obicei cel mult o noapte, și revenire la normal în câteva zile. Se potrivește dilatării moderate cu recâștigare moderată."
+        },
+        {
+          "question": "Când este conversia la un bypass răspunsul mai bun?",
+          "answer": "Când recâștigarea este substanțială (mai mult de 25-30% din greutatea pierdută), când refluxul a apărut odată cu recâștigarea sau când endoscopia arată o anatomie nepotrivită pentru re-sleeve. Conversia sleeve-la-bypass este cea mai frecventă operație de revizie din lume și abordează atât recâștigarea, cât și refluxul într-un singur pas."
+        },
+        {
+          "question": "Funcționează medicamentele GLP-1 după un gastric sleeve?",
+          "answer": "Da — studiile arată o pierdere suplimentară semnificativă în greutate atunci când medicația GLP-1 este adăugată după chirurgia bariatrică, și poate fi o opțiune non-procedurală eficientă pentru recâștigarea moderată. Limitările: efectul durează doar cât timp se ia medicația, costul lunar este semnificativ, iar efectele secundare îi opresc pe unii pacienți. Îl folosim adesea ca punte sau în combinație cu alte căi."
+        }
+      ]
+    },
+    "related": {
+      "title": "Unde Să Mergeți de Aici",
+      "links": [
+        {
+          "title": "Centru de Chirurgie de Revizie",
+          "description": "Toate căile de revizie în detaliu"
+        },
+        {
+          "title": "Mini Bypass Gastric",
+          "description": "Cea mai frecventă țintă de conversie"
+        },
+        {
+          "title": "Reflux După Sleeve",
+          "description": "Dacă arsurile au revenit odată cu greutatea"
+        },
+        {
+          "title": "Rezultate pe Termen Lung",
+          "description": "Cum arată „succesul” la 5–10 ani"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Obțineți o Evaluare Onestă a Recâștigării — Gratuit",
+      "text": "Trimiteți data operației, greutatea minimă, greutatea actuală și principala dumneavoastră provocare pe WhatsApp. Echipa Dr Ustun vă va spune care cale vi se potrivește — inclusiv când răspunsul este „nu este nevoie de nicio procedură”.",
+      "button": "Începeți Evaluarea Mea Gratuită"
+    }
+  },
+  "refluxPage": {
+    "hero": {
+      "eyebrow": "Ghid de Rezultate",
+      "title": "Refluxul Acid După Gastric Sleeve: Ce Înseamnă și Cum Se Rezolvă",
+      "subtitle": "RGE-ul este cel mai cunoscut compromis pe termen lung al sleeve-ului — afectând până la 55% dintre pacienți. Majoritatea cazurilor sunt gestionabile; unele necesită reparație; există un remediu definitiv. Iată cum să știți din care grup faceți parte.",
+      "stats": [
+        {
+          "value": "55%",
+          "label": "Pacienți cu sleeve cu RGE pe termen lung"
+        },
+        {
+          "value": "~90%",
+          "label": "Rezolvate prin conversie la bypass"
+        },
+        {
+          "value": "Primul pas",
+          "label": "Endoscopie, nu mai multe antiacide"
+        }
+      ]
+    },
+    "whyReflux": {
+      "title": "De Ce Cauzează Sleeve-ul Reflux",
+      "p1": "Un sleeve transformă stomacul dintr-o pungă cu presiune joasă într-un tub îngust cu presiune ridicată, iar operația modifică unghiul și anatomia valvei din partea superioară a stomacului. Adăugați o hernie hiatală — prezentă la mulți pacienți cu obezitate și uneori dezvoltându-se după operație — și acidul este împins în sus, mai ales noaptea.",
+      "p2": "Aceasta este o problemă <strong>mecanică</strong>. Acest lucru contează, deoarece problemele mecanice nu răspund la nesfârșit la soluții chimice: IPP-urile reduc arsura acidului, dar nu fac nimic în privința presiunii sau a valvei, iar refluxul non-acid poate continua să deterioreze esofagul în tăcere.",
+      "cta": "Întrebați Despre Refluxul Meu — Gratuit"
+    },
+    "redFlags": {
+      "title": "Semnale de Alarmă — Evaluați-vă Dacă…",
+      "intro": "Consultați un specialist bariatric (nu doar o reînnoire de rețetă de la medicul de familie) dacă oricare dintre acestea se aplică:",
+      "criteria": [
+        "Aveți nevoie de IPP zilnic după primul an de la operație",
+        "Refluxul vă trezește noaptea sau dormiți în poziție ridicată",
+        "Alimentele sau lichidele regurgitează când vă aplecați sau vă întindeți",
+        "Simptomele se agravează, mai degrabă decât să fie stabile",
+        "Aveți și recâștigare în greutate alături de reflux",
+        "Aveți dificultăți la înghițire sau alimente care se blochează — consultați prompt un medic"
+      ],
+      "note": "Refluxul de lungă durată poate provoca esofag Barrett, o modificare precanceroasă care este silențioasă cât timp pastilele maschează simptomele. O endoscopie unică stabilește dacă esofagul dumneavoastră este în siguranță."
+    },
+    "ladder": {
+      "title": "Scara Tratamentului: De la Pastile la Vindecare",
+      "columns": [
+        "Pas",
+        "Ce Presupune",
+        "Cea Mai Potrivită Pentru",
+        "Limitare"
+      ],
+      "rows": [
+        [
+          "Stil de viață + medicație IPP",
+          "Mese mai mici seara, poziție ridicată, IPP zilnic",
+          "Reflux ușor, primă linie pentru toți",
+          "Controlează simptomele; nu repară nimic mecanic"
+        ],
+        [
+          "Endoscopie diagnostică",
+          "Evaluare cu camera a sleeve-ului, valvei și esofagului",
+          "Oricine ia IPP >12 luni sau are semnale de alarmă",
+          "Diagnostică — ghidează soluția"
+        ],
+        [
+          "Reparația herniei hiatale",
+          "Reparație laparoscopică a orificiului diafragmatic",
+          "Hernie confirmată cu forma sleeve-ului păstrată",
+          "Nu ajută dacă problema este sleeve-ul însuși"
+        ],
+        [
+          "Conversie la mini bypass gastric",
+          "Sleeve convertit în bypass — acid deviat mai jos",
+          "RGE persistent, mai ales cu recâștigare în greutate",
+          "O a doua operație — 2–3 nopți în spital"
+        ]
+      ],
+      "footnote": "Aproximativ 90% dintre pacienții convertiți la bypass pentru RGE renunță la IPP sau le reduc dramatic."
+    },
+    "definitiveFix": {
+      "title": "Soluția Definitivă: Conversia Sleeve-la-Bypass",
+      "p1": "Când refluxul persistă în ciuda medicației — sau când pur și simplu v-ați săturat să luați pastile în fiecare zi pentru o problemă mecanică — conversia sleeve-ului într-un <link1>mini bypass gastric</link1> este răspunsul definitiv. Punga mică produce puțin acid, iar ceea ce rămâne este direcționat un metru și jumătate mai jos. Este aceeași operație folosită pentru <link2>recâștigarea în greutate după sleeve</link2>, motiv pentru care combinația RGE + recâștigare indică atât de puternic spre conversie.",
+      "p2": "La Istanbul Bariatric Center, fiecare conversie începe cu o endoscopie diagnostică și, unde este necesar, cu o reparație simultană a herniei hiatale — consultați <link1>ghidul complet de chirurgie de revizie</link1> pentru proces și prețuri."
+    },
+    "surgeonProof": {
+      "title": "Revizia pentru Reflux Este o Muncă de Precizie",
+      "subtitle": "Conversia pentru RGE necesită un diagnostic endoscopic precis și un chirurg de revizie experimentat — exact combinația pe care o oferă un centru cu volum mare."
+    },
+    "faq": {
+      "title": "Reflux După Sleeve — Răspunsuri la Întrebările Dumneavoastră",
+      "items": [
+        {
+          "question": "De ce apare refluxul acid după un gastric sleeve?",
+          "answer": "Sleeve-ul transformă stomacul într-un tub îngust cu presiune ridicată și îndepărtează o parte din mecanismul natural al valvei anti-reflux. Acidul are mai puțin spațiu și mai multă presiune care îl împinge în sus, spre esofag. Studiile arată că RGE-ul afectează până la 55% dintre pacienții cu sleeve pe termen lung, iar aproximativ 10% dezvoltă un reflux suficient de sever încât să necesite intervenție."
+        },
+        {
+          "question": "Va dispărea de la sine refluxul după sleeve-ul meu?",
+          "answer": "Refluxul ușor din primele luni se ameliorează adesea pe măsură ce inflamația se rezolvă și greutatea scade. Refluxul care persistă peste un an, se agravează în timp sau vă trezește noaptea de obicei nu se va rezolva singur — iar refluxul netratat de lungă durată poate deteriora esofagul (esofag Barrett), așa că necesită evaluare, nu doar mai multe antiacide."
+        },
+        {
+          "question": "Care sunt opțiunile de tratament pentru refluxul după un sleeve?",
+          "answer": "În ordinea escaladării: (1) măsuri de stil de viață și medicație IPP (familia omeprazolului), (2) evaluare endoscopică pentru a verifica o hernie hiatală sau o deformare a sleeve-ului, (3) reparația herniei hiatale dacă se găsește una, și (4) conversie la un mini bypass gastric — soluția definitivă, deoarece deviază complet acidul departe de esofag. Conversia la bypass rezolvă sau ameliorează dramatic refluxul în aproximativ 90% dintre cazuri."
+        },
+        {
+          "question": "Este sigur să iau IPP (omeprazol) ani de zile?",
+          "answer": "IPP-urile sunt în general sigure sub supraveghere medicală, dar nevoia de a le lua zilnic ani de zile după un sleeve este un semnal ce merită investigat — atât din cauza posibilelor efecte pe termen lung (absorbția nutrienților, densitatea osoasă), cât și pentru că expunerea continuă la acid poate deteriora în tăcere esofagul chiar și atunci când pastilele controlează arsura."
+        },
+        {
+          "question": "Vindecă cu adevărat refluxul conversia unui sleeve în bypass?",
+          "answer": "Este cea mai fiabilă soluție disponibilă. Bypass-ul creează o pungă mică ce produce puțin acid și direcționează bila și acidul mult mai jos, astfel încât pur și simplu există mult mai puțin de refluat. Aproximativ 90% dintre pacienții convertiți pentru RGE renunță la IPP-uri sau le reduc dramatic. Conversia abordează în același timp și orice recâștigare în greutate."
+        },
+        {
+          "question": "Am atât reflux, cât și recâștigare în greutate — pe care îl tratez?",
+          "answer": "Pe amândouă, de obicei cu o singură procedură. Conversia sleeve-la-bypass este unic potrivită pentru această combinație — este răspunsul standard atunci când recâștigarea și RGE apar împreună, rezolvând expunerea la acid și repornind în același timp pierderea în greutate. Acesta este unul dintre cele mai frecvente scenarii de revizie pe care le tratăm."
+        }
+      ]
+    },
+    "related": {
+      "title": "Unde Să Mergeți de Aici",
+      "links": [
+        {
+          "title": "Centru de Chirurgie de Revizie",
+          "description": "Procesul de evaluare, căile și prețurile"
+        },
+        {
+          "title": "Mini Bypass Gastric",
+          "description": "Conversia care vindecă refluxul"
+        },
+        {
+          "title": "Recâștigarea în Greutate După Sleeve",
+          "description": "Dacă recâștigarea a venit cu arsurile"
+        },
+        {
+          "title": "Sleeve vs Bypass",
+          "description": "Vă alegeți prima operație? Citiți acest ghid"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Nu Mai Ghiciți — Obțineți o Evaluare Gratuită a Refluxului",
+      "text": "Spuneți-ne când ați făcut sleeve-ul, ce medicație luați și care sunt simptomele dumneavoastră. Echipa Dr Ustun vă va spune dacă aveți nevoie de o liniștire, de o reparație sau de o conversie — în decurs de 24 de ore.",
+      "button": "Obțineți Evaluarea Mea Gratuită a Refluxului"
+    }
+  },
+  "longTermResultsPage": {
+    "hero": {
+      "eyebrow": "Ghid Bazat pe Dovezi",
+      "title": "Rezultatele pe Termen Lung ale Chirurgiei Bariatrice: Ce Se Întâmplă cu Adevărat la 5, 10 și 20 de Ani",
+      "subtitle": "Cifrele oneste — pierdere susținută în greutate, remisiunea diabetului, o speranță de viață mai lungă și statisticile de recâștigare pe care majoritatea clinicilor nu vi le vor arăta.",
+      "stats": [
+        {
+          "value": "20–30%",
+          "label": "Din greutatea corporală încă pierdută la 10 ani"
+        },
+        {
+          "value": "30–50%",
+          "label": "Mortalitate mai scăzută pe termen lung"
+        },
+        {
+          "value": "80–90%",
+          "label": "Remisiunea diabetului (bypass)"
+        }
+      ]
+    },
+    "facts": {
+      "title": "Jocul pe Termen Lung, în Cifre",
+      "items": [
+        {
+          "label": "Greutate în exces pierdută la 10 ani (sleeve)",
+          "value": "50–60%"
+        },
+        {
+          "label": "Greutate în exces pierdută la 10 ani (bypass)",
+          "value": "55–65%"
+        },
+        {
+          "label": "ESG ≥10% pierdere menținută la 5 ani",
+          "value": ">80%"
+        },
+        {
+          "label": "Remisiunea diabetului susținută >10 ani",
+          "value": "~50%"
+        }
+      ]
+    },
+    "studies": {
+      "title": "Ce Arată Studiile de Referință",
+      "intro": "Chirurgia bariatrică este una dintre cele mai studiate intervenții din medicină. Studiul suedez Swedish Obese Subjects (SOS) a urmărit mii de pacienți timp de peste 20 de ani; alături de registre naționale ample, arată o imagine consecventă:",
+      "points": [
+        "<strong>Greutate:</strong> pacienții operați mențin o pierdere de 20–30% din greutatea corporală totală la 10 ani, față de aproximativ 1–2% pentru îngrijirea non-chirurgicală intensivă.",
+        "<strong>Supraviețuire:</strong> mortalitatea de orice cauză scade cu 30–50%, cele mai mari reduceri fiind la decesele cardiovasculare și cancerele legate de obezitate.",
+        "<strong>Diabet:</strong> remisiune la majoritatea pacienților, aproximativ jumătate dintre remisiuni menținându-se peste 10 ani — și cu un control mai bun chiar și când reapare.",
+        "<strong>Calitatea vieții:</strong> îmbunătățiri susținute ale mobilității, apneei de somn, durerilor articulare, fertilității și scorurilor de depresie la fiecare punct de urmărire pe termen lung."
+      ],
+      "cta": "Întrebați La Ce M-aș Putea Aștepta"
+    },
+    "comparison": {
+      "title": "Durabilitate în Funcție de Procedură",
+      "columns": [
+        "Procedură",
+        "Pierdere Totală în Greutate (vârf)",
+        "Menținută la 10 Ani",
+        "Considerație-Cheie pe Termen Lung"
+      ],
+      "rows": [
+        [
+          "Gastric Sleeve",
+          "25–30%",
+          "20–25%",
+          "RGE la până la 55%; recâștigare la ~30% până în anul 5"
+        ],
+        [
+          "Mini Bypass Gastric",
+          "30–35%",
+          "25–30%",
+          "Suplimente pe viață; cel mai puternic efect asupra diabetului"
+        ],
+        [
+          "ESG (Endoscopic)",
+          "15–20%",
+          ">80% mențin ≥10% la 5 ani",
+          "Re-strângibil; chirurgia rămâne disponibilă"
+        ],
+        [
+          "Balon Gastric",
+          "10–15%",
+          "Depinde de obiceiurile după îndepărtare",
+          "Un instrument de pornire, nu un tratament pe termen lung"
+        ]
+      ],
+      "footnote": "Intervale din serii publicate pe termen lung, inclusiv datele SOS, MERIT și din registre naționale; rezultatele individuale variază."
+    },
+    "regain": {
+      "title": "Partea Onestă: Recâștigarea Se Întâmplă — și Este Tratabilă",
+      "p1": "O revenire modestă față de greutatea minimă este biologie normală, nu un eșec — mediile pe termen lung de mai sus o includ deja. Ceea ce contează este minoritatea care recâștigă semnificativ: până la 30% dintre pacienții cu sleeve în decurs de cinci ani. Diferența dintre un recul temporar și un rezultat pierdut este <strong>acțiunea din timp</strong> — programele de resetare, medicația GLP-1, strângerea endoscopică și conversia chirurgicală formează o scară completă de tratament. O trasăm în <link1>ghidul despre recâștigarea în greutate</link1>."
+    },
+    "checklist": {
+      "title": "Ce Vă Protejează Rezultatul Timp de Decenii",
+      "items": [
+        "Analize de sânge anuale — B12, vitamina D, fier, folat, calciu",
+        "Multivitamină zilnică (pe viață după un bypass)",
+        "Alimentație cu proteine în primul rând și limitarea caloriilor lichide",
+        "Reacția la 5 kg de recâștigare, nu la 25 kg",
+        "O echipă chirurgicală la care încă puteți ajunge în anul 7 — nu doar în anul 1"
+      ]
+    },
+    "surgeonProof": {
+      "title": "Date de Rezultate pe Care Le Puteți Analiza",
+      "subtitle": "Cereți oricărei clinici cifrele pe termen lung înainte de a vă programa. Ale noastre: peste 8,000 de proceduri, intervalele de rezultate publicate mai sus și pacienți din 2015 încă în contact pe WhatsApp."
+    },
+    "faq": {
+      "title": "Rezultate pe Termen Lung — Răspunsuri la Întrebările Dumneavoastră",
+      "items": [
+        {
+          "question": "Câtă greutate mențin oamenii pierdută la 10 ani după chirurgia bariatrică?",
+          "answer": "Studiile pe termen lung (inclusiv studiul de referință SOS, care a urmărit pacienți timp de peste 20 de ani) arată că pacienții operați bariatric mențin o pierdere de 20-30% din greutatea corporală totală la 10 ani, față de aproape nimic pentru tratamentul non-chirurgical. Pacienții cu sleeve mențin de obicei 50-60% din greutatea în exces pierdută la 10 ani, iar pacienții cu bypass 55-65%."
+        },
+        {
+          "question": "Chirurgia bariatrică chiar te face să trăiești mai mult?",
+          "answer": "Da — aceasta este una dintre cele mai puternice constatări din chirurgia modernă. Studii de cohortă ample arată o mortalitate de orice cauză cu 30-50% mai scăzută pe parcursul a peste 10 ani la pacienții operați, față de grupurile de control asemănătoare, determinată de mai puține decese cardiovasculare, complicații ale diabetului și cancere legate de obezitate."
+        },
+        {
+          "question": "Ce se întâmplă cu diabetul de tip 2 pe termen lung după operație?",
+          "answer": "Remisiunea este frecventă și adesea durabilă: aproximativ 60-70% remisiune după sleeve și 80-90% după bypass la 1-2 ani, aproximativ jumătate dintre remisiuni menținându-se peste 10 ani. Chiar și pacienții al căror diabet reapare în cele din urmă necesită de obicei mai puțină medicație și au un control mai bun decât înainte de operație."
+        },
+        {
+          "question": "Este inevitabilă o anumită recâștigare în greutate după operație?",
+          "answer": "O recâștigare modestă față de punctul minim (de obicei 5-10% din greutatea corporală între anii 2 și 5) este fiziologic normală și inclusă în rezultatele pe termen lung de mai sus. Recâștigarea semnificativă — mai mult de 25% din greutatea pierdută — afectează până la 30% dintre pacienții cu sleeve în decurs de 5 ani și este tratabilă; consultați ghidul nostru despre recâștigarea în greutate."
+        },
+        {
+          "question": "Ce urmărire pe termen lung necesită chirurgia bariatrică?",
+          "answer": "Analize de sânge anuale (vitaminele B12, D, fier, folat, calciu), utilizarea constantă a multivitaminelor — pe viață după un bypass — și accesul la un dietetician când alimentația deviază. Istanbul Bariatric Center include 12 luni de îngrijire post-operatorie structurată și rămâne disponibil pe WhatsApp pe viață."
+        },
+        {
+          "question": "Cum se compară rezultatele pe termen lung ale ESG cu cele ale chirurgiei?",
+          "answer": "Datele la 5 ani ale ESG (studiul randomizat MERIT) arată că peste 80% dintre pacienți mențin cel puțin 10% pierdere din greutatea corporală totală — durabil, dar mai puțin decât cele 20-30% ale chirurgiei. ESG se potrivește intervalelor de BMI mai mici; chirurgia rămâne standardul de referință pentru un BMI peste 40 sau pentru o boală metabolică semnificativă."
+        }
+      ]
+    },
+    "related": {
+      "title": "Unde Să Mergeți de Aici",
+      "links": [
+        {
+          "title": "Sleeve vs Bypass",
+          "description": "Alegeți procedura cu durabilitatea de care aveți nevoie"
+        },
+        {
+          "title": "Recâștigarea în Greutate După Sleeve",
+          "description": "Scara completă de tratament al recâștigării"
+        },
+        {
+          "title": "Chirurgie de Revizie",
+          "description": "Când prima operație are nevoie de un al doilea pas"
+        },
+        {
+          "title": "Rezultatele Pacienților",
+          "description": "Parcursuri reale înainte-și-după"
+        }
+      ]
+    },
+    "conversion": {
+      "title": "Planificați Pentru Următorii 20 de Ani, Nu Pentru Următoarele 20 de Săptămâni",
+      "text": "Spuneți-ne înălțimea, greutatea și obiectivele dumneavoastră de sănătate. Vă vom spune ale cărei proceduri dovezi pe termen lung se potrivesc cazului dumneavoastră — gratuit, onest, în decurs de 24 de ore.",
+      "button": "Obțineți Evaluarea Mea Gratuită"
     }
   }
 }
