@@ -56,5 +56,13 @@
   "testimonials": {
     "title": "Témoignages de Patients",
     "subtitle": "De vrais patients, de vraies transformations, de vrais résultats"
+  },
+  "decisionGuides": {
+    "title": "Vous ne savez pas quelle intervention vous convient ?",
+    "subtitle": "Des guides de décision honnêtes issus de plus de 8 000 interventions — comparez vos options, comprenez les risques et planifiez votre voyage avant de parler à qui que ce soit.",
+    "compare": "Comparez vos options",
+    "fix": "Résoudre un problème",
+    "plan": "Planifiez votre voyage",
+    "expertNote": "Chaque guide est relu par le Dr Murat Ustun et vous dit honnêtement quand une intervention ne vous convient pas — y compris qui nous refusons et pourquoi."
   }
 }

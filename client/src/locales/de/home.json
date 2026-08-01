@@ -56,5 +56,13 @@
   "testimonials": {
     "title": "Patientenberichte",
     "subtitle": "Echte Patienten, echte Transformationen, echte Ergebnisse"
+  },
+  "decisionGuides": {
+    "title": "Nicht sicher, welches Verfahren das richtige für Sie ist?",
+    "subtitle": "Ehrliche Entscheidungshilfen aus über 8.000 Eingriffen — vergleichen Sie Ihre Optionen, verstehen Sie die Risiken und planen Sie Ihre Reise, bevor Sie mit jemandem sprechen.",
+    "compare": "Optionen vergleichen",
+    "fix": "Ein Problem lösen",
+    "plan": "Reise planen",
+    "expertNote": "Jeder Ratgeber wird von Dr. Murat Ustun geprüft und sagt Ihnen ehrlich, wann ein Verfahren nicht für Sie geeignet ist — einschließlich wen wir ablehnen und warum."
   }
 }

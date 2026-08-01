@@ -56,5 +56,13 @@
   "testimonials": {
     "title": "Poveștile Pacienților",
     "subtitle": "Pacienți reali, transformări reale, rezultate reale"
+  },
+  "decisionGuides": {
+    "title": "Nu sunteți sigur ce procedură vi se potrivește?",
+    "subtitle": "Ghiduri de decizie oneste, scrise din experiența a peste 8.000 de proceduri — comparați opțiunile, înțelegeți riscurile și planificați călătoria înainte de a vorbi cu cineva.",
+    "compare": "Comparați opțiunile",
+    "fix": "Rezolvați o problemă",
+    "plan": "Planificați călătoria",
+    "expertNote": "Fiecare ghid este verificat de Dr. Murat Ustun și vă spune sincer când o procedură nu este potrivită pentru dvs. — inclusiv pe cine refuzăm și de ce."
   }
 }

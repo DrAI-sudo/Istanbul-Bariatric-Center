@@ -56,5 +56,13 @@
   "testimonials": {
     "title": "Historias de Pacientes",
     "subtitle": "Pacientes reales, transformaciones reales, resultados reales"
+  },
+  "decisionGuides": {
+    "title": "¿No está seguro de qué procedimiento es el adecuado para usted?",
+    "subtitle": "Guías de decisión honestas escritas a partir de más de 8.000 procedimientos: compare sus opciones, comprenda los riesgos y planifique su viaje antes de hablar con nadie.",
+    "compare": "Compare sus opciones",
+    "fix": "Resuelva un problema",
+    "plan": "Planifique su viaje",
+    "expertNote": "Cada guía es revisada por el Dr. Murat Ustun y le dice con honestidad cuándo un procedimiento no es adecuado para usted, incluyendo a quién rechazamos y por qué."
   }
 }

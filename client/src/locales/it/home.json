@@ -56,5 +56,13 @@
   "testimonials": {
     "title": "Storie dei Pazienti",
     "subtitle": "Pazienti veri, trasformazioni vere, risultati veri"
+  },
+  "decisionGuides": {
+    "title": "Non sai quale procedura sia giusta per te?",
+    "subtitle": "Guide decisionali oneste scritte sulla base di oltre 8.000 interventi: confronta le opzioni, comprendi i rischi e pianifica il viaggio prima di parlare con chiunque.",
+    "compare": "Confronta le opzioni",
+    "fix": "Risolvi un problema",
+    "plan": "Pianifica il viaggio",
+    "expertNote": "Ogni guida è revisionata dal Dr. Murat Ustun e ti dice onestamente quando una procedura non fa per te — incluso chi rifiutiamo e perché."
   }
 }

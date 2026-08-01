@@ -58,5 +58,13 @@
   "testimonials": {
     "title": "Patient Stories",
     "subtitle": "Real patients, real transformations, real results"
+  },
+  "decisionGuides": {
+    "title": "Not Sure Which Procedure Is Right for You?",
+    "subtitle": "Honest decision guides written from 8,000+ procedures — compare your options, understand the risks, and plan your trip before you speak to anyone.",
+    "compare": "Compare Your Options",
+    "fix": "Fix a Problem",
+    "plan": "Plan Your Trip",
+    "expertNote": "Every guide is reviewed by Dr Murat Ustun and tells you honestly when a procedure is not right for you — including who we turn away and why."
   }
 }

@@ -7,6 +7,7 @@ import { Footer } from "@/components/footer";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
 
 import { Treatments } from "@/components/treatments";
+import { DecisionGuides } from "@/components/decision-guides";
 
 const BMICalculator = lazy(() => import("@/components/bmi-calculator").then(m => ({ default: m.BMICalculator })));
 const Testimonials = lazy(() => import("@/components/testimonials").then(m => ({ default: m.Testimonials })));
@@ -59,6 +60,7 @@ export default function Home() {
         <VIPPackage />
         <Awards />
         <Treatments />
+        <DecisionGuides />
         <LazySection><BMICalculator /></LazySection>
         <LazySection><Testimonials /></LazySection>
       </div>

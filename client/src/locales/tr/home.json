@@ -56,5 +56,13 @@
   "testimonials": {
     "title": "Hasta Hikayeleri",
     "subtitle": "Gerçek hastalar, gerçek dönüşümler, gerçek sonuçlar"
+  },
+  "decisionGuides": {
+    "title": "Hangi Yöntemin Size Uygun Olduğundan Emin Değil misiniz?",
+    "subtitle": "8.000'den fazla ameliyat deneyimiyle yazılmış dürüst karar rehberleri — seçeneklerinizi karşılaştırın, riskleri anlayın ve kimseyle görüşmeden önce yolculuğunuzu planlayın.",
+    "compare": "Seçeneklerinizi Karşılaştırın",
+    "fix": "Bir Sorunu Çözün",
+    "plan": "Yolculuğunuzu Planlayın",
+    "expertNote": "Her rehber Dr. Murat Üstün tarafından incelenir ve bir yöntemin size uygun olmadığı durumları dürüstçe anlatır — kimleri neden geri çevirdiğimiz dahil."
   }
 }
