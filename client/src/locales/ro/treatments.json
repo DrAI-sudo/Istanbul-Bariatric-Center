@@ -892,5 +892,36 @@
     "heroTitle": "Conturare Post-Bariatrică Istanbul, Turcia",
     "heroSubtitle": "Completați-vă parcursul cu proceduri de conturare.",
     "desc": "Chirurgia post-bariatrică ajută la remodelarea corpului."
+  },
+  "guides": {
+    "title": "Ghiduri și comparații",
+    "sleeveVsBypass": {
+      "title": "Sleeve vs Bypass",
+      "description": "Comparați cele mai populare două operații"
+    },
+    "esgVsSleeve": {
+      "title": "ESG vs Gastric Sleeve",
+      "description": "Slăbire endoscopică vs chirurgicală"
+    },
+    "balloonVsSleeve": {
+      "title": "Balon vs Sleeve",
+      "description": "Opțiuni nechirurgicale vs chirurgicale"
+    },
+    "weightRegain": {
+      "title": "Recâștigarea greutății după sleeve",
+      "description": "De ce apare și ce puteți face"
+    },
+    "reflux": {
+      "title": "Reflux după sleeve",
+      "description": "Cauze, tratament și opțiuni de revizie"
+    },
+    "longTermResults": {
+      "title": "Rezultate pe termen lung",
+      "description": "Rezultate la 10 ani ale chirurgiei bariatrice"
+    },
+    "travelGuide": {
+      "title": "Ghid de călătorie",
+      "description": "Planificarea călătoriei pentru operație la Istanbul"
+    }
   }
 }

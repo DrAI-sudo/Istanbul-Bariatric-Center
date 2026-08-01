@@ -241,6 +241,10 @@ export default function SleeveGastrectomy() {
             { title: "Gastric Balloon", description: "Non-surgical option", href: "/gastric-balloon" },
             { title: "Endoscopic Sleeve", description: "Minimally invasive", href: "/esg" },
             { title: "Revision Surgery", description: "Options after weight regain", href: "/revision-bariatric-surgery" },
+            { title: t("guides.sleeveVsBypass.title"), description: t("guides.sleeveVsBypass.description"), href: "/gastric-sleeve-vs-gastric-bypass" },
+            { title: t("guides.reflux.title"), description: t("guides.reflux.description"), href: "/reflux-after-gastric-sleeve" },
+            { title: t("guides.weightRegain.title"), description: t("guides.weightRegain.description"), href: "/weight-regain-after-gastric-sleeve" },
+            { title: t("guides.longTermResults.title"), description: t("guides.longTermResults.description"), href: "/bariatric-surgery-long-term-results" },
           ]}
         />
 

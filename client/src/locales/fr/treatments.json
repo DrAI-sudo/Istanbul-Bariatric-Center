@@ -1179,5 +1179,36 @@
     "heroTitle": "Remodelage Corporel Post-Bariatrique Istanbul, Turquie",
     "heroSubtitle": "Complétez votre parcours avec des procédures de remodelage corporel.",
     "desc": "Après une perte de poids importante, la chirurgie post-bariatrique aide à remodeler le corps."
+  },
+  "guides": {
+    "title": "Guides et comparatifs",
+    "sleeveVsBypass": {
+      "title": "Sleeve vs Bypass",
+      "description": "Comparez les deux chirurgies les plus populaires"
+    },
+    "esgVsSleeve": {
+      "title": "ESG vs Sleeve gastrique",
+      "description": "Perte de poids endoscopique vs chirurgicale"
+    },
+    "balloonVsSleeve": {
+      "title": "Ballon vs Sleeve",
+      "description": "Options non chirurgicales vs chirurgicales"
+    },
+    "weightRegain": {
+      "title": "Reprise de poids après sleeve",
+      "description": "Pourquoi cela arrive et que faire"
+    },
+    "reflux": {
+      "title": "Reflux après sleeve",
+      "description": "Causes, traitement et options de révision"
+    },
+    "longTermResults": {
+      "title": "Résultats à long terme",
+      "description": "Résultats à 10 ans de la chirurgie bariatrique"
+    },
+    "travelGuide": {
+      "title": "Guide de voyage",
+      "description": "Préparer votre séjour chirurgical à Istanbul"
+    }
   }
 }

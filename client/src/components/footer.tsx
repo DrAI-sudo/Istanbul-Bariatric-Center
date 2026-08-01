@@ -5,6 +5,7 @@ import { Link } from "wouter";
 
 export function Footer() {
   const { t } = useTranslation('common');
+  const { t: tTreatments } = useTranslation('treatments');
   
   return (
     <footer role="contentinfo" className="bg-slate-900 text-white pt-20 pb-10">
@@ -39,6 +40,19 @@ export function Footer() {
               <li><Link href="/transit-bipartition" className="hover:text-primary transition-colors">Transit Bipartition</Link></li>
               <li><Link href="/post-bariatric-surgery" className="hover:text-primary transition-colors">Post-Bariatric Surgery</Link></li>
               <li><Link href="/revision-bariatric-surgery" className="hover:text-primary transition-colors">Revision Surgery</Link></li>
+            </ul>
+          </nav>
+
+          <nav aria-label="Guides and comparisons">
+            <h3 className="font-bold text-lg mb-6">{tTreatments('guides.title')}</h3>
+            <ul className="space-y-4 text-slate-300">
+              <li><Link href="/gastric-sleeve-vs-gastric-bypass" className="hover:text-primary transition-colors">{tTreatments('guides.sleeveVsBypass.title')}</Link></li>
+              <li><Link href="/esg-vs-gastric-sleeve" className="hover:text-primary transition-colors">{tTreatments('guides.esgVsSleeve.title')}</Link></li>
+              <li><Link href="/gastric-balloon-vs-gastric-sleeve" className="hover:text-primary transition-colors">{tTreatments('guides.balloonVsSleeve.title')}</Link></li>
+              <li><Link href="/weight-regain-after-gastric-sleeve" className="hover:text-primary transition-colors">{tTreatments('guides.weightRegain.title')}</Link></li>
+              <li><Link href="/reflux-after-gastric-sleeve" className="hover:text-primary transition-colors">{tTreatments('guides.reflux.title')}</Link></li>
+              <li><Link href="/bariatric-surgery-long-term-results" className="hover:text-primary transition-colors">{tTreatments('guides.longTermResults.title')}</Link></li>
+              <li><Link href="/bariatric-surgery-travel-guide" className="hover:text-primary transition-colors">{tTreatments('guides.travelGuide.title')}</Link></li>
             </ul>
           </nav>
 

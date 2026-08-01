@@ -892,5 +892,36 @@
     "heroTitle": "Post-Bariatrische Körperformung Istanbul, Türkei",
     "heroSubtitle": "Vervollständigen Sie Ihre Gewichtsverlust-Reise mit Körperformungsverfahren.",
     "desc": "Nach großem Gewichtsverlust bleibt oft überschüssige Haut. Post-bariatrische Chirurgie hilft den Körper neu zu formen."
+  },
+  "guides": {
+    "title": "Ratgeber & Vergleiche",
+    "sleeveVsBypass": {
+      "title": "Sleeve vs. Bypass",
+      "description": "Die zwei beliebtesten Operationen im Vergleich"
+    },
+    "esgVsSleeve": {
+      "title": "ESG vs. Schlauchmagen",
+      "description": "Endoskopisch vs. chirurgisch abnehmen"
+    },
+    "balloonVsSleeve": {
+      "title": "Ballon vs. Schlauchmagen",
+      "description": "Nicht-chirurgische vs. chirurgische Optionen"
+    },
+    "weightRegain": {
+      "title": "Gewichtszunahme nach Sleeve",
+      "description": "Warum sie auftritt und was zu tun ist"
+    },
+    "reflux": {
+      "title": "Reflux nach Schlauchmagen",
+      "description": "Ursachen, Behandlung und Revisionsoptionen"
+    },
+    "longTermResults": {
+      "title": "Langzeitergebnisse",
+      "description": "10-Jahres-Ergebnisse der Adipositaschirurgie"
+    },
+    "travelGuide": {
+      "title": "Reiseratgeber",
+      "description": "So planen Sie Ihre OP-Reise nach Istanbul"
+    }
   }
 }

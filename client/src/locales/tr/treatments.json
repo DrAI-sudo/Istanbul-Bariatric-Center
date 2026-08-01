@@ -1179,5 +1179,36 @@
     "heroTitle": "Bariyatrik Sonrası Vücut Şekillendirme İstanbul, Türkiye",
     "heroSubtitle": "Önemli kilo kaybından sonra fazla deriyi almak için tasarlanmış vücut şekillendirme prosedürleri ile kilo verme yolculuğunuzu tamamlayın.",
     "desc": "Büyük kilo kaybından sonra birçok hasta fazla deri ile kalır. Bariyatrik sonrası cerrahi vücudu yeniden şekillendirmeye ve kontürlemeye yardımcı olur."
+  },
+  "guides": {
+    "title": "Rehberler ve Karşılaştırmalar",
+    "sleeveVsBypass": {
+      "title": "Tüp Mide vs Bypass",
+      "description": "En popüler iki ameliyatı karşılaştırın"
+    },
+    "esgVsSleeve": {
+      "title": "ESG vs Tüp Mide",
+      "description": "Endoskopik ve cerrahi zayıflama karşılaştırması"
+    },
+    "balloonVsSleeve": {
+      "title": "Balon vs Tüp Mide",
+      "description": "Ameliyatsız ve cerrahi seçenekler"
+    },
+    "weightRegain": {
+      "title": "Tüp Mide Sonrası Kilo Alımı",
+      "description": "Neden olur ve ne yapılmalı"
+    },
+    "reflux": {
+      "title": "Tüp Mide Sonrası Reflü",
+      "description": "Nedenler, tedavi ve revizyon seçenekleri"
+    },
+    "longTermResults": {
+      "title": "Uzun Vadeli Sonuçlar",
+      "description": "Bariatrik cerrahinin 10 yıllık sonuçları"
+    },
+    "travelGuide": {
+      "title": "Seyahat Rehberi",
+      "description": "İstanbul'daki ameliyat yolculuğunuzu planlayın"
+    }
   }
 }

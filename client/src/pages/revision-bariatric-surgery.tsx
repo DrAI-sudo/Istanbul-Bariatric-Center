@@ -35,8 +35,13 @@ export default function RevisionBariatricSurgery() {
   const steps = t("revisionPage.process.steps", { returnObjects: true }) as string[];
   const quotes = t("revisionPage.testimonials.quotes", { returnObjects: true }) as { name: string; flag: string; date: string; text: string }[];
   const faqs = t("revisionPage.faq.items", { returnObjects: true }) as { question: string; answer: string }[];
-  const relatedLinks = (t("revisionPage.related.links", { returnObjects: true }) as { title: string; description: string }[])
-    .map((link, i) => ({ ...link, href: relatedHrefs[i] }));
+  const relatedLinks = [
+    ...(t("revisionPage.related.links", { returnObjects: true }) as { title: string; description: string }[])
+      .map((link, i) => ({ ...link, href: relatedHrefs[i] })),
+    { title: t("guides.weightRegain.title"), description: t("guides.weightRegain.description"), href: "/weight-regain-after-gastric-sleeve" },
+    { title: t("guides.reflux.title"), description: t("guides.reflux.description"), href: "/reflux-after-gastric-sleeve" },
+    { title: t("guides.longTermResults.title"), description: t("guides.longTermResults.description"), href: "/bariatric-surgery-long-term-results" },
+  ];
 
   return (
     <div className="min-h-screen bg-white">

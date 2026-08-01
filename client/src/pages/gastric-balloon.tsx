@@ -232,6 +232,18 @@ export default function GastricBalloon() {
                 <p className="text-sm text-slate-600">For BMI 50+</p>
               </div>
             </Link>
+            <Link href="/gastric-balloon-vs-gastric-sleeve">
+              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
+                <h3 className="font-bold text-primary mb-2">{t("guides.balloonVsSleeve.title")}</h3>
+                <p className="text-sm text-slate-600">{t("guides.balloonVsSleeve.description")}</p>
+              </div>
+            </Link>
+            <Link href="/esg-vs-gastric-sleeve">
+              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
+                <h3 className="font-bold text-primary mb-2">{t("guides.esgVsSleeve.title")}</h3>
+                <p className="text-sm text-slate-600">{t("guides.esgVsSleeve.description")}</p>
+              </div>
+            </Link>
           </div>
         </div>
       </section>

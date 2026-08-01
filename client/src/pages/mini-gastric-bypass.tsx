@@ -178,6 +178,9 @@ export default function MiniGastricBypass() {
             { title: "Gastric Balloon", description: "Non-surgical option", href: "/gastric-balloon" },
             { title: "Endoscopic Sleeve", description: "Minimally invasive", href: "/esg" },
             { title: "Revision Surgery", description: "Options after weight regain", href: "/revision-bariatric-surgery" },
+            { title: t("guides.sleeveVsBypass.title"), description: t("guides.sleeveVsBypass.description"), href: "/gastric-sleeve-vs-gastric-bypass" },
+            { title: t("guides.longTermResults.title"), description: t("guides.longTermResults.description"), href: "/bariatric-surgery-long-term-results" },
+            { title: t("guides.travelGuide.title"), description: t("guides.travelGuide.description"), href: "/bariatric-surgery-travel-guide" },
           ]}
         />
 

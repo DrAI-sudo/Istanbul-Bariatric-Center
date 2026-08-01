@@ -892,5 +892,36 @@
     "heroTitle": "Post Bariatric Body Contouring Istanbul, Turkey",
     "heroSubtitle": "Complete your weight loss journey with body contouring procedures designed to remove excess skin after significant weight loss.",
     "desc": "After major weight loss, many patients are left with excess skin. Post-bariatric surgery helps reshape and contour the body."
+  },
+  "guides": {
+    "title": "Guides & Comparisons",
+    "sleeveVsBypass": {
+      "title": "Sleeve vs Bypass",
+      "description": "Compare the two most popular surgeries"
+    },
+    "esgVsSleeve": {
+      "title": "ESG vs Gastric Sleeve",
+      "description": "Endoscopic vs surgical weight loss"
+    },
+    "balloonVsSleeve": {
+      "title": "Balloon vs Sleeve",
+      "description": "Non-surgical vs surgical options"
+    },
+    "weightRegain": {
+      "title": "Weight Regain After Sleeve",
+      "description": "Why it happens and what to do"
+    },
+    "reflux": {
+      "title": "Reflux After Sleeve",
+      "description": "Causes, treatment and revision options"
+    },
+    "longTermResults": {
+      "title": "Long-Term Results",
+      "description": "10-year outcomes of bariatric surgery"
+    },
+    "travelGuide": {
+      "title": "Travel Guide",
+      "description": "Planning your surgery trip to Istanbul"
+    }
   }
 }

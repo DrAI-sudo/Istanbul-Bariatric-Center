@@ -1179,5 +1179,36 @@
     "heroTitle": "Contorno Corporal Post-Bariátrico Estambul, Turquía",
     "heroSubtitle": "Complete su viaje de pérdida de peso con procedimientos de contorno corporal diseñados para eliminar el exceso de piel.",
     "desc": "Después de una pérdida de peso mayor, muchos pacientes quedan con exceso de piel. La cirugía post-bariátrica ayuda a remodelar y contornear el cuerpo."
+  },
+  "guides": {
+    "title": "Guías y comparativas",
+    "sleeveVsBypass": {
+      "title": "Manga vs Bypass",
+      "description": "Compare las dos cirugías más populares"
+    },
+    "esgVsSleeve": {
+      "title": "ESG vs Manga Gástrica",
+      "description": "Pérdida de peso endoscópica vs quirúrgica"
+    },
+    "balloonVsSleeve": {
+      "title": "Balón vs Manga",
+      "description": "Opciones no quirúrgicas vs quirúrgicas"
+    },
+    "weightRegain": {
+      "title": "Reganancia de peso tras la manga",
+      "description": "Por qué ocurre y qué hacer"
+    },
+    "reflux": {
+      "title": "Reflujo tras la manga",
+      "description": "Causas, tratamiento y opciones de revisión"
+    },
+    "longTermResults": {
+      "title": "Resultados a largo plazo",
+      "description": "Resultados a 10 años de la cirugía bariátrica"
+    },
+    "travelGuide": {
+      "title": "Guía de viaje",
+      "description": "Planifique su viaje quirúrgico a Estambul"
+    }
   }
 }

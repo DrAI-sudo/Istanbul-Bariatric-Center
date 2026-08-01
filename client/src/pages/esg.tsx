@@ -343,6 +343,9 @@ export default function ESG() {
             { title: "Gastric Bypass", description: "70-85% excess weight loss", href: "/mini-gastric-bypass" },
             { title: "Gastric Balloon", description: "Non-surgical option", href: "/gastric-balloon" },
             { title: "Cost Guide", description: "Compare all prices", href: "/cost-of-bariatric-surgery-in-turkey" },
+            { title: t("guides.esgVsSleeve.title"), description: t("guides.esgVsSleeve.description"), href: "/esg-vs-gastric-sleeve" },
+            { title: t("guides.balloonVsSleeve.title"), description: t("guides.balloonVsSleeve.description"), href: "/gastric-balloon-vs-gastric-sleeve" },
+            { title: t("guides.longTermResults.title"), description: t("guides.longTermResults.description"), href: "/bariatric-surgery-long-term-results" },
           ]}
         />
 
