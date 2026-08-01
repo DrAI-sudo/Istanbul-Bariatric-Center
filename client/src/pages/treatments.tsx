@@ -714,6 +714,18 @@ export default function Treatments({ lang }: { lang?: string }) {
               <h3 className="font-semibold text-white mb-1">{t('treatmentLinks.postBariatric')}</h3>
               <p className="text-sm text-slate-300">{t('treatmentLinks.postBariatricDesc')}</p>
             </a>
+            <a href="/revision-bariatric-surgery" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
+              <h3 className="font-semibold text-white mb-1">Revision Bariatric Surgery</h3>
+              <p className="text-sm text-slate-300">Fix or convert a previous weight loss surgery</p>
+            </a>
+            <a href="/cost-of-bariatric-surgery-in-turkey" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
+              <h3 className="font-semibold text-white mb-1">Cost of Bariatric Surgery in Turkey</h3>
+              <p className="text-sm text-slate-300">Full 2026 price guide & what's included</p>
+            </a>
+            <a href="/bariatric-surgery-for-uk-patients" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
+              <h3 className="font-semibold text-white mb-1">Guide for UK Patients</h3>
+              <p className="text-sm text-slate-300">NHS waits, costs & travel from the UK</p>
+            </a>
             <a href="/health-profile" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
               <h3 className="font-semibold text-white mb-1">{t('treatmentLinks.eligible')}</h3>
               <p className="text-sm text-slate-300">{t('treatmentLinks.eligibleDesc')}</p>

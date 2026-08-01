@@ -38,6 +38,7 @@ export function Footer() {
               <li><Link href="/esg" className="hover:text-primary transition-colors">Endoscopic Sleeve</Link></li>
               <li><Link href="/transit-bipartition" className="hover:text-primary transition-colors">Transit Bipartition</Link></li>
               <li><Link href="/post-bariatric-surgery" className="hover:text-primary transition-colors">Post-Bariatric Surgery</Link></li>
+              <li><Link href="/revision-bariatric-surgery" className="hover:text-primary transition-colors">Revision Surgery</Link></li>
             </ul>
           </nav>
 
@@ -47,6 +48,8 @@ export function Footer() {
               <li><Link href="/about" className="hover:text-primary transition-colors">About Us</Link></li>
               <li><Link href="/treatments" className="hover:text-primary transition-colors">Treatments</Link></li>
               <li><Link href="/results" className="hover:text-primary transition-colors">Results & Reviews</Link></li>
+              <li><Link href="/cost-of-bariatric-surgery-in-turkey" className="hover:text-primary transition-colors">Cost of Bariatric Surgery</Link></li>
+              <li><Link href="/bariatric-surgery-for-uk-patients" className="hover:text-primary transition-colors">Guide for UK Patients</Link></li>
               <li><Link href="/blog" className="hover:text-primary transition-colors">Blog</Link></li>
               <li><Link href="/contact" className="hover:text-primary transition-colors">Contact</Link></li>
             </ul>
