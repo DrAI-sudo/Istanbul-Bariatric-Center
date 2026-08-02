@@ -54,10 +54,10 @@ export default function Treatments({ lang }: { lang?: string }) {
         "followup": "Dietitian support and follow-up consultations",
         "status": "http://schema.org/ActiveActionStatus",
         "offers": [
-          { "@type": "Offer", "name": "Sleeve Gastrectomy Ultra Eco", "price": "2150", "priceCurrency": "GBP", "description": "Experienced Surgeon Team, Boutique Hospital (2 days), All pre-operative tests and consultations" },
-          { "@type": "Offer", "name": "Sleeve Gastrectomy Basic", "price": "2950", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, Boutique Hospital (2 days), Airport Pickup, Dietitian Support" },
-          { "@type": "Offer", "name": "Sleeve Gastrectomy Relaxation", "price": "3950", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, JCI Hospital (3 days), UK Dietitian" },
-          { "@type": "Offer", "name": "Sleeve Gastrectomy Luxury", "price": "4250", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, Radisson Hotel, UK Dietitian, Supplements" }
+          { "@type": "Offer", "name": "Sleeve Gastrectomy Ultra Eco", "price": "2450", "priceCurrency": "GBP", "description": "Experienced Surgeon Team, Boutique Hospital (2 days), All pre-operative tests and consultations" },
+          { "@type": "Offer", "name": "Sleeve Gastrectomy Basic", "price": "3400", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, Boutique Hospital (2 days), Airport Pickup, Dietitian Support" },
+          { "@type": "Offer", "name": "Sleeve Gastrectomy Relaxation", "price": "4550", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, JCI Hospital (3 days), UK Dietitian" },
+          { "@type": "Offer", "name": "Sleeve Gastrectomy Luxury", "price": "4900", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, Radisson Hotel, UK Dietitian, Supplements" }
         ]
       },
       {
@@ -68,9 +68,9 @@ export default function Treatments({ lang }: { lang?: string }) {
         "bodyLocation": "Stomach and Small Intestine",
         "description": "Gastric bypass creates a small pouch from the stomach and connects it directly to the small intestine, bypassing most of the stomach and part of the small intestine.",
         "offers": [
-          { "@type": "Offer", "name": "Gastric Bypass Basic", "price": "3350", "priceCurrency": "GBP" },
-          { "@type": "Offer", "name": "Gastric Bypass Relaxation", "price": "4350", "priceCurrency": "GBP" },
-          { "@type": "Offer", "name": "Gastric Bypass Luxury", "price": "4650", "priceCurrency": "GBP" }
+          { "@type": "Offer", "name": "Gastric Bypass Basic", "price": "3850", "priceCurrency": "GBP" },
+          { "@type": "Offer", "name": "Gastric Bypass Relaxation", "price": "5000", "priceCurrency": "GBP" },
+          { "@type": "Offer", "name": "Gastric Bypass Luxury", "price": "5350", "priceCurrency": "GBP" }
         ]
       },
       {
@@ -81,8 +81,8 @@ export default function Treatments({ lang }: { lang?: string }) {
         "bodyLocation": "Stomach",
         "description": "A soft silicone balloon placed in the stomach endoscopically to reduce capacity and help patients feel full faster.",
         "offers": [
-          { "@type": "Offer", "name": "Endoscopic Orbera Balloon", "price": "1650", "priceCurrency": "GBP" },
-          { "@type": "Offer", "name": "Allurion Swallowable Balloon", "price": "2250", "priceCurrency": "GBP" }
+          { "@type": "Offer", "name": "Endoscopic Orbera Balloon", "price": "1900", "priceCurrency": "GBP" },
+          { "@type": "Offer", "name": "Allurion Swallowable Balloon", "price": "2600", "priceCurrency": "GBP" }
         ]
       },
       {
@@ -93,8 +93,8 @@ export default function Treatments({ lang }: { lang?: string }) {
         "bodyLocation": "Stomach and Small Intestine",
         "description": "A complex procedure combining sleeve gastrectomy with intestinal bypass for maximum weight loss in patients with very high BMI.",
         "offers": [
-          { "@type": "Offer", "name": "Duodenal Switch Relaxation", "price": "4400", "priceCurrency": "GBP" },
-          { "@type": "Offer", "name": "Duodenal Switch Luxury", "price": "4700", "priceCurrency": "GBP" }
+          { "@type": "Offer", "name": "Duodenal Switch Relaxation", "price": "5050", "priceCurrency": "GBP" },
+          { "@type": "Offer", "name": "Duodenal Switch Luxury", "price": "5400", "priceCurrency": "GBP" }
         ]
       },
       {
@@ -105,8 +105,8 @@ export default function Treatments({ lang }: { lang?: string }) {
         "bodyLocation": "Stomach",
         "description": "A minimally invasive, non-surgical weight loss procedure that reduces stomach size by 70-80% using endoscopic suturing through the mouth.",
         "offers": [
-          { "@type": "Offer", "name": "ESG Relaxation", "price": "4950", "priceCurrency": "GBP" },
-          { "@type": "Offer", "name": "ESG Luxury", "price": "5950", "priceCurrency": "GBP" }
+          { "@type": "Offer", "name": "ESG Relaxation", "price": "5700", "priceCurrency": "GBP" },
+          { "@type": "Offer", "name": "ESG Luxury", "price": "6850", "priceCurrency": "GBP" }
         ]
       },
       {
@@ -117,8 +117,8 @@ export default function Treatments({ lang }: { lang?: string }) {
         "bodyLocation": "Stomach",
         "description": "A minimally invasive, non-surgical weight loss procedure that reshapes the stomach with full-thickness plications using an endoscopic suturing platform inserted through the mouth — no incisions required.",
         "offers": [
-          { "@type": "Offer", "name": "POSE-2 Relaxation", "price": "4950", "priceCurrency": "GBP" },
-          { "@type": "Offer", "name": "POSE-2 Luxury", "price": "5950", "priceCurrency": "GBP" }
+          { "@type": "Offer", "name": "POSE-2 Relaxation", "price": "5700", "priceCurrency": "GBP" },
+          { "@type": "Offer", "name": "POSE-2 Luxury", "price": "6850", "priceCurrency": "GBP" }
         ]
       }
     ]
@@ -150,26 +150,26 @@ export default function Treatments({ lang }: { lang?: string }) {
   const packages = [
     {
       name: t('packages.sleeveUltraEco.name'),
-      price: "£2,150",
+      price: "£2,450",
       color: "blue",
       features: t('packages.sleeveUltraEco.features', { returnObjects: true }) as string[]
     },
     {
       name: t('packages.sleeveBasic.name'),
-      price: "£2,950",
+      price: "£3,400",
       color: "blue",
       features: t('packages.sleeveBasic.features', { returnObjects: true }) as string[]
     },
     {
       name: t('packages.sleeveRelaxation.name'),
-      price: "£3,950",
+      price: "£4,550",
       color: "emerald",
       recommended: true,
       features: t('packages.sleeveRelaxation.features', { returnObjects: true }) as string[]
     },
     {
       name: t('packages.sleeveLuxury.name'),
-      price: "£4,250",
+      price: "£4,900",
       color: "amber",
       features: t('packages.sleeveLuxury.features', { returnObjects: true }) as string[]
     }
@@ -178,20 +178,20 @@ export default function Treatments({ lang }: { lang?: string }) {
   const bypassPackages = [
     {
       name: t('packages.bypassBasic.name'),
-      price: "£3,350",
+      price: "£3,850",
       color: "blue",
       features: t('packages.bypassBasic.features', { returnObjects: true }) as string[]
     },
     {
       name: t('packages.bypassRelaxation.name'),
-      price: "£4,350",
+      price: "£5,000",
       color: "emerald",
       recommended: true,
       features: t('packages.bypassRelaxation.features', { returnObjects: true }) as string[]
     },
     {
       name: t('packages.bypassLuxury.name'),
-      price: "£4,650",
+      price: "£5,350",
       color: "amber",
       features: t('packages.bypassLuxury.features', { returnObjects: true }) as string[]
     }
@@ -200,13 +200,13 @@ export default function Treatments({ lang }: { lang?: string }) {
   const balloonPackages = [
     {
       name: t('packages.balloonOrbera.name'),
-      price: "£1,650",
+      price: "£1,900",
       color: "blue",
       features: t('packages.balloonOrbera.features', { returnObjects: true }) as string[]
     },
     {
       name: t('packages.balloonAllurion.name'),
-      price: "£2,250",
+      price: "£2,600",
       color: "emerald",
       recommended: true,
       features: t('packages.balloonAllurion.features', { returnObjects: true }) as string[]
@@ -216,14 +216,14 @@ export default function Treatments({ lang }: { lang?: string }) {
   const esgPackages = [
     {
       name: t('packages.esgRelaxation.name'),
-      price: "£4,950",
+      price: "£5,700",
       color: "emerald",
       recommended: true,
       features: t('packages.esgRelaxation.features', { returnObjects: true }) as string[]
     },
     {
       name: t('packages.esgLuxury.name'),
-      price: "£5,950",
+      price: "£6,850",
       color: "amber",
       features: t('packages.esgLuxury.features', { returnObjects: true }) as string[]
     }
@@ -232,14 +232,14 @@ export default function Treatments({ lang }: { lang?: string }) {
   const pose2Packages = [
     {
       name: t('packages.pose2Relaxation.name'),
-      price: "£4,950",
+      price: "£5,700",
       color: "emerald",
       recommended: true,
       features: t('packages.pose2Relaxation.features', { returnObjects: true }) as string[]
     },
     {
       name: t('packages.pose2Luxury.name'),
-      price: "£5,950",
+      price: "£6,850",
       color: "amber",
       features: t('packages.pose2Luxury.features', { returnObjects: true }) as string[]
     }
@@ -248,14 +248,14 @@ export default function Treatments({ lang }: { lang?: string }) {
   const duodenalSwitchPackages = [
     {
       name: t('packages.dsRelaxation.name'),
-      price: "£4,400",
+      price: "£5,050",
       color: "emerald",
       recommended: true,
       features: t('packages.dsRelaxation.features', { returnObjects: true }) as string[]
     },
     {
       name: t('packages.dsLuxury.name'),
-      price: "£4,700",
+      price: "£5,400",
       color: "amber",
       features: t('packages.dsLuxury.features', { returnObjects: true }) as string[]
     }
@@ -266,7 +266,7 @@ export default function Treatments({ lang }: { lang?: string }) {
       procedure: t('comparison.gastricSleeve'),
       type: t('comparison.surgical'),
       bmiRange: t('comparison.bmi35plus'),
-      startingPrice: "£2,950",
+      startingPrice: "£3,400",
       hospitalStay: t('comparison.stay2to3'),
       expectedWeightLoss: t('comparison.loss60to70'),
       recovery: t('comparison.recovery2to3weeks')
@@ -275,7 +275,7 @@ export default function Treatments({ lang }: { lang?: string }) {
       procedure: t('comparison.gastricBypass'),
       type: t('comparison.surgical'),
       bmiRange: t('comparison.bmi40plus'),
-      startingPrice: "£3,350",
+      startingPrice: "£3,850",
       hospitalStay: t('comparison.stay2to3'),
       expectedWeightLoss: t('comparison.loss70to80'),
       recovery: t('comparison.recovery2to3weeks')
@@ -284,7 +284,7 @@ export default function Treatments({ lang }: { lang?: string }) {
       procedure: t('comparison.gastricBalloon'),
       type: t('comparison.nonSurgical'),
       bmiRange: t('comparison.bmi30to40'),
-      startingPrice: "£1,650",
+      startingPrice: "£1,900",
       hospitalStay: t('comparison.staySameDay'),
       expectedWeightLoss: t('comparison.loss10to15'),
       recovery: t('comparison.recovery1to3days')
@@ -293,7 +293,7 @@ export default function Treatments({ lang }: { lang?: string }) {
       procedure: t('comparison.esg'),
       type: t('comparison.nonSurgical'),
       bmiRange: t('comparison.bmi30to40'),
-      startingPrice: "£4,950",
+      startingPrice: "£5,700",
       hospitalStay: t('comparison.stay1to2'),
       expectedWeightLoss: t('comparison.loss15to20'),
       recovery: t('comparison.recovery1to3days')
@@ -302,7 +302,7 @@ export default function Treatments({ lang }: { lang?: string }) {
       procedure: t('comparison.pose2'),
       type: t('comparison.nonSurgical'),
       bmiRange: t('comparison.bmi30to40'),
-      startingPrice: "£4,950",
+      startingPrice: "£5,700",
       hospitalStay: t('comparison.stay1to2'),
       expectedWeightLoss: t('comparison.loss15to16'),
       recovery: t('comparison.recovery1to3days')
@@ -311,7 +311,7 @@ export default function Treatments({ lang }: { lang?: string }) {
       procedure: t('comparison.duodenalSwitch'),
       type: t('comparison.surgical'),
       bmiRange: t('comparison.bmi50plus'),
-      startingPrice: "£4,400",
+      startingPrice: "£5,050",
       hospitalStay: t('comparison.stay3to4'),
       expectedWeightLoss: t('comparison.loss70to85'),
       recovery: t('comparison.recovery3to4weeks')

@@ -241,13 +241,13 @@ export async function registerRoutes(
 
 ## Surgical Procedures
 
-- [Gastric Sleeve Surgery (Sleeve Gastrectomy)](${BASE_URL}/sleeve-gastrectomy): From £2,950. Removes 75-80% of the stomach. Most popular bariatric procedure worldwide. Ideal for BMI 35+.
-- [Mini Gastric Bypass](${BASE_URL}/mini-gastric-bypass): From £3,350. Creates a small stomach pouch and bypasses part of the small intestine. Best for BMI 40+ or metabolic conditions.
-- [Gastric Balloon](${BASE_URL}/gastric-balloon): From £1,650. Non-surgical, temporary balloon placed in stomach. Orbera (endoscopic) and Allurion (swallowable) options available.
-- [Endoscopic Sleeve Gastroplasty (ESG)](${BASE_URL}/esg): From £4,950. Non-surgical stomach reduction via endoscope. No incisions, 1-3 day recovery. Pioneered in Turkey by Dr Murat Ustun.
-- [ESG for UK Patients](${BASE_URL}/esg/uk): ESG tailored for UK patients. Save up to 70% vs UK private clinics. All-inclusive packages from £4,950. UK patient coordinators, UK WhatsApp support.
+- [Gastric Sleeve Surgery (Sleeve Gastrectomy)](${BASE_URL}/sleeve-gastrectomy): From £3,400. Removes 75-80% of the stomach. Most popular bariatric procedure worldwide. Ideal for BMI 35+.
+- [Mini Gastric Bypass](${BASE_URL}/mini-gastric-bypass): From £3,850. Creates a small stomach pouch and bypasses part of the small intestine. Best for BMI 40+ or metabolic conditions.
+- [Gastric Balloon](${BASE_URL}/gastric-balloon): From £1,900. Non-surgical, temporary balloon placed in stomach. Orbera (endoscopic) and Allurion (swallowable) options available.
+- [Endoscopic Sleeve Gastroplasty (ESG)](${BASE_URL}/esg): From £5,700. Non-surgical stomach reduction via endoscope. No incisions, 1-3 day recovery. Pioneered in Turkey by Dr Murat Ustun.
+- [ESG for UK Patients](${BASE_URL}/esg/uk): ESG tailored for UK patients. Save up to 70% vs UK private clinics. All-inclusive packages from £5,700. UK patient coordinators, UK WhatsApp support.
 - [ESG für deutsche Patienten](${BASE_URL}/esg/de): ESG für Patienten aus Deutschland. Bis zu 70% günstiger als in Deutschland. All-Inclusive-Pakete ab ca. 5.800 €. Deutschsprachige Patientenbetreuung.
-- [ESG pour patients français](${BASE_URL}/esg/fr): Sleeve gastroplastie endoscopique pour patients en France. Jusqu'à 70% moins cher qu'en France. Forfaits tout compris à partir d'environ 5 800 €. Accompagnement francophone.
+- [ESG pour patients français](${BASE_URL}/esg/fr): Sleeve gastroplastie endoscopique pour patients en France. Jusqu'à 70% moins cher qu'en France. Forfaits tout compris à partir d'environ 6 700 €. Accompagnement francophone.
 - [ESG para pacientes españoles](${BASE_URL}/esg/es): Gastroplastia endoscópica para pacientes en España. Hasta 70% más barato que en España. Paquetes todo incluido desde aprox. 5.800 €. Atención en español.
 - [ESG voor Nederlandse patiënten](${BASE_URL}/esg/nl): Endoscopische sleeve gastroplastiek voor patiënten uit Nederland. Tot 70% goedkoper dan in Nederland. All-inclusive pakketten vanaf circa € 5.800. Persoonlijke begeleiding.
 - [ESG للمرضى من الخليج](${BASE_URL}/esg/ar): عملية طي المعدة بالمنظار للمرضى من السعودية والإمارات. باقات شاملة من ٧,٥٠٠ دولار. مستشفى معتمد JCI. خدمة VIP. مترجمون عرب.
@@ -260,10 +260,10 @@ export async function registerRoutes(
 - [ESG for norske pasienter](${BASE_URL}/esg/no): Endoskopisk sleeve gastroplastikk for pasienter fra Norge. All-inclusive-pakke € 6.450. JCI-akkreditert sykehus. Gratis konsultasjon.
 - [ESG magyar betegeknek](${BASE_URL}/esg/hu): Endoszkópos sleeve gastroplasztika magyar pácienseknek. All-inclusive csomag € 6.450. JCI-akkreditált kórház. Ingyenes konzultáció.
 - [ESG suomalaisille potilaille](${BASE_URL}/esg/fi): Endoskooppinen sleeve gastroplastia suomalaisille potilaille. All-inclusive-paketti € 6.450. JCI-akkreditoitu sairaala. Ilmainen konsultaatio.
-- [ESG for Canadian Patients](${BASE_URL}/esg/ca): Endoscopic Sleeve Gastroplasty for Canadian patients. Procedure $7,500 USD. All-inclusive $8,500 USD. JCI-accredited hospital. Free consultation.
-- [ESG for US Patients](${BASE_URL}/esg/us): Endoscopic Sleeve Gastroplasty for American patients. Procedure $7,500 USD. All-inclusive $8,500 USD. JCI-accredited hospital. Evidence-based. Free consultation.
-- [ESG for ANZ Patients](${BASE_URL}/esg/anz): Endoscopic Sleeve Gastroplasty for Australian and New Zealand patients. Procedure $7,500 USD. All-inclusive $8,500 USD. JCI-accredited hospital. Free consultation.
-- [Duodenal Switch](${BASE_URL}/duodenal-switch): From £4,400. Complex procedure combining sleeve with intestinal bypass. Maximum weight loss for very high BMI patients.
+- [ESG for Canadian Patients](${BASE_URL}/esg/ca): Endoscopic Sleeve Gastroplasty for Canadian patients. Procedure $8,650 USD. All-inclusive $9,800 USD. JCI-accredited hospital. Free consultation.
+- [ESG for US Patients](${BASE_URL}/esg/us): Endoscopic Sleeve Gastroplasty for American patients. Procedure $8,650 USD. All-inclusive $9,800 USD. JCI-accredited hospital. Evidence-based. Free consultation.
+- [ESG for ANZ Patients](${BASE_URL}/esg/anz): Endoscopic Sleeve Gastroplasty for Australian and New Zealand patients. Procedure $8,650 USD. All-inclusive $9,800 USD. JCI-accredited hospital. Free consultation.
+- [Duodenal Switch](${BASE_URL}/duodenal-switch): From £5,050. Complex procedure combining sleeve with intestinal bypass. Maximum weight loss for very high BMI patients.
 - [Transit Bipartition](${BASE_URL}/transit-bipartition): Advanced metabolic surgery combining sleeve gastrectomy with intestinal rerouting for enhanced weight loss and diabetes resolution.
 - [Post-Bariatric Surgery](${BASE_URL}/post-bariatric-surgery): Body contouring procedures after significant weight loss including tummy tuck, arm lift, and thigh lift.
 
@@ -271,12 +271,12 @@ export async function registerRoutes(
 
 | Procedure | Basic | Relaxation | Luxury |
 |-----------|-------|------------|--------|
-| Gastric Sleeve | £2,950 | £3,950 | £4,250 |
-| Gastric Bypass | £3,350 | £4,350 | £4,650 |
-| Gastric Balloon (Orbera) | £1,650 | - | - |
-| Gastric Balloon (Allurion) | £2,250 | - | - |
-| Duodenal Switch | - | £4,400 | £4,700 |
-| ESG | - | £4,950 | £5,950 |
+| Gastric Sleeve | £3,400 | £4,550 | £4,900 |
+| Gastric Bypass | £3,850 | £5,000 | £5,350 |
+| Gastric Balloon (Orbera) | £1,900 | - | - |
+| Gastric Balloon (Allurion) | £2,600 | - | - |
+| Duodenal Switch | - | £5,050 | £5,400 |
+| ESG | - | £5,700 | £6,850 |
 
 ## Contact Information
 
@@ -341,7 +341,7 @@ Istanbul Bariatric Center was founded with the mission of providing world-class 
 ### Gastric Sleeve Surgery (Sleeve Gastrectomy)
 - **Also known as**: VSG, Vertical Sleeve Gastrectomy
 - **Type**: Surgical (Laparoscopic)
-- **Pricing**: Basic £2,950 | Relaxation £3,950 | Luxury £4,250
+- **Pricing**: Basic £3,400 | Relaxation £4,550 | Luxury £4,900
 - **Ideal for**: BMI 35+ patients
 - **Expected weight loss**: 60-70% of excess weight within 12-18 months
 - **Hospital stay**: 2-3 days
@@ -352,7 +352,7 @@ Istanbul Bariatric Center was founded with the mission of providing world-class 
 ### Mini Gastric Bypass (One Anastomosis Gastric Bypass)
 - **Also known as**: OAGB, MGB, Roux-en-Y Gastric Bypass
 - **Type**: Surgical (Laparoscopic)
-- **Pricing**: Basic £3,350 | Relaxation £4,350 | Luxury £4,650
+- **Pricing**: Basic £3,850 | Relaxation £5,000 | Luxury £5,350
 - **Ideal for**: BMI 40+ or BMI 35+ with metabolic conditions (diabetes, hypertension)
 - **Expected weight loss**: 70-80% of excess weight within 12-18 months
 - **Hospital stay**: 2-3 days
@@ -363,7 +363,7 @@ Istanbul Bariatric Center was founded with the mission of providing world-class 
 ### Gastric Balloon
 - **Also known as**: Intragastric Balloon, Orbera Balloon, Allurion Balloon
 - **Type**: Non-surgical (Endoscopic/Swallowable)
-- **Pricing**: Orbera (Endoscopic) £1,650 | Allurion (Swallowable) £2,250
+- **Pricing**: Orbera (Endoscopic) £1,900 | Allurion (Swallowable) £2,600
 - **Ideal for**: BMI 30-40 seeking non-surgical options
 - **Expected weight loss**: 10-15% of total body weight over 6-12 months
 - **Hospital stay**: Same day (outpatient)
@@ -374,7 +374,7 @@ Istanbul Bariatric Center was founded with the mission of providing world-class 
 ### Endoscopic Sleeve Gastroplasty (ESG)
 - **Also known as**: Apollo ESG, Non-Surgical Gastric Sleeve, Accordion Procedure
 - **Type**: Non-surgical (Endoscopic)
-- **Pricing**: Relaxation £4,950 | Luxury £5,950
+- **Pricing**: Relaxation £5,700 | Luxury £6,850
 - **Ideal for**: BMI 30-40 wanting significant results without surgery
 - **Expected weight loss**: 15-20% of total body weight within 12 months
 - **Hospital stay**: 1 night observation
@@ -385,7 +385,7 @@ Istanbul Bariatric Center was founded with the mission of providing world-class 
 ### Duodenal Switch (BPD/DS)
 - **Also known as**: Biliopancreatic Diversion with Duodenal Switch
 - **Type**: Surgical (Laparoscopic)
-- **Pricing**: Relaxation £4,400 | Luxury £4,700
+- **Pricing**: Relaxation £5,050 | Luxury £5,400
 - **Ideal for**: BMI 50+ or patients needing maximum weight loss
 - **Expected weight loss**: 70-85% of excess weight
 - **Hospital stay**: 3-4 days

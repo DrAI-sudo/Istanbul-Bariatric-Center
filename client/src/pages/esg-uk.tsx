@@ -107,7 +107,7 @@ const journeySteps = [
 const comparisonMeds = [
   { factor: "Long-Term Effectiveness", meds: "Often limited — weight returns when medication stops", esg: "More durable — physical stomach reduction is permanent" },
   { factor: "Side Effects", meds: "Common (nausea, diarrhoea, pancreatitis risk)", esg: "Minimal (mild discomfort for 1–3 days)" },
-  { factor: "Cost Over Time", meds: "£200–400/month ongoing (£2,400–4,800/year)", esg: "One-time investment from £4,950" },
+  { factor: "Cost Over Time", meds: "£200–400/month ongoing (£2,400–4,800/year)", esg: "One-time investment from £5,700" },
   { factor: "Weight Regain", meds: "Frequent when medication is stopped", esg: "Less common with lifestyle adherence" },
   { factor: "NHS Availability", meds: "Limited — strict criteria and long waits", esg: "Not available on NHS" },
   { factor: "Procedure Required", meds: "No — weekly/daily injections", esg: "Yes — one 60–90 minute endoscopic procedure" },
@@ -123,7 +123,7 @@ const comparisonSurgery = [
   { feature: "Weight Loss", esg: "15–20% total body weight", sleeve: "60–70% excess weight" },
   { feature: "Reversibility", esg: "Potentially reversible", sleeve: "Permanent (stomach removed)" },
   { feature: "Risk Profile", esg: "Very low", sleeve: "Low" },
-  { feature: "Starting Price (Istanbul)", esg: "From £4,950", sleeve: "From £2,950" },
+  { feature: "Starting Price (Istanbul)", esg: "From £5,700", sleeve: "From £3,400" },
 ];
 
 const ukTestimonials = [
@@ -290,7 +290,7 @@ export default function ESGUK() {
     "@type": "MedicalProcedure",
     "name": "Endoscopic Sleeve Gastroplasty for UK Patients",
     "alternateName": ["ESG UK", "ESG Turkey for UK Patients", "Non-Surgical Weight Loss UK"],
-    "description": "Endoscopic Sleeve Gastroplasty (ESG) for UK patients at Istanbul Bariatric Center. Non-surgical, incision-free weight loss procedure with all-inclusive packages from £4,950. Save up to 70% compared to UK private clinics.",
+    "description": "Endoscopic Sleeve Gastroplasty (ESG) for UK patients at Istanbul Bariatric Center. Non-surgical, incision-free weight loss procedure with all-inclusive packages from £5,700. Save up to 70% compared to UK private clinics.",
     "procedureType": "Endoscopic",
     "bodyLocation": "Stomach",
     "preparation": "Free online consultation, BMI evaluation, medical history review",
@@ -304,7 +304,7 @@ export default function ESGUK() {
     <div className="min-h-screen bg-white">
       <SEO
         title="ESG for UK Patients | Endoscopic Sleeve Gastroplasty Turkey | Save Up to 70%"
-        description="ESG for UK patients. Affordable non-surgical weight loss in Turkey. All-inclusive from £4,950. Save up to 70% vs UK clinics. Free consultation."
+        description="ESG for UK patients. Affordable non-surgical weight loss in Turkey. All-inclusive from £5,700. Save up to 70% vs UK clinics. Free consultation."
         keywords="ESG UK, endoscopic sleeve gastroplasty UK, weight loss Turkey UK patients, non surgical weight loss UK, ESG vs Wegovy UK, ESG cost UK, ESG alternative UK, bariatric surgery Turkey UK, ESG Istanbul UK patients, gastric sleeve alternative UK"
         url="/esg/uk"
       />
@@ -448,7 +448,7 @@ export default function ESGUK() {
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">Significant Cost Savings</h3>
               <p className="text-slate-600 leading-relaxed">
-                In the UK, ESG typically costs <strong>£8,000–£15,000</strong> at private clinics. At Istanbul Bariatric Center, <strong>all-inclusive packages start from £4,950</strong> — that's up to 60–70% savings. Your package includes the procedure, hospital stay, hotel accommodation, airport transfers, pre-operative tests, and 12-month dietitian support.
+                In the UK, ESG typically costs <strong>£8,000–£15,000</strong> at private clinics. At Istanbul Bariatric Center, <strong>all-inclusive packages start from £5,700</strong> — that's up to 60–70% savings. Your package includes the procedure, hospital stay, hotel accommodation, airport transfers, pre-operative tests, and 12-month dietitian support.
               </p>
               <div className="mt-4 p-3 bg-green-50 rounded-lg">
                 <p className="text-green-800 font-semibold text-sm">
@@ -597,7 +597,7 @@ export default function ESGUK() {
               <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
                 <BadgePoundSterling className="w-7 h-7 text-primary" />
               </div>
-              <h3 className="text-lg font-bold mb-2">All-Inclusive from £4,950</h3>
+              <h3 className="text-lg font-bold mb-2">All-Inclusive from £5,700</h3>
               <p className="text-slate-300 text-sm">No hidden fees. Packages include procedure, hospital stay, hotel, airport transfers, pre-op tests, UK dietitian, and 12-month aftercare programme.</p>
             </div>
           </div>

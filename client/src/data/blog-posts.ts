@@ -3311,7 +3311,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <h3>POSE-2 in Istanbul: Experience Matters</h3>
-<p>Endoscopic bariatric procedures are highly technique-dependent — outcomes track directly with the endoscopist's experience. At Istanbul Bariatric Center, POSE-2 Double Helix is performed by <strong>Dr. Murat Ustun</strong>, a bariatric surgeon and endoscopic bariatric specialist with over 25 years of experience and thousands of successful procedures, at a JCI-accredited hospital in Istanbul. Our all-inclusive packages (from <strong>£4,950</strong>) cover the procedure, hospital stay, hotel, VIP transfers, and 12 months of UK-based dietitian follow-up — see the full details on our <a href="/treatments#pose-2-double-helix">POSE-2 treatment page</a>.</p>
+<p>Endoscopic bariatric procedures are highly technique-dependent — outcomes track directly with the endoscopist's experience. At Istanbul Bariatric Center, POSE-2 Double Helix is performed by <strong>Dr. Murat Ustun</strong>, a bariatric surgeon and endoscopic bariatric specialist with over 25 years of experience and thousands of successful procedures, at a JCI-accredited hospital in Istanbul. Our all-inclusive packages (from <strong>£5,700</strong>) cover the procedure, hospital stay, hotel, VIP transfers, and 12 months of UK-based dietitian follow-up — see the full details on our <a href="/treatments#pose-2-double-helix">POSE-2 treatment page</a>.</p>
 
 <div style="background: linear-gradient(135deg, #EFF6FF, #DBEAFE); border-radius: 12px; padding: 24px; margin: 24px 0; text-align: center;">
 <p style="margin: 0 0 8px 0; font-weight: 700; font-size: 1.1em; color: #1E3A8A;">Wondering if POSE-2 is right for you?</p>
@@ -4470,8 +4470,8 @@ export const blogPosts: BlogPost[] = [
 <tbody>
 <tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Mounjaro UK private</td><td style="padding: 12px 16px; text-align: center;">£2,400</td><td style="padding: 12px 16px; text-align: center;">£2,400/yr</td><td style="padding: 12px 16px; text-align: center; color: #B91C1C; font-weight: 700;">£12,000+</td></tr>
 <tr><td style="padding: 12px 16px;">Gastric Sleeve UK private</td><td style="padding: 12px 16px; text-align: center;">£10,000–14,000</td><td style="padding: 12px 16px; text-align: center;">£0</td><td style="padding: 12px 16px; text-align: center;">£10,000–14,000</td></tr>
-<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Gastric Sleeve Istanbul</td><td style="padding: 12px 16px; text-align: center;">From £2,950</td><td style="padding: 12px 16px; text-align: center;">£0</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">From £2,950</td></tr>
-<tr><td style="padding: 12px 16px;">ESG Istanbul</td><td style="padding: 12px 16px; text-align: center;">From £4,950</td><td style="padding: 12px 16px; text-align: center;">£0</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">From £4,950</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Gastric Sleeve Istanbul</td><td style="padding: 12px 16px; text-align: center;">From £3,400</td><td style="padding: 12px 16px; text-align: center;">£0</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">From £3,400</td></tr>
+<tr><td style="padding: 12px 16px;">ESG Istanbul</td><td style="padding: 12px 16px; text-align: center;">From £5,700</td><td style="padding: 12px 16px; text-align: center;">£0</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">From £5,700</td></tr>
 </tbody>
 </table>
 </div>
@@ -4577,12 +4577,12 @@ export const blogPosts: BlogPost[] = [
 </tr>
 </thead>
 <tbody>
-<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Gastric Sleeve</td><td style="padding: 12px 16px; text-align: center;">£2,950</td><td style="padding: 12px 16px; text-align: center;">€3,395</td><td style="padding: 12px 16px; text-align: center;">$3,985</td></tr>
-<tr><td style="padding: 12px 16px;">Mini Gastric Bypass</td><td style="padding: 12px 16px; text-align: center;">£3,350</td><td style="padding: 12px 16px; text-align: center;">€3,855</td><td style="padding: 12px 16px; text-align: center;">$4,525</td></tr>
-<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Gastric Balloon (Orbera)</td><td style="padding: 12px 16px; text-align: center;">£1,650</td><td style="padding: 12px 16px; text-align: center;">€1,900</td><td style="padding: 12px 16px; text-align: center;">$2,230</td></tr>
-<tr><td style="padding: 12px 16px;">Allurion Swallowable Balloon</td><td style="padding: 12px 16px; text-align: center;">£2,250</td><td style="padding: 12px 16px; text-align: center;">€2,590</td><td style="padding: 12px 16px; text-align: center;">$3,040</td></tr>
-<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">ESG (endoscopic sleeve)</td><td style="padding: 12px 16px; text-align: center;">£4,950</td><td style="padding: 12px 16px; text-align: center;">€5,695</td><td style="padding: 12px 16px; text-align: center;">$6,685</td></tr>
-<tr><td style="padding: 12px 16px;">Duodenal Switch</td><td style="padding: 12px 16px; text-align: center;">£4,400</td><td style="padding: 12px 16px; text-align: center;">€5,060</td><td style="padding: 12px 16px; text-align: center;">$5,940</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Gastric Sleeve</td><td style="padding: 12px 16px; text-align: center;">£3,400</td><td style="padding: 12px 16px; text-align: center;">€3,395</td><td style="padding: 12px 16px; text-align: center;">$3,985</td></tr>
+<tr><td style="padding: 12px 16px;">Mini Gastric Bypass</td><td style="padding: 12px 16px; text-align: center;">£3,850</td><td style="padding: 12px 16px; text-align: center;">€3,855</td><td style="padding: 12px 16px; text-align: center;">$4,525</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Gastric Balloon (Orbera)</td><td style="padding: 12px 16px; text-align: center;">£1,900</td><td style="padding: 12px 16px; text-align: center;">€1,900</td><td style="padding: 12px 16px; text-align: center;">$2,230</td></tr>
+<tr><td style="padding: 12px 16px;">Allurion Swallowable Balloon</td><td style="padding: 12px 16px; text-align: center;">£2,600</td><td style="padding: 12px 16px; text-align: center;">€2,590</td><td style="padding: 12px 16px; text-align: center;">$3,040</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">ESG (endoscopic sleeve)</td><td style="padding: 12px 16px; text-align: center;">£5,700</td><td style="padding: 12px 16px; text-align: center;">€5,695</td><td style="padding: 12px 16px; text-align: center;">$6,685</td></tr>
+<tr><td style="padding: 12px 16px;">Duodenal Switch</td><td style="padding: 12px 16px; text-align: center;">£5,050</td><td style="padding: 12px 16px; text-align: center;">€5,060</td><td style="padding: 12px 16px; text-align: center;">$5,940</td></tr>
 </tbody>
 </table>
 </div>
@@ -4617,7 +4617,7 @@ export const blogPosts: BlogPost[] = [
 </tr>
 </thead>
 <tbody>
-<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;"><strong>Turkey (Istanbul)</strong></td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">£2,950+</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">£3,350+</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">£4,950+</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;"><strong>Turkey (Istanbul)</strong></td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">£3,400+</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">£3,850+</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">£5,700+</td></tr>
 <tr><td style="padding: 12px 16px;">Mexico</td><td style="padding: 12px 16px; text-align: center;">£4,500+</td><td style="padding: 12px 16px; text-align: center;">£5,500+</td><td style="padding: 12px 16px; text-align: center;">£6,500+</td></tr>
 <tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Germany (private)</td><td style="padding: 12px 16px; text-align: center;">£12,000+</td><td style="padding: 12px 16px; text-align: center;">£14,000+</td><td style="padding: 12px 16px; text-align: center;">£11,000+</td></tr>
 <tr><td style="padding: 12px 16px;">UK (private)</td><td style="padding: 12px 16px; text-align: center;">£10,000–14,000</td><td style="padding: 12px 16px; text-align: center;">£12,000–16,000</td><td style="padding: 12px 16px; text-align: center;">£10,000–13,000</td></tr>
@@ -4863,7 +4863,7 @@ export const blogPosts: BlogPost[] = [
 <tr><td style="padding: 12px 16px;">Hospital stay</td><td style="padding: 12px 16px; text-align: center;">2 nights</td><td style="padding: 12px 16px; text-align: center;">2 nights</td></tr>
 <tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Vitamin supplementation</td><td style="padding: 12px 16px; text-align: center;">Multivitamin lifelong</td><td style="padding: 12px 16px; text-align: center;">Multi + B12 + iron + calcium</td></tr>
 <tr><td style="padding: 12px 16px;">Reversibility</td><td style="padding: 12px 16px; text-align: center; color: #B91C1C;">Permanent</td><td style="padding: 12px 16px; text-align: center; color: #15803D;">Reversible</td></tr>
-<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Cost from (Istanbul)</td><td style="padding: 12px 16px; text-align: center;">£2,950</td><td style="padding: 12px 16px; text-align: center;">£3,350</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Cost from (Istanbul)</td><td style="padding: 12px 16px; text-align: center;">£3,400</td><td style="padding: 12px 16px; text-align: center;">£3,850</td></tr>
 </tbody>
 </table>
 </div>
@@ -5470,7 +5470,7 @@ export const blogPosts: BlogPost[] = [
 </tr>
 </thead>
 <tbody>
-<tr style="background: #F0F9FF;"><td style="padding: 12px 16px; font-weight: 700;">Turkey (Istanbul)</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">£2,950–£3,950</td><td style="padding: 12px 16px; text-align: center;">2 nights</td><td style="padding: 12px 16px; text-align: center;">Yes 4–7 nights</td><td style="padding: 12px 16px; text-align: center;">12 mo online</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px; font-weight: 700;">Turkey (Istanbul)</td><td style="padding: 12px 16px; text-align: center; color: #15803D; font-weight: 700;">£3,400–£4,550</td><td style="padding: 12px 16px; text-align: center;">2 nights</td><td style="padding: 12px 16px; text-align: center;">Yes 4–7 nights</td><td style="padding: 12px 16px; text-align: center;">12 mo online</td></tr>
 <tr><td style="padding: 12px 16px; font-weight: 700;">India (Mumbai/Delhi)</td><td style="padding: 12px 16px; text-align: center;">£2,400–£3,500</td><td style="padding: 12px 16px; text-align: center;">3 nights</td><td style="padding: 12px 16px; text-align: center;">Sometimes</td><td style="padding: 12px 16px; text-align: center;">Variable</td></tr>
 <tr style="background: #F0F9FF;"><td style="padding: 12px 16px; font-weight: 700;">Mexico (Tijuana)</td><td style="padding: 12px 16px; text-align: center;">£3,500–£4,800</td><td style="padding: 12px 16px; text-align: center;">2 nights</td><td style="padding: 12px 16px; text-align: center;">Yes 3 nights</td><td style="padding: 12px 16px; text-align: center;">3–6 mo</td></tr>
 <tr><td style="padding: 12px 16px; font-weight: 700;">Thailand (Bangkok)</td><td style="padding: 12px 16px; text-align: center;">£4,500–£6,000</td><td style="padding: 12px 16px; text-align: center;">3 nights</td><td style="padding: 12px 16px; text-align: center;">Sometimes</td><td style="padding: 12px 16px; text-align: center;">6 mo</td></tr>
@@ -5755,7 +5755,7 @@ export const blogPosts: BlogPost[] = [
 <tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Transfers</td><td style="padding: 12px 16px; text-align: center;">Private sedan</td><td style="padding: 12px 16px; text-align: center;">Mercedes V-Class</td></tr>
 <tr><td style="padding: 12px 16px;">Translator</td><td style="padding: 12px 16px; text-align: center;">Shared host</td><td style="padding: 12px 16px; text-align: center;">Dedicated 24/7 host</td></tr>
 <tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Aftercare</td><td style="padding: 12px 16px; text-align: center;">12 months</td><td style="padding: 12px 16px; text-align: center;">24 months + annual bloods</td></tr>
-<tr><td style="padding: 12px 16px;">Indicative price (sleeve)</td><td style="padding: 12px 16px; text-align: center;">£3,500</td><td style="padding: 12px 16px; text-align: center;">£4,950</td></tr>
+<tr><td style="padding: 12px 16px;">Indicative price (sleeve)</td><td style="padding: 12px 16px; text-align: center;">£3,500</td><td style="padding: 12px 16px; text-align: center;">£5,700</td></tr>
 </tbody>
 </table>
 </div>
@@ -5804,7 +5804,7 @@ export const blogPosts: BlogPost[] = [
 </tr>
 </thead>
 <tbody>
-<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Gastric Sleeve</td><td style="padding: 12px 16px; text-align: center;">£3,500</td><td style="padding: 12px 16px; text-align: center;">£4,950</td></tr>
+<tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Gastric Sleeve</td><td style="padding: 12px 16px; text-align: center;">£3,500</td><td style="padding: 12px 16px; text-align: center;">£5,700</td></tr>
 <tr><td style="padding: 12px 16px;">Mini Gastric Bypass</td><td style="padding: 12px 16px; text-align: center;">£4,200</td><td style="padding: 12px 16px; text-align: center;">£5,800</td></tr>
 <tr style="background: #F0F9FF;"><td style="padding: 12px 16px;">Roux-en-Y Gastric Bypass</td><td style="padding: 12px 16px; text-align: center;">£4,800</td><td style="padding: 12px 16px; text-align: center;">£6,400</td></tr>
 <tr><td style="padding: 12px 16px;">Revision (sleeve to bypass)</td><td style="padding: 12px 16px; text-align: center;">£5,500</td><td style="padding: 12px 16px; text-align: center;">£7,200</td></tr>
@@ -6135,7 +6135,7 @@ export const blogPosts: BlogPost[] = [
 <tr style="background: #F0F9FF;"><td style="padding: 12px 16px; font-weight: 700;">Diabetes remission</td><td style="padding: 12px 16px; text-align: center;">Sometimes</td><td style="padding: 12px 16px; text-align: center;">60–80%</td></tr>
 <tr><td style="padding: 12px 16px; font-weight: 700;">Vitamins for life</td><td style="padding: 12px 16px; text-align: center;">No</td><td style="padding: 12px 16px; text-align: center;">Yes</td></tr>
 <tr style="background: #F0F9FF;"><td style="padding: 12px 16px; font-weight: 700;">Best BMI range</td><td style="padding: 12px 16px; text-align: center;">27–35</td><td style="padding: 12px 16px; text-align: center;">35+</td></tr>
-<tr><td style="padding: 12px 16px; font-weight: 700;">Indicative price (Istanbul)</td><td style="padding: 12px 16px; text-align: center;">£2,400–£3,200</td><td style="padding: 12px 16px; text-align: center;">£3,500–£4,950</td></tr>
+<tr><td style="padding: 12px 16px; font-weight: 700;">Indicative price (Istanbul)</td><td style="padding: 12px 16px; text-align: center;">£2,400–£3,200</td><td style="padding: 12px 16px; text-align: center;">£3,500–£5,700</td></tr>
 </tbody>
 </table>
 </div>

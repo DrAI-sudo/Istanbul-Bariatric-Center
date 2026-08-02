@@ -140,7 +140,7 @@ export function injectSEO(html: string, requestPath: string): string {
       "email": "drmuratustun@gmail.com",
       "address": { "@type": "PostalAddress", "addressLocality": "Istanbul", "addressCountry": "TR" },
       "medicalSpecialty": "Bariatric Surgery",
-      "priceRange": "£1,650 - £5,950",
+      "priceRange": "£1,900 - £6,850",
       "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5" },
       "sameAs": [
         "https://www.facebook.com/istanbulbariatriccenter",

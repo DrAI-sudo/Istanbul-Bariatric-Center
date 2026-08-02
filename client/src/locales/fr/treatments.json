@@ -294,7 +294,7 @@
     "faqs": [
       {
         "question": "Combien coûte la chirurgie de perte de poids à Istanbul ?",
-        "answer": "Les forfaits tout inclus commencent à partir de £1.650 pour le ballon gastrique, £2.950 pour le sleeve gastrique, £3.350 pour le bypass gastrique et £4.950 pour l'ESG. Chaque forfait couvre le séjour hospitalier JCI, les tests préopératoires, les transferts VIP et le suivi diététique."
+        "answer": "Les forfaits tout inclus commencent à partir de £1.900 pour le ballon gastrique, £3.400 pour le sleeve gastrique, £3.850 pour le bypass gastrique et £5.700 pour l'ESG. Chaque forfait couvre le séjour hospitalier JCI, les tests préopératoires, les transferts VIP et le suivi diététique."
       },
       {
         "question": "Quelle procédure bariatrique me convient ?",
@@ -330,15 +330,15 @@
     "title": "Explorez Nos Pages de Traitement",
     "subtitle": "En savoir plus sur chaque procédure en détail",
     "gastricSleeve": "Chirurgie Sleeve Gastrique",
-    "gastricSleevePrice": "À partir de £2.950",
+    "gastricSleevePrice": "À partir de £3.400",
     "miniBypass": "Mini Bypass Gastrique",
     "miniBypassDesc": "Procédure spécialisée",
     "gastricBalloon": "Ballon Gastrique",
-    "gastricBalloonPrice": "À partir de £1.650",
+    "gastricBalloonPrice": "À partir de £1.900",
     "esg": "Procédure ESG",
-    "esgPrice": "À partir de £4.950",
+    "esgPrice": "À partir de £5.700",
     "duodenalSwitch": "Switch Duodénal",
-    "duodenalSwitchPrice": "À partir de £4.400",
+    "duodenalSwitchPrice": "À partir de £5.050",
     "transitBipartition": "Bipartition Transit",
     "transitBipartitionDesc": "Procédure avancée",
     "postBariatric": "Chirurgie Post-Bariatrique",
@@ -354,7 +354,7 @@
   },
   "seo": {
     "title": "Chirurgie de Perte de Poids à Istanbul 2026 — Sleeve, Bypass, Ballon & ESG | Forfaits Tout Inclus",
-    "description": "Comparez les procédures bariatriques : Sleeve à partir de £2.950, Bypass £3.350, Ballon £1.650, ESG £4.950. Dr Murat Ustun au Liv Hospital accrédité JCI.",
+    "description": "Comparez les procédures bariatriques : Sleeve à partir de £3.400, Bypass £3.850, Ballon £1.900, ESG £5.700. Dr Murat Ustun au Liv Hospital accrédité JCI.",
     "heroAlt": "Mode de vie actif et sain après chirurgie bariatrique",
     "skipToContent": "Aller au contenu principal"
   },
@@ -388,17 +388,17 @@
     "packages": {
       "basic": {
         "name": "Sleeve Basique",
-        "price": "£2250",
+        "price": "£3400",
         "days": "3"
       },
       "relaxation": {
         "name": "Sleeve Détente",
-        "price": "£3250",
+        "price": "£4550",
         "days": "5"
       },
       "luxury": {
         "name": "Sleeve Luxe",
-        "price": "£4000",
+        "price": "£4900",
         "days": "7"
       }
     },
@@ -610,7 +610,7 @@
           "label": "Voies de révision"
         },
         {
-          "value": "£3,950",
+          "value": "£4,550",
           "label": "Tout inclus à partir de"
         }
       ]
@@ -632,7 +632,7 @@
         },
         {
           "label": "Tout inclus à partir de",
-          "value": "£3,950"
+          "value": "£4,550"
         }
       ]
     },
@@ -761,7 +761,7 @@
         },
         {
           "question": "Combien coûte la chirurgie bariatrique de révision en Turquie ?",
-          "answer": "La chirurgie de révision à Istanbul coûte généralement £3,950–£5,950 tout inclus selon la voie choisie — soit environ 60-70% de moins qu'au Royaume-Uni ou aux États-Unis. Chaque devis comprend le séjour hospitalier accrédité JCI, l'endoscopie et les tests préopératoires, les transferts, l'hôtel et le suivi. Contactez-nous pour une évaluation personnalisée et un devis exact."
+          "answer": "La chirurgie de révision à Istanbul coûte généralement £4,550–£6,850 tout inclus selon la voie choisie — soit environ 60-70% de moins qu'au Royaume-Uni ou aux États-Unis. Chaque devis comprend le séjour hospitalier accrédité JCI, l'endoscopie et les tests préopératoires, les transferts, l'hôtel et le suivi. Contactez-nous pour une évaluation personnalisée et un devis exact."
         }
       ]
     },
@@ -799,7 +799,7 @@
       "subtitle": "Chaque prix sur cette page est tout inclus et fixé avant votre départ : hôpital, chirurgien, tests, transferts, hôtel et 12 mois de suivi. Aucun supplément caché — jamais.",
       "stats": [
         {
-          "value": "£1,650",
+          "value": "£1,900",
           "label": "Forfaits à partir de"
         },
         {
@@ -817,19 +817,19 @@
       "items": [
         {
           "label": "Ballon Gastrique",
-          "value": "À partir de £1,650"
+          "value": "À partir de £1,900"
         },
         {
           "label": "Sleeve Gastrique",
-          "value": "À partir de £2,950"
+          "value": "À partir de £3,400"
         },
         {
           "label": "Mini Bypass Gastrique",
-          "value": "À partir de £3,350"
+          "value": "À partir de £3,850"
         },
         {
           "label": "ESG (Non Chirurgical)",
-          "value": "À partir de £4,950"
+          "value": "À partir de £5,700"
         }
       ]
     },
@@ -846,42 +846,42 @@
       "rows": [
         [
           "Sleeve Gastrique",
-          "£2,950 – £4,250",
+          "£3,400 – £4,900",
           "£10,000 – £15,000",
           "$16,000 – $25,000",
           "€8,000 – €12,000"
         ],
         [
           "Mini Bypass Gastrique",
-          "£3,350 – £4,650",
+          "£3,850 – £5,350",
           "£11,000 – £16,000",
           "$20,000 – $30,000",
           "€9,000 – €14,000"
         ],
         [
           "Ballon Gastrique",
-          "£1,650 – £2,250",
+          "£1,900 – £2,600",
           "£4,000 – £8,000",
           "$6,000 – $9,000",
           "€3,500 – €6,000"
         ],
         [
           "ESG (Sleeve Endoscopique)",
-          "£4,950 – £5,950",
+          "£5,700 – £6,850",
           "£9,000 – £13,000",
           "$12,000 – $20,000",
           "€8,000 – €11,000"
         ],
         [
           "Switch Duodénal",
-          "£4,400 – £4,700",
+          "£5,050 – £5,400",
           "£13,000 – £18,000",
           "$22,000 – $35,000",
           "€11,000 – €16,000"
         ],
         [
           "Chirurgie de Révision",
-          "£3,950 – £5,950",
+          "£4,550 – £6,850",
           "£12,000 – £18,000",
           "$18,000 – $30,000",
           "€10,000 – €15,000"
@@ -918,12 +918,12 @@
       "title": "Comment Budgétiser l'Ensemble de Votre Voyage",
       "intro": "Un budget total réaliste pour un patient britannique subissant un sleeve gastrique chez nous :",
       "items": [
-        "<strong>Forfait chirurgical :</strong> £2,950–£4,250 (fixe, tout inclus)",
+        "<strong>Forfait chirurgical :</strong> £3,400–£4,900 (fixe, tout inclus)",
         "<strong>Vols aller-retour Londres–Istanbul :</strong> généralement £100–£250",
         "<strong>Assurance voyage médicale :</strong> £100–£200",
         "<strong>Dépenses personnelles :</strong> £100–£200"
       ],
-      "total": "Total : environ <strong>£3,300–£4,900 tout compris</strong> — soit encore moins de la moitié du coût de la seule chirurgie dans un hôpital privé britannique. Consultez notre <ukLink>guide dédié aux patients britanniques</ukLink> pour la logistique de voyage et le suivi depuis chez vous."
+      "total": "Total : environ <strong>£3,800–£5,550 tout compris</strong> — soit encore moins de la moitié du coût de la seule chirurgie dans un hôpital privé britannique. Consultez notre <ukLink>guide dédié aux patients britanniques</ukLink> pour la logistique de voyage et le suivi depuis chez vous."
     },
     "surgeonProof": {
       "title": "Prix Bas, Normes Sans Compromis",
@@ -934,7 +934,7 @@
       "items": [
         {
           "question": "Combien coûte la chirurgie bariatrique en Turquie ?",
-          "answer": "À Istanbul Bariatric Center, les forfaits tout inclus commencent à £1,650 pour un ballon gastrique, £2,950 pour un sleeve gastrique, £3,350 pour un mini bypass gastrique et £4,950 pour l'ESG. Chaque forfait comprend le séjour hospitalier accrédité JCI, les tests préopératoires, les transferts aéroport, l'hôtel (forfaits Détente et Luxe) et le suivi diététique."
+          "answer": "À Istanbul Bariatric Center, les forfaits tout inclus commencent à £1,900 pour un ballon gastrique, £3,400 pour un sleeve gastrique, £3,850 pour un mini bypass gastrique et £5,700 pour l'ESG. Chaque forfait comprend le séjour hospitalier accrédité JCI, les tests préopératoires, les transferts aéroport, l'hôtel (forfaits Détente et Luxe) et le suivi diététique."
         },
         {
           "question": "Pourquoi la chirurgie de perte de poids est-elle bien moins chère en Turquie ?",
@@ -946,7 +946,7 @@
         },
         {
           "question": "Comment le coût se compare-t-il au Royaume-Uni, aux États-Unis ou en Europe ?",
-          "answer": "Un sleeve gastrique coûte environ £10,000–£15,000 en privé au Royaume-Uni, $16,000–$25,000 aux États-Unis et €8,000–€12,000 dans une grande partie de l'Europe de l'Ouest. À Istanbul, le forfait tout inclus équivalent est de £2,950–£4,250 — soit généralement une économie de 60 à 75% même après les vols."
+          "answer": "Un sleeve gastrique coûte environ £10,000–£15,000 en privé au Royaume-Uni, $16,000–$25,000 aux États-Unis et €8,000–€12,000 dans une grande partie de l'Europe de l'Ouest. À Istanbul, le forfait tout inclus équivalent est de £3,400–£4,900 — soit généralement une économie de 60 à 75% même après les vols."
         },
         {
           "question": "Puis-je payer en plusieurs fois ou avec un financement ?",
@@ -963,19 +963,19 @@
       "links": [
         {
           "title": "Sleeve Gastrique",
-          "description": "À partir de £2,950 tout inclus"
+          "description": "À partir de £3,400 tout inclus"
         },
         {
           "title": "Mini Bypass Gastrique",
-          "description": "À partir de £3,350 tout inclus"
+          "description": "À partir de £3,850 tout inclus"
         },
         {
           "title": "ESG (Non Chirurgical)",
-          "description": "À partir de £4,950 tout inclus"
+          "description": "À partir de £5,700 tout inclus"
         },
         {
           "title": "Chirurgie de Révision",
-          "description": "À partir de £3,950 tout inclus"
+          "description": "À partir de £4,550 tout inclus"
         }
       ]
     },
@@ -992,7 +992,7 @@
       "subtitle": "Des prix fixes en GBP, un vol de 4 heures, des soins hospitaliers accrédités JCI à Istanbul — et un suivi qui vous accompagne jusque chez vous, avec des diététiciens enregistrés au Royaume-Uni et des coordinateurs de soutien dans 8 localités britanniques.",
       "stats": [
         {
-          "value": "£2,950",
+          "value": "£3,400",
           "label": "Sleeve gastrique à partir de"
         },
         {
@@ -1043,7 +1043,7 @@
         [
           "Prix du sleeve gastrique",
           "£10,000 – £15,000",
-          "£2,950 – £4,250 tout inclus"
+          "£3,400 – £4,900 tout inclus"
         ],
         [
           "Temps d'attente",
@@ -1162,7 +1162,7 @@
       "links": [
         {
           "title": "Sleeve Gastrique",
-          "description": "À partir de £2,950 tout inclus"
+          "description": "À partir de £3,400 tout inclus"
         },
         {
           "title": "ESG (Non Chirurgical)",
@@ -1265,8 +1265,8 @@
         ],
         [
           "Prix à l'IBC (tout inclus)",
-          "À partir de £2,950",
-          "À partir de £3,350"
+          "À partir de £3,400",
+          "À partir de £3,850"
         ]
       ],
       "footnote": "Les fourchettes de résultats reflètent des séries internationales publiées et les données de cas de l'IBC ; les résultats individuels varient."
@@ -1345,7 +1345,7 @@
         },
         {
           "question": "Combien coûtent le sleeve et le bypass en Turquie ?",
-          "answer": "À Istanbul Bariatric Center, le sleeve gastrique débute à £2,950 et le mini bypass gastrique à £3,350, tous deux tout inclus : hôpital accrédité JCI, honoraires du chirurgien et de l'anesthésie, examens, transferts, hôtel et 12 mois de suivi diététique."
+          "answer": "À Istanbul Bariatric Center, le sleeve gastrique débute à £3,400 et le mini bypass gastrique à £3,850, tous deux tout inclus : hôpital accrédité JCI, honoraires du chirurgien et de l'anesthésie, examens, transferts, hôtel et 12 mois de suivi diététique."
         }
       ]
     },
@@ -1354,11 +1354,11 @@
       "links": [
         {
           "title": "Sleeve Gastrique",
-          "description": "Guide complet de la procédure — à partir de £2,950"
+          "description": "Guide complet de la procédure — à partir de £3,400"
         },
         {
           "title": "Mini Bypass Gastrique",
-          "description": "Guide complet de la procédure — à partir de £3,350"
+          "description": "Guide complet de la procédure — à partir de £3,850"
         },
         {
           "title": "ESG vs Sleeve Gastrique",
@@ -1770,8 +1770,8 @@
         ],
         [
           "Prix à l'IBC (tout inclus)",
-          "À partir de £4,950",
-          "À partir de £2,950"
+          "À partir de £5,700",
+          "À partir de £3,400"
         ]
       ]
     },
@@ -1841,7 +1841,7 @@
         },
         {
           "question": "Comment se comparent les coûts en Turquie ?",
-          "answer": "À Istanbul Bariatric Center, le sleeve chirurgical débute à £2,950 et l'ESG à £4,950, tous deux tout inclus. L'ESG coûte davantage en raison du dispositif Apollo OverStitch, mais évite la chirurgie, les cicatrices et un séjour hospitalier au-delà d'une nuit."
+          "answer": "À Istanbul Bariatric Center, le sleeve chirurgical débute à £3,400 et l'ESG à £5,700, tous deux tout inclus. L'ESG coûte davantage en raison du dispositif Apollo OverStitch, mais évite la chirurgie, les cicatrices et un séjour hospitalier au-delà d'une nuit."
         }
       ]
     },
@@ -1850,11 +1850,11 @@
       "links": [
         {
           "title": "L'ESG en Détail",
-          "description": "Apollo ESG et ESG-Max — à partir de £4,950"
+          "description": "Apollo ESG et ESG-Max — à partir de £5,700"
         },
         {
           "title": "Sleeve Gastrique en Détail",
-          "description": "Guide complet — à partir de £2,950"
+          "description": "Guide complet — à partir de £3,400"
         },
         {
           "title": "Ballon vs Sleeve",
@@ -2109,8 +2109,8 @@
         ],
         [
           "Prix à l'IBC (tout inclus)",
-          "À partir de £1,650",
-          "À partir de £2,950"
+          "À partir de £1,900",
+          "À partir de £3,400"
         ]
       ]
     },
@@ -2157,7 +2157,7 @@
         },
         {
           "question": "Combien coûtent le ballon et le sleeve en Turquie ?",
-          "answer": "À Istanbul Bariatric Center, le ballon gastrique débute à £1,650 et le sleeve gastrique à £2,950, tous deux tout inclus. Notez qu'un ballon dure 6-12 mois alors que le sleeve est permanent — par kilogramme maintenu à long terme, le sleeve et l'ESG offrent généralement un meilleur rapport qualité-prix."
+          "answer": "À Istanbul Bariatric Center, le ballon gastrique débute à £1,900 et le sleeve gastrique à £3,400, tous deux tout inclus. Notez qu'un ballon dure 6-12 mois alors que le sleeve est permanent — par kilogramme maintenu à long terme, le sleeve et l'ESG offrent généralement un meilleur rapport qualité-prix."
         },
         {
           "question": "Puis-je avoir un sleeve ou une ESG après un ballon ?",
@@ -2170,15 +2170,15 @@
       "links": [
         {
           "title": "Ballon Gastrique",
-          "description": "Guide complet — à partir de £1,650"
+          "description": "Guide complet — à partir de £1,900"
         },
         {
           "title": "ESG — le Juste Milieu",
-          "description": "Non chirurgical et durable — à partir de £4,950"
+          "description": "Non chirurgical et durable — à partir de £5,700"
         },
         {
           "title": "Sleeve Gastrique",
-          "description": "Guide complet — à partir de £2,950"
+          "description": "Guide complet — à partir de £3,400"
         },
         {
           "title": "Guide des Coûts",
@@ -2318,11 +2318,11 @@
         },
         {
           "title": "Sleeve Gastrique",
-          "description": "La procédure la plus choisie — à partir de £2,950"
+          "description": "La procédure la plus choisie — à partir de £3,400"
         },
         {
           "title": "ESG (Non Chirurgical)",
-          "description": "Le voyage le plus court : 2–3 jours — à partir de £4,950"
+          "description": "Le voyage le plus court : 2–3 jours — à partir de £5,700"
         }
       ]
     },

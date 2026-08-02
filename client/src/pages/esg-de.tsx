@@ -33,7 +33,7 @@ import { Link } from "wouter";
 const deFaqs = [
   {
     question: "Wird ESG von der Krankenkasse übernommen?",
-    answer: "In der Regel übernehmen gesetzliche Krankenkassen in Deutschland die Kosten für ESG nicht. Die Endoskopische Sleeve Gastroplastik gilt als relativ neues Verfahren und ist noch nicht in den Leistungskatalog der GKV aufgenommen. Private Krankenversicherungen prüfen Einzelfälle, eine Kostenübernahme ist jedoch selten. Aus diesem Grund suchen viele deutsche Patienten nach günstigeren Alternativen im Ausland — wie dem Istanbul Bariatric Center, wo All-Inclusive-Pakete ab ca. 5.800 € (£4.950) angeboten werden.",
+    answer: "In der Regel übernehmen gesetzliche Krankenkassen in Deutschland die Kosten für ESG nicht. Die Endoskopische Sleeve Gastroplastik gilt als relativ neues Verfahren und ist noch nicht in den Leistungskatalog der GKV aufgenommen. Private Krankenversicherungen prüfen Einzelfälle, eine Kostenübernahme ist jedoch selten. Aus diesem Grund suchen viele deutsche Patienten nach günstigeren Alternativen im Ausland — wie dem Istanbul Bariatric Center, wo All-Inclusive-Pakete ab ca. 5.800 € (£5.700) angeboten werden.",
   },
   {
     question: "Wie lange muss ich in Istanbul bleiben?",
@@ -123,7 +123,7 @@ const comparisonSurgery = [
   { feature: "Gewichtsverlust", esg: "15–20 % des Körpergewichts", sleeve: "60–70 % des Übergewichts" },
   { feature: "Reversibilität", esg: "Potenziell reversibel", sleeve: "Dauerhaft (Magengewebe entfernt)" },
   { feature: "Risikoprofil", esg: "Sehr gering", sleeve: "Gering" },
-  { feature: "Preis ab (Istanbul)", esg: "Ab ca. 5.800 € (£4.950)", sleeve: "Ab ca. 3.450 € (£2.950)" },
+  { feature: "Preis ab (Istanbul)", esg: "Ab ca. 5.800 € (£5.700)", sleeve: "Ab ca. 3.450 € (£3.400)" },
 ];
 
 const deTestimonials = [
@@ -448,7 +448,7 @@ export default function ESGDeutschland() {
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">Erhebliche Kostenersparnis</h3>
               <p className="text-slate-600 leading-relaxed">
-                In Deutschland kostet ESG typischerweise <strong>8.000–15.000 €</strong> in privaten Kliniken. Im Istanbul Bariatric Center beginnen <strong>All-Inclusive-Pakete ab ca. 5.800 €</strong> (£4.950) — eine Ersparnis von bis zu 60–70 %. Das Paket umfasst Eingriff, Krankenhausaufenthalt, Hotel, Flughafentransfer, Voruntersuchungen und 12-monatige Ernährungsberatung.
+                In Deutschland kostet ESG typischerweise <strong>8.000–15.000 €</strong> in privaten Kliniken. Im Istanbul Bariatric Center beginnen <strong>All-Inclusive-Pakete ab ca. 5.800 €</strong> (£5.700) — eine Ersparnis von bis zu 60–70 %. Das Paket umfasst Eingriff, Krankenhausaufenthalt, Hotel, Flughafentransfer, Voruntersuchungen und 12-monatige Ernährungsberatung.
               </p>
               <div className="mt-4 p-3 bg-green-50 rounded-lg">
                 <p className="text-green-800 font-semibold text-sm">

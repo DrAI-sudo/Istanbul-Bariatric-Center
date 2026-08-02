@@ -294,7 +294,7 @@
     "faqs": [
       {
         "question": "Cât costă chirurgia de pierdere în greutate la Istanbul?",
-        "answer": "Pachetele all-inclusive încep de la £1.650 pentru balon gastric, £2.950 pentru gastric sleeve, £3.350 pentru bypass gastric și £4.950 pentru ESG. Fiecare pachet acoperă spital JCI, teste preoperatorii, transfer VIP și suport dietetician."
+        "answer": "Pachetele all-inclusive încep de la £1.900 pentru balon gastric, £3.400 pentru gastric sleeve, £3.850 pentru bypass gastric și £5.700 pentru ESG. Fiecare pachet acoperă spital JCI, teste preoperatorii, transfer VIP și suport dietetician."
       },
       {
         "question": "Ce procedură bariatrică este potrivită pentru mine?",
@@ -330,15 +330,15 @@
     "title": "Explorați Paginile Noastre de Tratament",
     "subtitle": "Aflați mai mult despre fiecare procedură",
     "gastricSleeve": "Chirurgie Gastric Sleeve",
-    "gastricSleevePrice": "De la £2.950",
+    "gastricSleevePrice": "De la £3.400",
     "miniBypass": "Mini Bypass Gastric",
     "miniBypassDesc": "Procedură specializată",
     "gastricBalloon": "Balon Gastric",
-    "gastricBalloonPrice": "De la £1.650",
+    "gastricBalloonPrice": "De la £1.900",
     "esg": "Procedura ESG",
-    "esgPrice": "De la £4.950",
+    "esgPrice": "De la £5.700",
     "duodenalSwitch": "Duodenal Switch",
-    "duodenalSwitchPrice": "De la £4.400",
+    "duodenalSwitchPrice": "De la £5.050",
     "transitBipartition": "Bifurcație de Transit",
     "transitBipartitionDesc": "Procedură avansată",
     "postBariatric": "Chirurgie Post-Bariatrică",
@@ -354,7 +354,7 @@
   },
   "seo": {
     "title": "Chirurgie de Pierdere în Greutate Istanbul 2026 — Sleeve, Bypass, Balon & ESG | Pachete All-Inclusive",
-    "description": "Comparați procedurile bariatrice: Sleeve de la £2.950, Bypass £3.350, Balon £1.650, ESG £4.950. Dr Murat Ustun la Spitalul Liv acreditat JCI.",
+    "description": "Comparați procedurile bariatrice: Sleeve de la £3.400, Bypass £3.850, Balon £1.900, ESG £5.700. Dr Murat Ustun la Spitalul Liv acreditat JCI.",
     "heroAlt": "Stil de viață activ și sănătos după chirurgie bariatrică",
     "skipToContent": "Sari la conținut"
   },
@@ -388,17 +388,17 @@
     "packages": {
       "basic": {
         "name": "Sleeve Basic",
-        "price": "£2250",
+        "price": "£3400",
         "days": "3"
       },
       "relaxation": {
         "name": "Sleeve Relaxare",
-        "price": "£3250",
+        "price": "£4550",
         "days": "5"
       },
       "luxury": {
         "name": "Sleeve Lux",
-        "price": "£4000",
+        "price": "£4900",
         "days": "7"
       }
     },
@@ -610,7 +610,7 @@
           "label": "Căi de revizie"
         },
         {
-          "value": "£3,950",
+          "value": "£4,550",
           "label": "All-inclusive de la"
         }
       ]
@@ -632,7 +632,7 @@
         },
         {
           "label": "All-inclusive de la",
-          "value": "£3,950"
+          "value": "£4,550"
         }
       ]
     },
@@ -761,7 +761,7 @@
         },
         {
           "question": "Cât costă chirurgia bariatrică de revizie în Turcia?",
-          "answer": "Chirurgia de revizie la Istanbul costă de obicei £3,950–£5,950 all-inclusive, în funcție de cale — cu aproximativ 60-70% mai puțin decât în UK sau US. Fiecare ofertă include spitalizarea la spital acreditat JCI, endoscopia și testele preoperatorii, transferurile, hotelul și îngrijirea post-operatorie. Contactați-ne pentru o evaluare personalizată și o ofertă exactă."
+          "answer": "Chirurgia de revizie la Istanbul costă de obicei £4,550–£6,850 all-inclusive, în funcție de cale — cu aproximativ 60-70% mai puțin decât în UK sau US. Fiecare ofertă include spitalizarea la spital acreditat JCI, endoscopia și testele preoperatorii, transferurile, hotelul și îngrijirea post-operatorie. Contactați-ne pentru o evaluare personalizată și o ofertă exactă."
         }
       ]
     },
@@ -799,7 +799,7 @@
       "subtitle": "Fiecare preț de pe această pagină este all-inclusive și fix înainte de a călători: spital, chirurg, teste, transferuri, hotel și 12 luni de îngrijire post-operatorie. Fără costuri ascunse — niciodată.",
       "stats": [
         {
-          "value": "£1,650",
+          "value": "£1,900",
           "label": "Pachete de la"
         },
         {
@@ -817,19 +817,19 @@
       "items": [
         {
           "label": "Balon Gastric",
-          "value": "De la £1,650"
+          "value": "De la £1,900"
         },
         {
           "label": "Gastric Sleeve",
-          "value": "De la £2,950"
+          "value": "De la £3,400"
         },
         {
           "label": "Mini Bypass Gastric",
-          "value": "De la £3,350"
+          "value": "De la £3,850"
         },
         {
           "label": "ESG (Non-Chirurgical)",
-          "value": "De la £4,950"
+          "value": "De la £5,700"
         }
       ]
     },
@@ -846,42 +846,42 @@
       "rows": [
         [
           "Gastric Sleeve",
-          "£2,950 – £4,250",
+          "£3,400 – £4,900",
           "£10,000 – £15,000",
           "$16,000 – $25,000",
           "€8,000 – €12,000"
         ],
         [
           "Mini Bypass Gastric",
-          "£3,350 – £4,650",
+          "£3,850 – £5,350",
           "£11,000 – £16,000",
           "$20,000 – $30,000",
           "€9,000 – €14,000"
         ],
         [
           "Balon Gastric",
-          "£1,650 – £2,250",
+          "£1,900 – £2,600",
           "£4,000 – £8,000",
           "$6,000 – $9,000",
           "€3,500 – €6,000"
         ],
         [
           "ESG (Sleeve Endoscopic)",
-          "£4,950 – £5,950",
+          "£5,700 – £6,850",
           "£9,000 – £13,000",
           "$12,000 – $20,000",
           "€8,000 – €11,000"
         ],
         [
           "Duodenal Switch",
-          "£4,400 – £4,700",
+          "£5,050 – £5,400",
           "£13,000 – £18,000",
           "$22,000 – $35,000",
           "€11,000 – €16,000"
         ],
         [
           "Chirurgie de Revizie",
-          "£3,950 – £5,950",
+          "£4,550 – £6,850",
           "£12,000 – £18,000",
           "$18,000 – $30,000",
           "€10,000 – €15,000"
@@ -918,12 +918,12 @@
       "title": "Cum Să Vă Bugetați Întreaga Călătorie",
       "intro": "Un buget total realist pentru un pacient din UK care efectuează un gastric sleeve cu noi:",
       "items": [
-        "<strong>Pachet chirurgical:</strong> £2,950–£4,250 (fix, all-inclusive)",
+        "<strong>Pachet chirurgical:</strong> £3,400–£4,900 (fix, all-inclusive)",
         "<strong>Zboruri dus-întors Londra–Istanbul:</strong> de obicei £100–£250",
         "<strong>Asigurare medicală de călătorie:</strong> £100–£200",
         "<strong>Cheltuieli personale:</strong> £100–£200"
       ],
-      "total": "Total: aproximativ <strong>£3,300–£4,900 all-in</strong> — încă mai puțin de jumătate din costul doar al chirurgiei la un spital privat din UK. Consultați <ukLink>ghidul nostru dedicat pentru pacienții din UK</ukLink> pentru logistica de călătorie și îngrijirea post-operatorie de acasă."
+      "total": "Total: aproximativ <strong>£3,800–£5,550 all-in</strong> — încă mai puțin de jumătate din costul doar al chirurgiei la un spital privat din UK. Consultați <ukLink>ghidul nostru dedicat pentru pacienții din UK</ukLink> pentru logistica de călătorie și îngrijirea post-operatorie de acasă."
     },
     "surgeonProof": {
       "title": "Preț Mic, Standarde Neafectate",
@@ -934,7 +934,7 @@
       "items": [
         {
           "question": "Cât costă chirurgia bariatrică în Turcia?",
-          "answer": "La Istanbul Bariatric Center, pachetele all-inclusive încep de la £1,650 pentru un balon gastric, £2,950 pentru un gastric sleeve, £3,350 pentru un mini bypass gastric și £4,950 pentru ESG. Fiecare pachet include spitalizarea la spital acreditat JCI, testele preoperatorii, transferurile de la aeroport, hotelul (nivelurile Relaxare și Lux) și îngrijirea post-operatorie a dieteticianului."
+          "answer": "La Istanbul Bariatric Center, pachetele all-inclusive încep de la £1,900 pentru un balon gastric, £3,400 pentru un gastric sleeve, £3,850 pentru un mini bypass gastric și £5,700 pentru ESG. Fiecare pachet include spitalizarea la spital acreditat JCI, testele preoperatorii, transferurile de la aeroport, hotelul (nivelurile Relaxare și Lux) și îngrijirea post-operatorie a dieteticianului."
         },
         {
           "question": "De ce este chirurgia de pierdere în greutate mult mai ieftină în Turcia?",
@@ -946,7 +946,7 @@
         },
         {
           "question": "Cum se compară costul cu UK, US sau Europa?",
-          "answer": "Un gastric sleeve costă aproximativ £10,000–£15,000 în regim privat în UK, $16,000–$25,000 în US și €8,000–€12,000 în mare parte din Europa de Vest. La Istanbul, pachetul echivalent all-inclusive este £2,950–£4,250 — de obicei o economie de 60–75% chiar și după zboruri."
+          "answer": "Un gastric sleeve costă aproximativ £10,000–£15,000 în regim privat în UK, $16,000–$25,000 în US și €8,000–€12,000 în mare parte din Europa de Vest. La Istanbul, pachetul echivalent all-inclusive este £3,400–£4,900 — de obicei o economie de 60–75% chiar și după zboruri."
         },
         {
           "question": "Pot plăti în rate sau prin finanțare?",
@@ -963,19 +963,19 @@
       "links": [
         {
           "title": "Gastric Sleeve",
-          "description": "De la £2,950 all-inclusive"
+          "description": "De la £3,400 all-inclusive"
         },
         {
           "title": "Mini Bypass Gastric",
-          "description": "De la £3,350 all-inclusive"
+          "description": "De la £3,850 all-inclusive"
         },
         {
           "title": "ESG (Non-Chirurgical)",
-          "description": "De la £4,950 all-inclusive"
+          "description": "De la £5,700 all-inclusive"
         },
         {
           "title": "Chirurgie de Revizie",
-          "description": "De la £3,950 all-inclusive"
+          "description": "De la £4,550 all-inclusive"
         }
       ]
     },
@@ -992,7 +992,7 @@
       "subtitle": "Prețuri fixe în GBP, un zbor de 4 ore, îngrijire spitalicească acreditată JCI la Istanbul — și îngrijire post-operatorie care vă însoțește acasă, cu dieteticieni înregistrați UK și coordonatori de suport în 8 locații din UK.",
       "stats": [
         {
-          "value": "£2,950",
+          "value": "£3,400",
           "label": "Gastric sleeve de la"
         },
         {
@@ -1043,7 +1043,7 @@
         [
           "Preț gastric sleeve",
           "£10,000 – £15,000",
-          "£2,950 – £4,250 all-inclusive"
+          "£3,400 – £4,900 all-inclusive"
         ],
         [
           "Timp de așteptare",
@@ -1162,7 +1162,7 @@
       "links": [
         {
           "title": "Gastric Sleeve",
-          "description": "De la £2,950 all-inclusive"
+          "description": "De la £3,400 all-inclusive"
         },
         {
           "title": "ESG (Non-Chirurgical)",
@@ -1265,8 +1265,8 @@
         ],
         [
           "Preț la IBC (all-inclusive)",
-          "De la £2,950",
-          "De la £3,350"
+          "De la £3,400",
+          "De la £3,850"
         ]
       ],
       "footnote": "Intervalele de rezultate reflectă serii internaționale publicate și datele de caz IBC; rezultatele individuale variază."
@@ -1345,7 +1345,7 @@
         },
         {
           "question": "Cât costă sleeve-ul și bypass-ul în Turcia?",
-          "answer": "La Istanbul Bariatric Center, gastric sleeve-ul începe de la £2,950, iar mini bypass-ul gastric de la £3,350, ambele all-inclusive: spital acreditat JCI, onorarii de chirurg și anestezie, teste, transferuri, hotel și 12 luni de îngrijire post-operatorie a dieteticianului."
+          "answer": "La Istanbul Bariatric Center, gastric sleeve-ul începe de la £3,400, iar mini bypass-ul gastric de la £3,850, ambele all-inclusive: spital acreditat JCI, onorarii de chirurg și anestezie, teste, transferuri, hotel și 12 luni de îngrijire post-operatorie a dieteticianului."
         }
       ]
     },
@@ -1354,11 +1354,11 @@
       "links": [
         {
           "title": "Gastric Sleeve",
-          "description": "Ghid complet al procedurii — de la £2,950"
+          "description": "Ghid complet al procedurii — de la £3,400"
         },
         {
           "title": "Mini Bypass Gastric",
-          "description": "Ghid complet al procedurii — de la £3,350"
+          "description": "Ghid complet al procedurii — de la £3,850"
         },
         {
           "title": "ESG vs Gastric Sleeve",
@@ -1482,8 +1482,8 @@
         ],
         [
           "Preț la IBC (all-inclusive)",
-          "De la £1,650",
-          "De la £2,950"
+          "De la £1,900",
+          "De la £3,400"
         ]
       ]
     },
@@ -1530,7 +1530,7 @@
         },
         {
           "question": "Cât costă balonul și sleeve-ul în Turcia?",
-          "answer": "La Istanbul Bariatric Center, balonul gastric începe de la £1,650, iar gastric sleeve-ul de la £2,950, ambele all-inclusive. Rețineți că un balon durează 6-12 luni, în timp ce sleeve-ul este permanent — pe kilogram menținut pe termen lung, sleeve-ul și ESG oferă de obicei un raport valoare-preț mai bun."
+          "answer": "La Istanbul Bariatric Center, balonul gastric începe de la £1,900, iar gastric sleeve-ul de la £3,400, ambele all-inclusive. Rețineți că un balon durează 6-12 luni, în timp ce sleeve-ul este permanent — pe kilogram menținut pe termen lung, sleeve-ul și ESG oferă de obicei un raport valoare-preț mai bun."
         },
         {
           "question": "Pot face un sleeve sau ESG după un balon?",
@@ -1543,15 +1543,15 @@
       "links": [
         {
           "title": "Balon Gastric",
-          "description": "Ghid complet — de la £1,650"
+          "description": "Ghid complet — de la £1,900"
         },
         {
           "title": "ESG — Calea de Mijloc",
-          "description": "Non-chirurgical și durabil — de la £4,950"
+          "description": "Non-chirurgical și durabil — de la £5,700"
         },
         {
           "title": "Gastric Sleeve",
-          "description": "Ghid complet — de la £2,950"
+          "description": "Ghid complet — de la £3,400"
         },
         {
           "title": "Ghid de Costuri",
@@ -1691,11 +1691,11 @@
         },
         {
           "title": "Gastric Sleeve",
-          "description": "Cea mai aleasă procedură — de la £2,950"
+          "description": "Cea mai aleasă procedură — de la £3,400"
         },
         {
           "title": "ESG (Non-Chirurgical)",
-          "description": "Cea mai scurtă călătorie: 2–3 zile — de la £4,950"
+          "description": "Cea mai scurtă călătorie: 2–3 zile — de la £5,700"
         }
       ]
     },
@@ -1780,8 +1780,8 @@
         ],
         [
           "Preț la IBC (all-inclusive)",
-          "De la £4,950",
-          "De la £2,950"
+          "De la £5,700",
+          "De la £3,400"
         ]
       ]
     },
@@ -1851,7 +1851,7 @@
         },
         {
           "question": "Cum se compară costurile în Turcia?",
-          "answer": "La Istanbul Bariatric Center, sleeve-ul chirurgical începe de la £2,950, iar ESG de la £4,950, ambele all-inclusive. ESG costă mai mult din cauza dispozitivului Apollo OverStitch, dar evită chirurgia, cicatricile și o spitalizare mai lungă de o noapte."
+          "answer": "La Istanbul Bariatric Center, sleeve-ul chirurgical începe de la £3,400, iar ESG de la £5,700, ambele all-inclusive. ESG costă mai mult din cauza dispozitivului Apollo OverStitch, dar evită chirurgia, cicatricile și o spitalizare mai lungă de o noapte."
         }
       ]
     },
@@ -1860,11 +1860,11 @@
       "links": [
         {
           "title": "ESG în Detaliu",
-          "description": "Apollo ESG și ESG-Max — de la £4,950"
+          "description": "Apollo ESG și ESG-Max — de la £5,700"
         },
         {
           "title": "Gastric Sleeve în Detaliu",
-          "description": "Ghid complet — de la £2,950"
+          "description": "Ghid complet — de la £3,400"
         },
         {
           "title": "Balon vs Sleeve",

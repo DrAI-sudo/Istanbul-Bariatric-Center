@@ -81,7 +81,7 @@ export default function BestEndosleeveClinic() {
                 <tr className="bg-blue-50"><td className="p-4">United States</td><td className="p-4">$15,000 – $22,000</td><td className="p-4 text-emerald-700 font-semibold">$8,000 – $15,000</td></tr>
                 <tr><td className="p-4">Germany (private)</td><td className="p-4">€10,000 – €14,000</td><td className="p-4 text-emerald-700 font-semibold">€4,000 – €8,000</td></tr>
                 <tr className="bg-blue-50"><td className="p-4">Australia / NZ</td><td className="p-4">AU$18,000 – AU$25,000</td><td className="p-4 text-emerald-700 font-semibold">AU$10,000 – AU$18,000</td></tr>
-                <tr className="bg-emerald-50"><td className="p-4 font-bold">Istanbul Bariatric Center</td><td className="p-4 font-bold">From £4,950 / €5,700 / $6,690 (all-inclusive)</td><td className="p-4">—</td></tr>
+                <tr className="bg-emerald-50"><td className="p-4 font-bold">Istanbul Bariatric Center</td><td className="p-4 font-bold">From £5,700 / €5,700 / $6,690 (all-inclusive)</td><td className="p-4">—</td></tr>
               </tbody>
             </table>
           </div>

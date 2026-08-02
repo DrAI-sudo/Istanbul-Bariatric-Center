@@ -294,7 +294,7 @@
     "faqs": [
       {
         "question": "¿Cuánto cuesta la cirugía de pérdida de peso en Estambul?",
-        "answer": "Los paquetes todo incluido en Istanbul Bariatric Center comienzan desde £1.650 para balón gástrico, £2.950 para manga gástrica, £3.350 para bypass gástrico y £4.950 para ESG. Cada paquete cubre estancia en hospital acreditado JCI, pruebas preoperatorias, traslados VIP al aeropuerto y seguimiento con dietista."
+        "answer": "Los paquetes todo incluido en Istanbul Bariatric Center comienzan desde £1.900 para balón gástrico, £3.400 para manga gástrica, £3.850 para bypass gástrico y £5.700 para ESG. Cada paquete cubre estancia en hospital acreditado JCI, pruebas preoperatorias, traslados VIP al aeropuerto y seguimiento con dietista."
       },
       {
         "question": "¿Qué procedimiento bariátrico es adecuado para mí?",
@@ -330,15 +330,15 @@
     "title": "Explore Nuestras Páginas de Tratamiento",
     "subtitle": "Conozca más sobre cada procedimiento en detalle",
     "gastricSleeve": "Cirugía de Manga Gástrica",
-    "gastricSleevePrice": "Desde £2.950",
+    "gastricSleevePrice": "Desde £3.400",
     "miniBypass": "Mini Bypass Gástrico",
     "miniBypassDesc": "Procedimiento especializado",
     "gastricBalloon": "Balón Gástrico",
-    "gastricBalloonPrice": "Desde £1.650",
+    "gastricBalloonPrice": "Desde £1.900",
     "esg": "Procedimiento ESG",
-    "esgPrice": "Desde £4.950",
+    "esgPrice": "Desde £5.700",
     "duodenalSwitch": "Derivación Duodenal",
-    "duodenalSwitchPrice": "Desde £4.400",
+    "duodenalSwitchPrice": "Desde £5.050",
     "transitBipartition": "Bipartición Tránsito",
     "transitBipartitionDesc": "Procedimiento avanzado",
     "postBariatric": "Cirugía Post-Bariátrica",
@@ -354,7 +354,7 @@
   },
   "seo": {
     "title": "Cirugía de Pérdida de Peso en Estambul 2026 — Manga Gástrica, Bypass, Balón y ESG | Paquetes Todo Incluido",
-    "description": "Compare procedimientos bariátricos: Manga Gástrica desde £2.950, Bypass £3.350, Balón £1.650, ESG £4.950. Dr Murat Ustun en Hospital Liv acreditado JCI.",
+    "description": "Compare procedimientos bariátricos: Manga Gástrica desde £3.400, Bypass £3.850, Balón £1.900, ESG £5.700. Dr Murat Ustun en Hospital Liv acreditado JCI.",
     "heroAlt": "Estilo de vida activo y saludable después de cirugía bariátrica",
     "skipToContent": "Saltar al contenido principal"
   },
@@ -388,17 +388,17 @@
     "packages": {
       "basic": {
         "name": "Manga Gástrica Básico",
-        "price": "£2250",
+        "price": "£3400",
         "days": "3"
       },
       "relaxation": {
         "name": "Manga Gástrica Relajación",
-        "price": "£3250",
+        "price": "£4550",
         "days": "5"
       },
       "luxury": {
         "name": "Manga Gástrica Lujo",
-        "price": "£4000",
+        "price": "£4900",
         "days": "7"
       }
     },
@@ -610,7 +610,7 @@
           "label": "Vías de revisión"
         },
         {
-          "value": "£3,950",
+          "value": "£4,550",
           "label": "Todo incluido desde"
         }
       ]
@@ -632,7 +632,7 @@
         },
         {
           "label": "Todo incluido desde",
-          "value": "£3,950"
+          "value": "£4,550"
         }
       ]
     },
@@ -761,7 +761,7 @@
         },
         {
           "question": "¿Cuánto cuesta la cirugía bariátrica de revisión en Turquía?",
-          "answer": "La cirugía de revisión en Estambul suele costar entre £3,950 y £5,950 todo incluido según la vía — aproximadamente un 60-70% menos que en el Reino Unido o EE. UU. Cada presupuesto incluye la estancia en un hospital acreditado por JCI, la endoscopia y pruebas preoperatorias, los traslados, el hotel y el seguimiento. Contáctenos para una evaluación personalizada y un presupuesto exacto."
+          "answer": "La cirugía de revisión en Estambul suele costar entre £4,550 y £6,850 todo incluido según la vía — aproximadamente un 60-70% menos que en el Reino Unido o EE. UU. Cada presupuesto incluye la estancia en un hospital acreditado por JCI, la endoscopia y pruebas preoperatorias, los traslados, el hotel y el seguimiento. Contáctenos para una evaluación personalizada y un presupuesto exacto."
         }
       ]
     },
@@ -799,7 +799,7 @@
       "subtitle": "Cada precio de esta página es todo incluido y se fija antes de viajar: hospital, cirujano, pruebas, traslados, hotel y 12 meses de seguimiento. Sin extras ocultos — nunca.",
       "stats": [
         {
-          "value": "£1,650",
+          "value": "£1,900",
           "label": "Paquetes desde"
         },
         {
@@ -817,19 +817,19 @@
       "items": [
         {
           "label": "Balón Gástrico",
-          "value": "Desde £1,650"
+          "value": "Desde £1,900"
         },
         {
           "label": "Manga Gástrica",
-          "value": "Desde £2,950"
+          "value": "Desde £3,400"
         },
         {
           "label": "Mini Bypass Gástrico",
-          "value": "Desde £3,350"
+          "value": "Desde £3,850"
         },
         {
           "label": "ESG (No Quirúrgico)",
-          "value": "Desde £4,950"
+          "value": "Desde £5,700"
         }
       ]
     },
@@ -846,42 +846,42 @@
       "rows": [
         [
           "Manga Gástrica",
-          "£2,950 – £4,250",
+          "£3,400 – £4,900",
           "£10,000 – £15,000",
           "$16,000 – $25,000",
           "€8,000 – €12,000"
         ],
         [
           "Mini Bypass Gástrico",
-          "£3,350 – £4,650",
+          "£3,850 – £5,350",
           "£11,000 – £16,000",
           "$20,000 – $30,000",
           "€9,000 – €14,000"
         ],
         [
           "Balón Gástrico",
-          "£1,650 – £2,250",
+          "£1,900 – £2,600",
           "£4,000 – £8,000",
           "$6,000 – $9,000",
           "€3,500 – €6,000"
         ],
         [
           "ESG (Manga Endoscópica)",
-          "£4,950 – £5,950",
+          "£5,700 – £6,850",
           "£9,000 – £13,000",
           "$12,000 – $20,000",
           "€8,000 – €11,000"
         ],
         [
           "Derivación Duodenal",
-          "£4,400 – £4,700",
+          "£5,050 – £5,400",
           "£13,000 – £18,000",
           "$22,000 – $35,000",
           "€11,000 – €16,000"
         ],
         [
           "Cirugía de Revisión",
-          "£3,950 – £5,950",
+          "£4,550 – £6,850",
           "£12,000 – £18,000",
           "$18,000 – $30,000",
           "€10,000 – €15,000"
@@ -918,12 +918,12 @@
       "title": "Cómo Presupuestar su Viaje Completo",
       "intro": "Un presupuesto total realista para un paciente del Reino Unido que se somete a una manga gástrica con nosotros:",
       "items": [
-        "<strong>Paquete quirúrgico:</strong> £2,950–£4,250 (fijo, todo incluido)",
+        "<strong>Paquete quirúrgico:</strong> £3,400–£4,900 (fijo, todo incluido)",
         "<strong>Vuelos de ida y vuelta Londres–Estambul:</strong> normalmente £100–£250",
         "<strong>Seguro de viaje médico:</strong> £100–£200",
         "<strong>Gastos personales:</strong> £100–£200"
       ],
-      "total": "Total: aproximadamente <strong>£3,300–£4,900 todo incluido</strong> — aún menos de la mitad del coste de la cirugía por sí sola en un hospital privado del Reino Unido. Consulte nuestra <ukLink>guía dedicada para pacientes del Reino Unido</ukLink> para la logística del viaje y el seguimiento desde casa."
+      "total": "Total: aproximadamente <strong>£3,800–£5,550 todo incluido</strong> — aún menos de la mitad del coste de la cirugía por sí sola en un hospital privado del Reino Unido. Consulte nuestra <ukLink>guía dedicada para pacientes del Reino Unido</ukLink> para la logística del viaje y el seguimiento desde casa."
     },
     "surgeonProof": {
       "title": "Precio Bajo, Estándares Sin Concesiones",
@@ -934,7 +934,7 @@
       "items": [
         {
           "question": "¿Cuánto cuesta la cirugía bariátrica en Turquía?",
-          "answer": "En Istanbul Bariatric Center, los paquetes todo incluido comienzan desde £1,650 para un balón gástrico, £2,950 para una manga gástrica, £3,350 para un mini bypass gástrico y £4,950 para ESG. Cada paquete incluye la estancia en un hospital acreditado por JCI, las pruebas preoperatorias, los traslados al aeropuerto, el hotel (niveles Relajación y Lujo) y el seguimiento con dietista."
+          "answer": "En Istanbul Bariatric Center, los paquetes todo incluido comienzan desde £1,900 para un balón gástrico, £3,400 para una manga gástrica, £3,850 para un mini bypass gástrico y £5,700 para ESG. Cada paquete incluye la estancia en un hospital acreditado por JCI, las pruebas preoperatorias, los traslados al aeropuerto, el hotel (niveles Relajación y Lujo) y el seguimiento con dietista."
         },
         {
           "question": "¿Por qué es tanto más barata la cirugía de pérdida de peso en Turquía?",
@@ -946,7 +946,7 @@
         },
         {
           "question": "¿Cómo se compara el coste con el del RU, EE. UU. o Europa?",
-          "answer": "Una manga gástrica cuesta alrededor de £10,000–£15,000 de forma privada en el Reino Unido, $16,000–$25,000 en EE. UU. y €8,000–€12,000 en gran parte de Europa Occidental. En Estambul, el paquete equivalente todo incluido es de £2,950–£4,250 — normalmente un ahorro del 60–75% incluso después de los vuelos."
+          "answer": "Una manga gástrica cuesta alrededor de £10,000–£15,000 de forma privada en el Reino Unido, $16,000–$25,000 en EE. UU. y €8,000–€12,000 en gran parte de Europa Occidental. En Estambul, el paquete equivalente todo incluido es de £3,400–£4,900 — normalmente un ahorro del 60–75% incluso después de los vuelos."
         },
         {
           "question": "¿Puedo pagar a plazos o con financiación?",
@@ -963,19 +963,19 @@
       "links": [
         {
           "title": "Manga Gástrica",
-          "description": "Desde £2,950 todo incluido"
+          "description": "Desde £3,400 todo incluido"
         },
         {
           "title": "Mini Bypass Gástrico",
-          "description": "Desde £3,350 todo incluido"
+          "description": "Desde £3,850 todo incluido"
         },
         {
           "title": "ESG (No Quirúrgico)",
-          "description": "Desde £4,950 todo incluido"
+          "description": "Desde £5,700 todo incluido"
         },
         {
           "title": "Cirugía de Revisión",
-          "description": "Desde £3,950 todo incluido"
+          "description": "Desde £4,550 todo incluido"
         }
       ]
     },
@@ -992,7 +992,7 @@
       "subtitle": "Precios fijos en libras, un vuelo de 4 horas, atención hospitalaria acreditada por JCI en Estambul — y un seguimiento que le acompaña a casa, con dietistas registrados en el Reino Unido y coordinadores de apoyo en 8 ubicaciones del Reino Unido.",
       "stats": [
         {
-          "value": "£2,950",
+          "value": "£3,400",
           "label": "Manga gástrica desde"
         },
         {
@@ -1043,7 +1043,7 @@
         [
           "Precio de la manga gástrica",
           "£10,000 – £15,000",
-          "£2,950 – £4,250 todo incluido"
+          "£3,400 – £4,900 todo incluido"
         ],
         [
           "Tiempo de espera",
@@ -1162,7 +1162,7 @@
       "links": [
         {
           "title": "Manga Gástrica",
-          "description": "Desde £2,950 todo incluido"
+          "description": "Desde £3,400 todo incluido"
         },
         {
           "title": "ESG (No Quirúrgico)",
@@ -1265,8 +1265,8 @@
         ],
         [
           "Precio en IBC (todo incluido)",
-          "Desde £2,950",
-          "Desde £3,350"
+          "Desde £3,400",
+          "Desde £3,850"
         ]
       ],
       "footnote": "Los rangos de resultados reflejan series internacionales publicadas y datos de casos de IBC; los resultados individuales varían."
@@ -1345,7 +1345,7 @@
         },
         {
           "question": "¿Cuánto cuestan la manga y el bypass en Turquía?",
-          "answer": "En Istanbul Bariatric Center la manga gástrica cuesta desde £2,950 y el mini bypass gástrico desde £3,350, ambos todo incluido: hospital acreditado por JCI, honorarios de cirujano y anestesia, pruebas, traslados, hotel y 12 meses de seguimiento con dietista."
+          "answer": "En Istanbul Bariatric Center la manga gástrica cuesta desde £3,400 y el mini bypass gástrico desde £3,850, ambos todo incluido: hospital acreditado por JCI, honorarios de cirujano y anestesia, pruebas, traslados, hotel y 12 meses de seguimiento con dietista."
         }
       ]
     },
@@ -1354,11 +1354,11 @@
       "links": [
         {
           "title": "Manga Gástrica",
-          "description": "Guía completa del procedimiento — desde £2,950"
+          "description": "Guía completa del procedimiento — desde £3,400"
         },
         {
           "title": "Mini Bypass Gástrico",
-          "description": "Guía completa del procedimiento — desde £3,350"
+          "description": "Guía completa del procedimiento — desde £3,850"
         },
         {
           "title": "ESG vs Manga Gástrica",
@@ -1673,11 +1673,11 @@
         },
         {
           "title": "Manga Gástrica",
-          "description": "El procedimiento más elegido — desde £2,950"
+          "description": "El procedimiento más elegido — desde £3,400"
         },
         {
           "title": "ESG (No Quirúrgico)",
-          "description": "El viaje más corto: 2–3 días — desde £4,950"
+          "description": "El viaje más corto: 2–3 días — desde £5,700"
         }
       ]
     },
@@ -1762,8 +1762,8 @@
         ],
         [
           "Precio en IBC (todo incluido)",
-          "Desde £4,950",
-          "Desde £2,950"
+          "Desde £5,700",
+          "Desde £3,400"
         ]
       ]
     },
@@ -1833,7 +1833,7 @@
         },
         {
           "question": "¿Cómo se comparan los costes en Turquía?",
-          "answer": "En Istanbul Bariatric Center la manga quirúrgica cuesta desde £2,950 y el ESG desde £4,950, ambos todo incluido. El ESG cuesta más por el dispositivo Apollo OverStitch, pero evita la cirugía, las cicatrices y una estancia hospitalaria de más de una noche."
+          "answer": "En Istanbul Bariatric Center la manga quirúrgica cuesta desde £3,400 y el ESG desde £5,700, ambos todo incluido. El ESG cuesta más por el dispositivo Apollo OverStitch, pero evita la cirugía, las cicatrices y una estancia hospitalaria de más de una noche."
         }
       ]
     },
@@ -1842,11 +1842,11 @@
       "links": [
         {
           "title": "ESG en Detalle",
-          "description": "Apollo ESG y ESG-Max — desde £4,950"
+          "description": "Apollo ESG y ESG-Max — desde £5,700"
         },
         {
           "title": "Manga Gástrica en Detalle",
-          "description": "Guía completa — desde £2,950"
+          "description": "Guía completa — desde £3,400"
         },
         {
           "title": "Balón vs Manga",
@@ -2249,8 +2249,8 @@
         ],
         [
           "Precio en IBC (todo incluido)",
-          "Desde £1,650",
-          "Desde £2,950"
+          "Desde £1,900",
+          "Desde £3,400"
         ]
       ]
     },
@@ -2297,7 +2297,7 @@
         },
         {
           "question": "¿Cuánto cuestan el balón y la manga en Turquía?",
-          "answer": "En Istanbul Bariatric Center el balón gástrico cuesta desde £1,650 y la manga gástrica desde £2,950, ambos todo incluido. Tenga en cuenta que un balón dura 6-12 meses mientras que la manga es permanente — por kilogramo mantenido a largo plazo, la manga y el ESG suelen ofrecer mejor relación calidad-precio."
+          "answer": "En Istanbul Bariatric Center el balón gástrico cuesta desde £1,900 y la manga gástrica desde £3,400, ambos todo incluido. Tenga en cuenta que un balón dura 6-12 meses mientras que la manga es permanente — por kilogramo mantenido a largo plazo, la manga y el ESG suelen ofrecer mejor relación calidad-precio."
         },
         {
           "question": "¿Puedo hacerme una manga o un ESG después de un balón?",
@@ -2310,15 +2310,15 @@
       "links": [
         {
           "title": "Balón Gástrico",
-          "description": "Guía completa — desde £1,650"
+          "description": "Guía completa — desde £1,900"
         },
         {
           "title": "ESG — el Punto Intermedio",
-          "description": "No quirúrgico y duradero — desde £4,950"
+          "description": "No quirúrgico y duradero — desde £5,700"
         },
         {
           "title": "Manga Gástrica",
-          "description": "Guía completa — desde £2,950"
+          "description": "Guía completa — desde £3,400"
         },
         {
           "title": "Guía de Precios",

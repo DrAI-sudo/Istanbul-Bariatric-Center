@@ -398,7 +398,7 @@ export default function ESGArabic() {
               <div className="text-center">
                 <DollarSign className="w-12 h-12 text-primary mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-slate-900 mb-2">الإجراء فقط</h3>
-                <div className="text-5xl font-bold text-primary mb-2">$7,500</div>
+                <div className="text-5xl font-bold text-primary mb-2">$8,650</div>
                 <p className="text-slate-500 mb-6">دولار أمريكي</p>
                 <ul className="space-y-3 text-right">
                   {[
@@ -427,7 +427,7 @@ export default function ESGArabic() {
               <div className="text-center">
                 <Crown className="w-12 h-12 text-amber-500 mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-slate-900 mb-2">الباقة الشاملة (VIP)</h3>
-                <div className="text-5xl font-bold text-amber-600 mb-2">$8,500</div>
+                <div className="text-5xl font-bold text-amber-600 mb-2">$9,800</div>
                 <p className="text-slate-500 mb-6">دولار أمريكي — كل شيء متضمن</p>
                 <ul className="space-y-3 text-right">
                   {[

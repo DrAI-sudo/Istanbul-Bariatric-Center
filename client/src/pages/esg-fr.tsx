@@ -33,7 +33,7 @@ import { Link } from "wouter";
 const frFaqs = [
   {
     question: "L'ESG est-elle remboursée par la Sécurité sociale ou les mutuelles ?",
-    answer: "L'ESG n'est actuellement pas prise en charge par l'Assurance maladie en France. Ce dispositif n'est pas encore inscrit dans la nomenclature des actes remboursables. Certaines mutuelles haut de gamme peuvent évaluer les demandes au cas par cas, mais le remboursement reste très rare. C'est l'une des raisons pour lesquelles de nombreux patients français se tournent vers Istanbul, où les forfaits tout compris à partir d'environ 5 800 € (£4 950) offrent un excellent rapport qualité-prix.",
+    answer: "L'ESG n'est actuellement pas prise en charge par l'Assurance maladie en France. Ce dispositif n'est pas encore inscrit dans la nomenclature des actes remboursables. Certaines mutuelles haut de gamme peuvent évaluer les demandes au cas par cas, mais le remboursement reste très rare. C'est l'une des raisons pour lesquelles de nombreux patients français se tournent vers Istanbul, où les forfaits tout compris à partir d'environ 6 700 € (£5 700) offrent un excellent rapport qualité-prix.",
   },
   {
     question: "Combien de temps dure le séjour à Istanbul ?",
@@ -107,7 +107,7 @@ const journeySteps = [
 const comparisonMeds = [
   { factor: "Durée d'efficacité", meds: "Variable — reprise de poids fréquente à l'arrêt", esg: "Plus stable — réduction physique de l'estomac durable" },
   { factor: "Effets secondaires", meds: "Fréquents (nausées, diarrhées, risque de pancréatite)", esg: "Limités (inconfort léger pendant 1 à 3 jours)" },
-  { factor: "Coût", meds: "200 à 400 €/mois en continu (2 400 à 4 800 €/an)", esg: "Investissement unique à partir d'environ 5 800 €" },
+  { factor: "Coût", meds: "200 à 400 €/mois en continu (2 400 à 4 800 €/an)", esg: "Investissement unique à partir d'environ 6 700 €" },
   { factor: "Reprise de poids", meds: "Fréquente après l'arrêt du traitement", esg: "Réduite avec un mode de vie sain" },
   { factor: "Prise en charge", meds: "Partielle sous conditions strictes", esg: "Non remboursée" },
   { factor: "Acte médical ?", meds: "Non — injections hebdomadaires/quotidiennes", esg: "Oui — un acte endoscopique unique (60–90 min)" },
@@ -123,7 +123,7 @@ const comparisonSurgery = [
   { feature: "Perte de poids", esg: "15 à 20 % du poids corporel", sleeve: "60 à 70 % de l'excès de poids" },
   { feature: "Réversibilité", esg: "Potentiellement réversible", sleeve: "Définitive (tissu gastrique retiré)" },
   { feature: "Profil de risque", esg: "Très faible", sleeve: "Faible" },
-  { feature: "Prix à partir de (Istanbul)", esg: "À partir d'environ 5 800 € (£4 950)", sleeve: "À partir d'environ 3 450 € (£2 950)" },
+  { feature: "Prix à partir de (Istanbul)", esg: "À partir d'environ 6 700 € (£5 700)", sleeve: "À partir d'environ 4 000 € (£3 400)" },
 ];
 
 const frTestimonials = [
@@ -290,7 +290,7 @@ export default function ESGFrance() {
     "@type": "MedicalProcedure",
     "name": "Sleeve Gastroplastie Endoscopique pour patients français",
     "alternateName": ["ESG France", "ESG Turquie", "Sleeve sans chirurgie", "Perte de poids sans opération France"],
-    "description": "Sleeve Gastroplastie Endoscopique (ESG) pour les patients en France à Istanbul Bariatric Center. Réduction gastrique sans chirurgie. Forfaits tout compris à partir d'environ 5 800 €. Jusqu'à 70 % moins cher qu'en France.",
+    "description": "Sleeve Gastroplastie Endoscopique (ESG) pour les patients en France à Istanbul Bariatric Center. Réduction gastrique sans chirurgie. Forfaits tout compris à partir d'environ 6 700 €. Jusqu'à 70 % moins cher qu'en France.",
     "procedureType": "Endoscopic",
     "bodyLocation": "Stomach",
     "preparation": "Consultation en ligne gratuite, analyse d'IMC, évaluation médicale",
@@ -304,7 +304,7 @@ export default function ESGFrance() {
     <div className="min-h-screen bg-white">
       <SEO
         title="ESG Turquie pour patients français | Sleeve sans chirurgie | Jusqu'à 70 % d'économie"
-        description="ESG pour patients en France. Jusqu'à 70 % moins cher. Forfaits tout compris dès 5 800 € en hôpital accrédité JCI. Consultation gratuite."
+        description="ESG pour patients en France. Jusqu'à 70 % moins cher. Forfaits tout compris dès 6 700 € en hôpital accrédité JCI. Consultation gratuite."
         keywords="ESG France, sleeve sans chirurgie, perte de poids sans opération, alternative Ozempic France, ESG Turquie prix, gastroplastie endoscopique France, chirurgie bariatrique Turquie, réduction gastrique sans opération, ESG coût France vs Turquie, maigrir sans chirurgie"
         url="/esg/fr"
       />
@@ -448,7 +448,7 @@ export default function ESGFrance() {
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">Économie significative</h3>
               <p className="text-slate-600 leading-relaxed">
-                En France, l'ESG coûte typiquement <strong>8 000 à 15 000 €</strong> dans le secteur privé. À Istanbul Bariatric Center, les <strong>forfaits tout compris débutent à environ 5 800 €</strong> (£4 950) — soit une économie de 40 à 60 %. Ce forfait inclut l'intervention, l'hospitalisation, l'hôtel, les transferts et 12 mois de suivi nutritionnel.
+                En France, l'ESG coûte typiquement <strong>8 000 à 15 000 €</strong> dans le secteur privé. À Istanbul Bariatric Center, les <strong>forfaits tout compris débutent à environ 6 700 €</strong> (£5 700) — soit une économie de 40 à 60 %. Ce forfait inclut l'intervention, l'hospitalisation, l'hôtel, les transferts et 12 mois de suivi nutritionnel.
               </p>
               <div className="mt-4 p-3 bg-green-50 rounded-lg">
                 <p className="text-green-800 font-semibold text-sm">
@@ -597,7 +597,7 @@ export default function ESGFrance() {
               <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
                 <Euro className="w-7 h-7 text-primary" />
               </div>
-              <h3 className="text-lg font-bold mb-2">Tout compris dès ~5 800 €</h3>
+              <h3 className="text-lg font-bold mb-2">Tout compris dès ~6 700 €</h3>
               <p className="text-slate-300 text-sm">Aucun frais caché. Les forfaits incluent l'intervention, l'hospitalisation, l'hôtel, les transferts VIP, les examens préopératoires, le suivi nutritionnel et le programme de 12 mois.</p>
             </div>
           </div>

@@ -142,7 +142,7 @@ const topics: Topic[] = [
     faqs: [
       {
         q: "How much does gastric sleeve surgery cost in Istanbul?",
-        a: "<p>At Istanbul Bariatric Center, gastric sleeve surgery packages start from <strong>£2,950 for the Basic Package</strong>, <strong>£3,950 for the Relaxation Package</strong>, and <strong>£4,250 for the Luxury Package</strong>. These are all-inclusive prices covering the procedure, hospital stay, pre-operative tests, accommodation, airport transfers, and post-operative aftercare. In comparison, the same procedure costs £8,000–£15,000 privately in the UK and $15,000–$25,000 in the US.</p>"
+        a: "<p>At Istanbul Bariatric Center, gastric sleeve surgery packages start from <strong>£3,400 for the Basic Package</strong>, <strong>£4,550 for the Relaxation Package</strong>, and <strong>£4,900 for the Luxury Package</strong>. These are all-inclusive prices covering the procedure, hospital stay, pre-operative tests, accommodation, airport transfers, and post-operative aftercare. In comparison, the same procedure costs £8,000–£15,000 privately in the UK and $15,000–$25,000 in the US.</p>"
       },
       {
         q: "Why is bariatric surgery so much cheaper in Turkey than in the UK or US?",
@@ -162,7 +162,7 @@ const topics: Topic[] = [
       },
       {
         q: "What is the average cost of gastric bypass surgery in Istanbul?",
-        a: "<p>Mini Gastric Bypass at Istanbul Bariatric Center starts from <strong>£3,350 (Basic)</strong>, <strong>£4,350 (Relaxation)</strong>, and <strong>£4,650 (Luxury)</strong>. These are fully inclusive packages. For comparison, gastric bypass costs £10,000–£15,000 in the UK and $20,000–$35,000 in the US.</p>"
+        a: "<p>Mini Gastric Bypass at Istanbul Bariatric Center starts from <strong>£3,850 (Basic)</strong>, <strong>£5,000 (Relaxation)</strong>, and <strong>£5,350 (Luxury)</strong>. These are fully inclusive packages. For comparison, gastric bypass costs £10,000–£15,000 in the UK and $20,000–$35,000 in the US.</p>"
       },
       {
         q: "Are there hidden costs with bariatric surgery packages in Turkey?",
@@ -170,7 +170,7 @@ const topics: Topic[] = [
       },
       {
         q: "How much can I save by getting gastric sleeve surgery in Istanbul instead of the UK?",
-        a: "<p>A gastric sleeve in the UK costs approximately £8,000–£15,000 privately. At Istanbul Bariatric Center, the equivalent procedure with an all-inclusive VIP package costs £2,950–£4,250. This represents <strong>savings of £4,000–£11,000</strong> — even after factoring in flights. NHS waiting lists for bariatric surgery can be 2–5 years, making Turkey's short wait times an additional advantage.</p>"
+        a: "<p>A gastric sleeve in the UK costs approximately £8,000–£15,000 privately. At Istanbul Bariatric Center, the equivalent procedure with an all-inclusive VIP package costs £3,400–£4,900. This represents <strong>savings of £3,500–£10,500</strong> — even after factoring in flights. NHS waiting lists for bariatric surgery can be 2–5 years, making Turkey's short wait times an additional advantage.</p>"
       },
       {
         q: "What does a typical all-inclusive bariatric surgery package in Turkey include?",

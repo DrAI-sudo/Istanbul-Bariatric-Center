@@ -23,7 +23,7 @@ const esgFaqs = [
   },
   {
     question: "How much does ESG cost in Turkey?",
-    answer: "ESG in Istanbul starts from £4,950 for the Relaxation package and £5,950 for the Luxury package. Both include JCI-accredited hospital stay, procedure with Dr Murat Ustun, preoperative tests, airport transfers, hotel accommodation, and dietitian support — approximately 50–70% less than UK or US prices."
+    answer: "ESG in Istanbul starts from £5,700 for the Relaxation package and £6,850 for the Luxury package. Both include JCI-accredited hospital stay, procedure with Dr Murat Ustun, preoperative tests, airport transfers, hotel accommodation, and dietitian support — approximately 50–70% less than UK or US prices."
   },
   {
     question: "What is the recovery time after ESG?",
@@ -52,7 +52,7 @@ const comparisonRows: string[][] = [
   ["Recovery Time", "1–3 days", "2–3 weeks", "1–3 days"],
   ["Risk Profile", "Very low — no incisions", "Low — minimally invasive surgery", "Very low — temporary device"],
   ["Reversibility", "Potentially reversible", "Permanent (stomach removed)", "Fully reversible (removed at 6–12 months)"],
-  ["Starting Price (Istanbul)", "From £4,950", "From £2,950", "From £1,650"],
+  ["Starting Price (Istanbul)", "From £5,700", "From £3,400", "From £1,900"],
 ];
 
 const healthBenefits = [
@@ -98,7 +98,7 @@ export default function ESG() {
     <div className="min-h-screen bg-white">
       <SEO
         title="Endoscopic Sleeve Gastroplasty Turkey | ESG Istanbul | Non-Surgical Weight Loss"
-        description="ESG in Istanbul with Apollo Overstitch. Non-surgical stomach reduction, 15-20% weight loss, same-day discharge, from £4,950. Dr Murat Ustun."
+        description="ESG in Istanbul with Apollo Overstitch. Non-surgical stomach reduction, 15-20% weight loss, same-day discharge, from £5,700. Dr Murat Ustun."
         keywords="endoscopic sleeve gastroplasty turkey, esg turkey, endoscopic sleeve gastroplasty istanbul, apollo esg turkey, non-surgical weight loss turkey, stomach reduction without surgery, endoscopic bariatric procedure turkey, esg cost turkey, incisionless weight loss, apollo overstitch turkey, esg weight loss, endoscopic gastroplasty price"
         url="/esg"
       />
@@ -118,7 +118,7 @@ export default function ESG() {
             { label: "Stomach reduction", value: "70–80%" },
             { label: "Total body weight loss", value: "15–20%" },
             { label: "Incisions", value: "None" },
-            { label: "All-inclusive from", value: "£4,950" },
+            { label: "All-inclusive from", value: "£5,700" },
           ]}
         />
 
@@ -317,7 +317,7 @@ export default function ESG() {
             },
             {
               icon: "pricing",
-              title: "All-Inclusive from £4,950",
+              title: "All-Inclusive from £5,700",
               text: "Transparent pricing with no hidden fees. Packages include hospital stay, transfers, hotel, dietitian support, and 12-month aftercare.",
             },
             {

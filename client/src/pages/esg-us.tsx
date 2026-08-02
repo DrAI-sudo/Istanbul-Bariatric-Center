@@ -14,7 +14,7 @@ import { Link } from "wouter";
 const usFaqs = [
   {
     question: "Is ESG covered by US health insurance?",
-    answer: "Endoscopic Sleeve Gastroplasty is generally not covered by most US insurance plans, as it is still considered investigational by many insurers. Out-of-pocket costs at US clinics range from $15,000 to $25,000 or more. Istanbul Bariatric Center offers the procedure at $7,500 USD (procedure only) or $8,500 USD all-inclusive — including JCI-accredited hospital, hotel, VIP transfers, and 12-month dietitian support. Some patients use HSA/FSA funds to cover the cost.",
+    answer: "Endoscopic Sleeve Gastroplasty is generally not covered by most US insurance plans, as it is still considered investigational by many insurers. Out-of-pocket costs at US clinics range from $15,000 to $25,000 or more. Istanbul Bariatric Center offers the procedure at $8,650 USD (procedure only) or $9,800 USD all-inclusive — including JCI-accredited hospital, hotel, VIP transfers, and 12-month dietitian support. Some patients use HSA/FSA funds to cover the cost.",
   },
   {
     question: "How long do I need to stay in Istanbul?",
@@ -42,7 +42,7 @@ const usFaqs = [
   },
   {
     question: "What does the all-inclusive package include?",
-    answer: "Our ESG package at $8,500 USD includes: the complete procedure, hospital stay at a JCI-accredited facility, pre-operative tests (comprehensive blood panel, ECG, ultrasound), VIP airport transfers, 4-star hotel accommodation, post-operative medications, 12-month dietitian support via telemedicine, and ongoing follow-up consultations. There are no hidden costs or surprise bills.",
+    answer: "Our ESG package at $9,800 USD includes: the complete procedure, hospital stay at a JCI-accredited facility, pre-operative tests (comprehensive blood panel, ECG, ultrasound), VIP airport transfers, 4-star hotel accommodation, post-operative medications, 12-month dietitian support via telemedicine, and ongoing follow-up consultations. There are no hidden costs or surprise bills.",
   },
 ];
 
@@ -58,7 +58,7 @@ const journeySteps = [
 const comparisonMeds = [
   { factor: "Long-term effectiveness", meds: "Limited — studies show 2/3 of weight returns within 1 year of stopping", esg: "Durable — permanent physical stomach reduction with lasting results at 2-5 year follow-up" },
   { factor: "Side effects", meds: "Common (nausea, diarrhea, pancreatitis risk, thyroid concerns)", esg: "Minimal (mild discomfort for 1-3 days)" },
-  { factor: "Annual cost", meds: "$12,000-$18,000/year without insurance ($1,000-$1,500/month)", esg: "One-time: $8,500 USD all-inclusive" },
+  { factor: "Annual cost", meds: "$12,000-$18,000/year without insurance ($1,000-$1,500/month)", esg: "One-time: $9,800 USD all-inclusive" },
   { factor: "Weight regain", meds: "Significant after discontinuation", esg: "Limited with healthy lifestyle adherence" },
   { factor: "Treatment type", meds: "Weekly injections indefinitely", esg: "Single endoscopic procedure (60-90 min)" },
   { factor: "FDA status", meds: "FDA-approved", esg: "FDA-cleared device (Apollo OverStitch)" },
@@ -74,13 +74,13 @@ const comparisonSurgery = [
   { feature: "Weight loss", esg: "15-20% of total body weight", sleeve: "60-70% of excess weight" },
   { feature: "Reversibility", esg: "Potentially reversible", sleeve: "Permanent (stomach tissue removed)" },
   { feature: "Risk profile", esg: "Very low (<1% serious complications)", sleeve: "Low (1-3% serious complications)" },
-  { feature: "US cost range", esg: "$15,000-$25,000 (US) / $8,500 (Istanbul)", sleeve: "$15,000-$35,000 (US)" },
+  { feature: "US cost range", esg: "$15,000-$25,000 (US) / $9,800 (Istanbul)", sleeve: "$15,000-$35,000 (US)" },
 ];
 
 const usTestimonials = [
   { name: "Jennifer R.", location: "New York, NY", text: "After spending over $15,000 on Ozempic in two years with limited lasting results, ESG was the breakthrough I needed. The quality at Liv Hospital was on par with the best NYC hospitals — but at a fraction of the cost. I've lost 42 lbs in 6 months and kept it off.", weight: "−42 lbs", time: "6 months" },
   { name: "Michael C.", location: "Houston, TX", text: "As a physician, I did extensive research before choosing Istanbul Bariatric Center. The JCI accreditation, Dr. Murat's credentials, and published outcomes convinced me. The entire experience — from the VIP transfer to the follow-up care — was first-class. I lost 48 lbs.", weight: "−48 lbs", time: "7 months" },
-  { name: "Amanda K.", location: "Chicago, IL", text: "I was quoted $22,000 for ESG in Chicago with a 6-month wait. In Istanbul, I paid $8,500 all-inclusive and was treated within two weeks of my consultation. The dietitian support has been incredible — regular check-ins via video call for the full year.", weight: "−35 lbs", time: "5 months" },
+  { name: "Amanda K.", location: "Chicago, IL", text: "I was quoted $22,000 for ESG in Chicago with a 6-month wait. In Istanbul, I paid $9,800 all-inclusive and was treated within two weeks of my consultation. The dietitian support has been incredible — regular check-ins via video call for the full year.", weight: "−35 lbs", time: "5 months" },
 ];
 
 function BMICalculator() {
@@ -159,8 +159,8 @@ export default function ESGUnitedStates() {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEO title="ESG Turkey for US Patients | Minimally Invasive Weight Loss | $8,500 All-Inclusive" description="ESG for US patients. Procedure $7,500, all-inclusive $8,500 USD at JCI-accredited hospital in Istanbul. Free consultation." keywords="ESG USA, weight loss without surgery, gastroplasty Turkey, Ozempic alternative, bariatric Turkey, medical tourism Istanbul, endoscopic sleeve gastroplasty US" url="/esg/us" />
-      <JsonLd data={{ "@context": "https://schema.org", "@type": "MedicalProcedure", "name": "Endoscopic Sleeve Gastroplasty for American Patients", "alternateName": ["ESG USA", "ESG United States", "Weight loss without surgery USA"], "description": "Endoscopic Sleeve Gastroplasty (ESG) for American patients at Istanbul Bariatric Center. JCI-accredited hospital. Procedure $7,500 USD. All-inclusive $8,500 USD.", "procedureType": "Endoscopic", "bodyLocation": "Stomach", "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }, "offers": [{ "@type": "Offer", "name": "ESG Procedure Only", "price": "7500", "priceCurrency": "USD" }, { "@type": "Offer", "name": "ESG All-Inclusive Package", "price": "8500", "priceCurrency": "USD" }] }} />
+      <SEO title="ESG Turkey for US Patients | Minimally Invasive Weight Loss | $9,800 All-Inclusive" description="ESG for US patients. Procedure $8,650, all-inclusive $9,800 USD at JCI-accredited hospital in Istanbul. Free consultation." keywords="ESG USA, weight loss without surgery, gastroplasty Turkey, Ozempic alternative, bariatric Turkey, medical tourism Istanbul, endoscopic sleeve gastroplasty US" url="/esg/us" />
+      <JsonLd data={{ "@context": "https://schema.org", "@type": "MedicalProcedure", "name": "Endoscopic Sleeve Gastroplasty for American Patients", "alternateName": ["ESG USA", "ESG United States", "Weight loss without surgery USA"], "description": "Endoscopic Sleeve Gastroplasty (ESG) for American patients at Istanbul Bariatric Center. JCI-accredited hospital. Procedure $8,650 USD. All-inclusive $9,800 USD.", "procedureType": "Endoscopic", "bodyLocation": "Stomach", "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }, "offers": [{ "@type": "Offer", "name": "ESG Procedure Only", "price": "8650", "priceCurrency": "USD" }, { "@type": "Offer", "name": "ESG All-Inclusive Package", "price": "9800", "priceCurrency": "USD" }] }} />
       <JsonLd data={structuredData.createFAQ(usFaqs)} />
       <JsonLd data={structuredData.createBreadcrumb([{ name: "Home", url: "/" }, { name: "Treatments", url: "/treatments" }, { name: "ESG", url: "/esg" }, { name: "ESG for US Patients", url: "/esg/us" }])} />
       <Navbar />
@@ -176,14 +176,14 @@ export default function ESGUnitedStates() {
               <span className="text-4xl">{trFlag}</span>
             </div>
             <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight" data-testid="heading-esg-us-hero">Endoscopic Sleeve Gastroplasty (ESG) — A Minimally Invasive Alternative to Traditional Bariatric Surgery</h1>
-            <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-8 leading-relaxed">For Americans struggling with sustainable weight loss, ESG offers an evidence-based, minimally invasive solution — without major surgery, long recovery, or ongoing medication costs. All-inclusive from $8,500 USD at a JCI-accredited hospital.</p>
+            <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-8 leading-relaxed">For Americans struggling with sustainable weight loss, ESG offers an evidence-based, minimally invasive solution — without major surgery, long recovery, or ongoing medication costs. All-inclusive from $9,800 USD at a JCI-accredited hospital.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-primary hover:bg-primary/90 font-bold text-lg h-14 px-8" onClick={() => window.open("https://wa.me/905324131143?text=Hi%2C%20I'm%20from%20the%20US%20and%20I'm%20interested%20in%20ESG", "_blank")} data-testid="button-hero-whatsapp-us"><Phone className="w-5 h-5 mr-2" />Free Consultation</Button>
               <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 font-bold text-lg h-14 px-8" onClick={() => document.getElementById("bmi-section-us")?.scrollIntoView({ behavior: "smooth" })} data-testid="button-hero-bmi-us"><Calculator className="w-5 h-5 mr-2" />Am I Eligible?</Button>
             </div>
             <div className="flex flex-wrap gap-6 justify-center mt-10 text-sm text-slate-400">
               <span className="flex items-center gap-2"><ShieldCheck className="w-4 h-4" /> JCI-Accredited Hospital</span>
-              <span className="flex items-center gap-2"><DollarSign className="w-4 h-4" /> From $7,500 USD</span>
+              <span className="flex items-center gap-2"><DollarSign className="w-4 h-4" /> From $8,650 USD</span>
               <span className="flex items-center gap-2"><Clock className="w-4 h-4" /> 3-4 Day Stay</span>
               <span className="flex items-center gap-2"><BarChart3 className="w-4 h-4" /> Evidence-Based Results</span>
             </div>
@@ -199,7 +199,7 @@ export default function ESGUnitedStates() {
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="p-6 rounded-xl border-2 border-slate-200 bg-slate-50">
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Procedure Only</h3>
-                <div className="text-4xl font-bold text-primary my-3">$7,500 <span className="text-lg text-slate-500">USD</span></div>
+                <div className="text-4xl font-bold text-primary my-3">$8,650 <span className="text-lg text-slate-500">USD</span></div>
                 <ul className="text-left mt-4 space-y-2 text-sm">
                   {["Complete ESG procedure", "General anesthesia", "JCI-accredited hospital stay", "Pre-operative lab work & imaging", "Post-operative medications"].map((item, i) => (
                     <li key={i} className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600 shrink-0" /><span className="text-slate-700">{item}</span></li>
@@ -209,7 +209,7 @@ export default function ESGUnitedStates() {
               <div className="p-6 rounded-xl border-2 border-primary bg-primary/5 relative">
                 <Badge className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-white">Most Popular</Badge>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">All-Inclusive Package</h3>
-                <div className="text-4xl font-bold text-primary my-3">$8,500 <span className="text-lg text-slate-500">USD</span></div>
+                <div className="text-4xl font-bold text-primary my-3">$9,800 <span className="text-lg text-slate-500">USD</span></div>
                 <ul className="text-left mt-4 space-y-2 text-sm">
                   {["Everything in Procedure Only", "VIP airport transfers", "4-star hotel accommodation", "12-month dietitian support (telemedicine)", "Ongoing follow-up consultations"].map((item, i) => (
                     <li key={i} className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600 shrink-0" /><span className="text-slate-700">{item}</span></li>
@@ -251,7 +251,7 @@ export default function ESGUnitedStates() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { icon: ShieldCheck, title: "Limited US Access & High Costs", desc: "ESG is not widely available in US clinics. Where offered, prices range from $15,000-$25,000+ out-of-pocket, as most insurers consider ESG investigational. Wait times for bariatric programs can exceed 6-12 months.", color: "bg-red-50", iconColor: "text-red-500" },
-              { icon: DollarSign, title: "65-70% Cost Savings", desc: "Our all-inclusive package is $8,500 USD — a fraction of US pricing. This includes the procedure at a JCI-accredited hospital, hotel, VIP transfers, and 12-month dietitian support via telemedicine. HSA/FSA-eligible.", color: "bg-green-50", iconColor: "text-green-600" },
+              { icon: DollarSign, title: "65-70% Cost Savings", desc: "Our all-inclusive package is $9,800 USD — a fraction of US pricing. This includes the procedure at a JCI-accredited hospital, hotel, VIP transfers, and 12-month dietitian support via telemedicine. HSA/FSA-eligible.", color: "bg-green-50", iconColor: "text-green-600" },
               { icon: Clock, title: "Fast Scheduling, No Waitlists", desc: "Skip months-long waiting lists. From consultation to procedure in as little as 2 weeks. Direct flights from major US hubs (NYC, Chicago, LA, Houston, Miami). Complete treatment in 3-4 days.", color: "bg-blue-50", iconColor: "text-blue-600" },
             ].map((item, i) => { const Icon = item.icon; return (
               <div key={i} className="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-md transition-shadow" data-testid={`card-us-reason-${i}`}>
@@ -302,7 +302,7 @@ export default function ESGUnitedStates() {
               { icon: Stethoscope, title: "Dr. Murat Üstün", desc: "Pioneer of ESG in Turkey. Thousands of successful bariatric procedures with complication rates comparable to leading US centers." },
               { icon: ShieldCheck, title: "JCI-Accredited Hospital", desc: "All procedures at Liv Hospital — JCI-accredited, the same standard as Cleveland Clinic, Mayo Clinic, and Johns Hopkins." },
               { icon: Users, title: "US Patient Support", desc: "Dedicated English-speaking coordinators. Telemedicine follow-up compatible with US time zones. 12-month aftercare program." },
-              { icon: DollarSign, title: "From $7,500 USD", desc: "No surprise bills. Procedure, hospital, hotel, transfers, tests, dietitian support — all included in our $8,500 all-inclusive package." },
+              { icon: DollarSign, title: "From $8,650 USD", desc: "No surprise bills. Procedure, hospital, hotel, transfers, tests, dietitian support — all included in our $9,800 all-inclusive package." },
             ].map((item, i) => { const Icon = item.icon; return (
               <div key={i} className="bg-white/10 backdrop-blur rounded-xl p-6 text-center" data-testid={`card-us-ibc-${i}`}>
                 <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4"><Icon className="w-7 h-7 text-primary" /></div>

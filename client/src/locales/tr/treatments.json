@@ -294,7 +294,7 @@
     "faqs": [
       {
         "question": "İstanbul'da kilo verme cerrahisi ne kadara mal olur?",
-        "answer": "Istanbul Bariatric Center'da her şey dahil paketler mide balonu için £1.650, tüp mide için £2.950, mide bypass için £3.350 ve ESG için £4.950'den başlar. Her paket JCI akrediteli hastane konaklamanızı, ameliyat öncesi testleri, VIP havaalanı transferlerini ve diyetisyen takibini kapsar."
+        "answer": "Istanbul Bariatric Center'da her şey dahil paketler mide balonu için £1.900, tüp mide için £3.400, mide bypass için £3.850 ve ESG için £5.700'den başlar. Her paket JCI akrediteli hastane konaklamanızı, ameliyat öncesi testleri, VIP havaalanı transferlerini ve diyetisyen takibini kapsar."
       },
       {
         "question": "Benim için hangi bariyatrik prosedür doğru?",
@@ -330,15 +330,15 @@
     "title": "Tedavi Sayfalarımızı Keşfedin",
     "subtitle": "Her prosedür hakkında ayrıntılı bilgi edinin",
     "gastricSleeve": "Tüp Mide Cerrahisi",
-    "gastricSleevePrice": "£2.950'den başlayan fiyatlarla",
+    "gastricSleevePrice": "£3.400'den başlayan fiyatlarla",
     "miniBypass": "Mini Mide Bypass",
     "miniBypassDesc": "Uzman prosedür",
     "gastricBalloon": "Mide Balonu",
-    "gastricBalloonPrice": "£1.650'den başlayan fiyatlarla",
+    "gastricBalloonPrice": "£1.900'den başlayan fiyatlarla",
     "esg": "ESG Prosedürü",
-    "esgPrice": "£4.950'den başlayan fiyatlarla",
+    "esgPrice": "£5.700'den başlayan fiyatlarla",
     "duodenalSwitch": "Duodenal Switch",
-    "duodenalSwitchPrice": "£4.400'den başlayan fiyatlarla",
+    "duodenalSwitchPrice": "£5.050'den başlayan fiyatlarla",
     "transitBipartition": "Transit Bipartisyon",
     "transitBipartitionDesc": "İleri düzey prosedür",
     "postBariatric": "Bariyatrik Sonrası Cerrahi",
@@ -354,7 +354,7 @@
   },
   "seo": {
     "title": "İstanbul'da 2026 Kilo Verme Cerrahisi — Tüp Mide, Bypass, Balon & ESG | Her Şey Dahil Paketler",
-    "description": "Bariyatrik prosedürleri karşılaştırın: Tüp Mide £2.950, Bypass £3.350, Balon £1.650, ESG £4.950. JCI akrediteli Liv Hastanesi'nde Dr Murat Ustun.",
+    "description": "Bariyatrik prosedürleri karşılaştırın: Tüp Mide £3.400, Bypass £3.850, Balon £1.900, ESG £5.700. JCI akrediteli Liv Hastanesi'nde Dr Murat Ustun.",
     "heroAlt": "Bariyatrik cerrahi sonrası aktif sağlıklı yaşam tarzı",
     "skipToContent": "Ana içeriğe atla"
   },
@@ -388,17 +388,17 @@
     "packages": {
       "basic": {
         "name": "Sleeve Gastrektomi Temel",
-        "price": "£2250",
+        "price": "£3400",
         "days": "3"
       },
       "relaxation": {
         "name": "Sleeve Gastrektomi Rahatlama",
-        "price": "£3250",
+        "price": "£4550",
         "days": "5"
       },
       "luxury": {
         "name": "Sleeve Gastrektomi Lüks",
-        "price": "£4000",
+        "price": "£4900",
         "days": "7"
       }
     },
@@ -610,7 +610,7 @@
           "label": "Revizyon yolu"
         },
         {
-          "value": "£3,950",
+          "value": "£4,550",
           "label": "Her şey dahil başlangıç"
         }
       ]
@@ -632,7 +632,7 @@
         },
         {
           "label": "Her şey dahil başlangıç",
-          "value": "£3,950"
+          "value": "£4,550"
         }
       ]
     },
@@ -761,7 +761,7 @@
         },
         {
           "question": "Türkiye'de revizyon bariyatrik cerrahisi ne kadara mal olur?",
-          "answer": "İstanbul'da revizyon cerrahisi izlenecek yola bağlı olarak genellikle her şey dahil £3,950–£5,950 arasında değişir — İngiltere veya ABD'ye kıyasla yaklaşık %60-70 daha ucuz. Her teklif JCI akrediteli hastane konaklamasını, ameliyat öncesi endoskopi ve testleri, transferleri, oteli ve bakımı içerir. Kişiselleştirilmiş bir değerlendirme ve kesin teklif için bizimle iletişime geçin."
+          "answer": "İstanbul'da revizyon cerrahisi izlenecek yola bağlı olarak genellikle her şey dahil £4,550–£6,850 arasında değişir — İngiltere veya ABD'ye kıyasla yaklaşık %60-70 daha ucuz. Her teklif JCI akrediteli hastane konaklamasını, ameliyat öncesi endoskopi ve testleri, transferleri, oteli ve bakımı içerir. Kişiselleştirilmiş bir değerlendirme ve kesin teklif için bizimle iletişime geçin."
         }
       ]
     },
@@ -799,7 +799,7 @@
       "subtitle": "Bu sayfadaki her fiyat her şey dahildir ve siz seyahat etmeden önce sabittir: hastane, cerrah, testler, transferler, otel ve 12 aylık bakım. Gizli ek ücret yok — hiçbir zaman.",
       "stats": [
         {
-          "value": "£1,650",
+          "value": "£1,900",
           "label": "Paketler başlangıç"
         },
         {
@@ -817,19 +817,19 @@
       "items": [
         {
           "label": "Mide Balonu",
-          "value": "£1,650'den başlayan"
+          "value": "£1,900'den başlayan"
         },
         {
           "label": "Tüp Mide",
-          "value": "£2,950'den başlayan"
+          "value": "£3,400'den başlayan"
         },
         {
           "label": "Mini Mide Bypass",
-          "value": "£3,350'den başlayan"
+          "value": "£3,850'den başlayan"
         },
         {
           "label": "ESG (Cerrahi Olmayan)",
-          "value": "£4,950'den başlayan"
+          "value": "£5,700'den başlayan"
         }
       ]
     },
@@ -846,42 +846,42 @@
       "rows": [
         [
           "Tüp Mide",
-          "£2,950 – £4,250",
+          "£3,400 – £4,900",
           "£10,000 – £15,000",
           "$16,000 – $25,000",
           "€8,000 – €12,000"
         ],
         [
           "Mini Mide Bypass",
-          "£3,350 – £4,650",
+          "£3,850 – £5,350",
           "£11,000 – £16,000",
           "$20,000 – $30,000",
           "€9,000 – €14,000"
         ],
         [
           "Mide Balonu",
-          "£1,650 – £2,250",
+          "£1,900 – £2,600",
           "£4,000 – £8,000",
           "$6,000 – $9,000",
           "€3,500 – €6,000"
         ],
         [
           "ESG (Endoskopik Tüp Mide)",
-          "£4,950 – £5,950",
+          "£5,700 – £6,850",
           "£9,000 – £13,000",
           "$12,000 – $20,000",
           "€8,000 – €11,000"
         ],
         [
           "Duodenal Switch",
-          "£4,400 – £4,700",
+          "£5,050 – £5,400",
           "£13,000 – £18,000",
           "$22,000 – $35,000",
           "€11,000 – €16,000"
         ],
         [
           "Revizyon Cerrahisi",
-          "£3,950 – £5,950",
+          "£4,550 – £6,850",
           "£12,000 – £18,000",
           "$18,000 – $30,000",
           "€10,000 – €15,000"
@@ -918,12 +918,12 @@
       "title": "Tüm Yolculuğunuzu Nasıl Bütçelemelisiniz",
       "intro": "Bizimle tüp mide olacak bir İngiltere hastası için gerçekçi bir toplam bütçe:",
       "items": [
-        "<strong>Ameliyat paketi:</strong> £2,950–£4,250 (sabit, her şey dahil)",
+        "<strong>Ameliyat paketi:</strong> £3,400–£4,900 (sabit, her şey dahil)",
         "<strong>Londra–İstanbul gidiş-dönüş uçuşlar:</strong> genellikle £100–£250",
         "<strong>Medikal seyahat sigortası:</strong> £100–£200",
         "<strong>Kişisel harcamalar:</strong> £100–£200"
       ],
-      "total": "Toplam: yaklaşık <strong>£3,300–£4,900 her şey dahil</strong> — yine de bir İngiltere özel hastanesinde tek başına ameliyat maliyetinin yarısından daha az. Seyahat lojistiği ve evden bakım için özel <ukLink>İngiltere hastaları rehberimize</ukLink> bakın."
+      "total": "Toplam: yaklaşık <strong>£3,800–£5,550 her şey dahil</strong> — yine de bir İngiltere özel hastanesinde tek başına ameliyat maliyetinin yarısından daha az. Seyahat lojistiği ve evden bakım için özel <ukLink>İngiltere hastaları rehberimize</ukLink> bakın."
     },
     "surgeonProof": {
       "title": "Düşük Fiyat, Ödün Verilmeyen Standartlar",
@@ -934,7 +934,7 @@
       "items": [
         {
           "question": "Türkiye'de bariyatrik cerrahi ne kadara mal olur?",
-          "answer": "Istanbul Bariatric Center'da her şey dahil paketler mide balonu için £1,650, tüp mide için £2,950, mini mide bypass için £3,350 ve ESG için £4,950'den başlar. Her paket JCI akrediteli hastane konaklamasını, ameliyat öncesi testleri, havaalanı transferlerini, oteli (Rahatlama ve Lüks kademeleri) ve diyetisyen bakımını içerir."
+          "answer": "Istanbul Bariatric Center'da her şey dahil paketler mide balonu için £1,900, tüp mide için £3,400, mini mide bypass için £3,850 ve ESG için £5,700'den başlar. Her paket JCI akrediteli hastane konaklamasını, ameliyat öncesi testleri, havaalanı transferlerini, oteli (Rahatlama ve Lüks kademeleri) ve diyetisyen bakımını içerir."
         },
         {
           "question": "Kilo verme cerrahisi neden Türkiye'de bu kadar daha ucuz?",
@@ -946,7 +946,7 @@
         },
         {
           "question": "Maliyet İngiltere, ABD veya Avrupa ile nasıl karşılaştırılıyor?",
-          "answer": "Bir tüp mide, İngiltere'de özel olarak yaklaşık £10,000–£15,000, ABD'de $16,000–$25,000 ve Batı Avrupa'nın çoğunda €8,000–€12,000 tutar. İstanbul'da eşdeğer her şey dahil paket £2,950–£4,250'dir — uçuşlar dahil olsa bile genellikle %60–75 tasarruf."
+          "answer": "Bir tüp mide, İngiltere'de özel olarak yaklaşık £10,000–£15,000, ABD'de $16,000–$25,000 ve Batı Avrupa'nın çoğunda €8,000–€12,000 tutar. İstanbul'da eşdeğer her şey dahil paket £3,400–£4,900'dir — uçuşlar dahil olsa bile genellikle %60–75 tasarruf."
         },
         {
           "question": "Taksitle veya finansmanla ödeme yapabilir miyim?",
@@ -963,19 +963,19 @@
       "links": [
         {
           "title": "Tüp Mide",
-          "description": "£2,950'den başlayan her şey dahil"
+          "description": "£3,400'den başlayan her şey dahil"
         },
         {
           "title": "Mini Mide Bypass",
-          "description": "£3,350'den başlayan her şey dahil"
+          "description": "£3,850'den başlayan her şey dahil"
         },
         {
           "title": "ESG (Cerrahi Olmayan)",
-          "description": "£4,950'den başlayan her şey dahil"
+          "description": "£5,700'den başlayan her şey dahil"
         },
         {
           "title": "Revizyon Cerrahisi",
-          "description": "£3,950'den başlayan her şey dahil"
+          "description": "£4,550'den başlayan her şey dahil"
         }
       ]
     },
@@ -992,7 +992,7 @@
       "subtitle": "Sabit GBP fiyatlandırması, 4 saatlik bir uçuş, İstanbul'da JCI akrediteli hastane bakımı — ve İngiltere kayıtlı diyetisyenler ile 8 İngiltere lokasyonundaki destek koordinatörleriyle sizi eve kadar takip eden bir bakım.",
       "stats": [
         {
-          "value": "£2,950",
+          "value": "£3,400",
           "label": "Tüp mide başlangıç"
         },
         {
@@ -1043,7 +1043,7 @@
         [
           "Tüp mide fiyatı",
           "£10,000 – £15,000",
-          "£2,950 – £4,250 her şey dahil"
+          "£3,400 – £4,900 her şey dahil"
         ],
         [
           "Bekleme süresi",
@@ -1162,7 +1162,7 @@
       "links": [
         {
           "title": "Tüp Mide",
-          "description": "£2,950'den başlayan her şey dahil"
+          "description": "£3,400'den başlayan her şey dahil"
         },
         {
           "title": "ESG (Cerrahi Olmayan)",
@@ -1265,8 +1265,8 @@
         ],
         [
           "IBC'de fiyat (her şey dahil)",
-          "£2,950'den başlayan",
-          "£3,350'den başlayan"
+          "£3,400'den başlayan",
+          "£3,850'den başlayan"
         ]
       ],
       "footnote": "Sonuç aralıkları yayınlanmış uluslararası serileri ve IBC vaka verilerini yansıtır; bireysel sonuçlar değişir."
@@ -1345,7 +1345,7 @@
         },
         {
           "question": "Türkiye'de tüp mide ve bypass ne kadar tutar?",
-          "answer": "Istanbul Bariatric Center'da tüp mide £2,950'den, mini mide bypass ise £3,350'den başlar; her ikisi de her şey dahildir: JCI akrediteli hastane, cerrah ve anestezi ücretleri, testler, transferler, otel ve 12 aylık diyetisyen bakımı."
+          "answer": "Istanbul Bariatric Center'da tüp mide £3,400'den, mini mide bypass ise £3,850'den başlar; her ikisi de her şey dahildir: JCI akrediteli hastane, cerrah ve anestezi ücretleri, testler, transferler, otel ve 12 aylık diyetisyen bakımı."
         }
       ]
     },
@@ -1354,11 +1354,11 @@
       "links": [
         {
           "title": "Tüp Mide",
-          "description": "Tam prosedür rehberi — £2,950'den başlayan"
+          "description": "Tam prosedür rehberi — £3,400'den başlayan"
         },
         {
           "title": "Mini Mide Bypass",
-          "description": "Tam prosedür rehberi — £3,350'den başlayan"
+          "description": "Tam prosedür rehberi — £3,850'den başlayan"
         },
         {
           "title": "ESG ile Tüp Mide",
@@ -1644,8 +1644,8 @@
         ],
         [
           "IBC'de fiyat (her şey dahil)",
-          "£4,950'den başlayan",
-          "£2,950'den başlayan"
+          "£5,700'den başlayan",
+          "£3,400'den başlayan"
         ]
       ]
     },
@@ -1715,7 +1715,7 @@
         },
         {
           "question": "Türkiye'de maliyetler nasıl karşılaştırılır?",
-          "answer": "Istanbul Bariatric Center'da cerrahi tüp mide £2,950'den, ESG ise £4,950'den başlar; her ikisi de her şey dahildir. ESG, Apollo OverStitch cihazı nedeniyle daha fazla maliyetlidir ancak ameliyattan, izlerden ve bir geceden fazla hastane kalışından kaçınır."
+          "answer": "Istanbul Bariatric Center'da cerrahi tüp mide £3,400'den, ESG ise £5,700'den başlar; her ikisi de her şey dahildir. ESG, Apollo OverStitch cihazı nedeniyle daha fazla maliyetlidir ancak ameliyattan, izlerden ve bir geceden fazla hastane kalışından kaçınır."
         }
       ]
     },
@@ -1724,11 +1724,11 @@
       "links": [
         {
           "title": "Ayrıntılı ESG",
-          "description": "Apollo ESG ve ESG-Max — £4,950'den başlayan"
+          "description": "Apollo ESG ve ESG-Max — £5,700'den başlayan"
         },
         {
           "title": "Ayrıntılı Tüp Mide",
-          "description": "Tam rehber — £2,950'den başlayan"
+          "description": "Tam rehber — £3,400'den başlayan"
         },
         {
           "title": "Balon ile Tüp Mide",
@@ -2020,11 +2020,11 @@
         },
         {
           "title": "Tüp Mide",
-          "description": "En çok tercih edilen prosedür — £2,950'den başlayan"
+          "description": "En çok tercih edilen prosedür — £3,400'den başlayan"
         },
         {
           "title": "ESG (Cerrahi Olmayan)",
-          "description": "En kısa yolculuk: 2–3 gün — £4,950'den başlayan"
+          "description": "En kısa yolculuk: 2–3 gün — £5,700'den başlayan"
         }
       ]
     },
@@ -2109,8 +2109,8 @@
         ],
         [
           "IBC'de fiyat (her şey dahil)",
-          "£1,650'den başlayan",
-          "£2,950'den başlayan"
+          "£1,900'den başlayan",
+          "£3,400'den başlayan"
         ]
       ]
     },
@@ -2157,7 +2157,7 @@
         },
         {
           "question": "Türkiye'de balon ve tüp mide ne kadar tutar?",
-          "answer": "Istanbul Bariatric Center'da mide balonu £1,650'den, tüp mide ise £2,950'den başlar; her ikisi de her şey dahildir. Bir balonun 6-12 ay sürerken tüp midenin kalıcı olduğunu unutmayın — uzun vadede korunan her kilo başına, tüp mide ve ESG genellikle daha iyi değer sunar."
+          "answer": "Istanbul Bariatric Center'da mide balonu £1,900'den, tüp mide ise £3,400'den başlar; her ikisi de her şey dahildir. Bir balonun 6-12 ay sürerken tüp midenin kalıcı olduğunu unutmayın — uzun vadede korunan her kilo başına, tüp mide ve ESG genellikle daha iyi değer sunar."
         },
         {
           "question": "Balondan sonra tüp mide veya ESG yaptırabilir miyim?",
@@ -2170,15 +2170,15 @@
       "links": [
         {
           "title": "Mide Balonu",
-          "description": "Tam rehber — £1,650'den başlayan"
+          "description": "Tam rehber — £1,900'den başlayan"
         },
         {
           "title": "ESG — Orta Yol",
-          "description": "Cerrahi olmayan ve kalıcı — £4,950'den başlayan"
+          "description": "Cerrahi olmayan ve kalıcı — £5,700'den başlayan"
         },
         {
           "title": "Tüp Mide",
-          "description": "Tam rehber — £2,950'den başlayan"
+          "description": "Tam rehber — £3,400'den başlayan"
         },
         {
           "title": "Maliyet Rehberi",

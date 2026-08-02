@@ -42,7 +42,7 @@ export default function BariatricSurgeryUKPatients() {
     <div className="min-h-screen bg-white">
       <SEO
         title="Bariatric Surgery in Turkey for UK Patients — Aftercare in 8 UK Locations"
-        description="Weight loss surgery in Istanbul designed for UK patients: fixed GBP prices from £2,950, UK-registered dietitian aftercare, support in 8 UK locations."
+        description="Weight loss surgery in Istanbul designed for UK patients: fixed GBP prices from £3,400, UK-registered dietitian aftercare, support in 8 UK locations."
         keywords="bariatric surgery turkey uk patients, gastric sleeve turkey from uk, weight loss surgery abroad uk, gastric sleeve istanbul uk aftercare"
         url="/bariatric-surgery-for-uk-patients"
       />

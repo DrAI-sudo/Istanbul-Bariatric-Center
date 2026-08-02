@@ -32,7 +32,7 @@ import { Link } from "wouter";
 const nlFaqs = [
   {
     question: "Wordt ESG vergoed door de zorgverzekering?",
-    answer: "Op dit moment wordt ESG niet vergoed door de basisverzekering in Nederland. Het is nog niet opgenomen in het basispakket. Sommige aanvullende verzekeringen beoordelen aanvragen per geval, maar vergoeding is zeldzaam. Dit is een van de redenen waarom veel Nederlandse patiënten kiezen voor behandeling in het buitenland — zoals bij Istanbul Bariatric Center, waar all-inclusive pakketten beginnen vanaf circa € 5.800 (£4.950).",
+    answer: "Op dit moment wordt ESG niet vergoed door de basisverzekering in Nederland. Het is nog niet opgenomen in het basispakket. Sommige aanvullende verzekeringen beoordelen aanvragen per geval, maar vergoeding is zeldzaam. Dit is een van de redenen waarom veel Nederlandse patiënten kiezen voor behandeling in het buitenland — zoals bij Istanbul Bariatric Center, waar all-inclusive pakketten beginnen vanaf circa € 5.800 (£5.700).",
   },
   {
     question: "Hoe lang moet ik in Istanbul blijven?",
@@ -122,7 +122,7 @@ const comparisonSurgery = [
   { feature: "Gewichtsverlies", esg: "15 tot 20 % van het lichaamsgewicht", sleeve: "60 tot 70 % van het overgewicht" },
   { feature: "Omkeerbaarheid", esg: "Potentieel omkeerbaar", sleeve: "Permanent (maagweefsel verwijderd)" },
   { feature: "Risicoprofiel", esg: "Zeer laag", sleeve: "Laag" },
-  { feature: "Prijs vanaf (Istanbul)", esg: "Vanaf circa € 5.800 (£4.950)", sleeve: "Vanaf circa € 3.450 (£2.950)" },
+  { feature: "Prijs vanaf (Istanbul)", esg: "Vanaf circa € 5.800 (£5.700)", sleeve: "Vanaf circa € 3.450 (£3.400)" },
 ];
 
 const nlTestimonials = [
@@ -447,7 +447,7 @@ export default function ESGNederland() {
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">Aanzienlijke kostenbesparing</h3>
               <p className="text-slate-600 leading-relaxed">
-                In Nederland kost ESG doorgaans <strong>€ 8.000 tot € 15.000</strong> bij privéklinieken. Bij Istanbul Bariatric Center beginnen <strong>all-inclusive pakketten vanaf circa € 5.800</strong> (£4.950) — een besparing van 40 tot 60%. Het pakket omvat de procedure, ziekenhuisopname, hotel, transfer en 12 maanden voedingsbegeleiding.
+                In Nederland kost ESG doorgaans <strong>€ 8.000 tot € 15.000</strong> bij privéklinieken. Bij Istanbul Bariatric Center beginnen <strong>all-inclusive pakketten vanaf circa € 5.800</strong> (£5.700) — een besparing van 40 tot 60%. Het pakket omvat de procedure, ziekenhuisopname, hotel, transfer en 12 maanden voedingsbegeleiding.
               </p>
               <div className="mt-4 p-3 bg-green-50 rounded-lg">
                 <p className="text-green-800 font-semibold text-sm">

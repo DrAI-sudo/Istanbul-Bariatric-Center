@@ -41,7 +41,7 @@ export default function CostOfBariatricSurgery() {
     <div className="min-h-screen bg-white">
       <SEO
         title="Cost of Bariatric Surgery in Turkey (2026): All-Inclusive Prices"
-        description="Transparent 2026 prices for weight loss surgery in Turkey: gastric sleeve from £2,950, bypass from £3,350, ESG from £4,950. Compare UK, US & EU costs."
+        description="Transparent 2026 prices for weight loss surgery in Turkey: gastric sleeve from £3,400, bypass from £3,850, ESG from £5,700. Compare UK, US & EU costs."
         keywords="cost of bariatric surgery turkey, gastric sleeve price turkey, weight loss surgery cost istanbul, bariatric surgery prices 2026, cheap gastric sleeve turkey"
         url="/cost-of-bariatric-surgery-in-turkey"
       />

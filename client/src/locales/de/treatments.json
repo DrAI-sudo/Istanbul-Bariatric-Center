@@ -294,7 +294,7 @@
     "faqs": [
       {
         "question": "Was kostet eine Gewichtsverlustoperation in Istanbul?",
-        "answer": "All-inclusive-Pakete im Istanbul Bariatric Center beginnen ab £1.650 für Magenballon, £2.950 für Schlauchmagen, £3.350 für Magenbypass und £4.950 für ESG. Jedes Paket umfasst JCI-akkreditierten Krankenhausaufenthalt, präoperative Tests, VIP-Flughafentransfers und Ernährungsberater-Nachsorge."
+        "answer": "All-inclusive-Pakete im Istanbul Bariatric Center beginnen ab £1.900 für Magenballon, £3.400 für Schlauchmagen, £3.850 für Magenbypass und £5.700 für ESG. Jedes Paket umfasst JCI-akkreditierten Krankenhausaufenthalt, präoperative Tests, VIP-Flughafentransfers und Ernährungsberater-Nachsorge."
       },
       {
         "question": "Welches bariatrische Verfahren ist richtig für mich?",
@@ -330,15 +330,15 @@
     "title": "Entdecken Sie Unsere Behandlungsseiten",
     "subtitle": "Erfahren Sie mehr über jedes Verfahren im Detail",
     "gastricSleeve": "Schlauchmagen-Operation",
-    "gastricSleevePrice": "Ab £2.950",
+    "gastricSleevePrice": "Ab £3.400",
     "miniBypass": "Mini-Magenbypass",
     "miniBypassDesc": "Spezialisiertes Verfahren",
     "gastricBalloon": "Magenballon",
-    "gastricBalloonPrice": "Ab £1.650",
+    "gastricBalloonPrice": "Ab £1.900",
     "esg": "ESG-Verfahren",
-    "esgPrice": "Ab £4.950",
+    "esgPrice": "Ab £5.700",
     "duodenalSwitch": "Duodenal-Switch",
-    "duodenalSwitchPrice": "Ab £4.400",
+    "duodenalSwitchPrice": "Ab £5.050",
     "transitBipartition": "Transit-Bipartition",
     "transitBipartitionDesc": "Fortgeschrittenes Verfahren",
     "postBariatric": "Post-Bariatrische Chirurgie",
@@ -354,7 +354,7 @@
   },
   "seo": {
     "title": "Gewichtsverlustchirurgie in Istanbul 2026 — Schlauchmagen, Bypass, Ballon & ESG | All-Inclusive-Pakete",
-    "description": "Bariatrische Verfahren vergleichen: Schlauchmagen ab £2.950, Bypass £3.350, Ballon £1.650, ESG £4.950. Dr Murat Ustun im JCI-akkreditierten Liv Hospital.",
+    "description": "Bariatrische Verfahren vergleichen: Schlauchmagen ab £3.400, Bypass £3.850, Ballon £1.900, ESG £5.700. Dr Murat Ustun im JCI-akkreditierten Liv Hospital.",
     "heroAlt": "Aktiver gesunder Lebensstil nach bariatrischer Chirurgie",
     "skipToContent": "Zum Hauptinhalt springen"
   },
@@ -388,17 +388,17 @@
     "packages": {
       "basic": {
         "name": "Schlauchmagen Basis",
-        "price": "£2250",
+        "price": "£3400",
         "days": "3"
       },
       "relaxation": {
         "name": "Schlauchmagen Entspannung",
-        "price": "£3250",
+        "price": "£4550",
         "days": "5"
       },
       "luxury": {
         "name": "Schlauchmagen Luxus",
-        "price": "£4000",
+        "price": "£4900",
         "days": "7"
       }
     },
@@ -610,7 +610,7 @@
           "label": "Revisionswege"
         },
         {
-          "value": "£3,950",
+          "value": "£4,550",
           "label": "All-inclusive ab"
         }
       ]
@@ -632,7 +632,7 @@
         },
         {
           "label": "All-inclusive ab",
-          "value": "£3,950"
+          "value": "£4,550"
         }
       ]
     },
@@ -761,7 +761,7 @@
         },
         {
           "question": "Was kostet eine bariatrische Revisionsoperation in der Türkei?",
-          "answer": "Eine Revisionsoperation in Istanbul kostet je nach Weg typischerweise £3,950–£5,950 all-inclusive — etwa 60-70% weniger als in Großbritannien oder den USA. Jedes Angebot umfasst den JCI-akkreditierten Krankenhausaufenthalt, präoperative Endoskopie und Tests, Transfers, Hotel und Nachsorge. Kontaktieren Sie uns für eine persönliche Beurteilung und ein genaues Angebot."
+          "answer": "Eine Revisionsoperation in Istanbul kostet je nach Weg typischerweise £4,550–£6,850 all-inclusive — etwa 60-70% weniger als in Großbritannien oder den USA. Jedes Angebot umfasst den JCI-akkreditierten Krankenhausaufenthalt, präoperative Endoskopie und Tests, Transfers, Hotel und Nachsorge. Kontaktieren Sie uns für eine persönliche Beurteilung und ein genaues Angebot."
         }
       ]
     },
@@ -799,7 +799,7 @@
       "subtitle": "Jeder Preis auf dieser Seite ist all-inclusive und wird vor Ihrer Anreise festgelegt: Krankenhaus, Chirurg, Tests, Transfers, Hotel und 12 Monate Nachsorge. Keine versteckten Zusatzkosten — niemals.",
       "stats": [
         {
-          "value": "£1,650",
+          "value": "£1,900",
           "label": "Pakete ab"
         },
         {
@@ -817,19 +817,19 @@
       "items": [
         {
           "label": "Magenballon",
-          "value": "Ab £1,650"
+          "value": "Ab £1,900"
         },
         {
           "label": "Schlauchmagen",
-          "value": "Ab £2,950"
+          "value": "Ab £3,400"
         },
         {
           "label": "Mini-Magenbypass",
-          "value": "Ab £3,350"
+          "value": "Ab £3,850"
         },
         {
           "label": "ESG (nicht-chirurgisch)",
-          "value": "Ab £4,950"
+          "value": "Ab £5,700"
         }
       ]
     },
@@ -846,42 +846,42 @@
       "rows": [
         [
           "Schlauchmagen",
-          "£2,950 – £4,250",
+          "£3,400 – £4,900",
           "£10,000 – £15,000",
           "$16,000 – $25,000",
           "€8,000 – €12,000"
         ],
         [
           "Mini-Magenbypass",
-          "£3,350 – £4,650",
+          "£3,850 – £5,350",
           "£11,000 – £16,000",
           "$20,000 – $30,000",
           "€9,000 – €14,000"
         ],
         [
           "Magenballon",
-          "£1,650 – £2,250",
+          "£1,900 – £2,600",
           "£4,000 – £8,000",
           "$6,000 – $9,000",
           "€3,500 – €6,000"
         ],
         [
           "ESG (endoskopischer Sleeve)",
-          "£4,950 – £5,950",
+          "£5,700 – £6,850",
           "£9,000 – £13,000",
           "$12,000 – $20,000",
           "€8,000 – €11,000"
         ],
         [
           "Duodenal-Switch",
-          "£4,400 – £4,700",
+          "£5,050 – £5,400",
           "£13,000 – £18,000",
           "$22,000 – $35,000",
           "€11,000 – €16,000"
         ],
         [
           "Revisionsoperation",
-          "£3,950 – £5,950",
+          "£4,550 – £6,850",
           "£12,000 – £18,000",
           "$18,000 – $30,000",
           "€10,000 – €15,000"
@@ -918,12 +918,12 @@
       "title": "So planen Sie das Budget für Ihre gesamte Reise",
       "intro": "Ein realistisches Gesamtbudget für einen UK-Patienten mit einem Schlauchmagen bei uns:",
       "items": [
-        "<strong>Operationspaket:</strong> £2,950–£4,250 (fest, all-inclusive)",
+        "<strong>Operationspaket:</strong> £3,400–£4,900 (fest, all-inclusive)",
         "<strong>Hin- und Rückflug London–Istanbul:</strong> typischerweise £100–£250",
         "<strong>Medizinische Reiseversicherung:</strong> £100–£200",
         "<strong>Persönliche Ausgaben:</strong> £100–£200"
       ],
-      "total": "Gesamt: rund <strong>£3,300–£4,900 all-in</strong> — immer noch weniger als die Hälfte der Kosten allein für die Operation in einem privaten Krankenhaus in Großbritannien. Sehen Sie sich unseren speziellen <ukLink>Leitfaden für UK-Patienten</ukLink> für Reiselogistik und Nachsorge von zu Hause aus an."
+      "total": "Gesamt: rund <strong>£3,800–£5,550 all-in</strong> — immer noch weniger als die Hälfte der Kosten allein für die Operation in einem privaten Krankenhaus in Großbritannien. Sehen Sie sich unseren speziellen <ukLink>Leitfaden für UK-Patienten</ukLink> für Reiselogistik und Nachsorge von zu Hause aus an."
     },
     "surgeonProof": {
       "title": "Niedriger Preis, kompromisslose Standards",
@@ -934,7 +934,7 @@
       "items": [
         {
           "question": "Was kostet eine bariatrische Operation in der Türkei?",
-          "answer": "Im Istanbul Bariatric Center beginnen All-inclusive-Pakete ab £1,650 für einen Magenballon, £2,950 für einen Schlauchmagen, £3,350 für einen Mini-Magenbypass und £4,950 für ESG. Jedes Paket umfasst den JCI-akkreditierten Krankenhausaufenthalt, präoperative Tests, Flughafentransfers, Hotel (Entspannungs- und Luxusstufen) und Ernährungsberater-Nachsorge."
+          "answer": "Im Istanbul Bariatric Center beginnen All-inclusive-Pakete ab £1,900 für einen Magenballon, £3,400 für einen Schlauchmagen, £3,850 für einen Mini-Magenbypass und £5,700 für ESG. Jedes Paket umfasst den JCI-akkreditierten Krankenhausaufenthalt, präoperative Tests, Flughafentransfers, Hotel (Entspannungs- und Luxusstufen) und Ernährungsberater-Nachsorge."
         },
         {
           "question": "Warum ist die Gewichtsverlustchirurgie in der Türkei so viel günstiger?",
@@ -946,7 +946,7 @@
         },
         {
           "question": "Wie sind die Kosten im Vergleich zu UK, US oder Europa?",
-          "answer": "Ein Schlauchmagen kostet privat in Großbritannien rund £10,000–£15,000, in den USA $16,000–$25,000 und in weiten Teilen Westeuropas €8,000–€12,000. In Istanbul beträgt das gleichwertige All-inclusive-Paket £2,950–£4,250 — typischerweise eine Ersparnis von 60–75%, selbst nach Flügen."
+          "answer": "Ein Schlauchmagen kostet privat in Großbritannien rund £10,000–£15,000, in den USA $16,000–$25,000 und in weiten Teilen Westeuropas €8,000–€12,000. In Istanbul beträgt das gleichwertige All-inclusive-Paket £3,400–£4,900 — typischerweise eine Ersparnis von 60–75%, selbst nach Flügen."
         },
         {
           "question": "Kann ich in Raten oder mit Finanzierung zahlen?",
@@ -963,19 +963,19 @@
       "links": [
         {
           "title": "Schlauchmagen",
-          "description": "Ab £2,950 all-inclusive"
+          "description": "Ab £3,400 all-inclusive"
         },
         {
           "title": "Mini-Magenbypass",
-          "description": "Ab £3,350 all-inclusive"
+          "description": "Ab £3,850 all-inclusive"
         },
         {
           "title": "ESG (nicht-chirurgisch)",
-          "description": "Ab £4,950 all-inclusive"
+          "description": "Ab £5,700 all-inclusive"
         },
         {
           "title": "Revisionsoperation",
-          "description": "Ab £3,950 all-inclusive"
+          "description": "Ab £4,550 all-inclusive"
         }
       ]
     },
@@ -992,7 +992,7 @@
       "subtitle": "Feste Preise in GBP, ein 4-Stunden-Flug, JCI-akkreditierte Krankenhausversorgung in Istanbul — und eine Nachsorge, die Ihnen nach Hause folgt, mit UK-registrierten Ernährungsberatern und Betreuungskoordinatoren an 8 Standorten in Großbritannien.",
       "stats": [
         {
-          "value": "£2,950",
+          "value": "£3,400",
           "label": "Schlauchmagen ab"
         },
         {
@@ -1043,7 +1043,7 @@
         [
           "Schlauchmagen-Preis",
           "£10,000 – £15,000",
-          "£2,950 – £4,250 all-inclusive"
+          "£3,400 – £4,900 all-inclusive"
         ],
         [
           "Wartezeit",
@@ -1162,7 +1162,7 @@
       "links": [
         {
           "title": "Schlauchmagen",
-          "description": "Ab £2,950 all-inclusive"
+          "description": "Ab £3,400 all-inclusive"
         },
         {
           "title": "ESG (nicht-chirurgisch)",
@@ -1265,8 +1265,8 @@
         ],
         [
           "Preis im IBC (all-inclusive)",
-          "Ab £2,950",
-          "Ab £3,350"
+          "Ab £3,400",
+          "Ab £3,850"
         ]
       ],
       "footnote": "Die Ergebnisbereiche basieren auf veröffentlichten internationalen Studienreihen und IBC-Falldaten; individuelle Ergebnisse variieren."
@@ -1345,7 +1345,7 @@
         },
         {
           "question": "Was kosten Schlauchmagen und Bypass in der Türkei?",
-          "answer": "Im Istanbul Bariatric Center beginnt der Schlauchmagen bei £2,950 und der Mini-Magenbypass bei £3,350, beide all-inclusive: JCI-akkreditiertes Krankenhaus, Chirurgen- und Anästhesiehonorare, Untersuchungen, Transfers, Hotel und 12 Monate Nachsorge durch Ernährungsberater."
+          "answer": "Im Istanbul Bariatric Center beginnt der Schlauchmagen bei £3,400 und der Mini-Magenbypass bei £3,850, beide all-inclusive: JCI-akkreditiertes Krankenhaus, Chirurgen- und Anästhesiehonorare, Untersuchungen, Transfers, Hotel und 12 Monate Nachsorge durch Ernährungsberater."
         }
       ]
     },
@@ -1354,11 +1354,11 @@
       "links": [
         {
           "title": "Schlauchmagen",
-          "description": "Vollständiger Verfahrensratgeber – ab £2,950"
+          "description": "Vollständiger Verfahrensratgeber – ab £3,400"
         },
         {
           "title": "Mini-Magenbypass",
-          "description": "Vollständiger Verfahrensratgeber – ab £3,350"
+          "description": "Vollständiger Verfahrensratgeber – ab £3,850"
         },
         {
           "title": "ESG vs. Schlauchmagen",
@@ -1533,11 +1533,11 @@
         },
         {
           "title": "Schlauchmagen",
-          "description": "Das am häufigsten gewählte Verfahren – ab £2,950"
+          "description": "Das am häufigsten gewählte Verfahren – ab £3,400"
         },
         {
           "title": "ESG (nicht-chirurgisch)",
-          "description": "Kürzeste Reise: 2–3 Tage – ab £4,950"
+          "description": "Kürzeste Reise: 2–3 Tage – ab £5,700"
         }
       ]
     },
@@ -1622,8 +1622,8 @@
         ],
         [
           "Preis im IBC (all-inclusive)",
-          "Ab £1,650",
-          "Ab £2,950"
+          "Ab £1,900",
+          "Ab £3,400"
         ]
       ]
     },
@@ -1670,7 +1670,7 @@
         },
         {
           "question": "Was kosten Ballon und Schlauchmagen in der Türkei?",
-          "answer": "Im Istanbul Bariatric Center beginnt der Magenballon bei £1,650 und der Schlauchmagen bei £2,950, beide all-inclusive. Beachten Sie, dass ein Ballon 6-12 Monate hält, während der Schlauchmagen dauerhaft ist – pro langfristig gehaltenem Kilogramm sind der Schlauchmagen und die ESG meist das bessere Preis-Leistungs-Verhältnis."
+          "answer": "Im Istanbul Bariatric Center beginnt der Magenballon bei £1,900 und der Schlauchmagen bei £3,400, beide all-inclusive. Beachten Sie, dass ein Ballon 6-12 Monate hält, während der Schlauchmagen dauerhaft ist – pro langfristig gehaltenem Kilogramm sind der Schlauchmagen und die ESG meist das bessere Preis-Leistungs-Verhältnis."
         },
         {
           "question": "Kann ich nach einem Ballon einen Schlauchmagen oder eine ESG bekommen?",
@@ -1683,15 +1683,15 @@
       "links": [
         {
           "title": "Magenballon",
-          "description": "Vollständiger Ratgeber – ab £1,650"
+          "description": "Vollständiger Ratgeber – ab £1,900"
         },
         {
           "title": "ESG – der Mittelweg",
-          "description": "Nicht-chirurgisch & dauerhaft – ab £4,950"
+          "description": "Nicht-chirurgisch & dauerhaft – ab £5,700"
         },
         {
           "title": "Schlauchmagen",
-          "description": "Vollständiger Ratgeber – ab £2,950"
+          "description": "Vollständiger Ratgeber – ab £3,400"
         },
         {
           "title": "Kostenratgeber",
@@ -2230,8 +2230,8 @@
         ],
         [
           "Preis im IBC (all-inclusive)",
-          "Ab £4,950",
-          "Ab £2,950"
+          "Ab £5,700",
+          "Ab £3,400"
         ]
       ]
     },
@@ -2301,7 +2301,7 @@
         },
         {
           "question": "Wie vergleichen sich die Kosten in der Türkei?",
-          "answer": "Im Istanbul Bariatric Center beginnt der chirurgische Schlauchmagen bei £2,950 und die ESG bei £4,950, beide all-inclusive. Die ESG kostet mehr wegen des Apollo-OverStitch-Geräts, vermeidet dafür aber Operation, Narben und einen Krankenhausaufenthalt über eine Nacht hinaus."
+          "answer": "Im Istanbul Bariatric Center beginnt der chirurgische Schlauchmagen bei £3,400 und die ESG bei £5,700, beide all-inclusive. Die ESG kostet mehr wegen des Apollo-OverStitch-Geräts, vermeidet dafür aber Operation, Narben und einen Krankenhausaufenthalt über eine Nacht hinaus."
         }
       ]
     },
@@ -2310,11 +2310,11 @@
       "links": [
         {
           "title": "ESG im Detail",
-          "description": "Apollo ESG & ESG-Max – ab £4,950"
+          "description": "Apollo ESG & ESG-Max – ab £5,700"
         },
         {
           "title": "Schlauchmagen im Detail",
-          "description": "Vollständiger Ratgeber – ab £2,950"
+          "description": "Vollständiger Ratgeber – ab £3,400"
         },
         {
           "title": "Ballon vs. Schlauchmagen",

@@ -26,7 +26,7 @@ const anzFaqs = [
   },
   {
     question: "Is ESG available in Australia or New Zealand?",
-    answer: "ESG is not widely available in Australia or New Zealand. Where offered at private clinics, costs range from $15,000–$25,000 AUD/NZD, and public access is extremely limited with long waitlists. Istanbul Bariatric Center offers the same procedure at $7,500 USD (procedure only) or $8,500 USD all-inclusive — a significant saving even after factoring in flights and accommodation.",
+    answer: "ESG is not widely available in Australia or New Zealand. Where offered at private clinics, costs range from $15,000–$25,000 AUD/NZD, and public access is extremely limited with long waitlists. Istanbul Bariatric Center offers the same procedure at $8,650 USD (procedure only) or $9,800 USD all-inclusive — a significant saving even after factoring in flights and accommodation.",
   },
   {
     question: "How does ESG compare to Ozempic or Wegovy?",
@@ -42,7 +42,7 @@ const anzFaqs = [
   },
   {
     question: "What does the all-inclusive package include?",
-    answer: "Our all-inclusive package at $8,500 USD covers: the complete ESG procedure, hospital stay at a JCI-accredited facility, pre-operative tests (blood panel, ECG, ultrasound), VIP airport transfers, 4-star hotel accommodation, post-operative medications, 12-month dietitian support via telehealth, and ongoing follow-up consultations. There are no hidden costs or surprise charges.",
+    answer: "Our all-inclusive package at $9,800 USD covers: the complete ESG procedure, hospital stay at a JCI-accredited facility, pre-operative tests (blood panel, ECG, ultrasound), VIP airport transfers, 4-star hotel accommodation, post-operative medications, 12-month dietitian support via telehealth, and ongoing follow-up consultations. There are no hidden costs or surprise charges.",
   },
 ];
 
@@ -58,7 +58,7 @@ const journeySteps = [
 const comparisonMeds = [
   { factor: "Long-term effectiveness", meds: "Limited — studies show significant weight regain after discontinuation", esg: "Sustainable — permanent structural stomach reduction with durable results at 2–5 year follow-up" },
   { factor: "Side effects", meds: "Common (nausea, diarrhoea, pancreatitis risk, thyroid concerns)", esg: "Mild and rare (bloating/cramping for 1–3 days)" },
-  { factor: "Cost", meds: "Ongoing: $200–$400+/month AUD (PBS subsidies vary)", esg: "One-time: $8,500 USD all-inclusive" },
+  { factor: "Cost", meds: "Ongoing: $200–$400+/month AUD (PBS subsidies vary)", esg: "One-time: $9,800 USD all-inclusive" },
   { factor: "Weight regain", meds: "Significant after stopping medication", esg: "Limited with healthy lifestyle adherence" },
   { factor: "Treatment type", meds: "Weekly injections indefinitely", esg: "Single endoscopic procedure (60–90 min)" },
 ];
@@ -73,7 +73,7 @@ const comparisonSurgery = [
   { feature: "Weight loss", esg: "15–20% of total body weight", sleeve: "60–70% of excess weight" },
   { feature: "Reversibility", esg: "Potentially reversible", sleeve: "Permanent (stomach tissue removed)" },
   { feature: "Risk profile", esg: "Very low (<1% serious complications)", sleeve: "Low (1–3% serious complications)" },
-  { feature: "ANZ cost range", esg: "$15,000–$25,000 AUD (ANZ) / $8,500 USD (Istanbul)", sleeve: "$15,000–$35,000 AUD (ANZ)" },
+  { feature: "ANZ cost range", esg: "$15,000–$25,000 AUD (ANZ) / $9,800 USD (Istanbul)", sleeve: "$15,000–$35,000 AUD (ANZ)" },
 ];
 
 const anzTestimonials = [
@@ -159,8 +159,8 @@ export default function ESGAustraliaNZ() {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEO title="ESG Turkey for Australia & New Zealand | Safe, Minimally Invasive Weight Loss | $8,500 USD All-Inclusive" description="ESG for Australian and New Zealand patients. All-inclusive $8,500 USD at JCI-accredited hospital in Istanbul. Free consultation." keywords="ESG Australia, ESG New Zealand, weight loss without surgery, gastroplasty Turkey, Ozempic alternative, medical tourism Istanbul, endoscopic sleeve gastroplasty ANZ" url="/esg/anz" />
-      <JsonLd data={{ "@context": "https://schema.org", "@type": "MedicalProcedure", "name": "Endoscopic Sleeve Gastroplasty for Australian and New Zealand Patients", "alternateName": ["ESG Australia", "ESG New Zealand", "ESG ANZ", "Weight loss without surgery Australia"], "description": "Endoscopic Sleeve Gastroplasty (ESG) for Australian and New Zealand patients at Istanbul Bariatric Center. JCI-accredited hospital. Procedure $7,500 USD. All-inclusive $8,500 USD.", "procedureType": "Endoscopic", "bodyLocation": "Stomach", "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }, "offers": [{ "@type": "Offer", "name": "ESG Procedure Only", "price": "7500", "priceCurrency": "USD" }, { "@type": "Offer", "name": "ESG All-Inclusive Package", "price": "8500", "priceCurrency": "USD" }] }} />
+      <SEO title="ESG Turkey for Australia & New Zealand | Safe, Minimally Invasive Weight Loss | $9,800 USD All-Inclusive" description="ESG for Australian and New Zealand patients. All-inclusive $9,800 USD at JCI-accredited hospital in Istanbul. Free consultation." keywords="ESG Australia, ESG New Zealand, weight loss without surgery, gastroplasty Turkey, Ozempic alternative, medical tourism Istanbul, endoscopic sleeve gastroplasty ANZ" url="/esg/anz" />
+      <JsonLd data={{ "@context": "https://schema.org", "@type": "MedicalProcedure", "name": "Endoscopic Sleeve Gastroplasty for Australian and New Zealand Patients", "alternateName": ["ESG Australia", "ESG New Zealand", "ESG ANZ", "Weight loss without surgery Australia"], "description": "Endoscopic Sleeve Gastroplasty (ESG) for Australian and New Zealand patients at Istanbul Bariatric Center. JCI-accredited hospital. Procedure $8,650 USD. All-inclusive $9,800 USD.", "procedureType": "Endoscopic", "bodyLocation": "Stomach", "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }, "offers": [{ "@type": "Offer", "name": "ESG Procedure Only", "price": "8650", "priceCurrency": "USD" }, { "@type": "Offer", "name": "ESG All-Inclusive Package", "price": "9800", "priceCurrency": "USD" }] }} />
       <JsonLd data={structuredData.createFAQ(anzFaqs)} />
       <JsonLd data={structuredData.createBreadcrumb([{ name: "Home", url: "/" }, { name: "Treatments", url: "/treatments" }, { name: "ESG", url: "/esg" }, { name: "ESG for ANZ Patients", url: "/esg/anz" }])} />
       <Navbar />
@@ -176,14 +176,14 @@ export default function ESGAustraliaNZ() {
               <span className="text-4xl">{nzFlag}</span>
             </div>
             <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight" data-testid="heading-esg-anz-hero">Endoscopic Sleeve Gastroplasty (ESG) — Safe, Minimally Invasive Weight Loss in Istanbul</h1>
-            <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-8 leading-relaxed">For Australians and New Zealanders seeking long-term weight management, ESG offers a minimally invasive alternative to surgery — helping patients achieve lasting results safely and effectively. All-inclusive from $8,500 USD at a JCI-accredited hospital.</p>
+            <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-8 leading-relaxed">For Australians and New Zealanders seeking long-term weight management, ESG offers a minimally invasive alternative to surgery — helping patients achieve lasting results safely and effectively. All-inclusive from $9,800 USD at a JCI-accredited hospital.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-primary hover:bg-primary/90 font-bold text-lg h-14 px-8" onClick={() => window.open("https://wa.me/905324131143?text=Hi%2C%20I'm%20from%20Australia%2FNew%20Zealand%20and%20I'm%20interested%20in%20ESG", "_blank")} data-testid="button-hero-whatsapp-anz"><Phone className="w-5 h-5 mr-2" />Free Consultation</Button>
               <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 font-bold text-lg h-14 px-8" onClick={() => document.getElementById("bmi-section-anz")?.scrollIntoView({ behavior: "smooth" })} data-testid="button-hero-bmi-anz"><Calculator className="w-5 h-5 mr-2" />Am I Eligible?</Button>
             </div>
             <div className="flex flex-wrap gap-6 justify-center mt-10 text-sm text-slate-400">
               <span className="flex items-center gap-2"><ShieldCheck className="w-4 h-4" /> JCI-Accredited Hospital</span>
-              <span className="flex items-center gap-2"><DollarSign className="w-4 h-4" /> From $7,500 USD</span>
+              <span className="flex items-center gap-2"><DollarSign className="w-4 h-4" /> From $8,650 USD</span>
               <span className="flex items-center gap-2"><Clock className="w-4 h-4" /> 3–4 Night Stay</span>
               <span className="flex items-center gap-2"><BarChart3 className="w-4 h-4" /> Clinically Proven Results</span>
             </div>
@@ -199,7 +199,7 @@ export default function ESGAustraliaNZ() {
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="p-6 rounded-xl border-2 border-slate-200 bg-slate-50">
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Procedure Only</h3>
-                <div className="text-4xl font-bold text-primary my-3">$7,500 <span className="text-lg text-slate-500">USD</span></div>
+                <div className="text-4xl font-bold text-primary my-3">$8,650 <span className="text-lg text-slate-500">USD</span></div>
                 <p className="text-sm text-slate-500 mb-4">~$11,500 AUD / ~$12,500 NZD</p>
                 <ul className="text-left mt-4 space-y-2 text-sm">
                   {["Complete ESG procedure", "Conscious sedation", "JCI-accredited hospital stay", "Pre-operative lab work & imaging", "Post-operative medications"].map((item, i) => (
@@ -210,8 +210,8 @@ export default function ESGAustraliaNZ() {
               <div className="p-6 rounded-xl border-2 border-primary bg-primary/5 relative">
                 <Badge className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-white">Most Popular</Badge>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">All-Inclusive Package</h3>
-                <div className="text-4xl font-bold text-primary my-3">$8,500 <span className="text-lg text-slate-500">USD</span></div>
-                <p className="text-sm text-slate-500 mb-4">~$13,000 AUD / ~$14,200 NZD</p>
+                <div className="text-4xl font-bold text-primary my-3">$9,800 <span className="text-lg text-slate-500">USD</span></div>
+                <p className="text-sm text-slate-500 mb-4">~$15,000 AUD / ~$14,200 NZD</p>
                 <ul className="text-left mt-4 space-y-2 text-sm">
                   {["Everything in Procedure Only", "VIP airport transfers", "4-star hotel accommodation", "12-month dietitian support (telehealth)", "Ongoing follow-up consultations"].map((item, i) => (
                     <li key={i} className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600 shrink-0" /><span className="text-slate-700">{item}</span></li>
@@ -252,7 +252,7 @@ export default function ESGAustraliaNZ() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { icon: ShieldCheck, title: "Limited Access Locally", desc: "ESG is not widely available in Australia or New Zealand. Private clinics often charge $15,000–$25,000 AUD/NZD, and public access is limited with long waitlists that can stretch to 12+ months.", color: "bg-red-50", iconColor: "text-red-500" },
-              { icon: DollarSign, title: "Affordable, Transparent Packages", desc: "Our all-inclusive package is $8,500 USD (~$13,000 AUD) — significantly less than ANZ private clinics, even after accounting for flights. Procedure, hospital, hotel, transfers, and 12-month aftercare included.", color: "bg-green-50", iconColor: "text-green-600" },
+              { icon: DollarSign, title: "Affordable, Transparent Packages", desc: "Our all-inclusive package is $9,800 USD (~$15,000 AUD) — significantly less than ANZ private clinics, even after accounting for flights. Procedure, hospital, hotel, transfers, and 12-month aftercare included.", color: "bg-green-50", iconColor: "text-green-600" },
               { icon: Award, title: "Internationally Accredited Care", desc: "JCI-accredited hospitals in Istanbul. Experienced ESG specialists with thousands of procedures. Multilingual international patient coordinators. Turkey is the world's 4th-largest medical tourism destination.", color: "bg-blue-50", iconColor: "text-blue-600" },
             ].map((item, i) => { const Icon = item.icon; return (
               <div key={i} className="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-md transition-shadow" data-testid={`card-anz-reason-${i}`}>

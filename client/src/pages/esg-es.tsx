@@ -32,7 +32,7 @@ import { Link } from "wouter";
 const esFaqs = [
   {
     question: "¿La ESG está cubierta por la Seguridad Social en España?",
-    answer: "Actualmente, la ESG no está incluida en la cartera de servicios de la Seguridad Social española. Al tratarse de un procedimiento relativamente nuevo, no está ampliamente disponible en hospitales públicos. Algunos seguros privados pueden valorar la cobertura caso por caso, pero es poco frecuente. Por este motivo, muchos pacientes españoles optan por realizarlo en el extranjero — como en Istanbul Bariatric Center, donde los paquetes todo incluido comienzan desde aproximadamente 5.800 € (£4.950).",
+    answer: "Actualmente, la ESG no está incluida en la cartera de servicios de la Seguridad Social española. Al tratarse de un procedimiento relativamente nuevo, no está ampliamente disponible en hospitales públicos. Algunos seguros privados pueden valorar la cobertura caso por caso, pero es poco frecuente. Por este motivo, muchos pacientes españoles optan por realizarlo en el extranjero — como en Istanbul Bariatric Center, donde los paquetes todo incluido comienzan desde aproximadamente 5.800 € (£5.700).",
   },
   {
     question: "¿Cuánto tiempo debo quedarme en Estambul?",
@@ -122,7 +122,7 @@ const comparisonSurgery = [
   { feature: "Pérdida de peso", esg: "15 a 20 % del peso corporal", sleeve: "60 a 70 % del exceso de peso" },
   { feature: "Reversibilidad", esg: "Potencialmente reversible", sleeve: "Permanente (tejido gástrico eliminado)" },
   { feature: "Perfil de riesgo", esg: "Muy bajo", sleeve: "Bajo" },
-  { feature: "Precio desde (Estambul)", esg: "Desde aprox. 5.800 € (£4.950)", sleeve: "Desde aprox. 3.450 € (£2.950)" },
+  { feature: "Precio desde (Estambul)", esg: "Desde aprox. 5.800 € (£5.700)", sleeve: "Desde aprox. 3.450 € (£3.400)" },
 ];
 
 const esTestimonials = [
@@ -447,7 +447,7 @@ export default function ESGEspana() {
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">Ahorro económico significativo</h3>
               <p className="text-slate-600 leading-relaxed">
-                En España, la ESG cuesta típicamente entre <strong>8.000 y 14.000 €</strong> en clínicas privadas. En Istanbul Bariatric Center, los <strong>paquetes todo incluido comienzan desde aproximadamente 5.800 €</strong> (£4.950) — un ahorro de hasta el 60–70 %. El paquete incluye procedimiento, hospitalización, hotel, traslados y 12 meses de seguimiento nutricional.
+                En España, la ESG cuesta típicamente entre <strong>8.000 y 14.000 €</strong> en clínicas privadas. En Istanbul Bariatric Center, los <strong>paquetes todo incluido comienzan desde aproximadamente 5.800 €</strong> (£5.700) — un ahorro de hasta el 60–70 %. El paquete incluye procedimiento, hospitalización, hotel, traslados y 12 meses de seguimiento nutricional.
               </p>
               <div className="mt-4 p-3 bg-green-50 rounded-lg">
                 <p className="text-green-800 font-semibold text-sm">

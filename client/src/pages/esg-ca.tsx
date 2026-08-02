@@ -14,7 +14,7 @@ import { Link } from "wouter";
 const caFaqs = [
   {
     question: "Is ESG available through provincial healthcare in Canada?",
-    answer: "Endoscopic Sleeve Gastroplasty is currently not covered by provincial health plans (OHIP, MSP, AHCIP, etc.) and is rarely offered by Canadian bariatric centres. Wait times for publicly funded bariatric surgery in Canada can exceed 2-5 years. Private clinics in Toronto, Vancouver, or Montreal may charge $15,000-$25,000 CAD or more. Istanbul Bariatric Center's all-inclusive package is $8,500 USD (~$11,500 CAD) — including the procedure, JCI-accredited hospital, hotel, VIP transfers, and 12-month dietitian support.",
+    answer: "Endoscopic Sleeve Gastroplasty is currently not covered by provincial health plans (OHIP, MSP, AHCIP, etc.) and is rarely offered by Canadian bariatric centres. Wait times for publicly funded bariatric surgery in Canada can exceed 2-5 years. Private clinics in Toronto, Vancouver, or Montreal may charge $15,000-$25,000 CAD or more. Istanbul Bariatric Center's all-inclusive package is $9,800 USD (~$13,300 CAD) — including the procedure, JCI-accredited hospital, hotel, VIP transfers, and 12-month dietitian support.",
   },
   {
     question: "How long do I need to stay in Istanbul?",
@@ -42,7 +42,7 @@ const caFaqs = [
   },
   {
     question: "What does the all-inclusive package include?",
-    answer: "Our ESG package at $8,500 USD includes: the complete procedure, hospital stay at a JCI-accredited facility, pre-operative tests (blood work, ECG, ultrasound), VIP airport transfers, hotel accommodation, post-operative medications, 12-month dietitian support, and ongoing follow-up consultations. There are no hidden costs.",
+    answer: "Our ESG package at $9,800 USD includes: the complete procedure, hospital stay at a JCI-accredited facility, pre-operative tests (blood work, ECG, ultrasound), VIP airport transfers, hotel accommodation, post-operative medications, 12-month dietitian support, and ongoing follow-up consultations. There are no hidden costs.",
   },
 ];
 
@@ -58,7 +58,7 @@ const journeySteps = [
 const comparisonMeds = [
   { factor: "Long-term effectiveness", meds: "Limited — weight often returns after stopping", esg: "Durable — permanent physical stomach reduction" },
   { factor: "Side effects", meds: "Common (nausea, diarrhoea, pancreatitis risk)", esg: "Minimal (mild discomfort for 1-3 days)" },
-  { factor: "Cost", meds: "Ongoing $300-$500 CAD/month ($3,600-$6,000/year)", esg: "One-time: $8,500 USD all-inclusive (~$11,500 CAD)" },
+  { factor: "Cost", meds: "Ongoing $300-$500 CAD/month ($3,600-$6,000/year)", esg: "One-time: $9,800 USD all-inclusive (~$13,300 CAD)" },
   { factor: "Weight regain", meds: "Common after discontinuation", esg: "Limited with healthy lifestyle" },
   { factor: "Procedure", meds: "No — weekly/daily injections indefinitely", esg: "Yes — single endoscopic procedure (60-90 min)" },
 ];
@@ -157,8 +157,8 @@ export default function ESGCanada() {
 
   return (
     <div className="min-h-screen bg-white">
-      <SEO title="ESG Turkey for Canadian Patients | Weight Loss Without Surgery | $8,500 USD All-Inclusive" description="ESG without surgery for Canadian patients. All-inclusive $8,500 USD at JCI-accredited hospital. Save vs Canadian clinics. Free consultation." keywords="ESG Canada, weight loss without surgery, gastroplasty Turkey, Ozempic alternative, bariatric Turkey, medical tourism Turkey Canada, weight loss Istanbul" url="/esg/ca" />
-      <JsonLd data={{ "@context": "https://schema.org", "@type": "MedicalProcedure", "name": "Endoscopic Sleeve Gastroplasty for Canadian Patients", "alternateName": ["ESG Canada", "ESG Turkey", "Weight loss without surgery Canada"], "description": "Endoscopic Sleeve Gastroplasty (ESG) for Canadian patients at Istanbul Bariatric Center. JCI-accredited hospital. All-inclusive $8,500 USD.", "procedureType": "Endoscopic", "bodyLocation": "Stomach", "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }, "offers": [{ "@type": "Offer", "name": "ESG Procedure Only", "price": "7500", "priceCurrency": "USD" }, { "@type": "Offer", "name": "ESG All-Inclusive Package", "price": "8500", "priceCurrency": "USD" }] }} />
+      <SEO title="ESG Turkey for Canadian Patients | Weight Loss Without Surgery | $9,800 USD All-Inclusive" description="ESG without surgery for Canadian patients. All-inclusive $9,800 USD at JCI-accredited hospital. Save vs Canadian clinics. Free consultation." keywords="ESG Canada, weight loss without surgery, gastroplasty Turkey, Ozempic alternative, bariatric Turkey, medical tourism Turkey Canada, weight loss Istanbul" url="/esg/ca" />
+      <JsonLd data={{ "@context": "https://schema.org", "@type": "MedicalProcedure", "name": "Endoscopic Sleeve Gastroplasty for Canadian Patients", "alternateName": ["ESG Canada", "ESG Turkey", "Weight loss without surgery Canada"], "description": "Endoscopic Sleeve Gastroplasty (ESG) for Canadian patients at Istanbul Bariatric Center. JCI-accredited hospital. All-inclusive $9,800 USD.", "procedureType": "Endoscopic", "bodyLocation": "Stomach", "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }, "offers": [{ "@type": "Offer", "name": "ESG Procedure Only", "price": "8650", "priceCurrency": "USD" }, { "@type": "Offer", "name": "ESG All-Inclusive Package", "price": "9800", "priceCurrency": "USD" }] }} />
       <JsonLd data={structuredData.createFAQ(caFaqs)} />
       <JsonLd data={structuredData.createBreadcrumb([{ name: "Home", url: "/" }, { name: "Treatments", url: "/treatments" }, { name: "ESG", url: "/esg" }, { name: "ESG for Canadian Patients", url: "/esg/ca" }])} />
       <Navbar />
@@ -174,14 +174,14 @@ export default function ESGCanada() {
               <span className="text-4xl">{trFlag}</span>
             </div>
             <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight" data-testid="heading-esg-ca-hero">Endoscopic Sleeve Gastroplasty (ESG) — Safe, Minimally Invasive Weight Loss in Turkey</h1>
-            <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-8 leading-relaxed">Achieving long-term weight loss can be challenging — even with diets, exercise, and medications like Ozempic or Wegovy. ESG offers a modern, minimally invasive solution without surgery. All-inclusive package from $8,500 USD.</p>
+            <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-8 leading-relaxed">Achieving long-term weight loss can be challenging — even with diets, exercise, and medications like Ozempic or Wegovy. ESG offers a modern, minimally invasive solution without surgery. All-inclusive package from $9,800 USD.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-primary hover:bg-primary/90 font-bold text-lg h-14 px-8" onClick={() => window.open("https://wa.me/905324131143?text=Hi%2C%20I'm%20from%20Canada%20and%20I'm%20interested%20in%20ESG", "_blank")} data-testid="button-hero-whatsapp-ca"><Phone className="w-5 h-5 mr-2" />Free Consultation</Button>
               <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 font-bold text-lg h-14 px-8" onClick={() => document.getElementById("bmi-section-ca")?.scrollIntoView({ behavior: "smooth" })} data-testid="button-hero-bmi-ca"><Calculator className="w-5 h-5 mr-2" />Am I Eligible?</Button>
             </div>
             <div className="flex flex-wrap gap-6 justify-center mt-10 text-sm text-slate-400">
               <span className="flex items-center gap-2"><ShieldCheck className="w-4 h-4" /> JCI-Accredited Hospital</span>
-              <span className="flex items-center gap-2"><DollarSign className="w-4 h-4" /> $8,500 USD All-Inclusive</span>
+              <span className="flex items-center gap-2"><DollarSign className="w-4 h-4" /> $9,800 USD All-Inclusive</span>
               <span className="flex items-center gap-2"><Clock className="w-4 h-4" /> 3-4 Day Stay</span>
               <span className="flex items-center gap-2"><Stethoscope className="w-4 h-4" /> 8,000+ Successful Procedures</span>
             </div>
@@ -197,7 +197,7 @@ export default function ESGCanada() {
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="p-6 rounded-xl border-2 border-slate-200 bg-slate-50">
                 <h3 className="text-lg font-bold text-slate-900 mb-2">Procedure Only</h3>
-                <div className="text-4xl font-bold text-primary my-3">$7,500 <span className="text-lg text-slate-500">USD</span></div>
+                <div className="text-4xl font-bold text-primary my-3">$8,650 <span className="text-lg text-slate-500">USD</span></div>
                 <p className="text-slate-500 text-sm">~$10,200 CAD</p>
                 <ul className="text-left mt-4 space-y-2 text-sm">
                   {["Complete ESG procedure", "General anaesthesia", "JCI-accredited hospital", "Pre-operative tests", "Post-operative medications"].map((item, i) => (
@@ -208,8 +208,8 @@ export default function ESGCanada() {
               <div className="p-6 rounded-xl border-2 border-primary bg-primary/5 relative">
                 <Badge className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-white">Most Popular</Badge>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">All-Inclusive Package</h3>
-                <div className="text-4xl font-bold text-primary my-3">$8,500 <span className="text-lg text-slate-500">USD</span></div>
-                <p className="text-slate-500 text-sm">~$11,500 CAD</p>
+                <div className="text-4xl font-bold text-primary my-3">$9,800 <span className="text-lg text-slate-500">USD</span></div>
+                <p className="text-slate-500 text-sm">~$13,300 CAD</p>
                 <ul className="text-left mt-4 space-y-2 text-sm">
                   {["Everything in Procedure Only", "VIP airport transfers", "Hotel accommodation", "12-month dietitian support", "Ongoing follow-up consultations"].map((item, i) => (
                     <li key={i} className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-green-600 shrink-0" /><span className="text-slate-700">{item}</span></li>
@@ -250,7 +250,7 @@ export default function ESGCanada() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { icon: ShieldCheck, title: "Limited Access in Canada", desc: "ESG is rarely available through provincial healthcare. Public bariatric surgery wait times can exceed 2-5 years. Private clinics charge $15,000-$25,000 CAD or more — with limited availability.", color: "bg-red-50", iconColor: "text-red-500" },
-              { icon: DollarSign, title: "Significant Savings", desc: "Canadian private ESG costs $15,000-$25,000+ CAD. Our all-inclusive package is $8,500 USD (~$11,500 CAD) — including procedure, JCI hospital, hotel, transfers, and 12-month dietitian support.", color: "bg-green-50", iconColor: "text-green-600" },
+              { icon: DollarSign, title: "Significant Savings", desc: "Canadian private ESG costs $15,000-$25,000+ CAD. Our all-inclusive package is $9,800 USD (~$13,300 CAD) — including procedure, JCI hospital, hotel, transfers, and 12-month dietitian support.", color: "bg-green-50", iconColor: "text-green-600" },
               { icon: Clock, title: "No Wait Times", desc: "Skip years-long waiting lists. Fast consultation, flexible scheduling, and complete treatment in 3-4 days. Direct flights from Toronto (~10-11h), with connections from all major Canadian cities.", color: "bg-blue-50", iconColor: "text-blue-600" },
             ].map((item, i) => { const Icon = item.icon; return (
               <div key={i} className="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-md transition-shadow" data-testid={`card-ca-reason-${i}`}>
@@ -301,7 +301,7 @@ export default function ESGCanada() {
               { icon: Stethoscope, title: "Dr. Murat Üstün", desc: "Pioneer of ESG in Turkey. Thousands of successful bariatric procedures with excellent outcomes." },
               { icon: ShieldCheck, title: "JCI-Accredited Hospital", desc: "All procedures at Liv Hospital — JCI-accredited, the same international standard as top Canadian hospitals." },
               { icon: Users, title: "International Team", desc: "Dedicated patient coordinators for international patients. Clear English communication and structured follow-up." },
-              { icon: DollarSign, title: "$8,500 USD All-Inclusive", desc: "No hidden costs. Procedure, hospital, hotel, transfers, tests, 12-month dietitian support all included." },
+              { icon: DollarSign, title: "$9,800 USD All-Inclusive", desc: "No hidden costs. Procedure, hospital, hotel, transfers, tests, 12-month dietitian support all included." },
             ].map((item, i) => { const Icon = item.icon; return (
               <div key={i} className="bg-white/10 backdrop-blur rounded-xl p-6 text-center" data-testid={`card-ca-ibc-${i}`}>
                 <div className="w-14 h-14 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4"><Icon className="w-7 h-7 text-primary" /></div>
