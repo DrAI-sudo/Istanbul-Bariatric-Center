@@ -59,7 +59,8 @@
     "loss70to85": "70–85% del peso in eccesso",
     "recovery2to3weeks": "2–3 settimane",
     "recovery1to3days": "1–3 giorni",
-    "recovery3to4weeks": "3–4 settimane"
+    "recovery3to4weeks": "3–4 settimane",
+    "gfma": "GFMA (Ablazione del Fondo)"
   },
   "packages": {
     "sleeveUltraEco": {
@@ -241,7 +242,31 @@
     "pose2Title": "Pacchetti POSE-2",
     "pose2Subtitle": "Scegli il pacchetto POSE-2 adatto alle tue esigenze",
     "dsTitle": "Pacchetti Switch Duodenale",
-    "dsSubtitle": "Scegli il pacchetto switch duodenale adatto alle tue esigenze"
+    "dsSubtitle": "Scegli il pacchetto switch duodenale adatto alle tue esigenze",
+    "gfmaTitle": "Pacchetti GFMA",
+    "gfmaSubtitle": "Scegli il pacchetto GFMA giusto per le tue esigenze",
+    "gfmaRelaxation": {
+      "name": "GFMA Relaxation",
+      "features": [
+        "Trasferimenti VIP dall'aeroporto",
+        "Tutti gli esami e le consulenze preoperatorie",
+        "Costi ospedalieri",
+        "1 giorno di ricovero",
+        "Incontro educativo preoperatorio con dietista bariatrica"
+      ]
+    },
+    "gfmaLuxury": {
+      "name": "GFMA Luxury",
+      "features": [
+        "Trasferimenti VIP dall'aeroporto",
+        "Tutti gli esami e le consulenze preoperatorie",
+        "Costi ospedalieri",
+        "1 giorno di ricovero",
+        "Incontro educativo preoperatorio con dietista bariatrica",
+        "4 consulenze con dietista bariatrica",
+        "1 giorno di soggiorno in hotel"
+      ]
+    }
   },
   "esgTreatment": {
     "title": "Gastroplastica Endoscopica a Manica (ESG)",
@@ -2362,5 +2387,22 @@
       "title": "Switch duodenale",
       "description": "Per BMI 50+"
     }
+  },
+  "gfmaTreatment": {
+    "title": "GFMA (Ablazione Mucosa del Fondo Gastrico)",
+    "desc": "La GFMA (ablazione mucosa del fondo gastrico) è una procedura endoscopica senza incisioni che spegne l'ormone della fame alla fonte. La mucosa del fondo gastrico — dove si trova la maggior parte delle cellule che producono grelina — viene ablata per via orale, riducendo appetito e assunzione di cibo. Può essere eseguita da sola o combinata con l'ESG per risultati migliori.",
+    "advantages": [
+      "Non chirurgica — nessuna incisione o cicatrice",
+      "Colpisce la grelina, l'ormone della fame, alla fonte",
+      "Procedura breve con dimissione in giornata o il giorno dopo",
+      "Ritorno alle attività normali in pochi giorni",
+      "Può essere combinata con l'ESG per risultati migliori"
+    ],
+    "disadvantages": [
+      "Tecnica recente con pochi studi a lungo termine",
+      "Perdita di peso inferiore rispetto alle opzioni chirurgiche",
+      "La riduzione dell'appetito varia da paziente a paziente",
+      "Possono essere necessarie procedure aggiuntive"
+    ]
   }
 }

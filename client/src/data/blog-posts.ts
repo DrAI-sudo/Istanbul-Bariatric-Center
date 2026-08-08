@@ -1070,7 +1070,8 @@ export const blogPosts: BlogPost[] = [
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin: 24px 0;">
 <div style="border: 2px solid #10B981; border-radius: 12px; padding: 24px; background: #ECFDF5;">
 <p style="font-weight: 700; font-size: 1.15em; margin-bottom: 4px;">GFMA Relaxation</p>
-<p style="color: #059669; font-weight: 800; font-size: 1.8em; margin-bottom: 12px;">£3,250</p>
+<p style="color: #059669; font-weight: 800; font-size: 1.8em; margin-bottom: 4px;">£3,250</p>
+<p style="color: #64748B; font-weight: 600; margin-bottom: 12px;">€3,740 &middot; $4,390</p>
 <ul style="margin: 0; padding-left: 20px;">
 <li>VIP airport transfers</li>
 <li>All pre-operative tests and consultations</li>
@@ -1081,7 +1082,8 @@ export const blogPosts: BlogPost[] = [
 </div>
 <div style="border: 2px solid #F59E0B; border-radius: 12px; padding: 24px; background: #FFFBEB;">
 <p style="font-weight: 700; font-size: 1.15em; margin-bottom: 4px;">GFMA Luxury</p>
-<p style="color: #D97706; font-weight: 800; font-size: 1.8em; margin-bottom: 12px;">£3,750</p>
+<p style="color: #D97706; font-weight: 800; font-size: 1.8em; margin-bottom: 4px;">£3,750</p>
+<p style="color: #64748B; font-weight: 600; margin-bottom: 12px;">€4,315 &middot; $5,065</p>
 <ul style="margin: 0; padding-left: 20px;">
 <li>Everything in the Relaxation package</li>
 <li>4 bariatric dietitian consultations</li>

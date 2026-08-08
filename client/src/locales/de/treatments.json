@@ -59,7 +59,8 @@
     "loss70to85": "70–85% des Übergewichts",
     "recovery2to3weeks": "2–3 Wochen",
     "recovery1to3days": "1–3 Tage",
-    "recovery3to4weeks": "3–4 Wochen"
+    "recovery3to4weeks": "3–4 Wochen",
+    "gfma": "GFMA (Fundus-Ablation)"
   },
   "packages": {
     "sleeveUltraEco": {
@@ -241,7 +242,31 @@
     "pose2Title": "POSE-2-Pakete",
     "pose2Subtitle": "Wählen Sie das richtige POSE-2-Paket für Ihre Bedürfnisse",
     "dsTitle": "Duodenal-Switch-Pakete",
-    "dsSubtitle": "Wählen Sie das richtige Duodenal-Switch-Paket für Ihre Bedürfnisse"
+    "dsSubtitle": "Wählen Sie das richtige Duodenal-Switch-Paket für Ihre Bedürfnisse",
+    "gfmaTitle": "GFMA-Pakete",
+    "gfmaSubtitle": "Wählen Sie das passende GFMA-Paket für Ihre Bedürfnisse",
+    "gfmaRelaxation": {
+      "name": "GFMA Relaxation",
+      "features": [
+        "VIP-Flughafentransfers",
+        "Alle präoperativen Tests und Konsultationen",
+        "Krankenhauskosten",
+        "1 Tag Krankenhausaufenthalt",
+        "Präoperatives Aufklärungsgespräch mit bariatrischer Ernährungsberaterin"
+      ]
+    },
+    "gfmaLuxury": {
+      "name": "GFMA Luxury",
+      "features": [
+        "VIP-Flughafentransfers",
+        "Alle präoperativen Tests und Konsultationen",
+        "Krankenhauskosten",
+        "1 Tag Krankenhausaufenthalt",
+        "Präoperatives Aufklärungsgespräch mit bariatrischer Ernährungsberaterin",
+        "4 bariatrische Ernährungsberatungen",
+        "1 Tag Hotelunterkunft"
+      ]
+    }
   },
   "esgTreatment": {
     "title": "Endoskopische Sleeve-Gastroplastik (ESG)",
@@ -2362,5 +2387,22 @@
       "title": "Duodenal Switch",
       "description": "Für BMI 50+"
     }
+  },
+  "gfmaTreatment": {
+    "title": "GFMA (Mukosale Ablation des Magenfundus)",
+    "desc": "GFMA (Gastric Fundus Mucosal Ablation) ist ein schnittfreies endoskopisches Verfahren, das das Hungerhormon an seiner Quelle abschaltet. Die Schleimhaut des Magenfundus — wo sich die meisten Ghrelin-produzierenden Zellen befinden — wird über den Mund abladiert, wodurch Appetit und Nahrungsaufnahme sinken. Es kann allein oder in Kombination mit ESG durchgeführt werden.",
+    "advantages": [
+      "Nicht-chirurgisch — keine Schnitte oder Narben",
+      "Zielt auf Ghrelin, das Hungerhormon, an seiner Quelle",
+      "Kurzer Eingriff mit Entlassung am selben oder nächsten Tag",
+      "Rückkehr zu normalen Aktivitäten innerhalb weniger Tage",
+      "Kann für bessere Ergebnisse mit ESG kombiniert werden"
+    ],
+    "disadvantages": [
+      "Neuere Technik mit weniger Langzeitstudien",
+      "Weniger Gewichtsverlust als chirurgische Optionen",
+      "Appetitreduktion variiert von Patient zu Patient",
+      "Für optimale Ergebnisse können Zusatzeingriffe nötig sein"
+    ]
   }
 }

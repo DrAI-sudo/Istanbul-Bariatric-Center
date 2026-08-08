@@ -59,7 +59,8 @@
     "loss70to85": "70–85% del peso excedente",
     "recovery2to3weeks": "2–3 semanas",
     "recovery1to3days": "1–3 días",
-    "recovery3to4weeks": "3–4 semanas"
+    "recovery3to4weeks": "3–4 semanas",
+    "gfma": "GFMA (Ablación del Fundus)"
   },
   "packages": {
     "sleeveUltraEco": {
@@ -241,7 +242,31 @@
     "pose2Title": "Paquetes de POSE-2",
     "pose2Subtitle": "Elija el paquete de POSE-2 adecuado para sus necesidades",
     "dsTitle": "Paquetes de Derivación Duodenal",
-    "dsSubtitle": "Elija el paquete de derivación duodenal adecuado para sus necesidades"
+    "dsSubtitle": "Elija el paquete de derivación duodenal adecuado para sus necesidades",
+    "gfmaTitle": "Paquetes GFMA",
+    "gfmaSubtitle": "Elija el paquete GFMA adecuado para sus necesidades",
+    "gfmaRelaxation": {
+      "name": "GFMA Relaxation",
+      "features": [
+        "Traslados VIP al aeropuerto",
+        "Todas las pruebas y consultas preoperatorias",
+        "Costes hospitalarios",
+        "1 día de hospitalización",
+        "Sesión educativa preoperatoria con dietista bariátrica"
+      ]
+    },
+    "gfmaLuxury": {
+      "name": "GFMA Luxury",
+      "features": [
+        "Traslados VIP al aeropuerto",
+        "Todas las pruebas y consultas preoperatorias",
+        "Costes hospitalarios",
+        "1 día de hospitalización",
+        "Sesión educativa preoperatoria con dietista bariátrica",
+        "4 consultas con dietista bariátrica",
+        "1 día de alojamiento en hotel"
+      ]
+    }
   },
   "esgTreatment": {
     "title": "Gastroplastia Endoscópica en Manga (ESG)",
@@ -2362,5 +2387,22 @@
       "title": "Cruce duodenal",
       "description": "Para IMC 50+"
     }
+  },
+  "gfmaTreatment": {
+    "title": "GFMA (Ablación Mucosa del Fundus Gástrico)",
+    "desc": "La GFMA (Ablación Mucosa del Fundus Gástrico) es un procedimiento endoscópico sin incisiones que apaga la hormona del hambre en su origen. La mucosa del fundus gástrico — donde se encuentran la mayoría de las células productoras de grelina — se ablaciona por vía oral, reduciendo el apetito y la ingesta. Puede realizarse sola o combinada con ESG para mejores resultados.",
+    "advantages": [
+      "No quirúrgico — sin incisiones ni cicatrices",
+      "Actúa sobre la grelina, la hormona del hambre, en su origen",
+      "Procedimiento corto con alta el mismo día o al día siguiente",
+      "Retorno a las actividades normales en pocos días",
+      "Puede combinarse con ESG para mejores resultados"
+    ],
+    "disadvantages": [
+      "Técnica más reciente con menos estudios a largo plazo",
+      "Menor pérdida de peso que las opciones quirúrgicas",
+      "La reducción del apetito varía entre pacientes",
+      "Puede requerir procedimientos complementarios"
+    ]
   }
 }

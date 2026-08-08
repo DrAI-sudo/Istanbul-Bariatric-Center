@@ -59,7 +59,8 @@
     "loss70to85": "Fazla kilonun %70–85'i",
     "recovery2to3weeks": "2–3 hafta",
     "recovery1to3days": "1–3 gün",
-    "recovery3to4weeks": "3–4 hafta"
+    "recovery3to4weeks": "3–4 hafta",
+    "gfma": "GFMA (Fundus Ablasyonu)"
   },
   "packages": {
     "sleeveUltraEco": {
@@ -241,7 +242,31 @@
     "pose2Title": "POSE-2 Paketleri",
     "pose2Subtitle": "İhtiyaçlarınıza uygun POSE-2 paketini seçin",
     "dsTitle": "Duodenal Switch Paketleri",
-    "dsSubtitle": "İhtiyaçlarınıza uygun duodenal switch paketini seçin"
+    "dsSubtitle": "İhtiyaçlarınıza uygun duodenal switch paketini seçin",
+    "gfmaTitle": "GFMA Paketleri",
+    "gfmaSubtitle": "İhtiyacınıza uygun GFMA paketini seçin",
+    "gfmaRelaxation": {
+      "name": "GFMA Relaxation",
+      "features": [
+        "VIP havalimanı transferleri",
+        "Tüm ameliyat öncesi testler ve konsültasyonlar",
+        "Hastane masrafları",
+        "1 gün hastanede yatış",
+        "Ameliyat öncesi bariyatrik diyetisyen eğitim görüşmesi"
+      ]
+    },
+    "gfmaLuxury": {
+      "name": "GFMA Luxury",
+      "features": [
+        "VIP havalimanı transferleri",
+        "Tüm ameliyat öncesi testler ve konsültasyonlar",
+        "Hastane masrafları",
+        "1 gün hastanede yatış",
+        "Ameliyat öncesi bariyatrik diyetisyen eğitim görüşmesi",
+        "4 bariyatrik diyetisyen konsültasyonu",
+        "1 gün otel konaklaması"
+      ]
+    }
   },
   "esgTreatment": {
     "title": "Endoskopik Sleeve Gastroplasti (ESG)",
@@ -2362,5 +2387,22 @@
       "title": "Duodenal Switch",
       "description": "VKİ 50+ için"
     }
+  },
+  "gfmaTreatment": {
+    "title": "GFMA (Gastrik Fundus Mukozal Ablasyon)",
+    "desc": "GFMA (Gastrik Fundus Mukozal Ablasyon), açlık hormonunu kaynağında kapatan kesisiz bir endoskopik işlemdir. Ghrelin üreten hücrelerin çoğunun bulunduğu mide fundusunun mukozal tabakası ağız yoluyla ablasyona tabi tutulur; böylece iştah ve gıda alımı azalır. Tek başına veya daha iyi sonuçlar için ESG ile birlikte uygulanabilir.",
+    "advantages": [
+      "Ameliyatsız — kesi veya iz yok",
+      "Açlık hormonu ghrelini kaynağında hedefler",
+      "Kısa işlem; aynı gün veya ertesi gün taburcu",
+      "Birkaç gün içinde normal aktivitelere dönüş",
+      "Daha iyi sonuçlar için ESG ile birleştirilebilir"
+    ],
+    "disadvantages": [
+      "Uzun dönem çalışmaları az olan yeni bir teknik",
+      "Cerrahi seçeneklere göre daha az kilo kaybı",
+      "İştah azalması hastadan hastaya değişir",
+      "En iyi sonuç için ek işlemler gerekebilir"
+    ]
   }
 }

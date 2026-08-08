@@ -59,7 +59,8 @@
     "loss70to85": "70–85% excess weight",
     "recovery2to3weeks": "2–3 weeks",
     "recovery1to3days": "1–3 days",
-    "recovery3to4weeks": "3–4 weeks"
+    "recovery3to4weeks": "3–4 weeks",
+    "gfma": "GFMA (Fundus Ablation)"
   },
   "packages": {
     "sleeveUltraEco": {
@@ -241,7 +242,31 @@
     "pose2Title": "POSE-2 Packages",
     "pose2Subtitle": "Choose the right POSE-2 package for your needs",
     "dsTitle": "Duodenal Switch Packages",
-    "dsSubtitle": "Choose the right duodenal switch package for your needs"
+    "dsSubtitle": "Choose the right duodenal switch package for your needs",
+    "gfmaTitle": "GFMA Packages",
+    "gfmaSubtitle": "Choose the right GFMA package for your needs",
+    "gfmaRelaxation": {
+      "name": "GFMA Relaxation",
+      "features": [
+        "VIP airport transfers",
+        "All pre-operative tests and consultations",
+        "Hospital costs",
+        "1 day of hospitalisation",
+        "Pre-operative bariatric dietitian education meeting"
+      ]
+    },
+    "gfmaLuxury": {
+      "name": "GFMA Luxury",
+      "features": [
+        "VIP airport transfers",
+        "All pre-operative tests and consultations",
+        "Hospital costs",
+        "1 day of hospitalisation",
+        "Pre-operative bariatric dietitian education meeting",
+        "4 bariatric dietitian consultations",
+        "1 day of hotel accommodation"
+      ]
+    }
   },
   "esgTreatment": {
     "title": "Endoscopic Sleeve Gastroplasty (ESG)",
@@ -2362,5 +2387,22 @@
       "title": "Duodenal Switch",
       "description": "For BMI 50+"
     }
+  },
+  "gfmaTreatment": {
+    "title": "GFMA (Gastric Fundus Mucosal Ablation)",
+    "desc": "GFMA (Gastric Fundus Mucosal Ablation) is an incisionless endoscopic procedure that switches off the hunger hormone at its source. The mucosal lining of the gastric fundus — where most of the ghrelin-producing cells are located — is ablated through the mouth, reducing appetite and food intake. It can be performed alone or combined with ESG for enhanced results.",
+    "advantages": [
+      "Non-surgical — no incisions or scars",
+      "Targets ghrelin, the hunger hormone, at its source",
+      "Short procedure with same-day or next-day discharge",
+      "Return to normal activities within days",
+      "Can be combined with ESG for enhanced results"
+    ],
+    "disadvantages": [
+      "Newer technique with fewer long-term studies",
+      "Less weight loss than surgical options",
+      "Appetite reduction varies between patients",
+      "May require adjunct procedures for optimal results"
+    ]
   }
 }

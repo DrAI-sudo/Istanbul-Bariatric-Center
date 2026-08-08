@@ -120,6 +120,18 @@ export default function Treatments({ lang }: { lang?: string }) {
           { "@type": "Offer", "name": "POSE-2 Relaxation", "price": "5700", "priceCurrency": "GBP" },
           { "@type": "Offer", "name": "POSE-2 Luxury", "price": "6850", "priceCurrency": "GBP" }
         ]
+      },
+      {
+        "@type": "MedicalProcedure",
+        "name": "Gastric Fundus Mucosal Ablation (GFMA)",
+        "alternateName": ["GFMA", "Fundus Ablation", "Gastric Fundus Ablation", "GFMA Turkey"],
+        "procedureType": "Noninvasive",
+        "bodyLocation": "Stomach",
+        "description": "An incisionless endoscopic procedure that ablates the mucosal lining of the gastric fundus — where most ghrelin-producing cells are located — switching off the hunger hormone at its source to reduce appetite and food intake.",
+        "offers": [
+          { "@type": "Offer", "name": "GFMA Relaxation", "price": "3250", "priceCurrency": "GBP" },
+          { "@type": "Offer", "name": "GFMA Luxury", "price": "3750", "priceCurrency": "GBP" }
+        ]
       }
     ]
   };
@@ -245,6 +257,22 @@ export default function Treatments({ lang }: { lang?: string }) {
     }
   ];
 
+  const gfmaPackages = [
+    {
+      name: t('packages.gfmaRelaxation.name'),
+      price: "£3,250",
+      color: "emerald",
+      recommended: true,
+      features: t('packages.gfmaRelaxation.features', { returnObjects: true }) as string[]
+    },
+    {
+      name: t('packages.gfmaLuxury.name'),
+      price: "£3,750",
+      color: "amber",
+      features: t('packages.gfmaLuxury.features', { returnObjects: true }) as string[]
+    }
+  ];
+
   const duodenalSwitchPackages = [
     {
       name: t('packages.dsRelaxation.name'),
@@ -308,6 +336,15 @@ export default function Treatments({ lang }: { lang?: string }) {
       recovery: t('comparison.recovery1to3days')
     },
     {
+      procedure: t('comparison.gfma'),
+      type: t('comparison.nonSurgical'),
+      bmiRange: t('comparison.bmi30to40'),
+      startingPrice: "£3,250",
+      hospitalStay: t('comparison.stay1to2'),
+      expectedWeightLoss: t('comparison.loss10to15'),
+      recovery: t('comparison.recovery1to3days')
+    },
+    {
       procedure: t('comparison.duodenalSwitch'),
       type: t('comparison.surgical'),
       bmiRange: t('comparison.bmi50plus'),
@@ -368,6 +405,14 @@ export default function Treatments({ lang }: { lang?: string }) {
       disadvantages: t('pose2Treatment.disadvantages', { returnObjects: true }) as string[],
       ifsoImage: "/pose2-procedure.webp",
       noIfsoCredit: true
+    },
+    {
+      title: t('gfmaTreatment.title'),
+      desc: t('gfmaTreatment.desc'),
+      advantages: t('gfmaTreatment.advantages', { returnObjects: true }) as string[],
+      disadvantages: t('gfmaTreatment.disadvantages', { returnObjects: true }) as string[],
+      ifsoImage: "/gfma-procedure-card.webp",
+      noIfsoCredit: true
     }
   ];
 
@@ -411,7 +456,7 @@ export default function Treatments({ lang }: { lang?: string }) {
                     </CardHeader>
                     <CardContent className="text-center space-y-6 pt-6">
                       <PriceDisplay price={pkg.price} colorClass={styles.price} />
-                      <ul className="space-y-4 text-left mx-auto max-w-[240px]">
+                      <ul className="space-y-4 text-start mx-auto max-w-[240px]">
                         {pkg.features.map((feature, fIdx) => (
                           <li key={fIdx} className="flex items-center gap-3 text-slate-700">
                             <div className={`w-5 h-5 rounded-full ${styles.check} flex items-center justify-center shrink-0`}>
@@ -612,6 +657,8 @@ export default function Treatments({ lang }: { lang?: string }) {
                 {i === 5 && renderPackagesAccordion(t('packages.esgTitle'), t('packages.esgSubtitle'), esgPackages, "grid md:grid-cols-2 gap-8 max-w-3xl mx-auto", "accordion-trigger-esg-packages")}
 
                 {i === 6 && renderPackagesAccordion(t('packages.pose2Title'), t('packages.pose2Subtitle'), pose2Packages, "grid md:grid-cols-2 gap-8 max-w-3xl mx-auto", "accordion-trigger-pose2-packages")}
+
+                {i === 7 && renderPackagesAccordion(t('packages.gfmaTitle'), t('packages.gfmaSubtitle'), gfmaPackages, "grid md:grid-cols-2 gap-8 max-w-3xl mx-auto", "accordion-trigger-gfma-packages")}
 
                 {i === 4 && renderPackagesAccordion(t('packages.dsTitle'), t('packages.dsSubtitle'), duodenalSwitchPackages, "grid md:grid-cols-2 gap-8 max-w-3xl mx-auto", "accordion-trigger-ds-packages")}
 

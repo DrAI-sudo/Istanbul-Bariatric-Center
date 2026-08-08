@@ -59,7 +59,8 @@
     "loss70to85": "70–85% du poids excédentaire",
     "recovery2to3weeks": "2–3 semaines",
     "recovery1to3days": "1–3 jours",
-    "recovery3to4weeks": "3–4 semaines"
+    "recovery3to4weeks": "3–4 semaines",
+    "gfma": "GFMA (Ablation du Fundus)"
   },
   "packages": {
     "sleeveUltraEco": {
@@ -241,7 +242,31 @@
     "pose2Title": "Forfaits POSE-2",
     "pose2Subtitle": "Choisissez le forfait POSE-2 adapté à vos besoins",
     "dsTitle": "Forfaits Switch Duodénal",
-    "dsSubtitle": "Choisissez le forfait switch duodénal adapté à vos besoins"
+    "dsSubtitle": "Choisissez le forfait switch duodénal adapté à vos besoins",
+    "gfmaTitle": "Forfaits GFMA",
+    "gfmaSubtitle": "Choisissez le forfait GFMA adapté à vos besoins",
+    "gfmaRelaxation": {
+      "name": "GFMA Relaxation",
+      "features": [
+        "Transferts VIP depuis l'aéroport",
+        "Tous les examens et consultations préopératoires",
+        "Frais hospitaliers",
+        "1 jour d'hospitalisation",
+        "Séance d'éducation préopératoire avec diététicienne bariatrique"
+      ]
+    },
+    "gfmaLuxury": {
+      "name": "GFMA Luxury",
+      "features": [
+        "Transferts VIP depuis l'aéroport",
+        "Tous les examens et consultations préopératoires",
+        "Frais hospitaliers",
+        "1 jour d'hospitalisation",
+        "Séance d'éducation préopératoire avec diététicienne bariatrique",
+        "4 consultations avec diététicienne bariatrique",
+        "1 jour d'hébergement à l'hôtel"
+      ]
+    }
   },
   "esgTreatment": {
     "title": "Gastroplastie Endoscopique en Manchon (ESG)",
@@ -2362,5 +2387,22 @@
       "title": "Switch duodénal",
       "description": "Pour IMC 50+"
     }
+  },
+  "gfmaTreatment": {
+    "title": "GFMA (Ablation Mucosale du Fundus Gastrique)",
+    "desc": "La GFMA (ablation mucosale du fundus gastrique) est une procédure endoscopique sans incision qui éteint l'hormone de la faim à sa source. La muqueuse du fundus gastrique — où se trouvent la plupart des cellules productrices de ghréline — est ablatée par voie orale, réduisant l'appétit et la prise alimentaire. Elle peut être réalisée seule ou combinée à l'ESG pour de meilleurs résultats.",
+    "advantages": [
+      "Non chirurgical — aucune incision ni cicatrice",
+      "Cible la ghréline, l'hormone de la faim, à sa source",
+      "Procédure courte avec sortie le jour même ou le lendemain",
+      "Retour aux activités normales en quelques jours",
+      "Peut être combinée à l'ESG pour de meilleurs résultats"
+    ],
+    "disadvantages": [
+      "Technique récente avec peu d'études à long terme",
+      "Perte de poids moindre que les options chirurgicales",
+      "La réduction de l'appétit varie selon les patients",
+      "Des procédures complémentaires peuvent être nécessaires"
+    ]
   }
 }

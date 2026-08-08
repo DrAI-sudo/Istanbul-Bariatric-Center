@@ -59,7 +59,8 @@
     "loss70to85": "70–85% din greutatea în exces",
     "recovery2to3weeks": "2–3 săptămâni",
     "recovery1to3days": "1–3 zile",
-    "recovery3to4weeks": "3–4 săptămâni"
+    "recovery3to4weeks": "3–4 săptămâni",
+    "gfma": "GFMA (Ablația Fundusului)"
   },
   "packages": {
     "sleeveUltraEco": {
@@ -241,7 +242,31 @@
     "pose2Title": "Pachete POSE-2",
     "pose2Subtitle": "Alegeți pachetul POSE-2 potrivit",
     "dsTitle": "Pachete Duodenal Switch",
-    "dsSubtitle": "Alegeți pachetul duodenal switch potrivit"
+    "dsSubtitle": "Alegeți pachetul duodenal switch potrivit",
+    "gfmaTitle": "Pachete GFMA",
+    "gfmaSubtitle": "Alegeți pachetul GFMA potrivit nevoilor dumneavoastră",
+    "gfmaRelaxation": {
+      "name": "GFMA Relaxation",
+      "features": [
+        "Transferuri VIP de la aeroport",
+        "Toate testele și consultațiile preoperatorii",
+        "Costuri spitalicești",
+        "1 zi de spitalizare",
+        "Ședință educativă preoperatorie cu dietetician bariatric"
+      ]
+    },
+    "gfmaLuxury": {
+      "name": "GFMA Luxury",
+      "features": [
+        "Transferuri VIP de la aeroport",
+        "Toate testele și consultațiile preoperatorii",
+        "Costuri spitalicești",
+        "1 zi de spitalizare",
+        "Ședință educativă preoperatorie cu dietetician bariatric",
+        "4 consultații cu dietetician bariatric",
+        "1 zi de cazare la hotel"
+      ]
+    }
   },
   "esgTreatment": {
     "title": "Gastroplastie Endoscopică Sleeve (ESG)",
@@ -2362,5 +2387,22 @@
       "title": "Switch duodenal",
       "description": "Pentru IMC 50+"
     }
+  },
+  "gfmaTreatment": {
+    "title": "GFMA (Ablația Mucoasei Fundusului Gastric)",
+    "desc": "GFMA (ablația mucoasei fundusului gastric) este o procedură endoscopică fără incizii care oprește hormonul foamei la sursă. Mucoasa fundusului gastric — unde se află majoritatea celulelor producătoare de grelină — este ablată pe cale orală, reducând apetitul și aportul alimentar. Poate fi efectuată singură sau combinată cu ESG pentru rezultate mai bune.",
+    "advantages": [
+      "Non-chirurgicală — fără incizii sau cicatrici",
+      "Țintește grelina, hormonul foamei, la sursă",
+      "Procedură scurtă cu externare în aceeași zi sau a doua zi",
+      "Revenire la activitățile normale în câteva zile",
+      "Poate fi combinată cu ESG pentru rezultate mai bune"
+    ],
+    "disadvantages": [
+      "Tehnică nouă, cu puține studii pe termen lung",
+      "Pierdere în greutate mai mică decât opțiunile chirurgicale",
+      "Reducerea apetitului variază de la pacient la pacient",
+      "Pot fi necesare proceduri suplimentare"
+    ]
   }
 }
