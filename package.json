@@ -11,6 +11,7 @@
     "check": "tsc",
     "check:h1": "tsx script/check-h1.ts",
     "check:h1:prod": "BASE_URL=https://istanbulbariatriccenter.com tsx script/check-h1.ts",
+    "check:seo:prod": "BASE_URL=https://istanbulbariatriccenter.com tsx script/check-seo-lengths.ts",
     "db:push": "drizzle-kit push"
   },
   "dependencies": {
