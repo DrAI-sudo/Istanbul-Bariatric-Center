@@ -54,6 +54,10 @@ args = "typecheck"
 task = "workflow.run"
 args = "h1-check"
 
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "seo-length-check"
+
 [[workflows.workflow]]
 name = "Start application"
 author = "agent"
@@ -87,6 +91,17 @@ args = "npx tsx script/check-h1.ts"
 
 [workflows.workflow.metadata]
 isValidation = true
+
+[[workflows.workflow]]
+name = "seo-length-check"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npx tsx script/check-seo-lengths.ts"
+
+[workflows.workflow.metadata]
+outputType = "console"
 
 [agent]
 mockupState = "FULLSTACK"
