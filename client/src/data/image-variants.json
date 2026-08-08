@@ -37,6 +37,19 @@
     ],
     "originalWidth": 500
   },
+  "/tore-procedure-card.webp": {
+    "widths": [
+      480
+    ],
+    "originalWidth": 700
+  },
+  "/gfma-procedure-card.webp": {
+    "widths": [
+      480,
+      768
+    ],
+    "originalWidth": 1024
+  },
   "/IMG_1801_1766158987529.webp": {
     "widths": [
       480

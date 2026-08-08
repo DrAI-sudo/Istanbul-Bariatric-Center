@@ -39,6 +39,8 @@ const keyImages = [
   "/transit-bipartition.webp",
   "/ifso-esg.webp",
   "/pose2-procedure.webp",
+  "/tore-procedure-card.webp",
+  "/gfma-procedure-card.webp",
   // VIP package
   "/IMG_1801_1766158987529.webp",
   // page heroes
