@@ -7,4 +7,5 @@
 - [Verifying production content](prod-verification.md) — publish snapshots can be partially stale if taken mid-session; verify prod via curl for body phrases, cf-cache-status BYPASS rules out CDN cache.
 - [Locale JSON merge conflicts](locale-json-merges.md) — rebase auto-merge can append keys after a locale JSON's closing brace; always json-validate all locale files after a rebase.
 - [Sitewide price updates](price-updates.md) — prices live in ~46 files and many formats (space-separated French, no-comma legacy locale packages, derived Save/CAD/AUD/EUR figures); never touch competitor ranges.
+- [SEO title lengths](seo-title-lengths.md) — <title> ≤60 / desc ≤160 measured on escaped HTML (avoid `&`); blog seoTitle field ≤32 chars (+28-char brand suffix).
 - [Blog SSR content extraction](blog-ssr-content.md) — blog bodies are regex-extracted from client source at runtime; verify <article> + body phrase via Googlebot curl, not just titles.

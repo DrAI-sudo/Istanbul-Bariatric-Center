@@ -62,7 +62,7 @@ const ESG_ALTERNATES: Array<{ hreflang: string; href: string }> = [
 
 const staticPages: Record<string, PageSEO> = {
   "/": {
-    title: "Weight Loss Surgery in Istanbul: Options & Free Consultation",
+    title: "Weight Loss Surgery in Istanbul | Free Consultation",
     description: "Istanbul Bariatric Center: Expert weight loss surgery in Turkey. Gastric sleeve & bypass options with Dr. Murat Ustun. Book your free consultation.",
     h1: "Weight Loss Surgery in Istanbul: Options & Free Consultation",
     bodyExcerpt: "Istanbul Bariatric Center offers world-class bariatric surgery in Turkey with over 8,000 successful procedures. Led by Dr. Murat Ustun, our JCI-accredited hospital provides VIP all-inclusive packages for gastric sleeve, gastric bypass, gastric balloon, ESG, and revision surgery. Award-winning service from £2,600 with airport transfers, luxury hotel, and aftercare included.",
@@ -195,7 +195,7 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/treatments": {
     title: "Weight Loss Surgery Treatments - Istanbul Bariatric Center",
-    description: "Bariatric surgery procedures: Gastric Sleeve, Mini Gastric Bypass, Gastric Balloon, ESG, POSE-2 Double Helix, Transit Bipartition & Duodenal Switch in Istanbul.",
+    description: "Bariatric surgery procedures: Gastric Sleeve, Mini Gastric Bypass, Gastric Balloon, ESG, Transit Bipartition and Duodenal Switch in Istanbul.",
     h1: "Our Weight Loss Surgery Treatments",
     bodyExcerpt: "Istanbul Bariatric Center offers a comprehensive range of bariatric and metabolic surgery procedures including Gastric Sleeve (VSG), Mini Gastric Bypass (MGB), Gastric Balloon, Endoscopic Sleeve Gastroplasty (ESG), POSE-2 Double Helix, Transit Bipartition, Duodenal Switch, and Post-Bariatric Body Contouring. Each procedure is tailored to the patient's BMI, health conditions, and weight loss goals.",
     canonical: SITE_URL + "/treatments",
@@ -272,7 +272,7 @@ const staticPages: Record<string, PageSEO> = {
 <section><h2>Her Şey Dahil Paket Detayları</h2><p>Temel Paket: JCI Hastanesi (2 gün), havaalanı transferi, diyetisyen desteği. Rahatlama Paketi: Dr Murat Ustun, JCI Hastanesi (3 gün), Radisson Otel, İngiltere diyetisyeni (12 ay), takviyeler. Lüks Paket: Rahatlama paketindeki her şey artı uzatılmış otel, VIP transferler, premium oda.</p></section>`,
   },
   "/treatments/es": {
-    title: "Tratamientos de Cirugía para Pérdida de Peso - Istanbul Bariatric Center",
+    title: "Cirugía para Pérdida de Peso - Istanbul Bariatric Center",
     description: "Procedimientos de cirugía bariátrica: Manga Gástrica, Mini Bypass Gástrico, Globo Gástrico, ESG, Bipartición Tránsito y Derivación Duodenal en Estambul.",
     h1: "Nuestros Tratamientos de Cirugía para Pérdida de Peso",
     bodyExcerpt: "Istanbul Bariatric Center ofrece una gama completa de procedimientos de cirugía bariátrica y metabólica, incluyendo Manga Gástrica (VSG), Mini Bypass Gástrico (MGB), Globo Gástrico, ESG, Bipartición Tránsito, Derivación Duodenal y Contorno Corporal Post-Bariátrico.",
@@ -307,7 +307,7 @@ const staticPages: Record<string, PageSEO> = {
 <section><h2>Detalles del Paquete Todo Incluido</h2><p>Paquete Básico: Hospital JCI (2 días), recogida en el aeropuerto, apoyo de dietista. Paquete de Relajación: Dr. Murat Ustun, Hospital JCI (3 días), Hotel Radisson, dietista del Reino Unido (12 meses), suplementos. Paquete de Lujo: Todo en Relajación más hotel extendido, traslados VIP, habitación premium.</p></section>`,
   },
   "/treatments/de": {
-    title: "Gewichtsverlust-Chirurgie Behandlungen - Istanbul Bariatric Center",
+    title: "Adipositas-Chirurgie - Istanbul Bariatric Center",
     description: "Bariatrische chirurgische Verfahren: Magenbypass, Mini-Magenbypass, Magenballon, ESG, Transit-Bipartition & Duodenal-Switch in Istanbul.",
     h1: "Unsere Gewichtsverlust-Chirurgie Behandlungen",
     bodyExcerpt: "Das Istanbul Bariatric Center bietet ein umfassendes Spektrum an bariatrischen und metabolischen chirurgischen Verfahren, einschließlich Magenbypass (VSG), Mini-Magenbypass (MGB), Magenballon, Endoskopische Magen-Gastroplastik (ESG), Transit-Bipartition, Duodenal-Switch und post-bariatrische Körperformung.",
@@ -342,7 +342,7 @@ const staticPages: Record<string, PageSEO> = {
 <section><h2>Details zu All-Inclusive-Paketen</h2><p>Basis-Paket: JCI Krankenhaus (2 Tage), Abholung vom Flughafen, Unterstützung durch Ernährungsberater. Entspannungspaket: Dr Murat Ustun, JCI Krankenhaus (3 Tage), Radisson Hotel, UK Ernährungsberater (12 Monate), Nahrungsergänzungsmittel. Luxuspaket: Alles im Entspannungspaket plus verlängerten Hotelaufenthalt, VIP-Transfers, Premium-Zimmer.</p></section>`,
   },
   "/treatments/fr": {
-    title: "Traitements de Chirurgie Bariatrique - Istanbul Bariatric Center",
+    title: "Chirurgie Bariatrique - Istanbul Bariatric Center",
     description: "Procédures de chirurgie bariatrique : Sleeve Gastrique, Mini Bypass Gastrique, Ballon Gastrique, ESG, Bipartition Transit & Switch Duodénal à Istanbul.",
     h1: "Nos Traitements de Chirurgie Bariatrique",
     bodyExcerpt: "Istanbul Bariatric Center propose une gamme complète de procédures de chirurgie bariatrique et métabolique, y compris Sleeve Gastrique (VSG), Mini Bypass Gastrique (MGB), Ballon Gastrique, ESG, Bipartition Transit, Switch Duodénal, et Contouring Corporel Post-Bariatrique.",
@@ -377,7 +377,7 @@ const staticPages: Record<string, PageSEO> = {
 <section><h2>Détails des Forfaits Tout Inclus</h2><p>Forfait Basique : Hôpital JCI (2 jours), prise en charge à l'aéroport, soutien diététique. Forfait Détente : Dr Murat Ustun, Hôpital JCI (3 jours), Hôtel Radisson, diététicien britannique (12 mois), suppléments. Forfait Luxe : Tout dans Détente plus prolongation d'hôtel, transferts VIP, chambre premium.</p></section>`,
   },
   "/treatments/it": {
-    title: "Trattamenti Chirurgia per la Perdita di Peso - Istanbul Bariatric Center",
+    title: "Chirurgia per Perdita di Peso - Istanbul Bariatric Center",
     description: "Procedure di chirurgia bariatrica: Sleeve Gastrico, Mini Bypass Gastrico, Pallone Gastrico, ESG, Bipartizione Transitiva & Switch Duodenale a Istanbul.",
     h1: "I Nostri Trattamenti di Chirurgia per la Perdita di Peso",
     bodyExcerpt: "Istanbul Bariatric Center offre una gamma completa di procedure di chirurgia bariatrica e metabolica, inclusi Sleeve Gastrico (VSG), Mini Bypass Gastrico (MGB), Pallone Gastrico, Gastroplastica Endoscopica a Manica (ESG), Bipartizione Transitiva, Switch Duodenale e Contouring Corporeo Post-Bariatrico.",
@@ -412,7 +412,7 @@ const staticPages: Record<string, PageSEO> = {
 <section><h2>Dettagli Pacchetti Tutto Incluso</h2><p>Pacchetto Base: Ospedale JCI (2 giorni), trasferimento dall'aeroporto, supporto dietista. Pacchetto Relax: Dr Murat Ustun, Ospedale JCI (3 giorni), Hotel Radisson, dietista del Regno Unito (12 mesi), integratori. Pacchetto Lusso: Tutto nel pacchetto Relax più estensione dell'hotel, trasferimenti VIP, camera premium.</p></section>`,
   },
   "/treatments/ro": {
-    title: "Tratamentul Chirurgiei de Pierdere în Greutate - Istanbul Bariatric Center",
+    title: "Chirurgie de Slăbire - Istanbul Bariatric Center",
     description: "Proceduri de chirurgie bariatrică: Gastric Sleeve, Mini Gastric Bypass, Gastric Balloon, ESG, Bifurcație de Transit & Duodenal Switch în Istanbul.",
     h1: "Tratamentul nostru de Chirurgie pentru Pierderea în Greutate",
     bodyExcerpt: "Istanbul Bariatric Center oferă o gamă completă de proceduri de chirurgie bariatrică și metabolică, inclusiv Gastric Sleeve (VSG), Mini Gastric Bypass (MGB), Gastric Balloon, ESG, Bifurcație de Transit, Duodenal Switch și Conturare Corporală Post-Bariatrică.",
@@ -518,7 +518,7 @@ const staticPages: Record<string, PageSEO> = {
 <section><h2>تفاصيل الحزمة الشاملة</h2><p>باقة أساسية: مستشفى JCI (يومين)، خدمة نقل من المطار، دعم أخصائي تغذية. باقة استرخاء: الدكتور مراد أستون، مستشفى JCI (ثلاثة أيام)، فندق Radisson، أخصائي تغذية بريطاني (12 شهرًا)، مكملات. باقة فاخرة: كل ما في باقة الاسترخاء بالإضافة إلى إقامة ممتدة، نقل VIP، غرفة فاخرة.</p></section>`,
   },
   "/results": {
-    title: "Results & Reviews: Patient Success Stories | Istanbul Bariatric Center",
+    title: "Patient Results & Reviews | Istanbul Bariatric Center",
     description: "Istanbul Bariatric Center: Real patient results, before & after photos, and verified 5-star WhatClinic reviews. 8,000+ successful surgeries.",
     h1: "Results & Reviews: Real Patient Transformations",
     bodyExcerpt: "View real patient results, before and after photos, and verified 5-star reviews from Istanbul Bariatric Center. Our patients share their weight loss journeys after gastric sleeve, gastric bypass, and other bariatric procedures. Outstanding 10/10 WhatClinic ServiceScore from 138 interactions.",
@@ -636,7 +636,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/mini-gastric-bypass": {
-    title: "Mini Gastric Bypass Surgery in Istanbul: Benefits & Results",
+    title: "Mini Gastric Bypass in Istanbul: Benefits and Results",
     description: "Mini Gastric Bypass in Istanbul: Expert weight loss surgery at Istanbul Bariatric Center. Achieve lasting results. Contact us now.",
     h1: "Mini Gastric Bypass Surgery",
     bodyExcerpt: "Mini Gastric Bypass (One Anastomosis Gastric Bypass) at Istanbul Bariatric Center is a simplified version of the traditional Roux-en-Y bypass. This procedure creates a long, narrow gastric pouch and connects it to the small intestine, combining restrictive and malabsorptive mechanisms for effective weight loss and diabetes resolution.",
@@ -686,7 +686,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/duodenal-switch": {
-    title: "Duodenal Switch Surgery in Turkey - Istanbul Bariatric Center",
+    title: "Duodenal Switch in Turkey - Istanbul Bariatric Center",
     description: "Duodenal Switch (BPD/DS) surgery in Istanbul for severe obesity. Highest long-term weight loss results. Expert bariatric care with Dr. Murat Ustun.",
     h1: "Duodenal Switch Surgery",
     bodyExcerpt: "Duodenal Switch (Biliopancreatic Diversion with Duodenal Switch) at Istanbul Bariatric Center is one of the most effective bariatric procedures for severe obesity. It combines a sleeve gastrectomy with intestinal bypass, providing the highest long-term excess weight loss of any bariatric procedure, typically 70-80%.",
@@ -709,7 +709,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/transit-bipartition": {
-    title: "Transit Bipartition Surgery Istanbul: Diabetes & Weight Loss",
+    title: "Transit Bipartition Istanbul: Diabetes, Weight Loss",
     description: "Istanbul Transit Bipartition: Achieve weight loss & diabetes remission with expert metabolic surgeons. 86% diabetes remission rate. Contact us.",
     h1: "Transit Bipartition Surgery",
     bodyExcerpt: "Transit Bipartition at Istanbul Bariatric Center is a modern bariatric procedure that combines sleeve gastrectomy with a partial intestinal bypass. It enhances metabolic outcomes while preserving natural digestive flow. Particularly effective as a revision option when sleeve gastrectomy alone has not achieved desired results.",
@@ -739,8 +739,8 @@ const staticPages: Record<string, PageSEO> = {
     }],
   },
   "/esg": {
-    title: "Endosleeve / ESG in Istanbul 2026 — Apollo Endoscopic Sleeve Gastroplasty Clinic | From £5,700",
-    description: "Istanbul Bariatric Center: Apollo Endosleeve (ESG / ESG-Max) clinic in Istanbul. Non-surgical weight loss from £5,700, 2,000+ procedures, 4.9★ patient reviews. NICE-approved, JCI hospital, Dr Murat Ustun.",
+    title: "Endosleeve / ESG in Istanbul 2026 | From £5,700",
+    description: "Apollo Endosleeve (ESG) clinic in Istanbul. Non-surgical weight loss from £5,700, 2,000+ procedures, 4.9★ reviews. NICE-approved, JCI hospital, Dr Murat Ustun.",
     h1: "Endoscopic Sleeve Gastroplasty (ESG / Endosleeve) — Istanbul",
     bodyExcerpt: "Endosleeve (also known as Apollo ESG, Endoscopic Sleeve Gastroplasty and ESG-Max) at Istanbul Bariatric Center is the leading non-surgical weight loss option in Istanbul. The clinic has performed over 2,000 endoscopic procedures with a 4.9-star average review rating, Apollo OverStitch technology, JCI-accredited hospital, and Dr Murat Ustun — one of Turkey's pioneer ESG surgeons. Packages start at £5,700 all-inclusive.",
     canonical: SITE_URL + "/esg",
@@ -799,7 +799,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/revision-bariatric-surgery": {
-    title: "Revision Bariatric Surgery in Turkey — Fix Weight Regain After Sleeve or Bypass",
+    title: "Revision Bariatric Surgery in Turkey: Fix Weight Regain",
     description: "Revision weight loss surgery in Istanbul: sleeve-to-bypass conversion, TORe, re-sleeve & transit bipartition. JCI hospital, Dr Murat Ustun. Free assessment.",
     h1: "Revision Bariatric Surgery in Turkey",
     bodyExcerpt: "Weight regain after a gastric sleeve or bypass is common — up to 30% of sleeve patients regain significant weight within 5 years and GERD affects up to 55% long-term. Istanbul Bariatric Center offers every major revision pathway: sleeve-to-mini-bypass conversion, duodenal switch, transit bipartition, endoscopic re-sleeve, and TORe for stretched bypass outlets. Every revision begins with diagnostic endoscopy at JCI-accredited Liv Hospital. All-inclusive from £4,550.",
@@ -840,7 +840,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/cost-of-bariatric-surgery-in-turkey": {
-    title: "Cost of Bariatric Surgery in Turkey (2026): All-Inclusive Prices",
+    title: "Cost of Bariatric Surgery in Turkey 2026: All Prices",
     description: "Transparent 2026 prices for weight loss surgery in Turkey: gastric sleeve from £3,400, bypass from £3,850, ESG from £5,700. Compare UK, US & EU costs.",
     h1: "Cost of Bariatric Surgery in Turkey",
     bodyExcerpt: "Fixed, all-inclusive 2026 prices at Istanbul Bariatric Center: gastric balloon from £1,900, gastric sleeve from £3,400, mini gastric bypass from £3,850, ESG from £5,700, revision surgery from £4,550. Every package includes JCI-accredited hospital stay, surgeon and anaesthesia fees, pre-operative tests, VIP transfers, hotel and 12 months of dietitian aftercare — typically 60-70% less than UK, US or EU private prices with no hidden fees.",
@@ -871,7 +871,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/bariatric-surgery-for-uk-patients": {
-    title: "Bariatric Surgery in Turkey for UK Patients — Aftercare in 8 UK Locations",
+    title: "Bariatric Surgery in Turkey for UK Patients | Aftercare",
     description: "Weight loss surgery in Istanbul designed for UK patients: fixed GBP prices from £3,400, UK-registered dietitian aftercare, support in 8 UK locations.",
     h1: "Bariatric Surgery in Turkey for UK Patients",
     bodyExcerpt: "Istanbul Bariatric Center is built around UK patients: fixed GBP pricing from £3,400 all-inclusive, a 4-hour flight, no visa needed for UK passports, JCI-accredited Liv Hospital, English-speaking team, and aftercare that follows you home — 12 months of UK-registered dietitian support plus in-person care coordinators in 8 UK locations. Typical stay is 4-6 nights; typical saving is 60-70% versus UK private prices.",
@@ -902,8 +902,8 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/gastric-sleeve-vs-gastric-bypass": {
-    title: "Gastric Sleeve vs Mini Gastric Bypass: Which Is Right for You? (2026)",
-    description: "Side-by-side comparison of gastric sleeve and mini gastric bypass: weight loss, diabetes remission, reflux, risks, recovery and cost in Turkey. Decide with data.",
+    title: "Gastric Sleeve vs Mini Gastric Bypass: Which Is Right?",
+    description: "Side-by-side comparison of gastric sleeve and mini gastric bypass: weight loss, diabetes remission, reflux, risks, recovery and cost in Turkey.",
     h1: "Gastric Sleeve vs Mini Gastric Bypass",
     bodyExcerpt: "The sleeve removes ~80% of the stomach and delivers 60-70% excess weight loss with normal intestinal anatomy. The mini gastric bypass adds malabsorption: 70-80% excess weight loss, 80-90% type 2 diabetes remission, and better reflux control — at the cost of lifelong supplements. Choose the sleeve for simplicity and no reflux; choose the bypass for diabetes, existing GERD, or BMI over 45-50. At Istanbul Bariatric Center: sleeve from £3,400, bypass from £3,850, both all-inclusive.",
     canonical: SITE_URL + "/gastric-sleeve-vs-gastric-bypass",
@@ -933,7 +933,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg-vs-gastric-sleeve": {
-    title: "ESG vs Gastric Sleeve: Non-Surgical or Surgical? Honest Comparison (2026)",
+    title: "ESG vs Gastric Sleeve: Honest 2026 Comparison",
     description: "Endoscopic sleeve gastroplasty vs surgical gastric sleeve: weight loss, safety, reversibility, reflux, recovery and Turkey prices compared side by side.",
     h1: "ESG vs Gastric Sleeve: Which Should You Choose?",
     bodyExcerpt: "ESG reshapes the stomach from inside with endoscopic sutures — no incisions, same-day discharge, 15-20% total body weight loss, and it usually improves reflux. The surgical sleeve removes ~80% of the stomach for 25-30% total weight loss but is irreversible and can worsen GERD. ESG suits BMI 30-40 and fast recovery needs; the sleeve remains the benchmark for BMI over 40-45. At Istanbul Bariatric Center: sleeve from £3,400, ESG from £5,700, all-inclusive.",
@@ -963,7 +963,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/gastric-balloon-vs-gastric-sleeve": {
-    title: "Gastric Balloon vs Gastric Sleeve: Temporary or Permanent? (2026)",
+    title: "Gastric Balloon vs Gastric Sleeve: 2026 Comparison",
     description: "Gastric balloon vs gastric sleeve compared: weight loss, reversibility, safety, cost in Turkey, and when the balloon is genuinely the right choice.",
     h1: "Gastric Balloon vs Gastric Sleeve",
     bodyExcerpt: "The gastric balloon is a temporary 6-12 month tool: 10-15% total body weight loss, no surgery, fully reversible, from £1,900 — ideal for BMI 27-35 or losing weight before an operation. The gastric sleeve is permanent: 25-30% total weight loss, from £3,400. The most common mistake is choosing the balloon for a long-term weight problem — regain after removal is its main drawback. ESG sits between them: non-surgical like the balloon, durable like the sleeve.",
@@ -993,8 +993,8 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/weight-regain-after-gastric-sleeve": {
-    title: "Weight Regain After Gastric Sleeve: Why It Happens & All 4 Fix Pathways",
-    description: "Regaining weight after a gastric sleeve? Up to 30% of patients do. Compare all four pathways: dietitian reset, GLP-1 medication, endoscopic re-sleeve, bypass conversion.",
+    title: "Weight Regain After Gastric Sleeve: All 4 Fix Pathways",
+    description: "Regaining weight after a gastric sleeve? Up to 30% of patients do. Compare all 4 fixes: dietitian reset, GLP-1s, endoscopic re-sleeve, bypass conversion.",
     h1: "Weight Regain After Gastric Sleeve: Your Four Pathways",
     bodyExcerpt: "Up to 30% of sleeve patients regain significant weight within five years, driven by sleeve dilation, hormonal adaptation and behavioural drift — not willpower. Four treatment pathways exist, from least to most intervention: a dietitian-led reset programme, GLP-1 medication (Mounjaro/Wegovy), endoscopic re-sleeve to tighten the stretched sleeve without surgery, and surgical conversion to a mini gastric bypass or duodenal switch. Every regain case at Istanbul Bariatric Center starts with a diagnostic endoscopy to identify the cause before recommending any treatment.",
     canonical: SITE_URL + "/weight-regain-after-gastric-sleeve",
@@ -1024,7 +1024,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/reflux-after-gastric-sleeve": {
-    title: "Acid Reflux After Gastric Sleeve: Causes, Red Flags & Every Fix",
+    title: "Acid Reflux After Gastric Sleeve: Causes & Fixes",
     description: "Heartburn after your gastric sleeve? GERD affects up to 55% of sleeve patients. Learn the causes, red flags, PPI limits and when bypass conversion is the cure.",
     h1: "Acid Reflux After Gastric Sleeve: What It Means and How It's Fixed",
     bodyExcerpt: "GERD affects up to 55% of gastric sleeve patients long-term because the sleeve creates a narrow, high-pressure tube and alters the anti-reflux valve — a mechanical problem that tablets alone cannot fix. The treatment ladder: lifestyle measures and PPIs, diagnostic endoscopy, hiatal hernia repair where found, and — for persistent GERD, especially with weight regain — conversion to a mini gastric bypass, which resolves or dramatically improves reflux in around 90% of cases.",
@@ -1054,7 +1054,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/bariatric-surgery-long-term-results": {
-    title: "Bariatric Surgery Long-Term Results: 5, 10 & 20-Year Outcomes Explained",
+    title: "Bariatric Surgery Long-Term Results: 5-20 Year Data",
     description: "What the evidence shows 5-20 years after weight loss surgery: sustained weight loss, diabetes remission, 30-50% lower mortality — and the honest regain data.",
     h1: "Bariatric Surgery Long-Term Results: What Really Happens at 5, 10 and 20 Years",
     bodyExcerpt: "Long-term evidence including the 20+ year Swedish Obese Subjects study shows bariatric surgery patients maintain 20-30% total body weight loss at 10 years, with all-cause mortality 30-50% lower than matched controls. Sleeve patients keep 50-60% of excess weight off at 10 years, bypass patients 55-65%, and over 80% of ESG patients maintain at least 10% total weight loss at 5 years. Type 2 diabetes remission reaches 80-90% after bypass, with about half of remissions holding beyond 10 years. Modest regain is normal; significant regain affects up to 30% of sleeve patients and is treatable.",
@@ -1085,8 +1085,8 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/bariatric-surgery-travel-guide": {
-    title: "Bariatric Surgery in Istanbul: Complete Travel Guide — Timeline, Airport, Hotel, Flying Home",
-    description: "Day-by-day travel guide for weight loss surgery in Istanbul: what happens at the airport, hospital and hotel, when you can fly home, packing list and companion tips.",
+    title: "Bariatric Surgery in Istanbul: Complete Travel Guide",
+    description: "Day-by-day travel guide for weight loss surgery in Istanbul: airport, hospital and hotel steps, when you can fly home, packing list and companion tips.",
     h1: "Your Trip to Istanbul, Day by Day",
     bodyExcerpt: "A typical surgical trip is 4-6 nights: day 1 arrival with VIP airport pick-up and pre-operative tests; day 2 surgery at JCI-accredited Liv Hospital; days 3-4 monitored hospital recovery; days 4-5 hotel recovery at the Radisson with daily check-ins; day 5-6 final review and fly home. ESG and gastric balloon patients need only 2-3 days. Companions stay free, a translator is provided throughout, and every transfer is included — you never need a taxi. Flying 4-6 days post-op is safe and routine with our return-to-fly protocol.",
     canonical: SITE_URL + "/bariatric-surgery-travel-guide",
@@ -1116,8 +1116,8 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/best-endosleeve-clinic-istanbul": {
-    title: "Best Endosleeve Clinic in Istanbul 2026 — Apollo ESG Reviews, Cost & Results",
-    description: "Best Endosleeve / Apollo ESG clinic in Istanbul: 2,000+ procedures, 4.9★ reviews, JCI hospital, all-inclusive from £5,700. Compare cost, results and reviews of Istanbul Bariatric Center vs other Istanbul ESG clinics.",
+    title: "Best Endosleeve Clinic in Istanbul 2026 | Apollo ESG",
+    description: "Best Endosleeve / Apollo ESG clinic in Istanbul: 2,000+ procedures, 4.9★ reviews, JCI hospital, all-inclusive from £5,700. Compare cost, results and reviews.",
     h1: "Best Endosleeve (Apollo ESG) Clinic in Istanbul — 2026 Reviews, Cost & Results",
     bodyExcerpt: "A 2026 buyer's guide to the best Endosleeve (Apollo ESG / ESG-Max) clinics in Istanbul, Turkey. Compare cost, surgeon experience, hospital accreditation, results data and verified patient reviews. Istanbul Bariatric Center delivers Endosleeve with Dr Murat Ustun (2,000+ ESG procedures) at JCI-accredited Liv Hospital from £5,700 all-inclusive, with a 4.9-star verified review rating across 412+ patients.",
     canonical: SITE_URL + "/best-endosleeve-clinic-istanbul",
@@ -1169,7 +1169,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/uk": {
-    title: "ESG for UK Patients | Endoscopic Sleeve Gastroplasty Turkey | Save Up to 70%",
+    title: "ESG for UK Patients | Endoscopic Sleeve in Turkey",
     description: "ESG for UK patients. Affordable non-surgical weight loss in Turkey. All-inclusive from £5,700. Save up to 70% vs UK clinics. Free consultation.",
     h1: "Endoscopic Sleeve Gastroplasty (ESG) for UK Patients — A Safer, Non-Surgical Weight Loss Solution in Turkey",
     bodyExcerpt: "ESG for UK patients at Istanbul Bariatric Center. Non-surgical, incision-free weight loss procedure with all-inclusive packages from £5,700. Save up to 70% compared to UK private clinics. JCI-accredited Liv Hospital, pioneer surgeon Dr Murat Ustun, UK patient coordinators, 12-month UK dietitian support included.",
@@ -1230,7 +1230,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/de": {
-    title: "ESG Türkei für deutsche Patienten | Magenverkleinerung ohne OP | Bis zu 70 % sparen",
+    title: "ESG Türkei | Magenverkleinerung ohne OP",
     description: "ESG für Patienten aus Deutschland. Bis zu 70 % günstiger. All-Inclusive ab ca. 5.800 € im JCI-akkreditierten Krankenhaus. Kostenlose Beratung.",
     h1: "Endoskopische Sleeve Gastroplastik (ESG) für Patienten aus Deutschland — Abnehmen ohne Operation in der Türkei",
     bodyExcerpt: "ESG für deutsche Patienten im Istanbul Bariatric Center. Minimalinvasive, schnittfreie Magenverkleinerung mit All-Inclusive-Paketen ab ca. 5.800 €. Bis zu 70 % günstiger als in Deutschland. JCI-akkreditiertes Liv Hospital, Pionier-Chirurg Dr. Murat Üstün, deutschsprachige Patientenbetreuung, 12-monatige Ernährungsberatung inklusive.",
@@ -1289,7 +1289,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/fr": {
-    title: "ESG Turquie pour patients français | Sleeve sans chirurgie | Jusqu'à 70 % d'économie",
+    title: "ESG Turquie | Sleeve sans chirurgie",
     description: "ESG pour patients en France. Jusqu'à 70 % moins cher. Forfaits tout compris dès 6 700 € en hôpital accrédité JCI. Consultation gratuite.",
     h1: "Sleeve Gastroplastie Endoscopique (ESG) pour les patients en France — Perdre du poids sans chirurgie en Turquie",
     bodyExcerpt: "ESG pour patients français à Istanbul Bariatric Center. Réduction gastrique mini-invasive sans chirurgie avec forfaits tout compris à partir d'environ 6 700 €. Jusqu'à 70 % moins cher qu'en France. Hôpital accrédité JCI, chirurgien pionnier Dr Murat Üstün, accompagnement francophone, suivi nutritionnel de 12 mois inclus.",
@@ -1348,7 +1348,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/es": {
-    title: "ESG Turquía para pacientes de España | Adelgazar sin cirugía | Hasta 70 % de ahorro",
+    title: "ESG Turquía | Adelgazar sin cirugía",
     description: "ESG sin cirugía para pacientes en España. Hasta 70 % más barato. Todo incluido desde 5.800 € en hospital acreditado JCI. Consulta gratuita.",
     h1: "Gastroplastia Endoscópica en Manga (ESG) para pacientes en España — Adelgazar sin cirugía en Turquía",
     bodyExcerpt: "ESG para pacientes españoles en Istanbul Bariatric Center. Reducción gástrica mínimamente invasiva sin cirugía con paquetes todo incluido desde aprox. 5.800 €. Hasta 70 % más barato que en España. Hospital acreditado JCI, cirujano pionero Dr. Murat Üstün, atención en español, seguimiento nutricional de 12 meses incluido.",
@@ -1407,7 +1407,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/nl": {
-    title: "ESG Turkije voor Nederlandse patiënten | Afvallen zonder operatie | Tot 70% besparing",
+    title: "ESG Turkije | Afvallen zonder operatie",
     description: "ESG zonder operatie voor patiënten uit Nederland. Tot 70% goedkoper. All-inclusive vanaf € 5.800 in JCI-geaccrediteerd ziekenhuis. Gratis consult.",
     h1: "Endoscopische Sleeve Gastroplastiek (ESG) voor patiënten uit Nederland — Afvallen zonder operatie in Turkije",
     bodyExcerpt: "ESG voor Nederlandse patiënten bij Istanbul Bariatric Center. Maagverkleining zonder operatie met all-inclusive pakketten vanaf circa € 5.800. Tot 70% goedkoper dan in Nederland. JCI-geaccrediteerd ziekenhuis, pionier Dr. Murat Üstün, persoonlijke begeleiding, 12 maanden voedingsbegeleiding inbegrepen.",
@@ -1466,7 +1466,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/ar": {
-    title: "عملية طي المعدة بالمنظار في تركيا | ESG للمرضى من الخليج | من ٧,٥٠٠ دولار",
+    title: "عملية طي المعدة بالمنظار في تركيا | ESG",
     description: "عملية ESG بدون جراحة للمرضى من الخليج. باقات شاملة من ٧,٥٠٠ دولار. مستشفى معتمد JCI. استشارة مجانية.",
     h1: "عملية طي المعدة بالمنظار (ESG) بدون جراحة — حل متطور لإنقاص الوزن للمرضى من الخليج في تركيا",
     bodyExcerpt: "عملية ESG لمرضى الخليج في مركز إسطنبول لجراحة السمنة. تصغير المعدة بدون جراحة مع باقات شاملة من ٧,٥٠٠ دولار. مستشفى معتمد JCI، الدكتور مراد أوستون رائد ESG في تركيا، مترجمون عرب، متابعة غذائية ١٢ شهرًا.",
@@ -1526,7 +1526,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/it": {
-    title: "ESG Turchia per pazienti italiani | Dimagrire senza chirurgia | € 6.450 tutto incluso",
+    title: "ESG Turchia | Dimagrire senza chirurgia",
     description: "ESG senza chirurgia per pazienti dall'Italia. Tutto incluso € 6.450 in ospedale accreditato JCI a Istanbul. Consulenza gratuita.",
     h1: "Gastroplastica Endoscopica (ESG) per pazienti dall'Italia — Dimagrire senza chirurgia in Turchia",
     bodyExcerpt: "Gastroplastica Endoscopica (ESG) per pazienti italiani presso Istanbul Bariatric Center. Riduzione dello stomaco senza chirurgia. Pacchetto tutto incluso a € 6.450 — ospedale accreditato JCI, Dr. Murat Üstün, transfer VIP, hotel, supporto nutrizionale 12 mesi. Risparmio del 20-55% rispetto ai prezzi italiani.",
@@ -1584,7 +1584,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/ru": {
-    title: "ESG Турция для пациентов из России | Похудение без операции | Клиника JCI",
+    title: "ESG Турция | Похудение без операции",
     description: "Эндоскопическая гастропластика для пациентов из России и СНГ. Клиника JCI. Пакеты всё включено. Бесплатная консультация.",
     h1: "Эндоскопическая гастропластика (ESG) — эффективное снижение веса без операции в Турции",
     bodyExcerpt: "Эндоскопическая гастропластика (ESG) для пациентов из России и СНГ в Istanbul Bariatric Center. Уменьшение желудка без операции. Клиника с аккредитацией JCI. Доктор Мурат Юстюн. Русскоговорящий персонал. Пакеты «всё включено» с трансфером, проживанием и 12 месяцами нутритивного сопровождения.",
@@ -1637,7 +1637,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/ro": {
-    title: "ESG Turcia pentru pacienți din România | Slăbire fără operație | Spital JCI",
+    title: "ESG Turcia | Slăbire fără operație",
     description: "Gastroplastie endoscopică fără chirurgie pentru pacienți din România. Spital acreditat JCI. Pachete all-inclusive. Consultație gratuită.",
     h1: "Gastroplastie Endoscopică (ESG) — Slăbire fără operație în Turcia pentru pacienți din România",
     bodyExcerpt: "Gastroplastie Endoscopică (ESG) pentru pacienți din România la Istanbul Bariatric Center. Reducerea stomacului fără chirurgie. Spital acreditat JCI. Dr. Murat Üstün. Pachete all-inclusive cu transfer VIP, cazare hotel și urmărire nutrițională 12 luni. Zboruri directe din București și Cluj (~1,5-2 ore).",
@@ -1690,7 +1690,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/se": {
-    title: "ESG Turkiet för svenska patienter | Gå ner i vikt utan operation | € 6 450 allt inkluderat",
+    title: "ESG Turkiet | Gå ner i vikt utan operation",
     description: "ESG utan kirurgi för patienter från Sverige. All-inclusive € 6 450 på JCI-ackrediterat sjukhus i Istanbul. Gratis konsultation.",
     h1: "Endoskopisk Sleeve Gastroplastik (ESG) — Gå ner i vikt utan operation i Turkiet",
     bodyExcerpt: "Endoskopisk Sleeve Gastroplastik (ESG) för patienter från Sverige vid Istanbul Bariatric Center. Magförminskning utan kirurgi. JCI-ackrediterat sjukhus. Dr. Murat Üstün. All-inclusive-paket € 6 450 med VIP-transfer, hotell och 12 månaders nutritionsstöd. Direktflyg från Stockholm Arlanda (~3-3,5 timmar).",
@@ -1743,7 +1743,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/pl": {
-    title: "ESG Turcja dla pacjentów z Polski | Odchudzanie bez operacji | € 6 450 all-inclusive",
+    title: "ESG Turcja | Odchudzanie bez operacji",
     description: "ESG bez chirurgii dla pacjentów z Polski. All-inclusive € 6 450 w szpitalu z akredytacją JCI w Stambule. Bezpłatna konsultacja.",
     h1: "Endoskopowa Gastroplastyka Rękawowa (ESG) — Odchudzanie bez operacji w Turcji",
     bodyExcerpt: "Endoskopowa Gastroplastyka Rękawowa (ESG) dla pacjentów z Polski w Istanbul Bariatric Center. Zmniejszenie żołądka bez operacji. Szpital z akredytacją JCI. Dr Murat Üstün. Pakiet all-inclusive € 6 450 z transferem VIP, hotelem i 12-miesięcznym wsparciem dietetycznym. Bezpośrednie loty z Warszawy i Krakowa (~2,5-3 godziny).",
@@ -1796,7 +1796,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/dk": {
-    title: "ESG Tyrkiet for danske patienter | Vægttab uden kirurgi | € 6.450 all-inclusive",
+    title: "ESG Tyrkiet | Vægttab uden kirurgi",
     description: "ESG uden kirurgi for patienter fra Danmark. All-inclusive € 6.450 på JCI-akkrediteret hospital i Istanbul. Gratis konsultation.",
     h1: "Endoskopisk Sleeve Gastroplastik (ESG) — Vægttab uden kirurgi i Tyrkiet",
     bodyExcerpt: "Endoskopisk Sleeve Gastroplastik (ESG) for patienter fra Danmark i Istanbul Bariatric Center. Mavereduktion uden kirurgi. JCI-akkrediteret hospital. Dr. Murat Üstün. All-inclusive-pakke € 6.450 med VIP-transfer, hotel og 12 måneders ernæringsstøtte. Direkte fly fra København Kastrup (~3-3,5 timer).",
@@ -1849,7 +1849,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/no": {
-    title: "ESG Tyrkia for norske pasienter | Vekttap uten kirurgi | € 6.450 all-inclusive",
+    title: "ESG Tyrkia | Vekttap uten kirurgi",
     description: "ESG uten kirurgi for pasienter fra Norge. All-inclusive € 6.450 på JCI-akkreditert sykehus i Istanbul. Gratis konsultasjon.",
     h1: "Endoskopisk Sleeve Gastroplastikk (ESG) — Vekttap uten kirurgi i Tyrkia",
     bodyExcerpt: "Endoskopisk Sleeve Gastroplastikk (ESG) for pasienter fra Norge i Istanbul Bariatric Center. Mageminsking uten kirurgi. JCI-akkreditert sykehus. Dr. Murat Üstün. All-inclusive-pakke € 6.450 med VIP-transfer, hotell og 12 måneders ernæringsstøtte. Direktefly fra Oslo Gardermoen (~3,5-4 timer).",
@@ -1902,7 +1902,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/hu": {
-    title: "ESG Törökország magyar betegeknek | Fogyás műtét nélkül | € 6.450 all-inclusive",
+    title: "ESG Törökország | Fogyás műtét nélkül",
     description: "ESG műtét nélkül magyar pácienseknek. All-inclusive € 6.450 JCI-akkreditált kórházban Isztambulban. Ingyenes konzultáció.",
     h1: "Endoszkópos Sleeve Gastroplasztika (ESG) — Fogyás műtét nélkül Törökországban",
     bodyExcerpt: "Endoszkópos Sleeve Gastroplasztika (ESG) magyar pácienseknek az Istanbul Bariatric Centerben. Gyomor csökkentés műtét nélkül. JCI-akkreditált kórház. Dr. Murat Üstün. All-inclusive csomag € 6.450 VIP transzferrel, szállodával és 12 hónapos dietetikai támogatással. Közvetlen járatok Budapestről (~2-2,5 óra).",
@@ -1955,7 +1955,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/fi": {
-    title: "ESG Turkki suomalaisille potilaille | Laihtuminen ilman leikkausta | € 6.450 all-inclusive",
+    title: "ESG Turkki | Laihtuminen ilman leikkausta",
     description: "Endoskooppinen sleeve gastroplastia suomalaisille. All-inclusive € 6.450 JCI-akkreditoidussa sairaalassa. Ilmainen konsultaatio.",
     h1: "Endoskooppinen Sleeve Gastroplastia (ESG) — Laihtuminen ilman leikkausta Turkissa",
     bodyExcerpt: "Endoskooppinen Sleeve Gastroplastia (ESG) suomalaisille potilaille Istanbul Bariatric Centerissä. Mahalaukun pienennys ilman leikkausta. JCI-akkreditoitu sairaala. Dr. Murat Üstün. All-inclusive-paketti € 6.450 VIP-kuljetuksella, hotellilla ja 12 kuukauden ravitsemustuella. Suorat lennot Helsinki-Vantaalta (~3,5-4 tuntia).",
@@ -2008,7 +2008,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/ca": {
-    title: "ESG Turkey for Canadian Patients | Weight Loss Without Surgery | $9,800 USD All-Inclusive",
+    title: "ESG Turkey for Canadians | Weight Loss Without Surgery",
     description: "ESG without surgery for Canadian patients. All-inclusive $9,800 USD at JCI-accredited hospital. Save vs Canadian clinics. Free consultation.",
     h1: "Endoscopic Sleeve Gastroplasty (ESG) — Safe, Minimally Invasive Weight Loss in Turkey",
     bodyExcerpt: "Endoscopic Sleeve Gastroplasty (ESG) for Canadian patients at Istanbul Bariatric Center. Stomach reduction without surgery. JCI-accredited hospital. Dr. Murat Üstün. Procedure $8,650 USD or all-inclusive package $9,800 USD with VIP transfers, hotel, and 12-month dietitian support. Direct flights from Toronto Pearson (~10-11 hours).",
@@ -2061,7 +2061,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/us": {
-    title: "ESG Turkey for US Patients | Minimally Invasive Weight Loss | $9,800 All-Inclusive",
+    title: "ESG Turkey for US Patients | Non-Surgical Weight Loss",
     description: "ESG for US patients. Procedure $8,650, all-inclusive $9,800 USD at JCI-accredited hospital in Istanbul. Free consultation.",
     h1: "Endoscopic Sleeve Gastroplasty (ESG) — A Minimally Invasive Alternative to Traditional Bariatric Surgery",
     bodyExcerpt: "Endoscopic Sleeve Gastroplasty (ESG) for American patients at Istanbul Bariatric Center. Evidence-based stomach reduction without surgery. JCI-accredited hospital. Dr. Murat Üstün. Procedure $8,650 USD or all-inclusive $9,800 USD with VIP transfers, 4-star hotel, and 12-month dietitian support via telemedicine. Direct flights from NYC, Chicago, LA, Houston, Miami.",
@@ -2114,7 +2114,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/anz": {
-    title: "ESG Turkey for Australia & New Zealand | Safe, Minimally Invasive Weight Loss | $9,800 USD All-Inclusive",
+    title: "ESG Turkey for Australia & NZ | Non-Surgical",
     description: "ESG for Australian and New Zealand patients. All-inclusive $9,800 USD at JCI-accredited hospital in Istanbul. Free consultation.",
     h1: "Endoscopic Sleeve Gastroplasty (ESG) — Safe, Minimally Invasive Weight Loss in Istanbul",
     bodyExcerpt: "Endoscopic Sleeve Gastroplasty (ESG) for Australian and New Zealand patients at Istanbul Bariatric Center. Minimally invasive stomach reduction without surgery. JCI-accredited hospital. Dr. Murat Üstün. Procedure $8,650 USD or all-inclusive $9,800 USD with VIP transfers, 4-star hotel, and 12-month dietitian support via telehealth. Flights from Sydney, Melbourne, Auckland.",
@@ -2167,7 +2167,7 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/esg/az": {
-    title: "Türkiyədə Azərbaycanlı Xəstələr üçün ESG | Cərrahiyyəsiz Arıqlama | € 6.450 hər şey daxil",
+    title: "Türkiyədə ESG | Cərrahiyyəsiz Arıqlama",
     description: "Azərbaycanlı xəstələr üçün cərrahiyyəsiz ESG. İstanbulda JCI akkreditasiyalı xəstəxanada hər şey daxil € 6.450. Pulsuz məsləhət.",
     h1: "Endoskopik Sleeve Qastroplastika (ESG) — Cərrahiyyəsiz arıqlama Türkiyədə",
     bodyExcerpt: "Azərbaycanlı xəstələr üçün Endoskopik Sleeve Qastroplastika (ESG) Istanbul Bariatric Center-də. Cərrahiyyəsiz mədə azaltma. JCI-akkreditasiyalı xəstəxana. Dr Murat Ustun. Hər şey daxil paket € 6.450 VIP transfer, otel və 12 aylıq dietoloq dəstəyi ilə. Bakıdan birbaşa uçuşlar (~3-3,5 saat).",
@@ -2218,7 +2218,7 @@ const staticPages: Record<string, PageSEO> = {
 <section><h2>Tez-tez verilən suallar</h2><dl><dt>ESG Azərbaycanda mövcuddurmu?</dt><dd>ESG Azərbaycanda geniş mövcud deyil. Hər şey daxil paketimiz € 6.450 (~11.900 AZN).</dd><dt>İstanbulda nə qədər qalmaq lazımdır?</dt><dd>3-4 gün. Bakıdan birbaşa uçuşlar (~3-3,5 saat).</dd><dt>Ağrılıdırmı?</dt><dd>ESG ümumi anesteziya altında icra olunur. 1-3 gün yüngül narahatlıq.</dd><dt>Nəticələr daimidir?</dt><dd>Bəli, düzgün həyat tərzi ilə. 12 aylıq dietoloq dəstəyi daxildir.</dd><dt>Hansı BMI lazımdır?</dt><dd>BMI 30 ilə 40 arasında.</dd><dt>Təhlükəsizdirmi?</dt><dd>Bütün əməliyyatlar JCI-akkreditasiyalı Liv Hospital-da. Dr Murat Ustun minlərlə ESG icra edib.</dd><dt>Paketə nələr daxildir?</dt><dd>Prosedur, JCI xəstəxanası, müayinələr, VIP transfer, otel, dərmanlar, 12 ay dietoloq dəstəyi. Gizli xərclər yoxdur.</dd></dl></section>`,
   },
   "/post-bariatric-surgery": {
-    title: "Post Bariatric Body Contouring Surgery - Istanbul Bariatric Center",
+    title: "Post-Bariatric Body Contouring - Istanbul Bariatric Ctr",
     description: "Post bariatric body contouring surgery in Istanbul. Tummy tuck, arm lift, thigh lift, breast lift after major weight loss. Complete your transformation.",
     h1: "Post Bariatric Body Contouring Surgery",
     bodyExcerpt: "Post Bariatric Body Contouring at Istanbul Bariatric Center helps patients complete their weight loss transformation. After significant weight loss from bariatric surgery, excess skin can be removed through procedures including tummy tuck (abdominoplasty), arm lift, thigh lift, breast lift, and body lift.",
@@ -2346,7 +2346,7 @@ const staticPages: Record<string, PageSEO> = {
 <section><h2>Medical Tourism in Istanbul — Logistics & Planning</h2><p>Istanbul Bariatric Center handles logistics including VIP airport transfers, Radisson Hotel accommodation, and patient coordination. Surgery can typically be arranged within 2–4 weeks. UK citizens travel visa-free for up to 90 days. Liv Hospital is 30 minutes from Istanbul Airport. Patients should pack comfortable clothing, current medications, and personal essentials. The clinic provides compression garment, medications, and all hospital essentials.</p></section>`,
   },
   "/health-profile": {
-    title: "Personal Health Profile: Am I Eligible for Bariatric Surgery?",
+    title: "Am I Eligible for Bariatric Surgery? | Health Profile",
     description: "Assess your eligibility for bariatric surgery with a free health profile at Istanbul Bariatric Center. Get personalized expert recommendations.",
     h1: "Personal Health Profile: Am I Eligible for Bariatric Surgery?",
     bodyExcerpt: "Complete our comprehensive health profile to find out if you're eligible for weight loss surgery at Istanbul Bariatric Center. Our medical team will review your health information including BMI, medical history, and lifestyle factors to recommend the most suitable procedure for you.",
@@ -2374,6 +2374,7 @@ const staticPages: Record<string, PageSEO> = {
 interface BlogPostSEO {
   slug: string;
   title: string;
+  seoTitle?: string;
   excerpt: string;
   date: string;
   image?: string;
@@ -2382,77 +2383,77 @@ interface BlogPostSEO {
 }
 
 const blogPosts: BlogPostSEO[] = [
-  { slug: "tore-procedure-gastric-bypass-revision", title: "TORe Procedure: Endoscopic Outlet Reduction for Gastric Bypass Revision (2026 Guide)", excerpt: "Regaining weight after gastric bypass? The TORe procedure (Transoral Outlet Reduction) tightens a stretched stoma endoscopically — no incisions, no scars. Full guide to candidacy, method, scientific results and life after TORe at Istanbul Bariatric Center.", date: "July 31, 2026", publishedAt: "2026-07-31T09:00:00+03:00", image: "/blog-tore-procedure.webp" },
-  { slug: "gastroparesis-symptoms-causes-treatment-guide", title: "Gastroparesis: Symptoms, Causes and Treatment Explained (2026 Guide)", excerpt: "A clear, evidence-based guide to gastroparesis (delayed stomach emptying) — what causes it, the warning symptoms, how doctors diagnose it with a gastric emptying study, and the diet, medication and surgical options that relieve it.", date: "June 24, 2026", publishedAt: "2026-06-24T09:00:00+03:00", image: "/blog-gastroparesis.webp" },
-  { slug: "mounjaro-vs-bariatric-surgery-2026", title: "Mounjaro vs Bariatric Surgery 2026: Which Wins for Long-Term Weight Loss?", excerpt: "Mounjaro (tirzepatide) vs bariatric surgery in 2026 — head-to-head comparison of weight loss results, cost, side effects, durability and ideal patient profile. Includes evidence tables and a decision framework.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", updatedAt: "2026-06-01T09:00:00+03:00", image: "/blog-mounjaro-vs-bariatric.webp" },
-  { slug: "weight-loss-surgery-cost-turkey-2026", title: "Weight Loss Surgery Cost in Turkey 2026: Honest Pricing Guide", excerpt: "Up-to-date 2026 prices for gastric sleeve, bypass, balloon and ESG in Turkey vs UK, USA, Germany and Mexico. What is included, what is not, and the hidden costs to watch for.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", updatedAt: "2026-06-01T09:00:00+03:00", image: "/blog-cost-turkey-2026.webp" },
-  { slug: "gastric-sleeve-recovery-week-by-week", title: "Gastric Sleeve Recovery Week by Week: A Realistic 12-Week Timeline", excerpt: "What to actually expect each week after gastric sleeve surgery — physical milestones, diet stages, energy levels, common worries and red flags. A realistic, no-fluff 12-week recovery roadmap.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-sleeve-recovery-weeks.webp" },
-  { slug: "gastric-sleeve-vs-mini-gastric-bypass-2026", title: "Gastric Sleeve vs Mini Gastric Bypass 2026: Which Is Right For You?", excerpt: "Detailed 2026 comparison of gastric sleeve and mini gastric bypass — weight loss, diabetes remission, reflux risk, cost, recovery and reversibility. A clear decision matrix to choose the right operation.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", updatedAt: "2026-06-01T09:00:00+03:00", image: "/blog-sleeve-vs-mini-bypass.webp" },
-  { slug: "is-bariatric-surgery-permanent-long-term-results", title: "Is Bariatric Surgery Permanent? 5, 10 and 20-Year Results Honestly Reviewed", excerpt: "An honest look at whether bariatric surgery is truly permanent. What stays the same forever, what can change, why some patients regain, and what 20 years of follow-up data really shows.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-bariatric-permanent.webp" },
-  { slug: "weight-regain-after-gastric-sleeve-causes-solutions", title: "Weight Regain After Gastric Sleeve: Causes, Solutions and How to Reset", excerpt: "Why some patients regain weight after gastric sleeve, the warning signs to spot early, and the proven medical, behavioural and surgical options to reverse regain in 2026.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-weight-regain-sleeve.webp" },
-  { slug: "bariatric-surgery-day-by-day-recovery-timeline", title: "Bariatric Surgery Day-by-Day Recovery Timeline: The First 30 Days", excerpt: "A precise day-by-day recovery timeline for the first 30 days after gastric sleeve, bypass or mini bypass — what you can eat, do, lift, and when to call your surgeon. Honest, no fluff.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-day-by-day-recovery.webp" },
-  { slug: "life-after-gastric-bypass-real-patient-stories", title: "Life After Gastric Bypass: Real Patient Stories From Year 1, 5 and 10", excerpt: "What life is really like after gastric bypass — three honest patient stories at 1, 5 and 10 years post-op covering food, energy, relationships, work and what they wish they had known.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-life-after-bypass.webp" },
-  { slug: "cheapest-country-bariatric-surgery-2026-comparison", title: "Cheapest Country for Bariatric Surgery 2026: Honest 8-Country Comparison", excerpt: "Where is bariatric surgery actually cheapest — and is cheap the right metric? A 2026 comparison of price, quality, safety, aftercare and total cost across Turkey, Mexico, India, Thailand, the UK, USA, Germany and Czechia.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", updatedAt: "2026-06-01T09:00:00+03:00", image: "/blog-cheapest-country-bariatric.webp" },
-  { slug: "how-to-choose-bariatric-surgeon-istanbul-checklist", title: "How to Choose a Bariatric Surgeon in Istanbul: 2026 Checklist", excerpt: "A practical 2026 checklist for choosing the right bariatric surgeon in Istanbul — credentials, case volume, hospital accreditation, aftercare, red flags, and the exact questions to ask before paying a deposit.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-choose-surgeon.webp" },
-  { slug: "all-inclusive-bariatric-package-istanbul-explained", title: "All-Inclusive Bariatric Package Istanbul 2026: What's Really Included", excerpt: "Exactly what an all-inclusive bariatric package in Istanbul covers in 2026 — surgery, hotel, transfers, tests, aftercare — and the hidden extras to ask about before you book.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-all-inclusive-package.webp" },
-  { slug: "medical-tourism-istanbul-bariatric-step-by-step", title: "Medical Tourism Istanbul Bariatric Surgery: A Step-by-Step 2026 Guide", excerpt: "From first enquiry to flying home — every step of the medical tourism process for bariatric surgery in Istanbul, with timings, paperwork, costs and what to do if anything goes wrong.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-medical-tourism-istanbul.webp" },
-  { slug: "bariatric-surgery-insurance-coverage-international", title: "Bariatric Surgery Insurance Coverage 2026: International Patient Guide", excerpt: "Will insurance cover your bariatric surgery in Turkey? A 2026 guide for UK, EU, US and Middle Eastern patients on what is covered, how to claim back, what travel insurance you need, and how to fund the gap.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-bariatric-insurance.webp" },
-  { slug: "gastric-balloon-vs-gastric-sleeve-which-is-right", title: "Gastric Balloon vs Gastric Sleeve 2026: Which Is Right For You?", excerpt: "Detailed 2026 comparison of gastric balloon and gastric sleeve — weight loss, reversibility, recovery, cost, and how to choose between a temporary device and permanent surgery.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-balloon-vs-sleeve.webp" },
-  { slug: "bariatric-surgery-and-pregnancy-what-to-know", title: "Bariatric Surgery and Pregnancy 2026: Timing, Safety and Nutrition", excerpt: "Planning pregnancy after bariatric surgery? A 2026 evidence-based guide to timing, fertility improvements, vitamin needs, monitoring during pregnancy and breastfeeding considerations.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-bariatric-pregnancy.webp" },
-  { slug: "dumping-syndrome-after-gastric-bypass-management", title: "Dumping Syndrome After Gastric Bypass: 2026 Management Guide", excerpt: "What dumping syndrome feels like, why it happens after gastric bypass, and a practical 2026 dietary, behavioural and medical management plan to keep symptoms under control.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-dumping-syndrome.webp" },
-  { slug: "hair-loss-after-bariatric-surgery-prevention-guide", title: "Hair Loss After Bariatric Surgery: Prevention Guide 2026", excerpt: "Why hair loss happens after gastric sleeve and bypass, when to expect it, how to prevent it, and the supplements and habits that protect your hair through rapid weight loss in 2026.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-hair-loss.webp" },
-  { slug: "loose-skin-after-weight-loss-surgery-options", title: "Loose Skin After Weight Loss Surgery 2026: Your Options", excerpt: "Why loose skin happens after major weight loss, what you can do without surgery, and a 2026 overview of body contouring procedures available in Istanbul including timing, cost and recovery.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-loose-skin.webp" },
-  { slug: "bariatric-surgery-mental-health-emotional-journey", title: "Bariatric Surgery and Mental Health 2026: The Emotional Journey", excerpt: "An honest 2026 guide to the emotional journey of bariatric surgery — pre-op anxiety, post-op grief, identity shifts, addiction transfer, and where to find evidence-based mental health support.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-mental-health.webp" },
-  { slug: "revision-bariatric-surgery-failed-sleeve-options", title: "Revision Bariatric Surgery 2026: Options When Your Sleeve Has Failed", excerpt: "What to do when your gastric sleeve has failed — the 2026 revision options including conversion to bypass, mini bypass, SADI-S, and re-sleeve, with realistic outcomes, costs and risks in Istanbul.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-revision-surgery.webp" },
-  { slug: "ipsos-global-perceptions-obesity-study-2026", title: "Global Perceptions of Obesity in 2026: What a New Ipsos Study Reveals", excerpt: "A new Ipsos Global Perceptions of Obesity Study surveyed 14,500 adults across 14 countries. Here is what it reveals about stigma, treatment access, risk awareness and the future of obesity care in 2026.", date: "May 10, 2026", publishedAt: "2026-05-10T00:00:00+03:00", image: "/blog-obesity-perceptions-2026.webp" },
-  { slug: "esg-nbsr-uk-registry-2026", title: "ESG Joins the UK National Bariatric Surgery Registry: What It Means for Patients in 2026", excerpt: "The British Obesity & Metabolic Specialist Society (BOMSS) has added Endoscopic Sleeve Gastroplasty (ESG) to the UK's National Bariatric Surgery Registry. Here is what this 2026 milestone means for safety data, NHS access, 10-year outcomes and patient choice.", date: "May 16, 2026", publishedAt: "2026-05-16T00:00:00+03:00", image: "/blog-esg-nbsr-registry-2026.webp" },
-  { slug: "esg-tore-endoscopic-weight-loss-evidence-2026", title: "ESG & TORe 2026: Clinical Evidence for Endoscopic Weight Loss", excerpt: "Explore non-surgical weight loss with ESG and TORe at Istanbul Bariatric Center. Latest 2026 clinical evidence, 5-year outcomes, and safety data.", date: "March 18, 2026", publishedAt: "2026-03-18T00:00:00+03:00", updatedAt: "2026-05-16T09:00:00+03:00", image: "/blog-esg-tore-evidence-2026.webp" },
-  { slug: "ileal-transposition-surgery-diabetes", title: "Ileal Transposition Surgery for Diabetes: What Patients Need to Know", excerpt: "Ileal transposition is an investigational metabolic procedure that repositions part of the small intestine to boost natural gut hormones like GLP-1. Learn how it works, who it is for, and why it is not yet a standard treatment for diabetes.", date: "March 9, 2026", publishedAt: "2026-03-09T00:00:00+03:00", image: "/blog-ileal-cover.webp" },
-  { slug: "gastric-fundus-mucosal-ablation-gfma-latest-news", title: "GFMA (Gastric Fundus Mucosal Ablation): The Future of Endoscopic Weight Loss", excerpt: "Gastric Fundus Mucosal Ablation (GFMA) is a revolutionary incisionless weight loss procedure that switches off the hunger hormone at its source. Learn how GFMA works, the technical steps, ABLATE trial results, recovery and aftercare at Istanbul Bariatric Center.", date: "May 11, 2025", publishedAt: "2025-05-11T00:00:00+03:00", updatedAt: "2026-07-31T09:00:00+03:00", image: "/blog-gfma.webp" },
-  { slug: "scientific-blind-alleys-dietary-fat-sugar-freud-and-adler", title: "Scientific Blind Alleys: Dietary Fat, Sugar, Freud, and Adler", excerpt: "How Two Historic Health Myths Shaped Today's Obesity Crisis — and How We Can Fix It.", date: "April 26, 2025", publishedAt: "2025-04-26T00:00:00+03:00", image: "/blog-scientific-blind-alleys.webp" },
-  { slug: "minimizer-ring", title: "Minimizer Ring: What is it and what is it used for?", excerpt: "The MiniMIZER® Ring in Bariatric Surgery: Enhancing Outcomes in Primary and Revisional Procedures.", date: "April 19, 2025", publishedAt: "2025-04-19T00:00:00+03:00", image: "/blog-minimizer-ring.webp" },
-  { slug: "five-high-cholesterol-foods-you-should-eat-and-which-ones-to-avoid", title: "Five High-Cholesterol Foods You Should Eat – and Which Ones to Avoid", excerpt: "New research reveals that not all cholesterol-rich foods are bad for you. A cardiologist helps explain what to eat and what to skip.", date: "April 17, 2025", publishedAt: "2025-04-17T00:00:00+03:00", image: "/blog-cholesterol-cheese.webp" },
-  { slug: "weight-loss-treatments-a-holistic-comparison", title: "Weight Loss Treatments: A Holistic Comparison", excerpt: "Weight loss treatments broadening every day with new medications, revolutionary endoscopic methods and different variations of surgical options.", date: "December 31, 2024", publishedAt: "2024-12-31T00:00:00+03:00", image: "/blog-weight-loss-comparison.webp" },
-  { slug: "gastric-fundus-ablation-explained", title: "Gastric Fundus Ablation Explained", excerpt: "Revolutionizing Endoscopic Weight Loss Method. A groundbreaking, minimally invasive procedure offering new hope for sustainable weight loss.", date: "December 17, 2024", publishedAt: "2024-12-17T00:00:00+03:00", image: "/blog-fundus-explained.webp" },
-  { slug: "could-weight-loss-injections-replace-obesity-surgery", title: "Could Weight Loss Injections Replace Obesity Surgery?", excerpt: "Weight loss injections, particularly GLP-1 analogs such as semaglutide and tirzepatide, are revolutionizing the treatment of obesity.", date: "November 18, 2024", publishedAt: "2024-11-18T00:00:00+03:00", image: "/blog-weight-loss-injections.webp" },
+  { slug: "tore-procedure-gastric-bypass-revision", seoTitle: "TORe: Gastric Bypass Revision", title: "TORe Procedure: Endoscopic Outlet Reduction for Gastric Bypass Revision (2026 Guide)", excerpt: "Regaining weight after gastric bypass? The TORe procedure (Transoral Outlet Reduction) tightens a stretched stoma endoscopically — no incisions, no scars. Full guide to candidacy, method, scientific results and life after TORe at Istanbul Bariatric Center.", date: "July 31, 2026", publishedAt: "2026-07-31T09:00:00+03:00", image: "/blog-tore-procedure.webp" },
+  { slug: "gastroparesis-symptoms-causes-treatment-guide", seoTitle: "Gastroparesis Signs and Care", title: "Gastroparesis: Symptoms, Causes and Treatment Explained (2026 Guide)", excerpt: "A clear, evidence-based guide to gastroparesis (delayed stomach emptying) — what causes it, the warning symptoms, how doctors diagnose it with a gastric emptying study, and the diet, medication and surgical options that relieve it.", date: "June 24, 2026", publishedAt: "2026-06-24T09:00:00+03:00", image: "/blog-gastroparesis.webp" },
+  { slug: "mounjaro-vs-bariatric-surgery-2026", seoTitle: "Mounjaro vs Bariatric Surgery", title: "Mounjaro vs Bariatric Surgery 2026: Which Wins for Long-Term Weight Loss?", excerpt: "Mounjaro (tirzepatide) vs bariatric surgery in 2026 — head-to-head comparison of weight loss results, cost, side effects, durability and ideal patient profile. Includes evidence tables and a decision framework.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", updatedAt: "2026-06-01T09:00:00+03:00", image: "/blog-mounjaro-vs-bariatric.webp" },
+  { slug: "weight-loss-surgery-cost-turkey-2026", seoTitle: "Weight Loss Surgery Cost Turkey", title: "Weight Loss Surgery Cost in Turkey 2026: Honest Pricing Guide", excerpt: "Up-to-date 2026 prices for gastric sleeve, bypass, balloon and ESG in Turkey vs UK, USA, Germany and Mexico. What is included, what is not, and the hidden costs to watch for.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", updatedAt: "2026-06-01T09:00:00+03:00", image: "/blog-cost-turkey-2026.webp" },
+  { slug: "gastric-sleeve-recovery-week-by-week", seoTitle: "Gastric Sleeve Recovery Timeline", title: "Gastric Sleeve Recovery Week by Week: A Realistic 12-Week Timeline", excerpt: "What to actually expect each week after gastric sleeve surgery — physical milestones, diet stages, energy levels, common worries and red flags. A realistic, no-fluff 12-week recovery roadmap.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-sleeve-recovery-weeks.webp" },
+  { slug: "gastric-sleeve-vs-mini-gastric-bypass-2026", seoTitle: "Gastric Sleeve vs Mini Bypass", title: "Gastric Sleeve vs Mini Gastric Bypass 2026: Which Is Right For You?", excerpt: "Detailed 2026 comparison of gastric sleeve and mini gastric bypass — weight loss, diabetes remission, reflux risk, cost, recovery and reversibility. A clear decision matrix to choose the right operation.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", updatedAt: "2026-06-01T09:00:00+03:00", image: "/blog-sleeve-vs-mini-bypass.webp" },
+  { slug: "is-bariatric-surgery-permanent-long-term-results", seoTitle: "Is Bariatric Surgery Permanent?", title: "Is Bariatric Surgery Permanent? 5, 10 and 20-Year Results Honestly Reviewed", excerpt: "An honest look at whether bariatric surgery is truly permanent. What stays the same forever, what can change, why some patients regain, and what 20 years of follow-up data really shows.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-bariatric-permanent.webp" },
+  { slug: "weight-regain-after-gastric-sleeve-causes-solutions", seoTitle: "Weight Regain After Sleeve", title: "Weight Regain After Gastric Sleeve: Causes, Solutions and How to Reset", excerpt: "Why some patients regain weight after gastric sleeve, the warning signs to spot early, and the proven medical, behavioural and surgical options to reverse regain in 2026.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-weight-regain-sleeve.webp" },
+  { slug: "bariatric-surgery-day-by-day-recovery-timeline", seoTitle: "Bariatric Recovery Day by Day", title: "Bariatric Surgery Day-by-Day Recovery Timeline: The First 30 Days", excerpt: "A precise day-by-day recovery timeline for the first 30 days after gastric sleeve, bypass or mini bypass — what you can eat, do, lift, and when to call your surgeon. Honest, no fluff.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-day-by-day-recovery.webp" },
+  { slug: "life-after-gastric-bypass-real-patient-stories", seoTitle: "Life After Gastric Bypass", title: "Life After Gastric Bypass: Real Patient Stories From Year 1, 5 and 10", excerpt: "What life is really like after gastric bypass — three honest patient stories at 1, 5 and 10 years post-op covering food, energy, relationships, work and what they wish they had known.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-life-after-bypass.webp" },
+  { slug: "cheapest-country-bariatric-surgery-2026-comparison", seoTitle: "Cheapest Country for Bariatrics", title: "Cheapest Country for Bariatric Surgery 2026: Honest 8-Country Comparison", excerpt: "Where is bariatric surgery actually cheapest — and is cheap the right metric? A 2026 comparison of price, quality, safety, aftercare and total cost across Turkey, Mexico, India, Thailand, the UK, USA, Germany and Czechia.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", updatedAt: "2026-06-01T09:00:00+03:00", image: "/blog-cheapest-country-bariatric.webp" },
+  { slug: "how-to-choose-bariatric-surgeon-istanbul-checklist", seoTitle: "Choosing a Surgeon in Istanbul", title: "How to Choose a Bariatric Surgeon in Istanbul: 2026 Checklist", excerpt: "A practical 2026 checklist for choosing the right bariatric surgeon in Istanbul — credentials, case volume, hospital accreditation, aftercare, red flags, and the exact questions to ask before paying a deposit.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-choose-surgeon.webp" },
+  { slug: "all-inclusive-bariatric-package-istanbul-explained", seoTitle: "All-Inclusive Bariatric Package", title: "All-Inclusive Bariatric Package Istanbul 2026: What's Really Included", excerpt: "Exactly what an all-inclusive bariatric package in Istanbul covers in 2026 — surgery, hotel, transfers, tests, aftercare — and the hidden extras to ask about before you book.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-all-inclusive-package.webp" },
+  { slug: "medical-tourism-istanbul-bariatric-step-by-step", seoTitle: "Medical Tourism Istanbul Guide", title: "Medical Tourism Istanbul Bariatric Surgery: A Step-by-Step 2026 Guide", excerpt: "From first enquiry to flying home — every step of the medical tourism process for bariatric surgery in Istanbul, with timings, paperwork, costs and what to do if anything goes wrong.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-medical-tourism-istanbul.webp" },
+  { slug: "bariatric-surgery-insurance-coverage-international", seoTitle: "Bariatric Surgery Insurance", title: "Bariatric Surgery Insurance Coverage 2026: International Patient Guide", excerpt: "Will insurance cover your bariatric surgery in Turkey? A 2026 guide for UK, EU, US and Middle Eastern patients on what is covered, how to claim back, what travel insurance you need, and how to fund the gap.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-bariatric-insurance.webp" },
+  { slug: "gastric-balloon-vs-gastric-sleeve-which-is-right", seoTitle: "Gastric Balloon vs Sleeve 2026", title: "Gastric Balloon vs Gastric Sleeve 2026: Which Is Right For You?", excerpt: "Detailed 2026 comparison of gastric balloon and gastric sleeve — weight loss, reversibility, recovery, cost, and how to choose between a temporary device and permanent surgery.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-balloon-vs-sleeve.webp" },
+  { slug: "bariatric-surgery-and-pregnancy-what-to-know", seoTitle: "Bariatric Surgery in Pregnancy", title: "Bariatric Surgery and Pregnancy 2026: Timing, Safety and Nutrition", excerpt: "Planning pregnancy after bariatric surgery? A 2026 evidence-based guide to timing, fertility improvements, vitamin needs, monitoring during pregnancy and breastfeeding considerations.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-bariatric-pregnancy.webp" },
+  { slug: "dumping-syndrome-after-gastric-bypass-management", seoTitle: "Dumping Syndrome After Bypass", title: "Dumping Syndrome After Gastric Bypass: 2026 Management Guide", excerpt: "What dumping syndrome feels like, why it happens after gastric bypass, and a practical 2026 dietary, behavioural and medical management plan to keep symptoms under control.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-dumping-syndrome.webp" },
+  { slug: "hair-loss-after-bariatric-surgery-prevention-guide", seoTitle: "Bariatric Hair Loss Prevention", title: "Hair Loss After Bariatric Surgery: Prevention Guide 2026", excerpt: "Why hair loss happens after gastric sleeve and bypass, when to expect it, how to prevent it, and the supplements and habits that protect your hair through rapid weight loss in 2026.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-hair-loss.webp" },
+  { slug: "loose-skin-after-weight-loss-surgery-options", seoTitle: "Loose Skin After Weight Loss", title: "Loose Skin After Weight Loss Surgery 2026: Your Options", excerpt: "Why loose skin happens after major weight loss, what you can do without surgery, and a 2026 overview of body contouring procedures available in Istanbul including timing, cost and recovery.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-loose-skin.webp" },
+  { slug: "bariatric-surgery-mental-health-emotional-journey", seoTitle: "Bariatric Mental Health Guide", title: "Bariatric Surgery and Mental Health 2026: The Emotional Journey", excerpt: "An honest 2026 guide to the emotional journey of bariatric surgery — pre-op anxiety, post-op grief, identity shifts, addiction transfer, and where to find evidence-based mental health support.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-mental-health.webp" },
+  { slug: "revision-bariatric-surgery-failed-sleeve-options", seoTitle: "Revision Options: Failed Sleeve", title: "Revision Bariatric Surgery 2026: Options When Your Sleeve Has Failed", excerpt: "What to do when your gastric sleeve has failed — the 2026 revision options including conversion to bypass, mini bypass, SADI-S, and re-sleeve, with realistic outcomes, costs and risks in Istanbul.", date: "May 3, 2026", publishedAt: "2026-05-03T00:00:00+03:00", image: "/blog-revision-surgery.webp" },
+  { slug: "ipsos-global-perceptions-obesity-study-2026", seoTitle: "Ipsos 2026 Obesity Perceptions", title: "Global Perceptions of Obesity in 2026: What a New Ipsos Study Reveals", excerpt: "A new Ipsos Global Perceptions of Obesity Study surveyed 14,500 adults across 14 countries. Here is what it reveals about stigma, treatment access, risk awareness and the future of obesity care in 2026.", date: "May 10, 2026", publishedAt: "2026-05-10T00:00:00+03:00", image: "/blog-obesity-perceptions-2026.webp" },
+  { slug: "esg-nbsr-uk-registry-2026", seoTitle: "ESG Joins UK Bariatric Registry", title: "ESG Joins the UK National Bariatric Surgery Registry: What It Means for Patients in 2026", excerpt: "The British Obesity & Metabolic Specialist Society (BOMSS) has added Endoscopic Sleeve Gastroplasty (ESG) to the UK's National Bariatric Surgery Registry. Here is what this 2026 milestone means for safety data, NHS access, 10-year outcomes and patient choice.", date: "May 16, 2026", publishedAt: "2026-05-16T00:00:00+03:00", image: "/blog-esg-nbsr-registry-2026.webp" },
+  { slug: "esg-tore-endoscopic-weight-loss-evidence-2026", seoTitle: "ESG & TORe: 2026 Evidence", title: "ESG & TORe 2026: Clinical Evidence for Endoscopic Weight Loss", excerpt: "Explore non-surgical weight loss with ESG and TORe at Istanbul Bariatric Center. Latest 2026 clinical evidence, 5-year outcomes, and safety data.", date: "March 18, 2026", publishedAt: "2026-03-18T00:00:00+03:00", updatedAt: "2026-05-16T09:00:00+03:00", image: "/blog-esg-tore-evidence-2026.webp" },
+  { slug: "ileal-transposition-surgery-diabetes", seoTitle: "Ileal Transposition for Diabetes", title: "Ileal Transposition Surgery for Diabetes: What Patients Need to Know", excerpt: "Ileal transposition is an investigational metabolic procedure that repositions part of the small intestine to boost natural gut hormones like GLP-1. Learn how it works, who it is for, and why it is not yet a standard treatment for diabetes.", date: "March 9, 2026", publishedAt: "2026-03-09T00:00:00+03:00", image: "/blog-ileal-cover.webp" },
+  { slug: "gastric-fundus-mucosal-ablation-gfma-latest-news", seoTitle: "GFMA: Gastric Fundus Ablation", title: "GFMA (Gastric Fundus Mucosal Ablation): The Future of Endoscopic Weight Loss", excerpt: "Gastric Fundus Mucosal Ablation (GFMA) is a revolutionary incisionless weight loss procedure that switches off the hunger hormone at its source. Learn how GFMA works, the technical steps, ABLATE trial results, recovery and aftercare at Istanbul Bariatric Center.", date: "May 11, 2025", publishedAt: "2025-05-11T00:00:00+03:00", updatedAt: "2026-07-31T09:00:00+03:00", image: "/blog-gfma.webp" },
+  { slug: "scientific-blind-alleys-dietary-fat-sugar-freud-and-adler", seoTitle: "Scientific Blind Alleys in Diet", title: "Scientific Blind Alleys: Dietary Fat, Sugar, Freud, and Adler", excerpt: "How Two Historic Health Myths Shaped Today's Obesity Crisis — and How We Can Fix It.", date: "April 26, 2025", publishedAt: "2025-04-26T00:00:00+03:00", image: "/blog-scientific-blind-alleys.webp" },
+  { slug: "minimizer-ring", seoTitle: "Minimizer Ring: What Is It?", title: "Minimizer Ring: What is it and what is it used for?", excerpt: "The MiniMIZER® Ring in Bariatric Surgery: Enhancing Outcomes in Primary and Revisional Procedures.", date: "April 19, 2025", publishedAt: "2025-04-19T00:00:00+03:00", image: "/blog-minimizer-ring.webp" },
+  { slug: "five-high-cholesterol-foods-you-should-eat-and-which-ones-to-avoid", seoTitle: "High-Cholesterol Foods to Eat", title: "Five High-Cholesterol Foods You Should Eat – and Which Ones to Avoid", excerpt: "New research reveals that not all cholesterol-rich foods are bad for you. A cardiologist helps explain what to eat and what to skip.", date: "April 17, 2025", publishedAt: "2025-04-17T00:00:00+03:00", image: "/blog-cholesterol-cheese.webp" },
+  { slug: "weight-loss-treatments-a-holistic-comparison", seoTitle: "Weight Loss Options Compared", title: "Weight Loss Treatments: A Holistic Comparison", excerpt: "Weight loss treatments broadening every day with new medications, revolutionary endoscopic methods and different variations of surgical options.", date: "December 31, 2024", publishedAt: "2024-12-31T00:00:00+03:00", image: "/blog-weight-loss-comparison.webp" },
+  { slug: "gastric-fundus-ablation-explained", seoTitle: "Gastric Fundus Ablation", title: "Gastric Fundus Ablation Explained", excerpt: "Revolutionizing Endoscopic Weight Loss Method. A groundbreaking, minimally invasive procedure offering new hope for sustainable weight loss.", date: "December 17, 2024", publishedAt: "2024-12-17T00:00:00+03:00", image: "/blog-fundus-explained.webp" },
+  { slug: "could-weight-loss-injections-replace-obesity-surgery", seoTitle: "Injections vs Obesity Surgery", title: "Could Weight Loss Injections Replace Obesity Surgery?", excerpt: "Weight loss injections, particularly GLP-1 analogs such as semaglutide and tirzepatide, are revolutionizing the treatment of obesity.", date: "November 18, 2024", publishedAt: "2024-11-18T00:00:00+03:00", image: "/blog-weight-loss-injections.webp" },
   { slug: "body-roundness-index-bri", title: "Body Roundness Index (BRI)", excerpt: "Body Roundness Index, is it the New BMI? What it Says About Your Health.", date: "November 11, 2024", publishedAt: "2024-11-11T00:00:00+03:00", image: "/blog-bri.webp" },
-  { slug: "ultra-processed-foods-and-their-impact-on-your-health", title: "Ultra-processed Foods and Their Impact on Your Health", excerpt: "Understanding Ultra-Processed Foods: A Deep Dive into Our Daily Diet.", date: "November 9, 2024", publishedAt: "2024-11-09T00:00:00+03:00", image: "/blog-ultra-processed-foods.webp" },
-  { slug: "comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty", title: "Comparing Bariatric Surgery and Endoscopic Sleeve Gastroplasty", excerpt: "Making an Informed Choice for Weight Loss. Understanding the differences between bariatric surgery and ESG is crucial.", date: "November 7, 2024", publishedAt: "2024-11-07T00:00:00+03:00", image: "/blog-bariatric-esg-end.webp" },
-  { slug: "5-things-you-didnt-know-about-bariatric-surgery", title: "5 Things You Didn't Know About Bariatric Surgery", excerpt: "Five Things You May Not Know About Bariatric Surgery.", date: "November 7, 2024", publishedAt: "2024-11-07T00:00:00+03:00", image: "/blog-ibc-clinic.webp" },
-  { slug: "bariatric-surgery-guidelines-updated", title: "Bariatric Surgery Guidelines Updated", excerpt: "Updated Guidelines on Bariatric Surgery: A Comprehensive Overview.", date: "November 7, 2024", publishedAt: "2024-11-07T00:00:00+03:00", image: "/blog-guidelines.webp" },
-  { slug: "barretts-esophagus-and-increased-risk-after-sleeve-gastrectomy", title: "Barrett's Esophagus and Increased Risk After Sleeve Gastrectomy", excerpt: "Barrett's Esophagus is a serious consequence of long term acid reflux. Recent research reveals important findings about risk factors after sleeve gastrectomy.", date: "July 30, 2024", publishedAt: "2024-07-30T00:00:00+03:00", image: "/blog-barretts-esophagus.webp" },
-  { slug: "comprehensive-guide-to-preoperative-medication-management", title: "Comprehensive Guide to Preoperative Medication Management", excerpt: "Proper medication management before bariatric surgery is crucial for ensuring your safety and optimizing surgical outcomes.", date: "July 24, 2024", publishedAt: "2024-07-24T00:00:00+03:00", image: "/blog-preop-medications.webp" },
-  { slug: "leaks-in-bariatric-surgery", title: "Leaks in Bariatric Surgery: Prevention, Causes & Management", excerpt: "Understand gastric leaks after bariatric surgery. Istanbul Bariatric Center provides expert insights on causes, prevention, and treatment options.", date: "July 16, 2024", publishedAt: "2024-07-16T00:00:00+03:00", image: "/blog-gastric-sleeve.webp" },
+  { slug: "ultra-processed-foods-and-their-impact-on-your-health", seoTitle: "Ultra-Processed Food Risks", title: "Ultra-processed Foods and Their Impact on Your Health", excerpt: "Understanding Ultra-Processed Foods: A Deep Dive into Our Daily Diet.", date: "November 9, 2024", publishedAt: "2024-11-09T00:00:00+03:00", image: "/blog-ultra-processed-foods.webp" },
+  { slug: "comparing-bariatric-surgery-and-endoscopic-sleeve-gastroplasty", seoTitle: "Bariatric Surgery vs ESG", title: "Comparing Bariatric Surgery and Endoscopic Sleeve Gastroplasty", excerpt: "Making an Informed Choice for Weight Loss. Understanding the differences between bariatric surgery and ESG is crucial.", date: "November 7, 2024", publishedAt: "2024-11-07T00:00:00+03:00", image: "/blog-bariatric-esg-end.webp" },
+  { slug: "5-things-you-didnt-know-about-bariatric-surgery", seoTitle: "5 Bariatric Surgery Facts", title: "5 Things You Didn't Know About Bariatric Surgery", excerpt: "Five Things You May Not Know About Bariatric Surgery.", date: "November 7, 2024", publishedAt: "2024-11-07T00:00:00+03:00", image: "/blog-ibc-clinic.webp" },
+  { slug: "bariatric-surgery-guidelines-updated", seoTitle: "Bariatric Guidelines Updated", title: "Bariatric Surgery Guidelines Updated", excerpt: "Updated Guidelines on Bariatric Surgery: A Comprehensive Overview.", date: "November 7, 2024", publishedAt: "2024-11-07T00:00:00+03:00", image: "/blog-guidelines.webp" },
+  { slug: "barretts-esophagus-and-increased-risk-after-sleeve-gastrectomy", seoTitle: "Barrett's Esophagus After Sleeve", title: "Barrett's Esophagus and Increased Risk After Sleeve Gastrectomy", excerpt: "Barrett's Esophagus is a serious consequence of long term acid reflux. Recent research reveals important findings about risk factors after sleeve gastrectomy.", date: "July 30, 2024", publishedAt: "2024-07-30T00:00:00+03:00", image: "/blog-barretts-esophagus.webp" },
+  { slug: "comprehensive-guide-to-preoperative-medication-management", seoTitle: "Preoperative Medication Guide", title: "Comprehensive Guide to Preoperative Medication Management", excerpt: "Proper medication management before bariatric surgery is crucial for ensuring your safety and optimizing surgical outcomes.", date: "July 24, 2024", publishedAt: "2024-07-24T00:00:00+03:00", image: "/blog-preop-medications.webp" },
+  { slug: "leaks-in-bariatric-surgery", seoTitle: "Leaks in Bariatric Surgery", title: "Leaks in Bariatric Surgery: Prevention, Causes & Management", excerpt: "Understand gastric leaks after bariatric surgery. Istanbul Bariatric Center provides expert insights on causes, prevention, and treatment options.", date: "July 16, 2024", publishedAt: "2024-07-16T00:00:00+03:00", image: "/blog-gastric-sleeve.webp" },
   { slug: "obesity-and-cancer-risk", title: "Obesity and Cancer Risk", excerpt: "Each year, over 684,000 Americans are diagnosed with cancers linked to obesity.", date: "July 1, 2024", publishedAt: "2024-07-01T00:00:00+03:00", image: "/blog-obesity-crisis.webp" },
   { slug: "15-most-nutrient-dense-foods", title: "15 Most Nutrient-Dense Foods", excerpt: "Simplify Your Diet, Improve Nutrition, and Reduce Calories.", date: "June 18, 2024", publishedAt: "2024-06-18T00:00:00+03:00", image: "/blog-nutrient-dense.webp" },
   { slug: "bariatric-surgery-nutrition", title: "Bariatric Surgery Nutrition", excerpt: "Comprehensive Bariatric Surgery Nutrition and Recovery Guide based on 2024 guidelines for optimal outcomes and long-term success.", date: "June 6, 2024", publishedAt: "2024-06-06T00:00:00+03:00", image: "/blog-bariatric-nutrition-cover.webp" },
-  { slug: "leptin-hormone-in-obesity-treatment", title: "Leptin Hormone in Obesity Treatment", excerpt: "How the Human Body Stores Energy, Hormones' Effect on Metabolism.", date: "May 11, 2024", publishedAt: "2024-05-11T00:00:00+03:00", image: "/blog-leptin-cover.webp" },
+  { slug: "leptin-hormone-in-obesity-treatment", seoTitle: "Leptin Hormone in Obesity", title: "Leptin Hormone in Obesity Treatment", excerpt: "How the Human Body Stores Energy, Hormones' Effect on Metabolism.", date: "May 11, 2024", publishedAt: "2024-05-11T00:00:00+03:00", image: "/blog-leptin-cover.webp" },
   { slug: "bariatric-surgery-pros-and-cons", title: "Bariatric Surgery Pros and Cons", excerpt: "Bariatric Surgery: Weighing the Pros and Cons – Is It Right for You?", date: "May 7, 2024", publishedAt: "2024-05-07T00:00:00+03:00", image: "/blog-gastric-sleeve.webp" },
-  { slug: "endoscopic-sleeve-gastroplasty-vs-gastric-sleeve", title: "Endoscopic Sleeve Gastroplasty vs Gastric Sleeve", excerpt: "Comparing VSG and ESG: Traditional Gastric Sleeve vs. Endoscopic Sleeve.", date: "April 30, 2024", publishedAt: "2024-04-30T00:00:00+03:00", image: "/blog-gastric-sleeve.webp" },
-  { slug: "endoscopic-sleeve-gastroplasty-long-term-results", title: "Endoscopic Sleeve Gastroplasty Long Term Results", excerpt: "Endoscopic Sleeve Gastroplasty: A Long-Term Solution for Weight Loss?", date: "April 22, 2024", publishedAt: "2024-04-22T00:00:00+03:00", image: "/blog-esg-results.webp" },
-  { slug: "endo-band-novel-endoscopic-approach", title: "Endo Band: A Novel Endoscopic Approach for Weight Loss", excerpt: "The Endo Band offers a less invasive alternative to traditional surgery, representing the latest innovation in endoscopic bariatric procedures.", date: "April 4, 2024", publishedAt: "2024-04-04T00:00:00+03:00", image: "/blog-endo-band.webp" },
-  { slug: "vitamin-mineral-deficiencies-after-gastric-bypass", title: "Vitamin and Mineral Deficiencies After Gastric Bypass", excerpt: "How to Avoid Vitamin and Mineral Deficiencies After Gastric Bypass Surgery.", date: "March 30, 2024", publishedAt: "2024-03-30T00:00:00+03:00", image: "/blog-vitamin-deficiencies.webp" },
-  { slug: "bariatric-surgery-as-safe-as-other-common-operations", title: "Bariatric Surgery as Safe as Other Common Operations", excerpt: "A comprehensive analysis comparing the safety of metabolic and bariatric surgery.", date: "February 25, 2024", publishedAt: "2024-02-25T00:00:00+03:00", image: "/blog-gastric-sleeve.webp" },
+  { slug: "endoscopic-sleeve-gastroplasty-vs-gastric-sleeve", seoTitle: "ESG vs Gastric Sleeve Surgery", title: "Endoscopic Sleeve Gastroplasty vs Gastric Sleeve", excerpt: "Comparing VSG and ESG: Traditional Gastric Sleeve vs. Endoscopic Sleeve.", date: "April 30, 2024", publishedAt: "2024-04-30T00:00:00+03:00", image: "/blog-gastric-sleeve.webp" },
+  { slug: "endoscopic-sleeve-gastroplasty-long-term-results", seoTitle: "ESG Long-Term Results", title: "Endoscopic Sleeve Gastroplasty Long Term Results", excerpt: "Endoscopic Sleeve Gastroplasty: A Long-Term Solution for Weight Loss?", date: "April 22, 2024", publishedAt: "2024-04-22T00:00:00+03:00", image: "/blog-esg-results.webp" },
+  { slug: "endo-band-novel-endoscopic-approach", seoTitle: "Endo Band for Weight Loss", title: "Endo Band: A Novel Endoscopic Approach for Weight Loss", excerpt: "The Endo Band offers a less invasive alternative to traditional surgery, representing the latest innovation in endoscopic bariatric procedures.", date: "April 4, 2024", publishedAt: "2024-04-04T00:00:00+03:00", image: "/blog-endo-band.webp" },
+  { slug: "vitamin-mineral-deficiencies-after-gastric-bypass", seoTitle: "Vitamin Deficiency After Bypass", title: "Vitamin and Mineral Deficiencies After Gastric Bypass", excerpt: "How to Avoid Vitamin and Mineral Deficiencies After Gastric Bypass Surgery.", date: "March 30, 2024", publishedAt: "2024-03-30T00:00:00+03:00", image: "/blog-vitamin-deficiencies.webp" },
+  { slug: "bariatric-surgery-as-safe-as-other-common-operations", seoTitle: "Bariatric Surgery Safety Data", title: "Bariatric Surgery as Safe as Other Common Operations", excerpt: "A comprehensive analysis comparing the safety of metabolic and bariatric surgery.", date: "February 25, 2024", publishedAt: "2024-02-25T00:00:00+03:00", image: "/blog-gastric-sleeve.webp" },
   { slug: "grazing-after-bariatric-surgery", title: "Grazing After Bariatric Surgery", excerpt: "One of the most common challenges that bariatric patients face is grazing.", date: "February 3, 2024", publishedAt: "2024-02-03T00:00:00+03:00", image: "/blog-grazing.webp" },
-  { slug: "bariatric-friendly-christmas-dinner-ideas", title: "Bariatric-Friendly Christmas Dinner Ideas", excerpt: "The holiday season is a time for joy, family, and delicious food. Discover 9 delicious bariatric-friendly recipes perfect for your Christmas celebration.", date: "December 22, 2023", publishedAt: "2023-12-22T00:00:00+03:00", image: "/blog-christmas-dinner.webp" },
-  { slug: "endoscopic-sleeve-gastroplasty-in-class-iii-obesity", title: "Endoscopic Sleeve Gastroplasty in Class III Obesity", excerpt: "New Study Revealed ESG's Safety and Efficacy in Class III Obesity.", date: "November 3, 2023", publishedAt: "2023-11-03T00:00:00+03:00", image: "/blog-esg-game-changer.webp" },
-  { slug: "pose-endoscopic-sleeve-gastroplasty", title: "POSE-2 Double Helix: The Next Generation of Non-Surgical Weight Loss", excerpt: "POSE-2 Double Helix reshapes your stomach through the mouth — no incisions, no scars, same-day discharge, and 15-20% total body weight loss.", date: "July 14, 2026", publishedAt: "2023-11-16T00:00:00+03:00", image: "/pose2-plication-anchors.webp" },
-  { slug: "endoscopic-sleeve-gastroplasty-game-changer", title: "Endoscopic Sleeve Gastroplasty: A Game-Changer in Obesity Treatment", excerpt: "NICE Approves Endoscopic Sleeve Gastroplasty for Primary Obesity Treatment.", date: "September 14, 2023", publishedAt: "2023-09-14T00:00:00+03:00", image: "/blog-esg-game-changer.webp" },
-  { slug: "fatty-liver-increases-in-adolescents", title: "Fatty Liver Increases In Adolescents", excerpt: "Chronic choline deficiency in diets can lead to fatty liver.", date: "August 25, 2023", publishedAt: "2023-08-25T00:00:00+03:00", image: "/blog-liver.webp" },
-  { slug: "bariatric-surgery-18-frequently-asked-questions", title: "Bariatric Surgery 18 Frequently Asked Questions", excerpt: "Every medical procedure involves inherent risks.", date: "June 24, 2023", publishedAt: "2023-06-24T00:00:00+03:00", image: "/blog-gastric-sleeve.webp" },
-  { slug: "melatonin-sleep-glucose-metabolism", title: "Melatonin: Sleep, Glucose Metabolism, and Late-Night Eating Habits", excerpt: "Melatonin has garnered significant attention due to its potential impact on glucose metabolism.", date: "May 28, 2023", publishedAt: "2023-05-28T00:00:00+03:00", image: "/blog-insulin.webp" },
-  { slug: "argon-plasma-coagulation-weight-regain", title: "Argon Plasma Coagulation: An Effective Solution for Weight Regain", excerpt: "Around 20% of obese patients who undergo RYGB fail to sustain weight loss.", date: "April 27, 2023", publishedAt: "2023-04-27T00:00:00+03:00", image: "/blog-apc.webp" },
-  { slug: "revisional-bariatric-surgery-in-turkey", title: "Revisional Bariatric Surgery in Turkey: Sleeve, Bypass & Failed Weight Loss Options (2026 Guide)", excerpt: "Weight regain, reflux or complications after bariatric surgery? Complete 2026 guide to revisional bariatric surgery in Turkey: sleeve-to-bypass conversion, band revision, endoscopic options, evaluation, risks, recovery and why patients choose Istanbul Bariatric Center.", date: "September 4, 2022", publishedAt: "2022-09-04T00:00:00+03:00", updatedAt: "2026-07-31T18:00:00+03:00", image: "/blog-gastric-sleeve.webp" },
-  { slug: "marmite-rich-resource-of-vitamin-b", title: "Marmite, A Rich Resource of Vitamin B", excerpt: "Unveiling the Marvels of Marmite: Ingredients, Usage, Recipes, Health Benefits.", date: "July 12, 2022", publishedAt: "2022-07-12T00:00:00+03:00" },
-  { slug: "ozempic-medical-treatment-of-obesity", title: "Ozempic: No 1 Best Medical Treatment of Obesity", excerpt: "Ozempic is a weekly injection of Semaglutide and advisable for the first line treatment option for weight loss.", date: "June 5, 2022", publishedAt: "2022-06-05T00:00:00+03:00" },
-  { slug: "bariclip", title: "BariClip: The Brand-new Bariatric Clip for Weight-loss", excerpt: "Obesity is an expanding health issue. One new speculative treatment resembling a clip for weightloss.", date: "February 3, 2022", publishedAt: "2022-02-03T00:00:00+03:00", image: "/blog-bariclip.webp" },
-  { slug: "elipse-swallowable-intragastric-balloon", title: "Elipse Swallowable Intragastric Balloon Reveals Substantial Weight-loss", excerpt: "The Allurion intragastric balloon (formerly the Elipse) is a unique balloon that is swallowed.", date: "January 15, 2022", publishedAt: "2022-01-15T00:00:00+03:00", image: "/blog-gastric-balloon-full.webp" },
-  { slug: "transit-bipartition-revision-alternative", title: "Transit Bipartition: An Attractive Revision Alternative When Sleeve Gastrectomy Fails", excerpt: "For patients that couldn't lose adequate weight or regain weight after LSG.", date: "November 27, 2021", publishedAt: "2021-11-27T00:00:00+03:00" },
+  { slug: "bariatric-friendly-christmas-dinner-ideas", seoTitle: "Bariatric Christmas Dinner Ideas", title: "Bariatric-Friendly Christmas Dinner Ideas", excerpt: "The holiday season is a time for joy, family, and delicious food. Discover 9 delicious bariatric-friendly recipes perfect for your Christmas celebration.", date: "December 22, 2023", publishedAt: "2023-12-22T00:00:00+03:00", image: "/blog-christmas-dinner.webp" },
+  { slug: "endoscopic-sleeve-gastroplasty-in-class-iii-obesity", seoTitle: "ESG in Class III Obesity", title: "Endoscopic Sleeve Gastroplasty in Class III Obesity", excerpt: "New Study Revealed ESG's Safety and Efficacy in Class III Obesity.", date: "November 3, 2023", publishedAt: "2023-11-03T00:00:00+03:00", image: "/blog-esg-game-changer.webp" },
+  { slug: "pose-endoscopic-sleeve-gastroplasty", seoTitle: "POSE-2 Double Helix Explained", title: "POSE-2 Double Helix: The Next Generation of Non-Surgical Weight Loss", excerpt: "POSE-2 Double Helix reshapes your stomach through the mouth — no incisions, no scars, same-day discharge, and 15-20% total body weight loss.", date: "July 14, 2026", publishedAt: "2023-11-16T00:00:00+03:00", image: "/pose2-plication-anchors.webp" },
+  { slug: "endoscopic-sleeve-gastroplasty-game-changer", seoTitle: "ESG: Obesity Game-Changer", title: "Endoscopic Sleeve Gastroplasty: A Game-Changer in Obesity Treatment", excerpt: "NICE Approves Endoscopic Sleeve Gastroplasty for Primary Obesity Treatment.", date: "September 14, 2023", publishedAt: "2023-09-14T00:00:00+03:00", image: "/blog-esg-game-changer.webp" },
+  { slug: "fatty-liver-increases-in-adolescents", seoTitle: "Fatty Liver in Adolescents", title: "Fatty Liver Increases In Adolescents", excerpt: "Chronic choline deficiency in diets can lead to fatty liver.", date: "August 25, 2023", publishedAt: "2023-08-25T00:00:00+03:00", image: "/blog-liver.webp" },
+  { slug: "bariatric-surgery-18-frequently-asked-questions", seoTitle: "Bariatric Surgery: 18 FAQs", title: "Bariatric Surgery 18 Frequently Asked Questions", excerpt: "Every medical procedure involves inherent risks.", date: "June 24, 2023", publishedAt: "2023-06-24T00:00:00+03:00", image: "/blog-gastric-sleeve.webp" },
+  { slug: "melatonin-sleep-glucose-metabolism", seoTitle: "Melatonin, Sleep, Metabolism", title: "Melatonin: Sleep, Glucose Metabolism, and Late-Night Eating Habits", excerpt: "Melatonin has garnered significant attention due to its potential impact on glucose metabolism.", date: "May 28, 2023", publishedAt: "2023-05-28T00:00:00+03:00", image: "/blog-insulin.webp" },
+  { slug: "argon-plasma-coagulation-weight-regain", seoTitle: "APC for Weight Regain", title: "Argon Plasma Coagulation: An Effective Solution for Weight Regain", excerpt: "Around 20% of obese patients who undergo RYGB fail to sustain weight loss.", date: "April 27, 2023", publishedAt: "2023-04-27T00:00:00+03:00", image: "/blog-apc.webp" },
+  { slug: "revisional-bariatric-surgery-in-turkey", seoTitle: "Revision Surgery in Turkey", title: "Revisional Bariatric Surgery in Turkey: Sleeve, Bypass & Failed Weight Loss Options (2026 Guide)", excerpt: "Weight regain, reflux or complications after bariatric surgery? Complete 2026 guide to revisional bariatric surgery in Turkey: sleeve-to-bypass conversion, band revision, endoscopic options, evaluation, risks, recovery and why patients choose Istanbul Bariatric Center.", date: "September 4, 2022", publishedAt: "2022-09-04T00:00:00+03:00", updatedAt: "2026-07-31T18:00:00+03:00", image: "/blog-gastric-sleeve.webp" },
+  { slug: "marmite-rich-resource-of-vitamin-b", seoTitle: "Marmite: Rich in Vitamin B", title: "Marmite, A Rich Resource of Vitamin B", excerpt: "Unveiling the Marvels of Marmite: Ingredients, Usage, Recipes, Health Benefits.", date: "July 12, 2022", publishedAt: "2022-07-12T00:00:00+03:00" },
+  { slug: "ozempic-medical-treatment-of-obesity", seoTitle: "Ozempic for Obesity Treatment", title: "Ozempic: No 1 Best Medical Treatment of Obesity", excerpt: "Ozempic is a weekly injection of Semaglutide and advisable for the first line treatment option for weight loss.", date: "June 5, 2022", publishedAt: "2022-06-05T00:00:00+03:00" },
+  { slug: "bariclip", seoTitle: "BariClip Weight Loss Clip", title: "BariClip: The Brand-new Bariatric Clip for Weight-loss", excerpt: "Obesity is an expanding health issue. One new speculative treatment resembling a clip for weightloss.", date: "February 3, 2022", publishedAt: "2022-02-03T00:00:00+03:00", image: "/blog-bariclip.webp" },
+  { slug: "elipse-swallowable-intragastric-balloon", seoTitle: "Elipse Swallowable Balloon", title: "Elipse Swallowable Intragastric Balloon Reveals Substantial Weight-loss", excerpt: "The Allurion intragastric balloon (formerly the Elipse) is a unique balloon that is swallowed.", date: "January 15, 2022", publishedAt: "2022-01-15T00:00:00+03:00", image: "/blog-gastric-balloon-full.webp" },
+  { slug: "transit-bipartition-revision-alternative", seoTitle: "Transit Bipartition Revision", title: "Transit Bipartition: An Attractive Revision Alternative When Sleeve Gastrectomy Fails", excerpt: "For patients that couldn't lose adequate weight or regain weight after LSG.", date: "November 27, 2021", publishedAt: "2021-11-27T00:00:00+03:00" },
   { slug: "bariatric-preoperative-diet", title: "Bariatric Preoperative Diet", excerpt: "Getting more fit before a surgical procedure diminishes the amount of fat tissue.", date: "January 26, 2021", publishedAt: "2021-01-26T00:00:00+03:00" },
-  { slug: "obese-adults-covid-vaccine-priority", title: "Obese adults in 'at-risk' priority group for COVID vaccine", excerpt: "According to the latest official government guidance, the priority for giving the vaccine will be to obese adults.", date: "January 12, 2021", publishedAt: "2021-01-12T00:00:00+03:00" },
-  { slug: "why-istanbul-is-an-important-location-for-obesity-surgery", title: "Why Istanbul is an Important Location for Obesity Surgery?", excerpt: "Istanbul has what it takes to be famous in this field. Well equipped hospitals, expert doctors.", date: "December 11, 2020", publishedAt: "2020-12-11T00:00:00+03:00", image: "/blog-ibc-clinic.webp" },
-  { slug: "bariatric-surgery-during-covid-19-pandemic", title: "Should You Consider Having A Bariatric Surgery During the COVID-19 Pandemic?", excerpt: "A Cleveland Clinic study shows that among obese patients who tested positive for COVID-19.", date: "December 7, 2020", publishedAt: "2020-12-07T00:00:00+03:00" },
-  { slug: "nutrition-tips-during-self-quarantine-covid-19", title: "Nutrition Tips During Self-Quarantine (COVID-19)", excerpt: "Since you need to spend this period at home, these suggestions will strengthen your immune system.", date: "November 25, 2020", publishedAt: "2020-11-25T00:00:00+03:00" },
+  { slug: "obese-adults-covid-vaccine-priority", seoTitle: "Obesity: COVID Vaccine Priority", title: "Obese adults in 'at-risk' priority group for COVID vaccine", excerpt: "According to the latest official government guidance, the priority for giving the vaccine will be to obese adults.", date: "January 12, 2021", publishedAt: "2021-01-12T00:00:00+03:00" },
+  { slug: "why-istanbul-is-an-important-location-for-obesity-surgery", seoTitle: "Why Istanbul for Obesity Surgery", title: "Why Istanbul is an Important Location for Obesity Surgery?", excerpt: "Istanbul has what it takes to be famous in this field. Well equipped hospitals, expert doctors.", date: "December 11, 2020", publishedAt: "2020-12-11T00:00:00+03:00", image: "/blog-ibc-clinic.webp" },
+  { slug: "bariatric-surgery-during-covid-19-pandemic", seoTitle: "Bariatric Surgery During COVID", title: "Should You Consider Having A Bariatric Surgery During the COVID-19 Pandemic?", excerpt: "A Cleveland Clinic study shows that among obese patients who tested positive for COVID-19.", date: "December 7, 2020", publishedAt: "2020-12-07T00:00:00+03:00" },
+  { slug: "nutrition-tips-during-self-quarantine-covid-19", seoTitle: "Quarantine Nutrition Tips", title: "Nutrition Tips During Self-Quarantine (COVID-19)", excerpt: "Since you need to spend this period at home, these suggestions will strengthen your immune system.", date: "November 25, 2020", publishedAt: "2020-11-25T00:00:00+03:00" },
 ];
 
 const navLinks = [
@@ -2501,7 +2502,7 @@ export function getSEOData(path: string): PageSEO | null {
       const isoPublished = post.publishedAt || parseDateToISO(post.date);
       const isoModified = post.updatedAt || isoPublished;
       return {
-        title: `${post.title} - Istanbul Bariatric Center`,
+        title: `${post.seoTitle || post.title} - Istanbul Bariatric Center`,
         description: post.excerpt.length > 155 ? post.excerpt.substring(0, 152) + "..." : post.excerpt,
         h1: post.title,
         bodyExcerpt: post.excerpt,
