@@ -14,3 +14,5 @@ Package prices appear in many places and formats. When changing prices, a plain 
 **Rule:** competitor/NHS/US/EU comparison ranges (£9k–£18k, $12k–$35k, €8k–€16k) are NOT ours — never change them. User preference (Aug 2026): round new prices to the nearest 50.
 
 **Verify:** grep for every old token afterwards (all formats), json-validate locales, typecheck, restart server, h1-check, Googlebot curl of cost page + /esg/fr.
+
+**Maya chatbot prices:** the AI chat's system prompt (server/maya-chat.ts) contains a hardcoded price list — it must be updated whenever site prices change, or the bot quotes stale/invented figures (it once told a lead GFMA was £5,700 instead of £3,250).
