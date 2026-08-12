@@ -7,6 +7,7 @@ export function Hero() {
   const { t } = useTranslation('home');
   const videoRef = useRef<HTMLVideoElement>(null);
   const [videoSrc, setVideoSrc] = useState<string | undefined>(undefined);
+  const [videoPlaying, setVideoPlaying] = useState(false);
   
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -34,7 +35,7 @@ export function Hero() {
           srcSet={getSrcSet("/hero-poster.webp")?.replace(/\.webp /g, ".webp?v=4 ")}
           sizes="100vw"
           alt="Liv Hospital Istanbul at night"
-          className="absolute inset-0 w-full h-full object-cover opacity-50"
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${videoPlaying ? "opacity-0" : "opacity-50"}`}
           fetchPriority="high"
           decoding="async"
         />
@@ -47,6 +48,7 @@ export function Hero() {
           preload="none"
           poster="/hero-poster.webp?v=4"
           aria-hidden="true"
+          onPlaying={() => setVideoPlaying(true)}
           className="absolute inset-0 w-full h-full object-cover opacity-50"
         >
           {videoSrc && <source src={videoSrc} type="video/mp4" />}
