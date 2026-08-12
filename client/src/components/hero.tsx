@@ -10,7 +10,7 @@ export function Hero() {
   
   useEffect(() => {
     const timer = setTimeout(() => {
-      setVideoSrc("/hero-video.mp4?v=3");
+      setVideoSrc("/hero-video.mp4?v=4");
     }, 2500);
     return () => clearTimeout(timer);
   }, []);
@@ -30,8 +30,8 @@ export function Hero() {
     >
       <div className="absolute inset-0 z-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
         <img
-          src="/hero-poster.webp?v=3"
-          srcSet={getSrcSet("/hero-poster.webp")?.replace(/\.webp /g, ".webp?v=3 ")}
+          src="/hero-poster.webp?v=4"
+          srcSet={getSrcSet("/hero-poster.webp")?.replace(/\.webp /g, ".webp?v=4 ")}
           sizes="100vw"
           alt="Liv Hospital Istanbul at night"
           className="absolute inset-0 w-full h-full object-cover opacity-50"
@@ -45,7 +45,7 @@ export function Hero() {
           muted 
           playsInline
           preload="none"
-          poster="/hero-poster.webp?v=3"
+          poster="/hero-poster.webp?v=4"
           aria-hidden="true"
           className="absolute inset-0 w-full h-full object-cover opacity-50"
         >
