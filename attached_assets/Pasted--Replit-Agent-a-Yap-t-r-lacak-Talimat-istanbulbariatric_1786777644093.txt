@@ -1,0 +1,49 @@
+# Replit Agent'a Yapıştırılacak Talimat — istanbulbariatriccenter.com
+
+Not: Bu site stemcelllongevita.com'daki kadar ciddi bir CSR/indeksleme sorunu yaşamıyor gibi görünüyor — dışarıdan yapılan kontrolde ana sayfa ve çoğu tedavi sayfası tam render oluyor ve Google'da güncel içerikle indeksli. Bu yüzden bu talimat "kör SSG rebuild" değil, **doğrulama-öncelikli bir denetim ve hedefli düzeltme** istiyor. Gereksiz yere çalışan bir sistemi bozmayalım.
+
+## Aşama 1: Denetim (hiçbir şey değiştirmeden önce)
+
+1. Projedeki SSR/prerendering kurulumunun şu an tam olarak nasıl çalıştığını incele (build script, prerender.js veya benzeri, server entry dosyası).
+2. Şu route'ları headless bir tarayıcıda (Puppeteer/Playwright) render ederek gerçek çıktıyı kontrol et ve bana raporla:
+   - `/` (ana sayfa)
+   - `/esg`
+   - `/sleeve-gastrectomy`
+   - `/gastric-sleeve-vs-gastric-bypass`
+   - `/blog/gastric-fundus-mucosal-ablation-gfma-latest-news`
+   - `/blog/tore-procedure-gastric-bypass-revision`
+   - `/blog/pose-endoscopic-sleeve-gastroplasty`
+   - `/blog/endo-band-novel-endoscopic-approach`
+3. Her route için: DOM'da gerçek metin içeriği var mı, yoksa boş bir `<div id="root">` mi dönüyor? Sonuçları tek tek listele.
+4. `robots.txt` ve `sitemap.xml`'in gerçekten diskte statik dosya olarak var olduğunu ve tüm yukarıdaki route'ları kapsadığını doğrula.
+5. Sayfa `<head>` içinde JSON-LD structured data (MedicalProcedure, FAQPage, MedicalOrganization şemaları) olup olmadığını kontrol et — var mı, yok mu, hangi sayfalarda var, raporla.
+
+## Aşama 2: Sadece bulunan sorunları düzelt
+
+- Eğer Aşama 1'de herhangi bir route boş/render edilmemiş çıkarsa, SADECE o route'lar için stemcelllongevita.com'da uyguladığımız SSG yaklaşımını uygula (build-time'da headless render → statik `.html` dosyası yaz → `dist/<route>/index.html`).
+- Eğer JSON-LD şeması eksikse, mevcut sayfa içeriğinden (tedavi açıklamaları, SSS bölümleri, doktor/klinik bilgisi) otomatik olarak MedicalProcedure ve FAQPage şeması üret ve her ilgili sayfaya ekle.
+- Zaten çalışan route'lara DOKUNMA — sadece bozuk olanları düzelt.
+
+## Aşama 3: Önleyici altyapı (stemcelllongevita'da öğrendiğimiz ders)
+
+1. Cloudflare API token ve Zone ID'yi Replit Secrets'a ekle (`CF_API_TOKEN`, `CF_ZONE_ID`) — eğer zaten stemcelllongevita için eklenmişse aynı hesap/farklı zone olabilir, bana hangi Zone ID'yi kullanacağımı sor.
+2. Build zincirinin sonuna otomatik Cloudflare cache purge adımı ekle:
+   ```
+   "build": "<mevcut build komutu> && node scripts/purge-cloudflare.js"
+   ```
+3. Bu adımın her deploy'da otomatik çalıştığını doğrula — manuel purge'e bağımlı kalmayalım.
+
+## Aşama 4: Doğrulama ve rapor
+
+1. Aşama 2'de değişiklik yaptıysan, `dist/` altındaki ilgili HTML dosyalarının gerçek içerik barındırdığını göster.
+2. Bana şu üç şeyi içeren kısa bir özet rapor ver:
+   - Aşama 1'de hangi route'ların zaten sağlıklı olduğu, hangilerinin sorunlu çıktığı
+   - Hangi düzeltmelerin uygulandığı (varsa)
+   - JSON-LD şema durumu (hangi sayfalarda var/yok)
+3. Üretim ortamına deploy etmeden önce bana onay için sor.
+
+## Önemli Kısıtlar
+
+- Mevcut URL yapısını DEĞİŞTİRME.
+- Zaten çalışan, doğru render olan sayfalara gereksiz müdahale etme — bu site stemcelllongevita kadar bozuk değil, minimal ve hedefli müdahale istiyoruz.
+- Değişiklikleri küçük adımlar halinde yap, her adımdan sonra özet ver.
