@@ -115,6 +115,10 @@ const importMetaUrl = require('url').pathToFileURL(__filename).toString();
   await prerender();
 
   await checkForStaleMetadata();
+
+  console.log("purging Cloudflare cache...");
+  const { execSync } = await import("child_process");
+  execSync("node scripts/purge-cloudflare.js", { stdio: "inherit" });
 }
 
 async function checkForStaleMetadata() {
