@@ -55,7 +55,6 @@ export default function Treatments({ lang }: { lang?: string }) {
         "status": "http://schema.org/ActiveActionStatus",
         "offers": [
           { "@type": "Offer", "name": "Sleeve Gastrectomy Ultra Eco", "price": "2450", "priceCurrency": "GBP", "description": "Experienced Surgeon Team, Boutique Hospital (2 days), All pre-operative tests and consultations" },
-          { "@type": "Offer", "name": "Sleeve Gastrectomy Basic", "price": "3400", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, Boutique Hospital (2 days), Airport Pickup, Dietitian Support" },
           { "@type": "Offer", "name": "Sleeve Gastrectomy Relaxation", "price": "4550", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, JCI Hospital (3 days), UK Dietitian" },
           { "@type": "Offer", "name": "Sleeve Gastrectomy Luxury", "price": "4900", "priceCurrency": "GBP", "description": "With Dr Murat Ustun, Radisson Hotel, UK Dietitian, Supplements" }
         ]
@@ -68,7 +67,6 @@ export default function Treatments({ lang }: { lang?: string }) {
         "bodyLocation": "Stomach and Small Intestine",
         "description": "Gastric bypass creates a small pouch from the stomach and connects it directly to the small intestine, bypassing most of the stomach and part of the small intestine.",
         "offers": [
-          { "@type": "Offer", "name": "Gastric Bypass Basic", "price": "3850", "priceCurrency": "GBP" },
           { "@type": "Offer", "name": "Gastric Bypass Relaxation", "price": "5000", "priceCurrency": "GBP" },
           { "@type": "Offer", "name": "Gastric Bypass Luxury", "price": "5350", "priceCurrency": "GBP" }
         ]
@@ -167,12 +165,6 @@ export default function Treatments({ lang }: { lang?: string }) {
       features: t('packages.sleeveUltraEco.features', { returnObjects: true }) as string[]
     },
     {
-      name: t('packages.sleeveBasic.name'),
-      price: "£3,400",
-      color: "blue",
-      features: t('packages.sleeveBasic.features', { returnObjects: true }) as string[]
-    },
-    {
       name: t('packages.sleeveRelaxation.name'),
       price: "£4,550",
       color: "emerald",
@@ -188,12 +180,6 @@ export default function Treatments({ lang }: { lang?: string }) {
   ];
 
   const bypassPackages = [
-    {
-      name: t('packages.bypassBasic.name'),
-      price: "£3,850",
-      color: "blue",
-      features: t('packages.bypassBasic.features', { returnObjects: true }) as string[]
-    },
     {
       name: t('packages.bypassRelaxation.name'),
       price: "£5,000",
@@ -294,7 +280,7 @@ export default function Treatments({ lang }: { lang?: string }) {
       procedure: t('comparison.gastricSleeve'),
       type: t('comparison.surgical'),
       bmiRange: t('comparison.bmi35plus'),
-      startingPrice: "£3,400",
+      startingPrice: "£2,450",
       hospitalStay: t('comparison.stay2to3'),
       expectedWeightLoss: t('comparison.loss60to70'),
       recovery: t('comparison.recovery2to3weeks')
@@ -303,7 +289,7 @@ export default function Treatments({ lang }: { lang?: string }) {
       procedure: t('comparison.gastricBypass'),
       type: t('comparison.surgical'),
       bmiRange: t('comparison.bmi40plus'),
-      startingPrice: "£3,850",
+      startingPrice: "£5,000",
       hospitalStay: t('comparison.stay2to3'),
       expectedWeightLoss: t('comparison.loss70to80'),
       recovery: t('comparison.recovery2to3weeks')
@@ -652,7 +638,7 @@ export default function Treatments({ lang }: { lang?: string }) {
 
                 {i === 2 && renderPackagesAccordion(t('packages.balloonTitle'), t('packages.balloonSubtitle'), balloonPackages, "grid md:grid-cols-2 gap-8 max-w-3xl mx-auto", "accordion-trigger-balloon-packages")}
 
-                {i === 1 && renderPackagesAccordion(t('packages.bypassTitle'), t('packages.bypassSubtitle'), bypassPackages, "grid md:grid-cols-3 gap-8", "accordion-trigger-bypass-packages")}
+                {i === 1 && renderPackagesAccordion(t('packages.bypassTitle'), t('packages.bypassSubtitle'), bypassPackages, "grid md:grid-cols-2 gap-8 max-w-3xl mx-auto", "accordion-trigger-bypass-packages")}
 
                 {i === 5 && renderPackagesAccordion(t('packages.esgTitle'), t('packages.esgSubtitle'), esgPackages, "grid md:grid-cols-2 gap-8 max-w-3xl mx-auto", "accordion-trigger-esg-packages")}
 
@@ -662,7 +648,7 @@ export default function Treatments({ lang }: { lang?: string }) {
 
                 {i === 4 && renderPackagesAccordion(t('packages.dsTitle'), t('packages.dsSubtitle'), duodenalSwitchPackages, "grid md:grid-cols-2 gap-8 max-w-3xl mx-auto", "accordion-trigger-ds-packages")}
 
-                {i === 0 && renderPackagesAccordion(t('main.sleevePackageTitle'), t('main.sleevePackageDesc'), packages, "grid md:grid-cols-2 xl:grid-cols-4 gap-8", "accordion-trigger-sleeve-packages")}
+                {i === 0 && renderPackagesAccordion(t('main.sleevePackageTitle'), t('main.sleevePackageDesc'), packages, "grid md:grid-cols-3 gap-8", "accordion-trigger-sleeve-packages")}
               </div>
             ))}
           </div>

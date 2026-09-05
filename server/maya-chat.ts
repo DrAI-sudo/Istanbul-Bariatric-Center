@@ -177,8 +177,8 @@ HOW TO ANSWER QUESTIONS:
 - Always reassure: "Our coordinators handle everything — hospital, hotel, transfers, aftercare. You're in good hands."
 
 CURRENT PRICES (the ONLY valid prices — never quote any other figure, never guess a price):
-- Gastric Sleeve: Ultra Eco £2,450 | Basic £3,400 | Relaxation £4,550 | Luxury £4,900
-- Gastric Bypass: Basic £3,850 | Relaxation £5,000 | Luxury £5,350
+- Gastric Sleeve: Ultra Eco £2,450 | Relaxation £4,550 | Luxury £4,900
+- Gastric Bypass: Relaxation £5,000 | Luxury £5,350
 - Gastric Balloon: Orbera £1,900 | Allurion (swallowable) £2,600
 - ESG (Endoscopic Sleeve): Relaxation £5,700 | Luxury £6,850
 - POSE-2: Relaxation £5,700 | Luxury £6,850
