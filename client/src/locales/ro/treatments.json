@@ -846,11 +846,11 @@
         },
         {
           "label": "Gastric Sleeve",
-          "value": "De la £3,400"
+          "value": "De la £2,450"
         },
         {
           "label": "Mini Bypass Gastric",
-          "value": "De la £3,850"
+          "value": "De la £5,000"
         },
         {
           "label": "ESG (Non-Chirurgical)",
@@ -871,14 +871,14 @@
       "rows": [
         [
           "Gastric Sleeve",
-          "£3,400 – £4,900",
+          "£2,450 – £4,900",
           "£10,000 – £15,000",
           "$16,000 – $25,000",
           "€8,000 – €12,000"
         ],
         [
           "Mini Bypass Gastric",
-          "£3,850 – £5,350",
+          "£5,000 – £5,350",
           "£11,000 – £16,000",
           "$20,000 – $30,000",
           "€9,000 – €14,000"
@@ -943,12 +943,12 @@
       "title": "Cum Să Vă Bugetați Întreaga Călătorie",
       "intro": "Un buget total realist pentru un pacient din UK care efectuează un gastric sleeve cu noi:",
       "items": [
-        "<strong>Pachet chirurgical:</strong> £3,400–£4,900 (fix, all-inclusive)",
+        "<strong>Pachet chirurgical:</strong> £2,450–£4,900 (fix, all-inclusive)",
         "<strong>Zboruri dus-întors Londra–Istanbul:</strong> de obicei £100–£250",
         "<strong>Asigurare medicală de călătorie:</strong> £100–£200",
         "<strong>Cheltuieli personale:</strong> £100–£200"
       ],
-      "total": "Total: aproximativ <strong>£3,800–£5,550 all-in</strong> — încă mai puțin de jumătate din costul doar al chirurgiei la un spital privat din UK. Consultați <ukLink>ghidul nostru dedicat pentru pacienții din UK</ukLink> pentru logistica de călătorie și îngrijirea post-operatorie de acasă."
+      "total": "Total: aproximativ <strong>£2,750–£5,550 all-in</strong> — încă mai puțin de jumătate din costul doar al chirurgiei la un spital privat din UK. Consultați <ukLink>ghidul nostru dedicat pentru pacienții din UK</ukLink> pentru logistica de călătorie și îngrijirea post-operatorie de acasă."
     },
     "surgeonProof": {
       "title": "Preț Mic, Standarde Neafectate",
@@ -959,7 +959,7 @@
       "items": [
         {
           "question": "Cât costă chirurgia bariatrică în Turcia?",
-          "answer": "La Istanbul Bariatric Center, pachetele all-inclusive încep de la £1,900 pentru un balon gastric, £3,400 pentru un gastric sleeve, £3,850 pentru un mini bypass gastric și £5,700 pentru ESG. Fiecare pachet include spitalizarea la spital acreditat JCI, testele preoperatorii, transferurile de la aeroport, hotelul (nivelurile Relaxare și Lux) și îngrijirea post-operatorie a dieteticianului."
+          "answer": "La Istanbul Bariatric Center, pachetele încep de la £1,900 pentru un balon gastric, £2,450 pentru un gastric sleeve, £5,000 pentru un mini bypass gastric și £5,700 pentru ESG. Includerile variază în funcție de procedură și nivelul pachetului."
         },
         {
           "question": "De ce este chirurgia de pierdere în greutate mult mai ieftină în Turcia?",
@@ -971,7 +971,7 @@
         },
         {
           "question": "Cum se compară costul cu UK, US sau Europa?",
-          "answer": "Un gastric sleeve costă aproximativ £10,000–£15,000 în regim privat în UK, $16,000–$25,000 în US și €8,000–€12,000 în mare parte din Europa de Vest. La Istanbul, pachetul echivalent all-inclusive este £3,400–£4,900 — de obicei o economie de 60–75% chiar și după zboruri."
+          "answer": "Un gastric sleeve costă aproximativ £10,000–£15,000 în regim privat în UK, $16,000–$25,000 în US și €8,000–€12,000 în mare parte din Europa de Vest. La Istanbul, pachetele sunt £2,450–£4,900 — de obicei o economie de 60–75% chiar și după zboruri."
         },
         {
           "question": "Pot plăti în rate sau prin finanțare?",
@@ -988,11 +988,11 @@
       "links": [
         {
           "title": "Gastric Sleeve",
-          "description": "De la £3,400 all-inclusive"
+          "description": "De la £2,450 all-inclusive"
         },
         {
           "title": "Mini Bypass Gastric",
-          "description": "De la £3,850 all-inclusive"
+          "description": "De la £5,000 all-inclusive"
         },
         {
           "title": "ESG (Non-Chirurgical)",

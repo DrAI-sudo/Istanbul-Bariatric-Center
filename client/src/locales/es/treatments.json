@@ -846,11 +846,11 @@
         },
         {
           "label": "Manga Gástrica",
-          "value": "Desde £3,400"
+          "value": "Desde £2,450"
         },
         {
           "label": "Mini Bypass Gástrico",
-          "value": "Desde £3,850"
+          "value": "Desde £5,000"
         },
         {
           "label": "ESG (No Quirúrgico)",
@@ -871,14 +871,14 @@
       "rows": [
         [
           "Manga Gástrica",
-          "£3,400 – £4,900",
+          "£2,450 – £4,900",
           "£10,000 – £15,000",
           "$16,000 – $25,000",
           "€8,000 – €12,000"
         ],
         [
           "Mini Bypass Gástrico",
-          "£3,850 – £5,350",
+          "£5,000 – £5,350",
           "£11,000 – £16,000",
           "$20,000 – $30,000",
           "€9,000 – €14,000"
@@ -943,12 +943,12 @@
       "title": "Cómo Presupuestar su Viaje Completo",
       "intro": "Un presupuesto total realista para un paciente del Reino Unido que se somete a una manga gástrica con nosotros:",
       "items": [
-        "<strong>Paquete quirúrgico:</strong> £3,400–£4,900 (fijo, todo incluido)",
+        "<strong>Paquete quirúrgico:</strong> £2,450–£4,900 (fijo, todo incluido)",
         "<strong>Vuelos de ida y vuelta Londres–Estambul:</strong> normalmente £100–£250",
         "<strong>Seguro de viaje médico:</strong> £100–£200",
         "<strong>Gastos personales:</strong> £100–£200"
       ],
-      "total": "Total: aproximadamente <strong>£3,800–£5,550 todo incluido</strong> — aún menos de la mitad del coste de la cirugía por sí sola en un hospital privado del Reino Unido. Consulte nuestra <ukLink>guía dedicada para pacientes del Reino Unido</ukLink> para la logística del viaje y el seguimiento desde casa."
+      "total": "Total: aproximadamente <strong>£2,750–£5,550 todo incluido</strong> — aún menos de la mitad del coste de la cirugía por sí sola en un hospital privado del Reino Unido. Consulte nuestra <ukLink>guía dedicada para pacientes del Reino Unido</ukLink> para la logística del viaje y el seguimiento desde casa."
     },
     "surgeonProof": {
       "title": "Precio Bajo, Estándares Sin Concesiones",
@@ -959,7 +959,7 @@
       "items": [
         {
           "question": "¿Cuánto cuesta la cirugía bariátrica en Turquía?",
-          "answer": "En Istanbul Bariatric Center, los paquetes todo incluido comienzan desde £1,900 para un balón gástrico, £3,400 para una manga gástrica, £3,850 para un mini bypass gástrico y £5,700 para ESG. Cada paquete incluye la estancia en un hospital acreditado por JCI, las pruebas preoperatorias, los traslados al aeropuerto, el hotel (niveles Relajación y Lujo) y el seguimiento con dietista."
+          "answer": "En Istanbul Bariatric Center, los paquetes comienzan desde £1,900 para un balón gástrico, £2,450 para una manga gástrica, £5,000 para un mini bypass gástrico y £5,700 para ESG. Las inclusiones varían según el procedimiento y el nivel del paquete."
         },
         {
           "question": "¿Por qué es tanto más barata la cirugía de pérdida de peso en Turquía?",
@@ -971,7 +971,7 @@
         },
         {
           "question": "¿Cómo se compara el coste con el del RU, EE. UU. o Europa?",
-          "answer": "Una manga gástrica cuesta alrededor de £10,000–£15,000 de forma privada en el Reino Unido, $16,000–$25,000 en EE. UU. y €8,000–€12,000 en gran parte de Europa Occidental. En Estambul, el paquete equivalente todo incluido es de £3,400–£4,900 — normalmente un ahorro del 60–75% incluso después de los vuelos."
+          "answer": "Una manga gástrica cuesta alrededor de £10,000–£15,000 de forma privada en el Reino Unido, $16,000–$25,000 en EE. UU. y €8,000–€12,000 en gran parte de Europa Occidental. En Estambul, los paquetes van de £2,450–£4,900 — normalmente un ahorro del 60–75% incluso después de los vuelos."
         },
         {
           "question": "¿Puedo pagar a plazos o con financiación?",
@@ -988,11 +988,11 @@
       "links": [
         {
           "title": "Manga Gástrica",
-          "description": "Desde £3,400 todo incluido"
+          "description": "Desde £2,450 todo incluido"
         },
         {
           "title": "Mini Bypass Gástrico",
-          "description": "Desde £3,850 todo incluido"
+          "description": "Desde £5,000 todo incluido"
         },
         {
           "title": "ESG (No Quirúrgico)",

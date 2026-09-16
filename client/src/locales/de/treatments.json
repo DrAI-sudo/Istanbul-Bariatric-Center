@@ -846,11 +846,11 @@
         },
         {
           "label": "Schlauchmagen",
-          "value": "Ab £3,400"
+          "value": "Ab £2,450"
         },
         {
           "label": "Mini-Magenbypass",
-          "value": "Ab £3,850"
+          "value": "Ab £5,000"
         },
         {
           "label": "ESG (nicht-chirurgisch)",
@@ -871,14 +871,14 @@
       "rows": [
         [
           "Schlauchmagen",
-          "£3,400 – £4,900",
+          "£2,450 – £4,900",
           "£10,000 – £15,000",
           "$16,000 – $25,000",
           "€8,000 – €12,000"
         ],
         [
           "Mini-Magenbypass",
-          "£3,850 – £5,350",
+          "£5,000 – £5,350",
           "£11,000 – £16,000",
           "$20,000 – $30,000",
           "€9,000 – €14,000"
@@ -943,12 +943,12 @@
       "title": "So planen Sie das Budget für Ihre gesamte Reise",
       "intro": "Ein realistisches Gesamtbudget für einen UK-Patienten mit einem Schlauchmagen bei uns:",
       "items": [
-        "<strong>Operationspaket:</strong> £3,400–£4,900 (fest, all-inclusive)",
+        "<strong>Operationspaket:</strong> £2,450–£4,900 (fest, all-inclusive)",
         "<strong>Hin- und Rückflug London–Istanbul:</strong> typischerweise £100–£250",
         "<strong>Medizinische Reiseversicherung:</strong> £100–£200",
         "<strong>Persönliche Ausgaben:</strong> £100–£200"
       ],
-      "total": "Gesamt: rund <strong>£3,800–£5,550 all-in</strong> — immer noch weniger als die Hälfte der Kosten allein für die Operation in einem privaten Krankenhaus in Großbritannien. Sehen Sie sich unseren speziellen <ukLink>Leitfaden für UK-Patienten</ukLink> für Reiselogistik und Nachsorge von zu Hause aus an."
+      "total": "Gesamt: rund <strong>£2,750–£5,550 all-in</strong> — immer noch weniger als die Hälfte der Kosten allein für die Operation in einem privaten Krankenhaus in Großbritannien. Sehen Sie sich unseren speziellen <ukLink>Leitfaden für UK-Patienten</ukLink> für Reiselogistik und Nachsorge von zu Hause aus an."
     },
     "surgeonProof": {
       "title": "Niedriger Preis, kompromisslose Standards",
@@ -959,7 +959,7 @@
       "items": [
         {
           "question": "Was kostet eine bariatrische Operation in der Türkei?",
-          "answer": "Im Istanbul Bariatric Center beginnen All-inclusive-Pakete ab £1,900 für einen Magenballon, £3,400 für einen Schlauchmagen, £3,850 für einen Mini-Magenbypass und £5,700 für ESG. Jedes Paket umfasst den JCI-akkreditierten Krankenhausaufenthalt, präoperative Tests, Flughafentransfers, Hotel (Entspannungs- und Luxusstufen) und Ernährungsberater-Nachsorge."
+          "answer": "Im Istanbul Bariatric Center beginnen Pakete ab £1,900 für einen Magenballon, £2,450 für einen Schlauchmagen, £5,000 für einen Mini-Magenbypass und £5,700 für ESG. Die Leistungen variieren je nach Verfahren und Paketstufe."
         },
         {
           "question": "Warum ist die Gewichtsverlustchirurgie in der Türkei so viel günstiger?",
@@ -971,7 +971,7 @@
         },
         {
           "question": "Wie sind die Kosten im Vergleich zu UK, US oder Europa?",
-          "answer": "Ein Schlauchmagen kostet privat in Großbritannien rund £10,000–£15,000, in den USA $16,000–$25,000 und in weiten Teilen Westeuropas €8,000–€12,000. In Istanbul beträgt das gleichwertige All-inclusive-Paket £3,400–£4,900 — typischerweise eine Ersparnis von 60–75%, selbst nach Flügen."
+          "answer": "Ein Schlauchmagen kostet privat in Großbritannien rund £10,000–£15,000, in den USA $16,000–$25,000 und in weiten Teilen Westeuropas €8,000–€12,000. In Istanbul kosten Pakete £2,450–£4,900 — typischerweise eine Ersparnis von 60–75%, selbst nach Flügen."
         },
         {
           "question": "Kann ich in Raten oder mit Finanzierung zahlen?",
@@ -988,11 +988,11 @@
       "links": [
         {
           "title": "Schlauchmagen",
-          "description": "Ab £3,400 all-inclusive"
+          "description": "Ab £2,450 all-inclusive"
         },
         {
           "title": "Mini-Magenbypass",
-          "description": "Ab £3,850 all-inclusive"
+          "description": "Ab £5,000 all-inclusive"
         },
         {
           "title": "ESG (nicht-chirurgisch)",

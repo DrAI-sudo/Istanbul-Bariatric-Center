@@ -846,11 +846,11 @@
         },
         {
           "label": "Sleeve Gastrique",
-          "value": "À partir de £3,400"
+          "value": "À partir de £2,450"
         },
         {
           "label": "Mini Bypass Gastrique",
-          "value": "À partir de £3,850"
+          "value": "À partir de £5,000"
         },
         {
           "label": "ESG (Non Chirurgical)",
@@ -871,14 +871,14 @@
       "rows": [
         [
           "Sleeve Gastrique",
-          "£3,400 – £4,900",
+          "£2,450 – £4,900",
           "£10,000 – £15,000",
           "$16,000 – $25,000",
           "€8,000 – €12,000"
         ],
         [
           "Mini Bypass Gastrique",
-          "£3,850 – £5,350",
+          "£5,000 – £5,350",
           "£11,000 – £16,000",
           "$20,000 – $30,000",
           "€9,000 – €14,000"
@@ -943,12 +943,12 @@
       "title": "Comment Budgétiser l'Ensemble de Votre Voyage",
       "intro": "Un budget total réaliste pour un patient britannique subissant un sleeve gastrique chez nous :",
       "items": [
-        "<strong>Forfait chirurgical :</strong> £3,400–£4,900 (fixe, tout inclus)",
+        "<strong>Forfait chirurgical :</strong> £2,450–£4,900 (fixe, tout inclus)",
         "<strong>Vols aller-retour Londres–Istanbul :</strong> généralement £100–£250",
         "<strong>Assurance voyage médicale :</strong> £100–£200",
         "<strong>Dépenses personnelles :</strong> £100–£200"
       ],
-      "total": "Total : environ <strong>£3,800–£5,550 tout compris</strong> — soit encore moins de la moitié du coût de la seule chirurgie dans un hôpital privé britannique. Consultez notre <ukLink>guide dédié aux patients britanniques</ukLink> pour la logistique de voyage et le suivi depuis chez vous."
+      "total": "Total : environ <strong>£2,750–£5,550 tout compris</strong> — soit encore moins de la moitié du coût de la seule chirurgie dans un hôpital privé britannique. Consultez notre <ukLink>guide dédié aux patients britanniques</ukLink> pour la logistique de voyage et le suivi depuis chez vous."
     },
     "surgeonProof": {
       "title": "Prix Bas, Normes Sans Compromis",
@@ -959,7 +959,7 @@
       "items": [
         {
           "question": "Combien coûte la chirurgie bariatrique en Turquie ?",
-          "answer": "À Istanbul Bariatric Center, les forfaits tout inclus commencent à £1,900 pour un ballon gastrique, £3,400 pour un sleeve gastrique, £3,850 pour un mini bypass gastrique et £5,700 pour l'ESG. Chaque forfait comprend le séjour hospitalier accrédité JCI, les tests préopératoires, les transferts aéroport, l'hôtel (forfaits Détente et Luxe) et le suivi diététique."
+          "answer": "À Istanbul Bariatric Center, les forfaits commencent à £1,900 pour un ballon gastrique, £2,450 pour un sleeve gastrique, £5,000 pour un mini bypass gastrique et £5,700 pour l'ESG. Les prestations varient selon l'intervention et le niveau du forfait."
         },
         {
           "question": "Pourquoi la chirurgie de perte de poids est-elle bien moins chère en Turquie ?",
@@ -971,7 +971,7 @@
         },
         {
           "question": "Comment le coût se compare-t-il au Royaume-Uni, aux États-Unis ou en Europe ?",
-          "answer": "Un sleeve gastrique coûte environ £10,000–£15,000 en privé au Royaume-Uni, $16,000–$25,000 aux États-Unis et €8,000–€12,000 dans une grande partie de l'Europe de l'Ouest. À Istanbul, le forfait tout inclus équivalent est de £3,400–£4,900 — soit généralement une économie de 60 à 75% même après les vols."
+          "answer": "Un sleeve gastrique coûte environ £10,000–£15,000 en privé au Royaume-Uni, $16,000–$25,000 aux États-Unis et €8,000–€12,000 dans une grande partie de l'Europe de l'Ouest. À Istanbul, les forfaits vont de £2,450–£4,900 — soit généralement une économie de 60 à 75% même après les vols."
         },
         {
           "question": "Puis-je payer en plusieurs fois ou avec un financement ?",
@@ -988,11 +988,11 @@
       "links": [
         {
           "title": "Sleeve Gastrique",
-          "description": "À partir de £3,400 tout inclus"
+          "description": "À partir de £2,450 tout inclus"
         },
         {
           "title": "Mini Bypass Gastrique",
-          "description": "À partir de £3,850 tout inclus"
+          "description": "À partir de £5,000 tout inclus"
         },
         {
           "title": "ESG (Non Chirurgical)",

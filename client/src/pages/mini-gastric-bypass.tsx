@@ -45,7 +45,7 @@ export default function MiniGastricBypass() {
             { label: "Excess weight loss", value: "70–85%" },
             { label: "Ideal for", value: "BMI 40+" },
             { label: "Hospital stay", value: "2–3 nights" },
-            { label: "All-inclusive from", value: "£3,850" },
+            { label: "All-inclusive from", value: "£5,000" },
           ]}
         />
 

@@ -846,11 +846,11 @@
         },
         {
           "label": "Tüp Mide",
-          "value": "£3,400'den başlayan"
+          "value": "£2,450'den başlayan"
         },
         {
           "label": "Mini Mide Bypass",
-          "value": "£3,850'den başlayan"
+          "value": "£5,000'den başlayan"
         },
         {
           "label": "ESG (Cerrahi Olmayan)",
@@ -871,14 +871,14 @@
       "rows": [
         [
           "Tüp Mide",
-          "£3,400 – £4,900",
+          "£2,450 – £4,900",
           "£10,000 – £15,000",
           "$16,000 – $25,000",
           "€8,000 – €12,000"
         ],
         [
           "Mini Mide Bypass",
-          "£3,850 – £5,350",
+          "£5,000 – £5,350",
           "£11,000 – £16,000",
           "$20,000 – $30,000",
           "€9,000 – €14,000"
@@ -943,12 +943,12 @@
       "title": "Tüm Yolculuğunuzu Nasıl Bütçelemelisiniz",
       "intro": "Bizimle tüp mide olacak bir İngiltere hastası için gerçekçi bir toplam bütçe:",
       "items": [
-        "<strong>Ameliyat paketi:</strong> £3,400–£4,900 (sabit, her şey dahil)",
+        "<strong>Ameliyat paketi:</strong> £2,450–£4,900 (sabit, her şey dahil)",
         "<strong>Londra–İstanbul gidiş-dönüş uçuşlar:</strong> genellikle £100–£250",
         "<strong>Medikal seyahat sigortası:</strong> £100–£200",
         "<strong>Kişisel harcamalar:</strong> £100–£200"
       ],
-      "total": "Toplam: yaklaşık <strong>£3,800–£5,550 her şey dahil</strong> — yine de bir İngiltere özel hastanesinde tek başına ameliyat maliyetinin yarısından daha az. Seyahat lojistiği ve evden bakım için özel <ukLink>İngiltere hastaları rehberimize</ukLink> bakın."
+      "total": "Toplam: yaklaşık <strong>£2,750–£5,550 her şey dahil</strong> — yine de bir İngiltere özel hastanesinde tek başına ameliyat maliyetinin yarısından daha az. Seyahat lojistiği ve evden bakım için özel <ukLink>İngiltere hastaları rehberimize</ukLink> bakın."
     },
     "surgeonProof": {
       "title": "Düşük Fiyat, Ödün Verilmeyen Standartlar",
@@ -959,7 +959,7 @@
       "items": [
         {
           "question": "Türkiye'de bariyatrik cerrahi ne kadara mal olur?",
-          "answer": "Istanbul Bariatric Center'da her şey dahil paketler mide balonu için £1,900, tüp mide için £3,400, mini mide bypass için £3,850 ve ESG için £5,700'den başlar. Her paket JCI akrediteli hastane konaklamasını, ameliyat öncesi testleri, havaalanı transferlerini, oteli (Rahatlama ve Lüks kademeleri) ve diyetisyen bakımını içerir."
+          "answer": "Istanbul Bariatric Center'da paketler mide balonu için £1,900, tüp mide için £2,450, mini mide bypass için £5,000 ve ESG için £5,700'den başlar. İçerikler işleme ve paket kademesine göre değişir."
         },
         {
           "question": "Kilo verme cerrahisi neden Türkiye'de bu kadar daha ucuz?",
@@ -971,7 +971,7 @@
         },
         {
           "question": "Maliyet İngiltere, ABD veya Avrupa ile nasıl karşılaştırılıyor?",
-          "answer": "Bir tüp mide, İngiltere'de özel olarak yaklaşık £10,000–£15,000, ABD'de $16,000–$25,000 ve Batı Avrupa'nın çoğunda €8,000–€12,000 tutar. İstanbul'da eşdeğer her şey dahil paket £3,400–£4,900'dir — uçuşlar dahil olsa bile genellikle %60–75 tasarruf."
+          "answer": "Bir tüp mide, İngiltere'de özel olarak yaklaşık £10,000–£15,000, ABD'de $16,000–$25,000 ve Batı Avrupa'nın çoğunda €8,000–€12,000 tutar. İstanbul'da paketler £2,450–£4,900 arasındadır — uçuşlar dahil olsa bile genellikle %60–75 tasarruf."
         },
         {
           "question": "Taksitle veya finansmanla ödeme yapabilir miyim?",
@@ -988,11 +988,11 @@
       "links": [
         {
           "title": "Tüp Mide",
-          "description": "£3,400'den başlayan her şey dahil"
+          "description": "£2,450'den başlayan her şey dahil"
         },
         {
           "title": "Mini Mide Bypass",
-          "description": "£3,850'den başlayan her şey dahil"
+          "description": "£5,000'den başlayan her şey dahil"
         },
         {
           "title": "ESG (Cerrahi Olmayan)",

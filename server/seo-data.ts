@@ -733,15 +733,15 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/sleeve-gastrectomy": {
     title: "Gastric Sleeve Surgery in Turkey - Istanbul Bariatric Center",
-    description: "Gastric Sleeve (VSG) surgery in Istanbul, Turkey. 60-70% excess weight loss. Laparoscopic procedure by Dr. Murat Ustun. VIP packages from £3,400.",
+    description: "Gastric Sleeve (VSG) surgery in Istanbul, Turkey. Ultra Eco package from £2,450; Relaxation and Luxury tiers are performed by Dr Murat Ustun.",
     h1: "Gastric Sleeve Surgery (Sleeve Gastrectomy)",
-    bodyExcerpt: "Gastric Sleeve Surgery (Vertical Sleeve Gastrectomy) at Istanbul Bariatric Center removes approximately 80% of the stomach, creating a banana-shaped sleeve. This laparoscopic procedure typically results in 60-70% excess weight loss within 12-18 months. Performed by Dr. Murat Ustun at JCI-accredited Liv Hospital with all-inclusive VIP packages.",
+    bodyExcerpt: "Gastric Sleeve Surgery (Vertical Sleeve Gastrectomy) at Istanbul Bariatric Center removes approximately 80% of the stomach and typically results in 60-70% excess weight loss within 12-18 months. Packages start from £2,450 for Ultra Eco with an experienced surgeon team at a boutique hospital; this tier is not performed personally by Dr Murat Ustun.",
     canonical: SITE_URL + "/sleeve-gastrectomy",
     richContent: `<section><h2>What is Gastric Sleeve Surgery?</h2><p>Gastric Sleeve Surgery (Vertical Sleeve Gastrectomy or VSG) is the most commonly performed bariatric procedure worldwide. During this laparoscopic operation, approximately 75-80% of the stomach is permanently removed, leaving a narrow tube or "sleeve" shaped stomach about the size of a banana. This dramatically reduces the amount of food you can eat and significantly decreases production of the hunger hormone ghrelin.</p></section>
 <section><h2>How Gastric Sleeve Works</h2><p>The procedure is performed laparoscopically (keyhole surgery) under general anaesthesia, typically taking 45-60 minutes. The surgeon removes the larger curved portion of the stomach using surgical staplers, leaving a tubular stomach with approximately 100-150ml capacity (compared to 1-1.5 litres originally). The procedure is permanent and non-reversible.</p></section>
 <section><h2>Expected Results</h2><ul><li>60-70% excess weight loss within 12-18 months</li><li>Significant reduction in hunger due to decreased ghrelin production</li><li>Improvement or resolution of type 2 diabetes, sleep apnoea, hypertension, and high cholesterol</li><li>Improved mobility, energy levels, and quality of life</li></ul></section>
 <section><h2>Gastric Sleeve Packages & Pricing</h2>
-<article><h3>Basic Package — £3,400</h3><p>JCI Accredited Hospital (2 days stay), all preoperative tests and blood work, airport pickup, standard dietitian support, 24/7 patient coordinator.</p></article>
+<article><h3>Ultra Eco Package — £2,450</h3><p>Experienced Surgeon Team, Boutique Hospital, all pre-operative tests and consultations, 2 days hospitalisation and no hotel. This package is not performed by Dr Ustun personally.</p></article>
 <article><h3>Relaxation Package — £4,550</h3><p>Surgery by Dr Murat Ustun, JCI Hospital (3 days stay), Radisson Hotel accommodation (1 night), UK Registered Dietitian support (12 months), supplements pack.</p></article>
 <article><h3>Luxury Package — £4,900</h3><p>Surgery by Dr Murat Ustun, extended Radisson Hotel stay, private VIP transfers, premium room upgrade, extended dietitian support, comprehensive supplement package.</p></article></section>
 <section><h2>Who is Suitable for Gastric Sleeve?</h2><p>Gastric sleeve surgery is typically recommended for patients with a BMI of 35 or above, or BMI 30-35 with obesity-related health conditions. Patients should be committed to lifelong dietary and lifestyle changes. A thorough medical assessment is performed before surgery to ensure suitability.</p></section>
@@ -761,7 +761,7 @@ const staticPages: Record<string, PageSEO> = {
       "indication": { "@type": "MedicalIndication", "name": "Obesity with BMI ≥ 35, or BMI ≥ 30 with metabolic comorbidities" },
       "performedBy": { "@id": PHYSICIAN_ID },
       "offers": [
-        { "@type": "Offer", "name": "Basic Package", "price": "3400", "priceCurrency": "GBP" },
+        { "@type": "Offer", "name": "Ultra Eco Package", "price": "2450", "priceCurrency": "GBP" },
         { "@type": "Offer", "name": "Relaxation Package", "price": "4550", "priceCurrency": "GBP" },
         { "@type": "Offer", "name": "Luxury Package", "price": "4900", "priceCurrency": "GBP" }
       ]
@@ -769,14 +769,13 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/mini-gastric-bypass": {
     title: "Mini Gastric Bypass in Istanbul: Benefits and Results",
-    description: "Mini Gastric Bypass in Istanbul: Expert weight loss surgery at Istanbul Bariatric Center. Achieve lasting results. Contact us now.",
+    description: "Mini Gastric Bypass in Istanbul from £5,000. Relaxation and Luxury packages offer expert surgery, hospital care, transfers and aftercare.",
     h1: "Mini Gastric Bypass Surgery",
-    bodyExcerpt: "Mini Gastric Bypass (One Anastomosis Gastric Bypass) at Istanbul Bariatric Center is a simplified version of the traditional Roux-en-Y bypass. This procedure creates a long, narrow gastric pouch and connects it to the small intestine, combining restrictive and malabsorptive mechanisms for effective weight loss and diabetes resolution.",
+    bodyExcerpt: "Mini Gastric Bypass (One Anastomosis Gastric Bypass) at Istanbul Bariatric Center starts from £5,000 for the Relaxation package. The procedure creates a long, narrow gastric pouch and connects it to the small intestine, combining restrictive and malabsorptive mechanisms for effective weight loss and diabetes resolution.",
     canonical: SITE_URL + "/mini-gastric-bypass",
     richContent: `<section><h2>What is Mini Gastric Bypass?</h2><p>The Mini Gastric Bypass (also called One Anastomosis Gastric Bypass or OAGB) is a highly effective bariatric procedure that creates a small stomach pouch (approximately 30ml) and connects it directly to the small intestine, bypassing a significant portion of the digestive tract. This dual mechanism both restricts food intake and reduces calorie absorption.</p></section>
 <section><h2>Expected Results</h2><ul><li>70-80% excess weight loss within 12-18 months</li><li>Up to 80% remission rate for type 2 diabetes</li><li>Strong metabolic benefits including improved blood pressure, cholesterol, and sleep apnoea</li><li>Highest long-term weight loss of standard bariatric procedures</li></ul></section>
 <section><h2>Mini Gastric Bypass Packages & Pricing</h2>
-<article><h3>Basic Package — £3,850</h3><p>JCI Accredited Hospital (2 days), preoperative tests, airport pickup, dietitian support.</p></article>
 <article><h3>Relaxation Package — £5,000</h3><p>Surgery by Dr Murat Ustun, JCI Hospital (3 days), Radisson Hotel, UK dietitian (12 months), supplements.</p></article>
 <article><h3>Luxury Package — £5,350</h3><p>Full VIP experience with extended hotel, private transfers, premium room, comprehensive aftercare.</p></article></section>
 <section><h2>Who is Suitable?</h2><p>Mini gastric bypass is typically recommended for patients with BMI 40+ or BMI 35+ with metabolic conditions such as type 2 diabetes, hypertension, or severe sleep apnoea. It is also an excellent revision option for patients who have not achieved sufficient weight loss from a previous gastric sleeve.</p></section>`,
@@ -788,7 +787,6 @@ const staticPages: Record<string, PageSEO> = {
       "procedureType": "Surgical",
       "bodyLocation": "Stomach and Small Intestine",
       "offers": [
-        { "@type": "Offer", "name": "Basic", "price": "3850", "priceCurrency": "GBP" },
         { "@type": "Offer", "name": "Relaxation", "price": "5000", "priceCurrency": "GBP" },
         { "@type": "Offer", "name": "Luxury", "price": "5350", "priceCurrency": "GBP" }
       ]
@@ -989,22 +987,22 @@ const staticPages: Record<string, PageSEO> = {
   },
   "/cost-of-bariatric-surgery-in-turkey": {
     title: "Cost of Bariatric Surgery in Turkey 2026: All Prices",
-    description: "Transparent 2026 prices for weight loss surgery in Turkey: gastric sleeve from £3,400, bypass from £3,850, ESG from £5,700. Compare UK, US & EU costs.",
+    description: "Transparent 2026 weight loss surgery prices in Turkey: gastric sleeve from £2,450, bypass from £5,000 and ESG from £5,700. Compare UK, US and EU costs.",
     h1: "Cost of Bariatric Surgery in Turkey",
-    bodyExcerpt: "Fixed, all-inclusive 2026 prices at Istanbul Bariatric Center: gastric balloon from £1,900, gastric sleeve from £3,400, mini gastric bypass from £3,850, ESG from £5,700, revision surgery from £4,550. Every package includes JCI-accredited hospital stay, surgeon and anaesthesia fees, pre-operative tests, VIP transfers, hotel and 12 months of dietitian aftercare — typically 60-70% less than UK, US or EU private prices with no hidden fees.",
+    bodyExcerpt: "Fixed 2026 prices at Istanbul Bariatric Center: gastric balloon from £1,900, gastric sleeve from £2,450, mini gastric bypass from £5,000, ESG from £5,700 and revision surgery from £4,550. Package inclusions vary by tier, with hospital care, testing and consultations included.",
     canonical: SITE_URL + "/cost-of-bariatric-surgery-in-turkey",
     modifiedTime: "2026-08-01T09:00:00+03:00",
-    richContent: `<section><h2>Turkey vs UK, US & Europe: Price Comparison (2026)</h2><table><thead><tr><th>Procedure</th><th>Turkey (IBC, all-inclusive)</th><th>United Kingdom</th><th>United States</th><th>Western Europe</th></tr></thead><tbody><tr><td>Gastric Sleeve</td><td>£3,400 – £4,900</td><td>£10,000 – £15,000</td><td>$16,000 – $25,000</td><td>€8,000 – €12,000</td></tr><tr><td>Mini Gastric Bypass</td><td>£3,850 – £5,350</td><td>£11,000 – £16,000</td><td>$20,000 – $30,000</td><td>€9,000 – €14,000</td></tr><tr><td>Gastric Balloon</td><td>£1,900 – £2,600</td><td>£4,000 – £8,000</td><td>$6,000 – $9,000</td><td>€3,500 – €6,000</td></tr><tr><td>ESG (Endoscopic Sleeve)</td><td>£5,700 – £6,850</td><td>£9,000 – £13,000</td><td>$12,000 – $20,000</td><td>€8,000 – €11,000</td></tr><tr><td>Duodenal Switch</td><td>£5,050 – £5,400</td><td>£13,000 – £18,000</td><td>$22,000 – $35,000</td><td>€11,000 – €16,000</td></tr><tr><td>Revision Surgery</td><td>£4,550 – £6,850</td><td>£12,000 – £18,000</td><td>$18,000 – $30,000</td><td>€10,000 – €15,000</td></tr></tbody></table></section>
+    richContent: `<section><h2>Turkey vs UK, US and Europe: Price Comparison (2026)</h2><table><thead><tr><th>Procedure</th><th>Turkey (IBC, all-inclusive)</th><th>United Kingdom</th><th>United States</th><th>Western Europe</th></tr></thead><tbody><tr><td>Gastric Sleeve</td><td>£2,450 – £4,900</td><td>£10,000 – £15,000</td><td>$16,000 – $25,000</td><td>€8,000 – €12,000</td></tr><tr><td>Mini Gastric Bypass</td><td>£5,000 – £5,350</td><td>£11,000 – £16,000</td><td>$20,000 – $30,000</td><td>€9,000 – €14,000</td></tr><tr><td>Gastric Balloon</td><td>£1,900 – £2,600</td><td>£4,000 – £8,000</td><td>$6,000 – $9,000</td><td>€3,500 – €6,000</td></tr><tr><td>ESG (Endoscopic Sleeve)</td><td>£5,700 – £6,850</td><td>£9,000 – £13,000</td><td>$12,000 – $20,000</td><td>€8,000 – €11,000</td></tr><tr><td>Duodenal Switch</td><td>£5,050 – £5,400</td><td>£13,000 – £18,000</td><td>$22,000 – $35,000</td><td>€11,000 – €16,000</td></tr><tr><td>Revision Surgery</td><td>£4,550 – £6,850</td><td>£12,000 – £18,000</td><td>$18,000 – $30,000</td><td>€10,000 – €15,000</td></tr></tbody></table></section>
 <section><h2>What Every Package Includes</h2><ul><li>Surgery at JCI-accredited Liv Hospital, Istanbul</li><li>All surgeon, anaesthesia and hospital fees</li><li>Pre-operative tests and consultations</li><li>VIP airport pick-up and all transfers</li><li>Hotel accommodation (Relaxation & Luxury packages)</li><li>Post-operative medication</li><li>12 months of dietitian support</li><li>UK care support coordinators in 8 locations</li></ul></section>
-<section><h2>Why Is Bariatric Surgery Cheaper in Turkey?</h2><p>The saving is driven by lower operating costs, a favourable exchange rate, and high procedure volumes — not lower standards. Surgery is performed at JCI-accredited hospitals by Dr Murat Ustun, who has performed over 8,000 bariatric procedures. A realistic all-in budget for a UK gastric sleeve patient, including flights and insurance, is roughly £3,800–£5,550 — less than half the cost of the surgery alone at a UK private hospital.</p></section>`,
+<section><h2>Why Is Bariatric Surgery Cheaper in Turkey?</h2><p>The saving is driven by lower operating costs, a favourable exchange rate, and high procedure volumes — not lower standards. Surgery is performed at JCI-accredited hospitals by Dr Murat Ustun, who has performed over 8,000 bariatric procedures. A realistic all-in budget for a UK gastric sleeve patient, including flights, insurance and personal spending, is roughly £2,750–£5,550 — less than half the cost of the surgery alone at a UK private hospital.</p></section>`,
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "How much does bariatric surgery cost in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "At Istanbul Bariatric Center, all-inclusive packages start from £1,900 for a gastric balloon, £3,400 for a gastric sleeve, £3,850 for a mini gastric bypass, and £5,700 for ESG — including JCI-accredited hospital stay, pre-operative tests, transfers, hotel and dietitian aftercare." }},
+        { "@type": "Question", "name": "How much does bariatric surgery cost in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "At Istanbul Bariatric Center, packages start from £1,900 for a gastric balloon, £2,450 for a gastric sleeve, £5,000 for a mini gastric bypass and £5,700 for ESG. Inclusions vary by procedure and package tier." }},
         { "@type": "Question", "name": "Why is weight loss surgery cheaper in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "Lower operating costs, a favourable exchange rate, and government support for medical tourism — not lower standards. Surgery is performed at JCI-accredited hospitals by high-volume surgeons, at 60-70% less than UK, US or EU private prices." }},
         { "@type": "Question", "name": "Are there hidden costs in Turkish bariatric surgery packages?", "acceptedAnswer": { "@type": "Answer", "text": "Not at Istanbul Bariatric Center. Packages include surgeon and anaesthesia fees, hospital stay, tests, transfers, hotel, post-op medication and 12 months of dietitian support. Only flights and personal spending are extra." }},
-        { "@type": "Question", "name": "How does the cost compare to the UK or US?", "acceptedAnswer": { "@type": "Answer", "text": "A gastric sleeve costs £10,000–£15,000 privately in the UK and $16,000–$25,000 in the US. In Istanbul the equivalent all-inclusive package is £3,400–£4,900 — typically a 60–75% saving even after flights." }},
+        { "@type": "Question", "name": "How does the cost compare to the UK or US?", "acceptedAnswer": { "@type": "Answer", "text": "A gastric sleeve costs £10,000–£15,000 privately in the UK and $16,000–$25,000 in the US. In Istanbul packages range from £2,450–£4,900 — typically a 60–75% saving even after flights." }},
         { "@type": "Question", "name": "Can I pay in instalments or with finance?", "acceptedAnswer": { "@type": "Answer", "text": "Payment is normally made by bank transfer or card, with a deposit to secure your date and the balance on arrival. Coordinators can advise on currently available payment arrangements for your country." }},
         { "@type": "Question", "name": "Does travel insurance or the NHS cover surgery in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "The NHS and standard travel insurance do not cover planned surgery abroad, but specialist medical-travel insurance covering complications is available and recommended. Total cost including surgery, flights, hotel and insurance is typically still far below a private operation at home." }}
       ]

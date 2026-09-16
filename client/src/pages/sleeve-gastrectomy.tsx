@@ -82,16 +82,17 @@ export default function SleeveGastrectomy() {
 
   const packageList = [
     {
-      name: "Sleeve Gastrectomy Basic",
-      price: "£3,400",
+      name: "Sleeve Gastrectomy Ultra Eco",
+      price: "£2,450",
       color: "blue",
       recommended: false,
       features: [
-        "Experienced surgical team",
-        "JCI-accredited hospital (2 days)",
+        "Experienced Surgeon Team",
+        "Boutique Hospital",
         "All pre-operative tests and consultations",
-        "VIP airport transfer",
-        "Dietitian support"
+        "2 days hospitalisation",
+        "No hotel",
+        "Not performed by Dr Ustun personally"
       ]
     },
     {
@@ -128,8 +129,8 @@ export default function SleeveGastrectomy() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Gastric Sleeve Surgery in Istanbul — All-Inclusive from £3,400"
-        description="Gastric Sleeve (VSG) at JCI-accredited Liv Hospital, Istanbul. 75–80% stomach reduction. All-inclusive packages from £3,400 with Dr Murat Ustun."
+        title="Gastric Sleeve Istanbul | £2,450"
+        description="Gastric Sleeve (VSG) in Istanbul. 75–80% stomach reduction with all-inclusive packages from £2,450; Dr Murat Ustun performs premium tiers."
         keywords="gastric sleeve turkey, sleeve gastrectomy istanbul, vsg surgery turkey, weight loss surgery cost"
         url="/sleeve-gastrectomy"
       />
@@ -143,7 +144,7 @@ export default function SleeveGastrectomy() {
             { label: "Stomach reduction", value: "75–80%" },
             { label: "Excess weight loss", value: "60–70%" },
             { label: "Hospital stay", value: "2–3 nights" },
-            { label: "All-inclusive from", value: "£3,400" },
+            { label: "All-inclusive from", value: "£2,450" },
           ]}
         />
 
