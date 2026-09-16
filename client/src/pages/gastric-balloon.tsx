@@ -1,271 +1,252 @@
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
-import { Button } from "@/components/ui/button";
-import { CheckCircle2, ArrowRight } from "lucide-react";
-import { useTranslation } from "react-i18next";
-import { SEO } from "@/components/seo";
+import { SEO, JsonLd, structuredData } from "@/components/seo";
 import { Link } from "wouter";
-import { SummarizeWithAI } from "@/components/summarize-with-ai";
+import {
+  MoneyHero,
+  ProcedureFacts,
+  ProseSection,
+  Candidacy,
+  Checklist,
+  ComparisonBlock,
+  SurgeonProof,
+  FAQSection,
+  RelatedLinks,
+  ConversionModule,
+  ExpertPOV,
+  DecisionBlock,
+  StickyCTA,
+  InlineCTA,
+} from "@/components/money-page";
 
-const balloonTypes = [
+const faqs = [
   {
-    name: "Elipse Gastric Balloon",
-    duration: "4-6 months",
-    anesthesia: "Without anesthesia"
+    question: "How much does a gastric balloon cost in Turkey?",
+    answer: "At Istanbul Bariatric Center, the Orbera gastric balloon costs £1,900 and the Allurion swallowable balloon costs £2,600. Your written quotation explains what is included after the clinical team reviews your health information.",
   },
   {
-    name: "Allergan Gastric Balloon",
-    duration: "6 months",
-    anesthesia: "Intravenous"
+    question: "What weight loss can I expect from a gastric balloon?",
+    answer: "Typical total body weight loss is 10–15% over 6–12 months, although results vary. The balloon is a temporary tool: food choices, activity, follow-up and continued habits after removal strongly influence the result.",
   },
   {
-    name: "Spatz Gastric Balloon",
-    duration: "12 months",
-    anesthesia: "General"
-  }
+    question: "What is the difference between Orbera and Allurion?",
+    answer: "Orbera is placed and removed endoscopically and normally remains in the stomach for six months. Allurion is swallowed as a capsule under clinical supervision, is filled after its position is checked, and is designed to deflate and pass naturally after about four months.",
+  },
+  {
+    question: "Is a gastric balloon surgery?",
+    answer: "No abdominal incision is made and the stomach is not cut or stapled. Orbera does require an endoscopic procedure with sedation for placement and removal; Allurion does not normally require endoscopy or anaesthesia for placement.",
+  },
+  {
+    question: "Is travelling to Turkey for a gastric balloon safe?",
+    answer: "No procedure is risk-free. Safety depends on appropriate screening, a qualified clinical team, clear aftercare and knowing when to seek urgent help. Istanbul Bariatric Center treats patients at JCI-accredited Liv Hospital Vadistanbul and gives each eligible patient a personalised plan.",
+  },
+  {
+    question: "What are the common side effects and risks?",
+    answer: "Nausea, vomiting, cramps, reflux and dehydration are common during early adjustment. Less common but important risks include intolerance, balloon deflation or migration, ulceration, obstruction and perforation. Your clinician will explain warning signs and alternatives before consent.",
+  },
+  {
+    question: "Will I regain weight after the balloon is removed?",
+    answer: "Regain is possible because the device is temporary. A structured eating plan, regular activity and dietetic follow-up help preserve progress. If a balloon is unlikely to provide sufficient or durable benefit, the team may discuss ESG or bariatric surgery instead.",
+  },
+  {
+    question: "How do I find out whether I am eligible?",
+    answer: "Request a free consultation and provide an accurate medical history, current medicines, previous procedures and weight history. A clinician must assess suitability; price or preference alone should not determine treatment.",
+  },
+];
+
+const relatedLinks = [
+  { title: "Balloon vs Gastric Sleeve", description: "Compare reversibility, weight loss, recovery and long-term trade-offs.", href: "/gastric-balloon-vs-gastric-sleeve" },
+  { title: "Endoscopic Sleeve Gastroplasty", description: "Explore ESG, a non-surgical endoscopic alternative from £5,700.", href: "/esg" },
+  { title: "Gastric Sleeve Turkey", description: "Understand permanent surgical treatment and expected outcomes.", href: "/gastric-sleeve-turkey" },
+  { title: "Bariatric Treatment Costs", description: "Compare current all-inclusive procedure and package prices.", href: "/cost-of-bariatric-surgery-in-turkey" },
+  { title: "Meet Dr Murat Üstün", description: "Review the surgeon's experience, credentials and approach.", href: "/dr-murat-ustun" },
+  { title: "All Weight-Loss Treatments", description: "See surgical and endoscopic options available in Istanbul.", href: "/treatments" },
 ];
 
 export default function GastricBalloon() {
-  const { t } = useTranslation('treatments');
-  
-  const advantages = t('gastricBalloon.advantages', { returnObjects: true }) as string[];
-  const disadvantages = t('gastricBalloon.disadvantages', { returnObjects: true }) as string[];
-  
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Gastric Balloon in Turkey - Non-Surgical Weight Loss"
-        description="Gastric Balloon procedure in Istanbul. Non-surgical weight loss with Elipse, Allergan, or Spatz balloons. Minimal recovery, effective results."
-        keywords="gastric balloon turkey, elipse balloon istanbul, weight loss balloon, non-surgical weight loss"
+        title="Gastric Balloon Turkey | £1,900"
+        description="Gastric balloon Turkey packages: Orbera £1,900 and Allurion £2,600. Compare options, eligibility, risks, aftercare and expected 10–15% weight loss."
         url="/gastric-balloon"
       />
+      <JsonLd data={structuredData.createBreadcrumb([
+        { name: "Home", url: "/" },
+        { name: "Treatments", url: "/treatments" },
+        { name: "Gastric Balloon Turkey", url: "/gastric-balloon" },
+      ])} />
       <Navbar />
-      
-      {/* Hero Header */}
-      <section className="bg-slate-900 text-white pt-40 pb-20">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">{t('gastricBalloon.heroTitle')}</h1>
-          <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            {t('gastricBalloon.heroSubtitle')}
-          </p>
-          <SummarizeWithAI variant="dark" />
-        </div>
-      </section>
 
-      {/* Introduction */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
-            <div className="space-y-6">
-              <p className="text-lg text-slate-600 leading-relaxed">
-                Many people complain of obesity and its side effects on health statuses, especially that it can be a direct reason for many health problems like strokes and breathing difficulties. Some people try to solve their obesity by following old school traditional ways such as severe diet programs and daily exercises, but not everyone can reach pleasant results. Thus, weight loss surgeries have become the most successful substitute to solve obesity problems.
-              </p>
-              <p className="text-lg text-slate-600 leading-relaxed">
-                One of the most effective and important types is the <strong>Gastric Balloon</strong>. Just like any other weight loss surgery, the reason for gastric balloons is to reduce the weight of a patient but unlike other weight loss surgeries, it is simple and more comfortable therefore it is intelligible for anyone.
-              </p>
-              <p className="text-lg text-slate-600 leading-relaxed font-medium text-slate-900">
-                So how is it done? Are there any risks? How much does it cost? This article will explain everything about gastric balloon surgery.
-              </p>
-            </div>
-            <div className="flex justify-center">
-              <img 
-                src="/gastric-balloon.webp" 
-                alt="Gastric Balloon Illustration" 
-                className="max-w-sm w-full"
-                width="300"
-                height="278"
-                loading="lazy"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      <MoneyHero
+        eyebrow="Non-surgical weight-loss treatment in Istanbul"
+        title="Gastric Balloon in Turkey — From £1,900 All-Inclusive"
+        subtitle="Gastric balloon Turkey treatment starts at £1,900 for Orbera. The Allurion swallowable gastric balloon costs £2,600, with screening and a personalised care plan for eligible international patients."
+        stats={[
+          { value: "£1,900", label: "Orbera price" },
+          { value: "£2,600", label: "Allurion price" },
+          { value: "10–15%", label: "Typical total body weight loss" },
+          { value: "No incisions", label: "Temporary treatment" },
+        ]}
+      />
 
-      {/* How it's performed */}
-      <section className="py-20 bg-slate-50">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">How Gastric Balloon Operation is Performed?</h2>
-          
-          <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
-            <p>
-              First of all, the gastric balloon surgery requires less incision because the doctor starts it by inserting a silicone balloon into the stomach by using an <strong>endoscope</strong> which is a long, thin, and flexible tube that has a camera on the top of it to help the doctor navigate through the mouth and down the throat to reach the stomach.
-            </p>
-            <p>
-              Once the balloon is placed safely in the stomach, it is filled with <strong>saline (salt water)</strong> and the balloon then will become very big to remove so it floats in the stomach freely.
-            </p>
-            <p>
-              As a result of this operation, the filled balloon will give the patient a feeling of a half-full stomach which makes the patient consume less food and slowly make him lose weight.
-            </p>
-            <p>
-              As you can see, the gastric balloon surgery does not involve any cut of the stomach which means that the stomach will work as normal. However, gastric balloon surgery is only a <strong>short term solution</strong> because the balloon must be removed after <strong>8 to 12 months</strong> maximum, so you can think about it like a boost to weight loss but not a once for all solution.
-            </p>
-            <p>
-              You will still need to get support to learn eating healthy, stay living healthy life, add gym into your life, etc.
-            </p>
-            <div className="p-6 bg-blue-50 rounded-xl border border-blue-100 mt-8">
-              <p className="text-slate-700">
-                <strong>Note:</strong> Gastric balloon is also a good option for those who need to lose weight before sleeve gastrectomy surgery. Considering overweight, sometimes doctors offer to have the gastric balloon as a first step to make the main surgery (gastric bypass or sleeve gastrectomy) easier and safer.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ProcedureFacts
+        title="Gastric balloon Turkey at a glance"
+        facts={[
+          { label: "Orbera duration", value: "6 months" },
+          { label: "Allurion duration", value: "About 4 months" },
+          { label: "Hospital", value: "Liv Hospital Vadistanbul" },
+          { label: "Consultation", value: "Free assessment" },
+        ]}
+      />
 
-      {/* Types */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">Types of Intragastric Balloon</h2>
-          
-          <p className="text-lg text-slate-600 mb-8">
-            There are several types of gastric balloon surgery:
-          </p>
+      <ProseSection title="What is a gastric balloon and how does it work?">
+        <p>
+          A gastric balloon is a temporary device that occupies space in the stomach, helping you feel full after smaller portions. It does not remove, staple or reroute any part of the digestive system. For international patients considering gastric balloon treatment in Turkey, the decision should begin with medical suitability rather than price alone.
+        </p>
+        <p>
+          After placement, the balloon works alongside a calorie-controlled eating plan and gradual activity. It is not a passive cure for obesity: patients must learn portion control, eat slowly, choose nutrient-dense foods and plan for life after the device leaves the stomach. Typical total body weight loss is 10–15% over 6–12 months, but individual results are not guaranteed.
+        </p>
+        <p>
+          Istanbul Bariatric Center offers Orbera and Allurion. Orbera is introduced through the mouth with an endoscope under sedation, filled with saline and removed endoscopically after six months. Allurion is swallowed as a capsule under clinical supervision, then filled once its position is confirmed; it is designed to deflate and pass naturally after about four months.
+        </p>
+        <InlineCTA label="Ask About the £1,900 Orbera Balloon" />
+      </ProseSection>
 
-          <div className="grid md:grid-cols-3 gap-6 mb-8">
-            {balloonTypes.map((type, i) => (
-              <div key={i} className="bg-white rounded-xl p-6 shadow-sm border border-slate-100 hover:shadow-lg transition-shadow">
-                <h3 className="font-bold text-slate-900 text-lg mb-4">{type.name}</h3>
-                <div className="space-y-2 text-slate-600">
-                  <p><span className="font-medium">Duration:</span> {type.duration}</p>
-                  <p><span className="font-medium">Anesthesia:</span> {type.anesthesia}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+      <ComparisonBlock
+        title="Orbera vs Allurion gastric balloon prices"
+        subtitle="Two temporary options, selected according to clinical suitability, preferences and the support needed."
+        columns={["Feature", "Orbera", "Allurion"]}
+        highlightColumn={0}
+        rows={[
+          ["Price", "£1,900", "£2,600"],
+          ["Placement", "Endoscopy under sedation", "Swallowed capsule, position checked before filling"],
+          ["Time in stomach", "6 months", "About 4 months"],
+          ["Removal", "Endoscopic removal", "Designed to deflate and pass naturally"],
+          ["Incisions", "None", "None"],
+          ["Best considered by", "Patients comfortable with placement and removal endoscopy", "Eligible patients who prefer a swallowable option"],
+        ]}
+        footnote="A clinical assessment is required. These prices apply to the named options and should be confirmed in your written treatment plan."
+      />
 
-          <div className="p-6 bg-slate-50 rounded-xl border border-slate-200">
-            <p className="text-slate-600">
-              Lately, most people demand an <strong>Elipse gastric balloon</strong> because it is comfortable and does not require anesthesia and lasts for only 4 to 6 months which is considered to be a very satisfying option to help patients go through diet and a healthy life system.
-            </p>
-            <p className="text-slate-600 mt-4">
-              Of course, the results of all types are the same. People usually lose <strong>15% of their weight</strong> depending on their starting weight and their overall health status and sometimes they even lose more weight.
-            </p>
-          </div>
-        </div>
-      </section>
+      <Checklist
+        title="What your treatment planning covers"
+        background="slate"
+        items={[
+          "Remote pre-assessment and review of your medical history",
+          "Selection between Orbera and Allurion based on suitability",
+          "Required clinical checks before the balloon is placed",
+          "Clear eating and hydration guidance for the adjustment phase",
+          "A plan for medication, travel and return to normal activities",
+          "Dietetic guidance focused on habits that continue after removal",
+          "Written warning signs and contact instructions",
+          "Transparent confirmation of the £1,900 or £2,600 option",
+        ]}
+      />
 
-      {/* Advantages */}
-      <section className="py-20 bg-blue-50">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">{t('common.advantages')}</h2>
-          
-          <div className="grid md:grid-cols-2 gap-4">
-            {Array.isArray(advantages) && advantages.map((adv, i) => (
-              <div key={i} className="flex items-start gap-3 p-4 bg-white rounded-lg border border-slate-100">
-                <div className="w-6 h-6 rounded-full bg-green-500 text-white flex items-center justify-center shrink-0 mt-0.5">
-                  <CheckCircle2 className="w-4 h-4" />
-                </div>
-                <span className="text-slate-700">{adv}</span>
-              </div>
-            ))}
-          </div>
-          
-          <h3 className="text-2xl font-bold text-slate-900 mt-12 mb-6">{t('common.thingsToConsider')}</h3>
-          <div className="grid md:grid-cols-2 gap-4">
-            {Array.isArray(disadvantages) && disadvantages.map((dis, i) => (
-              <div key={i} className="flex items-start gap-3 p-4 bg-amber-50 rounded-lg border border-amber-100">
-                <div className="w-6 h-6 rounded-full bg-amber-500 text-white flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">!</div>
-                <span className="text-slate-700">{dis}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <ProseSection title="Your treatment journey in Istanbul" tone="white">
+        <p>
+          The process starts before travel. You share your weight history, health conditions, previous abdominal or bariatric procedures, allergies and medicines. The team may request reports or tests. You should disclose reflux, ulcers, swallowing problems, pregnancy plans and medicines that affect bleeding or the stomach lining. Withholding information can make treatment unsafe.
+        </p>
+        <p>
+          On arrival in Istanbul, the clinical team confirms that the planned balloon remains appropriate. Orbera placement is performed endoscopically with sedation. The empty balloon is guided into the stomach and filled with saline, then its position is checked. Allurion placement involves swallowing the capsule attached to a fine catheter; imaging confirms its location before filling, after which the catheter is removed.
+        </p>
+        <p>
+          Most patients experience nausea, cramping or reflux while the stomach adjusts. Hydration is the immediate priority. You progress from liquids according to clinical guidance rather than rushing back to solid food. The team will explain which symptoms are expected and which require urgent review. Arrange enough recovery time and do not book onward travel that conflicts with medical advice.
+        </p>
+        <p>
+          The following months are where the balloon delivers its value: regular meals, appropriate portions, protein and fibre choices, activity and follow-up turn temporary restriction into repeatable habits. Orbera also requires planned endoscopic removal. Allurion is designed to empty and pass naturally, but follow-up still matters.
+        </p>
+      </ProseSection>
 
-      {/* Recovery */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">Recovery from weight loss surgery</h2>
-          
-          <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
-            <p>
-              The first few weeks after the surgery you will only consume liquid and soft food to help your stomach go through transition. After these few weeks, you can start eating more solid food slowly.
-            </p>
-            <p>
-              However, to come up with the most pleasant result you should follow a healthy diet that helps you lose weight because the surgery alone will not accomplish that for you. Thus, it is very important to follow the diet program and the instruction of your doctor and never skip any detail even if it's small.
-            </p>
-          </div>
-        </div>
-      </section>
+      <Candidacy
+        title="Who may be suitable for a gastric balloon?"
+        intro={<p>A gastric balloon can suit selected adults who want a temporary, non-surgical tool and are prepared to participate in dietary follow-up. Final eligibility is always an individual clinical decision.</p>}
+        criteria={[
+          "You have not achieved sufficient progress with lifestyle measures alone",
+          "You understand that 10–15% total body weight loss is typical, not guaranteed",
+          "You can follow staged eating, hydration and follow-up instructions",
+          "You prefer a temporary option without abdominal incisions",
+          "You are willing to build habits for the period after the balloon",
+          "Your medical history does not identify a contraindication",
+        ]}
+        note={<p>A balloon may not be appropriate with certain stomach or oesophageal disease, previous gastrointestinal surgery, pregnancy, uncontrolled medical or psychiatric illness, or inability to follow care instructions. Only a qualified clinician can decide after reviewing your history.</p>}
+      />
 
-      {/* Costs */}
-      <section className="py-20 bg-slate-50">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">Costs of weight loss surgery</h2>
-          
-          <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
-            <p>
-              Well, the costs differ from a hospital to another one and from a country to another one but in general the costs of gastric balloon surgery is not very high. In addition, most insurance companies cover the costs if it is proved that you need the surgery. Still, it is better to check this information with the insurance company you work with.
-            </p>
-            <p>
-              In the end, always remember that gastric balloon surgery or any other type of weight loss surgery should be your last option and only done after you attempt to lose weight by following traditional ways like diets and daily exercises. Also, it is very important to share all of your health information with the surgeon including your medical history report before starting the operation to avoid any problems whether during the surgery or the recovery process.
-            </p>
-          </div>
-        </div>
-      </section>
+      <DecisionBlock
+        title="Is a gastric balloon the right level of treatment?"
+        bestFor={[
+          "Eligible patients seeking a temporary, non-surgical tool",
+          "People comfortable with moderate rather than surgical levels of expected weight loss",
+          "Patients ready to use the treatment period to change eating habits",
+        ]}
+        notIdealFor={[
+          "Anyone expecting the device to work without dietary and behavioural change",
+          "Patients whose medical history makes balloon placement unsafe",
+          "People who need greater or more durable weight loss than a balloon is likely to provide",
+        ]}
+        typicalRecovery="Early nausea, cramps, reflux and fatigue can occur, especially during the first days. Return to routine varies according to symptoms, hydration and the clinician's advice."
+        tradeOffs={[
+          "The device is temporary and weight regain can occur after it leaves the stomach",
+          "Orbera needs sedation and endoscopy for both placement and removal",
+          "Allurion avoids planned removal but is not suitable for every patient",
+          "Rare complications can require urgent endoscopy or other treatment",
+        ]}
+      />
 
-      {/* Related Treatments */}
-      <section className="py-16 bg-slate-100">
-        <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">{t("related.title")}</h2>
-          <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto">
-            <Link href="/sleeve-gastrectomy">
-              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
-                <h3 className="font-bold text-primary mb-2">{t("related.gastricSleeve.title")}</h3>
-                <p className="text-sm text-slate-600">{t("related.gastricSleeve.description")}</p>
-              </div>
-            </Link>
-            <Link href="/mini-gastric-bypass">
-              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
-                <h3 className="font-bold text-primary mb-2">{t("related.gastricBypass.title")}</h3>
-                <p className="text-sm text-slate-600">{t("related.gastricBypass.description")}</p>
-              </div>
-            </Link>
-            <Link href="/esg">
-              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
-                <h3 className="font-bold text-primary mb-2">{t("related.endoscopicSleeve.title")}</h3>
-                <p className="text-sm text-slate-600">{t("related.endoscopicSleeve.description")}</p>
-              </div>
-            </Link>
-            <Link href="/duodenal-switch">
-              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
-                <h3 className="font-bold text-primary mb-2">{t("related.duodenalSwitch.title")}</h3>
-                <p className="text-sm text-slate-600">{t("related.duodenalSwitch.description")}</p>
-              </div>
-            </Link>
-            <Link href="/gastric-balloon-vs-gastric-sleeve">
-              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
-                <h3 className="font-bold text-primary mb-2">{t("guides.balloonVsSleeve.title")}</h3>
-                <p className="text-sm text-slate-600">{t("guides.balloonVsSleeve.description")}</p>
-              </div>
-            </Link>
-            <Link href="/esg-vs-gastric-sleeve">
-              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer">
-                <h3 className="font-bold text-primary mb-2">{t("guides.esgVsSleeve.title")}</h3>
-                <p className="text-sm text-slate-600">{t("guides.esgVsSleeve.description")}</p>
-              </div>
-            </Link>
-          </div>
-        </div>
-      </section>
+      <ProseSection title="Gastric balloon risks and responsible aftercare" tone="blue">
+        <p>
+          Common effects include nausea, vomiting, abdominal discomfort, reflux and difficulty maintaining hydration during adjustment. Prescribed medicines and the staged diet can help, but persistent vomiting, severe or worsening pain, abdominal swelling, fever, breathing difficulty, bleeding, inability to drink or a sudden change in symptoms needs prompt clinical advice.
+        </p>
+        <p>
+          Less common complications include severe intolerance, gastric ulceration, balloon deflation, migration, bowel obstruction and perforation. Some situations require early balloon removal or urgent intervention. These possibilities should be discussed during informed consent; marketing terms such as “non-surgical” do not mean risk-free.
+        </p>
+        <p>
+          International treatment also requires practical preparation. Keep the clinic's contacts available, follow flight and medication advice, and understand how care will be coordinated after you return home. Seek local emergency services when symptoms are urgent rather than waiting for an online reply.
+        </p>
+      </ProseSection>
 
-      {/* CTA */}
-      <section className="py-20 bg-primary text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">Interested in Gastric Balloon?</h2>
-          <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Contact <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">Dr Murat Ustun's</a> team today for a free consultation and learn if gastric balloon is the right option for your weight loss journey.
-          </p>
-          <Button 
-            size="lg" 
-            className="bg-white text-primary hover:bg-white/90 font-bold text-lg h-14 px-10"
-            onClick={() => window.open('https://wa.me/447491068686', '_blank')}
-          >
-            {t('common.bookConsultation')}
-          </Button>
-        </div>
-      </section>
+      <ExpertPOV title="How Dr Murat Üstün approaches balloon selection">
+        <p>
+          “I first ask whether a temporary balloon can reasonably match the patient's health needs, expectations and willingness to change habits. Orbera and Allurion differ in how they are placed and how they leave the stomach, but neither replaces careful screening or follow-up.”
+        </p>
+        <p>
+          “When someone needs substantially greater weight loss, has significant metabolic disease, or has already regained weight after temporary treatment, I discuss alternatives honestly. That may include <Link href="/esg" className="text-primary hover:underline">endoscopic sleeve gastroplasty</Link> or, for an appropriate surgical candidate, <Link href="/gastric-sleeve-turkey" className="text-primary hover:underline">gastric sleeve in Turkey</Link>. The least invasive choice is useful only when it is also clinically suitable.”
+        </p>
+      </ExpertPOV>
 
+      <SurgeonProof
+        title="Experienced, accountable care in Istanbul"
+        subtitle="Istanbul Bariatric Center was founded by Dr Murat Üstün, a bariatric and metabolic surgeon with 22+ years of experience and 8,000+ procedures."
+        cards={[
+          { icon: "surgeon", title: <Link href="/dr-murat-ustun">Dr Murat Üstün</Link>, text: "IFSO member, bariatric and metabolic surgeon, and a pioneer of ESG in Turkey." },
+          { icon: "hospital", title: "JCI-accredited setting", text: "Clinical care is provided at Liv Hospital Vadistanbul in Istanbul." },
+          { icon: "pricing", title: "Prices stated clearly", text: "Orbera is £1,900 and the Allurion swallowable balloon is £2,600." },
+          { icon: "results", title: "Recognised service", text: "WhatClinic Patient Service Award 2019–2021 and 2023–2025." },
+        ]}
+      />
+
+      <ProseSection title="Balloon, ESG or gastric sleeve?" tone="slate">
+        <p>
+          A balloon is temporary and does not alter the stomach. Its typical result of 10–15% total body weight loss can be meaningful, but it is generally more modest than surgical outcomes. ESG uses an endoscope to place sutures that reduce stomach volume without removing stomach tissue; treatment starts from £5,700. A gastric sleeve is surgery that permanently removes part of the stomach and typically achieves 60–70% excess weight loss at 12–18 months.
+        </p>
+        <p>
+          These percentages use different measures, so they should not be compared as though they are identical. Total body weight loss describes a percentage of starting weight; excess weight loss describes a percentage of weight above a reference healthy weight. Read our detailed <Link href="/gastric-balloon-vs-gastric-sleeve" className="text-primary hover:underline">gastric balloon vs gastric sleeve comparison</Link>, then discuss your health goals with a clinician.
+        </p>
+        <p>
+          Cost is one factor, not the diagnosis. Our <Link href="/cost-of-bariatric-surgery-in-turkey" className="text-primary hover:underline">Turkey bariatric treatment cost guide</Link> explains current package prices, while the <Link href="/treatments" className="text-primary hover:underline">treatments overview</Link> helps you understand the full range before committing.
+        </p>
+      </ProseSection>
+
+      <FAQSection title="Gastric balloon Turkey FAQs" faqs={faqs} />
+      <RelatedLinks title="Compare treatments and plan your decision" links={relatedLinks} />
+      <ConversionModule
+        title="Check eligibility for Orbera from £1,900"
+        text="Request a free, no-obligation assessment. Share your medical and weight history to receive an appropriate recommendation and a clear written quotation."
+        buttonLabel="Ask About the £1,900 Balloon"
+      />
       <Footer />
+      <StickyCTA guideHref="/cost-of-bariatric-surgery-in-turkey" />
     </div>
   );
 }

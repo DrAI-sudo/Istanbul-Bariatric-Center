@@ -8,3 +8,5 @@ description: How Dr Murat Üstün is modelled in structured data and linked inte
 - Prerender bakes the CLIENT title (page title + " | Istanbul Bariatric Center", 28 chars), so client page titles must be ≤32 chars to keep prod ≤60. Dev SSR title can be longer/richer.
 - `/dr-murat-ustun` used to be a legacy 301 → /about in routes.ts; if the page is ever removed, restore that redirect.
 - Sitemap lastmod: server/sitemap-lastmod.json is generated from git page-file dates at build time (script/generate-sitemap-lastmod.ts); server/seo-data.ts edits do not bump dates by design (would stamp every route with the same day).
+- Do not attach performedBy → Dr Üstün to a MedicalProcedure whose offers include the Ultra Eco sleeve package (performed by the surgeon team, not Dr Üstün); use provider → organisation instead.
+- Never let subagents write "testimonials" for medical pages; StaticTestimonials labels quotes "Verified Patient" — only real, consented reviews belong there.

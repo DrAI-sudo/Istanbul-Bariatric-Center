@@ -4,6 +4,10 @@ import { fileURLToPath } from "url";
 
 const __seoDirname = path.dirname(fileURLToPath(import.meta.url));
 
+import { gastricBypassSEO } from "./seo-pages/gastric-bypass";
+import { gastricSleeveTurkeySEO } from "./seo-pages/gastric-sleeve-turkey";
+import { gastricSleeveTurkeyCostSEO } from "./seo-pages/gastric-sleeve-turkey-cost";
+
 const SITE_URL = "https://istanbulbariatriccenter.com";
 
 const PHYSICIAN_ID = SITE_URL + "/#drmuratustun";
@@ -83,6 +87,9 @@ const SERVER_BREADCRUMBS: Record<string, Array<{ name: string; path: string }>> 
   "/contact": [{ name: "Home", path: "/" }, { name: "Contact", path: "/contact" }],
   "/sleeve-gastrectomy": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Sleeve", path: "/sleeve-gastrectomy" }],
   "/mini-gastric-bypass": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Mini Gastric Bypass", path: "/mini-gastric-bypass" }],
+  "/gastric-bypass": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Bypass", path: "/gastric-bypass" }],
+  "/gastric-sleeve-turkey": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Sleeve Turkey", path: "/gastric-sleeve-turkey" }],
+  "/gastric-sleeve-turkey-cost": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Sleeve Turkey Cost", path: "/gastric-sleeve-turkey-cost" }],
   "/gastric-balloon": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Balloon", path: "/gastric-balloon" }],
   "/duodenal-switch": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Duodenal Switch", path: "/duodenal-switch" }],
   "/transit-bipartition": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Transit Bipartition", path: "/transit-bipartition" }],
@@ -93,7 +100,7 @@ const SERVER_BREADCRUMBS: Record<string, Array<{ name: string; path: string }>> 
   "/best-endosleeve-clinic-istanbul": [{ name: "Home", path: "/" }, { name: "ESG", path: "/esg" }, { name: "Best Endosleeve Clinic in Istanbul", path: "/best-endosleeve-clinic-istanbul" }],
 };
 
-interface PageSEO {
+export interface PageSEO {
   title: string;
   description: string;
   h1: string;
@@ -148,6 +155,9 @@ const ESG_ALTERNATES: Array<{ hreflang: string; href: string }> = [
 ];
 
 const staticPages: Record<string, PageSEO> = {
+  "/gastric-bypass": gastricBypassSEO,
+  "/gastric-sleeve-turkey": gastricSleeveTurkeySEO,
+  "/gastric-sleeve-turkey-cost": gastricSleeveTurkeyCostSEO,
   "/": {
     title: "Weight Loss Surgery in Istanbul | Free Consultation",
     description: "Istanbul Bariatric Center: Expert weight loss surgery in Turkey. Gastric sleeve & bypass options with Dr. Murat Ustun. Book your free consultation.",
@@ -785,25 +795,41 @@ const staticPages: Record<string, PageSEO> = {
     }]
   },
   "/gastric-balloon": {
-    title: "Gastric Balloon in Turkey - Istanbul Bariatric Center",
-    description: "Non-surgical Gastric Balloon weight loss procedure in Istanbul. Orbera from £1,900, Allurion from £2,600. Temporary, reversible solution.",
-    h1: "Gastric Balloon",
-    bodyExcerpt: "The Gastric Balloon at Istanbul Bariatric Center is a non-surgical, temporary weight loss solution. A deflated silicone balloon is placed endoscopically into the stomach and filled with saline, reducing stomach capacity and promoting early satiety. Ideal for patients with BMI 27-35 who prefer a non-surgical approach.",
+    title: "Gastric Balloon Turkey from £1,900 | Orbera and Allurion",
+    description: "Gastric balloon Turkey packages: Orbera £1,900 and Allurion £2,600. Compare options, eligibility, risks, aftercare and expected 10–15% weight loss.",
+    h1: "Gastric Balloon in Turkey — From £1,900 All-Inclusive",
+    bodyExcerpt: "Gastric balloon Turkey treatment starts at £1,900 for Orbera, with Allurion available for £2,600. Compare placement, eligibility, risks and aftercare for these temporary, non-surgical weight-loss options.",
     canonical: SITE_URL + "/gastric-balloon",
-    richContent: `<section><h2>What is a Gastric Balloon?</h2><p>A gastric balloon is a non-surgical, temporary weight loss device placed in the stomach to reduce capacity and promote earlier fullness. Istanbul Bariatric Center offers two types: the Orbera intragastric balloon (placed endoscopically, removed after 6 months) and the Allurion swallowable balloon (swallowed as a capsule, naturally deflates and passes after 4 months).</p></section>
-<section><h2>Gastric Balloon Options & Pricing</h2>
-<article><h3>Orbera Endoscopic Balloon — £1,900</h3><p>Placed under sedation via endoscope. Filled with 400-700ml saline. Removed after 6 months. 10-15% total body weight loss expected.</p></article>
-<article><h3>Allurion Swallowable Balloon — £2,600</h3><p>Swallowed as a capsule in a 15-minute appointment. No anaesthesia or endoscopy required. Naturally deflates and passes after approximately 4 months.</p></article></section>
-<section><h2>Who is Suitable?</h2><p>Gastric balloon is ideal for patients with BMI 30-40 who prefer a non-surgical approach, those not yet ready for bariatric surgery, or as a weight loss kickstart before a surgical procedure.</p></section>`,
+    richContent: `<section><h2>What is a gastric balloon?</h2><p>A gastric balloon is a temporary device that occupies space in the stomach and helps an eligible patient feel full after smaller portions. It does not cut, staple or reroute the digestive system. Typical total body weight loss is 10–15% over 6–12 months, but results vary and sustained progress depends on nutrition, activity and follow-up.</p></section>
+<section><h2>Orbera and Allurion gastric balloon prices</h2><h3>Orbera gastric balloon — £1,900</h3><p>Orbera is placed through the mouth by endoscopy under sedation, filled with saline and removed endoscopically after six months.</p><h3>Allurion swallowable gastric balloon — £2,600</h3><p>Allurion is swallowed as a capsule under clinical supervision, filled after its position is confirmed and designed to deflate and pass naturally after about four months.</p></section>
+<section><h2>Who may be eligible?</h2><p>A gastric balloon may suit selected adults seeking a temporary, non-surgical weight-loss tool who can follow staged eating, hydration and aftercare instructions. Certain stomach or oesophageal disease, previous gastrointestinal surgery, pregnancy, uncontrolled illness or inability to follow care instructions may make treatment unsuitable. A clinician must review each patient's full history.</p></section>
+<section><h2>Treatment and recovery in Istanbul</h2><p>Assessment begins before travel with a review of weight history, health conditions, previous procedures and medicines. Care is provided at JCI-accredited Liv Hospital Vadistanbul. Nausea, cramping and reflux can occur during early adjustment, so patients receive hydration, diet and warning-sign guidance before returning home.</p></section>
+<section><h2>Risks and aftercare</h2><p>Common effects include nausea, vomiting, discomfort, reflux and dehydration. Less common but serious complications can include intolerance, ulceration, balloon deflation or migration, obstruction and perforation. Severe pain, persistent vomiting, bleeding, breathing difficulty or inability to drink requires prompt medical attention.</p></section>
+<section><h2>Balloon, ESG or gastric sleeve?</h2><p>A balloon is temporary and typically produces more modest weight loss than bariatric surgery. Eligible patients who need a different level of treatment can compare <a href="/esg">endoscopic sleeve gastroplasty</a>, <a href="/gastric-sleeve-turkey">gastric sleeve in Turkey</a> and the detailed <a href="/gastric-balloon-vs-gastric-sleeve">balloon versus sleeve guide</a>. Current prices are listed in the <a href="/cost-of-bariatric-surgery-in-turkey">bariatric treatment cost guide</a>.</p></section>
+<section><h2>Why Istanbul Bariatric Center?</h2><p>The centre was founded by <a href="/dr-murat-ustun">Dr Murat Üstün</a>, a bariatric and metabolic surgeon with 22+ years of experience and 8,000+ procedures. He is an IFSO member and pioneer of ESG in Turkey. The clinic received the WhatClinic Patient Service Award in 2019–2021 and 2023–2025.</p></section>
+<section><h2>Gastric balloon Turkey FAQs</h2><h3>How much does a gastric balloon cost in Turkey?</h3><p>At Istanbul Bariatric Center, Orbera costs £1,900 and the Allurion swallowable balloon costs £2,600.</p><h3>What weight loss can I expect?</h3><p>Typical total body weight loss is 10–15% over 6–12 months, although individual results vary.</p><h3>What is the difference between Orbera and Allurion?</h3><p>Orbera is placed and removed endoscopically and normally remains for six months. Allurion is swallowed under clinical supervision and is designed to deflate and pass naturally after about four months.</p><h3>Is a gastric balloon surgery?</h3><p>No abdominal incision is made. Orbera requires endoscopy with sedation for placement and removal; Allurion does not normally require endoscopy or anaesthesia for placement.</p><h3>What are the risks?</h3><p>Common effects include nausea, cramps and reflux. Less common risks include intolerance, deflation or migration, ulceration, obstruction and perforation.</p></section>`,
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "MedicalProcedure",
-      "name": "Gastric Balloon",
+      "@id": SITE_URL + "/gastric-balloon#procedure",
+      "name": "Gastric Balloon Turkey",
       "alternateName": ["Intragastric Balloon", "Orbera Balloon", "Allurion Balloon"],
       "procedureType": "Noninvasive",
+      "description": "Temporary gastric balloon treatment in Istanbul with Orbera and Allurion options.",
+      "performedBy": { "@id": "https://istanbulbariatriccenter.com/#drmuratustun" },
       "offers": [
         { "@type": "Offer", "name": "Orbera Balloon", "price": "1900", "priceCurrency": "GBP" },
         { "@type": "Offer", "name": "Allurion Balloon", "price": "2600", "priceCurrency": "GBP" }
+      ]
+    }, {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "How much does a gastric balloon cost in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "At Istanbul Bariatric Center, the Orbera gastric balloon costs £1,900 and the Allurion swallowable balloon costs £2,600." } },
+        { "@type": "Question", "name": "What weight loss can I expect from a gastric balloon?", "acceptedAnswer": { "@type": "Answer", "text": "Typical total body weight loss is 10–15% over 6–12 months, although individual results vary." } },
+        { "@type": "Question", "name": "What is the difference between Orbera and Allurion?", "acceptedAnswer": { "@type": "Answer", "text": "Orbera is placed and removed endoscopically and normally remains for six months. Allurion is swallowed under clinical supervision and is designed to deflate and pass naturally after about four months." } },
+        { "@type": "Question", "name": "Is a gastric balloon surgery?", "acceptedAnswer": { "@type": "Answer", "text": "No abdominal incision is made. Orbera requires endoscopy with sedation for placement and removal; Allurion does not normally require endoscopy or anaesthesia for placement." } },
+        { "@type": "Question", "name": "What are the common side effects and risks?", "acceptedAnswer": { "@type": "Answer", "text": "Nausea, vomiting, cramps, reflux and dehydration are common during adjustment. Less common risks include intolerance, deflation or migration, ulceration, obstruction and perforation." } }
       ]
     }]
   },

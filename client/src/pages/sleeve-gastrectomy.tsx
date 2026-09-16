@@ -237,7 +237,9 @@ export default function SleeveGastrectomy() {
         <RelatedLinks
           title={t("related.title")}
           links={[
-            { title: t("related.gastricBypass.title"), description: t("related.gastricBypass.description"), href: "/mini-gastric-bypass" },
+            { title: "Gastric Sleeve Turkey 2026 Guide", description: "Cost, best clinics and all-inclusive packages compared.", href: "/gastric-sleeve-turkey" },
+            { title: "Gastric Sleeve Turkey Cost", description: "Full price breakdown: what is and is not included.", href: "/gastric-sleeve-turkey-cost" },
+            { title: t("related.gastricBypass.title"), description: t("related.gastricBypass.description"), href: "/gastric-bypass" },
             { title: t("related.gastricBalloon.title"), description: t("related.gastricBalloon.description"), href: "/gastric-balloon" },
             { title: t("related.endoscopicSleeve.title"), description: t("related.endoscopicSleeve.description"), href: "/esg" },
             { title: t("related.revisionSurgery.title"), description: t("related.revisionSurgery.description"), href: "/revision-bariatric-surgery" },

@@ -58,13 +58,11 @@ const LEGACY_REDIRECTS: Record<string, string> = {
   "/cost": "/treatments",
   "/gastric-sleeve": "/sleeve-gastrectomy",
   "/gastric-sleeve-surgery": "/sleeve-gastrectomy",
-  "/gastric-sleeve-turkey": "/sleeve-gastrectomy",
   "/sleeve-gastrectomy-turkey": "/sleeve-gastrectomy",
-  "/gastric-bypass": "/mini-gastric-bypass",
-  "/gastric-bypass-surgery": "/mini-gastric-bypass",
-  "/gastric-bypass-turkey": "/mini-gastric-bypass",
+  "/gastric-bypass-surgery": "/gastric-bypass",
+  "/gastric-bypass-turkey": "/gastric-bypass",
   "/mini-gastric-bypass-turkey": "/mini-gastric-bypass",
-  "/roux-en-y-gastric-bypass": "/mini-gastric-bypass",
+  "/roux-en-y-gastric-bypass": "/gastric-bypass",
   "/gastric-balloon-turkey": "/gastric-balloon",
   "/intragastric-balloon": "/gastric-balloon",
   "/allurion-balloon": "/gastric-balloon",
@@ -155,6 +153,9 @@ export async function registerRoutes(
       "/contact": { priority: "0.7", changefreq: "monthly", lastmod: "2024-11-01" },
       "/sleeve-gastrectomy": { priority: "0.9", changefreq: "monthly", lastmod: "2025-02-01" },
       "/mini-gastric-bypass": { priority: "0.9", changefreq: "monthly", lastmod: "2025-02-01" },
+      "/gastric-bypass": { priority: "0.9", changefreq: "monthly" },
+      "/gastric-sleeve-turkey": { priority: "0.9", changefreq: "monthly" },
+      "/gastric-sleeve-turkey-cost": { priority: "0.9", changefreq: "monthly" },
       "/gastric-balloon": { priority: "0.9", changefreq: "monthly", lastmod: "2025-02-01" },
       "/duodenal-switch": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-01" },
       "/transit-bipartition": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-01" },
@@ -248,6 +249,9 @@ export async function registerRoutes(
 
 - [Gastric Sleeve Surgery (Sleeve Gastrectomy)](${BASE_URL}/sleeve-gastrectomy): From £3,400. Removes 75-80% of the stomach. Most popular bariatric procedure worldwide. Ideal for BMI 35+.
 - [Mini Gastric Bypass](${BASE_URL}/mini-gastric-bypass): From £3,850. Creates a small stomach pouch and bypasses part of the small intestine. Best for BMI 40+ or metabolic conditions.
+- [Gastric Bypass Surgery in Turkey](${BASE_URL}/gastric-bypass): Roux-en-Y and mini (OAGB) bypass compared. All-inclusive packages Relaxation £5,000 / Luxury £5,350.
+- [Gastric Sleeve Turkey 2026 Guide](${BASE_URL}/gastric-sleeve-turkey): Cost, best clinics and all-inclusive packages compared. Sleeve packages from £2,450.
+- [Gastric Sleeve Turkey Cost](${BASE_URL}/gastric-sleeve-turkey-cost): Full price breakdown for gastric sleeve in Turkey — Ultra Eco £2,450, Relaxation £4,550, Luxury £4,900.
 - [Gastric Balloon](${BASE_URL}/gastric-balloon): From £1,900. Non-surgical, temporary balloon placed in stomach. Orbera (endoscopic) and Allurion (swallowable) options available.
 - [Endoscopic Sleeve Gastroplasty (ESG)](${BASE_URL}/esg): From £5,700. Non-surgical stomach reduction via endoscope. No incisions, 1-3 day recovery. Pioneered in Turkey by Dr Murat Ustun.
 - [ESG for UK Patients](${BASE_URL}/esg/uk): ESG tailored for UK patients. Save up to 70% vs UK private clinics. All-inclusive packages from £5,700. UK patient coordinators, UK WhatsApp support.

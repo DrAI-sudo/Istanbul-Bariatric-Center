@@ -174,6 +174,7 @@ export default function MiniGastricBypass() {
         <RelatedLinks
           title={t("related.title")}
           links={[
+            { title: "Gastric Bypass Surgery in Turkey", description: "Roux-en-Y vs mini bypass, packages from £5,000 all-inclusive.", href: "/gastric-bypass" },
             { title: t("related.gastricSleeve.title"), description: t("related.gastricSleeve.description"), href: "/sleeve-gastrectomy" },
             { title: t("related.gastricBalloon.title"), description: t("related.gastricBalloon.description"), href: "/gastric-balloon" },
             { title: t("related.endoscopicSleeve.title"), description: t("related.endoscopicSleeve.description"), href: "/esg" },
