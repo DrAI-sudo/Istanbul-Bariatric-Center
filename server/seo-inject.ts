@@ -141,6 +141,24 @@ export function injectSEO(html: string, requestPath: string): string {
       "address": { "@type": "PostalAddress", "addressLocality": "Istanbul", "addressCountry": "TR" },
       "medicalSpecialty": "Bariatric Surgery",
       "priceRange": "£1,900 - £6,850",
+      "founder": { "@type": "Physician", "@id": "https://istanbulbariatriccenter.com/#drmuratustun", "name": "Dr Murat Ustun", "url": "https://istanbulbariatriccenter.com/dr-murat-ustun" },
+      "areaServed": [
+        { "@type": "Country", "name": "United Kingdom" },
+        { "@type": "Country", "name": "Ireland" },
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "Germany" },
+        { "@type": "Country", "name": "Australia" },
+        { "@type": "Country", "name": "France" },
+        { "@type": "Country", "name": "Spain" },
+        { "@type": "Country", "name": "Italy" },
+        { "@type": "Country", "name": "Netherlands" },
+        { "@type": "Country", "name": "Saudi Arabia" },
+        { "@type": "Country", "name": "United Arab Emirates" }
+      ],
+      "hasCredential": [
+        { "@type": "EducationalOccupationalCredential", "credentialCategory": "Accreditation", "name": "JCI (Joint Commission International) Accredited Hospital", "url": "https://www.jointcommissioninternational.org/" },
+        { "@type": "EducationalOccupationalCredential", "credentialCategory": "Membership", "name": "IFSO Member Institution" }
+      ],
       "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5" },
       "sameAs": [
         "https://www.facebook.com/istanbulbariatriccenter",

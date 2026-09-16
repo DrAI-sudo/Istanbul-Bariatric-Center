@@ -6,6 +6,93 @@ const __seoDirname = path.dirname(fileURLToPath(import.meta.url));
 
 const SITE_URL = "https://istanbulbariatriccenter.com";
 
+const PHYSICIAN_ID = SITE_URL + "/#drmuratustun";
+
+// Canonical Physician entity. Emitted in full on /dr-murat-ustun; every other
+// page references it by @id (founder, author, performedBy).
+const PHYSICIAN_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "Physician",
+  "@id": PHYSICIAN_ID,
+  "name": "Dr Murat Üstün",
+  "alternateName": "Dr Murat Ustun",
+  "givenName": "Murat",
+  "familyName": "Üstün",
+  "jobTitle": "Bariatric & Metabolic Surgeon",
+  "medicalSpecialty": ["Bariatric Surgery", "Metabolic Surgery", "Endoscopic Weight Loss"],
+  "worksFor": { "@id": SITE_URL + "/#organization" },
+  "hospitalAffiliation": {
+    "@type": "Hospital",
+    "name": "Liv Hospital Vadistanbul",
+    "address": "Ayazağa, Kemerburgaz Cd., Vadistanbul, 34396 Sarıyer/İstanbul, Turkey"
+  },
+  "memberOf": [
+    { "@type": "Organization", "name": "IFSO — International Federation for the Surgery of Obesity and Metabolic Disorders" }
+  ],
+  "award": [
+    "WhatClinic Patient Service Award 2019",
+    "WhatClinic Patient Service Award 2020",
+    "WhatClinic Patient Service Award 2021",
+    "WhatClinic Patient Service Award 2023",
+    "WhatClinic Patient Service Award 2024",
+    "WhatClinic Patient Service Award 2025"
+  ],
+  "knowsAbout": [
+    "Sleeve Gastrectomy", "Gastric Bypass", "Gastric Balloon",
+    "Endoscopic Sleeve Gastroplasty (ESG)", "POSE-2", "TORe", "GFMA", "Duodenal Switch", "Transit Bipartition", "Revision Bariatric Surgery"
+  ],
+  "url": SITE_URL + "/dr-murat-ustun",
+  "image": SITE_URL + "/dr-murat-ustun.webp",
+  "sameAs": [
+    "https://drmuratustun.com/",
+    "https://www.linkedin.com/in/drmuratustun/",
+    "https://x.com/DrMuratUstun",
+    "https://www.youtube.com/@istanbulbariatriccenter",
+    "https://www.instagram.com/istanbulbariatriccenter",
+    "https://www.whatclinic.com/bariatric-surgery/turkey/istanbul-province/istanbul/nisantasi/istanbul-bariatric-center",
+    "https://us-uk.bookimed.com/doctor/murat-ustun/",
+    "https://medtraveling.com/doctors/murat-ustun",
+    "https://airomedical.com/doctors/dr-murat-ustun",
+    "https://medigence.com/doctor/bariatric-surgeon/murat-ustun",
+    "https://www.placidway.com/doctor-detail/57635/Murat-Ustun",
+    "https://apolloendosleeve.com/team-2",
+    "https://itmtgroup.com/our-doctors/op-dr-murat-ustun/"
+  ]
+};
+
+const PHYSICIAN_REF = { "@type": "Person", "@id": PHYSICIAN_ID, "name": "Dr Murat Ustun", "url": SITE_URL + "/dr-murat-ustun" };
+
+function breadcrumb(items: Array<{ name: string; path: string }>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": items.map((it, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "name": it.name,
+      "item": SITE_URL + it.path,
+    })),
+  };
+}
+
+// Server-side BreadcrumbList for routes whose client page does not emit one.
+const SERVER_BREADCRUMBS: Record<string, Array<{ name: string; path: string }>> = {
+  "/about": [{ name: "Home", path: "/" }, { name: "About", path: "/about" }],
+  "/dr-murat-ustun": [{ name: "Home", path: "/" }, { name: "About", path: "/about" }, { name: "Dr Murat Üstün", path: "/dr-murat-ustun" }],
+  "/results": [{ name: "Home", path: "/" }, { name: "Patient Results", path: "/results" }],
+  "/contact": [{ name: "Home", path: "/" }, { name: "Contact", path: "/contact" }],
+  "/sleeve-gastrectomy": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Sleeve", path: "/sleeve-gastrectomy" }],
+  "/mini-gastric-bypass": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Mini Gastric Bypass", path: "/mini-gastric-bypass" }],
+  "/gastric-balloon": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Balloon", path: "/gastric-balloon" }],
+  "/duodenal-switch": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Duodenal Switch", path: "/duodenal-switch" }],
+  "/transit-bipartition": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Transit Bipartition", path: "/transit-bipartition" }],
+  "/post-bariatric-surgery": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Post-Bariatric Surgery", path: "/post-bariatric-surgery" }],
+  "/insurance": [{ name: "Home", path: "/" }, { name: "Insurance", path: "/insurance" }],
+  "/news": [{ name: "Home", path: "/" }, { name: "News", path: "/news" }],
+  "/health-profile": [{ name: "Home", path: "/" }, { name: "Health Profile", path: "/health-profile" }],
+  "/best-endosleeve-clinic-istanbul": [{ name: "Home", path: "/" }, { name: "ESG", path: "/esg" }, { name: "Best Endosleeve Clinic in Istanbul", path: "/best-endosleeve-clinic-istanbul" }],
+};
+
 interface PageSEO {
   title: string;
   description: string;
@@ -118,7 +205,9 @@ const staticPages: Record<string, PageSEO> = {
       "award": "WhatClinic Patient Service Award (2019, 2020, 2021, 2023, 2024, 2025)",
       "founder": {
         "@type": "Physician",
+        "@id": PHYSICIAN_ID,
         "name": "Dr Murat Ustun",
+        "url": SITE_URL + "/dr-murat-ustun",
         "medicalSpecialty": "Bariatric Surgery",
         "memberOf": { "@type": "MedicalOrganization", "name": "IFSO" }
       },
@@ -169,6 +258,35 @@ const staticPages: Record<string, PageSEO> = {
         }
       ]
     }]
+  },
+  "/dr-murat-ustun": {
+    title: "Dr Murat Üstün — Bariatric Surgeon in Istanbul | IBC",
+    description: "Dr Murat Üstün: bariatric & metabolic surgeon in Istanbul, 8,000+ procedures, IFSO member, ESG pioneer in Turkey. Operates at JCI-accredited Liv Hospital.",
+    h1: "Dr Murat Üstün",
+    bodyExcerpt: "Dr Murat Üstün is the founder and lead surgeon of Istanbul Bariatric Center. A bariatric and metabolic surgeon with more than 22 years of experience and over 8,000 procedures, he is an IFSO member, a pioneer of Endoscopic Sleeve Gastroplasty (ESG) in Turkey, and a six-time WhatClinic Patient Service Award winner. He operates at JCI-accredited Liv Hospital Vadistanbul in Istanbul.",
+    canonical: SITE_URL + "/dr-murat-ustun",
+    image: SITE_URL + "/dr-murat-ustun.webp",
+    richContent: `<section><h2>Bariatric & Metabolic Surgeon</h2><p>Dr Murat Üstün completed his general surgery training at Ankara Training and Research Hospital and has dedicated his career to the surgical and endoscopic treatment of obesity and metabolic disease. He has performed more than 8,000 bariatric procedures for patients from over 20 countries and has presented at more than 100 national and international congresses.</p></section>
+<section><h2>Procedures Performed</h2><ul><li><a href="/sleeve-gastrectomy">Gastric Sleeve (Sleeve Gastrectomy)</a></li><li><a href="/mini-gastric-bypass">Mini Gastric Bypass</a></li><li><a href="/esg">Endoscopic Sleeve Gastroplasty (ESG)</a></li><li><a href="/gastric-balloon">Gastric Balloon</a></li><li><a href="/duodenal-switch">Duodenal Switch</a></li><li><a href="/transit-bipartition">Transit Bipartition</a></li><li><a href="/revision-bariatric-surgery">Revision Bariatric Surgery</a></li><li><a href="/treatments">POSE-2, TORe and GFMA endoscopic procedures</a></li></ul></section>
+<section><h2>Credentials & Recognition</h2><ul><li>Member of IFSO (International Federation for the Surgery of Obesity and Metabolic Disorders)</li><li>Pioneer of Endoscopic Sleeve Gastroplasty (ESG) in Turkey</li><li>WhatClinic Patient Service Award: 2019, 2020, 2021, 2023, 2024, 2025</li><li>Operates exclusively at JCI-accredited Liv Hospital Vadistanbul, Istanbul</li></ul></section>
+<section><h2>Frequently Asked Questions</h2>
+<article><h3>Where does Dr Üstün operate?</h3><p>All procedures are performed at Liv Hospital Vadistanbul in Istanbul, Turkey, a hospital holding Joint Commission International (JCI) accreditation.</p></article>
+<article><h3>What is his experience?</h3><p>Over 22 years in surgery and more than 8,000 bariatric and metabolic procedures, including gastric sleeve, mini gastric bypass, duodenal switch, revision surgery and endoscopic procedures such as ESG, POSE-2, TORe and GFMA.</p></article>
+<article><h3>Is he IFSO-certified?</h3><p>Yes. Dr Üstün is a member of IFSO, the International Federation for the Surgery of Obesity and Metabolic Disorders, and Istanbul Bariatric Center is an IFSO member institution.</p></article>
+<article><h3>How do I book a consultation?</h3><p>Send a message via WhatsApp (+44 7491 068686 for the UK, +90 532 413 1143 international) or use the <a href="/contact">contact form</a>. Consultations are free and include a personalised procedure and price recommendation.</p></article></section>`,
+    jsonLd: [
+      PHYSICIAN_SCHEMA,
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Where does Dr Üstün operate?", "acceptedAnswer": { "@type": "Answer", "text": "All procedures are performed at Liv Hospital Vadistanbul in Istanbul, Turkey, a hospital holding Joint Commission International (JCI) accreditation." } },
+          { "@type": "Question", "name": "What is his experience?", "acceptedAnswer": { "@type": "Answer", "text": "Over 22 years in surgery and more than 8,000 bariatric and metabolic procedures, including gastric sleeve, mini gastric bypass, duodenal switch, revision surgery and endoscopic procedures such as ESG, POSE-2, TORe and GFMA." } },
+          { "@type": "Question", "name": "Is he IFSO-certified?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Dr Üstün is a member of IFSO, the International Federation for the Surgery of Obesity and Metabolic Disorders, and Istanbul Bariatric Center is an IFSO member institution." } },
+          { "@type": "Question", "name": "How do I book a consultation?", "acceptedAnswer": { "@type": "Answer", "text": "Send a message via WhatsApp (+44 7491 068686 for the UK, +90 532 413 1143 international) or use the contact form at istanbulbariatriccenter.com/contact. Consultations are free and include a personalised procedure and price recommendation." } }
+        ]
+      }
+    ]
   },
   "/about": {
     title: "About Istanbul Bariatric Center: Expert Weight Loss Surgery",
@@ -626,8 +744,12 @@ const staticPages: Record<string, PageSEO> = {
       "procedureType": "Surgical",
       "bodyLocation": "Stomach",
       "description": "Laparoscopic removal of 75-80% of the stomach creating a smaller sleeve-shaped stomach for weight loss.",
-      "howPerformed": "Laparoscopic surgery removing 75-80% of the stomach",
-      "followup": "Dietitian support and follow-up consultations",
+      "howPerformed": "Laparoscopic removal of approximately 75-80% of the stomach along the greater curvature.",
+      "preparation": "Pre-operative testing, dietitian consultation, and a 2-week liver-shrinking diet.",
+      "followup": "Lifetime dietitian follow-up with staged diet reintroduction over 6 weeks.",
+      "expectedPrognosis": "Typical excess weight loss of 60-70% at 12 months.",
+      "indication": { "@type": "MedicalIndication", "name": "Obesity with BMI ≥ 35, or BMI ≥ 30 with metabolic comorbidities" },
+      "performedBy": { "@id": PHYSICIAN_ID },
       "offers": [
         { "@type": "Offer", "name": "Basic Package", "price": "3400", "priceCurrency": "GBP" },
         { "@type": "Offer", "name": "Relaxation Package", "price": "4550", "priceCurrency": "GBP" },
@@ -2492,7 +2614,12 @@ export function getSEOData(path: string): PageSEO | null {
   const cleanPath = path.split("?")[0];
 
   if (staticPages[cleanPath]) {
-    return staticPages[cleanPath];
+    const page = staticPages[cleanPath];
+    const trail = SERVER_BREADCRUMBS[cleanPath];
+    if (!trail) return page;
+    const hasBreadcrumb = (page.jsonLd || []).some((j: any) => j["@type"] === "BreadcrumbList");
+    if (hasBreadcrumb) return page;
+    return { ...page, jsonLd: [...(page.jsonLd || []), breadcrumb(trail)] };
   }
 
   if (cleanPath.startsWith("/blog/")) {
@@ -2521,7 +2648,7 @@ export function getSEOData(path: string): PageSEO | null {
           "dateModified": isoModified,
           "url": `${SITE_URL}/blog/${post.slug}`,
           "image": post.image ? `${SITE_URL}${post.image}` : undefined,
-          "author": { "@type": "Person", "name": "Dr Murat Ustun" },
+          "author": PHYSICIAN_REF,
           "publisher": { "@type": "Organization", "name": "Istanbul Bariatric Center", "logo": { "@type": "ImageObject", "url": `${SITE_URL}/logo.webp` } },
           "mainEntityOfPage": { "@type": "WebPage", "@id": `${SITE_URL}/blog/${post.slug}` }
         }, {

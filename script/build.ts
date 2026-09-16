@@ -79,6 +79,16 @@ async function buildAll() {
   
   await optimizeCriticalCSS();
 
+  console.log("generating sitemap lastmod dates from git...");
+  {
+    const { execSync } = await import("child_process");
+    try {
+      execSync("npx tsx script/generate-sitemap-lastmod.ts", { stdio: "inherit" });
+    } catch {
+      console.warn("sitemap-lastmod: generation failed (no git?); using committed JSON");
+    }
+  }
+
   console.log("building server...");
   const pkg = JSON.parse(await readFile("package.json", "utf-8"));
   const allDeps = [

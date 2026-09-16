@@ -10,7 +10,7 @@ import { SummarizeWithAI } from "@/components/summarize-with-ai";
 const doctors = [
   {
     name: "Dr. Murat Üstün",
-    nameLink: "https://drmuratustun.com",
+    nameLink: "/dr-murat-ustun",
     role: "Founder, Lead Bariatric Surgeon",
     image: "/dr-murat-ustun.webp",
     desc: "Founder of Istanbul Bariatric Center (IBC) and one of the most competent bariatric surgeons in Turkey. Specialized in Ankara Training and Research Hospital and participated in more than 100 national and international congresses.",
@@ -129,7 +129,7 @@ export default function About() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold text-slate-900 mb-1">
                     {(doctor as any).nameLink ? (
-                      <a href={(doctor as any).nameLink} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">{doctor.name}</a>
+                      <a href={(doctor as any).nameLink} className="hover:text-primary transition-colors">{doctor.name}</a>
                     ) : doctor.name}
                   </h3>
                   <p className="text-primary font-medium text-sm mb-4 uppercase">{doctor.role}</p>

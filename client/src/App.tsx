@@ -12,6 +12,7 @@ const PromoPopup = lazy(() => import("@/components/promo-popup"));
 
 const Home = lazy(() => import("@/pages/home"));
 const About = lazy(() => import("@/pages/about"));
+const DrMuratUstun = lazy(() => import("@/pages/dr-murat-ustun"));
 const Treatments = lazy(() => import("@/pages/treatments"));
 const Results = lazy(() => import("@/pages/results"));
 const Blog = lazy(() => import("@/pages/blog"));
@@ -92,6 +93,7 @@ function Router() {
         <Switch>
           <Route path="/" component={Home} />
           <Route path="/about" component={About} />
+          <Route path="/dr-murat-ustun" component={DrMuratUstun} />
           <Route path="/treatments">{() => <Treatments />}</Route>
           <Route path="/treatments/:lang">{(params: { lang?: string }) => <Treatments lang={params.lang} />}</Route>
           <Route path="/results" component={Results} />

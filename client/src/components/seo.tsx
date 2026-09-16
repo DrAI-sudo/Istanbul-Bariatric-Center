@@ -69,7 +69,6 @@ export function SEO({
     };
 
     setMeta("description", description);
-    if (keywords) setMeta("keywords", keywords);
     setMeta("author", author);
     setMeta("robots", "index, follow");
 
@@ -187,6 +186,20 @@ export const structuredData = {
     },
     priceRange: "$$",
     medicalSpecialty: ["Bariatric Surgery", "Weight Loss Surgery", "Metabolic Surgery"],
+    founder: {
+      "@type": "Physician",
+      "@id": "https://istanbulbariatriccenter.com/#drmuratustun",
+      name: "Dr Murat Ustun",
+      url: "https://istanbulbariatriccenter.com/dr-murat-ustun",
+    },
+    areaServed: [
+      "United Kingdom", "Ireland", "United States", "Germany", "Australia", "France",
+      "Spain", "Italy", "Netherlands", "Saudi Arabia", "United Arab Emirates",
+    ].map((name) => ({ "@type": "Country", name })),
+    hasCredential: [
+      { "@type": "EducationalOccupationalCredential", credentialCategory: "Accreditation", name: "JCI (Joint Commission International) Accredited Hospital", url: "https://www.jointcommissioninternational.org/" },
+      { "@type": "EducationalOccupationalCredential", credentialCategory: "Membership", name: "IFSO Member Institution" },
+    ],
     availableService: [
       { "@type": "MedicalProcedure", name: "Gastric Sleeve Surgery" },
       { "@type": "MedicalProcedure", name: "Gastric Bypass Surgery" },
@@ -204,18 +217,47 @@ export const structuredData = {
   physician: {
     "@context": "https://schema.org",
     "@type": "Physician",
-    name: "Dr. Murat Ustun",
-    jobTitle: "Bariatric Surgeon",
-    medicalSpecialty: "Bariatric Surgery",
-    worksFor: {
-      "@type": "MedicalBusiness",
-      name: "Istanbul Bariatric Center",
+    "@id": "https://istanbulbariatriccenter.com/#drmuratustun",
+    name: "Dr Murat Üstün",
+    alternateName: "Dr Murat Ustun",
+    jobTitle: "Bariatric & Metabolic Surgeon",
+    medicalSpecialty: ["Bariatric Surgery", "Metabolic Surgery", "Endoscopic Weight Loss"],
+    url: "https://istanbulbariatriccenter.com/dr-murat-ustun",
+    image: "https://istanbulbariatriccenter.com/dr-murat-ustun.webp",
+    worksFor: { "@id": "https://istanbulbariatriccenter.com/#organization" },
+    hospitalAffiliation: {
+      "@type": "Hospital",
+      name: "Liv Hospital Vadistanbul",
+      address: "Ayazağa, Kemerburgaz Cd., Vadistanbul, 34396 Sarıyer/İstanbul, Turkey",
     },
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Istanbul",
-      addressCountry: "Turkey",
-    },
+    memberOf: [{ "@type": "Organization", name: "IFSO — International Federation for the Surgery of Obesity and Metabolic Disorders" }],
+    award: [
+      "WhatClinic Patient Service Award 2019",
+      "WhatClinic Patient Service Award 2020",
+      "WhatClinic Patient Service Award 2021",
+      "WhatClinic Patient Service Award 2023",
+      "WhatClinic Patient Service Award 2024",
+      "WhatClinic Patient Service Award 2025",
+    ],
+    knowsAbout: [
+      "Sleeve Gastrectomy", "Gastric Bypass", "Gastric Balloon", "Endoscopic Sleeve Gastroplasty (ESG)",
+      "POSE-2", "TORe", "GFMA", "Duodenal Switch", "Transit Bipartition", "Revision Bariatric Surgery",
+    ],
+    sameAs: [
+      "https://drmuratustun.com/",
+      "https://www.linkedin.com/in/drmuratustun/",
+      "https://x.com/DrMuratUstun",
+      "https://www.youtube.com/@istanbulbariatriccenter",
+      "https://www.instagram.com/istanbulbariatriccenter",
+      "https://www.whatclinic.com/bariatric-surgery/turkey/istanbul-province/istanbul/nisantasi/istanbul-bariatric-center",
+      "https://us-uk.bookimed.com/doctor/murat-ustun/",
+      "https://medtraveling.com/doctors/murat-ustun",
+      "https://airomedical.com/doctors/dr-murat-ustun",
+      "https://medigence.com/doctor/bariatric-surgeon/murat-ustun",
+      "https://www.placidway.com/doctor-detail/57635/Murat-Ustun",
+      "https://apolloendosleeve.com/team-2",
+      "https://itmtgroup.com/our-doctors/op-dr-murat-ustun/",
+    ],
   },
 
   createArticle: (post: { title: string; excerpt: string; date: string; publishedAt?: string; updatedAt?: string; slug: string; image: string }) => ({
@@ -228,7 +270,9 @@ export const structuredData = {
     dateModified: post.updatedAt || post.publishedAt || post.date,
     author: {
       "@type": "Person",
+      "@id": "https://istanbulbariatriccenter.com/#drmuratustun",
       name: "Dr. Murat Ustun",
+      url: "https://istanbulbariatriccenter.com/dr-murat-ustun",
     },
     publisher: {
       "@type": "Organization",

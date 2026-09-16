@@ -1,0 +1,189 @@
+10.1 Global hreflang block (paste into the site's `<head>` component)
+
+```html
+<link rel="alternate" hreflang="en"    href="https://istanbulbariatriccenter.com/" />
+<link rel="alternate" hreflang="en-gb" href="https://istanbulbariatriccenter.com/uk" />
+<link rel="alternate" hreflang="en-us" href="https://istanbulbariatriccenter.com/us" />
+<link rel="alternate" hreflang="de"    href="https://istanbulbariatriccenter.com/de" />
+<link rel="alternate" hreflang="tr"    href="https://istanbulbariatriccenter.com/tr" />
+<link rel="alternate" hreflang="fr"    href="https://istanbulbariatriccenter.com/fr" />
+<link rel="alternate" hreflang="es"    href="https://istanbulbariatriccenter.com/es" />
+<link rel="alternate" hreflang="it"    href="https://istanbulbariatriccenter.com/it" />
+<link rel="alternate" hreflang="ar"    href="https://istanbulbariatriccenter.com/ar" />
+<link rel="alternate" hreflang="ru"    href="https://istanbulbariatriccenter.com/ru" />
+<link rel="alternate" hreflang="ro"    href="https://istanbulbariatriccenter.com/ro" />
+<link rel="alternate" hreflang="x-default" href="https://istanbulbariatriccenter.com/" />
+```
+
+Rules: this exact block must go on **every** page in the cluster, each entry must be self-referential (page A lists page A too), and each destination URL must return 200 with matching content.
+
+### 10.2 BreadcrumbList JSON-LD (add to every non-home page)
+
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home",
+      "item": "https://istanbulbariatriccenter.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Treatments",
+      "item": "https://istanbulbariatriccenter.com/treatments" },
+    { "@type": "ListItem", "position": 3, "name": "Gastric Sleeve",
+      "item": "https://istanbulbariatriccenter.com/sleeve-gastrectomy" }
+  ]
+}
+</script>
+```
+
+### 10.3 MedicalProcedure schema for `/sleeve-gastrectomy` (adapt per procedure)
+
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Sleeve Gastrectomy (Gastric Sleeve)",
+  "alternateName": ["VSG", "Laparoscopic Sleeve Gastrectomy"],
+  "procedureType": "https://schema.org/SurgicalProcedure",
+  "bodyLocation": "Stomach",
+  "howPerformed": "Laparoscopic removal of approximately 75–80% of the stomach along the greater curvature.",
+  "preparation": "Pre-operative testing, dietitian consultation, and 2-week liver-shrinking diet.",
+  "followup": "Lifetime dietitian follow-up, staged diet reintroduction over 6 weeks.",
+  "expectedPrognosis": "Typical excess weight loss of 60–70% at 12 months.",
+  "indication": {
+    "@type": "MedicalIndication",
+    "name": "Obesity with BMI ≥ 35, or BMI ≥ 30 with metabolic comorbidities"
+  },
+  "performedBy": { "@id": "https://istanbulbariatriccenter.com/#drmuratustun" },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "GBP",
+    "price": "3400",
+    "priceValidUntil": "2026-12-31",
+    "availability": "https://schema.org/InStock",
+    "url": "https://istanbulbariatriccenter.com/sleeve-gastrectomy"
+  }
+}
+</script>
+```
+
+### 10.4 Enriched Physician block (put once on `/dr-murat-ustun`, reference by `@id` elsewhere)
+
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Physician",
+  "@id": "https://istanbulbariatriccenter.com/#drmuratustun",
+  "name": "Dr Murat Üstün",
+  "givenName": "Murat",
+  "familyName": "Üstün",
+  "jobTitle": "Bariatric & Metabolic Surgeon",
+  "medicalSpecialty": ["Bariatric Surgery", "Metabolic Surgery", "Endoscopic Weight Loss"],
+  "worksFor": { "@id": "https://istanbulbariatriccenter.com/#organization" },
+  "hospitalAffiliation": {
+    "@type": "Hospital",
+    "name": "Liv Hospital Vadistanbul",
+    "address": "Ayazağa, Kemerburgaz Cd., Vadistanbul, 34396 Sarıyer/İstanbul, Turkey"
+  },
+  "memberOf": [
+    { "@type": "Organization", "name": "IFSO — International Federation for the Surgery of Obesity" }
+  ],
+  "award": [
+    "WhatClinic Patient Service Award 2019",
+    "WhatClinic Patient Service Award 2020",
+    "WhatClinic Patient Service Award 2021",
+    "WhatClinic Patient Service Award 2023",
+    "WhatClinic Patient Service Award 2024",
+    "WhatClinic Patient Service Award 2025"
+  ],
+  "knowsAbout": [
+    "Sleeve Gastrectomy", "Gastric Bypass", "Gastric Balloon",
+    "Endoscopic Sleeve Gastroplasty (ESG)", "POSE-2", "TORe", "Duodenal Switch", "Transit Bipartition"
+  ],
+  "url": "https://istanbulbariatriccenter.com/dr-murat-ustun",
+  "image": "https://istanbulbariatriccenter.com/dr-murat-ustun.webp",
+  "sameAs": [
+    "https://drmuratustun.com/",
+    "https://www.linkedin.com/in/drmuratustun/",
+    "https://x.com/DrMuratUstun",
+    "https://www.youtube.com/@istanbulbariatriccenter",
+    "https://www.instagram.com/istanbulbariatriccenter",
+    "https://www.whatclinic.com/bariatric-surgery/turkey/istanbul-province/istanbul/nisantasi/istanbul-bariatric-center",
+    "https://us-uk.bookimed.com/doctor/murat-ustun/",
+    "https://medtraveling.com/doctors/murat-ustun",
+    "https://airomedical.com/doctors/dr-murat-ustun",
+    "https://medigence.com/doctor/bariatric-surgeon/murat-ustun",
+    "https://www.placidway.com/doctor-detail/57635/Murat-Ustun",
+    "https://apolloendosleeve.com/team-2",
+    "https://itmtgroup.com/our-doctors/op-dr-murat-ustun/"
+  ]
+}
+</script>
+```
+
+### 10.5 Enrich `MedicalBusiness` with `areaServed`, `aggregateRating`, `hasCredential`
+
+Add these three properties to the existing `MedicalBusiness` block:
+
+```json
+"areaServed": [
+  { "@type": "Country", "name": "United Kingdom" },
+  { "@type": "Country", "name": "Germany" },
+  { "@type": "Country", "name": "Ireland" },
+  { "@type": "Country", "name": "United States" },
+  { "@type": "Country", "name": "Australia" },
+  { "@type": "Country", "name": "France" },
+  { "@type": "Country", "name": "Spain" },
+  { "@type": "Country", "name": "Italy" },
+  { "@type": "Country", "name": "Netherlands" },
+  { "@type": "Country", "name": "Saudi Arabia" },
+  { "@type": "Country", "name": "United Arab Emirates" }
+],
+"aggregateRating": {
+  "@type": "AggregateRating",
+  "ratingValue": "4.9",
+  "reviewCount": "55",
+  "bestRating": "5",
+  "worstRating": "1"
+},
+"hasCredential": {
+  "@type": "EducationalOccupationalCredential",
+  "name": "JCI Accreditation (via Liv Hospital)",
+  "credentialCategory": "hospital accreditation",
+  "url": "https://www.jointcommissioninternational.org/"
+}
+```
+
+Only publish `aggregateRating` if the review sample is hosted on the same page as the markup, otherwise Google may flag a policy violation.
+
+### 10.6 Fix the sitemap `lastmod`
+
+In whatever script generates `sitemap.xml`, replace static dates with the file's real last-modified timestamp:
+
+```js
+// pseudo-code — adapt to your Replit build
+const lastmod = new Date(fs.statSync(routeFile).mtime).toISOString().slice(0,10);
+```
+
+Then either regenerate on every deploy or run daily via a cron.
+
+### 10.7 Remove obsolete `meta keywords`
+
+Delete this line — it does nothing and just makes the head noisier:
+
+```html
+<meta name="keywords" content="gastric sleeve turkey, weight loss surgery istanbul, …">
+```
+
+### 10.8 Ship `/dr-murat-ustun` as its own indexable page
+
+Create a new route `/dr-murat-ustun` with:
+- Title: *"Dr Murat Üstün — Bariatric Surgeon in Istanbul | Istanbul Bariatric Center"* (≤ 60 chars if possible)
+- H1: *"Dr Murat Üstün"*
+- FAQ block ("Where does Dr Ustun operate?", "What is his experience?", "Is he IFSO-certified?", "How to book a consultation?")
+- The full `Physician` JSON-LD from 10.4
+- Internal links from every procedure page and every blog article byline
+- Add it to `sitemap.xml` with priority `0.9`
+- Add it to `llms.txt` under a new `## About the Surgeon` section

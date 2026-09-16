@@ -6,6 +6,7 @@ import { fromZodError } from "zod-validation-error";
 import { sendContactEmail, sendHealthProfileEmail } from "./email";
 import { getAllBlogSlugs, getAllStaticRoutes, blogPosts as seoBlogPosts } from "./seo-data";
 import { VALID_STATIC_ROUTES } from "./valid-routes";
+import sitemapLastmod from "./sitemap-lastmod.json";
 import path from "path";
 import fs from "fs";
 import { fileURLToPath } from "url";
@@ -50,7 +51,6 @@ const LEGACY_REDIRECTS: Record<string, string> = {
   "/our-doctors": "/about",
   "/our-team": "/about",
   "/team": "/about",
-  "/dr-murat-ustun": "/about",
   "/services": "/treatments",
   "/procedures": "/treatments",
   "/prices": "/treatments",
@@ -133,13 +133,14 @@ export async function registerRoutes(
   app.get("/sitemap.xml", (_req, res) => {
     const BASE = "https://istanbulbariatriccenter.com";
 
-    // Stable per-route metadata. lastmod reflects the date the page content
-    // was last meaningfully updated. Omitting lastmod is better than sending a
-    // false "today" date on every request, so routes without a known stable
-    // date are left out of this map and will be emitted without <lastmod>.
+    // Per-route metadata. lastmod here is a fallback only; the real value is
+    // the last git commit date of the page source, generated at build time
+    // into server/sitemap-lastmod.json. Routes with neither are emitted
+    // without <lastmod> (better than a false "today" date).
     const staticMeta: Record<string, { priority: string; changefreq: string; lastmod?: string }> = {
       "/": { priority: "1.0", changefreq: "weekly", lastmod: "2025-03-10" },
       "/about": { priority: "0.8", changefreq: "monthly", lastmod: "2025-01-20" },
+      "/dr-murat-ustun": { priority: "0.9", changefreq: "monthly" },
       "/treatments": { priority: "0.9", changefreq: "monthly", lastmod: "2025-02-14" },
       "/treatments/tr": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-14" },
       "/treatments/es": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-14" },
@@ -199,7 +200,10 @@ export async function registerRoutes(
 
     for (const route of VALID_STATIC_ROUTES) {
       const meta = staticMeta[route] || { priority: "0.5", changefreq: "monthly" };
-      const lastmodTag = meta.lastmod ? `\n    <lastmod>${meta.lastmod}</lastmod>` : "";
+      // Prefer the build-time git date (script/generate-sitemap-lastmod.ts);
+      // fall back to the hand-maintained date above.
+      const lastmod = (sitemapLastmod as Record<string, string>)[route] || meta.lastmod;
+      const lastmodTag = lastmod ? `\n    <lastmod>${lastmod}</lastmod>` : "";
       xml += `  <url>\n    <loc>${BASE}${route}</loc>${lastmodTag}\n    <changefreq>${meta.changefreq}</changefreq>\n    <priority>${meta.priority}</priority>\n  </url>\n`;
     }
 
@@ -224,6 +228,7 @@ export async function registerRoutes(
 
 - [Home](${BASE_URL}/)
 - [About Us](${BASE_URL}/about)
+- [Dr Murat Üstün — Bariatric Surgeon](${BASE_URL}/dr-murat-ustun)
 - [Treatments Overview](${BASE_URL}/treatments)
 - [Treatments - Türkçe](${BASE_URL}/treatments/tr)
 - [Treatments - Español](${BASE_URL}/treatments/es)
@@ -267,12 +272,16 @@ export async function registerRoutes(
 - [Transit Bipartition](${BASE_URL}/transit-bipartition): Advanced metabolic surgery combining sleeve gastrectomy with intestinal rerouting for enhanced weight loss and diabetes resolution.
 - [Post-Bariatric Surgery](${BASE_URL}/post-bariatric-surgery): Body contouring procedures after significant weight loss including tummy tuck, arm lift, and thigh lift.
 
+## About the Surgeon
+
+- [Dr Murat Üstün](${BASE_URL}/dr-murat-ustun): Founder and lead surgeon of Istanbul Bariatric Center. Bariatric & metabolic surgeon with 22+ years of experience and 8,000+ procedures. IFSO member, pioneer of Endoscopic Sleeve Gastroplasty (ESG) in Turkey, six-time WhatClinic Patient Service Award winner (2019-2021, 2023-2025). Operates exclusively at JCI-accredited Liv Hospital Vadistanbul, Istanbul. Personal site: https://drmuratustun.com
+
 ## Pricing (GBP, All-Inclusive Packages)
 
-| Procedure | Basic | Relaxation | Luxury |
+| Procedure | Entry | Relaxation | Luxury |
 |-----------|-------|------------|--------|
-| Gastric Sleeve | £3,400 | £4,550 | £4,900 |
-| Gastric Bypass | £3,850 | £5,000 | £5,350 |
+| Gastric Sleeve | £2,450 (Ultra Eco) | £4,550 | £4,900 |
+| Gastric Bypass | - | £5,000 | £5,350 |
 | Gastric Balloon (Orbera) | £1,900 | - | - |
 | Gastric Balloon (Allurion) | £2,600 | - | - |
 | Duodenal Switch | - | £5,050 | £5,400 |
@@ -341,7 +350,7 @@ Istanbul Bariatric Center was founded with the mission of providing world-class 
 ### Gastric Sleeve Surgery (Sleeve Gastrectomy)
 - **Also known as**: VSG, Vertical Sleeve Gastrectomy
 - **Type**: Surgical (Laparoscopic)
-- **Pricing**: Basic £3,400 | Relaxation £4,550 | Luxury £4,900
+- **Pricing**: Ultra Eco £2,450 | Relaxation £4,550 | Luxury £4,900
 - **Ideal for**: BMI 35+ patients
 - **Expected weight loss**: 60-70% of excess weight within 12-18 months
 - **Hospital stay**: 2-3 days
@@ -352,7 +361,7 @@ Istanbul Bariatric Center was founded with the mission of providing world-class 
 ### Mini Gastric Bypass (One Anastomosis Gastric Bypass)
 - **Also known as**: OAGB, MGB, Roux-en-Y Gastric Bypass
 - **Type**: Surgical (Laparoscopic)
-- **Pricing**: Basic £3,850 | Relaxation £5,000 | Luxury £5,350
+- **Pricing**: Relaxation £5,000 | Luxury £5,350
 - **Ideal for**: BMI 40+ or BMI 35+ with metabolic conditions (diabetes, hypertension)
 - **Expected weight loss**: 70-80% of excess weight within 12-18 months
 - **Hospital stay**: 2-3 days
@@ -407,15 +416,12 @@ Istanbul Bariatric Center was founded with the mission of providing world-class 
 
 ## Package Details
 
-### Basic Package
-- JCI Accredited Hospital (2 days stay)
-- All preoperative tests & blood work
-- Airport pickup
-- Standard dietitian support
-- 24/7 patient coordinator
+### Ultra Eco Package (gastric sleeve only)
+- Experienced surgeon team
+- Boutique hospital (2 days stay)
+- All preoperative tests & consultations
 
 ### Relaxation Package (Most Popular)
-- Everything in Basic, plus:
 - Surgery performed by Dr Murat Ustun
 - JCI Accredited Hospital (3 days stay)
 - Radisson Hotel accommodation (1 night)
@@ -447,6 +453,7 @@ ${blogSection}
 
 - [Home](${BASE_URL}/)
 - [About Us](${BASE_URL}/about)
+- [Dr Murat Üstün — Bariatric Surgeon](${BASE_URL}/dr-murat-ustun)
 - [Treatments](${BASE_URL}/treatments)
 - [Gastric Sleeve](${BASE_URL}/sleeve-gastrectomy)
 - [Mini Gastric Bypass](${BASE_URL}/mini-gastric-bypass)

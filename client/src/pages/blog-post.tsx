@@ -147,7 +147,7 @@ export default function BlogPost() {
                   <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
                     <User className="w-4 h-4 text-primary" />
                   </div>
-                  <span className="font-medium">Dr. Murat Ustun</span>
+                  <a href="/dr-murat-ustun" className="font-medium hover:text-primary transition-colors" rel="author" data-testid="link-author">Dr. Murat Ustun</a>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">

@@ -3,6 +3,7 @@ import { getAllBlogSlugs } from "./seo-data";
 export const VALID_STATIC_ROUTES = [
   "/",
   "/about",
+  "/dr-murat-ustun",
   "/treatments",
   "/treatments/tr",
   "/treatments/es",

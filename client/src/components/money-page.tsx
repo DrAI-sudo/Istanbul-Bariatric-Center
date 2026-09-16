@@ -123,7 +123,7 @@ export function SurgeonProof({ title, subtitle, cards }: SurgeonProofProps) {
   const defaultCards: SurgeonProofProps["cards"] = [
     {
       icon: "surgeon",
-      title: <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Dr Murat Ustun</a>,
+      title: <a href="/dr-murat-ustun" className="hover:text-primary transition-colors">Dr Murat Ustun</a>,
       text: <>Bariatric surgeon with 8,000+ successful procedures, IFSO member and <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-slate-200 hover:text-primary transition-colors">pioneer of ESG in Turkey</a>.</>,
     },
     {
@@ -446,7 +446,7 @@ export function ExpertPOV({ title, children, credentials = "Bariatric & metaboli
             <h2 className="text-3xl font-bold text-slate-900 mb-4">{title}</h2>
             <p className="text-slate-900 font-semibold">
               By{" "}
-              <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+              <a href="/dr-murat-ustun" className="text-primary hover:underline">
                 Dr Murat Ustun
               </a>
             </p>

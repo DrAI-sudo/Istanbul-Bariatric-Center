@@ -14,7 +14,7 @@ export function Footer() {
           <div className="space-y-6">
             <h2 className="text-2xl font-heading font-bold">Istanbul Bariatric Center</h2>
             <p className="text-slate-300 leading-relaxed">
-              Founded by <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary transition-colors underline">Dr. Murat Üstün</a>, leading the way in bariatric surgery with world-class facilities and expert care. Your health is our priority.
+              Founded by <a href="/dr-murat-ustun" className="text-white hover:text-primary transition-colors underline">Dr. Murat Üstün</a>, leading the way in bariatric surgery with world-class facilities and expert care. Your health is our priority.
             </p>
             <div className="flex gap-4" aria-label="Social media links">
               <a href="https://www.facebook.com/istanbulbariatriccenter" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" aria-label="Follow us on Facebook">
