@@ -109,5 +109,114 @@
       </div>
     </div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Google Ads conversion tracking (AW-1066435673) -->
+    <script>
+      // Load Google Ads tag (lazy-loaded, same pattern as GA4 above)
+      (function () {
+        var awLoaded = false;
+        function loadAW() {
+          if (awLoaded) return;
+          awLoaded = true;
+          var s = document.createElement('script');
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=AW-1066435673';
+          s.async = true;
+          document.head.appendChild(s);
+          // Reuse the existing dataLayer / gtag from GA4
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = window.gtag || function () { dataLayer.push(arguments); };
+          gtag('config', 'AW-1066435673');
+        }
+        ['scroll', 'mousemove', 'touchstart', 'keydown', 'click'].forEach(function (e) {
+          window.addEventListener(e, loadAW, { passive: true, once: true });
+        });
+        setTimeout(loadAW, 5000);
+      })();
+
+      // Fire conversion + navigate (works even if tag hasn't loaded yet — 700ms fallback)
+      function ibcTrackConversion(sendTo, url, target) {
+        var navigated = false;
+        var callback = function () {
+          if (navigated) return;
+          navigated = true;
+          if (typeof url !== 'undefined') {
+            if (target === '_blank') window.open(url, '_blank', 'noopener');
+            else window.location.href = url;
+          }
+        };
+        if (typeof gtag === 'function') {
+          gtag('event', 'conversion', {
+            send_to: sendTo,
+            event_callback: callback
+          });
+          setTimeout(callback, 700); // safety net if callback never fires
+        } else {
+          callback();
+        }
+        return false;
+      }
+
+      function ibcAttachListeners() {
+        // WhatsApp clicks — wa.me and api.whatsapp.com
+        document.querySelectorAll('a[href*="wa.me/"], a[href*="api.whatsapp.com"]').forEach(function (a) {
+          if (a.dataset.ibcTracked) return;
+          a.dataset.ibcTracked = '1';
+          a.addEventListener('click', function (e) {
+            e.preventDefault();
+            ibcTrackConversion('AW-1066435673/O7TMCLO4nfocENmIwvwD', a.href, a.target || '_blank');
+          });
+        });
+
+        // Phone clicks — tel: links
+        document.querySelectorAll('a[href^="tel:"]').forEach(function (a) {
+          if (a.dataset.ibcTracked) return;
+          a.dataset.ibcTracked = '1';
+          a.addEventListener('click', function () {
+            if (typeof gtag === 'function') {
+              gtag('event', 'conversion', {
+                send_to: 'AW-1066435673/riQiCMHnnPocENmIwvwD'
+              });
+            }
+          });
+        });
+
+        // Lead form (on /contact page — matches name/email/message form)
+        document.querySelectorAll('form').forEach(function (form) {
+          if (form.dataset.ibcTracked) return;
+          var hasName = form.querySelector('[name="name"]');
+          var hasEmail = form.querySelector('[name="email"]');
+          var hasMessage = form.querySelector('[name="message"]');
+          if (!(hasName && hasEmail && hasMessage)) return; // only the contact form
+          form.dataset.ibcTracked = '1';
+          form.addEventListener('submit', function () {
+            if (typeof gtag === 'function') {
+              gtag('event', 'conversion', {
+                send_to: 'AW-1066435673/EZSzCOm8m_ocENmIwvwD'
+              });
+            }
+          });
+        });
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', ibcAttachListeners);
+      } else {
+        ibcAttachListeners();
+      }
+      // This is a React single-page app: re-attach whenever the DOM changes
+      // (route changes, popups, lazy-loaded sections) — debounced.
+      (function () {
+        var timer = null;
+        var observer = new MutationObserver(function () {
+          clearTimeout(timer);
+          timer = setTimeout(ibcAttachListeners, 300);
+        });
+        function start() {
+          observer.observe(document.body, { childList: true, subtree: true });
+        }
+        if (document.body) start();
+        else document.addEventListener('DOMContentLoaded', start);
+      })();
+    </script>
   </body>
 </html>
