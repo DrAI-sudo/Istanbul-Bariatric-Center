@@ -719,6 +719,10 @@ export default function Treatments({ lang }: { lang?: string }) {
             <p className="text-slate-300">{t('treatmentLinks.subtitle')}</p>
           </div>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <a href="/weight-loss-surgery-turkey" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
+              <h3 className="font-semibold text-white mb-1">Weight loss surgery in Turkey guide</h3>
+              <p className="text-sm text-slate-300">Compare 8 procedures, costs and safety</p>
+            </a>
             <a href="/sleeve-gastrectomy" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
               <h3 className="font-semibold text-white mb-1">{t('treatmentLinks.gastricSleeve')}</h3>
               <p className="text-sm text-slate-300">{t('treatmentLinks.gastricSleevePrice')}</p>

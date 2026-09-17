@@ -22,6 +22,7 @@ export const VALID_STATIC_ROUTES = [
   "/gastric-sleeve-turkey",
   "/gastric-sleeve-turkey-cost",
   "/gastric-balloon-turkey",
+  "/weight-loss-surgery-turkey",
   "/duodenal-switch",
   "/transit-bipartition",
   "/esg",

@@ -236,6 +236,7 @@ export default function GastricBalloonTurkey() {
         <FAQSection title="Gastric balloon Turkey FAQs" faqs={faqs} withJsonLd={false} />
         <ConversionModule title="Check which gastric balloon may suit you" text="Request a free, no-obligation clinical review. Share your medical history, medicines, previous procedures and weight goals to receive a suitability assessment and written 2026 quotation." buttonLabel="Request a free assessment" />
         <RelatedLinks title="Related treatments and decision guides" links={[
+          { title: "Weight loss surgery in Turkey guide", description: "Compare all eight procedures, costs and safety.", href: "/weight-loss-surgery-turkey" },
           { title: "Balloon vs gastric sleeve", description: "Compare weight loss, recovery, reversibility and risks.", href: "/gastric-balloon-vs-gastric-sleeve" },
           { title: "Endoscopic sleeve gastroplasty", description: "Explore a non-surgical endoscopic alternative.", href: "/esg" },
           { title: "Gastric sleeve Turkey", description: "Understand permanent surgical treatment.", href: "/gastric-sleeve-turkey" },

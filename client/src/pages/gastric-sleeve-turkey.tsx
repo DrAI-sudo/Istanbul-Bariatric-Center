@@ -343,6 +343,7 @@ export default function GastricSleeveTurkey() {
         />
 
         <RelatedLinks title="Related procedures and resources" links={[
+          { title: "Weight loss surgery in Turkey guide", description: "Compare all eight procedures, costs and safety.", href: "/weight-loss-surgery-turkey" },
           { title: "Sleeve gastrectomy procedure", description: "Learn how the operation is performed.", href: "/sleeve-gastrectomy" },
           { title: "Mini gastric bypass", description: "Compare an alternative bariatric operation.", href: "/mini-gastric-bypass" },
           { title: "Gastric balloon Turkey", description: "Explore temporary non-surgical options.", href: "/gastric-balloon-turkey" },

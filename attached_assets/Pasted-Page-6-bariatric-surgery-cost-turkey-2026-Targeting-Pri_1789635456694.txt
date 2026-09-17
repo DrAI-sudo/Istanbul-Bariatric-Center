@@ -1,0 +1,46 @@
+Page 6 — `/bariatric-surgery-cost-turkey-2026`
+
+### Targeting
+- **Primary:** bariatric surgery cost turkey
+- **Secondary:** weight loss surgery cost turkey 2026, bariatric surgery turkey price, cost of gastric sleeve in turkey, cheapest weight loss surgery turkey
+- **Current #1 competitor:** [TurkeyLuxuryClinics](https://turkeyluxuryclinics.com), [HayatMed](https://www.hayatmed.com), [My1Health](https://my1health.com)
+
+### Note
+IBC has `/cost-of-bariatric-surgery-in-turkey` — that page ranks #7 for "bariatric surgery turkey all inclusive". Rather than duplicate, **upgrade the existing URL** and expand to also target the "cost" queries. Do this as an in-place refresh with a new title, expanded content, and a `dateModified` update — not a new URL.
+
+### Meta refresh
+- **Title (57):** *Bariatric Surgery Cost in Turkey 2026 — All-Inclusive Prices*
+- **H1:** *Bariatric Surgery Cost in Turkey (2026 All-Inclusive Prices)*
+- **Meta desc (154):** *Bariatric surgery cost in Turkey 2026: sleeve £3,400, bypass £3,850, balloon £1,900, ESG £5,700. All-inclusive at JCI hospital with Dr Murat Üstün.*
+- **URL:** keep `/cost-of-bariatric-surgery-in-turkey`
+
+### Content outline (target 2,200 words)
+1. TL;DR pricing table (all procedures, all three tiers)
+2. What's included in each tier (Basic / Relaxation / Luxury)
+3. Turkey vs UK NHS vs UK private vs Germany vs USA vs Australia (7-column table)
+4. Hidden costs to watch for (this is what marketplaces hide — differentiate on transparency)
+5. Why Turkey is cheaper (hospital costs, currency, procedure volume — not "worse")
+6. Is there a payment plan? (Klarna / instalments if you offer it)
+7. Currency table auto-updated (GBP, EUR, USD, AUD, CAD)
+8. Cost by procedure — one section per procedure with mini-table
+9. Cost by hospital tier (Liv Vadistanbul vs comparable)
+10. FAQ (10)
+11. CTA
+
+### FAQ
+1. How much does bariatric surgery cost in Turkey in 2026?
+2. Why is bariatric surgery cheaper in Turkey than the UK?
+3. What is included in an all-inclusive package?
+4. Are there hidden costs?
+5. Can I pay in instalments?
+6. Do prices change with the currency?
+7. What is the cheapest bariatric procedure in Turkey?
+8. Is the cheapest option safe?
+9. What does Luxury tier add over Basic?
+10. Can I claim any cost back from health insurance?
+
+### Schema
+`MedicalWebPage` + `FAQPage` + `Product` × N (one per procedure with `offers`, `priceCurrency`, `priceValidUntil` 2026-12-31) + `BreadcrumbList`.
+
+### Success target
+Top 5 for "bariatric surgery cost turkey" and top 3 for "cost of gastric sleeve in Turkey" within 12 weeks.

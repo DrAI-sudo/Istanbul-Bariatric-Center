@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!-- ============================================================
+     PRIMARY META  — INFORMATIONAL INTENT, NOT COMMERCIAL
+     ============================================================ -->
+<title>Weight Loss Surgery in Turkey — 2026 Guide, Costs, Options</title>
+<meta name="description" content="Complete guide to weight loss surgery in Turkey: options (sleeve, bypass, balloon, ESG), costs from £1,900, safety, JCI hospitals, and how to choose.">
+<meta name="keywords" content="weight loss surgery turkey, bariatric surgery turkey, obesity surgery turkey, weight loss operation turkey, bariatric surgery istanbul guide">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="author" content="Op. Dr Murat Üstün, MD, PhD">
+<meta name="geo.region" content="TR-34">
+<meta name="geo.placename" content="Istanbul, Sarıyer">
+<meta name="geo.position" content="41.1163;29.0083">
+<meta name="ICBM" content="41.1163, 29.0083">
+
+<link rel="canonical" href="https://istanbulbariatriccenter.com/weight-loss-surgery-turkey">
+
+<!-- ============================================================
+     HREFLANG — 8 locales incl. x-default
+     ============================================================ -->
+<link rel="alternate" hreflang="en-GB" href="https://istanbulbariatriccenter.com/weight-loss-surgery-turkey">
+<link rel="alternate" hreflang="en"    href="https://istanbulbariatriccenter.com/weight-loss-surgery-turkey">
+<link rel="alternate" hreflang="tr"    href="https://istanbulbariatriccenter.com/tr/obezite-cerrahisi-turkiye">
+<link rel="alternate" hreflang="de"    href="https://istanbulbariatriccenter.com/de/adipositaschirurgie-tuerkei">
+<link rel="alternate" hreflang="es"    href="https://istanbulbariatriccenter.com/es/cirugia-obesidad-turquia">
+<link rel="alternate" hreflang="fr"    href="https://istanbulbariatriccenter.com/fr/chirurgie-obesite-turquie">
+<link rel="alternate" hreflang="ar"    href="https://istanbulbariatriccenter.com/ar/jirahat-al-samna-turkia">
+<link rel="alternate" hreflang="x-default" href="https://istanbulbariatriccenter.com/weight-loss-surgery-turkey">
+
+<!-- ============================================================
+     OPEN GRAPH / TWITTER
+     ============================================================ -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Istanbul Bariatric Center">
+<meta property="og:title" content="Weight Loss Surgery in Turkey — The 2026 Guide">
+<meta property="og:description" content="Independent guide to bariatric surgery in Turkey: all 8 procedures, honest cost, safety, how to choose. Reviewed by Op. Dr Murat Üstün.">
+<meta property="og:url" content="https://istanbulbariatriccenter.com/weight-loss-surgery-turkey">
+<meta property="og:image" content="https://istanbulbariatriccenter.com/images/weight-loss-surgery-turkey-1200x630.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Weight loss surgery in Turkey — complete 2026 guide">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="tr_TR">
+<meta property="og:locale:alternate" content="de_DE">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Weight Loss Surgery in Turkey — 2026 Guide">
+<meta name="twitter:description" content="All 8 procedures, honest cost, safety, how to choose. Reviewed by Op. Dr Murat Üstün.">
+<meta name="twitter:image" content="https://istanbulbariatriccenter.com/images/weight-loss-surgery-turkey-1200x630.jpg">
+
+<!-- ============================================================
+     JSON-LD — INFORMATIONAL SCHEMA (no direct Offer)
+       MedicalWebPage about MedicalCondition:Obesity
+       + ItemList (procedure comparison)
+       + FAQPage
+       + BreadcrumbList
+     ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://istanbulbariatriccenter.com/weight-loss-surgery-turkey#webpage",
+      "url": "https://istanbulbariatriccenter.com/weight-loss-surgery-turkey",
+      "name": "Weight Loss Surgery in Turkey — The 2026 Guide",
+      "description": "Independent 2026 patient guide to weight loss surgery in Turkey — all 8 available procedures, honest cost comparison, safety benchmarks, JCI accreditation explained, decision framework and aftercare.",
+      "inLanguage": "en-GB",
+      "dateModified": "2026-09-17",
+      "primaryImageOfPage": "https://istanbulbariatriccenter.com/images/weight-loss-surgery-turkey-1200x630.jpg",
+      "isPartOf": {"@id": "https://istanbulbariatriccenter.com/#organization"},
+      "mainContentOfPage": {"@type": "WebPageElement", "cssSelector": "main"},
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Obesity",
+        "code": {"@type": "MedicalCode", "code": "E66", "codingSystem": "ICD-10"},
+        "possibleTreatment": [
+          {"@type": "MedicalProcedure", "name": "Sleeve Gastrectomy", "url": "https://istanbulbariatriccenter.com/gastric-sleeve-turkey"},
+          {"@type": "MedicalProcedure", "name": "Roux-en-Y Gastric Bypass", "url": "https://istanbulbariatriccenter.com/gastric-bypass"},
+          {"@type": "MedicalProcedure", "name": "Mini Gastric Bypass (OAGB)", "url": "https://istanbulbariatriccenter.com/mini-gastric-bypass"},
+          {"@type": "MedicalProcedure", "name": "Gastric Balloon", "url": "https://istanbulbariatriccenter.com/gastric-balloon-turkey"},
+          {"@type": "MedicalProcedure", "name": "Endoscopic Sleeve Gastroplasty (ESG)", "url": "https://istanbulbariatriccenter.com/esg"},
+          {"@type": "MedicalProcedure", "name": "SADI-S / Duodenal Switch", "url": "https://istanbulbariatriccenter.com/sadi-s-duodenal-switch"},
+          {"@type": "MedicalProcedure", "name": "Transit Bipartition (Santoro)", "url": "https://istanbulbariatriccenter.com/transit-bipartition"},
+          {"@type": "MedicalProcedure", "name": "Revisional Bariatric Surgery", "url": "https://istanbulbariatriccenter.com/revision-bariatric-surgery-turkey"}
+        ]
+      },
+      "audience": {"@type": "MedicalAudience", "audienceType": "Patient", "geographicArea": {"@type": "Country", "name": "United Kingdom"}},
+      "reviewedBy": {"@id": "https://istanbulbariatriccenter.com/#drmuratustun"},
+      "lastReviewed": "2026-09-17",
+      "specialty": "https://schema.org/Surgical"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://istanbulbariatriccenter.com/weight-loss-surgery-turkey#procedure-list",
+      "name": "Weight loss surgery options available in Turkey (2026)",
+      "numberOfItems": 8,
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Sleeve Gastrectomy",                "url": "https://istanbulbariatriccenter.com/gastric-sleeve-turkey"},
+        {"@type": "ListItem", "position": 2, "name": "Roux-en-Y Gastric Bypass",           "url": "https://istanbulbariatriccenter.com/gastric-bypass"},
+        {"@type": "ListItem", "position": 3, "name": "Mini Gastric Bypass (OAGB)",         "url": "https://istanbulbariatriccenter.com/mini-gastric-bypass"},
+        {"@type": "ListItem", "position": 4, "name": "Gastric Balloon",                    "url": "https://istanbulbariatriccenter.com/gastric-balloon-turkey"},
+        {"@type": "ListItem", "position": 5, "name": "Endoscopic Sleeve Gastroplasty (ESG)","url": "https://istanbulbariatriccenter.com/esg"},
+        {"@type": "ListItem", "position": 6, "name": "SADI-S / Duodenal Switch",           "url": "https://istanbulbariatriccenter.com/sadi-s-duodenal-switch"},
+        {"@type": "ListItem", "position": 7, "name": "Transit Bipartition",                "url": "https://istanbulbariatriccenter.com/transit-bipartition"},
+        {"@type": "ListItem", "position": 8, "name": "Revisional Bariatric Surgery",       "url": "https://istanbulbariatriccenter.com/revision-bariatric-surgery-turkey"}
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home",  "item": "https://istanbulbariatriccenter.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://istanbulbariatriccenter.com/guides"},
+        {"@type": "ListItem", "position": 3, "name": "Weight Loss Surgery in Turkey", "item": "https://istanbulbariatriccenter.com/weight-loss-surgery-turkey"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "What weight loss surgery options are available in Turkey?", "acceptedAnswer": {"@type": "Answer", "text": "Turkish clinics with accredited surgeons offer the full internationally recognised range: sleeve gastrectomy, Roux-en-Y gastric bypass, mini gastric bypass (OAGB), gastric balloon (Orbera, Allurion, Spatz3), endoscopic sleeve gastroplasty (ESG), SADI-S / duodenal switch, transit bipartition and revisional bariatric surgery. Not every clinic offers all eight — only high-volume centres such as Istanbul Bariatric Center under Dr Üstün routinely perform the full range including the advanced duodenal switch and transit bipartition."}},
+        {"@type": "Question", "name": "How much does weight loss surgery cost in Turkey in 2026?", "acceptedAnswer": {"@type": "Answer", "text": "All-inclusive packages at Istanbul Bariatric Center in 2026 start at £1,900 for the Orbera gastric balloon, £3,400 for sleeve gastrectomy, £3,850 for Roux-en-Y or mini gastric bypass, £4,900 for SADI-S / duodenal switch and £5,500 for transit bipartition. All include the surgeon and anaesthetist fees, JCI hospital stay, hotel, transfers, medications and 12 months of consultant WhatsApp aftercare. UK private equivalents typically cost 3–4× more."}},
+        {"@type": "Question", "name": "Which weight loss surgery is best for me?", "acceptedAnswer": {"@type": "Answer", "te

@@ -157,11 +157,12 @@ export async function registerRoutes(
       "/gastric-sleeve-turkey": { priority: "0.9", changefreq: "monthly" },
       "/gastric-sleeve-turkey-cost": { priority: "0.9", changefreq: "monthly" },
       "/gastric-balloon-turkey": { priority: "0.9", changefreq: "monthly", lastmod: "2026-09-17" },
+      "/weight-loss-surgery-turkey": { priority: "0.9", changefreq: "monthly", lastmod: "2026-09-17" },
       "/duodenal-switch": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-01" },
       "/transit-bipartition": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-01" },
       "/esg": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
       "/revision-bariatric-surgery": { priority: "0.9", changefreq: "monthly", lastmod: "2026-08-01" },
-      "/cost-of-bariatric-surgery-in-turkey": { priority: "0.9", changefreq: "monthly", lastmod: "2026-08-01" },
+      "/cost-of-bariatric-surgery-in-turkey": { priority: "0.9", changefreq: "monthly", lastmod: "2026-09-17" },
       "/bariatric-surgery-for-uk-patients": { priority: "0.9", changefreq: "monthly", lastmod: "2026-08-01" },
       "/gastric-sleeve-vs-gastric-bypass": { priority: "0.8", changefreq: "monthly", lastmod: "2026-08-01" },
       "/esg-vs-gastric-sleeve": { priority: "0.8", changefreq: "monthly", lastmod: "2026-08-01" },
@@ -253,6 +254,7 @@ export async function registerRoutes(
 - [Gastric Sleeve Turkey 2026 Guide](${BASE_URL}/gastric-sleeve-turkey): Cost, best clinics and all-inclusive packages compared. Sleeve packages from £2,450.
 - [Gastric Sleeve Turkey Cost](${BASE_URL}/gastric-sleeve-turkey-cost): Full price breakdown for gastric sleeve in Turkey — Ultra Eco £2,450, Relaxation £4,550, Luxury £4,900.
 - [Gastric Balloon Turkey](${BASE_URL}/gastric-balloon-turkey): From £1,900. Non-surgical day-case Orbera, Allurion and Spatz3 options.
+- [Weight Loss Surgery in Turkey 2026 Guide](${BASE_URL}/weight-loss-surgery-turkey): Compare eight procedures, authoritative prices from £1,900, candidacy, safety, travel and aftercare for UK patients.
 - [Endoscopic Sleeve Gastroplasty (ESG)](${BASE_URL}/esg): From £5,700. Non-surgical stomach reduction via endoscope. No incisions, 1-3 day recovery. Pioneered in Turkey by Dr Murat Ustun.
 - [ESG for UK Patients](${BASE_URL}/esg/uk): ESG tailored for UK patients. Save up to 70% vs UK private clinics. All-inclusive packages from £5,700. UK patient coordinators, UK WhatsApp support.
 - [ESG für deutsche Patienten](${BASE_URL}/esg/de): ESG für Patienten aus Deutschland. Bis zu 70% günstiger als in Deutschland. All-Inclusive-Pakete ab ca. 5.800 €. Deutschsprachige Patientenbetreuung.
@@ -469,6 +471,7 @@ ${blogSection}
 - [Gastric Sleeve](${BASE_URL}/sleeve-gastrectomy)
 - [Mini Gastric Bypass](${BASE_URL}/mini-gastric-bypass)
 - [Gastric Balloon Turkey](${BASE_URL}/gastric-balloon-turkey)
+- [Weight Loss Surgery in Turkey 2026 Guide](${BASE_URL}/weight-loss-surgery-turkey)
 - [ESG](${BASE_URL}/esg)
 - [Duodenal Switch](${BASE_URL}/duodenal-switch)
 - [Transit Bipartition](${BASE_URL}/transit-bipartition)

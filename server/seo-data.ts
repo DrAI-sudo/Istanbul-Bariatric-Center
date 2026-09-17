@@ -8,6 +8,8 @@ import { gastricBypassSEO } from "./seo-pages/gastric-bypass";
 import { gastricSleeveTurkeySEO } from "./seo-pages/gastric-sleeve-turkey";
 import { gastricSleeveTurkeyCostSEO } from "./seo-pages/gastric-sleeve-turkey-cost";
 import { gastricBalloonTurkeySEO } from "./seo-pages/gastric-balloon-turkey";
+import { weightLossSurgeryTurkeySEO } from "./seo-pages/weight-loss-surgery-turkey";
+import { costOfBariatricSurgeryTurkeySEO } from "./seo-pages/cost-of-bariatric-surgery-in-turkey";
 
 const SITE_URL = "https://istanbulbariatriccenter.com";
 
@@ -111,6 +113,7 @@ const SERVER_BREADCRUMBS: Record<string, Array<{ name: string; path: string }>> 
   "/gastric-sleeve-turkey": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Sleeve Turkey", path: "/gastric-sleeve-turkey" }],
   "/gastric-sleeve-turkey-cost": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Sleeve Turkey Cost", path: "/gastric-sleeve-turkey-cost" }],
   "/gastric-balloon-turkey": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Balloon Turkey", path: "/gastric-balloon-turkey" }],
+  "/weight-loss-surgery-turkey": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Weight Loss Surgery in Turkey", path: "/weight-loss-surgery-turkey" }],
   "/duodenal-switch": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Duodenal Switch", path: "/duodenal-switch" }],
   "/transit-bipartition": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Transit Bipartition", path: "/transit-bipartition" }],
   "/post-bariatric-surgery": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Post-Bariatric Surgery", path: "/post-bariatric-surgery" }],
@@ -179,6 +182,8 @@ const staticPages: Record<string, PageSEO> = {
   "/gastric-sleeve-turkey": gastricSleeveTurkeySEO,
   "/gastric-sleeve-turkey-cost": gastricSleeveTurkeyCostSEO,
   "/gastric-balloon-turkey": gastricBalloonTurkeySEO,
+  "/weight-loss-surgery-turkey": weightLossSurgeryTurkeySEO,
+  "/cost-of-bariatric-surgery-in-turkey": costOfBariatricSurgeryTurkeySEO,
   "/": {
     title: "Weight Loss Surgery in Istanbul | Free Consultation",
     description: "Istanbul Bariatric Center: Expert weight loss surgery in Turkey. Gastric sleeve & bypass options with Dr. Murat Ustun. Book your free consultation.",
@@ -971,37 +976,6 @@ const staticPages: Record<string, PageSEO> = {
         { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
         { "@type": "ListItem", "position": 2, "name": "Treatments", "item": SITE_URL + "/treatments" },
         { "@type": "ListItem", "position": 3, "name": "Revision Bariatric Surgery", "item": SITE_URL + "/revision-bariatric-surgery" }
-      ]
-    }]
-  },
-  "/cost-of-bariatric-surgery-in-turkey": {
-    title: "Cost of Bariatric Surgery in Turkey 2026: All Prices",
-    description: "Transparent 2026 weight loss surgery prices in Turkey: gastric sleeve from £2,450, bypass from £5,000 and ESG from £5,700. Compare UK, US and EU costs.",
-    h1: "Cost of Bariatric Surgery in Turkey",
-    bodyExcerpt: "Fixed 2026 prices at Istanbul Bariatric Center: gastric balloon from £1,900, gastric sleeve from £2,450, mini gastric bypass from £5,000, ESG from £5,700 and revision surgery from £4,550. Package inclusions vary by tier, with hospital care, testing and consultations included.",
-    canonical: SITE_URL + "/cost-of-bariatric-surgery-in-turkey",
-    modifiedTime: "2026-08-01T09:00:00+03:00",
-    richContent: `<section><h2>Turkey vs UK, US and Europe: Price Comparison (2026)</h2><p>Compare current all-inclusive Istanbul Bariatric Center package prices with private treatment in the UK, US and Europe. Package inclusions vary by procedure and tier.</p></section>
-<section><h2>What Every Package Includes</h2><ul><li>Surgery at JCI-accredited Liv Hospital, Istanbul</li><li>All surgeon, anaesthesia and hospital fees</li><li>Pre-operative tests and consultations</li><li>VIP airport pick-up and all transfers</li><li>Hotel accommodation (Relaxation & Luxury packages)</li><li>Post-operative medication</li><li>12 months of dietitian support</li><li>UK care support coordinators in 8 locations</li></ul></section>
-<section><h2>Why Is Bariatric Surgery Cheaper in Turkey?</h2><p>The saving is driven by lower operating costs, a favourable exchange rate, and high procedure volumes — not lower standards. Dr Murat Üstün has performed more than 6,000 advanced laparoscopic procedures. A realistic all-in budget for a UK gastric sleeve patient, including flights, insurance and personal spending, is roughly £2,750–£5,550.</p></section>`,
-    jsonLd: [{
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "How much does bariatric surgery cost in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "At Istanbul Bariatric Center, packages start from £1,900 for a gastric balloon, £2,450 for a gastric sleeve, £5,000 for a mini gastric bypass and £5,700 for ESG. Inclusions vary by procedure and package tier." }},
-        { "@type": "Question", "name": "Why is weight loss surgery cheaper in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "Lower operating costs, a favourable exchange rate, and government support for medical tourism — not lower standards. Surgery is performed at JCI-accredited hospitals by high-volume surgeons, at 60-70% less than UK, US or EU private prices." }},
-        { "@type": "Question", "name": "Are there hidden costs in Turkish bariatric surgery packages?", "acceptedAnswer": { "@type": "Answer", "text": "Not at Istanbul Bariatric Center. Packages include surgeon and anaesthesia fees, hospital stay, tests, transfers, hotel, post-op medication and 12 months of dietitian support. Only flights and personal spending are extra." }},
-        { "@type": "Question", "name": "How does the cost compare to the UK or US?", "acceptedAnswer": { "@type": "Answer", "text": "A gastric sleeve costs £10,000–£15,000 privately in the UK and $16,000–$25,000 in the US. In Istanbul packages range from £2,450–£4,900 — typically a 60–75% saving even after flights." }},
-        { "@type": "Question", "name": "Can I pay in instalments or with finance?", "acceptedAnswer": { "@type": "Answer", "text": "Payment is normally made by bank transfer or card, with a deposit to secure your date and the balance on arrival. Coordinators can advise on currently available payment arrangements for your country." }},
-        { "@type": "Question", "name": "Does travel insurance or the NHS cover surgery in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "The NHS and standard travel insurance do not cover planned surgery abroad, but specialist medical-travel insurance covering complications is available and recommended. Total cost including surgery, flights, hotel and insurance is typically still far below a private operation at home." }}
-      ]
-    }, {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
-        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": SITE_URL + "/treatments" },
-        { "@type": "ListItem", "position": 3, "name": "Cost of Bariatric Surgery in Turkey", "item": SITE_URL + "/cost-of-bariatric-surgery-in-turkey" }
       ]
     }]
   },
