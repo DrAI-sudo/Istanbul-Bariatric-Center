@@ -223,7 +223,7 @@ export async function registerRoutes(
   app.get("/llms.txt", (_req, res) => {
     const content = `# Istanbul Bariatric Center
 
-> Istanbul Bariatric Center is a leading bariatric surgery clinic in Istanbul, Turkey, led by world-renowned surgeon Dr Murat Ustun. We offer all-inclusive weight loss surgery packages including gastric sleeve, gastric bypass, gastric balloon, endoscopic sleeve gastroplasty (ESG), duodenal switch, and transit bipartition. JCI accredited hospital, 8,000+ successful procedures, comprehensive aftercare with UK-based support.
+> Istanbul Bariatric Center is a leading bariatric surgery clinic in Istanbul, Turkey, led by world-renowned surgeon Dr Murat Ustun, MD, PhD, with 25+ years of experience and 6,000+ advanced laparoscopic procedures. He is a BOMSS, IFSO and International Bariatric Club member, the only Boston Scientific-certified surgical ESG trainer in Turkey, and operates at Liv Hospital Vadistanbul and Memorial Hospitals Group. We offer all-inclusive weight loss surgery packages including gastric sleeve, gastric bypass, gastric balloon, endoscopic sleeve gastroplasty (ESG), duodenal switch, and transit bipartition, with comprehensive aftercare and UK-based support.
 
 ## Main Pages
 
@@ -247,8 +247,8 @@ export async function registerRoutes(
 
 ## Surgical Procedures
 
-- [Gastric Sleeve Surgery (Sleeve Gastrectomy)](${BASE_URL}/sleeve-gastrectomy): From £3,400. Removes 75-80% of the stomach. Most popular bariatric procedure worldwide. Ideal for BMI 35+.
-- [Mini Gastric Bypass](${BASE_URL}/mini-gastric-bypass): From £3,850. Creates a small stomach pouch and bypasses part of the small intestine. Best for BMI 40+ or metabolic conditions.
+- [Gastric Sleeve Surgery (Sleeve Gastrectomy)](${BASE_URL}/sleeve-gastrectomy): From £2,450. Removes 75-80% of the stomach. Most popular bariatric procedure worldwide. Ideal for BMI 35+.
+- [Mini Gastric Bypass](${BASE_URL}/mini-gastric-bypass): From £5,000. Creates a small stomach pouch and bypasses part of the small intestine. Best for BMI 40+ or metabolic conditions.
 - [Gastric Bypass Surgery in Turkey](${BASE_URL}/gastric-bypass): Roux-en-Y and mini (OAGB) bypass compared. All-inclusive packages Relaxation £5,000 / Luxury £5,350.
 - [Gastric Sleeve Turkey 2026 Guide](${BASE_URL}/gastric-sleeve-turkey): Cost, best clinics and all-inclusive packages compared. Sleeve packages from £2,450.
 - [Gastric Sleeve Turkey Cost](${BASE_URL}/gastric-sleeve-turkey-cost): Full price breakdown for gastric sleeve in Turkey — Ultra Eco £2,450, Relaxation £4,550, Luxury £4,900.
@@ -278,7 +278,7 @@ export async function registerRoutes(
 
 ## About the Surgeon
 
-- [Dr Murat Üstün](${BASE_URL}/dr-murat-ustun): Founder and lead surgeon of Istanbul Bariatric Center. Bariatric & metabolic surgeon with 22+ years of experience and 8,000+ procedures. IFSO member, pioneer of Endoscopic Sleeve Gastroplasty (ESG) in Turkey, six-time WhatClinic Patient Service Award winner (2019-2021, 2023-2025). Operates exclusively at JCI-accredited Liv Hospital Vadistanbul, Istanbul. Personal site: https://drmuratustun.com
+- [Dr Murat Üstün](${BASE_URL}/dr-murat-ustun): Founder and lead surgeon of Istanbul Bariatric Center. Bariatric and metabolic surgeon, MD, PhD, with 25+ years of experience and 6,000+ advanced laparoscopic procedures. BOMSS, IFSO and International Bariatric Club member; only Boston Scientific-certified surgical ESG trainer in Turkey; pioneer of Endoscopic Sleeve Gastroplasty in Turkey; six-time WhatClinic Patient Service Award winner (2019-2021, 2023-2025). Operates at Liv Hospital Vadistanbul and Memorial Hospitals Group. Personal site: https://drmuratustun.com
 
 ## Pricing (GBP, All-Inclusive Packages)
 
@@ -337,13 +337,13 @@ export async function registerRoutes(
 
       const content = `# Istanbul Bariatric Center - Complete Information
 
-> Istanbul Bariatric Center is a premier bariatric surgery clinic in Istanbul, Turkey. Led by world-renowned surgeon Dr Murat Ustun, we specialize in all forms of weight loss surgery with over 8,000 successful procedures. Our JCI accredited hospital facility and comprehensive all-inclusive packages make us one of the most trusted names in medical tourism for obesity treatment.
+> Istanbul Bariatric Center is a premier bariatric surgery clinic in Istanbul, Turkey. Led by world-renowned surgeon Dr Murat Ustun, MD, PhD, with 25+ years of experience and 6,000+ advanced laparoscopic procedures, we specialize in all forms of weight loss surgery. He is a BOMSS, IFSO and International Bariatric Club member, the only Boston Scientific-certified surgical ESG trainer in Turkey, and operates at Liv Hospital Vadistanbul and Memorial Hospitals Group. Our accredited hospital pathways and comprehensive all-inclusive packages make us one of the most trusted names in medical tourism for obesity treatment.
 
 ## About the Practice
 
 Istanbul Bariatric Center was founded with the mission of providing world-class bariatric surgery at accessible prices. Located in Istanbul, Turkey — one of the world's top medical tourism destinations — we combine cutting-edge surgical technology with luxurious patient care.
 
-**Dr Murat Ustun** is a board-certified bariatric surgeon and pioneer of Endoscopic Sleeve Gastroplasty (ESG) in Turkey. With thousands of successful procedures, he is recognised internationally for his expertise in minimally invasive weight loss surgery. Dr Ustun trained at leading institutions and continues to advance the field through research and innovation.
+**Dr Murat Ustun, MD, PhD** is a bariatric surgeon with 25+ years of experience and 6,000+ advanced laparoscopic procedures, and a pioneer of Endoscopic Sleeve Gastroplasty (ESG) in Turkey. He is a BOMSS, IFSO and International Bariatric Club member, the only Boston Scientific-certified surgical ESG trainer in Turkey, and operates at Liv Hospital Vadistanbul and Memorial Hospitals Group.
 
 **Hospital Accreditation**: All surgeries are performed at JCI (Joint Commission International) accredited hospitals in Istanbul, ensuring the highest standards of patient safety, infection control, and clinical quality.
 
@@ -357,7 +357,7 @@ Istanbul Bariatric Center was founded with the mission of providing world-class 
 - **Pricing**: Ultra Eco £2,450 | Relaxation £4,550 | Luxury £4,900
 - **Ideal for**: BMI 35+ patients
 - **Expected weight loss**: 60-70% of excess weight within 12-18 months
-- **Hospital stay**: 2-3 days
+- **Hospital stay**: 2 nights
 - **Recovery**: 2-3 weeks to normal activities
 - **How it works**: Approximately 75-80% of the stomach is permanently removed, creating a smaller banana-shaped stomach (sleeve). This restricts food intake and significantly reduces hunger hormones (ghrelin), leading to sustained weight loss.
 - **Benefits**: Most commonly performed bariatric procedure worldwide, proven long-term results, significant improvement in obesity-related conditions (type 2 diabetes, sleep apnoea, hypertension).
@@ -368,7 +368,7 @@ Istanbul Bariatric Center was founded with the mission of providing world-class 
 - **Pricing**: Relaxation £5,000 | Luxury £5,350
 - **Ideal for**: BMI 40+ or BMI 35+ with metabolic conditions (diabetes, hypertension)
 - **Expected weight loss**: 70-80% of excess weight within 12-18 months
-- **Hospital stay**: 2-3 days
+- **Hospital stay**: Two-to-three-day admission
 - **Recovery**: 2-3 weeks to normal activities
 - **How it works**: Creates a small stomach pouch (about 30ml) and connects it directly to the small intestine, bypassing a significant portion of the digestive tract. This both restricts food intake and reduces calorie absorption.
 - **Benefits**: Highest long-term weight loss of standard procedures, excellent for type 2 diabetes resolution (up to 80% remission), strong metabolic benefits.
@@ -380,7 +380,7 @@ Istanbul Bariatric Center was founded with the mission of providing world-class 
 - **Ideal for**: BMI 30-40 seeking non-surgical options
 - **Expected weight loss**: 10-15% of total body weight over 6-12 months
 - **Hospital stay**: Same day (outpatient)
-- **Recovery**: 1-3 days
+- **Recovery**: One-to-three-day period
 - **How it works**: A soft silicone balloon is placed in the stomach either endoscopically (Orbera) or swallowed as a capsule (Allurion). The balloon takes up space in the stomach, promoting earlier fullness. Orbera is removed after 6 months; Allurion naturally deflates and passes after 4 months.
 - **Benefits**: No surgery required, reversible, minimal downtime, good starting point for weight loss journey.
 
@@ -391,7 +391,7 @@ Istanbul Bariatric Center was founded with the mission of providing world-class 
 - **Ideal for**: BMI 30-40 wanting significant results without surgery
 - **Expected weight loss**: 15-20% of total body weight within 12 months
 - **Hospital stay**: 1 night observation
-- **Recovery**: 1-3 days to normal activities
+- **Recovery**: One-to-three-day return to normal activities
 - **How it works**: Using an endoscope inserted through the mouth, sutures are placed in the stomach wall to reduce its size by 70-80%. No incisions, no removal of tissue. The stomach is reshaped from the inside, creating restriction similar to a surgical sleeve.
 - **Benefits**: No incisions or scars, fastest recovery of any significant weight loss procedure, performed by Dr Murat Ustun who pioneered ESG in Turkey. Can be revised or converted to surgery if needed.
 
@@ -422,23 +422,30 @@ Istanbul Bariatric Center was founded with the mission of providing world-class 
 
 ### Ultra Eco Package (gastric sleeve only)
 - Experienced surgeon team
-- Boutique hospital (2 days stay)
-- All preoperative tests & consultations
+- Partner boutique hospital (2 nights)
+- All preoperative tests and consultations
+- No hotel or transfers
+- Discharge diet plan only
+- Not performed personally by Dr Murat Ustun
 
-### Relaxation Package (Most Popular)
-- Surgery performed by Dr Murat Ustun
-- JCI Accredited Hospital (3 days stay)
-- Radisson Hotel accommodation (1 night)
-- UK Registered Dietitian support (12 months)
-- Supplements pack
+### Relaxation Package (Recommended)
+- Laparoscopic sleeve performed by Op. Dr Murat Ustun
+- Liv Hospital Vadistanbul (JCI), 2 hospital nights
+- 4 nights in a 5-star hotel (6 nights in Istanbul total)
+- Surgeon and anaesthetist fees
+- All pre-operative tests and medications
+- VIP airport and hospital transfers
+- Half-board hotel meals
+- 12 months of WhatsApp aftercare including UK-registered dietitian support
+- Supplements starter pack
 
 ### Luxury Package (VIP)
-- Everything in Relaxation, plus:
-- Extended Radisson Hotel stay
-- Private VIP transfers throughout
-- Premium room upgrade
-- Extended dietitian support
-- Comprehensive supplement package
+- Laparoscopic sleeve performed by Op. Dr Murat Ustun
+- Liv Hospital Vadistanbul JCI suite, 2 hospital nights
+- 5 nights in a luxury hotel
+- Private VIP car throughout
+- Full board and companion allowance
+- 12 months of priority aftercare
 
 ## UK Support Network
 

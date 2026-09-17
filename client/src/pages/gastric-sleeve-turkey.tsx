@@ -4,11 +4,9 @@ import { SEO, JsonLd, structuredData } from "@/components/seo";
 import { Link } from "wouter";
 import {
   MoneyHero,
-  ProcedureFacts,
   ProseSection,
-  Candidacy,
-  Checklist,
   ComparisonBlock,
+  Checklist,
   FAQSection,
   RelatedLinks,
   ConversionModule,
@@ -19,71 +17,101 @@ import {
 
 const faqs = [
   {
-    question: "How much is a gastric sleeve in Turkey in 2026?",
-    answer: "Istanbul Bariatric Center's gastric sleeve packages start at £2,450 for Ultra Eco. The Relaxation package is £4,550 and the Luxury package is £4,900. The right option depends on the surgeon, hospital stay, hotel and aftercare you choose.",
+    question: "How much does gastric sleeve cost in Turkey in 2026?",
+    answer: "At Istanbul Bariatric Center, prices are £2,450 for Ultra Eco, £4,550 for Relaxation and £4,900 for Luxury. Ultra Eco covers surgery by an experienced surgeon team, two boutique-hospital nights and pre-operative tests, without hotel or transfers. Relaxation and Luxury include surgery by Dr Üstün at Liv Hospital Vadistanbul plus accommodation, transfers and aftercare.",
   },
   {
-    question: "What is included in an all-inclusive gastric sleeve package?",
-    answer: "The Relaxation package includes surgery by Dr Murat Üstün, three nights at JCI-accredited Liv Hospital Vadistanbul, a Radisson hotel stay, VIP airport transfers, pre-operative tests, a supplements pack and 12 months of support from a UK-registered dietitian. Luxury adds an extended hotel stay, premium room, private VIP transfers throughout and extended dietitian support.",
+    question: "Is gastric sleeve in Turkey safe?",
+    answer: "No surgery is risk-free. Safety is improved by careful selection, an experienced team, a properly equipped hospital, clot and leak precautions, and accessible follow-up. Dr Üstün has performed 2,200+ sleeves during 25+ years in advanced laparoscopic surgery.",
   },
   {
-    question: "Is gastric sleeve surgery in Turkey safe?",
-    answer: "No operation is risk-free. Safety depends on appropriate patient selection, an experienced bariatric team, a properly equipped accredited hospital, evidence-based measures to prevent clots and leaks, and accessible follow-up. IBC operates at JCI-accredited Liv Hospital Vadistanbul and assesses medical history before confirming treatment.",
+    question: "Which hospital does Istanbul Bariatric Center use?",
+    answer: "Relaxation and Luxury procedures take place at JCI-accredited Liv Hospital Vadistanbul in Sarıyer, Istanbul. Ultra Eco is delivered by the experienced surgeon team at a partner boutique hospital.",
   },
   {
-    question: "Who performs gastric sleeve surgery at IBC?",
-    answer: "Relaxation and Luxury surgery is performed by Dr Murat Üstün, a bariatric and metabolic surgeon with 25+ years of experience and 6,000+ procedures who is an IFSO member. Ultra Eco uses an experienced surgeon team.",
+    question: "How many days do I need to stay in Istanbul?",
+    answer: "The standard Relaxation journey is seven days and six nights: two nights in hospital and four nights in a hotel. Luxury includes five hotel nights. Ultra Eco has two hospital nights but no hotel or transfers, so its itinerary is agreed separately.",
   },
   {
-    question: "How long should I stay in Istanbul?",
-    answer: "Your coordinator will provide an itinerary based on your package and clinical needs. The Relaxation package includes three hospital nights plus a hotel stay. Do not book a return flight until the clinical team has reviewed your health and confirmed the appropriate schedule.",
+    question: "What is the BMI requirement for gastric sleeve in Turkey?",
+    answer: "Surgery is commonly considered at BMI 40 or above, or BMI 35–39.9 with an obesity-related condition. Selected patients with BMI 30 or above and poorly controlled type 2 diabetes may be considered after specialist assessment.",
   },
   {
-    question: "How much weight can I lose after a gastric sleeve?",
-    answer: "A commonly expected outcome is around 60–70% excess weight loss by 12–18 months. Individual results vary with starting weight, eating patterns, activity, medical conditions and engagement with dietetic follow-up.",
+    question: "How much weight will I lose after gastric sleeve?",
+    answer: "Average excess weight loss is around 60–70% at 12–18 months, roughly 25–30% of starting body weight within the first year. Results vary and long-term maintenance requires permanent dietary and lifestyle change.",
   },
   {
-    question: "What BMI qualifies for gastric sleeve surgery?",
-    answer: "Eligibility is assessed individually. Bariatric surgery is commonly considered at BMI 40 or above, or BMI 35 or above with an obesity-related condition. Some people with BMI 30–34.9 and significant metabolic disease may be considered after specialist review. BMI alone never replaces a full medical assessment.",
+    question: "Does the price include flights?",
+    answer: "No. Flights are excluded. Typical UK return fares to Istanbul are £120–£280, but prices vary by airport, season and booking date.",
   },
   {
-    question: "What are the main risks of sleeve gastrectomy?",
-    answer: "Risks include bleeding, infection, staple-line leak, blood clots, anaesthetic complications, reflux, narrowing, dehydration and nutritional deficiencies. The sleeve is permanent and can worsen reflux in some patients, so candidacy and alternatives must be discussed carefully.",
+    question: "What happens if I have complications after returning home?",
+    answer: "Complications are managed with the team's guidance, while urgent symptoms require immediate local assessment. A full English operative note is provided for your UK GP, and relevant imaging can be shared with local clinicians where available.",
   },
   {
-    question: "Is gastric bypass better than gastric sleeve?",
-    answer: "Neither is universally better. A bypass may be preferred for severe reflux, certain metabolic needs or particular eating patterns, while a sleeve has no intestinal bypass and a different nutritional profile. Your surgeon should recommend an operation only after reviewing your health and priorities.",
+    question: "Can I get gastric sleeve on the NHS instead?",
+    answer: "Potentially, but local eligibility and pathways vary. Criteria commonly include BMI 40 or above, or BMI 35 or above with comorbidities and completion of a specialist weight-management programme. Waiting times may be two to five years.",
   },
   {
-    question: "How do I start a free consultation?",
-    answer: "Send your health details through the contact page or WhatsApp the UK team on +44 7491 068686. The clinical team reviews your BMI, medical history, medicines, previous operations and goals before advising whether surgery and travel are appropriate.",
+    question: "Is Dr Murat Üstün IFSO-certified?",
+    answer: "IFSO is a professional membership body rather than a surgeon-certification scheme. Dr Üstün is a member of IFSO, BOMSS and the International Bariatric Club, and is the only Boston Scientific-certified surgical ESG trainer in Turkey.",
+  },
+  {
+    question: "How is Turkey cheaper than the UK for the same operation?",
+    answer: "Turkey has lower staffing, property and insurance costs and a favourable exchange rate. Price alone does not establish quality, so compare the named surgeon, actual hospital, written inclusions, emergency facilities and aftercare.",
+  },
+  {
+    question: "What is included in the all-inclusive package?",
+    answer: "Relaxation includes laparoscopic sleeve surgery by Op. Dr Murat Üstün at JCI-accredited Liv Hospital Vadistanbul, two hospital nights, four nights in a 5-star hotel, surgeon and anaesthetist fees, all pre-operative tests and medications, VIP airport and hospital transfers, half-board hotel meals, a supplements starter pack and 12 months of WhatsApp aftercare including UK-registered dietitian support. Luxury includes the same surgery and hospital in a JCI suite, two hospital nights, five luxury-hotel nights, a private VIP car throughout, full board with a companion allowance and 12 months of priority aftercare.",
+  },
+  {
+    question: "Can I finance the procedure?",
+    answer: "Ask your coordinator about payment options.",
+  },
+  {
+    question: "Will I need plastic surgery for loose skin after gastric sleeve?",
+    answer: "Some patients consider body contouring after their weight has been stable for 12–18 months. Need varies with age, starting weight, weight lost, skin elasticity and smoking history, and requires a separate specialist assessment.",
+  },
+  {
+    question: "What is the difference between gastric sleeve and ESG?",
+    answer: "A sleeve permanently removes about 75–80% of the stomach. Endoscopic sleeve gastroplasty uses internal sutures placed through the mouth and removes no stomach. ESG may suit selected lower-BMI patients and generally produces less weight loss.",
   },
 ];
 
 const medicalWebPage = {
   "@context": "https://schema.org",
   "@type": "MedicalWebPage",
-  name: "Gastric Sleeve Turkey 2026 — Cost, Best Clinics, All-Inclusive Packages",
+  name: "Gastric Sleeve Surgery in Turkey — Cost, Packages & Best Clinics (2026)",
   url: "https://istanbulbariatriccenter.com/gastric-sleeve-turkey",
   about: {
     "@type": "MedicalProcedure",
     name: "Sleeve Gastrectomy",
     procedureType: "Surgical",
-    performedBy: { "@id": "https://istanbulbariatriccenter.com/#drmuratustun" },
+    offers: [
+      { "@type": "Offer", name: "Ultra Eco Gastric Sleeve", price: "2450", priceCurrency: "GBP" },
+      { "@type": "Offer", name: "Relaxation Gastric Sleeve", price: "4550", priceCurrency: "GBP" },
+      { "@type": "Offer", name: "Luxury Gastric Sleeve", price: "4900", priceCurrency: "GBP" },
+    ],
+    provider: { "@id": "https://istanbulbariatriccenter.com/#organization" },
   },
   author: { "@id": "https://istanbulbariatriccenter.com/#drmuratustun" },
   publisher: { "@id": "https://istanbulbariatriccenter.com/#organization" },
 };
+
+const tableClass = "w-full text-left text-sm md:text-base";
+const thClass = "p-4 font-semibold";
+const tdClass = "p-4 border-t border-slate-200 align-top";
 
 export default function GastricSleeveTurkey() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
         title="Gastric Sleeve Turkey 2026"
-        description="Compare gastric sleeve Turkey costs, clinics and all-inclusive packages for 2026. Prices from £2,450 at a JCI-accredited Istanbul hospital."
+        description="Compare 2026 gastric sleeve costs, packages, candidacy, recovery and risks in Turkey. IBC prices range from £2,450 to £4,900."
+        image="/images/sleeve/sleeve-gastrectomy-before-after.webp"
         url="/gastric-sleeve-turkey"
         type="article"
-        author="Dr Murat Üstün"
+        author="Op. Dr Murat Üstün, MD, PhD"
       />
       <JsonLd data={structuredData.createBreadcrumb([
         { name: "Home", url: "/" },
@@ -95,200 +123,236 @@ export default function GastricSleeveTurkey() {
       <Navbar />
 
       <MoneyHero
-        eyebrow="Independent decision guide for international patients"
-        title="Gastric Sleeve Turkey 2026 — Cost, Best Clinics, All-Inclusive Packages"
-        subtitle="A medically responsible comparison of prices, package levels, clinic standards, eligibility, risks and aftercare for people considering weight loss surgery in Turkey."
+        eyebrow="2026 guide for UK and international patients"
+        title="Gastric Sleeve Surgery in Turkey — Cost, Packages & Best Clinics (2026)"
+        subtitle="Everything a UK patient needs to shortlist, cost and book laparoscopic sleeve gastrectomy in Istanbul: verified pricing, hospital standards, surgeon-led care and a seven-day journey plan."
         stats={[
-          { value: "From £2,450", label: "2026 all-inclusive price" },
-          { value: "JCI", label: "Accredited hospital" },
-          { value: "25+ years", label: "Dr Üstün's experience" },
-          { value: "12 months", label: "UK dietitian support with Relaxation" },
+          { value: "From £2,450", label: "2026 package price" },
+          { value: "2 nights", label: "Hospital stay" },
+          { value: "6 nights", label: "Relaxation stay in Istanbul" },
+          { value: "2,200+", label: "Sleeves by Dr Üstün" },
         ]}
       />
 
       <main>
-        <ProcedureFacts
-          title="Gastric sleeve Turkey: the quick answer"
-          facts={[
-            { label: "Price", value: "From £2,450" },
-            { label: "What's included", value: "Surgery, tests and package care" },
-            { label: "Hospital", value: "Liv Hospital Vadistanbul" },
-            { label: "Surgeon", value: "Dr Murat Üstün on Relaxation and Luxury" },
-            { label: "Recovery", value: "Staged diet and ongoing follow-up" },
-          ]}
-        />
+        <section className="py-10 bg-blue-50">
+          <div className="container mx-auto px-4 max-w-5xl">
+            <div className="bg-white border-l-4 border-primary rounded-xl p-6 md:p-8 shadow-sm">
+              <p className="text-sm font-bold text-primary tracking-widest mb-2">QUICK ANSWER</p>
+              <p className="text-lg text-slate-700 leading-relaxed">
+                Gastric sleeve surgery at IBC costs from £2,450. Ultra Eco is performed by an experienced surgeon team at a partner boutique hospital and includes two hospital nights and all pre-operative tests and consultations, but no hotel or transfers; aftercare is a discharge diet plan only. The recommended £4,550 Relaxation package includes laparoscopic sleeve surgery by Op. Dr Murat Üstün at JCI-accredited Liv Hospital Vadistanbul, two hospital nights, four nights in a 5-star hotel, surgeon and anaesthetist fees, all pre-operative tests and medications, VIP airport and hospital transfers, half-board meals, a supplements starter pack and 12 months of WhatsApp aftercare including UK-registered dietitian support.
+              </p>
+            </div>
+          </div>
+        </section>
 
-        <ProseSection title="Why choose Turkey for gastric sleeve surgery?" id="why-turkey">
-          <p>
-            For UK and international patients, the appeal of <strong>gastric sleeve Turkey</strong> treatment is not simply a lower headline price. Istanbul combines experienced bariatric teams, modern private hospitals and coordinated travel packages in one destination. A properly designed package removes much of the practical uncertainty: pre-operative testing, hospital admission, accommodation, transfers and follow-up are arranged around one clinical plan.
-          </p>
-          <p>
-            Cost is nevertheless a major difference. Private sleeve surgery in the UK typically costs £8,000–£12,000, while US treatment can cost $15,000–$25,000. IBC packages start at £2,450. Depending on the package and home-country comparison, patients may save 60–70%. Lower cost should never mean accepting weaker clinical standards, an unknown surgeon or vague aftercare; those details matter more than the destination itself.
-          </p>
-          <p>
-            Istanbul Bariatric Center was founded by <Link href="/dr-murat-ustun" className="text-primary hover:underline">Dr Murat Üstün</Link>, a bariatric and metabolic surgeon with 25+ years of experience and 6,000+ procedures. Relaxation and Luxury procedures take place at JCI-accredited Liv Hospital Vadistanbul. The centre received the WhatClinic Patient Service Award in 2019–2021 and 2023–2025.
-          </p>
-          <p>
-            Patients should compare a Turkish provider in the same way they would compare a private hospital at home: named surgeon, accreditation, anaesthetic and emergency facilities, written inclusions, nutrition support and a clear plan for concerns after returning home. Read the broader <Link href="/bariatric-surgery-turkey-guide" className="text-primary hover:underline">weight loss surgery Turkey guide</Link> before making a final decision.
-          </p>
+        <ProseSection title="Gastric sleeve in Turkey at a glance" id="at-a-glance">
+          <div className="overflow-x-auto rounded-xl border border-slate-200">
+            <table className={tableClass}>
+              <thead className="bg-slate-900 text-white"><tr><th className={thClass}>Specification</th><th className={thClass}>Detail</th></tr></thead>
+              <tbody>
+                {[
+                  ["Procedure", "Laparoscopic Sleeve Gastrectomy (LSG / VSG)"],
+                  ["Surgery time", "45–75 minutes under general anaesthesia"],
+                  ["Hospital stay", "Two nights; hospital depends on package"],
+                  ["Relaxation itinerary", "Six nights: two hospital and four hotel"],
+                  ["Return to light work", "Usually 7–14 days"],
+                  ["Return to gym or lifting", "Usually 4–6 weeks after clearance"],
+                  ["Average excess weight loss", "60–70% at 12–18 months"],
+                  ["Average total body-weight loss", "25–30% within the first year"],
+                  ["Leak rate in high-volume centres", "Under 1%"],
+                  ["2026 package cost", "From £2,450 · Ultra Eco"],
+                  ["Surgeon", "Dr Üstün on Relaxation and Luxury; experienced surgeon team on Ultra Eco"],
+                ].map(([a, b]) => <tr key={a}><th scope="row" className={tdClass}>{a}</th><td className={tdClass}>{b}</td></tr>)}
+              </tbody>
+            </table>
+          </div>
         </ProseSection>
 
         <ComparisonBlock
-          title="Gastric sleeve cost: Turkey vs UK vs US"
-          subtitle="Headline prices are useful only when you also compare what is included, who operates and what happens after discharge."
-          columns={["Comparison", "IBC Turkey", "UK private", "US private"]}
-          highlightColumn={0}
+          title="Cost of gastric sleeve in Turkey — 2026 packages"
+          subtitle="Relaxation and Luxury share Dr Üstün and Liv Hospital. Ultra Eco is the budget tier with the experienced surgeon team at a partner boutique hospital."
+          columns={["Package", "Ultra Eco", "Relaxation — recommended", "Luxury"]}
+          highlightColumn={1}
           rows={[
-            ["Typical quoted price", "From £2,450", "£8,000–£12,000", "$15,000–$25,000"],
-            ["Hospital", "Package-dependent; JCI hospital on Relaxation and Luxury", "Provider-dependent", "Provider-dependent"],
-            ["Travel coordination", "Available as one arranged package", "Usually not required", "Usually not included"],
-            ["Dietitian aftercare", "12 months UK-registered support on Relaxation", "Check the provider", "Check the provider"],
-            ["Price clarity", "Three defined package levels", "Request a written quote", "Request a written quote"],
+            ["Price", "£2,450", "£4,550", "£4,900"],
+            ["Surgeon", "Experienced surgeon team", "Op. Dr Murat Üstün", "Op. Dr Murat Üstün"],
+            ["Hospital", "Partner boutique hospital, 2 nights", "Liv Hospital Vadistanbul JCI, 2 nights", "Liv Hospital Vadistanbul JCI suite, 2 nights"],
+            ["Tests and consultations", "All pre-op tests and consultations", "All pre-op tests and medications", "Confirm in written quote"],
+            ["Hotel", "Not included", "4 nights hotel", "5 nights luxury hotel"],
+            ["Transfers", "Not included", "VIP airport and hospital transfers", "Private VIP car throughout"],
+            ["Meals", "Not included", "Half-board hotel meals", "Full board and companion allowance"],
+            ["Aftercare", "Discharge diet plan only", "12 months via WhatsApp including UK-registered dietitian support", "12 months priority aftercare"],
+            ["Extras", "Surgery essentials", "Surgeon and anaesthetist fees; supplements starter pack", "Private VIP car throughout"],
           ]}
-          footnote={
-            <>Prices are 2026 guide figures, not a personal quotation. See the <Link href="/gastric-sleeve-turkey-cost" className="text-primary hover:underline">detailed gastric sleeve Turkey cost breakdown</Link>.</>
-          }
-        />
-
-        <Checklist
-          title="Best gastric sleeve clinic in Turkey: a six-point checklist"
-          background="slate"
-          items={[
-            <><strong>JCI accreditation:</strong> verify where surgery actually happens. IBC Relaxation and Luxury patients are treated at JCI-accredited Liv Hospital Vadistanbul.</>,
-            <><strong>Surgeon volume and experience:</strong> ask for the named operating surgeon. Dr Üstün has 25+ years' experience and 6,000+ procedures; Ultra Eco is delivered by an experienced surgeon team.</>,
-            <><strong>IFSO connection:</strong> professional bariatric involvement helps signal specialist focus. Dr Üstün is an IFSO member.</>,
-            <><strong>Accessible aftercare:</strong> clarify who answers once you fly home. Relaxation includes 12 months with a UK-registered dietitian; Luxury extends dietitian support.</>,
-            <><strong>Transparent all-inclusive pricing:</strong> obtain written inclusions and exclusions. IBC defines hospital, hotel, transfer, tests and support by package rather than using one ambiguous price.</>,
-            <><strong>UK-relevant nutrition support:</strong> bariatric eating continues long after Istanbul. IBC's Relaxation plan includes a supplements pack and UK-registered dietitian support.</>,
-          ]}
+          footnote={<>Ask for a written quotation. Read the <Link href="/gastric-sleeve-turkey-cost" className="text-primary hover:underline">full price breakdown</Link>.</>}
         />
 
         <ComparisonBlock
-          title="Compare IBC's three gastric sleeve packages"
-          subtitle="Choose by clinical team, hospital setting, comfort and aftercare—not by price alone."
-          columns={["Feature", "Ultra Eco", "Relaxation", "Luxury"]}
-          highlightColumn={1}
+          title="Turkey vs UK, Germany, USA and Australia — 2026 comparison"
+          subtitle="Typical self-pay ranges from published provider prices; inclusions and eligibility differ."
+          columns={["Country", "Typical self-pay cost", "Waiting time", "Hospital nights"]}
+          highlightColumn={0}
           rows={[
-            ["2026 price", "£2,450", "£4,550", "£4,900"],
-            ["Surgeon", "Experienced surgeon team", "Dr Murat Üstün", "Dr Murat Üstün"],
-            ["Hospital stay", "Boutique hospital, 2 days", "JCI hospital, 3 nights", "JCI hospital, 3 nights"],
-            ["Pre-op tests", "Included", "Included", "Included"],
-            ["Hotel", "Ask for written itinerary", "Radisson hotel", "Extended hotel stay"],
-            ["Transfers", "Ask for written itinerary", "VIP airport transfers", "Private VIP transfers throughout"],
-            ["Room", "Standard package setting", "Package room", "Premium room"],
-            ["Dietitian and supplements", "Confirm in quotation", "UK dietitian 12 months plus supplements pack", "Extended dietitian support plus supplements pack"],
+            ["Turkey (IBC)", "£2,450 – £4,900 all-inclusive", "2–4 weeks", "2 nights"],
+            ["United Kingdom (private)", "£8k–£15,000", "4–8 weeks", "1–2 nights"],
+            ["United Kingdom (NHS)", "Free at point of use", "Often 2–5 years", "1–2 nights"],
+            ["Germany (private)", "€9,000–€18k (about £7,700–£15,400)", "1–3 months", "two to three nights"],
+            ["United States (self-pay)", "$9,500–$23,000 (about £7,500–£18,200)", "2–4 weeks", "1–2 nights"],
+            ["Australia (self-funded)", "AUD $15,000–$25,000 (about £7,900–£13,200)", "2–4 weeks", "2 nights"],
           ]}
-          footnote="Your medical suitability is assessed before a package is confirmed. Flights are not listed as a package inclusion."
+          footnote="Guide prices checked September 2026. Currency movements and individual medical needs can change quotations."
         />
 
-        <ProseSection title="Your step-by-step journey from consultation to aftercare" tone="blue" id="journey">
-          <ol className="list-decimal pl-6 space-y-5">
-            <li><strong>Free consultation.</strong> Share your height, weight, health history, medicines, previous surgery and goals. The team may request reports or additional tests. A package is appropriate only if the clinical review supports surgery and travel.</li>
-            <li><strong>Plan flights and dates.</strong> Once approved, your coordinator provides the proposed itinerary. Confirm what your quotation covers and arrange suitable travel insurance. Do not treat surgery like a short holiday or book a rushed return.</li>
-            <li><strong>Testing and surgery.</strong> In Istanbul, pre-operative tests and anaesthetic assessment check for issues that could change or postpone the plan. Sleeve gastrectomy removes a large portion of the stomach, leaving a narrow tube. It is permanent and performed under general anaesthesia.</li>
-            <li><strong>Hospital and hotel recovery.</strong> The team monitors pain, hydration, mobility and signs of complications. You begin the prescribed liquid pathway and receive discharge instructions. Package accommodation follows when the surgeon considers discharge safe.</li>
-            <li><strong>Aftercare at home.</strong> Recovery continues through staged liquids, purées and textured food, with hydration, protein, supplements and activity guidance. Keep contact details accessible and seek urgent local care for warning signs rather than waiting for an online reply.</li>
+        <ProseSection title="What’s included in the all-inclusive package" tone="slate" id="included" maxWidth="max-w-6xl">
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white rounded-xl border border-slate-200 p-6">
+              <h3 className="text-xl font-bold text-slate-900 mb-4">Medical and surgical</h3>
+              <ul className="list-disc pl-5 space-y-2 text-base">
+                <li>Two hospital nights on every package</li>
+                <li>All pre-operative tests and consultations on Ultra Eco</li>
+                <li>All pre-operative tests and medications on Relaxation</li>
+                <li>Surgeon and anaesthetist fees on Relaxation</li>
+                <li>JCI suite at Liv Hospital Vadistanbul on Luxury</li>
+              </ul>
+            </div>
+            <div className="bg-white rounded-xl border border-slate-200 p-6">
+              <h3 className="text-xl font-bold text-slate-900 mb-4">Travel, stay and aftercare</h3>
+              <ul className="list-disc pl-5 space-y-2 text-base">
+                <li>Ultra Eco excludes hotel and transfers and includes a discharge diet plan only</li>
+                <li>Relaxation includes four 5-star hotel nights, half-board meals, and VIP airport and hospital transfers</li>
+                <li>Relaxation includes a supplements starter pack and 12 months of WhatsApp aftercare with UK-registered dietitian support</li>
+                <li>Luxury includes five luxury-hotel nights, full board with a companion allowance, and a private VIP car throughout</li>
+                <li>Luxury includes 12 months of priority aftercare</li>
+              </ul>
+            </div>
+          </div>
+          <img loading="lazy" width="1024" height="683" src="/images/sleeve/uk-dietitian-aftercare.webp" alt="UK-registered bariatric dietitian providing gastric sleeve aftercare online" className="w-full rounded-2xl mt-8" />
+        </ProseSection>
+
+        <ProseSection title="Who is a good candidate for gastric sleeve?" id="candidate">
+          <p>Suitability is decided through bariatric and anaesthetic assessment, not price or BMI alone. Common criteria include:</p>
+          <Checklist title="Common candidacy considerations" items={[
+            "BMI 40 or above, regardless of obesity-related conditions",
+            "BMI 35–39.9 with type 2 diabetes, hypertension, sleep apnoea, fatty liver or severe joint disease",
+            "Selected BMI 30 or above cases with poorly controlled type 2 diabetes",
+            "Usually age 18–65, with older patients reviewed individually",
+            "Previous structured non-surgical weight-loss effort",
+            "Readiness for lifelong diet, activity, supplements and monitoring",
+          ]} />
+          <img loading="lazy" width="1024" height="683" src="/images/sleeve/sleeve-consultation.webp" alt="Bariatric surgeon discussing gastric sleeve candidacy during a consultation" className="w-full rounded-2xl" />
+        </ProseSection>
+
+        <Checklist title="Who is not a candidate?" tone="warning" background="slate" items={[
+          "Untreated severe cardiac or respiratory disease that makes general anaesthesia unsafe",
+          "Active malignancy or a recent diagnosis without oncologist clearance",
+          "Untreated bleeding disorder or uncorrected coagulopathy",
+          "Pregnancy or planned pregnancy within 18 months",
+          "Severe untreated psychiatric illness, active substance misuse or untreated eating disorder",
+          "Severe liver cirrhosis or active Crohn’s disease involving the stomach or duodenum",
+          "Large hiatus hernia or severe reflux where bypass may be safer",
+          "Inability to follow structured aftercare and long-term supplements",
+        ]} />
+
+        <ProseSection title="How the gastric sleeve procedure works" tone="blue" id="procedure" maxWidth="max-w-5xl">
+          <p>Sleeve gastrectomy permanently removes roughly 75–80% of the stomach, leaving a narrow tube. It is performed under general anaesthesia through four or five keyhole incisions and usually takes 45–75 minutes. Read more about <Link href="/sleeve-gastrectomy" className="text-primary hover:underline">how the operation is performed</Link>.</p>
+          <div className="grid md:grid-cols-2 gap-4">
+            {[
+              ["1 — Access", "Four or five laparoscopic ports are placed and carbon dioxide creates working space."],
+              ["2 — Mobilisation", "The greater curvature is freed using an advanced vessel-sealing device."],
+              ["3 — Stapling", "A calibration tube guides division of the stomach with an endoscopic linear stapler."],
+              ["4 — Testing and closure", "A leak test is completed, the removed stomach is extracted and the ports are closed."],
+            ].map(([title, text]) => <div key={title} className="bg-white rounded-xl p-5 border border-blue-100"><h3 className="font-bold text-slate-900">{title}</h3><p className="text-base mt-2">{text}</p></div>)}
+          </div>
+          <p><strong>Two mechanisms drive weight loss:</strong> restriction reduces stomach capacity to around 100–150 ml, while removal of the fundus reduces ghrelin, a hormone involved in hunger.</p>
+          <img loading="lazy" width="1224" height="1285" src="/images/sleeve/sleeve-gastrectomy-before-after.webp" alt="Diagram comparing the stomach before and after sleeve gastrectomy" className="w-full max-w-3xl mx-auto rounded-2xl" />
+        </ProseSection>
+
+        <ProseSection title="Recovery timeline — day 0 to month 12" id="recovery" maxWidth="max-w-6xl">
+          <img loading="lazy" width="1024" height="576" src="/images/sleeve/liv-hospital-recovery-room.webp" alt="Private recovery room at Liv Hospital Vadistanbul after bariatric surgery" className="w-full rounded-2xl mb-8" />
+          <div className="overflow-x-auto rounded-xl border border-slate-200">
+            <table className={tableClass}>
+              <thead className="bg-slate-900 text-white"><tr><th className={thClass}>When</th><th className={thClass}>What to expect</th><th className={thClass}>Diet</th></tr></thead>
+              <tbody>{[
+                ["Day 0", "Recovery, short walks and sips as directed", "Water and clear fluids"],
+                ["Day 1", "Leak test, less IV fluid, regular corridor walks", "Clear fluids"],
+                ["Day 2", "Discharge when clinically ready; shoulder-tip discomfort can occur", "Clear fluids and protein drinks"],
+                ["Days 3–7", "Rest, short walks and planned return flight", "Full liquids"],
+                ["Week 2", "Desk work may resume; fatigue is common", "Liquids to thin purée"],
+                ["Weeks 3–4", "Energy improves; early weight change becomes visible", "Purée"],
+                ["Weeks 5–6", "Gentle exercise after clearance", "Soft solids"],
+                ["Week 7 onward", "Small portions and structured follow-up", "Full diet as tolerated"],
+                ["Month 3", "Blood tests; often 20–35% excess weight lost", "Full diet and supplements"],
+                ["Month 6", "Often 40–55% excess weight lost", "Full diet and supplements"],
+                ["Month 12", "Often 60–70% excess weight lost", "Maintenance"],
+              ].map(([a,b,c]) => <tr key={a}><th scope="row" className={tdClass}>{a}</th><td className={tdClass}>{b}</td><td className={tdClass}>{c}</td></tr>)}</tbody>
+            </table>
+          </div>
+        </ProseSection>
+
+        <ProseSection title="Risks and complications" tone="slate" id="risks" maxWidth="max-w-6xl">
+          <p>No operation is risk-free. Published rates vary with patient risk and centre experience; the figures below are typical high-volume-centre ranges.</p>
+          <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white">
+            <table className={tableClass}>
+              <thead className="bg-slate-900 text-white"><tr><th className={thClass}>Complication</th><th className={thClass}>Typical rate</th><th className={thClass}>Prevention or management</th></tr></thead>
+              <tbody>{[
+                ["Staple-line leak", "Under 1%", "Staple-line inspection, leak test and access to interventional care"],
+                ["Bleeding requiring transfusion", "1–2%", "Vessel sealing, staple-line inspection and monitoring"],
+                ["DVT or pulmonary embolism", "Under 1%", "Blood-thinning medication, stockings and early walking"],
+                ["Wound infection", "1–3%", "Antibiotics and careful closure"],
+                ["Stricture or narrowing", "About 1%", "Calibration during surgery and endoscopic treatment if needed"],
+                ["Long-term reflux", "10–20%", "Pre-op endoscopy, appropriate procedure choice and acid suppression"],
+                ["Iron, B12 or vitamin D deficiency", "Common", "Daily supplements and regular blood tests"],
+                ["30-day mortality", "About 0.1%", "Careful case selection and an experienced hospital team"],
+              ].map(([a,b,c]) => <tr key={a}><th scope="row" className={tdClass}>{a}</th><td className={tdClass}>{b}</td><td className={tdClass}>{c}</td></tr>)}</tbody>
+            </table>
+          </div>
+          <p>Seek urgent local care for severe abdominal or chest pain, shortness of breath, fainting, fever, rapid heartbeat, persistent vomiting, leg swelling or inability to keep fluids down.</p>
+        </ProseSection>
+
+        <ExpertPOV
+          title="Why choose Dr Üstün and Liv Hospital Vadistanbul?"
+          credentials="MD, PhD · 25+ years · BOMSS, IFSO and International Bariatric Club member"
+        >
+          <p><Link href="/dr-murat-ustun" className="text-primary hover:underline">Op. Dr Murat Üstün</Link> has 25+ years of experience, 6,000+ advanced laparoscopic procedures and 2,200+ sleeves. He is a BOMSS, IFSO and International Bariatric Club member and the only Boston Scientific-certified surgical ESG trainer in Turkey.</p>
+          <p>IBC received WhatClinic awards in 2019–2021 and 2023–2025. Relaxation and Luxury care takes place at JCI-accredited Liv Hospital Vadistanbul, with 24-hour intensive care, imaging, interventional support and English-speaking staff.</p>
+        </ExpertPOV>
+
+        <ProseSection title="Your 7-day gastric sleeve journey in Istanbul" tone="blue" id="journey">
+          <ol className="space-y-4">
+            {[
+              ["Day 1 — Arrival", "VIP airport pickup, hotel check-in and welcome call."],
+              ["Day 2 — Pre-op", "Hospital tests, endoscopy and consultation with Dr Üstün."],
+              ["Day 3 — Surgery", "Laparoscopic sleeve operation lasting about 45–75 minutes."],
+              ["Day 4 — Recovery", "Leak test, first walks and clear fluids."],
+              ["Day 5 — Discharge", "Discharge to the hotel with VIP transfer when clinically ready."],
+              ["Day 6 — Rest", "Hotel rest, hydration and short walks."],
+              ["Day 7 — Fly home", "Airport transfer with discharge documents and aftercare plan."],
+            ].map(([day, text]) => <li key={day} className="bg-white rounded-xl border border-blue-100 p-5"><strong className="text-slate-900">{day}</strong><p className="text-base mt-1">{text}</p></li>)}
           </ol>
-          <p>
-            Our <Link href="/bariatric-surgery-travel-guide" className="text-primary hover:underline">bariatric surgery travel guide</Link> covers planning, documents, flights, packing and safe recovery in more detail. UK residents can also review the dedicated <Link href="/bariatric-surgery-for-uk-patients" className="text-primary hover:underline">UK patient guide</Link>.
-          </p>
+          <p>Travel arrangements differ for Ultra Eco and Luxury. Use the <Link href="/bariatric-surgery-travel-guide" className="text-primary hover:underline">bariatric surgery travel guide</Link> and confirm your personal itinerary before booking flights.</p>
           <InlineCTA label="Request a free clinical review" />
         </ProseSection>
 
-        <ProseSection title="Safety and risks: an honest view" tone="white" id="safety">
-          <p>
-            Sleeve gastrectomy is established surgery, but “common” does not mean minor or risk-free. Early risks include bleeding, infection, staple-line leak, blood clots, breathing problems and complications of anaesthesia. Dehydration and difficulty tolerating fluids can lead to readmission. Later issues can include reflux, narrowing, gallstones, nutritional deficiencies, insufficient loss or weight regain.
-          </p>
-          <p>
-            Risk is influenced by your medical history, BMI, smoking, mobility, previous operations and adherence to instructions. Tell the clinical team about every medicine and supplement. Never stop prescribed medication without medical advice. Patients are expected to follow fasting, mobility, diet and clot-prevention instructions and to avoid smoking as advised by their clinicians.
-          </p>
-          <p>
-            Seek urgent medical help for severe or increasing abdominal or chest pain, shortness of breath, fainting, persistent vomiting, fever, rapid heartbeat, leg swelling, wound concerns or an inability to keep fluids down. International aftercare is useful, but it does not replace emergency assessment in the country where you are physically located.
-          </p>
-          <p>
-            Good providers also say “not yet” or “no” when travel or sleeve surgery is unsuitable. Patients with significant reflux, complex metabolic needs or previous surgery may need another approach. A recommendation should be based on clinical fit—not on which package is easiest to sell.
-          </p>
-        </ProseSection>
-
-        <Candidacy
-          title="Who qualifies for gastric sleeve surgery?"
-          intro={<p>Eligibility follows a full bariatric and anaesthetic assessment. The following are common discussion points rather than automatic approval criteria.</p>}
-          criteria={[
-            "BMI of 40 or above may qualify after specialist assessment",
-            "BMI of 35 or above with an obesity-related health condition may qualify",
-            "BMI 30–34.9 with significant metabolic disease may be considered in selected cases",
-            "Previous supervised weight-loss efforts and readiness for permanent change are reviewed",
-            "The patient must be fit enough for general anaesthesia and international travel",
-            "Commitment to staged eating, supplements, follow-up and long-term monitoring is essential",
-          ]}
-          note={<><strong>BMI is not the whole decision.</strong> Age, reflux, diabetes, eating behaviour, psychological readiness, current medicines, smoking and previous abdominal surgery can affect whether sleeve, bypass, a non-surgical procedure or no procedure is safest.</>}
-        />
-
-        <ProseSection title="Gastric sleeve results and recovery timeline" tone="green" id="results">
-          <p>
-            <strong>First days:</strong> the immediate priorities are safe mobilisation, clot prevention, pain control and adequate fluids. Energy can be low. Follow the discharge plan exactly and do not advance food textures early simply because you feel well.
-          </p>
-          <p>
-            <strong>First weeks:</strong> eating progresses in stages under dietetic direction. Small, slow portions, protein and hydration become central routines. Return to work and exercise varies by the work involved and individual recovery; your surgeon must give personal clearance.
-          </p>
-          <p>
-            <strong>First 6–12 months:</strong> weight commonly changes most rapidly while habits and appetite adjust. Follow-up helps identify dehydration, poor protein intake, nutritional issues, reflux and unhelpful eating patterns before they become entrenched.
-          </p>
-          <p>
-            <strong>At 12–18 months:</strong> sleeve patients may achieve around 60–70% excess weight loss. This is an expected range, not a guarantee. “Excess weight loss” is different from total body weight loss, and outcomes vary substantially. See patient journeys on the <Link href="/results" className="text-primary hover:underline">results page</Link>, while remembering that another person's outcome cannot predict yours.
-          </p>
-          <p>
-            <strong>Long term:</strong> the sleeve remains a permanent anatomical change, but durable results still rely on nutrition, activity, monitoring and early support for weight regain or reflux. Supplements and blood monitoring should follow your individual clinical plan.
-          </p>
-        </ProseSection>
-
-        <ProseSection title="Alternatives to gastric sleeve in Turkey" tone="slate">
-          <p>
-            <strong><Link href="/gastric-bypass" className="text-primary hover:underline">Roux-en-Y gastric bypass</Link> or <Link href="/mini-gastric-bypass" className="text-primary hover:underline">mini/OAGB</Link>:</strong> bypass changes both stomach capacity and the route food takes. It may suit certain patients with reflux or metabolic priorities, but has different nutritional obligations and risks. IBC bypass packages are £5,000 Relaxation or £5,350 Luxury; there is no basic bypass package. Compare both operations in the <Link href="/gastric-sleeve-vs-gastric-bypass" className="text-primary hover:underline">sleeve vs bypass guide</Link>.
-          </p>
-          <p>
-            <strong><Link href="/esg" className="text-primary hover:underline">Endoscopic sleeve gastroplasty (ESG)</Link>:</strong> this incisionless endoscopic procedure reduces stomach volume using internal sutures rather than removing stomach. It starts from £5,700, with Luxury at £6,850, and may appeal to selected patients seeking an endoscopic approach.
-          </p>
-          <p>
-            <strong><Link href="/gastric-balloon" className="text-primary hover:underline">Gastric balloon</Link>:</strong> temporary Orbera (£1,900) and swallowable Allurion (£2,600) options may suit some lower-BMI patients who do not need or qualify for surgery. Expected total body weight loss is around 10–15% over 6–12 months, with individual variation.
-          </p>
-          <p>
-            The correct comparison includes expected benefit, permanence, reflux, nutritional impact, follow-up and your medical history. Browse all <Link href="/treatments" className="text-primary hover:underline">weight-loss treatments</Link> before deciding.
-          </p>
-        </ProseSection>
-
-        <ExpertPOV title="How I assess an international sleeve patient">
-          <p>
-            “I do not decide from BMI or price alone. I review reflux symptoms, diabetes and other conditions, previous operations, medication, eating behaviour and the patient's ability to follow nutrition and aftercare. A sleeve can be an effective operation, but it is not the right operation for every person.”
-          </p>
-          <p>
-            “For an international patient, the plan must extend beyond the operation. Safe testing, an equipped hospital, a realistic stay and a clear route to dietetic and medical support after the flight home all form part of treatment. If another procedure is more appropriate—or surgery should be delayed—I explain why.”
-          </p>
-        </ExpertPOV>
-
-
-        <FAQSection
-          title="Gastric sleeve Turkey FAQs"
-          subtitle="Clear answers to the questions patients ask before choosing a clinic or package."
-          faqs={faqs}
-          withJsonLd={false}
-        />
-
-        <RelatedLinks
-          title="Continue your gastric sleeve research"
-          links={[
-            { title: "Detailed cost breakdown", description: "Understand package prices, likely extras and how to compare quotations.", href: "/gastric-sleeve-turkey-cost" },
-            { title: "Sleeve procedure guide", description: "Learn how sleeve gastrectomy works, candidacy and recovery.", href: "/sleeve-gastrectomy" },
-            { title: "Turkey surgery costs", description: "Compare prices across bariatric and endoscopic procedures.", href: "/cost-of-bariatric-surgery-in-turkey" },
-            { title: "Meet Dr Murat Üstün", description: "Review the founder's experience, memberships and approach.", href: "/dr-murat-ustun" },
-          ]}
-        />
+        <FAQSection title="Frequently asked questions" faqs={faqs} withJsonLd={false} />
 
         <ConversionModule
-          title="Get a personal gastric sleeve assessment"
-          text="Send your health history and goals for a free, no-obligation review. The team will explain suitability, package inclusions and next steps before you decide."
-          buttonLabel="WhatsApp the UK team"
+          title="Book your free consultation with Dr Üstün"
+          text={<>Request a no-obligation clinical review in English. Share your health history, receive a suitability assessment and discuss the right package. You can also use the <Link href="/contact" className="underline font-semibold">contact form</Link>.</>}
+          buttonLabel="WhatsApp UK · +44 7491 068686"
         />
+
+        <RelatedLinks title="Related procedures and resources" links={[
+          { title: "Sleeve gastrectomy procedure", description: "Learn how the operation is performed.", href: "/sleeve-gastrectomy" },
+          { title: "Mini gastric bypass", description: "Compare an alternative bariatric operation.", href: "/mini-gastric-bypass" },
+          { title: "Gastric balloon", description: "Explore temporary non-surgical options.", href: "/gastric-balloon" },
+          { title: "Endoscopic sleeve gastroplasty", description: "Explore incisionless stomach reduction.", href: "/esg" },
+          { title: "Before and after results", description: "Review real patient outcomes.", href: "/results" },
+        ]} />
+
+        <footer className="py-8 text-center text-sm text-slate-600 border-t">
+          Reviewed by Op. Dr Murat Üstün, MD, PhD · Last reviewed 17 September 2026
+        </footer>
       </main>
 
       <Footer />

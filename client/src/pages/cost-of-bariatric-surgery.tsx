@@ -38,7 +38,7 @@ export default function CostOfBariatricSurgery() {
     .map((link, i) => ({ ...link, href: relatedHrefs[i] }))
     .concat([
       { title: "Gastric Sleeve Turkey Cost", description: "Detailed sleeve price breakdown and package comparison.", href: "/gastric-sleeve-turkey-cost" },
-      { title: "Gastric Sleeve Turkey 2026", description: "Cost, best clinics and all-inclusive packages guide.", href: "/gastric-sleeve-turkey" },
+      { title: "Gastric Sleeve Turkey", description: "Cost, best clinics and all-inclusive packages guide.", href: "/gastric-sleeve-turkey" },
       { title: "Gastric Bypass in Turkey", description: "Bypass packages from £5,000 all-inclusive.", href: "/gastric-bypass" },
     ]);
 

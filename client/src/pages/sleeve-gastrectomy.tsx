@@ -88,11 +88,13 @@ export default function SleeveGastrectomy() {
       recommended: false,
       features: [
         "Experienced Surgeon Team",
-        "Boutique Hospital",
+        "Partner boutique hospital",
         "All pre-operative tests and consultations",
-        "2 days hospitalisation",
+        "2 nights in hospital",
         "No hotel",
-        "Not performed by Dr Ustun personally"
+        "No transfers",
+        "Discharge diet plan only",
+        "Not performed by Dr Üstün personally"
       ]
     },
     {
@@ -101,11 +103,15 @@ export default function SleeveGastrectomy() {
       color: "emerald",
       recommended: true,
       features: [
-        "Surgery with Dr Murat Ustun",
-        "JCI-accredited hospital (3 days)",
-        "All pre-operative tests and consultations",
-        "VIP airport transfer",
-        "UK-registered dietitian support"
+        "Laparoscopic sleeve by Op. Dr Murat Üstün",
+        "Liv Hospital Vadistanbul (JCI), 2 nights",
+        "4 nights in a 5-star hotel (6 nights in Istanbul)",
+        "Surgeon and anaesthetist fees",
+        "All pre-operative tests and medications",
+        "VIP airport and hospital transfers",
+        "Half-board hotel meals",
+        "12 months WhatsApp aftercare including UK-registered dietitian support",
+        "Supplements starter pack"
       ]
     },
     {
@@ -114,14 +120,12 @@ export default function SleeveGastrectomy() {
       color: "amber",
       recommended: false,
       features: [
-        "Surgery with Dr Murat Ustun",
-        "JCI-accredited hospital (3 days)",
-        "All pre-operative tests and consultations",
-        "VIP airport transfer",
-        "3 nights of Radisson hotel accommodation",
-        "UK-registered dietitian support",
-        "1 month of supplements",
-        "Local UK care support in 8 locations"
+        "Laparoscopic sleeve by Op. Dr Murat Üstün",
+        "Liv Hospital Vadistanbul JCI suite, 2 nights",
+        "5 nights in a luxury hotel",
+        "Private VIP car throughout",
+        "Full-board meals and companion allowance",
+        "12 months priority aftercare"
       ]
     }
   ];
@@ -143,7 +147,7 @@ export default function SleeveGastrectomy() {
           facts={[
             { label: "Stomach reduction", value: "75–80%" },
             { label: "Excess weight loss", value: "60–70%" },
-            { label: "Hospital stay", value: "2–3 nights" },
+            { label: "Hospital stay", value: "2 nights" },
             { label: "All-inclusive from", value: "£2,450" },
           ]}
         />
@@ -238,7 +242,7 @@ export default function SleeveGastrectomy() {
         <RelatedLinks
           title={t("related.title")}
           links={[
-            { title: "Gastric Sleeve Turkey 2026 Guide", description: "Cost, best clinics and all-inclusive packages compared.", href: "/gastric-sleeve-turkey" },
+            { title: "See UK-patient pricing and packages", description: "Gastric sleeve Turkey guide: cost, clinics and all-inclusive packages.", href: "/gastric-sleeve-turkey" },
             { title: "Gastric Sleeve Turkey Cost", description: "Full price breakdown: what is and is not included.", href: "/gastric-sleeve-turkey-cost" },
             { title: t("related.gastricBypass.title"), description: t("related.gastricBypass.description"), href: "/gastric-bypass" },
             { title: t("related.gastricBalloon.title"), description: t("related.gastricBalloon.description"), href: "/gastric-balloon" },

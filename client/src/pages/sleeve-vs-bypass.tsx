@@ -38,7 +38,7 @@ export default function SleeveVsBypass() {
   const relatedLinks = (t("sleeveVsBypassPage.related.links", { returnObjects: true }) as { title: string; description: string }[])
     .map((link, i) => ({ ...link, href: relatedHrefs[i] }))
     .concat([
-      { title: "Gastric Sleeve Turkey 2026", description: "Cost, clinics and packages for sleeve surgery in Turkey.", href: "/gastric-sleeve-turkey" },
+      { title: "Gastric Sleeve Turkey", description: "Cost, clinics and packages for sleeve surgery in Turkey.", href: "/gastric-sleeve-turkey" },
       { title: "Gastric Bypass in Turkey", description: "Roux-en-Y and mini bypass packages explained.", href: "/gastric-bypass" },
     ]);
 

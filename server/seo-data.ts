@@ -767,11 +767,11 @@ const staticPages: Record<string, PageSEO> = {
 <section><h2>How Gastric Sleeve Works</h2><p>The procedure is performed laparoscopically (keyhole surgery) under general anaesthesia, typically taking 45-60 minutes. The surgeon removes the larger curved portion of the stomach using surgical staplers, leaving a tubular stomach with approximately 100-150ml capacity (compared to 1-1.5 litres originally). The procedure is permanent and non-reversible.</p></section>
 <section><h2>Expected Results</h2><ul><li>60-70% excess weight loss within 12-18 months</li><li>Significant reduction in hunger due to decreased ghrelin production</li><li>Improvement or resolution of type 2 diabetes, sleep apnoea, hypertension, and high cholesterol</li><li>Improved mobility, energy levels, and quality of life</li></ul></section>
 <section><h2>Gastric Sleeve Packages & Pricing</h2>
-<article><h3>Ultra Eco Package — £2,450</h3><p>Experienced Surgeon Team, Boutique Hospital, all pre-operative tests and consultations, 2 days hospitalisation and no hotel. This package is not performed by Dr Ustun personally.</p></article>
-<article><h3>Relaxation Package — £4,550</h3><p>Surgery by Dr Murat Ustun, JCI Hospital (3 days stay), Radisson Hotel accommodation (1 night), UK Registered Dietitian support (12 months), supplements pack.</p></article>
-<article><h3>Luxury Package — £4,900</h3><p>Surgery by Dr Murat Ustun, extended Radisson Hotel stay, private VIP transfers, premium room upgrade, extended dietitian support, comprehensive supplement package.</p></article></section>
+ <article><h3>Ultra Eco Package — £2,450</h3><p>Experienced surgeon team at a partner boutique hospital, two hospital nights, and all pre-operative tests and consultations. Hotel and transfers are not included, aftercare is a discharge diet plan only, and the operation is not performed personally by Dr Ustun.</p></article>
+ <article><h3>Relaxation Package — £4,550 (Recommended)</h3><p>Laparoscopic sleeve surgery by Op. Dr Murat Ustun at JCI-accredited Liv Hospital Vadistanbul, two hospital nights plus four nights in a 5-star hotel for six nights in Istanbul, surgeon and anaesthetist fees, all pre-operative tests and medications, VIP airport and hospital transfers, half-board hotel meals, 12 months of WhatsApp aftercare including UK-registered dietitian support, and a supplements starter pack.</p></article>
+ <article><h3>Luxury Package — £4,900</h3><p>The same surgery and hospital in a JCI suite, two hospital nights plus five nights in a luxury hotel, a private VIP car throughout, full board with a companion allowance, and 12 months of priority aftercare.</p></article></section>
 <section><h2>Who is Suitable for Gastric Sleeve?</h2><p>Gastric sleeve surgery is typically recommended for patients with a BMI of 35 or above, or BMI 30-35 with obesity-related health conditions. Patients should be committed to lifelong dietary and lifestyle changes. A thorough medical assessment is performed before surgery to ensure suitability.</p></section>
-<section><h2>Recovery & Aftercare</h2><p>Hospital stay is typically 2-3 days. Most patients can return to normal activities within 2-3 weeks. A structured diet plan progresses from clear liquids to soft foods to regular meals over 6-8 weeks. Long-term vitamin supplementation and regular follow-up appointments are essential.</p></section>`,
+ <section><h2>Recovery & Aftercare</h2><p>All three packages include two hospital nights. Most patients can return to normal activities within 2-3 weeks. A structured diet plan progresses from clear liquids to soft foods to regular meals over 6-8 weeks. Relaxation includes 12 months of WhatsApp aftercare with UK-registered dietitian support, Luxury includes 12 months of priority aftercare, and Ultra Eco includes a discharge diet plan only.</p></section>`,
     jsonLd: [{
       "@context": "https://schema.org",
       "@type": "MedicalProcedure",
@@ -782,10 +782,10 @@ const staticPages: Record<string, PageSEO> = {
       "description": "Laparoscopic removal of 75-80% of the stomach creating a smaller sleeve-shaped stomach for weight loss.",
       "howPerformed": "Laparoscopic removal of approximately 75-80% of the stomach along the greater curvature.",
       "preparation": "Pre-operative testing, dietitian consultation, and a 2-week liver-shrinking diet.",
-      "followup": "Lifetime dietitian follow-up with staged diet reintroduction over 6 weeks.",
+      "followup": "12 months UK-registered dietitian support (Relaxation and Luxury).",
       "expectedPrognosis": "Typical excess weight loss of 60-70% at 12 months.",
       "indication": { "@type": "MedicalIndication", "name": "Obesity with BMI ≥ 35, or BMI ≥ 30 with metabolic comorbidities" },
-      "performedBy": { "@id": PHYSICIAN_ID },
+      "provider": { "@id": "https://istanbulbariatriccenter.com/#organization" },
       "offers": [
         { "@type": "Offer", "name": "Ultra Eco Package", "price": "2450", "priceCurrency": "GBP" },
         { "@type": "Offer", "name": "Relaxation Package", "price": "4550", "priceCurrency": "GBP" },

@@ -347,7 +347,7 @@ export default function GastricBypass() {
         links={[
           { title: "Mini Gastric Bypass", description: "A detailed guide to the one-anastomosis OAGB technique.", href: "/mini-gastric-bypass" },
           { title: "Sleeve vs Bypass", description: "Compare anatomy, suitability, benefits and trade-offs.", href: "/gastric-sleeve-vs-gastric-bypass" },
-          { title: "Gastric Sleeve", description: "Understand the non-bypass surgical alternative.", href: "/sleeve-gastrectomy" },
+          { title: "Sleeve Gastrectomy Procedure", description: "How sleeve gastrectomy works — the non-bypass surgical alternative.", href: "/sleeve-gastrectomy" },
           { title: "UK Patient Guide", description: "Plan treatment and aftercare from the United Kingdom.", href: "/bariatric-surgery-for-uk-patients" },
         ]}
       />

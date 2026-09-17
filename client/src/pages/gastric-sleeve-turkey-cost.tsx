@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     question: "What is included in the £4,550 Relaxation package?",
-    answer: "It includes surgery by Dr Murat Üstün at JCI-accredited Liv Hospital Vadistanbul, a three-night hospital stay, Radisson hotel accommodation, VIP airport transfers, all pre-operative tests, a supplements pack and 12 months of support from a UK-registered dietitian.",
+    answer: "It includes laparoscopic sleeve surgery by Op. Dr Murat Üstün at JCI-accredited Liv Hospital Vadistanbul, two hospital nights, four nights in a 5-star hotel, surgeon and anaesthetist fees, all pre-operative tests and medications, VIP airport and hospital transfers, half-board hotel meals, a supplements starter pack and 12 months of WhatsApp aftercare including UK-registered dietitian support.",
   },
   {
     question: "Are flights included in a gastric sleeve Istanbul price?",
@@ -85,7 +85,7 @@ export default function GastricSleeveTurkeyCost() {
       <MoneyHero
         eyebrow="Transparent 2026 package pricing"
         title="Gastric Sleeve Turkey Cost: Full Price Breakdown (2026)"
-        subtitle="A gastric sleeve in Turkey starts from £2,450 all-inclusive at Istanbul Bariatric Center; the typical Relaxation package is £4,550. This guide explains exactly what each package buys, what remains outside the quote and how to compare the real total."
+        subtitle="A gastric sleeve in Turkey starts from £2,450 at Istanbul Bariatric Center; the typical Relaxation package is £4,550. This guide explains exactly what each package buys, what remains outside the quote and how to compare the real total."
         stats={[
           { value: "£2,450", label: "Ultra Eco" },
           { value: "£4,550", label: "Relaxation" },
@@ -105,11 +105,11 @@ export default function GastricSleeveTurkeyCost() {
 
       <ProseSection title="The short answer: how much is a gastric sleeve in Turkey?">
         <p>
-          The headline <strong>gastric sleeve Turkey cost is from £2,450 all-inclusive</strong> for the
+          The headline <strong>gastric sleeve Turkey cost is from £2,450</strong> for the
           Ultra Eco package. Most patients comparing a surgeon-led international pathway will focus on
           the <strong>£4,550 Relaxation package</strong>, because it names Dr Murat Üstün as the surgeon
-          and combines a three-night JCI hospital stay with hotel, transfers, tests and structured
-          dietitian aftercare. Luxury is £4,900.
+          and combines two nights at a JCI hospital with four 5-star hotel nights, transfers, tests,
+          medications and 12 months of WhatsApp aftercare. Luxury is £4,900.
         </p>
         <p>
           “All-inclusive” applies only to the services named in the selected package. It does not mean
@@ -133,14 +133,14 @@ export default function GastricSleeveTurkeyCost() {
         rows={[
           ["2026 package price", "£2,450", "£4,550", "£4,900"],
           ["Surgical team", "Experienced surgeon team", "Dr Murat Üstün", "Dr Murat Üstün"],
-          ["Hospital", "Boutique hospital", "JCI-accredited Liv Hospital Vadistanbul", "JCI-accredited Liv Hospital Vadistanbul"],
-          ["Hospital stay", "2 days", "3 nights", "3 nights"],
-          ["Pre-operative tests", "Included", "All included", "All included"],
-          ["Hotel", "Not listed—confirm in quote", "Radisson hotel", "Extended hotel stay"],
-          ["Airport transfers", "Not listed—confirm in quote", "VIP airport transfers", "Private VIP transfers throughout"],
-          ["Room", "Standard package provision", "Package hospital room", "Premium room"],
-          ["Dietitian aftercare", "Not listed—confirm in quote", "UK-registered dietitian for 12 months", "Extended dietitian support"],
-          ["Supplements pack", "Not listed—confirm in quote", "Included", "Included"],
+          ["Hospital", "Partner boutique hospital", "JCI-accredited Liv Hospital Vadistanbul", "JCI-accredited Liv Hospital Vadistanbul"],
+          ["Hospital stay", "2 nights", "2 nights", "2 nights in a JCI suite"],
+          ["Pre-operative tests", "All included, with consultations", "All included, with medications", "Confirm in written quote"],
+          ["Hotel", "Not included", "4 nights in a 5-star hotel (6 Istanbul nights total)", "5 nights in a luxury hotel"],
+          ["Transfers", "Not included", "VIP airport and hospital transfers", "Private VIP car throughout"],
+          ["Meals", "Not included", "Half-board hotel meals", "Full board plus companion allowance"],
+          ["Aftercare", "Discharge diet plan only", "12 months via WhatsApp including UK-registered dietitian support", "12 months priority aftercare"],
+          ["Supplements starter pack", "Not included", "Included", "Confirm in written quote"],
         ]}
         highlightColumn={1}
         footnote="Prices are in GBP. Clinical assessment may identify needs outside a standard package; obtain a dated, itemised quotation before booking."
@@ -151,13 +151,12 @@ export default function GastricSleeveTurkeyCost() {
         background="slate"
         items={[
           <>The operation and package-specific surgical team shown in your quotation</>,
-          <>The named hospital stay: boutique hospital for Ultra Eco or Liv Hospital Vadistanbul for Relaxation and Luxury</>,
-          <>Pre-operative tests included in all three package levels</>,
-          <>Radisson hotel and VIP airport transfers in Relaxation</>,
-          <>Extended hotel stay, premium room and private VIP transfers throughout in Luxury</>,
-          <>UK-registered dietitian support for 12 months in Relaxation, with extended support in Luxury</>,
-          <>A supplements pack with Relaxation and Luxury</>,
-          <>Coordination of the agreed Istanbul treatment itinerary</>,
+          <>The named hospital stay: partner boutique hospital for Ultra Eco or Liv Hospital Vadistanbul for Relaxation and Luxury</>,
+          <>All pre-operative tests and consultations in Ultra Eco; all pre-operative tests and medications in Relaxation</>,
+          <>Four nights in a 5-star hotel, VIP airport and hospital transfers, and half-board meals in Relaxation</>,
+          <>Five luxury-hotel nights, a JCI suite, private VIP car throughout, full board and companion allowance in Luxury</>,
+          <>12 months of WhatsApp aftercare including UK-registered dietitian support in Relaxation and 12 months of priority aftercare in Luxury</>,
+          <>A supplements starter pack with Relaxation</>,
         ]}
       />
 
@@ -168,7 +167,7 @@ export default function GastricSleeveTurkeyCost() {
           <><strong>Flights:</strong> airfares and airline extras remain your responsibility.</>,
           <><strong>Travel insurance:</strong> buy suitable cover separately and disclose the planned treatment.</>,
           <><strong>Extra nights:</strong> accommodation beyond the agreed package itinerary is separate unless added in writing.</>,
-          <><strong>Personal spending:</strong> meals outside the care plan, shopping and companion expenses are not clinical package items.</>,
+          <><strong>Personal spending:</strong> meals beyond the selected package allowance, shopping and other personal expenses are separate.</>,
           <><strong>Unplanned itinerary changes:</strong> ask in advance who pays when travel changes for non-clinical reasons.</>,
           <><strong>Additional clinical needs:</strong> anything identified after medical review must be explained and priced before consent where possible.</>,
         ]}
@@ -193,7 +192,7 @@ export default function GastricSleeveTurkeyCost() {
           Price transparency supports informed consent, but it cannot remove surgical risk. Sleeve
           gastrectomy is major surgery and may involve bleeding, infection, leakage, blood clots,
           reflux, nutritional deficiency or a need for further treatment. Suitability and individual
-          risk must be assessed by a qualified bariatric team. See the <Link href="/sleeve-gastrectomy" className="text-primary hover:underline">gastric sleeve procedure overview</Link> for the medical discussion.
+          risk must be assessed by a qualified bariatric team. See the <Link href="/sleeve-gastrectomy" className="text-primary hover:underline">how sleeve gastrectomy works</Link> for the medical discussion.
         </p>
       </ProseSection>
 
@@ -315,7 +314,7 @@ export default function GastricSleeveTurkeyCost() {
       <RelatedLinks
         title="Plan beyond the headline price"
         links={[
-          { title: "Gastric Sleeve Turkey Hub", description: "Clinics, treatment journey and preparation.", href: "/gastric-sleeve-turkey" },
+          { title: "Gastric Sleeve Turkey", description: "Clinics, treatment journey and preparation.", href: "/gastric-sleeve-turkey" },
           { title: "All Bariatric Costs", description: "Compare sleeve, bypass, balloon and ESG prices.", href: "/cost-of-bariatric-surgery-in-turkey" },
           { title: "Travel Guide", description: "Plan flights, insurance and a safe return home.", href: "/bariatric-surgery-travel-guide" },
           { title: "Meet Dr Murat Üstün", description: "Review surgeon experience and credentials.", href: "/dr-murat-ustun" },
