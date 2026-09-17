@@ -217,7 +217,7 @@ export default function GastricBalloon() {
 
       <SurgeonProof
         title="Experienced, accountable care in Istanbul"
-        subtitle="Istanbul Bariatric Center was founded by Dr Murat Üstün, a bariatric and metabolic surgeon with 22+ years of experience and 8,000+ procedures."
+        subtitle="Istanbul Bariatric Center was founded by Dr Murat Üstün, a bariatric and metabolic surgeon with 25+ years of experience and 6,000+ procedures."
         cards={[
           { icon: "surgeon", title: <Link href="/dr-murat-ustun">Dr Murat Üstün</Link>, text: "IFSO member, bariatric and metabolic surgeon, and a pioneer of ESG in Turkey." },
           { icon: "hospital", title: "JCI-accredited setting", text: "Clinical care is provided at Liv Hospital Vadistanbul in Istanbul." },

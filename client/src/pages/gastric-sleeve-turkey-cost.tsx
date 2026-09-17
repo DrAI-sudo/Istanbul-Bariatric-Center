@@ -222,7 +222,7 @@ export default function GastricSleeveTurkeyCost() {
           guarantee it. Verify objective markers. Istanbul Bariatric Center's Relaxation and Luxury
           sleeve procedures are performed at JCI-accredited Liv Hospital Vadistanbul by
           {" "}<Link href="/dr-murat-ustun" className="text-primary hover:underline">Dr Murat Üstün</Link>,
-          a bariatric and metabolic surgeon with 22+ years' experience, 8,000+ procedures and IFSO
+          a bariatric and metabolic surgeon with 25+ years' experience, 6,000+ procedures and IFSO
           membership. He founded the clinic and pioneered ESG in Turkey. The clinic received the
           WhatClinic Patient Service Award in 2019–2021 and 2023–2025.
         </p>

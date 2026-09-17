@@ -146,7 +146,7 @@ export default function GastricBypass() {
           { label: "Techniques covered", value: "Roux-en-Y and OAGB" },
           { label: "Diabetes remission", value: "Up to 80%" },
           { label: "Hospital", value: "Liv Vadistanbul" },
-          { label: "Surgeon experience", value: "22+ years" },
+          { label: "Surgeon experience", value: "25+ years" },
         ]}
       />
 
@@ -327,7 +327,7 @@ export default function GastricBypass() {
 
       <SurgeonProof
         title="Specialist bypass care in Istanbul"
-        subtitle="Istanbul Bariatric Center was founded by Dr Murat Üstün, a bariatric and metabolic surgeon with 22+ years’ experience and 8,000+ procedures."
+        subtitle="Istanbul Bariatric Center was founded by Dr Murat Üstün, a bariatric and metabolic surgeon with 25+ years’ experience and 6,000+ procedures."
         cards={[
           { icon: "surgeon", title: <Link href="/dr-murat-ustun" className="hover:text-primary">Dr Murat Üstün</Link>, text: "IFSO member, founder of Istanbul Bariatric Center and pioneer of ESG in Turkey." },
           { icon: "hospital", title: "JCI-accredited hospital", text: "Surgery and the three-night hospital stay take place at Liv Hospital Vadistanbul." },

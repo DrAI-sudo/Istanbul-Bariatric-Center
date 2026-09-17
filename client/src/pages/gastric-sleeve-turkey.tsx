@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: "Who performs gastric sleeve surgery at IBC?",
-    answer: "Relaxation and Luxury surgery is performed by Dr Murat Üstün, a bariatric and metabolic surgeon with 22+ years of experience and 8,000+ procedures who is an IFSO member. Ultra Eco uses an experienced surgeon team.",
+    answer: "Relaxation and Luxury surgery is performed by Dr Murat Üstün, a bariatric and metabolic surgeon with 25+ years of experience and 6,000+ procedures who is an IFSO member. Ultra Eco uses an experienced surgeon team.",
   },
   {
     question: "How long should I stay in Istanbul?",
@@ -101,7 +101,7 @@ export default function GastricSleeveTurkey() {
         stats={[
           { value: "From £2,450", label: "2026 all-inclusive price" },
           { value: "JCI", label: "Accredited hospital" },
-          { value: "22+ years", label: "Dr Üstün's experience" },
+          { value: "25+ years", label: "Dr Üstün's experience" },
           { value: "12 months", label: "UK dietitian support with Relaxation" },
         ]}
       />
@@ -126,7 +126,7 @@ export default function GastricSleeveTurkey() {
             Cost is nevertheless a major difference. Private sleeve surgery in the UK typically costs £8,000–£12,000, while US treatment can cost $15,000–$25,000. IBC packages start at £2,450. Depending on the package and home-country comparison, patients may save 60–70%. Lower cost should never mean accepting weaker clinical standards, an unknown surgeon or vague aftercare; those details matter more than the destination itself.
           </p>
           <p>
-            Istanbul Bariatric Center was founded by <Link href="/dr-murat-ustun" className="text-primary hover:underline">Dr Murat Üstün</Link>, a bariatric and metabolic surgeon with 22+ years of experience and 8,000+ procedures. Relaxation and Luxury procedures take place at JCI-accredited Liv Hospital Vadistanbul. The centre received the WhatClinic Patient Service Award in 2019–2021 and 2023–2025.
+            Istanbul Bariatric Center was founded by <Link href="/dr-murat-ustun" className="text-primary hover:underline">Dr Murat Üstün</Link>, a bariatric and metabolic surgeon with 25+ years of experience and 6,000+ procedures. Relaxation and Luxury procedures take place at JCI-accredited Liv Hospital Vadistanbul. The centre received the WhatClinic Patient Service Award in 2019–2021 and 2023–2025.
           </p>
           <p>
             Patients should compare a Turkish provider in the same way they would compare a private hospital at home: named surgeon, accreditation, anaesthetic and emergency facilities, written inclusions, nutrition support and a clear plan for concerns after returning home. Read the broader <Link href="/bariatric-surgery-turkey-guide" className="text-primary hover:underline">weight loss surgery Turkey guide</Link> before making a final decision.
@@ -155,7 +155,7 @@ export default function GastricSleeveTurkey() {
           background="slate"
           items={[
             <><strong>JCI accreditation:</strong> verify where surgery actually happens. IBC Relaxation and Luxury patients are treated at JCI-accredited Liv Hospital Vadistanbul.</>,
-            <><strong>Surgeon volume and experience:</strong> ask for the named operating surgeon. Dr Üstün has 22+ years' experience and 8,000+ procedures; Ultra Eco is delivered by an experienced surgeon team.</>,
+            <><strong>Surgeon volume and experience:</strong> ask for the named operating surgeon. Dr Üstün has 25+ years' experience and 6,000+ procedures; Ultra Eco is delivered by an experienced surgeon team.</>,
             <><strong>IFSO connection:</strong> professional bariatric involvement helps signal specialist focus. Dr Üstün is an IFSO member.</>,
             <><strong>Accessible aftercare:</strong> clarify who answers once you fly home. Relaxation includes 12 months with a UK-registered dietitian; Luxury extends dietitian support.</>,
             <><strong>Transparent all-inclusive pricing:</strong> obtain written inclusions and exclusions. IBC defines hospital, hotel, transfer, tests and support by package rather than using one ambiguous price.</>,

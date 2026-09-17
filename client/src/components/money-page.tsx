@@ -124,7 +124,7 @@ export function SurgeonProof({ title, subtitle, cards }: SurgeonProofProps) {
     {
       icon: "surgeon",
       title: <a href="/dr-murat-ustun" className="hover:text-primary transition-colors">Dr Murat Ustun</a>,
-      text: <>Bariatric surgeon with 8,000+ successful procedures, IFSO member and <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-slate-200 hover:text-primary transition-colors">pioneer of ESG in Turkey</a>.</>,
+      text: <>Bariatric surgeon with 6,000+ procedures, IFSO member and <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-slate-200 hover:text-primary transition-colors">pioneer of ESG in Turkey</a>.</>,
     },
     {
       icon: "hospital",
@@ -436,7 +436,7 @@ export interface ExpertPOVProps {
  * byline, credential line, and a left rule — signalling first-hand expertise
  * rather than commodity summary content.
  */
-export function ExpertPOV({ title, children, credentials = "Bariatric & metabolic surgeon — 8,000+ procedures, IFSO member", id }: ExpertPOVProps) {
+export function ExpertPOV({ title, children, credentials = "Consultant bariatric & metabolic surgeon — 6,000+ procedures, IFSO member", id }: ExpertPOVProps) {
   return (
     <section id={id} className="py-16 scroll-mt-24 bg-white">
       <div className="container mx-auto px-4 max-w-4xl">

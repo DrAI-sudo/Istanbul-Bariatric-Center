@@ -13,7 +13,7 @@ const doctors = [
     nameLink: "/dr-murat-ustun",
     role: "Founder, Lead Bariatric Surgeon",
     image: "/dr-murat-ustun.webp",
-    desc: "Founder of Istanbul Bariatric Center (IBC) and one of the most competent bariatric surgeons in Turkey. Specialized in Ankara Training and Research Hospital and participated in more than 100 national and international congresses.",
+    desc: "Founder of Istanbul Bariatric Center and consultant bariatric surgeon with 25+ years' experience and 6,000+ advanced laparoscopic procedures. MD and PhD from Ege University; specialist training at Ankara Dışkapı Training & Research Hospital.",
     specialties: ["Gastric Sleeve", "Gastric Bypass", "Duodenal Switch"]
   },
   {
@@ -50,9 +50,9 @@ export default function About() {
   const { t } = useTranslation('pages');
   
   const stats = [
-    { value: "8,000+", label: t('about.stats.surgeries') },
-    { value: "22+", label: t('about.stats.experience') },
-    { value: "20+", label: t('about.stats.countries') },
+    { value: "6,000+", label: t('about.stats.surgeries') },
+    { value: "25+", label: t('about.stats.experience') },
+    { value: "2011", label: "Founded" },
     { value: "10+", label: t('about.stats.team') },
   ];
 
@@ -60,7 +60,7 @@ export default function About() {
     <div className="min-h-screen bg-white">
       <SEO
         title="About Istanbul Bariatric Center: Expert Weight Loss Surgery"
-        description="Meet our team of expert bariatric surgeons at Istanbul Bariatric Center. Over 8,000 successful surgeries and 22+ years of experience in weight loss surgery."
+        description="Meet Istanbul Bariatric Center's expert team, led by Dr Murat Üstün with 25+ years' experience and 6,000+ advanced laparoscopic procedures."
         keywords="bariatric surgeon turkey, dr murat ustun, weight loss doctors istanbul, obesity specialists"
         url="/about"
       />
@@ -135,7 +135,7 @@ export default function About() {
                   <p className="text-primary font-medium text-sm mb-4 uppercase">{doctor.role}</p>
                   <p className="text-slate-600 text-sm mb-6 leading-relaxed">
                     {doctor.name === "Dr. Murat Üstün" ? (
-                      <>Founder of Istanbul Bariatric Center (IBC) and one of the most competent <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">bariatric surgeons in Turkey</a>. Specialized in Ankara Training and Research Hospital and participated in more than 100 national and international congresses.</>
+                      <>Founder of Istanbul Bariatric Center and a consultant <a href="https://drmuratustun.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">bariatric surgeon</a> with 25+ years' experience and 6,000+ advanced laparoscopic procedures. MD and PhD from Ege University; specialist training at Ankara Dışkapı Training & Research Hospital.</>
                     ) : doctor.desc}
                   </p>
                   <div className="flex flex-wrap gap-2">
