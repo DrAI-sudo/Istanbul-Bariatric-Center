@@ -15,7 +15,7 @@ const procedures = [
   { name: "Gastric Balloon Turkey", href: "/gastric-balloon-turkey" },
   { name: "Duodenal Switch", href: "/duodenal-switch" },
   { name: "Transit Bipartition", href: "/transit-bipartition" },
-  { name: "Revision Bariatric Surgery", href: "/revision-bariatric-surgery" },
+  { name: "Revision Bariatric Surgery", href: "/revision-bariatric-surgery-turkey" },
   { name: "POSE-2, TORe & GFMA (endoscopic)", href: "/treatments" },
 ];
 

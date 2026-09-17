@@ -27,7 +27,7 @@ export const VALID_STATIC_ROUTES = [
   "/duodenal-switch",
   "/transit-bipartition",
   "/esg",
-  "/revision-bariatric-surgery",
+  "/revision-bariatric-surgery-turkey",
   "/cost-of-bariatric-surgery-in-turkey",
   "/bariatric-surgery-for-uk-patients",
   "/gastric-sleeve-vs-gastric-bypass",

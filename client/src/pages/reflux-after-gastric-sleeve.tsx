@@ -16,7 +16,7 @@ import {
 } from "@/components/money-page";
 
 const relatedHrefs = [
-  "/revision-bariatric-surgery",
+  "/revision-bariatric-surgery-turkey",
   "/mini-gastric-bypass",
   "/weight-regain-after-gastric-sleeve",
   "/gastric-sleeve-vs-gastric-bypass",
@@ -91,7 +91,7 @@ export default function RefluxAfterSleeve() {
               t={t}
               i18nKey="refluxPage.definitiveFix.p2"
               components={{
-                link1: <Link href="/revision-bariatric-surgery" className="text-primary hover:underline" />,
+                link1: <Link href="/revision-bariatric-surgery-turkey" className="text-primary hover:underline" />,
               }}
             />
           </p>

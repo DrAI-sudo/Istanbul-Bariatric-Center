@@ -16,7 +16,7 @@ import {
 } from "@/components/money-page";
 
 const relatedHrefs = [
-  "/revision-bariatric-surgery",
+  "/revision-bariatric-surgery-turkey",
   "/mini-gastric-bypass",
   "/reflux-after-gastric-sleeve",
   "/bariatric-surgery-long-term-results",

@@ -41,7 +41,7 @@ export function Footer() {
               <li><Link href="/esg" className="hover:text-primary transition-colors">Endoscopic Sleeve</Link></li>
               <li><Link href="/transit-bipartition" className="hover:text-primary transition-colors">Transit Bipartition</Link></li>
               <li><Link href="/post-bariatric-surgery" className="hover:text-primary transition-colors">Post-Bariatric Surgery</Link></li>
-              <li><Link href="/revision-bariatric-surgery" className="hover:text-primary transition-colors">Revision Surgery</Link></li>
+              <li><Link href="/revision-bariatric-surgery-turkey" className="hover:text-primary transition-colors">Revision Surgery</Link></li>
             </ul>
           </nav>
 

@@ -247,7 +247,7 @@ export default function SleeveGastrectomy() {
             { title: t("related.gastricBypass.title"), description: t("related.gastricBypass.description"), href: "/gastric-bypass" },
             { title: t("related.gastricBalloon.title"), description: t("related.gastricBalloon.description"), href: "/gastric-balloon-turkey" },
             { title: t("related.endoscopicSleeve.title"), description: t("related.endoscopicSleeve.description"), href: "/esg" },
-            { title: t("related.revisionSurgery.title"), description: t("related.revisionSurgery.description"), href: "/revision-bariatric-surgery" },
+            { title: t("related.revisionSurgery.title"), description: t("related.revisionSurgery.description"), href: "/revision-bariatric-surgery-turkey" },
             { title: t("guides.sleeveVsBypass.title"), description: t("guides.sleeveVsBypass.description"), href: "/gastric-sleeve-vs-gastric-bypass" },
             { title: t("guides.reflux.title"), description: t("guides.reflux.description"), href: "/reflux-after-gastric-sleeve" },
             { title: t("guides.weightRegain.title"), description: t("guides.weightRegain.description"), href: "/weight-regain-after-gastric-sleeve" },

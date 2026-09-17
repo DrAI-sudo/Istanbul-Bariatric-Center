@@ -25,7 +25,7 @@ const procedures = [
   { name: "Endoscopic Sleeve Gastroplasty (ESG)", href: "/esg", how: "Internal endoscopic sutures reduce stomach volume without incisions", loss: "15–20% TBWL", invasive: "Endoscopic; anatomy retained", nights: "0–1", price: "£5,700", best: "Selected patients wanting more than a balloon without abdominal surgery" },
   { name: "Duodenal Switch (SADI-S / BPD-DS)", href: "/duodenal-switch", how: "Combines a sleeve with substantial intestinal rerouting", loss: "70–85% EWL", invasive: "Complex keyhole surgery", nights: "3–4", price: "£5,050 Relaxation; £5,400 Luxury", best: "Very high BMI or major metabolic disease with lifelong follow-up" },
   { name: "Transit Bipartition", href: "/transit-bipartition", how: "Combines sleeve surgery with a second route to the lower intestine", loss: "Similar to DS, with a better nutrition profile", invasive: "Complex keyhole surgery", nights: "3–4", price: "Quoted after assessment", best: "Selected patients with obesity and difficult type 2 diabetes" },
-  { name: "Revision Bariatric Surgery", href: "/revision-bariatric-surgery", how: "Repairs, converts or reverses a previous bariatric operation", loss: "Varies by anatomy and goal", invasive: "Variable; often complex", nights: "Variable", price: "Quoted after assessment", best: "Complications, reflux, inadequate loss or regain after previous surgery" },
+  { name: "Revision Bariatric Surgery", href: "/revision-bariatric-surgery-turkey", how: "Repairs, converts or reverses a previous bariatric operation", loss: "Varies by anatomy and goal", invasive: "Variable; often complex", nights: "Variable", price: "Quoted after assessment", best: "Complications, reflux, inadequate loss or regain after previous surgery" },
 ];
 
 const faqs = [

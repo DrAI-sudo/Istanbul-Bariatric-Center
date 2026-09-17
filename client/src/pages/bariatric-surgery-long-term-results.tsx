@@ -19,7 +19,7 @@ import {
 const relatedHrefs = [
   "/gastric-sleeve-vs-gastric-bypass",
   "/weight-regain-after-gastric-sleeve",
-  "/revision-bariatric-surgery",
+  "/revision-bariatric-surgery-turkey",
   "/results",
 ];
 

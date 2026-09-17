@@ -27,7 +27,7 @@ const prices = [
   { procedure: "Duodenal switch", options: "SADI-S / BPD-DS", dayCase: "—", ultra: "—", relaxation: "£5,050", luxury: "£5,400", href: "/duodenal-switch" },
   { procedure: "Endoscopic sleeve gastroplasty", options: "ESG", dayCase: "—", ultra: "—", relaxation: "£5,700", luxury: "—", href: "/esg" },
   { procedure: "Transit bipartition", options: "Individual plan", dayCase: "—", ultra: "—", relaxation: "Quoted after assessment", luxury: "Quoted after assessment", href: "/transit-bipartition" },
-  { procedure: "Revision bariatric surgery", options: "Individual plan", dayCase: "—", ultra: "—", relaxation: "Quoted after assessment", luxury: "Quoted after assessment", href: "/revision-bariatric-surgery" },
+  { procedure: "Revision bariatric surgery", options: "Individual plan", dayCase: "—", ultra: "—", relaxation: "Quoted after assessment", luxury: "Quoted after assessment", href: "/revision-bariatric-surgery-turkey" },
 ];
 
 const faqs = [
@@ -299,7 +299,7 @@ export default function CostOfBariatricSurgery() {
             </article>
             <article className="bg-white rounded-xl border border-slate-200 p-6">
               <h3 className="text-xl font-bold text-slate-900">Individual assessment procedures</h3>
-              <p className="text-base mt-3"><Link href="/transit-bipartition" className="text-primary hover:underline">Transit bipartition</Link> and <Link href="/revision-bariatric-surgery" className="text-primary hover:underline">revision bariatric surgery</Link> are quoted after assessment. Prior operative notes, endoscopy or imaging and current anatomy can materially change theatre time and resources.</p>
+              <p className="text-base mt-3"><Link href="/transit-bipartition" className="text-primary hover:underline">Transit bipartition</Link> and <Link href="/revision-bariatric-surgery-turkey" className="text-primary hover:underline">revision bariatric surgery</Link> are quoted after assessment. Prior operative notes, endoscopy or imaging and current anatomy can materially change theatre time and resources.</p>
             </article>
           </div>
           <img loading="lazy" width="1024" height="683" src="/images/balloon/gastric-balloon-anatomy.webp" alt="Medical illustration showing a gastric balloon positioned inside the stomach" className="w-full max-w-4xl mx-auto rounded-2xl mt-8" />

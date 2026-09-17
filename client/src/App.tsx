@@ -29,7 +29,7 @@ const WeightLossSurgeryTurkey = lazy(() => import("@/pages/weight-loss-surgery-t
 const DuodenalSwitch = lazy(() => import("@/pages/duodenal-switch"));
 const TransitBipartition = lazy(() => import("@/pages/transit-bipartition"));
 const ESG = lazy(() => import("@/pages/esg"));
-const RevisionBariatricSurgery = lazy(() => import("@/pages/revision-bariatric-surgery"));
+const RevisionBariatricSurgeryTurkey = lazy(() => import("@/pages/revision-bariatric-surgery-turkey"));
 const CostOfBariatricSurgery = lazy(() => import("@/pages/cost-of-bariatric-surgery"));
 const BariatricSurgeryUKPatients = lazy(() => import("@/pages/bariatric-surgery-uk-patients"));
 const SleeveVsBypass = lazy(() => import("@/pages/sleeve-vs-bypass"));
@@ -117,7 +117,7 @@ function Router() {
           <Route path="/duodenal-switch" component={DuodenalSwitch} />
           <Route path="/transit-bipartition" component={TransitBipartition} />
           <Route path="/esg" component={ESG} />
-          <Route path="/revision-bariatric-surgery" component={RevisionBariatricSurgery} />
+          <Route path="/revision-bariatric-surgery-turkey" component={RevisionBariatricSurgeryTurkey} />
           <Route path="/cost-of-bariatric-surgery-in-turkey" component={CostOfBariatricSurgery} />
           <Route path="/bariatric-surgery-for-uk-patients" component={BariatricSurgeryUKPatients} />
           <Route path="/gastric-sleeve-vs-gastric-bypass" component={SleeveVsBypass} />

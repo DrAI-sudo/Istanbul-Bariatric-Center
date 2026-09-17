@@ -178,7 +178,7 @@ export default function MiniGastricBypass() {
             { title: t("related.gastricSleeve.title"), description: t("related.gastricSleeve.description"), href: "/sleeve-gastrectomy" },
             { title: t("related.gastricBalloon.title"), description: t("related.gastricBalloon.description"), href: "/gastric-balloon-turkey" },
             { title: t("related.endoscopicSleeve.title"), description: t("related.endoscopicSleeve.description"), href: "/esg" },
-            { title: t("related.revisionSurgery.title"), description: t("related.revisionSurgery.description"), href: "/revision-bariatric-surgery" },
+            { title: t("related.revisionSurgery.title"), description: t("related.revisionSurgery.description"), href: "/revision-bariatric-surgery-turkey" },
             { title: t("guides.sleeveVsBypass.title"), description: t("guides.sleeveVsBypass.description"), href: "/gastric-sleeve-vs-gastric-bypass" },
             { title: t("guides.longTermResults.title"), description: t("guides.longTermResults.description"), href: "/bariatric-surgery-long-term-results" },
             { title: t("guides.travelGuide.title"), description: t("guides.travelGuide.description"), href: "/bariatric-surgery-travel-guide" },

@@ -11,6 +11,7 @@ import { gastricSleeveTurkeyCostSEO } from "./seo-pages/gastric-sleeve-turkey-co
 import { gastricBalloonTurkeySEO } from "./seo-pages/gastric-balloon-turkey";
 import { weightLossSurgeryTurkeySEO } from "./seo-pages/weight-loss-surgery-turkey";
 import { costOfBariatricSurgeryTurkeySEO } from "./seo-pages/cost-of-bariatric-surgery-in-turkey";
+import { revisionBariatricSurgeryTurkeySEO } from "./seo-pages/revision-bariatric-surgery-turkey";
 
 const SITE_URL = "https://istanbulbariatriccenter.com";
 
@@ -115,6 +116,7 @@ const SERVER_BREADCRUMBS: Record<string, Array<{ name: string; path: string }>> 
   "/gastric-sleeve-uk": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Sleeve for UK Patients", path: "/gastric-sleeve-uk" }],
   "/gastric-sleeve-turkey-cost": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Sleeve Turkey Cost", path: "/gastric-sleeve-turkey-cost" }],
   "/gastric-balloon-turkey": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Balloon Turkey", path: "/gastric-balloon-turkey" }],
+  "/revision-bariatric-surgery-turkey": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Revision Bariatric Surgery", path: "/revision-bariatric-surgery-turkey" }],
   "/weight-loss-surgery-turkey": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Weight Loss Surgery in Turkey", path: "/weight-loss-surgery-turkey" }],
   "/duodenal-switch": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Duodenal Switch", path: "/duodenal-switch" }],
   "/transit-bipartition": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Transit Bipartition", path: "/transit-bipartition" }],
@@ -187,6 +189,7 @@ const staticPages: Record<string, PageSEO> = {
   "/gastric-balloon-turkey": gastricBalloonTurkeySEO,
   "/weight-loss-surgery-turkey": weightLossSurgeryTurkeySEO,
   "/cost-of-bariatric-surgery-in-turkey": costOfBariatricSurgeryTurkeySEO,
+  "/revision-bariatric-surgery-turkey": revisionBariatricSurgeryTurkeySEO,
   "/": {
     title: "Weight Loss Surgery in Istanbul | Free Consultation",
     description: "Istanbul Bariatric Center: Expert weight loss surgery in Turkey. Gastric sleeve & bypass options with Dr. Murat Ustun. Book your free consultation.",
@@ -309,7 +312,7 @@ const staticPages: Record<string, PageSEO> = {
 <section><h2>At a Glance</h2><ul><li>25+ years' experience</li><li>6,000+ advanced laparoscopic procedures</li><li>2,200+ sleeve gastrectomies</li><li>700+ gastric bypass operations</li><li>700+ endoscopic balloon placements</li><li>300+ complex revisional surgeries</li></ul></section>
 <section><h2>Education and Training</h2><p>Dr Üstün earned his MD and PhD in Medicine at Ege University Faculty of Medicine, İzmir, from 1986 to 1992. He completed specialist training in General Surgery at the Ministry of Health, Ankara Dışkapı Training & Research Hospital from 1992 to 1996, qualifying as a specialist in 1996. His ongoing advanced training includes IRCAD, ESG and Apollo OverStitch workshops, laparoscopic and robotic bariatric surgery, Eurosurgery obesity treatment workshops, International Bariatric Club Oxford congresses and the Boston Scientific Certification of Trainers Program for Endosleeve.</p></section>
 <section><h2>Expertise and Memberships</h2><p>His expertise includes sleeve gastrectomy, Roux-en-Y and mini gastric bypass, SADI-S and BPD-DS, revisional and robotic bariatric surgery, ESG, TORe, Orbera and Allurion balloons, metabolic surgery for type 2 diabetes, AI and digital health innovation, and medical education in English and Turkish. He is a member of BOMSS, IFSO, the International Bariatric Club and leading Turkish surgical societies.</p></section>
-<section><h2>Procedures Performed</h2><ul><li><a href="/sleeve-gastrectomy">Gastric Sleeve (Sleeve Gastrectomy)</a></li><li><a href="/mini-gastric-bypass">Mini Gastric Bypass</a></li><li><a href="/esg">Endoscopic Sleeve Gastroplasty (ESG)</a></li><li><a href="/gastric-balloon-turkey">Gastric Balloon Turkey</a></li><li><a href="/duodenal-switch">Duodenal Switch</a></li><li><a href="/transit-bipartition">Transit Bipartition</a></li><li><a href="/revision-bariatric-surgery">Revision Bariatric Surgery</a></li><li><a href="/treatments">POSE-2, TORe and GFMA endoscopic procedures</a></li></ul></section>
+<section><h2>Procedures Performed</h2><ul><li><a href="/sleeve-gastrectomy">Gastric Sleeve (Sleeve Gastrectomy)</a></li><li><a href="/mini-gastric-bypass">Mini Gastric Bypass</a></li><li><a href="/esg">Endoscopic Sleeve Gastroplasty (ESG)</a></li><li><a href="/gastric-balloon-turkey">Gastric Balloon Turkey</a></li><li><a href="/duodenal-switch">Duodenal Switch</a></li><li><a href="/transit-bipartition">Transit Bipartition</a></li><li><a href="/revision-bariatric-surgery-turkey">Revision Bariatric Surgery</a></li><li><a href="/treatments">POSE-2, TORe and GFMA endoscopic procedures</a></li></ul></section>
 <section><h2>Awards</h2><p>WhatClinic Patient Service Awards: 2019, 2020, 2021, 2023, 2024 and 2025.</p></section>
 <section><h2>Frequently Asked Questions</h2>
 <article><h3>Where does Dr Üstün operate?</h3><p>Dr Üstün operates at Liv Hospital Vadistanbul and Memorial Hospitals Group in Istanbul.</p></article>
@@ -938,47 +941,6 @@ const staticPages: Record<string, PageSEO> = {
         { "@type": "Question", "name": "What is ESG-Max and how is it different from standard ESG?", "acceptedAnswer": { "@type": "Answer", "text": "ESG-Max is an extended Endoscopic Sleeve Gastroplasty technique that uses additional reinforcement sutures (8–12 vs the standard 6) for higher-BMI patients seeking greater stomach volume reduction and improved durability. At Istanbul Bariatric Center both standard Apollo ESG and ESG-Max are offered at the same all-inclusive price." }},
         { "@type": "Question", "name": "Is Endosleeve the same as ESG?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Endosleeve, ESG, Endoscopic Sleeve Gastroplasty, Apollo ESG, Apollo Endosleeve and Non-Surgical Gastric Sleeve all describe the same procedure: endoscopic suturing of the stomach into a tubular sleeve using the Apollo OverStitch system. ESG-Max is the extended-suture variation for higher-BMI patients." }},
         { "@type": "Question", "name": "How safe is Endosleeve in Istanbul?", "acceptedAnswer": { "@type": "Answer", "text": "Endosleeve is one of the safest weight-loss procedures available. Return-to-theatre rates are below 0.01% (vs 0.5–1% for surgical sleeve), no stomach is removed, and serious adverse events are rare (1–2% vs 4–9% for GLP-1 medications). Istanbul Bariatric Center performs all procedures at JCI-accredited Liv Hospital with zero major adverse events in 2025–2026." }}
-      ]
-    }]
-  },
-  "/revision-bariatric-surgery": {
-    title: "Revision Bariatric Surgery in Turkey: Fix Weight Regain",
-    description: "Revision weight loss surgery in Istanbul: sleeve-to-bypass conversion, TORe, re-sleeve & transit bipartition. JCI hospital, Dr Murat Ustun. Free assessment.",
-    h1: "Revision Bariatric Surgery in Turkey",
-    bodyExcerpt: "Weight regain after a gastric sleeve or bypass is common — up to 30% of sleeve patients regain significant weight within 5 years and GERD affects up to 55% long-term. Istanbul Bariatric Center offers every major revision pathway: sleeve-to-mini-bypass conversion, duodenal switch, transit bipartition, endoscopic re-sleeve, and TORe for stretched bypass outlets. Every revision begins with diagnostic endoscopy at JCI-accredited Liv Hospital. All-inclusive from £4,550.",
-    canonical: SITE_URL + "/revision-bariatric-surgery",
-    modifiedTime: "2026-08-01T09:00:00+03:00",
-    richContent: `<section><h2>Revision Pathways Compared</h2><table><thead><tr><th>Pathway</th><th>Best For</th><th>Invasiveness</th></tr></thead><tbody><tr><td>Sleeve → Mini Gastric Bypass</td><td>Weight regain after sleeve, especially with reflux (GERD)</td><td>Laparoscopic, 2–3 nights</td></tr><tr><td>Sleeve → Duodenal Switch / Transit Bipartition</td><td>High BMI or type 2 diabetes after a sleeve</td><td>Laparoscopic, 2–3 nights</td></tr><tr><td>Endoscopic Re-Sleeve (ESG revision)</td><td>Moderately stretched sleeve, avoiding surgery</td><td>Endoscopic, same-day / 1 night</td></tr><tr><td>TORe (Transoral Outlet Reduction)</td><td>Weight regain after gastric bypass (stretched stoma)</td><td>Endoscopic, same-day</td></tr><tr><td>Band → Sleeve or Bypass</td><td>Failed or complicated gastric band</td><td>Laparoscopic, 2–3 nights</td></tr></tbody></table></section>
-<section><h2>Who Is a Candidate for Revision Surgery?</h2><ul><li>Significant weight regain after sleeve, bypass or band surgery</li><li>Insufficient weight loss after the first operation</li><li>Severe or persistent acid reflux (GERD) after gastric sleeve</li><li>Returning hunger or larger portion capacity</li><li>Gastric band complications or inadequate results</li><li>Returned or unresolved type 2 diabetes</li></ul></section>
-<section><h2>How the Revision Process Works</h2><p>1. Free remote assessment on WhatsApp — Dr Murat Ustun reviews every revision case personally. 2. Diagnostic endoscopy, imaging and blood tests at JCI-accredited Liv Hospital. 3. Pathway decision — the least invasive option that reliably meets your goals. 4. Procedure: endoscopic revisions are usually same-day; surgical conversions involve 2–3 hospital nights. 5. Twelve months of aftercare with UK-registered dietitian support.</p></section>`,
-    jsonLd: [{
-      "@context": "https://schema.org",
-      "@type": "MedicalProcedure",
-      "name": "Revision Bariatric Surgery",
-      "alternateName": ["Revisional Bariatric Surgery", "Weight Loss Surgery Revision", "Sleeve to Bypass Conversion", "TORe"],
-      "description": "Surgical and endoscopic revision of previous weight loss surgery for weight regain, insufficient weight loss, or complications such as GERD. Pathways include sleeve-to-bypass conversion, duodenal switch, transit bipartition, endoscopic re-sleeve and TORe.",
-      "procedureType": "Surgical",
-      "bodyLocation": "Stomach",
-      "howPerformed": "Diagnostic endoscopy and imaging determine the cause of failure; the revision is then performed laparoscopically (conversions) or endoscopically (re-sleeve, TORe) at JCI-accredited Liv Hospital, Istanbul.",
-      "relevantSpecialty": { "@type": "MedicalSpecialty", "name": "Bariatric Surgery" }
-    }, {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "What is revision bariatric surgery?", "acceptedAnswer": { "@type": "Answer", "text": "Revision bariatric surgery is a second procedure performed after a previous weight loss operation when the first surgery has led to weight regain, insufficient weight loss, or complications such as severe reflux. The pathway is chosen based on anatomy, symptoms and goals." }},
-        { "@type": "Question", "name": "How much weight regain is normal after gastric sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "Some fluctuation is normal, but up to 30% of sleeve patients experience significant weight regain within 5 years, often due to gradual stretching of the sleeve or hormonal adaptation. If you have regained more than 25% of the weight you originally lost, a revision assessment is worthwhile." }},
-        { "@type": "Question", "name": "Is revision bariatric surgery riskier than the first surgery?", "acceptedAnswer": { "@type": "Answer", "text": "Revision surgery is technically more complex because of scar tissue from the first operation, which is why surgeon experience matters more than for primary surgery. In high-volume centres, complication rates remain low and outcomes are excellent." }},
-        { "@type": "Question", "name": "Which revision procedure is best after a failed gastric sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "Common options are conversion to mini gastric bypass (especially when reflux is present), conversion to duodenal switch or transit bipartition for greater metabolic effect, or a non-surgical endoscopic re-sleeve. The right option depends on why the sleeve failed, assessed with endoscopy and imaging." }},
-        { "@type": "Question", "name": "How much does revision bariatric surgery cost in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "Revision surgery in Istanbul typically costs £4,550–£6,850 all-inclusive depending on the pathway — roughly 60-70% less than in the UK or US, including JCI-accredited hospital stay, pre-operative endoscopy, transfers, hotel and aftercare." }},
-        { "@type": "Question", "name": "Can a gastric bypass be revised without surgery?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. If the stoma has stretched, TORe (Transoral Outlet Reduction) tightens it endoscopically through the mouth — no incisions, usually same-day discharge." }}
-      ]
-    }, {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/" },
-        { "@type": "ListItem", "position": 2, "name": "Treatments", "item": SITE_URL + "/treatments" },
-        { "@type": "ListItem", "position": 3, "name": "Revision Bariatric Surgery", "item": SITE_URL + "/revision-bariatric-surgery" }
       ]
     }]
   },

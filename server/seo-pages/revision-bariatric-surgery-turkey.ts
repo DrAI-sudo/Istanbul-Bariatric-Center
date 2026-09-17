@@ -1,0 +1,91 @@
+import type { PageSEO } from "../seo-data";
+
+const SITE_URL = "https://istanbulbariatriccenter.com";
+const PAGE_URL = SITE_URL + "/revision-bariatric-surgery-turkey";
+const doctor = { "@id": SITE_URL + "/#drmuratustun" };
+const seller = { "@id": SITE_URL + "/#organization" };
+
+const faqs = [
+  ["When should I consider revision bariatric surgery?", "Consider assessment after substantial weight regain, a BMI again above 35 despite consistent lifestyle effort, PPI-refractory reflux after sleeve, or a failed gastric band. Anatomy and contributing factors should be investigated before a revision is chosen."],
+  ["Can a stretched gastric sleeve be revised without surgery?", "Often, yes. Revisional endoscopic sleeve gastroplasty can re-suture a dilated sleeve from inside without abdominal incisions. Published series report 15.7% total body weight loss at 12 months. Severe reflux or major dilation may instead favour surgical conversion."],
+  ["What is TORe?", "Transoral Outlet Reduction is an endoscopic procedure for weight regain after Roux-en-Y bypass when the outlet has dilated. It uses ablation and full-thickness sutures to narrow the outlet, with no abdominal incisions. Published mean total body weight loss is about 7–8% at 6–12 months."],
+  ["What is GFMA and does it help with weight regain?", "Gastric Fundic Mucosal Ablation is an endoscopic treatment of the fundic lining, an area involved in ghrelin production. It may be considered for hunger-driven regain, commonly alongside revisional ESG. Evidence is still developing and individual results vary."],
+  ["How much does revision surgery cost in Turkey?", "Visible 2026 prices are starting from £2,900 for R-ESG, starting from £3,200 for TORe, starting from £3,200 for GFMA, starting from £3,400 for band removal, starting from £4,200 for band removal with one-stage sleeve, starting from £5,000 for sleeve-to-bypass and starting from £5,500 for sleeve-to-SADI-S. A written assessment confirms suitability, inclusions and final cost."],
+  ["Is revision more risky than the original operation?", "Revision is generally more complex because previous surgery creates altered anatomy and scar tissue. Endoscopic and surgical risks differ. Surgeon revisional experience, careful investigation, hospital resources and willingness to stage a difficult operation all matter."],
+  ["How long after my first surgery can I have revision?", "Assessment is usually most informative after at least 12 months, and often 18–24 months, because weight and anatomy continue changing. A symptomatic failed band or another complication may require earlier treatment."],
+  ["Can a gastric band be removed and converted to a sleeve in one operation?", "It can be appropriate when tissue around the band is suitable. Erosion, inflammation or heavy scarring may make a staged approach safer. The final decision is made after endoscopy and intraoperative assessment."],
+  ["Can I have revision if my first surgery was in the UK, Germany or the US?", "Yes. The location of the first operation is less important than understanding exactly what was done. Send the operative report, discharge summary, imaging, endoscopy reports and current health information before review."],
+  ["What records do I need from my original surgeon?", "Send the primary operative report, discharge summary, any later imaging or endoscopy reports, a current medicine and supplement list, recent blood results and a weight history including nadir and current weight."],
+  ["Will insurance cover revision surgery?", "Cover varies by insurer and policy, and many patients self-fund. Ask your insurer directly and obtain written confirmation. If travelling, choose a policy that explicitly covers planned medical treatment and related complications, and read exclusions carefully."],
+  ["How long is recovery from revision?", "After an uncomplicated endoscopic revision, desk work may be possible in 3–5 days and physical work in 7–10 days. Surgical conversion commonly requires 10–14 days away from desk work and 3–4 weeks before physical work. Your clinical team must personalise travel and return-to-work advice."],
+];
+
+const procedure = (id: string, name: string, location: string, description: string, how: string, preparation: string, followup: string, minPrice: number, endoscopic = false) => ({
+  "@type": "MedicalProcedure", "@id": PAGE_URL + "#" + id, name,
+  ...(endoscopic ? { procedureType: "https://schema.org/NoninvasiveProcedure" } : {}),
+  bodyLocation: location, description, howPerformed: how, preparation, followup, performedBy: doctor,
+  offers: {
+    "@type": "Offer",
+    priceSpecification: { "@type": "PriceSpecification", minPrice, priceCurrency: "GBP" },
+    priceCurrency: "GBP",
+    availability: "https://schema.org/InStock",
+    eligibleRegion: { "@type": "Country", name: "United Kingdom", identifier: "GB" },
+    url: PAGE_URL + "#pricing",
+    seller,
+  },
+});
+
+export const revisionBariatricSurgeryTurkeySEO: PageSEO = {
+  title: "Revision Bariatric Surgery Turkey: TORe, Re-Sleeve, Bypass",
+  description: "Revision bariatric surgery Turkey: compare TORe, R-ESG, GFMA, band removal and surgical conversion, with 2026 prices, candidacy and risks.",
+  h1: "Revision Bariatric Surgery in Turkey — TORe, Re-Sleeve & Conversion",
+  bodyExcerpt: "A complete guide to endoscopic and surgical bariatric revision in Istanbul for weight regain, reflux, sleeve dilation and band failure, with prices starting from £2,900.",
+  canonical: PAGE_URL,
+  image: SITE_URL + "/images/revision/endoscopic-revision-procedure.webp",
+  ogType: "article",
+  modifiedTime: "2026-09-17",
+  lang: "en-GB",
+  ogLocale: "en_GB",
+  richContent:
+    "<section><h2>Quick answer</h2><p>Weight regain after sleeve may suit R-ESG, starting from £2,900. Weight regain after bypass with a dilated outlet may suit TORe, starting from £3,200. Severe <a href=\"/reflux-after-gastric-sleeve\">reflux after gastric sleeve</a> may require conversion to bypass, starting from £5,000. Failed-band conversion is starting from £4,200. Endoscopy, records and clinical goals determine the route.</p></section>" +
+    "<section><h2>Which revision fits your case — decision matrix</h2><table><thead><tr><th>Clinical situation</th><th>Possible pathway</th><th>Key point</th></tr></thead><tbody><tr><td>Weight regain after sleeve, mild dilation, no reflux</td><td>R-ESG, sometimes with GFMA</td><td>Starting from £2,900; endoscopic</td></tr><tr><td>Hunger-led regain after sleeve</td><td>GFMA plus R-ESG</td><td>Hormonal and mechanical approach</td></tr><tr><td>Severe reflux after sleeve</td><td>Conversion to RYGB</td><td>Starting from £5,000; surgical</td></tr><tr><td>Regain after RYGB with dilated outlet</td><td>TORe</td><td>Starting from £3,200; endoscopic</td></tr><tr><td>Diabetes recurrence and substantial regain</td><td>SADI-S conversion</td><td>Starting from £5,500; surgical</td></tr><tr><td>Failed adjustable band</td><td>Removal with possible sleeve</td><td>Starting from £3,400 removal; Starting from £4,200 with sleeve</td></tr><tr><td>Complex complication</td><td>Individual staged plan</td><td>Records and imaging required</td></tr></tbody></table></section>" +
+    "<section><h2>Endoscopic revision options</h2><h3>TORe</h3><p>Endoscopic ablation and sutures narrow a dilated outlet after Roux-en-Y bypass. Starting from £3,200.</p><h3>GFMA</h3><p>Endoscopic treatment of fundic mucosa for selected hunger-driven regain, often combined with R-ESG. Starting from £3,200.</p><h3>R-ESG</h3><p>Full-thickness internal sutures re-narrow a dilated surgical sleeve. Published mean total body weight loss is 15.7% at 12 months. Starting from £2,900.</p><p>Explore the related <a href=\"/esg\">endoscopic sleeve gastroplasty pathway</a>.</p></section>" +
+    "<section><h2>When surgical revision is needed</h2><p>Surgical conversion may be appropriate for severe reflux, major sleeve dilation, recurrent diabetes, obstruction, very high BMI or a failed band. Conversion to <a href=\"/gastric-bypass\">Roux-en-Y bypass</a> is commonly considered for refractory reflux. SADI-S may provide stronger metabolic treatment but requires careful nutritional follow-up.</p><p>Sleeve-to-bypass is starting from £5,000; sleeve-to-SADI-S is starting from £5,500; band removal is starting from £3,400; and band removal with one-stage <a href=\"/sleeve-gastrectomy\">sleeve</a> is starting from £4,200.</p></section>" +
+    "<section><h2>Revision cost by procedure — 2026 pricing</h2><table><thead><tr><th>Procedure</th><th>Type</th><th>2026 price</th></tr></thead><tbody><tr><td>R-ESG</td><td>Endoscopic</td><td>Starting from £2,900</td></tr><tr><td>TORe</td><td>Endoscopic</td><td>Starting from £3,200</td></tr><tr><td>GFMA</td><td>Endoscopic</td><td>Starting from £3,200</td></tr><tr><td>GFMA plus R-ESG</td><td>Combined</td><td>Starting from £4,900</td></tr><tr><td>Band removal</td><td>Surgical</td><td>Starting from £3,400</td></tr><tr><td>Band removal plus sleeve</td><td>Surgical</td><td>Starting from £4,200</td></tr><tr><td>Sleeve to RYGB</td><td>Surgical</td><td>Starting from £5,000</td></tr><tr><td>Sleeve to SADI-S</td><td>Surgical</td><td>Starting from £5,500</td></tr></tbody></table><p>A written quotation should specify inclusions, exclusions and final cost. No complication-fee guarantee is implied.</p></section>" +
+    "<section><h2>Who qualifies for revision — objective criteria</h2><table><thead><tr><th>Trigger</th><th>Threshold</th><th>First step</th></tr></thead><tbody><tr><td>Weight regain</td><td>At least 25% of weight lost, or BMI again above 35</td><td>Lifestyle and anatomy review</td></tr><tr><td>Time since primary</td><td>Usually at least 12 months</td><td>Review weight trajectory</td></tr><tr><td>Reflux</td><td>PPI-refractory GERD, oesophagitis or Barrett's</td><td>Medicine optimisation and endoscopy</td></tr><tr><td>Failed band</td><td>Slippage, erosion, obstruction or intolerance</td><td>Prompt specialist assessment</td></tr><tr><td>Diabetes recurrence</td><td>HbA1c above 6.5% despite treatment</td><td>Endocrinology and surgical review</td></tr><tr><td>Contraindication</td><td>Untreated instability, substance misuse or inability to take supplements</td><td>Treat before reconsidering</td></tr></tbody></table><p>Read about <a href=\"/weight-regain-after-gastric-sleeve\">weight regain after sleeve</a>.</p></section>" +
+    "<section><h2>Records checklist</h2><ul><li>Primary operative report</li><li>Original discharge summary</li><li>Post-operative imaging</li><li>Recent endoscopy report</li><li>Current medicines and supplements</li><li>Recent blood tests</li><li>Weight history including nadir and current weight</li></ul></section>" +
+    "<section><h2>Video second-opinion pathway</h2><table><thead><tr><th>Stage</th><th>What happens</th></tr></thead><tbody><tr><td>Records submission</td><td>Send notes, imaging, medicines and weight history</td></tr><tr><td>Clinical triage</td><td>Missing information is identified</td></tr><tr><td>Surgeon review</td><td>Anatomy, symptoms and routes are reviewed</td></tr><tr><td>Video consultation</td><td>Discuss benefits, alternatives and risk</td></tr><tr><td>Written summary</td><td>Receive option, timing, price and alternatives</td></tr><tr><td>Your decision</td><td>Take time to decide</td></tr></tbody></table><p>Use the <a href=\"/contact\">contact page</a> to enquire.</p></section>" +
+    "<section><h2>Real patient outcomes</h2><p>Genuine, consented patient outcomes are shown on our <a href=\"/results\">Results page</a>. Individual results vary.</p></section>" +
+    "<section><h2>Risks specific to revision surgery</h2><table><thead><tr><th>Complication</th><th>Endoscopic revision</th><th>Surgical revision</th><th>Primary comparison</th></tr></thead><tbody><tr><td>Bleeding</td><td>1–2%</td><td>2–4%</td><td>1–2%</td></tr><tr><td>Leak</td><td>Under 0.5%</td><td>2–4%</td><td>1–2%</td></tr><tr><td>Reoperation within 30 days</td><td>Under 1%</td><td>3–5%</td><td>1–3%</td></tr><tr><td>30-day mortality</td><td>Under 0.05%</td><td>Under 0.3%</td><td>Under 0.1%</td></tr><tr><td>Stricture</td><td>1–3%</td><td>2–5%</td><td>1–2%</td></tr></tbody></table><p>These broad ranges are not a personal estimate. Full investigation, an equipped hospital and staging when warranted are important safeguards.</p></section>" +
+    "<section><h2>Dr Üstün and Liv Hospital Vadistanbul</h2><p><a href=\"/dr-murat-ustun\">Op. Dr Murat Üstün</a> has 25+ years of experience, 6,000+ procedures and 300+ complex revisional procedures. He is a BOMSS, IFSO and International Bariatric Club member and the only Boston Scientific-certified surgical ESG trainer in Turkey. Eligible procedures take place at JCI-accredited Liv Hospital Vadistanbul.</p></section>" +
+    "<section><h2>Revision bariatric surgery FAQs</h2>" + faqs.map(([q, a]) => "<h3>" + q + "</h3><p>" + a + "</p>").join("") + "</section>" +
+    "<section><h2>Request a revision assessment</h2><p>Share records and symptoms for a no-obligation clinical review and a written plan. Related pages include <a href=\"/treatments\">all treatments</a>, <a href=\"/weight-loss-surgery-turkey\">weight loss surgery Turkey</a> and <a href=\"/results\">real results</a>.</p><p>Reviewed by Op. Dr Murat Üstün, MD, PhD · Last reviewed 17 September 2026</p></section>",
+  jsonLd: [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalWebPage", "@id": PAGE_URL + "#webpage", url: PAGE_URL,
+          name: "Revision Bariatric Surgery in Turkey — TORe, Re-Sleeve & Conversion",
+          description: "Revision bariatric surgery in Istanbul for weight regain, reflux, sleeve dilation or band failure, including endoscopic and surgical options.",
+          inLanguage: "en-GB", dateModified: "2026-09-17",
+          primaryImageOfPage: { "@type": "ImageObject", url: SITE_URL + "/images/revision/endoscopic-revision-procedure.webp", width: 1024, height: 683 },
+          isPartOf: { "@id": SITE_URL + "/#website" }, reviewedBy: doctor, lastReviewed: "2026-09-17",
+          about: ["tore", "gfma", "resg", "gfma-resg", "sleeve-to-rygb", "sleeve-to-sadi-s", "band-removal", "band-removal-sleeve"].map(id => ({ "@id": PAGE_URL + "#" + id })),
+        },
+        procedure("tore", "Transoral Outlet Reduction (TORe)", "Gastrojejunal anastomosis after Roux-en-Y gastric bypass", "Published series report mean total body weight loss around 7–8% at 6–12 months.", "Endoscopic ablation and full-thickness suturing narrow a dilated outlet without abdominal incisions.", "Blood tests, endoscopy and review of the primary bypass records.", "A phased diet progresses from fluids to purée and soft food.", 3200, true),
+        procedure("gfma", "Gastric Fundic Mucosal Ablation (GFMA)", "Gastric fundus", "An emerging option for selected hunger-driven regain; individual results vary.", "Endoscopic ablation treats the fundic mucosa and may be combined with revisional ESG.", "Blood tests, clinical review and upper GI endoscopy.", "A phased diet is followed for four to six weeks.", 3200, true),
+        procedure("resg", "Revisional Endoscopic Sleeve Gastroplasty (R-ESG)", "Dilated sleeve stomach", "Published series report mean total body weight loss of 15.7% at 12 months.", "Full-thickness endoscopic sutures reduce a dilated surgical sleeve without abdominal incisions.", "Blood tests, endoscopy and review of the primary sleeve records.", "Fluids followed by purée and soft food under clinical guidance.", 2900, true),
+        procedure("gfma-resg", "Combined GFMA and Revisional Endoscopic Sleeve Gastroplasty", "Gastric fundus and dilated sleeve stomach", "A combined endoscopic option for selected patients with hunger-driven regain and sleeve dilation.", "Fundic mucosal ablation and full-thickness endoscopic sleeve suturing are performed in one treatment pathway.", "Blood tests, clinical review, upper GI endoscopy and review of the primary sleeve records.", "A phased diet progresses from fluids to purée and soft food.", 4900, true),
+        procedure("sleeve-to-rygb", "Sleeve to Roux-en-Y Gastric Bypass Conversion", "Stomach and small intestine", "A surgical conversion considered particularly for severe reflux after sleeve; outcomes depend on anatomy and adherence.", "Laparoscopic revision converts the sleeve to Roux-en-Y gastric bypass.", "Full pre-operative work-up, endoscopy, imaging and primary operation records.", "Phased diet, supplements and long-term nutritional monitoring are required.", 5000),
+        procedure("sleeve-to-sadi-s", "Sleeve to SADI-S Conversion", "Stomach and small intestine", "A surgical conversion with a strong metabolic effect; outcomes depend on anatomy and adherence.", "Laparoscopic revision adds a single-anastomosis duodeno-ileal bypass to the existing sleeve.", "Full pre-operative work-up, endoscopy, imaging and primary operation records.", "Phased diet, supplements and long-term nutritional monitoring are required.", 5500),
+        procedure("band-removal", "Gastric Band Removal", "Stomach", "Band removal alone may be appropriate for slippage, erosion, obstruction or intolerance; weight regain can occur.", "The gastric band, port and tubing are removed laparoscopically.", "Upper GI imaging, endoscopy and review of primary records.", "Recovery and diet are personalised after removal.", 3400),
+        procedure("band-removal-sleeve", "Gastric Band Removal with One-Stage Sleeve Gastrectomy", "Stomach", "A one-stage conversion may be possible when tissue is suitable; erosion or heavy scarring may require staged treatment.", "The band, port and tubing are removed laparoscopically and sleeve gastrectomy is performed during the same operation.", "Upper GI imaging, endoscopy and review of primary records.", "A phased post-sleeve diet and long-term nutritional monitoring are required.", 4200),
+      ],
+    },
+    {
+      "@context": "https://schema.org", "@type": "FAQPage",
+      mainEntity: faqs.map(([name, text]) => ({ "@type": "Question", name, acceptedAnswer: { "@type": "Answer", text } })),
+    },
+  ],
+};

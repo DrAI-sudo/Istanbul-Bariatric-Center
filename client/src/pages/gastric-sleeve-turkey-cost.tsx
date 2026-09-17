@@ -294,7 +294,7 @@ export default function GastricSleeveTurkeyCost() {
           Revision surgery generally costs more because anatomy has already been altered and the
           operation can require more complex planning. It should not be quoted as though it were a
           routine first-time sleeve. If you have had bariatric surgery before, use the
-          {" "}<Link href="/revision-bariatric-surgery" className="text-primary hover:underline">revision bariatric surgery pathway</Link> and provide your operative records where available.
+          {" "}<Link href="/revision-bariatric-surgery-turkey" className="text-primary hover:underline">revision bariatric surgery pathway</Link> and provide your operative records where available.
         </p>
         <p>
           The lowest-priced procedure is not necessarily the right procedure. Eligibility, expected

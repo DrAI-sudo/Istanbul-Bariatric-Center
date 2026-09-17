@@ -226,7 +226,7 @@ export default function GastricBypass() {
             "Revision after a failed band or sleeve",
             "Barrett’s oesophagus or severe oesophagitis",
           ]} />
-          <p>Selection is individual. Read about <Link href="/reflux-after-gastric-sleeve" className="text-primary hover:underline">reflux after gastric sleeve</Link> and <Link href="/revision-bariatric-surgery" className="text-primary hover:underline">revision bariatric surgery</Link>.</p>
+          <p>Selection is individual. Read about <Link href="/reflux-after-gastric-sleeve" className="text-primary hover:underline">reflux after gastric sleeve</Link> and <Link href="/revision-bariatric-surgery-turkey" className="text-primary hover:underline">revision bariatric surgery</Link>.</p>
           <img loading="lazy" width="1024" height="683" src="/images/bypass/bypass-consultation.webp" alt="Dr Murat Üstün discussing candidacy for Roux-en-Y gastric bypass with a patient" className="w-full rounded-2xl" />
         </ProseSection>
 
@@ -355,7 +355,7 @@ export default function GastricBypass() {
           { title: "One-anastomosis (OAGB) mini bypass", description: "Explore the one-join bypass procedure.", href: "/mini-gastric-bypass" },
           { title: "Gastric sleeve Turkey", description: "Compare sleeve pricing, candidacy and recovery.", href: "/gastric-sleeve-turkey" },
           { title: "How sleeve gastrectomy works", description: "Understand the non-bypass operation.", href: "/sleeve-gastrectomy" },
-          { title: "Revision bariatric surgery", description: "Review options after a previous operation.", href: "/revision-bariatric-surgery" },
+          { title: "Revision bariatric surgery", description: "Review options after a previous operation.", href: "/revision-bariatric-surgery-turkey" },
           { title: "Reflux after gastric sleeve", description: "Learn when conversion may be considered.", href: "/reflux-after-gastric-sleeve" },
           { title: "Before and after results", description: "Review anonymised patient outcomes.", href: "/results" },
         ]} />
