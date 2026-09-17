@@ -34,7 +34,8 @@ export function Footer() {
             <ul className="space-y-4 text-slate-300">
               <li><Link href="/sleeve-gastrectomy" className="hover:text-primary transition-colors">Gastric Sleeve</Link></li>
               <li><Link href="/gastric-sleeve-turkey" className="hover:text-primary transition-colors">Gastric Sleeve Turkey</Link></li>
-              <li><Link href="/mini-gastric-bypass" className="hover:text-primary transition-colors">Gastric Bypass</Link></li>
+              <li><Link href="/gastric-bypass" className="hover:text-primary transition-colors">Gastric Bypass</Link></li>
+              <li><Link href="/mini-gastric-bypass" className="hover:text-primary transition-colors">Mini Gastric Bypass (OAGB)</Link></li>
               <li><Link href="/gastric-balloon" className="hover:text-primary transition-colors">Gastric Balloon</Link></li>
               <li><Link href="/duodenal-switch" className="hover:text-primary transition-colors">Duodenal Switch</Link></li>
               <li><Link href="/esg" className="hover:text-primary transition-colors">Endoscopic Sleeve</Link></li>

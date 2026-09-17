@@ -1,364 +1,372 @@
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { SEO, JsonLd, structuredData } from "@/components/seo";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Check } from "lucide-react";
 import { Link } from "wouter";
 import {
   MoneyHero,
-  ProcedureFacts,
   ProseSection,
-  SurgeonProof,
-  Candidacy,
-  Checklist,
   ComparisonBlock,
+  Checklist,
   FAQSection,
   RelatedLinks,
   ConversionModule,
   ExpertPOV,
-  DecisionBlock,
   StickyCTA,
   InlineCTA,
 } from "@/components/money-page";
 
 const faqs = [
   {
-    question: "How much does gastric bypass surgery cost in Turkey?",
-    answer: "At Istanbul Bariatric Center, the all-inclusive Gastric Bypass Relaxation package is £5,000 and the Luxury package is £5,350. These prices apply to both Roux-en-Y and mini (OAGB) bypass when clinically appropriate. There is no basic bypass package. Your written treatment plan confirms the recommended operation and everything included before you travel.",
+    question: "How much is gastric bypass in Turkey in 2026?",
+    answer: "At Istanbul Bariatric Center, Roux-en-Y gastric bypass costs £5,000 for the recommended Relaxation package and £5,350 for Luxury. Both include surgery by Dr Üstün, two nights at Liv Hospital Vadistanbul, hotel accommodation, transfers and 12 months of WhatsApp aftercare including UK-registered dietitian support. Private UK treatment typically costs £10,000–£15,000.",
   },
   {
-    question: "Is gastric bypass surgery in Turkey safe?",
-    answer: "Every operation has risk, and travelling abroad does not remove it. Safety depends on appropriate patient selection, an experienced bariatric surgeon, an accredited hospital, careful anaesthesia assessment and reliable aftercare. Dr Murat Üstün operates at JCI-accredited Liv Hospital Vadistanbul. Your medical history is reviewed before acceptance, and risks are discussed during consent.",
+    question: "What is the difference between gastric bypass and mini gastric bypass?",
+    answer: "Roux-en-Y uses two anastomoses in a Y-configuration; mini bypass, or OAGB, uses one anastomosis and a longer tubular pouch. OAGB is technically simpler and slightly quicker, while RYGB has a lower long-term bile-reflux risk and may be preferred after a failed sleeve. Weight-loss and diabetes-remission outcomes are broadly similar at five to seven years.",
   },
   {
-    question: "What is the difference between Roux-en-Y and mini gastric bypass?",
-    answer: "Roux-en-Y gastric bypass creates a small stomach pouch and two intestinal joins. Mini gastric bypass, also called one-anastomosis gastric bypass or OAGB, uses a longer pouch and one join. OAGB is technically simpler, while Roux-en-Y may be preferred where bile reflux is a concern. The choice is individual, not simply a matter of price.",
+    question: "Is gastric bypass reversible?",
+    answer: "Technically yes, but reversal is a major operation and is rarely performed. Patients should treat gastric bypass as a permanent decision.",
   },
   {
-    question: "How long is recovery after gastric bypass?",
-    answer: "Recovery is gradual and varies with health, work and the exact procedure. The package includes three hospital nights. Patients then progress through a staged diet, increase gentle activity as advised and return to work only when the surgical team considers it appropriate. Heavy lifting and strenuous exercise wait until medical clearance.",
+    question: "Which is better — gastric sleeve or gastric bypass?",
+    answer: "Neither is universally better. Sleeve is simpler and recovery is usually quicker. Bypass generally produces greater long-term weight loss and diabetes remission, and is often preferred for severe GORD or a large hiatus hernia. The decision depends on BMI, reflux, diabetes, anatomy and previous surgery.",
   },
   {
-    question: "Can gastric bypass put type-2 diabetes into remission?",
-    answer: "Gastric bypass has a strong metabolic effect and published outcomes include up to 80% type-2 diabetes remission. Remission is not guaranteed and is not the same as a permanent cure. Duration of diabetes, pancreatic function, medication use and weight response all influence the result, so medicines must only be changed under clinical supervision.",
+    question: "How much weight will I lose after gastric bypass?",
+    answer: "Average excess weight loss is 65–80% at 18–24 months, roughly 30–35% of total starting body weight. Individual results vary with starting health, eating, activity and engagement with follow-up.",
   },
   {
-    question: "What is included in the gastric bypass Turkey package?",
-    answer: "The Relaxation package includes surgery by Dr Murat Üstün, three nights at the JCI-accredited hospital, Radisson hotel accommodation, VIP airport transfers, all pre-operative tests, a supplements pack and support from a UK-registered dietitian for 12 months. Luxury adds an extended hotel stay, private VIP transfers throughout, a premium room and extended dietitian support.",
+    question: "Does gastric bypass cure type-2 diabetes?",
+    answer: "Bypass can produce remission, not a permanent cure, in around 74% of people with type 2 diabetes at one year, decreasing to 38–54% at five years and beyond. Outcomes are often better with shorter disease duration and no insulin use. Medication must only be changed under clinical supervision.",
   },
   {
-    question: "Can a gastric sleeve be revised to gastric bypass?",
-    answer: "A sleeve can sometimes be converted to Roux-en-Y or OAGB for significant reflux, inadequate weight loss or weight regain, but revision surgery is more complex than a primary operation. The surgeon needs the original operation details, current imaging or endoscopy where indicated, eating history and a full medical assessment before recommending a revision.",
+    question: "What is dumping syndrome and how common is it?",
+    answer: "Dumping occurs when sugary or high-fat food passes too quickly from the pouch into the small intestine. Early dumping, 15–30 minutes after eating, can cause nausea, cramps and sweating; late dumping, one to three hours later, can cause low blood sugar. Some form affects 50–70% of RYGB patients in the early months and usually settles by month 6–12.",
   },
   {
-    question: "How much weight can I lose after gastric bypass?",
-    answer: "A commonly used benchmark is 70–80% excess weight loss, although an individual result cannot be promised. Starting weight, procedure choice, eating behaviour, activity, metabolic health and engagement with dietitian follow-up all matter. The aim is durable health improvement rather than reaching a particular number as quickly as possible.",
+    question: "How long is recovery from gastric bypass?",
+    answer: "The package includes two hospital nights. Desk work may resume at 10–14 days, physical work at about four weeks and gym activity at six weeks after clearance. The phased diet progresses from liquids to purée, soft solids and a full diet over about six weeks.",
+  },
+  {
+    question: "What supplements will I need for life?",
+    answer: "Typical lifelong care includes a daily bariatric multivitamin, calcium citrate 1,200–1,500 mg, vitamin D3 2,000–3,000 IU, oral iron and vitamin B12 injections every three months or prescribed high-dose oral B12. Annual blood tests monitor iron, B12, folate, vitamin D, calcium and PTH.",
+  },
+  {
+    question: "Can gastric bypass be revised if it fails?",
+    answer: "Yes. Depending on the cause, options can include pouch revision, distalisation, conversion to another operation or endoscopic TORe to reduce a dilated outlet. Revision is more complex than primary surgery and requires detailed assessment. Dr Üstün has handled 300+ complex revisional cases.",
+  },
+  {
+    question: "Is gastric bypass safe in Turkey?",
+    answer: "No operation is risk-free. Safety depends on selection, surgeon experience, hospital resources and follow-up. Dr Üstün has performed 700+ bypass procedures, and care takes place at JCI-accredited Liv Hospital Vadistanbul with intensive care, imaging and interventional support.",
+  },
+  {
+    question: "How many days do I stay in Istanbul for bypass?",
+    answer: "The Relaxation itinerary is seven days and six nights: two nights in hospital and four nights in a 5-star hotel. Luxury includes two hospital nights and five nights in a luxury hotel. Confirm your personal itinerary before booking flights.",
   },
 ];
 
-const packages = [
-  {
-    name: "Gastric Bypass Relaxation",
-    price: "£5,000",
-    color: "emerald",
-    recommended: true,
-    features: [
-      "Surgery by Dr Murat Üstün",
-      "JCI-accredited hospital for 3 nights",
-      "Radisson hotel accommodation",
-      "VIP airport transfers",
-      "All pre-operative tests",
-      "UK-registered dietitian support for 12 months",
-      "Supplements pack",
-    ],
-  },
-  {
-    name: "Gastric Bypass Luxury",
-    price: "£5,350",
-    color: "amber",
-    recommended: false,
-    features: [
-      "Surgery by Dr Murat Üstün",
-      "JCI-accredited hospital for 3 nights",
-      "Extended Radisson hotel stay",
-      "Private VIP transfers throughout",
-      "All pre-operative tests",
-      "Premium room",
-      "Extended dietitian support",
-      "Supplements pack",
-    ],
-  },
-];
-
-const procedureJsonLd = {
+const medicalWebPage = {
   "@context": "https://schema.org",
-  "@type": "MedicalProcedure",
-  "@id": "https://istanbulbariatriccenter.com/gastric-bypass#procedure",
-  name: "Gastric Bypass Surgery",
-  alternateName: ["Roux-en-Y Gastric Bypass", "RYGB", "One-Anastomosis Gastric Bypass", "OAGB", "Mini Gastric Bypass"],
-  description: "Gastric bypass surgery in Turkey, including Roux-en-Y and mini one-anastomosis gastric bypass, with all-inclusive care at Liv Hospital Vadistanbul.",
-  procedureType: "https://schema.org/SurgicalProcedure",
-  bodyLocation: "Stomach and small intestine",
-  performedBy: { "@id": "https://istanbulbariatriccenter.com/#drmuratustun" },
-  provider: { "@id": "https://istanbulbariatriccenter.com/#organization" },
+  "@type": "MedicalWebPage",
+  name: "Gastric Bypass Surgery in Turkey — Roux-en-Y, Cost, Recovery",
   url: "https://istanbulbariatriccenter.com/gastric-bypass",
-  offers: packages.map((pkg) => ({
-    "@type": "Offer",
-    name: pkg.name,
-    price: pkg.price.replace("£", "").replace(",", ""),
-    priceCurrency: "GBP",
-    url: "https://istanbulbariatriccenter.com/gastric-bypass",
-  })),
+  about: {
+    "@type": "MedicalProcedure",
+    name: "Roux-en-Y Gastric Bypass",
+    procedureType: "Surgical",
+    performedBy: { "@id": "https://istanbulbariatriccenter.com/#drmuratustun" },
+    provider: { "@id": "https://istanbulbariatriccenter.com/#organization" },
+    offers: [
+      { "@type": "Offer", name: "Gastric Bypass Relaxation", price: "5000", priceCurrency: "GBP" },
+      { "@type": "Offer", name: "Gastric Bypass Luxury", price: "5350", priceCurrency: "GBP" },
+    ],
+  },
+  author: { "@id": "https://istanbulbariatriccenter.com/#drmuratustun" },
+  publisher: { "@id": "https://istanbulbariatriccenter.com/#organization" },
 };
+
+const tableClass = "w-full text-left text-sm md:text-base";
+const thClass = "p-4 font-semibold";
+const tdClass = "p-4 border-t border-slate-200 align-top";
 
 export default function GastricBypass() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
         title="Gastric Bypass Turkey 2026"
-        description="Roux-en-Y and mini gastric bypass surgery in Turkey with Dr Murat Üstün. Compare options, risks and all-inclusive packages from £5,000."
+        description="Compare Roux-en-Y gastric bypass costs, candidacy, recovery and risks in Turkey. Dr Üstün's all-inclusive packages start from £5,000."
+        image="/images/bypass/roux-en-y-anatomy.webp"
         url="/gastric-bypass"
+        type="article"
+        author="Op. Dr Murat Üstün, MD, PhD"
       />
       <JsonLd data={structuredData.createBreadcrumb([
         { name: "Home", url: "/" },
         { name: "Treatments", url: "/treatments" },
-        { name: "Gastric Bypass Surgery in Turkey", url: "/gastric-bypass" },
+        { name: "Gastric Bypass Turkey", url: "/gastric-bypass" },
       ])} />
-      <JsonLd data={procedureJsonLd} />
+      <JsonLd data={medicalWebPage} />
+      <JsonLd data={structuredData.createFAQ(faqs)} />
       <Navbar />
 
       <MoneyHero
-        eyebrow="Bariatric and metabolic surgery in Istanbul"
-        title="Gastric Bypass Surgery in Turkey"
-        subtitle="A surgeon-led guide to Roux-en-Y and mini (OAGB) gastric bypass, with transparent 2026 packages and structured international aftercare."
+        eyebrow="2026 guide for UK and international patients"
+        title="Gastric Bypass Surgery in Turkey — Roux-en-Y, Cost, Recovery"
+        subtitle="A UK-patient guide to Roux-en-Y gastric bypass in Istanbul — verified 2026 pricing, when bypass beats sleeve, honest risks, dumping syndrome, lifelong nutrition and a full seven-day journey plan."
         stats={[
-          { value: "£5,000", label: "All-inclusive from" },
-          { value: "70–80%", label: "Excess weight loss benchmark" },
-          { value: "3 nights", label: "JCI hospital stay" },
-          { value: "12 months", label: "Dietitian support" },
+          { value: "From £5,000", label: "All-inclusive" },
+          { value: "2 nights", label: "In JCI hospital" },
+          { value: "65–80%", label: "Excess weight loss" },
+          { value: "700+", label: "Bypass cases by Dr Üstün" },
         ]}
       />
 
-      <ProcedureFacts
-        title="Gastric bypass at a glance"
-        facts={[
-          { label: "Techniques covered", value: "Roux-en-Y and OAGB" },
-          { label: "Diabetes remission", value: "Up to 80%" },
-          { label: "Hospital", value: "Liv Vadistanbul" },
-          { label: "Surgeon experience", value: "25+ years" },
-        ]}
-      />
-
-      <ProseSection title="What is gastric bypass surgery?" id="overview">
-        <p>
-          Gastric bypass is a family of bariatric operations that changes both the stomach and the route food takes through the small intestine. It creates a smaller functional stomach pouch and bypasses part of the digestive tract. This supports earlier fullness, changes hunger signalling and produces a metabolic effect that can be particularly relevant when obesity is accompanied by type-2 diabetes.
-        </p>
-        <p>
-          This is the umbrella guide to <strong>gastric bypass surgery in Turkey</strong>. It covers the established Roux-en-Y gastric bypass (RYGB) and the one-anastomosis gastric bypass (OAGB), often called a mini gastric bypass. They share important principles, but they are not identical operations. Patients specifically researching the one-join technique should also read our detailed <Link href="/mini-gastric-bypass" className="text-primary font-semibold hover:underline">mini gastric bypass guide</Link>.
-        </p>
-        <p>
-          At Istanbul Bariatric Center, procedure selection follows clinical assessment rather than a one-size-fits-all sales pathway. Dr Murat Üstün reviews weight history, metabolic disease, reflux symptoms, previous abdominal surgery, medicines, eating patterns and relevant investigations. If a sleeve may be a better fit, our <Link href="/gastric-sleeve-vs-gastric-bypass" className="text-primary font-semibold hover:underline">gastric sleeve versus gastric bypass comparison</Link> sets out the practical trade-offs.
-        </p>
-        <InlineCTA label="Request a free clinical assessment" />
-      </ProseSection>
-
-      <ComparisonBlock
-        title="Roux-en-Y vs mini gastric bypass"
-        subtitle="Both can be effective. Anatomy, reflux profile, metabolic priorities and long-term nutritional follow-up guide the decision."
-        columns={["Decision point", "Roux-en-Y (RYGB)", "Mini bypass (OAGB)"]}
-        rows={[
-          ["Surgical layout", "Small pouch with two intestinal joins", "Longer pouch with one intestinal join"],
-          ["Also known as", "Standard or traditional gastric bypass", "One-anastomosis or mini gastric bypass"],
-          ["Reflux considerations", "Often considered when acid reflux influences procedure choice", "Bile reflux risk requires careful assessment"],
-          ["Nutritional effect", "Reduced absorption requires lifelong monitoring", "Reduced absorption requires lifelong monitoring"],
-          ["Best choice", "Depends on individual anatomy and clinical priorities", "Depends on individual anatomy and clinical priorities"],
-        ]}
-        footnote={<>Explore OAGB in depth on the <Link href="/mini-gastric-bypass" className="text-primary hover:underline">dedicated mini gastric bypass page</Link>.</>}
-      />
-
-      <ExpertPOV title="How I choose the right bypass operation">
-        <p>
-          I do not recommend Roux-en-Y or OAGB from weight alone. I look at the whole clinical picture: reflux and swallowing symptoms, diabetes history, previous surgery, medicines, dietary behaviour and whether the patient can commit to lifelong blood tests and supplements.
-        </p>
-        <p>
-          The most suitable operation is the one whose benefits and trade-offs match that person. Sometimes that is Roux-en-Y, sometimes OAGB, and sometimes bypass is not the responsible choice. A clear pre-operative discussion should explain why a technique is being recommended and what follow-up it requires.
-        </p>
-      </ExpertPOV>
-
-      <Candidacy
-        title="Who may be suitable for gastric bypass?"
-        intro={<p>Suitability is confirmed only after medical and nutritional review. Gastric bypass may be discussed when durable weight reduction and metabolic improvement are important and the patient understands the permanent follow-up responsibilities.</p>}
-        criteria={[
-          "People with clinically significant obesity after appropriate non-surgical efforts",
-          "Patients whose type-2 diabetes or other metabolic disease influences procedure choice",
-          "People comparing bypass with sleeve because reflux is an important concern",
-          "Patients able to follow staged eating guidance after surgery",
-          "People willing to take prescribed supplements and attend lifelong nutritional monitoring",
-          "Selected patients considering revision after a previous sleeve operation",
-        ]}
-        note={<>Pregnancy plans, active substance dependence, uncontrolled mental health conditions, untreated eating disorders, major anaesthetic risk and inability to follow aftercare may delay or rule out surgery. A free consultation is an assessment, not an automatic approval.</>}
-      />
-
-      <DecisionBlock
-        title="Gastric bypass decision summary"
-        bestFor={[
-          "Patients seeking a strong weight-loss and metabolic procedure",
-          "Selected people with type-2 diabetes",
-          "Patients for whom reflux affects the sleeve-versus-bypass decision",
-          "People committed to long-term dietary and laboratory follow-up",
-        ]}
-        notIdealFor={[
-          "Anyone seeking a reversible or maintenance-free procedure",
-          "Patients unable to take lifelong prescribed supplements",
-          "People not medically fit for general anaesthesia",
-          "Anyone unwilling to stop smoking or follow the clinical preparation plan",
-        ]}
-        typicalRecovery="The initial stay includes three nights in hospital. Drinking, walking and a staged diet begin under the team’s guidance. Energy and work readiness return gradually; travel, driving, lifting and exercise advice is personalised at discharge."
-        tradeOffs={[
-          "More complex anatomy than sleeve gastrectomy",
-          "Lifelong vitamin, mineral and blood-test follow-up",
-          "Potential dumping symptoms and altered medicine or alcohol absorption",
-          "Procedure-specific risks including leak, bleeding, obstruction, ulcer and nutritional deficiency",
-        ]}
-      />
-
-      <ProseSection title="Expected results and metabolic benefits" tone="blue">
-        <p>
-          Gastric bypass patients commonly use <strong>70–80% excess weight loss</strong> as an outcome benchmark. Excess weight loss is not the same as total body weight loss, and it should never be presented as a guaranteed personal result. Weight generally changes over time as food tolerance, appetite, activity and metabolic health evolve.
-        </p>
-        <p>
-          The bypass also changes gut hormone signalling and can improve blood glucose control before all expected weight has been lost. Outcomes include <strong>up to 80% type-2 diabetes remission</strong>, but remission varies and requires ongoing monitoring. Patients should not stop insulin or other medication without the clinicians managing their diabetes.
-        </p>
-        <p>
-          Durable results depend on the operation working together with protein-led eating, hydration, activity, supplements and follow-up. Our UK-registered dietitian provides structured support rather than leaving international patients to interpret symptoms alone. See anonymised patient journeys on the <Link href="/results" className="text-primary font-semibold hover:underline">results page</Link>, while remembering that another person’s result cannot predict yours.
-        </p>
-      </ProseSection>
-
-      <Checklist
-        title="Benefits considered during shared decision-making"
-        background="slate"
-        items={[
-          "A strong established option for excess weight loss",
-          "Meaningful metabolic effect for selected patients with type-2 diabetes",
-          "Earlier fullness from the smaller functional pouch",
-          "Roux-en-Y and OAGB options allow anatomy to be matched to clinical priorities",
-          "May be considered as revision after sleeve in carefully selected cases",
-          "A defined package with hospital, transfers, hotel and dietitian aftercare",
-        ]}
-      />
-
-      <Checklist
-        title="Risks and long-term responsibilities"
-        tone="warning"
-        items={[
-          "Bleeding, infection, blood clots, anaesthetic complications and leakage are recognised surgical risks",
-          "Stricture, bowel obstruction, internal hernia or ulcer may require investigation or further treatment",
-          "Dumping symptoms can follow rapidly absorbed sugary foods",
-          "Iron, vitamin and mineral deficiencies can develop without supplements and blood monitoring",
-          "OAGB requires specific discussion of bile reflux; reflux history matters when choosing technique",
-          "Weight regain remains possible, especially without sustained nutrition and behaviour changes",
-        ]}
-      />
-
-      <ProseSection title="Recovery, diet and follow-up after bypass">
-        <p>
-          Recovery starts in hospital with monitoring, pain and nausea control, early walking and carefully introduced fluids. The all-inclusive package provides three hospital nights at Liv Hospital Vadistanbul. Discharge happens only after the clinical team is satisfied with hydration, mobility and the immediate surgical course.
-        </p>
-        <p>
-          Eating progresses in stages from liquids toward softer textures and then an individually tolerated long-term pattern. Small portions, slow eating, thorough chewing and separating food from drinks can improve comfort. Protein, hydration and prescribed supplementation are priorities. Vomiting, persistent pain, fever, shortness of breath, an inability to drink or other concerning symptoms require prompt clinical contact rather than reassurance from social media.
-        </p>
-        <p>
-          International planning includes flight timing, medication instructions, thrombosis precautions and arrangements for support after returning home. Read the <Link href="/bariatric-surgery-travel-guide" className="text-primary font-semibold hover:underline">bariatric surgery travel guide</Link> before booking. The package’s UK-registered dietitian support provides continuity, but it complements rather than replaces emergency and routine healthcare in your home country.
-        </p>
-      </ProseSection>
-
-      <section className="py-20 bg-slate-50" aria-label="Gastric bypass packages and prices">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">Gastric bypass packages in Turkey</h2>
-            <p className="text-slate-600 text-lg max-w-3xl mx-auto">
-              Transparent all-inclusive pricing for clinically appropriate Roux-en-Y or mini (OAGB) bypass. There is no basic gastric bypass package.
-            </p>
+      <main>
+        <section className="py-10 bg-blue-50">
+          <div className="container mx-auto px-4 max-w-5xl">
+            <div className="bg-white border-l-4 border-primary rounded-xl p-6 md:p-8 shadow-sm">
+              <p className="text-sm font-bold text-primary tracking-widest mb-2">QUICK ANSWER</p>
+              <p className="text-lg text-slate-700 leading-relaxed">
+                Roux-en-Y gastric bypass in Turkey costs from £5,000 all-inclusive at Istanbul Bariatric Center, performed by Op. Dr Murat Üstün, who has 25+ years of experience and 700+ bypass cases, at JCI-accredited Liv Hospital Vadistanbul. Bypass may be preferred over sleeve for severe GORD, poorly controlled type 2 diabetes, BMI 45 or above, or a previous bariatric operation. Relaxation includes surgeon and anaesthetist fees, two hospital nights, four 5-star hotel nights, VIP transfers, half-board meals, a supplements pack and 12 months of WhatsApp aftercare including UK-registered dietitian support.
+              </p>
+            </div>
           </div>
-          <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-            {packages.map((pkg, idx) => {
-              const colorStyles = {
-                emerald: { border: "border-emerald-500", bg: "bg-emerald-50", price: "text-emerald-600", check: "bg-emerald-100", checkIcon: "text-emerald-600", btn: "bg-emerald-600 hover:bg-emerald-700", badge: "bg-emerald-600" },
-                amber: { border: "border-amber-500", bg: "bg-amber-50", price: "text-amber-600", check: "bg-amber-100", checkIcon: "text-amber-600", btn: "bg-amber-600 hover:bg-amber-700", badge: "bg-amber-600" },
-              }[pkg.color] || { border: "border-blue-500", bg: "bg-blue-50", price: "text-blue-600", check: "bg-blue-100", checkIcon: "text-blue-600", btn: "bg-blue-600 hover:bg-blue-700", badge: "bg-blue-600" };
-              return (
-                <Card key={idx} className={`relative overflow-hidden border-2 transition-all duration-300 hover:shadow-xl ${pkg.recommended ? `${colorStyles.border} shadow-lg scale-105 z-10` : `${colorStyles.border} shadow-sm`}`}>
-                  {pkg.recommended && (
-                    <div className={`absolute top-0 right-0 ${colorStyles.badge} text-white text-xs font-bold px-3 py-1 rounded-bl-lg`}>
-                      Recommended
-                    </div>
-                  )}
-                  <CardHeader className={`text-center pb-2 ${colorStyles.bg}`}>
-                    <CardTitle className="text-xl font-bold text-slate-900">{pkg.name}</CardTitle>
-                  </CardHeader>
-                  <CardContent className="text-center space-y-6 pt-6">
-                    <div className={`text-4xl font-extrabold ${colorStyles.price}`}>{pkg.price}</div>
-                    <ul className="space-y-4 text-left mx-auto max-w-[280px]">
-                      {pkg.features.map((feature, i) => (
-                        <li key={i} className="flex items-center gap-3 text-slate-700">
-                          <div className={`w-5 h-5 rounded-full ${colorStyles.check} flex items-center justify-center shrink-0`}>
-                            <Check className={`w-3 h-3 ${colorStyles.checkIcon}`} aria-hidden="true" />
-                          </div>
-                          {feature}
-                        </li>
-                      ))}
-                    </ul>
-                  </CardContent>
-                  <CardFooter className="pt-4 pb-8">
-                    <a href={`https://wa.me/447491068686?text=${encodeURIComponent(`Hi, I'm interested in the ${pkg.name} package`)}`} target="_blank" rel="noopener noreferrer" className="w-full">
-                      <Button className={`w-full ${colorStyles.btn} text-white`}>Select package</Button>
-                    </a>
-                  </CardFooter>
-                </Card>
-              );
-            })}
+        </section>
+
+        <ComparisonBlock
+          title="Gastric sleeve vs mini gastric bypass vs Roux-en-Y bypass"
+          subtitle="All three are laparoscopic and can work well, but they suit different patients. Dr Üstün considers BMI, reflux, diabetes and previous surgery."
+          columns={["Feature", "Gastric Sleeve", "Mini Bypass (OAGB)", "Roux-en-Y (RYGB)"]}
+          rows={[
+            ["How it works", "Removes about 80% of stomach", "Long pouch, one join, bypasses about 2 m bowel", "Small pouch and Y-shaped reconnection"],
+            ["Anastomoses", "0", "1", "2"],
+            ["Operating time", "45–75 min", "60–90 min", "90–120 min"],
+            ["Hospital stay", "2 nights", "2 nights", "2 nights"],
+            ["Average excess weight loss at 2 years", "60–70%", "70–80%", "65–80%"],
+            ["Type 2 diabetes remission at 1 year", "About 60%", "About 70%", "About 74%"],
+            ["GORD or reflux impact", "Can worsen", "Slight bile reflux risk", "Usually improves reflux"],
+            ["Reversible", "No", "Partly", "Technically, but rarely done"],
+            ["Lifelong B12 injection", "Not usually", "Yes", "Yes"],
+            ["Best for", "BMI 35–45 without severe reflux", "BMI 40+, diabetes, simpler anatomy than RYGB", "BMI 45+, severe reflux, uncontrolled diabetes or revision"],
+            ["Price at IBC (2026)", "from £2,450", "from £5,000", "from £5,000"],
+          ]}
+          footnote={<>Read about <Link href="/mini-gastric-bypass" className="text-primary hover:underline">one-anastomosis (OAGB) mini bypass</Link> or compare <Link href="/gastric-sleeve-turkey" className="text-primary hover:underline">gastric sleeve Turkey</Link>.</>}
+        />
+
+        <ComparisonBlock
+          title="Cost of gastric bypass in Turkey — 2026 packages"
+          subtitle="Both packages include surgery by Dr Üstün at Liv Hospital Vadistanbul. Accommodation, meals, transfers and aftercare differ."
+          columns={["Feature", "Relaxation — recommended", "Luxury"]}
+          highlightColumn={0}
+          rows={[
+            ["Price", "£5,000", "£5,350"],
+            ["Hospital", "Liv Vadistanbul JCI, 2 nights", "Liv Vadistanbul JCI suite, 2 nights"],
+            ["Hotel", "4 nights in a 5-star hotel", "5 nights in a luxury hotel"],
+            ["Medical fees", "Surgeon and anaesthetist fees", "Surgeon and anaesthetist fees"],
+            ["Tests and medication", "All pre-op tests and medications", "All pre-op tests and medications"],
+            ["Transfers", "VIP airport and hospital transfers", "Private VIP car throughout"],
+            ["Meals", "Half board", "Full board with companion allowance"],
+            ["Aftercare", "12 months via WhatsApp including UK-registered dietitian support", "12 months priority WhatsApp aftercare including UK-registered dietitian support"],
+            ["Supplements", "Supplements starter pack", "Supplements starter pack"],
+          ]}
+          footnote="A clinical review and written quotation are required before travel."
+        />
+
+        <ComparisonBlock
+          title="Turkey vs UK, Germany, USA and Australia — 2026 bypass cost"
+          subtitle="Typical self-pay ranges from published provider prices; inclusions and eligibility differ."
+          columns={["Country", "Typical self-pay cost", "Waiting time", "Hospital nights"]}
+          highlightColumn={0}
+          rows={[
+            ["Turkey (IBC)", "£5,000 – £5,350 all-inclusive", "2–4 weeks", "2 nights"],
+            ["United Kingdom (private)", "£10,000 – £15,000, sometimes up to £18k", "4–8 weeks", "2–3 nights"],
+            ["United Kingdom (NHS)", "Free at point of use", "2–5 years", "2–3 nights"],
+            ["Germany (private)", "€12,000 – €22,000, about £10,300–£18,800", "1–3 months", "2–3 nights"],
+            ["United States (self-pay)", "$15,000 – $35,000, about £11,900–£27,800", "2–4 weeks", "2–3 nights"],
+            ["Australia (self-funded)", "AUD $18k – $28k, about £9,500–£14,700", "2–4 weeks", "2 nights"],
+          ]}
+          footnote="Guide prices checked September 2026. Currency movement and individual medical needs can change quotations."
+        />
+
+        <ProseSection title="What’s included in the all-inclusive package" tone="slate" id="included" maxWidth="max-w-6xl">
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white rounded-xl border border-slate-200 p-6">
+              <h3 className="text-xl font-bold text-slate-900 mb-4">Medical and surgical</h3>
+              <ul className="list-disc pl-5 space-y-2 text-base">
+                <li>Pre-operative bloods, HbA1c, ECG and further tests when indicated</li>
+                <li>Upper GI endoscopy, hiatus assessment and anaesthetic consultation</li>
+                <li>Laparoscopic Roux-en-Y gastric bypass by Dr Üstün</li>
+                <li>Surgeon and anaesthetist fees, staplers and consumables</li>
+                <li>Two nights at JCI-accredited Liv Hospital Vadistanbul</li>
+                <li>Hospital medications and post-operative leak testing</li>
+              </ul>
+            </div>
+            <div className="bg-white rounded-xl border border-slate-200 p-6">
+              <h3 className="text-xl font-bold text-slate-900 mb-4">Travel, stay and aftercare</h3>
+              <ul className="list-disc pl-5 space-y-2 text-base">
+                <li>Four 5-star hotel nights on Relaxation or five luxury-hotel nights on Luxury</li>
+                <li>VIP transfers, upgraded to a private car throughout on Luxury</li>
+                <li>Half board on Relaxation or full board with companion allowance on Luxury</li>
+                <li>English-speaking patient coordination and a personalised phased-diet plan</li>
+                <li>Supplements starter pack</li>
+                <li>12 months of WhatsApp aftercare including UK-registered dietitian support</li>
+              </ul>
+            </div>
           </div>
-          <p className="text-sm text-slate-500 text-center mt-10 max-w-3xl mx-auto">
-            A clinical assessment is required. Your written quote should be reviewed alongside travel and personal expenses. For broader context, compare the <Link href="/cost-of-bariatric-surgery-in-turkey" className="text-primary hover:underline">cost of bariatric surgery in Turkey</Link>.
-          </p>
-        </div>
-      </section>
+        </ProseSection>
 
-      <SurgeonProof
-        title="Specialist bypass care in Istanbul"
-        subtitle="Istanbul Bariatric Center was founded by Dr Murat Üstün, a bariatric and metabolic surgeon with 25+ years’ experience and 6,000+ procedures."
-        cards={[
-          { icon: "surgeon", title: <Link href="/dr-murat-ustun" className="hover:text-primary">Dr Murat Üstün</Link>, text: "IFSO member, founder of Istanbul Bariatric Center and pioneer of ESG in Turkey." },
-          { icon: "hospital", title: "JCI-accredited hospital", text: "Surgery and the three-night hospital stay take place at Liv Hospital Vadistanbul." },
-          { icon: "pricing", title: "Two transparent packages", text: "Relaxation is £5,000 and Luxury is £5,350, with no basic bypass package." },
-          { icon: "results", title: "Recognised patient service", text: "WhatClinic Patient Service Awards in 2019–2021 and 2023–2025." },
-        ]}
-      />
+        <ProseSection title="When bypass beats sleeve — who should choose Roux-en-Y" id="candidate">
+          <p>A sleeve is simpler and does not reroute the bowel, but bypass can be a better fit when metabolic disease, reflux or previous surgery changes the balance of benefits and risks.</p>
+          <Checklist title="Reasons Roux-en-Y may be preferred" items={[
+            "Severe gastro-oesophageal reflux, because sleeve can worsen symptoms",
+            "A large hiatus hernia requiring simultaneous repair and reflux control",
+            "BMI 45 kg/m² or above, where durability may favour bypass",
+            "Poorly controlled or insulin-treated type 2 diabetes",
+            "Revision after a failed band or sleeve",
+            "Barrett’s oesophagus or severe oesophagitis",
+          ]} />
+          <p>Selection is individual. Read about <Link href="/reflux-after-gastric-sleeve" className="text-primary hover:underline">reflux after gastric sleeve</Link> and <Link href="/revision-bariatric-surgery" className="text-primary hover:underline">revision bariatric surgery</Link>.</p>
+          <img loading="lazy" width="1024" height="683" src="/images/bypass/bypass-consultation.webp" alt="Dr Murat Üstün discussing candidacy for Roux-en-Y gastric bypass with a patient" className="w-full rounded-2xl" />
+        </ProseSection>
 
-      <FAQSection
-        title="Gastric bypass Turkey FAQs"
-        subtitle="Clear answers about cost, technique, safety, recovery and long-term care."
-        faqs={faqs}
-      />
+        <ProseSection title="How Roux-en-Y gastric bypass works" tone="blue" id="procedure" maxWidth="max-w-5xl">
+          <p>RYGB is performed under general anaesthesia through four or five small keyhole incisions and usually takes 90–120 minutes. Compare the non-bypass alternative in <Link href="/sleeve-gastrectomy" className="text-primary hover:underline">how sleeve gastrectomy works</Link>.</p>
+          <div className="grid md:grid-cols-2 gap-4">
+            {[
+              ["1 — Create the pouch", "The upper stomach is divided to make a small pouch of about 30 ml. The remnant stomach stays in place but food no longer passes through it."],
+              ["2 — Divide the small bowel", "The jejunum is divided about 50 cm below the stomach. The downstream end becomes the Roux limb and the other carries bile and pancreatic juice."],
+              ["3 — Gastrojejunostomy", "The Roux limb is joined to the pouch, so food bypasses the remnant stomach, duodenum and proximal jejunum."],
+              ["4 — Jejunojejunostomy", "The biliopancreatic limb rejoins the Roux limb 100–150 cm farther down. Mesenteric defects are closed to reduce internal-hernia risk."],
+            ].map(([title, text]) => <div key={title} className="bg-white rounded-xl p-5 border border-blue-100"><h3 className="font-bold text-slate-900">{title}</h3><p className="text-base mt-2">{text}</p></div>)}
+          </div>
+          <p>Beyond restriction, altered GLP-1 and PYY signalling, bile-acid circulation and the gut microbiome help explain rapid improvement in blood glucose before major weight loss.</p>
+          <img loading="lazy" width="900" height="1251" src="/images/bypass/roux-en-y-anatomy.webp" alt="Anatomical diagram showing the small stomach pouch, Roux limb and Y-shaped intestinal joins after gastric bypass" className="w-full max-w-3xl mx-auto rounded-2xl" />
+        </ProseSection>
 
-      <RelatedLinks
-        title="Compare your treatment options"
-        links={[
-          { title: "Mini Gastric Bypass", description: "A detailed guide to the one-anastomosis OAGB technique.", href: "/mini-gastric-bypass" },
-          { title: "Sleeve vs Bypass", description: "Compare anatomy, suitability, benefits and trade-offs.", href: "/gastric-sleeve-vs-gastric-bypass" },
-          { title: "Sleeve Gastrectomy Procedure", description: "How sleeve gastrectomy works — the non-bypass surgical alternative.", href: "/sleeve-gastrectomy" },
-          { title: "UK Patient Guide", description: "Plan treatment and aftercare from the United Kingdom.", href: "/bariatric-surgery-for-uk-patients" },
-        ]}
-      />
+        <ProseSection title="Recovery timeline — day 0 to month 24" id="recovery" maxWidth="max-w-6xl">
+          <img loading="lazy" width="1024" height="683" src="/images/bypass/post-op-walk-liv-hospital.webp" alt="Patient walking with clinical support after gastric bypass at Liv Hospital Vadistanbul" className="w-full rounded-2xl mb-8" />
+          <div className="overflow-x-auto rounded-xl border border-slate-200">
+            <table className={tableClass}>
+              <thead className="bg-slate-900 text-white"><tr><th className={thClass}>When</th><th className={thClass}>What to expect</th><th className={thClass}>Diet</th></tr></thead>
+              <tbody>{[
+                ["Day 0", "Recovery, sips after 4–6 hours and a short walk", "Water only"],
+                ["Day 1", "Leak test, reduced IV fluids and corridor walks", "Clear fluids and protein sips"],
+                ["Day 2", "Discharge to hotel when clinically ready", "Clear fluids and protein drinks"],
+                ["Days 3–7", "Hotel rest, gradually longer walks and planned flight", "Full liquids"],
+                ["Week 2", "Desk work may resume; fatigue is common", "Liquids to thin purée"],
+                ["Weeks 3–4", "Early weight loss; food triggers become clearer", "Purée"],
+                ["Weeks 5–6", "Gentle exercise and physical work after clearance", "Soft solids"],
+                ["Week 7 onward", "Small portions and structured follow-up", "Full diet and supplements"],
+                ["Month 3", "Blood tests and supplement adjustment", "Full diet and supplements"],
+                ["Month 6", "Often 50–65% excess weight loss", "Full diet and supplements"],
+                ["Months 12–24", "Often 65–80% excess weight loss", "Maintenance"],
+              ].map(([a, b, c]) => <tr key={a}><th scope="row" className={tdClass}>{a}</th><td className={tdClass}>{b}</td><td className={tdClass}>{c}</td></tr>)}</tbody>
+            </table>
+          </div>
+        </ProseSection>
 
-      <ConversionModule
-        title="Ask which bypass is right for you"
-        text="Send your health and weight history for a free consultation with the Istanbul Bariatric Center team. We will explain whether Roux-en-Y, OAGB or another approach deserves consideration."
-        buttonLabel="WhatsApp our UK team"
-      />
+        <ProseSection title="Risks and complications — the honest picture" tone="slate" id="risks" maxWidth="max-w-6xl">
+          <p>Roux-en-Y is established but more complex than sleeve surgery. Published rates vary with individual risk and centre experience.</p>
+          <h3 className="text-2xl font-bold text-slate-900">Early complications — first 30 days</h3>
+          <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white">
+            <table className={tableClass}>
+              <thead className="bg-slate-900 text-white"><tr><th className={thClass}>Complication</th><th className={thClass}>Typical rate</th><th className={thClass}>Prevention or management</th></tr></thead>
+              <tbody>{[
+                ["Anastomotic leak", "1–2%", "Inspection, intra-operative leak test and access to interventional or surgical care"],
+                ["Bleeding requiring transfusion", "1–3%", "Vessel sealing, staple-line inspection and monitoring"],
+                ["DVT or pulmonary embolism", "Under 1%", "Blood-thinning medication, stockings and early walking"],
+                ["Wound infection", "1–3%", "Antibiotics and careful closure"],
+                ["30-day mortality", "About 0.2%", "Careful selection and an experienced hospital team"],
+              ].map(([a, b, c]) => <tr key={a}><th scope="row" className={tdClass}>{a}</th><td className={tdClass}>{b}</td><td className={tdClass}>{c}</td></tr>)}</tbody>
+            </table>
+          </div>
+          <h3 className="text-2xl font-bold text-slate-900 mt-8">Late complications — weeks to years</h3>
+          <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white">
+            <table className={tableClass}>
+              <thead className="bg-slate-900 text-white"><tr><th className={thClass}>Complication</th><th className={thClass}>Typical rate</th><th className={thClass}>Management</th></tr></thead>
+              <tbody>{[
+                ["Dumping syndrome", "50–70% at some point, usually mild", "Avoid concentrated sugar and rapid-carbohydrate meals"],
+                ["Marginal ulcer", "5–10%", "Acid suppression, no smoking and NSAID avoidance"],
+                ["Anastomotic stricture", "3–7%", "Endoscopic balloon dilatation"],
+                ["Internal hernia", "2–5%", "Defect closure during surgery; laparoscopic repair if needed"],
+                ["Gallstones", "25–30%", "Preventive medication or gallbladder surgery if symptomatic"],
+                ["Nutritional deficiency", "Common without supplements", "Lifelong supplements and blood tests"],
+                ["Post-bypass hypoglycaemia", "1–5%", "Dietary management, then medication if needed"],
+                ["Weight regain after 5+ years", "20–30%", "Nutrition review, endoscopic treatment or surgical revision"],
+              ].map(([a, b, c]) => <tr key={a}><th scope="row" className={tdClass}>{a}</th><td className={tdClass}>{b}</td><td className={tdClass}>{c}</td></tr>)}</tbody>
+            </table>
+          </div>
+        </ProseSection>
+
+        <ProseSection title="Long-term nutrition and lifelong supplementation">
+          <p>Bypass permanently changes vitamin and mineral absorption. Prescribed supplements and monitoring are essential.</p>
+          <div className="grid md:grid-cols-2 gap-6">
+            <Checklist title="Daily for life" items={[
+              "Bariatric multivitamin",
+              "Calcium citrate 1,200–1,500 mg in divided doses",
+              "Vitamin D3 2,000–3,000 IU",
+              "Oral iron 45–65 mg elemental as prescribed",
+              "Protein target of 60–80 g from food and supplements",
+            ]} />
+            <Checklist title="Periodic monitoring" items={[
+              "Vitamin B12 injection every three months or prescribed high-dose oral B12",
+              "Blood tests at months 3, 6 and 12, then annually",
+              "Bone-density scan every two to three years where advised",
+              "Annual full blood count, ferritin, folate, vitamin D, calcium, PTH, HbA1c and lipids",
+              "Avoid NSAIDs and smoking; use particular caution with alcohol",
+            ]} />
+          </div>
+        </ProseSection>
+
+        <ExpertPOV
+          title="Why choose Dr Üstün and Liv Hospital Vadistanbul?"
+          credentials="MD, PhD · 25+ years · BOMSS, IFSO and International Bariatric Club member"
+        >
+          <p><Link href="/dr-murat-ustun" className="text-primary hover:underline">Op. Dr Murat Üstün</Link> has 25+ years of experience, 6,000+ advanced laparoscopic procedures and 700+ bypass cases. His memberships include BOMSS, IFSO and the International Bariatric Club.</p>
+          <p>IBC received WhatClinic awards in 2019–2021 and 2023–2025. Care takes place at JCI-accredited Liv Hospital Vadistanbul, with 24-hour intensive care, imaging, interventional support and English-speaking staff.</p>
+        </ExpertPOV>
+
+        <ProseSection title="Your 7-day gastric bypass journey in Istanbul" tone="blue" id="journey">
+          <ol className="space-y-4">
+            {[
+              ["Day 1 — Arrival", "VIP airport pickup, hotel check-in and welcome call."],
+              ["Day 2 — Pre-op", "Hospital tests, endoscopy and consultation with Dr Üstün."],
+              ["Day 3 — Surgery", "Roux-en-Y bypass lasting about 90–120 minutes."],
+              ["Day 4 — Recovery", "Leak test, first walks and clear fluids."],
+              ["Day 5 — Discharge", "Discharge to the hotel with VIP transfer when clinically ready."],
+              ["Day 6 — Rest", "Hotel rest, protein drinks and short walks."],
+              ["Day 7 — Fly home", "Airport transfer with discharge documents and aftercare plan."],
+            ].map(([day, text]) => <li key={day} className="bg-white rounded-xl border border-blue-100 p-5"><strong className="text-slate-900">{day}</strong><p className="text-base mt-1">{text}</p></li>)}
+          </ol>
+          <p>Luxury adds a fifth hotel night. Confirm your individual itinerary before booking flights.</p>
+          <InlineCTA label="Request a free clinical review" />
+        </ProseSection>
+
+        <FAQSection title="Frequently asked questions" faqs={faqs} withJsonLd={false} />
+
+        <ConversionModule
+          title="Book your free consultation with Dr Üstün"
+          text={<>Request a no-obligation clinical review. Dr Üstün will consider your BMI, reflux, diabetes and previous surgery, then explain whether sleeve, OAGB or Roux-en-Y is suitable. You can also use the <Link href="/contact" className="underline font-semibold">contact form</Link>.</>}
+          buttonLabel="WhatsApp UK · +44 7491 068686"
+        />
+
+        <RelatedLinks title="Related procedures and resources" links={[
+          { title: "One-anastomosis (OAGB) mini bypass", description: "Explore the one-join bypass procedure.", href: "/mini-gastric-bypass" },
+          { title: "Gastric sleeve Turkey", description: "Compare sleeve pricing, candidacy and recovery.", href: "/gastric-sleeve-turkey" },
+          { title: "How sleeve gastrectomy works", description: "Understand the non-bypass operation.", href: "/sleeve-gastrectomy" },
+          { title: "Revision bariatric surgery", description: "Review options after a previous operation.", href: "/revision-bariatric-surgery" },
+          { title: "Reflux after gastric sleeve", description: "Learn when conversion may be considered.", href: "/reflux-after-gastric-sleeve" },
+          { title: "Before and after results", description: "Review anonymised patient outcomes.", href: "/results" },
+        ]} />
+
+        <footer className="py-8 text-center text-sm text-slate-600 border-t">
+          Reviewed by Op. Dr Murat Üstün, MD, PhD · Last reviewed 17 September 2026
+        </footer>
+      </main>
+
       <Footer />
-      <StickyCTA guideHref="/bariatric-surgery-turkey-guide" />
+      <StickyCTA guideHref="/contact" />
     </div>
   );
 }

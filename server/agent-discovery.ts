@@ -10,7 +10,7 @@ description: How to find accurate information about Istanbul Bariatric Center's 
 
 # Istanbul Bariatric Center — Site Information Skill
 
-Istanbul Bariatric Center is a JCI-accredited bariatric surgery clinic in Istanbul, Turkey, led by Dr Murat Ustun (8,000+ procedures). It serves international patients with all-inclusive weight loss surgery packages.
+Istanbul Bariatric Center is a JCI-accredited bariatric surgery clinic in Istanbul, Turkey, led by Dr Murat Ustun (25+ years, 6,000+ advanced laparoscopic procedures). It serves international patients with all-inclusive weight loss surgery packages.
 
 ## Key resources
 
@@ -21,8 +21,8 @@ Istanbul Bariatric Center is a JCI-accredited bariatric surgery clinic in Istanb
 
 ## Procedures and starting prices
 
-- Gastric Sleeve: from £3,400 — ${BASE_URL}/sleeve-gastrectomy
-- Mini Gastric Bypass: from £3,850 — ${BASE_URL}/mini-gastric-bypass
+- Gastric Sleeve: from £2,450 — ${BASE_URL}/sleeve-gastrectomy
+- Mini Gastric Bypass: from £5,000 — ${BASE_URL}/mini-gastric-bypass
 - Gastric Balloon: from £1,900 — ${BASE_URL}/gastric-balloon
 - Endoscopic Sleeve Gastroplasty (ESG): from £5,700 — ${BASE_URL}/esg
 - Country-specific ESG pages exist under ${BASE_URL}/esg/{country} (uk, de, fr, es, nl, ar, it, ru, ro, se, pl, dk, no, hu, fi, ca, us, anz).
