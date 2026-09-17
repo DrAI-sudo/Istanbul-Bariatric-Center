@@ -155,6 +155,7 @@ export async function registerRoutes(
       "/mini-gastric-bypass": { priority: "0.9", changefreq: "monthly", lastmod: "2025-02-01" },
       "/gastric-bypass": { priority: "0.9", changefreq: "monthly" },
       "/gastric-sleeve-turkey": { priority: "0.9", changefreq: "monthly" },
+      "/gastric-sleeve-uk": { priority: "0.9", changefreq: "monthly", lastmod: "2026-09-17" },
       "/gastric-sleeve-turkey-cost": { priority: "0.9", changefreq: "monthly" },
       "/gastric-balloon-turkey": { priority: "0.9", changefreq: "monthly", lastmod: "2026-09-17" },
       "/weight-loss-surgery-turkey": { priority: "0.9", changefreq: "monthly", lastmod: "2026-09-17" },
@@ -252,6 +253,7 @@ export async function registerRoutes(
 - [Mini Gastric Bypass](${BASE_URL}/mini-gastric-bypass): From £5,000. Creates a small stomach pouch and bypasses part of the small intestine. Best for BMI 40+ or metabolic conditions.
 - [Gastric Bypass Surgery in Turkey](${BASE_URL}/gastric-bypass): Roux-en-Y and mini (OAGB) bypass compared. All-inclusive packages Relaxation £5,000 / Luxury £5,350.
 - [Gastric Sleeve Turkey 2026 Guide](${BASE_URL}/gastric-sleeve-turkey): Cost, best clinics and all-inclusive packages compared. Sleeve packages from £2,450.
+- [Gastric Sleeve for UK Patients 2026](${BASE_URL}/gastric-sleeve-uk): UK-specific sleeve packages from £2,450, travel, Day 1 to Day 8 itinerary, safety, recovery and aftercare.
 - [Gastric Sleeve Turkey Cost](${BASE_URL}/gastric-sleeve-turkey-cost): Full price breakdown for gastric sleeve in Turkey — Ultra Eco £2,450, Relaxation £4,550, Luxury £4,900.
 - [Gastric Balloon Turkey](${BASE_URL}/gastric-balloon-turkey): From £1,900. Non-surgical day-case Orbera, Allurion and Spatz3 options.
 - [Weight Loss Surgery in Turkey 2026 Guide](${BASE_URL}/weight-loss-surgery-turkey): Compare eight procedures, authoritative prices from £1,900, candidacy, safety, travel and aftercare for UK patients.
@@ -363,6 +365,7 @@ Istanbul Bariatric Center was founded with the mission of providing world-class 
 - **Recovery**: 2-3 weeks to normal activities
 - **How it works**: Approximately 75-80% of the stomach is permanently removed, creating a smaller banana-shaped stomach (sleeve). This restricts food intake and significantly reduces hunger hormones (ghrelin), leading to sustained weight loss.
 - **Benefits**: Most commonly performed bariatric procedure worldwide, proven long-term results, significant improvement in obesity-related conditions (type 2 diabetes, sleep apnoea, hypertension).
+- **UK patient guide**: ${BASE_URL}/gastric-sleeve-uk — UK pricing from £2,450, travel planning, Day 1 to Day 8 itinerary, safety, recovery and 12-month Relaxation aftercare.
 
 ### Mini Gastric Bypass (One Anastomosis Gastric Bypass)
 - **Also known as**: OAGB, MGB, Roux-en-Y Gastric Bypass

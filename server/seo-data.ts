@@ -6,6 +6,7 @@ const __seoDirname = path.dirname(fileURLToPath(import.meta.url));
 
 import { gastricBypassSEO } from "./seo-pages/gastric-bypass";
 import { gastricSleeveTurkeySEO } from "./seo-pages/gastric-sleeve-turkey";
+import { gastricSleeveUKSEO } from "./seo-pages/gastric-sleeve-uk";
 import { gastricSleeveTurkeyCostSEO } from "./seo-pages/gastric-sleeve-turkey-cost";
 import { gastricBalloonTurkeySEO } from "./seo-pages/gastric-balloon-turkey";
 import { weightLossSurgeryTurkeySEO } from "./seo-pages/weight-loss-surgery-turkey";
@@ -111,6 +112,7 @@ const SERVER_BREADCRUMBS: Record<string, Array<{ name: string; path: string }>> 
   "/mini-gastric-bypass": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Mini Gastric Bypass", path: "/mini-gastric-bypass" }],
   "/gastric-bypass": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Bypass", path: "/gastric-bypass" }],
   "/gastric-sleeve-turkey": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Sleeve Turkey", path: "/gastric-sleeve-turkey" }],
+  "/gastric-sleeve-uk": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Sleeve for UK Patients", path: "/gastric-sleeve-uk" }],
   "/gastric-sleeve-turkey-cost": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Sleeve Turkey Cost", path: "/gastric-sleeve-turkey-cost" }],
   "/gastric-balloon-turkey": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Balloon Turkey", path: "/gastric-balloon-turkey" }],
   "/weight-loss-surgery-turkey": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Weight Loss Surgery in Turkey", path: "/weight-loss-surgery-turkey" }],
@@ -180,6 +182,7 @@ const ESG_ALTERNATES: Array<{ hreflang: string; href: string }> = [
 const staticPages: Record<string, PageSEO> = {
   "/gastric-bypass": gastricBypassSEO,
   "/gastric-sleeve-turkey": gastricSleeveTurkeySEO,
+  "/gastric-sleeve-uk": gastricSleeveUKSEO,
   "/gastric-sleeve-turkey-cost": gastricSleeveTurkeyCostSEO,
   "/gastric-balloon-turkey": gastricBalloonTurkeySEO,
   "/weight-loss-surgery-turkey": weightLossSurgeryTurkeySEO,
@@ -2708,6 +2711,7 @@ export interface RouteI18nMeta {
 }
 
 const ROUTE_LANG_MAP: Record<string, RouteI18nMeta> = {
+  "/gastric-sleeve-uk": { lang: "en-GB", locale: "en_GB", dir: "ltr" },
   "/treatments/tr": { lang: "tr", locale: "tr_TR", dir: "ltr" },
   "/treatments/es": { lang: "es", locale: "es_ES", dir: "ltr" },
   "/treatments/de": { lang: "de", locale: "de_DE", dir: "ltr" },
@@ -2738,6 +2742,11 @@ const ROUTE_LANG_MAP: Record<string, RouteI18nMeta> = {
 };
 
 const HREFLANG_GROUPS: Array<Array<{ route: string; hreflang: string }>> = [
+  [
+    { route: "/gastric-sleeve-turkey", hreflang: "x-default" },
+    { route: "/gastric-sleeve-turkey", hreflang: "en" },
+    { route: "/gastric-sleeve-uk", hreflang: "en-GB" },
+  ],
   [
     { route: "/treatments",    hreflang: "x-default" },
     { route: "/treatments",    hreflang: "en" },

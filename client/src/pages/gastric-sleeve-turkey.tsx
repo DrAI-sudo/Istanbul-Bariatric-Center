@@ -146,6 +146,14 @@ export default function GastricSleeveTurkey() {
           </div>
         </section>
 
+        <section className="pb-8 bg-blue-50">
+          <div className="container mx-auto px-4 max-w-5xl">
+            <div className="bg-white rounded-xl border border-blue-100 p-5 text-center">
+              <Link href="/gastric-sleeve-uk" className="text-primary font-semibold hover:underline">UK residents — start here instead for UK-specific pricing, aftercare and case studies.</Link>
+            </div>
+          </div>
+        </section>
+
         <ProseSection title="Gastric sleeve in Turkey at a glance" id="at-a-glance">
           <div className="overflow-x-auto rounded-xl border border-slate-200">
             <table className={tableClass}>

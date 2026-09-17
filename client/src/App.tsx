@@ -22,6 +22,7 @@ const SleeveGastrectomy = lazy(() => import("@/pages/sleeve-gastrectomy"));
 const MiniGastricBypass = lazy(() => import("@/pages/mini-gastric-bypass"));
 const GastricBypass = lazy(() => import("@/pages/gastric-bypass"));
 const GastricSleeveTurkey = lazy(() => import("@/pages/gastric-sleeve-turkey"));
+const GastricSleeveUK = lazy(() => import("@/pages/gastric-sleeve-uk"));
 const GastricSleeveTurkeyCost = lazy(() => import("@/pages/gastric-sleeve-turkey-cost"));
 const GastricBalloonTurkey = lazy(() => import("@/pages/gastric-balloon-turkey"));
 const WeightLossSurgeryTurkey = lazy(() => import("@/pages/weight-loss-surgery-turkey"));
@@ -109,6 +110,7 @@ function Router() {
           <Route path="/mini-gastric-bypass" component={MiniGastricBypass} />
           <Route path="/gastric-bypass" component={GastricBypass} />
           <Route path="/gastric-sleeve-turkey" component={GastricSleeveTurkey} />
+          <Route path="/gastric-sleeve-uk" component={GastricSleeveUK} />
           <Route path="/gastric-sleeve-turkey-cost" component={GastricSleeveTurkeyCost} />
           <Route path="/gastric-balloon-turkey" component={GastricBalloonTurkey} />
           <Route path="/weight-loss-surgery-turkey" component={WeightLossSurgeryTurkey} />

@@ -20,6 +20,7 @@ export const VALID_STATIC_ROUTES = [
   "/mini-gastric-bypass",
   "/gastric-bypass",
   "/gastric-sleeve-turkey",
+  "/gastric-sleeve-uk",
   "/gastric-sleeve-turkey-cost",
   "/gastric-balloon-turkey",
   "/weight-loss-surgery-turkey",

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!-- ============================================================
+     PRIMARY META  — UK-AUDIENCE TARGETED
+     ============================================================ -->
+<title>Gastric Sleeve Turkey for UK Patients — Save 65% | IBC</title>
+<meta name="description" content="Gastric sleeve Turkey £3,400 vs UK private £8,000–£15,000. UK-based coordinators, UK aftercare partner, JCI hospital, Dr Murat Üstün. Free UK consultation.">
+<meta name="keywords" content="gastric sleeve turkey for uk patients, gastric sleeve uk cost, gastric sleeve turkey uk reviews, weight loss surgery abroad from uk, gastric sleeve uk vs turkey, gastric sleeve uk private cost, uk patient gastric sleeve istanbul">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="author" content="Op. Dr Murat Üstün, MD, PhD">
+<meta name="geo.region" content="TR-34">
+<meta name="geo.placename" content="Istanbul, Sarıyer">
+<meta name="geo.position" content="41.1163;29.0083">
+<meta name="ICBM" content="41.1163, 29.0083">
+
+<link rel="canonical" href="https://istanbulbariatriccenter.com/gastric-sleeve-uk">
+
+<!-- ============================================================
+     HREFLANG — Audience-country variants
+       Self is en-GB. Pair pages point back reciprocally.
+     ============================================================ -->
+<link rel="alternate" hreflang="en-GB" href="https://istanbulbariatriccenter.com/gastric-sleeve-uk">
+<link rel="alternate" hreflang="en"    href="https://istanbulbariatriccenter.com/gastric-sleeve-turkey">
+<link rel="alternate" hreflang="en-US" href="https://istanbulbariatriccenter.com/gastric-sleeve-us">
+<link rel="alternate" hreflang="en-AU" href="https://istanbulbariatriccenter.com/gastric-sleeve-au">
+<link rel="alternate" hreflang="en-IE" href="https://istanbulbariatriccenter.com/gastric-sleeve-ie">
+<link rel="alternate" hreflang="x-default" href="https://istanbulbariatriccenter.com/gastric-sleeve-turkey">
+
+<!-- ============================================================
+     OPEN GRAPH / TWITTER
+     ============================================================ -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Istanbul Bariatric Center">
+<meta property="og:title" content="Gastric Sleeve Turkey for UK Patients — Save 65%">
+<meta property="og:description" content="Gastric sleeve Turkey £3,400 all-inclusive vs UK private £8,799–£15,000. UK-based coordinators, UK aftercare, JCI hospital, Dr Murat Üstün.">
+<meta property="og:url" content="https://istanbulbariatriccenter.com/gastric-sleeve-uk">
+<meta property="og:image" content="https://istanbulbariatriccenter.com/images/gastric-sleeve-uk-1200x630.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Gastric sleeve Turkey for UK patients — 65% saving vs UK private">
+<meta property="og:locale" content="en_GB">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gastric Sleeve Turkey for UK Patients — Save 65%">
+<meta name="twitter:description" content="£3,400 all-inclusive vs UK £8,799–£15,000. UK-based support, JCI hospital, Dr Üstün.">
+<meta name="twitter:image" content="https://istanbulbariatriccenter.com/images/gastric-sleeve-uk-1200x630.jpg">
+
+<!-- ============================================================
+     JSON-LD — UK-AUDIENCE TARGETED
+       MedicalWebPage + MedicalProcedure (with UK PeopleAudience)
+       + FAQPage + BreadcrumbList
+     ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://istanbulbariatriccenter.com/gastric-sleeve-uk#webpage",
+      "url": "https://istanbulbariatriccenter.com/gastric-sleeve-uk",
+      "name": "Gastric Sleeve in Turkey for UK Patients (2026)",
+      "description": "UK-patient guide to gastric sleeve surgery in Turkey: verified 2026 UK-vs-Turkey pricing, NHS waiting-list context, UK aftercare pathway, GMC/JCI safety benchmarks and FAQ written for UK residents.",
+      "inLanguage": "en-GB",
+      "dateModified": "2026-09-17",
+      "primaryImageOfPage": "https://istanbulbariatriccenter.com/images/gastric-sleeve-uk-1200x630.jpg",
+      "isPartOf": {"@id": "https://istanbulbariatriccenter.com/#organization"},
+      "about": {"@id": "https://istanbulbariatriccenter.com/gastric-sleeve-uk#procedure"},
+      "audience": {
+        "@type": "PeopleAudience",
+        "audienceType": "UK residents considering bariatric surgery abroad",
+        "geographicArea": {
+          "@type": "Country",
+          "name": "United Kingdom",
+          "identifier": "GB"
+        }
+      },
+      "reviewedBy": {"@id": "https://istanbulbariatriccenter.com/#drmuratustun"},
+      "lastReviewed": "2026-09-17",
+      "specialty": "https://schema.org/Surgical",
+      "significantLink": [
+        "https://istanbulbariatriccenter.com/gastric-sleeve-turkey",
+        "https://istanbulbariatriccenter.com/dr-murat-ustun",
+        "https://istanbulbariatriccenter.com/weight-loss-surgery-turkey"
+      ]
+    },
+    {
+      "@type": "MedicalProcedure",
+      "@id": "https://istanbulbariatriccenter.com/gastric-sleeve-uk#procedure",
+      "name": "Laparoscopic Sleeve Gastrectomy",
+      "alternateName": ["Gastric Sleeve", "Vertical Sleeve Gastrectomy", "VSG"],
+      "procedureType": "https://schema.org/SurgicalProcedure",
+      "bodyLocation": "Stomach",
+      "howPerformed": "Laparoscopic sleeve gastrectomy performed under general anaesthesia through 4–5 keyhole incisions. Approximately 80% of the stomach is removed along the greater curvature using linear staplers, leaving a narrow tubular sleeve. Operating time 45–75 minutes. Two nights inpatient stay at Liv Hospital Vadistanbul (JCI-accredited).",
+      "preparation": "Pre-operative bloods, HbA1c, ECG, upper GI endoscopy and anaesthetic review. Two-week liver-shrinking diet before travel to Istanbul.",
+      "followup": "Phased diet (fluids weeks 1–2, purée weeks 3–4, soft solids weeks 5–6, full diet from week 7). 12 months of consultant WhatsApp aftercare with structured video check-ins at week 1, month 1, 3, 6 and 12. Lifelong daily multivitamin, calcium and vitamin D; 3-monthly B12 injection.",
+      "expectedPrognosis": "Average 60–70% excess weight loss at 24 months. Improvement or remission of type 2 diabetes (~60%), hypertension, sleep apnoea and dyslipidaemia.",
+      "performedBy": {"@id": "https://istanbulbariatriccenter.com/#drmuratustun"},
+      "audience": {
+        "@type": "PeopleAudience",
+        "geographicArea": {"@type": "Country", "name": "United Kingdom", "identifier": "GB"}
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "GBP",
+        "price": "3400",
+        "availability": "https://schema.org/InStock",
+        "url": "https://istanbulbariatriccenter.com/gastric-sleeve-uk#pricing",
+        "eligibleRegion": {"@type": "Country", "name": "United Kingdom"},
+        "seller": {"@id": "https://istanbulbariatriccenter.com/#organization"}
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://istanbulbariatriccenter.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Treatments", "item": "https://istanbulbariatriccenter.com/treatments"},
+        {"@type": "ListItem", "position": 3, "name": "Gastric Sleeve for UK Patients", "item": "https://istanbulbariatriccenter.com/gastric-sleeve-uk"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Is it safe to have a gastric sleeve in Turkey as a UK patient?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, when the operation is done in a Joint Commission International (JCI)-accredited hospital by a high-volume surgeon who is a member of IFSO, BOMSS or ASMBS. At Istanbul Bariatric Center, Dr Murat Üstün has personally performed over 2,200 sleeve gastrectomies at Liv Hospital Vadistanbul, with 30-day mortality and leak rates that match published outcomes from top UK private units. The real risk factor is not the country — it is choosing a low-volume clinic anywhere in the world."}},
+        {"@type": "Question", "name": "How much cheaper is Turkey vs UK private?", "acceptedAnswer": {"@type": "Answer", "text": "Istanbul Bariatric Center's gastric sleeve is £3,400 all-inclusive. UK private prices in 2026: Practice Plus Group £8,799, Ramsay Health £9,975 (from), HealthyMe £10,700, other private hospitals up to £15,000. Savings therefore range from roughly £5,400 to £11,600 — 62% to 77% cheaper than UK private — while including flights, hotel, transfers and 12 months of consultant WhatsApp aftercare."}},
+        {"@type": "Question", "name": "What is the NHS wait time for gastric sleeve in 2026?", "acceptedAnswer": {"@type": "Answer", "text": "NHS bariatric pathways in England have a median referral-to-treatment wait of around 12 weeks, but the 92nd percentile is 38.6 weeks — meaning roughly 1 in 12 patients wait over nine months. Many CCGs have additionally tightened eligibility criteria to BMI ≥ 40 with specific comorbidities, so a large proportion of clinically eligible patients are declined altogether. Private (UK or Turkey) is the usual route for anyone outside these narrow criteria."}},
+        {"@type": "Question", "name": "What happens if I have complications when I return to the UK?", "acceptedAnswer": {"@type": "Answer", "text": "Two overlapping safety nets. First, IBC provides direct WhatsApp access to Dr Üstün's surgical team 24/7 for 12 months, so any concern is triaged within hours. Second, the NHS treats bariatric complications regardless of where the primary surgery was performed — you go to A&E if urgent, or your GP for anything non-urgent, and are managed as any other bariatric pat
