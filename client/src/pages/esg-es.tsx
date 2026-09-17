@@ -919,7 +919,7 @@ export default function ESGEspana() {
               { title: "ESG — Información completa", href: "/esg", desc: "Detalles completos del procedimiento" },
               { title: "Manga gástrica", href: "/sleeve-gastrectomy", desc: "La operación bariátrica más popular" },
               { title: "Mini bypass gástrico", href: "/mini-gastric-bypass", desc: "Procedimiento combinado" },
-              { title: "Balón gástrico", href: "/gastric-balloon", desc: "Opción no quirúrgica" },
+              { title: "Balón gástrico", href: "/gastric-balloon-turkey", desc: "Opción no quirúrgica" },
               { title: "Todos los tratamientos", href: "/treatments", desc: "Comparar procedimientos y precios" },
               { title: "Resultados de pacientes", href: "/results", desc: "Antes y después, testimonios" },
               { title: "Perfil de salud", href: "/health-profile", desc: "Evalúe su elegibilidad" },

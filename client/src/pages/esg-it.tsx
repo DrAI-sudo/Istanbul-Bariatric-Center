@@ -864,7 +864,7 @@ export default function ESGItalia() {
               { title: "ESG — Informazioni complete", href: "/esg", desc: "Tutti i dettagli sulla procedura" },
               { title: "Sleeve Gastrectomy", href: "/sleeve-gastrectomy", desc: "L'intervento bariatrico più diffuso" },
               { title: "Mini bypass gastrico", href: "/mini-gastric-bypass", desc: "Procedura combinata" },
-              { title: "Palloncino gastrico", href: "/gastric-balloon", desc: "Opzione non chirurgica" },
+              { title: "Palloncino gastrico", href: "/gastric-balloon-turkey", desc: "Opzione non chirurgica" },
               { title: "Tutti i trattamenti", href: "/treatments", desc: "Confronto procedure e prezzi" },
               { title: "Risultati dei pazienti", href: "/results", desc: "Storie di successo prima e dopo" },
               { title: "Profilo di salute", href: "/health-profile", desc: "Valutazione dell'idoneità" },

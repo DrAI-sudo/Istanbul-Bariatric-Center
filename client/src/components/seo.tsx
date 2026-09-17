@@ -117,14 +117,16 @@ interface JsonLdProps {
 export function JsonLd({ data }: JsonLdProps) {
   useEffect(() => {
     const dataStr = JSON.stringify(data);
-    const schemaType = (data as { "@type"?: string })["@type"] || "unknown";
+    const d = data as { "@type"?: string; "@graph"?: unknown[] };
+    const schemaType = d["@type"] || (Array.isArray(d["@graph"]) ? "graph" : "unknown");
     const scriptId = `jsonld-${schemaType}-${dataStr.length}`;
 
     const existingScripts = document.head.querySelectorAll('script[type="application/ld+json"]');
     existingScripts.forEach((existing) => {
       try {
         const parsed = JSON.parse(existing.textContent || "");
-        if (parsed["@type"] === schemaType && !existing.id) {
+        const existingType = parsed["@type"] || (Array.isArray(parsed["@graph"]) ? "graph" : "unknown");
+        if (existingType === schemaType && !existing.id) {
           existing.remove();
         }
       } catch {}

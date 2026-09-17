@@ -755,7 +755,7 @@ export default function ESGPoland() {
               { title: "ESG — pełne informacje", href: "/esg", desc: "Szczegóły procedury" },
               { title: "Sleeve Gastrectomy", href: "/sleeve-gastrectomy", desc: "Najpopularniejsza operacja bariatryczna" },
               { title: "Mini Gastric Bypass", href: "/mini-gastric-bypass", desc: "Procedura łączona" },
-              { title: "Balon żołądkowy", href: "/gastric-balloon", desc: "Alternatywa niechirurgiczna" },
+              { title: "Balon żołądkowy", href: "/gastric-balloon-turkey", desc: "Alternatywa niechirurgiczna" },
               { title: "Wszystkie zabiegi", href: "/treatments", desc: "Porównanie i ceny" },
               { title: "Wyniki", href: "/results", desc: "Historie sukcesu pacjentów" },
               { title: "O nas", href: "/about", desc: "Dr Murat Üstün i zespół" },

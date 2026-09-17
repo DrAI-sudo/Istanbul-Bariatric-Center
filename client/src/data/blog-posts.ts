@@ -129,7 +129,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Faster recovery:</strong> back to normal life in 2&ndash;3 days instead of 4&ndash;6 weeks</li>
 <li><strong>Anatomy preserved:</strong> the natural RYGB anatomy stays intact, minimizing the risk of severe malnutrition or dumping syndrome that can follow aggressive surgical conversion</li>
 </ul>
-<p>If your weight regain stems from causes other than stoma dilation, our surgeons will guide you toward the right alternative — from <a href="/gastric-balloon">gastric balloon</a> support to formal surgical revision. Every recommendation starts with diagnostics, not assumptions.</p>
+<p>If your weight regain stems from causes other than stoma dilation, our surgeons will guide you toward the right alternative — from <a href="/gastric-balloon-turkey">gastric balloon Turkey</a> support to formal surgical revision. Every recommendation starts with diagnostics, not assumptions.</p>
 
 <h2>Life After TORe: The Istanbul Bariatric Center Protocol</h2>
 <p>The science is clear: TORe is a powerful tool, but it is only as effective as the lifestyle changes that support it. The mechanical restriction helps you feel full sooner; long-term success requires adherence to the post-procedure plan.</p>

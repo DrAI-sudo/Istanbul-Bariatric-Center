@@ -754,7 +754,7 @@ export default function ESGSweden() {
               { title: "ESG — fullständig information", href: "/esg", desc: "Alla detaljer om proceduren" },
               { title: "Sleeve Gastrectomy", href: "/sleeve-gastrectomy", desc: "Den vanligaste bariatriska operationen" },
               { title: "Mini Gastric Bypass", href: "/mini-gastric-bypass", desc: "Kombinerad procedur" },
-              { title: "Gastric Balloon", href: "/gastric-balloon", desc: "Icke-kirurgiskt alternativ" },
+              { title: "Gastric Balloon Turkey", href: "/gastric-balloon-turkey", desc: "Icke-kirurgiskt alternativ" },
               { title: "Alla behandlingar", href: "/treatments", desc: "Jämförelse och priser" },
               { title: "Resultat", href: "/results", desc: "Patienternas framgångshistorier" },
               { title: "Om oss", href: "/about", desc: "Dr. Murat Üstün och teamet" },

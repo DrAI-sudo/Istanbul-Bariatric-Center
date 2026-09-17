@@ -675,7 +675,7 @@ export default function ESGRussia() {
               { title: "ESG — подробности", href: "/esg", desc: "Полная информация о процедуре" },
               { title: "Рукавная гастрэктомия", href: "/sleeve-gastrectomy", desc: "Самая популярная бариатрическая операция" },
               { title: "Мини-шунтирование", href: "/mini-gastric-bypass", desc: "Комбинированная процедура" },
-              { title: "Желудочный баллон", href: "/gastric-balloon", desc: "Нехирургический вариант" },
+              { title: "Желудочный баллон", href: "/gastric-balloon-turkey", desc: "Нехирургический вариант" },
               { title: "Все процедуры", href: "/treatments", desc: "Сравнение и цены" },
               { title: "Результаты", href: "/results", desc: "Истории успеха пациентов" },
               { title: "О нас", href: "/about", desc: "Доктор Мурат Юстюн и команда" },

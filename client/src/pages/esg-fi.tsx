@@ -411,7 +411,7 @@ export default function ESGFinland() {
             {[
               { title: "ESG — täydelliset tiedot", href: "/esg", desc: "Kaikki yksityiskohdat toimenpiteestä" },
               { title: "Sleeve Gastrectomy", href: "/sleeve-gastrectomy", desc: "Suosituin bariatrinen leikkaus" },
-              { title: "Mahapallohoito", href: "/gastric-balloon", desc: "Ei-kirurginen vaihtoehto" },
+              { title: "Mahapallohoito", href: "/gastric-balloon-turkey", desc: "Ei-kirurginen vaihtoehto" },
               { title: "Kaikki hoidot", href: "/treatments", desc: "Vertailu ja hinnat" },
               { title: "Tulokset", href: "/results", desc: "Potilaiden menestystarinoita" },
               { title: "Yhteystiedot", href: "/contact", desc: "Keskustele tiimimme kanssa" },

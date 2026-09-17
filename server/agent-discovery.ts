@@ -23,7 +23,7 @@ Istanbul Bariatric Center is a JCI-accredited bariatric surgery clinic in Istanb
 
 - Gastric Sleeve: from £2,450 — ${BASE_URL}/sleeve-gastrectomy
 - Mini Gastric Bypass: from £5,000 — ${BASE_URL}/mini-gastric-bypass
-- Gastric Balloon: from £1,900 — ${BASE_URL}/gastric-balloon
+- Gastric Balloon Turkey: from £1,900 — ${BASE_URL}/gastric-balloon-turkey
 - Endoscopic Sleeve Gastroplasty (ESG): from £5,700 — ${BASE_URL}/esg
 - Country-specific ESG pages exist under ${BASE_URL}/esg/{country} (uk, de, fr, es, nl, ar, it, ru, ro, se, pl, dk, no, hu, fi, ca, us, anz).
 

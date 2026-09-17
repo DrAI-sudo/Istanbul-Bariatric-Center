@@ -410,7 +410,7 @@ export default function ESGAzerbaijan() {
             {[
               { title: "ESG — tam məlumat", href: "/esg", desc: "Prosedur haqqında bütün detallar" },
               { title: "Sleeve Qastrektomiya", href: "/sleeve-gastrectomy", desc: "Ən populyar bariatrik əməliyyat" },
-              { title: "Mədə balonu", href: "/gastric-balloon", desc: "Cərrahiyyəsiz alternativ" },
+              { title: "Mədə balonu", href: "/gastric-balloon-turkey", desc: "Cərrahiyyəsiz alternativ" },
               { title: "Bütün müalicələr", href: "/treatments", desc: "Müqayisə və qiymətlər" },
               { title: "Nəticələr", href: "/results", desc: "Xəstə uğur hekayələri" },
               { title: "Əlaqə", href: "/contact", desc: "Komandamızla danışın" },

@@ -411,7 +411,7 @@ export default function ESGHungary() {
             {[
               { title: "ESG — teljes tájékoztatás", href: "/esg", desc: "Az eljárás minden részlete" },
               { title: "Sleeve Gastrectomy", href: "/sleeve-gastrectomy", desc: "A legnépszerűbb bariatrikus műtét" },
-              { title: "Gyomorballon", href: "/gastric-balloon", desc: "Nem-sebészeti alternatíva" },
+              { title: "Gyomorballon", href: "/gastric-balloon-turkey", desc: "Nem-sebészeti alternatíva" },
               { title: "Összes kezelés", href: "/treatments", desc: "Összehasonlítás és árak" },
               { title: "Eredmények", href: "/results", desc: "Páciens sikertörténetek" },
               { title: "Kapcsolat", href: "/contact", desc: "Beszéljen csapatunkkal" },

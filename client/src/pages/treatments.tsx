@@ -727,7 +727,7 @@ export default function Treatments({ lang }: { lang?: string }) {
               <h3 className="font-semibold text-white mb-1">{t('treatmentLinks.miniBypass')}</h3>
               <p className="text-sm text-slate-300">{t('treatmentLinks.miniBypassDesc')}</p>
             </a>
-            <a href="/gastric-balloon" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
+            <a href="/gastric-balloon-turkey" className="block bg-white/10 hover:bg-white/20 rounded-xl p-5 transition-colors text-center">
               <h3 className="font-semibold text-white mb-1">{t('treatmentLinks.gastricBalloon')}</h3>
               <p className="text-sm text-slate-300">{t('treatmentLinks.gastricBalloonPrice')}</p>
             </a>

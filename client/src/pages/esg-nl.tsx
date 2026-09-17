@@ -828,7 +828,7 @@ export default function ESGNederland() {
               { title: "ESG — Volledige informatie", href: "/esg", desc: "Alle details over de procedure" },
               { title: "Maagverkleining (Sleeve)", href: "/sleeve-gastrectomy", desc: "Populairste bariatrische operatie" },
               { title: "Mini gastric bypass", href: "/mini-gastric-bypass", desc: "Gecombineerde procedure" },
-              { title: "Maagballon", href: "/gastric-balloon", desc: "Niet-chirurgische optie" },
+              { title: "Maagballon", href: "/gastric-balloon-turkey", desc: "Niet-chirurgische optie" },
               { title: "Alle behandelingen", href: "/treatments", desc: "Procedures en prijzen vergelijken" },
               { title: "Patiëntresultaten", href: "/results", desc: "Voor-en-na succesverhalen" },
               { title: "Gezondheidsprofiel", href: "/health-profile", desc: "Geschiktheid beoordelen" },

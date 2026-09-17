@@ -673,7 +673,7 @@ export default function ESGRomania() {
               { title: "ESG — Informații complete", href: "/esg", desc: "Toate detaliile despre procedură" },
               { title: "Sleeve Gastrectomy", href: "/sleeve-gastrectomy", desc: "Cea mai populară operație bariatrică" },
               { title: "Mini bypass gastric", href: "/mini-gastric-bypass", desc: "Procedură combinată" },
-              { title: "Balon gastric", href: "/gastric-balloon", desc: "Opțiune non-chirurgicală" },
+              { title: "Balon gastric", href: "/gastric-balloon-turkey", desc: "Opțiune non-chirurgicală" },
               { title: "Toate tratamentele", href: "/treatments", desc: "Comparație și prețuri" },
               { title: "Rezultate", href: "/results", desc: "Povești de succes" },
               { title: "Despre noi", href: "/about", desc: "Dr. Murat Üstün și echipa" },

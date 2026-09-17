@@ -921,7 +921,7 @@ export default function ESGDeutschland() {
               { title: "ESG — Alle Details", href: "/esg", desc: "Ausführliche Verfahrensinformationen" },
               { title: "Schlauchmagen-Operation", href: "/sleeve-gastrectomy", desc: "Beliebteste bariatrische Operation" },
               { title: "Mini-Magenbypass", href: "/mini-gastric-bypass", desc: "Kombiniertes Verfahren" },
-              { title: "Magenballon", href: "/gastric-balloon", desc: "Nicht-chirurgische Option" },
+              { title: "Magenballon", href: "/gastric-balloon-turkey", desc: "Nicht-chirurgische Option" },
               { title: "Alle Behandlungen", href: "/treatments", desc: "Verfahren & Preise vergleichen" },
               { title: "Patientenergebnisse", href: "/results", desc: "Vorher-Nachher-Erfolgsgeschichten" },
               { title: "Gesundheitsprofil", href: "/health-profile", desc: "Eignung prüfen" },

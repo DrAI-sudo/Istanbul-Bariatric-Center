@@ -245,7 +245,7 @@ export default function SleeveGastrectomy() {
             { title: "See UK-patient pricing and packages", description: "Gastric sleeve Turkey guide: cost, clinics and all-inclusive packages.", href: "/gastric-sleeve-turkey" },
             { title: "Gastric Sleeve Turkey Cost", description: "Full price breakdown: what is and is not included.", href: "/gastric-sleeve-turkey-cost" },
             { title: t("related.gastricBypass.title"), description: t("related.gastricBypass.description"), href: "/gastric-bypass" },
-            { title: t("related.gastricBalloon.title"), description: t("related.gastricBalloon.description"), href: "/gastric-balloon" },
+            { title: t("related.gastricBalloon.title"), description: t("related.gastricBalloon.description"), href: "/gastric-balloon-turkey" },
             { title: t("related.endoscopicSleeve.title"), description: t("related.endoscopicSleeve.description"), href: "/esg" },
             { title: t("related.revisionSurgery.title"), description: t("related.revisionSurgery.description"), href: "/revision-bariatric-surgery" },
             { title: t("guides.sleeveVsBypass.title"), description: t("guides.sleeveVsBypass.description"), href: "/gastric-sleeve-vs-gastric-bypass" },

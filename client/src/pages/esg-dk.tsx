@@ -411,7 +411,7 @@ export default function ESGDenmark() {
             {[
               { title: "ESG — fuld information", href: "/esg", desc: "Alle detaljer om proceduren" },
               { title: "Sleeve Gastrectomy", href: "/sleeve-gastrectomy", desc: "Den mest populære bariatriske operation" },
-              { title: "Gastric Balloon", href: "/gastric-balloon", desc: "Ikke-kirurgisk alternativ" },
+              { title: "Gastric Balloon Turkey", href: "/gastric-balloon-turkey", desc: "Ikke-kirurgisk alternativ" },
               { title: "Alle behandlinger", href: "/treatments", desc: "Sammenligning og priser" },
               { title: "Resultater", href: "/results", desc: "Patienternes succeshistorier" },
               { title: "Kontakt", href: "/contact", desc: "Tal med vores team" },

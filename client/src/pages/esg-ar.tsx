@@ -910,7 +910,7 @@ export default function ESGArabic() {
               { title: "ESG — المعلومات الكاملة", href: "/esg", desc: "كل التفاصيل عن الإجراء" },
               { title: "تكميم المعدة", href: "/sleeve-gastrectomy", desc: "أشهر عملية لجراحة السمنة" },
               { title: "تحويل مسار المعدة", href: "/mini-gastric-bypass", desc: "إجراء مركب" },
-              { title: "بالون المعدة", href: "/gastric-balloon", desc: "خيار غير جراحي" },
+              { title: "بالون المعدة", href: "/gastric-balloon-turkey", desc: "خيار غير جراحي" },
               { title: "جميع العلاجات", href: "/treatments", desc: "مقارنة الإجراءات والأسعار" },
               { title: "نتائج المرضى", href: "/results", desc: "قصص نجاح قبل وبعد" },
               { title: "الملف الصحي", href: "/health-profile", desc: "تقييم الأهلية" },

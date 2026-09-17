@@ -442,7 +442,7 @@ export default function ESGAustraliaNZ() {
             {[
               { title: "ESG — Full Details", href: "/esg", desc: "Complete procedure information" },
               { title: "Sleeve Gastrectomy", href: "/sleeve-gastrectomy", desc: "Most popular bariatric surgery" },
-              { title: "Gastric Balloon", href: "/gastric-balloon", desc: "Non-surgical alternative" },
+              { title: "Gastric Balloon Turkey", href: "/gastric-balloon-turkey", desc: "Non-surgical alternative" },
               { title: "All Treatments", href: "/treatments", desc: "Compare options and pricing" },
               { title: "Results", href: "/results", desc: "Patient success stories" },
               { title: "Contact Us", href: "/contact", desc: "Speak to our team" },

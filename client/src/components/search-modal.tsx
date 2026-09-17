@@ -21,7 +21,7 @@ const staticPages: SearchResult[] = [
   { title: "Gastric Sleeve Surgery", href: "/sleeve-gastrectomy", type: "treatment" },
   { title: "Gastric Bypass Surgery (Roux-en-Y)", href: "/gastric-bypass", type: "treatment" },
   { title: "Mini Gastric Bypass (OAGB)", href: "/mini-gastric-bypass", type: "treatment" },
-  { title: "Gastric Balloon", href: "/gastric-balloon", type: "treatment" },
+  { title: "Gastric Balloon Turkey", href: "/gastric-balloon-turkey", type: "treatment" },
   { title: "Transit Bipartition", href: "/transit-bipartition", type: "treatment" },
   { title: "Endoscopic Sleeve Gastroplasty (ESG)", href: "/esg", type: "treatment" },
   { title: "Duodenal Switch", href: "/duodenal-switch", type: "treatment" },

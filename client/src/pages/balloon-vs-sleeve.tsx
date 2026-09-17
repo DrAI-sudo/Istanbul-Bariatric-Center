@@ -16,7 +16,7 @@ import {
 } from "@/components/money-page";
 
 const relatedHrefs = [
-  "/gastric-balloon",
+  "/gastric-balloon-turkey",
   "/esg",
   "/sleeve-gastrectomy",
   "/cost-of-bariatric-surgery-in-turkey",
@@ -68,7 +68,7 @@ export default function BalloonVsSleeve() {
               i18nKey="balloonVsSleevePage.prose.p1"
               components={{
                 strong: <strong />,
-                link1: <Link href="/gastric-balloon" className="text-primary hover:underline" />,
+                link1: <Link href="/gastric-balloon-turkey" className="text-primary hover:underline" />,
                 link2: <Link href="/sleeve-gastrectomy" className="text-primary hover:underline" />,
               }}
             />

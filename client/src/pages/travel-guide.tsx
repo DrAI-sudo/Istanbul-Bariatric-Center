@@ -70,7 +70,7 @@ export default function TravelGuide() {
               i18nKey="travelGuidePage.timeline.p1"
               components={{
                 esgLink: <Link href="/esg" className="text-primary hover:underline" />,
-                balloonLink: <Link href="/gastric-balloon" className="text-primary hover:underline" />,
+                balloonLink: <Link href="/gastric-balloon-turkey" className="text-primary hover:underline" />,
               }}
             />
           </p>

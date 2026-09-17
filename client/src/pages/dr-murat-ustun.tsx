@@ -12,7 +12,7 @@ const procedures = [
   { name: "Gastric Sleeve (Sleeve Gastrectomy)", href: "/sleeve-gastrectomy" },
   { name: "Mini Gastric Bypass", href: "/mini-gastric-bypass" },
   { name: "Endoscopic Sleeve Gastroplasty (ESG)", href: "/esg" },
-  { name: "Gastric Balloon", href: "/gastric-balloon" },
+  { name: "Gastric Balloon Turkey", href: "/gastric-balloon-turkey" },
   { name: "Duodenal Switch", href: "/duodenal-switch" },
   { name: "Transit Bipartition", href: "/transit-bipartition" },
   { name: "Revision Bariatric Surgery", href: "/revision-bariatric-surgery" },

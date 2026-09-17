@@ -921,7 +921,7 @@ export default function ESGUK() {
               { title: "ESG Procedure Details", href: "/esg", desc: "Full ESG procedure information" },
               { title: "Gastric Sleeve Surgery", href: "/sleeve-gastrectomy", desc: "Most popular bariatric surgery" },
               { title: "Mini Gastric Bypass", href: "/mini-gastric-bypass", desc: "Combined restrictive & malabsorptive" },
-              { title: "Gastric Balloon", href: "/gastric-balloon", desc: "Non-surgical temporary option" },
+              { title: "Gastric Balloon Turkey", href: "/gastric-balloon-turkey", desc: "Non-surgical temporary option" },
               { title: "All Treatments", href: "/treatments", desc: "Compare all procedures & pricing" },
               { title: "Patient Results", href: "/results", desc: "Before & after success stories" },
               { title: "Health Profile Assessment", href: "/health-profile", desc: "Check your eligibility" },

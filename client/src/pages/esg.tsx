@@ -341,7 +341,7 @@ export default function ESG() {
           links={[
             { title: t("related.gastricSleeve.title"), description: t("related.gastricSleeve.description"), href: "/sleeve-gastrectomy" },
             { title: t("related.gastricBypass.title"), description: t("related.gastricBypass.description"), href: "/mini-gastric-bypass" },
-            { title: t("related.gastricBalloon.title"), description: t("related.gastricBalloon.description"), href: "/gastric-balloon" },
+            { title: t("related.gastricBalloon.title"), description: t("related.gastricBalloon.description"), href: "/gastric-balloon-turkey" },
             { title: t("related.costGuide.title"), description: t("related.costGuide.description"), href: "/cost-of-bariatric-surgery-in-turkey" },
             { title: t("guides.esgVsSleeve.title"), description: t("guides.esgVsSleeve.description"), href: "/esg-vs-gastric-sleeve" },
             { title: t("guides.balloonVsSleeve.title"), description: t("guides.balloonVsSleeve.description"), href: "/gastric-balloon-vs-gastric-sleeve" },

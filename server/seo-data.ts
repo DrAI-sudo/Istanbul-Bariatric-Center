@@ -7,6 +7,7 @@ const __seoDirname = path.dirname(fileURLToPath(import.meta.url));
 import { gastricBypassSEO } from "./seo-pages/gastric-bypass";
 import { gastricSleeveTurkeySEO } from "./seo-pages/gastric-sleeve-turkey";
 import { gastricSleeveTurkeyCostSEO } from "./seo-pages/gastric-sleeve-turkey-cost";
+import { gastricBalloonTurkeySEO } from "./seo-pages/gastric-balloon-turkey";
 
 const SITE_URL = "https://istanbulbariatriccenter.com";
 
@@ -109,7 +110,7 @@ const SERVER_BREADCRUMBS: Record<string, Array<{ name: string; path: string }>> 
   "/gastric-bypass": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Bypass", path: "/gastric-bypass" }],
   "/gastric-sleeve-turkey": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Sleeve Turkey", path: "/gastric-sleeve-turkey" }],
   "/gastric-sleeve-turkey-cost": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Sleeve Turkey Cost", path: "/gastric-sleeve-turkey-cost" }],
-  "/gastric-balloon": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Balloon", path: "/gastric-balloon" }],
+  "/gastric-balloon-turkey": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Gastric Balloon Turkey", path: "/gastric-balloon-turkey" }],
   "/duodenal-switch": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Duodenal Switch", path: "/duodenal-switch" }],
   "/transit-bipartition": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Transit Bipartition", path: "/transit-bipartition" }],
   "/post-bariatric-surgery": [{ name: "Home", path: "/" }, { name: "Treatments", path: "/treatments" }, { name: "Post-Bariatric Surgery", path: "/post-bariatric-surgery" }],
@@ -177,6 +178,7 @@ const staticPages: Record<string, PageSEO> = {
   "/gastric-bypass": gastricBypassSEO,
   "/gastric-sleeve-turkey": gastricSleeveTurkeySEO,
   "/gastric-sleeve-turkey-cost": gastricSleeveTurkeyCostSEO,
+  "/gastric-balloon-turkey": gastricBalloonTurkeySEO,
   "/": {
     title: "Weight Loss Surgery in Istanbul | Free Consultation",
     description: "Istanbul Bariatric Center: Expert weight loss surgery in Turkey. Gastric sleeve & bypass options with Dr. Murat Ustun. Book your free consultation.",
@@ -299,7 +301,7 @@ const staticPages: Record<string, PageSEO> = {
 <section><h2>At a Glance</h2><ul><li>25+ years' experience</li><li>6,000+ advanced laparoscopic procedures</li><li>2,200+ sleeve gastrectomies</li><li>700+ gastric bypass operations</li><li>700+ endoscopic balloon placements</li><li>300+ complex revisional surgeries</li></ul></section>
 <section><h2>Education and Training</h2><p>Dr Üstün earned his MD and PhD in Medicine at Ege University Faculty of Medicine, İzmir, from 1986 to 1992. He completed specialist training in General Surgery at the Ministry of Health, Ankara Dışkapı Training & Research Hospital from 1992 to 1996, qualifying as a specialist in 1996. His ongoing advanced training includes IRCAD, ESG and Apollo OverStitch workshops, laparoscopic and robotic bariatric surgery, Eurosurgery obesity treatment workshops, International Bariatric Club Oxford congresses and the Boston Scientific Certification of Trainers Program for Endosleeve.</p></section>
 <section><h2>Expertise and Memberships</h2><p>His expertise includes sleeve gastrectomy, Roux-en-Y and mini gastric bypass, SADI-S and BPD-DS, revisional and robotic bariatric surgery, ESG, TORe, Orbera and Allurion balloons, metabolic surgery for type 2 diabetes, AI and digital health innovation, and medical education in English and Turkish. He is a member of BOMSS, IFSO, the International Bariatric Club and leading Turkish surgical societies.</p></section>
-<section><h2>Procedures Performed</h2><ul><li><a href="/sleeve-gastrectomy">Gastric Sleeve (Sleeve Gastrectomy)</a></li><li><a href="/mini-gastric-bypass">Mini Gastric Bypass</a></li><li><a href="/esg">Endoscopic Sleeve Gastroplasty (ESG)</a></li><li><a href="/gastric-balloon">Gastric Balloon</a></li><li><a href="/duodenal-switch">Duodenal Switch</a></li><li><a href="/transit-bipartition">Transit Bipartition</a></li><li><a href="/revision-bariatric-surgery">Revision Bariatric Surgery</a></li><li><a href="/treatments">POSE-2, TORe and GFMA endoscopic procedures</a></li></ul></section>
+<section><h2>Procedures Performed</h2><ul><li><a href="/sleeve-gastrectomy">Gastric Sleeve (Sleeve Gastrectomy)</a></li><li><a href="/mini-gastric-bypass">Mini Gastric Bypass</a></li><li><a href="/esg">Endoscopic Sleeve Gastroplasty (ESG)</a></li><li><a href="/gastric-balloon-turkey">Gastric Balloon Turkey</a></li><li><a href="/duodenal-switch">Duodenal Switch</a></li><li><a href="/transit-bipartition">Transit Bipartition</a></li><li><a href="/revision-bariatric-surgery">Revision Bariatric Surgery</a></li><li><a href="/treatments">POSE-2, TORe and GFMA endoscopic procedures</a></li></ul></section>
 <section><h2>Awards</h2><p>WhatClinic Patient Service Awards: 2019, 2020, 2021, 2023, 2024 and 2025.</p></section>
 <section><h2>Frequently Asked Questions</h2>
 <article><h3>Where does Dr Üstün operate?</h3><p>Dr Üstün operates at Liv Hospital Vadistanbul and Memorial Hospitals Group in Istanbul.</p></article>
@@ -365,7 +367,7 @@ const staticPages: Record<string, PageSEO> = {
       "hasPart": [
         { "@type": "MedicalProcedure", "name": "Gastric Sleeve Surgery", "url": SITE_URL + "/sleeve-gastrectomy" },
         { "@type": "MedicalProcedure", "name": "Mini Gastric Bypass", "url": SITE_URL + "/mini-gastric-bypass" },
-        { "@type": "MedicalProcedure", "name": "Gastric Balloon", "url": SITE_URL + "/gastric-balloon" },
+        { "@type": "MedicalProcedure", "name": "Gastric Balloon", "url": SITE_URL + "/gastric-balloon-turkey" },
         { "@type": "MedicalProcedure", "name": "Endoscopic Sleeve Gastroplasty (ESG)", "url": SITE_URL + "/esg" },
         { "@type": "MedicalProcedure", "name": "POSE-2 Double Helix", "url": SITE_URL + "/treatments#pose-2-double-helix" },
         { "@type": "MedicalProcedure", "name": "Duodenal Switch", "url": SITE_URL + "/duodenal-switch" },
@@ -818,45 +820,6 @@ const staticPages: Record<string, PageSEO> = {
       ]
     }]
   },
-  "/gastric-balloon": {
-    title: "Gastric Balloon Turkey from £1,900 | Orbera and Allurion",
-    description: "Gastric balloon Turkey packages: Orbera £1,900 and Allurion £2,600. Compare options, eligibility, risks, aftercare and expected 10–15% weight loss.",
-    h1: "Gastric Balloon in Turkey — From £1,900 All-Inclusive",
-    bodyExcerpt: "Gastric balloon Turkey treatment starts at £1,900 for Orbera, with Allurion available for £2,600. Compare placement, eligibility, risks and aftercare for these temporary, non-surgical weight-loss options.",
-    canonical: SITE_URL + "/gastric-balloon",
-    richContent: `<section><h2>What is a gastric balloon?</h2><p>A gastric balloon is a temporary device that occupies space in the stomach and helps an eligible patient feel full after smaller portions. It does not cut, staple or reroute the digestive system. Typical total body weight loss is 10–15% over 6–12 months, but results vary and sustained progress depends on nutrition, activity and follow-up.</p></section>
-<section><h2>Orbera and Allurion gastric balloon prices</h2><h3>Orbera gastric balloon — £1,900</h3><p>Orbera is placed through the mouth by endoscopy under sedation, filled with saline and removed endoscopically after six months.</p><h3>Allurion swallowable gastric balloon — £2,600</h3><p>Allurion is swallowed as a capsule under clinical supervision, filled after its position is confirmed and designed to deflate and pass naturally after about four months.</p></section>
-<section><h2>Who may be eligible?</h2><p>A gastric balloon may suit selected adults seeking a temporary, non-surgical weight-loss tool who can follow staged eating, hydration and aftercare instructions. Certain stomach or oesophageal disease, previous gastrointestinal surgery, pregnancy, uncontrolled illness or inability to follow care instructions may make treatment unsuitable. A clinician must review each patient's full history.</p></section>
-<section><h2>Treatment and recovery in Istanbul</h2><p>Assessment begins before travel with a review of weight history, health conditions, previous procedures and medicines. Care is provided at JCI-accredited Liv Hospital Vadistanbul. Nausea, cramping and reflux can occur during early adjustment, so patients receive hydration, diet and warning-sign guidance before returning home.</p></section>
-<section><h2>Risks and aftercare</h2><p>Common effects include nausea, vomiting, discomfort, reflux and dehydration. Less common but serious complications can include intolerance, ulceration, balloon deflation or migration, obstruction and perforation. Severe pain, persistent vomiting, bleeding, breathing difficulty or inability to drink requires prompt medical attention.</p></section>
-<section><h2>Balloon, ESG or gastric sleeve?</h2><p>A balloon is temporary and typically produces more modest weight loss than bariatric surgery. Eligible patients who need a different level of treatment can compare <a href="/esg">endoscopic sleeve gastroplasty</a>, <a href="/gastric-sleeve-turkey">gastric sleeve in Turkey</a> and the detailed <a href="/gastric-balloon-vs-gastric-sleeve">balloon versus sleeve guide</a>. Current prices are listed in the <a href="/cost-of-bariatric-surgery-in-turkey">bariatric treatment cost guide</a>.</p></section>
-<section><h2>Why Istanbul Bariatric Center?</h2><p>The centre was founded by <a href="/dr-murat-ustun">Dr Murat Üstün</a>, a consultant bariatric and metabolic surgeon with 25+ years of experience and more than 6,000 advanced laparoscopic procedures. He is a BOMSS and IFSO member and pioneer of ESG in Turkey. The clinic received the WhatClinic Patient Service Award in 2019–2021 and 2023–2025.</p></section>
-<section><h2>Gastric balloon Turkey FAQs</h2><h3>How much does a gastric balloon cost in Turkey?</h3><p>At Istanbul Bariatric Center, Orbera costs £1,900 and the Allurion swallowable balloon costs £2,600.</p><h3>What weight loss can I expect?</h3><p>Typical total body weight loss is 10–15% over 6–12 months, although individual results vary.</p><h3>What is the difference between Orbera and Allurion?</h3><p>Orbera is placed and removed endoscopically and normally remains for six months. Allurion is swallowed under clinical supervision and is designed to deflate and pass naturally after about four months.</p><h3>Is a gastric balloon surgery?</h3><p>No abdominal incision is made. Orbera requires endoscopy with sedation for placement and removal; Allurion does not normally require endoscopy or anaesthesia for placement.</p><h3>What are the risks?</h3><p>Common effects include nausea, cramps and reflux. Less common risks include intolerance, deflation or migration, ulceration, obstruction and perforation.</p></section>`,
-    jsonLd: [{
-      "@context": "https://schema.org",
-      "@type": "MedicalProcedure",
-      "@id": SITE_URL + "/gastric-balloon#procedure",
-      "name": "Gastric Balloon Turkey",
-      "alternateName": ["Intragastric Balloon", "Orbera Balloon", "Allurion Balloon"],
-      "procedureType": "Noninvasive",
-      "description": "Temporary gastric balloon treatment in Istanbul with Orbera and Allurion options.",
-      "performedBy": { "@id": "https://istanbulbariatriccenter.com/#drmuratustun" },
-      "offers": [
-        { "@type": "Offer", "name": "Orbera Balloon", "price": "1900", "priceCurrency": "GBP" },
-        { "@type": "Offer", "name": "Allurion Balloon", "price": "2600", "priceCurrency": "GBP" }
-      ]
-    }, {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "How much does a gastric balloon cost in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "At Istanbul Bariatric Center, the Orbera gastric balloon costs £1,900 and the Allurion swallowable balloon costs £2,600." } },
-        { "@type": "Question", "name": "What weight loss can I expect from a gastric balloon?", "acceptedAnswer": { "@type": "Answer", "text": "Typical total body weight loss is 10–15% over 6–12 months, although individual results vary." } },
-        { "@type": "Question", "name": "What is the difference between Orbera and Allurion?", "acceptedAnswer": { "@type": "Answer", "text": "Orbera is placed and removed endoscopically and normally remains for six months. Allurion is swallowed under clinical supervision and is designed to deflate and pass naturally after about four months." } },
-        { "@type": "Question", "name": "Is a gastric balloon surgery?", "acceptedAnswer": { "@type": "Answer", "text": "No abdominal incision is made. Orbera requires endoscopy with sedation for placement and removal; Allurion does not normally require endoscopy or anaesthesia for placement." } },
-        { "@type": "Question", "name": "What are the common side effects and risks?", "acceptedAnswer": { "@type": "Answer", "text": "Nausea, vomiting, cramps, reflux and dehydration are common during adjustment. Less common risks include intolerance, deflation or migration, ulceration, obstruction and perforation." } }
-      ]
-    }]
-  },
   "/duodenal-switch": {
     title: "Duodenal Switch in Turkey - Istanbul Bariatric Center",
     description: "Duodenal Switch (BPD/DS) surgery in Istanbul for severe obesity. Highest long-term weight loss results. Expert bariatric care with Dr. Murat Ustun.",
@@ -1151,7 +1114,7 @@ const staticPages: Record<string, PageSEO> = {
         { "@type": "Question", "name": "Does the weight come back after a gastric balloon?", "acceptedAnswer": { "@type": "Answer", "text": "It can. Once the balloon is removed, the stomach returns to normal capacity, so keeping the weight off depends entirely on the eating habits built during the balloon period. Studies show a significant portion of patients regain weight within 1-2 years of removal unless they transition to further treatment or maintain strict habits." }},
         { "@type": "Question", "name": "Who is a gastric balloon actually right for?", "acceptedAnswer": { "@type": "Answer", "text": "Patients with BMI 27-35 who need to lose 10-25 kg, patients who want a fully reversible trial of restriction before committing to surgery, and higher-BMI patients who need to lose weight before an operation. For BMI over 35 seeking a lasting result, ESG or a surgical sleeve is usually the better investment." }},
         { "@type": "Question", "name": "Is the balloon safer than the sleeve?", "acceptedAnswer": { "@type": "Answer", "text": "The balloon avoids surgery entirely \u2014 it is placed endoscopically in about 20 minutes, and swallowable versions need no endoscopy at all. Serious complications are rare, though nausea in the first week is common. The sleeve is also very safe (1-3% major complications) but is a permanent operation. In between the two sits ESG: non-surgical like the balloon, durable like the sleeve." }},
-        { "@type": "Question", "name": "What do the balloon and sleeve cost in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "At Istanbul Bariatric Center the gastric balloon starts at \u00a31,650 and the gastric sleeve at \u00a32,950, both all-inclusive. Note that a balloon lasts 6-12 months while the sleeve is permanent \u2014 per kilogram kept off long-term, the sleeve and ESG are usually better value." }},
+        { "@type": "Question", "name": "What do the balloon and sleeve cost in Turkey?", "acceptedAnswer": { "@type": "Answer", "text": "At Istanbul Bariatric Center the gastric balloon starts at \u00a31,900 and the gastric sleeve at \u00a32,450, both all-inclusive. Note that a balloon lasts 6-12 months while the sleeve is permanent \u2014 per kilogram kept off long-term, the sleeve and ESG are usually better value." }},
         { "@type": "Question", "name": "Can I have a sleeve or ESG after a balloon?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, and it is a common pathway: balloon first to reduce weight and prove restriction works for you, then ESG or a surgical sleeve for the permanent result. We plan this two-step route deliberately for suitable patients." }}
       ]
     }, {
@@ -1327,7 +1290,7 @@ const staticPages: Record<string, PageSEO> = {
         { "@type": "Question", "name": "How much does Endosleeve cost in Istanbul in 2026?", "acceptedAnswer": { "@type": "Answer", "text": "All-inclusive Endosleeve / Apollo ESG in Istanbul at Istanbul Bariatric Center starts at £5,700 (approximately €5,700 / $6,690 / AU$9,650), which is 60–70% less than equivalent private clinics in the UK, US, Germany or Australia." }},
         { "@type": "Question", "name": "Where can I get Endosleeve surgery in Istanbul with good results?", "acceptedAnswer": { "@type": "Answer", "text": "Istanbul Bariatric Center reports average 15–25% total body weight loss at 12 months from 2,000+ Endosleeve cases, with ≥80% of patients maintaining ≥10% weight loss at 5 years — consistent with published MERIT trial data — and zero major adverse events in the 2025–2026 series." }},
         { "@type": "Question", "name": "What is the difference between Endosleeve and ESG-Max?", "acceptedAnswer": { "@type": "Answer", "text": "Standard Apollo Endosleeve / ESG uses approximately 6 sutures to form the tubular sleeve. ESG-Max is the extended technique using 8–12 reinforcement sutures for higher-BMI patients seeking greater volume reduction and improved long-term durability. Both are offered at Istanbul Bariatric Center at the same all-inclusive price." }},
-        { "@type": "Question", "name": "What are the non-surgical weight loss options in Istanbul?", "acceptedAnswer": { "@type": "Answer", "text": "The three main non-surgical weight loss options in Istanbul are Endosleeve / Apollo ESG (15–25% total body weight loss, 10+ year durability, from £5,700), gastric balloon (10–15% TBWL while in place, from £2,500), and GLP-1 medication such as Mounjaro or Wegovy (15–22% on medication, £200–400/month)." }},
+        { "@type": "Question", "name": "What are the non-surgical weight loss options in Istanbul?", "acceptedAnswer": { "@type": "Answer", "text": "The three main non-surgical weight loss options in Istanbul are Endosleeve / Apollo ESG (15–25% total body weight loss, 10+ year durability, from £5,700), gastric balloon (10–15% TBWL while in place, from £1,900), and GLP-1 medication such as Mounjaro or Wegovy (15–22% on medication, £200–400/month)." }},
         { "@type": "Question", "name": "How long do I need to stay in Istanbul for Endosleeve?", "acceptedAnswer": { "@type": "Answer", "text": "Most international patients stay in Istanbul for 3–4 days in total: arrive day 1, Endosleeve procedure day 2, rest day 3, fly home day 4. Most patients are discharged the same day as the procedure; about one in five stays a single night for observation." }}
       ]
     }, {
@@ -2422,7 +2385,7 @@ const staticPages: Record<string, PageSEO> = {
     h1: "Insurance & Finance Options",
     bodyExcerpt: "Istanbul Bariatric Center offers various insurance and financing options to make weight loss surgery accessible and affordable. Explore medical tourism packages, payment plans, and insurance coverage options for gastric sleeve, gastric bypass, and other bariatric procedures in Turkey.",
     canonical: SITE_URL + "/insurance",
-    richContent: `<section><h2>Affordable Weight Loss Surgery</h2><p>Istanbul Bariatric Center offers competitive all-inclusive pricing for weight loss surgery, making it accessible for patients from the UK, Europe, and worldwide. Our packages start from £1,900 for gastric balloon and £3,400 for gastric sleeve surgery, including hospital stay, tests, transfers, and aftercare.</p></section>
+    richContent: `<section><h2>Affordable Weight Loss Surgery</h2><p>Istanbul Bariatric Center offers competitive all-inclusive pricing for weight loss surgery, making it accessible for patients from the UK, Europe, and worldwide. Our packages start from £1,900 for gastric balloon and £2,450 for gastric sleeve surgery, including hospital stay, tests, transfers, and aftercare.</p></section>
 <section><h2>Finance Options</h2><p>We work with medical finance providers to offer flexible payment plans for bariatric surgery. Spread the cost of your treatment with affordable monthly payments. Contact our patient coordinators for personalised finance options.</p></section>`,
     jsonLd: [{
       "@context": "https://schema.org",
@@ -2634,7 +2597,7 @@ const navLinks = [
   { href: "/treatments", text: "Treatments" },
   { href: "/sleeve-gastrectomy", text: "Gastric Sleeve" },
   { href: "/mini-gastric-bypass", text: "Mini Gastric Bypass" },
-  { href: "/gastric-balloon", text: "Gastric Balloon" },
+  { href: "/gastric-balloon-turkey", text: "Gastric Balloon Turkey" },
   { href: "/esg", text: "ESG" },
   { href: "/duodenal-switch", text: "Duodenal Switch" },
   { href: "/transit-bipartition", text: "Transit Bipartition" },

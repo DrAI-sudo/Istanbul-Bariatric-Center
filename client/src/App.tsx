@@ -23,7 +23,7 @@ const MiniGastricBypass = lazy(() => import("@/pages/mini-gastric-bypass"));
 const GastricBypass = lazy(() => import("@/pages/gastric-bypass"));
 const GastricSleeveTurkey = lazy(() => import("@/pages/gastric-sleeve-turkey"));
 const GastricSleeveTurkeyCost = lazy(() => import("@/pages/gastric-sleeve-turkey-cost"));
-const GastricBalloon = lazy(() => import("@/pages/gastric-balloon"));
+const GastricBalloonTurkey = lazy(() => import("@/pages/gastric-balloon-turkey"));
 const DuodenalSwitch = lazy(() => import("@/pages/duodenal-switch"));
 const TransitBipartition = lazy(() => import("@/pages/transit-bipartition"));
 const ESG = lazy(() => import("@/pages/esg"));
@@ -109,7 +109,7 @@ function Router() {
           <Route path="/gastric-bypass" component={GastricBypass} />
           <Route path="/gastric-sleeve-turkey" component={GastricSleeveTurkey} />
           <Route path="/gastric-sleeve-turkey-cost" component={GastricSleeveTurkeyCost} />
-          <Route path="/gastric-balloon" component={GastricBalloon} />
+          <Route path="/gastric-balloon-turkey" component={GastricBalloonTurkey} />
           <Route path="/duodenal-switch" component={DuodenalSwitch} />
           <Route path="/transit-bipartition" component={TransitBipartition} />
           <Route path="/esg" component={ESG} />

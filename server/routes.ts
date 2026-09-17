@@ -18,11 +18,11 @@ const LEGACY_REDIRECTS: Record<string, string> = {
   "/revision-surgery": "/revision-bariatric-surgery",
   "/treatments/bariatric-surgery/sleeve-gastrectomy": "/sleeve-gastrectomy",
   "/treatments/bariatric-surgery/gastric-bypass": "/mini-gastric-bypass",
-  "/treatments/bariatric-surgery/gastric-balloon": "/gastric-balloon",
+  "/treatments/bariatric-surgery/gastric-balloon": "/gastric-balloon-turkey",
   "/treatments/bariatric-surgery/duodenal-switch": "/duodenal-switch",
   "/treatments/gastric-sleeve": "/sleeve-gastrectomy",
   "/treatments/gastric-bypass": "/mini-gastric-bypass",
-  "/treatments/gastric-balloon": "/gastric-balloon",
+  "/treatments/gastric-balloon": "/gastric-balloon-turkey",
   "/treatments/transit-bipartition": "/transit-bipartition",
   "/treatments/esg": "/esg",
   "/treatments/revision-surgery": "/treatments",
@@ -63,11 +63,11 @@ const LEGACY_REDIRECTS: Record<string, string> = {
   "/gastric-bypass-turkey": "/gastric-bypass",
   "/mini-gastric-bypass-turkey": "/mini-gastric-bypass",
   "/roux-en-y-gastric-bypass": "/gastric-bypass",
-  "/gastric-balloon-turkey": "/gastric-balloon",
-  "/intragastric-balloon": "/gastric-balloon",
-  "/allurion-balloon": "/gastric-balloon",
-  "/orbera-balloon": "/gastric-balloon",
-  "/elipse-balloon": "/gastric-balloon",
+  "/gastric-balloon": "/gastric-balloon-turkey",
+  "/intragastric-balloon": "/gastric-balloon-turkey",
+  "/allurion-balloon": "/gastric-balloon-turkey",
+  "/orbera-balloon": "/gastric-balloon-turkey",
+  "/elipse-balloon": "/gastric-balloon-turkey",
   "/duodenal-switch-turkey": "/duodenal-switch",
   "/biliopancreatic-diversion": "/duodenal-switch",
   "/esg-turkey": "/esg",
@@ -156,7 +156,7 @@ export async function registerRoutes(
       "/gastric-bypass": { priority: "0.9", changefreq: "monthly" },
       "/gastric-sleeve-turkey": { priority: "0.9", changefreq: "monthly" },
       "/gastric-sleeve-turkey-cost": { priority: "0.9", changefreq: "monthly" },
-      "/gastric-balloon": { priority: "0.9", changefreq: "monthly", lastmod: "2025-02-01" },
+      "/gastric-balloon-turkey": { priority: "0.9", changefreq: "monthly", lastmod: "2026-09-17" },
       "/duodenal-switch": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-01" },
       "/transit-bipartition": { priority: "0.8", changefreq: "monthly", lastmod: "2025-02-01" },
       "/esg": { priority: "0.9", changefreq: "monthly", lastmod: "2025-03-05" },
@@ -252,7 +252,7 @@ export async function registerRoutes(
 - [Gastric Bypass Surgery in Turkey](${BASE_URL}/gastric-bypass): Roux-en-Y and mini (OAGB) bypass compared. All-inclusive packages Relaxation £5,000 / Luxury £5,350.
 - [Gastric Sleeve Turkey 2026 Guide](${BASE_URL}/gastric-sleeve-turkey): Cost, best clinics and all-inclusive packages compared. Sleeve packages from £2,450.
 - [Gastric Sleeve Turkey Cost](${BASE_URL}/gastric-sleeve-turkey-cost): Full price breakdown for gastric sleeve in Turkey — Ultra Eco £2,450, Relaxation £4,550, Luxury £4,900.
-- [Gastric Balloon](${BASE_URL}/gastric-balloon): From £1,900. Non-surgical, temporary balloon placed in stomach. Orbera (endoscopic) and Allurion (swallowable) options available.
+- [Gastric Balloon Turkey](${BASE_URL}/gastric-balloon-turkey): From £1,900. Non-surgical day-case Orbera, Allurion and Spatz3 options.
 - [Endoscopic Sleeve Gastroplasty (ESG)](${BASE_URL}/esg): From £5,700. Non-surgical stomach reduction via endoscope. No incisions, 1-3 day recovery. Pioneered in Turkey by Dr Murat Ustun.
 - [ESG for UK Patients](${BASE_URL}/esg/uk): ESG tailored for UK patients. Save up to 70% vs UK private clinics. All-inclusive packages from £5,700. UK patient coordinators, UK WhatsApp support.
 - [ESG für deutsche Patienten](${BASE_URL}/esg/de): ESG für Patienten aus Deutschland. Bis zu 70% günstiger als in Deutschland. All-Inclusive-Pakete ab ca. 5.800 €. Deutschsprachige Patientenbetreuung.
@@ -468,7 +468,7 @@ ${blogSection}
 - [Treatments](${BASE_URL}/treatments)
 - [Gastric Sleeve](${BASE_URL}/sleeve-gastrectomy)
 - [Mini Gastric Bypass](${BASE_URL}/mini-gastric-bypass)
-- [Gastric Balloon](${BASE_URL}/gastric-balloon)
+- [Gastric Balloon Turkey](${BASE_URL}/gastric-balloon-turkey)
 - [ESG](${BASE_URL}/esg)
 - [Duodenal Switch](${BASE_URL}/duodenal-switch)
 - [Transit Bipartition](${BASE_URL}/transit-bipartition)

@@ -345,7 +345,7 @@ export default function GastricSleeveTurkey() {
         <RelatedLinks title="Related procedures and resources" links={[
           { title: "Sleeve gastrectomy procedure", description: "Learn how the operation is performed.", href: "/sleeve-gastrectomy" },
           { title: "Mini gastric bypass", description: "Compare an alternative bariatric operation.", href: "/mini-gastric-bypass" },
-          { title: "Gastric balloon", description: "Explore temporary non-surgical options.", href: "/gastric-balloon" },
+          { title: "Gastric balloon Turkey", description: "Explore temporary non-surgical options.", href: "/gastric-balloon-turkey" },
           { title: "Endoscopic sleeve gastroplasty", description: "Explore incisionless stomach reduction.", href: "/esg" },
           { title: "Before and after results", description: "Review real patient outcomes.", href: "/results" },
         ]} />
