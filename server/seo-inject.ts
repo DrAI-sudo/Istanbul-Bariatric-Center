@@ -159,7 +159,7 @@ export function injectSEO(html: string, requestPath: string): string {
         { "@type": "EducationalOccupationalCredential", "credentialCategory": "Accreditation", "name": "JCI (Joint Commission International) Accredited Hospital", "url": "https://www.jointcommissioninternational.org/" },
         { "@type": "EducationalOccupationalCredential", "credentialCategory": "Membership", "name": "IFSO Member Institution" }
       ],
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "850", "bestRating": "5" },
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "55", "bestRating": "5", "worstRating": "1", "author": { "@type": "Organization", "name": "WhatClinic", "url": "https://www.whatclinic.com/cosmetic-plastic-surgery/turkey/istanbul/istanbul-bariatric-center" } },
       "sameAs": [
         "https://www.facebook.com/istanbulbariatriccenter",
         "https://www.instagram.com/istanbulbariatriccenter",

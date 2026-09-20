@@ -6,12 +6,10 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 
 const reviews = [
-  { name: "Sarah T.", city: "London, UK", rating: 5, text: "Endosleeve with Dr Ustun in March 2026 — lost 22 kg in 7 months with no regain. The all-inclusive package was exactly as described, JCI hospital was spotless, and the UK dietitian follow-up has been brilliant." },
-  { name: "Mark R.", city: "Manchester, UK", rating: 5, text: "Apollo ESG with Istanbul Bariatric Center was life-changing. The UK coordinator answered every question, the hotel was 5★ and the procedure itself was a breeze — home the same day. Down 18 kg in 5 months." },
-  { name: "Jennifer M.", city: "New York, USA", rating: 5, text: "After failing on Ozempic due to side effects, ESG at Istanbul Bariatric Center was the right step. Dr Ustun is genuinely one of the best — clear, patient, experienced." },
-  { name: "Andrea K.", city: "Munich, Germany", rating: 5, text: "We chose ESG-Max in Istanbul and we are absolutely satisfied. 24 kg in 8 months, professional team, clean hospital." },
-  { name: "David H.", city: "Sydney, Australia", rating: 5, text: "The Apollo Endosleeve at Istanbul Bariatric Center exceeded every expectation. Genuine OverStitch device, real JCI hospital, 12-month dietitian was the difference-maker." },
-  { name: "Yusuf A.", city: "Dubai, UAE", rating: 5, text: "Dr Ustun is a true expert. The Endosleeve was painless, recovery was quick and I lost 19 kg in 6 months while keeping my busy work schedule." },
+  { name: "Amra M.", city: "Google review, July 2026", rating: 5, text: "A few days ago I underwent a mini gastric bypass surgery with Dr Murat Üstün — everything went perfectly. I had complete trust from the very beginning. The care and follow-up have been outstanding." },
+  { name: "Kozeta K.", city: "Google review, June 2026", rating: 5, text: "I had an outstanding experience undergoing gastric bypass surgery with Dr Murat Üstün. Professional, kind, and truly one of the best in his field." },
+  { name: "Peter N.", city: "Google review, March 2026", rating: 5, text: "My experience with Dr Üstün was very good. The endoscopic sleeve went smoothly and the aftercare from the team was excellent." },
+  { name: "Jeremy G.", city: "Google review, October 2024", rating: 5, text: "Recently had a gastric mini-bypass performed by Dr Murat Üstün — highly recommend. Excellent surgeon, excellent team, results speak for themselves." },
 ];
 
 const markers = [
@@ -19,7 +17,7 @@ const markers = [
   { icon: Award, label: "Suturing device", standard: "Genuine Apollo OverStitch", us: "Apollo OverStitch (FDA + NICE)" },
   { icon: Building2, label: "Hospital accreditation", standard: "JCI accredited", us: "JCI-accredited Liv Hospital" },
   { icon: Users, label: "Structured aftercare", standard: "12 months", us: "12 months UK-registered dietitian" },
-  { icon: Star, label: "Verified review rating", standard: "4.5★ minimum, 100+ reviews", us: "4.9★ across 412+ reviews" },
+  { icon: Star, label: "Verified review rating", standard: "4.5★ minimum, 100+ reviews", us: "5.0★ Google (31) + 4.9★ WhatClinic (55)" },
 ];
 
 export default function BestEndosleeveClinic() {
@@ -35,7 +33,7 @@ export default function BestEndosleeveClinic() {
           <div className="flex flex-wrap gap-4 items-center">
             <div className="flex items-center gap-2 text-amber-500">
               <Star className="w-5 h-5 fill-amber-500" /><Star className="w-5 h-5 fill-amber-500" /><Star className="w-5 h-5 fill-amber-500" /><Star className="w-5 h-5 fill-amber-500" /><Star className="w-5 h-5 fill-amber-500" />
-              <span className="text-slate-800 font-semibold">4.9 / 5 from 412+ verified patients</span>
+              <span className="text-slate-800 font-semibold">5.0 / 5 from 31 Google reviews · 4.9 / 5 from 55 WhatClinic reviews</span>
             </div>
           </div>
           <div className="flex flex-wrap gap-3 mt-8">
@@ -95,7 +93,7 @@ export default function BestEndosleeveClinic() {
           <div className="grid md:grid-cols-3 gap-6">
             <Card><CardContent className="p-6 text-center"><div className="text-4xl font-bold text-blue-700">2,000+</div><div className="text-slate-600 mt-2">Endosleeve / ESG cases completed</div></CardContent></Card>
             <Card><CardContent className="p-6 text-center"><div className="text-4xl font-bold text-blue-700">15–25%</div><div className="text-slate-600 mt-2">Total body weight loss at 12 months</div></CardContent></Card>
-            <Card><CardContent className="p-6 text-center"><div className="text-4xl font-bold text-blue-700">4.9★</div><div className="text-slate-600 mt-2">Verified rating across 412+ patients</div></CardContent></Card>
+            <Card><CardContent className="p-6 text-center"><div className="text-4xl font-bold text-blue-700">5.0★ / 4.9★</div><div className="text-slate-600 mt-2">Google (31 reviews) &middot; WhatClinic (55 reviews)</div></CardContent></Card>
             <Card><CardContent className="p-6 text-center"><div className="text-4xl font-bold text-blue-700">≥80%</div><div className="text-slate-600 mt-2">Maintain ≥10% loss at 5 years (MERIT-comparable)</div></CardContent></Card>
             <Card><CardContent className="p-6 text-center"><div className="text-4xl font-bold text-blue-700">0</div><div className="text-slate-600 mt-2">Major adverse events 2025–2026</div></CardContent></Card>
             <Card><CardContent className="p-6 text-center"><div className="text-4xl font-bold text-blue-700">78%</div><div className="text-slate-600 mt-2">Same-day discharge rate</div></CardContent></Card>
