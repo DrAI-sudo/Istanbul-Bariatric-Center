@@ -74,11 +74,27 @@ export const gastricSleeveUKSEO: PageSEO = {
           expectedPrognosis: "Average excess weight loss is approximately 60–70% at 12–18 months. Individual results and improvement in obesity-related conditions vary.",
           performedBy: doctor,
           audience: { "@type": "PeopleAudience", geographicArea: { "@type": "Country", name: "United Kingdom", identifier: "GB" } },
-          offers: [
-            { "@type": "Offer", name: "Ultra Eco", price: "2450", priceCurrency: "GBP", availability: "https://schema.org/InStock", eligibleRegion: { "@type": "Country", name: "United Kingdom", identifier: "GB" }, url: PAGE_URL + "#pricing", seller },
-            { "@type": "Offer", name: "Relaxation", price: "4550", priceCurrency: "GBP", availability: "https://schema.org/InStock", eligibleRegion: { "@type": "Country", name: "United Kingdom", identifier: "GB" }, url: PAGE_URL + "#pricing", seller },
-            { "@type": "Offer", name: "Luxury", price: "4900", priceCurrency: "GBP", availability: "https://schema.org/InStock", eligibleRegion: { "@type": "Country", name: "United Kingdom", identifier: "GB" }, url: PAGE_URL + "#pricing", seller },
-          ],
+          offers: {
+            "@type": "AggregateOffer",
+            priceCurrency: "GBP",
+            lowPrice: "2450",
+            highPrice: "4900",
+            offerCount: "3",
+            eligibleRegion: { "@type": "Country", name: "United Kingdom", identifier: "GB" },
+            seller,
+            offers: [
+              { "@type": "Offer", name: "Ultra Eco", price: "2450", priceCurrency: "GBP", availability: "https://schema.org/InStock", eligibleRegion: { "@type": "Country", name: "United Kingdom", identifier: "GB" }, url: PAGE_URL + "#pricing", seller },
+              { "@type": "Offer", name: "Relaxation", price: "4550", priceCurrency: "GBP", availability: "https://schema.org/InStock", eligibleRegion: { "@type": "Country", name: "United Kingdom", identifier: "GB" }, url: PAGE_URL + "#pricing", seller },
+              { "@type": "Offer", name: "Luxury", price: "4900", priceCurrency: "GBP", availability: "https://schema.org/InStock", eligibleRegion: { "@type": "Country", name: "United Kingdom", identifier: "GB" }, url: PAGE_URL + "#pricing", seller },
+            ],
+          },
+          aggregateRating: { "@type": "AggregateRating", ratingValue: "5.0", reviewCount: "31", bestRating: "5", worstRating: "1" },
+          review: [
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Amra M." }, datePublished: "2026-07-10", reviewBody: "A few days ago, I underwent a mini gastric bypass surgery, and everything went perfectly. I had complete trust in Dr Murat Üstün from the very beginning — a highly experienced, professional and genuinely caring surgeon." },
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Kozeta K." }, datePublished: "2026-06-11", reviewBody: "I had an outstanding experience undergoing gastric bypass surgery with Dr Murat Üstün. From the first consultation to post-op follow-up, everything was handled with the highest level of professionalism, warmth and care." },
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Peter N." }, datePublished: "2026-03-14", reviewBody: "My experience with Dr Üstün was very good. The communication directly with him was easy and reassuring, and the whole ESG process was clearly explained." },
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Jeremy G." }, datePublished: "2024-10-24", reviewBody: "Recently had gastric mini-bypass performed by Dr Murat. The experience was incredible from beginning to end — clear communication, professional team and excellent results." }
+    ],
         },
         {
           "@type": "FAQPage",
