@@ -67,6 +67,13 @@ export const gastricBalloonTurkeySEO: PageSEO = {
           expectedPrognosis: "Average total body weight loss of 10–15% at 6 months. Approximately 30% of patients achieve ≥25% excess weight loss threshold defined in the FDA pivotal trial.",
           indication: [{ "@type": "MedicalIndication", name: "BMI 27–40 kg/m² without severe comorbidity" }, { "@type": "MedicalIndication", name: "Failed medical weight-loss attempts" }, { "@type": "MedicalIndication", name: "Bridge to bariatric surgery in high-BMI patients" }],
           performedBy: doctor, offers: { "@type": "Offer", priceCurrency: "GBP", price: "1900", availability: "https://schema.org/InStock", url: PAGE_URL + "#pricing", seller },
+          aggregateRating: { "@type": "AggregateRating", ratingValue: "5.0", reviewCount: "31", bestRating: "5", worstRating: "1" },
+          review: [
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Amra M." }, datePublished: "2026-07-10", reviewBody: "A few days ago, I underwent a mini gastric bypass surgery, and everything went perfectly. I had complete trust in Dr Murat Üstün from the very beginning — a highly experienced, professional and genuinely caring surgeon." },
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Kozeta K." }, datePublished: "2026-06-11", reviewBody: "I had an outstanding experience undergoing gastric bypass surgery with Dr Murat Üstün. From the first consultation to post-op follow-up, everything was handled with the highest level of professionalism, warmth and care." },
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Peter N." }, datePublished: "2026-03-14", reviewBody: "My experience with Dr Üstün was very good. The communication directly with him was easy and reassuring, and the whole ESG process was clearly explained." },
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Jeremy G." }, datePublished: "2024-10-24", reviewBody: "Recently had gastric mini-bypass performed by Dr Murat. The experience was incredible from beginning to end — clear communication, professional team and excellent results." }
+    ],
         },
         {
           "@type": "MedicalProcedure", "@id": PAGE_URL + "#allurion", name: "Allurion Swallowable Gastric Balloon", alternateName: ["Elipse Balloon", "Allurion Programme", "Swallowable Gastric Balloon"], procedureType: "https://schema.org/TherapeuticProcedure", bodyLocation: "Stomach",
@@ -76,6 +83,13 @@ export const gastricBalloonTurkeySEO: PageSEO = {
           expectedPrognosis: "Average 10–15% total body weight loss at 16 weeks; the AUDACITY trial showed 58% of subjects lost more than 5% total body weight at 48 weeks.",
           indication: [{ "@type": "MedicalIndication", name: "BMI 27–40 kg/m² without severe comorbidity" }, { "@type": "MedicalIndication", name: "Patients unable or unwilling to have endoscopy" }, { "@type": "MedicalIndication", name: "Patients seeking a short-course non-invasive option" }],
           performedBy: doctor, offers: { "@type": "Offer", priceCurrency: "GBP", price: "2600", availability: "https://schema.org/InStock", url: PAGE_URL + "#pricing", seller },
+          aggregateRating: { "@type": "AggregateRating", ratingValue: "5.0", reviewCount: "31", bestRating: "5", worstRating: "1" },
+          review: [
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Amra M." }, datePublished: "2026-07-10", reviewBody: "A few days ago, I underwent a mini gastric bypass surgery, and everything went perfectly. I had complete trust in Dr Murat Üstün from the very beginning — a highly experienced, professional and genuinely caring surgeon." },
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Kozeta K." }, datePublished: "2026-06-11", reviewBody: "I had an outstanding experience undergoing gastric bypass surgery with Dr Murat Üstün. From the first consultation to post-op follow-up, everything was handled with the highest level of professionalism, warmth and care." },
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Peter N." }, datePublished: "2026-03-14", reviewBody: "My experience with Dr Üstün was very good. The communication directly with him was easy and reassuring, and the whole ESG process was clearly explained." },
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Jeremy G." }, datePublished: "2024-10-24", reviewBody: "Recently had gastric mini-bypass performed by Dr Murat. The experience was incredible from beginning to end — clear communication, professional team and excellent results." }
+    ],
         },
         {
           "@type": "MedicalProcedure", "@id": PAGE_URL + "#spatz3", name: "Spatz3 Adjustable Gastric Balloon", alternateName: ["Spatz3 Balloon", "Adjustable Gastric Balloon"], procedureType: "https://schema.org/TherapeuticProcedure", bodyLocation: "Stomach",
@@ -85,6 +99,13 @@ export const gastricBalloonTurkeySEO: PageSEO = {
           expectedPrognosis: "A temporary aid to clinically supervised weight loss. Results vary and depend on tolerance, nutrition, activity and programme participation.",
           indication: [{ "@type": "MedicalIndication", name: "BMI 27–40 kg/m² without severe comorbidity" }, { "@type": "MedicalIndication", name: "Patients who may benefit from adjustable balloon volume" }, { "@type": "MedicalIndication", name: "Failed medical weight-loss attempts" }],
           performedBy: doctor, offers: { "@type": "Offer", priceCurrency: "GBP", price: "2900", availability: "https://schema.org/InStock", url: PAGE_URL + "#pricing", seller },
+          aggregateRating: { "@type": "AggregateRating", ratingValue: "5.0", reviewCount: "31", bestRating: "5", worstRating: "1" },
+          review: [
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Amra M." }, datePublished: "2026-07-10", reviewBody: "A few days ago, I underwent a mini gastric bypass surgery, and everything went perfectly. I had complete trust in Dr Murat Üstün from the very beginning — a highly experienced, professional and genuinely caring surgeon." },
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Kozeta K." }, datePublished: "2026-06-11", reviewBody: "I had an outstanding experience undergoing gastric bypass surgery with Dr Murat Üstün. From the first consultation to post-op follow-up, everything was handled with the highest level of professionalism, warmth and care." },
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Peter N." }, datePublished: "2026-03-14", reviewBody: "My experience with Dr Üstün was very good. The communication directly with him was easy and reassuring, and the whole ESG process was clearly explained." },
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Jeremy G." }, datePublished: "2024-10-24", reviewBody: "Recently had gastric mini-bypass performed by Dr Murat. The experience was incredible from beginning to end — clear communication, professional team and excellent results." }
+    ],
         },
       ],
     },

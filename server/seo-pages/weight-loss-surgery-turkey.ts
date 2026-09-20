@@ -33,7 +33,20 @@ const faqs = [
   ["What happens if I have had bariatric surgery before?", "Revision requires the old operative record, current imaging or endoscopy when indicated, symptoms and nutrition results. Because scar tissue and anatomy vary, the procedure and price are quoted only after assessment."],
 ];
 
-const procedureSchema = procedures.map(([name, path]) => ({ "@type": "MedicalProcedure", name, url: SITE_URL + path }));
+const CLINIC_AGGREGATE_RATING = { "@type": "AggregateRating", ratingValue: "5.0", reviewCount: "31", bestRating: "5", worstRating: "1" };
+const CLINIC_REVIEWS = [
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Amra M." }, datePublished: "2026-07-10", reviewBody: "A few days ago, I underwent a mini gastric bypass surgery, and everything went perfectly. I had complete trust in Dr Murat Üstün from the very beginning — a highly experienced, professional and genuinely caring surgeon." },
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Kozeta K." }, datePublished: "2026-06-11", reviewBody: "I had an outstanding experience undergoing gastric bypass surgery with Dr Murat Üstün. From the first consultation to post-op follow-up, everything was handled with the highest level of professionalism, warmth and care." },
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Peter N." }, datePublished: "2026-03-14", reviewBody: "My experience with Dr Üstün was very good. The communication directly with him was easy and reassuring, and the whole ESG process was clearly explained." },
+      { "@type": "Review", reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" }, author: { "@type": "Person", name: "Jeremy G." }, datePublished: "2024-10-24", reviewBody: "Recently had gastric mini-bypass performed by Dr Murat. The experience was incredible from beginning to end — clear communication, professional team and excellent results." }
+    ];
+
+const procedureSchema = procedures.map(([name, path]) => ({
+  "@type": "MedicalProcedure", name, url: SITE_URL + path,
+  performedBy: doctor,
+  aggregateRating: CLINIC_AGGREGATE_RATING,
+  review: CLINIC_REVIEWS,
+}));
 
 export const weightLossSurgeryTurkeySEO: PageSEO = {
   title: "Weight Loss Surgery in Turkey — 2026 Guide, Costs, Options",
